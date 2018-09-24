@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Simplified Chinese</Name>
-  <Code>CN</Code>#代码
-  <Font>font_cjk</Font>#字体
-  <Reagents>#试剂
+  <Code>CN</Code>
+  <Font>font_cjk</Font>
+  <Reagents>
     <RecordReagent>
       <Key>Flour</Key>
       <Value>面粉</Value>
@@ -17,7 +17,7 @@
     <RecordReagent>
       <Key>Egg</Key>
       <Value>蛋</Value>
-      <Unit/>
+      <Unit />
     </RecordReagent>
     <RecordReagent>
       <Key>Iron</Key>
@@ -117,50 +117,55 @@
     <RecordReagent>
       <Key>Potato</Key>
       <Value>土豆</Value>
-      <Unit/>
+      <Unit />
     </RecordReagent>
     <RecordReagent>
-      <Key>Fenoxitone</Key>#新加
+      <Key>Tomato</Key>
+      <Value>Tomato</Value>
+      <Unit>Tomato.Unit</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Fenoxitone</Key>
       <Value>苯氧酮</Value>
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
-      <Key>ColorRed</Key>#新加
+      <Key>ColorRed</Key>
       <Value>红色着色剂</Value>
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
-      <Key>ColorGreen</Key>#新加
+      <Key>ColorGreen</Key>
       <Value>绿色着色剂</Value>
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
-      <Key>ColorBlue</Key>#新加
+      <Key>ColorBlue</Key>
       <Value>蓝色着色剂</Value>
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
-      <Key>ColorYellow</Key>#新加
+      <Key>ColorYellow</Key>
       <Value>黄色着色剂</Value>
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
-      <Key>ColorOrange</Key>#新加
+      <Key>ColorOrange</Key>
       <Value>橙色着色剂</Value>
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
-      <Key>Pumpkin</Key>#新加
+      <Key>Pumpkin</Key>
       <Value>南瓜</Value>
-      <Unit/>
+      <Unit />
     </RecordReagent>
     <RecordReagent>
-      <Key>Rice</Key>#新加
+      <Key>Rice</Key>
       <Value>水稻</Value>
       <Unit>g</Unit>
     </RecordReagent>
   </Reagents>
-  <Gases>#气体
+  <Gases>
     <Record>
       <Key>Oxygen</Key>
       <Value>氧</Value>
@@ -185,10 +190,14 @@
       <Key>Water</Key>
       <Value>水</Value>
     </Record>
-  </Gases>
-  <Actions>#操作  有新加
     <Record>
-      <Key>Reload</Key>#新加
+      <Key>NitrousOxide</Key>
+      <Value>Nitrous Oxide</Value>
+    </Record>
+  </Gases>
+  <Actions>
+    <Record>
+      <Key>Reload</Key>
       <Value>再装填</Value>
     </Record>
     <Record>
@@ -332,59 +341,39 @@
       <Value>改名</Value>
     </Record>
     <Record>
-      <Key>Up</Key>#新加
+      <Key>Up</Key>
       <Value>上升</Value>
     </Record>
     <Record>
-      <Key>Down</Key>#新加
+      <Key>Down</Key>
       <Value>下降</Value>
     </Record>
     <Record>
-      <Key>CallElevator</Key>#新加
+      <Key>CallElevator</Key>
       <Value>启动</Value>
     </Record>
     <Record>
-      <Key>Set</Key>#新加
+      <Key>Set</Key>
       <Value>设置/放置</Value>
     </Record>
     <Record>
-      <Key>Cycle</Key>#新加
+      <Key>Cycle</Key>
       <Value>循环</Value>
     </Record>
     <Record>
-      <Key>ForceClose</Key>#新加
+      <Key>ForceClose</Key>
       <Value>强制关闭</Value>
     </Record>
     <Record>
-      <Key>ForceOpen</Key>#新加
+      <Key>ForceOpen</Key>
       <Value>强制打开</Value>
     </Record>
     <Record>
-      <Key>Vend</Key>#新加
+      <Key>Vend</Key>
       <Value>出售</Value>
     </Record>
   </Actions>
-  <Things>#有新加
-  	<Record>
-      <Key>MonsterEgg</Key>#新加
-      <Value>怪物蛋</Value>
-    </Record>
-    <Record>
-      <Key>Construction Supplies 1</Key>#开局补给包 1 #新加
-      <Value>建筑用品 1</Value>
-    </Record>
-    <Record>
-      <Key>Construction Supplies 2</Key>#开局补给包 2 #新加
-      <Value>建筑用品 2</Value>
-    </Record>
-    <Record>
-      <Key>Organic Supplies</Key>#开局补给包 3 #新加
-      <Value>有机用品</Value>
-    </Record>
-    <Record>
-      <Key>Consumables Supplies</Key>#开局补给包 4 #新加
-      <Value>耗材供应</Value>
-    </Record>
+  <Things>
     <Record>
       <Key>ApplianceMicrowave</Key>
       <Value>微波炉</Value>
@@ -822,7 +811,7 @@
       <Value>矿石(煤炭Coal)</Value>
     </Record>
     <Record>
-      <Key>ItemCompositeFloorGrating</Key>#新加
+      <Key>ItemCompositeFloorGrating</Key>
       <Value>复合地板格栅(4种)</Value>
     </Record>
     <Record>
@@ -1006,7 +995,7 @@
       <Value>气闸门</Value>
     </Record>
     <Record>
-      <Key>ItemKitAtmospherics</Key>#新加
+      <Key>ItemKitAtmospherics</Key>
       <Value>空调机/过滤机/电解机</Value>
     </Record>
     <Record>
@@ -1494,31 +1483,31 @@
       <Value>复合门</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeFloorGrating</Key>#新加
+      <Key>StructureCompositeFloorGrating</Key>
       <Value>复合地板格栅 1</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeWall</Key>#新加
+      <Key>StructureCompositeWall</Key>
       <Value>复合墙体</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeWallRound</Key>#新加
+      <Key>StructureCompositeWallRound</Key>
       <Value>圆形复合墙</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeWallType1</Key>#新加
+      <Key>StructureCompositeWallType1</Key>
       <Value>复合墙体类型1</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeWallType2</Key>#新加
+      <Key>StructureCompositeWallType2</Key>
       <Value>复合墙体类型2</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeWallType3</Key>#新加
+      <Key>StructureCompositeWallType3</Key>
       <Value>复合墙体类型3</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeWallType4</Key>#新加
+      <Key>StructureCompositeWallType4</Key>
       <Value>复合墙体类型4</Value>
     </Record>
     <Record>
@@ -1942,10 +1931,6 @@
       <Value>工具包(制造)</Value>
     </Record>
     <Record>
-      <Key>ItemPipeKit</Key>
-      <Value>物品管道套件</Value>
-    </Record>
-    <Record>
       <Key>ItemKitPipe</Key>
       <Value>管道(8种)</Value>
     </Record>
@@ -2114,7 +2099,7 @@
       <Value>电子打印机</Value>
     </Record>
     <Record>
-      <Key>ItemKitDoor</Key>#新加
+      <Key>ItemKitDoor</Key>
       <Value>玻璃门/复合门/复合卷帘</Value>
     </Record>
     <Record>
@@ -2326,6 +2311,10 @@
       <Value>土豆</Value>
     </Record>
     <Record>
+      <Key>ItemTomato</Key>
+      <Value>Tomato</Value>
+    </Record>
+    <Record>
       <Key>StructureGasGenerator</Key>
       <Value>气体燃料发电机</Value>
     </Record>
@@ -2346,6 +2335,10 @@
       <Value>焗马铃薯</Value>
     </Record>
     <Record>
+      <Key>ItemTomatoSoup</Key>
+      <Value>Tomato Soup</Value>
+    </Record>
+    <Record>
       <Key>ItemSoyOil</Key>
       <Value>豆油</Value>
     </Record>
@@ -2354,819 +2347,903 @@
       <Value>薯条</Value>
     </Record>
     <Record>
-      <Key>StructureCableCornerH3</Key>#新加
+      <Key>StructureCableCornerH3</Key>
       <Value>重型电缆(3路连接)</Value>
     </Record>
     <Record>
-      <Key>StructureCableCornerH4</Key>#新加
+      <Key>StructureCableCornerH4</Key>
       <Value>重型电缆(4路连接)</Value>
     </Record>
     <Record>
-      <Key>StructureCableCorner4HBurnt</Key>#新加
+      <Key>StructureCableCorner4HBurnt</Key>
       <Value>烧焦的电缆(4路连接)</Value>
     </Record>
     <Record>
-      <Key>PortableSolarPanel</Key>#新加
+      <Key>PortableSolarPanel</Key>
       <Value>便携式太阳能板</Value>
     </Record>
     <Record>
-      <Key>StructureCableJunction5</Key>#新加
+      <Key>StructureCableJunction5</Key>
       <Value>电缆(5路接头)</Value>
     </Record>
     <Record>
-      <Key>StructureCableCorner4</Key>#新加
+      <Key>StructureCableCorner4</Key>
       <Value>电缆(4路拐角)</Value>
     </Record>
     <Record>
-      <Key>StructureCableCorner4Burnt</Key>#新加
+      <Key>StructureCableCorner4Burnt</Key>
       <Value>烧焦的电缆(4路拐角)</Value>
     </Record>
     <Record>
-      <Key>StructureCableJunction5Burnt</Key>#新加
+      <Key>StructureCableJunction5Burnt</Key>
       <Value>烧焦的电缆(5路接头)</Value>
     </Record>
     <Record>
-      <Key>StructureCableJunctionH5</Key>#新加
+      <Key>StructureCableJunctionH5</Key>
       <Value>重型电缆(5路连接)</Value>
     </Record>
     <Record>
-      <Key>StructureCableJunctionH5Burnt</Key>#新加
+      <Key>StructureCableJunctionH5Burnt</Key>
       <Value>烧焦的电缆(5路连接)</Value>
     </Record>
     <Record>
-      <Key>WallFrameCornerCut</Key>#新加
+      <Key>WallFrameCornerCut</Key>
       <Value>钢框架(切角)</Value>
     </Record>
     <Record>
-      <Key>StructureFlagSmall</Key>#新加
+      <Key>StructureFlagSmall</Key>
       <Value>小旗</Value>
     </Record>
     <Record>
-      <Key>ItemFlagSmall</Key>#新加
+      <Key>ItemFlagSmall</Key>
       <Value>小旗</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeCladdingAngled</Key>#新加
+      <Key>StructureCompositeCladdingAngled</Key>
       <Value>复合包层角</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeCladdingAngledCorner</Key>#新加
+      <Key>StructureCompositeCladdingAngledCorner</Key>
       <Value>复合包层斜角</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeCladdingAngledCornerLong</Key>#新加
+      <Key>StructureCompositeCladdingAngledCornerLong</Key>
       <Value>复合包层长斜角</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeCladdingAngledLong</Key>#新加
+      <Key>StructureCompositeCladdingAngledLong</Key>
       <Value>复合包层长角</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeCladdingCylindrical</Key>#新加
+      <Key>StructureCompositeCladdingCylindrical</Key>
       <Value>复合包层圆柱形</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeCladdingCylindricalPanel</Key>#新加
+      <Key>StructureCompositeCladdingCylindricalPanel</Key>
       <Value>复合包层圆柱面板</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeCladdingSphericalCorner</Key>#新加
+      <Key>StructureCompositeCladdingSphericalCorner</Key>
       <Value>复合包层球形角</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeCladdingSphericalCap</Key>#新加
+      <Key>StructureCompositeCladdingSphericalCap</Key>
       <Value>复合包层球形帽</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeCladdingSpherical</Key>#新加
+      <Key>StructureCompositeCladdingSpherical</Key>
       <Value>复合包层球形</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeCladdingRoundedCorner</Key>#新加
+      <Key>StructureCompositeCladdingRoundedCorner</Key>
       <Value>复合包层圆形角</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeCladdingRounded</Key>#新加
+      <Key>StructureCompositeCladdingRounded</Key>
       <Value>复合包层圆形</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeCladdingPanel</Key>#新加
+      <Key>StructureCompositeCladdingPanel</Key>
       <Value>复合包层面板</Value>
     </Record>
     <Record>
-      <Key>ItemKitCompositeCladding</Key>#新加
+      <Key>ItemKitCompositeCladding</Key>
       <Value>复合包层(14种)</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeCladdingAngledCornerLongR</Key>#新加
+      <Key>StructureCompositeCladdingAngledCornerLongR</Key>
       <Value>复合包层长斜角R</Value>
     </Record>
     <Record>
-      <Key>StructureDockPortSide</Key>#新加
+      <Key>StructureDockPortSide</Key>
       <Value>飞船对接端口 1</Value>
     </Record>
     <Record>
-      <Key>ItemKitDockingPort</Key>#新加
+      <Key>ItemKitDockingPort</Key>
       <Value>飞船对接端口(2种)</Value>
     </Record>
     <Record>
-      <Key>StructureDockShipSide</Key>#新加
+      <Key>StructureDockShipSide</Key>
       <Value>飞船对接端口 2</Value>
     </Record>
     <Record>
-      <Key>StructureLightLong</Key>#新加
+      <Key>StructureLightLong</Key>
       <Value>壁灯长</Value>
     </Record>
     <Record>
-      <Key>StructureLightLongAngled</Key>#新加
+      <Key>StructureLightLongAngled</Key>
       <Value>壁灯长角</Value>
     </Record>
     <Record>
-      <Key>StructureLightLongWide</Key>#新加
+      <Key>StructureLightLongWide</Key>
       <Value>壁灯长宽</Value>
     </Record>
     <Record>
-      <Key>CircuitboardAdvancedAirlockControl</Key>#新加
+      <Key>CircuitboardAdvancedAirlockControl</Key>
       <Value>电路板(高级气闸控制)</Value>
     </Record>
     <Record>
-      <Key>ItemKitOrganicsPrinter</Key>#新加
+      <Key>ItemKitOrganicsPrinter</Key>
       <Value>有机物打印机</Value>
     </Record>
     <Record>
-      <Key>StructureOrganicsPrinter</Key>#新加
+      <Key>StructureOrganicsPrinter</Key>
       <Value>有机物打印机</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeWindowIron</Key>#新加
+      <Key>StructureCompositeWindowIron</Key>
       <Value>复合铁窗</Value>
     </Record>
     <Record>
-      <Key>CompositeFloorGrating1</Key>#新加
+      <Key>CompositeFloorGrating1</Key>
       <Value>复合地板格栅 1</Value>
     </Record>
     <Record>
-      <Key>CompositeFloorGrating2</Key>#新加
+      <Key>CompositeFloorGrating2</Key>
       <Value>复合地板格栅 2</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeFloorGrating2</Key>#新加
+      <Key>StructureCompositeFloorGrating2</Key>
       <Value>复合地板格栅 2</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeFloorGrating3</Key>#新加
+      <Key>StructureCompositeFloorGrating3</Key>
       <Value>复合地板格栅 3</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeFloorGrating4</Key>#新加
+      <Key>StructureCompositeFloorGrating4</Key>
       <Value>复合地板格栅 4</Value>
     </Record>
     <Record>
-      <Key>ItemKitWallPanels</Key>#新加
+      <Key>ItemKitWallPanels</Key>
       <Value>墙板</Value>
     </Record>
     <Record>
-      <Key>StructureCompositeWallPanelling1</Key>#新加
+      <Key>StructureCompositeWallPanelling1</Key>
       <Value>复合墙板 1</Value>
     </Record>
     <Record>
-      <Key>ItemKitCompositeFloorGrating</Key>#新加
+      <Key>ItemKitCompositeFloorGrating</Key>
       <Value>地板格栅(4种)</Value>
     </Record>
     <Record>
-      <Key>CompositeRollCover</Key>#新加
+      <Key>CompositeRollCover</Key>
       <Value>复合卷帘</Value>
     </Record>
     <Record>
-      <Key>ItemKitLadder</Key>#新加
+      <Key>ItemKitLadder</Key>
       <Value>梯子/梯子顶端/梯子平台</Value>
     </Record>
     <Record>
-      <Key>StructureFrameCornerCut</Key>#新加
+      <Key>StructureFrameCornerCut</Key>
       <Value>钢框架(缺一角)</Value>
     </Record>
     <Record>
-      <Key>CompositeWallPanelling1</Key>#新加
+      <Key>CompositeWallPanelling1</Key>
       <Value>复合墙板 1</Value>
     </Record>
     <Record>
-      <Key>CompositeWallPanelling2</Key>#新加
+      <Key>CompositeWallPanelling2</Key>
       <Value>复合墙板 2</Value>
     </Record>
     <Record>
-      <Key>CompositeWallPanelling3</Key>#新加
+      <Key>CompositeWallPanelling3</Key>
       <Value>复合墙板 3</Value>
     </Record>
     <Record>
-      <Key>CompositeWallPanelling4</Key>#新加
+      <Key>CompositeWallPanelling4</Key>
       <Value>复合墙板 4</Value>
     </Record>
     <Record>
-      <Key>CompositeWallPanelling5</Key>#新加
+      <Key>CompositeWallPanelling5</Key>
       <Value>复合墙板 5</Value>
     </Record>
     <Record>
-      <Key>CompositeWallPanelling6</Key>#新加
+      <Key>CompositeWallPanelling6</Key>
       <Value>复合墙板 6</Value>
     </Record>
     <Record>
-      <Key>CompositeWallPanelling7</Key>#新加
+      <Key>CompositeWallPanelling7</Key>
       <Value>复合墙板 7</Value>
     </Record>
     <Record>
-      <Key>CompositeWallPanelling8</Key>#新加
+      <Key>CompositeWallPanelling8</Key>
       <Value>复合墙板 8</Value>
     </Record>
     <Record>
-      <Key>CompositeWallPanelling9</Key>#新加
+      <Key>CompositeWallPanelling9</Key>
       <Value>复合墙板 9</Value>
     </Record>
     <Record>
-      <Key>CompositeWallPanelling10</Key>#新加
+      <Key>CompositeWallPanelling10</Key>
       <Value>复合墙板 10</Value>
     </Record>
     <Record>
-      <Key>CompositeWallPanelling11</Key>#新加
+      <Key>CompositeWallPanelling11</Key>
       <Value>复合墙板 11</Value>
     </Record>
     <Record>
-      <Key>CompositeWallPanelling12</Key>#新加
+      <Key>CompositeWallPanelling12</Key>
       <Value>复合墙板 12</Value>
     </Record>
     <Record>
-      <Key>CompositeWallPanelling13</Key>#新加
+      <Key>CompositeWallPanelling13</Key>
       <Value>复合墙板 13</Value>
     </Record>
     <Record>
-      <Key>CompositeWallPanelling14</Key>#新加
+      <Key>CompositeWallPanelling14</Key>
       <Value>复合墙板 14</Value>
     </Record>
     <Record>
-      <Key>CompositeWallPanelling15</Key>#新加
+      <Key>CompositeWallPanelling15</Key>
       <Value>复合墙板 15</Value>
     </Record>
     <Record>
-      <Key>CompositeWallPanelling16</Key>#新加
+      <Key>CompositeWallPanelling16</Key>
       <Value>复合墙板 16</Value>
     </Record>
     <Record>
-      <Key>CompositeWallPanelling17</Key>#新加
+      <Key>CompositeWallPanelling17</Key>
       <Value>复合墙板 17</Value>
     </Record>
     <Record>
-      <Key>CompositeWallPanelling18</Key>#新加
+      <Key>CompositeWallPanelling18</Key>
       <Value>复合墙板 18</Value>
     </Record>
     <Record>
-      <Key>CompositeWallPanelling19</Key>#新加
+      <Key>CompositeWallPanelling19</Key>
       <Value>复合墙板 19</Value>
     </Record>
     <Record>
-      <Key>CompositeWallPanelling20</Key>#新加
+      <Key>CompositeWallPanelling20</Key>
       <Value>复合墙板 20</Value>
     </Record>
     <Record>
-      <Key>CompositeWallPanelling21</Key>#新加
+      <Key>CompositeWallPanelling21</Key>
       <Value>复合墙板 21</Value>
     </Record>
     <Record>
-      <Key>Corner1</Key>#新加
+      <Key>Corner1</Key>
       <Value>核心 1</Value>
     </Record>
     <Record>
-      <Key>StructureWallFlat</Key>#新加
+      <Key>StructureWallFlat</Key>
       <Value>墙壁面板</Value>
     </Record>
     <Record>
-      <Key>StructureWallArch</Key>#新加
+      <Key>StructureWallArch</Key>
       <Value>墙拱</Value>
     </Record>
     <Record>
-      <Key>StructureWallArchArrow</Key>#新加
+      <Key>StructureWallArchArrow</Key>
       <Value>墙拱箭头</Value>
     </Record>
     <Record>
-      <Key>StructureWallArchPlating</Key>#新加
+      <Key>StructureWallArchPlating</Key>
       <Value>墙拱电镀</Value>
     </Record>
     <Record>
-      <Key>StructureWallArchTwoTone</Key>#新加
+      <Key>StructureWallArchTwoTone</Key>
       <Value>墙拱双绞线</Value>
     </Record>
     <Record>
-      <Key>StructureWallGeometryCorner</Key>#新加
+      <Key>StructureWallGeometryCorner</Key>
       <Value>墙壁几何直角</Value>
     </Record>
     <Record>
-      <Key>StructureWallGeometryStreight</Key>#新加
+      <Key>StructureWallGeometryStreight</Key>
       <Value>墙壁几何直线</Value>
     </Record>
     <Record>
-      <Key>StructureWallGeometryT</Key>#新加
+      <Key>StructureWallGeometryT</Key>
       <Value>墙壁几何T</Value>
     </Record>
     <Record>
-      <Key>StructureWallPaddedArch</Key>#新加
+      <Key>StructureWallPaddedArch</Key>
       <Value>填充墙壁拱形</Value>
     </Record>
     <Record>
-      <Key>StructureWallPaddedArchLightsFittings</Key>#新加
+      <Key>StructureWallPaddedArchLightsFittings</Key>
       <Value>壁式拱形灯配件两边</Value>
     </Record>
     <Record>
-      <Key>StructureWallPadding</Key>#新加
+      <Key>StructureWallPadding</Key>
       <Value>填充墙壁面形厚</Value>
     </Record>
     <Record>
-      <Key>StructureWallPaddingArchVent</Key>#新加
+      <Key>StructureWallPaddingArchVent</Key>
       <Value>壁式拱形通风孔</Value>
     </Record>
     <Record>
-      <Key>StructureWallPaddingLightFitting</Key>#新加
+      <Key>StructureWallPaddingLightFitting</Key>
       <Value>壁式拱形灯配件中间</Value>
     </Record>
     <Record>
-      <Key>StructureWallPaddingThin</Key>#新加
+      <Key>StructureWallPaddingThin</Key>
       <Value>填充墙壁面形薄</Value>
     </Record>
     <Record>
-      <Key>StructureWallPlating</Key>#新加
+      <Key>StructureWallPlating</Key>
       <Value>墙壁面板电镀</Value>
     </Record>
     <Record>
-      <Key>StructureWallSimple</Key>#新加
+      <Key>StructureWallSimple</Key>
       <Value>墙单</Value>
     </Record>
     <Record>
-      <Key>StructureWallSmallPanels</Key>#新加
+      <Key>StructureWallSmallPanels</Key>
       <Value>墙壁小面板</Value>
     </Record>
     <Record>
-      <Key>StructureWallLargePanel</Key>#新加
+      <Key>StructureWallLargePanel</Key>
       <Value>墙壁大面板</Value>
     </Record>
     <Record>
-      <Key>StructureWallSmallPanelsAndHatch</Key>#新加
+      <Key>StructureWallSmallPanelsAndHatch</Key>
       <Value>墙壁小面板和舱口盖</Value>
     </Record>
     <Record>
-      <Key>StructureWallSmallPanelsArrow</Key>#新加
+      <Key>StructureWallSmallPanelsArrow</Key>
       <Value>墙壁小面板箭头</Value>
     </Record>
     <Record>
-      <Key>StructureWallSmallPanelsMonoChrome</Key>#新加
+      <Key>StructureWallSmallPanelsMonoChrome</Key>
       <Value>墙壁小面板单色</Value>
     </Record>
     <Record>
-      <Key>StructureWallSmallPanelsTwoTone</Key>#新加
+      <Key>StructureWallSmallPanelsTwoTone</Key>
       <Value>墙壁小面板双绞线</Value>
     </Record>
     <Record>
-      <Key>StructureWallLargePanelArrow</Key>#新加
+      <Key>StructureWallLargePanelArrow</Key>
       <Value>墙壁大面板箭头</Value>
     </Record>
     <Record>
-      <Key>ItemKitWallArch</Key>#新加
+      <Key>ItemKitWallArch</Key>
       <Value>拱角墙(4种)</Value>
     </Record>
     <Record>
-      <Key>ItemKitWallFlat</Key>#新加
+      <Key>ItemKitWallFlat</Key>
       <Value>平面墙(8种)</Value>
     </Record>
     <Record>
-      <Key>ItemKitWallGeometry</Key>#新加
+      <Key>ItemKitWallGeometry</Key>
       <Value>几何墙(3种)</Value>
     </Record>
     <Record>
-      <Key>ItemKitWallPadded</Key>#新加
+      <Key>ItemKitWallPadded</Key>
       <Value>填充墙(6种)</Value>
     </Record>
     <Record>
-      <Key>StructureLadder</Key>#新加
+      <Key>StructureLadder</Key>
       <Value>梯子</Value>
     </Record>
     <Record>
-      <Key>CartridgeGuide</Key>#新加
+      <Key>CartridgeGuide</Key>
       <Value>记忆卡(指南)</Value>
     </Record>
     <Record>
-      <Key>StructurePipeCrossJunction4</Key>#新加
+      <Key>StructurePipeCrossJunction4</Key>
       <Value>管道(四路连接)</Value>
     </Record>
     <Record>
-      <Key>ItemAuthoringTool</Key>#新加
+      <Key>ItemAuthoringTool</Key>
       <Value>创作工具</Value>
     </Record>
     <Record>
-      <Key>StructureRocketEngineDestroyed</Key>#新加
+      <Key>StructureRocketEngineDestroyed</Key>
       <Value>被毁的火箭发动机</Value>
     </Record>
     <Record>
-      <Key>ItemWreckageConstructor</Key>#新加
+      <Key>ItemWreckageConstructor</Key>
       <Value>残骸建造者</Value>
     </Record>
     <Record>
-      <Key>ItemWreckage1</Key>#新加
+      <Key>ItemWreckage1</Key>
       <Value>残骸 1</Value>
     </Record>
     <Record>
-      <Key>ItemWreckage2</Key>#新加
+      <Key>ItemWreckage2</Key>
       <Value>残骸 2</Value>
     </Record>
     <Record>
-      <Key>ItemWreckage3</Key>#新加
+      <Key>ItemWreckage3</Key>
       <Value>残骸 3</Value>
     </Record>
     <Record>
-      <Key>ItemWreckage4</Key>#新加
+      <Key>ItemWreckage4</Key>
       <Value>残骸 4</Value>
     </Record>
     <Record>
-      <Key>CartridgeAccessController</Key>#新加
+      <Key>CartridgeAccessController</Key>
       <Value>门禁卡存取控制器</Value>
     </Record>
     <Record>
-      <Key>AccessCardBlack</Key>#新加
+      <Key>AccessCardBlack</Key>
       <Value>访问卡黑</Value>
     </Record>
     <Record>
-      <Key>AccessCardBlue</Key>#新加
+      <Key>AccessCardBlue</Key>
       <Value>访问卡蓝</Value>
     </Record>
     <Record>
-      <Key>AccessCardBrown</Key>#新加
+      <Key>AccessCardBrown</Key>
       <Value>访问卡棕</Value>
     </Record>
     <Record>
-      <Key>AccessCardGray</Key>#新加
+      <Key>AccessCardGray</Key>
       <Value>访问卡灰</Value>
     </Record>
     <Record>
-      <Key>AccessCardGreen</Key>#新加
+      <Key>AccessCardGreen</Key>
       <Value>访问卡绿</Value>
     </Record>
     <Record>
-      <Key>AccessCardKhaki</Key>#新加
+      <Key>AccessCardKhaki</Key>
       <Value>访问卡土黄</Value>
     </Record>
     <Record>
-      <Key>AccessCardOrange</Key>#新加
+      <Key>AccessCardOrange</Key>
       <Value>访问卡橙</Value>
     </Record>
     <Record>
-      <Key>AccessCardPink</Key>#新加
+      <Key>AccessCardPink</Key>
       <Value>访问卡粉</Value>
     </Record>
     <Record>
-      <Key>AccessCardPurple</Key>#新加
+      <Key>AccessCardPurple</Key>
       <Value>访问卡紫</Value>
     </Record>
     <Record>
-      <Key>AccessCardRed</Key>#新加
+      <Key>AccessCardRed</Key>
       <Value>访问卡红</Value>
     </Record>
     <Record>
-      <Key>AccessCardWhite</Key>#新加
+      <Key>AccessCardWhite</Key>
       <Value>访问卡白</Value>
     </Record>
     <Record>
-      <Key>AccessCardYellow</Key>#新加
+      <Key>AccessCardYellow</Key>
       <Value>访问卡黄</Value>
     </Record>
     <Record>
-      <Key>StructureSecurityPrinter</Key>#新加
+      <Key>StructureSecurityPrinter</Key>
       <Value>安全打印机</Value>
     </Record>
     <Record>
-      <Key>ItemKitSecurityPrinter</Key>#新加
+      <Key>ItemKitSecurityPrinter</Key>
       <Value>安全打印机</Value>
     </Record>
     <Record>
-      <Key>Handgun</Key>#新加
+      <Key>Handgun</Key>
       <Value>手枪</Value>
     </Record>
     <Record>
-      <Key>ItemAmmoBox</Key>#新加
+      <Key>ItemAmmoBox</Key>
       <Value>弹药箱</Value>
     </Record>
     <Record>
-      <Key>HandgunMagazine</Key>#新加
+      <Key>HandgunMagazine</Key>
       <Value>手枪弹匣</Value>
     </Record>
     <Record>
-      <Key>SMGMagazine</Key>#新加
+      <Key>SMGMagazine</Key>
       <Value>冲锋枪弹匣</Value>
     </Record>
     <Record>
-      <Key>FireArmSMG</Key>#新加
+      <Key>FireArmSMG</Key>
       <Value>轻武器冲锋枪</Value>
     </Record>
     <Record>
-      <Key>StructureElectrolyzer</Key>#新加
+      <Key>StructureElectrolyzer</Key>
       <Value>电解机</Value>
     </Record>
     <Record>
-      <Key>StructureElevatorShaft</Key>#新加
+      <Key>StructureElevatorShaft</Key>
       <Value>电梯竖井</Value>
     </Record>
     <Record>
-      <Key>ItemKitElevator</Key>#新加
+      <Key>ItemKitElevator</Key>
       <Value>电梯(2种)</Value>
     </Record>
     <Record>
-      <Key>ElevatorCarrage</Key>#新加
+      <Key>ElevatorCarrage</Key>
       <Value>电梯</Value>
     </Record>
     <Record>
-      <Key>StructureElevatorLevelFront</Key>#新加
+      <Key>StructureElevatorLevelFront</Key>
       <Value>电梯前部</Value>
     </Record>
     <Record>
-      <Key>StructureCrateMount</Key>#新加
+      <Key>StructureCrateMount</Key>
       <Value>便携箱底座</Value>
     </Record>
     <Record>
-      <Key>ItemKitCrateMount</Key>#新加
+      <Key>ItemKitCrateMount</Key>
       <Value>便携箱底座</Value>
     </Record>
     <Record>
-      <Key>StructureLogicMirror</Key>#新加
+      <Key>StructureLogicMirror</Key>
       <Value>逻辑镜像</Value>
     </Record>
     <Record>
-      <Key>CircuitboardHashDisplay</Key>#新加
+      <Key>CircuitboardHashDisplay</Key>
       <Value>电路板(散列显示)</Value>
     </Record>
     <Record>
-      <Key>StructureHydroponicsStation</Key>#新加
+      <Key>StructureHydroponicsStation</Key>
       <Value>水培站</Value>
     </Record>
     <Record>
-      <Key>ItemKitHydroponicStation</Key>#新加
+      <Key>ItemKitHydroponicStation</Key>
       <Value>水培站</Value>
     </Record>
     <Record>
-      <Key>StructureDiodeSlide</Key>#新加
+      <Key>StructureDiodeSlide</Key>
       <Value>发光二极管</Value>
     </Record>
     <Record>
-      <Key>ItemGasCanisterSmart</Key>#新加
+      <Key>ItemGasCanisterSmart</Key>
       <Value>智能气罐</Value>
     </Record>
     <Record>
-      <Key>CartridgeConfiguration</Key>#新加
+      <Key>CartridgeConfiguration</Key>
       <Value>记忆卡(配置读取器)</Value>
     </Record>
     <Record>
-      <Key>ItemKitCrate</Key>#新加
+      <Key>ItemKitCrate</Key>
       <Value>便携箱</Value>
     </Record>
     <Record>
-      <Key>CircuitboardGraphDisplay</Key>#新加
+      <Key>CircuitboardGraphDisplay</Key>
       <Value>电路板(状态趋势显示)</Value>
     </Record>
     <Record>
-      <Key>ItemKitMotherShipCore</Key>#新加
+      <Key>ItemKitMotherShipCore</Key>
       <Value>母舰核心</Value>
     </Record>
     <Record>
-      <Key>ItemDynamicScrubber</Key>#新加
+      <Key>ItemDynamicScrubber</Key>
       <Value>便携式空气过滤器</Value>
     </Record>
     <Record>
-      <Key>ItemDynamicAirCon</Key>#新加
+      <Key>ItemDynamicAirCon</Key>
       <Value>便携式空调</Value>
     </Record>
     <Record>
-      <Key>ItemKitPipeValve</Key>#新加
+      <Key>ItemKitPipeValve</Key>
       <Value>管阀</Value>
     </Record>
     <Record>
-      <Key>ItemKitDynamicGenerator</Key>#新加
+      <Key>ItemKitDynamicGenerator</Key>
       <Value>便携式发电机</Value>
     </Record>
     <Record>
-      <Key>StructureVendingMachine</Key>#新加
+      <Key>StructureVendingMachine</Key>
       <Value>自动售货机/智能货柜</Value>
     </Record>
     <Record>
-      <Key>ItemKitVendingMachine</Key>#新加
+      <Key>ItemKitVendingMachine</Key>
       <Value>自动售货机/智能货柜</Value>
     </Record>
     <Record>
-      <Key>StructureLogicSlotReader</Key>#新加
+      <Key>StructureLogicSlotReader</Key>
       <Value>插槽读取</Value>
     </Record>
     <Record>
-      <Key>StructureLogicBatchReader</Key>#新加
+      <Key>StructureLogicBatchReader</Key>
       <Value>批量读取</Value>
     </Record>
     <Record>
-      <Key>StructureLogicReagentReader</Key>#新加
+      <Key>StructureLogicReagentReader</Key>
       <Value>试剂读取</Value>
     </Record>
     <Record>
-      <Key>ItemHardSuit</Key>#新加
+      <Key>ItemHardSuit</Key>
       <Value>紧身衣</Value>
     </Record>
     <Record>
-      <Key>ItemHardsuitHelmet</Key>#新加
+      <Key>ItemHardsuitHelmet</Key>
       <Value>紧身衣头盔</Value>
     </Record>
     <Record>
-      <Key>ItemWearLamp</Key>#新加
+      <Key>ItemWearLamp</Key>
       <Value>头灯</Value>
     </Record>
     <Record>
-      <Key>StructureTurbineGenerator</Key>#新加
+      <Key>StructureTurbineGenerator</Key>
       <Value>涡轮发电机</Value>
     </Record>
     <Record>
-      <Key>ItemKitTurbineGenerator</Key>#新加
+      <Key>ItemKitTurbineGenerator</Key>
       <Value>涡轮发电机</Value>
     </Record>
     <Record>
-      <Key>ReagentSilver</Key>#新加
+      <Key>ReagentSilver</Key>
       <Value>银粉末</Value>
     </Record>
     <Record>
-      <Key>ReagentPotassiumIodide</Key>#新加
+      <Key>ReagentPotassiumIodide</Key>
       <Value>碘化钾粉末</Value>
     </Record>
     <Record>
-      <Key>ReagentInvar</Key>#新加
+      <Key>ReagentInvar</Key>
       <Value>殷钢粉末</Value>
     </Record>
     <Record>
-      <Key>ReagentElectrum</Key>#新加
+      <Key>ReagentElectrum</Key>
       <Value>琥珀金粉末</Value>
     </Record>
     <Record>
-      <Key>ReagentGold</Key>#新加
+      <Key>ReagentGold</Key>
       <Value>金粉末</Value>
     </Record>
     <Record>
-      <Key>StructureUnloader</Key>#新加
+      <Key>StructureUnloader</Key>
       <Value>卸料机/卸载机</Value>
     </Record>
     <Record>
-      <Key>ReagentFenoxitone</Key>#新加
+      <Key>ReagentFenoxitone</Key>
       <Value>苯氧酮粉末</Value>
     </Record>
     <Record>
-      <Key>StructurePlatformLadderOpen</Key>#新加
+      <Key>StructurePlatformLadderOpen</Key>
       <Value>梯子平台</Value>
     </Record>
     <Record>
-      <Key>StructureLadderEnd</Key>#新加
+      <Key>StructureLadderEnd</Key>
       <Value>梯子顶端</Value>
     </Record>
     <Record>
-      <Key>StructureLockerSmall</Key>#新加
+      <Key>StructureLockerSmall</Key>
       <Value>储藏柜(小)</Value>
     </Record>
     <Record>
-      <Key>StructureLogicBatchSlotReader</Key>#新加
+      <Key>StructureLogicBatchSlotReader</Key>
       <Value>插槽批量读取</Value>
     </Record>
     <Record>
-      <Key>CircuitboardAdvAirlockControl</Key>#新加
+      <Key>CircuitboardAdvAirlockControl</Key>
       <Value>电路板(高级气闸控制)</Value>
     </Record>
     <Record>
-      <Key>ItemKitPressurePlate</Key>#新加
+      <Key>ItemKitPressurePlate</Key>
       <Value>触发板(大/中/小)</Value>
     </Record>
     <Record>
-      <Key>StructurePressurePlateLarge</Key>#新加
+      <Key>StructurePressurePlateLarge</Key>
       <Value>触发板大</Value>
     </Record>
     <Record>
-      <Key>StructurePressurePlateMedium</Key>#新加
+      <Key>StructurePressurePlateMedium</Key>
       <Value>触发板中</Value>
     </Record>
     <Record>
-      <Key>StructurePressurePlateSmall</Key>#新加
+      <Key>StructurePressurePlateSmall</Key>
       <Value>触发板小</Value>
     </Record>
     <Record>
-      <Key>ItemKitDynamicCanister</Key>#新加
+      <Key>ItemKitDynamicCanister</Key>
       <Value>便携式储罐</Value>
     </Record>
     <Record>
-      <Key>ItemFlowerBlue</Key>#新加
+      <Key>ItemFlowerBlue</Key>
       <Value>蓝花</Value>
     </Record>
     <Record>
-      <Key>ItemFlowerOrange</Key>#新加
+      <Key>ItemFlowerOrange</Key>
       <Value>橙花</Value>
     </Record>
     <Record>
-      <Key>ItemFlowerRed</Key>#新加
+      <Key>ItemFlowerRed</Key>
       <Value>红花</Value>
     </Record>
     <Record>
-      <Key>ItemFlowerYellow</Key>#新加
+      <Key>ItemFlowerYellow</Key>
       <Value>黄花</Value>
     </Record>
     <Record>
-      <Key>AppliancePaintMixer</Key>#新加
+      <Key>AppliancePaintMixer</Key>
       <Value>涂料混合器</Value>
     </Record>
     <Record>
-      <Key>ReagentColorBlue</Key>#新加
+      <Key>ReagentColorBlue</Key>
       <Value>彩色染料(蓝色)</Value>
     </Record>
     <Record>
-      <Key>ReagentCarbon</Key>#新加
+      <Key>ReagentCarbon</Key>
       <Value>碳粉</Value>
     </Record>
     <Record>
-      <Key>ReagentColorGreen</Key>#新加
+      <Key>ReagentColorGreen</Key>
       <Value>彩色染料(绿色)</Value>
     </Record>
     <Record>
-      <Key>ReagentColorOrange</Key>#新加
+      <Key>ReagentColorOrange</Key>
       <Value>彩色染料(橙色)</Value>
     </Record>
     <Record>
-      <Key>ReagentColorRed</Key>#新加
+      <Key>ReagentColorRed</Key>
       <Value>彩色染料(红色)</Value>
     </Record>
     <Record>
-      <Key>ReagentColorYellow</Key>#新加
+      <Key>ReagentColorYellow</Key>
       <Value>彩色染料(黄色)</Value>
     </Record>
     <Record>
-      <Key>ItemFlowerGreen</Key>#新加
+      <Key>ItemFlowerGreen</Key>
       <Value>绿花</Value>
     </Record>
     <Record>
-      <Key>ItemGasFilterCarbonDioxideL</Key>#新加
+      <Key>ItemGasFilterCarbonDioxideL</Key>
       <Value>高级滤芯(二氧化碳)</Value>
     </Record>
     <Record>
-      <Key>ItemGasFilterCarbonDioxideM</Key>#新加
+      <Key>ItemGasFilterCarbonDioxideM</Key>
       <Value>中级滤芯(二氧化碳)</Value>
     </Record>
     <Record>
-      <Key>ItemGasFilterNitrogenL</Key>#新加
+      <Key>ItemGasFilterNitrogenL</Key>
       <Value>高级滤芯(氮)</Value>
     </Record>
     <Record>
-      <Key>ItemGasFilterNitrogenM</Key>#新加
+      <Key>ItemGasFilterNitrogenM</Key>
       <Value>中级滤芯(氮)</Value>
     </Record>
     <Record>
-      <Key>ItemGasFilterOxygenL</Key>#新加
+      <Key>ItemGasFilterOxygenL</Key>
       <Value>高级滤芯(氧)</Value>
     </Record>
     <Record>
-      <Key>ItemGasFilterOxygenM</Key>#新加
+      <Key>ItemGasFilterOxygenM</Key>
       <Value>中级滤芯(氧)</Value>
     </Record>
     <Record>
-      <Key>ItemGasFilterPollutantsL</Key>#新加
+      <Key>ItemGasFilterPollutantsL</Key>
       <Value>高级滤芯(污染物)</Value>
     </Record>
     <Record>
-      <Key>ItemGasFilterPollutantsM</Key>#新加
+      <Key>ItemGasFilterPollutantsM</Key>
       <Value>中级滤芯(污染物)</Value>
     </Record>
     <Record>
-      <Key>ItemGasFilterVolatilesL</Key>#新加
+      <Key>ItemGasFilterVolatilesL</Key>
       <Value>高级滤芯(氢)</Value>
     </Record>
     <Record>
-      <Key>ItemGasFilterVolatilesM</Key>#新加
+      <Key>ItemGasFilterVolatilesM</Key>
       <Value>中级滤芯(氢)</Value>
     </Record>
     <Record>
-      <Key>ItemGasFilterWaterL</Key>#新加
+      <Key>ItemGasFilterWaterL</Key>
       <Value>高级滤芯(水)</Value>
     </Record>
     <Record>
-      <Key>ItemGasFilterWaterM</Key>#新加
+      <Key>ItemGasFilterWaterM</Key>
       <Value>中级滤芯(水)</Value>
     </Record>
     <Record>
-      <Key>ItemMushroom</Key>#新加
+      <Key>ItemMushroom</Key>
       <Value>蘑菇</Value>
     </Record>
     <Record>
-      <Key>ItemPumpkin</Key>#新加
+      <Key>ItemPumpkin</Key>
       <Value>南瓜</Value>
     </Record>
     <Record>
-      <Key>ItemRice</Key>#新加
+      <Key>ItemRice</Key>
       <Value>水稻</Value>
     </Record>
     <Record>
-      <Key>ItemPumpkinPie</Key>#新加
+      <Key>ItemPumpkinPie</Key>
       <Value>南瓜派</Value>
     </Record>
+    <Record>
+      <Key>ItemHardBackpack</Key>
+      <Value>Hardsuit Backpack</Value>
+    </Record>
+    <Record>
+      <Key>ItemHardJetpack</Key>
+      <Value>Hardsuit Jetpack</Value>
+    </Record>
+    <Record>
+      <Key>DynamicHydroponics</Key>
+      <Value>Portable Hydroponics</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitDynamicHydroponics</Key>
+      <Value>Kit (Portable Hydroponics)</Value>
+    </Record>
+    <Record>
+      <Key>StructureKlaxon</Key>
+      <Value>Klaxon Speaker</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSpeaker</Key>
+      <Value>Kit (Speaker)</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeOreScannerColor</Key>
+      <Value>Cartridge (Ore Scanner (Color))</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicWriterSwitch</Key>
+      <Value>Logic Writer Switch</Value>
+    </Record>
+    <Record>
+      <Key>MotherboardProgrammableChip</Key>
+      <Value>Motherboard (IC Editor)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicCircuit</Key>
+      <Value>Kit (IC Housing)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCircuitHousing</Key>
+      <Value>IC Housing</Value>
+    </Record>
+    <Record>
+      <Key>ItemIntegratedCircuit10</Key>
+      <Value>Integrated Circuit (IC10)</Value>
+    </Record>
+    <Record>
+      <Key>StructureHydroponicsAutomated</Key>
+      <Value>Automated Hydroponics</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitHydroponicAutomated</Key>
+      <Value>Kit (Automated Hydroponics)</Value>
+    </Record>
+    <Record>
+      <Key>ItemBasketBall</Key>
+      <Value>Basket Ball</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitBasket</Key>
+      <Value>Kit (Basket)</Value>
+    </Record>
+    <Record>
+      <Key>StructureBasketHoop</Key>
+      <Value>Structure Basket Hoop</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxide</Key>
+      <Value>Filter (Nitrous Oxide)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxideL</Key>
+      <Value>Heavy Filter (Nitrous Oxide)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxideM</Key>
+      <Value>Medium Filter (Nitrous Oxide)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterNitrousOxide</Key>
+      <Value>Gas Canister (Sleeping)</Value>
+    </Record>
   </Things>
-  <Slots>#槽 有新加
+  <Slots>
     <Record>
       <Key>Output</Key>
       <Value>输出</Value>
@@ -3328,31 +3405,35 @@
       <Value>加载轨道</Value>
     </Record>
     <Record>
-      <Key>AccessCard</Key>#新加
+      <Key>AccessCard</Key>
       <Value>访问卡</Value>
     </Record>
     <Record>
-      <Key>Magazine</Key>#新加
+      <Key>Magazine</Key>
       <Value>弹匣</Value>
     </Record>
     <Record>
-      <Key>ContainerSlot</Key>#新加
+      <Key>ContainerSlot</Key>
       <Value>集装箱插槽</Value>
     </Record>
     <Record>
-      <Key>Plant</Key>#新加
+      <Key>Plant</Key>
       <Value>植物</Value>
     </Record>
     <Record>
-      <Key>Storage</Key>#新加
+      <Key>Storage</Key>
       <Value>储藏处</Value>
     </Record>
     <Record>
-      <Key>Circuit</Key>#新加
+      <Key>Circuit</Key>
       <Value>电路</Value>
     </Record>
+    <Record>
+      <Key>ProgrammableChip</Key>
+      <Value>Programmable Chip</Value>
+    </Record>
   </Slots>
-  <Interactables>#可交互的  有新加
+  <Interactables>
     <Record>
       <Key>Activate</Key>
       <Value>激活</Value>
@@ -3630,6 +3711,10 @@
       <Value>创建计划</Value>
     </Record>
     <Record>
+      <Key>Search</Key>
+      <Value>Search</Value>
+    </Record>
+    <Record>
       <Key>Button4</Key>
       <Value>按键4</Value>
     </Record>
@@ -3674,31 +3759,39 @@
       <Value>颜色</Value>
     </Record>
     <Record>
-      <Key>Access</Key>#新加
+      <Key>Access</Key>
       <Value>Access</Value>
     </Record>
     <Record>
-      <Key>Magazine</Key>#新加
+      <Key>Magazine</Key>
       <Value>弹药库</Value>
     </Record>
     <Record>
-      <Key>TemperatureUp</Key>#新加
+      <Key>TemperatureUp</Key>
       <Value>升温</Value>
     </Record>
     <Record>
-      <Key>TemperatureDown</Key>#新加
+      <Key>TemperatureDown</Key>
       <Value>降温</Value>
     </Record>
     <Record>
-      <Key>ThrustUp</Key>#新加
+      <Key>ThrustUp</Key>
       <Value>上推力</Value>
     </Record>
     <Record>
-      <Key>ThrustDown</Key>#新加
+      <Key>ThrustDown</Key>
       <Value>下推力</Value>
     </Record>
+    <Record>
+      <Key>Button5</Key>
+      <Value>Button5</Value>
+    </Record>
+    <Record>
+      <Key>Button6</Key>
+      <Value>Button6</Value>
+    </Record>
   </Interactables>
-  <Interface>#界面  有新加
+  <Interface>
     <Record>
       <Key>MainMenuContinue</Key>
       <Value>继续</Value>
@@ -3724,7 +3817,7 @@
       <Value>设置</Value>
     </Record>
     <Record>
-      <Key>MainMenuTutorial</Key>#新加
+      <Key>MainMenuTutorial</Key>
       <Value>教程&lt;color=green&gt; - (新!)&lt;/color&gt;</Value>
     </Record>
     <Record>
@@ -4366,6 +4459,18 @@
       <Value>退出</Value>
     </Record>
     <Record>
+      <Key>PromptUnsubscribeTitle</Key>
+      <Value>Unsubscribe</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeBody</Key>
+      <Value>Are you sure you want to unsubscribe from this Workshop item?</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeConfirm</Key>
+      <Value>Unsubscribe</Value>
+    </Record>
+    <Record>
       <Key>PromptOverwriteTitle</Key>
       <Value>覆盖</Value>
     </Record>
@@ -4426,15 +4531,15 @@
       <Value>重生</Value>
     </Record>
     <Record>
-      <Key>PromptGiveUpTitle</Key>#新加
+      <Key>PromptGiveUpTitle</Key>
       <Value>放弃</Value>
     </Record>
     <Record>
-      <Key>PromptGiveUpBody</Key>#新加
+      <Key>PromptGiveUpBody</Key>
       <Value>你是无意识的。你想放弃和重生吗？</Value>
     </Record>
     <Record>
-      <Key>PromptGiveUpConfirm</Key>#新加
+      <Key>PromptGiveUpConfirm</Key>
       <Value>放弃</Value>
     </Record>
     <Record>
@@ -4639,71 +4744,71 @@
       <Value>打开创意工坊</Value>
     </Record>
     <Record>
-      <Key>WorldPresetTitle</Key>#新加
+      <Key>WorldPresetTitle</Key>
       <Value>世界预置</Value>
     </Record>
     <Record>
-      <Key>WorldPresetLabel</Key>#新加
+      <Key>WorldPresetLabel</Key>
       <Value>预置</Value>
     </Record>
     <Record>
-      <Key>WorldNameLabel</Key>#新加
+      <Key>WorldNameLabel</Key>
       <Value>世界名称</Value>
     </Record>
     <Record>
-      <Key>WorldDescriptionLabel</Key>#新加
+      <Key>WorldDescriptionLabel</Key>
       <Value>描述/类型</Value>
     </Record>
     <Record>
-      <Key>WorldAtmosphere</Key>#新加
+      <Key>WorldAtmosphere</Key>
       <Value>大气</Value>
     </Record>
     <Record>
-      <Key>GameSettingsTitle</Key>#新加
+      <Key>GameSettingsTitle</Key>
       <Value>游戏设置</Value>
     </Record>
     <Record>
-      <Key>WorldCreativeMode</Key>#新加
+      <Key>WorldCreativeMode</Key>
       <Value>创新模式</Value>
     </Record>
     <Record>
-      <Key>WorldTerrain</Key>#新加
+      <Key>WorldTerrain</Key>
       <Value>地形</Value>
     </Record>
     <Record>
-      <Key>WorldSeedLabel</Key>#新加
+      <Key>WorldSeedLabel</Key>
       <Value>世界种子</Value>
     </Record>
     <Record>
-      <Key>WorldCratersLabel</Key>#新加
+      <Key>WorldCratersLabel</Key>
       <Value>陨石坑</Value>
     </Record>
     <Record>
-      <Key>WorldTerrainPresetLabel</Key>#新加
+      <Key>WorldTerrainPresetLabel</Key>
       <Value>地形</Value>
     </Record>
     <Record>
-      <Key>WorldAtmospherePresetLabel</Key>#新加
+      <Key>WorldAtmospherePresetLabel</Key>
       <Value>大气</Value>
     </Record>
     <Record>
-      <Key>WorldSettingsTitle</Key>#新加
+      <Key>WorldSettingsTitle</Key>
       <Value>世界设置</Value>
     </Record>
     <Record>
-      <Key>WorldResetButton</Key>#新加
+      <Key>WorldResetButton</Key>
       <Value>重置</Value>
     </Record>
     <Record>
-      <Key>WorldSaveButton</Key>#新加
+      <Key>WorldSaveButton</Key>
       <Value>保存</Value>
     </Record>
     <Record>
-      <Key>NewWorldAreaCustom</Key>#新加
+      <Key>NewWorldAreaCustom</Key>
       <Value>自定义/习惯</Value>
     </Record>
     <Record>
-      <Key>NewWorldMoonDesc</Key>#新加
+      <Key>NewWorldMoonDesc</Key>
       <Value>终于顺利降落到基地预定点了，
 看来补给箱应该都没有少，情况应该还不算很糟.
 
@@ -4715,7 +4820,7 @@
 但这食物补给看来不多，看来我得赶快想办法！不然这样绝对撑不了几天。...</Value>
     </Record>
     <Record>
-      <Key>NewWorldSpaceDesc</Key>#新加
+      <Key>NewWorldSpaceDesc</Key>
       <Value>这是Stationeers的创造模式！
       	
 你可以在这里任意调出游戏中的物品，建造并测试你任何有趣的想法。
@@ -4728,198 +4833,243 @@
 *bugs</Value>
     </Record>
     <Record>
-      <Key>NewWorldMarsDesc</Key>#新加
-      <Value>一劳永逸你可以回答这个古老的问题:
-&lt;color=red&gt;火星上有生命吗？&lt;/color&gt;
-现在有了，但如果你不小心的话不会太久。
-
-你已经有了一些基本的补给来开始你的旅程，还有丰富的自然资源。
-你甚至可以利用大气作为氮和其他酶的简单来源。甚至有可能离开这块岩石……</Value>
-    </Record>
-    <Record>
-      <Key>TextboxEnterName</Key>#新加
+      <Key>TextboxEnterName</Key>
       <Value>输入名称...</Value>
     </Record>
     <Record>
-      <Key>TextboxEnterDescription</Key>#新加
+      <Key>TextboxEnterDescription</Key>
       <Value>输入说明...</Value>
     </Record>
     <Record>
-      <Key>TextboxEnterSeed</Key>#新加
+      <Key>TextboxEnterSeed</Key>
       <Value>输入种子...</Value>
     </Record>
     <Record>
-      <Key>SettingsDisableParticlesOnMenu</Key>#新加
+      <Key>SettingsDisableParticlesOnMenu</Key>
       <Value>关闭主菜单动态效果</Value>
     </Record>
     <Record>
-      <Key>SettingsMouseWheelZoom</Key>#新加
+      <Key>SettingsMouseWheelZoom</Key>
       <Value>鼠标滚轮缩放视角</Value>
     </Record>
     <Record>
-      <Key>GameMenuRespawn</Key>#新加
+      <Key>GameMenuRespawn</Key>
       <Value>重生</Value>
     </Record>
     <Record>
-      <Key>MainMenuScenarios</Key>#新加
+      <Key>MainMenuScenarios</Key>
       <Value>场景</Value>
     </Record>
     <Record>
-      <Key>ScenariosStartButton</Key>#新加
+      <Key>ScenariosStartButton</Key>
       <Value>启动场景</Value>
     </Record>
     <Record>
-      <Key>SettingsSunOrbitPeriod</Key>#新加
+      <Key>SettingsSunOrbitPeriod</Key>
       <Value>太阳轨道速率</Value>
     </Record>
     <Record>
-      <Key>SettingsExtendedTerrain</Key>#新加
+      <Key>SettingsExtendedTerrain</Key>
       <Value>扩展地形</Value>
     </Record>
     <Record>
-      <Key>RenameThing</Key>#新加
+      <Key>RenameThing</Key>
       <Value>重命名 {0}</Value>
     </Record>
     <Record>
-      <Key>SetThingValue</Key>#新加
+      <Key>SetThingValue</Key>
       <Value>设置 {0}</Value>
     </Record>
     <Record>
-      <Key>FurnaceChamber</Key>#新加
+      <Key>FurnaceChamber</Key>
       <Value>炉膛</Value>
     </Record>
     <Record>
-      <Key>FurnaceChamberText</Key>#新加
+      <Key>FurnaceChamberText</Key>
       <Value>压力 {0}
 温度 {1}</Value>
     </Record>
     <Record>
-      <Key>FurnaceSmelting</Key>#新加
+      <Key>FurnaceSmelting</Key>
       <Value>熔炼 {0}</Value>
     </Record>
     <Record>
-      <Key>LogicState</Key>#新加
+      <Key>LogicState</Key>
       <Value>状态 {COLORGREEN:#VAR1#}</Value>
     </Record>
     <Record>
-      <Key>LogicNoDevice</Key>#新加
+      <Key>LogicNoDevice</Key>
       <Value>无设备</Value>
     </Record>
     <Record>
-      <Key>LogicNoSetting</Key>#新加
+      <Key>LogicNoSetting</Key>
       <Value>无设置</Value>
     </Record>
     <Record>
-      <Key>RequiresScrewdriver</Key>#新加
+      <Key>RequiresScrewdriver</Key>
       <Value>你需要一个 {THING:ItemScrewdriver} 去更改设置</Value>
     </Record>
     <Record>
-      <Key>LogicNoReadableDevices</Key>#新加
+      <Key>LogicNoReadableDevices</Key>
       <Value>网络上没有其他可读设备</Value>
     </Record>
     <Record>
-      <Key>LogicNoReadableTypes</Key>#新加
+      <Key>LogicNoReadableTypes</Key>
       <Value>网络上没有其他可读类型</Value>
     </Record>
     <Record>
-      <Key>ChangeSettingTo</Key>#新加
+      <Key>ChangeSettingTo</Key>
       <Value>更改为 {0}</Value>
     </Record>
     <Record>
-      <Key>HoldForPreviousObject</Key>#新加
+      <Key>HoldForPreviousObject</Key>
       <Value>按住 {KEY:QuantityModifier} 对上一个对象</Value>
     </Record>
     <Record>
-      <Key>ChangeSettingToFor</Key>#新加
+      <Key>ChangeSettingToFor</Key>
       <Value>更改 &lt;color=yellow&gt;{0}&lt;/color&gt; 为 {1}</Value>
     </Record>
     <Record>
-      <Key>SettingsAtmosphericScattering</Key>#新加
+      <Key>SettingsAtmosphericScattering</Key>
       <Value>大气散射</Value>
     </Record>
     <Record>
-      <Key>ButtonReset</Key>#新加
+      <Key>ButtonReset</Key>
       <Value>重置</Value>
     </Record>
     <Record>
-      <Key>ButtonClear</Key>#新加
+      <Key>ButtonClear</Key>
       <Value>清除</Value>
     </Record>
     <Record>
-      <Key>StatusWindowThrust</Key>#新加
+      <Key>StatusWindowThrust</Key>
       <Value>推力</Value>
     </Record>
     <Record>
-      <Key>SettingsAmbientOcclusion</Key>#新加
+      <Key>SettingsAmbientOcclusion</Key>
       <Value>环境光遮蔽</Value>
     </Record>
     <Record>
-      <Key>SettingsLensFlares</Key>#新加
+      <Key>SettingsLensFlares</Key>
       <Value>光斑特效</Value>
     </Record>
     <Record>
-      <Key>SettingsInputSettings</Key>#新加
+      <Key>SettingsInputSettings</Key>
       <Value>输入设置</Value>
     </Record>
     <Record>
-      <Key>NewWorldAreaEuropa</Key>#新加
+      <Key>NewWorldAreaEuropa</Key>
       <Value>木卫二</Value>
     </Record>
     <Record>
-      <Key>SettingsTitleAudioAlerts</Key>#新加
+      <Key>SettingsTitleAudioAlerts</Key>
       <Value>语音通知</Value>
     </Record>
     <Record>
-      <Key>InventoryCloseAll</Key>#新加
+      <Key>InventoryCloseAll</Key>
       <Value>关闭所有</Value>
     </Record>
     <Record>
-      <Key>ButtonResetWindows</Key>#新加
+      <Key>ButtonResetWindows</Key>
       <Value>重置窗口</Value>
     </Record>
     <Record>
-      <Key>ConnectionFiltered</Key>#新加
+      <Key>ConnectionFiltered</Key>
       <Value>过滤</Value>
     </Record>
     <Record>
-      <Key>ConnectionUnfiltered</Key>#新加
+      <Key>ConnectionUnfiltered</Key>
       <Value>未过滤</Value>
     </Record>
     <Record>
-      <Key>ConnectionInput</Key>#新加
+      <Key>ConnectionInput</Key>
       <Value>输入</Value>
     </Record>
     <Record>
-      <Key>ConnectionOutput</Key>#新加
+      <Key>ConnectionOutput</Key>
       <Value>输出</Value>
     </Record>
     <Record>
-      <Key>ConnectionWaste</Key>#新加
+      <Key>ConnectionWaste</Key>
       <Value>废物</Value>
     </Record>
     <Record>
-      <Key>ConnectionBreathing</Key>#新加
+      <Key>ConnectionBreathing</Key>
       <Value>呼吸</Value>
     </Record>
     <Record>
-      <Key>ConnectionPropellant</Key>#新加
+      <Key>ConnectionPropellant</Key>
       <Value>推进剂</Value>
     </Record>
     <Record>
-      <Key>SettingsChunkRenderDistance</Key>#新加
+      <Key>SettingsChunkRenderDistance</Key>
       <Value>块渲染距离</Value>
     </Record>
     <Record>
-      <Key>ScenarioScoreboardBackToMenu</Key>#新加
+      <Key>ScenarioScoreboardBackToMenu</Key>
       <Value>退出到菜单</Value>
     </Record>
     <Record>
-      <Key>ScenarioScoreboardReturnToGame</Key>#新加
+      <Key>ScenarioScoreboardReturnToGame</Key>
       <Value>返回游戏</Value>
     </Record>
     <Record>
-      <Key>ScenarioScoreboardHeading</Key>#新加
+      <Key>ScenarioScoreboardHeading</Key>
       <Value>场景完成</Value>
+    </Record>
+    <Record>
+      <Key>ButtonCopy</Key>
+      <Value>Copy</Value>
+    </Record>
+    <Record>
+      <Key>ButtonPaste</Key>
+      <Value>Paste</Value>
+    </Record>
+    <Record>
+      <Key>ButtonHelp</Key>
+      <Value>Help</Value>
+    </Record>
+    <Record>
+      <Key>ButtonVariables</Key>
+      <Value>x</Value>
+    </Record>
+    <Record>
+      <Key>ButtonSlotVar</Key>
+      <Value>s(x)</Value>
+    </Record>
+    <Record>
+      <Key>HeadingHelp</Key>
+      <Value>help</Value>
+    </Record>
+    <Record>
+      <Key>ButtonLoad</Key>
+      <Value>Load</Value>
+    </Record>
+    <Record>
+      <Key>HeadingEdit</Key>
+      <Value>Edit</Value>
+    </Record>
+    <Record>
+      <Key>ButtonFunctions</Key>
+      <Value>f</Value>
+    </Record>
+    <Record>
+      <Key>ButtonLibrary</Key>
+      <Value>Library</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuAdvanced</Key>
+      <Value>Advanced
+
+</Value>
+    </Record>
+    <Record>
+      <Key>SettingsLegacyInventory</Key>
+      <Value>Legacy Inventory</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDisableWaterVisualizer</Key>
+      <Value>Disable Water Visualizer</Value>
     </Record>
   </Interface>
   <Colors>
@@ -4972,7 +5122,7 @@
       <Value>紫色</Value>
     </Record>
   </Colors>
-  <Keys/>
+  <Keys />
   <Mineables>
     <Record>
       <Key>Iron</Key>
@@ -5023,5 +5173,5 @@
       <Value>硅Silicon</Value>
     </Record>
   </Mineables>
-  <GameTip/>
+  <GameTip />
 </Language>

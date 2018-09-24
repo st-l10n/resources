@@ -1,14 +1,14 @@
-<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+﻿<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>KN</Code>
   <GameTip>
-		<String>{KEY:HelmetSlot}、{KEY:SuitSlot}、{KEY:BackSlot}、{KEY:UniformSlot}、または{KEY:ToolBeltSlot}を押すとインタラクトと装備のスロットを切り替えます。長押しすることでアクティブな手のアイテムと切り替えます。</String>
-		<String>{KEY:ToggleHandPower}を押ことで手に持ったアイテムのオンオフが素早く行えます。</String>
-		<String>{KEY:ToggleLight}を押すことで{THING:ItemSpaceHelmet}のライトのオンオフが素早く行えます。</String>
-		<String>{KEY:EmoteWave}で他のStationeerに手を振れます。</String>
-		<String>{KEY:Jetpack}を押すことで{THING:ItemSpacepack}のオンオフが素早く行えます。</String>
-		<String>{KEY:ToggleUI}を押すとユーザーインターフェースのオンオフができ、ステキなスクリーンショットやビデオを撮れます。</String>
-	<String>{THING:ItemSpacepack}が有効になっていれば{KEY:Ascend}を押したとき上昇し、そうでなければキャラクターはジャンプしようとします。{KEY:Jetpack}キーによって{THING:ItemSpacepack}のオンオフを切り替えられます。</String>
-	<String>{THING:ItemSpacepack}が有効になっていれば{KEY:Descend}を押したとき下降します。{KEY:Jetpack}キーによって{THING:ItemSpacepack}のオンオフを切り替えられます。</String>
+    <String>{KEY:HelmetSlot}、{KEY:SuitSlot}、{KEY:BackSlot}、{KEY:UniformSlot}、または{KEY:ToolBeltSlot}を押すとインタラクトと装備のスロットを切り替えます。長押しすることでアクティブな手のアイテムと切り替えます。</String>
+    <String>{KEY:ToggleHandPower}を押ことで手に持ったアイテムのオンオフが素早く行えます。</String>
+    <String>{KEY:ToggleLight}を押すことで{THING:ItemSpaceHelmet}のライトのオンオフが素早く行えます。</String>
+    <String>{KEY:EmoteWave}で他のStationeerに手を振れます。</String>
+    <String>{KEY:Jetpack}を押すことで{THING:ItemSpacepack}のオンオフが素早く行えます。</String>
+    <String>{KEY:ToggleUI}を押すとユーザーインターフェースのオンオフができ、ステキなスクリーンショットやビデオを撮れます。</String>
+	<String>Pressing {KEY:Ascend} will make you ascend if your {THING:ItemSpacepack} is on, otherwise your character will try to jump. You can toggle the {THING:ItemSpacepack} on or off using the {KEY:Jetpack} key.</String>
+	<String>Pressing {KEY:Descend} will make you descend if your {THING:ItemSpacepack} is on. You can toggle the {THING:ItemSpacepack} on or off using the {KEY:Jetpack} key.</String>
 	<String>{KEY:InventorySelect}キーを押すことで、開いたインベントリスロットとアクティブな手に持ったアイテムを入れ替えられます。</String>
 	<String>{KEY:Drop}キーを押して話すことで手に持ったアイテムをその場に捨てます。{KEY:Drop}キーを長押しすると、投げようとします。押し続ける時間が長いほど遠くに投げます。</String>
 	<String>{KEY:SwapHands}を押すとアクティブな手を切り替えます。{KEY:ActiveHandSlot}でアクティブな手の操作オプションを切り替えます。</String>
@@ -18,7 +18,7 @@
 	<String>アイテムの制作方法が知りたい？アクティブな手に{THING:CartridgeElectronicReader}の入った{THING:ItemTablet}を持ち、{KEY:ToggleHandPower}を押して電源を入れてみましょう。</String>
 	<String>電源の入った{THING:ItemWeldingTorch}を片方の手に持ち、{THING:ItemIronSheets}をいくつかもう一方の手に持って、{THING:StructureFrameIron}の建築段階を上昇させましょう。</String>
 	<String>いくつかの{THING:ItemIronOre}を電源の入った{THING:StructureArcFurnace}に入れて{THING:ItemIronIngot}に精錬出来ます。</String>
-	<String>{THING:StructureComputer}に{THING:MotherboardLogic}を設置することでロジックコントロールが出来ます。同じデータネットワーク上のデバイスの状態を操作したり、状態を足したり出来ます。</String>
+	<String>Place a {THING:MotherboardLogic} in a {THING:StructureComputer} to enable logic control. You will be able to add conditions and actions that control the states of devices on the same data network.</String>
 	<String>ワールド上のボタンを押して数値を変更するとき、{KEY:QuantityModifier}を押しながらクリックすることで少量を変更出来ます。</String>
 	<String>{THING:ItemKitLogicInputOutput}によって{THING:StructureLogicReader}か{THING:StructureLogicWriter}が作れます。リーダーは他の装置の値を読み取れます。ライターは装置の値を書き換えられます。計算ユニットと組み合わせると、非常に複雑な自動化システムを構築できます。</String>
 	<String>{THING:ItemKitLogicInputOutput}によって{THING:StructureLogicBatchReader}や{THING:StructureLogicBatchWriter}が作れます。リーダーを使用すると、他のデバイスのグループ全体から値を読み取ることができます。ライターを使用すると、他のデバイスのグループ全体の値を変更することができます。</String>

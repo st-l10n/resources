@@ -1,8 +1,11 @@
-<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+﻿<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>RU</Code>
   <GameTip>
     <String>Нажмите {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot}, или {KEY:ToolBeltSlot}, чтобы переключиться между режимом взаимодействий и режимом слотов любого надетого предмета. Удерживайте кнопку, чтобы заменить надетый предмет на предмет, который вы держите в активной руке.</String>
     <String>Нажмите {KEY:ToggleHandPower}, чтобы быстро включить или выключить предмет, который вы держите в активной руке.</String>
+    <String>Press {KEY:ToggleLight} to toggle your {THING:ItemSpaceHelmet} lights on or off quickly.</String>
+    <String>Press {KEY:EmoteWave} to make your character wave at other stationeers.</String>
+    <String>Press {KEY:Jetpack} to toggle your {THING:ItemSpacepack} propulsion on or off quickly.</String>
     <String>Нажмите {KEY:ToggleUI}, чтобы включить или выключить пользовательский интерфейс. Так вы сможете сделать потрясающие скриншоты или записать видео.</String>
 	<String>Нажав {KEY:Ascend} вы будете подниматься вверх, если ваш {THING:ItemSpacepack} включён. Если он выключен, ваш персонаж попытается прыгнуть. Вы можете включать и выключать {THING:ItemSpacepack}, при помощи кнопки {KEY:Jetpack}.</String>
 	<String>Нажав {KEY:Descend} вы будете опускаться вниз, если ваш {THING:ItemSpacepack} включён. Вы можете включать и выключать {THING:ItemSpacepack}, при помощи кнопки {KEY:Jetpack}.</String>
@@ -13,12 +16,14 @@
 	<String>Нажмите {KEY:Chatting}, чтобы общаться с другими игроками. Окно для ввода текста появится в правой нижней части экрана.</String>
 	<String>Чтобы изменить ориетацию предмета, который вы собираетесь построить, нажмите {KEY:RotateLeft} чтобы повернуть его влево, {KEY:RotateRight} чтобы повернуть его вправо, {KEY:RotateUp} чтобы повернуть его вверх, {KEY:RotateDown} чтобы повернуть его вниз, {KEY:RotateRollLeft} чтобы повернуть его против часовой стрелки, или {KEY:RotateRollRight} чтобы повернуть его по часовой стрелке.</String>
 	<String>Хотите узнать как сделать какой-либо предмет? Вставьте {THING:CartridgeElectronicReader} в {THING:ItemTablet} и включите его с помощью кнопки {KEY:ToggleHandPower}, когда он будет в вашей активной руке.</String>
-	<String>Вы должны держать газовую горелку включённой в вашей активной руке, и {THING:ItemIronSheets} в другой, чтобы завершить постройку железного каркаса.</String>
-	<String>Положите железную руду во включённую дуговую печь, чтобы выплавить железный слиток.</String>
-	<String>Установите логическую материнскую плату в {THING:StructureComputer}, чтобы включить управление логикой. Вы сможете добавлять условия и действия, которые будут контроллировать состояние устройств в сети данных, к которой подключён {THING:StructureComputer}.</String>
+	<String>Hold a {THING:ItemWeldingTorch} in one hand while turned on, and a stack of {THING:ItemIronSheets} in another in order to upgrade the build state of an {THING:StructureFrameIron}.</String>
+	<String>Place a stack of {THING:ItemIronOre} in a powered {THING:StructureArcFurnace} in order to smelt it into an {THING:ItemIronIngot}.</String>
+	<String>Place a {THING:MotherboardLogic} in a {THING:StructureComputer} to enable logic control. You will be able to add conditions and actions that control the states of devices on the same data network.</String>
 	<String>Когда вы изменяете какую-либо величину при помощи элементов управления в игре, вы можете зажать клавишу {KEY:QuantityModifier} чтобы ипользовать более точные значения.</String>
 	<String>Используйте {THING:ItemKitLogicInputOutput}, чтобы создать {THING:StructureLogicReader} или {THING:StructureLogicWriter}. Чип чтения позвояет вам считывать величины различных настроек прочих устройств, чип записи позволяет вам менять эти величины на устройствах. В сочетании с математичеcкими чипами вы можете создать невероятно сложные автоматизированные системы.</String>
-	<String>Используйте {THING:StructureRecycler}, чтобы переработать ненужные предметы в реагенты. Положите {THING:ItemReagentMix} в центрифугу, чтобы разделить смесь на отдельные руды, которые можно переплавить в печи.</String>
-	<String>Используйте {THING:StructureHydraulicPipeBender} для производства вещей, связанных с атмосферой. Например для создания набора для постройки атмосферных устройств, который позволяет строить такие полезные аппараты как {THING:StructureAirConditioner} или {THING:StructureFiltration}.</String>
+	<String>Use a {THING:ItemKitLogicInputOutput} to create a {THING:StructureLogicBatchReader} or {THING:StructureLogicBatchWriter}. Readers allow you to read values from an entire group of other devices, writers allow you to change values on entire groups of other devices.</String>
+	<String>Use a {THING:ItemKitLogicInputOutput} to create a {THING:StructureLogicSlotReader} which allows you to read slot values from device with slots. Some devices allow you to get specialist slot information such as plant growth in the {THING:StructureHydroponicsStation}.</String>
+	<String>Use a {THING:StructureRecycler} to convert things you no longer want into usable reagents. Pass the outputted {THING:ItemReagentMix} into a {THING:StructureCentrifuge} to convert it back into ore, ready for a {THING:StructureFurnace}.</String>
+	<String>Use a {THING:StructureHydraulicPipeBender} to manufacture atmospheric items, such as the {THING:ItemKitAtmospherics} which allows you to build useful machines such as the {THING:StructureAirConditioner} or {THING:StructureFiltration}.</String>
   </GameTip>
 </Language>

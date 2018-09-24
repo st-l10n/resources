@@ -1,4 +1,4 @@
-<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+﻿<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>CN</Code>
   <GameTip>
     <String>按 {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot},或{KEY:ToolBeltSlot}来切换互动以及当前装备中的槽位。按住在当前手中的行动以及槽位间进行切换。</String>
@@ -7,8 +7,8 @@
     <String>按 {KEY:EmoteWave} 可使您的角色向其他空间站工程师挥手。</String>
     <String>按 {KEY:Jetpack} 切换 {THING:ItemSpacepack} 快速推进或关闭。</String>
     <String>按 {KEY:ToggleUI} 开启/关闭玩家界面以截取精美的游戏画面或录像。</String>
-	<String>开启 {THING:ItemSpacepack} 后按 {KEY:Ascend} 能够升空，若没装备，则角色会尝试跳跃。按 {KEY:Jetpack} 可以开启/关闭 {THING:ItemSpacepack} 。</String>
-	<String>开启 {THING:ItemSpacepack} 后按 {KEY:Descend} 能够下降。按 {KEY:Jetpack} 可以开启/关闭 {THING:ItemSpacepack} 。</String>
+	<String>Pressing {KEY:Ascend} will make you ascend if your {THING:ItemSpacepack} is on, otherwise your character will try to jump. You can toggle the {THING:ItemSpacepack} on or off using the {KEY:Jetpack} key.</String>
+	<String>Pressing {KEY:Descend} will make you descend if your {THING:ItemSpacepack} is on. You can toggle the {THING:ItemSpacepack} on or off using the {KEY:Jetpack} key.</String>
 	<String>如果想要快速切换当前手中与道具栏槽位中的物品，按 {KEY:InventorySelect} 键。</String>
 	<String>按下然后放开 {KEY:Drop} 键会迅速丢下手中的物品。如果按住 {KEY:Drop} 键，角色就会将手中物品抛出。按的越久，抛的距离越远。</String>
 	<String>按下 {KEY:SwapHands} 切换手的动作。按 {KEY:ActiveHandSlot} 会循环手上的互动选项。</String>

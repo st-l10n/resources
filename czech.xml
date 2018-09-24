@@ -120,6 +120,11 @@
       <Unit />
     </RecordReagent>
     <RecordReagent>
+      <Key>Tomato</Key>
+      <Value>Tomato</Value>
+      <Unit>Tomato.Unit</Unit>
+    </RecordReagent>
+    <RecordReagent>
       <Key>Fenoxitone</Key>
       <Value>Fenoxiton</Value>
       <Unit>g</Unit>
@@ -184,6 +189,10 @@
     <Record>
       <Key>Water</Key>
       <Value>Voda</Value>
+    </Record>
+    <Record>
+      <Key>NitrousOxide</Key>
+      <Value>Nitrous Oxide</Value>
     </Record>
   </Gases>
   <Actions>
@@ -2302,6 +2311,10 @@
       <Value>Potato</Value>
     </Record>
     <Record>
+      <Key>ItemTomato</Key>
+      <Value>Tomato</Value>
+    </Record>
+    <Record>
       <Key>StructureGasGenerator</Key>
       <Value>Gas Fuel Generator</Value>
     </Record>
@@ -2320,6 +2333,10 @@
     <Record>
       <Key>ItemPotatoBaked</Key>
       <Value>Baked Potato</Value>
+    </Record>
+    <Record>
+      <Key>ItemTomatoSoup</Key>
+      <Value>Tomato Soup</Value>
     </Record>
     <Record>
       <Key>ItemSoyOil</Key>
@@ -3165,6 +3182,66 @@
       <Key>ItemKitSpeaker</Key>
       <Value>Kit (Speaker)</Value>
     </Record>
+    <Record>
+      <Key>CartridgeOreScannerColor</Key>
+      <Value>Cartridge (Ore Scanner (Color))</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicWriterSwitch</Key>
+      <Value>Logic Writer Switch</Value>
+    </Record>
+    <Record>
+      <Key>MotherboardProgrammableChip</Key>
+      <Value>Motherboard (IC Editor)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicCircuit</Key>
+      <Value>Kit (IC Housing)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCircuitHousing</Key>
+      <Value>IC Housing</Value>
+    </Record>
+    <Record>
+      <Key>ItemIntegratedCircuit10</Key>
+      <Value>Integrated Circuit (IC10)</Value>
+    </Record>
+    <Record>
+      <Key>StructureHydroponicsAutomated</Key>
+      <Value>Automated Hydroponics</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitHydroponicAutomated</Key>
+      <Value>Kit (Automated Hydroponics)</Value>
+    </Record>
+    <Record>
+      <Key>ItemBasketBall</Key>
+      <Value>Basket Ball</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitBasket</Key>
+      <Value>Kit (Basket)</Value>
+    </Record>
+    <Record>
+      <Key>StructureBasketHoop</Key>
+      <Value>Structure Basket Hoop</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxide</Key>
+      <Value>Filter (Nitrous Oxide)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxideL</Key>
+      <Value>Heavy Filter (Nitrous Oxide)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxideM</Key>
+      <Value>Medium Filter (Nitrous Oxide)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterNitrousOxide</Key>
+      <Value>Gas Canister (Sleeping)</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -3257,7 +3334,7 @@
     </Record>
     <Record>
       <Key>CaptainsSeat</Key>
-      <Value>Captain's Seat</Value>
+      <Value>Captain&apos;s Seat</Value>
     </Record>
     <Record>
       <Key>PassengerSeatLeft</Key>
@@ -3350,6 +3427,10 @@
     <Record>
       <Key>Circuit</Key>
       <Value>Circuit</Value>
+    </Record>
+    <Record>
+      <Key>ProgrammableChip</Key>
+      <Value>Programmable Chip</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -3630,6 +3711,10 @@
       <Value>Create Plan</Value>
     </Record>
     <Record>
+      <Key>Search</Key>
+      <Value>Search</Value>
+    </Record>
+    <Record>
       <Key>Button4</Key>
       <Value>Button4</Value>
     </Record>
@@ -3696,6 +3781,14 @@
     <Record>
       <Key>ThrustDown</Key>
       <Value>Thrust Down</Value>
+    </Record>
+    <Record>
+      <Key>Button5</Key>
+      <Value>Button5</Value>
+    </Record>
+    <Record>
+      <Key>Button6</Key>
+      <Value>Button6</Value>
     </Record>
   </Interactables>
   <Interface>
@@ -4241,7 +4334,7 @@
     </Record>
     <Record>
       <Key>TutorialCompleteMessage</Key>
-      <Value>There's still much to learn. 
+      <Value>There&apos;s still much to learn. 
 So get out there, Stationeer!</Value>
     </Record>
     <Record>
@@ -4364,6 +4457,18 @@ Scroll &lt;color=red&gt;Mouse Wheel&lt;/color&gt; for more options.</Value>
     <Record>
       <Key>PromptQuitConfirm</Key>
       <Value>Quit</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeTitle</Key>
+      <Value>Unsubscribe</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeBody</Key>
+      <Value>Are you sure you want to unsubscribe from this Workshop item?</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeConfirm</Key>
+      <Value>Unsubscribe</Value>
     </Record>
     <Record>
       <Key>PromptOverwriteTitle</Key>
@@ -4704,18 +4809,18 @@ Please try again.</Value>
     </Record>
     <Record>
       <Key>NewWorldMoonDesc</Key>
-      <Value>So you're stuck on the moon, but it's not all bad. 
-Sure, it's cold, harsh and pretty monotonous, but at least the sun's shining. The solar panel is going to be useful, and the power controller... and probably the arc furnace too.
-There's even a little food and oxygen in the other crates, though it's definitely not going to last forever. Neither's your battery. 
-You better start thinking about how you're going to survive. How hard could it be to rig up an airlock? A generator? Maybe even smelt some ore and build yourself a base?
-Looks like you're gonna be here a while.</Value>
+      <Value>So you&apos;re stuck on the moon, but it&apos;s not all bad. 
+Sure, it&apos;s cold, harsh and pretty monotonous, but at least the sun&apos;s shining. The solar panel is going to be useful, and the power controller... and probably the arc furnace too.
+There&apos;s even a little food and oxygen in the other crates, though it&apos;s definitely not going to last forever. Neither&apos;s your battery. 
+You better start thinking about how you&apos;re going to survive. How hard could it be to rig up an airlock? A generator? Maybe even smelt some ore and build yourself a base?
+Looks like you&apos;re gonna be here a while.</Value>
     </Record>
     <Record>
       <Key>NewWorldSpaceDesc</Key>
       <Value>This is Stationeers Creative Mode!
 Spawn in any item, test ideas and build bonkers stuff real fast.
 &lt;color=red&gt;This mode is experimental.&lt;/color&gt; Think of it as a freeform space party where exciting and unexpected things* can and will happen, compared to the more reliable near-death experience of Survival Mode.
-Just don't be sad when you blow yourself into tiny, tiny little pieces or get savaged by chickens or slowly explode while drifting alone into the infinite void.
+Just don&apos;t be sad when you blow yourself into tiny, tiny little pieces or get savaged by chickens or slowly explode while drifting alone into the infinite void.
 *bugs</Value>
     </Record>
     <Record>
@@ -4902,6 +5007,60 @@ Temperature {1}</Value>
     <Record>
       <Key>ScenarioScoreboardHeading</Key>
       <Value>Scenario Complete</Value>
+    </Record>
+    <Record>
+      <Key>ButtonCopy</Key>
+      <Value>Copy</Value>
+    </Record>
+    <Record>
+      <Key>ButtonPaste</Key>
+      <Value>Paste</Value>
+    </Record>
+    <Record>
+      <Key>ButtonHelp</Key>
+      <Value>Help</Value>
+    </Record>
+    <Record>
+      <Key>ButtonVariables</Key>
+      <Value>x</Value>
+    </Record>
+    <Record>
+      <Key>ButtonSlotVar</Key>
+      <Value>s(x)</Value>
+    </Record>
+    <Record>
+      <Key>HeadingHelp</Key>
+      <Value>help</Value>
+    </Record>
+    <Record>
+      <Key>ButtonLoad</Key>
+      <Value>Load</Value>
+    </Record>
+    <Record>
+      <Key>HeadingEdit</Key>
+      <Value>Edit</Value>
+    </Record>
+    <Record>
+      <Key>ButtonFunctions</Key>
+      <Value>f</Value>
+    </Record>
+    <Record>
+      <Key>ButtonLibrary</Key>
+      <Value>Library</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuAdvanced</Key>
+      <Value>Advanced
+
+</Value>
+    </Record>
+    <Record>
+      <Key>SettingsLegacyInventory</Key>
+      <Value>Legacy Inventory</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDisableWaterVisualizer</Key>
+      <Value>Disable Water Visualizer</Value>
     </Record>
   </Interface>
   <Colors>

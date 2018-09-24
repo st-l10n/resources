@@ -1,7 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-<!-- version FR180903 (YYMMDD) - v0.1.1621.7613 - Updated by Mustard and CrocoFR - Based from version of CedricS and [FR]Rem -->
-<!-- https://github.com/CrocoFR/Stationeers-French-Translation -->  
   <Name>French</Name>
   <Code>FR</Code>
   <Font>font_extended</Font>
@@ -19,7 +17,7 @@
     <RecordReagent>
       <Key>Egg</Key>
       <Value>Oeuf</Value>
-      <Unit/>
+      <Unit />
     </RecordReagent>
     <RecordReagent>
       <Key>Iron</Key>
@@ -119,47 +117,47 @@
     <RecordReagent>
       <Key>Potato</Key>
       <Value>Pomme de terre</Value>
-      <Unit/>
+      <Unit />
     </RecordReagent>
     <RecordReagent>
       <Key>Tomato</Key>
       <Value>Tomate</Value>
-      <Unit/>
+      <Unit />
     </RecordReagent>
     <RecordReagent>
       <Key>Fenoxitone</Key>
-      <Value>Fenoxitone</Value> 
+      <Value>Fenoxitone</Value>
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>ColorRed</Key>
-      <Value>Coloration rouge</Value> 
+      <Value>Coloration rouge</Value>
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>ColorGreen</Key>
-      <Value>Coloration verte</Value> 
+      <Value>Coloration verte</Value>
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>ColorBlue</Key>
-      <Value>Coloration bleue</Value> 
+      <Value>Coloration bleue</Value>
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>ColorYellow</Key>
-      <Value>Coloration jaune</Value> 
+      <Value>Coloration jaune</Value>
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>ColorOrange</Key>
-      <Value>Coloration orange</Value> 
+      <Value>Coloration orange</Value>
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
-      <Key>Pimpkin</Key>
-      <Value>Citrouille</Value>
-      <Unit/>
+      <Key>Pumpkin</Key>
+      <Value>Pumpkin</Value>
+      <Unit>Pumpkin.Unit</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Rice</Key>
@@ -192,6 +190,10 @@
       <Key>Water</Key>
       <Value>Eau</Value>
     </Record>
+    <Record>
+      <Key>NitrousOxide</Key>
+      <Value>Nitrous Oxide</Value>
+    </Record>
   </Gases>
   <Actions>
     <Record>
@@ -212,7 +214,7 @@
     </Record>
     <Record>
       <Key>Clear</Key>
-      <Value>Annuler</Value>  <!-- Annuler fabrication -->
+      <Value>Annuler</Value>
     </Record>
     <Record>
       <Key>Collect</Key>
@@ -334,7 +336,7 @@
       <Key>Unlock</Key>
       <Value>Débloquer</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>Rename</Key>
       <Value>Renommer</Value>
     </Record>
@@ -348,7 +350,7 @@
     </Record>
     <Record>
       <Key>CallElevator</Key>
-      <Value>Appeler l'ascenseur</Value>
+      <Value>Appeler l&apos;ascenseur</Value>
     </Record>
     <Record>
       <Key>Set</Key>
@@ -368,7 +370,7 @@
     </Record>
     <Record>
       <Key>Vend</Key>
-      <Value>Achat</Value> <!-- Récupération objet distributeur -->
+      <Value>Achat</Value>
     </Record>
   </Actions>
   <Things>
@@ -422,7 +424,7 @@
     </Record>
     <Record>
       <Key>BodyPartAstronautMaleLegR</Key>
-      <Value>Jambe Droite Homme</Value>      
+      <Value>Jambe Droite Homme</Value>
     </Record>
     <Record>
       <Key>BodyPartAstronautTorso</Key>
@@ -513,32 +515,32 @@
       <Value>Aile Droite de Poussin</Value>
     </Record>
     <Record>
-      <Key>BodyPartGraylienArmL</Key>
-      <Value>Bras Gauche d'Extraterrestre Gris</Value>
+      <Key>BodyPartGraylienArmL </Key>
+      <Value>Body Part Graylien Arm L </Value>
     </Record>
     <Record>
-      <Key>BodyPartGraylienArmR</Key>
-      <Value>Bras Droit d'Extraterrestre Gris</Value>
+      <Key>BodyPartGraylienArmR </Key>
+      <Value>Body Part Graylien Arm R </Value>
     </Record>
     <Record>
-      <Key>BodyPartGraylienBody</Key>
-      <Value>Corps d'Extraterrestre Gris</Value>
+      <Key>BodyPartGraylienBody </Key>
+      <Value>Body Part Graylien Body </Value>
     </Record>
     <Record>
-      <Key>BodyPartGraylienHead</Key>
-      <Value>Tête d'Extraterrestre Gris</Value>
+      <Key>BodyPartGraylienHead </Key>
+      <Value>Body Part Graylien Head </Value>
     </Record>
     <Record>
-      <Key>BodyPartGraylienLegL</Key>
-      <Value>Jambe Gauche d'Extraterrestre Gris</Value>
+      <Key>BodyPartGraylienLegL </Key>
+      <Value>Body Part Graylien Leg L </Value>
     </Record>
     <Record>
-      <Key>BodyPartGraylienLegR</Key>
-      <Value>Jambe Droite d'Extraterrestre Gris</Value>
+      <Key>BodyPartGraylienLegR </Key>
+      <Value>Body Part Graylien Leg R </Value>
     </Record>
     <Record>
-      <Key>BodyPartGraylienPelvis</Key>
-      <Value>Pelvis d'Extraterrestre Gris</Value>
+      <Key>BodyPartGraylienPelvis </Key>
+      <Value>Body Part Graylien Pelvis </Value>
     </Record>
     <Record>
       <Key>BodyPartRoosterBlackBody</Key>
@@ -614,7 +616,7 @@
     </Record>
     <Record>
       <Key>CircuitboardAirControl</Key>
-      <Value>Circuit Imprimé (Contrôle d'Air)</Value>
+      <Value>Circuit Imprimé (Contrôle d&apos;Air)</Value>
     </Record>
     <Record>
       <Key>CircuitboardAirlockControl</Key>
@@ -638,7 +640,7 @@
     </Record>
     <Record>
       <Key>CircuitboardPowerControl</Key>
-      <Value>Circuit Imprimé (Contrôle d'Alimentation)</Value>
+      <Value>Circuit Imprimé (Contrôle d&apos;Alimentation)</Value>
     </Record>
     <Record>
       <Key>CircuitboardShipDisplay</Key>
@@ -714,11 +716,11 @@
     </Record>
     <Record>
       <Key>DynamicScrubber</Key>
-      <Value>Epurateur d'air portable</Value>
+      <Value>Epurateur d&apos;air portable</Value>
     </Record>
     <Record>
       <Key>EffectSplatEgg</Key>
-      <Value>Effet d'Oeuf écrasé</Value>
+      <Value>Effet d&apos;Oeuf écrasé</Value>
     </Record>
     <Record>
       <Key>EntityAlien</Key>
@@ -750,7 +752,7 @@
     </Record>
     <Record>
       <Key>GasTankAir</Key>
-      <Value>Réservoir de Gaz (Air)</Value> <!-- Voir contexte -->
+      <Value>Réservoir de Gaz (Air)</Value>
     </Record>
     <Record>
       <Key>ItemActiveVent</Key>
@@ -758,7 +760,7 @@
     </Record>
     <Record>
       <Key>ItemAreaPowerControl</Key>
-      <Value>Contrôleur d'Alimentation</Value>
+      <Value>Contrôleur d&apos;Alimentation</Value>
     </Record>
     <Record>
       <Key>ItemBatteryCell</Key>
@@ -854,7 +856,7 @@
     </Record>
     <Record>
       <Key>ItemEggCarton</Key>
-      <Value>Carton d'Oeufs</Value>
+      <Value>Carton d&apos;Oeufs</Value>
     </Record>
     <Record>
       <Key>ItemEggTop</Key>
@@ -1206,7 +1208,7 @@
     </Record>
     <Record>
       <Key>ItemRTG</Key>
-      <Value>RTG</Value>  <!-- Creative uniquement -->
+      <Value>RTG</Value>
     </Record>
     <Record>
       <Key>ItemScanner</Key>
@@ -1290,7 +1292,7 @@
     </Record>
     <Record>
       <Key>ItemSteelSheets</Key>
-      <Value>Plaques d'Acier</Value>
+      <Value>Plaques d&apos;Acier</Value>
     </Record>
     <Record>
       <Key>ItemSuitStorage</Key>
@@ -1306,7 +1308,7 @@
     </Record>
     <Record>
       <Key>ItemToolBelt</Key>
-      <Value>Ceinture d'outils</Value>
+      <Value>Ceinture d&apos;outils</Value>
     </Record>
     <Record>
       <Key>ItemUraniumOre</Key>
@@ -1390,11 +1392,11 @@
     </Record>
     <Record>
       <Key>StructureAreaPowerControl</Key>
-      <Value>Contrôleur d'Alimentation</Value>
+      <Value>Contrôleur d&apos;Alimentation</Value>
     </Record>
     <Record>
       <Key>StructureAreaPowerControlReversed</Key>
-      <Value>Contrôleur d'Alimentation</Value>
+      <Value>Contrôleur d&apos;Alimentation</Value>
     </Record>
     <Record>
       <Key>StructureBackPressureRegulator</Key>
@@ -1410,7 +1412,7 @@
     </Record>
     <Record>
       <Key>StructureBench</Key>
-      <Value>Plan de travail</Value>  <!-- Pour poser micro onde -->
+      <Value>Plan de travail</Value>
     </Record>
     <Record>
       <Key>StructureBlastDoor</Key>
@@ -1682,7 +1684,7 @@
     </Record>
     <Record>
       <Key>StructurePowerConnector</Key>
-      <Value>Connecteur d'Alimentation</Value>
+      <Value>Connecteur d&apos;Alimentation</Value>
     </Record>
     <Record>
       <Key>StructurePressureRegulator</Key>
@@ -2142,11 +2144,11 @@
     </Record>
     <Record>
       <Key>StructureToolManufactory</Key>
-      <Value>Fabricateur d'Outils</Value>
+      <Value>Fabricateur d&apos;Outils</Value>
     </Record>
     <Record>
       <Key>ItemKitToolManufactory</Key>
-      <Value>Kit (Fabricateur d'Outils)</Value>
+      <Value>Kit (Fabricateur d&apos;Outils)</Value>
     </Record>
     <Record>
       <Key>StructureTransformerSmallReversed</Key>
@@ -2223,7 +2225,7 @@
     <Record>
       <Key>StructureSign1x1</Key>
       <Value>Panneau indicateur 1x1</Value>
-   </Record>
+    </Record>
     <Record>
       <Key>StructureSign2x1</Key>
       <Value>Panneau indicateur 2x1</Value>
@@ -2279,7 +2281,7 @@
     <Record>
       <Key>StructureConsoleLED1x3</Key>
       <Value>Afficheur à LED 1x3</Value>
-	</Record>
+    </Record>
     <Record>
       <Key>NpcChick</Key>
       <Value>Poussin</Value>
@@ -2310,11 +2312,11 @@
     </Record>
     <Record>
       <Key>ItemTomato</Key>
-      <Value>Tomate</Value> <!-- Nouveau -->
+      <Value>Tomate</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>StructureGasGenerator</Key>
-    <Value>Générateur (Gaz Combustible)</Value>
+      <Value>Générateur (Gaz Combustible)</Value>
     </Record>
     <Record>
       <Key>ItemKitGasGenerator</Key>
@@ -2334,8 +2336,8 @@
     </Record>
     <Record>
       <Key>ItemTomatoSoup</Key>
-      <Value>Soupe de tomate</Value> <!-- Nouveau -->
-    </Record>	
+      <Value>Soupe de tomate</Value>
+    </Record>
     <Record>
       <Key>ItemSoyOil</Key>
       <Value>Huile de Soja</Value>
@@ -2360,7 +2362,7 @@
       <Key>PortableSolarPanel</Key>
       <Value>Panneau Solaire portable</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>StructureCableJunction5</Key>
       <Value>Câble (Jonction à 5 Voies)</Value>
     </Record>
@@ -2384,7 +2386,7 @@
       <Key>StructureCableJunctionH5Burnt</Key>
       <Value>Câble HT Brûlé (Jonction à 5 Voies)</Value>
     </Record>
-		<Record>
+    <Record>
       <Key>WallFrameCornerCut</Key>
       <Value>Cadre (Coin coupé)</Value>
     </Record>
@@ -2454,15 +2456,15 @@
     </Record>
     <Record>
       <Key>StructureDockPortSide</Key>
-      <Value>Structure coté de Port d'amarrage</Value>
+      <Value>Structure coté de Port d&apos;amarrage</Value>
     </Record>
     <Record>
       <Key>ItemKitDockingPort</Key>
-      <Value>Kit (Port d'amarrage)</Value>
+      <Value>Kit (Port d&apos;amarrage)</Value>
     </Record>
     <Record>
       <Key>StructureDockShipSide</Key>
-      <Value>Structure coté d'amarrage vaisseau</Value>
+      <Value>Structure coté d&apos;amarrage vaisseau</Value>
     </Record>
     <Record>
       <Key>StructureLightLong</Key>
@@ -2494,11 +2496,11 @@
     </Record>
     <Record>
       <Key>CompositeFloorGrating1</Key>
-      <Value>Caillebotis Composite 1</Value>  <!-- déterminer quand il s'affiche -->
+      <Value>Caillebotis Composite 1</Value>
     </Record>
     <Record>
       <Key>CompositeFloorGrating2</Key>
-      <Value>Caillebotis Composite 2</Value>  <!-- déterminer quand il s'affiche -->
+      <Value>Caillebotis Composite 2</Value>
     </Record>
     <Record>
       <Key>StructureCompositeFloorGrating2</Key>
@@ -2520,7 +2522,7 @@
       <Key>StructureCompositeWallPanelling1</Key>
       <Value>Panneaux muraux composite</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>ItemKitCompositeFloorGrating</Key>
       <Value>Kit (Caillebotis)</Value>
     </Record>
@@ -2746,7 +2748,7 @@
     </Record>
     <Record>
       <Key>ItemAuthoringTool</Key>
-      <Value>Outil de création d'objet</Value>
+      <Value>Outil de création d&apos;objet</Value>
     </Record>
     <Record>
       <Key>StructureRocketEngineDestroyed</Key>
@@ -2756,7 +2758,7 @@
       <Key>ItemWreckageConstructor</Key>
       <Value>Debug Constructeur de débris</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>ItemWreckage1</Key>
       <Value>Débris</Value>
     </Record>
@@ -2772,57 +2774,57 @@
       <Key>ItemWreckage4</Key>
       <Value>Débris</Value>
     </Record>
-    <Record>       
+    <Record>
       <Key>CartridgeAccessController</Key>
-      <Value>Carte (Contrôleur d'accès)</Value>
+      <Value>Carte (Contrôleur d&apos;accès)</Value>
     </Record>
     <Record>
       <Key>AccessCardBlack</Key>
-      <Value>Carte d'accès (Noir)</Value>
+      <Value>Carte d&apos;accès (Noir)</Value>
     </Record>
     <Record>
       <Key>AccessCardBlue</Key>
-      <Value>Carte d'accès (Bleu)</Value>
+      <Value>Carte d&apos;accès (Bleu)</Value>
     </Record>
     <Record>
       <Key>AccessCardBrown</Key>
-      <Value>Carte d'accès (Marron)</Value>
+      <Value>Carte d&apos;accès (Marron)</Value>
     </Record>
     <Record>
       <Key>AccessCardGray</Key>
-      <Value>Carte d'accès (Grise)</Value>
+      <Value>Carte d&apos;accès (Grise)</Value>
     </Record>
     <Record>
       <Key>AccessCardGreen</Key>
-      <Value>Carte d'accès (Verte)</Value>
+      <Value>Carte d&apos;accès (Verte)</Value>
     </Record>
     <Record>
       <Key>AccessCardKhaki</Key>
-      <Value>Carte d'accès (Kaki)</Value>
+      <Value>Carte d&apos;accès (Kaki)</Value>
     </Record>
     <Record>
       <Key>AccessCardOrange</Key>
-      <Value>Carte d'accès (Orange)</Value>
+      <Value>Carte d&apos;accès (Orange)</Value>
     </Record>
     <Record>
       <Key>AccessCardPink</Key>
-      <Value>Carte d'accès (Rose)</Value>
+      <Value>Carte d&apos;accès (Rose)</Value>
     </Record>
     <Record>
       <Key>AccessCardPurple</Key>
-      <Value>Carte d'accès (Violete)</Value>
+      <Value>Carte d&apos;accès (Violete)</Value>
     </Record>
     <Record>
       <Key>AccessCardRed</Key>
-      <Value>Carte d'accès (Rouge)</Value>
+      <Value>Carte d&apos;accès (Rouge)</Value>
     </Record>
     <Record>
       <Key>AccessCardWhite</Key>
-      <Value>Carte d'accès (Blanche)</Value>
+      <Value>Carte d&apos;accès (Blanche)</Value>
     </Record>
     <Record>
       <Key>AccessCardYellow</Key>
-      <Value>Carte d'accès (Jaune)</Value>
+      <Value>Carte d&apos;accès (Jaune)</Value>
     </Record>
     <Record>
       <Key>StructureSecurityPrinter</Key>
@@ -2832,7 +2834,7 @@
       <Key>ItemKitSecurityPrinter</Key>
       <Value>Kit (Imprimante de Sécurité)</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>Handgun</Key>
       <Value>Pistolet</Value>
     </Record>
@@ -2870,7 +2872,7 @@
     </Record>
     <Record>
       <Key>StructureElevatorLevelFront</Key>
-      <Value>Niveau d'Ascenseur</Value>
+      <Value>Niveau d&apos;Ascenseur</Value>
     </Record>
     <Record>
       <Key>StructureCrateMount</Key>
@@ -2900,7 +2902,7 @@
       <Key>StructureDiodeSlide</Key>
       <Value>Bargraphe à LED</Value>
     </Record>
-	  <Record>
+    <Record>
       <Key>ItemGasCanisterSmart</Key>
       <Value>Bouteille de Gaz (Evoluée)</Value>
     </Record>
@@ -2927,10 +2929,10 @@
     <Record>
       <Key>ItemDynamicAirCon</Key>
       <Value>Kit (Climatiseur portable)</Value>
-	</Record>
+    </Record>
     <Record>
       <Key>ItemKitPipeValve</Key>
-      <Value>Kit (Vanne de Tuyau)</Value>  
+      <Value>Kit (Vanne de Tuyau)</Value>
     </Record>
     <Record>
       <Key>ItemKitDynamicGenerator</Key>
@@ -2952,7 +2954,7 @@
       <Key>StructureLogicBatchReader</Key>
       <Value>Unité Logique: Lecture Groupée</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>StructureLogicReagentReader</Key>
       <Value>Unité Logique: Lecture de contenu</Value>
     </Record>
@@ -2963,68 +2965,68 @@
     <Record>
       <Key>ItemHardsuitHelmet</Key>
       <Value>Casque Combinaison renforcée</Value>
-	</Record>
- <Record>
-      <Key>ItemWearLamp</Key>
-      <Value>Lampe frontale</Value> 
     </Record>
-	<Record>
+    <Record>
+      <Key>ItemWearLamp</Key>
+      <Value>Lampe frontale</Value>
+    </Record>
+    <Record>
       <Key>StructureTurbineGenerator</Key>
-      <Value>Générateur à Turbine</Value> 
+      <Value>Générateur à Turbine</Value>
     </Record>
     <Record>
       <Key>ItemKitTurbineGenerator</Key>
-      <Value>Kit (Générateur à Turbine)</Value> 
+      <Value>Kit (Générateur à Turbine)</Value>
     </Record>
     <Record>
       <Key>ReagentSilver</Key>
-      <Value>Poudre d'argent</Value> 
+      <Value>Poudre d&apos;argent</Value>
     </Record>
     <Record>
       <Key>ReagentPotassiumIodide</Key>
-      <Value>Pourdre de iodure de Potassium</Value> 
+      <Value>Pourdre de iodure de Potassium</Value>
     </Record>
     <Record>
       <Key>ReagentInvar</Key>
-      <Value>Poudre d'Invar</Value> 
+      <Value>Poudre d&apos;Invar</Value>
     </Record>
     <Record>
       <Key>ReagentElectrum</Key>
-      <Value>Poudre d'Electrum</Value> 
+      <Value>Poudre d&apos;Electrum</Value>
     </Record>
     <Record>
       <Key>ReagentGold</Key>
-      <Value>Poudre d'Or</Value> 
+      <Value>Poudre d&apos;Or</Value>
     </Record>
     <Record>
       <Key>StructureUnloader</Key>
-      <Value>Déchargeur</Value> 
+      <Value>Déchargeur</Value>
     </Record>
     <Record>
       <Key>ReagentFenoxitone</Key>
-      <Value>Poudre de Fenoxitone</Value> 
+      <Value>Poudre de Fenoxitone</Value>
     </Record>
     <Record>
       <Key>StructurePlatformLadderOpen</Key>
-      <Value>Platforme d'échelle</Value> 
+      <Value>Platforme d&apos;échelle</Value>
     </Record>
     <Record>
       <Key>StructureLadderEnd</Key>
-      <Value>Fin d'échelle</Value> 
+      <Value>Fin d&apos;échelle</Value>
     </Record>
     <Record>
       <Key>StructureLockerSmall</Key>
-      <Value>Casier (Petit)</Value> 
+      <Value>Casier (Petit)</Value>
     </Record>
     <Record>
       <Key>StructureLogicBatchSlotReader</Key>
-      <Value>Unité Logique: Lecture Slot groupés</Value> 
+      <Value>Unité Logique: Lecture Slot groupés</Value>
     </Record>
     <Record>
       <Key>CircuitboardAdvAirlockControl</Key>
-      <Value>Circuit imprimé (SAS amélioré)</Value> 
+      <Value>Circuit imprimé (SAS amélioré)</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>ItemKitPressurePlate</Key>
       <Value>Kit (Plaque de déclenchement)</Value>
     </Record>
@@ -3044,101 +3046,101 @@
       <Key>ItemKitDynamicCanister</Key>
       <Value>Kit (Réservoir portable)</Value>
     </Record>
-<Record>
+    <Record>
       <Key>ItemFlowerBlue</Key>
-      <Value>Fleur (Bleu)</Value> 
+      <Value>Fleur (Bleu)</Value>
     </Record>
     <Record>
       <Key>ItemFlowerOrange</Key>
-      <Value>Fleur (Orange)</Value> 
+      <Value>Fleur (Orange)</Value>
     </Record>
     <Record>
       <Key>ItemFlowerRed</Key>
-      <Value>Fleur (Rouge)</Value> 
+      <Value>Fleur (Rouge)</Value>
     </Record>
     <Record>
       <Key>ItemFlowerYellow</Key>
-      <Value>Fleur (Jaune)</Value> 
+      <Value>Fleur (Jaune)</Value>
     </Record>
     <Record>
       <Key>AppliancePaintMixer</Key>
-      <Value>Mélangeur de peinture</Value> 
+      <Value>Mélangeur de peinture</Value>
     </Record>
     <Record>
       <Key>ReagentColorBlue</Key>
-      <Value>Colorant (Bleu)</Value> 
+      <Value>Colorant (Bleu)</Value>
     </Record>
     <Record>
       <Key>ReagentCarbon</Key>
-      <Value>Poudre de carbone</Value> 
+      <Value>Poudre de carbone</Value>
     </Record>
     <Record>
       <Key>ReagentColorGreen</Key>
-      <Value>Colorant (Vert)</Value> 
+      <Value>Colorant (Vert)</Value>
     </Record>
     <Record>
       <Key>ReagentColorOrange</Key>
-      <Value>Colorant(Orange)</Value> 
+      <Value>Colorant(Orange)</Value>
     </Record>
     <Record>
       <Key>ReagentColorRed</Key>
-      <Value>Colorant (Rouge)</Value> 
+      <Value>Colorant (Rouge)</Value>
     </Record>
     <Record>
       <Key>ReagentColorYellow</Key>
-      <Value>Colorant (Jaune)</Value> 
+      <Value>Colorant (Jaune)</Value>
     </Record>
     <Record>
       <Key>ItemFlowerGreen</Key>
-      <Value>Fleur (Verte)</Value> 
+      <Value>Fleur (Verte)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterCarbonDioxideL</Key>
-      <Value>Grand Filtre (CO2)</Value> 
+      <Value>Grand Filtre (CO2)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterCarbonDioxideM</Key>
-      <Value>Filtre moyen (CO2)</Value> 
+      <Value>Filtre moyen (CO2)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterNitrogenL</Key>
-      <Value>Grand Filtre (Azote)</Value> 
+      <Value>Grand Filtre (Azote)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterNitrogenM</Key>
-      <Value>Filtre moyen (Azote)</Value> 
+      <Value>Filtre moyen (Azote)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterOxygenL</Key>
-      <Value>Grand Filtre (Oxygène)</Value> 
+      <Value>Grand Filtre (Oxygène)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterOxygenM</Key>
-      <Value>Filtre moyen (Oxygène)</Value> 
+      <Value>Filtre moyen (Oxygène)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterPollutantsL</Key>
-      <Value>Grand Filtre (Polluant)</Value> 
+      <Value>Grand Filtre (Polluant)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterPollutantsM</Key>
-      <Value>Filtre moyen (Polluant)</Value> 
+      <Value>Filtre moyen (Polluant)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterVolatilesL</Key>
-      <Value>Grand Filtre (Volatiles)</Value> 
+      <Value>Grand Filtre (Volatiles)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterVolatilesM</Key>
-      <Value>Filtre moyen (Volatiles)</Value> 
+      <Value>Filtre moyen (Volatiles)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterWaterL</Key>
-      <Value>Grand Filtre (Eau)</Value> 
+      <Value>Grand Filtre (Eau)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterWaterM</Key>
-      <Value>Filtre moyen (Eau)</Value> 
+      <Value>Filtre moyen (Eau)</Value>
     </Record>
     <Record>
       <Key>ItemMushroom</Key>
@@ -3158,39 +3160,89 @@
     </Record>
     <Record>
       <Key>ItemHardBackpack</Key>
-      <Value>Sac à dos renforcé</Value> 
+      <Value>Sac à dos renforcé</Value>
     </Record>
     <Record>
       <Key>ItemHardJetpack</Key>
-      <Value>Jetpack renforcé</Value> 
+      <Value>Jetpack renforcé</Value>
     </Record>
     <Record>
       <Key>DynamicHydroponics</Key>
-      <Value>Station Hydroponique portable</Value> 
+      <Value>Station Hydroponique portable</Value>
     </Record>
     <Record>
       <Key>ItemKitDynamicHydroponics</Key>
-      <Value>Kit (Station Hydroponique portable)</Value> 
+      <Value>Kit (Station Hydroponique portable)</Value>
     </Record>
     <Record>
       <Key>StructureKlaxon</Key>
-      <Value>Haut-Parleur</Value> 
+      <Value>Haut-Parleur</Value>
     </Record>
     <Record>
       <Key>ItemKitSpeaker</Key>
-      <Value>Kit (Haut Parleur)</Value> 
+      <Value>Kit (Haut Parleur)</Value>
     </Record>
     <Record>
       <Key>CartridgeOreScannerColor</Key>
       <Value>Cartouche (Scanner mineral en Couleur)</Value>
     </Record>
-
     <Record>
       <Key>StructureLogicWriterSwitch</Key>
-      <Value>Interrupteur Logique d'écriture</Value>
+      <Value>Interrupteur Logique d&apos;écriture</Value>
     </Record>
-    
-	</Things>
+    <Record>
+      <Key>MotherboardProgrammableChip</Key>
+      <Value>Motherboard (IC Editor)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicCircuit</Key>
+      <Value>Kit (IC Housing)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCircuitHousing</Key>
+      <Value>IC Housing</Value>
+    </Record>
+    <Record>
+      <Key>ItemIntegratedCircuit10</Key>
+      <Value>Integrated Circuit (IC10)</Value>
+    </Record>
+    <Record>
+      <Key>StructureHydroponicsAutomated</Key>
+      <Value>Automated Hydroponics</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitHydroponicAutomated</Key>
+      <Value>Kit (Automated Hydroponics)</Value>
+    </Record>
+    <Record>
+      <Key>ItemBasketBall</Key>
+      <Value>Basket Ball</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitBasket</Key>
+      <Value>Kit (Basket)</Value>
+    </Record>
+    <Record>
+      <Key>StructureBasketHoop</Key>
+      <Value>Structure Basket Hoop</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxide</Key>
+      <Value>Filter (Nitrous Oxide)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxideL</Key>
+      <Value>Heavy Filter (Nitrous Oxide)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxideM</Key>
+      <Value>Medium Filter (Nitrous Oxide)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterNitrousOxide</Key>
+      <Value>Gas Canister (Sleeping)</Value>
+    </Record>
+  </Things>
   <Slots>
     <Record>
       <Key>Output</Key>
@@ -3250,7 +3302,7 @@
     </Record>
     <Record>
       <Key>AirTank</Key>
-      <Value>Réservoir d'air</Value>
+      <Value>Réservoir d&apos;air</Value>
     </Record>
     <Record>
       <Key>WasteTank</Key>
@@ -3278,7 +3330,7 @@
     </Record>
     <Record>
       <Key>Cartridge</Key>
-      <Value>Carte d'accès</Value>
+      <Value>Carte d&apos;accès</Value>
     </Record>
     <Record>
       <Key>CaptainsSeat</Key>
@@ -3354,27 +3406,31 @@
     </Record>
     <Record>
       <Key>AccessCard</Key>
-      <Value>Carte d'accès</Value>
+      <Value>Carte d&apos;accès</Value>
     </Record>
     <Record>
       <Key>Magazine</Key>
-      <Value>Chargeur</Value> 
+      <Value>Chargeur</Value>
     </Record>
     <Record>
       <Key>ContainerSlot</Key>
-      <Value>Slot conteneur</Value> 
+      <Value>Slot conteneur</Value>
     </Record>
     <Record>
       <Key>Plant</Key>
-      <Value>Plante</Value> 
+      <Value>Plante</Value>
     </Record>
     <Record>
       <Key>Storage</Key>
-      <Value>Stockage</Value> 
+      <Value>Stockage</Value>
     </Record>
     <Record>
       <Key>Circuit</Key>
-      <Value>Circuit</Value> 
+      <Value>Circuit</Value>
+    </Record>
+    <Record>
+      <Key>ProgrammableChip</Key>
+      <Value>Programmable Chip</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -3655,6 +3711,10 @@
       <Value>Créer un Plan</Value>
     </Record>
     <Record>
+      <Key>Search</Key>
+      <Value>Search</Value>
+    </Record>
+    <Record>
       <Key>Button4</Key>
       <Value>Bouton4</Value>
     </Record>
@@ -3698,29 +3758,37 @@
       <Key>Color</Key>
       <Value>Couleur</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>Access</Key>
-      <Value>Accès</Value> 
+      <Value>Accès</Value>
     </Record>
     <Record>
       <Key>Magazine</Key>
-      <Value>Chargeur</Value> 
+      <Value>Chargeur</Value>
     </Record>
     <Record>
       <Key>TemperatureUp</Key>
-      <Value>Monter température</Value> 
+      <Value>Monter température</Value>
     </Record>
     <Record>
       <Key>TemperatureDown</Key>
-      <Value>Baisser température</Value> 
+      <Value>Baisser température</Value>
     </Record>
     <Record>
       <Key>ThrustUp</Key>
-      <Value>Monter poussée</Value> 
+      <Value>Monter poussée</Value>
     </Record>
     <Record>
       <Key>ThrustDown</Key>
-      <Value>Baisser poussée</Value> 
+      <Value>Baisser poussée</Value>
+    </Record>
+    <Record>
+      <Key>Button5</Key>
+      <Value>Button5</Value>
+    </Record>
+    <Record>
+      <Key>Button6</Key>
+      <Value>Button6</Value>
     </Record>
   </Interactables>
   <Interface>
@@ -3858,7 +3926,7 @@
     </Record>
     <Record>
       <Key>NewWorldEnableAwayMissions</Key>
-      <Value>Activer les missions à l'extérieur</Value>
+      <Value>Activer les missions à l&apos;extérieur</Value>
     </Record>
     <Record>
       <Key>InventorySlotBelt</Key>
@@ -3910,7 +3978,7 @@
     </Record>
     <Record>
       <Key>GameMenuButtonChangeCharacter</Key>
-      <Value>Changer d'Apparence</Value>
+      <Value>Changer d&apos;Apparence</Value>
     </Record>
     <Record>
       <Key>GameMenuButtonSettings</Key>
@@ -4002,7 +4070,7 @@
     </Record>
     <Record>
       <Key>SettingsTitleDisplayTools</Key>
-      <Value>Outils d'affichage</Value>
+      <Value>Outils d&apos;affichage</Value>
     </Record>
     <Record>
       <Key>SettingsTitleAutosave</Key>
@@ -4010,7 +4078,7 @@
     </Record>
     <Record>
       <Key>SettingsTitleScreen</Key>
-      <Value>Paramètres d'affichage</Value>
+      <Value>Paramètres d&apos;affichage</Value>
     </Record>
     <Record>
       <Key>SettingsTitleBasicScreen</Key>
@@ -4130,7 +4198,7 @@
     </Record>
     <Record>
       <Key>AlertButtonClose</Key>
-      <Value>Fermer</Value>  <!-- Déterminer contexte (surement menu) -->
+      <Value>Fermer</Value>
     </Record>
     <Record>
       <Key>AlertButtonTitle</Key>
@@ -4146,7 +4214,7 @@
     </Record>
     <Record>
       <Key>ButtonCancel</Key>
-      <Value>Annuler</Value>  <!-- Menu du jeu -->
+      <Value>Annuler</Value>
     </Record>
     <Record>
       <Key>InputTextRename</Key>
@@ -4202,7 +4270,7 @@
     </Record>
     <Record>
       <Key>SettingsAntialiasing</Key>
-      <Value>Méthode d'antialiasing</Value>
+      <Value>Méthode d&apos;antialiasing</Value>
     </Record>
     <Record>
       <Key>SettingsMenuMultiplayer</Key>
@@ -4230,7 +4298,7 @@
     </Record>
     <Record>
       <Key>SettingsUpdatePort</Key>
-      <Value>Port d'update</Value>
+      <Value>Port d&apos;update</Value>
     </Record>
     <Record>
       <Key>SettingsGamePort</Key>
@@ -4281,13 +4349,13 @@ Alors sors de là, Stationeer !</Value>
       <Key>SettingsInvertMouse</Key>
       <Value>Inverser la souris</Value>
     </Record>
-	    <Record>
+    <Record>
       <Key>MothershipConstruction</Key>
       <Value>&lt;color=yellow&gt;Construire sur le vaisseau mère.&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>MulticonstructorItem</Key>
-      <Value>&lt;color=yellow&gt;Option de construction {0} de {1} &lt;/color&gt; Scroll &lt;color=red&gt;Roulette de la souris&lt;/color&gt; pour plus d'options.</Value>
+      <Value>&lt;color=yellow&gt;Option de construction {0} de {1} &lt;/color&gt; Scroll &lt;color=red&gt;Roulette de la souris&lt;/color&gt; pour plus d&apos;options.</Value>
     </Record>
     <Record>
       <Key>UnableToConstruct</Key>
@@ -4327,11 +4395,11 @@ Alors sors de là, Stationeer !</Value>
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFace</Key>
-      <Value>L'emplacement est aligné sur les faces de la grille.</Value>
+      <Value>L&apos;emplacement est aligné sur les faces de la grille.</Value>
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFaceMount</Key>
-      <Value>Le placement n'est autorisé que sur les &lt;color=yellow&gt;{THING:StructureFrameIron}&lt;/color&gt; et &lt;color=yellow&gt;{THING:StructureFrame}&lt;/color&gt; directement. Si ceux-ci sont améliorés, ils offriront de meilleures options de placement.</Value>
+      <Value>Le placement n&apos;est autorisé que sur les &lt;color=yellow&gt;{THING:StructureFrameIron}&lt;/color&gt; et &lt;color=yellow&gt;{THING:StructureFrame}&lt;/color&gt; directement. Si ceux-ci sont améliorés, ils offriront de meilleures options de placement.</Value>
     </Record>
     <Record>
       <Key>GameMenuClearDisconnectedPlayers</Key>
@@ -4339,7 +4407,7 @@ Alors sors de là, Stationeer !</Value>
     </Record>
     <Record>
       <Key>SettingsInvertMouseWheelInventory</Key>
-      <Value>Inverser le défilement de l'inventaire</Value>
+      <Value>Inverser le défilement de l&apos;inventaire</Value>
     </Record>
     <Record>
       <Key>SettingsTitleMultiplayerAdvanced</Key>
@@ -4351,7 +4419,7 @@ Alors sors de là, Stationeer !</Value>
     </Record>
     <Record>
       <Key>SettingsTooltipOpacity</Key>
-      <Value>Opacité de l'info-bulle</Value>
+      <Value>Opacité de l&apos;info-bulle</Value>
     </Record>
     <Record>
       <Key>MenuDownloadDriverButton</Key>
@@ -4365,15 +4433,15 @@ Alors sors de là, Stationeer !</Value>
       <Key>SettingsChatFadeTimer</Key>
       <Value>Délais du fondu du chat</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>PromptResetSettingsTitle</Key>
       <Value>Réinitialiser les paramètres</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>PromptResetSettingsBody</Key>
       <Value>Etes vous sur ?</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>PromptResetSettingsConfirm</Key>
       <Value>Réinitialiser</Value>
     </Record>
@@ -4388,6 +4456,18 @@ Alors sors de là, Stationeer !</Value>
     <Record>
       <Key>PromptQuitConfirm</Key>
       <Value>Quitter</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeTitle</Key>
+      <Value>Unsubscribe</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeBody</Key>
+      <Value>Are you sure you want to unsubscribe from this Workshop item?</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeConfirm</Key>
+      <Value>Unsubscribe</Value>
     </Record>
     <Record>
       <Key>PromptOverwriteTitle</Key>
@@ -4450,20 +4530,20 @@ Alors sors de là, Stationeer !</Value>
       <Value>Respawn</Value>
     </Record>
     <Record>
-	<Key>PromptGiveUpTitle</Key>
-      <Value>Abandonner</Value> 
+      <Key>PromptGiveUpTitle</Key>
+      <Value>Abandonner</Value>
     </Record>
     <Record>
       <Key>PromptGiveUpBody</Key>
-      <Value>Vous êtes inconscient. Voulez-vous abandonner et réapparaitre ?</Value>  
+      <Value>Vous êtes inconscient. Voulez-vous abandonner et réapparaitre ?</Value>
     </Record>
     <Record>
       <Key>PromptGiveUpConfirm</Key>
-      <Value>Abandonner</Value> 
+      <Value>Abandonner</Value>
     </Record>
     <Record>
       <Key>AlertInvalidIP</Key>
-      <Value>Adresse IP non valide {0} \ nVérifier que l'adresse IP ou l'URL soit valide</Value>
+      <Value>Adresse IP non valide {0} \ nVérifier que l&apos;adresse IP ou l&apos;URL soit valide</Value>
     </Record>
     <Record>
       <Key>AlertPlayerCountExceeded</Key>
@@ -4476,7 +4556,7 @@ Alors sors de là, Stationeer !</Value>
     <Record>
       <Key>AlertNoResponse</Key>
       <Value>Le serveur de jeu ne répond pas. 
-Veuillez réessayer.</Value>					 
+Veuillez réessayer.</Value>
     </Record>
     <Record>
       <Key>AlertKicked</Key>
@@ -4492,7 +4572,7 @@ Veuillez réessayer.</Value>
     </Record>
     <Record>
       <Key>AlertCannotUpdatePort</Key>
-      <Value>Impossible de modifier le port de mise à jour pendant l'exécution du serveur.</Value>
+      <Value>Impossible de modifier le port de mise à jour pendant l&apos;exécution du serveur.</Value>
     </Record>
     <Record>
       <Key>AlertBlankSaveName</Key>
@@ -4516,7 +4596,7 @@ Veuillez réessayer.</Value>
     </Record>
     <Record>
       <Key>JoinMenuAddressPlaceholder</Key>
-      <Value>Entrez IP: Port ici...</Value>	   
+      <Value>Entrez IP: Port ici...</Value>
     </Record>
     <Record>
       <Key>JoinMenuServerDetailConnectButton</Key>
@@ -4544,7 +4624,7 @@ Veuillez réessayer.</Value>
     </Record>
     <Record>
       <Key>SaveMenuNamePlaceholder</Key>
-      <Value>Entrer le nom d'enregistrement...</Value>
+      <Value>Entrer le nom d&apos;enregistrement...</Value>
     </Record>
     <Record>
       <Key>NewWorldModeCreative</Key>
@@ -4580,7 +4660,7 @@ Veuillez réessayer.</Value>
     </Record>
     <Record>
       <Key>ChangeAppearanceTitle</Key>
-      <Value>Changer d'Apparence</Value>
+      <Value>Changer d&apos;Apparence</Value>
     </Record>
     <Record>
       <Key>AppearanceTitleGender</Key>
@@ -4632,7 +4712,7 @@ Veuillez réessayer.</Value>
     </Record>
     <Record>
       <Key>JoinMenuButtonStopRefresh</Key>
-      <Value>Arrêter l'actualisation</Value>
+      <Value>Arrêter l&apos;actualisation</Value>
     </Record>
     <Record>
       <Key>JoinMenuIncompatibleVersions</Key>
@@ -4728,17 +4808,17 @@ Veuillez réessayer.</Value>
     </Record>
     <Record>
       <Key>NewWorldMoonDesc</Key>
-      <Value>Alors vous êtes coincé sur la lune, mais tout n'est pas perdu...
+      <Value>Alors vous êtes coincé sur la lune, mais tout n&apos;est pas perdu...
 Bien sûr, il y fait froid, rude et monotone, mais au moins le soleil brille. Le panneau solaire va vous être utile, ainsi que le contrôleur de puissance ... et aussi le four à arc.	  
-Il y a même un peu de nourriture et d'oxygène dans les autres caisses, même si ça ne va pas durer éternellement... tout comme votre batterie...
+Il y a même un peu de nourriture et d&apos;oxygène dans les autres caisses, même si ça ne va pas durer éternellement... tout comme votre batterie...
 Vous feriez mieux de commencer à réfléchir comment vous aller survivre. À quel point cela pourrait être difficile de gréer un SAS ? Un générateur ? Peut-être même faire fondre du minerai et construire votre base ?
 On dirait que vous allez être ici un moment.</Value>
     </Record>
     <Record>
       <Key>NewWorldSpaceDesc</Key>
-      <Value>C'est le mode créatif de Stationeers!
-Spawn avec n'importe quel article, tester des idées et construire trucs de cinglé rapidement.
-&lt;color=red&gt;Ce mode est expérimental.&lt;/color&gt; Pensez-y comme une fête spatiale libre où des choses* passionnantes et inattendues peuvent et vont se produire. C'est une experience plus sûr que le mode Survie.
+      <Value>C&apos;est le mode créatif de Stationeers!
+Spawn avec n&apos;importe quel article, tester des idées et construire trucs de cinglé rapidement.
+&lt;color=red&gt;Ce mode est expérimental.&lt;/color&gt; Pensez-y comme une fête spatiale libre où des choses* passionnantes et inattendues peuvent et vont se produire. C&apos;est une experience plus sûr que le mode Survie.
 Ne soyez pas triste quand vous vous faites exploser en minuscules petits morceaux ou que vous vous faites massacrer par des poulets ou que vous explosez lentement tout en dérivant seul dans le vide infini.
 *bugs</Value>
     </Record>
@@ -4758,7 +4838,7 @@ Ne soyez pas triste quand vous vous faites exploser en minuscules petits morceau
       <Key>SettingsDisableParticlesOnMenu</Key>
       <Value>Désactiver les particules dans le menu</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>SettingsMouseWheelZoom</Key>
       <Value>Zoom avec molette souris</Value>
     </Record>
@@ -4776,13 +4856,13 @@ Ne soyez pas triste quand vous vous faites exploser en minuscules petits morceau
     </Record>
     <Record>
       <Key>SettingsSunOrbitPeriod</Key>
-      <Value>Période d'orbite solaire</Value>
+      <Value>Période d&apos;orbite solaire</Value>
     </Record>
     <Record>
       <Key>SettingsExtendedTerrain</Key>
       <Value>Terrain étendu</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>RenameThing</Key>
       <Value>Renomer {0}</Value>
     </Record>
@@ -4833,7 +4913,7 @@ Temperature {1}</Value>
     </Record>
     <Record>
       <Key>HoldForPreviousObject</Key>
-      <Value>Maintenir {KEY:QuantityModifier} pour l'objet précédent</Value>
+      <Value>Maintenir {KEY:QuantityModifier} pour l&apos;objet précédent</Value>
     </Record>
     <Record>
       <Key>ChangeSettingToFor</Key>
@@ -4841,91 +4921,145 @@ Temperature {1}</Value>
     </Record>
     <Record>
       <Key>SettingsAtmosphericScattering</Key>
-      <Value>Diffusion atmosphérique</Value> 
+      <Value>Diffusion atmosphérique</Value>
     </Record>
     <Record>
       <Key>ButtonReset</Key>
-      <Value>Réinitialiser</Value> 
+      <Value>Réinitialiser</Value>
     </Record>
     <Record>
       <Key>ButtonClear</Key>
-      <Value>Effacer</Value> 
+      <Value>Effacer</Value>
     </Record>
     <Record>
       <Key>StatusWindowThrust</Key>
-      <Value>Poussée</Value> 
+      <Value>Poussée</Value>
     </Record>
     <Record>
       <Key>SettingsAmbientOcclusion</Key>
-      <Value>Occlusion ambiante</Value> 
+      <Value>Occlusion ambiante</Value>
     </Record>
     <Record>
       <Key>SettingsLensFlares</Key>
-      <Value>Effet lentille lumineuse</Value> 
+      <Value>Effet lentille lumineuse</Value>
     </Record>
     <Record>
       <Key>SettingsInputSettings</Key>
-      <Value>Paramètres d'entrée</Value> 
+      <Value>Paramètres d&apos;entrée</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaEuropa</Key>
-      <Value>Europa</Value> 
+      <Value>Europa</Value>
     </Record>
     <Record>
       <Key>SettingsTitleAudioAlerts</Key>
-      <Value>Notifications vocales</Value> 
-	</Record>
+      <Value>Notifications vocales</Value>
+    </Record>
     <Record>
       <Key>InventoryCloseAll</Key>
-      <Value>Tout fermer</Value> <!-- fermeture des fenetres inventaire -->
+      <Value>Tout fermer</Value>
     </Record>
     <Record>
       <Key>ButtonResetWindows</Key>
-      <Value>Réinitialiser les fenêtres</Value> 
+      <Value>Réinitialiser les fenêtres</Value>
     </Record>
     <Record>
       <Key>ConnectionFiltered</Key>
-      <Value>Filtré</Value> 
+      <Value>Filtré</Value>
     </Record>
     <Record>
       <Key>ConnectionUnfiltered</Key>
-      <Value>Non filtré</Value> 
+      <Value>Non filtré</Value>
     </Record>
     <Record>
       <Key>ConnectionInput</Key>
-      <Value>Entrée</Value> 
+      <Value>Entrée</Value>
     </Record>
     <Record>
       <Key>ConnectionOutput</Key>
-      <Value>Sortie</Value> 
+      <Value>Sortie</Value>
     </Record>
     <Record>
       <Key>ConnectionWaste</Key>
-      <Value>Déchets</Value> 
+      <Value>Déchets</Value>
     </Record>
     <Record>
       <Key>ConnectionBreathing</Key>
-      <Value>Respiration</Value> 
+      <Value>Respiration</Value>
     </Record>
     <Record>
       <Key>ConnectionPropellant</Key>
-      <Value>Propergol</Value> 
+      <Value>Propergol</Value>
     </Record>
     <Record>
       <Key>SettingsChunkRenderDistance</Key>
-      <Value>Distance de rendu</Value> 
+      <Value>Distance de rendu</Value>
     </Record>
- <Record>
+    <Record>
       <Key>ScenarioScoreboardBackToMenu</Key>
-      <Value>Sortir vers le menu</Value> 
+      <Value>Sortir vers le menu</Value>
     </Record>
     <Record>
       <Key>ScenarioScoreboardReturnToGame</Key>
-      <Value>Revenir en jeu</Value> 
+      <Value>Revenir en jeu</Value>
     </Record>
     <Record>
       <Key>ScenarioScoreboardHeading</Key>
-      <Value>Scénario terminé</Value> 
+      <Value>Scénario terminé</Value>
+    </Record>
+    <Record>
+      <Key>ButtonCopy</Key>
+      <Value>Copy</Value>
+    </Record>
+    <Record>
+      <Key>ButtonPaste</Key>
+      <Value>Paste</Value>
+    </Record>
+    <Record>
+      <Key>ButtonHelp</Key>
+      <Value>Help</Value>
+    </Record>
+    <Record>
+      <Key>ButtonVariables</Key>
+      <Value>x</Value>
+    </Record>
+    <Record>
+      <Key>ButtonSlotVar</Key>
+      <Value>s(x)</Value>
+    </Record>
+    <Record>
+      <Key>HeadingHelp</Key>
+      <Value>help</Value>
+    </Record>
+    <Record>
+      <Key>ButtonLoad</Key>
+      <Value>Load</Value>
+    </Record>
+    <Record>
+      <Key>HeadingEdit</Key>
+      <Value>Edit</Value>
+    </Record>
+    <Record>
+      <Key>ButtonFunctions</Key>
+      <Value>f</Value>
+    </Record>
+    <Record>
+      <Key>ButtonLibrary</Key>
+      <Value>Library</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuAdvanced</Key>
+      <Value>Advanced
+
+</Value>
+    </Record>
+    <Record>
+      <Key>SettingsLegacyInventory</Key>
+      <Value>Legacy Inventory</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDisableWaterVisualizer</Key>
+      <Value>Disable Water Visualizer</Value>
     </Record>
   </Interface>
   <Colors>
@@ -4978,7 +5112,7 @@ Temperature {1}</Value>
       <Value>Violet</Value>
     </Record>
   </Colors>
-  <Keys/>
+  <Keys />
   <Mineables>
     <Record>
       <Key>Iron</Key>
@@ -5029,5 +5163,5 @@ Temperature {1}</Value>
       <Value>Silicium</Value>
     </Record>
   </Mineables>
- <GameTip/>
+  <GameTip />
 </Language>

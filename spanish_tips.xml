@@ -1,7 +1,5 @@
-<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-<!-- Versión: v0.1.1492.7067    FECHA = 13-07-2018 -->
+﻿<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>ES</Code>
-  <Font>font_extended</Font>
   <GameTip>
     <String>Pulsar {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot}, o {KEY:ToolBeltSlot} para alternar entre las interacciones y las ranuras en cualquier artículo de ranura que esté usando. Pulsar y mantener para intercambiar entre esa ranura y sus mano activa.</String>
     <String>Pulsar {KEY:ToggleHandPower} para encender o apagar rápidamente lo que estás sosteniendo en su mano.</String>
@@ -9,19 +7,19 @@
     <String>Pulsar {KEY:EmoteWave} para hacer que tu personaje salude en otras estaciones.</String>
     <String>Pulsar {KEY:Jetpack} para activar o desactivar rápidamente su propulsión {THING:ItemSpacepack}.</String>
     <String>Pulsar {KEY:ToggleUI} para activar o desactivar la Interfaz de usuario y obtener increíbles capturas de pantalla o vídeo.</String>
-    <String>Presionar {KEY:Ascend} te hará ascender si tu  {THING:ItemSpacepack} está encendido, de lo contrario tu personaje intentará saltar. Puede activar o desactivar la {THING:ItemSpacepack} o usando la tecla {KEY:Jetpack} .</String>
-    <String>Presionar {KEY:Descend} te hará descender si tu {THING:ItemSpacepack} está encendido. Puede activar o desactivar {THING:ItemSpacepack} encendido o apagado usando la tecla {KEY:Jetpack} .</String>	<String>Pulsar the {KEY:InventorySelect} key if you want to swap something between an open inventory slot and your active hand.</String>
+	<String>Presionar {KEY:Ascend} te hará ascender si tu  {THING:ItemSpacepack} está encendido, de lo contrario tu personaje intentará saltar. Puede activar o desactivar la {THING:ItemSpacepack} o usando la tecla {KEY:Jetpack} .</String>
+	<String>Presionar {KEY:Descend} te hará descender si tu {THING:ItemSpacepack} está encendido. Puede activar o desactivar {THING:ItemSpacepack} encendido o apagado usando la tecla {KEY:Jetpack} .</String>
 	<String>Pulsa la tecla {KEY:InventorySelect} si desea cambiar algo entre una ranura de inventario abierta y su mano activa.</String>
-	<String>Presionar y soltar la tecla {KEY:Drop} le hará soltar inmediatamente lo que tenga en sus manos. Si mantiene pulsada la tecla {KEY:Drop}, intentará lanzarla. Cuanto más lo sostengas, más lejos lanzarás.para cambiar de mano activa. Presionar {KEY:ActiveHandSlot} recorrerá las opciones de interacción de lo que tenga en su mano activa. </String>
+	<String>Pressing and releasing the {KEY:Drop} key will make you immediately drop whatever is in your hands. If you hold the {KEY:Drop} key down, it will try to throw it. The longer you hold it, the further you will throw.</String>
 	<String>Presionar {KEY:SwapHands} para cambiar de mano activa. Presionar {KEY:ActiveHandSlot} recorrerá las opciones de interacción de lo que tenga en su mano activa. </String>
 	<String>Pulsar {KEY:Internals} para abrir o cerrar rápidamente su {THING:ItemSpaceHelmet}.</String>
 	<String>Pulsar {KEY:Chatting} para empezar a chatear con otros jugadores. Aparecerá un pequeño cuadro en la parte inferior derecha de la pantalla con el texto que escriba antes de enviarlo.</String>
 	<String>Para cambiar la orientación de su cursor de construcción, presione {KEY:RotateLeft} para girar hacia la izquierda, {KEY:RotateRight} para rotar hacia la derecha,{KEY:RotateUp} para girar hacia arriba, {KEY:RotateDown} para rotar hacia abajo, {KEY:RotateRollLeft} para rodar hacia la izquierda, o {KEY:RotateRollRight} para rodar hacia la derecha.</String>
 	<String>¿Quieres saber cómo hacer algo? Inserta un {THING:CartridgeElectronicReader} en un {THING:ItemTablet} y enciéndelo con la tecla {KEY:ToggleHandPower} mientras está en tu mano activalo.</String>
-    <String>Mantenga un {THING:ItemWeldingTorch} en una mano mientras está encendido, y un stack de {THING:ItemIronSheets} en otro con el fin de actualizar el estado de construcción de un {THING:StructureFrameIron}.</String>
-    <String>Coloca un stack de {THING:ItemIronOre} en un powered {THING:StructureArcFurnace} para fundirla en {THING:ItemIronIngot} .</String>
-    <String>Coloca un {THING:MotherboardLogic} en un {THING:StructureComputer} para habilitar el control de la lógica. Podrá agregar condiciones y acciones que controlen los estados de los dispositivos en la misma red de datos.</String>
-    <String>Al modificar la cantidad de algo a través de un botón en el mundo, mantenga pulsada {KEY:QuantityModifier} mientras hace clic para usar incrementos más pequeños.</String>
+	<String>Mantenga un {THING:ItemWeldingTorch} en una mano mientras está encendido, y un stack de {THING:ItemIronSheets} en otro con el fin de actualizar el estado de construcción de un {THING:StructureFrameIron}.</String>
+	<String>Coloca un stack de {THING:ItemIronOre} en un powered {THING:StructureArcFurnace} para fundirla en {THING:ItemIronIngot} .</String>
+	<String>Coloca un {THING:MotherboardLogic} en un {THING:StructureComputer} para habilitar el control de la lógica. Podrá agregar condiciones y acciones que controlen los estados de los dispositivos en la misma red de datos.</String>
+	<String>Al modificar la cantidad de algo a través de un botón en el mundo, mantenga pulsada {KEY:QuantityModifier} mientras hace clic para usar incrementos más pequeños.</String>
 	<String>Utilice un {THING:ItemKitLogicInputOutput} para crear un {THING:StructureLogicReader} o {THING:StructureLogicWriter}. Los lectores le permiten leer los valores de otros dispositivos, los escritores le permiten cambiar los valores de los dispositivos. Cuando se combina con unidades de matemáticas, usted puede hacer sistemas automatizados extremadamente complejos.</String>
 	<String>Utilice un {THING:ItemKitLogicInputOutput} para crear un {THING:StructureLogicBatchReader} o {THING:StructureLogicBatchWriter}. Los lectores le permiten leer valores de un grupo entero de otros dispositivos, los escritores le permiten cambiar valores en grupos enteros de otros dispositivos.</String>
 	<String>Utilice un {THING:ItemKitLogicInputOutput} para crear un {THING:StructureLogicSlotReader} que le permita leer los valores de las ranuras del dispositivo con ranuras. Algunos dispositivos permiten que usted consiga la información especializada de la ranura tal como crecimiento de la planta en el {THING:StructureHydroponicsStation}.</String>

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Portugues</Name>
+  <Name>Portuges</Name>
   <Code>PT</Code>
-  <Font>font_extended</Font>
-  <!-- Tradução Portuguesa por DinhoBRJ - 28072018 -->
+  <Font>font_</Font>
   <Reagents>
     <RecordReagent>
       <Key>Flour</Key>
@@ -115,12 +114,17 @@
       <Value>Óleo</Value>
       <Unit>ml</Unit>
     </RecordReagent>
-	<RecordReagent>
+    <RecordReagent>
       <Key>Potato</Key>
       <Value>Batata</Value>
       <Unit />
     </RecordReagent>
-	<RecordReagent>
+    <RecordReagent>
+      <Key>Tomato</Key>
+      <Value>Tomato</Value>
+      <Unit>Tomato.Unit</Unit>
+    </RecordReagent>
+    <RecordReagent>
       <Key>Fenoxitone</Key>
       <Value>Fenoxitone</Value>
       <Unit>g</Unit>
@@ -150,6 +154,16 @@
       <Value>Coloração Laranja</Value>
       <Unit>g</Unit>
     </RecordReagent>
+    <RecordReagent>
+      <Key>Pumpkin</Key>
+      <Value>Pumpkin</Value>
+      <Unit>Pumpkin.Unit</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Rice</Key>
+      <Value>Rice</Value>
+      <Unit>Rice.Unit</Unit>
+    </RecordReagent>
   </Reagents>
   <Gases>
     <Record>
@@ -176,9 +190,13 @@
       <Key>Water</Key>
       <Value>Água</Value>
     </Record>
+    <Record>
+      <Key>NitrousOxide</Key>
+      <Value>Nitrous Oxide</Value>
+    </Record>
   </Gases>
   <Actions>
- 	<Record>
+    <Record>
       <Key>Reload</Key>
       <Value>Recarregar</Value>
     </Record>
@@ -322,7 +340,7 @@
       <Key>Rename</Key>
       <Value>Renomear</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>Up</Key>
       <Value>Cima</Value>
     </Record>
@@ -1036,7 +1054,7 @@
       <Key>ItemKitSensor</Key>
       <Value>Kit de Construção (Sensores)</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>ItemKitSign</Key>
       <Value>Kit de Construção (Placa)</Value>
     </Record>
@@ -1709,6 +1727,10 @@
       <Value>Organizador</Value>
     </Record>
     <Record>
+      <Key>StructureStackerReverse</Key>
+      <Value>Stacker</Value>
+    </Record>
+    <Record>
       <Key>StructureStairs4x2</Key>
       <Value>Escadas</Value>
     </Record>
@@ -1907,10 +1929,6 @@
     <Record>
       <Key>ItemKitFabrication</Key>
       <Value>Kit de Construção (Fabricação)</Value>
-    </Record>
-    <Record>
-      <Key>ItemPipeKit</Key>
-      <Value>Item Kit de Canos</Value>
     </Record>
     <Record>
       <Key>ItemKitPipe</Key>
@@ -2136,7 +2154,7 @@
       <Key>StructureTransformerSmallReversed</Key>
       <Value>Transformador (Pequeno)</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>StructureLogicUnit</Key>
       <Value>Unidade Lógica</Value>
     </Record>
@@ -2264,7 +2282,7 @@
       <Key>StructureConsoleLED1x3</Key>
       <Value>Visor de LED (Grande)</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>NpcChick</Key>
       <Value>Pinto</Value>
     </Record>
@@ -2284,13 +2302,17 @@
       <Key>ItemKitBeacon</Key>
       <Value>Kit (Farol)</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>StructureTankBig</Key>
       <Value>Tanque Grande</Value>
     </Record>
     <Record>
       <Key>ItemPotato</Key>
       <Value>Batata</Value>
+    </Record>
+    <Record>
+      <Key>ItemTomato</Key>
+      <Value>Tomato</Value>
     </Record>
     <Record>
       <Key>StructureGasGenerator</Key>
@@ -2300,7 +2322,7 @@
       <Key>ItemKitGasGenerator</Key>
       <Value>Kit (Gerador a gás)</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>DynamicGPR</Key>
       <Value>Radar Penetrante Térmico (GPR)</Value>
     </Record>
@@ -2308,9 +2330,13 @@
       <Key>CartridgeOreScanner</Key>
       <Value>Cartucho (Scanner de Minério)</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>ItemPotatoBaked</Key>
       <Value>Batata Assada</Value>
+    </Record>
+    <Record>
+      <Key>ItemTomatoSoup</Key>
+      <Value>Tomato Soup</Value>
     </Record>
     <Record>
       <Key>ItemSoyOil</Key>
@@ -2336,7 +2362,7 @@
       <Key>PortableSolarPanel</Key>
       <Value>Painel Solar Portátil</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>StructureCableJunction5</Key>
       <Value>Fio (Junção de 5 vias)</Value>
     </Record>
@@ -2353,14 +2379,14 @@
       <Value>Fio Queimado (Junção de 5 Vias)</Value>
     </Record>
     <Record>
-      <Key>StructureCableHeavyJunction5</Key>
-      <Value>Fio Pesado Queimado (Junção de 5 Vias)</Value>
+      <Key>StructureCableJunctionH5</Key>
+      <Value>Heavy Cable (5-Way Junction)</Value>
     </Record>
     <Record>
       <Key>StructureCableJunctionH5Burnt</Key>
       <Value>Fio Pesado Queimado (Junção de 5 Vias)</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>WallFrameCornerCut</Key>
       <Value>Frame (Corner Cut)</Value>
     </Record>
@@ -3116,6 +3142,106 @@
       <Key>ItemGasFilterWaterM</Key>
       <Value>Medium Filter (Water)</Value>
     </Record>
+    <Record>
+      <Key>ItemMushroom</Key>
+      <Value>Mushroom</Value>
+    </Record>
+    <Record>
+      <Key>ItemPumpkin</Key>
+      <Value>Pumpkin</Value>
+    </Record>
+    <Record>
+      <Key>ItemRice</Key>
+      <Value>Rice</Value>
+    </Record>
+    <Record>
+      <Key>ItemPumpkinPie</Key>
+      <Value>Pumpkin Pie</Value>
+    </Record>
+    <Record>
+      <Key>ItemHardBackpack</Key>
+      <Value>Hardsuit Backpack</Value>
+    </Record>
+    <Record>
+      <Key>ItemHardJetpack</Key>
+      <Value>Hardsuit Jetpack</Value>
+    </Record>
+    <Record>
+      <Key>DynamicHydroponics</Key>
+      <Value>Portable Hydroponics</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitDynamicHydroponics</Key>
+      <Value>Kit (Portable Hydroponics)</Value>
+    </Record>
+    <Record>
+      <Key>StructureKlaxon</Key>
+      <Value>Klaxon Speaker</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSpeaker</Key>
+      <Value>Kit (Speaker)</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeOreScannerColor</Key>
+      <Value>Cartridge (Ore Scanner (Color))</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicWriterSwitch</Key>
+      <Value>Logic Writer Switch</Value>
+    </Record>
+    <Record>
+      <Key>MotherboardProgrammableChip</Key>
+      <Value>Motherboard (IC Editor)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicCircuit</Key>
+      <Value>Kit (IC Housing)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCircuitHousing</Key>
+      <Value>IC Housing</Value>
+    </Record>
+    <Record>
+      <Key>ItemIntegratedCircuit10</Key>
+      <Value>Integrated Circuit (IC10)</Value>
+    </Record>
+    <Record>
+      <Key>StructureHydroponicsAutomated</Key>
+      <Value>Automated Hydroponics</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitHydroponicAutomated</Key>
+      <Value>Kit (Automated Hydroponics)</Value>
+    </Record>
+    <Record>
+      <Key>ItemBasketBall</Key>
+      <Value>Basket Ball</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitBasket</Key>
+      <Value>Kit (Basket)</Value>
+    </Record>
+    <Record>
+      <Key>StructureBasketHoop</Key>
+      <Value>Structure Basket Hoop</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxide</Key>
+      <Value>Filter (Nitrous Oxide)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxideL</Key>
+      <Value>Heavy Filter (Nitrous Oxide)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxideM</Key>
+      <Value>Medium Filter (Nitrous Oxide)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterNitrousOxide</Key>
+      <Value>Gas Canister (Sleeping)</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -3278,7 +3404,7 @@
       <Key>LoadingRail</Key>
       <Value>Trilho de Carregamento</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>AccessCard</Key>
       <Value>Cartão de Acesso</Value>
     </Record>
@@ -3301,6 +3427,10 @@
     <Record>
       <Key>Circuit</Key>
       <Value>Circuito</Value>
+    </Record>
+    <Record>
+      <Key>ProgrammableChip</Key>
+      <Value>Programmable Chip</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -3435,10 +3565,6 @@
     <Record>
       <Key>PressureDown</Key>
       <Value>Diminuir Pressão</Value>
-    </Record>
-    <Record>
-      <Key />
-      <Value />
     </Record>
     <Record>
       <Key>Flush</Key>
@@ -3585,6 +3711,10 @@
       <Value>Criar Plano</Value>
     </Record>
     <Record>
+      <Key>Search</Key>
+      <Value>Search</Value>
+    </Record>
+    <Record>
       <Key>Button4</Key>
       <Value>Button4</Value>
     </Record>
@@ -3628,6 +3758,38 @@
       <Key>Color</Key>
       <Value>Color</Value>
     </Record>
+    <Record>
+      <Key>Access</Key>
+      <Value>Access</Value>
+    </Record>
+    <Record>
+      <Key>Magazine</Key>
+      <Value>Magazine</Value>
+    </Record>
+    <Record>
+      <Key>TemperatureUp</Key>
+      <Value>Temperature Up</Value>
+    </Record>
+    <Record>
+      <Key>TemperatureDown</Key>
+      <Value>Temperature Down</Value>
+    </Record>
+    <Record>
+      <Key>ThrustUp</Key>
+      <Value>Thrust Up</Value>
+    </Record>
+    <Record>
+      <Key>ThrustDown</Key>
+      <Value>Thrust Down</Value>
+    </Record>
+    <Record>
+      <Key>Button5</Key>
+      <Value>Button5</Value>
+    </Record>
+    <Record>
+      <Key>Button6</Key>
+      <Value>Button6</Value>
+    </Record>
   </Interactables>
   <Interface>
     <Record>
@@ -3649,7 +3811,7 @@
     <Record>
       <Key>MainMenuWorkshop</Key>
       <Value>Oficina</Value>
-	</Record>
+    </Record>
     <Record>
       <Key>MainMenuSettings</Key>
       <Value>Configurações</Value>
@@ -3721,10 +3883,6 @@
     <Record>
       <Key>JoinMenuButtonJoin</Key>
       <Value>Juntar-se</Value>
-    </Record>
-	    <Record>
-      <Key>JoinMenuServerListMap</Key>
-      <Value>Mapa</Value>
     </Record>
     <Record>
       <Key>JoinMenuServerListName</Key>
@@ -4176,7 +4334,9 @@
     </Record>
     <Record>
       <Key>TutorialCompleteMessage</Key>
-      <Value>Ainda há muito o que aprender. Então vá descobrir, Stationeer!&#10;&#10;Tradução: DinhoBRJ</Value>
+      <Value>Ainda há muito o que aprender. Então vá descobrir, Stationeer!
+
+Tradução: DinhoBRJ</Value>
     </Record>
     <Record>
       <Key>TutorialBackToMenu</Key>
@@ -4300,6 +4460,18 @@ Scroll &lt;color=red&gt;Roda do Mouse&lt;/color&gt; para mais opções.</Value>
       <Value>Sair</Value>
     </Record>
     <Record>
+      <Key>PromptUnsubscribeTitle</Key>
+      <Value>Unsubscribe</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeBody</Key>
+      <Value>Are you sure you want to unsubscribe from this Workshop item?</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeConfirm</Key>
+      <Value>Unsubscribe</Value>
+    </Record>
+    <Record>
       <Key>PromptOverwriteTitle</Key>
       <Value>Sobrescrever</Value>
     </Record>
@@ -4358,6 +4530,18 @@ Scroll &lt;color=red&gt;Roda do Mouse&lt;/color&gt; para mais opções.</Value>
     <Record>
       <Key>PromptRespawnConfirm</Key>
       <Value>Renascer</Value>
+    </Record>
+    <Record>
+      <Key>PromptGiveUpTitle</Key>
+      <Value>Give Up</Value>
+    </Record>
+    <Record>
+      <Key>PromptGiveUpBody</Key>
+      <Value>You are unconscious. Do you want to give up and respawn?</Value>
+    </Record>
+    <Record>
+      <Key>PromptGiveUpConfirm</Key>
+      <Value>Give Up</Value>
     </Record>
     <Record>
       <Key>AlertInvalidIP</Key>
@@ -4511,7 +4695,7 @@ Scroll &lt;color=red&gt;Roda do Mouse&lt;/color&gt; para mais opções.</Value>
       <Key>AppearanceTitleFacialHairStyle</Key>
       <Value>Barba</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>SettingsStartingCondition</Key>
       <Value>Condição inicial</Value>
     </Record>
@@ -4547,7 +4731,7 @@ Scroll &lt;color=red&gt;Roda do Mouse&lt;/color&gt; para mais opções.</Value>
       <Key>JoinWorldEmptyServers</Key>
       <Value>Ocultar servidores vazios</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>WorkshopSubscribedModsTitle</Key>
       <Value>Mods Inscritos</Value>
     </Record>
@@ -4659,7 +4843,7 @@ Não fique triste quando se explodir em minúsculos e minúsculos pedaços ou se
       <Key>SettingsDisableParticlesOnMenu</Key>
       <Value>Desativar Partículas</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>SettingsMouseWheelZoom</Key>
       <Value>Mouse Wheel Zoom</Value>
     </Record>
@@ -4827,6 +5011,60 @@ Não fique triste quando se explodir em minúsculos e minúsculos pedaços ou se
       <Key>ScenarioScoreboardHeading</Key>
       <Value>Cenário Completo</Value>
     </Record>
+    <Record>
+      <Key>ButtonCopy</Key>
+      <Value>Copy</Value>
+    </Record>
+    <Record>
+      <Key>ButtonPaste</Key>
+      <Value>Paste</Value>
+    </Record>
+    <Record>
+      <Key>ButtonHelp</Key>
+      <Value>Help</Value>
+    </Record>
+    <Record>
+      <Key>ButtonVariables</Key>
+      <Value>x</Value>
+    </Record>
+    <Record>
+      <Key>ButtonSlotVar</Key>
+      <Value>s(x)</Value>
+    </Record>
+    <Record>
+      <Key>HeadingHelp</Key>
+      <Value>help</Value>
+    </Record>
+    <Record>
+      <Key>ButtonLoad</Key>
+      <Value>Load</Value>
+    </Record>
+    <Record>
+      <Key>HeadingEdit</Key>
+      <Value>Edit</Value>
+    </Record>
+    <Record>
+      <Key>ButtonFunctions</Key>
+      <Value>f</Value>
+    </Record>
+    <Record>
+      <Key>ButtonLibrary</Key>
+      <Value>Library</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuAdvanced</Key>
+      <Value>Advanced
+
+</Value>
+    </Record>
+    <Record>
+      <Key>SettingsLegacyInventory</Key>
+      <Value>Legacy Inventory</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDisableWaterVisualizer</Key>
+      <Value>Disable Water Visualizer</Value>
+    </Record>
   </Interface>
   <Colors>
     <Record>
@@ -4878,54 +5116,56 @@ Não fique triste quando se explodir em minúsculos e minúsculos pedaços ou se
       <Value>Roxo</Value>
     </Record>
   </Colors>
+  <Keys />
   <Mineables>
     <Record>
       <Key>Iron</Key>
       <Value>Ferro</Value>
     </Record>
-	    <Record>
+    <Record>
       <Key>Ice</Key>
       <Value>Gelo</Value>
     </Record>
-	    <Record>
+    <Record>
       <Key>Oxite</Key>
       <Value>Oxite</Value>
     </Record>
-	    <Record>
+    <Record>
       <Key>Volatiles</Key>
       <Value>Voláteis</Value>
     </Record>
-	    <Record>
+    <Record>
       <Key>Gold</Key>
       <Value>Ouro</Value>
     </Record>
-	    <Record>
+    <Record>
       <Key>Coal</Key>
       <Value>Carvão</Value>
     </Record>
-	    <Record>
+    <Record>
       <Key>Copper</Key>
       <Value>Cobre</Value>
     </Record>
-	    <Record>
+    <Record>
       <Key>Uranium</Key>
       <Value>Urânio</Value>
     </Record>
-	    <Record>
+    <Record>
       <Key>Silver</Key>
       <Value>Prata</Value>
     </Record>
-	    <Record>
+    <Record>
       <Key>Nickel</Key>
       <Value>Níkel</Value>
     </Record>
-	    <Record>
+    <Record>
       <Key>Lead</Key>
       <Value>Chumbo</Value>
     </Record>
-	    <Record>
+    <Record>
       <Key>Silicon</Key>
       <Value>Sílicio</Value>
     </Record>
   </Mineables>
+  <GameTip />
 </Language>

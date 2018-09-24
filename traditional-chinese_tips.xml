@@ -1,14 +1,14 @@
-<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+﻿<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>TW</Code>
   <GameTip>
     <String>按下 {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot}, 或 {KEY:ToolBeltSlot} 可以切換裝備的 欄位格 及 功能選項. 長按熱鍵的話,則可以與目前當前手持裝備切換,如空手狀態則會脫下裝備.</String>
     <String>按下 {KEY:ToggleHandPower} 可以快速開關目前手上的工具.</String>
-	<String>按下 {KEY:ToggleLight} 可以快速開關你 {THING:ItemSpaceHelmet} 的電燈.</String>
+    <String>按下 {KEY:ToggleLight} 可以快速開關你 {THING:ItemSpaceHelmet} 的電燈.</String>
     <String>按下 {KEY:EmoteWave} 使你的腳色向其他工程師揮手.</String>
     <String>按下 {KEY:Jetpack} 可以快速開關你 {THING:ItemSpacepack} 的動力.</String>
     <String>按下 {KEY:ToggleUI} 可以關閉使用者介面,讓您可以擷取更乾淨漂亮的截圖或影片.</String>
-	<String>如果您的 {THING:ItemSpacepack} 已經是啟動狀態, 按下 {KEY:Ascend} 可以讓您往上飛行, 否則角色將會使用一般跳躍. 您可以使用 {KEY:Jetpack} 鍵來開關 {THING:ItemSpacepack}.</String>
-	<String>如果您的 {THING:ItemSpacepack} 已經是啟動狀態, 按下 {KEY:Descend} 可以讓您往下飛行, 您可以使用 {KEY:Jetpack} 鍵來開關 {THING:ItemSpacepack}.</String>
+	<String>Pressing {KEY:Ascend} will make you ascend if your {THING:ItemSpacepack} is on, otherwise your character will try to jump. You can toggle the {THING:ItemSpacepack} on or off using the {KEY:Jetpack} key.</String>
+	<String>Pressing {KEY:Descend} will make you descend if your {THING:ItemSpacepack} is on. You can toggle the {THING:ItemSpacepack} on or off using the {KEY:Jetpack} key.</String>
 	<String>如果您想切換當前手持物 與 欄位物品, 選定後, 按下 {KEY:InventorySelect} 鍵.</String>
 	<String>按下 {KEY:Drop} 鍵將會立即放下您手上的物品. 如果是長按 {KEY:Drop} 鍵, 角色將會蓄力丟出手上的物品.</String>
 	<String>按下 {KEY:SwapHands} 來切換目前的主手欄位. 重複按下 {KEY:ActiveHandSlot} 將會切換目前主手物品的功能選項與欄位格(如果物品有的話).</String>
@@ -20,10 +20,10 @@
 	<String>將一疊 {THING:ItemIronOre} 放入已接上電源的 {THING:StructureArcFurnace} ,並按下啟動鍵來燒製 {THING:ItemIronIngot}.</String>
 	<String>把 {THING:MotherboardLogic} 放入 {THING:StructureComputer} 中 將可以啟動邏輯控制功能. 您將可以控制同一個網路中的設備動作與狀態</String>
 	<String>當想把物品數量切分的時候, 按下 {KEY:QuantityModifier} 鍵 將可以把物品切分成較小的數量.</String>
-	<String>使用 {THING:ItemKitLogicInputOutput} 來建立一個 {THING:StructureLogicReader} 或者 {THING:StructureLogicWriter}. {THING:StructureLogicReader} 允許您可以讀取某個裝置的數值, {THING:StructureLogicWriter} 則允許您改變某個裝置的參數. 再結合邏輯運算單元的時候,將可以創造出非常複雜的邏輯電路!.</String>
+	<String>Use a {THING:ItemKitLogicInputOutput} to create a {THING:StructureLogicReader} or {THING:StructureLogicWriter}. Readers allow you to read values from other devices, writers allow you to change values on devices. When combined with Math Units, you can make extremely complex automated systems.</String>
 	<String>使用 {THING:ItemKitLogicInputOutput} 來建立一個 {THING:StructureLogicBatchReader} 或者 {THING:StructureLogicBatchWriter}。 批次讀取器允許您讀取迴路中某種設備的數值，批次寫入器則允許您變更迴路中某種設備的參數。</String>
 	<String>使用 {THING:ItemKitLogicInputOutput} 來建立一個 {THING:StructureLogicSlotReader} ，它允許您從帶插槽的設備讀取插槽值。有些設備可以讓您獲得特殊的插槽資訊，例如 {THING:StructureHydroponicsStation} 的植物生長資訊。</String>
-	<String>使用 {THING:StructureRecycler} 將可以回收您不要的物品,並將其變回{THING:ItemReagentMix}. 再將 {THING:ItemReagentMix} 投入 {THING:StructureCentrifuge} 中處理就能變回原本的礦石了.</String>
+	<String>Use a {THING:StructureRecycler} to convert things you no longer want into usable reagents. Pass the outputted {THING:ItemReagentMix} into a {THING:StructureCentrifuge} to convert it back into ore, ready for a {THING:StructureFurnace}.</String>
 	<String>使用 {THING:StructureHydraulicPipeBender} 來製造相關的物品, 像是 {THING:ItemKitAtmospherics} 可以讓您建造像是 {THING:StructureAirConditioner} 或 {THING:StructureFiltration} 這一類的設備.</String>
   </GameTip>
 </Language>

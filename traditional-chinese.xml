@@ -17,7 +17,7 @@
     <RecordReagent>
       <Key>Egg</Key>
       <Value>蛋 (Egg)</Value>
-      <Unit/>
+      <Unit />
     </RecordReagent>
     <RecordReagent>
       <Key>Iron</Key>
@@ -114,10 +114,15 @@
       <Value>油 (Oil)</Value>
       <Unit>毫升(mL)</Unit>
     </RecordReagent>
-	<RecordReagent>
+    <RecordReagent>
       <Key>Potato</Key>
       <Value>馬鈴薯</Value>
       <Unit />
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Tomato</Key>
+      <Value>Tomato</Value>
+      <Unit>Tomato.Unit</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Fenoxitone</Key>
@@ -152,7 +157,7 @@
     <RecordReagent>
       <Key>Pumpkin</Key>
       <Value>南瓜</Value>
-      <Unit/>
+      <Unit />
     </RecordReagent>
     <RecordReagent>
       <Key>Rice</Key>
@@ -185,9 +190,13 @@
       <Key>Water</Key>
       <Value>水 (Water)</Value>
     </Record>
+    <Record>
+      <Key>NitrousOxide</Key>
+      <Value>Nitrous Oxide</Value>
+    </Record>
   </Gases>
   <Actions>
-	<Record>
+    <Record>
       <Key>Reload</Key>
       <Value>重新裝填</Value>
     </Record>
@@ -331,7 +340,7 @@
       <Key>Rename</Key>
       <Value>重新命名</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>Up</Key>
       <Value>上升</Value>
     </Record>
@@ -987,7 +996,7 @@
     </Record>
     <Record>
       <Key>ItemKitAtmospherics</Key>
-      <Value>套件 空調機</Value> <!-- ItemKit 定義為安裝時有多重選項的物品 前綴詞須加上"套件 " -->
+      <Value>套件 空調機</Value>
     </Record>
     <Record>
       <Key>ItemKitBattery</Key>
@@ -2302,6 +2311,10 @@
       <Value>馬鈴薯</Value>
     </Record>
     <Record>
+      <Key>ItemTomato</Key>
+      <Value>Tomato</Value>
+    </Record>
+    <Record>
       <Key>StructureGasGenerator</Key>
       <Value>氣體燃料發電機</Value>
     </Record>
@@ -2317,9 +2330,13 @@
       <Key>CartridgeOreScanner</Key>
       <Value>晶片 (礦石掃描)</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>ItemPotatoBaked</Key>
       <Value>烤馬鈴薯</Value>
+    </Record>
+    <Record>
+      <Key>ItemTomatoSoup</Key>
+      <Value>Tomato Soup</Value>
     </Record>
     <Record>
       <Key>ItemSoyOil</Key>
@@ -2937,7 +2954,7 @@
       <Key>StructureLogicBatchReader</Key>
       <Value>批量讀取器</Value>
     </Record>
-	  <Record>
+    <Record>
       <Key>StructureLogicReagentReader</Key>
       <Value>反應物讀取器</Value>
     </Record>
@@ -3149,6 +3166,82 @@
       <Key>ItemHardJetpack</Key>
       <Value>進階噴射背包</Value>
     </Record>
+    <Record>
+      <Key>DynamicHydroponics</Key>
+      <Value>Portable Hydroponics</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitDynamicHydroponics</Key>
+      <Value>Kit (Portable Hydroponics)</Value>
+    </Record>
+    <Record>
+      <Key>StructureKlaxon</Key>
+      <Value>Klaxon Speaker</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSpeaker</Key>
+      <Value>Kit (Speaker)</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeOreScannerColor</Key>
+      <Value>Cartridge (Ore Scanner (Color))</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicWriterSwitch</Key>
+      <Value>Logic Writer Switch</Value>
+    </Record>
+    <Record>
+      <Key>MotherboardProgrammableChip</Key>
+      <Value>Motherboard (IC Editor)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicCircuit</Key>
+      <Value>Kit (IC Housing)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCircuitHousing</Key>
+      <Value>IC Housing</Value>
+    </Record>
+    <Record>
+      <Key>ItemIntegratedCircuit10</Key>
+      <Value>Integrated Circuit (IC10)</Value>
+    </Record>
+    <Record>
+      <Key>StructureHydroponicsAutomated</Key>
+      <Value>Automated Hydroponics</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitHydroponicAutomated</Key>
+      <Value>Kit (Automated Hydroponics)</Value>
+    </Record>
+    <Record>
+      <Key>ItemBasketBall</Key>
+      <Value>Basket Ball</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitBasket</Key>
+      <Value>Kit (Basket)</Value>
+    </Record>
+    <Record>
+      <Key>StructureBasketHoop</Key>
+      <Value>Structure Basket Hoop</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxide</Key>
+      <Value>Filter (Nitrous Oxide)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxideL</Key>
+      <Value>Heavy Filter (Nitrous Oxide)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxideM</Key>
+      <Value>Medium Filter (Nitrous Oxide)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterNitrousOxide</Key>
+      <Value>Gas Canister (Sleeping)</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -3311,7 +3404,7 @@
       <Key>LoadingRail</Key>
       <Value>Loading Rail</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>AccessCard</Key>
       <Value>門禁卡</Value>
     </Record>
@@ -3334,6 +3427,10 @@
     <Record>
       <Key>Circuit</Key>
       <Value>電路</Value>
+    </Record>
+    <Record>
+      <Key>ProgrammableChip</Key>
+      <Value>Programmable Chip</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -3614,6 +3711,10 @@
       <Value>創建</Value>
     </Record>
     <Record>
+      <Key>Search</Key>
+      <Value>Search</Value>
+    </Record>
+    <Record>
       <Key>Button4</Key>
       <Value>按鍵4</Value>
     </Record>
@@ -3657,7 +3758,7 @@
       <Key>Color</Key>
       <Value>顏色</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>Access</Key>
       <Value>授權</Value>
     </Record>
@@ -3680,6 +3781,14 @@
     <Record>
       <Key>ThrustDown</Key>
       <Value>降低推力</Value>
+    </Record>
+    <Record>
+      <Key>Button5</Key>
+      <Value>Button5</Value>
+    </Record>
+    <Record>
+      <Key>Button6</Key>
+      <Value>Button6</Value>
     </Record>
   </Interactables>
   <Interface>
@@ -4350,6 +4459,18 @@
       <Value>離開</Value>
     </Record>
     <Record>
+      <Key>PromptUnsubscribeTitle</Key>
+      <Value>Unsubscribe</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeBody</Key>
+      <Value>Are you sure you want to unsubscribe from this Workshop item?</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeConfirm</Key>
+      <Value>Unsubscribe</Value>
+    </Record>
+    <Record>
       <Key>PromptOverwriteTitle</Key>
       <Value>覆蓋</Value>
     </Record>
@@ -4410,6 +4531,18 @@
       <Value>重生</Value>
     </Record>
     <Record>
+      <Key>PromptGiveUpTitle</Key>
+      <Value>Give Up</Value>
+    </Record>
+    <Record>
+      <Key>PromptGiveUpBody</Key>
+      <Value>You are unconscious. Do you want to give up and respawn?</Value>
+    </Record>
+    <Record>
+      <Key>PromptGiveUpConfirm</Key>
+      <Value>Give Up</Value>
+    </Record>
+    <Record>
       <Key>AlertInvalidIP</Key>
       <Value>無效的 IP 位置 {0} \n檢查 IP 位置或者 URL 是否有效</Value>
     </Record>
@@ -4424,19 +4557,6 @@
     <Record>
       <Key>AlertNoResponse</Key>
       <Value>伺服器 {0} 無回應 \n 請檢查IP或Url是否可用</Value>
-    </Record>
-	 <Record>
-      <Key>AlertPlayerCountExceeded</Key>
-      <Value>伺服器已滿.</Value>
-    </Record>
-    <Record>
-      <Key>AlertVersionMismatch</Key>
-      <Value>與伺服器端的遊戲版本不相符.</Value>
-    </Record>
-    <Record>
-      <Key>AlertNoResponse</Key>
-      <Value>伺服器沒有回應.
-請稍後再試.</Value>
     </Record>
     <Record>
       <Key>AlertKicked</Key>
@@ -4606,7 +4726,7 @@
       <Key>JoinWorldEmptyServers</Key>
       <Value>隱藏 空的伺服器</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>WorkshopSubscribedModsTitle</Key>
       <Value>已訂閱模組</Value>
     </Record>
@@ -4887,6 +5007,60 @@
       <Key>ScenarioScoreboardHeading</Key>
       <Value>場景完成</Value>
     </Record>
+    <Record>
+      <Key>ButtonCopy</Key>
+      <Value>Copy</Value>
+    </Record>
+    <Record>
+      <Key>ButtonPaste</Key>
+      <Value>Paste</Value>
+    </Record>
+    <Record>
+      <Key>ButtonHelp</Key>
+      <Value>Help</Value>
+    </Record>
+    <Record>
+      <Key>ButtonVariables</Key>
+      <Value>x</Value>
+    </Record>
+    <Record>
+      <Key>ButtonSlotVar</Key>
+      <Value>s(x)</Value>
+    </Record>
+    <Record>
+      <Key>HeadingHelp</Key>
+      <Value>help</Value>
+    </Record>
+    <Record>
+      <Key>ButtonLoad</Key>
+      <Value>Load</Value>
+    </Record>
+    <Record>
+      <Key>HeadingEdit</Key>
+      <Value>Edit</Value>
+    </Record>
+    <Record>
+      <Key>ButtonFunctions</Key>
+      <Value>f</Value>
+    </Record>
+    <Record>
+      <Key>ButtonLibrary</Key>
+      <Value>Library</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuAdvanced</Key>
+      <Value>Advanced
+
+</Value>
+    </Record>
+    <Record>
+      <Key>SettingsLegacyInventory</Key>
+      <Value>Legacy Inventory</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDisableWaterVisualizer</Key>
+      <Value>Disable Water Visualizer</Value>
+    </Record>
   </Interface>
   <Colors>
     <Record>
@@ -4938,7 +5112,7 @@
       <Value>紫色</Value>
     </Record>
   </Colors>
-  <Keys/>
+  <Keys />
   <Mineables>
     <Record>
       <Key>Iron</Key>
@@ -4989,5 +5163,5 @@
       <Value>礦石 (矽 Silicon)</Value>
     </Record>
   </Mineables>
-  <GameTip/>
+  <GameTip />
 </Language>

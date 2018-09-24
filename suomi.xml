@@ -2,7 +2,7 @@
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Suomi</Name>
   <Code>FI</Code>
-  <Font>font_extended</Font>
+  <Font>font_</Font>
   <Reagents>
     <RecordReagent>
       <Key>Flour</Key>
@@ -157,7 +157,7 @@
     <RecordReagent>
       <Key>Pumpkin</Key>
       <Value>Kurpitsa</Value>
-      <Unit/>
+      <Unit />
     </RecordReagent>
     <RecordReagent>
       <Key>Rice</Key>
@@ -189,6 +189,10 @@
     <Record>
       <Key>Water</Key>
       <Value>Vesi</Value>
+    </Record>
+    <Record>
+      <Key>NitrousOxide</Key>
+      <Value>Nitrous Oxide</Value>
     </Record>
   </Gases>
   <Actions>
@@ -620,7 +624,7 @@
     </Record>
     <Record>
       <Key>CircuitboardCameraDisplay</Key>
-	  <Value>Piirilevy (Kameranäyttö)</Value>
+      <Value>Piirilevy (Kameranäyttö)</Value>
     </Record>
     <Record>
       <Key>CircuitboardDoorControl</Key>
@@ -2851,8 +2855,8 @@
       <Value>Konepistooli</Value>
     </Record>
     <Record>
-      <Key>StructureElectrolyser</Key>
-      <Value>Elektrolyysilaite</Value>
+      <Key>StructureElectrolyzer</Key>
+      <Value>Electrolyzer</Value>
     </Record>
     <Record>
       <Key>StructureElevatorShaft</Key>
@@ -3187,12 +3191,56 @@
       <Value>Logiikka Kirjoittaja Kytkimellä</Value>
     </Record>
     <Record>
-      <Key>StructureLogicPGMChip</Key>
-      <Value>Ohjelmoitava Logiikkasiru</Value>
-    </Record>
-    <Record>
       <Key>MotherboardProgrammableChip</Key>
       <Value>Ohjelmoitava Siru, Emolevy</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicCircuit</Key>
+      <Value>Kit (IC Housing)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCircuitHousing</Key>
+      <Value>IC Housing</Value>
+    </Record>
+    <Record>
+      <Key>ItemIntegratedCircuit10</Key>
+      <Value>Integrated Circuit (IC10)</Value>
+    </Record>
+    <Record>
+      <Key>StructureHydroponicsAutomated</Key>
+      <Value>Automated Hydroponics</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitHydroponicAutomated</Key>
+      <Value>Kit (Automated Hydroponics)</Value>
+    </Record>
+    <Record>
+      <Key>ItemBasketBall</Key>
+      <Value>Basket Ball</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitBasket</Key>
+      <Value>Kit (Basket)</Value>
+    </Record>
+    <Record>
+      <Key>StructureBasketHoop</Key>
+      <Value>Structure Basket Hoop</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxide</Key>
+      <Value>Filter (Nitrous Oxide)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxideL</Key>
+      <Value>Heavy Filter (Nitrous Oxide)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxideM</Key>
+      <Value>Medium Filter (Nitrous Oxide)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterNitrousOxide</Key>
+      <Value>Gas Canister (Sleeping)</Value>
     </Record>
   </Things>
   <Slots>
@@ -3379,6 +3427,10 @@
     <Record>
       <Key>Circuit</Key>
       <Value>Piiri</Value>
+    </Record>
+    <Record>
+      <Key>ProgrammableChip</Key>
+      <Value>Programmable Chip</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -3659,6 +3711,10 @@
       <Value>Luo</Value>
     </Record>
     <Record>
+      <Key>Search</Key>
+      <Value>Search</Value>
+    </Record>
+    <Record>
       <Key>Button4</Key>
       <Value>Näppäin 4</Value>
     </Record>
@@ -3725,6 +3781,14 @@
     <Record>
       <Key>ThrustDown</Key>
       <Value>Työntö Alas</Value>
+    </Record>
+    <Record>
+      <Key>Button5</Key>
+      <Value>Button5</Value>
+    </Record>
+    <Record>
+      <Key>Button6</Key>
+      <Value>Button6</Value>
     </Record>
   </Interactables>
   <Interface>
@@ -4324,19 +4388,19 @@ Vieritä &lt;color=red&gt;hiirtä&lt;/color&gt; selataksesi vaihtoehtoja.</Value
     </Record>
     <Record>
       <Key>TooltipAllowsMounting</Key>
-	  <Value>Sallii seinään kiinnitettävien laitteiden asennuksen. Päivitä salliaksesi paremman sijoittelun.</Value>
+      <Value>Sallii seinään kiinnitettävien laitteiden asennuksen. Päivitä salliaksesi paremman sijoittelun.</Value>
     </Record>
     <Record>
       <Key>TooltipPlacementSnapGrid</Key>
-	  <Value>Sijoitus napsahtaa ruudukkoon.</Value>
+      <Value>Sijoitus napsahtaa ruudukkoon.</Value>
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFace</Key>
-	  <Value>Sijoitus napsahtaa ruudukon laitoihin.</Value>
+      <Value>Sijoitus napsahtaa ruudukon laitoihin.</Value>
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFaceMount</Key>
-	  <Value>Sijoitus on sallittu ainoastaan {COLORGREEN:Rautarungoille} ja {COLORGREEN:Preusrungoille}. Jos nämä päivitetään, sallivat ne paremman sijoittelun.</Value>
+      <Value>Sijoitus on sallittu ainoastaan {COLORGREEN:Rautarungoille} ja {COLORGREEN:Preusrungoille}. Jos nämä päivitetään, sallivat ne paremman sijoittelun.</Value>
     </Record>
     <Record>
       <Key>GameMenuClearDisconnectedPlayers</Key>
@@ -4352,7 +4416,7 @@ Vieritä &lt;color=red&gt;hiirtä&lt;/color&gt; selataksesi vaihtoehtoja.</Value
     </Record>
     <Record>
       <Key>SettingsUPNPNote</Key>
-	  <Value>Jos Universal Plug and Play (UPNP) on päällä reitittimessäsi, nämä portit välitetään eteenpäin automaattisesti kun isännöit pelin.</Value>
+      <Value>Jos Universal Plug and Play (UPNP) on päällä reitittimessäsi, nämä portit välitetään eteenpäin automaattisesti kun isännöit pelin.</Value>
     </Record>
     <Record>
       <Key>SettingsTooltipOpacity</Key>
@@ -4364,7 +4428,7 @@ Vieritä &lt;color=red&gt;hiirtä&lt;/color&gt; selataksesi vaihtoehtoja.</Value
     </Record>
     <Record>
       <Key>MenuDownloadDriverWarning</Key>
-	  <Value>Monet AMD grafiikka-ohjaimen omistavat ovat raportoineet ongelmia pelin kanssa jotka ovat ratkenneet ajureita päivittämällä. Suosittelemme &lt;b&gt;VAHVASTI&lt;/b&gt; päivittämään ajurit ennen pelaamista.</Value>
+      <Value>Monet AMD grafiikka-ohjaimen omistavat ovat raportoineet ongelmia pelin kanssa jotka ovat ratkenneet ajureita päivittämällä. Suosittelemme &lt;b&gt;VAHVASTI&lt;/b&gt; päivittämään ajurit ennen pelaamista.</Value>
     </Record>
     <Record>
       <Key>SettingsChatFadeTimer</Key>
@@ -4393,6 +4457,18 @@ Vieritä &lt;color=red&gt;hiirtä&lt;/color&gt; selataksesi vaihtoehtoja.</Value
     <Record>
       <Key>PromptQuitConfirm</Key>
       <Value>Lopeta</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeTitle</Key>
+      <Value>Unsubscribe</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeBody</Key>
+      <Value>Are you sure you want to unsubscribe from this Workshop item?</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeConfirm</Key>
+      <Value>Unsubscribe</Value>
     </Record>
     <Record>
       <Key>PromptOverwriteTitle</Key>
@@ -4460,7 +4536,7 @@ Vieritä &lt;color=red&gt;hiirtä&lt;/color&gt; selataksesi vaihtoehtoja.</Value
     </Record>
     <Record>
       <Key>PromptGiveUpBody</Key>
-	  <Value>Olet tajuton. Haluatko luovuttaa ja herätä uudelleen?</Value>
+      <Value>Olet tajuton. Haluatko luovuttaa ja herätä uudelleen?</Value>
     </Record>
     <Record>
       <Key>PromptGiveUpConfirm</Key>
@@ -4499,7 +4575,7 @@ Vieritä &lt;color=red&gt;hiirtä&lt;/color&gt; selataksesi vaihtoehtoja.</Value
     </Record>
     <Record>
       <Key>AlertCannotUpdatePort</Key>
-	  <Value>Päivitysporttia ei pysty muuttamaan palvelimen ollessa käynnissä.</Value>
+      <Value>Päivitysporttia ei pysty muuttamaan palvelimen ollessa käynnissä.</Value>
     </Record>
     <Record>
       <Key>AlertBlankSaveName</Key>
@@ -4651,7 +4727,7 @@ Vieritä &lt;color=red&gt;hiirtä&lt;/color&gt; selataksesi vaihtoehtoja.</Value
     </Record>
     <Record>
       <Key>JoinWorldEmptyServers</Key>
-      <Value>Piilota Tyhjät Palvelimet</Value>									   
+      <Value>Piilota Tyhjät Palvelimet</Value>
     </Record>
     <Record>
       <Key>WorkshopSubscribedModsTitle</Key>
@@ -4824,11 +4900,11 @@ Lämpötila {1}</Value>
     </Record>
     <Record>
       <Key>RequiresScrewdriver</Key>
-	  <Value>Tarvitset {THING:ItemScrewdriver} muuttaaksesi asetusta</Value>
+      <Value>Tarvitset {THING:ItemScrewdriver} muuttaaksesi asetusta</Value>
     </Record>
     <Record>
       <Key>LogicNoReadableDevices</Key>
-	  <Value>Ei muita luettavia laitteita verkostossa</Value>
+      <Value>Ei muita luettavia laitteita verkostossa</Value>
     </Record>
     <Record>
       <Key>LogicNoReadableTypes</Key>
@@ -4934,6 +5010,60 @@ Lämpötila {1}</Value>
       <Key>ScenarioScoreboardHeading</Key>
       <Value>Skenario Suoritettu</Value>
     </Record>
+    <Record>
+      <Key>ButtonCopy</Key>
+      <Value>Copy</Value>
+    </Record>
+    <Record>
+      <Key>ButtonPaste</Key>
+      <Value>Paste</Value>
+    </Record>
+    <Record>
+      <Key>ButtonHelp</Key>
+      <Value>Help</Value>
+    </Record>
+    <Record>
+      <Key>ButtonVariables</Key>
+      <Value>x</Value>
+    </Record>
+    <Record>
+      <Key>ButtonSlotVar</Key>
+      <Value>s(x)</Value>
+    </Record>
+    <Record>
+      <Key>HeadingHelp</Key>
+      <Value>help</Value>
+    </Record>
+    <Record>
+      <Key>ButtonLoad</Key>
+      <Value>Load</Value>
+    </Record>
+    <Record>
+      <Key>HeadingEdit</Key>
+      <Value>Edit</Value>
+    </Record>
+    <Record>
+      <Key>ButtonFunctions</Key>
+      <Value>f</Value>
+    </Record>
+    <Record>
+      <Key>ButtonLibrary</Key>
+      <Value>Library</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuAdvanced</Key>
+      <Value>Advanced
+
+</Value>
+    </Record>
+    <Record>
+      <Key>SettingsLegacyInventory</Key>
+      <Value>Legacy Inventory</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDisableWaterVisualizer</Key>
+      <Value>Disable Water Visualizer</Value>
+    </Record>
   </Interface>
   <Colors>
     <Record>
@@ -5036,5 +5166,5 @@ Lämpötila {1}</Value>
       <Value>Silikoni</Value>
     </Record>
   </Mineables>
-  <GameTip/>
+  <GameTip />
 </Language>
