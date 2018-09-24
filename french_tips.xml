@@ -1,0 +1,30 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!-- version FR180726 (YYMMDD) - v0.1.1549.7283 - Updated by Mustard and CrocoFR - Based from version of CedricS and [FR]Rem -->
+<!-- https://github.com/CrocoFR/Stationeers-French-Translation -->
+	<Code>FR</Code>
+	<Font>font_extended</Font> <!-- Permet l'ajout des accents ^^ -->
+	<GameTip>
+		<String>Appuyez sur {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot} ou sur {KEY:ToolBeltSlot} pour basculer entre les fenêtres des emplacements des équipements que vous portez. Appuyez et maintenez enfoncé pour permuter l'équipement dans votre main active.</String>  
+		<String>Appuyez sur {KEY:ToggleHandPower} pour activer ou désactiver rapidement un outil dans vos mains.</String>
+		<String>Appuyez sur {KEY:ToggleUI} pour activer ou désactiver l'interface utilisateur afin de pouvoir faire des captures d'écran ou des vidéos plus réussites.</String>  
+		<String>Appuyez sur {KEY:Jetpack} pour activer ou désactiver rapidement la propulsion de votre {THING:ItemSpacepack}.</String>
+		<String>Appuyer sur {KEY:Ascend} vous fera monter si votre {THING:ItemSpacepack} est actif, sinon votre personnage essaiera de sauter. Vous pouvez activer ou désactiver {THING:ItemSpacepack} en appuyant sur {KEY:Jetpack}.</String>
+		<String>Appuyer sur {KEY:Descend} vous fera descendre si votre {THING:ItemSpacepack} est actif. Vous pouvez activer ou désactiver {THING:ItemSpacepack} en appuyant sur {KEY:Jetpack}.</String>	
+		<String>Appuyez sur {KEY:InventorySelect} si vous voulez permuter quelque chose entre un emplacement d'inventaire ouvert et votre main active.</String>	
+		<String>Appuyer sur {KEY:Drop} vous fera immédiatement lâcher tout ce qui est dans votre main active. Si vous maintenez la touche {KEY:Drop} enfoncée, l'objet sera lancé. Plus vous le tenez longtemps, plus vous lancerez loin.</String>	
+		<String>Appuyer sur {KEY:SwapHands} pour permuter de main active. Appuyer sur {KEY:ActiveHandSlot} affichera des options d'interaction de l'objet qui se trouve dans votre main active.</String>	
+		<String>Appuyez sur {KEY:Internals} pour ouvrir ou fermer rapidement votre {THING:ItemSpaceHelmet}.</String>	
+		<String>Appuyez sur {KEY:Chatting} pour discuter avec d'autres joueurs. Une petite boîte apparaîtra en bas à droite de l'écran avec le texte que vous écrivez avant de l'envoyer.</String>
+		<String>Pour changer l'orientation de votre curseur de construction, appuyez sur {KEY:RotateLeft} pour tourner à gauche, {KEY:RotateRight} pour tourner à droite, {KEY:RotateUp} pour pivoter vers le haut, {KEY:RotateDown} pour faire pivoter vers le bas, {KEY:RotateRollLeft} pour rouler à gauche ou {KEY:RotateRollRight} pour rouler à droite.</String>
+		<String>Voulez-vous savoir comment faire quelque chose ? Insérez la {THING:CartridgeElectronicReader} dans une {THING:ItemTablet} et activez-la avec {KEY:ToggleHandPower} pendant qu'elle est dans votre main active.</String>	
+		<String>Utilisez le {THING:ItemWeldingTorch} allumé dans une main et une pile de {THING:ItemIronSheets} dans l'autre main pour souder un {THING:StructureFrameIron}.</String>
+		<String>Placez une pile de {THING:ItemIronOre} dans un {THING:StructureArcFurnace} afin de le transformer en {THING:ItemIronIngot}.</String>	
+		<String>Placez une {THING:MotherboardLogic} dans un {THING:StructureComputer} pour activer le contrôle logique. Vous serez en mesure d'ajouter des conditions et des actions qui contrôleront les états des équipements connectés.</String>
+		<String>Lorsque vous modifiez une valeur via un bouton, maintenez {KEY:QuantityModifier} enfoncée pour utiliser des incréments plus petits.</String>	
+		<String>Utilisez un {THING:ItemKitLogicInputOutput} pour créer un {THING:StructureLogicReader} ou {THING:StructureLogicWriter}. Les unités logiques lecture vont vous permettre de lire les valeurs d'autres appareils, les unités logiques écriture vont vous permettent de modifier les valeurs sur les appareils. Lorsqu'il est combiné avec des unités mathématiques, vous pouvez créer des systèmes automatisés extrêmement complexes.</String>
+		<String>Utilisez un {THING:ItemKitLogicInputOutput} pour créer un {THING:StructureLogicBatchReader} ou {THING:StructureLogicBatchWriter}. Les unités logiques lecture vous permettent de lire les valeurs d'un groupe entier d'autres appareils, les unités logiques écriture groupée vous permettent de modifier les valeurs sur des groupes entiers d'autres appareils.</String>
+		<String>Utilisez un {THING:ItemKitLogicInputOutput} pour créer un {THING:StructureLogicSlotReader} qui vous permet de lire des valeurs d'un slot d'un équipement. Certains équipements vous permettent d'obtenir des informations spécialisées dans les slots, telles que la croissance des plantes dans la {THING:StructureHydroponicsStation}.</String>	
+		<String>Utilisez un {THING:StructureRecycler} pour transformer les objets que vous ne voulez plus en réactifs. Placez le {THING:ItemReagentMix} dans une {THING:StructureCentrifuge} pour en extraire les différents minerais qui seront utilisables dans un {THING:StructureFurnace}.</String>
+		<String>Utilisez une {THING:StructureHydraulicPipeBender} pour fabriquer des objets en relation avec l'atmosphère, comme que le {THING:ItemKitAtmospherics} qui vous permettra de créer un {THING:StructureAirConditioner}, une {THING:StructureFiltration} ou un {THING:StructureElectrolyzer}.</String>
+	</GameTip>
+</Language>

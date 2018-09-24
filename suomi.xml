@@ -1,0 +1,5040 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Suomi</Name>
+  <Code>FI</Code>
+  <Font>font_extended</Font>
+  <Reagents>
+    <RecordReagent>
+      <Key>Flour</Key>
+      <Value>Jauhoa</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Milk</Key>
+      <Value>Maito</Value>
+      <Unit>ml</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Egg</Key>
+      <Value>Muna</Value>
+      <Unit />
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Iron</Key>
+      <Value>Rauta</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Gold</Key>
+      <Value>Kulta</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Carbon</Key>
+      <Value>Hiili</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Uranium</Key>
+      <Value>Uraani</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Copper</Key>
+      <Value>Kupari</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Steel</Key>
+      <Value>Teräs</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Hydrocarbon</Key>
+      <Value>Hiilivety</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Silver</Key>
+      <Value>Hopea</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Nickel</Key>
+      <Value>Nikkeli</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Lead</Key>
+      <Value>Lyijy</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Electrum</Key>
+      <Value>Elektrum</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Invar</Key>
+      <Value>Invarteräs</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Constantan</Key>
+      <Value>Konstantaani</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Solder</Key>
+      <Value>Juote</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Plastic</Key>
+      <Value>Muovi</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Silicon</Key>
+      <Value>Silikoni</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>SalicylicAcid</Key>
+      <Value>Salisyylihappo</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Alcohol</Key>
+      <Value>Alkoholi</Value>
+      <Unit>ml</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Oil</Key>
+      <Value>Öljy</Value>
+      <Unit>ml</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Potato</Key>
+      <Value>Peruna</Value>
+      <Unit />
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Tomato</Key>
+      <Value>Tomaatti</Value>
+      <Unit />
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Fenoxitone</Key>
+      <Value>Fenoksitoni</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>ColorRed</Key>
+      <Value>Punainen Pigmentti</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>ColorGreen</Key>
+      <Value>Vihreä Pigmentti</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>ColorBlue</Key>
+      <Value>Sininen Pigmentti</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>ColorYellow</Key>
+      <Value>Keltainen Pigmentti</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>ColorOrange</Key>
+      <Value>Oranssi Pigmentti</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Pumpkin</Key>
+      <Value>Kurpitsa</Value>
+      <Unit/>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Rice</Key>
+      <Value>Riisi</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+  </Reagents>
+  <Gases>
+    <Record>
+      <Key>Oxygen</Key>
+      <Value>Happi</Value>
+    </Record>
+    <Record>
+      <Key>CarbonDioxide</Key>
+      <Value>Hiilidioksiidi</Value>
+    </Record>
+    <Record>
+      <Key>Nitrogen</Key>
+      <Value>Typpi</Value>
+    </Record>
+    <Record>
+      <Key>Volatiles</Key>
+      <Value>Volatiili</Value>
+    </Record>
+    <Record>
+      <Key>Pollutant</Key>
+      <Value>Saaste</Value>
+    </Record>
+    <Record>
+      <Key>Water</Key>
+      <Value>Vesi</Value>
+    </Record>
+  </Gases>
+  <Actions>
+    <Record>
+      <Key>Reload</Key>
+      <Value>Lataa</Value>
+    </Record>
+    <Record>
+      <Key>Paint</Key>
+      <Value>Maalaa</Value>
+    </Record>
+    <Record>
+      <Key>Mine</Key>
+      <Value>Louhi</Value>
+    </Record>
+    <Record>
+      <Key>Swap</Key>
+      <Value>Vaihda</Value>
+    </Record>
+    <Record>
+      <Key>Clear</Key>
+      <Value>Tyhjennä</Value>
+    </Record>
+    <Record>
+      <Key>Collect</Key>
+      <Value>Kerää</Value>
+    </Record>
+    <Record>
+      <Key>Add</Key>
+      <Value>Lisää</Value>
+    </Record>
+    <Record>
+      <Key>Insert</Key>
+      <Value>Laita</Value>
+    </Record>
+    <Record>
+      <Key>Remove</Key>
+      <Value>Poista</Value>
+    </Record>
+    <Record>
+      <Key>Pickup</Key>
+      <Value>Poimi</Value>
+    </Record>
+    <Record>
+      <Key>Take</Key>
+      <Value>Ota</Value>
+    </Record>
+    <Record>
+      <Key>Build</Key>
+      <Value>Rakenna</Value>
+    </Record>
+    <Record>
+      <Key>Consume</Key>
+      <Value>Syö</Value>
+    </Record>
+    <Record>
+      <Key>Plant</Key>
+      <Value>Istuta</Value>
+    </Record>
+    <Record>
+      <Key>Harvest</Key>
+      <Value>Korjaa Sato</Value>
+    </Record>
+    <Record>
+      <Key>Open</Key>
+      <Value>Avaa</Value>
+    </Record>
+    <Record>
+      <Key>Close</Key>
+      <Value>Sulje</Value>
+    </Record>
+    <Record>
+      <Key>Opened</Key>
+      <Value>Avattu</Value>
+    </Record>
+    <Record>
+      <Key>Closed</Key>
+      <Value>Suljettu</Value>
+    </Record>
+    <Record>
+      <Key>Off</Key>
+      <Value>Sammuta</Value>
+    </Record>
+    <Record>
+      <Key>On</Key>
+      <Value>Käynnistä</Value>
+    </Record>
+    <Record>
+      <Key>Powered</Key>
+      <Value>Päällä</Value>
+    </Record>
+    <Record>
+      <Key>Unpowered</Key>
+      <Value>Pois</Value>
+    </Record>
+    <Record>
+      <Key>False</Key>
+      <Value>Ei</Value>
+    </Record>
+    <Record>
+      <Key>True</Key>
+      <Value>Kyllä</Value>
+    </Record>
+    <Record>
+      <Key>Construct</Key>
+      <Value>Rakenna</Value>
+    </Record>
+    <Record>
+      <Key>Deconstruct</Key>
+      <Value>Purkaa</Value>
+    </Record>
+    <Record>
+      <Key>Disconnect</Key>
+      <Value>Katkaise</Value>
+    </Record>
+    <Record>
+      <Key>Connect</Key>
+      <Value>Yhdistä</Value>
+    </Record>
+    <Record>
+      <Key>Load</Key>
+      <Value>Lastaa</Value>
+    </Record>
+    <Record>
+      <Key>Unload</Key>
+      <Value>Purkaa</Value>
+    </Record>
+    <Record>
+      <Key>GetIn</Key>
+      <Value>Käytä</Value>
+    </Record>
+    <Record>
+      <Key>Error</Key>
+      <Value>Virhe</Value>
+    </Record>
+    <Record>
+      <Key>Lock</Key>
+      <Value>Lukitse</Value>
+    </Record>
+    <Record>
+      <Key>Unlock</Key>
+      <Value>Avaa</Value>
+    </Record>
+    <Record>
+      <Key>Rename</Key>
+      <Value>Nimeä</Value>
+    </Record>
+    <Record>
+      <Key>Up</Key>
+      <Value>Ylös</Value>
+    </Record>
+    <Record>
+      <Key>Down</Key>
+      <Value>Alas</Value>
+    </Record>
+    <Record>
+      <Key>CallElevator</Key>
+      <Value>Kutsu</Value>
+    </Record>
+    <Record>
+      <Key>Set</Key>
+      <Value>Aseta</Value>
+    </Record>
+    <Record>
+      <Key>Cycle</Key>
+      <Value>Kierrätä</Value>
+    </Record>
+    <Record>
+      <Key>ForceClose</Key>
+      <Value>Pakota Kiinni</Value>
+    </Record>
+    <Record>
+      <Key>ForceOpen</Key>
+      <Value>Pakota Auki</Value>
+    </Record>
+    <Record>
+      <Key>Vend</Key>
+      <Value>Kauppaa</Value>
+    </Record>
+  </Actions>
+  <Things>
+    <Record>
+      <Key>ApplianceMicrowave</Key>
+      <Value>Mikroaaltouuni</Value>
+    </Record>
+    <Record>
+      <Key>ApplianceReagentProcessor</Key>
+      <Value>Reagenssiprosessori</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartAstronautFemaleArmL</Key>
+      <Value>Body Part Astronaut Female Arm L</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartAstronautFemaleArmR</Key>
+      <Value>Body Part Astronaut Female Arm R</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartAstronautFemaleHead</Key>
+      <Value>Body Part Astronaut Female Head</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartAstronautFemaleLegL</Key>
+      <Value>Body Part Astronaut Female Leg L</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartAstronautFemaleLegR</Key>
+      <Value>Body Part Astronaut Female Leg R</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartAstronautFemaleTorso</Key>
+      <Value>Body Part Astronaut Female Torso</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartAstronautMaleArmL</Key>
+      <Value>Body Part Astronaut Male Arm L</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartAstronautMaleArmR</Key>
+      <Value>Body Part Astronaut Male Arm R</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartAstronautMaleHead</Key>
+      <Value>Body Part Astronaut Male Head</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartAstronautMaleLegL</Key>
+      <Value>Body Part Astronaut Male Leg L</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartAstronautMaleLegR</Key>
+      <Value>Body Part Astronaut Male Leg R</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartAstronautTorso</Key>
+      <Value>Body Part Astronaut Torso</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickBody</Key>
+      <Value>Body Part Chick Body</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenBrownBody</Key>
+      <Value>Body Part Chicken Brown Body</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenBrownHead</Key>
+      <Value>Body Part Chicken Brown Head</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenBrownLegL</Key>
+      <Value>Body Part Chicken Brown Leg L</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenBrownLegR</Key>
+      <Value>Body Part Chicken Brown Leg R</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenBrownTail</Key>
+      <Value>Body Part Chicken Brown Tail</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenBrownWingL</Key>
+      <Value>Body Part Chicken Brown Wing L</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenBrownWingR</Key>
+      <Value>Body Part Chicken Brown Wing R</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenWhiteBody</Key>
+      <Value>Body Part Chicken White Body</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenWhiteHead</Key>
+      <Value>Body Part Chicken White Head</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenWhiteLegL</Key>
+      <Value>Body Part Chicken White Leg L</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenWhiteLegR</Key>
+      <Value>Body Part Chicken White Leg R</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenWhiteTail</Key>
+      <Value>Body Part Chicken White Tail</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenWhiteWingL</Key>
+      <Value>Body Part Chicken White Wing L</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenWhiteWingR</Key>
+      <Value>Body Part Chicken White Wing R</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickHead</Key>
+      <Value>Body Part Chick Head</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickLegL</Key>
+      <Value>Body Part Chick Leg L</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickLegR</Key>
+      <Value>Body Part Chick Leg R</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickTail</Key>
+      <Value>Body Part Chick Tail</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickWingL</Key>
+      <Value>Body Part Chick Wing L</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickWingR</Key>
+      <Value>Body Part Chick Wing R</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartGraylienArmL </Key>
+      <Value>Body Part Graylien Arm L </Value>
+    </Record>
+    <Record>
+      <Key>BodyPartGraylienArmR </Key>
+      <Value>Body Part Graylien Arm R </Value>
+    </Record>
+    <Record>
+      <Key>BodyPartGraylienBody </Key>
+      <Value>Body Part Graylien Body </Value>
+    </Record>
+    <Record>
+      <Key>BodyPartGraylienHead </Key>
+      <Value>Body Part Graylien Head </Value>
+    </Record>
+    <Record>
+      <Key>BodyPartGraylienLegL </Key>
+      <Value>Body Part Graylien Leg L </Value>
+    </Record>
+    <Record>
+      <Key>BodyPartGraylienLegR </Key>
+      <Value>Body Part Graylien Leg R </Value>
+    </Record>
+    <Record>
+      <Key>BodyPartGraylienPelvis </Key>
+      <Value>Body Part Graylien Pelvis </Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBlackBody</Key>
+      <Value>Body Part Rooster Black Body</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBlackHead</Key>
+      <Value>Body Part Rooster Black Head</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBlackLegL</Key>
+      <Value>Body Part Rooster Black Leg L</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBlackLegR</Key>
+      <Value>Body Part Rooster Black Leg R</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBlackTail</Key>
+      <Value>Body Part Rooster Black Tail</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBlackWingL</Key>
+      <Value>Body Part Rooster Black Wing L</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBlackWingR</Key>
+      <Value>Body Part Rooster Black Wing R</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBrownBody</Key>
+      <Value>Body Part Rooster Brown Body</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBrownHead</Key>
+      <Value>Body Part Rooster Brown Head</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBrownLegL</Key>
+      <Value>Body Part Rooster Brown Leg L</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBrownLegR</Key>
+      <Value>Body Part Rooster Brown Leg R</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBrownTail</Key>
+      <Value>Body Part Rooster Brown Tail</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBrownWingL</Key>
+      <Value>Body Part Rooster Brown Wing L</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBrownWingR</Key>
+      <Value>Body Part Rooster Brown Wing R</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeAtmosAnalyser</Key>
+      <Value>Kasetti (Ilmakehän Analysaattori)</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeMedicalAnalyser</Key>
+      <Value>Kasetti (Lääkintäanalysaattori)</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeNetworkAnalyser</Key>
+      <Value>Kasetti (Verkkoanalysaattori)</Value>
+    </Record>
+    <Record>
+      <Key>Character</Key>
+      <Value>Hahmo</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardAirControl</Key>
+      <Value>Piirilevy (Ilmastoinnin Hallinta)</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardAirlockControl</Key>
+      <Value>Piirilevy (Ilmalukon Hallinta)</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardCameraDisplay</Key>
+	  <Value>Piirilevy (Kameranäyttö)</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardDoorControl</Key>
+      <Value>Piirilevy (Ovihallinta)</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardGasDisplay</Key>
+      <Value>Piirilevy (Kaasunäyttö)</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardModeControl</Key>
+      <Value>Piirilevy (Tilahallinta)</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardPowerControl</Key>
+      <Value>Piirilevy (Virranhallinta)</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardShipDisplay</Key>
+      <Value>Piirilevy (Aluksen Näyttö)</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardSolarControl</Key>
+      <Value>Piirilevy (Aurinkoenergian Hallinta)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicAirConditioner</Key>
+      <Value>Kannettava Ilmastointilaite</Value>
+    </Record>
+    <Record>
+      <Key>DynamicCrate</Key>
+      <Value>Laatikko</Value>
+    </Record>
+    <Record>
+      <Key>DynamicCrateBuildingSupplies</Key>
+      <Value>Laatikko (Rakennustarvikkeita)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicCrateCableSupplies</Key>
+      <Value>Laatikko (Kaapelitarvikkeita)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicCrateConveyorSupplies</Key>
+      <Value>Laatikko (Kuljetintarvikkeita)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicCratePipeSupplies</Key>
+      <Value>Laatikko (Putkitarvikkeita)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterAir</Key>
+      <Value>Kannettava Säiliö (Ilma)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterCarbonDioxide</Key>
+      <Value>Kannettava Säiliö (Hiilidioksiidi)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterEmpty</Key>
+      <Value>Kannettava Säiliö</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterFuel</Key>
+      <Value>Kannettava Säiliö (Polttoaine)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterNitrogen</Key>
+      <Value>Kannettava Säiliö (Typpi)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterOxygen</Key>
+      <Value>Kannettava Säiliö (Happi)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterVolatiles</Key>
+      <Value>Kannettava Säiliö (Haihtuvat)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterWater</Key>
+      <Value>Kannettava Säiliö (Vesi)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGenerator</Key>
+      <Value>Kannettava Generaattori</Value>
+    </Record>
+    <Record>
+      <Key>DynamicLight</Key>
+      <Value>Kannettava Valo</Value>
+    </Record>
+    <Record>
+      <Key>DynamicScrubber</Key>
+      <Value>Kannettava Ilmanpuhdistaja</Value>
+    </Record>
+    <Record>
+      <Key>EffectSplatEgg</Key>
+      <Value>Effect Splat Egg</Value>
+    </Record>
+    <Record>
+      <Key>EntityAlien</Key>
+      <Value>Entity Alien</Value>
+    </Record>
+    <Record>
+      <Key>EntityChick</Key>
+      <Value>Entity Chick</Value>
+    </Record>
+    <Record>
+      <Key>EntityChickenBrown</Key>
+      <Value>Entity Chicken Brown</Value>
+    </Record>
+    <Record>
+      <Key>EntityChickenWhite</Key>
+      <Value>Entity Chicken White</Value>
+    </Record>
+    <Record>
+      <Key>EntityGraylien</Key>
+      <Value>Entity Graylien</Value>
+    </Record>
+    <Record>
+      <Key>EntityRoosterBlack</Key>
+      <Value>Entity Rooster Black</Value>
+    </Record>
+    <Record>
+      <Key>EntityRoosterBrown</Key>
+      <Value>Entity Rooster Brown</Value>
+    </Record>
+    <Record>
+      <Key>GasTankAir</Key>
+      <Value>Kaasusäiliö (Ilma)</Value>
+    </Record>
+    <Record>
+      <Key>ItemActiveVent</Key>
+      <Value>Aktiivinen Tuuletusventtiili</Value>
+    </Record>
+    <Record>
+      <Key>ItemAreaPowerControl</Key>
+      <Value>Virtasäädin</Value>
+    </Record>
+    <Record>
+      <Key>ItemBatteryCell</Key>
+      <Value>Paristo (Pieni)</Value>
+    </Record>
+    <Record>
+      <Key>ItemBatteryCellLarge</Key>
+      <Value>Paristo (Iso)</Value>
+    </Record>
+    <Record>
+      <Key>ItemBatteryCellNuclear</Key>
+      <Value>Paristo (Ydin)</Value>
+    </Record>
+    <Record>
+      <Key>ItemBatteryCharger</Key>
+      <Value>Paristolaturi</Value>
+    </Record>
+    <Record>
+      <Key>ItemBook</Key>
+      <Value>Kirja</Value>
+    </Record>
+    <Record>
+      <Key>ItemCableCoil</Key>
+      <Value>Kaapelikerä</Value>
+    </Record>
+    <Record>
+      <Key>ItemChemLightBlue</Key>
+      <Value>Kemiallinen Valo (Sininen)</Value>
+    </Record>
+    <Record>
+      <Key>ItemChemLightGreen</Key>
+      <Value>Kemiallinen Valo (Vihreä)</Value>
+    </Record>
+    <Record>
+      <Key>ItemChemLightRed</Key>
+      <Value>Kemiallinen Valo (Punainen)</Value>
+    </Record>
+    <Record>
+      <Key>ItemChemLightWhite</Key>
+      <Value>Kemiallinen Valo (Valkoinen)</Value>
+    </Record>
+    <Record>
+      <Key>ItemChemLightYellow</Key>
+      <Value>Kemiallinen Valo (Keltainen)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCoalOre</Key>
+      <Value>Malmi (Kivihiili)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCompositeFloorGrating</Key>
+      <Value>Komposiitti Lattiasäleikkö</Value>
+    </Record>
+    <Record>
+      <Key>ItemCopperIngot</Key>
+      <Value>Harkko (Kupari)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCopperOre</Key>
+      <Value>Malmi (Kupari)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCorn</Key>
+      <Value>Maissi</Value>
+    </Record>
+    <Record>
+      <Key>ItemCrowbar</Key>
+      <Value>Sorkkarauta</Value>
+    </Record>
+    <Record>
+      <Key>ItemDataDisk</Key>
+      <Value>Data-Levyke</Value>
+    </Record>
+    <Record>
+      <Key>ItemDrill</Key>
+      <Value>Porakone</Value>
+    </Record>
+    <Record>
+      <Key>ItemDuctTape</Key>
+      <Value>Ilmastointiteippi</Value>
+    </Record>
+    <Record>
+      <Key>ItemDynamite</Key>
+      <Value>Dynamiitti</Value>
+    </Record>
+    <Record>
+      <Key>ItemEgg</Key>
+      <Value>Muna</Value>
+    </Record>
+    <Record>
+      <Key>ItemEggBottom</Key>
+      <Value>Munan Pohja</Value>
+    </Record>
+    <Record>
+      <Key>ItemEggCarton</Key>
+      <Value>Munakartonki</Value>
+    </Record>
+    <Record>
+      <Key>ItemEggTop</Key>
+      <Value>Munan Kansi</Value>
+    </Record>
+    <Record>
+      <Key>ItemEvaSuit</Key>
+      <Value>Avaruuspuku</Value>
+    </Record>
+    <Record>
+      <Key>ItemFertilizedEgg</Key>
+      <Value>Hedelmöitetty Muna</Value>
+    </Record>
+    <Record>
+      <Key>ItemFireExtinguisher</Key>
+      <Value>Palosammutin</Value>
+    </Record>
+    <Record>
+      <Key>ItemFlashingLight</Key>
+      <Value>Vilkkuva Valo</Value>
+    </Record>
+    <Record>
+      <Key>ItemFlour</Key>
+      <Value>Jauhoa</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterCarbonDioxide</Key>
+      <Value>Kanisteri (Hiilidioksidi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterPollutants</Key>
+      <Value>Kanisteri (Saaste)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterEmpty</Key>
+      <Value>Kanisteri</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterFuel</Key>
+      <Value>Kanisteri (Polttoaine)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterVolatiles</Key>
+      <Value>Kanisteri (Volatiili)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterNitrogen</Key>
+      <Value>Kanisteri (Typpi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterOxygen</Key>
+      <Value>Kanisteri (Happi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterWater</Key>
+      <Value>Kanisteri (Vesi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterCarbonDioxide</Key>
+      <Value>Suodatin (Hiilidioksidi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterPollutants</Key>
+      <Value>Suodatin (Saaste)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrogen</Key>
+      <Value>Suodatin (Typpi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterOxygen</Key>
+      <Value>Suodatin (Happi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterVolatiles</Key>
+      <Value>Suodatin (Volatiili)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterWater</Key>
+      <Value>Suodatin (Vesi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasTankStorage</Key>
+      <Value>Kaasusäiliön Teline</Value>
+    </Record>
+    <Record>
+      <Key>ItemGlassSheets</Key>
+      <Value>Lasilevy</Value>
+    </Record>
+    <Record>
+      <Key>ItemGoldIngot</Key>
+      <Value>Harkko (Kulta)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGoldOre</Key>
+      <Value>Malmi (Kulta)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGrenade</Key>
+      <Value>Käsikranaatti</Value>
+    </Record>
+    <Record>
+      <Key>ItemHat</Key>
+      <Value>Hattu</Value>
+    </Record>
+    <Record>
+      <Key>ItemHealPill</Key>
+      <Value>Parannuspilleri</Value>
+    </Record>
+    <Record>
+      <Key>ItemHydroponicTray</Key>
+      <Value>Hydropooninen Tarjotin</Value>
+    </Record>
+    <Record>
+      <Key>ItemIce</Key>
+      <Value>Jää (Vesi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemIgniter</Key>
+      <Value>Sytytin</Value>
+    </Record>
+    <Record>
+      <Key>ItemInsulation</Key>
+      <Value>Eristys</Value>
+    </Record>
+    <Record>
+      <Key>ItemIronIngot</Key>
+      <Value>Harkko (Rauta)</Value>
+    </Record>
+    <Record>
+      <Key>ItemIronOre</Key>
+      <Value>Malmi (Rauta)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitAirlock</Key>
+      <Value>Varustepakkaus (Ilmalukko)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitAtmospherics</Key>
+      <Value>Varustepakkaus (Ilmastolaite)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitBattery</Key>
+      <Value>Varustepakkaus (Akku)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitCentrifuge</Key>
+      <Value>Varustepakkaus (Linko)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitChute</Key>
+      <Value>Varustepakkaus (Ränni)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitComputer</Key>
+      <Value>Varustepakkaus (Tietokone)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitConsole</Key>
+      <Value>Varustepakkaus (Konsoli)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitConveyor</Key>
+      <Value>Varustepakkaus (Kuljetin)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitCryoTube</Key>
+      <Value>Varustepakkaus (Syväjäähdytys)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitEngine</Key>
+      <Value>Varustepakkaus (Moottori)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitFabricator</Key>
+      <Value>Varustepakkaus (Kokoonpanija)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitFurnace</Key>
+      <Value>Varustepakkaus (Sulatusuuni)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitFurniture</Key>
+      <Value>Varustepakkaus (Huonekalu)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitGyroscope</Key>
+      <Value>Varustepakkaus (Gyroskooppi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitRegulator</Key>
+      <Value>Varustepakkaus (Paineventtiili)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSensor</Key>
+      <Value>Varustepakkaus (Sensori)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSign</Key>
+      <Value>Varustepakkaus (Kyltti)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSleeper</Key>
+      <Value>Varustepakkaus (Unikapseli)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSolarPanel</Key>
+      <Value>Varustepakkaus (Aurinkopaneeli)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitStairs</Key>
+      <Value>Varustepakkaus (Portaat)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitStellarAnchor</Key>
+      <Value>Varustepakkaus (Tähtiankkuri)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitStorage</Key>
+      <Value>Varustepakkaus (Kaappi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitTank</Key>
+      <Value>Varustepakkaus (Säiliö)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitTorpedoTube</Key>
+      <Value>Varustepakkaus (Torpedoputki)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitTurret</Key>
+      <Value>Varustepakkaus (Tykkitorni)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitWall</Key>
+      <Value>Varustepakkaus (Seinä)</Value>
+    </Record>
+    <Record>
+      <Key>ItemLabeller</Key>
+      <Value>Etikettikone</Value>
+    </Record>
+    <Record>
+      <Key>ItemLightSword</Key>
+      <Value>Valomiekka</Value>
+    </Record>
+    <Record>
+      <Key>ItemMilk</Key>
+      <Value>Maito</Value>
+    </Record>
+    <Record>
+      <Key>ItemMiningBelt</Key>
+      <Value>Kaivosvyö</Value>
+    </Record>
+    <Record>
+      <Key>ItemMiningDrill</Key>
+      <Value>Kaivospora</Value>
+    </Record>
+    <Record>
+      <Key>ItemMuffin</Key>
+      <Value>Muffinssi</Value>
+    </Record>
+    <Record>
+      <Key>ItemPassiveVent</Key>
+      <Value>Passiivinen Tuuletusventtiili</Value>
+    </Record>
+    <Record>
+      <Key>ItemPickaxe</Key>
+      <Value>Hakku</Value>
+    </Record>
+    <Record>
+      <Key>ItemPillHeal</Key>
+      <Value>Pilleri (Lääkintä)</Value>
+    </Record>
+    <Record>
+      <Key>ItemPillStun</Key>
+      <Value>Pilleri (Halvaus)</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeAnalyizer</Key>
+      <Value>Putkianalysaattori</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeCorner</Key>
+      <Value>Putki (Kulma)</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeCrossJunction</Key>
+      <Value>Putki (Risteys)</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeCrossJunction3</Key>
+      <Value>Putki (3-Tie Liittymä)</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeCrossJunction5</Key>
+      <Value>Putki (5-Tie Liittymä)</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeCrossJunction6</Key>
+      <Value>Putki (6-Tie Liittymä)</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeDigitalValve</Key>
+      <Value>Digitalinen Putkiventtiili</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeGasMixer</Key>
+      <Value>Kaasusekoittaja</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeLabel</Key>
+      <Value>Putkietiketti</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeMeter</Key>
+      <Value>Putkimittari</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeRadiator</Key>
+      <Value>Putkijäähdytin</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeStraight</Key>
+      <Value>Putki (Suora)</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeTJunction</Key>
+      <Value>Putki (T-Liittymä)</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeValve</Key>
+      <Value>Putkiventtiili</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeVolumePump</Key>
+      <Value>Pumppu</Value>
+    </Record>
+    <Record>
+      <Key>ItemPowerConnector</Key>
+      <Value>Virtaliitin</Value>
+    </Record>
+    <Record>
+      <Key>ItemReagentMix</Key>
+      <Value>Reagenssimassa</Value>
+    </Record>
+    <Record>
+      <Key>ItemRoadFlare</Key>
+      <Value>Hätäsoihtu</Value>
+    </Record>
+    <Record>
+      <Key>ItemRTG</Key>
+      <Value>R T G</Value>
+    </Record>
+    <Record>
+      <Key>ItemScanner</Key>
+      <Value>Käsiskanneri</Value>
+    </Record>
+    <Record>
+      <Key>ItemScrewdriver</Key>
+      <Value>Ruuvimeisseli</Value>
+    </Record>
+    <Record>
+      <Key>ItemSecurityCamera</Key>
+      <Value>Valvontakamera</Value>
+    </Record>
+    <Record>
+      <Key>ItemSpaceCleaner</Key>
+      <Value>Puhdistusaine</Value>
+    </Record>
+    <Record>
+      <Key>ItemSpaceHelmet</Key>
+      <Value>Avaruuskypärä</Value>
+    </Record>
+    <Record>
+      <Key>ItemSpacepack</Key>
+      <Value>Avaruusreppu</Value>
+    </Record>
+    <Record>
+      <Key>ItemSprayCanBlack</Key>
+      <Value>Spraymaaali (Musta)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSprayCanBlue</Key>
+      <Value>Spraymaaali (Sininen)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSprayCanBrown</Key>
+      <Value>Spraymaaali (Ruskea)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSprayCanGreen</Key>
+      <Value>Spraymaaali (Vihreä)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSprayCanGrey</Key>
+      <Value>Spraymaaali (Harmaa)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSprayCanKhaki</Key>
+      <Value>Spraymaaali (Khaki)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSprayCanOrange</Key>
+      <Value>Spraymaaali (Oranssi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSprayCanPink</Key>
+      <Value>Spraymaaali (Pinkki)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSprayCanPurple</Key>
+      <Value>Spraymaaali (Violetti)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSprayCanRed</Key>
+      <Value>Spraymaaali (Punainen)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSprayCanWhite</Key>
+      <Value>Spraymaaali (Valkoinen)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSprayCanYellow</Key>
+      <Value>Spraymaaali (Keltainen)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSteelFrames</Key>
+      <Value>Teräsrunko</Value>
+    </Record>
+    <Record>
+      <Key>ItemSteelIngot</Key>
+      <Value>Harkko (Teräs)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSteelSheets</Key>
+      <Value>Teräslevy</Value>
+    </Record>
+    <Record>
+      <Key>ItemSuitStorage</Key>
+      <Value>Pukuteline</Value>
+    </Record>
+    <Record>
+      <Key>ItemTablet</Key>
+      <Value>Tabletti</Value>
+    </Record>
+    <Record>
+      <Key>ItemTankConnector</Key>
+      <Value>Säiliön Liitin</Value>
+    </Record>
+    <Record>
+      <Key>ItemToolBelt</Key>
+      <Value>Työkaluvyö</Value>
+    </Record>
+    <Record>
+      <Key>ItemUraniumOre</Key>
+      <Value>Malmi (Uraani)</Value>
+    </Record>
+    <Record>
+      <Key>ItemWallCooler</Key>
+      <Value>Seinäjäähdytin</Value>
+    </Record>
+    <Record>
+      <Key>ItemWallHeater</Key>
+      <Value>Seinälämmitys</Value>
+    </Record>
+    <Record>
+      <Key>ItemWallLight</Key>
+      <Value>Varustepakkaus (Valo)</Value>
+    </Record>
+    <Record>
+      <Key>ItemWeldingTorch</Key>
+      <Value>Hitsauspoltin</Value>
+    </Record>
+    <Record>
+      <Key>ItemWheat</Key>
+      <Value>Vehnä</Value>
+    </Record>
+    <Record>
+      <Key>ItemWireCutters</Key>
+      <Value>Kaapelileikkurit</Value>
+    </Record>
+    <Record>
+      <Key>ItemWrench</Key>
+      <Value>Jakoavain</Value>
+    </Record>
+    <Record>
+      <Key>MotherboardLogic</Key>
+      <Value>Emolevy (Logiikka)</Value>
+    </Record>
+    <Record>
+      <Key>MotherboardManufacturing</Key>
+      <Value>Emolevy (Valmistus)</Value>
+    </Record>
+    <Record>
+      <Key>MotherboardSorter</Key>
+      <Value>Emolevy (Lajittelu)</Value>
+    </Record>
+    <Record>
+      <Key>MothershipCore</Key>
+      <Value>Emoaluksen Ydin</Value>
+    </Record>
+    <Record>
+      <Key>NPCDummyCharacter</Key>
+      <Value>NPC Character</Value>
+    </Record>
+    <Record>
+      <Key>NpcGrounder</Key>
+      <Value>Npc Grounder</Value>
+    </Record>
+    <Record>
+      <Key>OrganBrain</Key>
+      <Value>Aivot</Value>
+    </Record>
+    <Record>
+      <Key>OrganLungs</Key>
+      <Value>Keuhkot</Value>
+    </Record>
+    <Record>
+      <Key>SpaceShuttle</Key>
+      <Value>Avaruusukkula</Value>
+    </Record>
+    <Record>
+      <Key>StructureActiveVent</Key>
+      <Value>Aktiivinen Tuuletusventtiili</Value>
+    </Record>
+    <Record>
+      <Key>StructureAirConditioner</Key>
+      <Value>Ilmastointilaite</Value>
+    </Record>
+    <Record>
+      <Key>StructureAirlock</Key>
+      <Value>Ilmalukko</Value>
+    </Record>
+    <Record>
+      <Key>StructureAreaPowerControl</Key>
+      <Value>Virtasäädin</Value>
+    </Record>
+    <Record>
+      <Key>StructureAreaPowerControlReversed</Key>
+      <Value>Virtasäädin</Value>
+    </Record>
+    <Record>
+      <Key>StructureBackPressureRegulator</Key>
+      <Value>Vastapaineventtiili</Value>
+    </Record>
+    <Record>
+      <Key>StructureBattery</Key>
+      <Value>Akku</Value>
+    </Record>
+    <Record>
+      <Key>StructureBatteryCharger</Key>
+      <Value>Paristolaturi</Value>
+    </Record>
+    <Record>
+      <Key>StructureBench</Key>
+      <Value>Taso</Value>
+    </Record>
+    <Record>
+      <Key>StructureBlastDoor</Key>
+      <Value>Paineovi</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableCorner</Key>
+      <Value>Kaapeli (Kulma)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableCorner3</Key>
+      <Value>Kaapeli (3-Tie Kulma)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunction</Key>
+      <Value>Kaapeli (Liittymä)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunction4</Key>
+      <Value>Kaapeli (4-Tie Liittymä)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunction6</Key>
+      <Value>Kaapeli (6-Tie Liittymä)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableStraight</Key>
+      <Value>Kaapeli (Suora)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCamera</Key>
+      <Value>Kamera</Value>
+    </Record>
+    <Record>
+      <Key>StructureCentrifuge</Key>
+      <Value>Linko</Value>
+    </Record>
+    <Record>
+      <Key>StructureChair</Key>
+      <Value>Tuoli</Value>
+    </Record>
+    <Record>
+      <Key>StructureChuteBin</Key>
+      <Value>Ränniastia</Value>
+    </Record>
+    <Record>
+      <Key>StructureChuteCorner</Key>
+      <Value>Ränni (Kulma)</Value>
+    </Record>
+    <Record>
+      <Key>StructureChuteInlet</Key>
+      <Value>Ränni (Tulo)</Value>
+    </Record>
+    <Record>
+      <Key>StructureChuteJunction</Key>
+      <Value>Ränni (Liittymä)</Value>
+    </Record>
+    <Record>
+      <Key>StructureChuteOutlet</Key>
+      <Value>Ränni (Meno)</Value>
+    </Record>
+    <Record>
+      <Key>StructureChuteStraight</Key>
+      <Value>Ränni (Suora)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeDoor</Key>
+      <Value>Komposiittiovi</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeFloorGrating</Key>
+      <Value>Komposiitti Lattiasäleikkö</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWall</Key>
+      <Value>Komposiittseinä</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWallRound</Key>
+      <Value>Komposiittiseinä (Pyöreä)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWallType1</Key>
+      <Value>Komposiittseinä 1</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWallType2</Key>
+      <Value>Komposiittseinä 2</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWallType3</Key>
+      <Value>Komposiittseinä 3</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWallType4</Key>
+      <Value>Komposiittseinä 4</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWindow</Key>
+      <Value>Komposiitti-Ikkuna</Value>
+    </Record>
+    <Record>
+      <Key>StructureComputer</Key>
+      <Value>Tietokone</Value>
+    </Record>
+    <Record>
+      <Key>StructureConsole</Key>
+      <Value>Konsoli</Value>
+    </Record>
+    <Record>
+      <Key>StructureConsoleDual</Key>
+      <Value>Konsoli (2-Tie)</Value>
+    </Record>
+    <Record>
+      <Key>StructureConsoleMonitor</Key>
+      <Value>Konsoli (Monitori)</Value>
+    </Record>
+    <Record>
+      <Key>StructureControlChair</Key>
+      <Value>Hallintatuoli</Value>
+    </Record>
+    <Record>
+      <Key>StructureConveyorCorner</Key>
+      <Value>Kuljetin (Kulma)</Value>
+    </Record>
+    <Record>
+      <Key>StructureConveyorRiser</Key>
+      <Value>Kuljetin (Nostaja)</Value>
+    </Record>
+    <Record>
+      <Key>StructureConveyorStraight</Key>
+      <Value>Kuljetin (Suora)</Value>
+    </Record>
+    <Record>
+      <Key>StructureConveyorStraightLong</Key>
+      <Value>Kuljetin (Pitkä Suora)</Value>
+    </Record>
+    <Record>
+      <Key>StructureConveyorStraightShort</Key>
+      <Value>Kuljetin (Lyhyt Suora)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCryoTube</Key>
+      <Value>Syväjäädytin</Value>
+    </Record>
+    <Record>
+      <Key>StructureDaylightSensor</Key>
+      <Value>Valosensori</Value>
+    </Record>
+    <Record>
+      <Key>StructureDigitalValve</Key>
+      <Value>Digitalinen Venttiili</Value>
+    </Record>
+    <Record>
+      <Key>StructureFabricator</Key>
+      <Value>Kokoonpanija</Value>
+    </Record>
+    <Record>
+      <Key>StructureFiltration</Key>
+      <Value>Suodattaja</Value>
+    </Record>
+    <Record>
+      <Key>StructureFlashingLight</Key>
+      <Value>Vilkkuva Valo</Value>
+    </Record>
+    <Record>
+      <Key>StructureFrame</Key>
+      <Value>Runko</Value>
+    </Record>
+    <Record>
+      <Key>StructureFrameCorner</Key>
+      <Value>Runko (Kulma)</Value>
+    </Record>
+    <Record>
+      <Key>StructureFrameSide</Key>
+      <Value>Runko (Sivu)</Value>
+    </Record>
+    <Record>
+      <Key>StructureFurnace</Key>
+      <Value>Sulatusuuni</Value>
+    </Record>
+    <Record>
+      <Key>StructureGasMixer</Key>
+      <Value>Kaasusekoitin</Value>
+    </Record>
+    <Record>
+      <Key>StructureGasSensor</Key>
+      <Value>Kaasusensori</Value>
+    </Record>
+    <Record>
+      <Key>StructureGasTankStorage</Key>
+      <Value>Kaasusäiliön Teline</Value>
+    </Record>
+    <Record>
+      <Key>StructureGlassDoor</Key>
+      <Value>Lasiovi</Value>
+    </Record>
+    <Record>
+      <Key>StructureGunTurret</Key>
+      <Value>Tykki</Value>
+    </Record>
+    <Record>
+      <Key>StructureGyroscope</Key>
+      <Value>Gyroskooppi</Value>
+    </Record>
+    <Record>
+      <Key>StructureHydroponicsTray</Key>
+      <Value>Hydroponinen Tarjotin</Value>
+    </Record>
+    <Record>
+      <Key>StructureIgniter</Key>
+      <Value>Sytytin</Value>
+    </Record>
+    <Record>
+      <Key>StructureLocker</Key>
+      <Value>Kaappi</Value>
+    </Record>
+    <Record>
+      <Key>StructureMotionSensor</Key>
+      <Value>Liikesensori</Value>
+    </Record>
+    <Record>
+      <Key>StructurePassiveVent</Key>
+      <Value>Passiivinen Tuuletusventtiili</Value>
+    </Record>
+    <Record>
+      <Key>StructurePipeAnalysizer</Key>
+      <Value>Putkianalysaattori</Value>
+    </Record>
+    <Record>
+      <Key>StructurePipeCorner</Key>
+      <Value>Putki (Kulma)</Value>
+    </Record>
+    <Record>
+      <Key>StructurePipeCrossJunction</Key>
+      <Value>Putki (Liittymä)</Value>
+    </Record>
+    <Record>
+      <Key>StructurePipeCrossJunction3</Key>
+      <Value>Putki (3-Tie Liittymä)</Value>
+    </Record>
+    <Record>
+      <Key>StructurePipeCrossJunction5</Key>
+      <Value>Putki (5-Tie Liittymä)</Value>
+    </Record>
+    <Record>
+      <Key>StructurePipeCrossJunction6</Key>
+      <Value>Putki (6-Tie Liittymä)</Value>
+    </Record>
+    <Record>
+      <Key>StructurePipeLabel</Key>
+      <Value>Putkietiketti</Value>
+    </Record>
+    <Record>
+      <Key>StructurePipeMeter</Key>
+      <Value>Putkimittari</Value>
+    </Record>
+    <Record>
+      <Key>StructurePipeRadiator</Key>
+      <Value>Putkijäähdytin</Value>
+    </Record>
+    <Record>
+      <Key>StructurePipeStraight</Key>
+      <Value>Putki (Suora)</Value>
+    </Record>
+    <Record>
+      <Key>StructurePipeTJunction</Key>
+      <Value>Putki (T-Liittymä)</Value>
+    </Record>
+    <Record>
+      <Key>StructurePowerConnector</Key>
+      <Value>Virtaliitin</Value>
+    </Record>
+    <Record>
+      <Key>StructurePressureRegulator</Key>
+      <Value>Paineensäädin</Value>
+    </Record>
+    <Record>
+      <Key>StructureRailing</Key>
+      <Value>Kaide</Value>
+    </Record>
+    <Record>
+      <Key>StructureRocketEngine</Key>
+      <Value>Rakettimoottori</Value>
+    </Record>
+    <Record>
+      <Key>StructureRocketEngineSmall</Key>
+      <Value>Rakettimoottori (Pieni)</Value>
+    </Record>
+    <Record>
+      <Key>StructureRocketEngineTiny</Key>
+      <Value>Rakettimoottori (Erittäin Pieni)</Value>
+    </Record>
+    <Record>
+      <Key>StructureRTG</Key>
+      <Value>RTG</Value>
+    </Record>
+    <Record>
+      <Key>StructureSleeper</Key>
+      <Value>Unikapseli</Value>
+    </Record>
+    <Record>
+      <Key>StructureSolarPanel</Key>
+      <Value>Aurinkopaneeli</Value>
+    </Record>
+    <Record>
+      <Key>StructureSorter</Key>
+      <Value>Lajittelija</Value>
+    </Record>
+    <Record>
+      <Key>StructureStacker</Key>
+      <Value>Pinoaja</Value>
+    </Record>
+    <Record>
+      <Key>StructureStackerReverse</Key>
+      <Value>Pinoaja</Value>
+    </Record>
+    <Record>
+      <Key>StructureStairs4x2</Key>
+      <Value>Portaat</Value>
+    </Record>
+    <Record>
+      <Key>StructureStellarAnchor</Key>
+      <Value>Tähtiankkuri</Value>
+    </Record>
+    <Record>
+      <Key>StructureSuitStorage</Key>
+      <Value>Pukuteline</Value>
+    </Record>
+    <Record>
+      <Key>StructureTankConnector</Key>
+      <Value>Säiliön Liitin</Value>
+    </Record>
+    <Record>
+      <Key>StructureTankSmall</Key>
+      <Value>Pieni Säiliö</Value>
+    </Record>
+    <Record>
+      <Key>StructureTankSmallAir</Key>
+      <Value>Pieni Säiliö (Ilma)</Value>
+    </Record>
+    <Record>
+      <Key>StructureTankSmallFuel</Key>
+      <Value>Pieni Säiliö (Polttoaine)</Value>
+    </Record>
+    <Record>
+      <Key>StructureTorpedoRack</Key>
+      <Value>Torpedoteline</Value>
+    </Record>
+    <Record>
+      <Key>StructureTorpedoTube</Key>
+      <Value>Torpedoputki</Value>
+    </Record>
+    <Record>
+      <Key>StructureValve</Key>
+      <Value>Venttiili</Value>
+    </Record>
+    <Record>
+      <Key>StructureVolumePump</Key>
+      <Value>Pumppu</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallCooler</Key>
+      <Value>Seinäjäähdytin</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallHeater</Key>
+      <Value>Seinälämmitys</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallLight</Key>
+      <Value>Seinävalo</Value>
+    </Record>
+    <Record>
+      <Key>UniformCommander</Key>
+      <Value>Univormu (Komentaja)</Value>
+    </Record>
+    <Record>
+      <Key>UniformOrangeJumpSuit</Key>
+      <Value>Haalari (Oranssi)</Value>
+    </Record>
+    <Record>
+      <Key>WeaponEnergy</Key>
+      <Value>Energia-Ase</Value>
+    </Record>
+    <Record>
+      <Key>WeaponTorpedo</Key>
+      <Value>Torpedo</Value>
+    </Record>
+    <Record>
+      <Key>ItemWasteIngot</Key>
+      <Value>Harkko (Jäte)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableStraightBurnt</Key>
+      <Value>Palanut Kaapeli (Suora)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableCorner3Burnt</Key>
+      <Value>Palanut Kaapeli (3-Tie Kulma)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableCornerBurnt</Key>
+      <Value>Palanut Kaapeli (Kulma)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunction4Burnt</Key>
+      <Value>Palanut Kaapeli (4-Tie Liittymä)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunction6Burnt</Key>
+      <Value>Palanut Kaapeli (6-Tie Liittymä)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunctionBurnt</Key>
+      <Value>Palanut Kaapeli (Liittymä)</Value>
+    </Record>
+    <Record>
+      <Key>StructureSolidFuelGenerator</Key>
+      <Value>Generaattori (Kiinteä Polttoaine)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitGenerator</Key>
+      <Value>Varustepakkaus (Generaattori)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCableFuse</Key>
+      <Value>Varustepakkaus (Kaapelisulake)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableStraightH</Key>
+      <Value>Raskas Kaapeli (Suora)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunctionH6</Key>
+      <Value>Raskas Kaapeli (6-Tie Littymä)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunctionH4</Key>
+      <Value>Raskas Kaapeli (4-Tie Littymä)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunctionH</Key>
+      <Value>Raskas Kaapeli (3-Tie Littymä)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunction6HBurnt</Key>
+      <Value>Palanut Kaapeli (6-Tie Littymä)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunction4HBurnt</Key>
+      <Value>Palanut Kaapeli (4-Tie Littymä)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableStraightHBurnt</Key>
+      <Value>Palanut Kaapeli (Suora)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunctionHBurnt</Key>
+      <Value>Palanut Kaapeli (Littymä)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableCornerHBurnt</Key>
+      <Value>Palanut Kaapeli (Kulma) </Value>
+    </Record>
+    <Record>
+      <Key>StructureCableCornerH</Key>
+      <Value>Raskas Kaapeli (Kulma)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableFuse1k</Key>
+      <Value>Sulake (1kW)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableFuse5k</Key>
+      <Value>Sulake (5kW)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableFuse50k</Key>
+      <Value>Sulake (50kW)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableFuse100k</Key>
+      <Value>Sulake (100kW)</Value>
+    </Record>
+    <Record>
+      <Key>StructureTransformer</Key>
+      <Value>Muuntaja</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitTransformer</Key>
+      <Value>Varustepakkaus (Muuntaja)</Value>
+    </Record>
+    <Record>
+      <Key>StructureTransformerSmall</Key>
+      <Value>Muuntaja (Pieni)</Value>
+    </Record>
+    <Record>
+      <Key>WeaponPistolEnergy</Key>
+      <Value>Energiapistooli</Value>
+    </Record>
+    <Record>
+      <Key>StructureChuteWindow</Key>
+      <Value>Ränni (Ikkuna)</Value>
+    </Record>
+    <Record>
+      <Key>StructureArcFurnace</Key>
+      <Value>Valokaariuuni</Value>
+    </Record>
+    <Record>
+      <Key>StructureAutolathe</Key>
+      <Value>Sorvi</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitFabrication</Key>
+      <Value>Varustepakkaus (Kokoonpanija)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitPipe</Key>
+      <Value>Varustepakkaus (Putki)</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeElectronicReader</Key>
+      <Value>Kasetti (Tietosanakirja)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCableCoilHeavy</Key>
+      <Value>Kaapelikerä (Raskas)</Value>
+    </Record>
+    <Record>
+      <Key>StructureFrameIron</Key>
+      <Value>Rautarunko</Value>
+    </Record>
+    <Record>
+      <Key>ItemIronFrames</Key>
+      <Value>Rautarunko</Value>
+    </Record>
+    <Record>
+      <Key>ItemIronSheets</Key>
+      <Value>Rautalevy</Value>
+    </Record>
+    <Record>
+      <Key>ItemSilverOre</Key>
+      <Value>Malmi (Hopea)</Value>
+    </Record>
+    <Record>
+      <Key>ItemNickelOre</Key>
+      <Value>Malmi (Nikkeli)</Value>
+    </Record>
+    <Record>
+      <Key>ItemLeadOre</Key>
+      <Value>Malmi (Lyijy)</Value>
+    </Record>
+    <Record>
+      <Key>WeaponRifleEnergy</Key>
+      <Value>Energiakivääri</Value>
+    </Record>
+    <Record>
+      <Key>ItemElectrumIngot</Key>
+      <Value>Harkko (Elektrum)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSilverIngot</Key>
+      <Value>Harkko (Hopea)</Value>
+    </Record>
+    <Record>
+      <Key>ItemLeadIngot</Key>
+      <Value>Harkko (Lyijy)</Value>
+    </Record>
+    <Record>
+      <Key>ItemNickelIngot</Key>
+      <Value>Harkko (Nikkeli)</Value>
+    </Record>
+    <Record>
+      <Key>ItemInvarIngot</Key>
+      <Value>Harkko (Invarteräs)</Value>
+    </Record>
+    <Record>
+      <Key>ItemConstantanIngot</Key>
+      <Value>Harkko (Konstantaani)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSolderIngot</Key>
+      <Value>Harkko (Juote)</Value>
+    </Record>
+    <Record>
+      <Key>ApplianceChemistryStation</Key>
+      <Value>Kemiallinen Työasema</Value>
+    </Record>
+    <Record>
+      <Key>StructureDiode</Key>
+      <Value>LED</Value>
+    </Record>
+    <Record>
+      <Key>ItemSoybean</Key>
+      <Value>Soijapapu</Value>
+    </Record>
+    <Record>
+      <Key>ItemAngleGrinder</Key>
+      <Value>Kulmahiomakone</Value>
+    </Record>
+    <Record>
+      <Key>ItemSiliconOre</Key>
+      <Value>Malmi (Silikoni)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSiliconIngot</Key>
+      <Value>Harkko (Silikoni)</Value>
+    </Record>
+    <Record>
+      <Key>ItemFern</Key>
+      <Value>Saniainen</Value>
+    </Record>
+    <Record>
+      <Key>ItemCerealBar</Key>
+      <Value>Viljapatukka</Value>
+    </Record>
+    <Record>
+      <Key>StructureElectronicsPrinter</Key>
+      <Value>Elektroniikkatulostin</Value>
+    </Record>
+    <Record>
+      <Key>ItemVolatiles</Key>
+      <Value>Jää (Volatiili)</Value>
+    </Record>
+    <Record>
+      <Key>ItemOxite</Key>
+      <Value>Jää (Oksiitti)</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallIron</Key>
+      <Value>Rautaseinä</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitWallIron</Key>
+      <Value>Varustepakkaus (Rautaseinä)</Value>
+    </Record>
+    <Record>
+      <Key>StructureStorageLocker</Key>
+      <Value>Kaappi</Value>
+    </Record>
+    <Record>
+      <Key>SpawnPoint</Key>
+      <Value>Heräämispiste</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitCube</Key>
+      <Value>Varustepakkaus (Kuutio)</Value>
+    </Record>
+    <Record>
+      <Key>Cube</Key>
+      <Value>Kuutio</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitTransformerSmall</Key>
+      <Value>Varustepakkaus (Muuntaja Pieni)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSuitStorage</Key>
+      <Value>Varustepakkaus (Pukuteline)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSolidGenerator</Key>
+      <Value>Varustepakkaus (Kiinteä Generaattori)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLocker</Key>
+      <Value>Varustepakkaus (Kaappi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitEngineSmall</Key>
+      <Value>Varustepakkaus (Pieni Moottori)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitEngineMedium</Key>
+      <Value>Varustepakkaus (Keskikokoinen Moottori)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitEngineLarge</Key>
+      <Value>Varustepakkaus (Iso Moottori)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitElectronicsPrinter</Key>
+      <Value>Varustepakkaus (Elektroniikkatulostin)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitDoor</Key>
+      <Value>Varustepakkaus (Ovi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitAutolathe</Key>
+      <Value>Varustepakkaus (Sorvi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitBlastDoor</Key>
+      <Value>Varustepakkaus (Paineovi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitArcFurnace</Key>
+      <Value>Varustepakkaus (Valokaariuuni)</Value>
+    </Record>
+    <Record>
+      <Key>StructureHydraulicPipeBender</Key>
+      <Value>Hydraulinen Putkentaivuttaja</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitHydraulicPipeBender</Key>
+      <Value>Varustepakkaus (Hydraulinen Putkentaivuttaja)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSorter</Key>
+      <Value>Varustepakkaus (Lajittelija)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitStacker</Key>
+      <Value>Varustepakkaus (Pinoaja)</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeTracker</Key>
+      <Value>Kasetti (Seuranta)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasSensor</Key>
+      <Value>Kaasusensori</Value>
+    </Record>
+    <Record>
+      <Key>ItemBeacon</Key>
+      <Value>Seurantamajakka</Value>
+    </Record>
+    <Record>
+      <Key>StructureToolManufactory</Key>
+      <Value>Työkaluvalmistaja</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitToolManufactory</Key>
+      <Value>Varustepakkaus (Työkaluvalmistaja)</Value>
+    </Record>
+    <Record>
+      <Key>StructureTransformerSmallReversed</Key>
+      <Value>Muuntaja (Pieni)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicUnit</Key>
+      <Value>Logiikkayksikkö</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogic</Key>
+      <Value>Varustepakkaus (Logiikkayksikkö)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicReader</Key>
+      <Value>Logiikka Lukija</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicMemory</Key>
+      <Value>Logiikka Muisti</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicMath</Key>
+      <Value>Logiikka Matematiikkasuoritin</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicWriter</Key>
+      <Value>Logiikka Kirjoittaja</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicSelect</Key>
+      <Value>Logiikka Valitsin</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicCompare</Key>
+      <Value>Logiikka Vertailija</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicProcessor</Key>
+      <Value>Varustepakkaus (Logiikka Suoritin)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicMemory</Key>
+      <Value>Varustepakkaus (Logiikka Muisti)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicInputOutput</Key>
+      <Value>Varustepakkaus (Logiikka I/O)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicSwitch</Key>
+      <Value>Varustepakkaus (Logiikka Kytkin)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicSwitch</Key>
+      <Value>Vipu</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicMinMax</Key>
+      <Value>Logiikka Min/Max</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicDisplay5</Key>
+      <Value>LED Näyttö (Pieni)</Value>
+    </Record>
+    <Record>
+      <Key>StructureConsoleLED5</Key>
+      <Value>LED Näyttö (Pieni)</Value>
+    </Record>
+    <Record>
+      <Key>StructureConsoleLED8Large</Key>
+      <Value>LED Näyttö (Iso)</Value>
+    </Record>
+    <Record>
+      <Key>StructureSign1x1</Key>
+      <Value>Kyltti 1x1</Value>
+    </Record>
+    <Record>
+      <Key>StructureSign2x1</Key>
+      <Value>Kyltti 2x1</Value>
+    </Record>
+    <Record>
+      <Key>StructureConsoleLED5Large</Key>
+      <Value>LED Näyttö (Keskikokoinen)</Value>
+    </Record>
+    <Record>
+      <Key>StructureSolarPanelDual</Key>
+      <Value>Aurinkopaneeli</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicBatchWriter</Key>
+      <Value>Eräkirjoittaja</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicButton</Key>
+      <Value>Nappi</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicSwitch2</Key>
+      <Value>Kytkin</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicMathUnary</Key>
+      <Value>Unaarinen Matematiikkasuoritin</Value>
+    </Record>
+    <Record>
+      <Key>StructureRecycler</Key>
+      <Value>Kierrättäjä</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitRecycler</Key>
+      <Value>Varustepakkaus (Kierrättäjä)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCableAnalyser</Key>
+      <Value>Varustepakkaus (Kaapelianalysaattori)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableAnalysizer</Key>
+      <Value>Kaapelianalysaattori</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicDial</Key>
+      <Value>Valitsin</Value>
+    </Record>
+    <Record>
+      <Key>StructureConsoleLED1x2</Key>
+      <Value>LED Näyttö (Keskikokoinen)</Value>
+    </Record>
+    <Record>
+      <Key>StructureConsoleLED1x3</Key>
+      <Value>LED Näyttö (Iso)</Value>
+    </Record>
+    <Record>
+      <Key>NpcChick</Key>
+      <Value>Tipu</Value>
+    </Record>
+    <Record>
+      <Key>NpcChicken</Key>
+      <Value>Kana</Value>
+    </Record>
+    <Record>
+      <Key>DynamicSkeleton</Key>
+      <Value>Luuranko</Value>
+    </Record>
+    <Record>
+      <Key>StructureBeacon</Key>
+      <Value>Majakka</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitBeacon</Key>
+      <Value>Varustepakkaus (Majakka)</Value>
+    </Record>
+    <Record>
+      <Key>StructureTankBig</Key>
+      <Value>Iso Säiliö</Value>
+    </Record>
+    <Record>
+      <Key>ItemPotato</Key>
+      <Value>Peruna</Value>
+    </Record>
+    <Record>
+      <Key>ItemTomato</Key>
+      <Value>Tomaatti</Value>
+    </Record>
+    <Record>
+      <Key>StructureGasGenerator</Key>
+      <Value>Polttoaine Generaattori</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitGasGenerator</Key>
+      <Value>Varustepakkaus (Polttoaine Generaattori)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGPR</Key>
+      <Value>Maaperätutka (GPR)</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeOreScanner</Key>
+      <Value>Kasetti (Malmitutka)</Value>
+    </Record>
+    <Record>
+      <Key>ItemPotatoBaked</Key>
+      <Value>Uuniperuna</Value>
+    </Record>
+    <Record>
+      <Key>ItemTomatoSoup</Key>
+      <Value>Tomaattikeitto</Value>
+    </Record>
+    <Record>
+      <Key>ItemSoyOil</Key>
+      <Value>Soijaöljy</Value>
+    </Record>
+    <Record>
+      <Key>ItemFries</Key>
+      <Value>Ranskalaiset</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableCornerH3</Key>
+      <Value>Raskas Kaapeli (3-Tie Kulma)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableCornerH4</Key>
+      <Value>Raskas kaapeli (4-Tie Kulma)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableCorner4HBurnt</Key>
+      <Value>Palanut Raskas Kaapeli (4-Tie Kulma)</Value>
+    </Record>
+    <Record>
+      <Key>PortableSolarPanel</Key>
+      <Value>Kannettava Aurinkopaneeli</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunction5</Key>
+      <Value>Kaapeli (5-Tie Liittymä)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableCorner4</Key>
+      <Value>Kaapeli (4-Tie Kulma)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableCorner4Burnt</Key>
+      <Value>Palanut Kaapeli (4-Tie Kulma)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunction5Burnt</Key>
+      <Value>Palanut Kaapeli (5-Tie Liittymä)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunctionH5</Key>
+      <Value>Raskas Kaapeli (5-Tie Liittymä)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunctionH5Burnt</Key>
+      <Value>Palanut Raskas Kaapeli (5-Tie Liittymä)</Value>
+    </Record>
+    <Record>
+      <Key>WallFrameCornerCut</Key>
+      <Value>Kehys (Leikattu Kulma)</Value>
+    </Record>
+    <Record>
+      <Key>StructureFlagSmall</Key>
+      <Value>Pieni Lippu</Value>
+    </Record>
+    <Record>
+      <Key>ItemFlagSmall</Key>
+      <Value>Varustepakkaus (Pieni Lippu)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingAngled</Key>
+      <Value>Komposiittipäällyste (Vino)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingAngledCorner</Key>
+      <Value>Komposiittipäällyste (Vino Kulma)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingAngledCornerLong</Key>
+      <Value>Komposiittipäällyste (Pitkä Vino Kulma)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingAngledLong</Key>
+      <Value>Komposiittipäällyste (Pitkä Vino)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingCylindrical</Key>
+      <Value>Komposiittipäällyste (Lieriö)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingCylindricalPanel</Key>
+      <Value>Komposiittipäällyste (Lieriö Paneli)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingSphericalCorner</Key>
+      <Value>Komposiittipäällyste (Pyöreä Kulma)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingSphericalCap</Key>
+      <Value>Komposiittipäällyste (Pyöreä Pääty)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingSpherical</Key>
+      <Value>Komposiittipäällyste (Pyöreä)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingRoundedCorner</Key>
+      <Value>Komposiittipäällyste (Pyöristetty Kulma)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingRounded</Key>
+      <Value>Komposiittipäällyste (Pyöristetty)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingPanel</Key>
+      <Value>Komposiittipäällyste (Paneli)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitCompositeCladding</Key>
+      <Value>Varustepakkaus (Komposiittipäällyste)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingAngledCornerLongR</Key>
+      <Value>Komposiittipäällyste (Pitkä Vino Kulma Peilikuva)</Value>
+    </Record>
+    <Record>
+      <Key>StructureDockPortSide</Key>
+      <Value>Telakointiportti (Rakennus)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitDockingPort</Key>
+      <Value>Varustepakkaus (Telakoitumisportti)</Value>
+    </Record>
+    <Record>
+      <Key>StructureDockShipSide</Key>
+      <Value>Telakointiportti (Alus)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLightLong</Key>
+      <Value>Seinävalo (Pitkä)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLightLongAngled</Key>
+      <Value>Seinävalo (Pitkä Vino)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLightLongWide</Key>
+      <Value>Seinävalo (Pitkä Leveä)</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardAdvancedAirlockControl</Key>
+      <Value>Piirilevy (Kehittynyt Ilmalukon Hallinta)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitOrganicsPrinter</Key>
+      <Value>Varustepakkaus (Orgaaninen Printteri)</Value>
+    </Record>
+    <Record>
+      <Key>StructureOrganicsPrinter</Key>
+      <Value>Orgaaninen Printteri</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWindowIron</Key>
+      <Value>Komposiitti-Ikkuna (Rauta)</Value>
+    </Record>
+    <Record>
+      <Key>CompositeFloorGrating1</Key>
+      <Value>Komposiitti Lattiasäleikkö 1</Value>
+    </Record>
+    <Record>
+      <Key>CompositeFloorGrating2</Key>
+      <Value>Komposiitti Lattiasäleikkö 2</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeFloorGrating2</Key>
+      <Value>Komposiitti Lattiasäleikkö 2</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeFloorGrating3</Key>
+      <Value>Komposiitti Lattiasäleikkö 3</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeFloorGrating4</Key>
+      <Value>Komposiitti Lattiasäleikkö 4</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitWallPanels</Key>
+      <Value>Varustepakkaus (Seinäpaneli)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWallPanelling1</Key>
+      <Value>Komposiitti Seinäpaneli 1</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitCompositeFloorGrating</Key>
+      <Value>Varustepakkaus (Komposiitti Lattiasäleikkö)</Value>
+    </Record>
+    <Record>
+      <Key>CompositeRollCover</Key>
+      <Value>Komposiitti Rullaovi</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLadder</Key>
+      <Value>Varustepakkaus (Tikapuut)</Value>
+    </Record>
+    <Record>
+      <Key>StructureFrameCornerCut</Key>
+      <Value>Kehys Kulma Leikattu</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling1</Key>
+      <Value>Komposiitti Seinäpaneli 1</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling2</Key>
+      <Value>Komposiitti Seinäpaneli 2</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling3</Key>
+      <Value>Komposiitti Seinäpaneli 3</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling4</Key>
+      <Value>Komposiitti Seinäpaneli 4</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling5</Key>
+      <Value>Komposiitti Seinäpaneli 5</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling6</Key>
+      <Value>Komposiitti Seinäpaneli 6</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling7</Key>
+      <Value>Komposiitti Seinäpaneli 7</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling8</Key>
+      <Value>Komposiitti Seinäpaneli 8</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling9</Key>
+      <Value>Komposiitti Seinäpaneli 9</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling10</Key>
+      <Value>Komposiitti Seinäpaneli 10</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling11</Key>
+      <Value>Komposiitti Seinäpaneli 11</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling12</Key>
+      <Value>Komposiitti Seinäpaneli 12</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling13</Key>
+      <Value>Komposiitti Seinäpaneli 13</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling14</Key>
+      <Value>Komposiitti Seinäpaneli 14</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling15</Key>
+      <Value>Komposiitti Seinäpaneli 15</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling16</Key>
+      <Value>Komposiitti Seinäpaneli 16</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling17</Key>
+      <Value>Komposiitti Seinäpaneli 17</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling18</Key>
+      <Value>Komposiitti Seinäpaneli 18</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling19</Key>
+      <Value>Komposiitti Seinäpaneli 19</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling20</Key>
+      <Value>Komposiitti Seinäpaneli 20</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling21</Key>
+      <Value>Komposiitti Seinäpaneli 21</Value>
+    </Record>
+    <Record>
+      <Key>Corner1</Key>
+      <Value>Kulma 1</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallFlat</Key>
+      <Value>Litteä Seinä</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallArch</Key>
+      <Value>Seinä Kaari</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallArchArrow</Key>
+      <Value>Seinä Kaari Nuoli</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallArchPlating</Key>
+      <Value>Seinä Kaari Paneli</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallArchTwoTone</Key>
+      <Value>Seinä Kaari Kaksivärinen</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallGeometryCorner</Key>
+      <Value>Seinä Geometrinen Kulma</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallGeometryStreight</Key>
+      <Value>Seinä Geometrinen Suora</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallGeometryT</Key>
+      <Value>Seinä Geometrinen T</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallPaddedArch</Key>
+      <Value>Seinä Pehmustettu Kaari</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallPaddedArchLightsFittings</Key>
+      <Value>Seinä Pehmustettu Kaari Valoilla</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallPadding</Key>
+      <Value>Seinä Pehmustettu</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallPaddingArchVent</Key>
+      <Value>Seinä Pehmustettu Kaari Ilmaaukolla</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallPaddingLightFitting</Key>
+      <Value>Seinä Pehmustettu Valoilla</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallPaddingThin</Key>
+      <Value>Seinä Pehmustettu Ohut</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallPlating</Key>
+      <Value>Seinä Panelointi</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallSimple</Key>
+      <Value>Seinä Yksinkertainen</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallSmallPanels</Key>
+      <Value>Seinä Pienet Panelit</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallLargePanel</Key>
+      <Value>Seinä Isot Panelit</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallSmallPanelsAndHatch</Key>
+      <Value>Seinä Pienet Panelit ja Luukku</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallSmallPanelsArrow</Key>
+      <Value>Seinä Pienet Panelit Nuoli</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallSmallPanelsMonoChrome</Key>
+      <Value>Seinä Pienet Panelit Yksivärinen</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallSmallPanelsTwoTone</Key>
+      <Value>Seinä Pienet Panelit Kaksivärinen</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallLargePanelArrow</Key>
+      <Value>Seinä Isot Panelit Valoilla</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitWallArch</Key>
+      <Value>Varustepakkaus (Kaari Seinä)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitWallFlat</Key>
+      <Value>Varustepakkaus (Litteä Seinä)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitWallGeometry</Key>
+      <Value>Varustepakkaus (Geometrinen Seinä)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitWallPadded</Key>
+      <Value>Varustepakkaus (Pehmustettu Seinä)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLadder</Key>
+      <Value>Tikapuut</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeGuide</Key>
+      <Value>Kassetti (Opas)</Value>
+    </Record>
+    <Record>
+      <Key>StructurePipeCrossJunction4</Key>
+      <Value>Putki (4-Tie Kulma)</Value>
+    </Record>
+    <Record>
+      <Key>ItemAuthoringTool</Key>
+      <Value>Esine Työkalu</Value>
+    </Record>
+    <Record>
+      <Key>StructureRocketEngineDestroyed</Key>
+      <Value>Rakettimoottori (Tuhottu)</Value>
+    </Record>
+    <Record>
+      <Key>ItemWreckageConstructor</Key>
+      <Value>Debug Hylky Työkalu</Value>
+    </Record>
+    <Record>
+      <Key>ItemWreckage1</Key>
+      <Value>Hylky</Value>
+    </Record>
+    <Record>
+      <Key>ItemWreckage2</Key>
+      <Value>Hylky</Value>
+    </Record>
+    <Record>
+      <Key>ItemWreckage3</Key>
+      <Value>Hylky</Value>
+    </Record>
+    <Record>
+      <Key>ItemWreckage4</Key>
+      <Value>Hylky</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeAccessController</Key>
+      <Value>Kasetti (Kulunvalvonta)</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardBlack</Key>
+      <Value>Kulkukortti (Musta)</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardBlue</Key>
+      <Value>Kulkukortti (Sininen)</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardBrown</Key>
+      <Value>Kulkukortti (Ruskea)</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardGray</Key>
+      <Value>Kulkukortti (Harmaa)</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardGreen</Key>
+      <Value>Kulkukortti (Vihreä)</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardKhaki</Key>
+      <Value>Kulkukortti (Khaki)</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardOrange</Key>
+      <Value>Kulkukortti (Oranssi)</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardPink</Key>
+      <Value>Kulkukortti (Vaaleanpunainen)</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardPurple</Key>
+      <Value>Kulkukortti (Purppura)</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardRed</Key>
+      <Value>Kulkukortti (Punainen)</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardWhite</Key>
+      <Value>Kulkukortti (Valkoinen)</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardYellow</Key>
+      <Value>Kulkukortti (Keltainen)</Value>
+    </Record>
+    <Record>
+      <Key>StructureSecurityPrinter</Key>
+      <Value>Turva-Printteri</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSecurityPrinter</Key>
+      <Value>Varustepakkaus (Turva-Printteri)</Value>
+    </Record>
+    <Record>
+      <Key>Handgun</Key>
+      <Value>Käsiase</Value>
+    </Record>
+    <Record>
+      <Key>ItemAmmoBox</Key>
+      <Value>Ammuslaatikko</Value>
+    </Record>
+    <Record>
+      <Key>HandgunMagazine</Key>
+      <Value>Lipas (Käsiase)</Value>
+    </Record>
+    <Record>
+      <Key>SMGMagazine</Key>
+      <Value>Lipas (KP)</Value>
+    </Record>
+    <Record>
+      <Key>FireArmSMG</Key>
+      <Value>Konepistooli</Value>
+    </Record>
+    <Record>
+      <Key>StructureElectrolyser</Key>
+      <Value>Elektrolyysilaite</Value>
+    </Record>
+    <Record>
+      <Key>StructureElevatorShaft</Key>
+      <Value>Hissikuilu</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitElevator</Key>
+      <Value>Varustepakkaus (Hissi)</Value>
+    </Record>
+    <Record>
+      <Key>ElevatorCarrage</Key>
+      <Value>Hissi</Value>
+    </Record>
+    <Record>
+      <Key>StructureElevatorLevelFront</Key>
+      <Value>Kerros</Value>
+    </Record>
+    <Record>
+      <Key>StructureCrateMount</Key>
+      <Value>Kiinnitysalusta</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitCrateMount</Key>
+      <Value>Varustepakkaus (Kiinnitysalusta)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicMirror</Key>
+      <Value>Logiikkapeili</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardHashDisplay</Key>
+      <Value>Piirilevy (Hajautusarvonäyttö)</Value>
+    </Record>
+    <Record>
+      <Key>StructureHydroponicsStation</Key>
+      <Value>Hydroponinen Asema</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitHydroponicStation</Key>
+      <Value>Varustepakkaus (Hydropooninen Asema)</Value>
+    </Record>
+    <Record>
+      <Key>StructureDiodeSlide</Key>
+      <Value>Diodi Liuku</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterSmart</Key>
+      <Value>Kaasukanisteri (Äly)</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeConfiguration</Key>
+      <Value>Kasetti (Kokoonpano)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitCrate</Key>
+      <Value>Varustepakkaus (Laatikko)</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardGraphDisplay</Key>
+      <Value>Piirilevy (Kaavio Näyttö)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitMotherShipCore</Key>
+      <Value>Varustepakkaus (Emoalus)</Value>
+    </Record>
+    <Record>
+      <Key>ItemDynamicScrubber</Key>
+      <Value>Varustepakkaus (Kannettava Ilmanpuhdistaja)</Value>
+    </Record>
+    <Record>
+      <Key>ItemDynamicAirCon</Key>
+      <Value>Varustepakkaus (Kannettava Ilmastointilaite)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitPipeValve</Key>
+      <Value>Varustepakkaus (Putkiventtiili)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitDynamicGenerator</Key>
+      <Value>Varustepakkaus (Kannettava Generaattori)</Value>
+    </Record>
+    <Record>
+      <Key>StructureVendingMachine</Key>
+      <Value>Myyntiautomaatti</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitVendingMachine</Key>
+      <Value>Varustepakkaus (Myyntiautomaatti)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicSlotReader</Key>
+      <Value>Lokeron Lukija</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicBatchReader</Key>
+      <Value>Erälukija</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicReagentReader</Key>
+      <Value>Aines Lukija</Value>
+    </Record>
+    <Record>
+      <Key>ItemHardSuit</Key>
+      <Value>Painepuku</Value>
+    </Record>
+    <Record>
+      <Key>ItemHardsuitHelmet</Key>
+      <Value>Painepuvun Kypärä</Value>
+    </Record>
+    <Record>
+      <Key>ItemWearLamp</Key>
+      <Value>Otsalamppu</Value>
+    </Record>
+    <Record>
+      <Key>StructureTurbineGenerator</Key>
+      <Value>Turbiinigeneraattori</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitTurbineGenerator</Key>
+      <Value>Varustepakkaus (Turbiinigeneraattori)</Value>
+    </Record>
+    <Record>
+      <Key>ReagentSilver</Key>
+      <Value>Hopeajauhe</Value>
+    </Record>
+    <Record>
+      <Key>ReagentPotassiumIodide</Key>
+      <Value>Kaliumjodidi Jauhe</Value>
+    </Record>
+    <Record>
+      <Key>ReagentInvar</Key>
+      <Value>Invar Jauhe</Value>
+    </Record>
+    <Record>
+      <Key>ReagentElectrum</Key>
+      <Value>Electrum Jauhe</Value>
+    </Record>
+    <Record>
+      <Key>ReagentGold</Key>
+      <Value>Kultajauhe</Value>
+    </Record>
+    <Record>
+      <Key>StructureUnloader</Key>
+      <Value>Purkaaja</Value>
+    </Record>
+    <Record>
+      <Key>ReagentFenoxitone</Key>
+      <Value>Fenoksitoni Jauhe</Value>
+    </Record>
+    <Record>
+      <Key>StructurePlatformLadderOpen</Key>
+      <Value>Tikkaat (Laituri)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLadderEnd</Key>
+      <Value>Tikkaat (Pääty)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLockerSmall</Key>
+      <Value>Kaappi (Pieni)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicBatchSlotReader</Key>
+      <Value>Lokeron Erälukija</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardAdvAirlockControl</Key>
+      <Value>Piirilevy (Kehittynyt Ilmalukko)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitPressurePlate</Key>
+      <Value>Varustepakkaus (Laukaisulaatta)</Value>
+    </Record>
+    <Record>
+      <Key>StructurePressurePlateLarge</Key>
+      <Value>Laukaisulaatta (Iso)</Value>
+    </Record>
+    <Record>
+      <Key>StructurePressurePlateMedium</Key>
+      <Value>Laukaisulaatta (Keskikokoinen)</Value>
+    </Record>
+    <Record>
+      <Key>StructurePressurePlateSmall</Key>
+      <Value>Laukaisulaatta (Pieni)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitDynamicCanister</Key>
+      <Value>Varustepakkaus (Kannettava Säiliö)</Value>
+    </Record>
+    <Record>
+      <Key>ItemFlowerBlue</Key>
+      <Value>Kukka (Sininen)</Value>
+    </Record>
+    <Record>
+      <Key>ItemFlowerOrange</Key>
+      <Value>Kukka (Oranssi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemFlowerRed</Key>
+      <Value>Kukka (Punainen)</Value>
+    </Record>
+    <Record>
+      <Key>ItemFlowerYellow</Key>
+      <Value>Kukka (Keltainen)</Value>
+    </Record>
+    <Record>
+      <Key>AppliancePaintMixer</Key>
+      <Value>Värisekoitin</Value>
+    </Record>
+    <Record>
+      <Key>ReagentColorBlue</Key>
+      <Value>Väri (Sininen)</Value>
+    </Record>
+    <Record>
+      <Key>ReagentCarbon</Key>
+      <Value>Hiilijauhe</Value>
+    </Record>
+    <Record>
+      <Key>ReagentColorGreen</Key>
+      <Value>Väri (Green)</Value>
+    </Record>
+    <Record>
+      <Key>ReagentColorOrange</Key>
+      <Value>Väri (Oranssi)</Value>
+    </Record>
+    <Record>
+      <Key>ReagentColorRed</Key>
+      <Value>Väri (Punainen)</Value>
+    </Record>
+    <Record>
+      <Key>ReagentColorYellow</Key>
+      <Value>Väri (Keltainen)</Value>
+    </Record>
+    <Record>
+      <Key>ItemFlowerGreen</Key>
+      <Value>Kukka (Green)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterCarbonDioxideL</Key>
+      <Value>Raskas Suodatin (Hiilidioksiidi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterCarbonDioxideM</Key>
+      <Value>Keskitason Suodatin (Hiilidioksiidi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrogenL</Key>
+      <Value>Raskas Suodatin (Typpi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrogenM</Key>
+      <Value>Keskitason Suodatin (Typpi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterOxygenL</Key>
+      <Value>Raskas Suodatin (Happi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterOxygenM</Key>
+      <Value>Keskitason Suodatin (Happi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterPollutantsL</Key>
+      <Value>Raskas Suodatin (Saaste)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterPollutantsM</Key>
+      <Value>Keskitason Suodatin (Saaste)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterVolatilesL</Key>
+      <Value>Raskas Suodatin (Volatiili)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterVolatilesM</Key>
+      <Value>Keskitason Suodatin (Volatiili)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterWaterL</Key>
+      <Value>Raskas Suodatin (Vesi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterWaterM</Key>
+      <Value>Keskitason Suodatin (Vesi)</Value>
+    </Record>
+    <Record>
+      <Key>ItemMushroom</Key>
+      <Value>Sieni</Value>
+    </Record>
+    <Record>
+      <Key>ItemPumpkin</Key>
+      <Value>Kurpitsa</Value>
+    </Record>
+    <Record>
+      <Key>ItemRice</Key>
+      <Value>Riisi</Value>
+    </Record>
+    <Record>
+      <Key>ItemPumpkinPie</Key>
+      <Value>Kurpitsapiirakka</Value>
+    </Record>
+    <Record>
+      <Key>ItemHardBackpack</Key>
+      <Value>Painepuvun Reppu</Value>
+    </Record>
+    <Record>
+      <Key>ItemHardJetpack</Key>
+      <Value>Painepuvun Lentoreppu</Value>
+    </Record>
+    <Record>
+      <Key>DynamicHydroponics</Key>
+      <Value>Kannettava Hydroponinen Asema</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitDynamicHydroponics</Key>
+      <Value>Varustepakkaus (Kannettava Hydroponinen Asema)</Value>
+    </Record>
+    <Record>
+      <Key>StructureKlaxon</Key>
+      <Value>Kaiutin</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSpeaker</Key>
+      <Value>Varustepakkaus (Kaiutin)</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeOreScannerColor</Key>
+      <Value>Kasetti (Malmitutka (Väri))</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicWriterSwitch</Key>
+      <Value>Logiikka Kirjoittaja Kytkimellä</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicPGMChip</Key>
+      <Value>Ohjelmoitava Logiikkasiru</Value>
+    </Record>
+    <Record>
+      <Key>MotherboardProgrammableChip</Key>
+      <Value>Ohjelmoitava Siru, Emolevy</Value>
+    </Record>
+  </Things>
+  <Slots>
+    <Record>
+      <Key>Output</Key>
+      <Value>Meno</Value>
+    </Record>
+    <Record>
+      <Key>Input</Key>
+      <Value>Tulo</Value>
+    </Record>
+    <Record>
+      <Key>LeftHand</Key>
+      <Value>Vasen Käsi</Value>
+    </Record>
+    <Record>
+      <Key>RightHand</Key>
+      <Value>Oikea Käsi</Value>
+    </Record>
+    <Record>
+      <Key>Helmet</Key>
+      <Value>Kypärä</Value>
+    </Record>
+    <Record>
+      <Key>Suit</Key>
+      <Value>Puku</Value>
+    </Record>
+    <Record>
+      <Key>Back</Key>
+      <Value>Selkä</Value>
+    </Record>
+    <Record>
+      <Key>Brain</Key>
+      <Value>Aivot</Value>
+    </Record>
+    <Record>
+      <Key>Uniform</Key>
+      <Value>Univormu</Value>
+    </Record>
+    <Record>
+      <Key>Lungs</Key>
+      <Value>Keuhkot</Value>
+    </Record>
+    <Record>
+      <Key>Belt</Key>
+      <Value>Vyö</Value>
+    </Record>
+    <Record>
+      <Key>Battery</Key>
+      <Value>Paristo</Value>
+    </Record>
+    <Record>
+      <Key>GasCanister</Key>
+      <Value>Kaasukanisteri</Value>
+    </Record>
+    <Record>
+      <Key>GasFilter</Key>
+      <Value>Kaasusuodatin</Value>
+    </Record>
+    <Record>
+      <Key>AirTank</Key>
+      <Value>Ilmasäiliö</Value>
+    </Record>
+    <Record>
+      <Key>WasteTank</Key>
+      <Value>Jätesäiliö</Value>
+    </Record>
+    <Record>
+      <Key>LifeSupport</Key>
+      <Value>Ylläpito</Value>
+    </Record>
+    <Record>
+      <Key>Filter</Key>
+      <Value>Suodatin</Value>
+    </Record>
+    <Record>
+      <Key>Tool</Key>
+      <Value>Työkalu</Value>
+    </Record>
+    <Record>
+      <Key>Ore</Key>
+      <Value>Malmi</Value>
+    </Record>
+    <Record>
+      <Key>Propellent</Key>
+      <Value>Polttoaine</Value>
+    </Record>
+    <Record>
+      <Key>Cartridge</Key>
+      <Value>Kasetti</Value>
+    </Record>
+    <Record>
+      <Key>CaptainsSeat</Key>
+      <Value>Kapteenin Istuin</Value>
+    </Record>
+    <Record>
+      <Key>PassengerSeatLeft</Key>
+      <Value>Matkustajan Istuin (Vasen)</Value>
+    </Record>
+    <Record>
+      <Key>PassengerSeatRight</Key>
+      <Value>Matkustajan Istuin (Oikea)</Value>
+    </Record>
+    <Record>
+      <Key>DataDisk</Key>
+      <Value>Data-Levyke</Value>
+    </Record>
+    <Record>
+      <Key>Appliance1</Key>
+      <Value>Laite 1</Value>
+    </Record>
+    <Record>
+      <Key>Appliance2</Key>
+      <Value>Laite 2</Value>
+    </Record>
+    <Record>
+      <Key>Import</Key>
+      <Value>Tuo</Value>
+    </Record>
+    <Record>
+      <Key>Export</Key>
+      <Value>Vie</Value>
+    </Record>
+    <Record>
+      <Key>Seat</Key>
+      <Value>Istuin</Value>
+    </Record>
+    <Record>
+      <Key>TransportSlot</Key>
+      <Value>Kuljetuslokero</Value>
+    </Record>
+    <Record>
+      <Key>Motherboard</Key>
+      <Value>Emolevy</Value>
+    </Record>
+    <Record>
+      <Key>Entity</Key>
+      <Value>Entity</Value>
+    </Record>
+    <Record>
+      <Key>Occupant</Key>
+      <Value>Haltija</Value>
+    </Record>
+    <Record>
+      <Key>PortableSlot</Key>
+      <Value>Kannettava Lokero</Value>
+    </Record>
+    <Record>
+      <Key>Bed</Key>
+      <Value>Sänky</Value>
+    </Record>
+    <Record>
+      <Key>Processing</Key>
+      <Value>Käsittely</Value>
+    </Record>
+    <Record>
+      <Key>Torpedo</Key>
+      <Value>Torpedo</Value>
+    </Record>
+    <Record>
+      <Key>LoadingRail</Key>
+      <Value>Latauskisko</Value>
+    </Record>
+    <Record>
+      <Key>AccessCard</Key>
+      <Value>Kulkukortti</Value>
+    </Record>
+    <Record>
+      <Key>Magazine</Key>
+      <Value>Lipas</Value>
+    </Record>
+    <Record>
+      <Key>ContainerSlot</Key>
+      <Value>Säiliön Lokero</Value>
+    </Record>
+    <Record>
+      <Key>Plant</Key>
+      <Value>Istuta</Value>
+    </Record>
+    <Record>
+      <Key>Storage</Key>
+      <Value>Varasto</Value>
+    </Record>
+    <Record>
+      <Key>Circuit</Key>
+      <Value>Piiri</Value>
+    </Record>
+  </Slots>
+  <Interactables>
+    <Record>
+      <Key>Activate</Key>
+      <Value>Aktivoi</Value>
+    </Record>
+    <Record>
+      <Key>Open</Key>
+      <Value>Avaa</Value>
+    </Record>
+    <Record>
+      <Key>OnOff</Key>
+      <Value>Päälle / Pois</Value>
+    </Record>
+    <Record>
+      <Key>Lock</Key>
+      <Value>Lukitse</Value>
+    </Record>
+    <Record>
+      <Key>Powered</Key>
+      <Value>Päällä</Value>
+    </Record>
+    <Record>
+      <Key>Error</Key>
+      <Value>Virhe</Value>
+    </Record>
+    <Record>
+      <Key>Slot1</Key>
+      <Value>Lokero 1</Value>
+    </Record>
+    <Record>
+      <Key>Slot2</Key>
+      <Value>Lokero 2</Value>
+    </Record>
+    <Record>
+      <Key>GrabLeftHand</Key>
+      <Value>Tartu Vasempaan Käteen</Value>
+    </Record>
+    <Record>
+      <Key>GrabRightHand</Key>
+      <Value>Tartu Oikeaan Käteen</Value>
+    </Record>
+    <Record>
+      <Key>GrabLeftFoot</Key>
+      <Value>Tartu Vasempaan Jalkaan</Value>
+    </Record>
+    <Record>
+      <Key>GrabRightFoot</Key>
+      <Value>Tartu Oikeaan Jalkaan</Value>
+    </Record>
+    <Record>
+      <Key>Drag</Key>
+      <Value>Vedä</Value>
+    </Record>
+    <Record>
+      <Key>Mode</Key>
+      <Value>Tila</Value>
+    </Record>
+    <Record>
+      <Key>Button1</Key>
+      <Value>Näppäin 1</Value>
+    </Record>
+    <Record>
+      <Key>Slot3</Key>
+      <Value>Lokero 3</Value>
+    </Record>
+    <Record>
+      <Key>Slot4</Key>
+      <Value>Lokero 4</Value>
+    </Record>
+    <Record>
+      <Key>Slot5</Key>
+      <Value>Lokero 5</Value>
+    </Record>
+    <Record>
+      <Key>Slot6</Key>
+      <Value>Lokero 6</Value>
+    </Record>
+    <Record>
+      <Key>Slot7</Key>
+      <Value>Lokero 7</Value>
+    </Record>
+    <Record>
+      <Key>Slot8</Key>
+      <Value>Lokero 8</Value>
+    </Record>
+    <Record>
+      <Key>Slot9</Key>
+      <Value>Lokero 9</Value>
+    </Record>
+    <Record>
+      <Key>Slot10</Key>
+      <Value>Lokero 10</Value>
+    </Record>
+    <Record>
+      <Key>Button2</Key>
+      <Value>Näppäin 2</Value>
+    </Record>
+    <Record>
+      <Key>SplitOne</Key>
+      <Value>Yksi</Value>
+    </Record>
+    <Record>
+      <Key>SplitHalf</Key>
+      <Value>Puolita</Value>
+    </Record>
+    <Record>
+      <Key>NextPage</Key>
+      <Value>Seuraava</Value>
+    </Record>
+    <Record>
+      <Key>PreviousPage</Key>
+      <Value>Edellinen</Value>
+    </Record>
+    <Record>
+      <Key>Use</Key>
+      <Value>Käytä</Value>
+    </Record>
+    <Record>
+      <Key>Export</Key>
+      <Value>Vie</Value>
+    </Record>
+    <Record>
+      <Key>Import</Key>
+      <Value>Tuo</Value>
+    </Record>
+    <Record>
+      <Key>PressureUp</Key>
+      <Value>Nosta Painetta</Value>
+    </Record>
+    <Record>
+      <Key>PressureDown</Key>
+      <Value>Laske Painetta</Value>
+    </Record>
+    <Record>
+      <Key>Flush</Key>
+      <Value>Huuhdo</Value>
+    </Record>
+    <Record>
+      <Key>Battery</Key>
+      <Value>Paristo</Value>
+    </Record>
+    <Record>
+      <Key>Cartridge</Key>
+      <Value>Kasetti</Value>
+    </Record>
+    <Record>
+      <Key>CaptainsChair</Key>
+      <Value>Kapteenin Tuoli</Value>
+    </Record>
+    <Record>
+      <Key>PassengersChair</Key>
+      <Value>Matkustajan Tuoli</Value>
+    </Record>
+    <Record>
+      <Key>Button3</Key>
+      <Value>Näppäin 3</Value>
+    </Record>
+    <Record>
+      <Key>Slot11</Key>
+      <Value>Lokero 11</Value>
+    </Record>
+    <Record>
+      <Key>Slot12</Key>
+      <Value>Lokero 12</Value>
+    </Record>
+    <Record>
+      <Key>Slot13</Key>
+      <Value>Lokero 13</Value>
+    </Record>
+    <Record>
+      <Key>Slot14</Key>
+      <Value>Lokero 14</Value>
+    </Record>
+    <Record>
+      <Key>Slot15</Key>
+      <Value>Lokero 15</Value>
+    </Record>
+    <Record>
+      <Key>Slot16</Key>
+      <Value>Lokero 16</Value>
+    </Record>
+    <Record>
+      <Key>Slot17</Key>
+      <Value>Lokero 17</Value>
+    </Record>
+    <Record>
+      <Key>Slot18</Key>
+      <Value>Lokero 18</Value>
+    </Record>
+    <Record>
+      <Key>Slot19</Key>
+      <Value>Lokero 19</Value>
+    </Record>
+    <Record>
+      <Key>Slot20</Key>
+      <Value>Lokero 20</Value>
+    </Record>
+    <Record>
+      <Key>Slot21</Key>
+      <Value>Lokero 21</Value>
+    </Record>
+    <Record>
+      <Key>Slot22</Key>
+      <Value>Lokero 22</Value>
+    </Record>
+    <Record>
+      <Key>Slot23</Key>
+      <Value>Lokero 23</Value>
+    </Record>
+    <Record>
+      <Key>Slot24</Key>
+      <Value>Lokero 24</Value>
+    </Record>
+    <Record>
+      <Key>Slot25</Key>
+      <Value>Lokero 25</Value>
+    </Record>
+    <Record>
+      <Key>Slot26</Key>
+      <Value>Lokero 26</Value>
+    </Record>
+    <Record>
+      <Key>Slot27</Key>
+      <Value>Lokero 27</Value>
+    </Record>
+    <Record>
+      <Key>Slot28</Key>
+      <Value>Lokero 28</Value>
+    </Record>
+    <Record>
+      <Key>Slot29</Key>
+      <Value>Lokero 29</Value>
+    </Record>
+    <Record>
+      <Key>Slot30</Key>
+      <Value>Lokero 30</Value>
+    </Record>
+    <Record>
+      <Key>TiltUpwards</Key>
+      <Value>Kallista Ylöspäin</Value>
+    </Record>
+    <Record>
+      <Key>Rotate</Key>
+      <Value>Pyöritä</Value>
+    </Record>
+    <Record>
+      <Key>RotateLeft</Key>
+      <Value>Pyöritä Vasemmalle</Value>
+    </Record>
+    <Record>
+      <Key>RotateRight</Key>
+      <Value>Pyöritä Oikealle</Value>
+    </Record>
+    <Record>
+      <Key>TiltDownwards</Key>
+      <Value>Kallista Alaspäin</Value>
+    </Record>
+    <Record>
+      <Key>Export2</Key>
+      <Value>Vie 2</Value>
+    </Record>
+    <Record>
+      <Key>Launch</Key>
+      <Value>Aloita</Value>
+    </Record>
+    <Record>
+      <Key>PreviousPlan</Key>
+      <Value>Edellinen</Value>
+    </Record>
+    <Record>
+      <Key>NextPlan</Key>
+      <Value>Seuraava</Value>
+    </Record>
+    <Record>
+      <Key>CreatePlan</Key>
+      <Value>Luo</Value>
+    </Record>
+    <Record>
+      <Key>Button4</Key>
+      <Value>Näppäin 4</Value>
+    </Record>
+    <Record>
+      <Key>Output</Key>
+      <Value>Meno</Value>
+    </Record>
+    <Record>
+      <Key>Hatch</Key>
+      <Value>Haudo</Value>
+    </Record>
+    <Record>
+      <Key>Grow</Key>
+      <Value>Kasvata</Value>
+    </Record>
+    <Record>
+      <Key>LayEgg</Key>
+      <Value>Muni</Value>
+    </Record>
+    <Record>
+      <Key>Eat</Key>
+      <Value>Syö</Value>
+    </Record>
+    <Record>
+      <Key>Input</Key>
+      <Value>Tulo</Value>
+    </Record>
+    <Record>
+      <Key>Setting</Key>
+      <Value>Asetus</Value>
+    </Record>
+    <Record>
+      <Key>Increase</Key>
+      <Value>Lisää</Value>
+    </Record>
+    <Record>
+      <Key>Decrease</Key>
+      <Value>Vähennä</Value>
+    </Record>
+    <Record>
+      <Key>Color</Key>
+      <Value>Väri</Value>
+    </Record>
+    <Record>
+      <Key>Access</Key>
+      <Value>Kulku</Value>
+    </Record>
+    <Record>
+      <Key>Magazine</Key>
+      <Value>Lipas</Value>
+    </Record>
+    <Record>
+      <Key>TemperatureUp</Key>
+      <Value>Lämpötila Ylös</Value>
+    </Record>
+    <Record>
+      <Key>TemperatureDown</Key>
+      <Value>Lämpötila Alas</Value>
+    </Record>
+    <Record>
+      <Key>ThrustUp</Key>
+      <Value>Työntö Ylös</Value>
+    </Record>
+    <Record>
+      <Key>ThrustDown</Key>
+      <Value>Työntö Alas</Value>
+    </Record>
+  </Interactables>
+  <Interface>
+    <Record>
+      <Key>MainMenuContinue</Key>
+      <Value>Jatka Peliä</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuNewWorld</Key>
+      <Value>Uusi Maailma</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuLoadWorld</Key>
+      <Value>Lataa Maailma</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuJoinWorld</Key>
+      <Value>Liity Maailmaan</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuWorkshop</Key>
+      <Value>Workshop</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuSettings</Key>
+      <Value>Asetukset</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuTutorial</Key>
+      <Value>Tutoriaali&lt;color=green&gt; - UUSI!&lt;/color&gt; </Value>
+    </Record>
+    <Record>
+      <Key>MainMenuCredits</Key>
+      <Value>Tekijät</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuExit</Key>
+      <Value>Lopeta Peli</Value>
+    </Record>
+    <Record>
+      <Key>LoadMenuTitle</Key>
+      <Value>Lataa Maailma</Value>
+    </Record>
+    <Record>
+      <Key>LoadMenuFileListTitle</Key>
+      <Value>Maailmat</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoTextDate</Key>
+      <Value>Tallennettu:</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoTextPlaytime</Key>
+      <Value>Pelattu:</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoTextPlayers</Key>
+      <Value>Pelaajat:</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoTextAsteroids</Key>
+      <Value>Asteroidit:</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoTextVersion</Key>
+      <Value>Versio:</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoButtonDelete</Key>
+      <Value>Poista</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoButtonPublish</Key>
+      <Value>Julkaise</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoButtonDebugLoad</Key>
+      <Value>Debug Lataus</Value>
+    </Record>
+    <Record>
+      <Key>LoadWorldButtonLoad</Key>
+      <Value>Lataa Maailma</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuTitle</Key>
+      <Value>Liity Maailmaan</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuButtonRefresh</Key>
+      <Value>Päivitä Lista</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuButtonJoin</Key>
+      <Value>Liity Maailmaan</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerListName</Key>
+      <Value>Palvelimen Nimi</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerListVersion</Key>
+      <Value>Versio</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerListRefreshing</Key>
+      <Value>Päivitetään Listaa</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuInputAddressTitle</Key>
+      <Value>Osoite</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldTitle</Key>
+      <Value>Uusi Maailma</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldButtonBack</Key>
+      <Value>Takaisin</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldButtonCreate</Key>
+      <Value>Luo Maailma</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaTitle</Key>
+      <Value>Aloitusalue</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaSpace</Key>
+      <Value>Avaruus</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaMars</Key>
+      <Value>Mars</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldEnableAwayMissions</Key>
+      <Value>Away Tehtävät</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotBelt</Key>
+      <Value>Vyö</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotUniform</Key>
+      <Value>Univormu</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotBackpack</Key>
+      <Value>Selkä</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotSuit</Key>
+      <Value>Puku</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotHelmet</Key>
+      <Value>Kypärä</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotHandLeft</Key>
+      <Value>Vasen Käsi</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotHandRight</Key>
+      <Value>Oikea Käsi</Value>
+    </Record>
+    <Record>
+      <Key>StatusWindowExternal</Key>
+      <Value>Ulkoinen</Value>
+    </Record>
+    <Record>
+      <Key>StatusWindowDamage</Key>
+      <Value>Vahinko</Value>
+    </Record>
+    <Record>
+      <Key>StatusWindowInternal</Key>
+      <Value>Sisäinen</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonReturn</Key>
+      <Value>Palaa Peliin</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonSave</Key>
+      <Value>Tallenna Maailma</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonChangeCharacter</Key>
+      <Value>Muokkaa Ulkonäköä</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonSettings</Key>
+      <Value>Asetukset</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonLeave</Key>
+      <Value>Poistu Istunnosta</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonExitDesktop</Key>
+      <Value>Lopeta Työpöydälle</Value>
+    </Record>
+    <Record>
+      <Key>SaveMenuTitle</Key>
+      <Value>Tallenna Maailma</Value>
+    </Record>
+    <Record>
+      <Key>SaveMenuListTitle</Key>
+      <Value>Maailmat</Value>
+    </Record>
+    <Record>
+      <Key>ButtonBack</Key>
+      <Value>Takaisin</Value>
+    </Record>
+    <Record>
+      <Key>ButtonDelete</Key>
+      <Value>Poista</Value>
+    </Record>
+    <Record>
+      <Key>WorkshopUploadProgress</Key>
+      <Value>Käsitellään kokoonpanotietoja</Value>
+    </Record>
+    <Record>
+      <Key>ButtonConfirmWarning</Key>
+      <Value>Varoitus</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonExit</Key>
+      <Value>Poistu</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuTitle</Key>
+      <Value>Asetukset</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuGameplay</Key>
+      <Value>Peli</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuVideo</Key>
+      <Value>Video</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuAudio</Key>
+      <Value>Ääni</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuControls</Key>
+      <Value>Näppäimistö</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuMisc</Key>
+      <Value>Muut</Value>
+    </Record>
+    <Record>
+      <Key>SettingsGameplayAutosave</Key>
+      <Value>Automaattinen Tallennus</Value>
+    </Record>
+    <Record>
+      <Key>SettingsAutosaveInterval</Key>
+      <Value>Väli (Sekuntia)</Value>
+    </Record>
+    <Record>
+      <Key>SettingsHUDScale</Key>
+      <Value>Liittymän Koko</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDisplayLatency</Key>
+      <Value>Näytä Latenssi</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDisplayFPS</Key>
+      <Value>Näytä Ruudunpäivitys</Value>
+    </Record>
+    <Record>
+      <Key>ButtonResetDefaults</Key>
+      <Value>Oletusarvot</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleDisplayTools</Key>
+      <Value>Yleiset Asetukset</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleAutosave</Key>
+      <Value>Automaattinen Tallennus</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleScreen</Key>
+      <Value>Näytön Asetukset</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleBasicScreen</Key>
+      <Value>Perusasetukset</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleAdvScreen</Key>
+      <Value>Kehittyneet Asetukset</Value>
+    </Record>
+    <Record>
+      <Key>SettingsResolution</Key>
+      <Value>Resoluutio</Value>
+    </Record>
+    <Record>
+      <Key>SettingsScreenMode</Key>
+      <Value>Tila</Value>
+    </Record>
+    <Record>
+      <Key>SettingsVsync</Key>
+      <Value>V-Sync</Value>
+    </Record>
+    <Record>
+      <Key>SettingsButtonApply</Key>
+      <Value>Käytä</Value>
+    </Record>
+    <Record>
+      <Key>SettingsBrightness</Key>
+      <Value>Kirkkaus</Value>
+    </Record>
+    <Record>
+      <Key>SettingsFOV</Key>
+      <Value>Näkökenttä(FOV)</Value>
+    </Record>
+    <Record>
+      <Key>SettingsOverallQuality</Key>
+      <Value>Yleinen Laatu</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTextureQuality</Key>
+      <Value>Tekstuurien Laatu</Value>
+    </Record>
+    <Record>
+      <Key>SettingsParticleQuality</Key>
+      <Value>Hiukkasten Laatu</Value>
+    </Record>
+    <Record>
+      <Key>SettingsSoftParticles</Key>
+      <Value>Pehmeät Hiukkaset</Value>
+    </Record>
+    <Record>
+      <Key>SettingsVolumetricLighting</Key>
+      <Value>Volumetrinen Valaistus</Value>
+    </Record>
+    <Record>
+      <Key>SettingsPixelLightCount</Key>
+      <Value>Pikselivalojen Määrä</Value>
+    </Record>
+    <Record>
+      <Key>SettingsShadows</Key>
+      <Value>Varjot</Value>
+    </Record>
+    <Record>
+      <Key>SettingsShadowResolution</Key>
+      <Value>Varjojen Resoluutio</Value>
+    </Record>
+    <Record>
+      <Key>SettingsShadowDistamce</Key>
+      <Value>Varjojen Piirtoetäisyys</Value>
+    </Record>
+    <Record>
+      <Key>SettingsEnvElements</Key>
+      <Value>Ympäristöelementit</Value>
+    </Record>
+    <Record>
+      <Key>SettingsReflections</Key>
+      <Value>Heijastukset</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMasterVolume</Key>
+      <Value>Yleinen Äänentaso</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleMixer</Key>
+      <Value>Äänentaso</Value>
+    </Record>
+    <Record>
+      <Key>SettingsSound</Key>
+      <Value>Äänet</Value>
+    </Record>
+    <Record>
+      <Key>SettingsVoiceNotifications</Key>
+      <Value>Ilmoitukset</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleKeybinds</Key>
+      <Value>Näppäimet</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleMisc</Key>
+      <Value>Muut Asetukset</Value>
+    </Record>
+    <Record>
+      <Key>SettingsLanguage</Key>
+      <Value>Kieli</Value>
+    </Record>
+    <Record>
+      <Key>SettingsVoiceControl</Key>
+      <Value>Äänihallinta</Value>
+    </Record>
+    <Record>
+      <Key>SettingsCameraSensitivity</Key>
+      <Value>Kameran Herkkyys</Value>
+    </Record>
+    <Record>
+      <Key>NotificationTitle</Key>
+      <Value>Tallennus Onnistui</Value>
+    </Record>
+    <Record>
+      <Key>AlertButtonClose</Key>
+      <Value>Sulje</Value>
+    </Record>
+    <Record>
+      <Key>AlertButtonTitle</Key>
+      <Value>Huomio</Value>
+    </Record>
+    <Record>
+      <Key>ServerSettingsButtonReset</Key>
+      <Value>Tyhjennä</Value>
+    </Record>
+    <Record>
+      <Key>ButtonConfirm</Key>
+      <Value>Vahvista</Value>
+    </Record>
+    <Record>
+      <Key>ButtonCancel</Key>
+      <Value>Peruta</Value>
+    </Record>
+    <Record>
+      <Key>InputTextRename</Key>
+      <Value>Nimeä</Value>
+    </Record>
+    <Record>
+      <Key>ButtonOk</Key>
+      <Value>OK</Value>
+    </Record>
+    <Record>
+      <Key>InputPassword</Key>
+      <Value>Salasana</Value>
+    </Record>
+    <Record>
+      <Key>ButtonKick</Key>
+      <Value>Potki</Value>
+    </Record>
+    <Record>
+      <Key>ButtonBan</Key>
+      <Value>Kiellä</Value>
+    </Record>
+    <Record>
+      <Key>ButtoConfirmExitAsServer</Key>
+      <Value>Haluatko varmasti poistua pelistä tallentamatta? Kaikki tallentamattomat tiedot häviää.</Value>
+    </Record>
+    <Record>
+      <Key>DialogConfirmNoticeUnsaved</Key>
+      <Value>Haluatko varmasti lopettaa istunnon tallentamatta? Kaikki tallentamattomat tiedot häviää.</Value>
+    </Record>
+    <Record>
+      <Key>ButtonExit</Key>
+      <Value>Lopeta</Value>
+    </Record>
+    <Record>
+      <Key>ButtonSave</Key>
+      <Value>Tallenna</Value>
+    </Record>
+    <Record>
+      <Key>DialogConfirmNoticeClientLeaving</Key>
+      <Value>Halutako varmasti lopettaa istunnon?</Value>
+    </Record>
+    <Record>
+      <Key>SettingsPopupChat</Key>
+      <Value>Chatin Ponnahdusikkuna</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDisplayPortrait</Key>
+      <Value>Näyä Muotokuva</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaMoon</Key>
+      <Value>Kuu</Value>
+    </Record>
+    <Record>
+      <Key>SettingsAntialiasing</Key>
+      <Value>Reunojenpehmennys</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuMultiplayer</Key>
+      <Value>Moninpeli</Value>
+    </Record>
+    <Record>
+      <Key>SettingsAdvertiseServer</Key>
+      <Value>Mainosta Palvelinta</Value>
+    </Record>
+    <Record>
+      <Key>SettingsServerName</Key>
+      <Value>Palvelimen Nimi</Value>
+    </Record>
+    <Record>
+      <Key>SettingsServerPassword</Key>
+      <Value>Salasana</Value>
+    </Record>
+    <Record>
+      <Key>SettingsServerMaxPlayers</Key>
+      <Value>Pelaajamäärä</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleMultiplayer</Key>
+      <Value>Moninpelin Asetukset</Value>
+    </Record>
+    <Record>
+      <Key>SettingsUpdatePort</Key>
+      <Value>Päivitysportti</Value>
+    </Record>
+    <Record>
+      <Key>SettingsGamePort</Key>
+      <Value>Pelin Portti</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMusic</Key>
+      <Value>Musiikki</Value>
+    </Record>
+    <Record>
+      <Key>TutorialFirstTimePlaying</Key>
+      <Value>Pelaatko ensimmäistä kertaa?</Value>
+    </Record>
+    <Record>
+      <Key>TutorialGetStarted</Key>
+      <Value>Aloita tutoriaali</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSkipButton</Key>
+      <Value>Jätä väliin</Value>
+    </Record>
+    <Record>
+      <Key>TutorialStartButton</Key>
+      <Value>Aloita</Value>
+    </Record>
+    <Record>
+      <Key>TutorialComplete</Key>
+      <Value>Tutoriaali Suoritettu</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompleteHeading</Key>
+      <Value>Tutoriaali Suoritettu</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompleteMessage</Key>
+      <Value>Vielä on paljon opittavaa. 
+Joten tuumasta toimeen, Stationeer!</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBackToMenu</Key>
+      <Value>Palaa Valikkoon</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMiscInvertMouse</Key>
+      <Value>Käänteinen Hiiri</Value>
+    </Record>
+    <Record>
+      <Key>SettingsInvertMouse</Key>
+      <Value>Käänteinen Hiiri</Value>
+    </Record>
+    <Record>
+      <Key>MothershipConstruction</Key>
+      <Value>&lt;color=yellow&gt;Rakennetaan Emoalukselle&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>MulticonstructorItem</Key>
+      <Value>&lt;color=yellow&gt;Rakennusvaihtoehto {0} / {1}&lt;/color&gt;
+Vieritä &lt;color=red&gt;hiirtä&lt;/color&gt; selataksesi vaihtoehtoja.</Value>
+    </Record>
+    <Record>
+      <Key>UnableToConstruct</Key>
+      <Value>&lt;color=red&gt;Ei voida rakentaa&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipRotateLeftRight</Key>
+      <Value>{KEY:RotateLeft} ja {KEY:RotateRight} pyörittää vasemmalle ja oikealle.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipRotateUpDown</Key>
+      <Value>{KEY:RotateUp} ja {KEY:RotateDown} pyörittää ylös ja alas.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipRollLeftRight</Key>
+      <Value>{KEY:RotateRollLeft} ja {KEY:RotateRollRight} kallistaa vasemmalle ja oikealle.</Value>
+    </Record>
+    <Record>
+      <Key>SettingsExtendedTooltips</Key>
+      <Value>Laajennetut Työkaluvinkit</Value>
+    </Record>
+    <Record>
+      <Key>TooltipUpgrade2</Key>
+      <Value>Sijoituksen jälkeen käytä {0} ja {1} päivitykseen.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipUpgrade</Key>
+      <Value>Sijoituksen jälkeen käytä {0} päivitykseen.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipAllowsMounting</Key>
+	  <Value>Sallii seinään kiinnitettävien laitteiden asennuksen. Päivitä salliaksesi paremman sijoittelun.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapGrid</Key>
+	  <Value>Sijoitus napsahtaa ruudukkoon.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFace</Key>
+	  <Value>Sijoitus napsahtaa ruudukon laitoihin.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceMount</Key>
+	  <Value>Sijoitus on sallittu ainoastaan {COLORGREEN:Rautarungoille} ja {COLORGREEN:Preusrungoille}. Jos nämä päivitetään, sallivat ne paremman sijoittelun.</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuClearDisconnectedPlayers</Key>
+      <Value>Tyhjennä Poistuneet Pelaajat</Value>
+    </Record>
+    <Record>
+      <Key>SettingsInvertMouseWheelInventory</Key>
+      <Value>Käänteinen Vieritys</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleMultiplayerAdvanced</Key>
+      <Value>Kehittyneet Asetukset</Value>
+    </Record>
+    <Record>
+      <Key>SettingsUPNPNote</Key>
+	  <Value>Jos Universal Plug and Play (UPNP) on päällä reitittimessäsi, nämä portit välitetään eteenpäin automaattisesti kun isännöit pelin.</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTooltipOpacity</Key>
+      <Value>Vinkkien Läpikuultavuus</Value>
+    </Record>
+    <Record>
+      <Key>MenuDownloadDriverButton</Key>
+      <Value>Lataa Ajurit</Value>
+    </Record>
+    <Record>
+      <Key>MenuDownloadDriverWarning</Key>
+	  <Value>Monet AMD grafiikka-ohjaimen omistavat ovat raportoineet ongelmia pelin kanssa jotka ovat ratkenneet ajureita päivittämällä. Suosittelemme &lt;b&gt;VAHVASTI&lt;/b&gt; päivittämään ajurit ennen pelaamista.</Value>
+    </Record>
+    <Record>
+      <Key>SettingsChatFadeTimer</Key>
+      <Value>Chatin Häivytys, Viive</Value>
+    </Record>
+    <Record>
+      <Key>PromptResetSettingsTitle</Key>
+      <Value>Palauta Oletusarvot</Value>
+    </Record>
+    <Record>
+      <Key>PromptResetSettingsBody</Key>
+      <Value>Oletko varma?</Value>
+    </Record>
+    <Record>
+      <Key>PromptResetSettingsConfirm</Key>
+      <Value>Palauta</Value>
+    </Record>
+    <Record>
+      <Key>PromptQuitTitle</Key>
+      <Value>Lopeta Stationeers</Value>
+    </Record>
+    <Record>
+      <Key>PromptQuitBody</Key>
+      <Value>Haluatko varmasti lopettaa?</Value>
+    </Record>
+    <Record>
+      <Key>PromptQuitConfirm</Key>
+      <Value>Lopeta</Value>
+    </Record>
+    <Record>
+      <Key>PromptOverwriteTitle</Key>
+      <Value>Korvaa</Value>
+    </Record>
+    <Record>
+      <Key>PromptOverwriteBody</Key>
+      <Value>Halutako varmasti korvata olemassaolevan maailman?</Value>
+    </Record>
+    <Record>
+      <Key>PromptOverwriteConfirm</Key>
+      <Value>Korvaa</Value>
+    </Record>
+    <Record>
+      <Key>PromptPublishTitle</Key>
+      <Value>Julkaise Workshopiin</Value>
+    </Record>
+    <Record>
+      <Key>PromptPublishBody</Key>
+      <Value>Haluatko varmasti julkaista tämän maailman Workshopiin?</Value>
+    </Record>
+    <Record>
+      <Key>PromptPublishConfirm</Key>
+      <Value>Julkaise</Value>
+    </Record>
+    <Record>
+      <Key>PromptDeleteTitle</Key>
+      <Value>Poista Tallennus</Value>
+    </Record>
+    <Record>
+      <Key>PromptDeleteBody</Key>
+      <Value>Oletko varma?</Value>
+    </Record>
+    <Record>
+      <Key>PromptDeleteConfirm</Key>
+      <Value>Poista</Value>
+    </Record>
+    <Record>
+      <Key>PromptDebugLoadTitle</Key>
+      <Value>Debug Lataus</Value>
+    </Record>
+    <Record>
+      <Key>PromptDebugLoadBody</Key>
+      <Value>Haluatko varmasti ladata tämän maailman vain yhdellä hahmolla?</Value>
+    </Record>
+    <Record>
+      <Key>PromptDebugLoadConfirm</Key>
+      <Value>Debug Lataus</Value>
+    </Record>
+    <Record>
+      <Key>PromptRespawnTitle</Key>
+      <Value>Herää Henkiin</Value>
+    </Record>
+    <Record>
+      <Key>PromptRespawnBody</Key>
+      <Value>Kuolit.</Value>
+    </Record>
+    <Record>
+      <Key>PromptRespawnConfirm</Key>
+      <Value>Herää</Value>
+    </Record>
+    <Record>
+      <Key>PromptGiveUpTitle</Key>
+      <Value>LUOVUTA</Value>
+    </Record>
+    <Record>
+      <Key>PromptGiveUpBody</Key>
+	  <Value>Olet tajuton. Haluatko luovuttaa ja herätä uudelleen?</Value>
+    </Record>
+    <Record>
+      <Key>PromptGiveUpConfirm</Key>
+      <Value>Luovuta</Value>
+    </Record>
+    <Record>
+      <Key>AlertInvalidIP</Key>
+      <Value>Väärä IP Osoite {0} \nTarkista että IP Osoite tai URL on oikein</Value>
+    </Record>
+    <Record>
+      <Key>AlertPlayerCountExceeded</Key>
+      <Value>Palvelin on täynnä.</Value>
+    </Record>
+    <Record>
+      <Key>AlertVersionMismatch</Key>
+      <Value>Pelin versio ei täsmää palvelimen version kanssa.</Value>
+    </Record>
+    <Record>
+      <Key>AlertNoResponse</Key>
+      <Value>    
+        Palvelin ei vastaa.      
+        Ole hyvä ja kokeile uudestaan.
+      </Value>
+    </Record>
+    <Record>
+      <Key>AlertKicked</Key>
+      <Value>Sinut on potkittu palvelimelta.</Value>
+    </Record>
+    <Record>
+      <Key>AlertWrongPassword</Key>
+      <Value>Väärä salasana.</Value>
+    </Record>
+    <Record>
+      <Key>AlertInvalidPort</Key>
+      <Value>Portin arvo täytyy olla 0 ja 65535 väliltä.</Value>
+    </Record>
+    <Record>
+      <Key>AlertCannotUpdatePort</Key>
+	  <Value>Päivitysporttia ei pysty muuttamaan palvelimen ollessa käynnissä.</Value>
+    </Record>
+    <Record>
+      <Key>AlertBlankSaveName</Key>
+      <Value>Sinun täytyy nimetä maailma.</Value>
+    </Record>
+    <Record>
+      <Key>AlertTitleAttention</Key>
+      <Value>Huomio</Value>
+    </Record>
+    <Record>
+      <Key>AlertTitlePleaseWait</Key>
+      <Value>Odota Hetki...</Value>
+    </Record>
+    <Record>
+      <Key>TooltipNeedMoreKit</Key>
+      <Value>&lt;color=red&gt;Tarvitset enemmän {0}&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuSearchPlaceholder</Key>
+      <Value>Hae Palvelinta Nimellä</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuAddressPlaceholder</Key>
+      <Value>Syötä IP:Portti</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerDetailConnectButton</Key>
+      <Value>Liity Maailmaan</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerDetailInfoButton</Key>
+      <Value>Näytä Tiedot</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerDetailUnFavoriteButton</Key>
+      <Value>Poista Suosikki</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerDetailFavoriteButton</Key>
+      <Value>Suosikki</Value>
+    </Record>
+    <Record>
+      <Key>SaveMenuSaveWorldButton</Key>
+      <Value>Tallenna Maailma</Value>
+    </Record>
+    <Record>
+      <Key>SaveMenuOverwriteButton</Key>
+      <Value>Korvaa</Value>
+    </Record>
+    <Record>
+      <Key>SaveMenuNamePlaceholder</Key>
+      <Value>Nimeä Tallennus...</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldModeCreative</Key>
+      <Value>Luova</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldModeSurvival</Key>
+      <Value>Eloonjääminen</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerListMap</Key>
+      <Value>Kartta</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuInfoIPAddress</Key>
+      <Value>IP Osoite:</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuInfoMap</Key>
+      <Value>Kartta:</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuInfoVersion</Key>
+      <Value>Versio:</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuInfoLatency</Key>
+      <Value>Latenssi:</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuInfoPlayers</Key>
+      <Value>Pelaajat:</Value>
+    </Record>
+    <Record>
+      <Key>ChangeAppearanceTitle</Key>
+      <Value>Muokkaa Ulkonäköä</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceTitleGender</Key>
+      <Value>Sukupuoli</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceTitleFace</Key>
+      <Value>Kasvot</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceTitleHairStyle</Key>
+      <Value>Hiukset</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceTitleHairColor</Key>
+      <Value>Hiusten Väri</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceTitleEyeColor</Key>
+      <Value>Silmien Väri</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceTitleSkinColor</Key>
+      <Value>Ihon Väri</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceTitleFacialHairStyle</Key>
+      <Value>Karvoitus</Value>
+    </Record>
+    <Record>
+      <Key>SettingsStartingCondition</Key>
+      <Value>Alkuvarusteet</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleGameSettings</Key>
+      <Value>Pelin Asetukset</Value>
+    </Record>
+    <Record>
+      <Key>SettingsHungerRate</Key>
+      <Value>Nälkä (Kerroin)</Value>
+    </Record>
+    <Record>
+      <Key>JoinWorldSortBy</Key>
+      <Value>Lajittele</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuFiltersTitle</Key>
+      <Value>Suodattimet</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuButtonStopRefresh</Key>
+      <Value>Pysäytä</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuIncompatibleVersions</Key>
+      <Value>Piilota Yhteensopimattomat Versiot</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuPasswordProtected</Key>
+      <Value>Piilota Salasanalla Suojatut</Value>
+    </Record>
+    <Record>
+      <Key>JoinWorldEmptyServers</Key>
+      <Value>Piilota Tyhjät Palvelimet</Value>									   
+    </Record>
+    <Record>
+      <Key>WorkshopSubscribedModsTitle</Key>
+      <Value>Tilatut Modit</Value>
+    </Record>
+    <Record>
+      <Key>WorkshopPageButton</Key>
+      <Value>Workshop Sivu</Value>
+    </Record>
+    <Record>
+      <Key>WorkshopUnsubscribeButton</Key>
+      <Value>Lopeta Tilaus</Value>
+    </Record>
+    <Record>
+      <Key>OpenWorkshopButton</Key>
+      <Value>Avaa Workshop</Value>
+    </Record>
+    <Record>
+      <Key>WorldPresetTitle</Key>
+      <Value>Maailman Esiasetus</Value>
+    </Record>
+    <Record>
+      <Key>WorldPresetLabel</Key>
+      <Value>Esiasetus</Value>
+    </Record>
+    <Record>
+      <Key>WorldNameLabel</Key>
+      <Value>Maailman Nimi</Value>
+    </Record>
+    <Record>
+      <Key>WorldDescriptionLabel</Key>
+      <Value>Kuvaus</Value>
+    </Record>
+    <Record>
+      <Key>WorldAtmosphere</Key>
+      <Value>Ilmakehä</Value>
+    </Record>
+    <Record>
+      <Key>GameSettingsTitle</Key>
+      <Value>Pelin Asetukset</Value>
+    </Record>
+    <Record>
+      <Key>WorldCreativeMode</Key>
+      <Value>Luova Tila</Value>
+    </Record>
+    <Record>
+      <Key>WorldTerrain</Key>
+      <Value>Maasto</Value>
+    </Record>
+    <Record>
+      <Key>WorldSeedLabel</Key>
+      <Value>Maailman Siemen</Value>
+    </Record>
+    <Record>
+      <Key>WorldCratersLabel</Key>
+      <Value>Kraatterit</Value>
+    </Record>
+    <Record>
+      <Key>WorldTerrainPresetLabel</Key>
+      <Value>Maasto</Value>
+    </Record>
+    <Record>
+      <Key>WorldAtmospherePresetLabel</Key>
+      <Value>Ilmakehä</Value>
+    </Record>
+    <Record>
+      <Key>WorldSettingsTitle</Key>
+      <Value>Maailman Asetukset</Value>
+    </Record>
+    <Record>
+      <Key>WorldResetButton</Key>
+      <Value>Nollaa</Value>
+    </Record>
+    <Record>
+      <Key>WorldSaveButton</Key>
+      <Value>Tallenna</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaCustom</Key>
+      <Value>Mukautettu</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoonDesc</Key>
+      <Value>Olet jumissa kuussa, mutta ei kaikki ole niin huonosti.
+	  Joo, on kylmää, karua ja aika yksitoikkoista, mutta ainakin aurinko paistaa. Aurinkopanelille tulee käyttöä, ja virtasäätimelle...ja luultavasti myös valokaariuunille.
+	  Muissa laatikoissa on jopa vähän ruokaa ja happea, vaikka eivät ne tule riittämään loputtomiin. Eivätkä paristot.
+	  Sinun on parasta alkaa miettiä kuinka tulet selviytymään. Miten vaikeaa voisi olla ilmalukon rakentaminen? Generaattori? Ehkä jopa sulatat vähän malmia ja rakennat itsellesi tukikohdan?
+	  Näyttää että tulet olemaan täällä jonkin aikaa.</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldSpaceDesc</Key>
+      <Value>Tämä on Stationeersin luova tila!
+Spawnaa mikä tahansa esine, testaa ideoita ja rakenna ihme juttuja todella nopeasti.
+&lt;color=red&gt;Tämä tila on kokeellinen.&lt;/color&gt; Ajattele sitä vapaamuotoisena avaruusjuhlana missä jännittäviä ja odottamattomia asioita voi ja tulee tapahtumaan, verrattuna luotettavaan, lähellä-kuolemaa kokemusta Eloonjäämistilassa.
+Älä vain ole surullinen kun räjäytät itsesi pienen pieniksi palasiksi tai joudut kanojen raatelemaksi tai hitaasti räjähdät kun ajelehdit yksin loputtomassa tyhjyydessä.
+*bugeja</Value>
+    </Record>
+    <Record>
+      <Key>TextboxEnterName</Key>
+      <Value>Anna Nimi...</Value>
+    </Record>
+    <Record>
+      <Key>TextboxEnterDescription</Key>
+      <Value>Anna Kuvaus...</Value>
+    </Record>
+    <Record>
+      <Key>TextboxEnterSeed</Key>
+      <Value>Anna Siemen...</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDisableParticlesOnMenu</Key>
+      <Value>Poista Käytöstä Hiukkaset Valikossa</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMouseWheelZoom</Key>
+      <Value>Zoomaus Valintapyörällä</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuRespawn</Key>
+      <Value>Herää</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuScenarios</Key>
+      <Value>Skenaario</Value>
+    </Record>
+    <Record>
+      <Key>ScenariosStartButton</Key>
+      <Value>Aloita Skenaario</Value>
+    </Record>
+    <Record>
+      <Key>SettingsSunOrbitPeriod</Key>
+      <Value>Auringon Kiertojakso</Value>
+    </Record>
+    <Record>
+      <Key>SettingsExtendedTerrain</Key>
+      <Value>Laajennettu Maasto</Value>
+    </Record>
+    <Record>
+      <Key>RenameThing</Key>
+      <Value>Nimeä {0}</Value>
+    </Record>
+    <Record>
+      <Key>SetThingValue</Key>
+      <Value>Aseta {0}</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceChamber</Key>
+      <Value>Kammio</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceChamberText</Key>
+      <Value>Paine {0}
+Lämpötila {1}</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceSmelting</Key>
+      <Value>Sulatus {0}</Value>
+    </Record>
+    <Record>
+      <Key>LogicState</Key>
+      <Value>Tila {COLORGREEN:#VAR1#}</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoDevice</Key>
+      <Value>Ei Laitetta</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoSetting</Key>
+      <Value>Ei Asetusta</Value>
+    </Record>
+    <Record>
+      <Key>RequiresScrewdriver</Key>
+	  <Value>Tarvitset {THING:ItemScrewdriver} muuttaaksesi asetusta</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoReadableDevices</Key>
+	  <Value>Ei muita luettavia laitteita verkostossa</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoReadableTypes</Key>
+      <Value>Ei muita luettavia tyyppejä verkostossa</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingTo</Key>
+      <Value>Muuta {0}</Value>
+    </Record>
+    <Record>
+      <Key>HoldForPreviousObject</Key>
+      <Value>Pidä {KEY:QuantityModifier} pohjassa siirtyäksesi edellisen esineeseen</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToFor</Key>
+      <Value>Muuta &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
+    </Record>
+    <Record>
+      <Key>SettingsAtmosphericScattering</Key>
+      <Value>Ilmakehän Sironta</Value>
+    </Record>
+    <Record>
+      <Key>ButtonReset</Key>
+      <Value>Nollaa</Value>
+    </Record>
+    <Record>
+      <Key>ButtonClear</Key>
+      <Value>Tyhjennä</Value>
+    </Record>
+    <Record>
+      <Key>StatusWindowThrust</Key>
+      <Value>Työntö</Value>
+    </Record>
+    <Record>
+      <Key>SettingsAmbientOcclusion</Key>
+      <Value>Ympäristöokluusio(AO)</Value>
+    </Record>
+    <Record>
+      <Key>SettingsLensFlares</Key>
+      <Value>Linssiheijastukset</Value>
+    </Record>
+    <Record>
+      <Key>SettingsInputSettings</Key>
+      <Value>Näppäinasetukset</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaEuropa</Key>
+      <Value>Europa</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleAudioAlerts</Key>
+      <Value>Ääni-Ilmoitukset</Value>
+    </Record>
+    <Record>
+      <Key>InventoryCloseAll</Key>
+      <Value>Sulje Kaikki</Value>
+    </Record>
+    <Record>
+      <Key>ButtonResetWindows</Key>
+      <Value>Nollaa Ikkunat</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionFiltered</Key>
+      <Value>Suodatettu</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionUnfiltered</Key>
+      <Value>Suodattamaton</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionInput</Key>
+      <Value>Tulo</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionOutput</Key>
+      <Value>Meno</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionWaste</Key>
+      <Value>Jäte</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionBreathing</Key>
+      <Value>Hengitys</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionPropellant</Key>
+      <Value>Polttoaine</Value>
+    </Record>
+    <Record>
+      <Key>SettingsChunkRenderDistance</Key>
+      <Value>Maaston Piirtoetäisyys</Value>
+    </Record>
+    <Record>
+      <Key>ScenarioScoreboardBackToMenu</Key>
+      <Value>Poistu Valikkoon</Value>
+    </Record>
+    <Record>
+      <Key>ScenarioScoreboardReturnToGame</Key>
+      <Value>Palaa Peliin</Value>
+    </Record>
+    <Record>
+      <Key>ScenarioScoreboardHeading</Key>
+      <Value>Skenario Suoritettu</Value>
+    </Record>
+  </Interface>
+  <Colors>
+    <Record>
+      <Key>ColorBlue</Key>
+      <Value>Sininen</Value>
+    </Record>
+    <Record>
+      <Key>ColorGray</Key>
+      <Value>Harmaa</Value>
+    </Record>
+    <Record>
+      <Key>ColorGreen</Key>
+      <Value>Vihreä</Value>
+    </Record>
+    <Record>
+      <Key>ColorOrange</Key>
+      <Value>Oranssi</Value>
+    </Record>
+    <Record>
+      <Key>ColorRed</Key>
+      <Value>Punainen</Value>
+    </Record>
+    <Record>
+      <Key>ColorYellow</Key>
+      <Value>Keltainen</Value>
+    </Record>
+    <Record>
+      <Key>ColorWhite</Key>
+      <Value>Valkoinen</Value>
+    </Record>
+    <Record>
+      <Key>ColorBlack</Key>
+      <Value>Musta</Value>
+    </Record>
+    <Record>
+      <Key>ColorBrown</Key>
+      <Value>Ruskea</Value>
+    </Record>
+    <Record>
+      <Key>ColorKhaki</Key>
+      <Value>Khaki</Value>
+    </Record>
+    <Record>
+      <Key>ColorPink</Key>
+      <Value>Pinkki</Value>
+    </Record>
+    <Record>
+      <Key>ColorPurple</Key>
+      <Value>Violetti</Value>
+    </Record>
+  </Colors>
+  <Keys />
+  <Mineables>
+    <Record>
+      <Key>Iron</Key>
+      <Value>Rauta</Value>
+    </Record>
+    <Record>
+      <Key>Ice</Key>
+      <Value>Jää</Value>
+    </Record>
+    <Record>
+      <Key>Oxite</Key>
+      <Value>Oksiitti</Value>
+    </Record>
+    <Record>
+      <Key>Volatiles</Key>
+      <Value>Volatiili</Value>
+    </Record>
+    <Record>
+      <Key>Gold</Key>
+      <Value>Kulta</Value>
+    </Record>
+    <Record>
+      <Key>Coal</Key>
+      <Value>Hiili</Value>
+    </Record>
+    <Record>
+      <Key>Copper</Key>
+      <Value>Kupari</Value>
+    </Record>
+    <Record>
+      <Key>Uranium</Key>
+      <Value>Uraani</Value>
+    </Record>
+    <Record>
+      <Key>Silver</Key>
+      <Value>Hopea</Value>
+    </Record>
+    <Record>
+      <Key>Nickel</Key>
+      <Value>Nikkeli</Value>
+    </Record>
+    <Record>
+      <Key>Lead</Key>
+      <Value>Lyijy</Value>
+    </Record>
+    <Record>
+      <Key>Silicon</Key>
+      <Value>Silikoni</Value>
+    </Record>
+  </Mineables>
+  <GameTip/>
+</Language>

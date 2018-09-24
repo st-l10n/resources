@@ -1,0 +1,29 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>CN</Code>
+  <GameTip>
+    <String>按 {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot},或{KEY:ToolBeltSlot}来切换互动以及当前装备中的槽位。按住在当前手中的行动以及槽位间进行切换。</String>
+    <String>按 {KEY:ToggleHandPower} 迅速开启/关闭当前手中的道具。</String>
+    <String>按 {KEY:ToggleLight} 切换 {THING:ItemSpaceHelmet} 灯快速开启或关闭。</String>
+    <String>按 {KEY:EmoteWave} 可使您的角色向其他空间站工程师挥手。</String>
+    <String>按 {KEY:Jetpack} 切换 {THING:ItemSpacepack} 快速推进或关闭。</String>
+    <String>按 {KEY:ToggleUI} 开启/关闭玩家界面以截取精美的游戏画面或录像。</String>
+	<String>开启 {THING:ItemSpacepack} 后按 {KEY:Ascend} 能够升空，若没装备，则角色会尝试跳跃。按 {KEY:Jetpack} 可以开启/关闭 {THING:ItemSpacepack} 。</String>
+	<String>开启 {THING:ItemSpacepack} 后按 {KEY:Descend} 能够下降。按 {KEY:Jetpack} 可以开启/关闭 {THING:ItemSpacepack} 。</String>
+	<String>如果想要快速切换当前手中与道具栏槽位中的物品，按 {KEY:InventorySelect} 键。</String>
+	<String>按下然后放开 {KEY:Drop} 键会迅速丢下手中的物品。如果按住 {KEY:Drop} 键，角色就会将手中物品抛出。按的越久，抛的距离越远。</String>
+	<String>按下 {KEY:SwapHands} 切换手的动作。按 {KEY:ActiveHandSlot} 会循环手上的互动选项。</String>
+	<String>按 {KEY:Internals} 快速开启/关闭 {THING:ItemSpaceHelmet} .</String>
+	<String>按 {KEY:Chatting} 与其他玩家聊天。画面右下方会出现一个小方块显示你所发出的文本。</String>
+	<String>按 {KEY:RotateLeft} 来向左转动建筑光标的朝向，按 {KEY:RotateRight} 则向右转动，按  {KEY:RotateUp} 向上转动，按 {KEY:RotateDown} 向下转动，按 {KEY:RotateRollLeft} 向左滚动以及按 {KEY:RotateRollRight} 向右滚动。</String>
+	<String>想知道如何造东西？将 {THING:CartridgeElectronicReader} 放入 {THING:ItemTablet} 然后按 {KEY:ToggleHandPower} 启动</String>
+	<String>启动后将 {THING:ItemWeldingTorch} 拿在一只手中，另一只手拿上一堆 {THING:ItemIronSheets} 来强化 {THING:StructureFrameIron} 的建造状态。</String>
+	<String>将一堆 {THING:ItemIronOre} 放在强化的 {THING:StructureArcFurnace} 中将其精炼为 {THING:ItemIronIngot} 。</String>
+	<String>将 {THING:MotherboardLogic} 放入 {THING:StructureComputer} 中进行逻辑操作。能够增加条件和控制在同一网络下的设备状态。</String>
+	<String>当通过世界上的按钮改变某物的数量时， 按住 {KEY:QuantityModifier} 来变更物品数量，点击的话则是少量增减。</String>
+	<String>使用 {THING:ItemKitLogicInputOutput} 来建造 {THING:StructureLogicReader} 或 {THING:StructureLogicWriter}.读出显示的数值能够知晓相关参数，可以通过写入来更改设备上的数值。整合上数学单元后，就能完成特别复杂的自动演算系统。</String>
+	<String>使用 {THING:ItemKitLogicInputOutput} 来建造 {THING:StructureLogicBatchReader} 或 {THING:StructureLogicBatchWriter}. 阅读器允许您从整个其他设备组读取值，编写器允许您更改整个设备组的值。</String>
+	<String>使用 {THING:ItemKitLogicInputOutput} 来建造 {THING:StructureLogicSlotReader} 它允许您从带有槽的设备读取时隙值。一些设备允许您在 {THING:StructureHydroponicsStation} 中获得诸如植物生长的专家插槽信息.</String>
+	<String>使用 {THING:StructureRecycler} 来将你不再需要的物品转化为试剂。将输出的 {THING:ItemReagentMix} 转化为 {THING:StructureCentrifuge} 来讲起转变回矿石的状态，用做 {THING:StructureFurnace} 之备。</String>
+	<String>使用 {THING:StructureHydraulicPipeBender} 生产大气物质，比如 {THING:ItemKitAtmospherics} 能造出诸如 {THING:StructureAirConditioner} 或 {THING:StructureFiltration} 的有用机器。</String>
+  </GameTip>
+</Language>

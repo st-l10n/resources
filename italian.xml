@@ -1,0 +1,5042 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!-- Traduzione italiana v0.1.1630.7644 - 07/09/2018 (DD/MM/YYYY) - by [ExR] Mekko -->
+  <Name>Italian</Name>
+  <Code>IT</Code>
+  <Font>font_extended</Font>
+  <Font>font_italian</Font>
+  <Reagents>
+    <RecordReagent>
+      <Key>Flour</Key>
+      <Value>Farina</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Milk</Key>
+      <Value>Latte</Value>
+      <Unit>ml</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Egg</Key>
+      <Value>Uovo</Value>
+      <Unit/>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Iron</Key>
+      <Value>Ferro</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Gold</Key>
+      <Value>Oro</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Carbon</Key>
+      <Value>Carbone</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Uranium</Key>
+      <Value>Uranio</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Copper</Key>
+      <Value>Rame</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Steel</Key>
+      <Value>Acciaio</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Hydrocarbon</Key>
+      <Value>Idrocarburo</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Silver</Key>
+      <Value>Argento</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Nickel</Key>
+      <Value>Nickel</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Lead</Key>
+      <Value>Piombo</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Electrum</Key>
+      <Value>Electrum</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Invar</Key>
+      <Value>Invar</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Constantan</Key>
+      <Value>Constantan</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Solder</Key>
+      <Value>Lega per saldatura</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Plastic</Key>
+      <Value>Plastica</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Silicon</Key>
+      <Value>Silicio</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>SalicylicAcid</Key>
+      <Value>Acido salicilico</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Alcohol</Key>
+      <Value>Alcool</Value>
+      <Unit>ml</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Oil</Key>
+      <Value>Olio</Value>
+      <Unit>ml</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Potato</Key>
+      <Value>Patata</Value>
+      <Unit />
+      </RecordReagent>
+      <RecordReagent>
+      <Key>Tomato</Key>
+      <Value>Pomodoro</Value>
+      <Unit/>
+  
+ </RecordReagent>
+     <RecordReagent>
+      <Key>Fenoxitone</Key>
+      <Value>Fenoxitone</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>ColorRed</Key>
+      <Value>Tinta rossa</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>ColorGreen</Key>
+      <Value>Tinta verde</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>ColorBlue</Key>
+      <Value>Tinta blu</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>ColorYellow</Key>
+      <Value>Tinta gialla</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>ColorOrange</Key>
+      <Value>Tinta arancione</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Pumpkin</Key>
+      <Value>Zucca</Value>
+      <Unit/>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Rice</Key>
+      <Value>Riso</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+  </Reagents>
+  <Gases>
+    <Record>
+      <Key>Oxygen</Key>
+      <Value>Ossigeno</Value>
+    </Record>
+    <Record>
+      <Key>CarbonDioxide</Key>
+      <Value>Anidride carbonica</Value>
+    </Record>
+    <Record>
+      <Key>Nitrogen</Key>
+      <Value>Azoto</Value>
+    </Record>
+    <Record>
+      <Key>Volatiles</Key>
+      <Value>Gas volatili</Value>
+    </Record>
+    <Record>
+      <Key>Pollutant</Key>
+      <Value>Inquinante</Value>
+    </Record>
+    <Record>
+      <Key>Water</Key>
+      <Value>Acqua</Value>
+    </Record>
+  </Gases>
+  <Actions>
+    <Record>
+      <Key>Reload</Key>
+      <Value>Ricarica</Value>
+    </Record>
+    <Record>
+      <Key>Paint</Key>
+      <Value>Dipingi</Value>
+    </Record>
+    <Record>
+      <Key>Mine</Key>
+      <Value>Mina</Value>
+    </Record>
+    <Record>
+      <Key>Swap</Key>
+      <Value>Scambia</Value>
+    </Record>
+    <Record>
+      <Key>Clear</Key>
+      <Value>Annulla</Value>  
+    </Record>
+    <Record>
+      <Key>Collect</Key>
+      <Value>Raccogli</Value>
+    </Record>
+    <Record>
+      <Key>Add</Key>
+      <Value>Aggiungi</Value>
+    </Record>
+    <Record>
+      <Key>Insert</Key>
+      <Value>Inserisci</Value>
+    </Record>
+    <Record>
+      <Key>Remove</Key>
+      <Value>Rimuovi</Value>
+    </Record>
+    <Record>
+      <Key>Pickup</Key>
+      <Value>Raccogli</Value>
+    </Record>
+    <Record>
+      <Key>Take</Key>
+      <Value>Prendi</Value>
+    </Record>
+    <Record>
+      <Key>Build</Key>
+      <Value>Construisci</Value>
+    </Record>
+    <Record>
+      <Key>Consume</Key>
+      <Value>Consuma</Value>
+    </Record>
+    <Record>
+      <Key>Plant</Key>
+      <Value>Pianta</Value>
+    </Record>
+    <Record>
+      <Key>Harvest</Key>
+      <Value>Cogli</Value>
+    </Record>
+    <Record>
+      <Key>Open</Key>
+      <Value>Apri</Value>
+    </Record>
+    <Record>
+      <Key>Close</Key>
+      <Value>Chiudi</Value>
+    </Record>
+    <Record>
+      <Key>Opened</Key>
+      <Value>Aperto</Value>
+    </Record>
+    <Record>
+      <Key>Closed</Key>
+      <Value>Chiuso</Value>
+    </Record>
+    <Record>
+      <Key>Off</Key>
+      <Value>Off</Value>
+    </Record>
+    <Record>
+      <Key>On</Key>
+      <Value>On</Value>
+    </Record>
+    <Record>
+      <Key>Powered</Key>
+      <Value>Alimentato</Value>
+    </Record>
+    <Record>
+      <Key>Unpowered</Key>
+      <Value>Non alimentato</Value>
+    </Record>
+    <Record>
+      <Key>False</Key>
+      <Value>Falso</Value>
+    </Record>
+    <Record>
+      <Key>True</Key>
+      <Value>Vero</Value>
+    </Record>
+    <Record>
+      <Key>Construct</Key>
+      <Value>Construisci</Value>
+    </Record>
+    <Record>
+      <Key>Deconstruct</Key>
+      <Value>Demolisci</Value>
+    </Record>
+    <Record>
+      <Key>Disconnect</Key>
+      <Value>Disconnetti</Value>
+    </Record>
+    <Record>
+      <Key>Connect</Key>
+      <Value>Connetti</Value>
+    </Record>
+    <Record>
+      <Key>Load</Key>
+      <Value>Carica</Value>
+    </Record>
+    <Record>
+      <Key>Unload</Key>
+      <Value>Scarica</Value>
+    </Record>
+    <Record>
+      <Key>GetIn</Key>
+      <Value>Entra</Value>
+    </Record>
+    <Record>
+      <Key>Error</Key>
+      <Value>Errore</Value>
+    </Record>
+    <Record>
+      <Key>Lock</Key>
+      <Value>Blocca</Value>
+    </Record>
+    <Record>
+      <Key>Unlock</Key>
+      <Value>Sblocca</Value>
+    </Record>
+	<Record>
+      <Key>Rename</Key>
+      <Value>Rinomina</Value>
+    </Record>
+    <Record>
+      <Key>Up</Key>
+      <Value>Su</Value>
+    </Record>
+    <Record>
+      <Key>Down</Key>
+      <Value>Giu</Value>
+    </Record>
+    <Record>
+      <Key>CallElevator</Key>
+      <Value>Chiama l'ascensore</Value>
+    </Record>
+    <Record>
+      <Key>Set</Key>
+      <Value>Settare</Value>
+    </Record>
+    <Record>
+      <Key>Cycle</Key>
+      <Value>Ciclo</Value>
+    </Record>
+    <Record>
+      <Key>ForceClose</Key>
+      <Value>Forza chiusura</Value>
+    </Record>
+    <Record>
+      <Key>ForceOpen</Key>
+      <Value>Forza apertura</Value>
+    </Record>
+    <Record>
+      <Key>Vend</Key>
+      <Value>Vendita</Value> 
+    </Record>
+  </Actions>
+  <Things>
+    <Record>
+      <Key>ApplianceMicrowave</Key>
+      <Value>Micro-onde</Value>
+    </Record>
+    <Record>
+      <Key>ApplianceReagentProcessor</Key>
+      <Value>Mixer</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartAstronautFemaleArmL</Key>
+      <Value>Braccio sinistro astronauta femmina</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartAstronautFemaleArmR</Key>
+      <Value>Braccio destro astronauta femmina</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartAstronautFemaleHead</Key>
+      <Value>Testa astronauta femmina</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartAstronautFemaleLegL</Key>
+      <Value>Gamba sinistra astronauta femmina</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartAstronautFemaleLegR</Key>
+      <Value>Gamba destra astronauta femmina</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartAstronautFemaleTorso</Key>
+      <Value>Torso astronau femmina</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartAstronautMaleArmL</Key>
+      <Value>Braccio sinistro astronauta maschio</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartAstronautMaleArmR</Key>
+      <Value>Braccio destro astronauta maschio</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartAstronautMaleHead</Key>
+      <Value>Testa maschio</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartAstronautMaleLegL</Key>
+      <Value>Gamba sinistra astronauta maschio</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartAstronautMaleLegR</Key>
+      <Value>Gamba destra astronauta maschio</Value>      
+    </Record>
+    <Record>
+      <Key>BodyPartAstronautTorso</Key>
+      <Value>Torso astronauta maschio</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickBody</Key>
+      <Value>Corpo di pulcino</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenBrownBody</Key>
+      <Value>Corpo di gallina marrone</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenBrownHead</Key>
+      <Value>Testa di gallina marrone</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenBrownLegL</Key>
+      <Value>Zampa sinistra di gallina marrone</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenBrownLegR</Key>
+      <Value>Zampa destra di gallina marrone</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenBrownTail</Key>
+      <Value>Coda di gallina marrone</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenBrownWingL</Key>
+      <Value>Ala sinistra di gallina marrone</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenBrownWingR</Key>
+      <Value>Ala destra di gallina marrone</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenWhiteBody</Key>
+      <Value>Corpo di gallina bianca</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenWhiteHead</Key>
+      <Value>Testa di gallina bianca</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenWhiteLegL</Key>
+      <Value>Zampa sinistra di gallina bianca</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenWhiteLegR</Key>
+      <Value>Zampa destra di gallina bianca</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenWhiteTail</Key>
+      <Value>Coda di gallina bianca</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenWhiteWingL</Key>
+      <Value>Ala sinistra di gallina bianca</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickenWhiteWingR</Key>
+      <Value>Ala destra di gallina bianca</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickHead</Key>
+      <Value>Testa di pulcino</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickLegL</Key>
+      <Value>Zampa sinistra di pulcino</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickLegR</Key>
+      <Value>Zampa destra di pulcino</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickTail</Key>
+      <Value>Coda di pulcino</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickWingL</Key>
+      <Value>Ala sinistra di pulcino</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartChickWingR</Key>
+      <Value>Ala destra di pulcino</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartGraylienArmL</Key>
+      <Value>Braccio sinistro alieno grigio</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartGraylienArmR</Key>
+      <Value>Braccio destro alieno grigio</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartGraylienBody</Key>
+      <Value>Corpo alieno grigio</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartGraylienHead</Key>
+      <Value>Testa alieno grigio</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartGraylienLegL</Key>
+      <Value>Gamba sinistra alieno grigio</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartGraylienLegR</Key>
+      <Value>Gamba destra alieno grigio</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartGraylienPelvis</Key>
+      <Value>Bacino alieno grigio</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBlackBody</Key>
+      <Value>Corpo di gallo nero</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBlackHead</Key>
+      <Value>Testa di gallo nero</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBlackLegL</Key>
+      <Value>Zampa sinistra di gallo nero</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBlackLegR</Key>
+      <Value>Zampa destra di gallo nero</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBlackTail</Key>
+      <Value>Coda di gallo nero</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBlackWingL</Key>
+      <Value>Ala sinistra di gallo nero</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBlackWingR</Key>
+      <Value>Ala destra di gallo nero</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBrownBody</Key>
+      <Value>Corpo di gallo marrone</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBrownHead</Key>
+      <Value>Testa di gallo marrone</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBrownLegL</Key>
+      <Value>Zampa sinistra di gallo marrone</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBrownLegR</Key>
+      <Value>Zampa destra di gallo marrone</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBrownTail</Key>
+      <Value>Coda di gallo marrone</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBrownWingL</Key>
+      <Value>Ala sinistra di gallo marrone</Value>
+    </Record>
+    <Record>
+      <Key>BodyPartRoosterBrownWingR</Key>
+      <Value>Ala destra di gallo marrone</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeAtmosAnalyser</Key>
+      <Value>Cartuccia (Analisi Atmosferica)</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeMedicalAnalyser</Key>
+      <Value>Cartuccia (Analisi Medica)</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeNetworkAnalyser</Key>
+      <Value>Cartuccia (Analisi Rete)</Value>
+    </Record>
+    <Record>
+      <Key>Character</Key>
+      <Value>Personaggio</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardAirControl</Key>
+      <Value>Circuito stampato (Controllo aria)</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardAirlockControl</Key>
+      <Value>Circuito stampato (Controllo camera di decompressione)</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardCameraDisplay</Key>
+      <Value>Circuito stampato (Display telecamera)</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardDoorControl</Key>
+      <Value>Circuito stampato (Controllo porte)</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardGasDisplay</Key>
+      <Value>Circuito stampato (Display gas)</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardModeControl</Key>
+      <Value>Circuito stampato (Controllo modalità)</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardPowerControl</Key>
+      <Value>Circuito stampato (Controllo Alimentazione)</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardShipDisplay</Key>
+      <Value>Circuito stampato (Display nave)</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardSolarControl</Key>
+      <Value>Circuito stampato (Controllo pannello solare)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicAirConditioner</Key>
+      <Value>Climatizzatore portatile</Value>
+    </Record>
+    <Record>
+      <Key>DynamicCrate</Key>
+      <Value>Cassa</Value>
+    </Record>
+    <Record>
+      <Key>DynamicCrateBuildingSupplies</Key>
+      <Value>Cassa (Fornitura per costruzione)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicCrateCableSupplies</Key>
+      <Value>Cassa (Fornitura di cavi)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicCrateConveyorSupplies</Key>
+      <Value>Cassa (Fornitura di trasportatori)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicCratePipeSupplies</Key>
+      <Value>Cassa (Fornitura di tubazioni)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterAir</Key>
+      <Value>Serbatoio portatile (Aria)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterCarbonDioxide</Key>
+      <Value>Serbatoio portatile (CO2)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterEmpty</Key>
+      <Value>Serbatoio portatile</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterFuel</Key>
+      <Value>Serbatoio portatile (Carburante)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterNitrogen</Key>
+      <Value>Serbatoio portatile (Azoto)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterOxygen</Key>
+      <Value>Serbatoio portatile (Ossigeno)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterVolatiles</Key>
+      <Value>Serbatoio portatile (Gas volatili)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterWater</Key>
+      <Value>Serbatoio portatile (Acqua)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGenerator</Key>
+      <Value>Generatore portatile</Value>
+    </Record>
+    <Record>
+      <Key>DynamicLight</Key>
+      <Value>Luce portatile</Value>
+    </Record>
+    <Record>
+      <Key>DynamicScrubber</Key>
+      <Value>Depuratore d'aria portatile</Value>
+    </Record>
+    <Record>
+      <Key>EffectSplatEgg</Key>
+      <Value>Effetto uovo schiacciato</Value>
+    </Record>
+    <Record>
+      <Key>EntityAlien</Key>
+      <Value>Entità: Alieno</Value>
+    </Record>
+    <Record>
+      <Key>EntityChick</Key>
+      <Value>Entità: Pulcino</Value>
+    </Record>
+    <Record>
+      <Key>EntityChickenBrown</Key>
+      <Value>Entità: Gallina marrone</Value>
+    </Record>
+    <Record>
+      <Key>EntityChickenWhite</Key>
+      <Value>Entità: Gallina bianca</Value>
+    </Record>
+    <Record>
+      <Key>EntityGraylien</Key>
+      <Value>Entità: Alieno grigio</Value>
+    </Record>
+    <Record>
+      <Key>EntityRoosterBlack</Key>
+      <Value>Entità: Gallo nero</Value>
+    </Record>
+    <Record>
+      <Key>EntityRoosterBrown</Key>
+      <Value>Entità: Gallo marrone</Value>
+    </Record>
+    <Record>
+      <Key>GasTankAir</Key>
+      <Value>Bombola (Aria)</Value> 
+    </Record>
+    <Record>
+      <Key>ItemActiveVent</Key>
+      <Value>Presa d'aria</Value>
+    </Record>
+    <Record>
+      <Key>ItemAreaPowerControl</Key>
+      <Value>Controllo Alimentazione</Value>
+    </Record>
+    <Record>
+      <Key>ItemBatteryCell</Key>
+      <Value>Batteria (Piccola)</Value>
+    </Record>
+    <Record>
+      <Key>ItemBatteryCellLarge</Key>
+      <Value>Batteria (Grande)</Value>
+    </Record>
+    <Record>
+      <Key>ItemBatteryCellNuclear</Key>
+      <Value>Batteria (Nucleare)</Value>
+    </Record>
+    <Record>
+      <Key>ItemBatteryCharger</Key>
+      <Value>Caricabatterie</Value>
+    </Record>
+    <Record>
+      <Key>ItemBook</Key>
+      <Value>Libro</Value>
+    </Record>
+    <Record>
+      <Key>ItemCableCoil</Key>
+      <Value>Bobina di cavi</Value>
+    </Record>
+    <Record>
+      <Key>ItemChemLightBlue</Key>
+      <Value>Lightstick (Blu)</Value>
+    </Record>
+    <Record>
+      <Key>ItemChemLightGreen</Key>
+      <Value>Lightstick (Verde)</Value>
+    </Record>
+    <Record>
+      <Key>ItemChemLightRed</Key>
+      <Value>Lightstick (Rosso)</Value>
+    </Record>
+    <Record>
+      <Key>ItemChemLightWhite</Key>
+      <Value>Lightstick (Bianco)</Value>
+    </Record>
+    <Record>
+      <Key>ItemChemLightYellow</Key>
+      <Value>Lightstick (Giallo)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCoalOre</Key>
+      <Value>Minerale (Carbone)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCompositeFloorGrating</Key>
+      <Value>Pavimento fessurato composito</Value>
+    </Record>
+    <Record>
+      <Key>ItemCopperIngot</Key>
+      <Value>Lingotto (Rame)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCopperOre</Key>
+      <Value>Minerale (Rame)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCorn</Key>
+      <Value>Mais</Value>
+    </Record>
+    <Record>
+      <Key>ItemCrowbar</Key>
+      <Value>Piede di porco</Value>
+    </Record>
+    <Record>
+      <Key>ItemDataDisk</Key>
+      <Value>Disco Dati</Value>
+    </Record>
+    <Record>
+      <Key>ItemDrill</Key>
+      <Value>Trapano</Value>
+    </Record>
+    <Record>
+      <Key>ItemDuctTape</Key>
+      <Value>Nastro adesivo</Value>
+    </Record>
+    <Record>
+      <Key>ItemDynamite</Key>
+      <Value>Dinamite</Value>
+    </Record>
+    <Record>
+      <Key>ItemEgg</Key>
+      <Value>Uovo</Value>
+    </Record>
+    <Record>
+      <Key>ItemEggBottom</Key>
+      <Value>Guscio (inferiore)</Value>
+    </Record>
+    <Record>
+      <Key>ItemEggCarton</Key>
+      <Value>Cartone di uova</Value>
+    </Record>
+    <Record>
+      <Key>ItemEggTop</Key>
+      <Value>Guscio (superiore)</Value>
+    </Record>
+    <Record>
+      <Key>ItemEvaSuit</Key>
+      <Value>Tuta spaziale</Value>
+    </Record>
+    <Record>
+      <Key>ItemFertilizedEgg</Key>
+      <Value>Uovo fecondato</Value>
+    </Record>
+    <Record>
+      <Key>ItemFireExtinguisher</Key>
+      <Value>Estintore</Value>
+    </Record>
+    <Record>
+      <Key>ItemFlashingLight</Key>
+      <Value>Lampeggiante</Value>
+    </Record>
+    <Record>
+      <Key>ItemFlour</Key>
+      <Value>Farina</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterCarbonDioxide</Key>
+      <Value>Bombola (CO2)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterPollutants</Key>
+      <Value>Bombola (Inquinante)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterEmpty</Key>
+      <Value>Bombola</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterFuel</Key>
+      <Value>Bombola (Carburante)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterVolatiles</Key>
+      <Value>Bombola (Gas volatili)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterNitrogen</Key>
+      <Value>Bombola (Azoto)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterOxygen</Key>
+      <Value>Bombola (Ossigeno)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterWater</Key>
+      <Value>Bombola (Acqua)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterCarbonDioxide</Key>
+      <Value>Filtro (CO2)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterPollutants</Key>
+      <Value>Filtro (Inquinanti)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrogen</Key>
+      <Value>Filtro (Azoto)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterOxygen</Key>
+      <Value>Filtro (Ossigeno)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterVolatiles</Key>
+      <Value>Filtro (Gas volatili)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterWater</Key>
+      <Value>Filtro (Acqua)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasTankStorage</Key>
+      <Value>Connettore per bombole</Value>
+    </Record>
+    <Record>
+      <Key>ItemGlassSheets</Key>
+      <Value>Lastre di vetro</Value>
+    </Record>
+    <Record>
+      <Key>ItemGoldIngot</Key>
+      <Value>Lingotto (Oro)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGoldOre</Key>
+      <Value>Minerale (Oro)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGrenade</Key>
+      <Value>Granata</Value>
+    </Record>
+    <Record>
+      <Key>ItemHat</Key>
+      <Value>Cappello</Value>
+    </Record>
+    <Record>
+      <Key>ItemHealPill</Key>
+      <Value>Pillola medica</Value>
+    </Record>
+    <Record>
+      <Key>ItemHydroponicTray</Key>
+      <Value>Vasca per Idroponica</Value>
+    </Record>
+    <Record>
+      <Key>ItemIce</Key>
+      <Value>Ghiaccio (Acqua)</Value>
+    </Record>
+    <Record>
+      <Key>ItemIgniter</Key>
+      <Value>Ignitore</Value>
+    </Record>
+    <Record>
+      <Key>ItemInsulation</Key>
+      <Value>Isolante</Value>
+    </Record>
+    <Record>
+      <Key>ItemIronIngot</Key>
+      <Value>Lingotto (Ferro)</Value>
+    </Record>
+    <Record>
+      <Key>ItemIronOre</Key>
+      <Value>Minerale (Ferro)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitAirlock</Key>
+      <Value>Kit (Camera di decompressione)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitAtmospherics</Key>
+      <Value>Kit (Sistemi atmosferici)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitBattery</Key>
+      <Value>Kit (Batteria)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitCentrifuge</Key>
+      <Value>Kit (Centrifuga)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitChute</Key>
+      <Value>Kit (Conduttura scarico)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitComputer</Key>
+      <Value>Kit (Computer)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitConsole</Key>
+      <Value>Kit (Console)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitConveyor</Key>
+      <Value>Kit (Trasportatore)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitCryoTube</Key>
+      <Value>Kit (Vasca criogenica)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitEngine</Key>
+      <Value>Kit (Motore)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitFabricator</Key>
+      <Value>Kit (Fabbricatore)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitFurnace</Key>
+      <Value>Kit (Fornace)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitFurniture</Key>
+      <Value>Kit (Mobili)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitGyroscope</Key>
+      <Value>Kit (Giroscopio)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitRegulator</Key>
+      <Value>Kit (Regolatore di pressione)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSensor</Key>
+      <Value>Kit (Sensore)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSign</Key>
+      <Value>Kit (Pannello indicatore)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSleeper</Key>
+      <Value>Kit (Cuccetta)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSolarPanel</Key>
+      <Value>Kit (Pannello solare)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitStairs</Key>
+      <Value>Kit (Scale)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitStellarAnchor</Key>
+      <Value>Kit (Ancora stellare)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitStorage</Key>
+      <Value>Kit (Stoccaggio)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitTank</Key>
+      <Value>Kit (Serbatoio)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitTorpedoTube</Key>
+      <Value>Kit (Lanciasiluri)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitTurret</Key>
+      <Value>Kit (Torretta)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitWall</Key>
+      <Value>Kit (Muro Composito)</Value>
+    </Record>
+    <Record>
+      <Key>ItemLabeller</Key>
+      <Value>Etichettatore</Value>
+    </Record>
+    <Record>
+      <Key>ItemLightSword</Key>
+      <Value>Spada laser</Value>
+    </Record>
+    <Record>
+      <Key>ItemMilk</Key>
+      <Value>Latte</Value>
+    </Record>
+    <Record>
+      <Key>ItemMiningBelt</Key>
+      <Value>Cintura da minatore</Value>
+    </Record>
+    <Record>
+      <Key>ItemMiningDrill</Key>
+      <Value>Trapano escavatore</Value>
+    </Record>
+    <Record>
+      <Key>ItemMuffin</Key>
+      <Value>Muffin</Value>
+    </Record>
+    <Record>
+      <Key>ItemPassiveVent</Key>
+      <Value>Scarico d'aria</Value>
+    </Record>
+    <Record>
+      <Key>ItemPickaxe</Key>
+      <Value>Piccone</Value>
+    </Record>
+    <Record>
+      <Key>ItemPillHeal</Key>
+      <Value>Pillola (Medica)</Value>
+    </Record>
+    <Record>
+      <Key>ItemPillStun</Key>
+      <Value>Pillola (Paralizzante)</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeAnalyizer</Key>
+      <Value>Analisi tubature</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeCorner</Key>
+      <Value>Tubo (Curva)</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeCrossJunction</Key>
+      <Value>Tubo (A croce)</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeCrossJunction3</Key>
+      <Value>Tubo (3 giunti)</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeCrossJunction5</Key>
+      <Value>Tubo (5 giunti)</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeCrossJunction6</Key>
+      <Value>Tubo (6 giunti)</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeDigitalValve</Key>
+      <Value>Valvola tubi digitale</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeGasMixer</Key>
+      <Value>Miscelatore di gas</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeLabel</Key>
+      <Value>Etichetta per tubi</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeMeter</Key>
+      <Value>Manometro</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeRadiator</Key>
+      <Value>Radiatore</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeStraight</Key>
+      <Value>Tubo (Diritto)</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeTJunction</Key>
+      <Value>Tubo (Giunto a T)</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeValve</Key>
+      <Value>Valvola tubi</Value>
+    </Record>
+    <Record>
+      <Key>ItemPipeVolumePump</Key>
+      <Value>Tubo con pompa</Value>
+    </Record>
+    <Record>
+      <Key>ItemPowerConnector</Key>
+      <Value>Connettore alimentazione</Value>
+    </Record>
+    <Record>
+      <Key>ItemReagentMix</Key>
+      <Value>Mix di reagenti</Value>
+    </Record>
+    <Record>
+      <Key>ItemRoadFlare</Key>
+      <Value>Razzo di segnalazione</Value>
+    </Record>
+    <Record>
+      <Key>ItemRTG</Key>
+      <Value>RTG</Value> 
+    </Record>
+    <Record>
+      <Key>ItemScanner</Key>
+      <Value>Scanner portatile</Value>
+    </Record>
+    <Record>
+      <Key>ItemScrewdriver</Key>
+      <Value>Cacciavite</Value>
+    </Record>
+    <Record>
+      <Key>ItemSecurityCamera</Key>
+      <Value>Telecamera di sicurezza</Value>
+    </Record>
+    <Record>
+      <Key>ItemSpaceCleaner</Key>
+      <Value>Pulitore spaziale</Value>
+    </Record>
+    <Record>
+      <Key>ItemSpaceHelmet</Key>
+      <Value>Casco spaziale</Value>
+    </Record>
+    <Record>
+      <Key>ItemSpacepack</Key>
+      <Value>Zaino spaziale</Value>
+    </Record>
+    <Record>
+      <Key>ItemSprayCanBlack</Key>
+      <Value>Spray (Nero)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSprayCanBlue</Key>
+      <Value>Spray (Blu)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSprayCanBrown</Key>
+      <Value>Spray (Marrone)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSprayCanGreen</Key>
+      <Value>Spray (Verde)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSprayCanGrey</Key>
+      <Value>Spray (Grigio)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSprayCanKhaki</Key>
+      <Value>Spray (Kaki)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSprayCanOrange</Key>
+      <Value>Spray (Arancione)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSprayCanPink</Key>
+      <Value>Spray (Rosa)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSprayCanPurple</Key>
+      <Value>Spray (Viola)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSprayCanRed</Key>
+      <Value>Spray (Rosso)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSprayCanWhite</Key>
+      <Value>Spray (Bianco)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSprayCanYellow</Key>
+      <Value>Spray (Giallo)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSteelFrames</Key>
+      <Value>Telaio in acciaio</Value>
+    </Record>
+    <Record>
+      <Key>ItemSteelIngot</Key>
+      <Value>Lingotto (Acciaio)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSteelSheets</Key>
+      <Value>Lastra d'acciaio</Value>
+    </Record>
+    <Record>
+      <Key>ItemSuitStorage</Key>
+      <Value>Cassaforte</Value>
+    </Record>
+    <Record>
+      <Key>ItemTablet</Key>
+      <Value>Tablet</Value>
+    </Record>
+    <Record>
+      <Key>ItemTankConnector</Key>
+      <Value>Connettore serbatoio portatile</Value>
+    </Record>
+    <Record>
+      <Key>ItemToolBelt</Key>
+      <Value>Cintura degli attrezzi</Value>
+    </Record>
+    <Record>
+      <Key>ItemUraniumOre</Key>
+      <Value>Minerale (Uranio)</Value>
+    </Record>
+    <Record>
+      <Key>ItemWallCooler</Key>
+      <Value>Condizionatore a muro</Value>
+    </Record>
+    <Record>
+      <Key>ItemWallHeater</Key>
+      <Value>Termosifone a muro</Value>
+    </Record>
+    <Record>
+      <Key>ItemWallLight</Key>
+      <Value>Lampada a muro</Value>
+    </Record>
+    <Record>
+      <Key>ItemWeldingTorch</Key>
+      <Value>Saldatrice</Value>
+    </Record>
+    <Record>
+      <Key>ItemWheat</Key>
+      <Value>Grano</Value>
+    </Record>
+    <Record>
+      <Key>ItemWireCutters</Key>
+      <Value>Tronchese</Value>
+    </Record>
+    <Record>
+      <Key>ItemWrench</Key>
+      <Value>Chiave</Value>
+    </Record>
+    <Record>
+      <Key>MotherboardLogic</Key>
+      <Value>Scheda madre (Logica)</Value>
+    </Record>
+    <Record>
+      <Key>MotherboardManufacturing</Key>
+      <Value>Scheda madre (Fabbricatore)</Value>
+    </Record>
+    <Record>
+      <Key>MotherboardSorter</Key>
+      <Value>Scheda madre (Classificatore)</Value>
+    </Record>
+    <Record>
+      <Key>MothershipCore</Key>
+      <Value>Nucleo astronave</Value>
+    </Record>
+    <Record>
+      <Key>NPCDummyCharacter</Key>
+      <Value>Personaggio NPC</Value>
+    </Record>
+    <Record>
+      <Key>NpcGrounder</Key>
+      <Value>Insetto NPC</Value>
+    </Record>
+    <Record>
+      <Key>OrganBrain</Key>
+      <Value>Cervello umano</Value>
+    </Record>
+    <Record>
+      <Key>OrganLungs</Key>
+      <Value>Polmoni umani</Value>
+    </Record>
+    <Record>
+      <Key>SpaceShuttle</Key>
+      <Value>Space Shuttle</Value>
+    </Record>
+    <Record>
+      <Key>StructureActiveVent</Key>
+      <Value>Presa d'aria</Value>
+    </Record>
+    <Record>
+      <Key>StructureAirConditioner</Key>
+      <Value>Climatizzatore</Value>
+    </Record>
+    <Record>
+      <Key>StructureAirlock</Key>
+      <Value>Porta (camera di decompressione)</Value>
+    </Record>
+    <Record>
+      <Key>StructureAreaPowerControl</Key>
+      <Value>Controllo alimentazione</Value>
+    </Record>
+    <Record>
+      <Key>StructureAreaPowerControlReversed</Key>
+      <Value>Controllo alimentazione</Value>
+    </Record>
+    <Record>
+      <Key>StructureBackPressureRegulator</Key>
+      <Value>Regolatore di contropressione</Value>
+    </Record>
+    <Record>
+      <Key>StructureBattery</Key>
+      <Value>Batteria stazionaria</Value>
+    </Record>
+    <Record>
+      <Key>StructureBatteryCharger</Key>
+      <Value>Caricabatterie</Value>
+    </Record>
+    <Record>
+      <Key>StructureBench</Key>
+      <Value>Piano di lavoro</Value>  
+    </Record>
+    <Record>
+      <Key>StructureBlastDoor</Key>
+      <Value>Porta blindata</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableCorner</Key>
+      <Value>Cavo (Curva)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableCorner3</Key>
+      <Value>Cavo (a 3 vie)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunction</Key>
+      <Value>Cavo (giunto)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunction4</Key>
+      <Value>Cavo (giunto a 4 vie)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunction6</Key>
+      <Value>Cavo (giunto a 6 vie)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableStraight</Key>
+      <Value>Cavo (Diritto)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCamera</Key>
+      <Value>Fotocamera</Value>
+    </Record>
+    <Record>
+      <Key>StructureCentrifuge</Key>
+      <Value>Centrifuga</Value>
+    </Record>
+    <Record>
+      <Key>StructureChair</Key>
+      <Value>Sedia</Value>
+    </Record>
+    <Record>
+      <Key>StructureChuteBin</Key>
+      <Value>Conduttura scarico</Value>
+    </Record>
+    <Record>
+      <Key>StructureChuteCorner</Key>
+      <Value>Conduttura scarico (Curva)</Value>
+    </Record>
+    <Record>
+      <Key>StructureChuteInlet</Key>
+      <Value>Entrata conduttura scarico</Value>
+    </Record>
+    <Record>
+      <Key>StructureChuteJunction</Key>
+      <Value>Conduttura scarico (Giunto)</Value>
+    </Record>
+    <Record>
+      <Key>StructureChuteOutlet</Key>
+      <Value>Uscita conduttura scarico</Value>
+    </Record>
+    <Record>
+      <Key>StructureChuteStraight</Key>
+      <Value>Conduttura scarico (Diritto)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeDoor</Key>
+      <Value>Porta Composita</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeFloorGrating</Key>
+      <Value>Pavimento fessurato</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWall</Key>
+      <Value>Muro composito</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWallRound</Key>
+      <Value>Muro composito tondo</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWallType1</Key>
+      <Value>Muro composito 1</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWallType2</Key>
+      <Value>Muro composito 2</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWallType3</Key>
+      <Value>Muro composito 3</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWallType4</Key>
+      <Value>Muro composito 4</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWindow</Key>
+      <Value>Finestra composita</Value>
+    </Record>
+    <Record>
+      <Key>StructureComputer</Key>
+      <Value>Classificatore</Value>
+    </Record>
+    <Record>
+      <Key>StructureConsole</Key>
+      <Value>Console</Value>
+    </Record>
+    <Record>
+      <Key>StructureConsoleDual</Key>
+      <Value>Console doppia</Value>
+    </Record>
+    <Record>
+      <Key>StructureConsoleMonitor</Key>
+      <Value>Monitor Console</Value>
+    </Record>
+    <Record>
+      <Key>StructureControlChair</Key>
+      <Value>Sedia di controllo</Value>
+    </Record>
+    <Record>
+      <Key>StructureConveyorCorner</Key>
+      <Value>Trasportatore (Angolo)</Value>
+    </Record>
+    <Record>
+      <Key>StructureConveyorRiser</Key>
+      <Value>Trasportatore (Verticale)</Value>
+    </Record>
+    <Record>
+      <Key>StructureConveyorStraight</Key>
+      <Value>Trasportatore (Diritto)</Value>
+    </Record>
+    <Record>
+      <Key>StructureConveyorStraightLong</Key>
+      <Value>Trasportatore (Diritto Lungo)</Value>
+    </Record>
+    <Record>
+      <Key>StructureConveyorStraightShort</Key>
+      <Value>Trasportatore (Diritto Corto)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCryoTube</Key>
+      <Value>Vasca criogenica</Value>
+    </Record>
+    <Record>
+      <Key>StructureDaylightSensor</Key>
+      <Value>Sensore di luminosità</Value>
+    </Record>
+    <Record>
+      <Key>StructureDigitalValve</Key>
+      <Value>Valvola digitale</Value>
+    </Record>
+    <Record>
+      <Key>StructureFabricator</Key>
+      <Value>Fabbricatore</Value>
+    </Record>
+    <Record>
+      <Key>StructureFiltration</Key>
+      <Value>Filtro</Value>
+    </Record>
+    <Record>
+      <Key>StructureFlashingLight</Key>
+      <Value>Lampeggiante</Value>
+    </Record>
+    <Record>
+      <Key>StructureFrame</Key>
+      <Value>Telaio</Value>
+    </Record>
+    <Record>
+      <Key>StructureFrameCorner</Key>
+      <Value>Telaio (Angolo)</Value>
+    </Record>
+    <Record>
+      <Key>StructureFrameSide</Key>
+      <Value>Telaio (Lato)</Value>
+    </Record>
+    <Record>
+      <Key>StructureFurnace</Key>
+      <Value>Fornace</Value>
+    </Record>
+    <Record>
+      <Key>StructureGasMixer</Key>
+      <Value>Miscelatore di gas</Value>
+    </Record>
+    <Record>
+      <Key>StructureGasSensor</Key>
+      <Value>Sensore per gas</Value>
+    </Record>
+    <Record>
+      <Key>StructureGasTankStorage</Key>
+      <Value>Stoccaggio bombole</Value>
+    </Record>
+    <Record>
+      <Key>StructureGlassDoor</Key>
+      <Value>Porta di vetro</Value>
+    </Record>
+    <Record>
+      <Key>StructureGunTurret</Key>
+      <Value>Torretta</Value>
+    </Record>
+    <Record>
+      <Key>StructureGyroscope</Key>
+      <Value>Giroscopio</Value>
+    </Record>
+    <Record>
+      <Key>StructureHydroponicsTray</Key>
+      <Value>Vasca Idroponica</Value>
+    </Record>
+    <Record>
+      <Key>StructureIgniter</Key>
+      <Value>Ignitore</Value>
+    </Record>
+    <Record>
+      <Key>StructureLocker</Key>
+      <Value>Armadio</Value>
+    </Record>
+    <Record>
+      <Key>StructureMotionSensor</Key>
+      <Value>Sensore di movimento</Value>
+    </Record>
+    <Record>
+      <Key>StructurePassiveVent</Key>
+      <Value>Scarico d'aria</Value>
+    </Record>
+    <Record>
+      <Key>StructurePipeAnalysizer</Key>
+      <Value>Analizzatore tubi</Value>
+    </Record>
+    <Record>
+      <Key>StructurePipeCorner</Key>
+      <Value>Tubo (Curva)</Value>
+    </Record>
+    <Record>
+      <Key>StructurePipeCrossJunction</Key>
+      <Value>Tubo (Giunto)</Value>
+    </Record>
+    <Record>
+      <Key>StructurePipeCrossJunction3</Key>
+      <Value>Tubo (Giunto a 3 vie)</Value>
+    </Record>
+    <Record>
+      <Key>StructurePipeCrossJunction5</Key>
+      <Value>Tubo (Giunto a 5 vie)</Value>
+    </Record>
+    <Record>
+      <Key>StructurePipeCrossJunction6</Key>
+      <Value>Tubo (Giunto a 6 vie)</Value>
+    </Record>
+    <Record>
+      <Key>StructurePipeLabel</Key>
+      <Value>Etichetta per tubi</Value>
+    </Record>
+    <Record>
+      <Key>StructurePipeMeter</Key>
+      <Value>Manometro</Value>
+    </Record>
+    <Record>
+      <Key>StructurePipeRadiator</Key>
+      <Value>Radiatore</Value>
+    </Record>
+    <Record>
+      <Key>StructurePipeStraight</Key>
+      <Value>Tubo (diritto)</Value>
+    </Record>
+    <Record>
+      <Key>StructurePipeTJunction</Key>
+      <Value>Tubo (Giunto a T)</Value>
+    </Record>
+    <Record>
+      <Key>StructurePowerConnector</Key>
+      <Value>Connettore alimentazione</Value>
+    </Record>
+    <Record>
+      <Key>StructurePressureRegulator</Key>
+      <Value>Regolatore di pressione</Value>
+    </Record>
+    <Record>
+      <Key>StructureRailing</Key>
+      <Value>Ringhiera</Value>
+    </Record>
+    <Record>
+      <Key>StructureRocketEngine</Key>
+      <Value>Motore a razzo</Value>
+    </Record>
+    <Record>
+      <Key>StructureRocketEngineSmall</Key>
+      <Value>Motore a razzo (piccolo)</Value>
+    </Record>
+    <Record>
+      <Key>StructureRocketEngineTiny</Key>
+      <Value>Motore a razzo (minuscolo)</Value>
+    </Record>
+    <Record>
+      <Key>StructureRTG</Key>
+      <Value>RTG</Value>
+    </Record>
+    <Record>
+      <Key>StructureSleeper</Key>
+      <Value>Cuccetta</Value>
+    </Record>
+    <Record>
+      <Key>StructureSolarPanel</Key>
+      <Value>Pannello solare</Value>
+    </Record>
+    <Record>
+      <Key>StructureSorter</Key>
+      <Value>Classificatore</Value>
+    </Record>
+    <Record>
+      <Key>StructureStacker</Key>
+      <Value>Impilatore</Value>
+    </Record>
+    <Record>
+      <Key>StructureStackerReverse</Key>
+      <Value>Impilatore</Value>
+    </Record>
+    <Record>
+      <Key>StructureStairs4x2</Key>
+      <Value>Scale</Value>
+    </Record>
+    <Record>
+      <Key>StructureStellarAnchor</Key>
+      <Value>Ancora stellare</Value>
+    </Record>
+    <Record>
+      <Key>StructureSuitStorage</Key>
+      <Value>Cassaforte</Value>
+    </Record>
+    <Record>
+      <Key>StructureTankConnector</Key>
+      <Value>Connettore per serbatoi portatili</Value>
+    </Record>
+    <Record>
+      <Key>StructureTankSmall</Key>
+      <Value>Serbatoio piccolo</Value>
+    </Record>
+    <Record>
+      <Key>StructureTankSmallAir</Key>
+      <Value>Serbatoio piccolo (Aria)</Value>
+    </Record>
+    <Record>
+      <Key>StructureTankSmallFuel</Key>
+      <Value>Serbatoio piccolo (Carburante)</Value>
+    </Record>
+    <Record>
+      <Key>StructureTorpedoRack</Key>
+      <Value>Stoccaggio Siluri</Value>
+    </Record>
+    <Record>
+      <Key>StructureTorpedoTube</Key>
+      <Value>Silos Siluri</Value>
+    </Record>
+    <Record>
+      <Key>StructureValve</Key>
+      <Value>Valvola</Value>
+    </Record>
+    <Record>
+      <Key>StructureVolumePump</Key>
+      <Value>Pompa</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallCooler</Key>
+      <Value>Condizionatore a muro</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallHeater</Key>
+      <Value>Termosifone a muro</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallLight</Key>
+      <Value>Lampada a muro</Value>
+    </Record>
+    <Record>
+      <Key>UniformCommander</Key>
+      <Value>Uniforme da Comandante</Value>
+    </Record>
+    <Record>
+      <Key>UniformOrangeJumpSuit</Key>
+      <Value>Tuta arancione</Value>
+    </Record>
+    <Record>
+      <Key>WeaponEnergy</Key>
+      <Value>Arma ad energia</Value>
+    </Record>
+    <Record>
+      <Key>WeaponTorpedo</Key>
+      <Value>Siluro</Value>
+    </Record>
+    <Record>
+      <Key>ItemWasteIngot</Key>
+      <Value>Lingotto (Scarti)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableStraightBurnt</Key>
+      <Value>Cavo bruciato (Diritto)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableCorner3Burnt</Key>
+      <Value>Cavo bruciato (Angolo a 3 vie)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableCornerBurnt</Key>
+      <Value>Cavo bruciato (Angolo)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunction4Burnt</Key>
+      <Value>Cavo bruciato (Giunto a 4 vie)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunction6Burnt</Key>
+      <Value>Cavo bruciato (Giunto a 6 vie)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunctionBurnt</Key>
+      <Value>Cavo bruciato (Giunto)</Value>
+    </Record>
+    <Record>
+      <Key>StructureSolidFuelGenerator</Key>
+      <Value>Generatore (Combustibile Solido)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitGenerator</Key>
+      <Value>Kit (Generatore)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCableFuse</Key>
+      <Value>Kit (Cavo con fusibile)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableStraightH</Key>
+      <Value>Cavo alta tensione (Diritto)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunctionH6</Key>
+      <Value>Cavo alta tensione (Giunto a 6 vie)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunctionH4</Key>
+      <Value>Cavo alta tensione (Giunto a 4 vie)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunctionH</Key>
+      <Value>Cavo alta tensione (Giunto a 3 vie)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunction6HBurnt</Key>
+      <Value>Cavo alta tensione bruciato (Giunto a 6 vie)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunction4HBurnt</Key>
+      <Value>Cavo alta tensione bruciato (Giunto a 4 vie)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableStraightHBurnt</Key>
+      <Value>Cavo alta tensione bruciato (Diritto)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunctionHBurnt</Key>
+      <Value>Cavo alta tensione bruciato (Giunto)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableCornerHBurnt</Key>
+      <Value>Cavo alta tensione bruciato (Angolo)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableCornerH</Key>
+      <Value>Cavo alta tensione (Angolo)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableFuse1k</Key>
+      <Value>Fusibile (1 kW)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableFuse5k</Key>
+      <Value>Fusibile (5 kW)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableFuse50k</Key>
+      <Value>Fusibile (50 kW)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableFuse100k</Key>
+      <Value>Fusibile (100 kW)</Value>
+    </Record>
+    <Record>
+      <Key>StructureTransformer</Key>
+      <Value>Trasformatore</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitTransformer</Key>
+      <Value>Kit (Trasformatore)</Value>
+    </Record>
+    <Record>
+      <Key>StructureTransformerSmall</Key>
+      <Value>Trasformatore (Piccolo)</Value>
+    </Record>
+    <Record>
+      <Key>WeaponPistolEnergy</Key>
+      <Value>Pistola ad energia</Value>
+    </Record>
+    <Record>
+      <Key>StructureChuteWindow</Key>
+      <Value>Conduttura scarico (Finestra)</Value>
+    </Record>
+    <Record>
+      <Key>StructureArcFurnace</Key>
+      <Value>Forno ad arco</Value>
+    </Record>
+    <Record>
+      <Key>StructureAutolathe</Key>
+      <Value>Tornio automatico</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitFabrication</Key>
+      <Value>Kit (Manifattura)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitPipe</Key>
+      <Value>Kit (Tubo)</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeElectronicReader</Key>
+      <Value>Cartuccia (Ebook Reader)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCableCoilHeavy</Key>
+      <Value>Bobina di cavi (Alta tensione)</Value>
+    </Record>
+    <Record>
+      <Key>StructureFrameIron</Key>
+      <Value>Telaio in ferro</Value>
+    </Record>
+    <Record>
+      <Key>ItemIronFrames</Key>
+      <Value>Telaio in ferro</Value>
+    </Record>
+    <Record>
+      <Key>ItemIronSheets</Key>
+      <Value>Lastra di ferro</Value>
+    </Record>
+    <Record>
+      <Key>ItemSilverOre</Key>
+      <Value>Minerale (Argento)</Value>
+    </Record>
+    <Record>
+      <Key>ItemNickelOre</Key>
+      <Value>Minerale (Nickel)</Value>
+    </Record>
+    <Record>
+      <Key>ItemLeadOre</Key>
+      <Value>Minerale (Piombo)</Value>
+    </Record>
+    <Record>
+      <Key>WeaponRifleEnergy</Key>
+      <Value>Fucile ad energia</Value>
+    </Record>
+    <Record>
+      <Key>ItemElectrumIngot</Key>
+      <Value>Lingotto (Electrum)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSilverIngot</Key>
+      <Value>Lingotto (Argento)</Value>
+    </Record>
+    <Record>
+      <Key>ItemLeadIngot</Key>
+      <Value>Lingotto (Piombo)</Value>
+    </Record>
+    <Record>
+      <Key>ItemNickelIngot</Key>
+      <Value>Lingotto (Nickel)</Value>
+    </Record>
+    <Record>
+      <Key>ItemInvarIngot</Key>
+      <Value>Lingotto (Invar)</Value>
+    </Record>
+    <Record>
+      <Key>ItemConstantanIngot</Key>
+      <Value>Lingotto (Constantan)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSolderIngot</Key>
+      <Value>Lingotto (Lega per saldatura)</Value>
+    </Record>
+    <Record>
+      <Key>ApplianceChemistryStation</Key>
+      <Value>Stazione chimica</Value>
+    </Record>
+    <Record>
+      <Key>StructureDiode</Key>
+      <Value>LED</Value>
+    </Record>
+    <Record>
+      <Key>ItemSoybean</Key>
+      <Value>Soia</Value>
+    </Record>
+    <Record>
+      <Key>ItemAngleGrinder</Key>
+      <Value>Flessibile</Value>
+    </Record>
+    <Record>
+      <Key>ItemSiliconOre</Key>
+      <Value>Minerale (Silicio)</Value>
+    </Record>
+    <Record>
+      <Key>ItemSiliconIngot</Key>
+      <Value>Lingotto (Silicio)</Value>
+    </Record>
+    <Record>
+      <Key>ItemFern</Key>
+      <Value>Felce</Value>
+    </Record>
+    <Record>
+      <Key>ItemCerealBar</Key>
+      <Value>Barretta di cereali</Value>
+    </Record>
+    <Record>
+      <Key>StructureElectronicsPrinter</Key>
+      <Value>Stampante elettronica</Value>
+    </Record>
+    <Record>
+      <Key>ItemVolatiles</Key>
+      <Value>Ghiaccio (Gas volatili)</Value>
+    </Record>
+    <Record>
+      <Key>ItemOxite</Key>
+      <Value>Ghiaccio (Oxite)</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallIron</Key>
+      <Value>Muro di ferro</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitWallIron</Key>
+      <Value>Kit (Muro di ferro)</Value>
+    </Record>
+    <Record>
+      <Key>StructureStorageLocker</Key>
+      <Value>Armadio</Value>
+    </Record>
+    <Record>
+      <Key>SpawnPoint</Key>
+      <Value>Punto di Spawn</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitCube</Key>
+      <Value>Kit (Cubo)</Value>
+    </Record>
+    <Record>
+      <Key>Cube</Key>
+      <Value>Cubo</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitTransformerSmall</Key>
+      <Value>Kit (Trasformatore piccolo)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSuitStorage</Key>
+      <Value>Kit (Cassaforte)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSolidGenerator</Key>
+      <Value>Kit (Generatore a Combustibile Solido)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLocker</Key>
+      <Value>Kit (Armadio)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitEngineSmall</Key>
+      <Value>Kit (Moteur de Fusée Petit)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitEngineMedium</Key>
+      <Value>Kit (Motore razzo medio)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitEngineLarge</Key>
+      <Value>Kit (Motore razzo grande)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitElectronicsPrinter</Key>
+      <Value>Kit (Stampante elettronica)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitDoor</Key>
+      <Value>Kit (Porta)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitAutolathe</Key>
+      <Value>Kit (Tornio automatico)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitBlastDoor</Key>
+      <Value>Kit (Porta blindata)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitArcFurnace</Key>
+      <Value>Kit (Forno ad arco)</Value>
+    </Record>
+    <Record>
+      <Key>StructureHydraulicPipeBender</Key>
+      <Value>Curvatubi idraulica</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitHydraulicPipeBender</Key>
+      <Value>Kit (Curvatubi idraulica)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSorter</Key>
+      <Value>Kit (Classificatore)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitStacker</Key>
+      <Value>Kit (Impilatore)</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeTracker</Key>
+      <Value>Cartuccia (Tracciante)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasSensor</Key>
+      <Value>Sensore di gas</Value>
+    </Record>
+    <Record>
+      <Key>ItemBeacon</Key>
+      <Value>Radiofaro</Value>
+    </Record>
+    <Record>
+      <Key>StructureToolManufactory</Key>
+      <Value>Fabbricatore di utensili</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitToolManufactory</Key>
+      <Value>Kit (Fabbricatore di utensili)</Value>
+    </Record>
+    <Record>
+      <Key>StructureTransformerSmallReversed</Key>
+      <Value>Trasformatore (Piccolo)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicUnit</Key>
+      <Value>Unità Logica</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogic</Key>
+      <Value>Kit (Unità Logica)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicReader</Key>
+      <Value>Unità Logica: Lettura</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicMemory</Key>
+      <Value>Unità Logica: Memoria</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicMath</Key>
+      <Value>UUnità Logica: Matematica</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicWriter</Key>
+      <Value>Unità Logica: Scrittura</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicSelect</Key>
+      <Value>Unità Logica: Selezione</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicCompare</Key>
+      <Value>Unità Logica: Compararazione</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicProcessor</Key>
+      <Value>Kit (Unità Logica: Processore)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicMemory</Key>
+      <Value>Kit (Unità Logica: Memoria)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicInputOutput</Key>
+      <Value>Kit (Unità Logica: Input/Output)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicSwitch</Key>
+      <Value>Kit (Unità Logica: Interruttore)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicSwitch</Key>
+      <Value>Interruttore Logico</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicMinMax</Key>
+      <Value>Unità Logica: Min/Max</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicDisplay5</Key>
+      <Value>Display LED (Piccolo)</Value>
+    </Record>
+    <Record>
+      <Key>StructureConsoleLED5</Key>
+      <Value>Display LED (Piccolo)</Value>
+    </Record>
+    <Record>
+      <Key>StructureConsoleLED8Large</Key>
+      <Value>Display LED (Grande)</Value>
+    </Record>
+    <Record>
+      <Key>StructureSign1x1</Key>
+      <Value>Cartello 1x1</Value>
+   </Record>
+    <Record>
+      <Key>StructureSign2x1</Key>
+      <Value>Cartello 2x1</Value>
+    </Record>
+    <Record>
+      <Key>StructureConsoleLED5Large</Key>
+      <Value>Display LED (Medio)</Value>
+    </Record>
+    <Record>
+      <Key>StructureSolarPanelDual</Key>
+      <Value>Pannello Solare</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicBatchWriter</Key>
+      <Value>Unità Logica: Scrittore batch</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicButton</Key>
+      <Value>Bottone</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicSwitch2</Key>
+      <Value>Interruttore</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicMathUnary</Key>
+      <Value>Operazione unaria</Value>
+    </Record>
+    <Record>
+      <Key>StructureRecycler</Key>
+      <Value>Riciclatore</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitRecycler</Key>
+      <Value>Kit (Riciclatore)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCableAnalyser</Key>
+      <Value>Kit (Analizzatore di cavi)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableAnalysizer</Key>
+      <Value>Analizzatore di cavi</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicDial</Key>
+      <Value>Selettore logico</Value>
+    </Record>
+    <Record>
+      <Key>StructureConsoleLED1x2</Key>
+      <Value>Display a LED 1x2</Value>
+    </Record>
+    <Record>
+      <Key>StructureConsoleLED1x3</Key>
+      <Value>Display a LED 1x3</Value>
+	</Record>
+    <Record>
+      <Key>NpcChick</Key>
+      <Value>Pulcino</Value>
+    </Record>
+    <Record>
+      <Key>NpcChicken</Key>
+      <Value>Gallina</Value>
+    </Record>
+    <Record>
+      <Key>DynamicSkeleton</Key>
+      <Value>Scheletro</Value>
+    </Record>
+    <Record>
+      <Key>StructureBeacon</Key>
+      <Value>Radiofaro fisso</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitBeacon</Key>
+      <Value>Kit (Radiofaro fisso)</Value>
+    </Record>
+    <Record>
+      <Key>StructureTankBig</Key>
+      <Value>Serbatoio grande</Value>
+    </Record>
+    <Record>
+      <Key>ItemPotato</Key>
+      <Value>Patata</Value>
+    </Record>
+     <Record>
+      <Key>ItemTomato</Key>
+      <Value>Pomodoro</Value>
+    </Record>
+    <Record>
+      <Key>StructureGasGenerator</Key>
+      <Value>Generatore a gas combustibile</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitGasGenerator</Key>
+      <Value>Kit (Generatore a gas combustibile)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGPR</Key>
+      <Value>Radar sotterraneo</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeOreScanner</Key>
+      <Value>Cartuccia (Scanner dei minerali)</Value>
+    </Record>
+    <Record>
+      <Key>ItemPotatoBaked</Key>
+      <Value>Patata al forno</Value>
+    </Record>
+     <Record>
+      <Key>ItemTomatoSoup</Key>
+      <Value>Zuppa di pomodoro</Value>
+    </Record>
+    <Record>
+      <Key>ItemSoyOil</Key>
+      <Value>Olio di soia</Value>
+    </Record>
+    <Record>
+      <Key>ItemFries</Key>
+      <Value>Fritto</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableCornerH3</Key>
+      <Value>Cavo alta tensione (Angolo a 3 vie)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableCornerH4</Key>
+      <Value>Cavo alta tensione (Angolo a 4 vie)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableCorner4HBurnt</Key>
+      <Value>Cavo alta tensione bruciano (angolo a 4 vie)</Value>
+    </Record>
+    <Record>
+      <Key>PortableSolarPanel</Key>
+      <Value>Pannello solare portatile</Value>
+    </Record>
+	<Record>
+      <Key>StructureCableJunction5</Key>
+      <Value>Cavo (Giunto a 5 vie)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableCorner4</Key>
+      <Value>Cavo (Giunto a 4 vie)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableCorner4Burnt</Key>
+      <Value>Cavo bruciato (Angolo a 3 vie)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunction5Burnt</Key>
+      <Value>Cavo bruciato (Giunto a 5 vie)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunctionH5</Key>
+      <Value>Cavo alta tensione (Giunto a 5 vie)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableJunctionH5Burnt</Key>
+      <Value>Cavo alta tensione bruciato (Giunto a 5 vie)</Value>
+    </Record>
+    <Record>
+      <Key>WallFrameCornerCut</Key>
+      <Value>Telaio (Sezione angolo)</Value>
+    </Record>
+    <Record>
+      <Key>StructureFlagSmall</Key>
+      <Value>Bandiera piccola</Value>
+    </Record>
+    <Record>
+      <Key>ItemFlagSmall</Key>
+      <Value>Kit (Bandiera piccola)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingAngled</Key>
+      <Value>Rivestimento composito (Inclinato)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingAngledCorner</Key>
+      <Value>Rivestimento composito (Angolo inclinato)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingAngledCornerLong</Key>
+      <Value>Rivestimento composito (Angolo lungo inclinato)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingAngledLong</Key>
+      <Value>Rivestimento composito (Lungo inclinato)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingCylindrical</Key>
+      <Value>Rivestimento composito (Cilindro)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingCylindricalPanel</Key>
+      <Value>Rivestimento composito (Pannello cilindrico)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingSphericalCorner</Key>
+      <Value>Rivestimento composito (Angolo sferico)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingSphericalCap</Key>
+      <Value>Rivestimento composito (Calotta sferica)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingSpherical</Key>
+      <Value>Rivestimento composito (Sferica)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingRoundedCorner</Key>
+      <Value>Rivestimento composito (Angolo arrotondato)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingRounded</Key>
+      <Value>Rivestimento composito (Arrotondato)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingPanel</Key>
+      <Value>Rivestimento composito (Pannello)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitCompositeCladding</Key>
+      <Value>Kit (Rivestimento composito)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeCladdingAngledCornerLongR</Key>
+      <Value>Rivestimento composito (Angolo inclinato lungo)</Value>
+    </Record>
+    <Record>
+      <Key>StructureDockPortSide</Key>
+      <Value>Struttura di ormeggio</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitDockingPort</Key>
+      <Value>Kit (Porta di ormeggio)</Value>
+    </Record>
+    <Record>
+      <Key>StructureDockShipSide</Key>
+      <Value>Struttura di ormeggio nave</Value>
+    </Record>
+    <Record>
+      <Key>StructureLightLong</Key>
+      <Value>Luce a muro (Lunga)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLightLongAngled</Key>
+      <Value>Luce a muro (Angolata)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLightLongWide</Key>
+      <Value>Luce a muro (Larga)</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardAdvancedAirlockControl</Key>
+      <Value>Circuito di controllo avanzato porte camere di decompressione</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitOrganicsPrinter</Key>
+      <Value>Kit (Stampante organica)</Value>
+    </Record>
+    <Record>
+      <Key>StructureOrganicsPrinter</Key>
+      <Value>Stampante organica</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWindowIron</Key>
+      <Value>Finestra composita di ferro</Value>
+    </Record>
+    <Record>
+      <Key>CompositeFloorGrating1</Key>
+      <Value>Pavimento fessurato composito 1</Value>  
+    </Record>
+    <Record>
+      <Key>CompositeFloorGrating2</Key>
+      <Value>Pavimento fessurato composito 2</Value>  
+    </Record>
+    <Record>
+      <Key>StructureCompositeFloorGrating2</Key>
+      <Value>Pavimento fessurato composito 2</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeFloorGrating3</Key>
+      <Value>Pavimento fessurato composito 3</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeFloorGrating4</Key>
+      <Value>Pavimento fessurato composito 4</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitWallPanels</Key>
+      <Value>Kit (Pannello a muro)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWallPanelling1</Key>
+      <Value>Pannello a muro composito</Value>
+    </Record>
+	<Record>
+      <Key>ItemKitCompositeFloorGrating</Key>
+      <Value>Kit (Pavimento Fessurato Composito)</Value>
+    </Record>
+    <Record>
+      <Key>CompositeRollCover</Key>
+      <Value>Rotolo di copertura composita</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLadder</Key>
+      <Value>Kit (Scale)</Value>
+    </Record>
+    <Record>
+      <Key>StructureFrameCornerCut</Key>
+      <Value>Telaio sezione angolo</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling1</Key>
+      <Value>Pannello a muro composito 1</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling2</Key>
+      <Value>Pannello a muro composito 2</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling3</Key>
+      <Value>Pannello a muro composito 3</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling4</Key>
+      <Value>Pannello a muro composito 4</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling5</Key>
+      <Value>Pannello a muro composito 5</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling6</Key>
+      <Value>Pannello a muro composito 6</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling7</Key>
+      <Value>Pannello a muro composito 7</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling8</Key>
+      <Value>Pannello a muro composito 8</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling9</Key>
+      <Value>Pannello a muro composito 9</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling10</Key>
+      <Value>Pannello a muro composito 10</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling11</Key>
+      <Value>Panneaux muraux Composite 11</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling12</Key>
+      <Value>Pannello a muro composito 12</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling13</Key>
+      <Value>Pannello a muro composito 13</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling14</Key>
+      <Value>Pannello a muro composito 14</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling15</Key>
+      <Value>Pannello a muro composito 15</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling16</Key>
+      <Value>Pannello a muro composito 16</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling17</Key>
+      <Value>Pannello a muro composito 17</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling18</Key>
+      <Value>Pannello a muro composito 18</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling19</Key>
+      <Value>Pannello a muro composito 19</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling20</Key>
+      <Value>Pannello a muro composito 20</Value>
+    </Record>
+    <Record>
+      <Key>CompositeWallPanelling21</Key>
+      <Value>Pannello a muro composito 21</Value>
+    </Record>
+    <Record>
+      <Key>Corner1</Key>
+      <Value>Angolo</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallFlat</Key>
+      <Value>Muro piatto</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallArch</Key>
+      <Value>Muro ad arco</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallArchArrow</Key>
+      <Value>Muro ad arco (freccia)</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallArchPlating</Key>
+      <Value>Muro arco (placcato)</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallArchTwoTone</Key>
+      <Value>Muro arco (due toni)</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallGeometryCorner</Key>
+      <Value>Muro geometrico angolo</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallGeometryStreight</Key>
+      <Value>Muro geometrico diritto</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallGeometryT</Key>
+      <Value>Muro geometrico a T</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallPaddedArch</Key>
+      <Value>Pannello imbottito a muro ad arco</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallPaddedArchLightsFittings</Key>
+      <Value>Pannello imbottito ad arco (slot lampada)</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallPadding</Key>
+      <Value>Pannello imbottito a muro</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallPaddingArchVent</Key>
+      <Value>Pannello imbottito ad arco (ventilazione)</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallPaddingLightFitting</Key>
+      <Value>Pannello imbottito a muro (slot lampada)</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallPaddingThin</Key>
+      <Value>Pannello imbottito a muro sottile</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallPlating</Key>
+      <Value>Rivestimento parete</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallSimple</Key>
+      <Value>Parete semplice</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallSmallPanels</Key>
+      <Value>Pannello a muro piccolo</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallLargePanel</Key>
+      <Value>Pannello a muro grande</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallSmallPanelsAndHatch</Key>
+      <Value>Pannello a parete piccolo (A scomparsa)</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallSmallPanelsArrow</Key>
+      <Value>Pannello a parete piccolo (A freccia)</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallSmallPanelsMonoChrome</Key>
+      <Value>Pannello a parete piccolo (Monocromatico)</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallSmallPanelsTwoTone</Key>
+      <Value>Pannello a parete piccolo (Due colori)</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallLargePanelArrow</Key>
+      <Value>Pannello a parete grande (A freccia)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitWallArch</Key>
+      <Value>Kit (Muro ad arco)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitWallFlat</Key>
+      <Value>Kit (Muro piatto)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitWallGeometry</Key>
+      <Value>Kit (Muro geometrico)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitWallPadded</Key>
+      <Value>Kit (Pannello imbottito a muro)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLadder</Key>
+      <Value>Scala</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeGuide</Key>
+      <Value>Cartuccia (Guida)</Value>
+    </Record>
+    <Record>
+      <Key>StructurePipeCrossJunction4</Key>
+      <Value>Tubo (4 giunti)</Value>
+    </Record>
+    <Record>
+      <Key>ItemAuthoringTool</Key>
+      <Value>Applicativi d'autore</Value>
+    </Record>
+    <Record>
+      <Key>StructureRocketEngineDestroyed</Key>
+      <Value>Motore a razzo (distrutto)</Value>
+    </Record>
+    <Record>
+      <Key>ItemWreckageConstructor</Key>
+      <Value>Costruttore Riciclarottami</Value>
+    </Record>
+	<Record>
+      <Key>ItemWreckage1</Key>
+      <Value>Rottami</Value>
+    </Record>
+    <Record>
+      <Key>ItemWreckage2</Key>
+      <Value>Rottami</Value>
+    </Record>
+    <Record>
+      <Key>ItemWreckage3</Key>
+      <Value>Rottami</Value>
+    </Record>
+    <Record>
+      <Key>ItemWreckage4</Key>
+      <Value>Rottami</Value>
+    </Record>
+    <Record>       
+      <Key>CartridgeAccessController</Key>
+      <Value>Cartuccia (Controllo d'accesso)</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardBlack</Key>
+      <Value>Scheda d'accesso (Nera)</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardBlue</Key>
+      <Value>Scheda d'accesso (Blu)</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardBrown</Key>
+      <Value>Scheda d'accesso (Marrone)</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardGray</Key>
+      <Value>Scheda d'accesso (Grigia)</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardGreen</Key>
+      <Value>Scheda d'accesso (Verde)</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardKhaki</Key>
+      <Value>Scheda d'accesso (Kaki)</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardOrange</Key>
+      <Value>Scheda d'accesso (Arancione)</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardPink</Key>
+      <Value>Scheda d'accesso (Rosa)</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardPurple</Key>
+      <Value>Scheda d'accesso (Viola)</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardRed</Key>
+      <Value>Scheda d'accesso (Rossa)</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardWhite</Key>
+      <Value>Scheda d'accesso (Bianca)</Value>
+    </Record>
+    <Record>
+      <Key>AccessCardYellow</Key>
+      <Value>Scheda d'accesso (Gialla)</Value>
+    </Record>
+    <Record>
+      <Key>StructureSecurityPrinter</Key>
+      <Value>Stampante articoli Sicurezza</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSecurityPrinter</Key>
+      <Value>Kit (Stampante articoli Sicurezza)</Value>
+    </Record>
+	<Record>
+      <Key>Handgun</Key>
+      <Value>Pistola</Value>
+    </Record>
+    <Record>
+      <Key>ItemAmmoBox</Key>
+      <Value>Cassa di munizioni</Value>
+    </Record>
+    <Record>
+      <Key>HandgunMagazine</Key>
+      <Value>Caricatore pistola</Value>
+    </Record>
+    <Record>
+      <Key>SMGMagazine</Key>
+      <Value>Caricatore SMG</Value>
+    </Record>
+    <Record>
+      <Key>FireArmSMG</Key>
+      <Value>Mitragliatrice SMG</Value>
+    </Record>
+    <Record>
+      <Key>StructureElectrolyzer</Key>
+      <Value>Elettrolizzatore</Value>
+    </Record>
+    <Record>
+      <Key>StructureElevatorShaft</Key>
+      <Value>Gabbia Ascensore</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitElevator</Key>
+      <Value>Kit (Ascensore)</Value>
+    </Record>
+    <Record>
+      <Key>ElevatorCarrage</Key>
+      <Value>Ascensore</Value>
+    </Record>
+    <Record>
+      <Key>StructureElevatorLevelFront</Key>
+      <Value>Livello Ascensore</Value>
+    </Record>  
+    <Record>
+      <Key>StructureCrateMount</Key>
+      <Value>Connettore per casse</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitCrateMount</Key>
+      <Value>Kit (Connettore per casse)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicMirror</Key>
+      <Value>Unità Logica: Mirror</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardHashDisplay</Key>
+      <Value>Circuito stampato (Display Hash)</Value>
+    </Record>
+    <Record>
+      <Key>StructureHydroponicsStation</Key>
+      <Value>Stazione Idroponica</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitHydroponicStation</Key>
+      <Value>Kit (Stazione Idroponica)</Value>
+    </Record>
+    <Record>
+      <Key>StructureDiodeSlide</Key>
+      <Value>Diodo</Value>
+    </Record>
+	  <Record>
+      <Key>ItemGasCanisterSmart</Key>
+      <Value>Bombola (Smart)</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeConfiguration</Key>
+      <Value>Cartuccia (Configurazione)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitCrate</Key>
+      <Value>Kit (Cassa)</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardGraphDisplay</Key>
+      <Value>Circuito stampato (Display grafico)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitMotherShipCore</Key>
+      <Value>Kit (Nucleo astronave)</Value>
+    </Record>
+    <Record>
+      <Key>ItemDynamicScrubber</Key>
+      <Value>Kit (Depuratore portatatile)</Value>
+    </Record>
+    <Record>
+      <Key>ItemDynamicAirCon</Key>
+      <Value>Kit (Climatizzatore portatile)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitPipeValve</Key>
+      <Value>Kit tubo con valvola</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitDynamicGenerator</Key>
+      <Value>Kit (Generatore portatile)</Value>
+    </Record>
+    <Record>
+      <Key>StructureVendingMachine</Key>
+      <Value>Distributore automatico</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitVendingMachine</Key>
+      <Value>Kit (Distributore automatico)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicSlotReader</Key>
+      <Value>Unità Logica: Lettore Slot</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicBatchReader</Key>
+      <Value>Unità Logica: Scrittore Batch</Value>
+    </Record>
+     <Record>
+      <Key>StructureLogicReagentReader</Key>
+      <Value>Unità Logica: Lettore Reagenti</Value>
+    </Record>
+       <Record>
+      <Key>ItemHardSuit</Key>
+      <Value>Tuta Rinforzata</Value>
+    </Record>
+    <Record>
+      <Key>ItemHardsuitHelmet</Key>
+      <Value>Casco Rinforzato</Value>
+    </Record>
+    <Record>
+      <Key>ItemWearLamp</Key>
+      <Value>Lampada da testa</Value>
+    </Record>
+     <Record>
+      <Key>StructureTurbineGenerator</Key>
+      <Value>Generatore a turbina</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitTurbineGenerator</Key>
+      <Value>Kit (Generatore a turbina)</Value>
+    </Record>
+    <Record>
+      <Key>ReagentSilver</Key>
+      <Value>Polvere di argento</Value>
+    </Record>
+    <Record>
+      <Key>ReagentPotassiumIodide</Key>
+      <Value>Ioduro di potassio</Value>
+    </Record>
+    <Record>
+      <Key>ReagentInvar</Key>
+      <Value>Polvere di Invar</Value>
+    </Record>
+    <Record>
+      <Key>ReagentElectrum</Key>
+      <Value>Polvere di Electrum</Value>
+    </Record>
+    <Record>
+      <Key>ReagentGold</Key>
+      <Value>Polvere d'Oro</Value>
+    </Record>
+    <Record>
+      <Key>StructureUnloader</Key>
+      <Value>Scaricatore</Value>
+    </Record>
+    <Record>
+      <Key>ReagentFenoxitone</Key>
+      <Value>Polvere di Fenoxitone</Value>
+    </Record>
+     <Record>
+      <Key>StructurePlatformLadderOpen</Key>
+      <Value>Piattaforma Scale</Value>
+    </Record>
+    <Record>
+      <Key>StructureLadderEnd</Key>
+      <Value>Fine Scale</Value>
+    </Record>
+    <Record>
+      <Key>StructureLockerSmall</Key>
+      <Value>Armadio (Piccolo)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicBatchSlotReader</Key>
+      <Value>Scrittore slot Batch</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardAdvAirlockControl</Key>
+      <Value>Circuito stampato (controllo avanzato Camera di decompressione)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitPressurePlate</Key>
+      <Value>Kit (Piastra di innesco)</Value>
+    </Record>
+    <Record>
+      <Key>StructurePressurePlateLarge</Key>
+      <Value>Piastra di innesco (Grande)</Value>
+    </Record>
+    <Record>
+      <Key>StructurePressurePlateMedium</Key>
+      <Value>Piastra di innesco (Media)</Value>
+    </Record>
+    <Record>
+      <Key>StructurePressurePlateSmall</Key>
+      <Value>Piastra di innesco (Piccola)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitDynamicCanister</Key>
+      <Value>Kit (Serbatoio portatile)</Value>
+      </Record>
+       <Record>
+      <Key>ItemFlowerBlue</Key>
+      <Value>Fiore (Blu)</Value>
+    </Record>
+    <Record>
+      <Key>ItemFlowerOrange</Key>
+      <Value>Fiore (Arancione)</Value>
+    </Record>
+    <Record>
+      <Key>ItemFlowerRed</Key>
+      <Value>Fiore (Rosso)</Value>
+    </Record>
+    <Record>
+      <Key>ItemFlowerYellow</Key>
+      <Value>Fiore (Giallo)</Value>
+    </Record>
+    <Record>
+      <Key>AppliancePaintMixer</Key>
+      <Value>Miscelatore per tinte</Value>
+    </Record>
+    <Record>
+      <Key>ReagentColorBlue</Key>
+      <Value>Colorante (Blu)</Value>
+    </Record>
+    <Record>
+      <Key>ReagentCarbon</Key>
+      <Value>Polvere di carbonio</Value>
+    </Record>
+    <Record>
+      <Key>ReagentColorGreen</Key>
+      <Value>Colorante (Verde)</Value>
+    </Record>
+    <Record>
+      <Key>ReagentColorOrange</Key>
+      <Value>Colorante (Arancione)</Value>
+    </Record>
+    <Record>
+      <Key>ReagentColorRed</Key>
+      <Value>Colorante (Rosso)</Value>
+    </Record>
+    <Record>
+      <Key>ReagentColorYellow</Key>
+      <Value>Colorante (Giallo)</Value>
+    </Record>
+    <Record>
+      <Key>ItemFlowerGreen</Key>
+      <Value>Fiore (Verde)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterCarbonDioxideL</Key>
+      <Value>Filtro pesante (Anidride carbonica)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterCarbonDioxideM</Key>
+      <Value>Filtro medio (Anidride carbonica)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrogenL</Key>
+      <Value>Filtro pesante (Azoto)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrogenM</Key>
+      <Value>Filtro medio (Azoto)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterOxygenL</Key>
+      <Value>Filtro pesante (Ossigeno)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterOxygenM</Key>
+      <Value>Filtro medio (Ossigeno)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterPollutantsL</Key>
+      <Value>Filtro pesante (Inquinanti)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterPollutantsM</Key>
+      <Value>Filtro medio (Inquinanti)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterVolatilesL</Key>
+      <Value>Filtro pesante (Gas volatili)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterVolatilesM</Key>
+      <Value>Filtro medio (Gas volatili)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterWaterL</Key>
+      <Value>Filtro pesante (Acqua)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterWaterM</Key>
+      <Value>Filtro medio (Acqua)</Value>
+    </Record>
+    <Record>
+      <Key>ItemMushroom</Key>
+      <Value>Fungo</Value>
+    </Record>
+    <Record>
+      <Key>ItemPumpkin</Key>
+      <Value>Zucca</Value>
+    </Record>
+    <Record>
+      <Key>ItemRice</Key>
+      <Value>Riso</Value>
+    </Record>
+    <Record>
+      <Key>ItemPumpkinPie</Key>
+      <Value>Torta di zucca</Value>
+    </Record>
+      <Record>
+      <Key>ItemHardBackpack</Key>
+      <Value>Zaino Tuta Rinforzata</Value>
+    </Record>
+    <Record>
+      <Key>ItemHardJetpack</Key>
+      <Value>Jetpack Tuta Rinforzata</Value>
+    </Record>
+        <Record>
+      <Key>DynamicHydroponics</Key>
+      <Value>Kit idroponico portatile</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitDynamicHydroponics</Key>
+      <Value>Kit (kit idroponico portatile)</Value>
+    </Record>
+    <Record>
+      <Key>StructureKlaxon</Key>
+      <Value>Altoparlante Klaxon </Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSpeaker</Key>
+      <Value>Kit (Altoparlante)</Value>
+    </Record>
+        <Record>
+      <Key>CartridgeOreScannerColor</Key>
+      <Value>Cartuccia (Scanner minerali (Color))</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicWriterSwitch</Key>
+      <Value>Switch scrittore logico</Value>
+      </Record>
+    <Record>
+      <Key>StructureLogicPGMChip</Key>
+      <Value>Chip logico programmabile</Value>
+    </Record>
+    <Record>
+      <Key>MotherboardProgrammableChip</Key>
+      <Value>Chip scheda madre programmabile</Value>
+    </Record>
+ </Things>
+  <Slots>
+    <Record>
+      <Key>Output</Key>
+      <Value>Output</Value>
+    </Record>
+    <Record>
+      <Key>Input</Key>
+      <Value>Input</Value>
+    </Record>
+    <Record>
+      <Key>LeftHand</Key>
+      <Value>Mano sinistra</Value>
+    </Record>
+    <Record>
+      <Key>RightHand</Key>
+      <Value>Mano destra</Value>
+    </Record>
+    <Record>
+      <Key>Helmet</Key>
+      <Value>Casco</Value>
+    </Record>
+    <Record>
+      <Key>Suit</Key>
+      <Value>Tuta</Value>
+    </Record>
+    <Record>
+      <Key>Back</Key>
+      <Value>Zaino</Value>
+    </Record>
+    <Record>
+      <Key>Brain</Key>
+      <Value>Cervello</Value>
+    </Record>
+    <Record>
+      <Key>Uniform</Key>
+      <Value>Uniforme</Value>
+    </Record>
+    <Record>
+      <Key>Lungs</Key>
+      <Value>Polmoni</Value>
+    </Record>
+    <Record>
+      <Key>Belt</Key>
+      <Value>Cintura</Value>
+    </Record>
+    <Record>
+      <Key>Battery</Key>
+      <Value>Batteria</Value>
+    </Record>
+    <Record>
+      <Key>GasCanister</Key>
+      <Value>Bombola</Value>
+    </Record>
+    <Record>
+      <Key>GasFilter</Key>
+      <Value>Filtro per gas</Value>
+    </Record>
+    <Record>
+      <Key>AirTank</Key>
+      <Value>Serbatoio Aria</Value>
+    </Record>
+    <Record>
+      <Key>WasteTank</Key>
+      <Value>Serbatoio rifiuti</Value>
+    </Record>
+    <Record>
+      <Key>LifeSupport</Key>
+      <Value>Supporto vitale</Value>
+    </Record>
+    <Record>
+      <Key>Filter</Key>
+      <Value>Filtro</Value>
+    </Record>
+    <Record>
+      <Key>Tool</Key>
+      <Value>Utensile</Value>
+    </Record>
+    <Record>
+      <Key>Ore</Key>
+      <Value>Minerale</Value>
+    </Record>
+    <Record>
+      <Key>Propellent</Key>
+      <Value>Propellente</Value>
+    </Record>
+    <Record>
+      <Key>Cartridge</Key>
+      <Value>Cartuccia</Value>
+    </Record>
+    <Record>
+      <Key>CaptainsSeat</Key>
+      <Value>Sedile del Capitano</Value>
+    </Record>
+    <Record>
+      <Key>PassengerSeatLeft</Key>
+      <Value>Sedile passeggero sinistro</Value>
+    </Record>
+    <Record>
+      <Key>PassengerSeatRight</Key>
+      <Value>Sedile passeggero destro</Value>
+    </Record>
+    <Record>
+      <Key>DataDisk</Key>
+      <Value>Disco Dati</Value>
+    </Record>
+    <Record>
+      <Key>Appliance1</Key>
+      <Value>Apparecchio 1</Value>
+    </Record>
+    <Record>
+      <Key>Appliance2</Key>
+      <Value>Apparecchio 2</Value>
+    </Record>
+    <Record>
+      <Key>Import</Key>
+      <Value>Importa</Value>
+    </Record>
+    <Record>
+      <Key>Export</Key>
+      <Value>Esporta</Value>
+    </Record>
+    <Record>
+      <Key>Seat</Key>
+      <Value>Sedile</Value>
+    </Record>
+    <Record>
+      <Key>TransportSlot</Key>
+      <Value>Slot di trasporto</Value>
+    </Record>
+    <Record>
+      <Key>Motherboard</Key>
+      <Value>Scheda Madre</Value>
+    </Record>
+    <Record>
+      <Key>Entity</Key>
+      <Value>Entità</Value>
+    </Record>
+    <Record>
+      <Key>Occupant</Key>
+      <Value>Occupante</Value>
+    </Record>
+    <Record>
+      <Key>PortableSlot</Key>
+      <Value>Slot portatile</Value>  <!-- da controllare -->
+    </Record>
+    <Record>
+      <Key>Bed</Key>
+      <Value>Letto</Value>
+    </Record>
+    <Record>
+      <Key>Processing</Key>
+      <Value>In lavorazione</Value>
+    </Record>
+    <Record>
+      <Key>Torpedo</Key>
+      <Value>Siluro</Value>
+    </Record>
+    <Record>
+      <Key>LoadingRail</Key>
+      <Value>Binario di carico</Value>
+    </Record>
+    <Record>
+      <Key>AccessCard</Key>
+      <Value>Scheda d'accesso</Value>
+    </Record>
+     <Record>
+      <Key>Magazine</Key>
+      <Value>Magazine</Value>
+    </Record>
+    <Record>
+      <Key>ContainerSlot</Key>
+      <Value>Slot contenitore</Value>
+    </Record>
+    <Record>
+      <Key>Plant</Key>
+      <Value>Pianta</Value>
+    </Record>
+    <Record>
+      <Key>Storage</Key>
+      <Value>Storage</Value>
+    </Record>
+    <Record>
+      <Key>Circuit</Key>
+      <Value>Circuito</Value>
+    </Record>
+  </Slots>
+  <Interactables>
+    <Record>
+      <Key>Activate</Key>
+      <Value>Attiva</Value>
+    </Record>
+    <Record>
+      <Key>Open</Key>
+      <Value>Apri</Value>
+    </Record>
+    <Record>
+      <Key>OnOff</Key>
+      <Value>ON OFF</Value>
+    </Record>
+    <Record>
+      <Key>Lock</Key>
+      <Value>Blocca</Value>
+    </Record>
+    <Record>
+      <Key>Powered</Key>
+      <Value>Alimentato</Value>
+    </Record>
+    <Record>
+      <Key>Error</Key>
+      <Value>Errore</Value>
+    </Record>
+    <Record>
+      <Key>Slot1</Key>
+      <Value>Slot1</Value>
+    </Record>
+    <Record>
+      <Key>Slot2</Key>
+      <Value>Slot2</Value>
+    </Record>
+    <Record>
+      <Key>GrabLeftHand</Key>
+      <Value>Prendi la mano sinistra</Value>
+    </Record>
+    <Record>
+      <Key>GrabRightHand</Key>
+      <Value>Prendi la mano destra</Value>
+    </Record>
+    <Record>
+      <Key>GrabLeftFoot</Key>
+      <Value>Prendi la gamba sinistra</Value>
+    </Record>
+    <Record>
+      <Key>GrabRightFoot</Key>
+      <Value>Prendi la gamba destra</Value>
+    </Record>
+    <Record>
+      <Key>Drag</Key>
+      <Value>Trascina</Value>
+    </Record>
+    <Record>
+      <Key>Mode</Key>
+      <Value>Modalità</Value>
+    </Record>
+    <Record>
+      <Key>Button1</Key>
+      <Value>Bottone1</Value>
+    </Record>
+    <Record>
+      <Key>Slot3</Key>
+      <Value>Slot3</Value>
+    </Record>
+    <Record>
+      <Key>Slot4</Key>
+      <Value>Slot4</Value>
+    </Record>
+    <Record>
+      <Key>Slot5</Key>
+      <Value>Slot5</Value>
+    </Record>
+    <Record>
+      <Key>Slot6</Key>
+      <Value>Slot6</Value>
+    </Record>
+    <Record>
+      <Key>Slot7</Key>
+      <Value>Slot7</Value>
+    </Record>
+    <Record>
+      <Key>Slot8</Key>
+      <Value>Slot8</Value>
+    </Record>
+    <Record>
+      <Key>Slot9</Key>
+      <Value>Slot9</Value>
+    </Record>
+    <Record>
+      <Key>Slot10</Key>
+      <Value>Slot10</Value>
+    </Record>
+    <Record>
+      <Key>Button2</Key>
+      <Value>Bottone2</Value>
+    </Record>
+    <Record>
+      <Key>SplitOne</Key>
+      <Value>Prendine uno</Value>
+    </Record>
+    <Record>
+      <Key>SplitHalf</Key>
+      <Value>Dividi (a metà)</Value>
+    </Record>
+    <Record>
+      <Key>NextPage</Key>
+      <Value>Prossima pagina</Value>
+    </Record>
+    <Record>
+      <Key>PreviousPage</Key>
+      <Value>Pagina precedente</Value>
+    </Record>
+    <Record>
+      <Key>Use</Key>
+      <Value>Usa</Value>
+    </Record>
+    <Record>
+      <Key>Export</Key>
+      <Value>Esporta</Value>
+    </Record>
+    <Record>
+      <Key>Import</Key>
+      <Value>Importa</Value>
+    </Record>
+    <Record>
+      <Key>PressureUp</Key>
+      <Value>Aumenta pressione</Value>
+    </Record>
+    <Record>
+      <Key>PressureDown</Key>
+      <Value>Dimin. pressione</Value>
+    </Record>
+    <Record>
+      <Key>Flush</Key>
+      <Value>Sciacqua</Value>
+    </Record>
+    <Record>
+      <Key>Battery</Key>
+      <Value>Batteria</Value>
+    </Record>
+    <Record>
+      <Key>Cartridge</Key>
+      <Value>Cartuccia</Value>
+    </Record>
+    <Record>
+      <Key>CaptainsChair</Key>
+      <Value>Sedile del Capitano</Value>
+    </Record>
+    <Record>
+      <Key>PassengersChair</Key>
+      <Value>Sedile passeggero</Value>
+    </Record>
+    <Record>
+      <Key>Button3</Key>
+      <Value>Bottone3</Value>
+    </Record>
+    <Record>
+      <Key>Slot11</Key>
+      <Value>Slot11</Value>
+    </Record>
+    <Record>
+      <Key>Slot12</Key>
+      <Value>Slot12</Value>
+    </Record>
+    <Record>
+      <Key>Slot13</Key>
+      <Value>Slot13</Value>
+    </Record>
+    <Record>
+      <Key>Slot14</Key>
+      <Value>Slot14</Value>
+    </Record>
+    <Record>
+      <Key>Slot15</Key>
+      <Value>Slot15</Value>
+    </Record>
+    <Record>
+      <Key>Slot16</Key>
+      <Value>Slot16</Value>
+    </Record>
+    <Record>
+      <Key>Slot17</Key>
+      <Value>Slot17</Value>
+    </Record>
+    <Record>
+      <Key>Slot18</Key>
+      <Value>Slot18</Value>
+    </Record>
+    <Record>
+      <Key>Slot19</Key>
+      <Value>Slot19</Value>
+    </Record>
+    <Record>
+      <Key>Slot20</Key>
+      <Value>Slot20</Value>
+    </Record>
+    <Record>
+      <Key>Slot21</Key>
+      <Value>Slot21</Value>
+    </Record>
+    <Record>
+      <Key>Slot22</Key>
+      <Value>Slot22</Value>
+    </Record>
+    <Record>
+      <Key>Slot23</Key>
+      <Value>Slot23</Value>
+    </Record>
+    <Record>
+      <Key>Slot24</Key>
+      <Value>Slot24</Value>
+    </Record>
+    <Record>
+      <Key>Slot25</Key>
+      <Value>Slot25</Value>
+    </Record>
+    <Record>
+      <Key>Slot26</Key>
+      <Value>Slot26</Value>
+    </Record>
+    <Record>
+      <Key>Slot27</Key>
+      <Value>Slot27</Value>
+    </Record>
+    <Record>
+      <Key>Slot28</Key>
+      <Value>Slot28</Value>
+    </Record>
+    <Record>
+      <Key>Slot29</Key>
+      <Value>Slot29</Value>
+    </Record>
+    <Record>
+      <Key>Slot30</Key>
+      <Value>Slot30</Value>
+    </Record>
+    <Record>
+      <Key>TiltUpwards</Key>
+      <Value>Inclina verso l'alto</Value>
+    </Record>
+    <Record>
+      <Key>Rotate</Key>
+      <Value>Ruota</Value>
+    </Record>
+    <Record>
+      <Key>RotateLeft</Key>
+      <Value>Ruota a sinistra</Value>
+    </Record>
+    <Record>
+      <Key>RotateRight</Key>
+      <Value>Ruota a destra</Value>
+    </Record>
+    <Record>
+      <Key>TiltDownwards</Key>
+      <Value>Inclina verso il basso</Value>
+    </Record>
+    <Record>
+      <Key>Export2</Key>
+      <Value>Export2</Value>
+    </Record>
+    <Record>
+      <Key>Launch</Key>
+      <Value>Lancia</Value>
+    </Record>
+    <Record>
+      <Key>PreviousPlan</Key>
+      <Value>Piano precedente</Value>
+    </Record>
+    <Record>
+      <Key>NextPlan</Key>
+      <Value>Piano successivo</Value>
+    </Record>
+    <Record>
+      <Key>CreatePlan</Key>
+      <Value>Crea Piano</Value>
+    </Record>
+    <Record>
+      <Key>Button4</Key>
+      <Value>Bottone4</Value>
+    </Record>
+    <Record>
+      <Key>Output</Key>
+      <Value>Output</Value>
+    </Record>
+    <Record>
+      <Key>Hatch</Key>
+      <Value>Portello</Value>
+    </Record>
+    <Record>
+      <Key>Grow</Key>
+      <Value>Coltiva</Value>
+    </Record>
+    <Record>
+      <Key>LayEgg</Key>
+      <Value>Deponi uovo</Value>
+    </Record>
+    <Record>
+      <Key>Eat</Key>
+      <Value>Mangia</Value>
+    </Record>
+    <Record>
+      <Key>Input</Key>
+      <Value>Input</Value>
+    </Record>
+    <Record>
+      <Key>Setting</Key>
+      <Value>Settaggi</Value>
+    </Record>
+    <Record>
+      <Key>Increase</Key>
+      <Value>Aumenta</Value>
+    </Record>
+    <Record>
+      <Key>Decrease</Key>
+      <Value>Diminuisci</Value>
+    </Record>
+    <Record>
+      <Key>Color</Key>
+      <Value>Colore</Value>
+    </Record>
+    <Record>
+      <Key>Access</Key>
+      <Value>Accesso</Value>
+    </Record>
+       <Record>
+      <Key>Magazine</Key>
+      <Value>Magazine</Value>
+    </Record>
+    <Record>
+      <Key>TemperatureUp</Key>
+      <Value>Temperatura Su</Value>
+    </Record>
+    <Record>
+      <Key>TemperatureDown</Key>
+      <Value>Temperatura Giu</Value>
+    </Record>
+    <Record>
+      <Key>ThrustUp</Key>
+      <Value>Spinta Su</Value>
+    </Record>
+    <Record>
+      <Key>ThrustDown</Key>
+      <Value>Spinta Giu</Value>
+      </Record>
+  </Interactables>
+  <Interface>
+    <Record>
+      <Key>MainMenuContinue</Key>
+      <Value>Continua</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuNewWorld</Key>
+      <Value>Nuovo Mondo</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuLoadWorld</Key>
+      <Value>Carica un Mondo</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuJoinWorld</Key>
+      <Value>Unisciti ad un Mondo</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuWorkshop</Key>
+      <Value>Workshop</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuSettings</Key>
+      <Value>Opzioni</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuTutorial</Key>
+      <Value>Tutorial &lt;color=green&gt; - Nuovo !&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuCredits</Key>
+      <Value>Crediti</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuExit</Key>
+      <Value>Torna al Desktop</Value>
+    </Record>
+    <Record>
+      <Key>LoadMenuTitle</Key>
+      <Value>Carica un Mondo</Value>
+    </Record>
+    <Record>
+      <Key>LoadMenuFileListTitle</Key>
+      <Value>Lista Mondi Salvati</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoTextDate</Key>
+      <Value>Salvato il :</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoTextPlaytime</Key>
+      <Value>Tempo di gioco :</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoTextPlayers</Key>
+      <Value>Giocatori :</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoTextAsteroids</Key>
+      <Value>Asteroidi :</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoTextVersion</Key>
+      <Value>Versione :</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoButtonDelete</Key>
+      <Value>Cancella</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoButtonPublish</Key>
+      <Value>Pubblica</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoButtonDebugLoad</Key>
+      <Value>Carica log di Debug</Value>
+    </Record>
+    <Record>
+      <Key>LoadWorldButtonLoad</Key>
+      <Value>Carica un Mondo</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuTitle</Key>
+      <Value>Unisciti ad un Mondo</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuButtonRefresh</Key>
+      <Value>Aggiorna la Lista</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuButtonJoin</Key>
+      <Value>Unisciti ad un mondo</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerListName</Key>
+      <Value>Nome del Server</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerListVersion</Key>
+      <Value>Versione</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerListRefreshing</Key>
+      <Value>Aggiorna lista Server</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuInputAddressTitle</Key>
+      <Value>Indirizzo</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldTitle</Key>
+      <Value>Nuovo Mondo</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldButtonBack</Key>
+      <Value>Indietro</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldButtonCreate</Key>
+      <Value>Crea nuovo mondo</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaTitle</Key>
+      <Value>Area di partenza</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaSpace</Key>
+      <Value>Spazio</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaMars</Key>
+      <Value>Marte</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldEnableAwayMissions</Key>
+      <Value>Abilita missioni esterne</Value> <!-- da controllare -->
+    </Record>
+    <Record>
+      <Key>InventorySlotBelt</Key>
+      <Value>Cintura</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotUniform</Key>
+      <Value>Uniforme</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotBackpack</Key>
+      <Value>Zaino</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotSuit</Key>
+      <Value>Tuta</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotHelmet</Key>
+      <Value>Casco</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotHandLeft</Key>
+      <Value>Mano sinistra</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotHandRight</Key>
+      <Value>Mano destra</Value>
+    </Record>
+    <Record>
+      <Key>StatusWindowExternal</Key>
+      <Value>Esterna</Value>
+    </Record>
+    <Record>
+      <Key>StatusWindowDamage</Key>
+      <Value>Danni</Value>
+    </Record>
+    <Record>
+      <Key>StatusWindowInternal</Key>
+      <Value>Interna</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonReturn</Key>
+      <Value>Torna al gioco</Value>  <!-- da controllare -->
+    </Record>
+    <Record>
+      <Key>GameMenuButtonSave</Key>
+      <Value>Salva Mondo</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonChangeCharacter</Key>
+      <Value>Cambia Aspetto</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonSettings</Key>
+      <Value>Settaggi</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonLeave</Key>
+      <Value>Esci dalla sessione</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonExitDesktop</Key>
+      <Value>Torna al Desktop</Value>
+    </Record>
+    <Record>
+      <Key>SaveMenuTitle</Key>
+      <Value>Salvare il Mondo ?</Value>
+    </Record>
+    <Record>
+      <Key>SaveMenuListTitle</Key>
+      <Value>Mondi Salvati</Value>
+    </Record>
+    <Record>
+      <Key>ButtonBack</Key>
+      <Value>Indietro</Value>
+    </Record>
+    <Record>
+      <Key>ButtonDelete</Key>
+      <Value>Cancella</Value>
+    </Record>
+    <Record>
+      <Key>WorkshopUploadProgress</Key>
+      <Value>Elaborando dati in Upload</Value>
+    </Record>
+    <Record>
+      <Key>ButtonConfirmWarning</Key>
+      <Value>Attenzione !</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonExit</Key>
+      <Value>Esci dal gioco</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuTitle</Key>
+      <Value>Settaggi</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuGameplay</Key>
+      <Value>Gameplay</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuVideo</Key>
+      <Value>Video</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuAudio</Key>
+      <Value>Audio</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuControls</Key>
+      <Value>Controlli</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuMisc</Key>
+      <Value>Miscellanea</Value>
+    </Record>
+    <Record>
+      <Key>SettingsGameplayAutosave</Key>
+      <Value>Attiva salvataggio automatico</Value>
+    </Record>
+    <Record>
+      <Key>SettingsAutosaveInterval</Key>
+      <Value>Intervallo di tempo (in secondi)</Value>
+    </Record>
+    <Record>
+      <Key>SettingsHUDScale</Key>
+      <Value>Scala HUD</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDisplayLatency</Key>
+      <Value>Mostra latenza</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDisplayFPS</Key>
+      <Value>Mostra FPS</Value>
+    </Record>
+    <Record>
+      <Key>ButtonResetDefaults</Key>
+      <Value>Default</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleDisplayTools</Key>
+      <Value>Strumenti display</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleAutosave</Key>
+      <Value>Settaggi salvataggi automatici</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleScreen</Key>
+      <Value>Configura finestra</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleBasicScreen</Key>
+      <Value>Settaggi base</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleAdvScreen</Key>
+      <Value>Settaggi avanzati</Value>
+    </Record>
+    <Record>
+      <Key>SettingsResolution</Key>
+      <Value>Risoluzione</Value>
+    </Record>
+    <Record>
+      <Key>SettingsScreenMode</Key>
+      <Value>Modalità finestra</Value>
+    </Record>
+    <Record>
+      <Key>SettingsVsync</Key>
+      <Value>V-Sync</Value>
+    </Record>
+    <Record>
+      <Key>SettingsButtonApply</Key>
+      <Value>Applica</Value>
+    </Record>
+    <Record>
+      <Key>SettingsBrightness</Key>
+      <Value>Luminosità</Value>
+    </Record>
+    <Record>
+      <Key>SettingsFOV</Key>
+      <Value>Ampiezza angolo di visuale</Value>
+    </Record>
+    <Record>
+      <Key>SettingsOverallQuality</Key>
+      <Value>Qualità totale</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTextureQuality</Key>
+      <Value>Qualità delle Texture</Value>
+    </Record>
+    <Record>
+      <Key>SettingsParticleQuality</Key>
+      <Value>Qualità delle particelle</Value>
+    </Record>
+    <Record>
+      <Key>SettingsSoftParticles</Key>
+      <Value>Particelle</Value>
+    </Record>
+    <Record>
+      <Key>SettingsVolumetricLighting</Key>
+      <Value>Luci volumetriche</Value>
+    </Record>
+    <Record>
+      <Key>SettingsPixelLightCount</Key>
+      <Value>Numero di pixel luce</Value>
+    </Record>
+    <Record>
+      <Key>SettingsShadows</Key>
+      <Value>Ombre</Value>
+    </Record>
+    <Record>
+      <Key>SettingsShadowResolution</Key>
+      <Value>Risoluzione ombre</Value>
+    </Record>
+    <Record>
+      <Key>SettingsShadowDistamce</Key>
+      <Value>Distanza ombre</Value>
+    </Record>
+    <Record>
+      <Key>SettingsEnvElements</Key>
+      <Value>Elementi ambientali</Value>
+    </Record>
+    <Record>
+      <Key>SettingsReflections</Key>
+      <Value>Riflessi</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMasterVolume</Key>
+      <Value>Volume Principale</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleMixer</Key>
+      <Value>Mixer</Value>
+    </Record>
+    <Record>
+      <Key>SettingsSound</Key>
+      <Value>Suoni</Value>
+    </Record>
+    <Record>
+      <Key>SettingsVoiceNotifications</Key>
+      <Value>Notifiche vocali</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleKeybinds</Key>
+      <Value>Configurazione controlli</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleMisc</Key>
+      <Value>Settaggi vari</Value>
+    </Record>
+    <Record>
+      <Key>SettingsLanguage</Key>
+      <Value>Lingua</Value>
+    </Record>
+    <Record>
+      <Key>SettingsVoiceControl</Key>
+      <Value>Comandi vocali</Value>
+    </Record>
+    <Record>
+      <Key>SettingsCameraSensitivity</Key>
+      <Value>Sensibilità telecamera</Value>
+    </Record>
+    <Record>
+      <Key>NotificationTitle</Key>
+      <Value>Salvataggio riuscito</Value>
+    </Record>
+    <Record>
+      <Key>AlertButtonClose</Key>
+      <Value>Chiudi</Value>  
+    </Record>
+    <Record>
+      <Key>AlertButtonTitle</Key>
+      <Value>Attenzione</Value>
+    </Record>
+    <Record>
+      <Key>ServerSettingsButtonReset</Key>
+      <Value>Reset dei parametri</Value>
+    </Record>
+    <Record>
+      <Key>ButtonConfirm</Key>
+      <Value>Conferma</Value>
+    </Record>
+    <Record>
+      <Key>ButtonCancel</Key>
+      <Value>Annulla</Value>  
+    </Record>
+    <Record>
+      <Key>InputTextRename</Key>
+      <Value>Rinomina</Value>
+    </Record>
+    <Record>
+      <Key>ButtonOk</Key>
+      <Value>OK</Value>
+    </Record>
+    <Record>
+      <Key>InputPassword</Key>
+      <Value>Password</Value>
+    </Record>
+    <Record>
+      <Key>ButtonKick</Key>
+      <Value>Kick</Value>
+    </Record>
+    <Record>
+      <Key>ButtonBan</Key>
+      <Value>Ban</Value>
+    </Record>
+    <Record>
+      <Key>ButtoConfirmExitAsServer</Key>
+      <Value>Sei sicuro di voler uscire dal gioco senza salvare? Ogni progresso non salvato verrà perso.</Value>
+    </Record>
+    <Record>
+      <Key>DialogConfirmNoticeUnsaved</Key>
+      <Value>Sei sicuro di voler uscire dalla sessione senza salvare? Ogni progresso non salvato verrà perso.</Value>
+    </Record>
+    <Record>
+      <Key>ButtonExit</Key>
+      <Value>Esci</Value>
+    </Record>
+    <Record>
+      <Key>ButtonSave</Key>
+      <Value>Salva</Value>
+    </Record>
+    <Record>
+      <Key>DialogConfirmNoticeClientLeaving</Key>
+      <Value>Sei sicuro di voler uscire dalla sessione?</Value>
+    </Record>
+    <Record>
+      <Key>SettingsPopupChat</Key>
+      <Value>Popup chat</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDisplayPortrait</Key>
+      <Value>Mostra personaggio</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaMoon</Key>
+      <Value>Luna</Value>
+    </Record>
+    <Record>
+      <Key>SettingsAntialiasing</Key>
+      <Value>Modo Antialiasing</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuMultiplayer</Key>
+      <Value>Multiplayer</Value>
+    </Record>
+    <Record>
+      <Key>SettingsAdvertiseServer</Key>
+      <Value>Messagggio server</Value>
+    </Record>
+    <Record>
+      <Key>SettingsServerName</Key>
+      <Value>Nome del server</Value>
+    </Record>
+    <Record>
+      <Key>SettingsServerPassword</Key>
+      <Value>Password server</Value>
+    </Record>
+    <Record>
+      <Key>SettingsServerMaxPlayers</Key>
+      <Value>Numero Max giocatori</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleMultiplayer</Key>
+      <Value>Settaggi Multiplayer</Value>
+    </Record>
+    <Record>
+      <Key>SettingsUpdatePort</Key>
+      <Value>Porta per Update</Value> <!-- da controllare -->
+    </Record>
+    <Record>
+      <Key>SettingsGamePort</Key>
+      <Value>Porta di Gioco</Value> <!-- da controllare -->
+    </Record>
+    <Record>
+      <Key>SettingsMusic</Key>
+      <Value>Musica</Value>
+    </Record>
+    <Record>
+      <Key>TutorialFirstTimePlaying</Key>
+      <Value>Prima volta che giochi ?</Value>
+    </Record>
+    <Record>
+      <Key>TutorialGetStarted</Key>
+      <Value>Inizia il Tutorial</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSkipButton</Key>
+      <Value>Skip</Value>
+    </Record>
+    <Record>
+      <Key>TutorialStartButton</Key>
+      <Value>Inizia</Value>
+    </Record>
+    <Record>
+      <Key>TutorialComplete</Key>
+      <Value>Tutorial completato</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompleteHeading</Key>
+      <Value>Fine Tutorial</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompleteMessage</Key>
+      <Value>C'è ancora molto da apprendere.
+Per cui esci là fuori, Stationeer !</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBackToMenu</Key>
+      <Value>Ritorna al Menù</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMiscInvertMouse</Key>
+      <Value>Inverti Mouse</Value>
+    </Record>
+    <Record>
+      <Key>SettingsInvertMouse</Key>
+      <Value>Inverti Mouse</Value>
+    </Record>
+	    <Record>
+      <Key>MothershipConstruction</Key>
+      <Value>&lt;color=yellow&gt;Costruendo Astronave.&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>MulticonstructorItem</Key>																		
+      <Value>&lt;color=yellow&gt;Opzioni di costruzione {0} di {1} &lt;/color&gt; Scroll &lt;color=red&gt;Rotella del Mouse&lt;/color&gt; per altre opzioni.</Value>
+    </Record>
+    <Record>
+      <Key>UnableToConstruct</Key>
+      <Value>&lt;color=red&gt;Impossibile costruire&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipRotateLeftRight</Key>
+      <Value>Usa &lt;color=yellow&gt;{KEY:RotateLeft}&lt;/color&gt; e &lt;color=yellow&gt;{KEY:RotateRight}&lt;/color&gt; per ruotare a sinistra o destra.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipRotateUpDown</Key>
+      <Value>Usa &lt;color=yellow&gt;{KEY:RotateUp}&lt;/color&gt; e &lt;color=yellow&gt;{KEY:RotateDown}&lt;/color&gt; per ruotare in alto o in basso.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipRollLeftRight</Key>
+      <Value>Usa &lt;color=yellow&gt;{KEY:RotateRollLeft}&lt;/color&gt; e &lt;color=yellow&gt;{KEY:RotateRollRight}&lt;/color&gt; per rollio a sinistra o a destra.</Value>
+    </Record>
+    <Record>
+      <Key>SettingsExtendedTooltips</Key>
+      <Value>Suggerimenti estesi</Value>
+    </Record>
+    <Record>
+      <Key>TooltipUpgrade2</Key>
+      <Value>Una volta piazzato, usa {0} e {1} per aggiornare.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipUpgrade</Key>
+      <Value>Una volta piazzato, usa {0} per aggiornare.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipAllowsMounting</Key>
+      <Value>Permette di piazzare dispositivi a muro. Aggiorna per migliorare la scelta delle opzioni per il piazzamento.
+      </Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapGrid</Key>
+      <Value>Piazzamento allineato sulla griglia.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFace</Key>
+      <Value>Piazzamento allineato alla faccia della griglia.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceMount</Key>
+      <Value>Il piazzamento è possibile solo su &lt;color=yellow&gt;{THING:StructureFrameIron}&lt;/color&gt; e &lt;color=yellow&gt;{THING:StructureFrame}&lt;/color&gt; direttamente. Se aggiornate, offrono migliori opzioni di piazzamento.</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuClearDisconnectedPlayers</Key>
+      <Value>Cancella giocatori disconnessi</Value>
+    </Record>
+    <Record>
+      <Key>SettingsInvertMouseWheelInventory</Key>
+      <Value>Inverti scroll inventario</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleMultiplayerAdvanced</Key>
+      <Value>Settaggi multiplayer avanzati</Value>
+    </Record>
+    <Record>
+      <Key>SettingsUPNPNote</Key>
+      <Value>Se Universal Plug and Play (UPNP) è attivo sul vostro router, le porte saranno automaticamente aperte quando hosti un gioco.</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTooltipOpacity</Key>
+      <Value>Opacità Suggerimenti</Value>
+    </Record>
+    <Record>
+      <Key>MenuDownloadDriverButton</Key>
+      <Value>Scarica Drivers</Value>
+    </Record>
+    <Record>
+      <Key>MenuDownloadDriverWarning</Key>
+      <Value>Molte schede grafiche AMD riportano problemi con il gioco che sono stati risolti aggiornando i driver. Ti consigliamo &lt;b&gt;FORTEMENTE&lt;/b&gt; di aggiornarli prima di giocare.</Value>
+    </Record>
+    <Record>
+      <Key>SettingsChatFadeTimer</Key>
+      <Value>Intervallo scomparsa chat</Value>
+    </Record>
+  <Record>
+      <Key>PromptResetSettingsTitle</Key>
+      <Value>Reset Settaggi</Value>
+    </Record>
+  <Record>
+      <Key>PromptResetSettingsBody</Key>
+      <Value>Sei sicuro ?</Value>
+    </Record>
+  <Record>
+      <Key>PromptResetSettingsConfirm</Key>
+      <Value>Reset</Value>
+    </Record>
+    <Record>
+      <Key>PromptQuitTitle</Key>
+      <Value>Esci da Stationeers</Value>
+    </Record>
+    <Record>
+      <Key>PromptQuitBody</Key>
+      <Value>Sei sicuro di voler uscire ?</Value>
+    </Record>
+    <Record>
+      <Key>PromptQuitConfirm</Key>
+      <Value>Esci</Value>
+    </Record>
+    <Record>
+      <Key>PromptOverwriteTitle</Key>
+      <Value>Sovrascrivi</Value>
+    </Record>
+    <Record>
+      <Key>PromptOverwriteBody</Key>
+      <Value>Sei sicuro di sovrascrivere un Mondo esistente ?</Value>
+    </Record>
+    <Record>
+      <Key>PromptOverwriteConfirm</Key>
+      <Value>Conferma</Value>
+    </Record>
+    <Record>
+      <Key>PromptPublishTitle</Key>
+      <Value>Pubblica sullo Workshop</Value>
+    </Record>
+    <Record>
+      <Key>PromptPublishBody</Key>
+      <Value>Sei sicuro di voler pubblicare questo Mondo sul Workshop?</Value>
+    </Record>
+    <Record>
+      <Key>PromptPublishConfirm</Key>
+      <Value>Pubblica</Value>
+    </Record>
+    <Record>
+      <Key>PromptDeleteTitle</Key>
+      <Value>Cancella salvataggio</Value>
+    </Record>
+    <Record>
+      <Key>PromptDeleteBody</Key>
+      <Value>Sei sicuro ?</Value>
+    </Record>
+    <Record>
+      <Key>PromptDeleteConfirm</Key>
+      <Value>Cancella</Value>
+    </Record>
+    <Record>
+      <Key>PromptDebugLoadTitle</Key>
+      <Value>Carica log di Debug</Value>
+    </Record>
+    <Record>
+      <Key>PromptDebugLoadBody</Key>
+      <Value>Sei sicuro di voler caricare questo Mondo con solo un personaggio ?</Value>
+    </Record>
+    <Record>
+      <Key>PromptDebugLoadConfirm</Key>
+      <Value>Carica Debug</Value>
+    </Record>
+    <Record>
+      <Key>PromptRespawnTitle</Key>
+      <Value>Respawn</Value>
+    </Record>
+    <Record>
+      <Key>PromptRespawnBody</Key>
+      <Value>Sei morto.</Value>
+    </Record>
+    <Record>
+      <Key>PromptRespawnConfirm</Key>
+      <Value>Respawn</Value>
+    </Record>
+    <Record>
+      <Key>PromptGiveUpTitle</Key>
+      <Value>Arrenditi</Value>
+    </Record>
+    <Record>
+      <Key>PromptGiveUpBody</Key>
+      <Value>Sei incosciente. Vuoi arrendenderti ed effettuare il respawn?</Value>
+    </Record>
+      <Record>
+      <Key>PromptGiveUpConfirm</Key>
+      <Value>Arrenditi</Value>
+    </Record>
+    <Record>
+      <Key>AlertInvalidIP</Key>
+      <Value>Indirizzo IP non valido {0} \ verifica che IP o URL siano corretti</Value>
+    </Record>
+    <Record>
+      <Key>AlertPlayerCountExceeded</Key>
+      <Value>Il server è pieno.</Value>
+    </Record>
+    <Record>
+      <Key>AlertVersionMismatch</Key>
+      <Value>La versione di gioco non è compatibile con la versione del server.</Value>
+    </Record>
+    <Record>
+      <Key>AlertNoResponse</Key>
+      <Value>Il server non risponde. 
+Prova di nuovo.</Value>													   
+						 
+    </Record>
+    <Record>
+      <Key>AlertKicked</Key>
+      <Value>Sei stato kickato dal server.</Value>
+    </Record>
+    <Record>
+      <Key>AlertWrongPassword</Key>
+      <Value>Password server errata.</Value>
+    </Record>
+    <Record>
+      <Key>AlertInvalidPort</Key>
+      <Value>Il valore delle porte deve essere tra 0 e 65535.</Value>
+    </Record>
+    <Record>
+      <Key>AlertCannotUpdatePort</Key>
+      <Value>Impossibile aggiornare porta mentre il server è attivo.</Value>
+    </Record>
+    <Record>
+      <Key>AlertBlankSaveName</Key>
+      <Value>Devi inserire un nome per il Mondo per poter salvare.</Value>
+    </Record>
+    <Record>
+      <Key>AlertTitleAttention</Key>
+      <Value>Attenzione</Value>
+    </Record>
+    <Record>
+      <Key>AlertTitlePleaseWait</Key>
+      <Value>Per favore attendi...</Value>
+    </Record>    
+    <Record>
+      <Key>TooltipNeedMoreKit</Key>
+      <Value>&lt;color=red&gt;Servono più : {0}&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuSearchPlaceholder</Key>
+      <Value>Cerca per nome Server</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuAddressPlaceholder</Key>
+      <Value>Inserisci indirizzo IP:Porta qui...</Value>	   
+    </Record>
+    <Record>
+      <Key>JoinMenuServerDetailConnectButton</Key>
+      <Value>Unisciti al Mondo</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerDetailInfoButton</Key>
+      <Value>Vedi info</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerDetailUnFavoriteButton</Key>
+      <Value>Cancella favorito</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerDetailFavoriteButton</Key>
+      <Value>Favorito</Value>
+    </Record>
+    <Record>
+      <Key>SaveMenuSaveWorldButton</Key>
+      <Value>Salvare il Mondo</Value>
+    </Record>
+    <Record>
+      <Key>SaveMenuOverwriteButton</Key>
+      <Value>Sovrascrivi</Value>
+    </Record>
+    <Record>
+      <Key>SaveMenuNamePlaceholder</Key>
+      <Value>Inserisci nome salvataggio</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldModeCreative</Key>
+      <Value>Creativo</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldModeSurvival</Key>
+      <Value>Sopravvivenza</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuServerListMap</Key>
+      <Value>Map</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuInfoIPAddress</Key>
+      <Value>Indirizzo IP:</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuInfoMap</Key>
+      <Value>Map:</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuInfoVersion</Key>
+      <Value>Versione:</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuInfoLatency</Key>
+      <Value>Latenza:</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuInfoPlayers</Key>
+      <Value>Giocatori:</Value>
+    </Record>
+    <Record>
+      <Key>ChangeAppearanceTitle</Key>
+      <Value>Cambia aspetto</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceTitleGender</Key>
+      <Value>Sesso</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceTitleFace</Key>
+      <Value>Viso</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceTitleHairStyle</Key>
+      <Value>Capelli</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceTitleHairColor</Key>
+      <Value>Colore capelli</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceTitleEyeColor</Key>
+      <Value>Colore occhi</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceTitleSkinColor</Key>
+      <Value>Colore pelle</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceTitleFacialHairStyle</Key>
+      <Value>Barba</Value>
+    </Record>
+    <Record>
+      <Key>SettingsStartingCondition</Key>
+      <Value>Condizioni di partenza</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleGameSettings</Key>
+      <Value>Parametri di gioco</Value>
+    </Record>
+    <Record>
+      <Key>SettingsHungerRate</Key>
+      <Value>Tasso consumo fame</Value>
+    </Record>
+    <Record>
+      <Key>JoinWorldSortBy</Key>
+      <Value>Classifica per</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuFiltersTitle</Key>
+      <Value>Filtri</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuButtonStopRefresh</Key>
+      <Value>Ferma Aggiornamento</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuIncompatibleVersions</Key>
+      <Value>Nascondi versioni incompatibili</Value>
+    </Record>
+    <Record>
+      <Key>JoinMenuPasswordProtected</Key>
+      <Value>Nascondi server protetti con password</Value>
+    </Record>
+    <Record>
+      <Key>JoinWorldEmptyServers</Key>
+      <Value>Nascondi server vuoti</Value>
+    </Record>
+    <Record>
+      <Key>WorkshopSubscribedModsTitle</Key>
+      <Value>Mod Sottoscritte</Value>
+    </Record>
+    <Record>
+      <Key>WorkshopPageButton</Key>
+      <Value>Pagina Workshop</Value>
+    </Record>
+    <Record>
+      <Key>WorkshopUnsubscribeButton</Key>
+      <Value>Cancella sottoscrizione</Value>
+    </Record>
+    <Record>
+      <Key>OpenWorkshopButton</Key>
+      <Value>Apri Workshop</Value>
+    </Record>
+    <Record>
+      <Key>WorldPresetTitle</Key>
+      <Value>Mondo predefinito</Value>
+    </Record>
+    <Record>
+      <Key>WorldPresetLabel</Key>
+      <Value>Predefinito</Value>
+    </Record>
+    <Record>
+      <Key>WorldNameLabel</Key>
+      <Value>Nome del Mondo</Value>
+    </Record>
+    <Record>
+      <Key>WorldDescriptionLabel</Key>
+      <Value>Descrizione</Value>
+    </Record>
+    <Record>
+      <Key>WorldAtmosphere</Key>
+      <Value>Atmosfera</Value>
+    </Record>
+    <Record>
+      <Key>GameSettingsTitle</Key>
+      <Value>Parametri di gioco</Value>
+    </Record>
+    <Record>
+      <Key>WorldCreativeMode</Key>
+      <Value>Modo creativo</Value>
+    </Record>
+    <Record>
+      <Key>WorldTerrain</Key>
+      <Value>Terreno</Value>
+    </Record>
+    <Record>
+      <Key>WorldSeedLabel</Key>
+      <Value>Seed del Mondo</Value>
+    </Record>
+    <Record>
+      <Key>WorldCratersLabel</Key>
+      <Value>Crateri</Value>
+    </Record>
+    <Record>
+      <Key>WorldTerrainPresetLabel</Key>
+      <Value>Terreno</Value>
+    </Record>
+    <Record>
+      <Key>WorldAtmospherePresetLabel</Key>
+      <Value>Atmosfera</Value>
+    </Record>
+    <Record>
+      <Key>WorldSettingsTitle</Key>
+      <Value>Parametri del Monde</Value>
+    </Record>
+    <Record>
+      <Key>WorldResetButton</Key>
+      <Value>Reset</Value>
+    </Record>
+    <Record>
+      <Key>WorldSaveButton</Key>
+      <Value>Salva</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaCustom</Key>
+      <Value>Personalizza</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoonDesc</Key>
+      <Value>Quindi sei bloccato sulla Luna. Vabbè non è così male...
+Quello che è certo è che è freddo, duro e abbastanza monotono, ma almeno il sole splende. Il pannello solare sarà utile, e il controllo alimentazione... e probabilmente anche il forno ad arco.
+C'è un po' di cibo ed ossigeno nelle varie casse, ma non durerà per sempre. E nemmeno le tue batterie...  
+Farai meglio a cominciare a pensare a come sopravvivere. Quanto sarà difficile costruire una camera di decompressione? Un generatore? E fondere qualche minerale e costruirti una base?
+Sembra che starai qui per un po'.</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldSpaceDesc</Key>
+      <Value>Questo è Stationeers in modalità Creativa.
+Puoi spawnare qualsiasi oggetto, provare idee e costruire cose fuori di testa velocemente.
+&lt;color=red&gt;Questa modalità è sperimentale.&lt;/color&gt; Pensala come uno spazio aperto dove cose eccitanti ed inaspettate* possono accadere (e lo faranno), comparato con la più stabile esperienza di quasi-morte della modalità Sopravvivenza.
+Non essere triste quando ti farai saltare in aria in piccoli, piccolissimi pezzi o assaltato da galline o esploderai lentamente mentre finirai da solo alla deriva nel vuoto infinito.
+*bugs</Value>
+    </Record>
+    <Record>
+      <Key>TextboxEnterName</Key>
+      <Value>Inserisci un nome...</Value>
+    </Record>
+    <Record>
+      <Key>TextboxEnterDescription</Key>
+      <Value>Inserisci una descrizione...</Value>
+    </Record>
+    <Record>
+      <Key>TextboxEnterSeed</Key>
+      <Value>Inserisci un Seed...</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDisableParticlesOnMenu</Key>
+      <Value>Disattiva particelle nel menù</Value>
+    </Record>
+	<Record>
+      <Key>SettingsMouseWheelZoom</Key>
+      <Value>Zoom con rotella del Mouse</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuRespawn</Key>
+      <Value>Respawn</Value>
+    </Record>
+    <Record>
+      <Key>MainMenuScenarios</Key>
+      <Value>Scenari</Value>
+    </Record>
+    <Record>
+      <Key>ScenariosStartButton</Key>
+      <Value>Inizia Scenario</Value>
+    </Record>
+    <Record>
+      <Key>SettingsSunOrbitPeriod</Key>
+      <Value>Periodo d'orbita solare</Value>
+    </Record>
+    <Record>
+      <Key>SettingsExtendedTerrain</Key>
+      <Value>Terreno esteso</Value>
+    </Record>
+	<Record>
+      <Key>RenameThing</Key>
+      <Value>Rinomina {0}</Value>
+    </Record>
+    <Record>
+      <Key>SetThingValue</Key>
+      <Value>Setta {0}</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceChamber</Key>
+      <Value>Camera</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceChamberText</Key>
+      <Value>Pressione {0}
+Temperatura {1}</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceSmelting</Key>
+      <Value>Fondendo {0}</Value>
+    </Record>
+    <Record>
+      <Key>LogicState</Key>
+      <Value>Stato {COLORGREEN:#VAR1#}</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoDevice</Key>
+      <Value>Nessun dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoSetting</Key>
+      <Value>Nessun settaggio</Value>
+    </Record>
+    <Record>
+      <Key>RequiresScrewdriver</Key>
+      <Value>Ti serve un {THING:ItemScrewdriver} per regolare i settaggi.</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoReadableDevices</Key>
+      <Value>Nessun dispositivo leggibile sulla rete</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoReadableTypes</Key>
+      <Value>Nessun tipo leggibile sulla rete</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingTo</Key>
+      <Value>Cambia a {0}</Value>
+    </Record>
+    <Record>
+      <Key>HoldForPreviousObject</Key>
+      <Value>Tieni premuto {KEY:QuantityModifier} per l'oggetto precedente</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToFor</Key>
+      <Value>Cambia da &lt;color=yellow&gt;{0}&lt;/color&gt; a {1}</Value>
+    </Record>
+    <Record>
+      <Key>SettingsAtmosphericScattering</Key>
+      <Value>Dispersione atmosferica</Value>
+    </Record>
+    <Record>
+      <Key>ButtonReset</Key>
+      <Value>Reset</Value>
+    </Record>
+    <Record>
+      <Key>ButtonClear</Key>
+      <Value>Clear</Value>
+    </Record>
+    <Record>
+      <Key>StatusWindowThrust</Key>
+      <Value>Thrust</Value>
+    </Record>
+    <Record>
+      <Key>SettingsAmbientOcclusion</Key>
+      <Value>Occlusione Ambientale</Value>
+    </Record>
+    <Record>
+      <Key>SettingsLensFlares</Key>
+      <Value>Lens Flares</Value>
+    </Record>
+    <Record>
+      <Key>SettingsInputSettings</Key>
+      <Value>Settaggi Input</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaEuropa</Key>
+      <Value>Europa</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTitleAudioAlerts</Key>
+      <Value>Notifiche vocali</Value>
+    </Record>
+    <Record>
+      <Key>InventoryCloseAll</Key>
+      <Value>Chiudi tutto</Value>
+    </Record>
+    <Record>
+      <Key>ButtonResetWindows</Key>
+      <Value>Reset Finestra</Value>
+    </Record>
+      <Record>
+      <Key>ConnectionFiltered</Key>
+      <Value>Filtrata</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionUnfiltered</Key>
+      <Value>Non filtrata</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionInput</Key>
+      <Value>Input</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionOutput</Key>
+      <Value>Output</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionWaste</Key>
+      <Value>Rifiuti</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionBreathing</Key>
+      <Value>Respirazione</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionPropellant</Key>
+      <Value>Propellente</Value>
+    </Record>
+    <Record>
+      <Key>SettingsChunkRenderDistance</Key>
+      <Value>Distanza Render Chunk</Value>
+    </Record>
+      <Record>
+      <Key>ScenarioScoreboardBackToMenu</Key>
+      <Value>Torna al Menù</Value>
+    </Record>
+    <Record>
+      <Key>ScenarioScoreboardReturnToGame</Key>
+      <Value>Torna al Gioco</Value>
+    </Record>
+    <Record>
+      <Key>ScenarioScoreboardHeading</Key>
+      <Value>Scenario Completato</Value>
+    </Record>
+  </Interface>
+  <Colors>
+    <Record>
+      <Key>ColorBlue</Key>
+      <Value>Blu</Value>
+    </Record>
+    <Record>
+      <Key>ColorGray</Key>
+      <Value>Grigio</Value>
+    </Record>
+    <Record>
+      <Key>ColorGreen</Key>
+      <Value>Verde</Value>
+    </Record>
+    <Record>
+      <Key>ColorOrange</Key>
+      <Value>Arancione</Value>
+    </Record>
+    <Record>
+      <Key>ColorRed</Key>
+      <Value>Rosso</Value>
+    </Record>
+    <Record>
+      <Key>ColorYellow</Key>
+      <Value>Giallo</Value>
+    </Record>
+    <Record>
+      <Key>ColorWhite</Key>
+      <Value>Bianco</Value>
+    </Record>
+    <Record>
+      <Key>ColorBlack</Key>
+      <Value>Nero</Value>
+    </Record>
+    <Record>
+      <Key>ColorBrown</Key>
+      <Value>Marrone</Value>
+    </Record>
+    <Record>
+      <Key>ColorKhaki</Key>
+      <Value>Kaki</Value>
+    </Record>
+    <Record>
+      <Key>ColorPink</Key>
+      <Value>Rosa</Value>
+    </Record>
+    <Record>
+      <Key>ColorPurple</Key>
+      <Value>Viola</Value>
+    </Record>
+  </Colors>
+  <Keys/>
+  <Mineables>
+    <Record>
+      <Key>Iron</Key>
+      <Value>Ferro</Value>
+    </Record>
+    <Record>
+      <Key>Ice</Key>
+      <Value>Ghiaccio</Value>
+    </Record>
+    <Record>
+      <Key>Oxite</Key>
+      <Value>Oxite</Value>
+    </Record>
+    <Record>
+      <Key>Volatiles</Key>
+      <Value>Gas volatili</Value>
+    </Record>
+    <Record>
+      <Key>Gold</Key>
+      <Value>Oro</Value>
+    </Record>
+    <Record>
+      <Key>Coal</Key>
+      <Value>Carbone</Value>
+    </Record>
+    <Record>
+      <Key>Copper</Key>
+      <Value>Rame</Value>
+    </Record>
+    <Record>
+      <Key>Uranium</Key>
+      <Value>Uranio</Value>
+    </Record>
+    <Record>
+      <Key>Silver</Key>
+      <Value>Argento</Value>
+    </Record>
+    <Record>
+      <Key>Nickel</Key>
+      <Value>Nickel</Value>
+    </Record>
+    <Record>
+      <Key>Lead</Key>
+      <Value>Piombo</Value>
+    </Record>
+    <Record>
+      <Key>Silicon</Key>
+      <Value>Silicio</Value>
+    </Record>
+  </Mineables>			 
+ <GameTip/>
+</Language>
