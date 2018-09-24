@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-<!-- Traduzione italiana v0.1.1630.7644 - 07/09/2018 (DD/MM/YYYY) - by [ExR] Mekko -->
+<!-- Traduzione italiana v0.1.1684.7879 - 25/09/2018 (DD/MM/YYYY) - by [ExR] Mekko -->
   <Name>Italian</Name>
   <Code>IT</Code>
   <Font>font_extended</Font>
@@ -124,9 +124,8 @@
       <RecordReagent>
       <Key>Tomato</Key>
       <Value>Pomodoro</Value>
-      <Unit/>
-  
- </RecordReagent>
+      <Unit /> 
+     </RecordReagent>
      <RecordReagent>
       <Key>Fenoxitone</Key>
       <Value>Fenoxitone</Value>
@@ -192,6 +191,10 @@
     <Record>
       <Key>Water</Key>
       <Value>Acqua</Value>
+    </Record>
+    <Record>
+      <Key>NitrousOxide</Key>
+      <Value>Ossido di diazoto</Value>
     </Record>
   </Gases>
   <Actions>
@@ -2083,7 +2086,7 @@
     </Record>
     <Record>
       <Key>ItemKitEngineSmall</Key>
-      <Value>Kit (Moteur de Fusée Petit)</Value>
+      <Value>Kit (Motore razzo piccolo)</Value>
     </Record>
     <Record>
       <Key>ItemKitEngineMedium</Key>
@@ -2171,7 +2174,7 @@
     </Record>
     <Record>
       <Key>StructureLogicMath</Key>
-      <Value>UUnità Logica: Matematica</Value>
+      <Value>Unità Logica: Matematica</Value>
     </Record>
     <Record>
       <Key>StructureLogicWriter</Key>
@@ -2579,7 +2582,7 @@
     </Record>
     <Record>
       <Key>CompositeWallPanelling11</Key>
-      <Value>Panneaux muraux Composite 11</Value>
+      <Value>Pannello a muro composito 11</Value>
     </Record>
     <Record>
       <Key>CompositeWallPanelling12</Key>
@@ -3190,12 +3193,64 @@
       <Value>Switch scrittore logico</Value>
       </Record>
     <Record>
-      <Key>StructureLogicPGMChip</Key>
-      <Value>Chip logico programmabile</Value>
+      <Key>MotherboardProgrammableChip</Key>
+      <Value>Scheda Madre (IC Editor)</Value>
     </Record>
     <Record>
-      <Key>MotherboardProgrammableChip</Key>
-      <Value>Chip scheda madre programmabile</Value>
+      <Key>ItemKitLogicCircuit</Key>
+      <Value>Kit (IC Housing)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCircuitHousing</Key>
+      <Value>IC Housing</Value>
+    </Record>
+    <Record>
+      <Key>ItemIntegratedCircuit10</Key>
+      <Value>Circuito integrato (IC10)</Value>
+    </Record>
+    <Record>
+      <Key>StructureHydroponicsAutomated</Key>
+      <Value>Idroponica automatizzata</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitHydroponicAutomated</Key>
+      <Value>Kit (Idroponica automatizzata)</Value>
+    </Record>
+    <Record>
+      <Key>ItemBasketBall</Key>
+      <Value>Pallone da Basket </Value>
+    </Record>
+    <Record>
+      <Key>ItemKitBasket</Key>
+      <Value>Kit Basket</Value>
+    </Record>
+    <Record>
+      <Key>StructureBasketHoop</Key>
+      <Value>Struttura Canestro Basket</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxide</Key>
+      <Value>Filtro (Ossido di diazoto)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxideL</Key>
+      <Value>Filtro pesante (Ossido di diazoto)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxideM</Key>
+      <Value>Filtro medio (Ossido di diazoto)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterNitrousOxide</Key>
+      <Value>Bombola (Ossido di diazoto)</Value> <!-- da controllare, soporifero? -->
+    </Record>
+	  <Record>
+      <Key>ItemNVG</Key>
+      <Value>Visore notturno</Value>
+    </Record>
+    <Record>
+      <Key>ItemGlasses</Key>
+      <Value>Occhiali</Value>
     </Record>
  </Things>
   <Slots>
@@ -3238,6 +3293,10 @@
     <Record>
       <Key>Lungs</Key>
       <Value>Polmoni</Value>
+    </Record>
+	  <Record>
+      <Key>Glasses</Key>
+      <Value>Occhiali</Value>
     </Record>
     <Record>
       <Key>Belt</Key>
@@ -3382,6 +3441,10 @@
     <Record>
       <Key>Circuit</Key>
       <Value>Circuito</Value>
+    </Record>
+    <Record>
+      <Key>ProgrammableChip</Key>
+      <Value>Chip Programmabile</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -3662,6 +3725,10 @@
       <Value>Crea Piano</Value>
     </Record>
     <Record>
+      <Key>Search</Key>
+      <Value>Cerca</Value>
+    </Record>
+    <Record>
       <Key>Button4</Key>
       <Value>Bottone4</Value>
     </Record>
@@ -3729,6 +3796,14 @@
       <Key>ThrustDown</Key>
       <Value>Spinta Giu</Value>
       </Record>
+    <Record>
+      <Key>Button5</Key>
+      <Value>Bottone5</Value>
+    </Record>
+    <Record>
+      <Key>Button6</Key>
+      <Value>Bottone6</Value>
+    </Record>
   </Interactables>
   <Interface>
     <Record>
@@ -3870,6 +3945,10 @@
     <Record>
       <Key>InventorySlotBelt</Key>
       <Value>Cintura</Value>
+    </Record>
+	<Record>
+      <Key>InventorySlotGlasses</Key>
+      <Value>Occhiali</Value>
     </Record>
     <Record>
       <Key>InventorySlotUniform</Key>
@@ -4396,6 +4475,18 @@ Per cui esci là fuori, Stationeer !</Value>
     <Record>
       <Key>PromptQuitConfirm</Key>
       <Value>Esci</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeTitle</Key>
+      <Value>Cancella iscrizione</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeBody</Key>
+      <Value>Sei sicuro di voler cancellare l'iscrizione a quest'oggetto del Workshop?</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeConfirm</Key>
+      <Value>Cancella iscrizione</Value>
     </Record>
     <Record>
       <Key>PromptOverwriteTitle</Key>
@@ -4935,6 +5026,58 @@ Temperatura {1}</Value>
     <Record>
       <Key>ScenarioScoreboardHeading</Key>
       <Value>Scenario Completato</Value>
+    </Record>
+    <Record>
+      <Key>ButtonCopy</Key>
+      <Value>Copia</Value>
+    </Record>
+    <Record>
+      <Key>ButtonPaste</Key>
+      <Value>Incolla</Value>
+    </Record>
+    <Record>
+      <Key>ButtonHelp</Key>
+      <Value>Aiuto</Value>
+    </Record>
+    <Record>
+      <Key>ButtonVariables</Key>
+      <Value>x</Value>
+    </Record>
+    <Record>
+      <Key>ButtonSlotVar</Key>
+      <Value>s(x)</Value>
+    </Record>
+    <Record>
+      <Key>HeadingHelp</Key>
+      <Value>Aiuto</Value>
+    </Record>
+    <Record>
+      <Key>ButtonLoad</Key>
+      <Value>Carica</Value>
+    </Record>
+    <Record>
+      <Key>HeadingEdit</Key>
+      <Value>Modifica</Value>
+    </Record>
+    <Record>
+      <Key>ButtonFunctions</Key>
+      <Value>f</Value>
+    </Record>
+    <Record>
+      <Key>ButtonLibrary</Key>
+      <Value>Libreria</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuAdvanced</Key>
+      <Value>Avanzate</Value>
+    </Record>
+    <Record>
+      <Key>SettingsLegacyInventory</Key>
+      <Value>Inventario Legacy</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDisableWaterVisualizer</Key>
+      <Value>Disabilita Visualizzazione Acqua</Value>
     </Record>
   </Interface>
   <Colors>

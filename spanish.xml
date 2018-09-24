@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-<!-- Versión: v.0.1.1633.7652  Fecha = 11/09/2018 -->
+<!-- Versión: v0.1.1683.7877  Fecha = 25/09/2018 -->
   <Name>Spanish</Name>
   <Code>ES</Code>
   <Font>font_extended</Font>
@@ -190,6 +190,10 @@
     <Record>
       <Key>Water</Key>
       <Value>Agua</Value>
+    </Record>
+    <Record>
+      <Key>NitrousOxide</Key>
+      <Value>Óxido Nitroso</Value>
     </Record>
   </Gases>
   <Actions>
@@ -3181,32 +3185,71 @@
     </Record>
     <Record>
       <Key>CartridgeOreScannerColor</Key>
-      <Value>Cartucho (Escáner de Mineral Color)</Value>
+      <Value>Cartucho (Escáner Minerales de Color)</Value>
     </Record>
-
     <Record>
       <Key>StructureLogicWriterSwitch</Key>
-      <Value>Interruptor de escritura lógica</Value>
-    </Record>
-    <Record>
-      <Key>StructureLogicPGMChip</Key>
-      <Value>Chip lógico programable</Value>
+      <Value>Interruptor de escritura de lógica</Value>
     </Record>
     <Record>
       <Key>MotherboardProgrammableChip</Key>
-      <Value>Placa base con chip programable</Value>
+      <Value>Placa de base (IC Editor)</Value>
     </Record>
     <Record>
       <Key>ItemKitLogicCircuit</Key>
-      <Value>Kit (Base del Circuito Programable)</Value>
+      <Value>Kit (IC Housing)</Value>
     </Record>
     <Record>
       <Key>StructureCircuitHousing</Key>
-      <Value>Circuito Programable</Value>
+      <Value>IC Housing</Value>
     </Record>
     <Record>
       <Key>ItemIntegratedCircuit10</Key>
-      <Value>Circuito Programable</Value>
+      <Value>Circuito integrado (IC10)</Value>
+    </Record>
+    <Record>
+      <Key>StructureHydroponicsAutomated</Key>
+      <Value>Hidroponía Automatizada</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitHydroponicAutomated</Key>
+      <Value>Kit (Hidroponía Automatizada)</Value>
+    </Record>
+    <Record>
+      <Key>ItemBasketBall</Key>
+      <Value>Pelota</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitBasket</Key>
+      <Value>Kit Canasta</Value>
+    </Record>
+    <Record>
+      <Key>StructureBasketHoop</Key>
+      <Value>Aro de la canasta</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxide</Key>
+      <Value>Filtro (Óxido de nitrógeno)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxideL</Key>
+      <Value>Filtro Pesado (Óxido de nitrógeno)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxideM</Key>
+      <Value>Filtro Mediano (Óxido de nitrógeno)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterNitrousOxide</Key>
+      <Value>Bombona de Gas (Óxido de nitrógeno)</Value>
+    </Record>
+    <Record>
+      <Key>ItemNVG</Key>
+      <Value>Gafas de visión nocturna</Value>
+    </Record>
+    <Record>
+      <Key>ItemGlasses</Key>
+      <Value>Gafas</Value>
     </Record>
   </Things>
   <Slots>
@@ -3249,6 +3292,10 @@
     <Record>
       <Key>Lungs</Key>
       <Value>Pulmones</Value>
+    </Record>
+    <Record>
+      <Key>Glasses</Key>
+      <Value>Gafas</Value>
     </Record>
     <Record>
       <Key>Belt</Key>
@@ -3393,6 +3440,10 @@
     <Record>
       <Key>Circuit</Key>
       <Value>Circuito</Value>
+    </Record>
+    <Record>
+      <Key>ProgrammableChip</Key>
+      <Value>Chip programable</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -3673,6 +3724,10 @@
       <Value>Crear Plan</Value>
     </Record>
     <Record>
+      <Key>Search</Key>
+      <Value>Buscar</Value>
+    </Record>
+    <Record>
       <Key>Button4</Key>
       <Value>Botón4</Value>
     </Record>
@@ -3889,6 +3944,10 @@
     <Record>
       <Key>InventorySlotBelt</Key>
       <Value>Cinturón</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotGlasses</Key>
+      <Value>Gafas</Value>
     </Record>
     <Record>
       <Key>InventorySlotUniform</Key>
@@ -4415,6 +4474,18 @@ Scroll &lt;color=red&gt;Rueda de ratón&lt;/color&gt; para más opciones.</Value
     <Record>
       <Key>PromptQuitConfirm</Key>
       <Value>Salir</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeTitle</Key>
+      <Value>Anular la suscripción</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeBody</Key>
+      <Value>¿Estás seguro de que quieres darte de baja de este artículo del Workshop?</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeConfirm</Key>
+      <Value>Anular la suscripción</Value>
     </Record>
     <Record>
       <Key>PromptOverwriteTitle</Key>
@@ -4952,7 +5023,59 @@ Temperatura {1}</Value>
     </Record>
     <Record>
       <Key>ScenarioScoreboardHeading</Key>
-      <Value>Escenario Terminado</Value>
+      <Value>Escenario Completado</Value>
+    </Record>
+    <Record>
+      <Key>ButtonCopy</Key>
+      <Value>Copiar</Value>
+    </Record>
+    <Record>
+      <Key>ButtonPaste</Key>
+      <Value>Pegar</Value>
+    </Record>
+    <Record>
+      <Key>ButtonHelp</Key>
+      <Value>Ayuda</Value>
+    </Record>
+    <Record>
+      <Key>ButtonVariables</Key>
+      <Value>x</Value>
+    </Record>
+    <Record>
+      <Key>ButtonSlotVar</Key>
+      <Value>s(x)</Value>
+    </Record>
+    <Record>
+      <Key>HeadingHelp</Key>
+      <Value>ayuda</Value>
+    </Record>
+    <Record>
+      <Key>ButtonLoad</Key>
+      <Value>Cargar</Value>
+    </Record>
+    <Record>
+      <Key>HeadingEdit</Key>
+      <Value>Editar</Value>
+    </Record>
+    <Record>
+      <Key>ButtonFunctions</Key>
+      <Value>f</Value>
+    </Record>
+    <Record>
+      <Key>ButtonLibrary</Key>
+      <Value>Librería</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMenuAdvanced</Key>
+      <Value>Avanzado</Value>
+    </Record>
+    <Record>
+      <Key>SettingsLegacyInventory</Key>
+      <Value>Legacy Inventory</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDisableWaterVisualizer</Key>
+      <Value>Desactivar el visualizador de agua</Value>
     </Record>
   </Interface>
   <Colors>
