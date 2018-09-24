@@ -14,4 +14,6 @@ RUN mkdir -p "$STEAMCMD_PATH" && \
     tar xz -C "$STEAMCMD_PATH" && \
     "$STEAMCMD_PATH/steamcmd.sh" +login anonymous +quit
 
-ENTRYPOINT ["$STEAMCMD"]
+ADD update.sh /steamcmd/update.sh
+
+CMD [ "/steamcmd/update.sh" ]
