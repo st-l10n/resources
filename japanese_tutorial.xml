@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Japanese</Name>
+  <Code>KN</Code>
+  <Font>font_cjk</Font>
+  <Interface>
+    <Record>
+      <Key>TutorialTitleWearSpacesuit</Key>
+      <Value>宇宙服を着る</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskWearHelmet</Key>
+      <Value>{THING:ItemSpaceHelmet}を着る</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskWearSuit</Key>
+      <Value>{THING:ItemEvaSuit}を着る</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskWearJetpack</Key>
+      <Value>{THING:ItemSpacepack}を着る</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescPickupHelmet</Key>
+      <Value>{THING:ItemSpaceHelmet}を見つけて、視線を向けたとき緑になっていればインタラクト可能なので、{COLORRED:左マウスボタン}を押して{SLOT:LeftHand}スロットか{SLOT:RightHand}スロットに入れましょう。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescWearHelmet</Key>
+      <Value>{THING:ItemSpaceHelmet}が{SLOT:Helmet}スロットに移動するまで{KEY:HelmetSlot}を押し続けてください。
+
+{KEY:MouseControl}を押したままにしてマウスカーソルを動かし、{THING:ItemSpaceHelmet}を{SLOT:Helmet}スロットにドラッグアンドドロップしましょう。 あるいは、{THING:ItemSpaceHelmet}が{SLOT:Helmet}スロットに移動するまで{KEY:HelmetSlot}を押し続けてください。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescPickupSuit</Key>
+      <Value>{THING:ItemEvaSuit}を見つけて、視線を向けたとき緑になっていればインタラクト可能なので、{COLORRED:左マウスボタン}を押して{SLOT:LeftHand}スロットか{SLOT:RightHand}スロットに入れましょう。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescWearSuit</Key>
+      <Value>{KEY:SuitSlot}を押し続けるか、{KEY:MouseControl}を押し続けたままマウスを操作し、{THING:ItemEvaSuit}を{SLOT:Suit}スロットに移動させましょう。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescPickupJetpack</Key>
+      <Value>{THING:ItemSpacepack}を見つけて、視線を向けたとき緑になっていればインタラクト可能なので、{COLORRED:左マウスボタン}を押して{SLOT:LeftHand}スロットか{SLOT:RightHand}スロットに入れましょう。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescWearJetpack</Key>
+      <Value>{KEY:BackSlot}を押し続けるか、{KEY:MouseControl}を押し続けたままマウスを操作し、{THING:ItemSpacepack}を{SLOT:Back}スロットに移動させましょう。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTitlePowerSuit</Key>
+      <Value>宇宙服の電源を入れる</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescPowerSuit</Key>
+      <Value>{THING:ItemBatteryCellLarge}を見つけて、視線を向けたとき緑になっていればインタラクト可能なので、{COLORRED:左マウスボタン}を押して{SLOT:LeftHand}スロットか{SLOT:RightHand}スロットに入れましょう。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskLifesupportSuit1</Key>
+      <Value>{THING:ItemBatteryCellLarge}を拾う</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskLifesupportSuit2</Key>
+      <Value>{THING:ItemEvaSuit}スロットウィンドウを開く</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskLifesupportSuit4</Key>
+      <Value>{THING:ItemEvaSuit}に{THING:ItemBatteryCellLarge}をつける</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescLifesupport1</Key>
+      <Value>{SLOT:Suit}を操作するには、{KEY:SuitSlot}キーを押して離すか、{KEY:MouseControl}を押したまま{SLOT:Suit}をクリックします。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescLifesupport2</Key>
+      <Value>{COLORRED:続けるには{THING:ItemEvaSuit}を着る必要があります。装備してください。}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescLifesupport4</Key>
+      <Value>{KEY:MouseControl}を押したまま{THING:ItemBatteryCellLarge}を{THING:ItemEvaSuit}の{SLOT:LifeSupport}スロットに入れてください。あるいは、{COLORRED:マウスホイール}でスクロールして{KEY:InventorySelect}を押すことで{THING:ItemBatteryCellLarge}を入れ替えられます。{KEY:SwapHands}キーを押すことで、アクティブな手を変えられることを忘れないでください。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTitleSuitFilter</Key>
+      <Value>フィルターを装備する</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescFilter1</Key>
+      <Value>{THING:ItemGasFilterCarbonDioxide}を探して、視点を向けた状態で{COLORRED:左マウスボタン}を押して{SLOT:LeftHand}スロットか{SLOT:RightHand}スロットに拾いましょう。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskFilter1</Key>
+      <Value>{THING:ItemGasFilterCarbonDioxide}を拾う</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskFilter2</Key>
+      <Value>{THING:ItemEvaSuit}スロットウィンドウを開く</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskFilter4</Key>
+      <Value>{THING:ItemEvaSuit}に{THING:ItemGasFilterCarbonDioxide}をつける</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescFilter2</Key>
+      <Value>{SLOT:Suit}を操作するには、{KEY:SuitSlot}キーを押して離すか、{KEY:MouseControl}を押したまま{SLOT:Suit}をクリックします。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescFilter3</Key>
+      <Value>{COLORRED:Mouse Wheel}を使うことで{THING:ItemEvaSuit}のスロットを選択できます。その中の{SLOT:Filter}を選択して続けましょう。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescFilter4</Key>
+      <Value>{KEY:MouseControl}を押したまま{THING:ItemGasFilterCarbonDioxide}を{THING:ItemEvaSuit}の{SLOT:Filter}スロットに入れてください。あるいは、{COLORRED:Mouse Wheel}でスクロールして{KEY:InventorySelect}を押すことで{THING:ItemGasFilterCarbonDioxide}を入れ替えられます。{KEY:SwapHands}キーを押すことで、アクティブな手を変えられることを忘れないでください。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTitleGetTools</Key>
+      <Value>建築用装備を入手する</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescGetTools1</Key>
+      <Value>今から基地の外にでていくつか修理を行います。{KEY:Drop}キーを押して{THING:ItemTablet}を捨て、他のものを拾えるようにしましょう。{KEY:MouseControl}を押すことでインベントリを操作出来ることを思い出してください、{KEYS:SwapHands}キーで{COLORYELLOW:アクティブな手}を入れ替えられることも。
+
+インベントリを操作するのには、技術と練習が必要です。何を持っているか、何をしようとしているかを慎重に考えましょう。{THING:ItemGasCanisterOxygen}や{THING:ItemBatteryCellLarge}を入れておくことを忘れると悲惨なことになります。紛失するのは簡単です。注意しましょう！
+      </Value>
+    </Record>
+	<Record>
+      <Key>TutorialDescGetTools2</Key>
+      <Value>{THING:ItemToolBelt}を拾って、{KEY:ToolBeltSlot}キーを長押しするか{KEY:MouseControl}を押したままスロットにドラッグして{SLOT:Belt}スロットに入れましょう。{SLOT:Belt}スロットは、採掘用などのツールを入れておけるベルト用のスロットです。
+      
+{THING:ItemMiningBelt}には特殊な{SLOT:Ore}スロットがあり、{THING:ItemMiningDrill}で採掘した鉱石が自動で入ります。</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskGetTools1</Key>
+      <Value>{THING:ItemTablet}を捨てる</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskGetTools2</Key>
+      <Value>{THING:ItemToolBelt}を{SLOT:Belt}スロットに装備する</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskGetTools3</Key>
+      <Value>{THING:ItemSteelSheets}を{SLOT:LeftHand}スロットか{SLOT:RightHand}スロットに拾う</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTitleGoInAirlock</Key>
+      <Value>宇宙空間に行く</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescGoInAirlock1</Key>
+      <Value>{THING:StructureAirlock}ドアを通り抜け、{THING:ItemEvaSuit}と{THING:ItemSpaceHelmet}の準備をしましょう。インタラクトメニューが出るまで{KEY:HelmetSlot}キーを押して、クローズオプションまでスクロールし、{KEY:InventorySelect}を押して状態を切り替えましょう。あるいは{KEY:Internals}を押すことで、素早く{COLORYELLOW:内部}のオンオフができます。
+      
+画面の右側に、状態を示すアイコンと素早く切り替えるためのキーが表示されています。これらの状態と警告に注意して、あなたの命を守りましょう！</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskGoInAirlock1</Key>
+      <Value>{THING:ItemSpaceHelmet}のバイザーを閉める</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskGoInAirlock2</Key>
+      <Value>{THING:StructureAirlock}ドアを通り抜けて黄色い部屋に入りましょう。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTitleCycleAirlock</Key>
+      <Value>エアロックを循環させる</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescCycleAirlock1</Key>
+      <Value>エアロックは{THING:StructureConsole}または{THING:StructureAirlock}のいずれかの操作可能なキーパットで循環させることが出来ます。これによりエアロックを減圧させて宇宙に行けるようになります。
+
+{THING:StructureConsole}の{THING:CircuitboardAirlockControl}は、{THING:StructureActiveVent}や他の装置を動作させ、エアロックを循環させます。画面の右上の{COLORYELLOW:内部}と{COLORYELLOW:外部}の情報に注意しましょう。
+
+スーツを着ているとき、内側と外側、両方の空気があります。このゲームでは複合的な大気モデルを扱います。空気の情報には十分に注意を払って安全を保ちましょう。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskCycleAirlock1</Key>
+      <Value>エアロックを循環させる</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTitleRepairCable</Key>
+      <Value>破損したケーブルを修理する</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescRepairCable1</Key>
+      <Value>{THING:StructureCableStraight}はデータと電力の両方を送ることができます。しかし、上限を超えた電力を壊すと壊れてしまいます。あなたが出てきた{THING:StructureAirlock}の下のどこかに、壊れた{THING:StructureCableJunction}があるので見つけて、{THING:ItemToolBelt}の中にある{THING:ItemWireCutters}で撤去しましょう。
+
+インベントリを操作する方法は2つあることを忘れないでください。{KEY:MouseControl}を押したままにすることでマウスカーソルを有効にして、マウスでインベントリを開いたりドラッグアンドドロップをすることが出来ます。素早く操作するには、{KEY:ToolBeltSlot}を押して{SLOT:Belt}を開きます。{KEY:InventorySelect}を押すことで選択されたスロットのアイテムと、手に持っているアイテムを入れ替えます。
+
+大量のインベントリを開いてしまっているときに{KEY:HideAllWindows}でまとめて閉じることが出来ます。それぞれのインベントリ画面のホットキーや、{KEY:MouseControl}を押しながらのマウス操作で1つづつ消すことも出来ます。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskRepairCable1</Key>
+      <Value>{THING:ItemWireCutters}を装備する</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskRepairCable2</Key>
+      <Value>{THING:StructureCableJunctionBurnt}を除去する</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskRepairCable3</Key>
+      <Value>{THING:ItemCableCoil}を装備する</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskRepairCable4</Key>
+      <Value>{THING:ItemCableCoil}から{THING:StructureCableJunction}に取り替える</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescRepairCable2</Key>
+      <Value>{THING:ItemWireCutters}を手に持って{THING:StructureCableJunctionBurnt}を見ましょう。{COLORYELLOW:yellow}の箱がその辺に見えるはずです。{COLORRED:左マウスボタン}を押し続けて{THING:StructureCableJunctionBurnt}を除去しましょう。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescRepairCable3</Key>
+      <Value>{THING:StructureCableJunction}を設置する必要があります。{THING:ItemCableCoil}を{THING:ItemToolBelt}から{SLOT:LeftHand}スロットか{SLOT:RightHand}スロットに移す必要があります。
+
+{THING:ItemSteelSheets}をバックパックに入れて両手を空ける必要があります。投げ捨てることも出来ますが、後で必要になります！
+
+{KEY:InventorySelect}を内部スロットで操作することを思い出して下さい。{KEY:ToolBeltSlot}は{SLOT:Belt}スロットを開いたり閉じたりできます。あるいは、{KEY:MouseControl}でマウス操作してもよいでしょう。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescRepairCable4</Key>
+      <Value>{COLORYELLOW:アクティブな手}に{THING:ItemCableCoil}を持ち、{COLORRED:Right Mouse Button}を押すことで設置カーソルが表示されます。
+
+{COLORRED:Mouse Wheel}によって設置するタイプを変えられるので、{THING:StructureCableJunction}を選択して下さい。
+
+設置予想図は接続に関する重要な情報を持っています。小さなプラスのマークはケーブルのネットワークに接続する場所を示しています。目的の場所に接続出来るようにしましょう。
+
+{KEY:RotateLeft}を押すことで左回転、{KEY:RotateRight}で右回転、{KEY:RotateUp}で上回転、{KEY:RotateDown}で下回転、{KEY:RotateRollLeft}で左転回、{KEY:RotateRollRight}で右転回が出来ます。</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTitleFinishFrame</Key>
+      <Value>フレームの溶接を完了させる</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescFinishFrame</Key>
+      <Value>いくつかのツールは動作に2つのものが必要になります。{THING:StructureFrame}を溶接するには{THING:ItemWeldingTorch}をアクティブな手に、{THING:ItemSteelSheets}をもう一方の手に持つ必要があります。{KEY:ToggleHandPower}キーによってアクティブな手にあるアイテムの動力のオンオフを自動で切り替えられます。あるいは、インタラクトメニューからも同じことが出来ます。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskFinishFrame1</Key>
+      <Value>{THING:StructureFrame}を溶接する</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTitleTablet</Key>
+      <Value>手に持ったアイテムをインタラクトする</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescTablet1</Key>
+      <Value>{THING:ItemTablet}と{THING:ItemBatteryCellLarge}を見ている状態で{COLORRED:左マウスボタン}を押し、{SLOT:LeftHand}スロットか{SLOT:RightHand}スロットにそれらを入れましょう。{KEY:SwapHands}を押すことでアクティブな手を変えられます。これにより両手にアイテムを持てるようになります。出来たら次に進みます。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescTablet2</Key>
+      <Value>{KEY:ActiveHandSlot}キーを押して離すかクリックすることでアクティブな手にあるアイテムを操作できます。アクティブな手に持っているアイテムのインベントリ画面が開かれます。アクティブな手は{KEY:SwapHands}によって切り替えられます。{THING:ItemTablet}をアクティブな手にし、そのスロットを開くことで次に進みます。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescTablet4</Key>
+      <Value>{THING:ItemBatteryCellLarge}を{THING:ItemTablet}の{Slot:Battery}に入れましょう。{KEY:MouseControl}を押しながらマウスでドラッグアンドドロップするか、{KEY:InventorySelect}キーを押すことで選択された{SLOT:Battery}スロットに装着できます。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskTablet1</Key>
+      <Value>{THING:ItemTablet}を拾う</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskTablet2</Key>
+      <Value>{THING:ItemBatteryCellLarge}を拾う</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskTablet3</Key>
+      <Value>手に持った{THING:ItemTablet}のスロットウィンドウを開く</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskTablet5</Key>
+      <Value>{THING:ItemBatteryCellLarge}の{SLOT:Battery}に{THING:ItemBatteryCellLarge}を装着する</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTitleUseReader</Key>
+      <Value>{THING:CartridgeElectronicReader}を使う</Value>
+    </Record>
+	<Record>
+      <Key>TutorialDescUseReader1</Key>
+      <Value>{THING:ItemTablet}は異なるカードリッジにより異なる機能を持つことが出来ます。{THING:CartridgeAtmosAnalyser}で大気の状態を確認したり、{THING:CartridgeNetworkAnalyser}で電力や論理ネットワークを監視したり、他にも色々なことが出来ます。
+
+{KEY:ToggleHandPower}キーを押す、{KEY:MouseControl}を押しながらマウスでクリックする、または{KEY:ActiveHandSlot}キーによる操作で{THING:ItemTablet}の電源を入れて下さい。</Value>
+    </Record>
+	<Record>
+      <Key>TutorialDescUseReader2</Key>
+      <Value>{THING:ItemTablet}は{THING:CartridgeElectronicReader}が入っています。これはゲーム内の全ての制作可能なレシピとそれが何によって作られるかを教えてくれます。{COLORRED:Mouse Wheel}でスクロールして、{THING:ItemMuffin}を作るための{COLORYELLOW:Recipe #VAR1#}を探しましょう。
+
+異なるカードリッジを使うことで様々な異なる機能を使えます。例えば、{THING:CartridgeNetworkAnalyser}はケーブルネットワークのデバッグ出来ますし、{THING:CartridgeAtmosAnalyser}は大気の情報を確認できます。</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskUseReader1</Key>
+      <Value>{THING:ItemTablet}の電源を入れる</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskUseReader2</Key>
+      <Value>{THING:ItemMuffin}を作るための{COLORYELLOW:Recipe #VAR1#}を見つける</Value>
+    </Record>
+	
+	<Record>
+      <Key>TutorialTitleBakeMuffin</Key>
+      <Value>{THING:ItemMuffin}を焼く</Value>
+    </Record>
+	<Record>
+      <Key>TutorialDescBakeMuffin1</Key>
+      <Value>このゲームのいくつかの装置は{THING:StructureBench}に取り付けられ、取付装置と呼びます。{THING:ApplianceMicrowave}を持って、{THING:StructureBench}の前まで行きましょう。</Value>
+    </Record>
+	<Record>
+      <Key>TutorialDescBakeMuffin2</Key>
+      <Value>{KEY:Drop}キーを押して{THING:ApplianceMicrowave}を{THING:StructureBench}の上に置きます。{THING:StructureBench}の上に{THING:ApplianceMicrowave}が設置されるまでこれを行って下さい。</Value>
+    </Record>
+	<Record>
+      <Key>TutorialDescBakeMuffin3</Key>
+      <Value>{THING:ApplianceMicrowave}に注目して下さい。扉ではない方の側面を見ると、アイテムを直接ターゲットし、開くことは出来ません。{COLORYELLOW:yellow box}が見えている状態で{COLORRED:左マウスボタン}を押すことで{THING:StructureBench}に固定出来ます。</Value>
+    </Record>
+	<Record>
+      <Key>TutorialDescBakeMuffin4</Key>
+      <Value>{THING:ApplianceMicrowave}の扉を見て下さい。{COLORRED:左マウスボタン}を押すことで扉を開けることができ、中に素材を入れられるようになります。</Value>
+    </Record>
+	<Record>
+      <Key>TutorialDescBakeMuffin5</Key>
+      <Value>タスクリストにある素材をアクティブな手で拾い、{THING:ApplianceMicrowave}の中に視点を合わせ手下さい。{COLORRED:左マウスボタン}を押して足りるまで素材を入れて下さい。レシピの要求より多く素材を足さないで下さい。これをレシピに従いあと2回行いましょう。
+
+もし入れすぎてしまったら、持っているものを{KEY:Drop}で手放し、{THING:ApplianceMicrowave}に視線を合わせて{COLORYELLOW:Clear}をして、やり直します。</Value>
+    </Record>
+	<Record>
+      <Key>TutorialDescBakeMuffin6</Key>
+      <Value>{THING:ApplianceMicrowave}の右側のボタンを押して装置の電源を入れます。装置はレシピ通り焼きます。レシピが正しければ、{THING:ItemMuffin}を作ります。間違っていれば何も出来ません。</Value>
+    </Record>
+	<Record>
+      <Key>TutorialDescBakeMuffin7</Key>
+      <Value>{KEY:BackSlot}キーを押して{THING:ItemSpacepack}を開きます。{COLORRED:Mouse Wheel}によって{THING:ItemWrench}まで動かし、{KEY:InventorySelect}キーを押して手に持ちましょう。</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskBakeMuffin1</Key>
+      <Value>{THING:ApplianceMicrowave}を拾う</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskBakeMuffin2</Key>
+      <Value>{THING:StructureBench}に置く</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskBakeMuffin3</Key>
+      <Value>{THING:ApplianceMicrowave}を固定する</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskBakeMuffin11</Key>
+      <Value>{THING:ItemSpacepack}から{THING:ItemWrench}を取り出す</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskBakeMuffin4</Key>
+      <Value>{COLORYELLOW:50g}の{THING:ItemFlour}を{THING:ApplianceMicrowave}に入れる</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskBakeMuffin5</Key>
+      <Value>{COLORYELLOW:one} {THING:ItemEgg}を{THING:ApplianceMicrowave}に入れる</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskBakeMuffin6</Key>
+      <Value>{COLORYELLOW:10ml}の{THING:ItemMilk}を{THING:ApplianceMicrowave}に入れる</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskBakeMuffin7</Key>
+      <Value>{THING:ApplianceMicrowave}を開く</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskBakeMuffin8</Key>
+      <Value>{THING:ItemMuffin}を作る</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskBakeMuffin9</Key>
+      <Value>{THING:ApplianceMicrowave}の扉を閉じる</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskBakeMuffin10</Key>
+      <Value>{THING:ApplianceMicrowave}の電源を入れる</Value>
+    </Record>
+  </Interface>
+</Language>

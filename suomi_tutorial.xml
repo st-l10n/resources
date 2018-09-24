@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Suomi</Name>
+  <Code>FI</Code>
+  
+  <Interface>
+    <Record>
+      <Key>TutorialTitleWearSpacesuit</Key>
+      <Value>Avaruuspuvun Pukeminen</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskWearHelmet</Key>
+      <Value>Laita {THING:ItemSpaceHelmet} päähän</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskWearSuit</Key>
+      <Value>Pue {THING:ItemEvaSuit} ylle</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskWearJetpack</Key>
+      <Value>Laita {THING:ItemSpacepack} selkään</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescPickupHelmet</Key>
+      <Value>Etsi {THING:ItemSpaceHelmet} ja poimi se &lt;color=orange&gt;Vasempaan Käteen&lt;/color&gt; tai &lt;color=orange&gt;Oikeaan Käteen&lt;/color&gt; klikkaamalla {COLORRED:Vasemmalla Hiiripainikkeella} vihreää aluetta kun katsot kypärää.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescWearHelmet</Key>
+      <Value>Sinulla on kaksi tapaa hallita tavaraluetteloasi: pikanäppäimet ja hiiri. Molemmilla on hyvät ja huonot puolensa.
+      
+Paina ja pidä pohjassa {KEY:MouseControl} näppäintä tuodaksesi hiirikursorin esiin. Vedä ja pudota {THING:ItemSpaceHelmet} {SLOT:Helmet} lokeroon. Tai paina ja pidä pohjassa {KEY:HelmetSlot} näppäintä kunnes {THING:ItemSpaceHelmet} siirtyy {SLOT:Helmet} lokeroon.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescPickupSuit</Key>
+      <Value>Etsi {THING:ItemEvaSuit} ja poimi se &lt;color=orange&gt;Vasempaan Käteen&lt;/color&gt; tai &lt;color=orange&gt;Oikeaan Käteen&lt;/color&gt; klikkaamalla {COLORRED:Vasemmalla Hiiripainikkeella} vihreää aluetta kun katsot pukua.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescWearSuit</Key>
+      <Value>Paina ja pidä pohjassa {KEY:SuitSlot} näppäintä, tai {KEY:MouseControl} näppäintä tuodaksesi hiirikursorin esiin, siirtääksesi {COLORGREEN:Avaruuspuvun} {SLOT:Suit} lokeroon.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescPickupJetpack</Key>
+      <Value>Etsi {THING:ItemSpacepack} ja poimi se &lt;color=orange&gt;Vasempaan Käteen&lt;/color&gt; tai &lt;color=orange&gt;Oikeaan Käteen&lt;/color&gt; klikkaamalla {COLORRED:Vasemmalla Hiiripainikkeella} vihreää aluetta kun katsot reppua.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescWearJetpack</Key>
+      <Value>Paina ja pidä pohjassa {KEY:BackSlot} näppäintä, tai {KEY:MouseControl} näppäintä tuodaksesi esiin hiirikursorin, siirtääksesi {COLORGREEN:Avaruusrepun} {SLOT:Back} lokeroon.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTitlePowerSuit</Key>
+      <Value>Avaruuspuvun Käyttöönotto</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescPowerSuit</Key>
+      <Value>Etsi {THING:ItemBatteryCellLarge} ja poimi se &lt;color=orange&gt;Vasempaan Käteen&lt;/color&gt; tai &lt;color=orange&gt;Oikeaan Käteen&lt;/color&gt; katsomalla sitä ja klikkaamalla {COLORRED:Vasemmalla Hiiripainikkeella}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskLifesupportSuit1</Key>
+      <Value>Poimi {THING:ItemBatteryCellLarge}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskLifesupportSuit2</Key>
+      <Value>Avaa {COLORGREEN:Avaruuspuvun} lokerot</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskLifesupportSuit4</Key>
+      <Value>Varusta {THING:ItemEvaSuit} {COLORGREEN:Isolla Paristolla}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescLifesupport1</Key>
+      <Value>Voit hallita {SLOT:Suit} lokeroita painamalla {KEY:SuitSlot} näppäintä tai pitämällä {KEY:MouseControl} näppäintä pohjassa ja klikkaamalla {SLOT:Suit} lokeroa.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescLifesupport2</Key>
+      <Value>&lt;color=red&gt;Sinulla pitää olla {THING:ItemEvaSuit} puettuna jatkaaksesi. Ole hyvä ja laita se päällesi.&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescLifesupport4</Key>
+      <Value>Pidä {KEY:MouseControl} pohjassa ja vedä {THING:ItemBatteryCellLarge} {COLORGREEN:Avaruuspuvun} {SLOT:LifeSupport} lokeroon. Voit myös vierittää &lt;color=red&gt;Hiiren Valintapyörää&lt;/color&gt; ja käyttää {KEY:InventorySelect} näppäintä siirtääksesi {COLORGREEN:Ison Pariston}. Muista että voit painaa {KEY:SwapHands} näppäintä vaihtaaksesi aktiivista kättä.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTitleSuitFilter</Key>
+      <Value>Suodattimen Käyttöönotto</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescFilter1</Key>
+      <Value>Etsi {THING:ItemGasFilterCarbonDioxide} ja poimi se &lt;color=orange&gt;Vasempaan Käteen&lt;/color&gt; tai &lt;color=orange&gt;Oikeaan Käteen&lt;/color&gt; katsomalla sitä ja klikkaamalla {COLORRED:Vasemmalla Hiiripainikkeella}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskFilter1</Key>
+      <Value>Poimi {THING:ItemGasFilterCarbonDioxide}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskFilter2</Key>
+      <Value>Avaa {COLORGREEN:Avaruuspuvun} lokerot</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskFilter4</Key>
+      <Value>Varusta {THING:ItemEvaSuit} {COLORGREEN:Hiilidioksidisuodattimella}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescFilter2</Key>
+      <Value>Voit hallita {SLOT:Suit} lokeroita painamalla {KEY:SuitSlot} näppäintä tai pitämällä {KEY:MouseControl} näppäintä pohjassa ja klikkaamalla {SLOT:Suit} lokeroa.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescFilter3</Key>
+      <Value>Voit valita {COLORGREEN:Avaruuspuvun} lokeroita vierittämällä &lt;color=red&gt;Hiiren Valintapyörää&lt;/color&gt;. Valitse mikä tahansa {SLOT:Filter} lokero jatkaaksesi.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescFilter4</Key>
+      <Value>Paina {KEY:MouseControl} pohjaan ja vedä {THING:ItemGasFilterCarbonDioxide} mihin tahansa {SLOT:Filter} lokeroon {COLORGREEN:Avaruuspuvussa}. Voit vierittää &lt;color=red&gt;Hiiren Valintapyörää&lt;/color&gt; ja käyttää {KEY:InventorySelect} näppäintä vaihtaaksesi {COLORGREEN:Hiilidioksidisuodattimen}. Muista että voit painaa {KEY:SwapHands} näppäintä vaihtaaksesi aktiivista kättä.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTitleGetTools</Key>
+      <Value>Rakennustarvikkeiden Hankkiminen</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescGetTools1</Key>
+      <Value>Nyt meidän pitää mennä ulos tekemään korjauksia. Pudota {THING:ItemTablet} käyttämällä {KEY:Drop} näppäintä jotta voit poimia muita tavaroita käteen. Muista että voit käyttää {KEY:MouseControl} näppäintä käyttääksesi hiirtä tavaraluettelon hallintaan, ja että voit vaihtaa &lt;color=yellow&gt;Aktiivista Kättä&lt;/color&gt; painamalla {KEY:SwapHands} näppäintä.
+
+Hyvä tavaraluettelon hallinta vaatii taitoa ja harjoitusta; ajattele tarkoin mitä tarvitset mukaasi ja suunittele etukäteen. Jos unohdat tuoda täyden &lt;color=green&gt;Happisäiliön&lt;/color&gt; tai {COLORGREEN:Ison Pariston}, se voi olla kohtalokasta. On myös helppo eksyä. Ole varovainen!
+      </Value>
+    </Record>
+	<Record>
+      <Key>TutorialDescGetTools2</Key>
+      <Value>Ota {THING:ItemToolBelt} ja laita se {SLOT:Belt} lokeroon pitämällä {KEY:ToolBeltSlot} näppäintä pohjassa, tai vetämällä se hiirellä lokeroon kun pidät {KEY:MouseControl} näppäintä pohjassa. {SLOT:Belt} lokero antaa sinun kantaa vöitä mitkä sisältävät kaivostyökaluja ja muita työkaluja.
+      
+&lt;color=green&gt;Kaivosvyössä&lt;/color&gt; on erityiset {SLOT:Ore} lokerot mitkä täyttyvät automaattisesti kun käytät esimerkiksi {COLORGREEN:Kaivosporaa}.</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskGetTools1</Key>
+      <Value>Pudota {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskGetTools2</Key>
+      <Value>Laita {THING:ItemToolBelt} {SLOT:Belt} lokeroon</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskGetTools3</Key>
+      <Value>Poimi {THING:ItemSteelSheets} &lt;color=orange&gt;Vasempaan Käteen&lt;/color&gt; tai &lt;color=orange&gt;Oikeaan Käteen&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTitleGoInAirlock</Key>
+      <Value>Avaruuteen Meneminen</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescGoInAirlock1</Key>
+      <Value>Mene {COLORGREEN:Ilmalukon} ovesta ja varmista että {THING:ItemEvaSuit} ja {THING:ItemSpaceHelmet} ovat valmiina. Paina {KEY:HelmetSlot} nähdäksesi toimintovalikon ja sitten joko klikkaa sulje toimintoa tai vieritä hiirellä toimintoon ja paina {KEY:InventorySelect} näppäintä, tai paina {KEY:Internals} näppäintä avataksesi ja sulkeaksesi &lt;color=yellow&gt;kypärän&lt;/color&gt; nopeasti.
+      
+Huomaa ruudun oikeassa reunassa olevat ikoonit, ne antavat sinulle tietoa tilasta ja mitkä toiminnot ovat kytkettynä. Huomio näitä tila- ja varoitusindikaattoreita, ne voivat pelastaa henkesi!</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskGoInAirlock1</Key>
+      <Value>Sulje &lt;color=green&gt;Avaruuskypärän&lt;/color&gt; visiiri</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskGoInAirlock2</Key>
+      <Value>Mene {COLORGREEN:Ilmalukon} ovesta keltaiseen huoneeseen</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTitleCycleAirlock</Key>
+      <Value>Kierrätä Ilmalukko</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescCycleAirlock1</Key>
+      <Value>Voit kierrättää Ilmalukkoa käyttämällä {COLORGREEN:Konsolia} tai näppäimistöä {COLORGREEN:Ilmalukon} molemmilla puolilla. Tämä tekee huoneen paineettomaksi jotta voit mennä avaruuteen.
+
+{THING:CircuitboardAirlockControl} {COLORGREEN:Konsolissa} hallitsee &lt;color=green&gt;Aktiivista Tuuletusventtiiliä&lt;/color&gt; ja muita laitteita kierrättääkseen ilmalukon. Huomaa että ruudun oikeassa yläkulmassa sinulla on &lt;color=yellow&gt;Sisäiset&lt;/color&gt; ja &lt;color=yellow&gt;Ulkoiset&lt;/color&gt; tiedot.
+
+Avaruuspuku päällä, sinulla on ilmasto sen sisällä ja ulkopuolella. Peli mallintaa monimutkaisesti ilmastoa, joten huomio tarkasti nämä tiedot pitääksesi itsesi turvassa.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskCycleAirlock1</Key>
+      <Value>Kierrätä Ilmalukko</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTitleRepairCable</Key>
+      <Value>Korjaa Rikkinäinen Kaapeli</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescRepairCable1</Key>
+      <Value>{THING:StructureCableStraight} voi kuljettaa sekä {COLORYELLOW:Dataa} että {COLORYELLOW:Virtaa}, mutta ne hajoavat jos niihin tulee enemmän virtaa kuin mitä ne kestävät. {COLORGREEN:Ilmalukon} alapuolella jossain on rikkinäinen {THING:StructureCableJunction}, etsi se ja poista se käyttämällä {COLORGREEN:Kaapelileikkureita} &lt;color=green&gt;Työkaluvyöltä&lt;/color&gt;.
+      
+Muista että on kaksi tapaa hallita tavaraluetteloa. Voit pitää {KEY:MouseControl} näppäintä pohjassa käyttääksesi hiirtä, ja sitten vedä ja pudota tai avaa esineitä hiirellä. Nopeaan toimintaan paina {KEY:ToolBeltSlot} avataksesi {SLOT:Belt} lokeron. Paina {KEY:InventorySelect} näppäintä siirtääksesi valitun esineen käteesi.
+
+Jos sinulla on liian monta ikkunaa auki, sulje ne kaikki yhtäaikaa painamalla {KEY:HideAllWindows} näppäintä, voit sulkea erikseen joka ikkunan lokeron pikanäppäimellä, tai voit klikata lokeroa kun hiiri on käytössä pitämällä {KEY:MouseControl} pohjassa.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskRepairCable1</Key>
+      <Value>Ota {COLORGREEN:Kaapelileikkurit} käteen</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskRepairCable2</Key>
+      <Value>Poista {THING:StructureCableJunctionBurnt}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskRepairCable3</Key>
+      <Value>Ota {THING:ItemCableCoil} käteen</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskRepairCable4</Key>
+      <Value>Vaihda {THING:StructureCableJunction} {COLORGREEN:Kaapelikerästä}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescRepairCable2</Key>
+      <Value>Katso &lt;color=green&gt;Palanutta Liittymää&lt;/color&gt; kun {COLORGREEN:Kaapelileikkurit} ovat aktiivisessa kädessäsi. Näet {COLORYELLOW:keltaisen} laatikon sen ympärillä. Pidä {COLORRED:Vasenta Hiiripainiketta} pohjassa poistaaksesi &lt;color=green&gt;Palaneen Liittymän&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescRepairCable3</Key>
+      <Value>Nyt meidän pitää sijoittaa {THING:StructureCableJunction}. Siirrä {THING:ItemCableCoil} &lt;color=green&gt;Työkaluvyöltä&lt;/color&gt; &lt;color=orange&gt;Vasempaan Käteen&lt;/color&gt; tai &lt;color=orange&gt;Oikeaan Käteen&lt;/color&gt;.
+      
+Sinun tarvitsee ehkä tehdä tilaa käsiin siirtämällä &lt;color=green&gt;Teräslevyt&lt;/color&gt; reppuusi. Voit pudottaa ne, mutta saatat tarvita niitä myöhemmin!
+      
+Muista että {KEY:InventorySelect} hallitsee sisäisiä lokeroita ja toimintoja, ja että {KEY:ToolBeltSlot} avaa ja sulkee {SLOT:Belt} lokeron. Kuten aina, voit käyttää hiirtä pitämällä {KEY:MouseControl} näppäintä pohjassa.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescRepairCable4</Key>
+      <Value>{THING:ItemCableCoil} &lt;color=yellow&gt;Aktiivisessa Kädessä&lt;/color&gt;, paina  {COLORRED:Oikeaa Hiiripainiketta} tuodaksesi esiin rakennuskursorin.
+
+Käytä &lt;color=red&gt;Hiiren Valintapyörää&lt;/color&gt; selataksesi vaihtoehtoja, valitse {THING:StructureCableJunction}.
+
+Sijoituskaavio näyttää tärkeätä liitäntätietoa, pieni plus merkki näyttää esineen liittyvän verkostoon siitä kohtaa. Pidä huoli että liitäntäsi ovat kohdistettuja oikein.
+
+{KEY:RotateLeft} pyörittää vasemmalle, {KEY:RotateRight} pyörittää oikealle, {KEY:RotateUp} pyörittää ylöspäin, {KEY:RotateDown} pyörittää alaspäin, {KEY:RotateRollLeft} kallistaa vasemmalle {KEY:RotateRollRight} kallistaa oikealle.</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTitleFinishFrame</Key>
+      <Value>Hitsaa Runko Loppuun</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescFinishFrame</Key>
+      <Value>Jotkut työkalut vaativat toimiakseen kaksi asiaa. {COLORGREEN:Rungon} hitsaamiseen tarvitset {COLORGREEN:Hitsauspolttimen} aktiivisessa kädessäsi, ja &lt;color=green&gt;Teräslevyjä&lt;/color&gt; toisessa. {KEY:ToggleHandPower} pikanäppäin käynnistää ja sammuttaa aktiivisessa kädessäsi olevan esineen, tai voit tehdä sen toimintovalikkojen kautta.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskFinishFrame1</Key>
+      <Value>Hitsaa {THING:StructureFrame}</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTitleTablet</Key>
+      <Value>Käsissä Olevien Esineiden Käyttäminen</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescTablet1</Key>
+      <Value>Poimi {THING:ItemTablet} ja {THING:ItemBatteryCellLarge} &lt;color=orange&gt;Vasempaan Käteen&lt;/color&gt; tai &lt;color=orange&gt;Oikeaan Käteen&lt;/color&gt; katsomalla niitä ja klikkaamalla {COLORRED:Vasemmalla Hiiripainikkeella}. Voit vaihtaa aktiivista kättä painamalla {KEY:SwapHands} näppäintä. Tämä antaa sinun ottaa esineen kumpaankin käteen. Tee näin jatkaaksesi.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescTablet2</Key>
+      <Value>Voit käyttää aktiivisessa kädessäsi olevaa esinettä painamalla {KEY:ActiveHandSlot} näppäintä tai klikkaamalla sitä. Tämä avaa kyseisen käden lokeroluettelon. Voit vaihtaa aktiivista kättä painamalla {KEY:SwapHands} näppäintä. Valitse käsi jossa {THING:ItemTablet} on aktiiviseksi kädeksi ja avaa lokerot jatkaaksesi.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescTablet4</Key>
+      <Value>Laita {THING:ItemBatteryCellLarge} {COLORGREEN:Tabletin} {SLOT:Battery} lokeroon. Käytä tähän joko hiirtä, pitämällä {KEY:MouseControl} näppäintä pohjassa ja vedä ja pudota se lokeroon tai paina {KEY:InventorySelect} näppäintä siirtääksesi sen valittuun {SLOT:Battery} lokeroon.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskTablet1</Key>
+      <Value>Poimi {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskTablet2</Key>
+      <Value>Poimi {THING:ItemBatteryCellLarge}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskTablet3</Key>
+      <Value>Avaa {COLORGREEN:Tabletin} lokerot</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskTablet5</Key>
+      <Value>Laita {THING:ItemBatteryCellLarge} {COLORGREEN:Tabletin} {SLOT:Battery} lokeroon</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTitleUseReader</Key>
+      <Value>{COLORGREEN:Tietosanakirjan} Käyttö</Value>
+    </Record>
+	<Record>
+      <Key>TutorialDescUseReader1</Key>
+      <Value>{COLORGREEN:Tablettiin} voi ladata eri kasetteja jossa on eri toimintoja. Nämä ovat muun muuassa {THING:CartridgeAtmosAnalyser} ilmaston tarkkailuun, {THING:CartridgeNetworkAnalyser} virta- ja logiikkaverkon tarkkailuun, ja monia muita. 
+      
+Käynnistä {THING:ItemTablet} painamalla {KEY:ToggleHandPower} näppäintä, klikkaa sitä hiirellä pitämällä {KEY:MouseControl} pohjassa, tai vieritä hiiren vierityspyörällä haluamasi toiminnon kohdalle ja paina {KEY:ActiveHandSlot} näppäintä.</Value>
+    </Record>
+	<Record>
+      <Key>TutorialDescUseReader2</Key>
+      <Value>{COLORGREEN:Tabletissa} on {THING:CartridgeElectronicReader} ladattu. Tämä antaa sinulle valmistusohjeita kaikkiin pelissä olevien esineiden valmistamiseen. Etsi {COLORYELLOW:Resepti #VAR1#} joka antaa sinun valmistaa {COLORGREEN:Muffinssin} käyttämällä &lt;color=red&gt;Hiiren Valintapyörää&lt;/color&gt; selataksesi vaihtoehtoja.
+
+Käyttämällä eri kasetteja saat käyttöösi eri toimontoja, kuten {THING:CartridgeNetworkAnalyser} virta- ja logiikkaverkon tarkkailuun, tai {THING:CartridgeAtmosAnalyser} ilmaston tarkkailuun.</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskUseReader1</Key>
+      <Value>Käynnistä {THING:ItemTablet}</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskUseReader2</Key>
+      <Value>Etsi {COLORYELLOW:Resepti #VAR1#} {COLORGREEN:Muffinssin} valmistamiseen</Value>
+    </Record>
+	
+	<Record>
+      <Key>TutorialTitleBakeMuffin</Key>
+      <Value>Leivo {THING:ItemMuffin}</Value>
+    </Record>
+	<Record>
+      <Key>TutorialDescBakeMuffin1</Key>
+      <Value>Jotkut laitteet pelissä kiinnitetään {COLORGREEN:Tasoon}; näitä kutsutaan Kodinkoneiksi. Poimi {THING:ApplianceMicrowave} ylös ja kävele {COLORGREEN:Tason} eteen.</Value>
+    </Record>
+	<Record>
+      <Key>TutorialDescBakeMuffin2</Key>
+      <Value>Paina {KEY:Drop} näppäintä pudottaaksesi {THING:ApplianceMicrowave} {COLORGREEN:Tason} päälle. Tee näin kunnes {THING:ApplianceMicrowave} on {COLORGREEN:Tason} päällä.</Value>
+    </Record>
+	<Record>
+      <Key>TutorialDescBakeMuffin3</Key>
+      <Value>Katso {COLORGREEN:Mikroaaltouunia}. Katso sen sivua ennemmin kuin ovea, jotta valitset itse uunia etkä yritä avata sitä. Kun näet {COLORYELLOW:keltaisen laatikon}, pidä {COLORRED:Vasen Hiiripainike} pohjassa kiinnittääksesi uunin {COLORGREEN:Tasoon}.</Value>
+    </Record>
+	<Record>
+      <Key>TutorialDescBakeMuffin4</Key>
+      <Value>Katso {COLORGREEN:Mikroaaltouunin} ovea. Paina {COLORRED:Vasenta Hiiripainiketta} avataksesi oven jotta voit laittaa ainekset uunin sisälle.</Value>
+    </Record>
+	<Record>
+      <Key>TutorialDescBakeMuffin5</Key>
+      <Value>Poimi vaaditut ainekset reseptiin aktiiviseen käteen ja katso {COLORGREEN:Mikroaaltouunin} sisälle. Paina {COLORRED:Vasenta Hiiripainiketta} lisätäksesi aineksia kunnes sinulla on tarvittava määrä. Älä laita enemmän kuin mitä resepti vaatii. Joihinkin resepteihin tämä täytyy tehdä kahdesti.
+      
+Jos laitoit liikaa, pudota mitä sinulla on kädessäsi {KEY:Drop} näppäimellä ja katso sitten {COLORGREEN:Mikroaaltouunin} sisälle. Kun näet {COLORYELLOW:Clear} toiminnon, paina sitä aloittaaksesi uudestaan.</Value>
+    </Record>
+	<Record>
+      <Key>TutorialDescBakeMuffin6</Key>
+      <Value>Käynnistä {THING:ApplianceMicrowave} painamalla nappia uunin oikealla puolella. Uuni valmistaa nyt reseptisi. Jos sait ainekset oikein, olet leiponut {COLORGREEN:Muffinssin}. Jos et, sinulla ei ole mitään.</Value>
+    </Record>
+	<Record>
+      <Key>TutorialDescBakeMuffin7</Key>
+      <Value>Avaa {THING:ItemSpacepack} painamalla {KEY:BackSlot} näppäintä, tai pitämällä {KEY:MouseControl} näppäintä pohjassa ja klikkaamalla reppu lokeroa. Siirrä {THING:ItemWrench} käteesi hiirellä, vetämällä ja pudottamalla tai selaamalla &lt;color=red&gt;Hiiren Valintapyörällä&lt;/color&gt; ja painamalla {KEY:InventorySelect} näppäintä siirtääksesi sen käteesi.</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskBakeMuffin1</Key>
+      <Value>Poimi {THING:ApplianceMicrowave}</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskBakeMuffin2</Key>
+      <Value>Pudota uuni {COLORGREEN:Tasolle}</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskBakeMuffin3</Key>
+      <Value>Kinnitä {THING:ApplianceMicrowave}</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskBakeMuffin11</Key>
+      <Value>Ota {THING:ItemWrench} {COLORGREEN:Avaruusrepusta}</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskBakeMuffin4</Key>
+      <Value>Laita {COLORYELLOW:50g} {THING:ItemFlour} {COLORGREEN:Mikroaaltouuniin}</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskBakeMuffin5</Key>
+      <Value>Laita {COLORYELLOW:yksi} {THING:ItemEgg} {COLORGREEN:Mikroaaltouuniin}</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskBakeMuffin6</Key>
+      <Value>Laita {COLORYELLOW:10ml} of {THING:ItemMilk} {COLORGREEN:Mikroaaltouuniin}</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskBakeMuffin7</Key>
+      <Value>Avaa {THING:ApplianceMicrowave}</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskBakeMuffin8</Key>
+      <Value>Tee {THING:ItemMuffin}</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskBakeMuffin9</Key>
+      <Value>Sulje {COLORGREEN:Mikroaaltouunin} ovi</Value>
+    </Record>
+	<Record>
+      <Key>TutorialTaskBakeMuffin10</Key>
+      <Value>Käynnistä {THING:ApplianceMicrowave}</Value>
+    </Record>
+  </Interface>
+</Language>
