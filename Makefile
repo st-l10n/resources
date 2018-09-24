@@ -6,3 +6,7 @@ release:
 	./release.sh
 update-locales:
 	git submodule update --remote --merge
+generate:
+	martian bake --input locales
+upgrade: update update-locales generate release
+
