@@ -116,11 +116,11 @@
       <Key>TutorialDescGetTools1</Key>
       <Value>現在我們需要前往太空站外部修理一些壞掉的東西。使用 {KEY:Drop} 鍵來放下手上的 {THING:ItemTablet} ，使雙手無裝備才能撿起其它物品。別忘了先關閉手上裝置.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescGetTools2</Key>
       <Value>撿起 {THING:ItemToolBelt} 並且按住 {KEY:ToolBeltSlot} 鍵 以安裝至 {SLOT:Belt} 欄位。等您裝備好 {THING:ItemToolBelt} 以及撿起房間內的 {THING:ItemSteelSheets} 時候，我們將會繼續這個教程.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskGetTools1</Key>
       <Value>放下 {THING:ItemTablet}</Value>
     </Record>
@@ -202,7 +202,7 @@
 
 按下 {KEY:RotateLeft} 向左選轉， {KEY:RotateRight} 向右旋轉， {KEY:RotateUp} 往上旋轉， {KEY:RotateDown} 往下旋轉， {KEY:RotateRollLeft} 往左側翻， 或者 {KEY:RotateRollRight} 向右側翻.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTitleFinishFrame</Key>
       <Value>完成框架焊接</Value>
     </Record>
@@ -214,7 +214,7 @@
       <Key>TutorialTaskFinishFrame1</Key>
       <Value>焊接 {THING:StructureFrame} 以完成教程</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTitleTablet</Key>
       <Value>切換手中的物品</Value>
     </Record>
@@ -246,102 +246,101 @@
       <Key>TutorialTaskTablet5</Key>
       <Value>裝備已安裝 {THING:ItemBatteryCellLarge} 的 {THING:ItemTablet}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTitleUseReader</Key>
       <Value>使用 {THING:CartridgeElectronicReader}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescUseReader1</Key>
       <Value>{THING:ItemTablet} 有各種不同功能的晶片可以安裝。現在將 {THING:ItemTablet} 打開， 切換至當前手持物品，並點擊兩次 {KEY:ActiveHandSlot} 鍵切換至功能介面後使用 {KEY:InventorySelect}鍵 開啟裝置電源 或者使用 {KEY:ToggleHandPower} 鍵可以快速開啟手持裝置電源.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescUseReader2</Key>
       <Value>{THING:ItemTablet} 目前安裝了 {THING:CartridgeElectronicReader}。您可以從上面找到遊戲中全部製作物的配方， 以及製作物品所使用的設備為何。使用 &lt;color=red&gt;滑鼠滾輪&lt;/color&gt; 以找到 {COLORYELLOW:Recipe #VAR1#} 製作 {THING:ItemMuffin} 的配方.
 
 有各種不同功能的晶片可以讓您使用，像是 {THING:CartridgeNetworkAnalyser} 可以讓您針對線路除錯，或者 {THING:CartridgeAtmosAnalyser} 可以提供詳細的氣壓資訊.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskUseReader1</Key>
       <Value>啟動 {THING:ItemTablet}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskUseReader2</Key>
       <Value>找到 {COLORYELLOW:Recipe #VAR1#} 以製作 {THING:ItemMuffin}</Value>
     </Record>
-	
-	<Record>
+    <Record>
       <Key>TutorialTitleBakeMuffin</Key>
       <Value>烘培一份 {THING:ItemMuffin}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin1</Key>
       <Value>遊戲中有些設備必須被安裝到 {THING:StructureBench}; 我們把它稱為家電。撿起 {THING:ApplianceMicrowave} 然後走到 {THING:StructureBench} 前面.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin2</Key>
       <Value>走貼近 {THING:StructureBench} 後，按下 {KEY:Drop} 鍵把 {THING:ApplianceMicrowave} 放到 {THING:StructureBench} 的上方。盡量保持 {THING:ApplianceMicrowave} 平穩不動的放在 {THING:StructureBench} 上面.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin3</Key>
       <Value>接著面向 {THING:ApplianceMicrowave}。調整視線位置，直到出現 &lt;color=yellow&gt;黃色框線&lt;/color&gt; 的時候，按住 &lt;color=red&gt;滑鼠左鍵&lt;/color&gt;  將設備正確安裝到 {THING:StructureBench}.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin4</Key>
       <Value>面向 {THING:ApplianceMicrowave} 的門前方。按下 &lt;color=red&gt;滑鼠左鍵&lt;/color&gt; 可以打開門，讓您可以放入要製作的材料.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin5</Key>
       <Value>撿起在桌邊 列表上所需要的配方材料，接著面對 {THING:ApplianceMicrowave} 並將材料切換至您當前的手上。按住 &lt;color=red&gt;滑鼠左鍵&lt;/color&gt; 填入足夠滿足配方的材料數量。不要加入超過配方所需要的材料數量，等下將會有其它配方需要這些材料</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin6</Key>
       <Value>現在將點擊 {THING:ApplianceMicrowave} 右方的紅色按鈕以啟動電源 。這個設備將會開始製作您的配方。如果您的配方正確無誤， 您將會成功製作出 {THING:ItemMuffin}。如果沒有，將不會有任何產品出現。食品藥物或膠帶可以按住{COLORYELLOW:滑鼠右鍵}使用.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin7</Key>
       <Value>使用 {KEY:BackSlot} 鍵來打開 {THING:ItemSpacepack} 。使用 &lt;color=red&gt;滑鼠滾輪&lt;/color&gt; 來選到 {THING:ItemWrench} 的欄位上，並且 按下 {KEY:InventorySelect} 鍵 來轉移至您的手上.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin1</Key>
       <Value>撿起 {THING:ApplianceMicrowave}， 提醒您必須切換({KEY:SwapHands}鍵)至空手狀態撿起物品，而非打開物品</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin2</Key>
       <Value>放置到 {THING:StructureBench}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin3</Key>
       <Value>安裝 {THING:ApplianceMicrowave} 到位置上</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin11</Key>
       <Value>從{THING:ItemSpacepack} 取得 {THING:ItemWrench}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin4</Key>
       <Value>放入 {COLORYELLOW:50g} 的 {THING:ItemFlour} 進 {THING:ApplianceMicrowave} 提醒您必須是空手狀態才能撿起物品，按下{KEY:Drop} 鍵放下手上物品，或者將物品放入背包.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin5</Key>
       <Value>放入 {COLORYELLOW:1} {THING:ItemEgg} 進 {THING:ApplianceMicrowave}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin6</Key>
       <Value>放入 {COLORYELLOW:10ml} 的 {THING:ItemMilk} 進 {THING:ApplianceMicrowave}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin7</Key>
       <Value>打開 {THING:ApplianceMicrowave}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin8</Key>
       <Value>製作一個 {THING:ItemMuffin}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin9</Key>
       <Value>關上 {THING:ApplianceMicrowave} 的門</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin10</Key>
       <Value>啟動 {THING:ApplianceMicrowave}</Value>
     </Record>

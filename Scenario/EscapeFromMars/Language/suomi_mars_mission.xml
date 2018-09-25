@@ -2,216 +2,156 @@
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Suomi</Name>
   <Code>FI</Code>
-  
   <Interface>
-  	<Record>
+    <Record>
       <Key>EscapeFromMarsTitle</Key>
       <Value>Pako Marsista</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>EscapeFromMarsDescription</Key>
       <Value>Niukasti tarvikkeita, sinun täytyy hyödyntää nokkeluuttasi ja tahtoasi löytääksesi keinon selvitä Marsissa. Jos kaikki menee suunitelman mukaan, tämä johtaa lopulta raketin rakentamiseen joka pystyy poistumaan Marsin ilmakehästä.</Value>
     </Record>
-  	<!-- Mission Stage: In Case of Emergency -->
-	<Record>
+    <!-- Mission Stage: In Case of Emergency -->
+    <Record>
       <Key>MarsTitleInCaseOfEmergency</Key>
       <Value>Hätätapauksessa...</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MarsDescInCaseOfEmergency</Key>
       <Value>Pukusi on vaurioitunut ja sinun täytyy löytää ruokaa.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MarsTaskGetTape</Key>
       <Value>Etsi {COLORGREEN:Ilmastointiteippi}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MarsTaskGetFood</Key>
       <Value>Etsi {COLORGREEN:Viljapatukka}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MarsTabletStage1</Key>
       <Value>HÄTÄOPAS</Value>
-    </Record> 	
-	<Record>
+    </Record>
+    <Record>
       <Key>MarsTabletStage1Page1</Key>
       <Value>SIVU 1 / 2 \nEI PANIIKKIA.\n\nJos luet tätä, selvisit hengissä evakuoinnista - onneksi olkoon.  Ympäristöstäsi riippumatta ensimmäinen prioriteettisi on tarkistaa oma ja muitten ympärillä olevien terveys.  Muista myös tarkistaa pukusi kunto koska ei voi tietää millaisista olosuhteista löydät itsesi ja jäljellä olevan hapen suojaaminen on ratkaisevaa.</Value>
-    </Record> 
-	<Record>
+    </Record>
+    <Record>
       <Key>MarsTabletStage1Page2</Key>
       <Value>SIVU 2 / 2 \nJos olet lähellä ehjää pakokapselia ja siihen liitettyä varustelaatikkoa, sinulla pitäisi olla jotain tärkeitä varusteita kun odotat pelastusta. Jos et niin etsi eloonjäänneitä.  Pistä mieleen sijainti, tai kerää, varusteita jotka ovat tärkeitä eloonjäämisesi kannalta kuten ruokaa, paristoja, materiaaleja kuten ilmastointiteippi ja kannettavia laitteita. \n</Value>
-    </Record> 
-
-	<!-- Mission Stage: Aquire Raw Materials -->
-	<Record>
+    </Record>
+    <!-- Mission Stage: Aquire Raw Materials -->
+    <Record>
       <Key>MarsTitleRawMaterials</Key>
       <Value>Kerjää, Kaiva tai Varasta</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MarsTabletStage2</Key>
       <Value>RAAKAMATERIAALEJA</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MarsDescRawMaterials</Key>
       <Value>Löydä keino valmistaa perusmateriaaleja jotta saat tuotannon käyntiin.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MarsTaskGetIronIngots</Key>
       <Value>Hanki {COLORGREEN:Rautaharkko}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MarsTaskGetCopperIngots</Key>
       <Value>Hanki {COLORGREEN:Kupariharkko}</Value>
     </Record>
-		<Record>
+    <Record>
       <Key>MarsTaskGetGoldIngots</Key>
       <Value>Hanki {COLORGREEN:Kultaharkko}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MarsTabletStage2Page1</Key>
       <Value>SIVU 1 / 2 \nKERJÄÄ, KAIVA tai VARASTA\n\nOnneksi meidän työkaluissa on valmistusohjeita joita todennäköisesti tarvitset tilanteessasi.  Valitettavasti tarvitset raakamateriaaleja niihin.  Nämä voi saada useammasta lähteestä tilanteestasi riippuen:</Value>
-    </Record> 
-	<Record>
+    </Record>
+    <Record>
       <Key>MarsTabletStage2Page2</Key>
       <Value>SIVU 2 / 2 \nKERÄÄ\n\nJos aluksesi on suhteellisen ehjä, voit löytää materiaaleja jalostetussa muodossa, joko valmistuslaitteissa tai varastoituna niitten lähelle.\n\nPURA\n\nJos onnistut löytämään tai valmistamaan kulmahiomakoneen, voit käyttää sitä purkaaksesi aluksen hylkyä.  Kierrättäjää voi käyttää hajottamaan osat perusmateriaaleiksi ja Linko erottelee ne jotta niitä voi sulattaa uudestaan käytettäviksi materiaaleiksi.</Value>
-    </Record> 
-	<Record>
-      <Key>MarsTabletStage2Page3</Key>
-      <Value>PAGE 3 of 5 \nDISMANTLE\n\nIf you&apos;re able to find or manufacture an Angle Grinder, you should be able to use it to dismantle some of the ship wreckage.  A Recycler can be used to break these down into a mix of it&apos;s component materials and a Centrifuge will separate them out so they can be re-smelted into usable materials.</Value>
-    </Record> 
-	<Record>
-      <Key>MarsTabletStage2Page4</Key>
-      <Value>PAGE 4 of 5 \nEXCAVATE\n\nVery dependent on your surroundings, some exploratory vessels were equipped with basic mining equipment.  If you are lucky enough to find yourself somewhere with an abundance of mineral resources, this is certainly a viable option.</Value>
-    </Record> 
-	<Record>
-      <Key>MarsTabletStage2Page5</Key>
-      <Value>PAGE 5 of 5\nSMELT\n\nThe most straightforward way to convert raw materials into processed ingots ready for manufacturing is using the Arc Furnace and providing it with some power.  If you&apos;re limited on resources it should probably be your first investment, as if you cannot scavenge sufficient materials it&apos;ll be a requirement eventually to ensure you&apos;re able to produce more.</Value>
-    </Record> 
-	
-	<!-- Mission Stage: Setup Manufacturing -->
-	<Record>
+    </Record>
+    <!-- Mission Stage: Setup Manufacturing -->
+    <Record>
       <Key>MarsTitleSetupManufacturing</Key>
       <Value>Tuotannon Aloittaminen</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MarsTabletStage3</Key>
       <Value>TUOTANNON ALKEET</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MarsDescSetupManufacturing</Key>
       <Value>Jotta voidaan valmistaa kaikki tarvittava, meidän pitäisi aloitaa {COLORGREEN:Hydraulisella Putkentaivuttajalla} ja {COLORGREEN:Elektroniikka Printterillä}.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MarsTaskManufactureHPB</Key>
       <Value>Valmista {COLORGREEN:Hydraulinen Putkentaivuttaja}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MarsTaskManufactureEP</Key>
       <Value>Valmista {COLORGREEN:Elektroniikka Printteri}</Value>
     </Record>
-	<Record>
-      <Key>MarsTabletStage3Page1</Key>
-      <Value>PAGE 1 of 5\nMANUFACTURING \nWhile highly likely that rescue efforts are already underway, it may be some time before they&apos;re able to reach you.  It would be pertinent to plan for a longer stay.  You&apos;ll need to set up some basic manufacturing infrastructure.  An Autolathe is the natural starting point, and this will allow you to construct more task-specific crafting machines.</Value>
-    </Record> 
-	<Record>
-      <Key>MarsTabletStage3Page2</Key>
-      <Value>PAGE 2 of 5 \nPOWER TO THE PERSON \n\nHopefully by this point you&apos;ve found some batteries, and some means to charge them.  The easiest way to supply power to a network is by connecting batteries to an Area Power Control unit.  To provide the power you&apos;ll need for Smelting and bulk manufacturing however, you&apos;ll need something a little more convenient.  The best way to handle this depends on your situation, but options include;</Value>
-    </Record> 
-	<Record>
-      <Key>MarsTabletStage3Page3</Key>
-      <Value>PAGE 3 of 5 \nSOLID FUEL GENERATOR \nThis will generate power by burning fossilized hydrocarbons in solid form.  The kit can be manufactured in an the Electronics Printer or a Fabricator.</Value>
-    </Record> 
-	<Record>
-      <Key>MarsTabletStage3Page4</Key>
-      <Value>PAGE 4 of 5 \nGAS GENERATOR \nThis will extract energy from the combustion resulting from igniting a hydrogen/oxygen fuel mix.  A Clean burn will result in a greater power output, but you&apos;ll need to carefully manage the amount of fuel being fed in and likely use a transformer to limit the power output or you&apos;ll suffer from overloaded cables.</Value>
-    </Record> 
-	<Record>
-      <Key>MarsTabletStage3Page5</Key>
-      <Value>PAGE 5 of 5 \nSOLAR PANELS \nSolar Panels.  Once placed, you&apos;ll need to complete them by with a glass sheet - but once that&apos;s done they&apos;ll generate a nominal amount of power during the day.  You can use your wrench to adjust the vertical and horizontal angle to try face the sun but in the long term you might want to look at using a logic circuit and a daylight sensor to track it for you.</Value>
-    </Record> 	
-	
-	
-	<!-- Mission Stage: Food Supply -->
-	<Record>
+    <!-- Mission Stage: Food Supply -->
+    <Record>
       <Key>MarsTitleFoodSupply</Key>
       <Value>Luotettava Ravinnonlähde</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MarsTabletStage4</Key>
       <Value>PUUTARHANHOITO-OPAS</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MarsDescFoodSupply</Key>
       <Value>Emme tiedä miten kauan joudumme selviämään täällä.  Meidän tulisi valmistaa uusiutuvaa ravninnonlähdettä varmuuden vuoksi.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MarsTaskPrepareAtmos</Key>
       <Value>Luo paineistettu huone missä on tarpeellinen ilmasto perunoiden kasvattamiseen.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MarsTaskGrowPotato</Key>
       <Value>Hanki {COLORGREEN:Peruna}</Value>
     </Record>
-	<Record>
-      <Key>MarsTabletStage4Page1</Key>
-      <Value>PAGE 1 of 2 \nLITTLE GREEN THUMBS\nThe bare minimum you&apos;ll need to be able to grow crops is a Hydroponics Tray or Portable Hydroponics.  This will need to be supplied with a source of water and placed in an atmosphere of at least ~20kpa, around 20-25degrees Celcius and containing a small amount of carbon dioxide.</Value>
-    </Record> 	
-	<Record>
-      <Key>MarsTabletStage4Page2</Key>
-      <Value>PAGE 2 of 2\nThe toughest requirement is obtaining some seeds to get started.  Each escape pod contains a supply crate with a nominal amount of seeds to get you started - protecting these is crucial.  If you became seperated from your escape pod, if you can find a tracking cartridge you may be able to use it to track the pods beacon.</Value>
-    </Record> 	
-	
-	<!-- Mission Stage: Spawn Mothership & Engine -->
-	<Record>
+    <!-- Mission Stage: Spawn Mothership & Engine -->
+    <Record>
       <Key>MarsTitleCreateMothership</Key>
       <Value>Emoaluksen Luominen</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MarsTabletStage5</Key>
       <Value>AVARUUSMATKAILU</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MarsDescCreateMothership</Key>
       <Value>Luo Emoalus luomalla {COLORGREEN:Emoaluksen Ydin} ja liittämällä {COLORGREEN:Rakettimoottori} siihen.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MarsTaskSpawnMothershipCore</Key>
       <Value>Luo {COLORGREEN:Emoaluksen Ydin}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MarsTaskAttachEngine</Key>
       <Value>Liitä {COLORGREEN:Rakettimoottori} to the {COLORGREEN:Emoaluksen Ytimeen}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MarsTitleLaunchMothership</Key>
       <Value>Emoaluksen Laukaisu</Value>
     </Record>
-	<Record>
-      <Key>MarsTabletStage5Page1</Key>
-      <Value>PAGE 1 of 2 \nLAUNCH BREAK\nWith food under control, you&apos;ve now got some real work to do.  Obtaining the resources to build and fuel a vessel to get off this rock won&apos;t be easy.  You&apos;ll require some advanced alloys and a safe system to manage melting ices and creating/storing a large amount of fuel.</Value>
-    </Record> 	
-	<Record>
-      <Key>MarsTabletStage5Page2</Key>
-      <Value>PAGE 2 of 2\nThe bare minimum you&apos;ll need for a ship is a core with a couple of engines attached and facing the right direction and a stellar anchor, which when turned on and off will allow your ship to move.  A command chair is not required if you&apos;re brave enough to drive the engines by hand, but thoroughly recommended.</Value>
-    </Record> 	
-	
-	
-	<!-- Mission Stage: Launch -->
-	<Record>
+    <!-- Mission Stage: Launch -->
+    <Record>
       <Key>MarsDescLaunchMothership</Key>
       <Value>Ampaise avaruuteen ja ota takaisin paikkasi taivaalla!</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MarsTaskLaunchMothership</Key>
       <Value>Laukaise emoaluksesi 100m korkeuteen</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MarsTabletStage6</Key>
       <Value>PAKENE</Value>
     </Record>
-	<Record>
-      <Key>MarsTabletStage6Page1</Key>
-      <Value>PAGE 1 of 1 \nTAKEOFF\nPretty self-explanatory.  Get this thing off the ground.  Make sure you&apos;ve got plenty of fuel for your engines!  Good luck!</Value>
-    </Record> 	
   </Interface>
 </Language>

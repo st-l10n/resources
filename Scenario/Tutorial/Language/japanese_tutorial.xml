@@ -121,13 +121,13 @@
 インベントリを操作するのには、技術と練習が必要です。何を持っているか、何をしようとしているかを慎重に考えましょう。{THING:ItemGasCanisterOxygen}や{THING:ItemBatteryCellLarge}を入れておくことを忘れると悲惨なことになります。紛失するのは簡単です。注意しましょう！
       </Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescGetTools2</Key>
       <Value>{THING:ItemToolBelt}を拾って、{KEY:ToolBeltSlot}キーを長押しするか{KEY:MouseControl}を押したままスロットにドラッグして{SLOT:Belt}スロットに入れましょう。{SLOT:Belt}スロットは、採掘用などのツールを入れておけるベルト用のスロットです。
       
 {THING:ItemMiningBelt}には特殊な{SLOT:Ore}スロットがあり、{THING:ItemMiningDrill}で採掘した鉱石が自動で入ります。</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskGetTools1</Key>
       <Value>{THING:ItemTablet}を捨てる</Value>
     </Record>
@@ -223,7 +223,7 @@
 
 {KEY:RotateLeft}を押すことで左回転、{KEY:RotateRight}で右回転、{KEY:RotateUp}で上回転、{KEY:RotateDown}で下回転、{KEY:RotateRollLeft}で左転回、{KEY:RotateRollRight}で右転回が出来ます。</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTitleFinishFrame</Key>
       <Value>フレームの溶接を完了させる</Value>
     </Record>
@@ -235,7 +235,7 @@
       <Key>TutorialTaskFinishFrame1</Key>
       <Value>{THING:StructureFrame}を溶接する</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTitleTablet</Key>
       <Value>手に持ったアイテムをインタラクトする</Value>
     </Record>
@@ -267,106 +267,105 @@
       <Key>TutorialTaskTablet5</Key>
       <Value>{THING:ItemBatteryCellLarge}の{SLOT:Battery}に{THING:ItemBatteryCellLarge}を装着する</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTitleUseReader</Key>
       <Value>{THING:CartridgeElectronicReader}を使う</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescUseReader1</Key>
       <Value>{THING:ItemTablet}は異なるカードリッジにより異なる機能を持つことが出来ます。{THING:CartridgeAtmosAnalyser}で大気の状態を確認したり、{THING:CartridgeNetworkAnalyser}で電力や論理ネットワークを監視したり、他にも色々なことが出来ます。
 
 {KEY:ToggleHandPower}キーを押す、{KEY:MouseControl}を押しながらマウスでクリックする、または{KEY:ActiveHandSlot}キーによる操作で{THING:ItemTablet}の電源を入れて下さい。</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescUseReader2</Key>
       <Value>{THING:ItemTablet}は{THING:CartridgeElectronicReader}が入っています。これはゲーム内の全ての制作可能なレシピとそれが何によって作られるかを教えてくれます。{COLORRED:Mouse Wheel}でスクロールして、{THING:ItemMuffin}を作るための{COLORYELLOW:Recipe #VAR1#}を探しましょう。
 
 異なるカードリッジを使うことで様々な異なる機能を使えます。例えば、{THING:CartridgeNetworkAnalyser}はケーブルネットワークのデバッグ出来ますし、{THING:CartridgeAtmosAnalyser}は大気の情報を確認できます。</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskUseReader1</Key>
       <Value>{THING:ItemTablet}の電源を入れる</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskUseReader2</Key>
       <Value>{THING:ItemMuffin}を作るための{COLORYELLOW:Recipe #VAR1#}を見つける</Value>
     </Record>
-	
-	<Record>
+    <Record>
       <Key>TutorialTitleBakeMuffin</Key>
       <Value>{THING:ItemMuffin}を焼く</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin1</Key>
       <Value>このゲームのいくつかの装置は{THING:StructureBench}に取り付けられ、取付装置と呼びます。{THING:ApplianceMicrowave}を持って、{THING:StructureBench}の前まで行きましょう。</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin2</Key>
       <Value>{KEY:Drop}キーを押して{THING:ApplianceMicrowave}を{THING:StructureBench}の上に置きます。{THING:StructureBench}の上に{THING:ApplianceMicrowave}が設置されるまでこれを行って下さい。</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin3</Key>
       <Value>{THING:ApplianceMicrowave}に注目して下さい。扉ではない方の側面を見ると、アイテムを直接ターゲットし、開くことは出来ません。{COLORYELLOW:yellow box}が見えている状態で{COLORRED:左マウスボタン}を押すことで{THING:StructureBench}に固定出来ます。</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin4</Key>
       <Value>{THING:ApplianceMicrowave}の扉を見て下さい。{COLORRED:左マウスボタン}を押すことで扉を開けることができ、中に素材を入れられるようになります。</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin5</Key>
       <Value>タスクリストにある素材をアクティブな手で拾い、{THING:ApplianceMicrowave}の中に視点を合わせ手下さい。{COLORRED:左マウスボタン}を押して足りるまで素材を入れて下さい。レシピの要求より多く素材を足さないで下さい。これをレシピに従いあと2回行いましょう。
 
 もし入れすぎてしまったら、持っているものを{KEY:Drop}で手放し、{THING:ApplianceMicrowave}に視線を合わせて{COLORYELLOW:Clear}をして、やり直します。</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin6</Key>
       <Value>{THING:ApplianceMicrowave}の右側のボタンを押して装置の電源を入れます。装置はレシピ通り焼きます。レシピが正しければ、{THING:ItemMuffin}を作ります。間違っていれば何も出来ません。</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin7</Key>
       <Value>{KEY:BackSlot}キーを押して{THING:ItemSpacepack}を開きます。{COLORRED:Mouse Wheel}によって{THING:ItemWrench}まで動かし、{KEY:InventorySelect}キーを押して手に持ちましょう。</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin1</Key>
       <Value>{THING:ApplianceMicrowave}を拾う</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin2</Key>
       <Value>{THING:StructureBench}に置く</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin3</Key>
       <Value>{THING:ApplianceMicrowave}を固定する</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin11</Key>
       <Value>{THING:ItemSpacepack}から{THING:ItemWrench}を取り出す</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin4</Key>
       <Value>{COLORYELLOW:50g}の{THING:ItemFlour}を{THING:ApplianceMicrowave}に入れる</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin5</Key>
       <Value>{COLORYELLOW:one} {THING:ItemEgg}を{THING:ApplianceMicrowave}に入れる</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin6</Key>
       <Value>{COLORYELLOW:10ml}の{THING:ItemMilk}を{THING:ApplianceMicrowave}に入れる</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin7</Key>
       <Value>{THING:ApplianceMicrowave}を開く</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin8</Key>
       <Value>{THING:ItemMuffin}を作る</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin9</Key>
       <Value>{THING:ApplianceMicrowave}の扉を閉じる</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin10</Key>
       <Value>{THING:ApplianceMicrowave}の電源を入れる</Value>
     </Record>

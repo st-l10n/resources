@@ -116,11 +116,11 @@
       <Key>TutorialDescGetTools1</Key>
       <Value>现在我们需要到外面去修理. 打开 {THING:ItemTablet} 使用 {KEY:Drop} 按键选择其他的东西.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescGetTools2</Key>
       <Value>收集 {THING:ItemToolBelt} 然后把它给 {SLOT:Belt} 装备槽并按下 {KEY:ToolBeltSlot} 按键. 我们将要继续 {THING:ItemToolBelt} 装备好 {THING:ItemSteelSheets} 在你的手上.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskGetTools1</Key>
       <Value>打开 {THING:ItemTablet}</Value>
     </Record>
@@ -202,7 +202,7 @@ A {THING:CircuitboardAirlockControl} 在 {THING:StructureConsole} 是控制 {THI
 
 按下 {KEY:RotateLeft} 向左转, {KEY:RotateRight} 向右转, {KEY:RotateUp} 向上转, {KEY:RotateDown} 向下转, {KEY:RotateRollLeft} 向左滚, or {KEY:RotateRollRight} 向右滚.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTitleFinishFrame</Key>
       <Value>完成焊接框架</Value>
     </Record>
@@ -214,7 +214,7 @@ A {THING:CircuitboardAirlockControl} 在 {THING:StructureConsole} 是控制 {THI
       <Key>TutorialTaskFinishFrame1</Key>
       <Value>焊接 {THING:StructureFrame} 完成教程</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTitleTablet</Key>
       <Value>手上的物品交换</Value>
     </Record>
@@ -246,102 +246,101 @@ A {THING:CircuitboardAirlockControl} 在 {THING:StructureConsole} 是控制 {THI
       <Key>TutorialTaskTablet5</Key>
       <Value>装备 {THING:ItemTablet} 与 {THING:ItemBatteryCellLarge}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTitleUseReader</Key>
       <Value>使用 {THING:CartridgeElectronicReader}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescUseReader1</Key>
       <Value>这个 {THING:ItemTablet} 可以有不同的功能. 翻动 {THING:ItemTablet} 在使用 {KEY:ToggleHandPower} 按键, 或者和你手的互动通过 {KEY:ActiveHandSlot} 按键.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescUseReader2</Key>
       <Value>这个 {THING:ItemTablet} 中有 {THING:CartridgeElectronicReader} 添加. 这告诉你在游戏中你需要制作的配方，以及它们的制作方法。找到 {COLORYELLOW:配方 #VAR1#} 可以让你创建一个 {THING:ItemMuffin} 通过使用 {COLORRED:鼠标滚轮} 滚动选项.
 
 使用不同的盒子允许您访问许多不同的功能,如 {THING:CartridgeNetworkAnalyser} 它允许您调试有线有线网络,或 {THING:CartridgeAtmosAnalyser} 它提供大气信息.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskUseReader1</Key>
       <Value>打开 {THING:ItemTablet}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskUseReader2</Key>
       <Value>找到 {COLORYELLOW:Recipe #VAR1#} 做一个 {THING:ItemMuffin}</Value>
     </Record>
-	
-	<Record>
+    <Record>
       <Key>TutorialTitleBakeMuffin</Key>
       <Value>烤 {THING:ItemMuffin}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin1</Key>
       <Value>游戏中的一些设备安装在上面 {THING:StructureBench}s; 他们被称为电器. 烘焙 {THING:ApplianceMicrowave} 走在前面 {THING:StructureBench}.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin2</Key>
       <Value>按下 {KEY:Drop} 按键放弃 {THING:ApplianceMicrowave} 在上面的 {THING:StructureBench}. 继续这样做直到 {THING:ApplianceMicrowave} 位于 {THING:StructureBench} 之上.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin3</Key>
       <Value>看一下 {THING:ApplianceMicrowave}. 看一边上, 而不是门, 这样你就直接瞄准了这个项目，而不是试图打开它。当你看到 {COLORYELLOW:黄色的盒子框框呀} 长按 {COLORRED:鼠标左键} 把它扳到 {THING:StructureBench}.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin4</Key>
       <Value>看那扇门 {THING:ApplianceMicrowave}. 按下 {COLORRED:鼠标左键} 打开门，让你把试剂放在里面.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin5</Key>
       <Value>在你的列表中找出所需的成分，然后看看里面 {THING:ApplianceMicrowave} 并且它已经在你以及激活的手上. 按住 {COLORRED:鼠标左键} 添加更多的试剂，直到你添加足够的. 配方中不需要添加更多的东西。你需要为一些配方做两次.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin6</Key>
       <Value>现在按下设备右边的按钮，打开 {THING:ApplianceMicrowave} . 该设备现在将烘烤你的配方。如果你有正确的配方，那么你就会做一个 {THING:ItemMuffin}. 否则，你将一无所有.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin7</Key>
       <Value>按下 {KEY:BackSlot} 键打开你的 {THING:ItemSpacepack} . 用 {THING:ItemWrench} 循环到装备槽中使用 {COLORRED:鼠标滚轮} 并按 {KEY:InventorySelect} 键将其交换到你的手中.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin1</Key>
       <Value>收集 {THING:ApplianceMicrowave}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin2</Key>
       <Value>在 {THING:StructureBench} 下降</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin3</Key>
       <Value>扳手 {THING:ApplianceMicrowave} 到位</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin11</Key>
       <Value>从 {THING:ItemSpacepack} 得到 {THING:ItemWrench} </Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin4</Key>
       <Value>把 {THING:ItemFlour} 的 {COLORYELLOW:50g} 放到 {THING:ApplianceMicrowave} 上</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin5</Key>
       <Value>把 {COLORYELLOW:one} {THING:ItemEgg} 放到 {THING:ApplianceMicrowave} 上</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin6</Key>
       <Value>把 {THING:ItemMilk} 的 {COLORYELLOW:10ml} 放到 {THING:ApplianceMicrowave} 上</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin7</Key>
       <Value>打开 {THING:ApplianceMicrowave}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin8</Key>
       <Value>制造一个 {THING:ItemMuffin}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin9</Key>
       <Value>关闭 {THING:ApplianceMicrowave} 门</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin10</Key>
       <Value>打开 {THING:ApplianceMicrowave}</Value>
     </Record>

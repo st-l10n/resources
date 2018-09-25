@@ -116,11 +116,11 @@
       <Key>TutorialDescGetTools1</Key>
       <Value>Теперь вам нужно выйти со станции, чтобы произвести ремонт. Бросьте {THING:ItemTablet}, нажав клавишу {KEY:Drop} чтобы вы смогли поднять другие предметы.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescGetTools2</Key>
       <Value>Возьмите {THING:ItemToolBelt} и экипируйте его в соответствующий слот, удерживая клавишу {KEY:ToolBeltSlot}. Мы продолжим, когда {THING:ItemToolBelt} будет экипирован и {THING:ItemSteelSheets} будет у вас в руке.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskGetTools1</Key>
       <Value>Бросьте {THING:ItemTablet}</Value>
     </Record>
@@ -202,7 +202,7 @@
 
 Нажмите {KEY:RotateLeft} чтобы повернуть его влево, {KEY:RotateRight} чтобы повернуть его вправо, {KEY:RotateUp} чтобы повернуть его вверх, {KEY:RotateDown} чтобы повернуть его вниз, {KEY:RotateRollLeft} чтобы повернуть его против часовой стрелки, или {KEY:RotateRollRight} чтобы повернуть его по часовой стрелке.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTitleFinishFrame</Key>
       <Value>Завершите сварку каркаса</Value>
     </Record>
@@ -214,7 +214,7 @@
       <Key>TutorialTaskFinishFrame1</Key>
       <Value>Сварите {THING:StructureFrame}, чтобы завершить обучение</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTitleTablet</Key>
       <Value>Взаимодействие с предметами в руках</Value>
     </Record>
@@ -246,102 +246,101 @@
       <Key>TutorialTaskTablet5</Key>
       <Value>Установите {THING:ItemBatteryCellLarge} в {THING:ItemTablet}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTitleUseReader</Key>
       <Value>Использование электронного справочника</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescUseReader1</Key>
       <Value>В {THING:ItemTablet} можно установить различные картриджи, для выполнения различных задач. Включите {THING:ItemTablet} при помощи клавиши {KEY:ToggleHandPower} или через меню взаимодействий при помощи клавиши {KEY:ActiveHandSlot}.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescUseReader2</Key>
       <Value>В {THING:ItemTablet} вставлен {THING:CartridgeElectronicReader}. Он показывает рецепты для всех предметов в игре и устройство, на котором можно произвести этот предмет. Найдите {COLORYELLOW:рецепт #VAR1#}, который подскажет вам как пригтовить {THING:ItemMuffin} используя {COLORRED:колесо мыши} для переключения между рецептами.
 
 Используя различные картриджи вы получите доступ ко многим полезным функциям, например {THING:CartridgeNetworkAnalyser} позволит вам просматривать состояние ваших проводных сетей, а {THING:CartridgeAtmosAnalyser} покажет вам информацию об атмосфере в предметах, трубах и окружающей среде.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskUseReader1</Key>
       <Value>Включите {THING:ItemTablet}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskUseReader2</Key>
       <Value>Найдите {COLORYELLOW:рецепт #VAR1#}, чтобы сделать {THING:ItemMuffin}</Value>
     </Record>
-	
-	<Record>
+    <Record>
       <Key>TutorialTitleBakeMuffin</Key>
       <Value>Испеките {THING:ItemMuffin}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin1</Key>
       <Value>Некоторые устройства должны быть установлены на {THING:StructureBench}, чтобы они могли работать. Подберите микроволновку и подойдите к столу.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin2</Key>
       <Value>Нажмите клавишу {KEY:Drop}, чтобы бросить микроволновку на {THING:StructureBench}. Пробуйте сделать это пока {THING:ApplianceMicrowave} не окажется на столе.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin3</Key>
       <Value>Держа в руках разводной ключ посмотрите на микроволновку. Смотрите на боковую сторону, а не на дверь, чтобы убедиться что вы прицелились непосредственно в микроволновку, а не пытаетесь открыть её. Когда вы увидите {COLORYELLOW:желтый куб} зажмите {COLORRED:левую кнопку мыши}, чтобы установить микроволновку на {THING:StructureBench}.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin4</Key>
       <Value>Посмотрите на дверь микроволновки. Нажмите {COLORRED:левую кнопку мыши}, чтобы открыть дверцу.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin5</Key>
       <Value>Подберите необходимые ингредиенты из списка и наведите прицел внутрь микроволновки, когда они будут в вашей активной руке. Удерживайте {COLORRED:левую кнопку мыши}, чтобы добавить больше ингредиентов, пока их не будет необходимое количество. Не добавляйте больше чем указано в рецепте.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin6</Key>
       <Value>Теперь включите микроволновку, нажав кнопку на ней. Устройство начнет готовить по вашему рецепту. Если рецепт верен, то у вас получится {THING:ItemMuffin}. Если вы ошиблись, микроволновка будет пустой.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin7</Key>
       <Value>Откройте ваш {THING:ItemSpacepack}, нажав на клавишу {KEY:BackSlot}. Выделите ячейку с разводным ключом, используя {COLORRED:колесо мыши} и нажав клавишу {KEY:InventorySelect}, чтобы взять его в руку.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin1</Key>
       <Value>Возьмите микроволновку</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin2</Key>
       <Value>Положите её на {THING:StructureBench}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin3</Key>
       <Value>Прикрутите микроволновку разводным ключом</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin11</Key>
       <Value>Возьмите {THING:ItemWrench} из ранца</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin4</Key>
       <Value>Добавьте {COLORYELLOW:50 г} муки в микроволновку</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin5</Key>
       <Value>Добавьте {COLORYELLOW:одно} {THING:ItemEgg} в микроволновку</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin6</Key>
       <Value>Добавьте {COLORYELLOW:10 мл} молока в микроволновку</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin7</Key>
       <Value>Откройте микроволновку</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin8</Key>
       <Value>Сделайте {THING:ItemMuffin}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin9</Key>
       <Value>Закройте дверь микроволновки</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin10</Key>
       <Value>Включите микроволновку</Value>
     </Record>

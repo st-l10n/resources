@@ -7,23 +7,19 @@
     <String>按下 {KEY:EmoteWave} 使你的腳色向其他工程師揮手.</String>
     <String>按下 {KEY:Jetpack} 可以快速開關你 {THING:ItemSpacepack} 的動力.</String>
     <String>按下 {KEY:ToggleUI} 可以關閉使用者介面,讓您可以擷取更乾淨漂亮的截圖或影片.</String>
-	<String>Pressing {KEY:Ascend} will make you ascend if your {THING:ItemSpacepack} is on, otherwise your character will try to jump. You can toggle the {THING:ItemSpacepack} on or off using the {KEY:Jetpack} key.</String>
-	<String>Pressing {KEY:Descend} will make you descend if your {THING:ItemSpacepack} is on. You can toggle the {THING:ItemSpacepack} on or off using the {KEY:Jetpack} key.</String>
-	<String>如果您想切換當前手持物 與 欄位物品, 選定後, 按下 {KEY:InventorySelect} 鍵.</String>
-	<String>按下 {KEY:Drop} 鍵將會立即放下您手上的物品. 如果是長按 {KEY:Drop} 鍵, 角色將會蓄力丟出手上的物品.</String>
-	<String>按下 {KEY:SwapHands} 來切換目前的主手欄位. 重複按下 {KEY:ActiveHandSlot} 將會切換目前主手物品的功能選項與欄位格(如果物品有的話).</String>
-	<String>按下 {KEY:Internals} 可以快速開關您的 {THING:ItemSpaceHelmet}.</String>
-	<String>按下 {KEY:Chatting} 來與您的朋友交談. 對話輸入視窗會出現在畫面的右下角.</String>
-	<String>要改變建築物品時的方向, 可以按下 {KEY:RotateLeft} 左轉, {KEY:RotateRight} 右轉, {KEY:RotateUp} 上翻, {KEY:RotateDown} 下翻, {KEY:RotateRollLeft} 左側翻, 與 {KEY:RotateRollRight} 右側翻.</String>
-	<String>想要知道某些東西的製作配方嗎? 插入 {THING:CartridgeElectronicReader} 到 {THING:ItemTablet} 然後按下 {KEY:ToggleHandPower} 鍵啟動.</String>
-	<String>當主手持 {THING:ItemWeldingTorch} 並切已經啟動時, 必須另一隻手也同時握有 {THING:ItemIronSheets},才能進一步升級 {THING:StructureFrameIron} 的結構.</String>
-	<String>將一疊 {THING:ItemIronOre} 放入已接上電源的 {THING:StructureArcFurnace} ,並按下啟動鍵來燒製 {THING:ItemIronIngot}.</String>
-	<String>把 {THING:MotherboardLogic} 放入 {THING:StructureComputer} 中 將可以啟動邏輯控制功能. 您將可以控制同一個網路中的設備動作與狀態</String>
-	<String>當想把物品數量切分的時候, 按下 {KEY:QuantityModifier} 鍵 將可以把物品切分成較小的數量.</String>
-	<String>Use a {THING:ItemKitLogicInputOutput} to create a {THING:StructureLogicReader} or {THING:StructureLogicWriter}. Readers allow you to read values from other devices, writers allow you to change values on devices. When combined with Math Units, you can make extremely complex automated systems.</String>
-	<String>使用 {THING:ItemKitLogicInputOutput} 來建立一個 {THING:StructureLogicBatchReader} 或者 {THING:StructureLogicBatchWriter}。 批次讀取器允許您讀取迴路中某種設備的數值，批次寫入器則允許您變更迴路中某種設備的參數。</String>
-	<String>使用 {THING:ItemKitLogicInputOutput} 來建立一個 {THING:StructureLogicSlotReader} ，它允許您從帶插槽的設備讀取插槽值。有些設備可以讓您獲得特殊的插槽資訊，例如 {THING:StructureHydroponicsStation} 的植物生長資訊。</String>
-	<String>Use a {THING:StructureRecycler} to convert things you no longer want into usable reagents. Pass the outputted {THING:ItemReagentMix} into a {THING:StructureCentrifuge} to convert it back into ore, ready for a {THING:StructureFurnace}.</String>
-	<String>使用 {THING:StructureHydraulicPipeBender} 來製造相關的物品, 像是 {THING:ItemKitAtmospherics} 可以讓您建造像是 {THING:StructureAirConditioner} 或 {THING:StructureFiltration} 這一類的設備.</String>
+    <String>如果您想切換當前手持物 與 欄位物品, 選定後, 按下 {KEY:InventorySelect} 鍵.</String>
+    <String>按下 {KEY:Drop} 鍵將會立即放下您手上的物品. 如果是長按 {KEY:Drop} 鍵, 角色將會蓄力丟出手上的物品.</String>
+    <String>按下 {KEY:SwapHands} 來切換目前的主手欄位. 重複按下 {KEY:ActiveHandSlot} 將會切換目前主手物品的功能選項與欄位格(如果物品有的話).</String>
+    <String>按下 {KEY:Internals} 可以快速開關您的 {THING:ItemSpaceHelmet}.</String>
+    <String>按下 {KEY:Chatting} 來與您的朋友交談. 對話輸入視窗會出現在畫面的右下角.</String>
+    <String>要改變建築物品時的方向, 可以按下 {KEY:RotateLeft} 左轉, {KEY:RotateRight} 右轉, {KEY:RotateUp} 上翻, {KEY:RotateDown} 下翻, {KEY:RotateRollLeft} 左側翻, 與 {KEY:RotateRollRight} 右側翻.</String>
+    <String>想要知道某些東西的製作配方嗎? 插入 {THING:CartridgeElectronicReader} 到 {THING:ItemTablet} 然後按下 {KEY:ToggleHandPower} 鍵啟動.</String>
+    <String>當主手持 {THING:ItemWeldingTorch} 並切已經啟動時, 必須另一隻手也同時握有 {THING:ItemIronSheets},才能進一步升級 {THING:StructureFrameIron} 的結構.</String>
+    <String>將一疊 {THING:ItemIronOre} 放入已接上電源的 {THING:StructureArcFurnace} ,並按下啟動鍵來燒製 {THING:ItemIronIngot}.</String>
+    <String>把 {THING:MotherboardLogic} 放入 {THING:StructureComputer} 中 將可以啟動邏輯控制功能. 您將可以控制同一個網路中的設備動作與狀態</String>
+    <String>當想把物品數量切分的時候, 按下 {KEY:QuantityModifier} 鍵 將可以把物品切分成較小的數量.</String>
+    <String>使用 {THING:ItemKitLogicInputOutput} 來建立一個 {THING:StructureLogicBatchReader} 或者 {THING:StructureLogicBatchWriter}。 批次讀取器允許您讀取迴路中某種設備的數值，批次寫入器則允許您變更迴路中某種設備的參數。</String>
+    <String>使用 {THING:ItemKitLogicInputOutput} 來建立一個 {THING:StructureLogicSlotReader} ，它允許您從帶插槽的設備讀取插槽值。有些設備可以讓您獲得特殊的插槽資訊，例如 {THING:StructureHydroponicsStation} 的植物生長資訊。</String>
+    <String>使用 {THING:StructureHydraulicPipeBender} 來製造相關的物品, 像是 {THING:ItemKitAtmospherics} 可以讓您建造像是 {THING:StructureAirConditioner} 或 {THING:StructureFiltration} 這一類的設備.</String>
   </GameTip>
 </Language>

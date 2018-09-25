@@ -121,13 +121,13 @@ Pulsar y mantener {KEY:MouseControl} para que aparezca el cursor del raton y pod
 Administrar bien tu inventario requiere habilidad y práctica; pensando cuidadosamente acerca de lo que está cogiendo y sacando y planificando bien con anticipación. Olvidando tener un {THING:ItemGasCanisterOxygen} o una {THING:ItemBatteryCellLarge} llenos puede acabar en desastre. Tambien es facil perderlos, Ten cuidado con esto!
       </Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescGetTools2</Key>
       <Value>Recoge el {THING:ItemToolBelt} y asginalo a la ranura {SLOT:Belt} manteniendo la tecla {KEY:ToolBeltSlot} , o arrastrando y manteniendo pulsado la tecla {KEY:MouseControl}. Tu ranura {SLOT:Belt} permite que tengas diferentes cinturones con herramientas de mineria o otras herramientas utiles.
       
 El {THING:ItemMiningBelt} Tiene ranuras especializadas de {SLOT:Ore} que automaticamente se llenan de mineral a medida que usas un {THING:ItemMiningDrill}, por ejemplo.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskGetTools1</Key>
       <Value>Suelta el {THING:ItemTablet}</Value>
     </Record>
@@ -223,7 +223,7 @@ Su plano de colocación contiene información de conexión importante, los símb
 
 Pulsa la tecla {KEY:RotateLeft} para rotar a la izquierda, {KEY:RotateRight} para rotar a la derecha, {KEY:RotateUp} para rotar arriba, {KEY:RotateDown} para rotar abajo, {KEY:RotateRollLeft} para girar a la izquierda, o {KEY:RotateRollRight} para girar a la derecha.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTitleFinishFrame</Key>
       <Value>Finalizar el marco de soldadura</Value>
     </Record>
@@ -235,7 +235,7 @@ Pulsa la tecla {KEY:RotateLeft} para rotar a la izquierda, {KEY:RotateRight} par
       <Key>TutorialTaskFinishFrame1</Key>
       <Value>Soldar el {THING:StructureFrame} para completar el tutorial</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTitleTablet</Key>
       <Value>Interactuando con los objetos en las manos</Value>
     </Record>
@@ -267,107 +267,102 @@ Pulsa la tecla {KEY:RotateLeft} para rotar a la izquierda, {KEY:RotateRight} par
       <Key>TutorialTaskTablet5</Key>
       <Value>Pon la {THING:ItemBatteryCellLarge} en la ranura {SLOT:Battery} de la {THING:ItemBatteryCellLarge}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTitleUseReader</Key>
       <Value>Usando el {THING:CartridgeElectronicReader}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescUseReader1</Key>
       <Value>La {THING:ItemTablet} puede tener diferentes cartuchos para diferentes funciones.  Estos incluyen el {THING:CartridgeAtmosAnalyser} para comprobar la atmósfera, el {THING:CartridgeNetworkAnalyser} para comprobar la energía de depuración y las redes lógicas, y muchos más. 
       
 1. Pulsa la tecla {THING:ItemTablet} con la tecla {KEY:ToggleHandPower}, haz clic en la opción interactiva con el ratón mientras mantiene pulsada la tecla {KEY:MouseControl}, o desplázate hasta la interacción con las manos y pulsa la tecla {KEY:ActiveHandSlot}.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescUseReader2</Key>
       <Value>La {THING:ItemTablet} tiene un {THING:CartridgeElectronicReader} insertado. Esto te indica los ingredientes que necesitas para hacer todas las piezas del juego y en qué se pueden fabricar. Busca la {COLORYELLOW:Receta #VAR1#} que te permita elaborar un {THING:ItemMuffin} utilizando la {COLORRED:Rueda del raton} para desplazarte por las diferentes recetas.
 
 El uso de diferentes cartuchos te permite acceder a muchas funciones diferentes, como el {THING:CartridgeNetworkAnalyser} que te permite depurar la red de cables, o el {THING:CartridgeAtmosAnalyser} que proporciona información atmosférica.
 </Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskUseReader1</Key>
       <Value>Enciende {THING:ItemTablet}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskUseReader2</Key>
       <Value>Encuentra la receta para hacer {THING:ItemMuffin}</Value>
     </Record>
-	
-	<Record>
+    <Record>
       <Key>TutorialTitleBakeMuffin</Key>
       <Value>Hornear un {THING:ItemMuffin}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin1</Key>
       <Value>Algunos dispositivos en el juego están montados en la {THING:StructureBench}; se llaman Electrodomésticos. Recoge el {THING:ApplianceMicrowave} y camina de frente hacia la {THING:StructureBench}.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin2</Key>
       <Value>Presiona la tecla {KEY:Drop} para colocar {THING:ApplianceMicrowave} encima de la {THING:StructureBench}. Sigue haciendo esto hasta que {THING:ApplianceMicrowave} esté encima de la {THING:StructureBench}.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin3</Key>
       <Value>Mira el {THING:ApplianceMicrowave}. Justo en el lateral, de modo que esté enfocando el artículo directamente y no intentes abrirlo. Cuando veas un {COLORYELLOW: cuadrado amarillo} manten presionado el {COLORRED:Boton izquierdo del Raton} para convertirlo en un electrodomestico conectado a la {THING:StructureBench}.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin4</Key>
       <Value>Mira la puerta del {THING:ApplianceMicrowave}. Presiona el {COLORRED:Boton izquierdo del Raton} para abrir la puerta y permitirte colocar ingredientes dentro.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin5</Key>
       <Value>Recoje los ingredientes requeridos en tu lista de tareas del suelo al lado de la mesa y mira dentro del {THING:ApplianceMicrowave}  con los ingredientes en tu mano activa para ir añadiendolos dentro. Sigue haciendo clic en {COLORRED:Boton izquierdo del raton} para añadir más ingredientes hasta que hayas añadido suficiente. No añadas más de lo necesario para la receta. Tendrás que hacer esto dos veces para algunas recetas.
       
 Si agregas demasiado, deja caer lo que llevas con la tecla {KEY:Drop}  y luego mira el {THING:ApplianceMicrowave} con la puerta abierta para acceder a la acción {COLORYELLOW:Retirar}, para comenzar de nuevo.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin6</Key>
       <Value>Ahora cierra la puerta y enciende el {THING:ApplianceMicrowave} presionando el Boton rojo a la derecha del microondas. El dispositivo ahora horneará tu receta. Si tienes la receta correcta, habrás hecho {THING:ItemMuffin}. Si no, no tendrás nada.</Value>
     </Record>
-	<Record>
-      <Key>TutorialDescBakeMuffin7</Key>
-      <Value>Open your {THING:ItemSpacepack} by pressing the {KEY:BackSlot} key or by enabled mouse control with {KEY:MouseControl} and clicking on it. Move the {THING:ItemWrench} to your hand using drag and drop or cycling with {COLORRED:Mouse Wheel} and pressing the {KEY:InventorySelect} key to swap it into your hand.</Value>
-    </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin1</Key>
       <Value>Recoge el {THING:ApplianceMicrowave}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin2</Key>
       <Value>Dejalo en la {THING:StructureBench}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin3</Key>
       <Value>Utiliza la Llave inglesa en el {THING:ApplianceMicrowave} </Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin11</Key>
       <Value>Coge la {THING:ItemWrench} de la {THING:ItemSpacepack}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin4</Key>
       <Value>Coloca {COLORYELLOW:50g} de {THING:ItemFlour} en el {THING:ApplianceMicrowave}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin5</Key>
       <Value>Coloca {COLORYELLOW:un} {THING:ItemEgg} en el {THING:ApplianceMicrowave}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin6</Key>
       <Value>Coloca {COLORYELLOW:10ml} de {THING:ItemMilk} en el {THING:ApplianceMicrowave}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin7</Key>
       <Value>Abre el {THING:ApplianceMicrowave}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin8</Key>
       <Value>Prepara un {THING:ItemMuffin}</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin9</Key>
       <Value>Cerrar la puerta del {THING:ApplianceMicrowave} </Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin10</Key>
       <Value>Enciende el {THING:ApplianceMicrowave} pulsando en el Boton on</Value>
     </Record>

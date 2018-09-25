@@ -116,11 +116,11 @@
       <Key>TutorialDescGetTools1</Key>
       <Value>이제 스테이션을 수리하기 위해 밖으로 나가야 합니다. 그 전에 다른 도구를 사용하기 위해 {KEY:Drop}키를 눌러 {THING:ItemTablet}을 내려놓으세요.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescGetTools2</Key>
       <Value>{THING:ItemToolBelt}를 줏어서 {KEY:ToolBeltSlot}키를 눌러 {SLOT:Belt}슬롯에 장비하세요. {THING:ItemToolBelt}를 장비하고 {THING:ItemSteelSheets}을 손에 들면 다음으로 진행합니다.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskGetTools1</Key>
       <Value>{THING:ItemTablet} 내려놓기</Value>
     </Record>
@@ -202,7 +202,7 @@ A {THING:StructureConsole}에 설치된 {THING:CircuitboardAirlockControl}이 {T
 
 {KEY:RotateLeft}키로 좌회전, {KEY:RotateRight}키로 우회전, {KEY:RotateUp}키로 상회전, {KEY:RotateDown}키로 하회전, {KEY:RotateRollLeft}키로 왼쪽으로 굴리고, {KEY:RotateRollRight}키로 오른쪽으로 굴릴 수 있습니다.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTitleFinishFrame</Key>
       <Value>틀 용접 완료하기</Value>
     </Record>
@@ -214,7 +214,7 @@ A {THING:StructureConsole}에 설치된 {THING:CircuitboardAirlockControl}이 {T
       <Key>TutorialTaskFinishFrame1</Key>
       <Value>{THING:StructureFrame}을 용접하면 튜토리얼을 완료할 수 있습니다.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTitleTablet</Key>
       <Value>손에 든 물건 사용하기</Value>
     </Record>
@@ -246,102 +246,101 @@ A {THING:StructureConsole}에 설치된 {THING:CircuitboardAirlockControl}이 {T
       <Key>TutorialTaskTablet5</Key>
       <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTitleUseReader</Key>
       <Value>{THING:CartridgeElectronicReader} 사용하기</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescUseReader1</Key>
       <Value>{THING:ItemTablet}에는 여러가지 기능의 카트리지를 장착할 수 있습니다. {KEY:ToggleHandPower}키, 또는 상호작용 메뉴에서 {KEY:ActiveHandSlot}키를 사용해 {THING:ItemTablet}을 켜세요.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescUseReader2</Key>
       <Value>{THING:ItemTablet}에 {THING:CartridgeElectronicReader}가 장착되어 있습니다. 이것은 게임내에서 만들 수 있는 모든 것과 그에 필요한 물품을 보여줍니다. {COLORRED:Mouse Wheel}을 사용해 {COLORYELLOW:Recipe #VAR1#}의  {THING:ItemMuffin} 페이지를 확인하세요.
 
 이 외에도 배선의 연결상태를 점검할 수 있는 {THING:CartridgeNetworkAnalyser}, 대기정보를 볼 수 있는 {THING:CartridgeAtmosAnalyser}와 같은 다양한 카트리지를 사용할 수 있습니다.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskUseReader1</Key>
       <Value>{THING:ItemTablet} 켜기</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskUseReader2</Key>
       <Value>{COLORYELLOW:Recipe #VAR1#}를 찾아 {THING:ItemMuffin} 만들기</Value>
     </Record>
-	
-	<Record>
+    <Record>
       <Key>TutorialTitleBakeMuffin</Key>
       <Value>{THING:ItemMuffin} 굽기</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin1</Key>
       <Value>게임내 일부 장비들은 {THING:StructureBench}에 장착할 수 있습니다; 바로 가전기기입니다. {THING:ApplianceMicrowave}를 줏어 들고 {THING:StructureBench}앞에 접근하세요.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin2</Key>
       <Value>{KEY:Drop}키를 눌러 {THING:ApplianceMicrowave}를 {THING:StructureBench}위에 올려두세요. {THING:ApplianceMicrowave}가 {THING:StructureBench}위에 놓일때까지 계속 시도해보세요.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin3</Key>
       <Value>{THING:ApplianceMicrowave}를 조준하세요. 측면을 향해 조준점을 맞춰 조작해도 문이 열리지 않게 해야 합니다. 렌치를 들고 조준해서 {COLORYELLOW:yellow box}표시가 나올때 {COLORRED:Left Mouse Button}키로 {THING:StructureBench}에 고정시키세요.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin4</Key>
       <Value>{THING:ApplianceMicrowave}의 문을 조준하세요. {COLORRED:Left Mouse Button}키를 눌러 문을 열고 재료를 넣어봅시다.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin5</Key>
       <Value>재료를 집어 들고 {THING:ApplianceMicrowave}내부를 조준하세요. {COLORRED:Left Mouse Button}키를 누르고 있으면 중단할 때까지 계속 재료를 넣을 수 있습니다. 필요한 조리법 이상의 재료를 넣지 않도록 하세요. 레시피의 두가지 재료를 더 넣어야 합니다.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin6</Key>
       <Value>이제 {THING:ApplianceMicrowave}의 오른쪽에 있는 버튼을 눌러 작동시키세요. 장치가 내용물을 굽기 시작할겁니다. 조리법에 맞춰 재료를 넣었다면 {THING:ItemMuffin}을 얻을 수 있을껍니다. 아니라면 아무것도 없을거구요.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialDescBakeMuffin7</Key>
       <Value>{KEY:BackSlot}키를 눌러 {THING:ItemSpacepack}을 여세요. {THING:ItemWrench}가 있는 슬롯을 {COLORRED:Mouse Wheel}을 사용해 선택한 후 {KEY:InventorySelect}키를 눌러 손에 잡으세요.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin1</Key>
       <Value>{THING:ApplianceMicrowave}를 집으세요.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin2</Key>
       <Value>{THING:StructureBench}에 내려놓으세요.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin3</Key>
       <Value>렌치로 {THING:ApplianceMicrowave}를 연결하세요.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin11</Key>
       <Value>{THING:ItemSpacepack}에서 {THING:ItemWrench}를 꺼내세요.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin4</Key>
       <Value>{THING:ItemFlour} {COLORYELLOW:50g}을 {THING:ApplianceMicrowave}에 넣으세요.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin5</Key>
       <Value>{THING:ItemEgg} {COLORYELLOW:one}개를 {THING:ApplianceMicrowave}에 넣으세요.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin6</Key>
       <Value>{THING:ItemMilk} {COLORYELLOW:10ml}를 {THING:ApplianceMicrowave}에 넣으세요.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin7</Key>
       <Value>{THING:ApplianceMicrowave} 열기</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin8</Key>
       <Value>{THING:ItemMuffin} 만들기</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin9</Key>
       <Value>{THING:ApplianceMicrowave}문 닫기</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>TutorialTaskBakeMuffin10</Key>
       <Value>{THING:ApplianceMicrowave} 켜기</Value>
     </Record>

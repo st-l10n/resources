@@ -3,27 +3,16 @@
   <GameTip>
     <String>착용하고 있는 장비의 상호작용 메뉴를 사용하거나 내부 슬롯을 확인하려면 {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot}, {KEY:ToolBeltSlot}키를 누르세요. 길게 누르면 해당 슬롯과 활성화된 손으로 벗거나 착용할 수 있습니다.</String>
     <String>{KEY:ToggleHandPower}키를 눌러 손에 들고 있는 도구를 손쉽게 켜거나 끌 수 있습니다.</String>
-    <String>Press {KEY:ToggleLight} to toggle your {THING:ItemSpaceHelmet} lights on or off quickly.</String>
-    <String>Press {KEY:EmoteWave} to make your character wave at other stationeers.</String>
-    <String>Press {KEY:Jetpack} to toggle your {THING:ItemSpacepack} propulsion on or off quickly.</String>
     <String>{KEY:ToggleUI}키를 눌러 UI를 끄고 멋진 스크린샷이나 동영상을 촬영해보세요.</String>
-	<String>Pressing {KEY:Ascend} will make you ascend if your {THING:ItemSpacepack} is on, otherwise your character will try to jump. You can toggle the {THING:ItemSpacepack} on or off using the {KEY:Jetpack} key.</String>
-	<String>Pressing {KEY:Descend} will make you descend if your {THING:ItemSpacepack} is on. You can toggle the {THING:ItemSpacepack} on or off using the {KEY:Jetpack} key.</String>
-	<String>열려있는 인벤토리 슬롯과 활성화된 손으로 물품을 교환하려면 {KEY:InventorySelect}키를 누르세요.</String>
-	<String>{KEY:Drop}키를 눌렀다 때면 물건을 떨어뜨릴 수 있습니다. {KEY:Drop}키를 누르고 있다 때면 물건을 던질 수 있습니다. 길게 누를 수록 멀리 던질 수 있습니다.</String>
-	<String>{KEY:SwapHands}키를 누르면 양손을 전환할 수 있습니다. {KEY:ActiveHandSlot}키를 눌러 활성화된 손에 들고 있는 물건에 상호작용 메뉴를 차례대로 불러올 수 있습니다.</String>
-	<String>{KEY:Internals}키를 눌러 {THING:ItemSpaceHelmet}의 바이저를 열거나 닫을 수 있습니다.</String>
-	<String>{KEY:Chatting}키를 눌러 다른 플레이어와 채팅해보세요. 입력한 메시지는 오른쪽 밑의 채팅창에 나타납니다.</String>
-	<String>{KEY:RotateLeft}키로 좌회전, {KEY:RotateRight}키로 우회전, {KEY:RotateUp}키로 상회전, {KEY:RotateDown}키로 하회전, {KEY:RotateRollLeft}키로 왼쪽으로 굴리고, {KEY:RotateRollRight}키로 오른쪽으로 굴려 건설방향을 변경할 수 있습니다.</String>
-	<String>제작법을 알고 싶나요? {THING:CartridgeElectronicReader}를 {THING:ItemTablet}에 장착하고 {KEY:ToggleHandPower}키로 켜서 찾아볼 수 있습니다.</String>
-	<String>Hold a {THING:ItemWeldingTorch} in one hand while turned on, and a stack of {THING:ItemIronSheets} in another in order to upgrade the build state of an {THING:StructureFrameIron}.</String>
-	<String>Place a stack of {THING:ItemIronOre} in a powered {THING:StructureArcFurnace} in order to smelt it into an {THING:ItemIronIngot}.</String>
-	<String>Place a {THING:MotherboardLogic} in a {THING:StructureComputer} to enable logic control. You will be able to add conditions and actions that control the states of devices on the same data network.</String>
-	<String>장치를 조작해 특정 수치를 변경할때, {KEY:QuantityModifier}키를 누른 상태에서 클릭하면 더 작은 단위로 조절할 수 있습니다.</String>
-	<String>{THING:ItemKitLogicInputOutput}으로 {THING:StructureLogicReader}와 {THING:StructureLogicWriter}장치를 설치할 수 있습니다. 전자는 다른 장치의 속성값을 읽어주고 후자는 다른 장치의 속성값을 변경할 수 있습니다. 연산장치와 조합하면 복잡한 자동화 시스템도 만들 수 있습니다.</String>
-	<String>Use a {THING:ItemKitLogicInputOutput} to create a {THING:StructureLogicBatchReader} or {THING:StructureLogicBatchWriter}. Readers allow you to read values from an entire group of other devices, writers allow you to change values on entire groups of other devices.</String>
-	<String>Use a {THING:ItemKitLogicInputOutput} to create a {THING:StructureLogicSlotReader} which allows you to read slot values from device with slots. Some devices allow you to get specialist slot information such as plant growth in the {THING:StructureHydroponicsStation}.</String>
-	<String>{THING:StructureRecycler}를 사용해 불필요한 것들을 재활용하세요. 배출된 {THING:ItemReagentMix}을 {THING:StructureCentrifuge}에 넣으면 {THING:StructureFurnace}로 정제할 수 있는 광석으로 반환됩니다.</String>
-	<String>Use a {THING:StructureHydraulicPipeBender} to manufacture atmospheric items, such as the {THING:ItemKitAtmospherics} which allows you to build useful machines such as the {THING:StructureAirConditioner} or {THING:StructureFiltration}.</String>
+    <String>열려있는 인벤토리 슬롯과 활성화된 손으로 물품을 교환하려면 {KEY:InventorySelect}키를 누르세요.</String>
+    <String>{KEY:Drop}키를 눌렀다 때면 물건을 떨어뜨릴 수 있습니다. {KEY:Drop}키를 누르고 있다 때면 물건을 던질 수 있습니다. 길게 누를 수록 멀리 던질 수 있습니다.</String>
+    <String>{KEY:SwapHands}키를 누르면 양손을 전환할 수 있습니다. {KEY:ActiveHandSlot}키를 눌러 활성화된 손에 들고 있는 물건에 상호작용 메뉴를 차례대로 불러올 수 있습니다.</String>
+    <String>{KEY:Internals}키를 눌러 {THING:ItemSpaceHelmet}의 바이저를 열거나 닫을 수 있습니다.</String>
+    <String>{KEY:Chatting}키를 눌러 다른 플레이어와 채팅해보세요. 입력한 메시지는 오른쪽 밑의 채팅창에 나타납니다.</String>
+    <String>{KEY:RotateLeft}키로 좌회전, {KEY:RotateRight}키로 우회전, {KEY:RotateUp}키로 상회전, {KEY:RotateDown}키로 하회전, {KEY:RotateRollLeft}키로 왼쪽으로 굴리고, {KEY:RotateRollRight}키로 오른쪽으로 굴려 건설방향을 변경할 수 있습니다.</String>
+    <String>제작법을 알고 싶나요? {THING:CartridgeElectronicReader}를 {THING:ItemTablet}에 장착하고 {KEY:ToggleHandPower}키로 켜서 찾아볼 수 있습니다.</String>
+    <String>장치를 조작해 특정 수치를 변경할때, {KEY:QuantityModifier}키를 누른 상태에서 클릭하면 더 작은 단위로 조절할 수 있습니다.</String>
+    <String>{THING:ItemKitLogicInputOutput}으로 {THING:StructureLogicReader}와 {THING:StructureLogicWriter}장치를 설치할 수 있습니다. 전자는 다른 장치의 속성값을 읽어주고 후자는 다른 장치의 속성값을 변경할 수 있습니다. 연산장치와 조합하면 복잡한 자동화 시스템도 만들 수 있습니다.</String>
+    <String>{THING:StructureRecycler}를 사용해 불필요한 것들을 재활용하세요. 배출된 {THING:ItemReagentMix}을 {THING:StructureCentrifuge}에 넣으면 {THING:StructureFurnace}로 정제할 수 있는 광석으로 반환됩니다.</String>
   </GameTip>
 </Language>
