@@ -17,7 +17,7 @@
     <RecordReagent>
       <Key>Egg</Key>
       <Value>Egg</Value>
-      <Unit />
+      <Unit/>
     </RecordReagent>
     <RecordReagent>
       <Key>Iron</Key>
@@ -117,12 +117,12 @@
     <RecordReagent>
       <Key>Potato</Key>
       <Value>Potato</Value>
-      <Unit />
+      <Unit/>
     </RecordReagent>
     <RecordReagent>
       <Key>Tomato</Key>
       <Value>Tomato</Value>
-      <Unit />
+      <Unit/>
     </RecordReagent>
     <RecordReagent>
       <Key>Fenoxitone</Key>
@@ -157,7 +157,7 @@
     <RecordReagent>
       <Key>Pumpkin</Key>
       <Value>Pumpkin</Value>
-      <Unit />
+      <Unit/>
     </RecordReagent>
     <RecordReagent>
       <Key>Rice</Key>
@@ -3242,6 +3242,14 @@
       <Key>ItemGasCanisterNitrousOxide</Key>
       <Value>Gas Canister (Sleeping)</Value>
     </Record>
+    <Record>
+      <Key>ItemNVG</Key>
+      <Value>Night Vision Goggles</Value>
+    </Record>
+    <Record>
+      <Key>ItemGlasses</Key>
+      <Value>Glasses</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -3283,6 +3291,10 @@
     <Record>
       <Key>Lungs</Key>
       <Value>Lungs</Value>
+    </Record>
+    <Record>
+      <Key>Glasses</Key>
+      <Value>Glasses</Value>
     </Record>
     <Record>
       <Key>Belt</Key>
@@ -3430,7 +3442,7 @@
     </Record>
     <Record>
       <Key>ProgrammableChip</Key>
-      <Value>Programmable Chip</Value>
+      <Value>Processor</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -3931,6 +3943,10 @@
     <Record>
       <Key>InventorySlotBelt</Key>
       <Value>Belt</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotGlasses</Key>
+      <Value>Glasses</Value>
     </Record>
     <Record>
       <Key>InventorySlotUniform</Key>
@@ -5113,7 +5129,7 @@ Temperature {1}</Value>
       <Value>Purple</Value>
     </Record>
   </Colors>
-  <Keys />
+  <Keys/>
   <Mineables>
     <Record>
       <Key>Iron</Key>
@@ -5164,5 +5180,5 @@ Temperature {1}</Value>
       <Value>Silicon</Value>
     </Record>
   </Mineables>
-  <GameTip />
+  <GameTip/>
 </Language>
