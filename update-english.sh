@@ -6,16 +6,6 @@ docker container run --rm -it \
   --user $(id -u):$(id -g) \
   gortc/steam:latest
 
-INPUT_DIR="game/rocketstation_DedicatedServer_Data/StreamingAssets/Language/"
-
-cp $INPUT_DIR/english*.xml .
-
-INPUT_DIR="game/rocketstation_DedicatedServer_Data/StreamingAssets/Scenario/Tutorial/Language/"
-
-cp $INPUT_DIR/english*.xml .
-
-INPUT_DIR="game/rocketstation_DedicatedServer_Data/StreamingAssets/Scenario/EscapeFromMars/Language/"
-
-cp $INPUT_DIR/english*.xml .
+martian update -i game/rocketstation_DedicatedServer_Data/StreamingAssets/
 
 
