@@ -25,6 +25,10 @@
       <Value>With the {THING:ItemBatteryCellLarge} active in your {SLOT:LeftHand} or {SLOT:RightHand} slot, press the {KEY:InventorySelect} key to swap the {THING:ItemBatteryCellLarge} into the {SLOT:LifeSupport} slot. If needed you can press the {KEY:SwapHands} key to swap what is your active hand.</Value>
     </Record>
     <Record>
+      <Key>TutorialTitleSuitFilter</Key>
+      <Value>Wyposażenie Filtra</Value>
+    </Record>
+    <Record>
       <Key>TutorialDescFilter2</Key>
       <Value>You can interact with the {SLOT:Suit} slot by pressing and releasing the {KEY:SuitSlot} key. This will cycle through Interactions and Slot Inventory, if available. Do this until you see the slot inventory.</Value>
     </Record>
@@ -53,6 +57,18 @@ A {THING:CircuitboardAirlockControl} in the {THING:StructureConsole} is controll
     <Record>
       <Key>TutorialDescRepairCable1</Key>
       <Value>There is a broken {THING:StructureCableJunction}, find it and remove by using a {THING:ItemWireCutters} from your {THING:ItemToolBelt}. Press {KEY:ToolBeltSlot} to open your {SLOT:Belt} slot. Press {KEY:InventorySelect} to swap the highlighted interior slot item to your hands.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskRepairCable1</Key>
+      <Value>Wyposaz swoj {THING:ItemWireCutters}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskRepairCable2</Key>
+      <Value>Usunac {THING:StructureCableJunctionBurnt}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskRepairCable3</Key>
+      <Value>Wyposaz swoj {THING:ItemCableCoil}</Value>
     </Record>
     <Record>
       <Key>TutorialDescRepairCable3</Key>
