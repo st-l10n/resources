@@ -6,7 +6,7 @@
   <Interface>
     <Record>
       <Key>TutorialTitleWearSpacesuit</Key>
-      <Value>Наденьте скафандра</Value>
+      <Value>Надеваем скафандр</Value>
     </Record>
     <Record>
       <Key>TutorialTaskWearHelmet</Key>
@@ -46,7 +46,7 @@
     </Record>
     <Record>
       <Key>TutorialTitlePowerSuit</Key>
-      <Value>Энергия для скафандра</Value>
+      <Value>Запитываем скафандр</Value>
     </Record>
     <Record>
       <Key>TutorialDescPowerSuit</Key>
@@ -78,7 +78,7 @@
     </Record>
     <Record>
       <Key>TutorialTitleSuitFilter</Key>
-      <Value>Установите фильтр</Value>
+      <Value>Устанавливаем фильтр</Value>
     </Record>
     <Record>
       <Key>TutorialDescFilter1</Key>
@@ -94,7 +94,7 @@
     </Record>
     <Record>
       <Key>TutorialTaskFilter4</Key>
-      <Value>Поместите фильтр в выделенную ячейку</Value>
+      <Value>Поместите {THING:ItemGasFilterCarbonDioxide} в выделенную ячейку {THING:ItemEvaSuit}</Value>
     </Record>
     <Record>
       <Key>TutorialDescFilter2</Key>
@@ -110,7 +110,7 @@
     </Record>
     <Record>
       <Key>TutorialTitleGetTools</Key>
-      <Value>Соберите стрительную экипировку</Value>
+      <Value>Собираем стрительную экипировку</Value>
     </Record>
     <Record>
       <Key>TutorialDescGetTools1</Key>
@@ -130,7 +130,7 @@
     </Record>
     <Record>
       <Key>TutorialTaskGetTools3</Key>
-      <Value>Возьмите {THING:ItemSteelSheets} в руку</Value>
+      <Value>Возьмите {THING:ItemSteelSheets} в {SLOT:LeftHand} или {SLOT:RightHand} слот</Value>
     </Record>
     <Record>
       <Key>TutorialTitleGoInAirlock</Key>
@@ -176,7 +176,7 @@
     </Record>
     <Record>
       <Key>TutorialTaskRepairCable2</Key>
-      <Value>Обрежьте сгоревший кабель</Value>
+      <Value>Обрежьте {THING:StructureCableJunctionBurnt}</Value>
     </Record>
     <Record>
       <Key>TutorialTaskRepairCable3</Key>
@@ -274,7 +274,7 @@
     </Record>
     <Record>
       <Key>TutorialDescBakeMuffin1</Key>
-      <Value>Некоторые устройства должны быть установлены на {THING:StructureBench}, чтобы они могли работать. Подберите микроволновку и подойдите к столу.</Value>
+      <Value>Некоторые устройства должны быть установлены на {THING:StructureBench}, чтобы они могли работать. Подберите {THING:ApplianceMicrowave} и подойдите к {THING:StructureBench}.</Value>
     </Record>
     <Record>
       <Key>TutorialDescBakeMuffin2</Key>
@@ -302,7 +302,7 @@
     </Record>
     <Record>
       <Key>TutorialTaskBakeMuffin1</Key>
-      <Value>Возьмите микроволновку</Value>
+      <Value>Возьмите {THING:ApplianceMicrowave}</Value>
     </Record>
     <Record>
       <Key>TutorialTaskBakeMuffin2</Key>
@@ -310,7 +310,7 @@
     </Record>
     <Record>
       <Key>TutorialTaskBakeMuffin3</Key>
-      <Value>Прикрутите микроволновку разводным ключом</Value>
+      <Value>Прикрутите {THING:ApplianceMicrowave} разводным ключом</Value>
     </Record>
     <Record>
       <Key>TutorialTaskBakeMuffin11</Key>
@@ -326,23 +326,23 @@
     </Record>
     <Record>
       <Key>TutorialTaskBakeMuffin6</Key>
-      <Value>Добавьте {COLORYELLOW:10 мл} молока в микроволновку</Value>
+      <Value>Добавьте {COLORYELLOW:10мл} {THING:ItemMilk} в микроволновку</Value>
     </Record>
     <Record>
       <Key>TutorialTaskBakeMuffin7</Key>
-      <Value>Откройте микроволновку</Value>
+      <Value>Откройте {THING:ApplianceMicrowave}</Value>
     </Record>
     <Record>
       <Key>TutorialTaskBakeMuffin8</Key>
-      <Value>Сделайте {THING:ItemMuffin}</Value>
+      <Value>Испеките {THING:ItemMuffin}</Value>
     </Record>
     <Record>
       <Key>TutorialTaskBakeMuffin9</Key>
-      <Value>Закройте дверь микроволновки</Value>
+      <Value>Закройте дверцу {THING:ApplianceMicrowave}</Value>
     </Record>
     <Record>
       <Key>TutorialTaskBakeMuffin10</Key>
-      <Value>Включите микроволновку</Value>
+      <Value>Включите {THING:ApplianceMicrowave}</Value>
     </Record>
   </Interface>
 </Language>

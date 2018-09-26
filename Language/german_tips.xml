@@ -1,12 +1,16 @@
-﻿<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>DE</Code>
   <GameTip>
     <String>Durch drücken von {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot}, oder {KEY:ToolBeltSlot} kann zwischen den Aktionen und Inventaren der angelegten Ausrüstung gewechselt werden. Durch Drücken und Halten der einer der Tasten, kann Ausrüstung zwischen dem Ausrüstungsplatz und der aktiven Hand gewechselt werden. </String>
     <String>Durch drücken von {KEY:ToggleHandPower} kann ein Gerät schnell ein- oder ausgeschaltet werden.</String>
+    <String>Durch drücken von {KEY:ToggleLight} können die Lampen des {THING:ItemSpaceHelmet} schnell an- und ausgeschaltet werden.</String>
+    <String>Durch drücken von {KEY:EmoteWave} kann der eigene Charakter anderen Stationeers zuwinken.</String>
+    <String>Durch drücken von {KEY:Jetpack} kann das {THING:ItemSpacepack} an- und ausgeschaltet werden.</String>
     <String>Mit {KEY:ToggleUI} kann die UI für z.B. Screenshots oder Videos ein und ausgeblendet werden.</String>
     <String>{KEY:Ascend} sorgt bei aktivem {THING:ItemSpacepack} für Auftrieb, anderenfalls wird ein Sprung ausgeführt. Ein {THING:ItemSpacepack} kann mit {KEY:Jetpack} aktiviert und deaktiviert werden.</String>
     <String>{KEY:Descend} sorgt bei aktivem {THING:ItemSpacepack} zum Herabsinken. Ein {THING:ItemSpacepack} mit {KEY:Jetpack} aktiviert und deaktiviert werden..</String>
     <String>Durch drücken von {KEY:InventorySelect}, kann etwas zwischen aktiver Hand und einem freien Inventarplatz hin und her getauscht werden.</String>
+    <String>Drücken und sofortiges loslassen der Taste {KEY:Drop} wird den - aktuell in der Hand gehaltenen - Gegenstand fallen lassen. Wird {KEY:Drop} gehalten, wird versucht den Gegenstand zu werfen. Desto länger die Taste gehalten wird, desto weiter wird versucht zu werfen.</String>
     <String>{KEY:SwapHands} wechselt die aktive Hand. {KEY:ActiveHandSlot} aktiviert das Interaktionsmenü für den Gegenstand in der aktiven Hand.</String>
     <String>Durch drücken von {KEY:Internals}, kann der {THING:ItemSpaceHelmet} schnell geöffnet und geschlossen werden.</String>
     <String>{KEY:Chatting} erlaubt es Spielern über eine kleine Chatbox in der unteren rechten Ecke deines Bildschirms miteinander zu kommunizieren.</String>
@@ -16,6 +20,9 @@
     <String>Wird ein Stapel {THING:ItemIronOre} in einem angeschalteten {THING:StructureArcFurnace} platziert, kann er zu {THING:ItemIronIngot} geschmolzen werden.</String>
     <String>Mit einem {THING:MotherboardLogic} in einem {THING:StructureComputer} wird die Logikkontrolle zu aktiviert. So ist es möglich Bedingungen und Aktionen zu definieren, die Geräte im gleichen Netzwerk steuern.</String>
     <String>Eine gedrückte {KEY:QuantityModifier}-Taste erlaubt es numerische Werte in kleineren Sprüngen einzustellen.</String>
+    <String>Die Verwendung eines {THING:ItemKitLogicInputOutput} erlaubt die Plazierung eines {THING:StructureLogicReader} oder {THING:StructureLogicWriter}. Sie erlauben das Auslesen und Schreiben von Werten an diversen Geräten. Wenn diese mit mathematischen Logikeinheiten kombiniert werden, können komplexe automatisierte Systeme erschaffen werden.</String>
+    <String>Die Verwendung eines {THING:ItemKitLogicInputOutput} erlaubt die Plazierung eines {THING:StructureLogicBatchReader} oder {THING:StructureLogicBatchWriter}. Sie erlauben das Lesen und Schreiben ganzer Gerätegruppen.</String>
+    <String>Die Verwendung eines {THING:ItemKitLogicInputOutput} erlaubt die Platzierung eines {THING:StructureLogicSlotReader}, welche es ermöglichen Werte aus einem Steckplatz auszulesen. Einige Geräte erlauben das Auslesen spezieller Informationen wie das aktuelle Pflanzenwachstum einer {THING:StructureHydroponicsStation}.</String>
     <String>{THING:StructureRecycler} wandelt nicht mehr benötigte Gegenstände in {THING:ItemReagentMix} um. Diese können dann in einer {THING:StructureCentrifuge} zurück in Erz aufgespalten werden welche in einem {THING:StructureFurnace} wieder in Barren umgewandelt werden können...</String>
     <String>{THING:StructureHydraulicPipeBender} erlaubt die Herstellung von Gegenständen zur Änderung und Manipulation der Umluft und Gasen wie z.B. {THING:ItemKitAtmospherics} welche zur Platzierung von {THING:StructureAirConditioner} oder {THING:StructureFiltration} benötigt wird.</String>
   </GameTip>
