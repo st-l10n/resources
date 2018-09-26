@@ -4,6 +4,10 @@
   <Code>DE</Code>
   <Font>font_extended</Font>
   <Interface>
+    <Record>
+      <Key>EscapeFromMarsTitle</Key>
+      <Value>Flucht vom Mars [BETA]</Value>
+    </Record>
     <!-- Mission Stage: In Case of Emergency -->
     <Record>
       <Key>MarsTitleInCaseOfEmergency</Key>
@@ -21,10 +25,18 @@
       <Key>MarsTaskGetFood</Key>
       <Value>Finde ein {THING:ItemCerealBar}</Value>
     </Record>
+    <Record>
+      <Key>MarsTabletStage1</Key>
+      <Value>Notfallplan</Value>
+    </Record>
     <!-- Mission Stage: Aquire Raw Materials -->
     <Record>
       <Key>MarsTitleRawMaterials</Key>
-      <Value>Bitten, Bau und Stehlen</Value>
+      <Value>Betteln, graben und stehlen</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage2</Key>
+      <Value>Rohmaterialien</Value>
     </Record>
     <Record>
       <Key>MarsDescRawMaterials</Key>
@@ -32,20 +44,24 @@
     </Record>
     <Record>
       <Key>MarsTaskGetIronIngots</Key>
-      <Value>Holen Sie sich ein{THING:ItemIronIngot}</Value>
+      <Value>Holen Sie sich ein {THING:ItemIronIngot}</Value>
     </Record>
     <Record>
       <Key>MarsTaskGetCopperIngots</Key>
-      <Value>Holen Sie sich ein{THING:ItemCopperIngot}</Value>
+      <Value>Holen Sie sich ein {THING:ItemCopperIngot}</Value>
     </Record>
     <Record>
       <Key>MarsTaskGetGoldIngots</Key>
-      <Value>Holen Sie sich ein{THING:ItemGoldIngot}</Value>
+      <Value>Holen Sie sich ein {THING:ItemGoldIngot}</Value>
     </Record>
     <!-- Mission Stage: Setup Manufacturing -->
     <Record>
       <Key>MarsTitleSetupManufacturing</Key>
       <Value>Die Produktionsmittel ergreifen</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage3</Key>
+      <Value>Produktion 101</Value>
     </Record>
     <Record>
       <Key>MarsDescSetupManufacturing</Key>
@@ -65,6 +81,10 @@
       <Value>Eine zuverlässige Nahrungsquelle</Value>
     </Record>
     <Record>
+      <Key>MarsTabletStage4</Key>
+      <Value>Leitfaden der Gartenarbeit</Value>
+    </Record>
+    <Record>
       <Key>MarsDescFoodSupply</Key>
       <Value>Wir wissen nicht, wie lange du hier überleben musst. Wir sollten für alle Fälle eine erneuerbare Nahrungsquelle vorbereiten.</Value>
     </Record>
@@ -80,6 +100,10 @@
     <Record>
       <Key>MarsTitleCreateMothership</Key>
       <Value>Erstelle Ein Mutterschiff</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage5</Key>
+      <Value>Raumfahrt</Value>
     </Record>
     <Record>
       <Key>MarsDescCreateMothership</Key>
@@ -105,6 +129,10 @@
     <Record>
       <Key>MarsTaskLaunchMothership</Key>
       <Value>Starte dein Mutterschiff in eine Höhe von 100m</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage6</Key>
+      <Value>Flucht</Value>
     </Record>
   </Interface>
 </Language>
