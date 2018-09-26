@@ -4,6 +4,8 @@
     <String>착용하고 있는 장비의 상호작용 메뉴를 사용하거나 내부 슬롯을 확인하려면 {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot}, {KEY:ToolBeltSlot}키를 누르세요. 길게 누르면 해당 슬롯과 활성화된 손으로 벗거나 착용할 수 있습니다.</String>
     <String>{KEY:ToggleHandPower}키를 눌러 손에 들고 있는 도구를 손쉽게 켜거나 끌 수 있습니다.</String>
     <String>{KEY:ToggleUI}키를 눌러 UI를 끄고 멋진 스크린샷이나 동영상을 촬영해보세요.</String>
+    <String>{THING:ItemSpacepack}이 켜진 상태에서 {KEY:Ascend}키를 누르면 날아오를 수 있습니다. 꺼져있는 상태에서는 뛰어오릅니다. {KEY:Jetpack}키를 사용해 {THING:ItemSpacepack}을 켜거나 끌 수 있습니다.</String>
+    <String>{THING:ItemSpacepack}이 켜진 상태에서 {KEY:Descend}키를 누르면  하강할 수 있습니다. {KEY:Jetpack}키를 눌러 {THING:ItemSpacepack}을 켜고 끌 수 있습니다.</String>
     <String>열려있는 인벤토리 슬롯과 활성화된 손으로 물품을 교환하려면 {KEY:InventorySelect}키를 누르세요.</String>
     <String>{KEY:Drop}키를 눌렀다 때면 물건을 떨어뜨릴 수 있습니다. {KEY:Drop}키를 누르고 있다 때면 물건을 던질 수 있습니다. 길게 누를 수록 멀리 던질 수 있습니다.</String>
     <String>{KEY:SwapHands}키를 누르면 양손을 전환할 수 있습니다. {KEY:ActiveHandSlot}키를 눌러 활성화된 손에 들고 있는 물건에 상호작용 메뉴를 차례대로 불러올 수 있습니다.</String>
@@ -11,8 +13,12 @@
     <String>{KEY:Chatting}키를 눌러 다른 플레이어와 채팅해보세요. 입력한 메시지는 오른쪽 밑의 채팅창에 나타납니다.</String>
     <String>{KEY:RotateLeft}키로 좌회전, {KEY:RotateRight}키로 우회전, {KEY:RotateUp}키로 상회전, {KEY:RotateDown}키로 하회전, {KEY:RotateRollLeft}키로 왼쪽으로 굴리고, {KEY:RotateRollRight}키로 오른쪽으로 굴려 건설방향을 변경할 수 있습니다.</String>
     <String>제작법을 알고 싶나요? {THING:CartridgeElectronicReader}를 {THING:ItemTablet}에 장착하고 {KEY:ToggleHandPower}키로 켜서 찾아볼 수 있습니다.</String>
+    <String>{THING:StructureFrameIron}을 보강하려면, 한손에 {THING:ItemIronSheets}을 들고 다른 한손에 {THING:ItemWeldingTorch}를 들고 켜서 보강할 부분에 사용하세요.</String>
+    <String>{THING:StructureArcFurnace}에 {THING:ItemIronOre}을 넣고 녹여서 {THING:ItemIronIngot}를 만들 수 있습니다.</String>
+    <String>로직 제어를 사용하려면 {THING:StructureComputer}에 {THING:MotherboardLogic}를 장착하세요. 데이터 네트워크로 연결된 장치의 제어 조건과 동작을 추가할 수 있습니다.</String>
     <String>장치를 조작해 특정 수치를 변경할때, {KEY:QuantityModifier}키를 누른 상태에서 클릭하면 더 작은 단위로 조절할 수 있습니다.</String>
     <String>{THING:ItemKitLogicInputOutput}으로 {THING:StructureLogicReader}와 {THING:StructureLogicWriter}장치를 설치할 수 있습니다. 전자는 다른 장치의 속성값을 읽어주고 후자는 다른 장치의 속성값을 변경할 수 있습니다. 연산장치와 조합하면 복잡한 자동화 시스템도 만들 수 있습니다.</String>
     <String>{THING:StructureRecycler}를 사용해 불필요한 것들을 재활용하세요. 배출된 {THING:ItemReagentMix}을 {THING:StructureCentrifuge}에 넣으면 {THING:StructureFurnace}로 정제할 수 있는 광석으로 반환됩니다.</String>
+    <String>{THING:StructureHydraulicPipeBender}를 사용해 {THING:StructureAirConditioner}나 {THING:StructureFiltration}와 같은 유용한 장치를 설치할 수 있는 {THING:ItemKitAtmospherics}를 만들 수 있습니다.</String>
   </GameTip>
 </Language>

@@ -5,6 +5,7 @@
     <String>Нажмите {KEY:ToggleHandPower}, чтобы быстро включить или выключить предмет, который вы держите в активной руке.</String>
     <String>Нажмите {KEY:ToggleLight}, чтобы быстро включить или выключить фонарик на {THING:ItemSpaceHelmet}.</String>
     <String>Нажмите {KEY:EmoteWave}, чтобы ваш персонаж помахал рукой другим стационeрам.</String>
+    <String>Нажмите {KEY:Jetpack}, чтобы быстро выключить или включить тягу на {THING:ItemSpacepack}.</String>
     <String>Нажмите {KEY:ToggleUI}, чтобы включить или выключить пользовательский интерфейс. Так вы сможете сделать потрясающие скриншоты или записать видео.</String>
     <String>Нажав {KEY:Ascend} вы будете подниматься вверх, если ваш {THING:ItemSpacepack} включён. Если он выключен, ваш персонаж попытается прыгнуть. Вы можете включать и выключать {THING:ItemSpacepack}, при помощи кнопки {KEY:Jetpack}.</String>
     <String>Нажав {KEY:Descend} вы будете опускаться вниз, если ваш {THING:ItemSpacepack} включён. Вы можете включать и выключать {THING:ItemSpacepack}, при помощи кнопки {KEY:Jetpack}.</String>
@@ -15,7 +16,12 @@
     <String>Нажмите {KEY:Chatting}, чтобы общаться с другими игроками. Окно для ввода текста появится в правой нижней части экрана.</String>
     <String>Чтобы изменить ориетацию предмета, который вы собираетесь построить, нажмите {KEY:RotateLeft} чтобы повернуть его влево, {KEY:RotateRight} чтобы повернуть его вправо, {KEY:RotateUp} чтобы повернуть его вверх, {KEY:RotateDown} чтобы повернуть его вниз, {KEY:RotateRollLeft} чтобы повернуть его против часовой стрелки, или {KEY:RotateRollRight} чтобы повернуть его по часовой стрелке.</String>
     <String>Хотите узнать как сделать какой-либо предмет? Вставьте {THING:CartridgeElectronicReader} в {THING:ItemTablet} и включите его с помощью кнопки {KEY:ToggleHandPower}, когда он будет в вашей активной руке.</String>
+    <String>Вы должны держать газовую горелку включённой в вашей активной руке, и {THING:ItemIronSheets} в другой, чтобы завершить постройку железного каркаса.</String>
+    <String>Положите {THING:ItemIronOre} во включённую {THING:StructureArcFurnace}, чтобы выплавить {THING:ItemIronIngot}.</String>
+    <String>Установите {THING:MotherboardLogic} в {THING:StructureComputer}, чтобы включить управление логикой. Вы сможете добавлять условия и действия, которые будут контроллировать состояние устройств в сети данных, к которой подключён {THING:StructureComputer}.</String>
     <String>Когда вы изменяете какую-либо величину при помощи элементов управления в игре, вы можете зажать клавишу {KEY:QuantityModifier} чтобы ипользовать более точные значения.</String>
     <String>Используйте {THING:ItemKitLogicInputOutput}, чтобы создать {THING:StructureLogicReader} или {THING:StructureLogicWriter}. Чип чтения позвояет вам считывать величины различных настроек прочих устройств, чип записи позволяет вам менять эти величины на устройствах. В сочетании с математичеcкими чипами вы можете создать невероятно сложные автоматизированные системы.</String>
+    <String>Используйте {THING:StructureRecycler}, чтобы переработать ненужные предметы в реагенты. Положите {THING:ItemReagentMix} в центрифугу, чтобы разделить смесь на отдельные руды, которые можно переплавить в печи.</String>
+    <String>Используйте {THING:StructureHydraulicPipeBender} для производства вещей, связанных с атмосферой. Например для создания набора для постройки атмосферных устройств, который позволяет строить такие полезные аппараты как {THING:StructureAirConditioner} или {THING:StructureFiltration}.</String>
   </GameTip>
 </Language>
