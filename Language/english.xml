@@ -17,7 +17,7 @@
     <RecordReagent>
       <Key>Egg</Key>
       <Value>Egg</Value>
-      <Unit />
+      <Unit/>
     </RecordReagent>
     <RecordReagent>
       <Key>Iron</Key>
@@ -117,12 +117,12 @@
     <RecordReagent>
       <Key>Potato</Key>
       <Value>Potato</Value>
-      <Unit />
+      <Unit/>
     </RecordReagent>
     <RecordReagent>
       <Key>Tomato</Key>
       <Value>Tomato</Value>
-      <Unit />
+      <Unit/>
     </RecordReagent>
     <RecordReagent>
       <Key>Fenoxitone</Key>
@@ -157,7 +157,7 @@
     <RecordReagent>
       <Key>Pumpkin</Key>
       <Value>Pumpkin</Value>
-      <Unit />
+      <Unit/>
     </RecordReagent>
     <RecordReagent>
       <Key>Rice</Key>
@@ -3250,6 +3250,26 @@
       <Key>ItemGlasses</Key>
       <Value>Glasses</Value>
     </Record>
+    <Record>
+      <Key>StructureLogicHashGen</Key>
+      <Value>Logic Hash Generator</Value>
+    </Record>
+    <Record>
+      <Key>StructureShuttleLandingPad</Key>
+      <Value>Landing Pad</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLandingPad</Key>
+      <Value>Kit (Landing Pad)</Value>
+    </Record>
+    <Record>
+      <Key>StructureSatelliteDish</Key>
+      <Value>Satellite Dish</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSatelliteDish</Key>
+      <Value>Kit (Satellite Dish)</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -4432,7 +4452,7 @@ Scroll &lt;color=red&gt;Mouse Wheel&lt;/color&gt; for more options.</Value>
     </Record>
     <Record>
       <Key>SettingsUPNPNote</Key>
-      <Value>If Universal Plug and Play (UPNP) is enabled on your router, these ports will be automatically forwarded when you host a game.</Value>
+      <Value>If Universal Plug and Play (UPNP) is enabled here and on your router, these ports will be automatically forwarded when you create a game.</Value>
     </Record>
     <Record>
       <Key>SettingsTooltipOpacity</Key>
@@ -5083,6 +5103,18 @@ Temperature {1}</Value>
       <Value>Interface
 </Value>
     </Record>
+    <Record>
+      <Key>SettingsUPNPEnabled</Key>
+      <Value>Enable UPNP</Value>
+    </Record>
+    <Record>
+      <Key>SettingsEnableClouds</Key>
+      <Value>Enable Clouds</Value>
+    </Record>
+    <Record>
+      <Key>SettingsClouds</Key>
+      <Value>Enable Clouds</Value>
+    </Record>
   </Interface>
   <Colors>
     <Record>
@@ -5134,7 +5166,7 @@ Temperature {1}</Value>
       <Value>Purple</Value>
     </Record>
   </Colors>
-  <Keys />
+  <Keys/>
   <Mineables>
     <Record>
       <Key>Iron</Key>
@@ -5185,5 +5217,5 @@ Temperature {1}</Value>
       <Value>Silicon</Value>
     </Record>
   </Mineables>
-  <GameTip />
+  <GameTip/>
 </Language>
