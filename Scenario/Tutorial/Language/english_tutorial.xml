@@ -22,17 +22,18 @@
     </Record>
     <Record>
       <Key>TutorialDescPickupHelmet</Key>
-      <Value>Find the {THING:ItemSpaceHelmet} and put it in your {SLOT:LeftHand} or {SLOT:RightHand} slot by clicking the {COLORRED:Left Mouse Button} over the green interactable you see when looking at it.</Value>
+      <Value>Find the {THING:ItemSpaceHelmet} and put it in your {SLOT:LeftHand} or {SLOT:RightHand} slot by clicking the {KEY:PrimaryAction} over the green interactable you see when looking at it. For more information read the {LINK:InventoryPage;Inventory} section in the {LINK:Home;Stationpedia}</Value>
     </Record>
     <Record>
       <Key>TutorialDescWearHelmet</Key>
-      <Value>You have two ways to interact with your inventory: hotkeys and mouse control. Both have their advantages and disadvantages.
+      <Value>You have two ways to interact with your {LINK:InventoryPage;inventory}: hotkeys and mouse control. Both have their advantages and disadvantages.
       
 Press and hold {KEY:MouseControl} to bring up the mouse cursor to drag and drop the {THING:ItemSpaceHelmet} into your {SLOT:Helmet} slot. Or press and hold {KEY:HelmetSlot} until your {THING:ItemSpaceHelmet} moves to your {SLOT:Helmet} slot.</Value>
     </Record>
     <Record>
       <Key>TutorialDescPickupSuit</Key>
-      <Value>Find the {THING:ItemEvaSuit} and put it in your {SLOT:LeftHand} or {SLOT:RightHand} slot by clicking the {COLORRED:Left Mouse Button} over the green interactable you see when looking at it.</Value>
+      <Value>Find the {THING:ItemEvaSuit} and put it in your {SLOT:LeftHand} or {SLOT:RightHand}.This time can try dragging the {THING:ItemEvaSuit} directly into your {SLOT:Suit} slot, it's much faster. Hold {KEY:MouseControl} and move your mouse cursor over the {THING:ItemEvaSuit} hold {KEY:PrimaryAction} and drag it into you {SLOT:Suit}.
+      </Value>
     </Record>
     <Record>
       <Key>TutorialDescWearSuit</Key>
@@ -40,7 +41,7 @@ Press and hold {KEY:MouseControl} to bring up the mouse cursor to drag and drop 
     </Record>
     <Record>
       <Key>TutorialDescPickupJetpack</Key>
-      <Value>Find the {THING:ItemSpacepack} and put it in your {SLOT:LeftHand} or {SLOT:RightHand} slot by clicking the {COLORRED:Left Mouse Button} over the green interactable you see when looking at it.</Value>
+      <Value>Find the {THING:ItemSpacepack} and put it in your {SLOT:LeftHand} or {SLOT:RightHand} slot by clicking the {KEY:PrimaryAction} over the green interactable you see when looking at it.</Value>
     </Record>
     <Record>
       <Key>TutorialDescWearJetpack</Key>
@@ -52,7 +53,7 @@ Press and hold {KEY:MouseControl} to bring up the mouse cursor to drag and drop 
     </Record>
     <Record>
       <Key>TutorialDescPowerSuit</Key>
-      <Value>Find a {THING:ItemBatteryCellLarge} and pick it up into your {SLOT:LeftHand} or {SLOT:RightHand} slot by looking at it and clicking the {COLORRED:Left Mouse Button}.</Value>
+      <Value>Find a {THING:ItemBatteryCellLarge} and pick it up into your {SLOT:LeftHand} or {SLOT:RightHand} slot by looking at it and clicking the {KEY:PrimaryAction}. You can drag the {THING:ItemBatteryCellLarge} directly into the {THING:ItemEvaSuit} to save time.</Value>
     </Record>
     <Record>
       <Key>TutorialTaskLifesupportSuit1</Key>
@@ -72,7 +73,7 @@ Press and hold {KEY:MouseControl} to bring up the mouse cursor to drag and drop 
     </Record>
     <Record>
       <Key>TutorialDescLifesupport2</Key>
-      <Value>{COLORRED:You need to wear the {THING:ItemEvaSuit} to continue. Please put it back on.}</Value>
+      <Value>{COLORRED:You need to wear the {THING:ItemEvaSuit} to continue. Please put it back on.</Value>
     </Record>
     <Record>
       <Key>TutorialDescLifesupport4</Key>
@@ -84,7 +85,7 @@ Press and hold {KEY:MouseControl} to bring up the mouse cursor to drag and drop 
     </Record>
     <Record>
       <Key>TutorialDescFilter1</Key>
-      <Value>Find a {THING:ItemGasFilterCarbonDioxide} and pick it up into your {SLOT:LeftHand} or {SLOT:RightHand} slot by looking at it and clicking the {COLORRED:Left Mouse Button}.</Value>
+      <Value>Find a {THING:ItemGasFilterCarbonDioxide} and pick it up into your {SLOT:LeftHand} or {SLOT:RightHand} slot by looking at it and clicking the {KEY:PrimaryAction}. Again, you can simply drag the {THING:ItemGasFilterCarbonDioxide} from the world to the {THING:ItemEvaSuit} to save time.</Value>
     </Record>
     <Record>
       <Key>TutorialTaskFilter1</Key>
@@ -116,16 +117,16 @@ Press and hold {KEY:MouseControl} to bring up the mouse cursor to drag and drop 
     </Record>
     <Record>
       <Key>TutorialDescGetTools1</Key>
-      <Value>Now we need to head outside the station to do some repairs. Drop the {THING:ItemTablet} using the {KEY:Drop} key so we can pick other things up. Remember you can use {KEY:MouseControl} to enable mouse for inventory management, and you can change the {COLORYELLOW:Active Hand} bu pressing the {KEYS:SwapHands} key.
+      <Value>Now we need to head outside the station to do some repairs. Drop the anything in our hands using the {KEY:Drop} key so we can pick other things up. Remember you can use {KEY:MouseControl} to enable mouse for {LINK:InventoryPage;inventory} management, and you can change the {COLORYELLOW:Active Hand} bu pressing the {KEYS:SwapHands} key.
 
-Managing your inventory well takes skill and practice; thinking carefully about what you are taking out with you well in advance and planning ahead. Forgetting to have a filled {THING:ItemGasCanisterOxygen} or {THING:ItemBatteryCellLarge} can be disasterous. It's also easy to get lost. Be careful!
+Managing your {LINK:InventoryPage;inventory} well takes skill and practice; thinking carefully about what you are taking out with you well in advance and planning ahead. Forgetting to have a filled {THING:ItemGasCanisterOxygen} or {THING:ItemBatteryCellLarge} can be disasterous. It's also easy to get lost. Be careful!
       </Value>
     </Record>
 	<Record>
       <Key>TutorialDescGetTools2</Key>
       <Value>Collect the {THING:ItemToolBelt} and assign it to the {SLOT:Belt} slot by holding the {KEY:ToolBeltSlot} key, or dragging it into the slot while pressing and holding {KEY:MouseControl}. Your {SLOT:Belt} slot allows you to have belts that can containing mining and other tools.
       
-The {THING:ItemMiningBelt} has specialized {SLOT:Ore} slots that automatically fill themselves with ore as you use a {THING:ItemMiningDrill}, for example.</Value>
+The {THING:ItemMiningBelt} has specialized {LINK:OrePage;Ore} slots that automatically fill themselves with ore as you use a {THING:ItemMiningDrill}, for example. Read more about {LINK:MiningPage;Mining}.</Value>
     </Record>
 	<Record>
       <Key>TutorialTaskGetTools1</Key>
@@ -181,7 +182,7 @@ While wearing your suit, you have both an atmosphere inside it and also one outs
       <Key>TutorialDescRepairCable1</Key>
       <Value>A {THING:StructureCableStraight} can transport both {COLORYELLOW:Data} and {COLORYELLOW:Power}, but they will break if more power is put through it than it is rated for. There is a broken {THING:StructureCableJunction} somewhere below the {THING:StructureAirlock} you just came out of, find it and remove by using a {THING:ItemWireCutters} from your {THING:ItemToolBelt}.
       
-Remember there are two ways to interact with your inventory. You can press and hold {KEY:MouseControl} to enable the mouse cursor, and then drag and drop or open things with the mouse. For fast control, press {KEY:ToolBeltSlot} to open your {SLOT:Belt} slot. Press {KEY:InventorySelect} to swap the highlighted interior slot item to your hands.
+Remember there are two ways to interact with your {LINK:InventoryPage;inventory}. You can press and hold {KEY:MouseControl} to enable the mouse cursor, and then drag and drop or open things with the mouse. For fast control, press {KEY:ToolBeltSlot} to open your {SLOT:Belt} slot. Press {KEY:InventorySelect} to swap the highlighted interior slot item to your hands.
 
 If you find you have too many windows open, you can close them all at once using {KEY:HideAllWindows}, you can toggle the individual window with their slot hotkey, or you can click on the slot itself while the mouse is enabled with {KEY:MouseControl}.</Value>
     </Record>
@@ -203,7 +204,7 @@ If you find you have too many windows open, you can close them all at once using
     </Record>
     <Record>
       <Key>TutorialDescRepairCable2</Key>
-      <Value>Look at the {THING:StructureCableJunctionBurnt} while the {THING:ItemWireCutters} are in your active hand. You will see a {COLORYELLOW:yellow} box around it. Press and hold {COLORRED:Left Mouse Button} to remove the {THING:StructureCableJunctionBurnt}.</Value>
+      <Value>Look at the {THING:StructureCableJunctionBurnt} while the {THING:ItemWireCutters} are in your active hand. You will see a {COLORYELLOW:yellow} box around it. Press and hold {KEY:PrimaryAction} to remove the {THING:StructureCableJunctionBurnt}.</Value>
     </Record>
     <Record>
       <Key>TutorialDescRepairCable3</Key>
@@ -215,13 +216,13 @@ You might need to free up your hands by moving the {THING:ItemSteelSheets} into 
     </Record>
     <Record>
       <Key>TutorialDescRepairCable4</Key>
-      <Value>With the {THING:ItemCableCoil} in your {COLORYELLOW:Active Hand|, press {COLORRED:Right Mouse Button} to bring up the construction cursor.
+      <Value>With the {THING:ItemCableCoil} in your {COLORYELLOW:Active Hand}, press {KEY:SecondaryAction} to bring up the {LINK:ConstructionPage;construction} cursor.
 
 Use the {COLORRED:Mouse Wheel} to change placement type, selecting the {THING:StructureCableJunction} variant.
 
 Your placement blueprint contains important connection information, the small plus symbols indicate the item connects to a cable network here. Make sure your connection lines up exactly.
 
-Press {KEY:RotateLeft} to rotate left, {KEY:RotateRight} to rotate right, {KEY:RotateUp} to rotate up, {KEY:RotateDown} to rotate down, {KEY:RotateRollLeft} to roll left, or {KEY:RotateRollRight} to roll right.</Value>
+Press {KEY:QuantityModifier} and the object will attempt its best connection placement, otherwise you can use custom rotation keys.</Value>
     </Record>
 	<Record>
       <Key>TutorialTitleFinishFrame</Key>
@@ -241,11 +242,11 @@ Press {KEY:RotateLeft} to rotate left, {KEY:RotateRight} to rotate right, {KEY:R
     </Record>
     <Record>
       <Key>TutorialDescTablet1</Key>
-      <Value>Pickup a {THING:ItemTablet} and {THING:ItemBatteryCellLarge} into your {SLOT:LeftHand} or {SLOT:RightHand} slots by looking at it and clicking the {COLORRED:Left Mouse Button}. You can switch your active hand by pressing the {KEY:SwapHands} key. This will allow you to put one item in each hands. Do this to continue.</Value>
+      <Value>Pickup a {THING:ItemTablet} and {THING:ItemBatteryCellLarge} into your {SLOT:LeftHand} or {SLOT:RightHand} slots by looking at it and clicking the {KEY:PrimaryAction}. You can switch your active hand by pressing the {KEY:SwapHands} key. This will allow you to put one item in each hands. Do this to continue.</Value>
     </Record>
     <Record>
       <Key>TutorialDescTablet2</Key>
-      <Value>You can interact with your active hand slot by pressing and releasing the {KEY:ActiveHandSlot} key or clicking on it. This will open the inventory window for the current hand. You can change your currently active hand with the {KEY:SwapHands} key. Select the {THING:ItemTablet} as your active hand and open its slot interior to continue.</Value>
+      <Value>You can interact with your active hand slot by pressing and releasing the {KEY:ActiveHandSlot} key or clicking on it. This will open the {LINK:InventoryPage;inventory} window for the current hand. You can change your currently active hand with the {KEY:SwapHands} key. Select the {THING:ItemTablet} as your active hand and open its slot interior to continue.</Value>
     </Record>
     <Record>
       <Key>TutorialDescTablet4</Key>
@@ -298,7 +299,7 @@ Using different cartridges allows you to access many different functions, such a
     </Record>
 	<Record>
       <Key>TutorialDescBakeMuffin1</Key>
-      <Value>Some devices in the game are mounted on {THING:StructureBench}s; they are called Appliances. Pickup the {THING:ApplianceMicrowave} and walk in front of the {THING:StructureBench}.</Value>
+      <Value>Some devices in the game are mounted on {THING:StructureBench}s; they are called {LINK:AppliancePage;Appliances}. Pickup the {THING:ApplianceMicrowave} and walk in front of the {THING:StructureBench}.</Value>
     </Record>
 	<Record>
       <Key>TutorialDescBakeMuffin2</Key>
@@ -306,15 +307,15 @@ Using different cartridges allows you to access many different functions, such a
     </Record>
 	<Record>
       <Key>TutorialDescBakeMuffin3</Key>
-      <Value>Look at the {THING:ApplianceMicrowave}. Look at the side, rather than the door, so that you are targeting the item directly and not trying to open it. When you see a {COLORYELLOW:yellow box} hold down the {COLORRED:Left Mouse Button} to wrench it onto the {THING:StructureBench}.</Value>
+      <Value>Look at the {THING:ApplianceMicrowave}. Look at the side, rather than the door, so that you are targeting the item directly and not trying to open it. When you see a {COLORYELLOW:yellow box} hold down the {KEY:PrimaryAction} to wrench it onto the {THING:StructureBench}.</Value>
     </Record>
 	<Record>
       <Key>TutorialDescBakeMuffin4</Key>
-      <Value>Look at the door on the {THING:ApplianceMicrowave}. Press the {COLORRED:Left Mouse Button} to open the door and allow you to put reagents inside.</Value>
+      <Value>Look at the door on the {THING:ApplianceMicrowave}. Press the {KEY:PrimaryAction} to open the door and allow you to put reagents inside.</Value>
     </Record>
 	<Record>
       <Key>TutorialDescBakeMuffin5</Key>
-      <Value>Pickup the required ingredients in your task list and look inside the {THING:ApplianceMicrowave} with it in your active hand. Keep clicking {COLORRED:Left Mouse Button} to add more of the reagent until you have added enough. Do not add more than is needed for the recipe. You will need to do this twice for some recipes.
+      <Value>Pickup the required ingredients in your task list and look inside the {THING:ApplianceMicrowave} with it in your active hand. Keep clicking {KEY:PrimaryAction} to add more of the reagent until you have added enough. Do not add more than is needed for the recipe. You will need to do this twice for some recipes.
       
 If you add too much, drop what you are carrying with the {KEY:Drop} and then look at the {THING:ApplianceMicrowave} with the door open to access the {COLORYELLOW:Clear} action, to start again.</Value>
     </Record>
