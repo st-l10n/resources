@@ -5,6 +5,10 @@
   <Font>font_extended</Font>
   <Interface>
     <Record>
+      <Key>TutorialDescPickupHelmet</Key>
+      <Value>Find the {THING:ItemSpaceHelmet} and put it in your {SLOT:LeftHand} or {SLOT:RightHand} slot by clicking the {COLORRED:Left Mouse Button} over the green interactable you see when looking at it.</Value>
+    </Record>
+    <Record>
       <Key>TutorialDescWearHelmet</Key>
       <Value>Press and hold {KEY:HelmetSlot} until your {THING:ItemSpaceHelmet} moves to your {SLOT:Helmet} slot.</Value>
     </Record>
@@ -13,12 +17,24 @@
       <Value>Press and hold the {KEY:SuitSlot} key to equip the {THING:ItemEvaSuit} to your {SLOT:Suit} slot.</Value>
     </Record>
     <Record>
+      <Key>TutorialDescPickupJetpack</Key>
+      <Value>Find the {THING:ItemSpacepack} and put it in your {SLOT:LeftHand} or {SLOT:RightHand} slot by clicking the {COLORRED:Left Mouse Button} over the green interactable you see when looking at it.</Value>
+    </Record>
+    <Record>
       <Key>TutorialDescWearJetpack</Key>
       <Value>Press and hold the {KEY:BackSlot} key to equip the {THING:ItemSpacepack} to your {SLOT:Back} slot.</Value>
     </Record>
     <Record>
+      <Key>TutorialDescPowerSuit</Key>
+      <Value>Find a {THING:ItemBatteryCellLarge} and pick it up into your {SLOT:LeftHand} or {SLOT:RightHand} slot by looking at it and clicking the {COLORRED:Left Mouse Button}.</Value>
+    </Record>
+    <Record>
       <Key>TutorialDescLifesupport1</Key>
       <Value>You can interact with the {SLOT:Suit} slot by pressing and releasing the {KEY:SuitSlot} key. This will cycle through Interactions and Slot Inventory, if available. Do this until you see the slot inventory.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescLifesupport2</Key>
+      <Value>{COLORRED:You need to wear the {THING:ItemEvaSuit} to continue. Please put it back on.}</Value>
     </Record>
     <Record>
       <Key>TutorialDescLifesupport4</Key>
@@ -27,6 +43,10 @@
     <Record>
       <Key>TutorialTitleSuitFilter</Key>
       <Value>Wyposażenie Filtra</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescFilter1</Key>
+      <Value>Find a {THING:ItemGasFilterCarbonDioxide} and pick it up into your {SLOT:LeftHand} or {SLOT:RightHand} slot by looking at it and clicking the {COLORRED:Left Mouse Button}.</Value>
     </Record>
     <Record>
       <Key>TutorialDescFilter2</Key>
@@ -69,6 +89,10 @@ A {THING:CircuitboardAirlockControl} in the {THING:StructureConsole} is controll
     <Record>
       <Key>TutorialTaskRepairCable3</Key>
       <Value>Wyposaz swoj {THING:ItemCableCoil}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescRepairCable2</Key>
+      <Value>Look at the {THING:StructureCableJunctionBurnt} while the {THING:ItemWireCutters} are in your active hand. You will see a {COLORYELLOW:yellow} box around it. Press and hold {COLORRED:Left Mouse Button} to remove the {THING:StructureCableJunctionBurnt}.</Value>
     </Record>
     <Record>
       <Key>TutorialDescRepairCable3</Key>
@@ -115,6 +139,18 @@ Using different cartridges allows you to access many different functions, such a
     <Record>
       <Key>TutorialTaskUseReader2</Key>
       <Value>Find the recipe to make an {THING:ItemMuffin}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescBakeMuffin1</Key>
+      <Value>Some devices in the game are mounted on {THING:StructureBench}s; they are called Appliances. Pickup the {THING:ApplianceMicrowave} and walk in front of the {THING:StructureBench}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescBakeMuffin3</Key>
+      <Value>Look at the {THING:ApplianceMicrowave}. Look at the side, rather than the door, so that you are targeting the item directly and not trying to open it. When you see a {COLORYELLOW:yellow box} hold down the {COLORRED:Left Mouse Button} to wrench it onto the {THING:StructureBench}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescBakeMuffin4</Key>
+      <Value>Look at the door on the {THING:ApplianceMicrowave}. Press the {COLORRED:Left Mouse Button} to open the door and allow you to put reagents inside.</Value>
     </Record>
     <Record>
       <Key>TutorialDescBakeMuffin5</Key>
