@@ -22,12 +22,11 @@
     </Record>
     <Record>
       <Key>TutorialDescPickupHelmet</Key>
-      <Value>Trova il {THING:ItemSpaceHelmet} e mettilo nello slot della tua {SLOT:LeftHand} o {SLOT:RightHand} cliccando con {COLORRED:Mouse Sinistra} sull&apos;area verde di interazione.</Value>
+      <Value>Trova il {THING:ItemSpaceHelmet} e mettilo nello slot della tua {SLOT:LeftHand} o {SLOT:RightHand} cliccando con {COLORRED:Mouse Sinistra} sull&apos;area verde di interazione che appare quando lo guardi. Per maggiori informazioni leggi la sezione  {LINK:InventoryPage;Inventory} nella  {LINK:Home;Stationpedia}</Value>
     </Record>
     <Record>
       <Key>TutorialDescWearHelmet</Key>
-      <Value>Hai due modi per interagire con il tuo inventario: scorciatoie su tastiera e controllo con il mouse. Entrambi hanno i loro vantaggi e svantaggi.
-      
+      <Value>Hai due modi per interagire con il tuo {LINK:InventoryPage;inventory}: scorciatoie su tastiera e controllo con il mouse. Entrambi hanno i loro vantaggi e svantaggi.      
 Tieni premuto {KEY:MouseControl} per far apparire il cursore del mouse e usalo per trascinare il {THING:ItemSpaceHelmet} nello slot {SLOT:Helmet} . O tieni premuto {KEY:HelmetSlot} fino a che il {THING:ItemSpaceHelmet} si muoverà nello slot {SLOT:Helmet} .</Value>
     </Record>
     <Record>
@@ -40,7 +39,7 @@ Tieni premuto {KEY:MouseControl} per far apparire il cursore del mouse e usalo p
     </Record>
     <Record>
       <Key>TutorialDescPickupJetpack</Key>
-      <Value>Trova lo {THING:ItemSpacepack} e mettilo nello slot della tua {SLOT:LeftHand} o {SLOT:RightHand} cliccando con {COLORRED:Mouse Sinistra} sull&apos;area verde di interazione.</Value>
+      <Value>Trova lo {THING:ItemSpacepack} e mettilo nello slot della tua {SLOT:LeftHand} o {SLOT:RightHand} cliccando con {KEY:PrimaryAction}} sull&apos;area verde di interazione che appare quando lo guardi.</Value>
     </Record>
     <Record>
       <Key>TutorialDescWearJetpack</Key>
@@ -52,7 +51,7 @@ Tieni premuto {KEY:MouseControl} per far apparire il cursore del mouse e usalo p
     </Record>
     <Record>
       <Key>TutorialDescPowerSuit</Key>
-      <Value>Trova una {THING:ItemBatteryCellLarge} e mettila nello slot della tua {SLOT:LeftHand} o {SLOT:RightHand} mentre la guardi e cliccaci con {COLORRED:Mouse Sinistra}.</Value>
+      <Value>Trova una {THING:ItemBatteryCellLarge} e mettila nello slot della tua {SLOT:LeftHand} o {SLOT:RightHand} mentre la guardi e cliccaci con {KEY:PrimaryAction}. Puoi trascinare la {THING:ItemBatteryCellLarge} direttamente nella {THING:ItemEvaSuit} per risparmiare tempo.</Value>
     </Record>
     <Record>
       <Key>TutorialTaskLifesupportSuit1</Key>
