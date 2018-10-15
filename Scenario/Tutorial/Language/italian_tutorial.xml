@@ -117,7 +117,7 @@ Tieni premuto {KEY:MouseControl} per far apparire il cursore del mouse e usalo p
       <Key>TutorialDescGetTools1</Key>
       <Value>Adesso dobbiamo dirigerci fuori dalla stazione per effettuare delle riparazioni. Lascia qualunque oggetto nelle tue mani usando il tasto {KEY:Drop} così che tu possa raccogliere altre cose. Ricordati che puoi usare il tasto {KEY:MouseControl} per abilitare il mouse e gestire l&apos;inventario, e puoi cambiare la {COLORYELLOW:Mano attiva} premendo il tasto {KEY:SwapHands} .
 
-Gestire bene il tuo {LINK:InventoryPage;inventory} richiede abilità e pratica, pensando con attenzione e in anticipo a cosa dovresti portare con te. Dimenticarsi di aver caricato un {THING:ItemGasCanisterOxygen} o una {THING:ItemBatteryCellLarge} può essere disastroso. Anche perdersi è molto facile. Stai attento!
+Gestire bene il tuo {LINK:InventoryPage;inventario} richiede abilità e pratica, pensando con attenzione e in anticipo a cosa dovresti portare con te. Dimenticarsi di aver caricato un {THING:ItemGasCanisterOxygen} o una {THING:ItemBatteryCellLarge} può essere disastroso. Anche perdersi è molto facile. Stai attento!
       </Value>
     </Record>
     <Record>
@@ -244,7 +244,7 @@ Premi {KEY:QuantityModifier} e l&apos;oggetto cercherà di piazzarsi nella migli
     </Record>
     <Record>
       <Key>TutorialDescTablet2</Key>
-      <Value>Puoi interagire con lo slot della mano attiva premendo e rilasciando il tasto {KEY:ActiveHandSlot} oppure cliccandoci. Questo aprirà la finestra {LINK:InventoryPage;inventory} della mano attiva. Puoi cambiare quale mano sia correntemente attiva con il tasto {KEY:SwapHands} . Seleziona il {THING:ItemTablet} come la tua mano attiva e apri il suo slot interno per continuare.</Value>
+      <Value>Puoi interagire con lo slot della mano attiva premendo e rilasciando il tasto {KEY:ActiveHandSlot} oppure cliccandoci. Questo aprirà la finestra {LINK:InventoryPage;inventario} della mano attiva. Puoi cambiare quale mano sia correntemente attiva con il tasto {KEY:SwapHands} . Seleziona il {THING:ItemTablet} come la tua mano attiva e apri il suo slot interno per continuare.</Value>
     </Record>
     <Record>
       <Key>TutorialDescTablet4</Key>
@@ -304,15 +304,15 @@ Usare cartucce differenti permette di accedere a tante funzioni differenti, come
     </Record>
     <Record>
       <Key>TutorialDescBakeMuffin3</Key>
-      <Value>Guarda il {THING:ApplianceMicrowave}. Guardalo di lato, invece che dallo sportello, così potrai selezionare l&apos;oggetto direttamente e non proverai ad aprirlo. Quando vedi una {COLORYELLOW:scatola gialla} tieni premuto {COLORRED:Mouse Sinistra} per collegarla con la chiave sul {THING:StructureBench}.</Value>
+      <Value>Guarda il {THING:ApplianceMicrowave}. Guardalo di lato, invece che dallo sportello, così potrai selezionare l&apos;oggetto direttamente e non proverai ad aprirlo. Quando vedi una {COLORYELLOW:scatola gialla} tieni premuto {KEY:PrimaryAction} per collegarla con la chiave sul {THING:StructureBench}.</Value>
     </Record>
     <Record>
       <Key>TutorialDescBakeMuffin4</Key>
-      <Value>Guarda lo sportello del {THING:ApplianceMicrowave}. Premi {COLORRED:Mouse Sinistra} per aprire lo sportello ed inserire gli ingredienti all&apos;interno.</Value>
+      <Value>Guarda lo sportello del {THING:ApplianceMicrowave}. Premi {KEY:PrimaryAction} per aprire lo sportello ed inserire gli ingredienti all&apos;interno.</Value>
     </Record>
     <Record>
       <Key>TutorialDescBakeMuffin5</Key>
-      <Value>Raccogli gli ingredienti richiesti dalla tua lista e guarda dentro il {THING:ApplianceMicrowave} mentre li hai nella mano attiva. Continua a cliccare con {COLORRED:Mouse Sinistra} per aggiungere una quantità maggiore di un ingrediente finché non raggiungi la quantità desiderata. Non aggiungere più di quanto sia richiesto dalla ricetta.
+      <Value>Raccogli gli ingredienti richiesti dalla tua lista e guarda dentro il {THING:ApplianceMicrowave} mentre li hai nella mano attiva. Continua a cliccare con {KEY:PrimaryAction} per aggiungere una quantità maggiore di un ingrediente finché non raggiungi la quantità desiderata. Non aggiungere più di quanto sia richiesto dalla ricetta.
       
 Se hai aggiunto troppo, lascia l&apos;oggetto che stai portando con il tasto {KEY:Drop} e guarda il {THING:ApplianceMicrowave} con lo sportello aperto per accedere all&apos;azione {COLORYELLOW:Clear} , così da poter ricominciare.</Value>
     </Record>
