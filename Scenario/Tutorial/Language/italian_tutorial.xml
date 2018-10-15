@@ -124,7 +124,7 @@ Gestire bene il tuo {LINK:InventoryPage;inventory} richiede abilità e pratica, 
       <Key>TutorialDescGetTools2</Key>
       <Value>Raccogli la {THING:ItemToolBelt} e assegnala allo slot {SLOT:Belt} tenendo premuto il tasto {KEY:ToolBeltSlot} , o trascinandola nello slot con il mouse mentre tieni premuto {KEY:MouseControl}. Il tuo slot {SLOT:Belt} ti permette di indossare cinture che possono contenere gli strumenti per minare e altri utensili.
       
-La {THING:ItemMiningBelt} ha degli slot specializzati {SLOT:Ore} che si riempiono automaticamente con i minerali mentre usi un {THING:ItemMiningDrill}, per esempio.</Value>
+La {THING:ItemMiningBelt} ha degli slot specializzati {LINK:OrePage;Ore} che si riempiono automaticamente con i minerali mentre usi un {THING:ItemMiningDrill}, per esempio. Maggiori informazioni su {LINK:MiningPage;Mining}.</Value>
     </Record>
     <Record>
       <Key>TutorialTaskGetTools1</Key>
@@ -202,7 +202,7 @@ Se ti ritrovi ad avere troppe finestre aperte, le puoi chiudere tutte in una vol
     </Record>
     <Record>
       <Key>TutorialDescRepairCable2</Key>
-      <Value>Guarda il {THING:StructureCableJunctionBurnt} mentre hai la {THING:ItemWireCutters} nella tua mano attiva. Vedrai una scatola {COLORYELLOW:gialla} intorno. Tieni premuto {COLORRED:Mouse Sinistra} per rimuovere il {THING:StructureCableJunctionBurnt}.</Value>
+      <Value>Guarda il {THING:StructureCableJunctionBurnt} mentre hai la {THING:ItemWireCutters} nella tua mano attiva. Vedrai una scatola {COLORYELLOW:gialla} intorno. Tieni premuto {KEY:PrimaryAction} per rimuovere il {THING:StructureCableJunctionBurnt}.</Value>
     </Record>
     <Record>
       <Key>TutorialDescRepairCable3</Key>
