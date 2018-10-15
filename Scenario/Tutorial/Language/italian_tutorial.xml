@@ -22,11 +22,11 @@
     </Record>
     <Record>
       <Key>TutorialDescPickupHelmet</Key>
-      <Value>Trova il {THING:ItemSpaceHelmet} e mettilo nello slot della tua {SLOT:LeftHand} o {SLOT:RightHand} cliccando con {COLORRED:Mouse Sinistra} sull&apos;area verde di interazione che appare quando lo guardi. Per maggiori informazioni leggi la sezione  {LINK:InventoryPage;Inventory} nella  {LINK:Home;Stationpedia}</Value>
+      <Value>Trova il {THING:ItemSpaceHelmet} e mettilo nello slot della tua {SLOT:LeftHand} o {SLOT:RightHand} cliccando con {COLORRED:Mouse Sinistra} sull&apos;area verde di interazione che appare quando lo guardi. Per maggiori informazioni leggi la sezione  {LINK:InventoryPage;Inventario} nella  {LINK:Home;Stationpedia}</Value>
     </Record>
     <Record>
       <Key>TutorialDescWearHelmet</Key>
-      <Value>Hai due modi per interagire con il tuo {LINK:InventoryPage;inventory}: scorciatoie su tastiera e controllo con il mouse. Entrambi hanno i loro vantaggi e svantaggi.      
+      <Value>Hai due modi per interagire con il tuo {LINK:InventoryPage;inventario}: scorciatoie su tastiera e controllo con il mouse. Entrambi hanno i loro vantaggi e svantaggi.      
 Tieni premuto {KEY:MouseControl} per far apparire il cursore del mouse e usalo per trascinare il {THING:ItemSpaceHelmet} nello slot {SLOT:Helmet} . O tieni premuto {KEY:HelmetSlot} fino a che il {THING:ItemSpaceHelmet} si muoverà nello slot {SLOT:Helmet} .</Value>
     </Record>
     <Record>
@@ -180,7 +180,7 @@ Mentre indossi la tuta, hai sia un&apos;atmosfera interna che una esterna. Il gi
       <Key>TutorialDescRepairCable1</Key>
       <Value>Un {THING:StructureCableStraight} può trasportare sia {COLORYELLOW:Dati} che {COLORYELLOW:Elettricità}, ma si romperà se ci passerà un voltaggio superiore a quello per cui è concepito. C&apos;è un {THING:StructureCableJunction} danneggiato da qualche parte qui sotto la {THING:StructureAirlock} da cui sei appena uscito, Trovalo e rimuovilo usando la {THING:ItemWireCutters} dalla tua {THING:ItemToolBelt}.
       
-Ricordati che hai due modi per interagire con il tuo inventario. Puoi tenere premuto {KEY:MouseControl} per abilitare il cursore del mouse, e poi cliccare e trasciare o aprire cose con il mouse. Per un controllo rapido, puoi premere {KEY:ToolBeltSlot} per aprire lo slot {SLOT:Belt} . Premi {KEY:InventorySelect} per scambiare tra lo slot evidenziato con l&apos;oggetto e lo slot nelle tue mani.
+Ricordati che hai due modi per interagire con il tuo {LINK:InventoryPage;inventario}. Puoi tenere premuto {KEY:MouseControl} per abilitare il cursore del mouse, e poi cliccare e trasciare o aprire cose con il mouse. Per un controllo rapido, puoi premere {KEY:ToolBeltSlot} per aprire lo slot {SLOT:Belt} . Premi {KEY:InventorySelect} per scambiare tra lo slot evidenziato con l&apos;oggetto e lo slot nelle tue mani.
 
 Se ti ritrovi ad avere troppe finestre aperte, le puoi chiudere tutte in una volta usando {KEY:HideAllWindows}, puoi interagire con una finestra individuale usando la specifica scorciatoia su tastiera, o puoi cliccare sullo slot direttamente mentre il cursore del mouse è abilitato con {KEY:MouseControl}.</Value>
     </Record>
@@ -214,13 +214,13 @@ Potresti aver bisogno di liberare le tue mani muovendo le {THING:ItemSteelSheets
     </Record>
     <Record>
       <Key>TutorialDescRepairCable4</Key>
-      <Value>Con la {THING:ItemCableCoil} nella tua {COLORYELLOW:Mano attiva}, premi {COLORRED:Mouse Sinistra} per attivare la finestra di progettazione.
+      <Value>Con la {THING:ItemCableCoil} nella tua {COLORYELLOW:Mano attiva}, premi {{KEY:SecondaryAction} per attivare il cursore {LINK:ConstructionPage;costruzione}.
 
 Usa la {COLORRED:Rotella del Mouse} per cambiare le opzioni di piazzamento, selezionando la variante {THING:StructureCableJunction} .
 
 La finestra di progettazione contiene importanti informazioni sulle connessioni, il piccolo simbolo + indica dove l&apos;oggetto si connette ad una rete. Accertati che i cavi siano connessi correttamente.
 
-Premi {KEY:RotateLeft} per ruotare a sinistra, {KEY:RotateRight} per ruotare a destra, {KEY:RotateUp} per ruotare in su, {KEY:RotateDown} per ruotare in giù, {KEY:RotateRollLeft} per rollio a sinistra, o {KEY:RotateRollRight} per rollio a destra.</Value>
+Premi {KEY:QuantityModifier} e l&apos;oggetto cercherà di piazzarsi nella migliore connessione possibile, altrimenti puoi usare gli altri tasti per la rotazione.</Value>
     </Record>
     <Record>
       <Key>TutorialTitleFinishFrame</Key>
@@ -240,11 +240,11 @@ Premi {KEY:RotateLeft} per ruotare a sinistra, {KEY:RotateRight} per ruotare a d
     </Record>
     <Record>
       <Key>TutorialDescTablet1</Key>
-      <Value>Raccogli un {THING:ItemTablet} e una {THING:ItemBatteryCellLarge} nel tuo slot {SLOT:LeftHand} o {SLOT:RightHand} guardandoli e cliccandoci sopra con {COLORRED:Mouse Sinistra}. Puoi cambiare quale sia la tua mano attiva premendo il tasto {KEY:SwapHands} . Questo ti permetterà di avere un oggetto in ciascuna mano. Fallo per continuare.</Value>
+      <Value>Raccogli un {THING:ItemTablet} e una {THING:ItemBatteryCellLarge} nel tuo slot {SLOT:LeftHand} o {SLOT:RightHand} guardandoli e cliccandoci sopra con {KEY:PrimaryAction}. Puoi cambiare quale sia la tua mano attiva premendo il tasto {KEY:SwapHands} . Questo ti permetterà di avere un oggetto in ciascuna mano. Fallo per continuare.</Value>
     </Record>
     <Record>
       <Key>TutorialDescTablet2</Key>
-      <Value>Puoi interagire con lo slot della mano attiva premendo e rilasciando il tasto {KEY:ActiveHandSlot} oppure cliccandoci. Questo aprirà la finestra della mano attiva. Puoi cambiare quale mano sia correntemente attiva con il tasto {KEY:SwapHands} . Seleziona il {THING:ItemTablet} come la tua mano attiva e apri il suo slot interno per continuare.</Value>
+      <Value>Puoi interagire con lo slot della mano attiva premendo e rilasciando il tasto {KEY:ActiveHandSlot} oppure cliccandoci. Questo aprirà la finestra {LINK:InventoryPage;inventory} della mano attiva. Puoi cambiare quale mano sia correntemente attiva con il tasto {KEY:SwapHands} . Seleziona il {THING:ItemTablet} come la tua mano attiva e apri il suo slot interno per continuare.</Value>
     </Record>
     <Record>
       <Key>TutorialDescTablet4</Key>
@@ -296,7 +296,7 @@ Usare cartucce differenti permette di accedere a tante funzioni differenti, come
     </Record>
     <Record>
       <Key>TutorialDescBakeMuffin1</Key>
-      <Value>Alcuni dispositivi del gioco devono essere montati su un {THING:StructureBench}; e sono chiamati Apparecchi. Raccogli il {THING:ApplianceMicrowave} e cammina verso il {THING:StructureBench}.</Value>
+      <Value>Alcuni dispositivi del gioco devono essere montati su un {THING:StructureBench}; e sono chiamati {LINK:AppliancePage;Apparecchi}. Raccogli il {THING:ApplianceMicrowave} e cammina verso il {THING:StructureBench}.</Value>
     </Record>
     <Record>
       <Key>TutorialDescBakeMuffin2</Key>
