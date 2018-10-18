@@ -4,19 +4,123 @@
   <Code>FR</Code>
   <Font>font_extended</Font>
   <Interface>
+    <Record>
+      <Key>EscapeFromMarsTitle</Key>
+      <Value>Echappez cous de Mars [BETA]</Value>
+    </Record>
+    <Record>
+      <Key>EscapeFromMarsDescription</Key>
+      <Value>FOR TESTING : Avec seulement une quantité minime de fournitures, vous devez utiliser votre intelligence et votre esprit pour trouver le moyen de survivre sur Mars.   Si tout se déroulera comme prévu. Cela vous conduira finalement à la construction d&apos;une fusée capable de quitter l&apos;atmosphère de Mars.</Value>
+    </Record>
     <!-- Mission Stage: In Case of Emergency -->
+    <Record>
+      <Key>MarsTitleInCaseOfEmergency</Key>
+      <Value>En cas d&apos;urgence...</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescInCaseOfEmergency</Key>
+      <Value>Votre combinaison est endommagé et vous devez trouver de la nourriture.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetTape</Key>
+      <Value>Trouvez quelque {THING:ItemDuctTape}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetFood</Key>
+      <Value>Trouvez une {THING:ItemCerealBar}</Value>
+    </Record>
     <Record>
       <Key>MarsTabletStage1</Key>
       <Value>GUIDE D&apos;URGENCE</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage1Page1</Key>
+      <Value>PAGE 1 sur 2 \ nPANIQUEZ PAS.\n\nSi vous lisez ceci, vous avez survécu à l&apos;évacuation - félicitations. Indépendamment de votre environnement, votre première priorité est de vérifier votre santé et celle de votre entourage. Assurez-vous de vérifier l&apos;intégrité de la combinaison, car rien ne permet de savoir dans quel environnement vous pouvez vous trouver et il est crucial de protéger votre réserve d&apos;air.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage1Page2</Key>
+      <Value>PAGE 2 sur 2 \ nSi vous vous trouvez à proximité d&apos;une capsule d&apos;évacuation intact et d&apos;une caisse de fournitures, vous devez disposer de fournitures essentielles pour faciliter votre attente de sauvetage. Si non, alors rechercher des survivants. Assurez-vous de noter l&apos;emplacement, ou de rassembler, toutes les fournitures qui seront de la plus haute importance pour votre survie, telles que la nourriture, les piles, le matériel utilitaire comme le ruban adhésif et l&apos;équipement de survie portatif. \n</Value>
     </Record>
     <!-- Mission Stage: Aquire Raw Materials -->
     <Record>
       <Key>MarsTabletStage2</Key>
       <Value>MATIERES PREMIERES</Value>
     </Record>
+    <Record>
+      <Key>MarsDescRawMaterials</Key>
+      <Value>Trouver un moyen de produire les matériaux de base dont vous avez besoin pour obtenir la fabrication en cours.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetIronIngots</Key>
+      <Value>Prendre un {THING:ItemIronIngot}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetCopperIngots</Key>
+      <Value>Prendre un {THING:ItemCopperIngot}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetGoldIngots</Key>
+      <Value>Prendre un {THING:ItemGoldIngot}</Value>
+    </Record>
     <!-- Mission Stage: Setup Manufacturing -->
+    <Record>
+      <Key>MarsTitleSetupManufacturing</Key>
+      <Value>Saisir les moyens de production</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescSetupManufacturing</Key>
+      <Value>Afin de fabriquer tout ce dont nous aurons besoin, nous devrions commencer par un {THING:ItemKitHydraulicPipeBender} et un {THING:ItemKitElectronicsPrinter}.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskManufactureHPB</Key>
+      <Value>Fabriquer un {Thing:ItemKitHydraulicPipeBender}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskManufactureEP</Key>
+      <Value>Fabriquer un {Thing:ItemKitElectronicsPrinter}</Value>
+    </Record>
     <!-- Mission Stage: Food Supply -->
+    <Record>
+      <Key>MarsTitleFoodSupply</Key>
+      <Value>Une source de nourriture fiable</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescFoodSupply</Key>
+      <Value>Nous ne savons pas combien de temps vous aurez besoin pour survivre ici.  Nous devrions préparer une source de nourriture renouvelable juste au cas où.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskPrepareAtmos</Key>
+      <Value>Créer une salle pressurisée avec une atmosphère suffisante pour cultiver les pommes de terre.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGrowPotato</Key>
+      <Value>Cultivez une {Thing:ItemPotato} à maturité.</Value>
+    </Record>
     <!-- Mission Stage: Spawn Mothership & Engine -->
+    <Record>
+      <Key>MarsTitleCreateMothership</Key>
+      <Value>Création d&apos;un vaisseau mère</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskSpawnMothershipCore</Key>
+      <Value>Utiliser un {THING:ItemKitMotherShipCore}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskAttachEngine</Key>
+      <Value>Attachez une {Thing:StructureRocketEngine} à la {Thing:MothershipCore}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTitleLaunchMothership</Key>
+      <Value>Lancement d&apos;un vaisseau mère</Value>
+    </Record>
     <!-- Mission Stage: Launch -->
+    <Record>
+      <Key>MarsDescLaunchMothership</Key>
+      <Value>Décollez dans l&apos;espace et récupérer votre place dans les cieux!</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskLaunchMothership</Key>
+      <Value>Atteignez une altitude de 100M avec votre vaisseau-mère</Value>
+    </Record>
   </Interface>
 </Language>
