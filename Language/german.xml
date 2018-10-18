@@ -338,12 +338,20 @@
       <Value>Rufen</Value>
     </Record>
     <Record>
+      <Key>Cycle</Key>
+      <Value>Rotieren</Value>
+    </Record>
+    <Record>
+      <Key>ForceClose</Key>
+      <Value>Gewaltsam Schließen</Value>
+    </Record>
+    <Record>
       <Key>ForceOpen</Key>
       <Value>Erzwingen Öffnen</Value>
     </Record>
     <Record>
       <Key>Vend</Key>
-      <Value>Verkauf</Value>
+      <Value>Verkaufen</Value>
     </Record>
   </Actions>
   <Things>
@@ -3204,8 +3212,16 @@
       <Value>Treibstoffgenerator (Bausatz)</Value>
     </Record>
     <Record>
+      <Key>StructureShuttleLandingPad</Key>
+      <Value>Landeplattform</Value>
+    </Record>
+    <Record>
       <Key>ItemKitLandingPad</Key>
       <Value>Verkleidung (Bausatz)</Value>
+    </Record>
+    <Record>
+      <Key>StructureSatelliteDish</Key>
+      <Value>Satellitenschüssel</Value>
     </Record>
     <Record>
       <Key>ItemKitSatelliteDish</Key>
@@ -4936,6 +4952,10 @@ Temperatur {1}</Value>
     <Record>
       <Key>SettingsInterface</Key>
       <Value>Schnittstelle</Value>
+    </Record>
+    <Record>
+      <Key>SettingsUPNPEnabled</Key>
+      <Value>UPNP aktivieren</Value>
     </Record>
     <Record>
       <Key>SettingsEnableClouds</Key>
