@@ -10,36 +10,40 @@
     </Record>
     <Record>
       <Key>TutorialTaskWearHelmet</Key>
-      <Value>{THING:ItemSpaceHelmet} tragen</Value>
+      <Value>{THING:ItemSpaceHelmet} aufsetzen</Value>
     </Record>
     <Record>
       <Key>TutorialTaskWearSuit</Key>
-      <Value>{THING:ItemEvaSuit} tragen</Value>
+      <Value>{THING:ItemEvaSuit} anlegen</Value>
     </Record>
     <Record>
       <Key>TutorialTaskWearJetpack</Key>
-      <Value>{THING:ItemSpacepack} tragen</Value>
+      <Value>{THING:ItemSpacepack} anlegen</Value>
     </Record>
     <Record>
       <Key>TutorialDescPickupHelmet</Key>
-      <Value>Finde den {THING:ItemSpaceHelmet} und nimm ihn in deine {SLOT:LeftHand} oder {SLOT:RightHand} in dem du die {COLORRED:Linke Maustaste} über dem grünen Interaktionsbereich drückst.</Value>
+      <Value>Finde den {THING:ItemSpaceHelmet} und nimm ihn in deine {SLOT:LeftHand} oder {SLOT:RightHand} in dem du die {KEY:PrimaryAction} über dem grünen Interaktionsbereich drückst. Für weitere Informationen lies den {LINK:InventoryPage;Inventar}-Abschnitt auf {LINK:Home;Stationpedia} (Englisch)</Value>
     </Record>
     <Record>
       <Key>TutorialDescWearHelmet</Key>
-      <Value>Sie haben zwei Möglichkeiten, mit Ihrem Inventar zu interagieren: Hotkeys und Maussteuerung. Beide haben ihre Vor- und Nachteile.
-	  Drücke und halte die Taste {KEY:HelmetSlot} bis dein {THING:ItemSpaceHelmet} in deinen {SLOT:Helmet}-Slot ist.</Value>
+      <Value>Du hast zwei Möglichkeiten mit deinem {LINK:InventoryPage;Inventar} zu interagieren: Hotkeys und Maussteuerung. Beide haben ihre Vor- und Nachteile.
+      Drücke und halte {KEY:MouseControl} um den Mauszeiger zu sehen und ziehe dann den {THING:ItemSpaceHelmet} mit gedrückter linker Maustaste in deinen {SLOT:Helmet}-Slot. Oder drücke und halte die Taste {KEY:HelmetSlot} bis dein {THING:ItemSpaceHelmet} in deinen {SLOT:Helmet}-Slot ist.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescPickupSuit</Key>
+      <Value>Finde den {THING:ItemEvaSuit} und versuche dieses mal ihn direkt den {SLOT:Suit}-Slot zu ziehen. Halte dazu {KEY:MouseControl} gedrückt und ziehe den {THING:ItemEvaSuit} direkt in den {SLOT:Suit}-Slot. So kannst du einen Gegenstand noch schneller ausrüsten. Natürlich kannst du ihn auch herkömmlich ausrüsten; Nimm dazu den {THING:ItemEvaSuit} in deine {SLOT:LeftHand} oder {SLOT:RightHand}.</Value>
     </Record>
     <Record>
       <Key>TutorialDescWearSuit</Key>
-      <Value>Drücke und halte die Taste {KEY:SuitSlot} bis dein {THING:ItemEvaSuit} in deinen {SLOT:Suit}-Slot ist.</Value>
+      <Value>Drücke und halte {KEY:SuitSlot} bis dein {THING:ItemEvaSuit} in deinen {SLOT:Suit}-Slot ist oder halte {KEY:MouseControl} gedrückt und ziehe den{THING:ItemEvaSuit} in den {SLOT:Suit}-Slot.</Value>
     </Record>
     <Record>
       <Key>TutorialDescPickupJetpack</Key>
-      <Value>Finde den {THING:ItemSpacepack} und nimm ihn in deine {SLOT:LeftHand} oder {SLOT:RightHand} in dem du die {COLORRED:Linke Maustaste} über dem grünen Interaktionsbereich drückst.</Value>
+      <Value>Finde den {THING:ItemSpacepack} und nimm ihn in deine {SLOT:LeftHand} oder {SLOT:RightHand} in dem du die {KEY:PrimaryAction} über dem grünen Interaktionsbereich drückst.</Value>
     </Record>
     <Record>
       <Key>TutorialDescWearJetpack</Key>
-      <Value>Drücke und halte die Taste {KEY:BackSlot} bis dein {THING:ItemSpacepack} in deinen {SLOT:Back}-Slot ist.</Value>
+      <Value>Drücke und halte {KEY:BackSlot} oder benutze {KEY:MouseControl}, um dein {THING:ItemSpacepack} direkt mit dem Mauszeiger in deinen {SLOT:Back}-Slot zu legen.</Value>
     </Record>
     <Record>
       <Key>TutorialTitlePowerSuit</Key>
@@ -47,7 +51,7 @@
     </Record>
     <Record>
       <Key>TutorialDescPowerSuit</Key>
-      <Value>Finde eine {THING:ItemBatteryCellLarge} und nimm sie in deine {SLOT:LeftHand} oder {SLOT:RightHand} in dem du sie anschaust und die {COLORRED:Linke Maustaste} drückst.</Value>
+      <Value>Finde eine {THING:ItemBatteryCellLarge} und nimm sie in deine {SLOT:LeftHand} oder {SLOT:RightHand} in dem du sie anschaust und die {KEY:PrimaryAction} drückst. Du kannst sie auch direkt auf deinen {THING:ItemEvaSuit} ziehen um Zeit zu sparen.</Value>
     </Record>
     <Record>
       <Key>TutorialTaskLifesupportSuit1</Key>
@@ -63,7 +67,7 @@
     </Record>
     <Record>
       <Key>TutorialDescLifesupport1</Key>
-      <Value>Du kannst mit dem {SLOT:Suit} interagieren in dem du kurz die Taste {KEY:SuitSlot} drückst. So kannst du durch die Menüs für Aktionen und Inventar wechseln sofern diese verfügbar sind. Führe dies nun aus, bis du das Inventar sehen kannst.</Value>
+      <Value>Du kannst mit dem {SLOT:Suit} interagieren in dem du kurz {KEY:SuitSlot} drückst oder per {KEY:MouseControl} direkt mit dem Mauszeiger darauf klickst.</Value>
     </Record>
     <Record>
       <Key>TutorialDescLifesupport2</Key>
@@ -71,7 +75,7 @@
     </Record>
     <Record>
       <Key>TutorialDescLifesupport4</Key>
-      <Value>Mit einer {THING:ItemBatteryCellLarge} in deiner {SLOT:LeftHand} oder {SLOT:RightHand}, drücke die Taste {KEY:InventorySelect} um die {THING:ItemBatteryCellLarge} in deinen {SLOT:LifeSupport}-Slot zu wechseln. Falls benötigt, kannst du die Taste {KEY:SwapHands} drücken um die aktive Hand zu wechseln.</Value>
+      <Value>Während du {KEY:MouseControl} hältst, ziehe die {THING:ItemBatteryCellLarge} in den {SLOT:LifeSupport}-Slot im {THING:ItemEvaSuit}. Du kannst auch das {COLORRED:Mausrad} drehen und {KEY:InventorySelect} nutzen um die {THING:ItemBatteryCellLarge} ein zu legen. Vergiss nicht, dass du {KEY:SwapHands} drücken kannst um die aktive Hand zu wechseln.</Value>
     </Record>
     <Record>
       <Key>TutorialTitleSuitFilter</Key>
@@ -79,7 +83,7 @@
     </Record>
     <Record>
       <Key>TutorialDescFilter1</Key>
-      <Value>Finden den {THING:ItemGasFilterCarbonDioxide} und nimm ihn in deine {SLOT:LeftHand} oder {SLOT:RightHand}.</Value>
+      <Value>Finde den {THING:ItemGasFilterCarbonDioxide} und nimm ihn in deine {SLOT:LeftHand} oder {SLOT:RightHand} in dem du ihn anschaust und {KEY:PrimaryAction} drückst. Auch hier kannst du den {THING:ItemGasFilterCarbonDioxide} direkt aus der Umgebung auf deinen {THING:ItemEvaSuit} ziehen um Zeit zu sparen. Dieser Filter entfernt {GAS:CarbonDioxide} aus deinem {THING:ItemEvaSuit}.</Value>
     </Record>
     <Record>
       <Key>TutorialTaskFilter1</Key>
@@ -95,7 +99,7 @@
     </Record>
     <Record>
       <Key>TutorialDescFilter2</Key>
-      <Value>Du kannst mit dem {SLOT:Suit} interagieren in dem du kurz die Taste {KEY:SuitSlot} drückst. So kannst du durch die Menüs für Aktionen und Inventar wechseln sofern diese verfügbar sind. Führe dies nun aus, bis du das Inventar sehen kannst.</Value>
+      <Value>Du kannst mit dem {SLOT:Suit} interagieren in dem du kurz {KEY:SuitSlot} drückst oder indem du {KEY:MouseControl} drückst und dann auf den {SLOT:Suit}-Slot klickst.</Value>
     </Record>
     <Record>
       <Key>TutorialDescFilter3</Key>
@@ -103,7 +107,7 @@
     </Record>
     <Record>
       <Key>TutorialDescFilter4</Key>
-      <Value>Mit einer {THING:ItemGasFilterCarbonDioxide} in deiner {SLOT:LeftHand} oder {SLOT:RightHand}, drücke die Taste {KEY:InventorySelect} um den {THING:ItemGasFilterCarbonDioxide} in einen {SLOT:Filter}-Slot zu wechseln. Falls benötigt, kannst du die Taste {KEY:SwapHands} drücken um die aktive Hand zu wechseln.</Value>
+      <Value>Während du {KEY:MouseControl} hältst, ziehe den {THING:ItemGasFilterCarbonDioxide} in irgend einen {SLOT:Filter}-Slot im {THING:ItemEvaSuit}. Drehe das {COLORRED:Mausrad} und nutze {KEY:InventorySelect} um den {THING:ItemGasFilterCarbonDioxide} in einen {SLOT:Filter}-Slot zu wechseln. Falls benötigt, kannst du die Taste {KEY:SwapHands} drücken um die aktive Hand zu wechseln.</Value>
     </Record>
     <Record>
       <Key>TutorialTitleGetTools</Key>
