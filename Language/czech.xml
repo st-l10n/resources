@@ -1819,12 +1819,29 @@
       <Value>Server je plný.</Value>
     </Record>
     <Record>
+      <Key>AlertVersionMismatch</Key>
+      <Value>Neshoda verze hry se serverem.</Value>
+    </Record>
+    <Record>
+      <Key>AlertNoResponse</Key>
+      <Value>Na herním serveru není žádná odezva.
+Opakujte akci.</Value>
+    </Record>
+    <Record>
+      <Key>AlertKicked</Key>
+      <Value>Byli jste vyhozen ze serveru.</Value>
+    </Record>
+    <Record>
       <Key>AlertWrongPassword</Key>
       <Value>Nesprávné heslo serveru.</Value>
     </Record>
     <Record>
       <Key>AlertInvalidPort</Key>
       <Value>Hodnota portu musí být mezi 0 a 65535.</Value>
+    </Record>
+    <Record>
+      <Key>AlertCannotUpdatePort</Key>
+      <Value>Nelze změnit port pro aktualizace, je-li spuštěn server.</Value>
     </Record>
     <Record>
       <Key>AlertBlankSaveName</Key>
@@ -1873,6 +1890,10 @@
     <Record>
       <Key>NewWorldModeCreative</Key>
       <Value>Kreativní</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldModeSurvival</Key>
+      <Value>Přežití</Value>
     </Record>
     <Record>
       <Key>JoinMenuServerListMap</Key>
@@ -1932,7 +1953,7 @@
     </Record>
     <Record>
       <Key>SettingsStartingCondition</Key>
-      <Value>Počáteční podmínka</Value>
+      <Value>Počáteční podmínky</Value>
     </Record>
     <Record>
       <Key>SettingsTitleGameSettings</Key>
@@ -1960,7 +1981,11 @@
     </Record>
     <Record>
       <Key>JoinWorldEmptyServers</Key>
-      <Value>Skrytí prázdných serverů</Value>
+      <Value>Skrýt prázdné servery</Value>
+    </Record>
+    <Record>
+      <Key>WorkshopSubscribedModsTitle</Key>
+      <Value>Odebírané mody</Value>
     </Record>
     <Record>
       <Key>WorkshopUnsubscribeButton</Key>
@@ -1969,6 +1994,14 @@
     <Record>
       <Key>OpenWorkshopButton</Key>
       <Value>Otevřít Workshop</Value>
+    </Record>
+    <Record>
+      <Key>WorldPresetTitle</Key>
+      <Value>Předvolby světa</Value>
+    </Record>
+    <Record>
+      <Key>WorldPresetLabel</Key>
+      <Value>Předvolby</Value>
     </Record>
     <Record>
       <Key>WorldNameLabel</Key>
