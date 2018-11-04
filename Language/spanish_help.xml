@@ -1,0 +1,213 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>ES</Code>
+  <HelpPage>
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                 MASTER PAGES            |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <StationpediaPage>
+      <Key>Home</Key>
+      <Title>Inicio</Title>
+      <Text>Bienvenido al sistema de ayuda interna de Stationeers. Con esta herramienta usted puede encontrar información sobre cómo funcionan todos los sistemas, así como información importante sobre todas las cosas del mundo.
+      
+{HEADER:Using Help}
+Puede alternar entre abrir y cerrar esta ventana con la tecla {KEY:Help}. Para activar el cursor del ratón mientras juegas, mantenga pulsada la tecla{KEY:MouseControl} para hacer clic en los enlaces dentro del sistema de ayuda.
+
+{HEADER:Inspecting}
+Si mantiene presionada {KEY:MouseControl} y {KEY:MouseInspect}  y hace clic en algo, puede [i]inspeccionarlo[/i].  Esto abrirá el sistema de ayuda a la página relacionada con ese objeto y le dará información detallada.
+
+{HEADER:Key topics}
+{LIST}{LINK:SmeltingPage;Smelting}, {LINK:MiningPage;Mining}, {LINK:ConstructionPage;Construction}, {LINK:InventoryPage;Inventory}
+{/LIST}
+{HEADER:Guides}
+{LIST}{LINK:GettingStarted;Getting Started}
+{/LIST}
+{HEADER:Other}
+{LIST}{LINK:GasPage;Gases}, {LINK:ReagentPage;Reagents}
+{/LIST}
+{HEADER:Items}
+{LIST}{LINK:ToolPage;Tools}, {LINK:ResourcePage;Resources}, {LINK:KitPage;Kits}, {LINK:FoodPage;Food}, {LINK:ClothingPage;Clothing}, {LINK:AppliancePage;Appliances}, {LINK:IngotPage;Ingots}, {LINK:OrePage;Ores}, {LINK:AlloyPage;Alloys}
+{/LIST}
+{HEADER:Structures}
+{LIST}{LINK:DevicePage;Devices}, {LINK:FabricatorPage;Fabricators}, {LINK:AirlockDevicePage;Airlock Devices}, {LINK:LogicUnitPage;Logic Units}
+{/LIST}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>AirlockDevicePage</Key>
+      <Title>Dispositivos de esclusas de aire</Title>
+      <Text>Colocando un {THING:CircuitboardAirlockControl} en una {THING:StructureConsole} se pueden conectar varios dispositivos a él, para hacer una esclusa que funcione.
+      
+{HEADER:List of Airlock Devices}
+Los siguientes dispositivos pueden conectarse y utilizarse en el sistema de control de la esclusa del aire:
+{LIST_OF_AIRLOCK_DEVICES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicUnitPage</Key>
+      <Title>Unidades Lógicas</Title>
+      <Text>{HEADER:List of Logic Units} 
+      
+      {LIST_OF_LOGIC_UNITS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FabricatorPage</Key>
+      <Title>Impresora Informatizada</Title>
+      <Text>Se trata de estructuras motorizadas que se pueden utilizar para fabricar las cosas que necesitas en el juego. Usualmente toman {LINK:IngotPage;Ingots} para proporcionar {LINK:ReagentPage;Reagents} que necesitan para hacer las cosas.
+      
+{HEADER:List of Fabricators}
+{LIST_OF_FABRICATORS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>DevicePage</Key>
+      <Title>Dispositivos</Title>
+      <Text>Estas son Estructuras, típicamente potenciadas, que tienen funciones especializadas incluyendo Lógica, Atmosférica y más. Se construyen de la misma manera que otras estructuras.
+      
+{HEADER:List of Devices}
+{LIST_OF_DEVICES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>MiningPage</Key>
+      <Title>Minería</Title>
+      <Text>Puede minar {LINK:OrePage;ore} usando un {THING:ItemMiningDrill}. Si usa un {THING:ItemMiningBelt} el {LINK:OrePage;ore} se colocará automáticamente dentro de él.
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPage</Key>
+      <Title>Reactivos</Title>
+      <Text>Estas son las cantidades químicas de ciertos tipos.
+      
+{HEADER:List of Reagents}
+{LIST_OF_REAGENTS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>AlloyPage</Key>
+      <Title>Aleaciones</Title>
+      <Text>Creados en la {THING:StructureFurnace} a partir de mezclas especializadas {LINK:ReagentPage;Reagent} son mezclas avanzadas,{LINK:IngotPage;Ingots} para su uso en {LINK:FabricatorPage;Fabricators}. El {THING:StructureArcFurnace} no es capaz de olerlos.
+
+{HEADER:List of Alloys}
+{LIST_OF_ALLOYS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>IngotPage</Key>
+      <Title>Lingotes</Title>
+      <Text>Estos son los artículos que se producen normalmente a partir de {LINK:SmeltingPage;Smelting} {LINK:OrePage;ores}.
+      
+{HEADER:List of Ingots}
+{LIST_OF_INGOTS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ToolPage</Key>
+      <Title>Herramientas</Title>
+      <Text>Estos son elementos que pueden caber en una ranura de herramienta especializada y se utilizan para {LINK:ConstructionPage;Construction} y otras tareas.
+      
+{HEADER:List of Tools}
+{LIST_OF_TOOLS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ResourcePage</Key>
+      <Title>Recursos</Title>
+      <Text>Estos son los artículos que se consumen durante {LINK:ConstructionPage;Construction} y otras tareas.
+      
+{HEADER:List of Resources}
+{LIST_OF_RESOURCES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FoodPage</Key>
+      <Title>Comida</Title>
+      <Text>Estos son artículos que se consumen para proporcionar nutrición.
+      
+{HEADER:List of Food}
+{LIST_OF_FOOD}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ClothingPage</Key>
+      <Title>Ropa</Title>
+      <Text>Estos son elementos que pueden ser usados por las entidades en las ranuras.
+      
+{HEADER:List of Clothing}
+{LIST_OF_CLOTHING}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>AppliancePage</Key>
+      <Title>Accesorios</Title>
+      <Text>Estos son artículos que pueden ser colocados en mesas. Hay que colocarlos en una mesa colocándolos en una mesa y usando una llave inglesa.
+      
+{HEADER:List of Appliances}
+{LIST_OF_APPLIANCES}
+      </Text>
+    </StationpediaPage>
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                     TEMPLATES               |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <StationpediaPage>
+      <Key>ThingTemplate</Key>
+      <Text>{0}
+
+{HEADER:General}
+{LIST}Prefab Hash {POS:300}{1}
+Se puede pintar {POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingThermalTemplate</Key>
+      <Text>{HEADER:Thermal Limits}
+{LIST}Shatter {POS:300}{0}
+Punto de inflamación {POS:300}{1}
+Autoencendido {POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingSlotItemTemplate</Key>
+      <Text>{0}. {POS:100}{1} {POS:300}Tipo {2}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingStackTemplate</Key>
+      <Text>Tamaño de apilado {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingNutritionTemplate</Key>
+      <Text>Máxima alimentación {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>IceMeltingTemplate</Key>
+      <Text>Temperatura de fusión {POS:300}{1}
+Presión de la masa fundida {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPageTemplate</Key>
+      <Text>Un {LINK:ReagentPage;reagent}, a menudo utillizable en forma de {LINK:IngotPage;Ingots} .
+
+{HEADER:General}
+{LIST}Unit {POS:300}{1}{/LIST}
+
+{HEADER:Found In}
+{LIST}{2}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageTemplate</Key>
+      <Text>A {LINK:GasPage;gas}, a menudo producido en {LINK:SmeltingPage;smelting}.
+
+{HEADER:General}
+{LIST}Specific Heat {POS:300}{1}{2}{/LIST}
+
+{HEADER:Found In}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageFlamableTemplate</Key>
+      <Text>Límite de inflamación {POS:300} {0} a {1}</Text>
+    </StationpediaPage>
+  </HelpPage>
+</Language>
