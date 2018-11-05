@@ -103,6 +103,12 @@ Los siguientes dispositivos pueden conectarse y utilizarse en el sistema de cont
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>SmeltingPage</Key>
+      <Title>Fundición</Title>
+      <Text>Una vez que tenga {LINK:OrePage;ore}, deberá convertirlo en  {LINK:IngotPage;ingots} para poder utilizar sus {LINK:ReagentPage;reagents}. La fundición a menudo produce {LINK:GasPage;gases}. Esto ocurre en el {THING:StructureArcFurnace} (for simple recipes) y el {THING:StructureFurnace} para los más complicados {LINK:AlloyPage;Alloys}. Para las aleaciones complejas, usted necesitará lograr mezclas en proporciones perfectas, {LINK:TemperaturePage;Temperature}, y {LINK:PressurePage;Pressure}. 
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>MiningPage</Key>
       <Title>Minería</Title>
       <Text>Puede minar {LINK:OrePage;ore} usando un {THING:ItemMiningDrill}. Si usa un {THING:ItemMiningBelt} el {LINK:OrePage;ore} se colocará automáticamente dentro de él.
