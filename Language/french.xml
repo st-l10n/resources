@@ -3074,47 +3074,59 @@
     </Record>
     <Record>
       <Key>MotherboardProgrammableChip</Key>
-      <Value>Carte mère (éditeur IC)</Value>
+      <Value>Carte mère (Editeur CI)</Value>
     </Record>
     <Record>
       <Key>ItemKitLogicCircuit</Key>
-      <Value>Kit (Support IC)</Value>
+      <Value>Kit (Support CI)</Value>
     </Record>
     <Record>
       <Key>StructureCircuitHousing</Key>
-      <Value>Support IC</Value>
+      <Value>Support CI</Value>
     </Record>
     <Record>
       <Key>ItemIntegratedCircuit10</Key>
-      <Value>Circuit intégré (IC10)</Value>
+      <Value>Circuit Intégré (CI10)</Value>
     </Record>
     <Record>
       <Key>StructureHydroponicsAutomated</Key>
-      <Value>Hydroponique automatisé</Value>
+      <Value>Hydroponiques automatisé</Value>
     </Record>
     <Record>
       <Key>ItemKitHydroponicAutomated</Key>
-      <Value>Kit (hydroponique automatisé)</Value>
+      <Value>Kit (Hydrophonique automatisé)</Value>
     </Record>
     <Record>
       <Key>ItemBasketBall</Key>
-      <Value>Basket-ball</Value>
-    </Record>
-    <Record>
-      <Key>ItemKitBasket</Key>
-      <Value>Kit (panier de Basket)</Value>
+      <Value>Ballon de Basket</Value>
     </Record>
     <Record>
       <Key>StructureBasketHoop</Key>
       <Value>Structure Panier de Basket</Value>
     </Record>
     <Record>
+      <Key>ItemGasFilterNitrousOxide</Key>
+      <Value>Filtre (Oxyde Nitreux Oxide)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxideL</Key>
+      <Value>Grand filtre (Oxyde Nitreux)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterNitrousOxideM</Key>
+      <Value>Filtre moyen (Oxyde Nitreux)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterNitrousOxide</Key>
+      <Value>Bouteille de gaz (anesthésiant)</Value>
+    </Record>
+    <Record>
       <Key>ItemNVG</Key>
-      <Value>Lunettes de vision nocturne</Value>
+      <Value>Lunette de vision nocturne</Value>
     </Record>
     <Record>
       <Key>ItemGlasses</Key>
-      <Value>Plaques de Verre</Value>
+      <Value>Lunettes</Value>
     </Record>
     <Record>
       <Key>StructureLogicHashGen</Key>
@@ -3141,16 +3153,12 @@
       <Value>Plaques en plastique</Value>
     </Record>
     <Record>
+      <Key>ItemAlienMushroom</Key>
+      <Value>Champignon Alien</Value>
+    </Record>
+    <Record>
       <Key>MotherboardComms</Key>
-      <Value>Carte mère (Logique)</Value>
-    </Record>
-    <Record>
-      <Key>ItemMarineHelmet</Key>
-      <Value>Casque Spatial</Value>
-    </Record>
-    <Record>
-      <Key>StructureWallLightBattery</Key>
-      <Value>Kit (Batterie)</Value>
+      <Value>Carte mère (Communications)</Value>
     </Record>
   </Things>
   <Slots>
@@ -3490,7 +3498,7 @@
     </Record>
     <Record>
       <Key>Search</Key>
-      <Value>Recherche</Value>
+      <Value>Rechercher</Value>
     </Record>
     <Record>
       <Key>Button4</Key>
@@ -3592,7 +3600,7 @@
     </Record>
     <Record>
       <Key>MainMenuTutorial</Key>
-      <Value>Tutoriel</Value>
+      <Value>Tutoriel &lt;color=green&gt; - Nouveau !&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>MainMenuCredits</Key>
@@ -4105,7 +4113,8 @@ Alors sors de là, Stationeer !</Value>
     </Record>
     <Record>
       <Key>MulticonstructorItem</Key>
-      <Value>&lt;color=yellow&gt;Option de construction {0} de {1} &lt;/color&gt; Scroll &lt;color=red&gt;Roulette de la souris&lt;/color&gt; pour plus d&apos;options.</Value>
+      <Value>&lt;color=yellow&gt;Option de construction {0} de {1} &lt;/color&gt; 
+Scroll &lt;color=red&gt;Roulette de la souris&lt;/color&gt; pour plus d&apos;options.</Value>
     </Record>
     <Record>
       <Key>UnableToConstruct</Key>
@@ -4206,6 +4215,18 @@ Alors sors de là, Stationeer !</Value>
     <Record>
       <Key>PromptQuitConfirm</Key>
       <Value>Quitter</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeTitle</Key>
+      <Value>Se désinscrire</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeBody</Key>
+      <Value>Etes vous sûr de vouloir désinscrire cet élément du Workshop?</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeConfirm</Key>
+      <Value>Désinscrit</Value>
     </Record>
     <Record>
       <Key>PromptOverwriteTitle</Key>
@@ -4451,6 +4472,10 @@ Veuillez réessayer.</Value>
     <Record>
       <Key>WorkshopSubscribedModsTitle</Key>
       <Value>Mods souscrits</Value>
+    </Record>
+    <Record>
+      <Key>WorkshopPageButton</Key>
+      <Value>Page Workshop</Value>
     </Record>
     <Record>
       <Key>WorkshopUnsubscribeButton</Key>
@@ -4703,7 +4728,7 @@ Temperature {1}</Value>
     </Record>
     <Record>
       <Key>ButtonCopy</Key>
-      <Value>Copie</Value>
+      <Value>Copier</Value>
     </Record>
     <Record>
       <Key>ButtonPaste</Key>
@@ -4715,27 +4740,33 @@ Temperature {1}</Value>
     </Record>
     <Record>
       <Key>HeadingHelp</Key>
-      <Value>aide</Value>
+      <Value>Aide</Value>
     </Record>
     <Record>
       <Key>ButtonLoad</Key>
-      <Value>Charger</Value>
+      <Value>Chargement</Value>
     </Record>
     <Record>
       <Key>HeadingEdit</Key>
-      <Value>Modifier</Value>
+      <Value>Editer</Value>
+    </Record>
+    <Record>
+      <Key>ButtonLibrary</Key>
+      <Value>Bibliotheque</Value>
     </Record>
     <Record>
       <Key>SettingsMenuAdvanced</Key>
-      <Value>Avancé </Value>
+      <Value>Avancé
+
+</Value>
+    </Record>
+    <Record>
+      <Key>SettingsLegacyInventory</Key>
+      <Value>Inventaire des stocks</Value>
     </Record>
     <Record>
       <Key>SettingsDisableWaterVisualizer</Key>
-      <Value>Désactiver l&apos;effet d&apos;eau</Value>
-    </Record>
-    <Record>
-      <Key>SettingsInterface</Key>
-      <Value>Interface</Value>
+      <Value>Désactiver la visualisation de l&apos;eau</Value>
     </Record>
     <Record>
       <Key>SettingsUPNPEnabled</Key>
