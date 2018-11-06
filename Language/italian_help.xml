@@ -69,6 +69,12 @@ Il tasto {KEY:InventorySelect} scambierà qualsiasi cosa sia presente nello slot
 </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>LogicUnitPage</Key>
+      <Title>Unità logiche</Title>
+      <Text>{HEADER:Lista Unità Logiche}
+{LIST_OF_LOGIC_UNITS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>DevicePage</Key>
       <Title>Dispositivi</Title>
       <Text>Queste sono strutture, tipicamente alimentate, che hanno funzioni specialistiche che includono controllo logici, atmosferici ed altro. Sono costruiti nello stesso modo delle altre strutture. 
@@ -82,6 +88,14 @@ Il tasto {KEY:InventorySelect} scambierà qualsiasi cosa sia presente nello slot
     |                     TEMPLATES               |
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
+    <StationpediaPage>
+      <Key>ThingTemplate</Key>
+      <Text>{0}
+
+{HEADER:General}
+{LIST}Prefab Hash {POS:300}{1}
+Dipingibile {POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
     <StationpediaPage>
       <Key>ThingThermalTemplate</Key>
       <Text>{HEADER:Limiti termici}
@@ -109,6 +123,22 @@ Pressione di fusione {POS:300}{0}</Text>
     <StationpediaPage>
       <Key>CreatorsHeaderTemplate</Key>
       <Text>{HEADER:Creato da}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedGasesTemplate</Key>
+      <Text>
+NEXTPREVIOUS
+{HEADER:Gas}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedReagentTemplate</Key>
+      <Text>{HEADER:Reagenti}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageFlamableTemplate</Key>
+      <Text>Limite di infiammabilità {POS:300}{0} a {1}</Text>
     </StationpediaPage>
   </HelpPage>
 </Language>
