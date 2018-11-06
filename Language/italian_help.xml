@@ -69,6 +69,15 @@ Il tasto {KEY:InventorySelect} scambierà qualsiasi cosa sia presente nello slot
 </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>AirlockDevicePage</Key>
+      <Title>Dispositivi per camere di decompressione</Title>
+      <Text>Piazzare una {THING:CircuitboardAirlockControl} in una {THING:StructureConsole} ti permette di collegare vari dispositivi, in modo da creare una camera di decompressione funzionante.
+
+{HEADER:Lista dei dispositivi per camera di decompressione}
+I seguendi dispositivi possono essere collegati, ed utilizzati, dal sistema di controllo della camera di decompressione:
+{LIST_OF_AIRLOCK_DEVICES}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>LogicUnitPage</Key>
       <Title>Unità logiche</Title>
       <Text>{HEADER:Lista Unità Logiche}
