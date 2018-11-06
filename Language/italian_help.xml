@@ -31,7 +31,7 @@ Adesso che avrai {LINK:IngotPage;lingotti} puoi inserirli nei {LINK:FabricatorPa
 Mentre inspiri {GAS:Oxygen} espirerai anche {GAS:CarbonDioxide}, avrai quindi bisogno di un  {THING:ItemGasFilterCarbonDioxide} nel tuo slot {SLOT:Filter}. Si usureranno con il tempo, dovrai quindi costruirne di nuovi con il {THING:StructureHydraulicPipeBender}. Puoi produrne utilizzando un {THING:ItemKitHydraulicPipeBender} dal {THING:StructureAutolathe}.
 
 {HEADER:Costruisci una serra}
-Ti servirà una piccola area chiusa per installare un sistema {LINK:HydroponicsPage;idroponico} per permetterti di produrre {LINK:FoodPage;cibo}. Non crearla troppo grande in quanto sarà poi più difficile da pressurizzare. Costruisci molte {THING:} usando una variante del kit {THING:ItemKitWallIron}, per permettere alla luce del sole di entrare. Assicurati che l&apos;accesso sia gestito utilizzando una {LINK:AirlockPage;camera di compensazione} automatizzata o una manuale.  Ricordati che puoi aprire o chiudere le porte non alimentate con il {THING:ItemCrowbar}.
+Ti servirà una piccola area chiusa per installare un sistema {LINK:HydroponicsPage;idroponico} per permetterti di produrre {LINK:FoodPage;cibo}. Non crearla troppo grande in quanto sarà poi più difficile da pressurizzare. Costruisci molte {THING:} usando una variante del kit {THING:ItemKitWallIron}, per permettere alla luce del sole di entrare. Assicurati che l&apos;accesso sia gestito utilizzando una {LINK:AirlockPage;camera di decompressione} automatizzata o una manuale.  Ricordati che puoi aprire o chiudere le porte non alimentate con il {THING:ItemCrowbar}.
 
 {HEADER:Pressurizza la serra}
 Una volta che avrai chiuso l&apos;area, {LINK:MiningPage;mina} un po&apos; di {THING:ItemOxite} e scioglila fino ad ottenere circa 100 kPa di pressione nella tua area di coltivazione. Aggiungi un po&apos; di {GAS:CarbonDioxide} all&apos;atmosfera. Puoi farlo facilmente prendendo nelle tue mani il serbatoio rifiuti dalla tua {THING:ItemEvaSuit}, aprirlo e chiuderlo, e poi rimetterlo a posto. Questo rilascerà {GAS:CarbonDioxide} filtrata dalla tua respirazione nell&apos;ambiente. Le {LINK:PlantPage;piante} la utilizzeranno per respirare. 
@@ -46,6 +46,27 @@ Puoi inserire direttamente del {LINK:IcePage;ghiaccio} da sopra. Se non c&apos;�
 
 Una volta raggiunta la giusta temperatura, inserisci i minerali per fonderli - ma fai attenzione al rapporto di minerali o dovrai inserire gli scarti, che verranno fuori come {THING:ItemReagentMix}, in una {THING:StructureCentrifuge} per essere nuovamente separati. Per ottenere il prodotto, tira la maniglia  {LOGICTYPE:Open}.
 {/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>InventoryPage</Key>
+      <Title>Inventario</Title>
+      <Text>Tutte le cose nel gioco possono avere vari slot. Questi slot potrebbero essere slot di classe, permettendo solo alcuni oggetti di poter essere inseriti dentro questi slot. Ci sono varie hotkeys per accedere agli slot sul tuo personaggio, come {KEY:HelmetSlot} per accedere al tuo {SLOT:Helmet}.
+
+{HEADER:Finestra inventario}
+Alcuni slot avranno slot a loro volta. Per interagire con il contenuto di uno slot puoi utilizzare la giusta hotkey per aprirne la finestra, oppure tenere premuto {KEY:MouseControl} e usare il mouse per cliccarci. Ora la finestra per quello slot è aperta e puoi interagire con i suoi slot e settaggi. Le finestre sono riposizionabili trascinandole dalla barra titolo. 
+
+{HEADER:Equipaggiamento rapido}
+Puoi tenere premuta una hotkey per equipaggiare, rimuovere, o scambiare il contenuto di uno slot. Per esempio, se avessimo il {THING:ItemSpaceHelmet} nelle nostre mani, e niente equipaggiato nel nostro {SLOT:Helmet}, tenendo premuto {KEY:HelmetSlot} per un secondo questo verrebbe trasferito nello slot. 
+
+{HEADER:Trascina e rilascia}
+Alternativamente, puoi tenere premuto {KEY:MouseControl} così che tu possa anche trascinare e rilasciare. Puoi trascinare e rilasciare tra slot, finestre e anche tra il mondo e gli slot presenti nel mondo. 
+
+{HEADER:Buttare}
+Puoi buttare un oggetto usando il mouse, tramite {KEY:MouseControl} trascinandolo e rilasciandolo nel mondo oppure puoi premere {KEY:Drop}.
+
+{HEADER:Selecting}
+Il tasto {KEY:InventorySelect} scambierà qualsiasi cosa sia presente nello slot della tua mano attiva, con un qualsiasi slot che avrai selezionato usando {COLORRED:Mouse Wheel} se vuoi utilizzare le hotkeys invece di effettuarlo con il mouse.
+</Text>
     </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
