@@ -84,6 +84,25 @@ I seguendi dispositivi possono essere collegati, ed utilizzati, dal sistema di c
 {LIST_OF_LOGIC_UNITS}</Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>SlotLeftHand</Key>
+      <Title>Slot delle mani</Title>
+      <Text>Le tue mani sono slot speciali. Puoi avere una mano attiva alla volta, cioè la mano che è attualmente usata da {COLORRED:Primary Action}. Per scambiare la mano attiva, premi {KEY:SwapHands}. Puoi interagire con la tua mano attiva premendo {KEY:ActiveHandSlot}, che aprirà e chiuderà ciò che è contenuto in essa. Come sempre, puoi utilizzare {KEY:MouseControl} per utilizzare il mouse per interagire. Per maggiori informazioni, vedi la sezione {LINK:InventoryPage;Inventario}.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>SlotRightHand</Key>
+      <Title>Slot delle mani</Title>
+      <Text>Le tue mani sono slot speciali. Puoi avere una mano attiva alla volta, cioè la mano che è attualmente usata da {COLORRED:Primary Action}. Per scambiare la mano attiva, premi {KEY:SwapHands}. Puoi interagire con la tua mano attiva premendo {KEY:ActiveHandSlot}, che aprirà e chiuderà ciò che è contenuto in essa. Come sempre, puoi utilizzare {KEY:MouseControl} per utilizzare il mouse per interagire. Per maggiori informazioni, vedi la sezione {LINK:InventoryPage;Inventario}.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FabricatorPage</Key>
+      <Title>Fabbricatori</Title>
+      <Text>Queste sono strutture alimentate che puoi usare per produrre oggetti che ti serviranno nel gioco. Solitamente necessitano di {LINK:IngotPage;lingotti} che facciano da {LINK:ReagentPage;Reagenti} di cui hanno bisogno per produrre cose.
+      
+{HEADER:Lista di Fabbricatori}
+{LIST_OF_FABRICATORS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>DevicePage</Key>
       <Title>Dispositivi</Title>
       <Text>Queste sono strutture, tipicamente alimentate, che hanno funzioni specialistiche che includono controllo logici, atmosferici ed altro. Sono costruiti nello stesso modo delle altre strutture. 
