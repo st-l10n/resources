@@ -129,6 +129,23 @@ Alcune strutture hanno multipli stati di costruzione, che richiedono diverse com
 Se guardi direttamente una struttura incompleta otterrai informazioni su cosa necessiti per completarla. Se hai un {LINK:ToolPage;utensile} in mano e non è quello corretto, una finestra di suggerimento apparirà per dirti di cosa hai bisogno per demolirlo. </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>ReagentPage</Key>
+      <Title>Reagenti</Title>
+      <Text>Queste sono le quantità chimiche di determinati tipi.
+
+{HEADER:Lista dei reagenti}
+{LIST_OF_REAGENTS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPage</Key>
+      <Title>Gas</Title>
+      <Text>Questi sono gas chimici di determinati tipi. 
+
+{HEADER:Lista dei Gas}
+{LIST_OF_GASES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>AlloyPage</Key>
       <Title>Leghe</Title>
       <Text>Creati in una {THING:StructureFurnace} da miscele specifiche di {LINK:ReagentPage;reagenti} , questi sono {LINK:IngotPage;lingotti} di tipo avanzato da utilizzare nei {LINK:FabricatorPage;fabbricatori}. La {THING:StructureArcFurnace} non è in grado di crearle.
