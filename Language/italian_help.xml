@@ -128,6 +128,81 @@ Alcune strutture hanno multipli stati di costruzione, che richiedono diverse com
 {HEADER:Finestra di suggerimento}
 Se guardi direttamente una struttura incompleta otterrai informazioni su cosa necessiti per completarla. Se hai un {LINK:ToolPage;utensile} in mano e non è quello corretto, una finestra di suggerimento apparirà per dirti di cosa hai bisogno per demolirlo. </Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>AlloyPage</Key>
+      <Title>Leghe</Title>
+      <Text>Creati in una {THING:StructureFurnace} da miscele specifiche di {LINK:ReagentPage;reagenti} , questi sono {LINK:IngotPage;lingotti} di tipo avanzato da utilizzare nei {LINK:FabricatorPage;fabbricatori}. La {THING:StructureArcFurnace} non è in grado di crearle.
+
+{HEADER:Lista delle Leghe}
+{LIST_OF_ALLOYS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>OrePage</Key>
+      <Title>Minerali</Title>
+      <Text>Questi sono oggetti che vengono {LINK:MiningPage;minati} e spesso {LINK:SmeltingPage;fusi}. Puoi ottenere anche una miscela di minerali riciclando oggetti con un {THING:StructureRecycler} e poi passandola in una {THING:StructureCentrifuge} che li dividerà in singoli {LINK:OrePage;minerali} per poterli nuovamente {LINK:SmeltingPage;fondere}.
+
+{HEADER:Sciogliere ghiacci}
+Questi sono minerali che possono essere esposti alla luce del sole o al calore e produrranno {LINK:GasPage;gas}. Per esempio il {THING:ItemIce} si scioglie in {GAS:Water} e {GAS:Oxygen}. Fai attenzione a tenerli lontani da calore e luce solare finché non vuoi fonderli. 
+      
+{HEADER:Lista di minerali}
+{LIST_OF_ORES}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>IngotPage</Key>
+      <Title>Lingotti</Title>
+      <Text>Questi sono oggetti che vengono tipicamente creati {LINK:SmeltingPage;fondendo} {LINK:OrePage;minerali}.
+      
+{HEADER:Lista di lingotti}
+{LIST_OF_INGOTS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ToolPage</Key>
+      <Title>Utensili</Title>
+      <Text>Questi sono oggetti che possono essere inseriti in slot speciali per utensili, e sono utilizzati per la {LINK:ConstructionPage;costruzione} e altre attività. 
+      
+{HEADER:Lista degli utensili}
+{LIST_OF_TOOLS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ResourcePage</Key>
+      <Title>Risorse</Title>
+      <Text>Questi sono oggetti che sono consumati durante la {LINK:ConstructionPage;costruzione} e altre attività.
+      
+{HEADER:Lista delle Risorse}
+{LIST_OF_RESOURCES}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>KitPage</Key>
+      <Title>Kit</Title>
+      <Text>Questi sono oggetti che sono consumati durante la {LINK:ConstructionPage;costruzione} e altre attività.
+      
+{HEADER:Lista dei Kit}
+{LIST_OF_KITS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FoodPage</Key>
+      <Title>Cibo</Title>
+      <Text>Questi sono oggetti che vengono consumati per fornire nutrimento.
+      
+{HEADER:Lista di cibi}
+{LIST_OF_FOOD}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ClothingPage</Key>
+      <Title>Vestiario</Title>
+      <Text>Questi sono oggetti che possono essere indossati in vari slot.
+      
+{HEADER:Lista Vestiario}
+{LIST_OF_CLOTHING}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>AppliancePage</Key>
+      <Title>Apparecchi</Title>
+      <Text>Questi sono oggetti che possono essere piazzati su un Piano di lavoro. Devi piazzarli sul piano di lavoro, posizionandoli sopra e poi utilizzando una chiave. 
+      
+{HEADER:Lista di Apparecchi}
+{LIST_OF_APPLIANCES}</Text>
+    </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
@@ -179,6 +254,26 @@ NEXTPREVIOUS
     <StationpediaPage>
       <Key>CreatedReagentTemplate</Key>
       <Text>{HEADER:Reagenti}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPageTemplate</Key>
+      <Text>Un {LINK:ReagentPage;reagente}, spesso utilizzabile in forma di {LINK:IngotPage;lingotto}.
+
+{HEADER:Generale}
+{LIST}Unit {POS:300}{1}{/LIST}
+
+{HEADER:Trovato in}
+{LIST}{2}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageTemplate</Key>
+      <Text>Un {LINK:GasPage;gas}, spesso prodotti durante la {LINK:SmeltingPage;fusione} di minerali.
+
+{HEADER:Generale}
+{LIST}Calore specifico {POS:300}{1}{2}{/LIST}
+
+{HEADER:Trovato in}
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
