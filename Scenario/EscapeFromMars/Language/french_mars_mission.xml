@@ -6,11 +6,11 @@
   <Interface>
     <Record>
       <Key>EscapeFromMarsTitle</Key>
-      <Value>Echappez-vous de Mars [BETA]</Value>
+      <Value>S&apos;échapper de Mars</Value>
     </Record>
     <Record>
       <Key>EscapeFromMarsDescription</Key>
-      <Value>POUR TESTER : Avec seulement une quantité minime de fournitures, vous devez utiliser votre intelligence et votre esprit pour trouver le moyen de survivre sur Mars. Si tout se déroulera comme prévu. Cela vous conduira finalement à la construction d&apos;une fusée capable de quitter l&apos;atmosphère de Mars.</Value>
+      <Value>Avec seulement une quantité limitée de fournitures, vous devez utiliser votre intelligence et votre esprit pour trouver un moyen de survivre sur Mars. Tout cela est planifié, cela conduira finalement à la construction d&apos;une fusée capable de quitter l&apos;atmosphère de Mars.</Value>
     </Record>
     <!-- Mission Stage: In Case of Emergency -->
     <Record>
@@ -22,6 +22,10 @@
       <Value>Votre combinaison est endommagé et vous devez trouver de la nourriture.</Value>
     </Record>
     <Record>
+      <Key>MarsTaskGetTape</Key>
+      <Value>Trouvez plusieurs {THING:ItemDuctTape}</Value>
+    </Record>
+    <Record>
       <Key>MarsTaskGetFood</Key>
       <Value>Trouvez une {THING:ItemCerealBar}</Value>
     </Record>
@@ -31,7 +35,7 @@
     </Record>
     <Record>
       <Key>MarsTabletStage1Page1</Key>
-      <Value>PAGE 1 sur 2 \ nPANIQUEZ PAS.\n\nSi vous lisez ceci, vous avez survécu à l&apos;évacuation - félicitations. Indépendamment de votre environnement, votre première priorité est de vérifier votre santé et celle de votre entourage. Assurez-vous de vérifier l&apos;intégrité de la combinaison, car rien ne permet de savoir dans quel environnement vous pouvez vous trouver et il est crucial de protéger votre réserve d&apos;air.</Value>
+      <Value>PAGE 1 sur 2 \ nNE PANIQUEZ PAS.\n\nSi vous lisez ceci, vous avez survécu à l&apos;évacuation - félicitations. Indépendamment de votre environnement, votre première priorité est de vérifier votre santé et celle de votre entourage. Assurez-vous de vérifier l&apos;intégrité de la combinaison, car rien ne permet de savoir dans quel environnement vous pouvez vous trouver et il est crucial de protéger votre réserve d&apos;air.</Value>
     </Record>
     <Record>
       <Key>MarsTabletStage1Page2</Key>
