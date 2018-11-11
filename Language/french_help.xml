@@ -11,5 +11,19 @@
     |                     TEMPLATES               |
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
+    <StationpediaPage>
+      <Key>ThingStackTemplate</Key>
+      <Text>Taille de la pile {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedGasesTemplate</Key>
+      <Text>{HEADER:Gazs}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedReagentTemplate</Key>
+      <Text>{HEADER:Reactifs}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
   </HelpPage>
 </Language>
