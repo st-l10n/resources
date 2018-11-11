@@ -199,6 +199,28 @@ Certains minerais fondent lorsqu&apos;ils sont exposés au soleil ou à la chale
 {HEADER:Liste des ressources}
 {LIST_OF_RESOURCES}</Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>FoodPage</Key>
+      <Title>Aliments</Title>
+      <Text>Ce sont des éléments qui sont consommés pour fournir de la nutrition.
+{HEADER:Liste des aliments}
+{LIST_OF_FOOD}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ClothingPage</Key>
+      <Title>Vêtements</Title>
+      <Text>Ce sont des objets que les entités peuvent porter.
+{HEADER:Liste des vetements}
+{LIST_OF_CLOTHING}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>AppliancePage</Key>
+      <Title>Appareils électroménagers</Title>
+      <Text>Ce sont des objets qui peuvent être placés sur des plans de travail. Vous devez les placer sur un plan de travail et les connectés en utilisant une clé.
+      
+{HEADER:Liste des appareils electromenagers}
+{LIST_OF_APPLIANCES}</Text>
+    </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
@@ -207,6 +229,15 @@ Certains minerais fondent lorsqu&apos;ils sont exposés au soleil ou à la chale
     <StationpediaPage>
       <Key>ThingStackTemplate</Key>
       <Text>Taille de la pile {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingNutritionTemplate</Key>
+      <Text>Alimentation maximum {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>IceMeltingTemplate</Key>
+      <Text>Température de fusion {POS:300}{1}
+Pressure de fusion {POS:300}{0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>CreatedGasesTemplate</Key>
