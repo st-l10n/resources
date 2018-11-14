@@ -76,6 +76,26 @@ Bir kere doğru sıcaklık oluştuğunda, cevherleri eritmek için ekle fakat or
 {/LIST}
       </Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>InventoryPage</Key>
+      <Title>Envanter</Title>
+      <Text>Oyundaki her şey çeşitli yuvalara sahiptir. Bu yuvalar, sadece uygun tipteki şeyleri yerleştirebilecek tiplere sahip olabilir.  {SLOT:Helmet}&apos;na erişim için {KEY:HelmetSlot} gibi, karakterin üzerindeki yuvalara erişebilmek için çeşitli kısayollar vardır.
+      
+{HEADER:Inventory Windows}
+Bazı yuvalar, kendi yuvalarına sahiptir. Bir yuvanın içeriği ile etkileşime geçebilmek için, ya kısayol tuşunu kullanabilir veya {KEY:MouseControl} tuşuna basılı tutarak ve üzerine tıklamak için fareyi kullanabilirsin. Şimdi slotun penceresi açık ve onun yuvaları ve seçenekleri ile etkileşime geçebilirsin. Pencereler, başlık çubuklarını sürükleyerek konumlandırılabilirler.
+
+{HEADER:Fast Equipping}
+Bir yuvaya hızlıca yerleştirmek, çıkarmak veya yer değiştirmek için kısayola basılı tutabilirsin. Örnek olarak, Eğer elimizde bir {THING:ItemSpaceHelmet} var ise ve {SLOT:Helmet}&apos;imiz boş ise ve eğer bir saniye boyunca {KEY:HelmetSlot}&apos;na basılı tutarsak, yuvaya taşınmış olacaktır.
+
+{HEADER:Drag and Drop}
+Alternatif olarak, eğer {KEY:MouseControl}&apos;e basılı tutarsan, sürükle ve bırak yapabilirsin. Yuvalar arasında, hatta dünyalar arasında ve dünya içerisindeki yuvalar arasında sürükle ve bırak yapabilirsin.
+
+{HEADER:Dropping}
+{KEY:MouseControl} yoluyla, fareyi kullanarak bir nesneyi tutabilirsin ve dünyaya doğru sürükleyip bırakabilirsin veya {KEY:Drop} tuşuna basabilirsin.
+
+{HEADER:Selecting}
+...</Text>
+    </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
