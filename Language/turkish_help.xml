@@ -97,6 +97,16 @@ Alternatif olarak, eğer {KEY:MouseControl}&apos;e basılı tutarsan &quot;sür�
 Eğer yuvalar arasında yer değiştirmeyi fare ile yapmak yerine kısayol kullanarak yapmak istersen, {KEY:InventorySelect} tuşu, {COLORRED:Mouse Wheel} ile seçmiş olduğun herhangi bir yuvayı, etkin elindeki seçili yuva ile değiştirecektir.
       </Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>AirlockDevicePage</Key>
+      <Title>Hava Kilidi Cihazları</Title>
+      <Text>Çalışan bir hava kilidi yapmak için, çeşitli cihazları bağlayabileceğin bir {THING:StructureConsole}&apos;a bir {THING:CircuitboardAirlockControl} yerleştir.
+      
+{HEADER:List of Airlock Devices}
+Listelenen cihazlar, hava kilidi kontrol sistemine bağlanabilir ve kullanılabilir:
+{LIST_OF_AIRLOCK_DEVICES}
+      </Text>
+    </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
