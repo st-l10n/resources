@@ -269,6 +269,16 @@ LISTE {0} /List</Text>
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>GasPageTemplate</Key>
+      <Text>Du {LINK:GasPage;gas}, est généralement produit lors de la fusion {LINK:SmeltingPage;smelting}.
+
+{HEADER:General}
+{LIST}Specific Heat {POS:300}{1}{2}{/LIST}
+
+{HEADER:Found In}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>GasPageFlamableTemplate</Key>
       <Text>Limite d&apos;embrassement {POS: 300} {0} à {1}</Text>
     </StationpediaPage>
