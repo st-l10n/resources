@@ -35,10 +35,54 @@
     </Record>
     <Record>
       <Key>MarsTabletStage1Page1</Key>
-      <Value>Stránka 1 z 2 \n NEPANIKAŘTE. \n \n Pokud tohle čtete, přežili jste evakuaci - gratuluji.  Bez ohledu na vaše prostředí, vaše první priorita je zkontrolovat zdraví své a ostatních okolo vás.  Ujistěte se, že zkontrolujete integritu obleků, protože nevíte v jakém prostředí se naleznete, a chránit jakékoliv zásoby kyslíku které máte je rozhodující.</Value>
+      <Value>Stránka 1 z 2 \n NEPANIKAŘTE. \n \n Pokud tohle čtete, přežili jste evakuaci - gratuluji. Bez ohledu na vaše prostředí, vaše první priorita je zkontrolovat zdraví své a ostatních okolo vás. Ujistěte se, že zkontrolujete integritu obleků, protože nevíte v jakém prostředí se naleznete, a chránit jakékoliv zásoby kyslíku které máte je rozhodující.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage1Page2</Key>
+      <Value>Stránka 2 z 2 \n Pokud jste v blízkosti nepoškozeného únikového modulu a připojené bedny se zásobami, měli by jste mít nějaké důležité zásoby které vám pomůžou počkat než přijede pomoc. Pokud ne, vyhledejte přeživší. Dělejte si poznámky o lokacích se zásobami, které vám nejvíce pomůžou při přežívání, jako jsou baterie, jídlo, užitní materiály jako izolepa a přenosné zařízení. \n</Value>
     </Record>
     <!-- Mission Stage: Aquire Raw Materials -->
+    <Record>
+      <Key>MarsTitleRawMaterials</Key>
+      <Value>Žebrej, Zahrabej a Kraď</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage2</Key>
+      <Value>NEZPRACOVANÉ MATERIÁLY</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescRawMaterials</Key>
+      <Value>Najdi způsob, jak produkovat základní materiály, které potřebujete na dostání manufaktury pod kontrolu.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetIronIngots</Key>
+      <Value>Získejte {THING:ItemIronIngot}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetCopperIngots</Key>
+      <Value>Získejte {THING:ItemCopperIngot}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetGoldIngots</Key>
+      <Value>Získejte {THING:ItemGoldIngot}</Value>
+    </Record>
     <!-- Mission Stage: Setup Manufacturing -->
+    <Record>
+      <Key>MarsTitleSetupManufacturing</Key>
+      <Value>Zachycení výrobních prostředků</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage3</Key>
+      <Value>VÝROBA 101</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskManufactureHPB</Key>
+      <Value>Vyrob {THING:ItemKitHydraulicPipeBender}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskManufactureEP</Key>
+      <Value>Vyrob {THING:ItemKitElectronicsPrinter}</Value>
+    </Record>
     <!-- Mission Stage: Food Supply -->
     <!-- Mission Stage: Spawn Mothership & Engine -->
     <Record>
