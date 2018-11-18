@@ -86,9 +86,33 @@
     <!-- Mission Stage: Food Supply -->
     <!-- Mission Stage: Spawn Mothership & Engine -->
     <Record>
+      <Key>MarsTabletStage5</Key>
+      <Value>VESMÍRNÉ HLÍDÁNÍ</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescCreateMothership</Key>
+      <Value>Vytvořte Mateřskou loď vyrobením {THING:MothershipCore} pomocí {THING:ItemKitMotherShipCore} a připojení {THING:StructureRocketEngine}</Value>
+    </Record>
+    <Record>
       <Key>MarsTaskSpawnMothershipCore</Key>
       <Value>Použijte {THING: ItemKitMotherShipCore}</Value>
     </Record>
+    <Record>
+      <Key>MarsTaskAttachEngine</Key>
+      <Value>Připojte {THING:StructureRocketEngine} na {THING:MothershipCore}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTitleLaunchMothership</Key>
+      <Value>Odpálení Mateřské Lodi</Value>
+    </Record>
     <!-- Mission Stage: Launch -->
+    <Record>
+      <Key>MarsTaskLaunchMothership</Key>
+      <Value>Odpalte svou mateřskou loď do výšky 100m</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage6</Key>
+      <Value>UNIKNI</Value>
+    </Record>
   </Interface>
 </Language>
