@@ -4688,12 +4688,20 @@ Temperatura {1}</Value>
       <Value>Nessun settaggio</Value>
     </Record>
     <Record>
+      <Key>LogicNoAdditionalSettingsFor</Key>
+      <Value>Nessuna opzione aggiuntiva per {0}</Value>
+    </Record>
+    <Record>
       <Key>LogicNoSlot</Key>
       <Value>&lt;color=red&gt;Nessuno slot&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>LogicNoAvailableSlots</Key>
       <Value>&lt;color=red&gt;Nessuno slot disponibile&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAdditionalSlotsFor</Key>
+      <Value>Nessuno slot aggiuntivo per {0}</Value>
     </Record>
     <Record>
       <Key>RequiresScrewdriver</Key>
@@ -4709,7 +4717,7 @@ Temperatura {1}</Value>
     </Record>
     <Record>
       <Key>LogicNoWritableDevices</Key>
-      <Value>Nessun dispositivo leggibile sulla rete</Value>
+      <Value>Nessun dispositivo scrivibile sulla rete</Value>
     </Record>
     <Record>
       <Key>ChangeSettingTo</Key>
@@ -4741,7 +4749,15 @@ Temperatura {1}</Value>
     </Record>
     <Record>
       <Key>ChangeSettingToForAll</Key>
-      <Value>Cambia da &lt;color=yellow&gt;{0}&lt;/color&gt; a {1}</Value>
+      <Value>Cambia a &lt;color=yellow&gt;{0}&lt;/color&gt; per tutti {1}</Value>
+    </Record>
+    <Record>
+      <Key>InteractionTemporarilyDisabledOnThisObject</Key>
+      <Value>Interazione temporaneamente disattivata per questo oggetto</Value>
+    </Record>
+    <Record>
+      <Key>UnableToInteractAsYouDoNotHaveTheRequiredAccessCard</Key>
+      <Value>Impossibile interagire in quanto non hai la {SLOT:AccessCard} richiesta.</Value>
     </Record>
     <Record>
       <Key>SettingsAtmosphericScattering</Key>
