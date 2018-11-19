@@ -4985,6 +4985,22 @@ Temperature {1}</Value>
       <Value>No Settings</Value>
     </Record>
     <Record>
+      <Key>LogicNoAdditionalSettingsFor</Key>
+      <Value>No additional settings for {0}</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoSlot</Key>
+      <Value>&lt;color=red&gt;No Slot&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAvailableSlots</Key>
+      <Value>&lt;color=red&gt;No available slots&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAdditionalSlotsFor</Key>
+      <Value>No additional slots for {0}</Value>
+    </Record>
+    <Record>
       <Key>RequiresScrewdriver</Key>
       <Value>You need a {THING:ItemScrewdriver} to change settings</Value>
     </Record>
@@ -4997,8 +5013,16 @@ Temperature {1}</Value>
       <Value>No other readable types on network</Value>
     </Record>
     <Record>
+      <Key>LogicNoWritableDevices</Key>
+      <Value>No other writable devices on network</Value>
+    </Record>
+    <Record>
       <Key>ChangeSettingTo</Key>
       <Value>Change to {0}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToAll</Key>
+      <Value>Change to All {0}</Value>
     </Record>
     <Record>
       <Key>HoldForPreviousObject</Key>
@@ -5007,6 +5031,30 @@ Temperature {1}</Value>
     <Record>
       <Key>ChangeSettingToFor</Key>
       <Value>Change to &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToForIn</Key>
+      <Value>Change to &lt;color=yellow&gt;{0}&lt;/color&gt; for {3} &lt;color=yellow&gt;({2})&lt;/color&gt; in {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeReagentSettingTo</Key>
+      <Value>Change to {2}.&lt;color=yellow&gt;{0}&lt;/color&gt;.&lt;color=yellow&gt;{1}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSlotSettingToFor</Key>
+      <Value>Change to {1}&lt;color=yellow&gt;({0})&lt;color&gt; for {2}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToForAll</Key>
+      <Value>Change to &lt;color=yellow&gt;{0}&lt;/color&gt;>for all {1}</Value>
+    </Record>
+    <Record>
+      <Key>InteractionTemporarilyDisabledOnThisObject</Key>
+      <Value>Interaction temporarily disabled on this object</Value>
+    </Record>
+    <Record>
+      <Key>UnableToInteractAsYouDoNotHaveTheRequiredAccessCard</Key>
+      <Value>Unable to interact as you do not have the required {SLOT:AccessCard}</Value>
     </Record>
     <Record>
       <Key>SettingsAtmosphericScattering</Key>
@@ -5150,8 +5198,7 @@ Temperature {1}</Value>
     </Record>
     <Record>
       <Key>SettingsInterface</Key>
-      <Value>Interface
-</Value>
+      <Value>Interface</Value>
     </Record>
     <Record>
       <Key>SettingsUPNPEnabled</Key>
