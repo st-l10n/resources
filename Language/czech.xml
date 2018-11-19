@@ -3047,6 +3047,14 @@ Teplota {1}</Value>
       <Value>Žádné Nastavení</Value>
     </Record>
     <Record>
+      <Key>LogicNoSlot</Key>
+      <Value>&lt;color=red&gt;Potřebujete více {0}&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAvailableSlots</Key>
+      <Value>&lt;color=red&gt;Nelze postavit&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
       <Key>LogicNoReadableDevices</Key>
       <Value>Žádné jiné čitelné zařízení v síti</Value>
     </Record>
@@ -3055,7 +3063,15 @@ Teplota {1}</Value>
       <Value>Žádné jiné čitelné typy v síti</Value>
     </Record>
     <Record>
+      <Key>LogicNoWritableDevices</Key>
+      <Value>Žádné jiné čitelné zařízení v síti</Value>
+    </Record>
+    <Record>
       <Key>ChangeSettingTo</Key>
+      <Value>Změnit na {0}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToAll</Key>
       <Value>Změnit na {0}</Value>
     </Record>
     <Record>
@@ -3064,6 +3080,22 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>ChangeSettingToFor</Key>
+      <Value>Změnit na &lt;color=yellow&gt;{0} pro {1}&lt;/color=yellow&gt;</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToForIn</Key>
+      <Value>Změnit na &lt;color=yellow&gt;{0} pro {1}&lt;/color=yellow&gt;</Value>
+    </Record>
+    <Record>
+      <Key>ChangeReagentSettingTo</Key>
+      <Value>Změnit na &lt;color=yellow&gt;{0} pro {1}&lt;/color=yellow&gt;</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSlotSettingToFor</Key>
+      <Value>Změnit na &lt;color=yellow&gt;{0} pro {1}&lt;/color=yellow&gt;</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToForAll</Key>
       <Value>Změnit na &lt;color=yellow&gt;{0} pro {1}&lt;/color=yellow&gt;</Value>
     </Record>
     <Record>

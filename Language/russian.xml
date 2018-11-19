@@ -4897,6 +4897,14 @@
       <Value>Нет настроек</Value>
     </Record>
     <Record>
+      <Key>LogicNoSlot</Key>
+      <Value>&lt;color=red&gt;Нужно больше {0}&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAvailableSlots</Key>
+      <Value>&lt;color=red&gt;Невозможно построить&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
       <Key>RequiresScrewdriver</Key>
       <Value>Для изменения настроек вам нужна {THING:ItemScrewdriver}</Value>
     </Record>
@@ -4909,7 +4917,15 @@
       <Value>В этой сети нет доступных типов</Value>
     </Record>
     <Record>
+      <Key>LogicNoWritableDevices</Key>
+      <Value>В этой сети нет доступных устройств</Value>
+    </Record>
+    <Record>
       <Key>ChangeSettingTo</Key>
+      <Value>Сменит на {0}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToAll</Key>
       <Value>Сменит на {0}</Value>
     </Record>
     <Record>
@@ -4918,6 +4934,22 @@
     </Record>
     <Record>
       <Key>ChangeSettingToFor</Key>
+      <Value>Поменять на &lt;color=yellow&gt;{0}&lt;/color&gt; для {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToForIn</Key>
+      <Value>Поменять на &lt;color=yellow&gt;{0}&lt;/color&gt; для {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeReagentSettingTo</Key>
+      <Value>Поменять на &lt;color=yellow&gt;{0}&lt;/color&gt; для {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSlotSettingToFor</Key>
+      <Value>Поменять на &lt;color=yellow&gt;{0}&lt;/color&gt; для {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToForAll</Key>
       <Value>Поменять на &lt;color=yellow&gt;{0}&lt;/color&gt; для {1}</Value>
     </Record>
     <Record>

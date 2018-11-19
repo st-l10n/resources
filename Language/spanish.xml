@@ -4868,6 +4868,14 @@ Temperatura {1}</Value>
       <Value>No hay configuración</Value>
     </Record>
     <Record>
+      <Key>LogicNoSlot</Key>
+      <Value>&lt;color=red&gt;Necesita más {0}&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAvailableSlots</Key>
+      <Value>&lt;color=red&gt;Incapaz de construir&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
       <Key>RequiresScrewdriver</Key>
       <Value>Necesitas un {THING:ItemScrewdriver} para cambiar la configuración</Value>
     </Record>
@@ -4880,7 +4888,15 @@ Temperatura {1}</Value>
       <Value>No hay otros tipos legibles en la red</Value>
     </Record>
     <Record>
+      <Key>LogicNoWritableDevices</Key>
+      <Value>No hay otros dispositivos legibles en la red</Value>
+    </Record>
+    <Record>
       <Key>ChangeSettingTo</Key>
+      <Value>Cambiar a {0}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToAll</Key>
       <Value>Cambiar a {0}</Value>
     </Record>
     <Record>
@@ -4889,6 +4905,22 @@ Temperatura {1}</Value>
     </Record>
     <Record>
       <Key>ChangeSettingToFor</Key>
+      <Value>Cambiar a &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToForIn</Key>
+      <Value>Cambiar a &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeReagentSettingTo</Key>
+      <Value>Cambiar a &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSlotSettingToFor</Key>
+      <Value>Cambiar a &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToForAll</Key>
       <Value>Cambiar a &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
     </Record>
     <Record>

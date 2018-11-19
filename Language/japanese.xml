@@ -4657,6 +4657,14 @@
       <Value>設定無し</Value>
     </Record>
     <Record>
+      <Key>LogicNoSlot</Key>
+      <Value>&lt;color=red&gt;{0}足りない&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAvailableSlots</Key>
+      <Value>&lt;color=red&gt;建造できません&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
       <Key>RequiresScrewdriver</Key>
       <Value>設定を変えるには{THING:ItemScrewdriver}が必要です</Value>
     </Record>
@@ -4669,7 +4677,15 @@
       <Value>ネットワークに他に読み取り可能なタイプがりません</Value>
     </Record>
     <Record>
+      <Key>LogicNoWritableDevices</Key>
+      <Value>ネットワークに他に読み取り可能なデバイスがありません</Value>
+    </Record>
+    <Record>
       <Key>ChangeSettingTo</Key>
+      <Value>{0}に変更</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToAll</Key>
       <Value>{0}に変更</Value>
     </Record>
     <Record>
@@ -4678,6 +4694,22 @@
     </Record>
     <Record>
       <Key>ChangeSettingToFor</Key>
+      <Value>&lt;color=yellow&gt;{0}&lt;/color&gt;を{1}に変更</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToForIn</Key>
+      <Value>&lt;color=yellow&gt;{0}&lt;/color&gt;を{1}に変更</Value>
+    </Record>
+    <Record>
+      <Key>ChangeReagentSettingTo</Key>
+      <Value>&lt;color=yellow&gt;{0}&lt;/color&gt;を{1}に変更</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSlotSettingToFor</Key>
+      <Value>&lt;color=yellow&gt;{0}&lt;/color&gt;を{1}に変更</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToForAll</Key>
       <Value>&lt;color=yellow&gt;{0}&lt;/color&gt;を{1}に変更</Value>
     </Record>
     <Record>

@@ -3730,6 +3730,14 @@ Não fique triste quando se explodir em minúsculos e minúsculos pedaços ou se
       <Value>Sem Configuração</Value>
     </Record>
     <Record>
+      <Key>LogicNoSlot</Key>
+      <Value>&lt;color=red&gt;Preciso de mais {0}&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAvailableSlots</Key>
+      <Value>&lt;color=red&gt;Unable to Construct&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
       <Key>RequiresScrewdriver</Key>
       <Value>Você precisa de um {THING:ItemScrewdriver} para alterar as configurações.</Value>
     </Record>
@@ -3742,7 +3750,15 @@ Não fique triste quando se explodir em minúsculos e minúsculos pedaços ou se
       <Value>Nenhum outro tipo legível na rede</Value>
     </Record>
     <Record>
+      <Key>LogicNoWritableDevices</Key>
+      <Value>Nenhum outro dispositivo legível na rede</Value>
+    </Record>
+    <Record>
       <Key>ChangeSettingTo</Key>
+      <Value>Mudar para {0}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToAll</Key>
       <Value>Mudar para {0}</Value>
     </Record>
     <Record>
@@ -3751,6 +3767,22 @@ Não fique triste quando se explodir em minúsculos e minúsculos pedaços ou se
     </Record>
     <Record>
       <Key>ChangeSettingToFor</Key>
+      <Value>Mudar para &lt;color=yellow&gt;{0}&lt;/color&gt; para {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToForIn</Key>
+      <Value>Mudar para &lt;color=yellow&gt;{0}&lt;/color&gt; para {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeReagentSettingTo</Key>
+      <Value>Mudar para &lt;color=yellow&gt;{0}&lt;/color&gt; para {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSlotSettingToFor</Key>
+      <Value>Mudar para &lt;color=yellow&gt;{0}&lt;/color&gt; para {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToForAll</Key>
       <Value>Mudar para &lt;color=yellow&gt;{0}&lt;/color&gt; para {1}</Value>
     </Record>
     <Record>

@@ -4783,6 +4783,14 @@
       <Value>未設定</Value>
     </Record>
     <Record>
+      <Key>LogicNoSlot</Key>
+      <Value>&lt;color=red&gt;需要更多 {0}&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAvailableSlots</Key>
+      <Value>&lt;color=red&gt;無法建造&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
       <Key>RequiresScrewdriver</Key>
       <Value>你需要一個 {THING:ItemScrewdriver} 以改變設置</Value>
     </Record>
@@ -4795,7 +4803,15 @@
       <Value>網絡上沒有其他可讀類型</Value>
     </Record>
     <Record>
+      <Key>LogicNoWritableDevices</Key>
+      <Value>網絡上沒有其他可讀設備</Value>
+    </Record>
+    <Record>
       <Key>ChangeSettingTo</Key>
+      <Value>改為 {0}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToAll</Key>
       <Value>改為 {0}</Value>
     </Record>
     <Record>
@@ -4804,6 +4820,22 @@
     </Record>
     <Record>
       <Key>ChangeSettingToFor</Key>
+      <Value>改為 &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToForIn</Key>
+      <Value>改為 &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeReagentSettingTo</Key>
+      <Value>改為 &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSlotSettingToFor</Key>
+      <Value>改為 &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToForAll</Key>
       <Value>改為 &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
     </Record>
     <Record>

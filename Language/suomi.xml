@@ -4606,6 +4606,14 @@ Lämpötila {1}</Value>
       <Value>Ei Asetusta</Value>
     </Record>
     <Record>
+      <Key>LogicNoSlot</Key>
+      <Value>&lt;color=red&gt;Tarvitset enemmän {0}&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAvailableSlots</Key>
+      <Value>&lt;color=red&gt;Ei voida rakentaa&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
       <Key>RequiresScrewdriver</Key>
       <Value>Tarvitset {THING:ItemScrewdriver} muuttaaksesi asetusta</Value>
     </Record>
@@ -4618,7 +4626,15 @@ Lämpötila {1}</Value>
       <Value>Ei muita luettavia tyyppejä verkostossa</Value>
     </Record>
     <Record>
+      <Key>LogicNoWritableDevices</Key>
+      <Value>Ei muita luettavia laitteita verkostossa</Value>
+    </Record>
+    <Record>
       <Key>ChangeSettingTo</Key>
+      <Value>Muuta {0}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToAll</Key>
       <Value>Muuta {0}</Value>
     </Record>
     <Record>
@@ -4627,6 +4643,22 @@ Lämpötila {1}</Value>
     </Record>
     <Record>
       <Key>ChangeSettingToFor</Key>
+      <Value>Muuta &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToForIn</Key>
+      <Value>Muuta &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeReagentSettingTo</Key>
+      <Value>Muuta &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSlotSettingToFor</Key>
+      <Value>Muuta &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToForAll</Key>
       <Value>Muuta &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
     </Record>
     <Record>

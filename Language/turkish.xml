@@ -4861,6 +4861,14 @@ Sıcaklık {1}</Value>
       <Value>Ayar Yok</Value>
     </Record>
     <Record>
+      <Key>LogicNoSlot</Key>
+      <Value>&lt;color=red&gt;Daha fazla {0} gerekir&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAvailableSlots</Key>
+      <Value>&lt;color=red&gt;İnşa Edilemiyor&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
       <Key>RequiresScrewdriver</Key>
       <Value>Ayarları değiştirmek için bir {THING:ItemScrewdriver}&apos;ya ihtiyacın var</Value>
     </Record>
@@ -4873,7 +4881,15 @@ Sıcaklık {1}</Value>
       <Value>Ağda başka okunabilir tip yok</Value>
     </Record>
     <Record>
+      <Key>LogicNoWritableDevices</Key>
+      <Value>Ağda başka okunabilir cihaz yok</Value>
+    </Record>
+    <Record>
       <Key>ChangeSettingTo</Key>
+      <Value>{0}&apos;a değiştir</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToAll</Key>
       <Value>{0}&apos;a değiştir</Value>
     </Record>
     <Record>
@@ -4882,6 +4898,22 @@ Sıcaklık {1}</Value>
     </Record>
     <Record>
       <Key>ChangeSettingToFor</Key>
+      <Value>{1} için &lt;color=yellow&gt;{0}&lt;/color&gt;&apos;a değiştir</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToForIn</Key>
+      <Value>{1} için &lt;color=yellow&gt;{0}&lt;/color&gt;&apos;a değiştir</Value>
+    </Record>
+    <Record>
+      <Key>ChangeReagentSettingTo</Key>
+      <Value>{1} için &lt;color=yellow&gt;{0}&lt;/color&gt;&apos;a değiştir</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSlotSettingToFor</Key>
+      <Value>{1} için &lt;color=yellow&gt;{0}&lt;/color&gt;&apos;a değiştir</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToForAll</Key>
       <Value>{1} için &lt;color=yellow&gt;{0}&lt;/color&gt;&apos;a değiştir</Value>
     </Record>
     <Record>
