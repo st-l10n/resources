@@ -309,5 +309,28 @@ Erime Basıncı {POS:300}{0}</Text>
       <Text>{HEADER:Üretim Yapabilir}
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructedHeaderTemplate</Key>
+      <Text>{HEADER:İnşa Edebilir}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicTypeHeaderTemplate</Key>
+      <Text>{HEADER:Mantık}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ModeStringHeaderTemplate</Key>
+      <Text>{HEADER:Modlar}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedGasesTemplate</Key>
+      <Text>{HEADER:Gazlar}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedReagentTemplate</Key>
+      <Text>{HEADER:Reaktifler}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
   </HelpPage>
 </Language>
