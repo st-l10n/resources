@@ -244,10 +244,27 @@ Eğer tamamlanmamış bir yapıya doğrudan bakarsan, tamamlanması için neleri
 {LIST_OF_CLOTHING}
       </Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>AppliancePage</Key>
+      <Title>Araçlar</Title>
+      <Text>Bunlar, Tezgâhların üstüne yerleştirilebilir Öğelerdir. Bir Tezhâhın üstüne koyarak ve bir İngiliz Anahtarı kullanarak yerleştirmelisin.
+      
+{HEADER:Araçların Listesi}
+{LIST_OF_APPLIANCES}
+      </Text>
+    </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
+    <StationpediaPage>
+      <Key>ThingTemplate</Key>
+      <Text>{0}
+
+{HEADER:Genel}
+{LIST}Prefabrikler {POS:300}{1}
+Boyanabilir {POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
   </HelpPage>
 </Language>
