@@ -144,6 +144,52 @@ Listelenen cihazlar, hava kilidi kontrol sistemine bağlanabilir ve kullanılabi
 {LIST_OF_DEVICES}
       </Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>MiningPage</Key>
+      <Title>Madencilik</Title>
+      <Text>Bir {THING:ItemMiningDrill} kullanarak kazabilirsin. Eğer bir {THING:ItemMiningBelt} giyersen, {LINK:OrePage;cevher} otomatik olarak içine yerleşecektir.
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructionPage</Key>
+      <Title>İnşaat</Title>
+      <Text>{HEADER:Başlarken}
+Genellikle, inşa etmeye başlamak için {LINK:KitPage;donanımlar} ve daha sonra tamamlamak için {LINK:ToolPage;aletler} ve {LINK:ResourcePage;kaynaklar} çeşitleri kullanacaksın. Seçtiğin yapıyı inşa etmek için kaç tane donanımın gerektiği ile yakından ilgilen; bazı yapılar, ihtiyacı olan birden fazla yığın gerektirebilir. Çok seçeneğin olacak bazı donanımlarda, inşa etmek için ilgilendiğin mevcut seçeneği değiştirmek için {COLORRED:Scroll Wheel}&apos;ni kullan.
+
+{HEADER:İnşa Durumları}
+Bazı yapılar, tamamlanmaları için farklı kombinasyonlar gerektiren birkaç inşa durumlarına sahip olacaklar. İpuçların, yapıları tamamlamak için ihtiyacın olan kombinasyonların ne olduğunu sana bildirecektir. Bazen, bir inşa durumunu tamamlamak için, her biri bir elinde olacak şekilde iki nesneye ihtiyacın  olacak. Bazı aletlerin önce, etkin elinde oldukları zaman {KEY:ToggleHandPower} tuşuna basılarak açılmaları gerekecektir.
+
+{HEADER:İpuçları}
+Eğer tamamlanmamış bir yapıya doğrudan bakarsan, tamamlanması için nelerin ihtiyacın olduğu bilgisini alabilirsin. Eğer elinde yanlış bir {LINK:ToolPage;alet} var ise, yapıyı sökmek için neye ihtiyacın olduğunu söyleyen bir ipucu belirecektir.
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPage</Key>
+      <Title>Reaktifler</Title>
+      <Text>Bu reaktifler, belli türlerdeki kimyasal miktarlardır.
+      
+{HEADER:Reaktiflerin Listesi}
+{LIST_OF_REAGENTS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPage</Key>
+      <Title>Gazlar</Title>
+      <Text>Bunlar, belli türlerdeki kimyasal gazlardır.
+      
+{HEADER:Gazların Listesi}
+{LIST_OF_GASES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>AlloyPage</Key>
+      <Title>Alaşımlar</Title>
+      <Text>{LINK:FabricatorPage;İmalatçılar}da kullanmak için gelişmiş {LINK:IngotPage;Külçeler} olan, {THING:StructureFurnace}da oluşturulmuş, özelleştirilmiş {LINK:ReagentPage;Reaktif} karışımlar. {THING:StructureArcFurnace}, bunları eritemez.
+
+{HEADER:Alaşımların Listesi}
+{LIST_OF_ALLOYS}
+      </Text>
+    </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
