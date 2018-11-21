@@ -81,19 +81,19 @@ Bir kere doğru sıcaklık oluştuğunda, cevherleri eritmek için ekle fakat or
       <Title>Envanter</Title>
       <Text>Oyundaki her şey çeşitli yuvalara sahiptir. Bu yuvalar, sadece uygun tipteki şeyleri yerleştirebilecek tiplere sahip olabilir.  {SLOT:Helmet}&apos;na erişim için {KEY:HelmetSlot} gibi, karakterin üzerindeki yuvalara erişebilmek için çeşitli kısayollar vardır.
       
-{HEADER:Inventory Windows}
+{HEADER:Envanter Pencereleri}
 Bazı yuvalar, kendi yuvalarına sahiptir. Bir yuvanın içeriği ile etkileşime geçebilmek için, ya kısayol tuşunu kullanabilir veya {KEY:MouseControl} tuşuna basılı tutarak ve üzerine tıklamak için fareyi kullanabilirsin. Şimdi yuvanın penceresi açık ve onun yuvaları ve seçenekleri ile etkileşime geçebilirsin. Pencereler, başlık çubuklarını sürükleyerek konumlandırılabilirler.
 
-{HEADER:Fast Equipping}
+{HEADER:Hızlı Yerleştirmek}
 Bir yuvaya hızlıca yerleştirmek, çıkarmak veya yer değiştirmek için kısayoluna basılı tutabilirsin. Örnek olarak, Eğer elimizde bir {THING:ItemSpaceHelmet} var ise ve {SLOT:Helmet}&apos;imiz boş ise ve de eğer bir saniye boyunca {KEY:HelmetSlot}&apos;na basılı tutarsak, {THING:ItemSpaceHelmet}&apos;i yuvaya taşınmış olacaktır.
 
-{HEADER:Drag and Drop}
+{HEADER:Sürükle ve Bırak}
 Alternatif olarak, eğer {KEY:MouseControl}&apos;e basılı tutarsan &quot;sürükle ve bırak&quot; yapabilirsin. Yuvalar arasında, hatta dünyalar arasında ve dünya içerisindeki yuvalar arasında &quot;sürükle ve bırak&quot; yapabilirsin.
 
-{HEADER:Dropping}
+{HEADER:Bırakmak}
 {KEY:MouseControl} yoluyla, fareyi kullanarak bir nesneyi tutabilirsin ve dünyaya doğru sürükleyip bırakabilirsin veya {KEY:Drop} tuşuna basabilirsin.
 
-{HEADER:Selecting}
+{HEADER:Seçmek}
 Eğer yuvalar arasında yer değiştirmeyi fare ile yapmak yerine kısayol kullanarak yapmak istersen, {KEY:InventorySelect} tuşu, {COLORRED:Mouse Wheel} ile seçmiş olduğun herhangi bir yuvayı, etkin elindeki seçili yuva ile değiştirecektir.
       </Text>
     </StationpediaPage>
@@ -102,9 +102,16 @@ Eğer yuvalar arasında yer değiştirmeyi fare ile yapmak yerine kısayol kulla
       <Title>Hava Kilidi Cihazları</Title>
       <Text>Çalışan bir hava kilidi yapmak için, çeşitli cihazları bağlayabileceğin bir {THING:StructureConsole}&apos;a bir {THING:CircuitboardAirlockControl} yerleştir.
       
-{HEADER:List of Airlock Devices}
+{HEADER:Hava Kilidi Cihazlarının Listesi}
 Listelenen cihazlar, hava kilidi kontrol sistemine bağlanabilir ve kullanılabilir:
 {LIST_OF_AIRLOCK_DEVICES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicUnitPage</Key>
+      <Title>Mantık Birimleri</Title>
+      <Text>{HEADER:Mantık Birimlerinin Listesi}
+{LIST_OF_LOGIC_UNITS}
       </Text>
     </StationpediaPage>
     <StationpediaPage>
@@ -124,7 +131,7 @@ Listelenen cihazlar, hava kilidi kontrol sistemine bağlanabilir ve kullanılabi
       <Title>İmalatçı</Title>
       <Text>Bu makineler, oyunda ihtiyacın olan şeyleri Üretmek için kullanılan elektrikli Yapılardır. Birşeyleri yapmaları için ihtiyaç duydukları {LINK:ReagentPage;Reaktifler}i sağlamak için, genellikle {LINK:IngotPage;Külçeler} alırlar.
       
-{HEADER:List of Fabricators}
+{HEADER:İmalatçıların Listesi}
 {LIST_OF_FABRICATORS}
       </Text>
     </StationpediaPage>
@@ -133,7 +140,7 @@ Listelenen cihazlar, hava kilidi kontrol sistemine bağlanabilir ve kullanılabi
       <Title>Cihazlar</Title>
       <Text>Bu cihazlar Mantık, Atmosferikler ve daha fazla özelleştirilmiş fonksiyonlara sahip, tipik olarak elektrikli yapılardır. Diğer yapılar ile aynı yolla inşa edilirler.
       
-{HEADER:List of Devices}
+{HEADER:Cihazların Listesi}
 {LIST_OF_DEVICES}
       </Text>
     </StationpediaPage>
