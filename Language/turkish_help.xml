@@ -336,11 +336,25 @@ Erime Basıncı {POS:300}{0}</Text>
       <Key>ReagentPageTemplate</Key>
       <Text>Bir {LINK:ReagentPage;reaktif}, çoğu zaman {LINK:IngotPage;Külçeler} biçiminde kullanılır.
 
-{HEADER:Genel}
+{HEADER:Genel Olarak}
 {LIST}Birim {POS:300}{1}{/LIST}
 
-{HEADER:İçeriğinde Olan}
+{HEADER:İçeriğinde Bulunan}
 {LIST}{2}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageTemplate</Key>
+      <Text>{LINK:SmeltingPage;eritme} işleminde, çoğunlukla bir {LINK:GasPage;gaz} açığa çıkar.
+
+{HEADER:Genel Olarak}
+{LIST}Belirli Sıcaklık {{POS:300}{1}{2}{/LIST}
+
+{HEADER:İçeriğinde Bulunan}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageFlamableTemplate</Key>
+      <Text>Alevlenme Sınırı {POS:300}{0} ile {1}</Text>
     </StationpediaPage>
   </HelpPage>
 </Language>
