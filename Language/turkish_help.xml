@@ -191,9 +191,18 @@ Eğer tamamlanmamış bir yapıya doğrudan bakarsan, tamamlanması için neleri
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>IngotPage</Key>
+      <Title>Külçeler</Title>
+      <Text>Bunlar, tipik olarak {LINK:OrePage;Cevherler}i {LINK:SmeltingPage;Eritme} ile üretilen Öğelerdir.
+      
+{HEADER:Külçelerin Listesi}
+{LIST_OF_INGOTS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>ToolPage</Key>
       <Title>Aletler</Title>
-      <Text>Bunlar, özelleştirilmiş alet yuvalarına sığan, {LINK:ConstructionPage;İnşaat} ve diğer görevler için kullanılan öğelerdir.
+      <Text>Bunlar, özelleştirilmiş alet yuvalarına sığan, {LINK:ConstructionPage;İnşaat} ve diğer görevler için kullanılan Öğelerdir.
       
 {HEADER:Aletlerin Listesi}
 {LIST_OF_TOOLS}
@@ -202,7 +211,7 @@ Eğer tamamlanmamış bir yapıya doğrudan bakarsan, tamamlanması için neleri
     <StationpediaPage>
       <Key>ResourcePage</Key>
       <Title>Kaynaklar</Title>
-      <Text>Bunlar, {LINK:ConstructionPage;İnşaat} ve diğer görevler sırasında tüketilen öğelerdir.
+      <Text>Bunlar, {LINK:ConstructionPage;İnşaat} ve diğer görevler sırasında tüketilen Öğelerdir.
       
 {HEADER:Kaynakların Listesi}
 {LIST_OF_RESOURCES}
@@ -215,6 +224,15 @@ Eğer tamamlanmamış bir yapıya doğrudan bakarsan, tamamlanması için neleri
       
 {HEADER:Donanımların Listesi}
 {LIST_OF_KITS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FoodPage</Key>
+      <Title>Gıda</Title>
+      <Text>Bunlar, beslenmeyi sağlamak için tüketilen Öğelerdir.
+      
+{HEADER:Gıdaların Listesi}
+{LIST_OF_FOOD}
       </Text>
     </StationpediaPage>
     <!--
