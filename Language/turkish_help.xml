@@ -332,5 +332,15 @@ Erime Basıncı {POS:300}{0}</Text>
       <Text>{HEADER:Reaktifler}
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPageTemplate</Key>
+      <Text>Bir {LINK:ReagentPage;reaktif}, çoğu zaman {LINK:IngotPage;Külçeler} biçiminde kullanılır.
+
+{HEADER:Genel}
+{LIST}Birim {POS:300}{1}{/LIST}
+
+{HEADER:İçeriğinde Olan}
+{LIST}{2}{/LIST}</Text>
+    </StationpediaPage>
   </HelpPage>
 </Language>
