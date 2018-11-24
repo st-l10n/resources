@@ -3064,7 +3064,11 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>LogicNoAvailableSlots</Key>
-      <Value>&lt;color=red&gt;Nelze postavit&lt;/color&gt;.</Value>
+      <Value>&lt;color=red&gt;Žádné dostupné sloty&lt;/color=red&gt;</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAdditionalSlotsFor</Key>
+      <Value>Žádné další sloty pro {0}</Value>
     </Record>
     <Record>
       <Key>LogicNoReadableDevices</Key>
@@ -3076,7 +3080,7 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>LogicNoWritableDevices</Key>
-      <Value>Žádné jiné čitelné zařízení v síti</Value>
+      <Value>Žádné jiné zapisovatelné zařízení v síti</Value>
     </Record>
     <Record>
       <Key>ChangeSettingTo</Key>
