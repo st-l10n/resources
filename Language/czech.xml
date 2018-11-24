@@ -3307,8 +3307,12 @@ Teplota {1}</Value>
       <Value>Žádné Nastavení</Value>
     </Record>
     <Record>
+      <Key>LogicNoAdditionalSettingsFor</Key>
+      <Value>Žádná další nastavení pro {0}</Value>
+    </Record>
+    <Record>
       <Key>LogicNoSlot</Key>
-      <Value>&lt;color=red&gt;Potřebujete více {0}&lt;/color&gt;.</Value>
+      <Value>&lt;color=red&gt;Žádný Slot &lt;/color&gt;.</Value>
     </Record>
     <Record>
       <Key>LogicNoAvailableSlots</Key>
@@ -3367,6 +3371,10 @@ Teplota {1}</Value>
       <Value>Změnit na &lt;color=yellow&gt;{0} pro všechny {1}&lt;/color=yellow&gt;</Value>
     </Record>
     <Record>
+      <Key>InteractionTemporarilyDisabledOnThisObject</Key>
+      <Value>Interakce dočasně zakázána u tohoto objektu</Value>
+    </Record>
+    <Record>
       <Key>UnableToInteractAsYouDoNotHaveTheRequiredAccessCard</Key>
       <Value>Nekomunikuje, protože nemáte požadovanou {SLOT: AccessCard}</Value>
     </Record>
@@ -3388,7 +3396,7 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>SettingsLensFlares</Key>
-      <Value>Odlesk objektivu</Value>
+      <Value>Odlesk Objektivu</Value>
     </Record>
     <Record>
       <Key>SettingsInputSettings</Key>
