@@ -1054,6 +1054,10 @@
       <Value>Železné Desky</Value>
     </Record>
     <Record>
+      <Key>ItemSilverOre</Key>
+      <Value>Ruda (Stříbro)</Value>
+    </Record>
+    <Record>
       <Key>ItemAngleGrinder</Key>
       <Value>Úhlová Bruska</Value>
     </Record>
@@ -1330,6 +1334,10 @@
       <Value>Kompozitová Podlahová Mříž 4</Value>
     </Record>
     <Record>
+      <Key>ItemKitWallPanels</Key>
+      <Value>Sada (Panel Stěny)</Value>
+    </Record>
+    <Record>
       <Key>StructureCompositeWallPanelling1</Key>
       <Value>Structure Composite Wall Panelling1</Value>
     </Record>
@@ -1434,12 +1442,32 @@
       <Value>Zeď (Velký Panel Šipka)</Value>
     </Record>
     <Record>
+      <Key>ItemKitWallArch</Key>
+      <Value>Sada (Oblouková Zeď)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitWallFlat</Key>
+      <Value>Sada (Plochá Zeď)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitWallGeometry</Key>
+      <Value>Sada (Geometrická Zeď)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitWallPadded</Key>
+      <Value>Sada (Polstrovaná Zeď)</Value>
+    </Record>
+    <Record>
       <Key>StructureLadder</Key>
       <Value>Žebřík</Value>
     </Record>
     <Record>
       <Key>CartridgeGuide</Key>
       <Value>Kazeta (Průvodce)</Value>
+    </Record>
+    <Record>
+      <Key>ItemAuthoringTool</Key>
+      <Value>Nástroj pro Tvorbu Položek</Value>
     </Record>
     <Record>
       <Key>StructureRocketEngineDestroyed</Key>
@@ -3081,6 +3109,10 @@ Teplota {1}</Value>
     <Record>
       <Key>LogicNoAdditionalSlotsFor</Key>
       <Value>Žádné další sloty pro {0}</Value>
+    </Record>
+    <Record>
+      <Key>RequiresScrewdriver</Key>
+      <Value>Pro změnu nastavení potřebujete {THING:ItemScrewdriver}</Value>
     </Record>
     <Record>
       <Key>LogicNoReadableDevices</Key>
