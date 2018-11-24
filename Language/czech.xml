@@ -1050,6 +1050,10 @@
       <Value>Úhlová Bruska</Value>
     </Record>
     <Record>
+      <Key>StructureWallIron</Key>
+      <Value>Železná Zeď</Value>
+    </Record>
+    <Record>
       <Key>ItemKitWallIron</Key>
       <Value>Sada (Železná Zeď)</Value>
     </Record>
@@ -2176,6 +2180,10 @@
       <Value>Prostor</Value>
     </Record>
     <Record>
+      <Key>NewWorldAreaEarth</Key>
+      <Value>Země</Value>
+    </Record>
+    <Record>
       <Key>NewWorldEnableAwayMissions</Key>
       <Value>Povolit Vzdálené Mise</Value>
     </Record>
@@ -3100,7 +3108,11 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>ChangeSettingToForAll</Key>
-      <Value>Změnit na &lt;color=yellow&gt;{0} pro {1}&lt;/color=yellow&gt;</Value>
+      <Value>Změnit na &lt;color=yellow&gt;{0} pro všechny {1}&lt;/color=yellow&gt;</Value>
+    </Record>
+    <Record>
+      <Key>UnableToInteractAsYouDoNotHaveTheRequiredAccessCard</Key>
+      <Value>Nekomunikuje, protože nemáte požadovanou {SLOT: AccessCard}</Value>
     </Record>
     <Record>
       <Key>SettingsAtmosphericScattering</Key>
@@ -3310,7 +3322,12 @@ Teplota {1}</Value>
     </Record>
   </Colors>
   <Keys/>
-  <Mineables/>
+  <Mineables>
+    <Record>
+      <Key>Iron</Key>
+      <Value>Železo</Value>
+    </Record>
+  </Mineables>
   <HelpPage/>
   <GameTip/>
 </Language>
