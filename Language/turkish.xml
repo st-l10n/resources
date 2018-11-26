@@ -3877,6 +3877,10 @@
       <Value>Uzay</Value>
     </Record>
     <Record>
+      <Key>NewWorldAreaEarth</Key>
+      <Value>Dünya</Value>
+    </Record>
+    <Record>
       <Key>NewWorldEnableAwayMissions</Key>
       <Value>Uzak Görevleri Etkinleştir</Value>
     </Record>
@@ -4861,12 +4865,20 @@ Sıcaklık {1}</Value>
       <Value>Ayar Yok</Value>
     </Record>
     <Record>
+      <Key>LogicNoAdditionalSettingsFor</Key>
+      <Value>{0} için ek ayar yok</Value>
+    </Record>
+    <Record>
       <Key>LogicNoSlot</Key>
       <Value>&lt;color=red&gt;Yuva Yok&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>LogicNoAvailableSlots</Key>
       <Value>&lt;color=red&gt;Mevcutta yuva yok&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAdditionalSlotsFor</Key>
+      <Value>{0} için ek yuva yok</Value>
     </Record>
     <Record>
       <Key>RequiresScrewdriver</Key>
@@ -4910,7 +4922,7 @@ Sıcaklık {1}</Value>
     </Record>
     <Record>
       <Key>ChangeSlotSettingToFor</Key>
-      <Value>{2} için {1}&lt;color=yellow&gt;({0})&lt;color&gt;&apos;a değiştir</Value>
+      <Value>{2} için {1}&lt;color=yellow&gt;({0})&lt;/color&gt;&apos;a değiştir</Value>
     </Record>
     <Record>
       <Key>ChangeSettingToForAll</Key>
@@ -5075,6 +5087,10 @@ Sıcaklık {1}</Value>
     <Record>
       <Key>NewWorldGameMode</Key>
       <Value>Oyun Modu</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldGravity</Key>
+      <Value>Yerçekimi</Value>
     </Record>
     <Record>
       <Key>NewWorldPressure</Key>
