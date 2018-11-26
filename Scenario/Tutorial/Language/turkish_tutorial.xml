@@ -3,5 +3,42 @@
   <Name>Turkish</Name>
   <Code>TR</Code>
   <Font>font_extended</Font>
-  <Interface/>
+  <Interface>
+    <Record>
+      <Key>TutorialTitleWearSpacesuit</Key>
+      <Value>Uzay Giysisini Giymek</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskWearHelmet</Key>
+      <Value>{THING:ItemSpaceHelmet} giy</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskWearSuit</Key>
+      <Value>{THING:ItemEvaSuit} giy</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskWearJetpack</Key>
+      <Value>{THING:ItemSpacepack} giy</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTitlePowerSuit</Key>
+      <Value>Uzay giysisine güç vermek</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskLifesupportSuit1</Key>
+      <Value>Bir {THING:ItemBatteryCellLarge} al</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskLifesupportSuit2</Key>
+      <Value>{THING:ItemEvaSuit} yuva penceresini aç</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskLifesupportSuit4</Key>
+      <Value>Bir {THING:ItemBatteryCellLarge}&apos;i olan {THING:ItemEvaSuit}&apos;i giy</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTitleSuitFilter</Key>
+      <Value>Bir Filtre Donanmak</Value>
+    </Record>
+  </Interface>
 </Language>
