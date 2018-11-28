@@ -2948,7 +2948,7 @@
     </Record>
     <Record>
       <Key>OnOff</Key>
-      <Value>Zapnuto vypnuto</Value>
+      <Value>Zapnuto Vypnuto</Value>
     </Record>
     <Record>
       <Key>Lock</Key>
@@ -3128,11 +3128,19 @@
     </Record>
     <Record>
       <Key>TemperatureUp</Key>
-      <Value>Zvýšit teplotu</Value>
+      <Value>Zvýšit Teplotu</Value>
     </Record>
     <Record>
       <Key>TemperatureDown</Key>
-      <Value>Snížit teplotu</Value>
+      <Value>Snížit Teplotu</Value>
+    </Record>
+    <Record>
+      <Key>ThrustUp</Key>
+      <Value>Zvýšit Tah</Value>
+    </Record>
+    <Record>
+      <Key>ThrustDown</Key>
+      <Value>Snížit Tah</Value>
     </Record>
     <Record>
       <Key>Button5</Key>
@@ -4217,7 +4225,7 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>ChangeSlotSettingToFor</Key>
-      <Value>Změnit na &lt;color=yellow&gt;{0} pro {1}&lt;/color=yellow&gt;</Value>
+      <Value>Změnit {1}&lt;color=yellow&gt;({0})&lt;/color&gt; pro {2}</Value>
     </Record>
     <Record>
       <Key>ChangeSettingToForAll</Key>
@@ -4229,7 +4237,7 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>UnableToInteractAsYouDoNotHaveTheRequiredAccessCard</Key>
-      <Value>Nekomunikuje, protože nemáte požadovanou {SLOT: AccessCard}</Value>
+      <Value>Nekomunikuje, protože nemáte požadovanou {SLOT:AccessCard}</Value>
     </Record>
     <Record>
       <Key>SettingsAtmosphericScattering</Key>
