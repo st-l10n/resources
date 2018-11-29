@@ -4735,19 +4735,27 @@ Não fique triste quando se explodir em minúsculos e minúsculos pedaços ou se
     </Record>
     <Record>
       <Key>ChangeSettingToForIn</Key>
-      <Value>Mudar para &lt;color=yellow&gt;{0}&lt;/color&gt; para {1}</Value>
+      <Value>Mudar para &lt;color=yellow&gt;{0}&lt;/color&gt; por {3} &lt;color=yellow&gt;({2})&lt;/color&gt; in {1}</Value>
     </Record>
     <Record>
       <Key>ChangeReagentSettingTo</Key>
-      <Value>Mudar para &lt;color=yellow&gt;{0}&lt;/color&gt; para {1}</Value>
+      <Value>Mudar para {2}.&lt;color=yellow&gt;{0}&lt;/color&gt;.&lt;color=yellow&gt;{1}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>ChangeSlotSettingToFor</Key>
-      <Value>Mudar para &lt;color=yellow&gt;{0}&lt;/color&gt; para {1}</Value>
+      <Value>Mudar para {1}&lt;color=yellow&gt;({0})&lt;/color&gt; por {2}</Value>
     </Record>
     <Record>
       <Key>ChangeSettingToForAll</Key>
-      <Value>Mudar para &lt;color=yellow&gt;{0}&lt;/color&gt; para {1}</Value>
+      <Value>Mudar para &lt;color=yellow&gt;{0}&lt;/color&gt; para todos {1}</Value>
+    </Record>
+    <Record>
+      <Key>InteractionTemporarilyDisabledOnThisObject</Key>
+      <Value>Interação temporariamente desativada neste objeto</Value>
+    </Record>
+    <Record>
+      <Key>UnableToInteractAsYouDoNotHaveTheRequiredAccessCard</Key>
+      <Value>Incapaz de interagir por não teres o requerido {SLOT:AccessCard}</Value>
     </Record>
     <Record>
       <Key>SettingsAtmosphericScattering</Key>
@@ -4771,7 +4779,7 @@ Não fique triste quando se explodir em minúsculos e minúsculos pedaços ou se
     </Record>
     <Record>
       <Key>SettingsLensFlares</Key>
-      <Value>Dispersão de Luz</Value>
+      <Value>Dispersão de Luz (Lente)</Value>
     </Record>
     <Record>
       <Key>SettingsInputSettings</Key>
