@@ -4720,7 +4720,7 @@ Temperature {1}</Value>
     </Record>
     <Record>
       <Key>LogicNoWritableDevices</Key>
-      <Value>Aucun autre appareil lisible sur le réseau</Value>
+      <Value>Aucun autre appareil accessible en écriture sur le réseau</Value>
     </Record>
     <Record>
       <Key>ChangeSettingTo</Key>
@@ -4728,7 +4728,7 @@ Temperature {1}</Value>
     </Record>
     <Record>
       <Key>ChangeSettingToAll</Key>
-      <Value>Changer pour {0}</Value>
+      <Value>Changer tous pour {0}</Value>
     </Record>
     <Record>
       <Key>HoldForPreviousObject</Key>
@@ -4740,19 +4740,27 @@ Temperature {1}</Value>
     </Record>
     <Record>
       <Key>ChangeSettingToForIn</Key>
-      <Value>Changer en {0} pour {1}</Value>
+      <Value>Changer en &lt;color=yellow&gt;{0}&lt;/color&gt; pour {3} &lt;color=yellow&gt;({2})&lt;/color&gt; dans {1}</Value>
     </Record>
     <Record>
       <Key>ChangeReagentSettingTo</Key>
-      <Value>Changer en {0} pour {1}</Value>
+      <Value>Changer en {2}.&lt;color=yellow&gt;{0}&lt;/color&gt;.&lt;color=yellow&gt;{1}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>ChangeSlotSettingToFor</Key>
-      <Value>Changer en {0} pour {1}</Value>
+      <Value>Changer en {1}&lt;color=yellow&gt;({0})&lt;/color&gt; pour {2}</Value>
     </Record>
     <Record>
       <Key>ChangeSettingToForAll</Key>
-      <Value>Changer en {0} pour {1}</Value>
+      <Value>Changer en &lt;color=yellow&gt;{0}&lt;/color&gt; pour tous {1}</Value>
+    </Record>
+    <Record>
+      <Key>InteractionTemporarilyDisabledOnThisObject</Key>
+      <Value>Interaction temporairement désactivée sur cet objet</Value>
+    </Record>
+    <Record>
+      <Key>UnableToInteractAsYouDoNotHaveTheRequiredAccessCard</Key>
+      <Value>Impossible d&apos;interagir car vous n&apos;avez pas le {SLOT: AccessCard} requis</Value>
     </Record>
     <Record>
       <Key>SettingsAtmosphericScattering</Key>
@@ -4781,6 +4789,22 @@ Temperature {1}</Value>
     <Record>
       <Key>SettingsInputSettings</Key>
       <Value>Paramètres d&apos;entrée</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMarsShortDesc</Key>
+      <Value>Une boule de poussière rouge désolée, mars dispose d&apos;un terrain plus varié qui peut atteindre dans le ciel, et une atmosphère froide qui n&apos;est pas bon pour respirer, mais peut-être qu&apos;il peut être utilisé pour quelque chose...</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoonShortDesc</Key>
+      <Value>Alors que la présence de charbon n&apos;est pas typique de la lune terrestre, le terrain relativement plat plein de divers cratères importants et le manque d&apos;atmosphère peut être plus familier dans ce paysage gris.</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldSpaceShortDesc</Key>
+      <Value>Bien qu&apos;il n&apos;y ait pas de gravité ou d&apos;atmosphère, au moins il ya beaucoup d&apos;espace à construire!  Vous vous retrouverez parmi plusieurs astéroïdes qui peuvent contenir divers minerais et glaces que vous pouvez utiliser pour survivre ici.</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldEuropaShortDesc</Key>
+      <Value>Fondre une partie de la glace sur ce monde froid lui a finalement donné une atmosphère, mais c&apos;est l&apos;environnement extrêmement glacial présente un défi extrême pour le stationeers.</Value>
     </Record>
     <Record>
       <Key>SettingsTitleAudioAlerts</Key>
