@@ -174,7 +174,11 @@ Une {THING:CircuitboardAirlockControl} dans le  {THING:StructureConsole} contrô
     </Record>
     <Record>
       <Key>TutorialDescRepairCable1</Key>
-      <Value>Il y a un {THING:StructureCableJunction} brulé, trouver et supprimer le en utilisant une {THING:ItemWireCutters} dans votre {THING:ItemToolBelt}. Appuiez sur {KEY:ToolBeltSlot} pour ouvrir votre {SLOT:Belt} . Appuiez sur {KEY:InventorySelect} pour échanger l&apos;objet de la fente intérieure en surbrillance à vos mains.</Value>
+      <Value>Un {THING: StructureCableStraight} peut transporter simultanément {COLORYELLOW: Données} et {COLORYELLOW: Energie}, mais ils bruleront si trop de puissance passe au travers d&apos;eux. Il y a une {THING:StructureCableJunction} brulé quelque part en dessous de la {THING: StructureAirlock} que vous venez de quitter, retrouver la panne et réparer la en utilisant un {THING:ItemWireCutters} à partir de votre {THING:ItemToolBelt}.
+      
+Rappelez-vous qu&apos;il existe deux façons d&apos;interagir avec votre {LINK: InventoryPage; Inventory}. Vous pouvez appuyer sur {KEY: MouseControl} pour activer le curseur de la souris, puis glisser-déposer ou ouvrir des choses avec la souris. Pour un contrôle rapide, appuyez sur {KEY: ToolBeltSlot} pour ouvrir votre emplacement {SLOT: Belt}. Appuyez sur {KEY: InventorySelect} pour permuter l&apos;élément d&apos;emplacement intérieur en surbrillance sur vos mains.
+
+Si vous trouvez que vous avez trop de fenêtres ouvertes, vous pouvez les fermer tout à la fois en utilisant {KEY: HideAllWindows}, vous pouvez basculer la fenêtre individuelle avec leur raccourci de fente, ou vous pouvez cliquer sur l&apos;emplacement lui-même alors que la souris est activée avec {KEY:MouseControl}.</Value>
     </Record>
     <Record>
       <Key>TutorialTaskRepairCable1</Key>
@@ -280,11 +284,11 @@ l&apos;utilisation de cartes différentes vous permet d&apos;accéder à de nomb
     </Record>
     <Record>
       <Key>TutorialDescBakeMuffin1</Key>
-      <Value>Certains appareils du jeu sont montés sur {THING:StructureBench}s; ils sont appelés appareils. Ramasse le {THING:ApplianceMicrowave} et placez vous devant le {THING:StructureBench}.</Value>
+      <Value>Certains appareils du jeu sont montés sur {THING:StructureBench} ; ce sont les {LINK:AppliancePage;Equipements}. Ramasse le {THING:ApplianceMicrowave} et placez vous devant le {THING:StructureBench}.</Value>
     </Record>
     <Record>
       <Key>TutorialDescBakeMuffin2</Key>
-      <Value>appuie sur la touche {KEY:Drop} pour laisser tomber la {THING:ApplianceMicrowave} au-dessus de la {THING:StructureBench}. Continuez à faire cela jusqu&apos;à ce que {THING:ApplianceMicrowave} est assis sur le dessus de la {THING:StructureBench}.</Value>
+      <Value>Appuyer sur la touche {KEY:Drop} pour laisser tomber le {THING:ApplianceMicrowave} au-dessus de la {THING:StructureBench}. Continuez à faire cela jusqu&apos;à ce que {THING:ApplianceMicrowave} soit poser dessus de la {THING:StructureBench}.</Value>
     </Record>
     <Record>
       <Key>TutorialDescBakeMuffin3</Key>
