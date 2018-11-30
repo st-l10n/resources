@@ -237,7 +237,7 @@ Certains minerais fondent lorsqu&apos;ils sont exposés au soleil ou à la chale
     <StationpediaPage>
       <Key>IceMeltingTemplate</Key>
       <Text>Température de fusion {POS:300}{1}
-Pressure de fusion {POS:300}{0}</Text>
+Pression de fusion {POS:300}{0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>CreatorsHeaderTemplate</Key>
@@ -267,6 +267,16 @@ LISTE {0} /List</Text>
       <Key>CreatedReagentTemplate</Key>
       <Text>{HEADER:Reactifs}
 {LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPageTemplate</Key>
+      <Text>A {LINK:ReagentPage;réactif}, souvent utilisable lorsque le formulaire{LINK:IngotPage;Lingots}.
+
+{HEADER:Général}
+{LIST}Unit {POS:300}{1}{/LIST}
+
+{HEADER:Found In}
+{LIST}{2}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageTemplate</Key>
