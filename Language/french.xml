@@ -3755,6 +3755,10 @@
       <Value>Espace</Value>
     </Record>
     <Record>
+      <Key>NewWorldAreaEarth</Key>
+      <Value>Terre</Value>
+    </Record>
+    <Record>
       <Key>NewWorldEnableAwayMissions</Key>
       <Value>Activer les missions à l&apos;extérieur</Value>
     </Record>
@@ -4687,6 +4691,10 @@ Temperature {1}</Value>
       <Value>Aucun Réglages</Value>
     </Record>
     <Record>
+      <Key>LogicNoAdditionalSettingsFor</Key>
+      <Value>Aucun paramètre supplémentaire pour {0}</Value>
+    </Record>
+    <Record>
       <Key>LogicNoSlot</Key>
       <Value>&lt;color=red&gt;Besoin Plus de : {0}&lt;/color&gt;.</Value>
     </Record>
@@ -4852,13 +4860,11 @@ Temperature {1}</Value>
     </Record>
     <Record>
       <Key>ButtonLibrary</Key>
-      <Value>Bibliotheque</Value>
+      <Value>Bibliothèque</Value>
     </Record>
     <Record>
       <Key>SettingsMenuAdvanced</Key>
-      <Value>Avancé
-
-</Value>
+      <Value>Avancé</Value>
     </Record>
     <Record>
       <Key>SettingsLegacyInventory</Key>
@@ -4867,11 +4873,6 @@ Temperature {1}</Value>
     <Record>
       <Key>SettingsDisableWaterVisualizer</Key>
       <Value>Désactiver la visualisation de l&apos;eau</Value>
-    </Record>
-    <Record>
-      <Key>SettingsInterface</Key>
-      <Value>Interface
-</Value>
     </Record>
     <Record>
       <Key>SettingsUPNPEnabled</Key>
@@ -4891,19 +4892,39 @@ Temperature {1}</Value>
     </Record>
     <Record>
       <Key>WarningControlConflict</Key>
-      <Value>Contrôles</Value>
+      <Value>Conflits des touches de contrôle</Value>
+    </Record>
+    <Record>
+      <Key>WarningControlConflictDescription</Key>
+      <Value>S&apos;il vous plait, visiter le menu des touches de contrôle et corriger les conflits</Value>
     </Record>
     <Record>
       <Key>NewWorldGameMode</Key>
-      <Value>Port du jeu</Value>
+      <Value>Mode de jeu</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldGravity</Key>
+      <Value>Gravité</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldTemperature</Key>
+      <Value>Température</Value>
     </Record>
     <Record>
       <Key>NewWorldPressure</Key>
-      <Value>Prédéfini</Value>
+      <Value>Pression</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldSolarEnergy</Key>
+      <Value>Energie solaire</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldSolarAngle</Key>
+      <Value>Angle solaire</Value>
     </Record>
     <Record>
       <Key>SettingsMenuAppearance</Key>
-      <Value>Changer d&apos;Apparence</Value>
+      <Value>Apparence</Value>
     </Record>
   </Interface>
   <Colors>
