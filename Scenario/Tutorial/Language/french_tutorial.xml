@@ -32,7 +32,7 @@ Maintenez enfoncée la touche {KEY: MouseControl} pour faire glisser le curseur 
     </Record>
     <Record>
       <Key>TutorialDescPickupSuit</Key>
-      <Value>Trouvez la {THING: ItemEvaSuit} et placez-la dans votre {SLOT: gaucher} ou {SLOT: droite}. Cette fois peut essayer de glisser la {THING: ItemEvaSuit} directement dans votre emplacement {SLOT:Suit}, ce sera plus rapide. Maintenez {KEY: MouseControl} et déplacez votre curseur de la souris sur la {THING: ItemEvaSuit} maintenez {KEY: PrimaryAction} et faites-la glisser dans votre emplacement {SLOT:Suit}.</Value>
+      <Value>Trouvez la {THING:ItemEvaSuit} et placez-la dans votre {SLOT:LeftHand} ou {SLOT:RightHand}. Cette fois peut essayer de glisser la {THING:ItemEvaSuit} directement dans votre emplacement {SLOT:Suit}, ce sera plus rapide. Maintenez {KEY:MouseControl} et déplacez votre curseur de la souris sur la {THING:ItemEvaSuit} maintenez {KEY:PrimaryAction} et faites-la glisser dans votre emplacement {SLOT:Suit}.</Value>
     </Record>
     <Record>
       <Key>TutorialDescWearSuit</Key>
@@ -236,11 +236,11 @@ Appuyez sur {KEY: QuantityModifier} et l&apos;objet essaiera son meilleur positi
     </Record>
     <Record>
       <Key>TutorialDescTablet1</Key>
-      <Value>Prendre la {THING:ItemTablet} et la {THING:ItemBatteryCellLarge} dans votre {SLOT:LeftHand} ou {SLOT:RightHand} en regardant et en cliquant sur le {COLORYELLOW:Bouton gauche de la souris}. Vous pouvez changer votre main active en appuyant sur la touche {KEY:SwapHands} . Cela vous permettra de mettre un objet dans chaque main. Faites ceci pour continuer.</Value>
+      <Value>Prenez la {THING: ItemTablet} et la {THING: ItemBatteryCellLarge} dans votre {SLOT:LeftHand} ou {SLOT:RightHand} en regardant et en cliquant sur la touche {KEY:PrimaryAction}. Vous pouvez permuter votre main active en appuyant sur la touche {KEY: SwapHands}. Cela vous permettra de mettre un élément dans chaque mains. Faites ceci pour continuer.</Value>
     </Record>
     <Record>
       <Key>TutorialDescTablet2</Key>
-      <Value>Vous pouvez interagir avec l&apos;emplacement de votre main active en appuyant et en relâchant la touche {KEY:ActiveHandSlot} . Cela fera défiler les interactions et l&apos;inventaire, si elles sont disponibles pour l&apos;article actuellement dans votre main active. Vous pouvez changer votre main actuellement active avec la touche {KEY:SwapHands} . Sélectionnez la {THING:ItemTablet} dans votre main active et ouvrez son intérieur d emplacement pour continuer.</Value>
+      <Value>Vous pouvez interagir avec l&apos;emplacement actif de votre main en appuyant sur la touche {KEY: ActiveHandSlot} ou en cliquant dessus. Cela ouvrira la fenêtre {LINK:InventoryPage;inventaire} pour la main courante. Vous pouvez modifier votre main active avec la touche {KEY: SwapHands}. Sélectionnez la {THING:ItemTablet} dans votre main active et ouvrez son emplacement intérieur pour continuer.</Value>
     </Record>
     <Record>
       <Key>TutorialDescTablet4</Key>
