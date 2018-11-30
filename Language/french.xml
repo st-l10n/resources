@@ -4173,7 +4173,7 @@ Alors sors de là, Stationeer !</Value>
     </Record>
     <Record>
       <Key>MulticonstructorItem</Key>
-      <Value>&lt;color=yellow&gt;Option de construction {0} de {1} &lt;/color&gt; 
+      <Value>&lt;color=yellow&gt;Option de construction {0} de {1} &lt;/color&gt;
 Scroll &lt;color=red&gt;Roulette de la souris&lt;/color&gt; pour plus d&apos;options.</Value>
     </Record>
     <Record>
@@ -4619,9 +4619,9 @@ On dirait que vous allez être ici un moment.</Value>
     </Record>
     <Record>
       <Key>NewWorldSpaceDesc</Key>
-      <Value>C&apos;est le mode créatif de Stationeers!
-Spawn avec n&apos;importe quel article, tester des idées et construire trucs de cinglé rapidement.
-&lt;color=red&gt;Ce mode est expérimental.&lt;/color&gt; Pensez-y comme une fête spatiale libre où des choses* passionnantes et inattendues peuvent et vont se produire. C&apos;est une experience plus sûr que le mode Survie.
+      <Value>C&apos;est le mode créatif de Stationeers !
+Spawn avec n&apos;importe quel élément, tester des idées et construisez des trucs dingue rapidement.
+&lt;color=red&gt;Ce mode est expérimental.&lt;/color&gt; Pensez-y comme une fête spatiale libre où des choses* passionnantes et inattendues peuvent et vont se produire. C&apos;est une expérience plus sûr que le mode Survie.
 Ne soyez pas triste quand vous vous faites exploser en minuscules petits morceaux ou que vous vous faites massacrer par des poulets ou que vous explosez lentement tout en dérivant seul dans le vide infini.
 *bugs</Value>
     </Record>
@@ -4696,11 +4696,15 @@ Temperature {1}</Value>
     </Record>
     <Record>
       <Key>LogicNoSlot</Key>
-      <Value>&lt;color=red&gt;Besoin Plus de : {0}&lt;/color&gt;.</Value>
+      <Value>&lt;color=red&gt;Pas d&apos;emplacement&lt;/color=red&gt;</Value>
     </Record>
     <Record>
       <Key>LogicNoAvailableSlots</Key>
-      <Value>&lt;color=red&gt;Impossible de construire&lt;/color&gt;.</Value>
+      <Value>&lt;color=red&gt;Pas de slots disponibles&lt;/color=red&gt;</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAdditionalSlotsFor</Key>
+      <Value>Aucun emplacement supplémentaire pour {0}</Value>
     </Record>
     <Record>
       <Key>RequiresScrewdriver</Key>
