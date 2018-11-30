@@ -11,42 +11,42 @@
     <RecordReagent>
       <Key>Milk</Key>
       <Value>Leite</Value>
-      <Unit>ml</Unit>
+      <Unit>Leite.Unidade</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Egg</Key>
       <Value>Ovo</Value>
-      <Unit>1</Unit>
+      <Unit>Ovo.Unidade</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Iron</Key>
       <Value>Ferro</Value>
-      <Unit>g</Unit>
+      <Unit>Ferro.Unidade</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Gold</Key>
       <Value>Ouro</Value>
-      <Unit>g</Unit>
+      <Unit>Ouro.Unidade</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Carbon</Key>
       <Value>Carbono</Value>
-      <Unit>g</Unit>
+      <Unit>Carbono.Unidade</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Uranium</Key>
       <Value>Urânio</Value>
-      <Unit>g</Unit>
+      <Unit>Urânio.Unidade</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Copper</Key>
       <Value>Cobre</Value>
-      <Unit>g</Unit>
+      <Unit>Cobre.Unidade</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Steel</Key>
       <Value>Aço</Value>
-      <Unit>g</Unit>
+      <Unit>Aço.Unidade</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Hydrocarbon</Key>
@@ -137,6 +137,11 @@
       <Key>Pumpkin</Key>
       <Value>Abóbora</Value>
       <Unit>Abóbora.Unidade</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Rice</Key>
+      <Value>Arroz</Value>
+      <Unit>Arroz.Unidade</Unit>
     </RecordReagent>
   </Reagents>
   <Gases>
@@ -3344,11 +3349,19 @@
     </Record>
     <Record>
       <Key>PassengerSeatRight</Key>
-      <Value>Assento de Passageiro Direita</Value>
+      <Value>Assento Direito do Passageiro</Value>
     </Record>
     <Record>
       <Key>DataDisk</Key>
-      <Value>Disquete</Value>
+      <Value>Disco de Dados</Value>
+    </Record>
+    <Record>
+      <Key>Appliance1</Key>
+      <Value>Aplicação 1</Value>
+    </Record>
+    <Record>
+      <Key>Appliance2</Key>
+      <Value>Aplicação 2</Value>
     </Record>
     <Record>
       <Key>Import</Key>
@@ -3364,7 +3377,7 @@
     </Record>
     <Record>
       <Key>TransportSlot</Key>
-      <Value>Espaço de Transporte</Value>
+      <Value>Slot de Transporte</Value>
     </Record>
     <Record>
       <Key>Motherboard</Key>
@@ -3380,7 +3393,7 @@
     </Record>
     <Record>
       <Key>PortableSlot</Key>
-      <Value>Espaço Portátil</Value>
+      <Value>Slot Portátil</Value>
     </Record>
     <Record>
       <Key>Bed</Key>
@@ -3397,10 +3410,6 @@
     <Record>
       <Key>AccessCard</Key>
       <Value>Cartão de Acesso</Value>
-    </Record>
-    <Record>
-      <Key>Magazine</Key>
-      <Value>Revista</Value>
     </Record>
     <Record>
       <Key>ContainerSlot</Key>
@@ -3420,7 +3429,7 @@
     </Record>
     <Record>
       <Key>ProgrammableChip</Key>
-      <Value>Processando</Value>
+      <Value>Processador</Value>
     </Record>
   </Slots>
   <Interactables>
