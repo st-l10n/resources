@@ -198,19 +198,25 @@ Si vous trouvez que vous avez trop de fenêtres ouvertes, vous pouvez les fermer
     </Record>
     <Record>
       <Key>TutorialDescRepairCable2</Key>
-      <Value>Regarde le {THING:StructureCableJunctionBurnt} tandis que la {THING:ItemWireCutters} êtes dans votre main active. Vous verrez une boîte autour d&apos;elle {COLORYELLOW:yellow} . Appuyez et maintenez {COLORRED:Bouton gauche de la souris} pour enlever le {THING:StructureCableJunctionBurnt}.</Value>
+      <Value>Regardez le {THING: StructureCableJunctionBurnt} avec la {THING: ItemWireCutters} dans votre main active. Vous verrez une boîte {COLORYELLOW:jaune} autour de lui. Maintenez enfoncée la touche {KEY:PrimaryAction} pour supprimer le {THING: StructureCableJunctionBurnt}.</Value>
     </Record>
     <Record>
       <Key>TutorialDescRepairCable3</Key>
-      <Value>Maintenant, nous devons placer un {THING:StructureCableJunction}. Déplacer le {THING:ItemCableCoil} de votre {THING:ItemToolBelt} à votre {SLOT:LeftHand} ou {SLOT:RightHand} . Rappelez-vous {KEY:InventorySelect} interagit avec les emplacements intérieures et les actions, et la touche {KEY:ToolBeltSlot}  ouvrira et fermera votre l emplacement de votre {SLOT:Belt} .</Value>
+      <Value>Maintenant, nous avons besoin de placer un {THING: StructureCableJunction}. Déplacez le {THING: ItemCableCoil} de votre {THING: ItemToolBelt} vers votre {SLOT: gaucher} ou {SLOT: droite}.
+      
+Vous pourriez avoir besoin de libérer vos mains en déplaçant le {THING: ItemSteelSheets} dans votre sac à dos. Vous pourriez les laisser tomber, mais vous en aurez besoin plus tard!
+      
+N&apos;oubliez pas la touche {KEY:InventorySelect} interagit avec les emplacements intérieures et les actions, et la touche {KEY: ToolBeltSlot} s&apos;ouvrira et fermera votre emplacement {SLOT: Belt}. Comme toujours, vous pouvez mettre en place le contrôle de la souris en appuyant sur {KEY: MouseControl}.</Value>
     </Record>
     <Record>
       <Key>TutorialDescRepairCable4</Key>
-      <Value>Avec le {THING:ItemCableCoil} dans votre main active, appuyer sur le {COLORRED:Bouton droit de la souris} pour faire apparaître le curseur de construction.
+      <Value>Avec du {THING: ItemCableCoil} dans votre {COLORYELLOW:main active}, appuyez sur {KEY: SecondaryAction} pour mettre en place le curseur {LINK: ConstructionPage; construction}.
 
-utiliser la {COLORRED:Roulette de la souris} pour changer le type d&apos;emplacement, sélectionner le {THING:StructureCableJunction} variante.
+Utilisez la {COLORRED: molette de la souris} pour modifier le type de placement, en sélectionnant la variante {THING: StructureCableJunction}.
 
-Appuiez {KEY:RotateLeft} tourner à gauche, {KEY:RotateRight} tourner à droite, {KEY:RotateUp} pour tourner vers le haut, {KEY:RotateDown} pour tourner vers le bas, {KEY:RotateRollLeft} rouler à gauche, or {KEY:RotateRollRight} rouler à droite.</Value>
+Votre plan de placement contient des informations de connexion importantes, les petits symboles plus indiquent que l&apos;élément se connecte à un réseau câblé ici. Assurez-vous que votre connexion s&apos;aligne exactement.
+
+Appuyez sur {KEY: QuantityModifier} et l&apos;objet essaiera son meilleur positionnement de connexion, sinon vous pouvez utiliser des touches de rotation personnalisées.</Value>
     </Record>
     <Record>
       <Key>TutorialTitleFinishFrame</Key>
