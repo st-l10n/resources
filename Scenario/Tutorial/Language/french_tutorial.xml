@@ -36,15 +36,15 @@ Maintenez enfoncée la touche {KEY: MouseControl} pour faire glisser le curseur 
     </Record>
     <Record>
       <Key>TutorialDescWearSuit</Key>
-      <Value>Appuyez et maintenez {KEY:SuitSlot} pour équiper la {THING:ItemEvaSuit} a sont {SLOT:Suit} emplacement.</Value>
+      <Value>Maintenez la touche {KEY:SuitSlot} enfoncée, ou maintenez enfoncée la touche {KEY:MouseControl} pour afficher le curseur de la souris, pour équiper la {THING:ItemEvaSuit} vers votre emplacement {SLOT: suit}.</Value>
     </Record>
     <Record>
       <Key>TutorialDescPickupJetpack</Key>
-      <Value>Trouver le {THING:ItemSpacepack} et le mettre dans votre {SLOT:LeftHand} ou {SLOT:RightHand} en cliquant sur la touche {KEY:PrimaryAction} quand vous voyez l&apos;interaction en vert.</Value>
+      <Value>Trouver le {THING:ItemSpacepack} et mettez le dans votre {SLOT:LeftHand} ou {SLOT:RightHand} en cliquant sur la touche {KEY:PrimaryAction} quand vous voyez l&apos;interaction en vert.</Value>
     </Record>
     <Record>
       <Key>TutorialDescWearJetpack</Key>
-      <Value>Maintenez la touche {KEY: Back slot} enfoncée, ou maintenez enfoncée la touche {KEY: MouseControl} pour mettre en place le curseur de la souris, pour équiper le {THING: ItemSpacepack} à votre emplacement {SLOT:Back}.</Value>
+      <Value>Maintenez la touche {KEY:Back slot} enfoncée, ou maintenez enfoncée la touche {KEY:MouseControl} pour mettre en place le curseur de la souris, pour équiper le {THING:ItemSpacepack} à votre emplacement {SLOT:Back}.</Value>
     </Record>
     <Record>
       <Key>TutorialTitlePowerSuit</Key>
@@ -52,7 +52,7 @@ Maintenez enfoncée la touche {KEY: MouseControl} pour faire glisser le curseur 
     </Record>
     <Record>
       <Key>TutorialDescPowerSuit</Key>
-      <Value>Trouver une {THING:ItemBatteryCellLarge} et ramassez la avec votre {SLOT:LeftHand} ou {SLOT:RightHand} en la regardant et en cliquant sur le {KEY:PrimaryAction}. Vous pouvez faire glisser le {THING: ItemBatteryCellLarge} directement dans le {THING: ItemEvaSuit} pour gagner du temps.</Value>
+      <Value>Trouver une {THING:ItemBatteryCellLarge} et ramassez la avec votre {SLOT:LeftHand} ou {SLOT:RightHand} en la regardant et en cliquant sur {KEY:PrimaryAction}. Vous pouvez faire glisser la {THING:ItemBatteryCellLarge} directement dans le {THING:ItemEvaSuit} pour gagner du temps.</Value>
     </Record>
     <Record>
       <Key>TutorialTaskLifesupportSuit1</Key>
@@ -60,7 +60,7 @@ Maintenez enfoncée la touche {KEY: MouseControl} pour faire glisser le curseur 
     </Record>
     <Record>
       <Key>TutorialTaskLifesupportSuit2</Key>
-      <Value>Ouvrez la fenêtre de la{THING:ItemEvaSuit}</Value>
+      <Value>Ouvrez la fenêtre d&apos;emplacement de la {THING:ItemEvaSuit}</Value>
     </Record>
     <Record>
       <Key>TutorialTaskLifesupportSuit4</Key>
@@ -68,7 +68,7 @@ Maintenez enfoncée la touche {KEY: MouseControl} pour faire glisser le curseur 
     </Record>
     <Record>
       <Key>TutorialDescLifesupport1</Key>
-      <Value>Vous pouvez interagir avec la {SLOT:Suit} en appuyant sur et relâcher la touche {KEY:SuitSlot}. Cela fera défiler les interactions et l&apos;inventaire des emplacements, le cas échéant. Pour ce faire, jusqu&apos;à ce que vous voyez l&apos;inventaire des accessoires connecté.</Value>
+      <Value>Vous pouvez interagir avec l&apos;emplacement {SLOT:Suit} en appuyant et en relâchant la touche {KEY:SuitSlot} ou en tenant {KEY:MouseControl} et en cliquant sur l&apos;emplacement {SLOT:Suit}.</Value>
     </Record>
     <Record>
       <Key>TutorialDescLifesupport2</Key>
