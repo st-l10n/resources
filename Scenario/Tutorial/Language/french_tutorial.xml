@@ -174,11 +174,11 @@ Une {THING:CircuitboardAirlockControl} dans le  {THING:StructureConsole} contrô
     </Record>
     <Record>
       <Key>TutorialDescRepairCable1</Key>
-      <Value>Un {THING: StructureCableStraight} peut transporter simultanément {COLORYELLOW: Données} et {COLORYELLOW: Energie}, mais ils bruleront si trop de puissance passe au travers d&apos;eux. Il y a une {THING:StructureCableJunction} brulé quelque part en dessous de la {THING: StructureAirlock} que vous venez de quitter, retrouver la panne et réparer la en utilisant un {THING:ItemWireCutters} à partir de votre {THING:ItemToolBelt}.
+      <Value>Un {THING:StructureCableStraight} peut transporter simultanément {COLORYELLOW:Données} et {COLORYELLOW:Energie}, mais ils bruleront si trop de puissance passe au travers d&apos;eux. Il y a une {THING:StructureCableJunction} brulé quelque part en dessous de la {THING:StructureAirlock} que vous venez de quitter, retrouver la panne et réparer la en utilisant un {THING:ItemWireCutters} à partir de votre {THING:ItemToolBelt}.
       
-Rappelez-vous qu&apos;il existe deux façons d&apos;interagir avec votre {LINK: InventoryPage; Inventory}. Vous pouvez appuyer sur {KEY: MouseControl} pour activer le curseur de la souris, puis glisser-déposer ou ouvrir des choses avec la souris. Pour un contrôle rapide, appuyez sur {KEY: ToolBeltSlot} pour ouvrir votre emplacement {SLOT: Belt}. Appuyez sur {KEY: InventorySelect} pour permuter l&apos;élément d&apos;emplacement intérieur en surbrillance sur vos mains.
+Rappelez-vous qu&apos;il existe deux façons d&apos;interagir avec votre {LINK:InventoryPage;Inventaire}. Vous pouvez appuyer sur {KEY:MouseControl} pour activer le curseur de la souris, puis glisser-déposer ou ouvrir des choses avec la souris. Pour un contrôle rapide, appuyez sur {KEY:ToolBeltSlot} pour ouvrir votre emplacement {SLOT:Belt}. Appuyez sur {KEY:InventorySelect} pour permuter l&apos;élément d&apos;emplacement intérieur en surbrillance sur vos mains.
 
-Si vous trouvez que vous avez trop de fenêtres ouvertes, vous pouvez les fermer tout à la fois en utilisant {KEY: HideAllWindows}, vous pouvez basculer la fenêtre individuelle avec leur raccourci de fente, ou vous pouvez cliquer sur l&apos;emplacement lui-même alors que la souris est activée avec {KEY:MouseControl}.</Value>
+Si vous trouvez que vous avez trop de fenêtres ouvertes, vous pouvez les fermer tout à la fois en utilisant {KEY:HideAllWindows}, vous pouvez basculer la fenêtre individuelle avec leur raccourci de fente, ou vous pouvez cliquer sur l&apos;emplacement lui-même alors que la souris est activée avec {KEY:MouseControl}.</Value>
     </Record>
     <Record>
       <Key>TutorialTaskRepairCable1</Key>
@@ -282,7 +282,7 @@ l&apos;utilisation de cartes différentes vous permet d&apos;accéder à de nomb
     </Record>
     <Record>
       <Key>TutorialTaskUseReader2</Key>
-      <Value>Trouvez la recette pour faire un {THING:ItemMuffin}</Value>
+      <Value>Trouvez la {COLORYELLOW:recette #VAR1 #} pour faire un {THING:ItemMuffin}</Value>
     </Record>
     <Record>
       <Key>TutorialTitleBakeMuffin</Key>
@@ -302,13 +302,13 @@ l&apos;utilisation de cartes différentes vous permet d&apos;accéder à de nomb
     </Record>
     <Record>
       <Key>TutorialDescBakeMuffin4</Key>
-      <Value>Regardez la porte sur le {THING: ApplianceMicrowave}. Appuyez sur la touche {KEY:PrimaryAction} pour ouvrir la porte et vous permettre de mettre des réactifs à l&apos;intérieur.</Value>
+      <Value>Regardez la porte sur le {THING:ApplianceMicrowave}. Appuyez sur {KEY:PrimaryAction} pour ouvrir la porte et vous permettre de mettre des réactifs à l&apos;intérieur.</Value>
     </Record>
     <Record>
       <Key>TutorialDescBakeMuffin5</Key>
-      <Value>Ramasser les ingrédients nécessaires dans votre liste de tâches et regarder à l&apos;intérieur de la {THING: ApplianceMicrowave} avec elle dans votre main active. Continuez à cliquer sur {KEY: PrimaryAction} pour ajouter plus de réactif jusqu&apos;à ce que vous en ayez suffisamment mis. Ne pas ajouter plus que ce qui est nécessaire pour la recette. Vous devrez le faire deux fois pour quelques recettes.
+      <Value>Ramasser les ingrédients nécessaires dans votre liste de tâches et regarder à l&apos;intérieur de la {THING:ApplianceMicrowave} avec elle dans votre main active. Continuez à cliquer sur {KEY:PrimaryAction} pour ajouter plus de réactif jusqu&apos;à ce que vous en ayez suffisamment mis. Ne pas ajouter plus que ce qui est nécessaire pour la recette. Vous devrez le faire deux fois pour quelques recettes.
       
-Si vous ajoutez trop, laissez tomber ce que vous portez avec la touche {KEY:Drop}, puis regardez la {THING: ApplianceMicrowave} avec la porte ouverte pour accéder à l&apos;action {COLORYELLOW:Effacer}, pour recommencer.</Value>
+Si vous ajoutez trop, laissez tomber ce que vous portez avec la touche {KEY:Drop}, puis regardez la {THING:ApplianceMicrowave} avec la porte ouverte pour accéder à l&apos;action {COLORYELLOW:Effacer}, pour recommencer.</Value>
     </Record>
     <Record>
       <Key>TutorialDescBakeMuffin6</Key>
