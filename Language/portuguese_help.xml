@@ -33,6 +33,33 @@ Se ficares a carregar em {KEY:MouseControl} e {KEY:MouseInspect} e clicares em a
 {/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>GettingStarted</Key>
+      <Title>Iniciando</Title>
+      <Text>{HEADER:Welcome to a new world}
+Se é a tua primeira vez então é muito o que tens de aprender. A pressão inicial é muita e pode ser realmente esmagadora para começar. O texto que se segue é apenas um guia geral para seguires. Cada tipo de mundo tem problemas específicos que precisas de resolver, mas aqui terás uma visão geral do que precisarás para te orientar.
+
+{HEADER:Keeping your Suit Charged}
+A necessidade mais urgente que tens é de recarregar a {THING:ItemBatteryCellLarge} no teu {THING:ItemEvaSuit}. A bateria do fato é usada para a iluminação do teu {THING:ItemSpaceHelmet} (desliga a luz quando não precisas) e também para aquecer o ar interno do fato. Em mundos mais frios isto drena muita energia. Vais precisar de montar um {THING:ItemBatteryCharger} e ligá-lo a uma fonte de energia. Um {THING:StructureSolidFuelGenerator} a funcionar com {THING:ItemCoalOre} ou um {THING:StructureSolarPanel} são boas maneiras de solucionar isto. Numa emergência, retira baterias das {LINK:ToolPage;Tools} para manteres o teu fato a funcionar ou usa um {THING:PortableSolarPanel} para recarregá-las.
+
+{HEADER:Improving Power Collection}
+Colocar um {THING:StructureAreaPowerControl} com uma {THING:ItemBatteryCell} inserida, entre a fonte de energia e os teus carregadores vai ajudar te muito. Isto porque a fonte de energia está a gerar mais energia do que a {THING:ItemBatteryCharger} consegue armazenar e é desperdiçada. Adicionalmente, embora possas orientar o {THING:StructureSolarPanel} manualmente, automatizá-lo de modo a seguir o sol vai ajudar te muito. Podes usar  {LINK:LogicUnitPage;Logic Units} para ajudar te a conseguir isto.
+
+{HEADER:Managing your Oxygen}
+O teu {THING:ItemEvaSuit} e o teu {THING:ItemSpaceHelmet} formam um escudo de proteção contra os elementos. O {THING:ItemEvaSuit} precisa de um {THING:ItemGasCanisterOxygen} para providenciar te {GAS:Oxygen} puro. Toma atenção à quntidade de gás no cilindro e podes o reabastecer usando o {THING:DynamicGasCanisterOxygen} que recebeste com o equipamento inicial. Existe um marcador de perigo indicando o compartimento em que o cilindro pode ser inserido para reabastecimento.
+
+{HEADER:Basic Smelting}
+Após teres algum sistema de geração de energia criado, precisas de começar a obter mais recursos. Dá uma volta {LINK:MiningPage;Mining} para obteres {LINK:OrePage;Ores}. Monta uma {THING:StructureArcFurnace} e liga-a atrás do teu {THING:StructureAreaPowerControl}. Isto irá {LINK:SmeltingPage;Smelt} {LINK:OrePage;Ores}, como por exemplo, {THING:ItemIronOre}{THING:ItemSiliconOre} e muitas outras que não sejam  {LINK:AlloyPage;Alloy}.
+
+{HEADER:Basic Fabrication}
+Agora que tens {LINK:IngotPage;Ingots} podes inseri-los no {LINK:FabricatorPage;Fabricators}  como recursos. Constroi o {THING:StructureAutolathe} a partir do {THING:ItemKitAutolathe} que for providenciado com as caixas de início do jogo.
+
+{HEADER:Replacing your Filters}
+Ao respirares {GAS:Oxygen} também exalas {GAS:CarbonDioxide}, por isso precisas de um {THING:ItemGasFilterCarbonDioxide} no compartimento {SLOT:Filter} do fato. Este vai ser usado e precisarás de produzir novos numa {THING:StructureHydraulicPipeBender}. isto pode ser feito de um {THING:ItemKitHydraulicPipeBender} num {THING:StructureAutolathe}.
+
+{HEADER:Build a Glass House}
+ </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>LogicUnitPage</Key>
       <Title>Unidades Lógicas</Title>
       <Text>{HEADER:Lista de Unidades Lógicas}
