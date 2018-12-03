@@ -177,27 +177,31 @@ Enquanto tiveres vestido o teu fato, terás informação sobre a sua atmosfera i
     </Record>
     <Record>
       <Key>TutorialDescRepairCable1</Key>
-      <Value>Há uma {THING:StructureCableJunction} quebrada, encontre-a e remova usando {THING:ItemWireCutters} do seu {THING:ItemToolBelt}. Pressione {KEY:ToolBeltSlot} para abrir o slot {SLOT:Belt}. Pressione {KEY:InventorySelect} para trocar o item do slot interior realçado para suas mãos.</Value>
+      <Value>Um {THING:StructureCableStraight} pode transportar tanto {COLORYELLOW:Data} como {COLORYELLOW:Power}, mas serão danificados se forem submetidos a mais energia do que podem suportar. Existe um {THING:StructureCableJunction} estragado algures debaixo da {THING:StructureAirlock} que acabaste de sair. Encontra-o e remove-o usando o {THING:ItemWireCutters}  que está no teu {THING:ItemToolBelt}.
+
+Lembra-te que existem duas maneiras de interagir com o teu  {LINK:InventoryPage;inventory}. Podes clicar e manter a pressionada a tecla {KEY:MouseControl} para ativares o cursor do rato e então arrastar e largar ou então abrir coisas com o rato. Para um controlo rápido, carrega no compartimento {KEY:ToolBeltSlot} para abrires o teu compartimento {SLOT:Belt}. Carrega no {KEY:InventorySelect} para alternares a seleção do compartimento interior para as tuas mãos.
+
+Se te encontrares com demasiadas janelas abertas, podes fechar todas usando a tecla {KEY:HideAllWindows}, podes também ativar uma janela individual  com a sua respetiva tecla de atalho ou podes carregar no seu respetivo compartimento enquanto o rato de cursor estiver ativo com a tecla {KEY:MouseControl}.</Value>
     </Record>
     <Record>
       <Key>TutorialTaskRepairCable1</Key>
-      <Value>Equipe o seu {THING:ItemWireCutters}</Value>
+      <Value>Equipa o teu {THING:ItemWireCutters}</Value>
     </Record>
     <Record>
       <Key>TutorialTaskRepairCable2</Key>
-      <Value>Remover o {THING:StructureCableJunctionBurnt}</Value>
+      <Value>Remove o {THING:StructureCableJunctionBurnt}</Value>
     </Record>
     <Record>
       <Key>TutorialTaskRepairCable3</Key>
-      <Value>Equipe o seu {THING:ItemCableCoil}</Value>
+      <Value>Equipa o teu {THING:ItemCableCoil}</Value>
     </Record>
     <Record>
       <Key>TutorialTaskRepairCable4</Key>
-      <Value>Substitua por {THING:StructureCableJunction} da {THING:ItemCableCoil}</Value>
+      <Value>Substitui o {THING:StructureCableJunction} com um {THING:ItemCableCoil}</Value>
     </Record>
     <Record>
       <Key>TutorialDescRepairCable2</Key>
-      <Value>Olhe para o {THING:StructureCableJunctionBurnt} enquanto o {THING:ItemWireCutters} está em sua mão ativa. Você verá uma caixa de cor {COLORYELLOW:Amarela} em torno dela. Pressione e segure {COLORRED:Clique Esquerdo do Mouse} para remover {THING:StructureCableJunctionBurnt}.</Value>
+      <Value>Olha para o {THING:StructureCableJunctionBurnt} enquanto o {THING:ItemWireCutters} estão na tua mão activa. Verás uma caixa {COLORYELLOW:yellow} à sua volta. Carrega e mantem pressionada a tecla {KEY:PrimaryAction} para remover o {THING:StructureCableJunctionBurnt}.</Value>
     </Record>
     <Record>
       <Key>TutorialDescRepairCable3</Key>
