@@ -213,15 +213,17 @@ Lembra-te que {KEY:InventorySelect} interage com os compartimentos interiores e 
     </Record>
     <Record>
       <Key>TutorialDescRepairCable4</Key>
-      <Value>Com o {THING:ItemCableCoil} em sua mão ativa, pressione {COLORRED:Clique Direito do Mouse} para abrir o cursor da construção.
+      <Value>Com o {THING:ItemCableCoil} na tua {COLORYELLOW:Active Hand}, carrega na tecla {KEY:SecondaryAction} para ativares o cursor de {LINK:ConstructionPage;construction}.
 
-Use o {COLORRED:Roda do Mouse} para mudar o tipo de posicionamento, selecionando a variante {THING:StructureCableJunction}.
+Usa a {COLORRED:Mouse Wheel} para mudares o tipo de cabo a ser colocado, selecionando as variantes de {THING:StructureCableJunction}.
 
-Pressione {KEY:RotateLeft} para girar para a esquerda, {KEY:RotateRight} para girar para a direita, {KEY:RotateUp} para girar para cima, {KEY:RotateDown} para girar para baixo, {KEY:RotateRollLeft} para rolar para a esquerda ou {KEY:RotateRollRight} para rolar para a direita.</Value>
+Os esquemas de colocação contém informações importantes de conexões, o pequeno símbolo de adição indica que o item liga-se a uma rede aqui. Certifica-te que a tua conexão esteja exatamente alinhada.
+
+Carrega em {KEY:QuantityModifier} e o objeto tentará fazer a melhor conexão possível, de outro modo poderás usar as teclas de rotação.</Value>
     </Record>
     <Record>
       <Key>TutorialTitleFinishFrame</Key>
-      <Value>Acabamento do quadro de soldagem</Value>
+      <Value>Acabar a soldagem da estrutura</Value>
     </Record>
     <Record>
       <Key>TutorialDescFinishFrame</Key>
