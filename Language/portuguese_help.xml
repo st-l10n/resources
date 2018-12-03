@@ -319,13 +319,27 @@ Pressão de Derretimento {POS:300}{0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ReagentPageTemplate</Key>
-      <Text>O {LINK:ReagentPage;reagent}, muitas vezes usados na forma de {LINK:IngotPage;Ingots}.
+      <Text>Um {LINK:ReagentPage;reagent}, muitas vezes usados na forma de {LINK:IngotPage;Ingots}.
 
 {HEADER:Geral}
 {LIST}Unidade{POS:300}{1}/LIST
 
 {HEADER:Encontrado em}
 {LIST}{2}/LIST</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageTemplate</Key>
+      <Text>Um {LINK:GasPage;gas}, normalmente produzido quando {LINK:SmeltingPage;smelting}.
+
+{HEADER:Geral}
+{LIST}Calor Específico {POS:300}{1}{2}/LIST
+
+{HEADER:Encontrado em}
+{LIST}{0}/LIST</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageFlamableTemplate</Key>
+      <Text>Limite Inflamável {POS:300}{0} para {1}</Text>
     </StationpediaPage>
   </HelpPage>
 </Language>
