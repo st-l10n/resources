@@ -140,6 +140,26 @@ O botão {KEY:InventorySelect} irá trocar qualquer coisa que tenham selecionado
       <Title>Minerando</Title>
       <Text>Podes minerar {LINK:OrePage;ore} usando uma {THING:ItemMiningDrill}. Se estiveres a usar um {THING:ItemMiningBelt} o {LINK:OrePage;ore} irá ser automaticamente armazenado nele.</Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructionPage</Key>
+      <Title>Construção</Title>
+      <Text>{HEADER:Getting Started}
+Tipicamente vais usar {LINK:KitPage;kits} para iniciar construções e depois uma variedade de {LINK:ToolPage;tools} e  {LINK:ResourcePage;resources} para as completar. Toma atenção a quantos kits são requeridos para construires o que selecionaste, pois algumas estruturas requerem mais do que uma unidade para serem construídas. Para alguns kits terás multiplas opções, usa a {COLORRED:Scroll Wheel} para mudares as opções de construção.
+
+{HEADER:Estados de Construção}
+Algumas construções tem múltiplos estados de construção que requerem diferentes combinações até estarem finalizados. As dicas  informam quais as combinações que necessitas para completar a estrutura. Por vezes, precisarás de ter dois objetos, um em cada mão, para completar um estado de construção. Algumas ferramentas precisam de ser ligadas, o que pode ser feito com a tecla {KEY:ToggleHandPower} enquanto estiver na tua mão ativa.
+
+{HEADER:Dicas}
+Se olhares diretamente para uma estrutura que está incompleta obterás informação sobre o que precisas de fazer para a completar. Se tiveres uma {LINK:ToolPage;tool} na tua mão que não seja a correta {LINK:ToolPage;tool}, uma dica aparece a informar-te o que precisas de fazer para a desconstruires.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPage</Key>
+      <Title>Reagentes</Title>
+      <Text>Estes são quantidades químicas de certos tipos.
+
+{HEADER:Lista de Reagentes}
+{LISTA_DE_REAGENTES}</Text>
+    </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
