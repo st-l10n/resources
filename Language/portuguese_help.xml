@@ -104,6 +104,24 @@ O botão {KEY:InventorySelect} irá trocar qualquer coisa que tenham selecionado
       <Text>{HEADER:Lista de Unidades Lógicas}
 {LISTA_DE_UNIDADES_LÓGICAS}</Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>SlotLeftHand</Key>
+      <Title>Compartimentos das Mãos</Title>
+      <Text>As tuas mãos são compartimentos especiais, Tu tens sempre uma mão ativa, que é a mão que está a ser usada pela {COLORRED:Primary Action}. paqra mudar de mão ativa, carrega na tecla {KEY:SwapHands}. A tua mão ativa pode ser interagida carregando na tecla {KEY:ActiveHandSlot} a qual irá abrir e fechar os conteúdos nessa mão ativa. Como sempre, podes usar o {KEY:MouseControl} para fazeres aparecer o cursor do rato e interagir desse modo. Para mais informações, vê a secção {LINK:InventoryPage;Inventory}.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>SlotRightHand</Key>
+      <Title>Compartimentos das Mãos</Title>
+      <Text>As tuas mãos são compartimentos especiais, Tu tens sempre uma mão ativa, que é a mão que está a ser usada pela {COLORRED:Primary Action}. paqra mudar de mão ativa, carrega na tecla {KEY:SwapHands}. A tua mão ativa pode ser interagida carregando na tecla {KEY:ActiveHandSlot} a qual irá abrir e fechar os conteúdos nessa mão ativa. Como sempre, podes usar o {KEY:MouseControl} para fazeres aparecer o cursor do rato e interagir desse modo. Para mais informações, vê a secção {LINK:InventoryPage;Inventory}.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FabricatorPage</Key>
+      <Title>Fabricadores</Title>
+      <Text>Estes são Estruturas ligadas à energia que podem ser usadas para fabricar coisas que precisas no jogo. Eles usam {LINK:IngotPage;Ingots} para providenciar os {LINK:ReagentPage;Reagents} que eles precisam para fazem os items.
+
+{HEADER:Lista de Fabricadores}
+{LISTA_DE_FABRICADORES}</Text>
+    </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
