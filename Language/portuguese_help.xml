@@ -168,6 +168,33 @@ Se olhares diretamente para uma estrutura que está incompleta obterás informa�
 {HEADER:Lista de Ligas}
 {LISTA_DE_LIGAS}</Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>OrePage</Key>
+      <Title>Minérios</Title>
+      <Text>Estes itens são {LINK:MiningPage;mined} e normalmente são {LINK:SmeltingPage;smelted}. Podes obter minérios misturados que podem ser num {THING:StructureRecycler} e depois transferidos para uma {THING:StructureCentrifuge} que os irá separar em {LINK:OrePage;ore} para serem  {LINK:SmeltingPage;smelting}.
+
+{HEADER:Derretendo Gelos}
+Estes são minérios que derretem se forem expostos ao sol ou a calor e produzem {LINK:GasPage;gases}. Por exemplo, o {THING:ItemIce} derrete em {GAS:Water} e {GAS:Oxygen}. Tem cautela para os manter longe de fontes de calor ou do sol até que decidas realmente os derreter.
+
+{HEADER:Lista de Minérios}
+{LISTA_DE_MINÉRIOS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>IngotPage</Key>
+      <Title>Lingotes</Title>
+      <Text>Estes são itens que são tipicamente feitos pela {LINK:SmeltingPage;Smelting} de {LINK:OrePage;ores}.
+
+{HEADER:Lista de Lingotes}
+{LISTA_DE_LINGOTES}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ToolPage</Key>
+      <Title>Ferramentas</Title>
+      <Text>Estes são itens que são colocados num compartimento especializado no cinto de ferramentas e são usados para {LINK:ConstructionPage;Construction} e outras tarefas.
+
+{HEADER:Lista de Ferramentas}
+{LISTA_DE_FERRAMENTAS}</Text>
+    </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
