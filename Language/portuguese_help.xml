@@ -263,5 +263,69 @@ Auto ignição{POS:300}{2}{3}{/LIST}</Text>
       <Key>ThingNutritionTemplate</Key>
       <Text>Nutrição Máxima {POS:300}{0}</Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>IceMeltingTemplate</Key>
+      <Text>Temperatura de Derretimento {POS:300}{1}
+Pressão de Derretimento {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatorsHeaderTemplate</Key>
+      <Text>{HEADER:Produzido por}{LIST}{0}/LIST</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructedByHeaderTemplate</Key>
+      <Text>{HEADER:Construido por}
+{LIST}{0}/LIST</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedHeaderTemplate</Key>
+      <Text>{HEADER:Pode Produzir}
+{LIST}{0}/LIST</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructedHeaderTemplate</Key>
+      <Text>{HEADER:Pode Construir}
+{LIST}{0}/LIST</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatorTemplate</Key>
+      <Text>{LIST}{0}{LIST:300}{1}/LIST/LIST</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicTypeHeaderTemplate</Key>
+      <Text>{HEADER:Lógica}{LIST}{0}/LIST</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicTypeTemplate</Key>
+      <Text>{0}{POS:300}{1}{2}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ModeStringHeaderTemplate</Key>
+      <Text>{HEADER:Modos}{LIST}{0}/LIST</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedGasesTemplate</Key>
+      <Text>{HEADER:Gases}
+{LIST}{0}/LIST</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedReagentTemplate</Key>
+      <Text>{HEADER:Reagentes}
+{LIST}{0}/LIST</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ModeStringItemTemplate</Key>
+      <Text>{0}{POS:100}{1}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPageTemplate</Key>
+      <Text>O {LINK:ReagentPage;reagent}, muitas vezes usados na forma de {LINK:IngotPage;Ingots}.
+
+{HEADER:Geral}
+{LIST}Unidade{POS:300}{1}/LIST
+
+{HEADER:Encontrado em}
+{LIST}{2}/LIST</Text>
+    </StationpediaPage>
   </HelpPage>
 </Language>
