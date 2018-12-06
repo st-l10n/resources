@@ -32,7 +32,7 @@
     </Record>
     <Record>
       <Key>TutorialDescPickupSuit</Key>
-      <Value>{THING:ItemEvaSuit}&apos;ni bul ve {SLOT:LeftHand} veya {SLOT:RightHand}&apos;ine koy. Bu sefer, {THING:ItemEvaSuit}&apos;ni doğrudan {SLOT:Suit} yuvana sürüklemeyi deneyebilirsin; bu daha hızlı bir yol. {KEY:MouseControl} tuşuna basılı tut ve fare imlecini {THING:ItemEvaSuit}&apos;nin üstüne götür. {KEY:PrimaryAction} tuşuna basılı tut ve {SLOT:Suit}&apos;e sürükle.
+      <Value>{THING:ItemEvaSuit}&apos;ni bul ve {SLOT:LeftHand}&apos;ine veya {SLOT:RightHand}&apos;ine koy. Bu sefer, {THING:ItemEvaSuit}&apos;ni doğrudan {SLOT:Suit} yuvana sürüklemeyi deneyebilirsin; bu daha hızlı bir yol. {KEY:MouseControl} tuşuna basılı tut ve fare imlecini {THING:ItemEvaSuit}&apos;nin üstüne götür. {KEY:PrimaryAction} tuşuna basılı tut ve {SLOT:Suit}&apos;e sürükle.
       </Value>
     </Record>
     <Record>
@@ -41,7 +41,7 @@
     </Record>
     <Record>
       <Key>TutorialDescPickupJetpack</Key>
-      <Value>{THING:ItemSpacepack}&apos;ni bul ve baktığında yeşil etkileşim hâlinde olan giysiyi {KEY:PrimaryAction} tuşuna tıklayarak {SLOT:LeftHand} veya {SLOT:RightHand}&apos;ine koy.</Value>
+      <Value>{THING:ItemSpacepack}&apos;ni bul ve baktığında yeşil etkileşim hâlinde olan giysiyi {KEY:PrimaryAction} tuşuna tıklayarak {SLOT:LeftHand}&apos;ine veya {SLOT:RightHand}&apos;ine koy.</Value>
     </Record>
     <Record>
       <Key>TutorialDescWearJetpack</Key>
@@ -53,7 +53,7 @@
     </Record>
     <Record>
       <Key>TutorialDescPowerSuit</Key>
-      <Value>Bir {THING:ItemBatteryCellLarge} bul ve ona bakarak ve {KEY:PrimaryAction} tuşuna tıklayarak {SLOT:LeftHand} veya {SLOT:RightHand}&apos;ine al. Zaman kazanmak için {THING:ItemBatteryCellLarge}&apos;ni doğrudan {THING:ItemEvaSuit}&apos;ne sürükleyebilirsin.</Value>
+      <Value>Bir {THING:ItemBatteryCellLarge} bul ve ona bakarak ve {KEY:PrimaryAction} tuşuna tıklayarak {SLOT:LeftHand}&apos;ine veya {SLOT:RightHand}&apos;ine al. Zaman kazanmak için {THING:ItemBatteryCellLarge}&apos;ni doğrudan {THING:ItemEvaSuit}&apos;ne sürükleyebilirsin.</Value>
     </Record>
     <Record>
       <Key>TutorialDescPowerSuit2</Key>
@@ -86,6 +86,10 @@
     <Record>
       <Key>TutorialTitleSuitFilter</Key>
       <Value>BİR FİLTRE DONANMAK</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescFilter1</Key>
+      <Value>Bir {THING:ItemGasFilterCarbonDioxide} bul ve ona bakıyorken ve {KEY:PrimaryAction} tuşuna basarak {SLOT:LeftHand}&apos;ine veya {SLOT:RightHand}&apos;ine al. Tekrardan, zaman kazanmak için, dünyadan {THING:ItemEvaSuit}&apos;ne {THING:ItemGasFilterCarbonDioxide}&apos;i basitçene sürükle. Bu filtre, {THING:ItemEvaSuit}&apos;nden {GAS:CarbonDioxide}&apos;i uzaklaştıracaktır.</Value>
     </Record>
     <Record>
       <Key>TutorialTaskFilter1</Key>
