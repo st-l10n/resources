@@ -26,9 +26,11 @@
     </Record>
     <Record>
       <Key>TutorialDescWearHelmet</Key>
-      <Value>{THING:ItemSpaceHelmet}が{SLOT:Helmet}スロットに移動するまで{KEY:HelmetSlot}を押し続けてください。
-
-{KEY:MouseControl}を押したままにしてマウスカーソルを動かし、{THING:ItemSpaceHelmet}を{SLOT:Helmet}スロットにドラッグアンドドロップしましょう。 あるいは、{THING:ItemSpaceHelmet}が{SLOT:Helmet}スロットに移動するまで{KEY:HelmetSlot}を押し続けてください。</Value>
+      <Value>ホットキーとマウス操作の2つの方法で{LINK:InventoryPage;inventory}を操作できます。それぞれ、良し悪しがあります。
+{THING:ItemSpaceHelmet}が{SLOT:Helmet}スロットに移動するまで{KEY:HelmetSlot}を押し続けてください。
+      
+{KEY:MouseControl}を押したままにして、{THING:ItemSpaceHelmet}を{SLOT:Helmet}スロットにドラッグアンドドロップしてください。
+あるいは、{KEY:HelmetSlot}を{THING:ItemSpaceHelmet}が{SLOT:Helmet}スロットに移動するまで長押ししてください。</Value>
     </Record>
     <Record>
       <Key>TutorialDescWearSuit</Key>
