@@ -30,7 +30,8 @@ Si vous maintenez les touches {KEY:MouseControl} et {KEY:MouseInspect} et clique
 {LIST}{LINK:ToolPage;Outils}, {LINK:ResourcePage;Resources}, {LINK:KitPage;Kits}, {LINK:FoodPage;Aliments}, {LINK:ClothingPage;Vetements}, {LINK:AppliancePage;Appareils electromenagers}, {LINK:IngotPage;Lingots}, {LINK:OrePage;Minerais}, {LINK:AlloyPage;Alliages}
 {/LIST}
 {HEADER:Structures}
-{LIST}{LINK:DevicePage;Dispositifs}, {LINK:FabricatorPage;Machines}, {LINK:AirlockDevicePage;Dispositifs de sas}, {LINK:LogicUnitPage;Unites logiques}{/LIST}</Text>
+{LIST}{LINK:DevicePage;Dispositifs}, {LINK:FabricatorPage;Machines}, {LINK:AirlockDevicePage;Dispositifs de sas}, {LINK:LogicUnitPage;Unites logiques}{/LIST}
+</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GettingStarted</Key>
@@ -71,7 +72,8 @@ Prenez le {THING:DynamicHydroponics} fourni dans votre nouvelle serre. Il dispos
 Vous pouvez directement insérer de la {LINK:IcePage;glace} dans la partie supérieure. S&apos;il n&apos;y a pas d&apos;atmosphère pour les fondre, appuyez sur le bouton {LOGICTYPE:Activate} pour l&apos;écraser. La glace fondra automatiquement s&apos;il y a suffisamment de gaz de la bonne température à l&apos;intérieur. Utilisez un mélange de {THING:ItemOxite} et {THING:ItemVolatiles} pour allumer un feu à l&apos;intérieur, bien que cela augmente considérablement la pression à l&apos;intérieur.
 
 Une fois que la température est correcte, insérez les minerais pour les fondre - mais surveillez vos ratios ou vos déchets apparaîtront sous la forme {THING:ItemReagentMix} qui devra être trié dans un {THING:StructureCentrifuge}. Pour récupérer la production, tirez la poignée {LOGICTYPE:Open}.
-{/LIST}</Text>
+{/LIST}
+</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>InventoryPage</Key>
@@ -100,7 +102,8 @@ Le bouton {KEY:InventorySelect} permute quel que soit l&apos;emplacement que vou
       
 {HEADER:Liste des dispositifs de sas}
 Les appareils suivants peuvent être connectés et utilisés par le système de contrôle du sas:
-{LIST_OF_AIRLOCK_DEVICES}</Text>
+{LIST_OF_AIRLOCK_DEVICES}
+</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>LogicUnitPage</Key>
@@ -124,7 +127,8 @@ Les appareils suivants peuvent être connectés et utilisés par le système de 
       <Text>Ce sont des structures motorisées qui peuvent être utilisées pour fabriquer ce dont vous avez besoin dans le jeu. Ils utilisent généralement des {LINK:IngotPage;lingots} pour extraire les {LINK:ReagentPage;reactifs} dont ils ont besoin pour fabriquer des objets.
       
 {HEADER:Liste des machines}
-{LIST_OF_FABRICATORS}</Text>
+{LIST_OF_FABRICATORS}
+</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>DevicePage</Key>
@@ -132,7 +136,8 @@ Les appareils suivants peuvent être connectés et utilisés par le système de 
       <Text>Il s’agit de structures, généralement alimentées, dotées de fonctions spécialisées, notamment logiques, atmosphériques, etc. Ils sont construits de la même manière que les autres structures.
       
 {HEADER:Liste des dispositifs}
-{LIST_OF_DEVICES}</Text>
+{LIST_OF_DEVICES}
+</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>SmeltingPage</Key>
@@ -149,14 +154,16 @@ Les appareils suivants peuvent être connectés et utilisés par le système de 
       <Title>Réactifs</Title>
       <Text>Ce sont des quantités chimiques de certains types.
 {HEADER:Liste des reactifs}
-{LIST_OF_REAGENTS}</Text>
+{LIST_OF_REAGENTS}
+</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPage</Key>
       <Title>Gazs</Title>
       <Text>Ce sont des gaz chimiques de certains types.
 {HEADER:Liste des gazs}
-{LIST_OF_GASES}</Text>
+{LIST_OF_GASES}
+</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>AlloyPage</Key>
@@ -164,7 +171,8 @@ Les appareils suivants peuvent être connectés et utilisés par le système de 
       <Text>Créés dans le {THING:StructureFurnace} à partir de mélange de {LINK:ReagentPage;reactif}, les {LINK:IngotPage;lingots} avancées pourront être utilisés dans des {LINK:FabricatorPage;machines}. Le {THING:StructureArcFurnace} n&apos;est pas capable de les fondre.
 
 {HEADER:Liste des alliages}
-{LIST_OF_ALLOYS}</Text>
+{LIST_OF_ALLOYS}
+</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>OrePage</Key>
@@ -175,14 +183,16 @@ Les appareils suivants peuvent être connectés et utilisés par le système de 
 Certains minerais fondent lorsqu&apos;ils sont exposés au soleil ou à la chaleur et produisent des {LINK:GasPage;gazs}. Par exemple, la {THING:ItemIce} fond en {GAS:Water} et {GAS:Oxygen}. Veillez à les garder à l&apos;abri de la chaleur ou de la lumière du soleil jusqu&apos;à ce que vous souhaitiez réellement les faire fondre.
       
 {HEADER:Liste des minerais}
-{LIST_OF_ORES}</Text>
+{LIST_OF_ORES}
+</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>IngotPage</Key>
       <Title>Lingots</Title>
       <Text>Ce sont des éléments généralement fabriqués à partir de {LINK:SmeltingPage;fonte} et de {LINK:OrePage;minerais}.
 {HEADER:Liste des lingots}
-{LIST_OF_INGOTS}</Text>
+{LIST_OF_INGOTS}
+</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ToolPage</Key>
@@ -196,21 +206,24 @@ Certains minerais fondent lorsqu&apos;ils sont exposés au soleil ou à la chale
       <Title>Ressources</Title>
       <Text>Il s’agit d’éléments consommés lors de la {LINK:ConstructionPage;construction} et d’autres tâches.
 {HEADER:Liste des ressources}
-{LIST_OF_RESOURCES}</Text>
+{LIST_OF_RESOURCES}
+</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>FoodPage</Key>
       <Title>Aliments</Title>
       <Text>Ce sont des éléments qui sont consommés pour fournir de la nutrition.
 {HEADER:Liste des aliments}
-{LIST_OF_FOOD}</Text>
+{LIST_OF_FOOD}
+</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ClothingPage</Key>
       <Title>Vêtements</Title>
       <Text>Ce sont des objets que les entités peuvent porter.
 {HEADER:Liste des vetements}
-{LIST_OF_CLOTHING}</Text>
+{LIST_OF_CLOTHING}
+</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>AppliancePage</Key>
@@ -218,13 +231,22 @@ Certains minerais fondent lorsqu&apos;ils sont exposés au soleil ou à la chale
       <Text>Ce sont des objets qui peuvent être placés sur des plans de travail. Vous devez les placer sur un plan de travail et les connectés en utilisant une clé.
       
 {HEADER:Liste des appareils electromenagers}
-{LIST_OF_APPLIANCES}</Text>
+{LIST_OF_APPLIANCES}
+</Text>
     </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
+    <StationpediaPage>
+      <Key>ThingTemplate</Key>
+      <Text>{0}
+
+{HEADER:General}
+{LIST}Prefab Hash {POS:300}{1}
+A peindre {POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
     <StationpediaPage>
       <Key>ThingStackTemplate</Key>
       <Text>Taille de la pile {POS:300}{0}</Text>
