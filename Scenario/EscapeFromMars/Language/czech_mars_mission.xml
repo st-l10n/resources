@@ -70,6 +70,22 @@
       <Key>MarsTabletStage2Page1</Key>
       <Value>STRÁNKA 1 z 5 \n PROSIT, VRTAT nebo KRÁST\n\n Naštěstí naše výrobní nástroje mají znalosti o všech receptech, které budete pravděpodobně potřebovat ve vaší situaci. Bohužel budou potřebovat suroviny, aby tak učinily. Mohly pocházet z několika zdrojů na základě vaší situace:</Value>
     </Record>
+    <Record>
+      <Key>MarsTabletStage2Page2</Key>
+      <Value>STRÁNKA 2 z 5 \n PROHLEDÁVAT \n \n Pokud je vaše plavidlo ještě z velké části neporušené, můžete najít materiály ve zpracované podobě, ať již ve výrobních strojích nebo v blízkosti.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage2Page3</Key>
+      <Value>STRÁNKA 3 z 5 \n DEMONTOVAT \n \n Pokud jste schopni najít nebo vyrobit úhlovou brusku, měli byste ji použít k demontáži některých lodních vraků. Recyklovač může být použit k rozbití těchto složek do směsi jeho složkových materiálů a odstředivka je oddělí, aby mohla být znovu roztavena do použitelných materiálů.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage2Page4</Key>
+      <Value>STRÁNKA 4 of 5 \nVYKOPAT\n\nVelmi závislé na vašem okolí byly některé průzkumné plavidla vybaveny základním těžebním zařízením. Pokud máte to štěstí, že se ocitnete někde s množstvím minerálních zdrojů, je to jistě životaschopná volba.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage2Page5</Key>
+      <Value>STRÁNKA 5 of 5\nTAVENÍ\n\nNejjednodušší způsob, jak přeměnit suroviny na zpracované ingoty připravené k výrobě, je použití obloukové pece a poskytnutí nějaké energie. Pokud jste omezeni zdroji, pravděpodobně by měla být vaší první investicí, jako kdybyste nedokázali zachránit dostatečné množství materiálů, bude to nakonec požadavek zajistit, že budete schopni produkovat více.</Value>
+    </Record>
     <!-- Mission Stage: Setup Manufacturing -->
     <Record>
       <Key>MarsTitleSetupManufacturing</Key>
@@ -80,12 +96,20 @@
       <Value>VÝROBA 101</Value>
     </Record>
     <Record>
+      <Key>MarsDescSetupManufacturing</Key>
+      <Value>Abychom mohli vyrobit vše, co potřebujeme, měli bychom začít s {THING:ItemKitHydraulicPipeBender} a {THING:ItemKitElectronicsPrinter}.</Value>
+    </Record>
+    <Record>
       <Key>MarsTaskManufactureHPB</Key>
       <Value>Vyrob {THING:ItemKitHydraulicPipeBender}</Value>
     </Record>
     <Record>
       <Key>MarsTaskManufactureEP</Key>
       <Value>Vyrob {THING:ItemKitElectronicsPrinter}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage3Page1</Key>
+      <Value>STRÁNKA 1 of 5\nVÝROBA \nI když je velice pravděpodobné, že záchranné práce již probíhají, může to trvat nějaký čas, než budou schopni vás kontaktovat. Bylo by vhodné plánovat delší pobyt. Budete muset vytvořit základní výrobní infrastrukturu. Automatický soustruh je přirozeným výchozím bodem, který vám umožní vytvořit více craftingových strojů specifických pro danou práci.</Value>
     </Record>
     <!-- Mission Stage: Food Supply -->
     <Record>
