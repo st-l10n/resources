@@ -109,7 +109,7 @@
     </Record>
     <Record>
       <Key>MarsTabletStage3Page1</Key>
-      <Value>STRÁNKA 1 of 5\nVÝROBA \nI když je velice pravděpodobné, že záchranné práce již probíhají, může to trvat nějaký čas, než budou schopni vás kontaktovat. Bylo by vhodné plánovat delší pobyt. Budete muset vytvořit základní výrobní infrastrukturu. Automatický soustruh je přirozeným výchozím bodem, který vám umožní vytvořit více craftingových strojů specifických pro danou práci.</Value>
+      <Value>STRÁNKA 1 z 5\nVÝROBA \nI když je velice pravděpodobné, že záchranné práce již probíhají, může to trvat nějaký čas, než budou schopni vás kontaktovat. Bylo by vhodné plánovat delší pobyt. Budete muset vytvořit základní výrobní infrastrukturu. Automatický soustruh je přirozeným výchozím bodem, který vám umožní vytvořit více craftingových strojů specifických pro danou práci.</Value>
     </Record>
     <!-- Mission Stage: Food Supply -->
     <Record>
@@ -117,8 +117,20 @@
       <Value>Spolehlivý Zdroj Potravy</Value>
     </Record>
     <Record>
+      <Key>MarsTabletStage4</Key>
+      <Value>ZAHRADNICKÁ PŘÍRUČKA</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescFoodSupply</Key>
+      <Value>Nevíme, jak dlouho budete muset zde přežít. Měli bychom připravit obnovitelný zdroj potravy, jen pro případ.</Value>
+    </Record>
+    <Record>
       <Key>MarsTaskPrepareAtmos</Key>
       <Value>Vytvořte tlakovou místnost s atmosférou dostatečnou k pěstování brambor.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGrowPotato</Key>
+      <Value>Pěstujte {THING:ItemPotato} do zralosti.</Value>
     </Record>
     <!-- Mission Stage: Spawn Mothership & Engine -->
     <Record>
@@ -145,6 +157,10 @@
       <Key>MarsTitleLaunchMothership</Key>
       <Value>Odpálení Mateřské Lodi</Value>
     </Record>
+    <Record>
+      <Key>MarsTabletStage5Page2</Key>
+      <Value>STRÁNKA 2 z 2\nMinimální, co budete potřebovat pro loď, je jádro s několika motory připojenými a směřujícími správným směrem a hvězdnou kotvu,která po zapnutí a vypnutí umožní vaší loď přesunout. Velitelská židle není potřeba, pokud jste natolik odvážní, že řídíte motory manuálně, ale důkladně jí doporučujeme.</Value>
+    </Record>
     <!-- Mission Stage: Launch -->
     <Record>
       <Key>MarsDescLaunchMothership</Key>
@@ -160,7 +176,7 @@
     </Record>
     <Record>
       <Key>MarsTabletStage6Page1</Key>
-      <Value>STRÁNKA 1 of 1 \nVZLET\nDocela vysvětlující. Vezmi tuhle věc ze země. Ujistěte se, že máte dostatek paliva pro vaše motory! Hodně štěstí!</Value>
+      <Value>STRÁNKA 1 z 1 \nVZLET\nDocela vysvětlující. Vezmi tuhle věc ze země. Ujistěte se, že máte dostatek paliva pro vaše motory! Hodně štěstí!</Value>
     </Record>
   </Interface>
 </Language>
