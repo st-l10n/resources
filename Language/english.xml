@@ -5284,6 +5284,418 @@ Temperature {1}</Value>
       <Key>SettingsUserSpeakerMode</Key>
       <Value>Speaker Mode: </Value>
     </Record>
+    <Record>
+      <Key>LogicTypeNone</Key>
+      <Value>No description</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePower</Key>
+      <Value>Can be read to return if the device is correctly powered or not, set via the power system, return 1 if powered and 0 if not</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeOpen</Key>
+      <Value>1 if device is open, otherwise 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeMode</Key>
+      <Value>Integer for mode state, different devices will have different mode states available to them</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeError</Key>
+      <Value>1 if device is in error state, otherwise 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeLock</Key>
+      <Value>1 if device is locked, otherwise 0, can be set in most devices and prevents the user from access the values</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressure</Key>
+      <Value>The current pressure reading of the device</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperature</Key>
+      <Value>The current temperature reading of the device</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureExternal</Key>
+      <Value>Setting for external pressure safety, in KPa</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureInternal</Key>
+      <Value>Setting for internal pressure safety, in KPa</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeActivate</Key>
+      <Value>1 if device is activated (usually means running), otherwise 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeCharge</Key>
+      <Value>The current charge the device has</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSetting</Key>
+      <Value>A variable setting that can be read or written, depending on the device</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeReagents</Key>
+      <Value>Total number of reagents recorded by the device</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOxygen</Key>
+      <Value>The ratio of oxygen in device atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioCarbonDioxide</Key>
+      <Value>The ratio of co2 in device atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrogen</Key>
+      <Value>The ratio of nitrogen in device atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutant</Key>
+      <Value>The ratio of pollutant in device atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioVolatiles</Key>
+      <Value>The ratio of volatiles in device atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioWater</Key>
+      <Value>The ratio of water in device atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrousOxide</Key>
+      <Value>The ratio of nitrous oxide in device atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeHorizontal</Key>
+      <Value>Horizontal setting of the device</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVertical</Key>
+      <Value>Vertical setting of the device</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSolarAngle</Key>
+      <Value>Solar angle of the device</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeMaximum</Key>
+      <Value>Maximum setting of the device</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatio</Key>
+      <Value>Context specific value depending on device, 0 to 1 based ratio</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePowerPotential</Key>
+      <Value>How much energy the device or network potentially provides</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePowerActual</Key>
+      <Value>How much energy the device or network is actually using</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeQuantity</Key>
+      <Value>Total quantity on the device</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeOn</Key>
+      <Value>The current state of the device, 0 for off, 1 for on</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportQuantity</Key>
+      <Value>Total quantity of items imported by the device</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportSlotOccupant</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeExportQuantity</Key>
+      <Value>Total quantity of items exported by the device</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeExportSlotOccupant</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRequiredPower</Key>
+      <Value>Idle operating power quantity, does not necessarily include extra demand power</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeHorizontalRatio</Key>
+      <Value>Radio of horizontal setting for device</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVerticalRatio</Key>
+      <Value>Radio of vertical setting for device</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePowerRequired</Key>
+      <Value>Power requested from the device and/or network</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeIdle</Key>
+      <Value>Returns 1 if the device is currently idle, otherwise 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeColor</Key>
+      <Value>The color setting for the device, represented as an integer</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeElevatorSpeed</Key>
+      <Value>Current speed of the elevator</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeElevatorLevel</Key>
+      <Value>Level the elevator is currently at</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRecipeHash</Key>
+      <Value>Current hash of the recipe the device is set to produce</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeExportSlotHash</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportSlotHash</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHealth1</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHealth2</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHealth3</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHealth4</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantGrowth1</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantGrowth2</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantGrowth3</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantGrowth4</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantEfficiency1</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantEfficiency2</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantEfficiency3</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantEfficiency4</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHash1</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHash2</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHash3</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHash4</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRequestHash</Key>
+      <Value>When set to the unique identifier, requests an item of the provided type from the device</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeCompletionRatio</Key>
+      <Value>How complete the current production is for this device, between 0 and 1</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeClearMemory</Key>
+      <Value>When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeExportCount</Key>
+      <Value>How many items exported since last ClearMemory</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportCount</Key>
+      <Value>How many items imported since last ClearMemory</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePowerGeneration</Key>
+      <Value>Returns how much power is being generated</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTotalMoles</Key>
+      <Value>Returns the total moles of the device</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVolume</Key>
+      <Value>Returns the device atmosphere volume</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlant</Key>
+      <Value>Performs the planting action for any plant based machinery</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeHarvest</Key>
+      <Value>Performs the harvesting action for any plant based machinery</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeOutput</Key>
+      <Value>The output operation for a sort handling device, such as a stacker or sorter, when in logic mode the device will only action one repetition when set zero or above and then back to -1 and await further instructions</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureSetting</Key>
+      <Value>The current setting for the internal pressure of the object (e.g. the Hardsuit Air release), in KPa</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperatureSetting</Key>
+      <Value>The current setting for the internal temperature of the object (e.g. the Hardsuit A/C)</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperatureExternal</Key>
+      <Value>The temperature of the outside of the device, usually the world atmosphere surrounding it</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeFiltration</Key>
+      <Value>The current state of the filtration system, for example Filtration = 1 for a Hardsuit sets filtration to On</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeAirRelease</Key>
+      <Value>The current state of the air release system, for example AirRelease = 1 for a Hardsuit sets Air Release to On</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePositionX</Key>
+      <Value>The current position in X dimension in world coordinates</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePositionY</Key>
+      <Value>The current position in Y dimension in world coordinates</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePositionZ</Key>
+      <Value>The current position in Z dimension in world coordinates</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityMagnitude</Key>
+      <Value>The current magnitude of the velocity vector</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityRelativeX</Key>
+      <Value>The current velocity X relative to the forward vector of this</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityRelativeY</Key>
+      <Value>The current velocity Y relative to the forward vector of this</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityRelativeZ</Key>
+      <Value>The current velocity Z relative to the forward vector of this</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePrefabHash</Key>
+      <Value>The hash of the structure</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeNone</Key>
+      <Value>No description</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeOccupied</Key>
+      <Value>returns 0 when slot is not occupied, 1 when it is</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeOccupantHash</Key>
+      <Value>returns the has of the current occupant, the unique identifier of the thing</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeQuantity</Key>
+      <Value>returns the current quantity, such as stack size, of the item in the slot</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeDamage</Key>
+      <Value>returns the damage state of the item in the slot</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeEfficiency</Key>
+      <Value>returns the growth efficiency of the plant in the slot</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeMature</Key>
+      <Value>returns 1 if the plant in this slot is mature, 0 when it isn't</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeHealth</Key>
+      <Value>returns the health of the plant in the slot</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeGrowth</Key>
+      <Value>returns the current growth state of the plant in the slot</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePressure</Key>
+      <Value>returns pressure of the slot occupants internal atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeTemperature</Key>
+      <Value>returns temperature of the slot occupants internal atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeCharge</Key>
+      <Value>returns current energy charge the slot occupant is holding</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeChargeRatio</Key>
+      <Value>returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeClass</Key>
+      <Value>returns integer representing the class of object</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePressureWaste</Key>
+      <Value>returns pressure in the waste tank of the jetpack in this slot</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePressureAir</Key>
+      <Value>returns pressure in the air tank of the jetpack in this slot</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeMaxQuantity</Key>
+      <Value>returns the max stack size of the item in the slot</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePrefabHash</Key>
+      <Value>returns the hash of the structure in the slot</Value>
+    </Record>
   </Interface>
   <Colors>
     <Record>
