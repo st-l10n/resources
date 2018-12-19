@@ -2298,6 +2298,10 @@
       <Value>土豆</Value>
     </Record>
     <Record>
+      <Key>ItemTomato</Key>
+      <Value>番茄</Value>
+    </Record>
+    <Record>
       <Key>StructureGasGenerator</Key>
       <Value>气体燃料发电机</Value>
     </Record>
@@ -2316,6 +2320,10 @@
     <Record>
       <Key>ItemPotatoBaked</Key>
       <Value>焗马铃薯</Value>
+    </Record>
+    <Record>
+      <Key>ItemTomatoSoup</Key>
+      <Value>番茄汤</Value>
     </Record>
     <Record>
       <Key>ItemSoyOil</Key>
@@ -3138,6 +3146,62 @@
       <Value>南瓜派</Value>
     </Record>
     <Record>
+      <Key>ItemHardBackpack</Key>
+      <Value>进阶背包</Value>
+    </Record>
+    <Record>
+      <Key>ItemHardJetpack</Key>
+      <Value>进阶喷气背包</Value>
+    </Record>
+    <Record>
+      <Key>DynamicHydroponics</Key>
+      <Value>便携式水培盆</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitDynamicHydroponics</Key>
+      <Value>套件(便携水平盆)</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeOreScannerColor</Key>
+      <Value>记忆卡(矿石扫描仪(彩色))</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicWriterSwitch</Key>
+      <Value>逻辑编写开关</Value>
+    </Record>
+    <Record>
+      <Key>MotherboardProgrammableChip</Key>
+      <Value>主板(集成电路)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicCircuit</Key>
+      <Value>套件(集成电路外壳)</Value>
+    </Record>
+    <Record>
+      <Key>StructureCircuitHousing</Key>
+      <Value>集成电路外壳</Value>
+    </Record>
+    <Record>
+      <Key>ItemIntegratedCircuit10</Key>
+      <Value>集成电路 (ic10)</Value>
+    </Record>
+    <Record>
+      <Key>StructureHydroponicsAutomated</Key>
+      <Value>自动水培箱</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitHydroponicAutomated</Key>
+      <Value>套件 (自动水培箱)</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasCanisterNitrousOxide</Key>
+      <Value>智能气瓶</Value>
+    </Record>
+    <Record>
+      <Key>ItemNVG</Key>
+      <Value>夜视仪</Value>
+    </Record>
+    <Record>
       <Key>ItemGlasses</Key>
       <Value>玻璃板</Value>
     </Record>
@@ -3638,6 +3702,10 @@
       <Value>创建计划</Value>
     </Record>
     <Record>
+      <Key>Search</Key>
+      <Value>搜索</Value>
+    </Record>
+    <Record>
       <Key>Button4</Key>
       <Value>按键4</Value>
     </Record>
@@ -3700,6 +3768,14 @@
     <Record>
       <Key>ThrustDown</Key>
       <Value>下推力</Value>
+    </Record>
+    <Record>
+      <Key>UnpackAll</Key>
+      <Value>全部打开</Value>
+    </Record>
+    <Record>
+      <Key>Unpack</Key>
+      <Value>打开</Value>
     </Record>
   </Interactables>
   <Interface>
@@ -4985,12 +5061,140 @@
       <Value>描述/类型</Value>
     </Record>
     <Record>
+      <Key>LogicTypeRatioOxygen</Key>
+      <Value>空气中氧的比例</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrogen</Key>
+      <Value>空气中氮的比例</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutant</Key>
+      <Value>空气中污染物的比例</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioVolatiles</Key>
+      <Value>空气中挥发物的比例</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioWater</Key>
+      <Value>空气中水的比例</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrousOxide</Key>
+      <Value>空气中一氧化二氮的比例</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeHorizontal</Key>
+      <Value>设备的水平角度设置</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVertical</Key>
+      <Value>设备的垂直角度设置</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSolarAngle</Key>
+      <Value>设备的太阳角度</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeMaximum</Key>
+      <Value>设备的最大设置数量</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePowerPotential</Key>
+      <Value>电网提供电量</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePowerActual</Key>
+      <Value>电网实际用电量</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeQuantity</Key>
+      <Value>设备上的物品总数量</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeOn</Key>
+      <Value>设备的当前状态, 0 为关闭, 1 表示</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportQuantity</Key>
+      <Value>设备输入物品的总数</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeExportQuantity</Key>
+      <Value>设备输出物品的总数</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeHorizontalRatio</Key>
+      <Value>设备水平角度</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVerticalRatio</Key>
+      <Value>设备垂直角度</Value>
+    </Record>
+    <Record>
       <Key>LogicTypePowerRequired</Key>
       <Value>网络上没有其他可读设备</Value>
     </Record>
     <Record>
+      <Key>LogicTypeIdle</Key>
+      <Value>如果设备当前处于闲置状态, 则返回 1, 否则为0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeColor</Key>
+      <Value>设置颜色，为整数</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeElevatorSpeed</Key>
+      <Value>显示电梯的速度</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeElevatorLevel</Key>
+      <Value>显示电梯的楼层</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHash2</Key>
+      <Value>丢弃</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeCompletionRatio</Key>
+      <Value>此设备当前生产的完成程度, 在0和1之间</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeClearMemory</Key>
+      <Value>设置为 1时, 清除计数器内存 ExportCount。将在激活时将自身设置回0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeExportCount</Key>
+      <Value>导出之前的ClearMemory数量</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportCount</Key>
+      <Value>导入之前的ClearMemory数量</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePowerGeneration</Key>
+      <Value>返回发电的功率</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTotalMoles</Key>
+      <Value>返回设备的总摩尔数量</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVolume</Key>
+      <Value>返回设备的空气容量</Value>
+    </Record>
+    <Record>
       <Key>LogicSlotTypeNone</Key>
       <Value>描述/类型</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeOccupied</Key>
+      <Value>当插槽未占用返回0，插槽被占用返回1</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeOccupantHash</Key>
+      <Value>返回当前物品的哈希，是物品的唯一识别代码</Value>
     </Record>
   </Interface>
   <Colors>
