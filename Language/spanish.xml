@@ -5145,23 +5145,335 @@ Temperatura {1}</Value>
     </Record>
     <Record>
       <Key>LogicTypeNone</Key>
-      <Value>Descripción</Value>
+      <Value>Sin descripción</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePower</Key>
+      <Value>Puede leerse para indicar si el dispositivo está correctamente alimentado o no, configurado a través del sistema de alimentación, retornar 1 si está alimentado y 0 si no lo está</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeOpen</Key>
+      <Value>1 si el dispositivo está abierto, en caso contrario 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeMode</Key>
+      <Value>Números enteros para el estado de modo, diferentes dispositivos tendrán diferentes estados de modo disponibles para ellos</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeError</Key>
+      <Value>1 si el dispositivo está en estado de error, de lo contrario 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeLock</Key>
+      <Value>1 si el dispositivo está bloqueado, de lo contrario 0, puede ajustarse en la mayoría de los dispositivos e impide que el usuario acceda a los valores</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressure</Key>
+      <Value>La lectura actual de la presión del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperature</Key>
+      <Value>La lectura de la temperatura actual del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureExternal</Key>
+      <Value>Ajuste para la seguridad de la presión externa, en KPa</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureInternal</Key>
+      <Value>Ajuste para la seguridad de la presión interna, en KPa</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeActivate</Key>
+      <Value>1 si el dispositivo está activado (normalmente significa en funcionamiento), de lo contrario 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeCharge</Key>
+      <Value>La carga actual que tiene el dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSetting</Key>
+      <Value>Un ajuste variable que se puede leer o escribir, dependiendo del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeReagents</Key>
+      <Value>Número total de reactivos registrados por el dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOxygen</Key>
+      <Value>La proporción de oxígeno en la atmósfera del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioCarbonDioxide</Key>
+      <Value>La relación de co2 en la atmósfera del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrogen</Key>
+      <Value>La relación de contaminantes en la atmósfera del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutant</Key>
+      <Value>La relación de contaminantes en la atmósfera del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioVolatiles</Key>
+      <Value>La proporción de volátiles en la atmósfera del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioWater</Key>
+      <Value>La proporción de agua en la atmósfera del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrousOxide</Key>
+      <Value>La proporción de óxido nitroso en la atmósfera del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeHorizontal</Key>
+      <Value>Ajuste horizontal del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVertical</Key>
+      <Value>Ajuste vertical del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSolarAngle</Key>
+      <Value>Ángulo solar del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeMaximum</Key>
+      <Value>Ajuste máximo del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatio</Key>
+      <Value>Valor específico del contexto en función del dispositivo, relación de 0 a 1</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePowerPotential</Key>
+      <Value>Cuánta energía puede suministrar el dispositivo o la red</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePowerActual</Key>
+      <Value>Cuánta energía está utilizando realmente el dispositivo o la red</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeQuantity</Key>
+      <Value>Cantidad total en el dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeOn</Key>
+      <Value>El estado actual del dispositivo, 0 para apagado, 1 para encendido</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportQuantity</Key>
+      <Value>Cantidad total de artículos importados por el dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeExportQuantity</Key>
+      <Value>Cantidad total de artículos exportados por el dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRequiredPower</Key>
+      <Value>Cantidad de potencia en reposo, no necesariamente incluye potencia de demanda adicional</Value>
     </Record>
     <Record>
       <Key>LogicTypeHorizontalRatio</Key>
-      <Value>No hay ajustes adicionales para {0}</Value>
+      <Value>Equipo de comunicaciones de ajuste horizontal para el dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeVerticalRatio</Key>
-      <Value>No hay ajustes adicionales para {0}</Value>
+      <Value>Equipo de comunicaciones de ajuste vertical para el dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypePowerRequired</Key>
-      <Value>No hay otros dispositivos legibles en la red</Value>
+      <Value>Potencia solicitada desde el dispositivo y/o red</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeIdle</Key>
+      <Value>Devuelve 1 si el dispositivo está actualmente inactivo, de lo contrario 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeColor</Key>
+      <Value>La configuración de color para el dispositivo, representada como un número entero</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeElevatorSpeed</Key>
+      <Value>Velocidad actual del ascensor</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeElevatorLevel</Key>
+      <Value>Nivel en el que se encuentra actualmente el ascensor</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRecipeHash</Key>
+      <Value>Hash actual de la receta que el dispositivo está configurado para producir</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRequestHash</Key>
+      <Value>Cuando se establece en el identificador único, solicita un elemento del tipo proporcionado desde el dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeCompletionRatio</Key>
+      <Value>Qué tan completa es la producción actual de este dispositivo, entre 0 y 1</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeClearMemory</Key>
+      <Value>Cuando se ajusta a 1, borra la memoria del contador (por ejemplo, ExportCount). Se volverá a poner a 0 cuando se acciona</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeExportCount</Key>
+      <Value>Cuántos artículos se exportaron desde la última vez que ClearMemory</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportCount</Key>
+      <Value>Cuántos artículos se han importado desde la última vez que ClearMemory</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePowerGeneration</Key>
+      <Value>Devuelve cuánta energía se está generando</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTotalMoles</Key>
+      <Value>Devuelve el total de los moles del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVolume</Key>
+      <Value>Devuelve el volumen de la atmósfera del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlant</Key>
+      <Value>Realiza la acción de siembra de cualquier maquinaria de la fábrica</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeHarvest</Key>
+      <Value>Realiza la acción de cosecha para cualquier maquinaria de la planta</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeOutput</Key>
+      <Value>La operación de salida para un dispositivo de manipulación de clasificaciones, como un apilador o un clasificador, cuando en el modo lógico el dispositivo sólo actuará una repetición cuando se ponga a cero o superior y luego volverá a -1 y esperará instrucciones adicionales</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureSetting</Key>
+      <Value>El ajuste actual para la presión interna del objeto (p. ej., la liberación de aire de traje de protección), en KPa</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperatureSetting</Key>
+      <Value>El ajuste actual de la temperatura interna del objeto (por ejemplo, el Traje de protección A/C)</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperatureExternal</Key>
+      <Value>La temperatura del exterior del dispositivo, normalmente la atmósfera del mundo que lo rodea</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeFiltration</Key>
+      <Value>El estado actual del sistema de filtración, por ejemplo Filtración = 1 para un Traje de protección pone la filtración en On</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeAirRelease</Key>
+      <Value>El estado actual del sistema de purga de aire, por ejemplo AirRelease = 1 para un traje de protección, ajusta Air Release a On</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePositionX</Key>
+      <Value>La posición actual en la dimensión X en coordenadas mundiales</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePositionY</Key>
+      <Value>La posición actual en la dimensión Y en coordenadas mundiales</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePositionZ</Key>
+      <Value>La posición actual en la dimensión Z en coordenadas mundiales</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityMagnitude</Key>
+      <Value>La magnitud actual del vector de velocidad</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityRelativeX</Key>
+      <Value>La velocidad actual X en relación con el vector delantero de éste</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityRelativeY</Key>
+      <Value>La velocidad actual Y en relación con el vector delantero de éste</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityRelativeZ</Key>
+      <Value>La velocidad actual Z es relativa al vector delantero de esta</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePrefabHash</Key>
+      <Value>El hash de la estructura</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeNone</Key>
-      <Value>Descripción</Value>
+      <Value>Sin descripción</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeOccupied</Key>
+      <Value>devuelve 0 cuando la ranura no está ocupada, 1 cuando lo está</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeOccupantHash</Key>
+      <Value>devuelve el has del ocupante actual, el identificador único de la cosa</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeQuantity</Key>
+      <Value>devuelve la cantidad actual, como el tamaño de la pila, del artículo en la ranura</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeDamage</Key>
+      <Value>devuelve el estado de daño del artículo en la ranura</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeEfficiency</Key>
+      <Value>devuelve la eficiencia de crecimiento de la planta en la ranura</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeMature</Key>
+      <Value>devuelve 1 si la planta en esta ranura está desarrollada, 0 si no lo está</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeHealth</Key>
+      <Value>devuelve la salud de la planta en la ranura</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeGrowth</Key>
+      <Value>devuelve el estado actual de crecimiento de la planta en la ranura</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePressure</Key>
+      <Value>devuelve la presión de la atmósfera interna de los ocupantes de la ranura</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeTemperature</Key>
+      <Value>devuelve la temperatura de la atmósfera interna de los ocupantes de la ranura</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeCharge</Key>
+      <Value>devuelve la carga de energía actual que tiene el ocupante de la ranura</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeChargeRatio</Key>
+      <Value>devuelve la carga de energía actual que tiene el ocupante de la ranura como una relación entre 0 y 1 de su máximo</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeClass</Key>
+      <Value>devuelve un número entero que representa la clase de objeto</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePressureWaste</Key>
+      <Value>devuelve la presión en el depósito de residuos del jetpack en esta ranura</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePressureAir</Key>
+      <Value>devuelve la presión en el depósito de aire del jetpack en esta ranura</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeMaxQuantity</Key>
+      <Value>devuelve el tamaño máximo de la pila del artículo en la ranura</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePrefabHash</Key>
+      <Value>devuelve el hash de la estructura en la ranura</Value>
     </Record>
   </Interface>
   <Colors>
