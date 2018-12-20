@@ -4253,7 +4253,7 @@
     </Record>
     <Record>
       <Key>NewWorldAreaMoon</Key>
-      <Value>月亮</Value>
+      <Value>月球</Value>
     </Record>
     <Record>
       <Key>SettingsAntialiasing</Key>
@@ -4901,12 +4901,20 @@
       <Value>无设置</Value>
     </Record>
     <Record>
+      <Key>LogicNoAdditionalSettingsFor</Key>
+      <Value>{0}没有其他设置</Value>
+    </Record>
+    <Record>
       <Key>LogicNoSlot</Key>
       <Value>&lt;color=red&gt;需要更多{0}&lt;/color&gt;.</Value>
     </Record>
     <Record>
       <Key>LogicNoAvailableSlots</Key>
       <Value>&lt;color=red&gt;无法建造&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAdditionalSlotsFor</Key>
+      <Value>{0}没有额外的插槽</Value>
     </Record>
     <Record>
       <Key>RequiresScrewdriver</Key>
@@ -5263,6 +5271,10 @@
     <Record>
       <Key>LogicSlotTypeOccupantHash</Key>
       <Value>返回当前物品的哈希，是物品的唯一识别代码</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeDamage</Key>
+      <Value>返回插槽中的项目损坏状态</Value>
     </Record>
   </Interface>
   <Colors>
