@@ -5213,6 +5213,22 @@
       <Value>描述/类型</Value>
     </Record>
     <Record>
+      <Key>LogicTypeOpen</Key>
+      <Value>如果设备处于打开状态, 则为 1, 否则为0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeMode</Key>
+      <Value>对于模式状态的整数, 不同的设备将有不同的模式状态可供他们使用</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeLock</Key>
+      <Value>如果设备被锁定, 则为 1, 否则为0可在大多数设备中设置, 并禁止使用</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeActivate</Key>
+      <Value>1如果设备被激活 (通常意味着正在运行), 否则0</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeRatioOxygen</Key>
       <Value>空气中氧的比例</Value>
     </Record>
@@ -5343,6 +5359,10 @@
     <Record>
       <Key>LogicTypeVolume</Key>
       <Value>返回设备的空气容量</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeAirRelease</Key>
+      <Value>空气释放系统的当前状态, 例如空气释放 = 1 为一套硬具设置空气释放设置为</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeNone</Key>
