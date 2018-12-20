@@ -4688,7 +4688,7 @@
     </Record>
     <Record>
       <Key>AppearanceTitleEyeColor</Key>
-      <Value>瞳色</Value>
+      <Value>眼睛颜色</Value>
     </Record>
     <Record>
       <Key>AppearanceTitleSkinColor</Key>
@@ -5291,6 +5291,14 @@
     <Record>
       <Key>LogicSlotTypeEfficiency</Key>
       <Value>返回水槽中植物的生长效率</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeMature</Key>
+      <Value>如果此插槽中的植物成熟则返回1，否则返回0</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeHealth</Key>
+      <Value>返回插槽中的植物的运行状况</Value>
     </Record>
   </Interface>
   <Colors>
