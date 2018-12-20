@@ -5277,6 +5277,10 @@
       <Value>设备输出物品的总数</Value>
     </Record>
     <Record>
+      <Key>LogicTypeRequiredPower</Key>
+      <Value>闲置运行功率, 不一定包括额外的需求功率</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeHorizontalRatio</Key>
       <Value>设备水平角度</Value>
     </Record>
@@ -5286,7 +5290,7 @@
     </Record>
     <Record>
       <Key>LogicTypePowerRequired</Key>
-      <Value>网络上没有其他可读设备</Value>
+      <Value>从设备和网络请求的电源</Value>
     </Record>
     <Record>
       <Key>LogicTypeIdle</Key>
