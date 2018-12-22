@@ -5194,11 +5194,27 @@
     </Record>
     <Record>
       <Key>NewWorldGameMode</Key>
-      <Value>游戏端口</Value>
+      <Value>游戏模式</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldGravity</Key>
+      <Value>重力</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldTemperature</Key>
+      <Value>温度</Value>
     </Record>
     <Record>
       <Key>NewWorldPressure</Key>
-      <Value>预置</Value>
+      <Value>压力</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldSolarEnergy</Key>
+      <Value>太阳能</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldSolarAngle</Key>
+      <Value>太阳角度</Value>
     </Record>
     <Record>
       <Key>SettingsMenuAppearance</Key>
@@ -5213,6 +5229,10 @@
       <Value>描述/类型</Value>
     </Record>
     <Record>
+      <Key>LogicTypePower</Key>
+      <Value>如果设备正确供电或未通电, 则可读取返回, 通过电源系统设置, 如果通电, 则返回 1; 如果未, 则返回0</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeOpen</Key>
       <Value>如果设备处于打开状态, 则为 1, 否则为0</Value>
     </Record>
@@ -5221,8 +5241,28 @@
       <Value>对于模式状态的整数, 不同的设备将有不同的模式状态可供他们使用</Value>
     </Record>
     <Record>
+      <Key>LogicTypeError</Key>
+      <Value>如果设备处于错误状态, 则为 1, 否则为0</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeLock</Key>
       <Value>如果设备被锁定, 则为 1, 否则为0可在大多数设备中设置, 并禁止使用</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressure</Key>
+      <Value>当前压力读数</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperature</Key>
+      <Value>当前温度读数</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureExternal</Key>
+      <Value>外部压力安全设置, kpa</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureInternal</Key>
+      <Value>内部压力安全设置, kpa</Value>
     </Record>
     <Record>
       <Key>LogicTypeActivate</Key>
