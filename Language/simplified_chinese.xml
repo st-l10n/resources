@@ -3985,7 +3985,7 @@
     </Record>
     <Record>
       <Key>NewWorldAreaEuropa</Key>
-      <Value>木卫二</Value>
+      <Value>欧罗巴</Value>
     </Record>
     <Record>
       <Key>NewWorldEnableAwayMissions</Key>
@@ -4982,11 +4982,11 @@
     </Record>
     <Record>
       <Key>LogicNoSlot</Key>
-      <Value>&lt;color=red&gt;需要更多{0}&lt;/color&gt;.</Value>
+      <Value>&lt;color=red&gt;无插槽&lt;/color=red&gt;</Value>
     </Record>
     <Record>
       <Key>LogicNoAvailableSlots</Key>
-      <Value>&lt;color=red&gt;无法建造&lt;/color&gt;.</Value>
+      <Value>&lt;color=red&gt;没有可用的插槽&lt;/color=red&gt;</Value>
     </Record>
     <Record>
       <Key>LogicNoAdditionalSlotsFor</Key>
@@ -5041,6 +5041,14 @@
       <Value>更改 &lt;color=yellow&gt;{0}&lt;/color&gt; 为 {1}</Value>
     </Record>
     <Record>
+      <Key>InteractionTemporarilyDisabledOnThisObject</Key>
+      <Value>在此对象上暂时禁用的操作</Value>
+    </Record>
+    <Record>
+      <Key>UnableToInteractAsYouDoNotHaveTheRequiredAccessCard</Key>
+      <Value>无法操作, 因为您没有所需的 {slot: accesscard}</Value>
+    </Record>
+    <Record>
       <Key>SettingsAtmosphericScattering</Key>
       <Value>大气散射</Value>
     </Record>
@@ -5070,7 +5078,7 @@
     </Record>
     <Record>
       <Key>NewWorldAreaEuropa</Key>
-      <Value>木卫二</Value>
+      <Value>欧罗巴</Value>
     </Record>
     <Record>
       <Key>SettingsTitleAudioAlerts</Key>
