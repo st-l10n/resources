@@ -5229,6 +5229,18 @@
       <Value>1如果设备被激活 (通常意味着正在运行), 否则0</Value>
     </Record>
     <Record>
+      <Key>LogicTypeCharge</Key>
+      <Value>设备的当前充电</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSetting</Key>
+      <Value>可读取或写入的变量设置, 具体取决于设备</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeReagents</Key>
+      <Value>记录的试剂总数</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeRatioOxygen</Key>
       <Value>空气中氧的比例</Value>
     </Record>
@@ -5258,11 +5270,11 @@
     </Record>
     <Record>
       <Key>LogicTypeHorizontal</Key>
-      <Value>设备的水平角度设置</Value>
+      <Value>水平角度设置</Value>
     </Record>
     <Record>
       <Key>LogicTypeVertical</Key>
-      <Value>设备的垂直角度设置</Value>
+      <Value>垂直角度设置</Value>
     </Record>
     <Record>
       <Key>LogicTypeSolarAngle</Key>
@@ -5302,11 +5314,11 @@
     </Record>
     <Record>
       <Key>LogicTypeHorizontalRatio</Key>
-      <Value>设备水平角度</Value>
+      <Value>设备水平设置无线电</Value>
     </Record>
     <Record>
       <Key>LogicTypeVerticalRatio</Key>
-      <Value>设备垂直角度</Value>
+      <Value>设备垂直设置无线电</Value>
     </Record>
     <Record>
       <Key>LogicTypePowerRequired</Key>
