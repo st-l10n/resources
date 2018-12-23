@@ -123,16 +123,16 @@
     </Record>
     <Record>
       <Key>TutorialDescGetTools1</Key>
-      <Value>今から基地の外にでていくつか修理を行います。{KEY:Drop}キーを押して{THING:ItemTablet}を捨て、他のものを拾えるようにしましょう。{KEY:MouseControl}を押すことで{LINK:InventoryPage;インベントリ}を操作出来ることを思い出してください、{KEYS:SwapHands}キーで{COLORYELLOW:アクティブな手}を入れ替えられることも。
+      <Value>今から基地の外にでていくつか修理を行います。{KEY:Drop}キーを押して{THING:ItemTablet}を捨て、他のものを拾えるようにしましょう。{KEY:MouseControl}を押すことで{LINK:InventoryPage;inventory}を操作出来ることを思い出してください、{KEYS:SwapHands}キーで{COLORYELLOW:Active Hand}を入れ替えられることも。
 
-インベントリを操作するのには、技術と練習が必要です。何を持っているか、何をしようとしているかを慎重に考えましょう。{THING:ItemGasCanisterOxygen}や{THING:ItemBatteryCellLarge}を入れておくことを忘れると悲惨なことになります。紛失するのは簡単です。注意しましょう！
+{LINK:InventoryPage;inventory}を操作するのには、技術と練習が必要です。何を持っているか、何をしようとしているかを慎重に考えましょう。{THING:ItemGasCanisterOxygen}や{THING:ItemBatteryCellLarge}を入れておくことを忘れると悲惨なことになります。紛失するのは簡単です。注意しましょう！
       </Value>
     </Record>
     <Record>
       <Key>TutorialDescGetTools2</Key>
       <Value>{THING:ItemToolBelt}を拾って、{KEY:ToolBeltSlot}キーを長押しするか{KEY:MouseControl}を押したままスロットにドラッグして{SLOT:Belt}スロットに入れましょう。{SLOT:Belt}スロットは、採掘用などのツールを入れておけるベルト用のスロットです。
       
-{THING:ItemMiningBelt}には特殊な{LINK:OrePage;鉱石}スロットがあり、{THING:ItemMiningDrill}で採掘した鉱石などが自動で入ります。詳細は{LINK:MiningPage;採掘}を読んでください。</Value>
+{THING:ItemMiningBelt}には特殊な{LINK:OrePage;Ore}スロットがあり、{THING:ItemMiningDrill}で採掘した鉱石などが自動で入ります。詳細は{LINK:MiningPage;Mining}を読んでください。</Value>
     </Record>
     <Record>
       <Key>TutorialTaskGetTools1</Key>
@@ -152,8 +152,8 @@
     </Record>
     <Record>
       <Key>TutorialDescGoInAirlock1</Key>
-      <Value>{THING:StructureAirlock}ドアを通り抜け、{THING:ItemEvaSuit}と{THING:ItemSpaceHelmet}の準備をしましょう。インタラクトメニューが出るまで{KEY:HelmetSlot}キーを押して、クローズオプションまでスクロールし、{KEY:InventorySelect}を押して状態を切り替えましょう。あるいは{KEY:Internals}を押すことで、素早く{COLORYELLOW:内部}のオンオフができます。
-      
+      <Value>{THING:StructureAirlock}ドアを通り抜け、{THING:ItemEvaSuit}と{THING:ItemSpaceHelmet}の準備をしましょう。インタラクトメニューが出るまで{KEY:HelmetSlot}キーを押して、クローズオプションまでスクロールし、{KEY:InventorySelect}を押して状態を切り替えましょう。あるいは{KEY:Internals}を押すことで、素早く{COLORYELLOW:Internals}のオンオフができます。
+     
 画面の右側に、状態を示すアイコンと素早く切り替えるためのキーが表示されています。これらの状態と警告に注意して、あなたの命を守りましょう！</Value>
     </Record>
     <Record>
@@ -172,7 +172,7 @@
       <Key>TutorialDescCycleAirlock1</Key>
       <Value>エアロックは{THING:StructureConsole}または{THING:StructureAirlock}のいずれかの操作可能なキーパットで循環させることが出来ます。これによりエアロックを減圧させて宇宙に行けるようになります。
 
-{THING:StructureConsole}の{THING:CircuitboardAirlockControl}は、{THING:StructureActiveVent}や他の装置を動作させ、エアロックを循環させます。画面の右上の{COLORYELLOW:内部}と{COLORYELLOW:外部}の情報に注意しましょう。
+{THING:StructureConsole}の{THING:CircuitboardAirlockControl}は、{THING:StructureActiveVent}や他の装置を動作させ、エアロックを循環させます。画面の右上の{COLORYELLOW:Internal}と{COLORYELLOW:External}の情報に注意しましょう。
 
 スーツを着ているとき、内側と外側、両方の空気があります。このゲームでは複合的な大気モデルを扱います。空気の情報には十分に注意を払って安全を保ちましょう。</Value>
     </Record>
@@ -186,9 +186,9 @@
     </Record>
     <Record>
       <Key>TutorialDescRepairCable1</Key>
-      <Value>{THING:StructureCableStraight}は{COLORYELLOW:データ}と{COLORYELLOW:電力}の両方を送ることができます。しかし、上限を超えた電力を壊すと壊れてしまいます。あなたが出てきた{THING:StructureAirlock}の下のどこかに、壊れた{THING:StructureCableJunction}があるので見つけて、{THING:ItemToolBelt}の中にある{THING:ItemWireCutters}で撤去しましょう。
+      <Value>{THING:StructureCableStraight}は{COLORYELLOW:Data}と{COLORYELLOW:Power}の両方を送ることができます。しかし、上限を超えた電力を壊すと壊れてしまいます。あなたが出てきた{THING:StructureAirlock}の下のどこかに、壊れた{THING:StructureCableJunction}があるので見つけて、{THING:ItemToolBelt}の中にある{THING:ItemWireCutters}で撤去しましょう。
 
- {LINK:InventoryPage;インベントリ}を操作する方法は2つあることを忘れないでください。{KEY:MouseControl}を押したままにすることでマウスカーソルを有効にして、マウスでインベントリを開いたりドラッグアンドドロップをすることが出来ます。素早く操作するには、{KEY:ToolBeltSlot}を押して{SLOT:Belt}を開きます。{KEY:InventorySelect}を押すことで選択されたスロットのアイテムと、手に持っているアイテムを入れ替えます。
+{LINK:InventoryPage;inventory}を操作する方法は2つあることを忘れないでください。{KEY:MouseControl}を押したままにすることでマウスカーソルを有効にして、マウスでインベントリを開いたりドラッグアンドドロップをすることが出来ます。素早く操作するには、{KEY:ToolBeltSlot}を押して{SLOT:Belt}を開きます。{KEY:InventorySelect}を押すことで選択されたスロットのアイテムと、手に持っているアイテムを入れ替えます。
 
 大量のインベントリを開いてしまっているときに{KEY:HideAllWindows}でまとめて閉じることが出来ます。それぞれのインベントリ画面のホットキーや、{KEY:MouseControl}を押しながらのマウス操作で1つづつ消すことも出来ます。</Value>
     </Record>
@@ -252,7 +252,7 @@
     </Record>
     <Record>
       <Key>TutorialDescTablet2</Key>
-      <Value>{KEY:ActiveHandSlot}キーを押して離すかクリックすることでアクティブな手にあるアイテムを操作できます。アクティブな手に持っているアイテムの{LINK:InventoryPage;インベントリ}画面が開かれます。アクティブな手は{KEY:SwapHands}によって切り替えられます。{THING:ItemTablet}をアクティブな手にし、そのスロットを開くことで次に進みます。</Value>
+      <Value>{KEY:ActiveHandSlot}キーを押して離すかクリックすることでアクティブな手にあるアイテムを操作できます。アクティブな手に持っているアイテムの{LINK:InventoryPage;inventory}画面が開かれます。アクティブな手は{KEY:SwapHands}によって切り替えられます。{THING:ItemTablet}をアクティブな手にし、そのスロットを開くことで次に進みます。</Value>
     </Record>
     <Record>
       <Key>TutorialDescTablet4</Key>
