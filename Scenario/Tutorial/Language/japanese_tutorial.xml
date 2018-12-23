@@ -123,7 +123,7 @@
     </Record>
     <Record>
       <Key>TutorialDescGetTools1</Key>
-      <Value>今から基地の外にでていくつか修理を行います。{KEY:Drop}キーを押して{THING:ItemTablet}を捨て、他のものを拾えるようにしましょう。{KEY:MouseControl}を押すことでインベントリを操作出来ることを思い出してください、{KEYS:SwapHands}キーで{COLORYELLOW:アクティブな手}を入れ替えられることも。
+      <Value>今から基地の外にでていくつか修理を行います。{KEY:Drop}キーを押して{THING:ItemTablet}を捨て、他のものを拾えるようにしましょう。{KEY:MouseControl}を押すことで{LINK:InventoryPage;インベントリ}を操作出来ることを思い出してください、{KEYS:SwapHands}キーで{COLORYELLOW:アクティブな手}を入れ替えられることも。
 
 インベントリを操作するのには、技術と練習が必要です。何を持っているか、何をしようとしているかを慎重に考えましょう。{THING:ItemGasCanisterOxygen}や{THING:ItemBatteryCellLarge}を入れておくことを忘れると悲惨なことになります。紛失するのは簡単です。注意しましょう！
       </Value>
@@ -132,7 +132,7 @@
       <Key>TutorialDescGetTools2</Key>
       <Value>{THING:ItemToolBelt}を拾って、{KEY:ToolBeltSlot}キーを長押しするか{KEY:MouseControl}を押したままスロットにドラッグして{SLOT:Belt}スロットに入れましょう。{SLOT:Belt}スロットは、採掘用などのツールを入れておけるベルト用のスロットです。
       
-{THING:ItemMiningBelt}には特殊な{SLOT:Ore}スロットがあり、{THING:ItemMiningDrill}で採掘した鉱石が自動で入ります。</Value>
+{THING:ItemMiningBelt}には特殊な{LINK:OrePage;鉱石}スロットがあり、{THING:ItemMiningDrill}で採掘した鉱石などが自動で入ります。詳細は{LINK:MiningPage;採掘}を読んでください。</Value>
     </Record>
     <Record>
       <Key>TutorialTaskGetTools1</Key>
