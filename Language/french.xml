@@ -5007,6 +5007,22 @@ Temperature {1}</Value>
       <Value>Niveau de l&apos;ascenseur est actuellement à</Value>
     </Record>
     <Record>
+      <Key>LogicTypePlantHash3</Key>
+      <Value>Déconseillée</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHash4</Key>
+      <Value>Déconseillée</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRequestHash</Key>
+      <Value>Lorsqu&apos;il est défini sur l&apos;identificateur unique, demande un élément du type fourni à partir du périphérique</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeCompletionRatio</Key>
+      <Value>Comment compléter la production actuelle pour ce dispositif, entre 0 et 1</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeClearMemory</Key>
       <Value>Lorsqu&apos;il est défini sur 1, efface la mémoire du compteur (par exemple ExportCount). Va se remettre à 0 lorsqu&apos;il est actionnée</Value>
     </Record>
@@ -5097,6 +5113,10 @@ Temperature {1}</Value>
     <Record>
       <Key>LogicSlotTypeNone</Key>
       <Value>Aucune description</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeOccupied</Key>
+      <Value>Indique 0 lorsque l&apos;emplacement n&apos;est pas occupé et 1 quand c&apos;est le cas</Value>
     </Record>
   </Interface>
   <Colors>
