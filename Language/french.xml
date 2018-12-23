@@ -5007,8 +5007,52 @@ Temperature {1}</Value>
       <Value>Niveau de l&apos;ascenseur est actuellement à</Value>
     </Record>
     <Record>
+      <Key>LogicTypeClearMemory</Key>
+      <Value>Lorsqu&apos;il est défini sur 1, efface la mémoire du compteur (par exemple ExportCount). Va se remettre à 0 lorsqu&apos;il est actionnée</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeExportCount</Key>
+      <Value>Nombre d&apos;articles exportés depuis la dernière ClearMemory</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportCount</Key>
+      <Value>Nombre d&apos;articles importés depuis la dernière ClearMemory</Value>
+    </Record>
+    <Record>
       <Key>LogicTypePowerGeneration</Key>
-      <Value>Retourne la quantité d&apos;énergie qui est générée</Value>
+      <Value>Indique la quantité d&apos;énergie qui est générée</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTotalMoles</Key>
+      <Value>Indique le nombre de moles de l&apos;appareil</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVolume</Key>
+      <Value>Indique le volume de l&apos;atmosphère de l&apos;appareil</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlant</Key>
+      <Value>Effectue l&apos;action de plantation pour toute machine à base de plantes</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeHarvest</Key>
+      <Value>Effectue l&apos;action de récolte pour toute machine à base de plantes</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeOutput</Key>
+      <Value>L&apos;opération de sortie pour un périphérique de gestion de tri, tel qu&apos;un empileur ou un trieuse, en mode logique, le périphérique n&apos;actionne qu&apos;une seule répétition lorsqu&apos;il est défini à zéro ou au-dessus, puis de nouveau à -1 et attend d&apos;autres instructions</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureSetting</Key>
+      <Value>Le réglage actuel de la pression interne de l&apos;objet (par exemple, le dégagement d&apos;air de la combinaison), en KPa</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperatureSetting</Key>
+      <Value>Le réglage actuel de la température interne de l&apos;objet (par ex. : A/C de la combinaison)</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperatureExternal</Key>
+      <Value>La température de l&apos;extérieur de l&apos;appareil, généralement l&apos;atmosphère du monde qui l&apos;entoure</Value>
     </Record>
     <Record>
       <Key>LogicTypeFiltration</Key>
