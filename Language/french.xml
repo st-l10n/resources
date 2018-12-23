@@ -4979,6 +4979,14 @@ Temperature {1}</Value>
       <Value>Description</Value>
     </Record>
     <Record>
+      <Key>LogicTypePressure</Key>
+      <Value>La pression actuelle lu sur l&apos;appareil</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperature</Key>
+      <Value>La température actuelle lu sur l&apos;appareil</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeHorizontalRatio</Key>
       <Value>Aucun paramètre supplémentaire pour {0}</Value>
     </Record>
@@ -4991,8 +4999,60 @@ Temperature {1}</Value>
       <Value>Aucun autre appareil lisible sur le réseau</Value>
     </Record>
     <Record>
+      <Key>LogicTypeElevatorSpeed</Key>
+      <Value>Vitesse actuelle de l&apos;ascenseur</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeElevatorLevel</Key>
+      <Value>Niveau de l&apos;ascenseur est actuellement à</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePowerGeneration</Key>
+      <Value>Retourne la quantité d&apos;énergie qui est générée</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeFiltration</Key>
+      <Value>L&apos;état actuel du système de filtration, par exemple : Filtration = 1 pour une combinaison définit la filtration sur activé</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeAirRelease</Key>
+      <Value>L&apos;état actuel du système d&apos;évacuation d&apos;air, par exemple : AirRelease = 1 pour une combinaison définit le rejet de l&apos;air sur Activé</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePositionX</Key>
+      <Value>La position actuelle dans l&apos;axe X en coordonnées du monde</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePositionY</Key>
+      <Value>La position actuelle dans l&apos;axe Y en coordonnées du monde</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePositionZ</Key>
+      <Value>La position actuelle dans l&apos;axe Z en coordonnées du monde</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityMagnitude</Key>
+      <Value>La magnitude actuelle du vecteur vitesse</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityRelativeX</Key>
+      <Value>La vitesse actuelle X par rapport au vecteur avant de cette</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityRelativeY</Key>
+      <Value>La vitesse actuelle Y par rapport au vecteur avant de cette</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityRelativeZ</Key>
+      <Value>La vitesse actuelle Z par rapport au vecteur avant de cette</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePrefabHash</Key>
+      <Value>Le hachage de la structure</Value>
+    </Record>
+    <Record>
       <Key>LogicSlotTypeNone</Key>
-      <Value>Description</Value>
+      <Value>Aucune description</Value>
     </Record>
   </Interface>
   <Colors>
