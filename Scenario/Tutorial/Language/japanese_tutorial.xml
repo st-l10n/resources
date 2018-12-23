@@ -210,7 +210,7 @@
     </Record>
     <Record>
       <Key>TutorialDescRepairCable2</Key>
-      <Value>{THING:ItemWireCutters}を手に持って{THING:StructureCableJunctionBurnt}を見ましょう。{COLORYELLOW:yellow}の箱がその辺に見えるはずです。{COLORRED:左マウスボタン}を押し続けて{THING:StructureCableJunctionBurnt}を除去しましょう。</Value>
+      <Value>{THING:ItemWireCutters}を手に持って{THING:StructureCableJunctionBurnt}を見ましょう。{COLORYELLOW:黄色}の箱がその辺に見えるはずです。{KEY:PrimaryAction}を押し続けて{THING:StructureCableJunctionBurnt}を除去しましょう。</Value>
     </Record>
     <Record>
       <Key>TutorialDescRepairCable3</Key>
@@ -222,13 +222,13 @@
     </Record>
     <Record>
       <Key>TutorialDescRepairCable4</Key>
-      <Value>{COLORYELLOW:アクティブな手}に{THING:ItemCableCoil}を持ち、{COLORRED:Right Mouse Button}を押すことで設置カーソルが表示されます。
+      <Value>{COLORYELLOW:アクティブな手}に{THING:ItemCableCoil}を持ち、{KEY:SecondaryAction}を押すことで{LINK:ConstructionPage;設置}カーソルが表示されます。
 
 {COLORRED:Mouse Wheel}によって設置するタイプを変えられるので、{THING:StructureCableJunction}を選択して下さい。
 
 設置予想図は接続に関する重要な情報を持っています。小さなプラスのマークはケーブルのネットワークに接続する場所を示しています。目的の場所に接続出来るようにしましょう。
 
-{KEY:RotateLeft}を押すことで左回転、{KEY:RotateRight}で右回転、{KEY:RotateUp}で上回転、{KEY:RotateDown}で下回転、{KEY:RotateRollLeft}で左転回、{KEY:RotateRollRight}で右転回が出来ます。</Value>
+{KEY:QuantityModifier}を押すといい感じに接続する配置になります。あるいは回転キーを使うことも出来ます。</Value>
     </Record>
     <Record>
       <Key>TutorialTitleFinishFrame</Key>
@@ -304,7 +304,7 @@
     </Record>
     <Record>
       <Key>TutorialDescBakeMuffin1</Key>
-      <Value>このゲームのいくつかの装置は{THING:StructureBench}に取り付けられ、取付装置と呼びます。{THING:ApplianceMicrowave}を持って、{THING:StructureBench}の前まで行きましょう。</Value>
+      <Value>このゲームのいくつかの装置は{THING:StructureBench}に取り付けられ、{LINK:AppliancePage;設置装置}と呼びます。{THING:ApplianceMicrowave}を持って、{THING:StructureBench}の前まで行きましょう。</Value>
     </Record>
     <Record>
       <Key>TutorialDescBakeMuffin2</Key>
@@ -312,11 +312,11 @@
     </Record>
     <Record>
       <Key>TutorialDescBakeMuffin3</Key>
-      <Value>{THING:ApplianceMicrowave}に注目して下さい。扉ではない方の側面を見ると、アイテムを直接ターゲットし、開くことは出来ません。{COLORYELLOW:yellow box}が見えている状態で{COLORRED:左マウスボタン}を押すことで{THING:StructureBench}に固定出来ます。</Value>
+      <Value>{THING:ApplianceMicrowave}に注目して下さい。扉ではない方の側面を見ると、アイテムを直接ターゲットし、開くことは出来ません。{COLORYELLOW:黄色い四角}が見えている状態で{KEY:PrimaryAction}を長押しすることで{THING:StructureBench}に固定出来ます。</Value>
     </Record>
     <Record>
       <Key>TutorialDescBakeMuffin4</Key>
-      <Value>{THING:ApplianceMicrowave}の扉を見て下さい。{COLORRED:左マウスボタン}を押すことで扉を開けることができ、中に素材を入れられるようになります。</Value>
+      <Value>{THING:ApplianceMicrowave}の扉を見て下さい。{KEY:PrimaryAction}を押すことで扉を開けることができ、中に素材を入れられるようになります。</Value>
     </Record>
     <Record>
       <Key>TutorialDescBakeMuffin5</Key>
