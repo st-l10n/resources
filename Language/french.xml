@@ -4988,15 +4988,23 @@ Temperature {1}</Value>
     </Record>
     <Record>
       <Key>LogicTypeHorizontalRatio</Key>
-      <Value>Aucun paramètre supplémentaire pour {0}</Value>
+      <Value>Radio de réglage horizontal pour le dispositif</Value>
     </Record>
     <Record>
       <Key>LogicTypeVerticalRatio</Key>
-      <Value>Aucun paramètre supplémentaire pour {0}</Value>
+      <Value>Radio de réglage vertical pour le dispositif</Value>
     </Record>
     <Record>
       <Key>LogicTypePowerRequired</Key>
-      <Value>Aucun autre appareil lisible sur le réseau</Value>
+      <Value>Puissance demandée à partir de l&apos;appareil et/ou du réseau</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeIdle</Key>
+      <Value>Indique 1 si le périphérique est actuellement inactif, sinon 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeColor</Key>
+      <Value>Le paramètre de couleur pour le périphérique, représenté sous la forme d&apos;un entier</Value>
     </Record>
     <Record>
       <Key>LogicTypeElevatorSpeed</Key>
@@ -5007,12 +5015,8 @@ Temperature {1}</Value>
       <Value>Niveau de l&apos;ascenseur est actuellement à</Value>
     </Record>
     <Record>
-      <Key>LogicTypePlantHash3</Key>
-      <Value>Déconseillée</Value>
-    </Record>
-    <Record>
-      <Key>LogicTypePlantHash4</Key>
-      <Value>Déconseillée</Value>
+      <Key>LogicTypeRecipeHash</Key>
+      <Value>Hachage actuel de la recette que l&apos;appareil est configuré pour produire</Value>
     </Record>
     <Record>
       <Key>LogicTypeRequestHash</Key>
@@ -5117,6 +5121,10 @@ Temperature {1}</Value>
     <Record>
       <Key>LogicSlotTypeOccupied</Key>
       <Value>Indique 0 lorsque l&apos;emplacement n&apos;est pas occupé et 1 quand c&apos;est le cas</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeOccupantHash</Key>
+      <Value>Indique l&apos;occupant actuel de l&apos;emplacement, l&apos;identificateur unique de la chose</Value>
     </Record>
   </Interface>
   <Colors>
