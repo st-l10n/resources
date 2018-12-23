@@ -248,11 +248,11 @@
     </Record>
     <Record>
       <Key>TutorialDescTablet1</Key>
-      <Value>{THING:ItemTablet}と{THING:ItemBatteryCellLarge}を見ている状態で{COLORRED:左マウスボタン}を押し、{SLOT:LeftHand}スロットか{SLOT:RightHand}スロットにそれらを入れましょう。{KEY:SwapHands}を押すことでアクティブな手を変えられます。これにより両手にアイテムを持てるようになります。出来たら次に進みます。</Value>
+      <Value>{THING:ItemTablet}と{THING:ItemBatteryCellLarge}を見ている状態で{KEY:PrimaryAction}を押し、{SLOT:LeftHand}スロットか{SLOT:RightHand}スロットにそれらを入れましょう。{KEY:SwapHands}を押すことでアクティブな手を変えられます。これにより両手にアイテムを持てるようになります。出来たら次に進みます。</Value>
     </Record>
     <Record>
       <Key>TutorialDescTablet2</Key>
-      <Value>{KEY:ActiveHandSlot}キーを押して離すかクリックすることでアクティブな手にあるアイテムを操作できます。アクティブな手に持っているアイテムのインベントリ画面が開かれます。アクティブな手は{KEY:SwapHands}によって切り替えられます。{THING:ItemTablet}をアクティブな手にし、そのスロットを開くことで次に進みます。</Value>
+      <Value>{KEY:ActiveHandSlot}キーを押して離すかクリックすることでアクティブな手にあるアイテムを操作できます。アクティブな手に持っているアイテムの{LINK:InventoryPage;インベントリ}画面が開かれます。アクティブな手は{KEY:SwapHands}によって切り替えられます。{THING:ItemTablet}をアクティブな手にし、そのスロットを開くことで次に進みます。</Value>
     </Record>
     <Record>
       <Key>TutorialDescTablet4</Key>
@@ -320,7 +320,7 @@
     </Record>
     <Record>
       <Key>TutorialDescBakeMuffin5</Key>
-      <Value>タスクリストにある素材をアクティブな手で拾い、{THING:ApplianceMicrowave}の中に視点を合わせ手下さい。{COLORRED:左マウスボタン}を押して足りるまで素材を入れて下さい。レシピの要求より多く素材を足さないで下さい。これをレシピに従いあと2回行いましょう。
+      <Value>タスクリストにある素材をアクティブな手で拾い、{THING:ApplianceMicrowave}の中に視点を合わせ手下さい。{KEY:PrimaryAction}を押して足りるまで素材を入れて下さい。レシピの要求より多く素材を足さないで下さい。これをレシピに従いあと2回行いましょう。
 
 もし入れすぎてしまったら、持っているものを{KEY:Drop}で手放し、{THING:ApplianceMicrowave}に視線を合わせて{COLORYELLOW:Clear}をして、やり直します。</Value>
     </Record>
