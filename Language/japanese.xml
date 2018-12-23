@@ -4938,11 +4938,11 @@
     </Record>
     <Record>
       <Key>LogicNoSlot</Key>
-      <Value>&lt;color=red&gt;{0}足りない&lt;/color&gt;.</Value>
+      <Value>&lt;color=red&gt;スロットがありません&lt;/color&gt;.</Value>
     </Record>
     <Record>
       <Key>LogicNoAvailableSlots</Key>
-      <Value>&lt;color=red&gt;建造できません&lt;/color&gt;.</Value>
+      <Value>&lt;color=red&gt;有効なスロットがありません&lt;/color&gt;.</Value>
     </Record>
     <Record>
       <Key>RequiresScrewdriver</Key>
@@ -4950,15 +4950,15 @@
     </Record>
     <Record>
       <Key>LogicNoReadableDevices</Key>
-      <Value>ネットワークに他に読み取り可能なデバイスがありません</Value>
+      <Value>他に読み取り可能なデバイスがネットワークにありません</Value>
     </Record>
     <Record>
       <Key>LogicNoReadableTypes</Key>
-      <Value>ネットワークに他に読み取り可能なタイプがりません</Value>
+      <Value>他に読み取り可能なタイプがネットワークにありません</Value>
     </Record>
     <Record>
       <Key>LogicNoWritableDevices</Key>
-      <Value>ネットワークに他に読み取り可能なデバイスがありません</Value>
+      <Value>他に書き込み可能なデバイスがネットワークにありません</Value>
     </Record>
     <Record>
       <Key>ChangeSettingTo</Key>
@@ -4966,7 +4966,7 @@
     </Record>
     <Record>
       <Key>ChangeSettingToAll</Key>
-      <Value>{0}に変更</Value>
+      <Value>全て{0}に変更</Value>
     </Record>
     <Record>
       <Key>HoldForPreviousObject</Key>
@@ -5125,24 +5125,28 @@
       <Value>インターフェース</Value>
     </Record>
     <Record>
+      <Key>SettingsUPNPEnabled</Key>
+      <Value>UPNPを有効にする</Value>
+    </Record>
+    <Record>
       <Key>SettingsEnableClouds</Key>
-      <Value>自動セーブを有効にする</Value>
+      <Value>雲を有効にする</Value>
     </Record>
     <Record>
       <Key>SettingsClouds</Key>
-      <Value>自動セーブを有効にする</Value>
+      <Value>雲を有効にする</Value>
     </Record>
     <Record>
       <Key>SettingsSoundFX</Key>
-      <Value>サウンド</Value>
+      <Value>サウンドFX</Value>
     </Record>
     <Record>
       <Key>WarningControlConflict</Key>
-      <Value>コントロール</Value>
+      <Value>コントロールコンフリクト</Value>
     </Record>
     <Record>
       <Key>NewWorldGameMode</Key>
-      <Value>ゲームポート</Value>
+      <Value>ゲームモード</Value>
     </Record>
     <Record>
       <Key>NewWorldPressure</Key>
