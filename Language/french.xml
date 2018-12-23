@@ -4976,7 +4976,27 @@ Temperature {1}</Value>
     </Record>
     <Record>
       <Key>LogicTypeNone</Key>
-      <Value>Description</Value>
+      <Value>Aucune description</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePower</Key>
+      <Value>Peut être lu pour indiquer si l&apos;appareil est correctement alimenté ou non, réglé via le système d&apos;alimentation, indique 1 si alimenté et 0 si non</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeOpen</Key>
+      <Value>1 si l&apos;appareil est ouvert, sinon 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeMode</Key>
+      <Value>Nombres entiers pour l’état de mode, différents appareils auront différents états de mode à leur disposition</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeError</Key>
+      <Value>1 si l&apos;appareil est en état d&apos;erreur, sinon 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeLock</Key>
+      <Value>1 si l&apos;appareil est verrouillé, sinon 0, peut être réglé dans la plupart des dispositifs et empêche l&apos;utilisateur d&apos;accéder aux valeurs</Value>
     </Record>
     <Record>
       <Key>LogicTypePressure</Key>
@@ -4985,6 +5005,38 @@ Temperature {1}</Value>
     <Record>
       <Key>LogicTypeTemperature</Key>
       <Value>La température actuelle lu sur l&apos;appareil</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureExternal</Key>
+      <Value>Réglage pour la sécurité de pression externe, en KPa</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureInternal</Key>
+      <Value>Réglage pour la sécurité de pression interne, en KPa</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeActivate</Key>
+      <Value>1 si l&apos;appareil est activé (généralement signifie en cours d&apos;exécution), sinon 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeCharge</Key>
+      <Value>La charge actuelle que l&apos;appareil a</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSetting</Key>
+      <Value>Un paramètre variable qui peut être lu ou écrit, selon l&apos;appareil</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeReagents</Key>
+      <Value>Nombre total de réactifs enregistrés par l&apos;appareil</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOxygen</Key>
+      <Value>Le ratio d&apos;oxygène dans l&apos;atmosphère du dispositif</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioCarbonDioxide</Key>
+      <Value>Le ratio de CO2 dans l&apos;atmosphère du dispositif</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioNitrogen</Key>
@@ -5193,6 +5245,14 @@ Temperature {1}</Value>
     <Record>
       <Key>LogicSlotTypeOccupantHash</Key>
       <Value>Indique l&apos;occupant actuel de l&apos;emplacement, l&apos;identificateur unique de la chose</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeQuantity</Key>
+      <Value>Indique la quantité actuelle, telle que la taille de la pile, de l&apos;objet dans l&apos;emplacement</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeDamage</Key>
+      <Value>Indique l&apos;état de dommage de l&apos;objet dans l&apos;emplacement</Value>
     </Record>
   </Interface>
   <Colors>
