@@ -5418,8 +5418,16 @@
       <Value>显示电梯的楼层</Value>
     </Record>
     <Record>
+      <Key>LogicTypeRecipeHash</Key>
+      <Value>设备设置为生产的配方的当前哈希</Value>
+    </Record>
+    <Record>
       <Key>LogicTypePlantHash2</Key>
       <Value>丢弃</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRequestHash</Key>
+      <Value>当设置为唯一标识符时, 从设备请求所提供类型的项</Value>
     </Record>
     <Record>
       <Key>LogicTypeCompletionRatio</Key>
@@ -5435,7 +5443,7 @@
     </Record>
     <Record>
       <Key>LogicTypeImportCount</Key>
-      <Value>导入之前的ClearMemory数量</Value>
+      <Value>自上次 clearmemory 之后导入的项目数</Value>
     </Record>
     <Record>
       <Key>LogicTypePowerGeneration</Key>
@@ -5450,8 +5458,64 @@
       <Value>返回设备的空气容量</Value>
     </Record>
     <Record>
+      <Key>LogicTypePlant</Key>
+      <Value>对任何以植物为基础的机械执行种植操作</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeHarvest</Key>
+      <Value>对任何基于设备的机械执行收获操作</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeOutput</Key>
+      <Value>排序处理设备 (如堆垛机或分拣器) 的输出操作, 在逻辑模式下, 当设置为零或更高的设备时, 该设备将只执行一次重复操作, 然后返回到-1 并等待进一步的指示</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureSetting</Key>
+      <Value>对象内部压力的当前设置 (例如, 宇航服空气释放), 以 kpa </Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperatureSetting</Key>
+      <Value>对象内部温度的当前设置 (例如, 宇航服)</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperatureExternal</Key>
+      <Value>设备外部的温度, 通常是它周围的世界大气</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeFiltration</Key>
+      <Value>过滤系统的当前状态，例如对于宇航服 = 1将过滤设置为On</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeAirRelease</Key>
       <Value>空气释放系统的当前状态, 例如空气释放 = 1 为一套硬具设置空气释放设置为</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePositionX</Key>
+      <Value>世界坐标 z 维度的当前位置</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePositionY</Key>
+      <Value>世界坐标 z 维度的当前位置</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePositionZ</Key>
+      <Value>世界坐标 z 维度的当前位置</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityMagnitude</Key>
+      <Value>速度矢量的电流大小</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityRelativeX</Key>
+      <Value>相对于正向矢量的电流速度 z</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityRelativeY</Key>
+      <Value>相对于正向矢量的电流速度 z</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityRelativeZ</Key>
+      <Value>相对于正向矢量的电流速度 z</Value>
     </Record>
     <Record>
       <Key>LogicTypePrefabHash</Key>
