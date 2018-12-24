@@ -4781,7 +4781,7 @@
     </Record>
     <Record>
       <Key>SettingsHungerRate</Key>
-      <Value>饥饿率</Value>
+      <Value>饥饿度</Value>
     </Record>
     <Record>
       <Key>JoinWorldSortBy</Key>
@@ -5035,11 +5035,11 @@
     </Record>
     <Record>
       <Key>ChangeSettingToForIn</Key>
-      <Value>更改 &lt;color=yellow&gt;{0}&lt;/color&gt; 为 {1}</Value>
+      <Value>&lt;color=yellow&gt;&lt;color=yellow&gt;更改为 {1} 中 {3} ({2})&lt;/color=yellow&gt;的 {0}&lt;/color=yellow&gt;</Value>
     </Record>
     <Record>
       <Key>ChangeReagentSettingTo</Key>
-      <Value>更改 &lt;color=yellow&gt;{0}&lt;/color&gt; 为 {1}</Value>
+      <Value>更改为 {2}。&lt;color=yellow&gt;{0}。&lt;color=yellow&gt;{1}&lt;/color=yellow&gt; &lt;/color=yellow&gt;</Value>
     </Record>
     <Record>
       <Key>ChangeSlotSettingToFor</Key>
@@ -5454,6 +5454,10 @@
       <Value>空气释放系统的当前状态, 例如空气释放 = 1 为一套硬具设置空气释放设置为</Value>
     </Record>
     <Record>
+      <Key>LogicTypePrefabHash</Key>
+      <Value>结构的哈希</Value>
+    </Record>
+    <Record>
       <Key>LogicSlotTypeNone</Key>
       <Value>无说明</Value>
     </Record>
@@ -5484,6 +5488,46 @@
     <Record>
       <Key>LogicSlotTypeHealth</Key>
       <Value>返回插槽中的植物的运行状况</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeGrowth</Key>
+      <Value>返回插槽中工厂的当前生长状态</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePressure</Key>
+      <Value>返回插槽乘员内部大气的压力</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeTemperature</Key>
+      <Value>返回插槽乘员内部大气的温度</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeCharge</Key>
+      <Value>返回电流能量充电插槽乘员持有的</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeChargeRatio</Key>
+      <Value>返回电流能量充电插槽乘员持有的比率在0和1之间的最大</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeClass</Key>
+      <Value>返回表示对象类的整数</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePressureWaste</Key>
+      <Value>返回压力在垃圾桶的废物罐在这个插槽</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePressureAir</Key>
+      <Value>返回压力的喷气背包在这个插槽</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeMaxQuantity</Key>
+      <Value>返回插槽中项目的最大堆栈大小</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePrefabHash</Key>
+      <Value>返回插槽中结构的哈希</Value>
     </Record>
   </Interface>
   <Colors>
