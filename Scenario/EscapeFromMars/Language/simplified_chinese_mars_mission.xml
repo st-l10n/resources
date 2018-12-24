@@ -72,7 +72,27 @@
       <Key>MarsDescFoodSupply</Key>
       <Value>我们不知道你需要在这里生存多久。 我们应该准备一种可再生的食物来源以防万一。</Value>
     </Record>
+    <Record>
+      <Key>MarsTaskPrepareAtmos</Key>
+      <Value>创建一个加压的房间, 其空气足以种植土豆。</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGrowPotato</Key>
+      <Value>生长 {THING:ItemPotato}到成熟。</Value>
+    </Record>
     <!-- Mission Stage: Spawn Mothership & Engine -->
+    <Record>
+      <Key>MarsTitleCreateMothership</Key>
+      <Value>创建飞船</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescCreateMothership</Key>
+      <Value>使用 {THING:MothershipCore} 和附加{THING:ItemKitMotherShipCore}{THING:StructureRocketEngine} 来创建 &quot;飞船&quot;</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskSpawnMothershipCore</Key>
+      <Value>使用 {东西: itemicemorshore}</Value>
+    </Record>
     <!-- Mission Stage: Launch -->
   </Interface>
 </Language>
