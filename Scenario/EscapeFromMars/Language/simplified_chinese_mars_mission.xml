@@ -29,9 +29,49 @@
       <Key>MarsTaskGetFood</Key>
       <Value>寻找{THING:ItemCerealBar}</Value>
     </Record>
+    <Record>
+      <Key>MarsTabletStage1</Key>
+      <Value>紧急指南</Value>
+    </Record>
     <!-- Mission Stage: Aquire Raw Materials -->
+    <Record>
+      <Key>MarsDescRawMaterials</Key>
+      <Value>找到一种方法来生产制造所需的基本材料。</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetIronIngots</Key>
+      <Value>获取 {: ItemIronIngot}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetCopperIngots</Key>
+      <Value>获取 {: itemcoperinggot}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetGoldIngots</Key>
+      <Value>得到一个{THING:ItemGoldIngot}</Value>
+    </Record>
     <!-- Mission Stage: Setup Manufacturing -->
+    <Record>
+      <Key>MarsDescSetupManufacturing</Key>
+      <Value>为了制造我们需要的一切, 我们应该从一个 {THING:ItemKitHydraulicPipeBender} 和一个 {THING:ItemKitElectronicsPrinter}。</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskManufactureHPB</Key>
+      <Value>制造 {东西: itemkitsicicpipbender}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskManufactureEP</Key>
+      <Value>制造 {东西: itemkitelecics打印机}</Value>
+    </Record>
     <!-- Mission Stage: Food Supply -->
+    <Record>
+      <Key>MarsTitleFoodSupply</Key>
+      <Value>可靠的食物来源</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescFoodSupply</Key>
+      <Value>我们不知道你需要在这里生存多久。 我们应该准备一种可再生的食物来源以防万一。</Value>
+    </Record>
     <!-- Mission Stage: Spawn Mothership & Engine -->
     <!-- Mission Stage: Launch -->
   </Interface>
