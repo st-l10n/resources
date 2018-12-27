@@ -24,7 +24,7 @@ Si vous maintenez les touches {KEY:MouseControl} et {KEY:MouseInspect} et clique
 {LIST}{LINK:GettingStarted;Commencer}
 {/LIST}
 {HEADER:Autres}
-{LIST}{LINK:GasPage;Gazs}, {LINK:ReagentPage;Reactifs}
+{LIST}{LINK:GasPage;Gaz}, {LINK:ReagentPage;Reactifs}
 {/LIST}
 {HEADER:Objets}
 {LIST}{LINK:ToolPage;Outils}, {LINK:ResourcePage;Resources}, {LINK:KitPage;Kits}, {LINK:FoodPage;Aliments}, {LINK:ClothingPage;Vetements}, {LINK:AppliancePage;Appareils electromenagers}, {LINK:IngotPage;Lingots}, {LINK:OrePage;Minerais}, {LINK:AlloyPage;Alliages}
@@ -142,7 +142,7 @@ Les appareils suivants peuvent être connectés et utilisés par le système de 
     <StationpediaPage>
       <Key>SmeltingPage</Key>
       <Title>Fonte</Title>
-      <Text>Une fois que vous avez du {LINK:OrePage;minerai}, vous devez le convertir en {LINK:IngotPage;lingot} pour pouvoir utiliser leurs {LINK:ReagentPage;reactifs}. La fusion produira souvent des {LINK:GasPage;gazs}. Cela se produit soit dans le {THING:StructureArcFurnace} (pour les recettes simples) et dans le {THING:StructureFurnace} pour des {LINK:AlloyPage;alliages} plus compliqué. Pour les alliages complexes, vous devrez réaliser des mélanges avec des ratios parfaits, en respectant la {LINK:TemperaturePage;temperature} et la {LINK:PressurePage;pression}.</Text>
+      <Text>Une fois que vous avez du {LINK:OrePage;minerai}, vous devez le convertir en {LINK:IngotPage;lingot} pour pouvoir utiliser leurs {LINK:ReagentPage;reactifs}. La fusion produira souvent des {LINK:GasPage;gaz}. Cela se produit soit dans le {THING:StructureArcFurnace} (pour les recettes simples) et dans le {THING:StructureFurnace} pour des {LINK:AlloyPage;alliages} plus compliqué. Pour les alliages complexes, vous devrez réaliser des mélanges avec des ratios parfaits, en respectant la {LINK:TemperaturePage;temperature} et la {LINK:PressurePage;pression}.</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>MiningPage</Key>
@@ -159,9 +159,9 @@ Les appareils suivants peuvent être connectés et utilisés par le système de 
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPage</Key>
-      <Title>Gazs</Title>
+      <Title>Gaz</Title>
       <Text>Ce sont des gaz chimiques de certains types.
-{HEADER:Liste des gazs}
+{HEADER:Liste des gaz}
 {LIST_OF_GASES}
 </Text>
     </StationpediaPage>
@@ -180,7 +180,7 @@ Les appareils suivants peuvent être connectés et utilisés par le système de 
       <Text>Il s’agit d’éléments issu de l&apos;{LINK:MiningPage;exploitation miniere} et pouvant souvent être {LINK:SmeltingPage;fondu}. Vous pouvez également obtenir du minerai mélangé en recyclant des éléments dans le {THING:StructureRecycler}, puis en le passant à travers le {THING:StructureCentrifuge} qui le divisera en {LINK:OrePage;minerai} pour la {LINK:SmeltingPage;fonte}.
       
 {HEADER:Fondre de la glace}
-Certains minerais fondent lorsqu&apos;ils sont exposés au soleil ou à la chaleur et produisent des {LINK:GasPage;gazs}. Par exemple, la {THING:ItemIce} fond en {GAS:Water} et {GAS:Oxygen}. Veillez à les garder à l&apos;abri de la chaleur ou de la lumière du soleil jusqu&apos;à ce que vous souhaitiez réellement les faire fondre.
+Certains minerais fondent lorsqu&apos;ils sont exposés au soleil ou à la chaleur et produisent des {LINK:GasPage;gaz}. Par exemple, la {THING:ItemIce} fond en {GAS:Water} et {GAS:Oxygen}. Veillez à les garder à l&apos;abri de la chaleur ou de la lumière du soleil jusqu&apos;à ce que vous souhaitiez réellement les faire fondre.
       
 {HEADER:Liste des minerais}
 {LIST_OF_ORES}
@@ -288,7 +288,7 @@ Pression de fusion {POS:300}{0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>CreatedGasesTemplate</Key>
-      <Text>{HEADER:Gazs}
+      <Text>{HEADER:Gaz}
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
