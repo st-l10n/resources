@@ -33,10 +33,30 @@ Wenn Sie {KEY:MouseControl} und {KEY:MouseInspect} gedrückt halten und auf etwa
 {LIST}{LINK:DevicePage;Geräte}, {LINK:FabricatorPage;Fertiger}, {LINK:AirlockDevicePage;Luftschleusen Geräte}, {LINK:LogicUnitPage;Logikeinheiten}
 {/LIST}</Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>FoodPage</Key>
+      <Title>Nahrung</Title>
+      <Text>Hierbei handelt es sich um Gegenstände, die zur Ernährung verwendet werden.
+
+{HEADER:Liste der Nahrungsmittel}
+{LIST_OF_FOOD}</Text>
+    </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
+    <StationpediaPage>
+      <Key>ThingSlotItemTemplate</Key>
+      <Text>{0}. {POS:100}{1} {POS:300}Typ {2}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingStackTemplate</Key>
+      <Text>Stapelgröße {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingNutritionTemplate</Key>
+      <Text>Maximaler Nährwert {POS:300}{0}</Text>
+    </StationpediaPage>
   </HelpPage>
 </Language>
