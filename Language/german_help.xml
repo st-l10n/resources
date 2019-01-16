@@ -53,6 +53,23 @@ Wenn Sie {KEY:MouseControl} und {KEY:MouseInspect} gedrückt halten und auf etwa
       <Text>Sie können {LINK: OrePage; Erze} mithilfe eines {THING:ItemMiningDrill} abbauen. Wenn Sie einen {THING:ItemMiningBelt} tragen, werden {LINK: OrePage;Erze} automatisch hinein gelegt.</Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>ReagentPage</Key>
+      <Title>Reagenzien</Title>
+      <Text>Dies sind chemische Mengen bestimmter Typen.
+
+{HEADER:Liste der Reagenzien}
+{LIST_OF_REAGENTS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPage</Key>
+      <Title>Gase</Title>
+      <Text>Dies sind chemische Gase von bestimmten Typen.
+
+{HEADER:Liste der Gase}
+{LIST_OF_GASES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>FoodPage</Key>
       <Title>Nahrung</Title>
       <Text>Hierbei handelt es sich um Gegenstände, die zur Ernährung verwendet werden.
@@ -104,6 +121,20 @@ Selbstentzündung {POS:300}{2}{3}{/LIST}</Text>
       <Key>IceMeltingTemplate</Key>
       <Text>Schmelztemperatur {POS:300}{1}
 Schmelzdruck {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatorsHeaderTemplate</Key>
+      <Text>{HEADER:Hergestellt durch}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructedByHeaderTemplate</Key>
+      <Text>{HEADER:Hergestellt durch}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedHeaderTemplate</Key>
+      <Text>{HEADER:Kann Herstellen}
+{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageFlamableTemplate</Key>
