@@ -3419,7 +3419,7 @@
     </Record>
     <Record>
       <Key>Magazine</Key>
-      <Value>Zeitschrift</Value>
+      <Value>Magazin</Value>
     </Record>
     <Record>
       <Key>ContainerSlot</Key>
@@ -3431,7 +3431,11 @@
     </Record>
     <Record>
       <Key>Storage</Key>
-      <Value>Lagerung</Value>
+      <Value>Lager</Value>
+    </Record>
+    <Record>
+      <Key>Circuit</Key>
+      <Value>Platine</Value>
     </Record>
     <Record>
       <Key>ProgrammableChip</Key>
@@ -3914,6 +3918,10 @@
       <Value>Weltraum</Value>
     </Record>
     <Record>
+      <Key>NewWorldAreaEarth</Key>
+      <Value>Erde</Value>
+    </Record>
+    <Record>
       <Key>NewWorldEnableAwayMissions</Key>
       <Value>Erlaube Spezialmissionen</Value>
     </Record>
@@ -4071,7 +4079,7 @@
     </Record>
     <Record>
       <Key>SettingsScreenMode</Key>
-      <Value>Bildschirmmodus</Value>
+      <Value>Anzeigemodus</Value>
     </Record>
     <Record>
       <Key>SettingsButtonApply</Key>
@@ -4199,11 +4207,11 @@
     </Record>
     <Record>
       <Key>ButtoConfirmExitAsServer</Key>
-      <Value>Soll das Spiel wirklich ohne zu speichern verlassen werden? Jeglicher ungesicherter Fortschritt wird verloren gehen.</Value>
+      <Value>Bist du sicher, dass du das Spiel ohne zu speichern verlassen willst? Jeglicher ungesicherter Fortschritt wird verloren gehen.</Value>
     </Record>
     <Record>
       <Key>DialogConfirmNoticeUnsaved</Key>
-      <Value>Soll die Sitzung wirklich ohne zu speichern verlassen werden? Jeglicher ungesicherter Fortschritt wird verloren gehen.</Value>
+      <Value>Bist du sicher, dass du diese Sitzung ohne zu speichern verlassen willst? Jeglicher ungesicherter Fortschritt wird verloren gehen.</Value>
     </Record>
     <Record>
       <Key>ButtonExit</Key>
@@ -4215,7 +4223,7 @@
     </Record>
     <Record>
       <Key>DialogConfirmNoticeClientLeaving</Key>
-      <Value>Soll die Sitzung wirklich verlassen werden?</Value>
+      <Value>Bist du sicher, dass du diese Sitzung verlassen willst?</Value>
     </Record>
     <Record>
       <Key>SettingsDisplayPortrait</Key>
@@ -4385,7 +4393,7 @@ Auf geht es, Stationeer!</Value>
     </Record>
     <Record>
       <Key>MenuDownloadDriverWarning</Key>
-      <Value>Viele Nutzer von AMD-Grafikkarten haben gemeldet, dass Probleme mit dem Spiel durch die Installation aktuellster Teiber behoben werden konnten.  Wir empfehlen &lt;b&gt;STäRKSTENS&lt;/b&gt; diese Treiber vor dem Spielen auf den neusten Stand zu bringen.</Value>
+      <Value>Viele Nutzer von AMD-Grafikkarten haben gemeldet, dass Probleme mit dem Spiel durch die Installation aktuellster Teiber behoben werden konnten.  Wir empfehlen &lt;b&gt;STÄRKSTENS&lt;/b&gt; diese Treiber vor dem Spielen auf den neusten Stand zu bringen.</Value>
     </Record>
     <Record>
       <Key>SettingsChatFadeTimer</Key>
@@ -4397,11 +4405,15 @@ Auf geht es, Stationeer!</Value>
     </Record>
     <Record>
       <Key>PromptResetSettingsBody</Key>
-      <Value>Sicher?</Value>
+      <Value>Bist du Sicher?</Value>
     </Record>
     <Record>
       <Key>PromptResetSettingsConfirm</Key>
-      <Value>Rücksetzen</Value>
+      <Value>Zurücksetzen</Value>
+    </Record>
+    <Record>
+      <Key>SteamErrorTitle</Key>
+      <Value>Steam fehler</Value>
     </Record>
     <Record>
       <Key>SteamErrorBody</Key>
@@ -4492,20 +4504,16 @@ Auf geht es, Stationeer!</Value>
       <Value>Du bist tot.</Value>
     </Record>
     <Record>
-      <Key>PromptRespawnConfirm</Key>
-      <Value>Wiedereintritt</Value>
-    </Record>
-    <Record>
       <Key>PromptGiveUpTitle</Key>
-      <Value>sich ergeben</Value>
+      <Value>Aufgeben</Value>
     </Record>
     <Record>
       <Key>PromptGiveUpBody</Key>
-      <Value>Du bist bewusstlos Willst du gehen und wieder auftauchen?</Value>
+      <Value>Du bist bewusstlos. Willst du aufgeben und respawnen?</Value>
     </Record>
     <Record>
       <Key>PromptGiveUpConfirm</Key>
-      <Value>Ergeben</Value>
+      <Value>Aufgeben</Value>
     </Record>
     <Record>
       <Key>AlertInvalidIP</Key>
@@ -4802,11 +4810,11 @@ Seien Sie nicht traurig, wenn Sie sich in winzige kleine Stücke blasen, von Hü
     </Record>
     <Record>
       <Key>ScenariosStartButton</Key>
-      <Value>Starten Sie das Szenario</Value>
+      <Value>Szenario Starten</Value>
     </Record>
     <Record>
       <Key>SettingsSunOrbitPeriod</Key>
-      <Value>Sonnenzyklus</Value>
+      <Value>Sonnenumlaufzeit</Value>
     </Record>
     <Record>
       <Key>SettingsExtendedTerrain</Key>
@@ -5176,7 +5184,7 @@ Temperatur {1}</Value>
     </Record>
     <Record>
       <Key>Oxite</Key>
-      <Value>Fester Sauerstoff</Value>
+      <Value>Oxideis</Value>
     </Record>
     <Record>
       <Key>Volatiles</Key>
