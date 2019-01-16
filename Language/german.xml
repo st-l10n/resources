@@ -4814,15 +4814,15 @@ Seien Sie nicht traurig, wenn Sie sich in winzige kleine Stücke blasen, von Hü
     </Record>
     <Record>
       <Key>RenameThing</Key>
-      <Value>Umbenennen {0}</Value>
+      <Value>{0} umbenennen</Value>
     </Record>
     <Record>
       <Key>SetThingValue</Key>
-      <Value>einstellen {0}</Value>
+      <Value>{0} einstellen</Value>
     </Record>
     <Record>
       <Key>FurnaceChamber</Key>
-      <Value>Kamera</Value>
+      <Value>Kammer</Value>
     </Record>
     <Record>
       <Key>FurnaceChamberText</Key>
@@ -4855,7 +4855,7 @@ Temperatur {1}</Value>
     </Record>
     <Record>
       <Key>RequiresScrewdriver</Key>
-      <Value>Sie benötigen einen {THING:ItemScrewdriver}, um die Einstellungen zu ändern</Value>
+      <Value>Du brauchst einen {THING:ItemScrewdriver}, um die Einstellungen zu ändern</Value>
     </Record>
     <Record>
       <Key>LogicNoReadableDevices</Key>
@@ -4879,7 +4879,7 @@ Temperatur {1}</Value>
     </Record>
     <Record>
       <Key>HoldForPreviousObject</Key>
-      <Value>Halt {KEY:QuantityModifier} für vorheriges Objekt</Value>
+      <Value>Halte {KEY:QuantityModifier} für vorheriges Objekt</Value>
     </Record>
     <Record>
       <Key>ChangeSettingToFor</Key>
@@ -4902,6 +4902,14 @@ Temperatur {1}</Value>
       <Value>Wechseln zu &lt;color=yellow&gt;{0}&lt;/color&gt; zum {1}</Value>
     </Record>
     <Record>
+      <Key>InteractionTemporarilyDisabledOnThisObject</Key>
+      <Value>Bedienung dieses Objektes vorübergehend deaktiviert</Value>
+    </Record>
+    <Record>
+      <Key>UnableToInteractAsYouDoNotHaveTheRequiredAccessCard</Key>
+      <Value>Keine Interaktion möglich, da Sie nicht die benötigte {SLOT:AccessCard} besitzen</Value>
+    </Record>
+    <Record>
       <Key>SettingsAtmosphericScattering</Key>
       <Value>Atmosphärische Streuung</Value>
     </Record>
@@ -4911,15 +4919,15 @@ Temperatur {1}</Value>
     </Record>
     <Record>
       <Key>ButtonClear</Key>
-      <Value>Sauber</Value>
+      <Value>Löschen</Value>
     </Record>
     <Record>
       <Key>StatusWindowThrust</Key>
-      <Value>Antrieb</Value>
+      <Value>Schub</Value>
     </Record>
     <Record>
       <Key>SettingsAmbientOcclusion</Key>
-      <Value>Umgebungsokklusion ???</Value>
+      <Value>Umgebungsverdeckung</Value>
     </Record>
     <Record>
       <Key>SettingsLensFlares</Key>
@@ -4928,6 +4936,10 @@ Temperatur {1}</Value>
     <Record>
       <Key>SettingsInputSettings</Key>
       <Value>Eingabeeinstellungen</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMarsShortDesc</Key>
+      <Value>Der Mars, eine wüste staubige rote Kugel, bietet mehr abwechslungsreiches Gelände, welches bis in den Himmel reichen kann. Außerdem bietet der Mars eine kühle Atmosphäre, die zwar nicht zum Atmen geeignet ist, aber vielleicht für etwas anderes verwendet werden kann...</Value>
     </Record>
     <Record>
       <Key>NewWorldMoonShortDesc</Key>
