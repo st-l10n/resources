@@ -76,6 +76,13 @@ Wenn Sie {KEY:MouseControl} und {KEY:MouseInspect} gedrückt halten und auf etwa
 Lackierbar{POS:300}{2}{3}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>ThingThermalTemplate</Key>
+      <Text>{HEADER:Thermische Grenzen}
+{LIST}Zerbrechen {POS:300}{0}
+Flammpunkt {POS:300}{1}
+Selbstentzündung {POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>ThingSlotItemTemplate</Key>
       <Text>{0}. {POS:100}{1} {POS:300}Typ {2}</Text>
     </StationpediaPage>
@@ -86,6 +93,15 @@ Lackierbar{POS:300}{2}{3}{/LIST}</Text>
     <StationpediaPage>
       <Key>ThingNutritionTemplate</Key>
       <Text>Maximaler Nährwert {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>IceMeltingTemplate</Key>
+      <Text>Schmelztemperatur {POS:300}{1}
+Schmelzdruck {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageFlamableTemplate</Key>
+      <Text>Entzündungsgrenze {POS:300}{0} bis {1}</Text>
     </StationpediaPage>
   </HelpPage>
 </Language>
