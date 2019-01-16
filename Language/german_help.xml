@@ -68,6 +68,14 @@ Wenn Sie {KEY:MouseControl} und {KEY:MouseInspect} gedrückt halten und auf etwa
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
+      <Key>ThingTemplate</Key>
+      <Text>{0}
+
+{HEADER:Allgemein}
+{LIST}Prefab Hash {POS:300}{1}
+Lackierbar{POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>ThingSlotItemTemplate</Key>
       <Text>{0}. {POS:100}{1} {POS:300}Typ {2}</Text>
     </StationpediaPage>
