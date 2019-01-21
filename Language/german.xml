@@ -5286,6 +5286,14 @@ Temperatur {1}</Value>
       <Value>Gibt die gesamten Mol des Gerätes zurück</Value>
     </Record>
     <Record>
+      <Key>LogicTypeHarvest</Key>
+      <Value>Führt die Ernteaktion für hydroponische Maschinen durch</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeOutput</Key>
+      <Value>Der Ausgabebetrieb für ein Sortiergerät, wie Stapleinheit oder Sortiereinheit, wenn das Gerät im Logikmodus nur eine Wiederholung ausführt, wenn es auf null oder höher gesetzt ist und dann wieder auf -1 und auf weitere Anweisungen wartet</Value>
+    </Record>
+    <Record>
       <Key>LogicTypePressureSetting</Key>
       <Value>Die aktuelle Einstellung für den internen Druck des Objekts (z.B. Raumanzug Air), in KPa</Value>
     </Record>
