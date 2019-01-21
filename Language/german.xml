@@ -5142,8 +5142,24 @@ Temperatur {1}</Value>
       <Value>Stromversorgung vom Gerät und/oder Netzwerk angefordert</Value>
     </Record>
     <Record>
+      <Key>LogicTypeVelocityRelativeX</Key>
+      <Value>Die aktuelle X-Vektor-Geschwindigkeit im Verhältnis zum Vorwärtsvektor</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityRelativeY</Key>
+      <Value>Die aktuelle Y-Vektor-Geschwindigkeit im Verhältnis zum Vorwärtsvektor</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityRelativeZ</Key>
+      <Value>Die aktuelle Z-Vektor-Geschwindigkeit im Verhältnis zum Vorwärtsvektor</Value>
+    </Record>
+    <Record>
       <Key>LogicTypePrefabHash</Key>
       <Value>Der Hash der Struktur</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeForceWrite</Key>
+      <Value>Erzwingt das erneue Senden der Ausgangswerte einer Schreibeinheit</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeNone</Key>
