@@ -5142,6 +5142,18 @@ Temperatur {1}</Value>
       <Value>Stromversorgung vom Gerät und/oder Netzwerk angefordert</Value>
     </Record>
     <Record>
+      <Key>LogicTypeClearMemory</Key>
+      <Value>Löscht den Zählerspeicher wenn auf 1 gesetzt (z.B. ExportCount). Setzt sich nach der Löschung auf 0 zurück</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeExportCount</Key>
+      <Value>Wie viele Gegenstände seit dem letzten ClearMemory exportiert wurden</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportCount</Key>
+      <Value>Wie viele Gegenstände seit dem letzten ClearMemory importiert wurden</Value>
+    </Record>
+    <Record>
       <Key>LogicTypePowerGeneration</Key>
       <Value>Gibt zurück, wie viel Strom erzeugt wird</Value>
     </Record>
