@@ -5266,6 +5266,14 @@ Temperatur {1}</Value>
       <Value>Aktuelle Geschwindigkeit des Aufzugs</Value>
     </Record>
     <Record>
+      <Key>LogicTypeElevatorLevel</Key>
+      <Value>Aktuelle Ebene des Aufzugs</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRecipeHash</Key>
+      <Value>Aktueller Hash des eingestellten Rezeptes</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeRequestHash</Key>
       <Value>Fordert ein Element des angegebenen Typs vom Gerät, wenn auf eine eindeutige Kennung (Hash) gesetzt</Value>
     </Record>
@@ -5372,6 +5380,14 @@ Temperatur {1}</Value>
     <Record>
       <Key>LogicSlotTypeOccupied</Key>
       <Value>Gibt 0 zurück, wenn der Slot nicht belegt ist. Andernfalls 1.</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeOccupantHash</Key>
+      <Value>Gibt den Hash des aktuell belegten Slots zurück, die einzigartige Identifikation eines Gegenstandes</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeQuantity</Key>
+      <Value>Gibt die aktuelle Menge, wie zum Beispiel die Stapelgröße, des Gegenstandes im Slot zurück</Value>
     </Record>
     <Record>
       <Key>AppearanceButtonRandomize</Key>
