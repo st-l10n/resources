@@ -5266,6 +5266,14 @@ Temperatur {1}</Value>
       <Value>Aktuelle Geschwindigkeit des Aufzugs</Value>
     </Record>
     <Record>
+      <Key>LogicTypeRequestHash</Key>
+      <Value>Fordert ein Element des angegebenen Typs vom Gerät, wenn auf eine eindeutige Kennung (Hash) gesetzt</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeCompletionRatio</Key>
+      <Value>Wie vollständig der aktuelle Herstellprozess für dieses Gerät ist, zwischen 0 und 1</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeClearMemory</Key>
       <Value>Löscht den Zählerspeicher wenn auf 1 gesetzt (z.B. ExportCount). Setzt sich nach der Löschung auf 0 zurück</Value>
     </Record>
@@ -5284,6 +5292,14 @@ Temperatur {1}</Value>
     <Record>
       <Key>LogicTypeTotalMoles</Key>
       <Value>Gibt die gesamten Mol des Gerätes zurück</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVolume</Key>
+      <Value>Gibt das Volumen der Geräteatmosphäre zurück</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlant</Key>
+      <Value>Führt die Pflanzaktion für hydroponische Maschinen durch</Value>
     </Record>
     <Record>
       <Key>LogicTypeHarvest</Key>
