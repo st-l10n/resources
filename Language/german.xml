@@ -5138,8 +5138,24 @@ Temperatur {1}</Value>
       <Value>Solarwinkel des Gerätes</Value>
     </Record>
     <Record>
+      <Key>LogicTypeVerticalRatio</Key>
+      <Value>Verhältnis der vertikalen Einstellung des Gerätes</Value>
+    </Record>
+    <Record>
       <Key>LogicTypePowerRequired</Key>
       <Value>Stromversorgung vom Gerät und/oder Netzwerk angefordert</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeIdle</Key>
+      <Value>Gibt 1 zurück, wenn das Gerät gerade im Leerlauf ist, sonst 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeColor</Key>
+      <Value>Die Farbeinstellung für das Gerät als Ganzzahl</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeElevatorSpeed</Key>
+      <Value>Aktuelle Geschwindigkeit des Aufzugs</Value>
     </Record>
     <Record>
       <Key>LogicTypeClearMemory</Key>
