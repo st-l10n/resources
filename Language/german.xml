@@ -5242,6 +5242,22 @@ Temperatur {1}</Value>
       <Value>Gesamtmenge am Gerät</Value>
     </Record>
     <Record>
+      <Key>LogicTypeOn</Key>
+      <Value>Der aktuelle Zustand des Gerätes, 0 für Aus, 1 für Ein</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportQuantity</Key>
+      <Value>Gesamtmenge der vom Gerät importierten Gegenstände</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeExportQuantity</Key>
+      <Value>Gesamtmenge der vom Gerät exportierten Gegenstände</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRequiredPower</Key>
+      <Value>Leerlaufleistung, beinhaltet nicht unbedingt zusätzlichen Bedarf</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeHorizontalRatio</Key>
       <Value>Verhältnis der horizontalen Einstellung des Gerätes</Value>
     </Record>
