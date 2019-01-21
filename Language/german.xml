@@ -5286,12 +5286,24 @@ Temperatur {1}</Value>
       <Value>Gibt die gesamten Mol des Gerätes zurück</Value>
     </Record>
     <Record>
+      <Key>LogicTypePressureSetting</Key>
+      <Value>Die aktuelle Einstellung für den internen Druck des Objekts (z.B. Raumanzug Air), in KPa</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperatureSetting</Key>
+      <Value>Die aktuelle Einstellung für die Innentemperatur des Objekts (z.B. Raumanzug A/C)</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperatureExternal</Key>
+      <Value>Die Temperatur außerhalb des Gerätes, in der Regel die Atmosphäre, die es umgibt</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeFiltration</Key>
-      <Value>Der aktuelle Zustand des Filtersystems, zum Beispiel Filtration = 1 für einen scheren Raumanzug setzt die Filtration auf Ein</Value>
+      <Value>Der aktuelle Zustand des Filtersystems, zum Beispiel Filtration = 1 für einen Raumanzug setzt Filter auf Ein</Value>
     </Record>
     <Record>
       <Key>LogicTypeAirRelease</Key>
-      <Value>Der aktuelle Zustand des Luftfreisetzungssystems, zum Beispiel AirRelease = 1 für einen schweren Raumanzug, setzt die Luftfreisetzung auf Ein</Value>
+      <Value>Der aktuelle Zustand des Luftsystems, zum Beispiel AirRelease = 1 für einen Raumanzug, setzt Air auf Ein</Value>
     </Record>
     <Record>
       <Key>LogicTypePositionX</Key>
