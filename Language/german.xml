@@ -5286,6 +5286,14 @@ Temperatur {1}</Value>
       <Value>Gibt die gesamten Mol des Gerätes zurück</Value>
     </Record>
     <Record>
+      <Key>LogicTypeFiltration</Key>
+      <Value>Der aktuelle Zustand des Filtersystems, zum Beispiel Filtration = 1 für einen scheren Raumanzug setzt die Filtration auf Ein</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeAirRelease</Key>
+      <Value>Der aktuelle Zustand des Luftfreisetzungssystems, zum Beispiel AirRelease = 1 für einen schweren Raumanzug, setzt die Luftfreisetzung auf Ein</Value>
+    </Record>
+    <Record>
       <Key>LogicTypePositionX</Key>
       <Value>Die aktuelle absolute Position in X-Dimension</Value>
     </Record>
