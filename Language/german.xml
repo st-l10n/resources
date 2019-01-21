@@ -5134,6 +5134,66 @@ Temperatur {1}</Value>
       <Value>Beschreibung</Value>
     </Record>
     <Record>
+      <Key>LogicTypeError</Key>
+      <Value>1, wenn das Gerät im Fehlerzustand ist, sonst 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeLock</Key>
+      <Value>1 wenn das Gerät gesperrt ist, sonst 0, kann in den meisten Geräten eingestellt werden und verhindert, dass der Benutzer auf die Werte zugreifen kann</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressure</Key>
+      <Value>Der aktuell gelesene Druck des Gerätes</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperature</Key>
+      <Value>Die aktuell gelesene Temperatur des Gerätes</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureExternal</Key>
+      <Value>Einstellung für die äußere Drucksicherheit, in KPa</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureInternal</Key>
+      <Value>Einstellung für die innere Drucksicherheit, in KPa</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeActivate</Key>
+      <Value>1 wenn das Gerät aktiviert ist (in der Regel, wenn es etwas macht), sonst 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeCharge</Key>
+      <Value>Die aktuelle Ladung des Gerätes</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSetting</Key>
+      <Value>Eine variable Einstellung, die je nach Gerät gelesen oder geschrieben werden kann</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeReagents</Key>
+      <Value>Gesamtzahl der vom Gerät aufgezeichneten Reagenzien</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOxygen</Key>
+      <Value>Das Verhältnis von Sauerstoff in der Geräteatmosphäre</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioCarbonDioxide</Key>
+      <Value>Das Verhältnis von co2 in der Geräteatmosphäre</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrogen</Key>
+      <Value>Das Verhältnis von Stickstoff in der Geräteatmosphäre</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutant</Key>
+      <Value>Das Verhältnis von Schadstoff in der Geräteatmosphäre</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioVolatiles</Key>
+      <Value>Das Verhältnis von flüchtigen Stoffen in der Geräteatmosphäre</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeRatioWater</Key>
       <Value>Das Verhältnis von Wasser in der Geräteatmosphäre</Value>
     </Record>
