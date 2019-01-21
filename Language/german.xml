@@ -5451,7 +5451,19 @@ Temperatur {1}</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypePressureWaste</Key>
-      <Value>Gibt den Druck des Abfallbehälters des Astronautenrucksacks in diesem Slot zurück</Value>
+      <Value>Gibt den Druck des Abgastanks des Raumanzugs in diesem Slot zurück</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePressureAir</Key>
+      <Value>Gibt den Druck des Lufttanks des Raumanzugs in diesem Slot zurück</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeMaxQuantity</Key>
+      <Value>Gibt die maximale Stapelgröße des Gegenstandes im Slot zurück</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePrefabHash</Key>
+      <Value>Gibt den Hash des Gegenstandes im Slot zurück</Value>
     </Record>
     <Record>
       <Key>AppearanceButtonRandomize</Key>
