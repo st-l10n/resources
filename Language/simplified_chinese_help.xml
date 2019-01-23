@@ -11,29 +11,31 @@
       <Title>主页</Title>
       <Text>欢迎使用Stationeers的内部帮助系统。 使用此工具，您可以找到有关所有系统如何工作的信息，以及有关世界上所有事物的重要信息。
 
-    {HEADER:Using Help}
-您可以使用{KEY：Help}键打开和关闭此窗口。要在播放时启用鼠标光标，请按住{KEY：MouseControl}键，这样您就可以单击帮助系统中的链接。
+{HEADER:Using Help}
+您可以使用{KEY:Help}键打开和关闭此窗口。要在播放时启用鼠标光标，请按住{KEY:MouseControl}键，这样您就可以单击帮助系统中的链接。
 
 {HEADER:Inspecting}
-如果您按住{KEY：MouseControl}和{KEY：MouseInspect}并单击某些内容，您可以[i]检查它[/ i]。这将打开与该对象相关的页面的帮助系统，并为您提供详细信息。
+如果您按住{KEY:MouseControl}和{KEY:MouseInspect}并单击某些内容，您可以[i]检查它[/ i]。这将打开与该对象相关的页面的帮助系统，并为您提供详细信息。
 
 {HEADER:Key topics}
-{LIST}{LINK:SmeltingPage;熔炼},{LINK:MiningPage;采矿}, {LINK:ConstructionPage;结构}, {LINK:InventoryPage;库存}
+{LIST}{LINK:SmeltingPage;熔炼},{LINK::MiningPage;采矿}, 
+{LINK:ConstructionPage;结构}, {LINK:InventoryPage;库存}
 {/LIST}
 {HEADER:Guides}
 {LIST}{LINK:GettingStarted;入门}
 {/LIST}
 {HEADER:Other}
-{LIST}{LINK:GasPage;气体}, {LINK:ReagentPage;试剂}
+{{LIST}}{LINK:GasPage;气体}, {LINK:ReagentPage;试剂}
 {/LIST}
 {HEADER:Items}
-{LIST}{LINK:ToolPage;工具}, {LINK:ResourcePage;资源}, {LINK:KitPage;套件}, 
-{LINK:FoodPage;{LINK:FoodPage;;食品}, {LINK:ClothingPage;服装}, {LINK:AppliancePage;电器},
+{LIST}}{LINK:ToolPage;工具}, {LINK:ResourcePage;资源}, {LINK:KitPage;套件}, 
+{LINK:IngotPage;食品}, {LINK:ClothingPage;服装}, {LINK:AppliancePage;电器},
 {LINK:IngotPage;锭}, {LINK:OrePage;矿石}, {LINK:AlloyPage;合金}
 {/LIST}
 {HEADER:Structures}
-{LIST}{LINK:DevicePage;设备}, {LINK:FabricatorPage;加工厂}, {LINK:AirlockDevicePage;气闸设备}, {LINK:LogicUnitPage;逻辑电路}
+{{LIST}}{LINK:DevicePage;设备}, {LINK:FabricatorPage;加工厂}, {LINK:AirlockDevicePage;气闸设备}, {LINK:LogicUnitPage;逻辑电路}
 {/LIST}
+      
 
       </Text>
     </StationpediaPage>
