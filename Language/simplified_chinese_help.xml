@@ -37,6 +37,47 @@
 
       </Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>GettingStarted</Key>
+      <Title>开始</Title>
+      <Text>{HEADER:Welcome to a new world}
+如果这是你第一次，那么一次学习很多东西。 对你的最初压力是巨大的，开始时可能真的很难。 以下是一些开始的一般指导原则。 每种世界类型都有您需要面对的不同问题，但以下内容应该为您提供您需要管理的内容的广泛概述。
+
+{HEADER:Keeping your Suit Charged}
+最紧迫的需求是在{THING:ItemEvaSuit}中为{THING:ItemBatteryCellLarge}充电。 套装电池用于为您的{THING:ItemSpaceHelmet}灯供电（不使用时将其关闭）并预热内部空气。 在寒冷的世界里，这会吸引很多力量。 你需要放下一个{THING:ItemBatteryCharger}并将它连接到一个电源，{THING:StructureSolidFuelGenerator}由{THING:ItemCoalOre}或{THING:StructureSolarPanel}驱动是处理这个的好方法。 在紧急情况下，请从您的{LINK:ToolPage; Tools}中取出电池以保持您的套装正常运行或使用随附的{THING:PortableSolarPanel}为其充电。
+
+{HEADER:Improving Power Collection}
+在电源和充电器之间插入{THING:StructureAreaPowerControl}并插入{THING:ItemBatteryCell}将有很大帮助。 这是因为电源可能产生的功率超过{THING:ItemBatteryCharger}可以容纳和浪费的功率。 此外，虽然您可以手动定位{THING:StructureSolarPanel}，但自动跟踪太阳会对您有所帮助。 您可以使用{LINK:LogicUnitPage; Logic Units}来帮助您。
+
+{HEADER:Managing your Oxygen}
+你的{THING:ItemEvaSuit}和{THING:ItemSpaceHelmet}构成了元素的保护壳。 {THING:ItemEvaSuit}需要{THING:ItemGasCanisterOxygen}为您提供纯{GAS:Oxygen}。 注意水箱中的气体量，您可以使用起动装置中提供的大型{THING:DynamicGasCanisterOxygen}进行重新填充。 有一个“危险”标记表示您可以插入容器以重新填充它的插槽。
+
+{HEADER:Basic Smelting}
+一旦你有一些基本的发电，你需要开始获得更多的资源。 前往{LINK:MiningPage; Mining}获取基本{LINK:OrePage; Ores}。 放下{THING:StructureArcFurnace}并将其连接到{THING:StructureAreaPowerControl}后面。 这将{LINK:SmeltingPage; Smelt}基本{LINK:OrePage; Ores}，例如{THING:ItemIronOre}，{THING:ItemSiliconOre}，以及任何其他非{LINK:AlloyPage; Alloy}。
+
+{HEADER:Basic Fabrication}
+现在您已经{LINK:IngotPage; Ingots}，您可以将它们作为资源插入{LINK:FabricatorPage; Fabricators}。 从起始箱中提供的{THING:ItemKitAutolathe}构造{THING:StructureAutolathe}。
+
+{HEADER:Replacing your Filters}
+当您在{GAS:Oxygen}呼吸时，您也会呼出{GAS:CarbonDioxide}，所以您的{SLOT:Filter}插槽中还需要{THING:ItemGasFilterCarbonDioxide}。 随着时间的推移，这些磨损，你需要在{THING:StructureHydraulicPipeBender}上建立新的。 这可以通过{THING:StructureAutolathe}上的{THING:ItemKitHydraulicPipeBender}来实现。
+
+{HEADER:Build a Glass House}
+您需要一个小的封闭区域来设置{LINK:HydroponicsPage; Hydroponics}，以便您制作{LINK:FoodPage; Food}。 不要太大，因为加压会更难。 使用{THING:ItemKitWallIron}工具包中的变体充分利用{THING:}，让阳光进入。确保使用自动{LINK:AirlockPage; Airlock}或手动管理条目。 请记住，您可以使用{THING:ItemCrowbar}打开和关闭无动力门。
+
+{HEADER:Pressurize Your Glass House}
+一旦你把这个区域包围起来，{LINK:MiningPage; Mine}一些{THING:ItemOxite}并将其融化，直到你的种植区域有大约100 kPa的压力。 然后在大气中加入一些{GAS:CarbonDioxide}。 您可以轻松地将废物箱从{THING:ItemEvaSuit}带到您的手中，打开它，关闭它并将其放回原位。 这将从您的呼吸中释放过滤的{GAS:CarbonDioxide}进入环境。 {LINK:PlantPage; Plants}将用它来呼吸。
+
+{HEADER:Growing Plants}
+将提供的{THING:DynamicHydroponics}带入您的新玻璃屋。 它有一个{THING:ItemGasCanisterWater}来提供植物{GAS:Water}。 现在使用来自入门板条箱的{THING:ItemPotato}进行种植。 首先种植一个，并在使用其他之前验证它是否在增长。 它们需要阳光，温暖和少量{GAS:CarbonDioxide}才能生存。
+
+{HEADER:Advanced Smelting}
+{THING:StructureArcFurnace}只允许你冶炼简单的{LINK:OrePage; Ores}，并制作更高级的组件，你需要使用更复杂的方法来冶炼{LINK:AlloyPage; Alloys}。 这些是在{THING:StructureFurnace}中完成的，通过实现正确的{LINK:PressurePage; Pressure}，{LINK:TemperaturePage; Temperature}和{LINK:ReagentPage; Reagent}混合比。 例如，要制作{THING:ItemSteelIngot}，您需要一个部分{REAGENT:Iron}和三个部分{REAGENT:Coal}的比率。
+
+您可以直接将{LINK:IcePage;冰}插入顶部。 如果没有气氛融化它们，请按{LOGICTYPE:Activate}按钮将其压碎。 如果内部有足够的适当温度的气体，冰将自动融化。 混合使用{THING:ItemOxite}和{THING:ItemVolatiles}}来开火，虽然这会大大增加内部压力。
+
+一旦它处于合适的温度，插入矿石来冶炼它们 - 但是观察你的比例或废物将会出现{THING:ItemReagentMix}，需要在{THING:StructureCentrifuge}中进行分类。 要导出产品，请拉出{LOGICTYPE:Open} 手柄。
+{/LIST}</Text>
+    </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
