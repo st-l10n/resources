@@ -6,6 +6,31 @@
     |                 MASTER PAGES            |
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
+    <StationpediaPage>
+      <Key>SlotLeftHand</Key>
+      <Title>Sloty Dłoni</Title>
+      <Text>Twoje dłonie są specjalnymi slotami. Możesz mieć jedną aktywną dłoń w danym momencie, którą to jest ręka aktualnie używana przez Twój {COLORRED:Primary Action}. Aby zmienić aktywną dłoń, naciśnij {KEY:SwapHands}. Twoja aktywna dłoń może być użyta przez wciśnięcie {KEY:ActiveHandSlot} co spowoduje otwarcie i zamknięcie zawartości Twojej aktywnej dłoni. Jak zawsze, możesz użyć {KEY:MouseControl} aby przywołać kursor i działać w ten sposób. Aby uzyskać więcej informacji, zobacz sekcję {LINK:InventoryPage;Inventory}.
+
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>SlotRightHand</Key>
+      <Title>Sloty Dłoni</Title>
+      <Text>Twoje dłonie są specjalnymi slotami. Możesz mieć jedną aktywną dłoń w danym momencie, którą to jest ręka aktualnie używana przez Twój {COLORRED:Primary Action}. Aby zmienić aktywną dłoń, naciśnij {KEY:SwapHands}. Twoja aktywna dłoń może być użyta przez wciśnięcie {KEY:ActiveHandSlot} co spowoduje otwarcie i zamknięcie zawartości Twojej aktywnej dłoni. Jak zawsze, możesz użyć {KEY:MouseControl} aby przywołać kursor i działać w ten sposób. Aby uzyskać więcej informacji, zobacz sekcję {LINK:InventoryPage;Inventory}.
+
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FabricatorPage</Key>
+      <Title>Fabrykatory</Title>
+      <Text>Są to zasilane Struktury które mogą zostać użyte do Wytwarzania rzeczy których potrzebujesz w trakcie rozgrywki. Zazwyczaj potrzebują {LINK:IngotPage;Ingots} aby móc dostarczyć {LINK:ReagentPage;Reagents} potrzebnych do tworzenia przedmiotów.
+
+      
+{HEADER:List of Fabricators}
+{LIST_OF_FABRICATORS}
+
+      </Text>
+    </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
