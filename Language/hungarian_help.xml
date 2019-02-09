@@ -164,10 +164,138 @@ Ha közvetlenül ránézel az építés alatt levő tárgyra, a befejezéshez sz
 {HEADER:Alapanyagok listája}
 {LIST_OF_REAGENTS}</Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPage</Key>
+      <Title>Gázok</Title>
+      <Text>Különböző kémiai gázok egyes típusai.
+
+{HEADER:Gázok listája}
+{LIST_OF_GASES}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>AlloyPage</Key>
+      <Title>Ötvözetek</Title>
+      <Text>A {THING:StructureFurnace} segítsélgével készíthetők el {LINK:ReagentPage;alapanyag} keverékekből. Az ötvözetek {LINK:IngotPage;kiöntött rudak}, amiket a {LINK:FabricatorPage;gyártógépekben} használhatsz. A {THING:StructureArcFurnace} nem alkalmas ezeknek az elkészítésére.
+
+{HEADER:Ötvözetek listája}
+{LIST_OF_ALLOYS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>OrePage</Key>
+      <Title>Ércek</Title>
+      <Text>Az {LINK:OrePage;ércek} {LINK:MiningPage;bányászhatóak} és sokszor {LINK:SmeltingPage;be lehet olvasztani} őket. A {THING:StructureRecycler} használatával vegyes érceket kaphatsz, amiket csa a {THING:StructureCentrifuge} segítrségével válkaszhatsz szét újra. A kapott {LINK:OrePage;érceket} újra {LINK:SmeltingPage;beolvaszthatod}.
+
+{HEADER: Jegek olvasztása}
+Néhány érc napfény és más hő hatására elolvad ezzel {LINK:GasPage;gázoka képezve}. Például a {THING:ItemIce} elolvadása után {GAS:Water}zé és {GAS:Oxygen}né válik. Tartsd a jegeket távol a hőforrásoktól, ha nem akarod, hogy elolvadjanak!
+
+{HEADER:Ércek listája}
+{LIST_OF_ORES}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>IngotPage</Key>
+      <Title>Öntött fémrudak</Title>
+      <Text>Ezeket általában {LINK:OrePage;ércek} {LINK:SmeltingPage;beolvasztásával} készítheted el.
+
+{HEADER:Öntött fémrudak listája}
+{LIST_OF_INGOTS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ToolPage</Key>
+      <Title>Eszközök</Title>
+      <Text>Ezek csak speciális eszköz slotban tárolhatók, {LINK:ConstructionPage;építkezéshez} és más munkákra használható.
+
+{HEADER:Eszközök listája}
+{LIST_OF_TOOLS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ResourcePage</Key>
+      <Title>Nyersanyagok</Title>
+      <Text>Ezeket {LINK:ConstructionPage;építkezés} és más munkák közben tudod felhasználni.
+
+{HEADER:Nyersanyagok listája}
+{LIST_OF_RESOURCES}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>KitPage</Key>
+      <Title>Készletek</Title>
+      <Text>Ezeket {LINK:ConstructionPage;építkezés} és más munkák közben tudod felhasználni.
+
+{HEADER:Készletek listája}
+{LIST_OF_KITS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FoodPage</Key>
+      <Title>Élelmiszer</Title>
+      <Text>Ezek használhatók az éhség csillapításához.
+
+{HEADER:Élelmiszerek listája}
+{LIST_OF_FOOD}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ClothingPage</Key>
+      <Title>Öltözködés</Title>
+      <Text>Ezek minden [i]élő[/i] által slotokban hordhatók.
+
+{HEADER:Öltözetek listája}
+{LIST_OF_CLOTHING}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>AppliancePage</Key>
+      <Title>Készülékek</Title>
+      <Text>Olyan tárgyak, amik pultokra helyezhetőek le. A lehelyezéshez rakd a pultra az eszközt, majd rögzítsd a franciakulccsal.
+
+{HEADER:Készülékek listája}
+{LIST_OF_APPLIANCES}</Text>
+    </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
+    <StationpediaPage>
+      <Key>ThingTemplate</Key>
+      <Text>{0}
+
+{HEADER:Általános}
+{LIST}Prefab Hash {POS:300}{1}
+Festhető{POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingThermalTemplate</Key>
+      <Text>{HEADER:Termodinamikai korlátok}
+{LIST}Megtörés {POS:300}{0}
+Lobbanáspont{POS:300}{1}
+Öngyulladás{POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingSlotHeaderTemplate</Key>
+      <Text>{HEADER:Slotok}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingSlotItemTemplate</Key>
+      <Text>{0}. {POS:100}{1} {POS:300}Típus {2}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingStackTemplate</Key>
+      <Text>Halom méret {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingNutritionTemplate</Key>
+      <Text>Maximális tápérték {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>IceMeltingTemplate</Key>
+      <Text>Olvadási hőmérséklet{POS:300}{1}
+Olvadási nyomás {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatorsHeaderTemplate</Key>
+      <Text>{HEADER:Előállítható ezzel:}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructedByHeaderTemplate</Key>
+      <Text>{HEADER:Előállítva ezzel:}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
   </HelpPage>
 </Language>
