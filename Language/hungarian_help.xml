@@ -77,22 +77,22 @@ Ha az eszköz eléri a kívánt hőmérsékletet, helyezd be az érceket, de fig
     <StationpediaPage>
       <Key>InventoryPage</Key>
       <Title>Tárhely</Title>
-      <Text>A játék mindegy egyes tárgyának külön reteszei vannak, ezek osztályozva vannak, hogy csak a megfelelő dolog kerülhessen be az adott helyre. A legtöbb reteszhez különböző gyorsgombok tartoznak, például a {KEY:HelmetSlot} a {SLOT:Helmet} azonnali hozzáférését biztosítja.
+      <Text>A játék mindegy egyes tárgyának külön slotjai vannak, ezek osztályozva vannak, hogy csak a megfelelő dolog kerülhessen be az adott helyre. A legtöbb slothoz különböző gyorsgombok tartoznak, például a {KEY:HelmetSlot} a {SLOT:Helmet} azonnali hozzáférését biztosítja.
 
 {HEADER:A tárhely ablakai}
-Néhány reteszből csak egy van a játékban. A reteszek tartalmát az adott gyorsgomb használatával vagy a {KEY:MouseControl} tartásával és közben kattintással lehet mozgatni.  Ha megnyitsz egy reteszhez tartozó ablakot, a tárgyakat és azok beállításait tudod kezelni, az ablakok a címsorra való kattintással mozgathatók.
+Néhány slotból csak egy van a játékban. A slotok tartalmát az adott gyorsgomb használatával vagy a {KEY:MouseControl} tartásával és közben kattintással lehet mozgatni.  Ha megnyitsz egy slothoz tartozó ablakot, a tárgyakat és azok beállításait tudod kezelni, az ablakok a címsorra való kattintással mozgathatók.
 
 {HEADER:Gyors kezelés}
-Egy retesz gyorsgombjával azonnal fel- és levehetsz vagy cserélhetsz eszközöket. Például ha éppen az egyik kezedben lenne a {THING:ItemSpaceHelmet}, akkor a {KEY:HelmetSlot} hosszú lenyomásával azonnal a {KEY:HelmetSlot}be kerülne. Ha volt ott másik sisak, akkor kicserélődnének.
+Egy slot gyorsgombjával azonnal fel- és levehetsz vagy cserélhetsz eszközöket. Például ha éppen az egyik kezedben lenne a {THING:ItemSpaceHelmet}, akkor a {KEY:HelmetSlot} hosszú lenyomásával azonnal a {KEY:HelmetSlot}be kerülne. Ha volt ott másik sisak, akkor kicserélődnének.
 
 {HEADER:Áthúzás}
-A {KEY:MouseControl} lenyomása közben tágyakat húzhatsz át reteszek között.
+A {KEY:MouseControl} lenyomása közben tágyakat húzhatsz át slotok között.
 
 {HEADER:Eldobás}
-Egy tárgyat el is dobhatsz a {KEY:Drop} gomb lenyomásával vagy a {KEY:MouseControl} gombbal és kattintással ki is húzhatod a reteszből.
+Egy tárgyat el is dobhatsz a {KEY:Drop} gomb lenyomásával vagy a {KEY:MouseControl} gombbal és kattintással ki is húzhatod a slotból.
 
 {HEADER:Kiválasztás}
-A {KEY:InventorySelect} lenyomásával válthatsz a kiválasztott retesz és a saját kezed között. Ha nem akarod az egeret használni, a {COLORRED:Mouse Wheel} használatával is válthatsz a reteszek között.</Text>
+A {KEY:InventorySelect} lenyomásával válthatsz a kiválasztott slot és a saját kezed között. Ha nem akarod az egeret használni, a {COLORRED:Mouse Wheel} használatával is válthatsz a slotok között.</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>AirlockDevicePage</Key>
@@ -102,6 +102,67 @@ A {KEY:InventorySelect} lenyomásával válthatsz a kiválasztott retesz és a s
 {HEADER:Légzsilip eszközök listája}
 Az itt található eszközöket használhatod egy légzsilip rendszer elkészítéséhez:
 {LIST_OF_AIRLOCK_DEVICES}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicUnitPage</Key>
+      <Title>Logikai egységek</Title>
+      <Text>{HEADER:Logikai egységek listája}
+{LIST_OF_LOGIC_UNITS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>SlotLeftHand</Key>
+      <Title>Kéz slotok</Title>
+      <Text>A kezeid is különleges slotok. Egyszerre csak az egyik aktív, azt a {COLORRED:Primary Action} gombbal használhatod. Az aktív kezek közti váltáshoz használd a(z) {KEY:SwapHands} gombot. Az aktív kezedet a {KEY:ActiveHandSlot} gombbal tudod kezelni, ez a kezed tartalmát nyitja vagy zárja. Mint mindig, most is használhatod a(z) {KEY:MouseControl} gombot a kezeléshez. További információért lesd meg a {LINK:InventoryPage;tárhely} szekciót.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>SlotRightHand</Key>
+      <Title>Kéz slotok</Title>
+      <Text>A kezeid is különleges slotok. Egyszerre csak az egyik aktív, azt a {COLORRED:Primary Action} gombbal használhatod. Az aktív kezek közti váltáshoz használd a(z) {KEY:SwapHands} gombot. Az aktív kezedet a {KEY:ActiveHandSlot} gombbal tudod kezelni, ez a kezed tartalmát nyitja vagy zárja. Mint mindig, most is használhatod a(z) {KEY:MouseControl} gombot a kezeléshez. További információért lesd meg a {LINK:InventoryPage:Inventory} szekciót.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FabricatorPage</Key>
+      <Title>Gyártógépek</Title>
+      <Text>Ezek az árammal ellátott masinák gyártják le az összes játékbeli tárgyat. Legtöbb esetbed {LINK:IngotPage;öntött fémrudakkal} láthatod el {LINK:ReagentPage;alapanyaggal}, hogy képesek legyenek gyártani.
+
+{HEADER:Gyártógépek listája}
+{LIST_OF_FABRICATORS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>DevicePage</Key>
+      <Title>Berendezések</Title>
+      <Text>Olyan árammal ellátott szerkezetek, melyek speciális funkciókkal rendelkeznek, mint például logika, atmoszféra kezelése stb. Ugyanúgy kell építeni őket, mint a többi építhető tárgyat.
+
+{HEADER:Berendezések listája}
+{LIST_OF_DEVICES}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>SmeltingPage</Key>
+      <Title>Beolvasztás</Title>
+      <Text>Ha szereztél {LINK:OrePage;érceket}, {LINK:IngotPage;rudakká} kell olvasztanod őket, hogy {LINK:ReagentPage;alapanyagként} használhasd őket. A beolvasztás gyakran jár {LINK:GasPage;gázok} kibocsátásával. Ehhez szükség van a(z ){THING:StructureArcFurnace} gépre (egyszerűbb dolgokhoz) vagy a {THING:StructureFurnace} használatával {LINK:AlloyPage;ötvözeteket} állíthatsz elő. Ezeknél figyelni kell a tökéletes arányra, a megfelelő {LINK:TemperaturePage;hőmérsékletre} és a {LINK:PressurePage;nyomásra}.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>MiningPage</Key>
+      <Title>Bányászat</Title>
+      <Text>{THING:ItemMiningDrill} használatával {LINK:OrePage;érceket} szerezhetsz. A {THING:ItemMiningBelt} viselésénél az {LINK:OrePage;ércek} atomatikusan abba helyeződnek át.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructionPage</Key>
+      <Title>Építkezés</Title>
+      <Text>{HEADER:Első lépések}
+A legtöbb dolog megépítéséhez {LINK:KitPage;készleteket} fogsz használni. {LINK:ToolPage;Eszközök} ls {LINK:ResourcePage;nyersanyagok} használatával tudod befejezni őket. Figyelj arra, hogy hány készletet használsz, mert néhány dolog megépítéséhez nem csak egyre lesz szükséged. Néhány készlet többféleképpen is elkészítrhető, az opciókhoz használd a {COLORRED:Scroll Wheel} gombot.
+
+{HEADER:Építési fázisok}
+Néhány dolog különböző építési fázisokkal rendelkezik. A képernyő megjelenő szöveg segíteni fog, hogy éppen melyik eszköz és melyik nyersanyagot használd. Néha mindkét kezedben kell lennie adott tárgyaknak, hogy a konstrukciót sikeresen végrehajtsd. A használt eszközök közül van, amit be kell kapcsolni, ezt a {KEY:ToggleHandPower} gomb használatával teheted meg.
+
+{HEADER:Tippek}
+Ha közvetlenül ránézel az építés alatt levő tárgyra, a befejezéshez szükséges információk meg fognak jelenni. Ha nem a szükséges {LINK:ToolPage;eszköz}  van a kezedben, tanácsot fogsz kapni, milyen eszközzel bonthatod le.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPage</Key>
+      <Title>Alapanyagok</Title>
+      <Text>Különféle kémiai anyagok egyes típusai.
+{HEADER:Alapanyagok listája}
+{LIST_OF_REAGENTS}</Text>
     </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
