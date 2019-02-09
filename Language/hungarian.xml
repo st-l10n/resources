@@ -216,6 +216,30 @@
   <Slots/>
   <Interactables>
     <Record>
+      <Key>Activate</Key>
+      <Value>Aktiválás</Value>
+    </Record>
+    <Record>
+      <Key>Open</Key>
+      <Value>Nyitás</Value>
+    </Record>
+    <Record>
+      <Key>OnOff</Key>
+      <Value>Be Ki</Value>
+    </Record>
+    <Record>
+      <Key>Lock</Key>
+      <Value>Zárás</Value>
+    </Record>
+    <Record>
+      <Key>Powered</Key>
+      <Value>Áram alatt</Value>
+    </Record>
+    <Record>
+      <Key>Error</Key>
+      <Value>Hiba</Value>
+    </Record>
+    <Record>
       <Key>GrabLeftHand</Key>
       <Value>Bal kéz megfogása</Value>
     </Record>
@@ -250,6 +274,10 @@
     <Record>
       <Key>SplitOne</Key>
       <Value>Egy leválasztása</Value>
+    </Record>
+    <Record>
+      <Key>SplitHalf</Key>
+      <Value>Fele leválasztása</Value>
     </Record>
     <Record>
       <Key>NextPage</Key>
@@ -355,8 +383,165 @@
       <Key>LayEgg</Key>
       <Value>Tojás rakás</Value>
     </Record>
+    <Record>
+      <Key>Eat</Key>
+      <Value>Fogyasztás</Value>
+    </Record>
+    <Record>
+      <Key>Input</Key>
+      <Value>Bemenet</Value>
+    </Record>
+    <Record>
+      <Key>Setting</Key>
+      <Value>Beállítás</Value>
+    </Record>
+    <Record>
+      <Key>Increase</Key>
+      <Value>Növelés</Value>
+    </Record>
+    <Record>
+      <Key>Decrease</Key>
+      <Value>Csökkentés</Value>
+    </Record>
+    <Record>
+      <Key>Color</Key>
+      <Value>Színezés</Value>
+    </Record>
+    <Record>
+      <Key>Access</Key>
+      <Value>Hozzáférés</Value>
+    </Record>
+    <Record>
+      <Key>Magazine</Key>
+      <Value>Tár</Value>
+    </Record>
+    <Record>
+      <Key>TemperatureUp</Key>
+      <Value>Hőmérséklet fel</Value>
+    </Record>
+    <Record>
+      <Key>TemperatureDown</Key>
+      <Value>Hőmérséklet le</Value>
+    </Record>
+    <Record>
+      <Key>ThrustUp</Key>
+      <Value>Tolóerő fel</Value>
+    </Record>
+    <Record>
+      <Key>ThrustDown</Key>
+      <Value>Tolóerő le</Value>
+    </Record>
+    <Record>
+      <Key>Button5</Key>
+      <Value>Gomb5</Value>
+    </Record>
+    <Record>
+      <Key>Button6</Key>
+      <Value>Gomb6</Value>
+    </Record>
+    <Record>
+      <Key>UnpackAll</Key>
+      <Value>Összes kicsomagolása</Value>
+    </Record>
+    <Record>
+      <Key>Unpack</Key>
+      <Value>Kicsomagolás</Value>
+    </Record>
   </Interactables>
-  <Interface/>
+  <Interface>
+    <Record>
+      <Key>SettingsUserSpeakerMode</Key>
+      <Value>Hangszóró mód: </Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeNone</Key>
+      <Value>Nincs leírás</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportSlotOccupant</Key>
+      <Value>ELAVULT</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeExportSlotOccupant</Key>
+      <Value>ELAVULT</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeExportSlotHash</Key>
+      <Value>ELAVULT</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportSlotHash</Key>
+      <Value>ELAVULT</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHealth1</Key>
+      <Value>ELAVULT</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHealth2</Key>
+      <Value>ELAVULT</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHealth3</Key>
+      <Value>ELAVULT</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHealth4</Key>
+      <Value>ELAVULT</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantGrowth1</Key>
+      <Value>ELAVULT</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantGrowth2</Key>
+      <Value>ELAVULT</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantGrowth3</Key>
+      <Value>ELAVULT</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantGrowth4</Key>
+      <Value>ELAVULT</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantEfficiency1</Key>
+      <Value>ELAVULT</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantEfficiency2</Key>
+      <Value>ELAVULT</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantEfficiency3</Key>
+      <Value>ELAVULT</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantEfficiency4</Key>
+      <Value>ELAVULT</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHash1</Key>
+      <Value>ELAVULT</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHash2</Key>
+      <Value>ELAVULT</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHash3</Key>
+      <Value>ELAVULT</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHash4</Key>
+      <Value>ELAVULT</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeNone</Key>
+      <Value>Nincs leírás</Value>
+    </Record>
+  </Interface>
   <Colors>
     <Record>
       <Key>ColorBlue</Key>
