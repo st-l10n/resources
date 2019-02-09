@@ -74,6 +74,35 @@ A felső nyílába közvetlenül tudsz {LINK:IcePage;jeget} helyezni. Ha nincs a
 Ha az eszköz eléri a kívánt hőmérsékletet, helyezd be az érceket, de figyelj a megfelelő arányra, különben melléktermékek is létrejönnek {THING:ItemReagentMix} formájában, ami csak a {THING:StructureCentrifuge} használatával válaztható szét újra. A végső termék kiadásához húzd meg a {LOGICTYPE:Open} kart.
 {/LIST}</Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>InventoryPage</Key>
+      <Title>Tárhely</Title>
+      <Text>A játék mindegy egyes tárgyának külön reteszei vannak, ezek osztályozva vannak, hogy csak a megfelelő dolog kerülhessen be az adott helyre. A legtöbb reteszhez különböző gyorsgombok tartoznak, például a {KEY:HelmetSlot} a {SLOT:Helmet} azonnali hozzáférését biztosítja.
+
+{HEADER:A tárhely ablakai}
+Néhány reteszből csak egy van a játékban. A reteszek tartalmát az adott gyorsgomb használatával vagy a {KEY:MouseControl} tartásával és közben kattintással lehet mozgatni.  Ha megnyitsz egy reteszhez tartozó ablakot, a tárgyakat és azok beállításait tudod kezelni, az ablakok a címsorra való kattintással mozgathatók.
+
+{HEADER:Gyors kezelés}
+Egy retesz gyorsgombjával azonnal fel- és levehetsz vagy cserélhetsz eszközöket. Például ha éppen az egyik kezedben lenne a {THING:ItemSpaceHelmet}, akkor a {KEY:HelmetSlot} hosszú lenyomásával azonnal a {KEY:HelmetSlot}be kerülne. Ha volt ott másik sisak, akkor kicserélődnének.
+
+{HEADER:Áthúzás}
+A {KEY:MouseControl} lenyomása közben tágyakat húzhatsz át reteszek között.
+
+{HEADER:Eldobás}
+Egy tárgyat el is dobhatsz a {KEY:Drop} gomb lenyomásával vagy a {KEY:MouseControl} gombbal és kattintással ki is húzhatod a reteszből.
+
+{HEADER:Kiválasztás}
+A {KEY:InventorySelect} lenyomásával válthatsz a kiválasztott retesz és a saját kezed között. Ha nem akarod az egeret használni, a {COLORRED:Mouse Wheel} használatával is válthatsz a reteszek között.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>AirlockDevicePage</Key>
+      <Title>Légzsillip eszközök</Title>
+      <Text>Egy működő légzsilip készítéshez helyezz be egy {THING:CircuitboardAirlockControl}t egy {THING:StructureConsole}ba és köss rájuk további szükséges eszközöket.
+
+{HEADER:Légzsilip eszközök listája}
+Az itt található eszközöket használhatod egy légzsilip rendszer elkészítéséhez:
+{LIST_OF_AIRLOCK_DEVICES}</Text>
+    </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
