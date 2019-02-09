@@ -297,5 +297,53 @@ Olvadási nyomás {POS:300}{0}</Text>
       <Text>{HEADER:Előállítva ezzel:}
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedHeaderTemplate</Key>
+      <Text>{HEADER:Gyárhatja ezt:}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructedHeaderTemplate</Key>
+      <Text>{HEADER:Építeni tudja ezt:}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicTypeHeaderTemplate</Key>
+      <Text>{HEADER:Logika}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ModeStringHeaderTemplate</Key>
+      <Text>{HEADER:Módok}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedGasesTemplate</Key>
+      <Text>{HEADER:Gázok}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedReagentTemplate</Key>
+      <Text>{HEADER:Alapanyagok}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPageTemplate</Key>
+      <Text>Egy {LINK:ReagentPage;alapanyag}, leginkább {LINK:IngotPage;öntött rúd} formában használható.
+
+{HEADER:Általános}
+{LIST}Egység {POS:300}{1}{/LIST}
+
+{HEADER:Megtalálható itt:}
+{LIST}{2}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageTemplate</Key>
+      <Text>Egy {LINK:GasPage;gáz}, gyakran {LINK:SmeltingPage;beolvasztásnál} szabadul fel.
+
+{HEADER:Általános}
+{LIST}Jellemző hőmérséklet {POS:300}{1}{2}{/LIST}
+
+{HEADER:Megtalálható itt:}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
   </HelpPage>
 </Language>
