@@ -5027,6 +5027,14 @@ Hőmérséklet {1}</Value>
       <Value>Nincs leírás</Value>
     </Record>
     <Record>
+      <Key>LogicSlotTypeOccupied</Key>
+      <Value>ha a slot üres, 0 kiírása, ha foglalt, 1</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeOccupantHash</Key>
+      <Value>megadja a tárgy hashét, azaz az egyedi jellemzőjét</Value>
+    </Record>
+    <Record>
       <Key>LogicSlotTypeQuantity</Key>
       <Value>mutatja a slotban levő tárgy mennyiségét, halomméretét</Value>
     </Record>
@@ -5040,7 +5048,7 @@ Hőmérséklet {1}</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeMature</Key>
-      <Value>ha a növény érett, 1 kiírása, ha nem, 0</Value>
+      <Value>ha a növény érett, 1 kiírása, ha éretlen, 0</Value>
     </Record>
     <Record>
       <Key>AppearanceButtonRandomize</Key>
