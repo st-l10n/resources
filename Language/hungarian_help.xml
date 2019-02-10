@@ -37,10 +37,10 @@ A {KEY:MouseControl} és a {KEY:MouseInspect} gomb egy időben való lenyomásá
       <Key>GettingStarted</Key>
       <Title>Első lépések</Title>
       <Text>{HEADER:Welcome to a new world}
-Ha most vagy itt először, nagyon sokat kell tanulnod. Érzed a rád nehezedő nyomást? Remek érzés az ismeretlenbe ugrani! A következő sorok egy általános iránymutatást tartalmaznak a  kezdéshez. Minden egyes világon különböző problémákkal kell megüzdeni, de most egy széleskörű áttekintést kaphatsz a legfontosabb dolgokról.
+Ha most vagy itt először, nagyon sokat kell tanulnod. Érzed a rád nehezedő nyomást? Remek érzés az ismeretlenbe ugrani! A következő sorok egy általános iránymutatást tartalmaznak a kezdéshez. Minden egyes világon különböző problémákkal kell megüzdeni, de most egy széleskörű áttekintést kaphatsz a legfontosabb dolgokról.
 
 {HEADER:Keeping your Suit Charged}
-Az egyik legfontosabb dolog az {THING:ItemEvaSuit} belsejében  levő {THING:ItemBatteryCellLarge} töltése. Ez látja el a {THING:ItemSpaceHelmet} lámpáját (kapcsold ki, ha nem kell!) és a ruha fűtését árammal (vigyázz, hidegben többet fogyaszt!). Az elemet a {THING:ItemBatteryCharger} használatával tölthető. A töltőt elláthatod {THING:StructureSolidFuelGenerator}ral (szén szükséges)  vagy {THING:StructureSolarPanel}mel. Vészhelyzetben kiveheted az elemeket az {LINK:ToolPage;eszközeidből} és töltheted őket a {THING:PortableSolarPanel}mel.
+Az egyik legfontosabb dolog az {THING:ItemEvaSuit} belsejében levő {THING:ItemBatteryCellLarge} töltése. Ez látja el a {THING:ItemSpaceHelmet} lámpáját (kapcsold ki, ha nem kell!) és a ruha fűtését árammal (vigyázz, hidegben többet fogyaszt!). Az elemet a {THING:ItemBatteryCharger} használatával tölthető. A töltőt elláthatod {THING:StructureSolidFuelGenerator}ral (szén szükséges) vagy {THING:StructureSolarPanel}mel. Vészhelyzetben kiveheted az elemeket az {LINK:ToolPage;eszközeidből} és töltheted őket a {THING:PortableSolarPanel}mel.
 
 {HEADER:Improving Power Collection}
 Növelheted az elektromos hálózat teljesítményét egy {THING:StructureAreaPowerControl} és egy {THING:ItemBatteryCell} használatával. Ezzel nemcsak az áramingadozás küszöbölhető ki, hanem a felesleget is képes eltárolni az elem, emellett az elem töltődik is és sokkal hatékonyabb, mint a {THING:ItemBatteryCharger}. Továbbá a {THING:StructureSolarPanel} Nap irányába forgatásával még tovább lehet növelni az energiatermelést. Kézzel is lehet forgatni, de {LINK:LogicUnitPage;logikai egységek} használatával automatizálhatod a folyamatot.
