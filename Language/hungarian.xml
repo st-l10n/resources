@@ -5027,12 +5027,20 @@ Hőmérséklet {1}</Value>
       <Value>Nincs leírás</Value>
     </Record>
     <Record>
+      <Key>LogicSlotTypeQuantity</Key>
+      <Value>mutatja a slotban levő tárgy mennyiségét, halomméretét</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeDamage</Key>
+      <Value>mutatja a slotban levő tárgy sérülésének mértékét</Value>
+    </Record>
+    <Record>
       <Key>LogicSlotTypeEfficiency</Key>
-      <Value>visszaadja a slotban levő növény növekedés hatékonyságát </Value>
+      <Value>mutatja a slotban levő növény növekedésének hatékonyságát</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeMature</Key>
-      <Value>1 visszaadása, ha a növény megérett, 0 visszaadása ha nem</Value>
+      <Value>ha a növény érett, 1 kiírása, ha nem, 0</Value>
     </Record>
     <Record>
       <Key>AppearanceButtonRandomize</Key>
