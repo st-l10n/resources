@@ -4748,7 +4748,7 @@ Hőmérséklet {1}</Value>
     </Record>
     <Record>
       <Key>ChangeSlotSettingToFor</Key>
-      <Value>Változatás {1}&lt;color=yellow&gt;({0})&lt;/color&gt; erre erről: {2}</Value>
+      <Value>Változtatás {1}&lt;color=yellow&gt;({0})&lt;/color&gt; erre: {2}</Value>
     </Record>
     <Record>
       <Key>SettingsAtmosphericScattering</Key>
@@ -5025,6 +5025,14 @@ Hőmérséklet {1}</Value>
     <Record>
       <Key>LogicSlotTypeNone</Key>
       <Value>Nincs leírás</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeEfficiency</Key>
+      <Value>visszaadja a slotban levő növény növekedés hatékonyságát </Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeMature</Key>
+      <Value>1 visszaadása, ha a növény megérett, 0 visszaadása ha nem</Value>
     </Record>
     <Record>
       <Key>AppearanceButtonRandomize</Key>
