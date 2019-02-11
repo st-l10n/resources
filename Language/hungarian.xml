@@ -4781,12 +4781,44 @@ Hőmérséklet {1}</Value>
       <Value>Nincsenek további beállítások ehhez: {0}</Value>
     </Record>
     <Record>
+      <Key>LogicNoSlot</Key>
+      <Value>&lt;color=red&gt;Nincs slot&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAvailableSlots</Key>
+      <Value>&lt;color=red&gt;Nincs elérhető slot&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAdditionalSlotsFor</Key>
+      <Value>Nincs további slot ehhez: {0}</Value>
+    </Record>
+    <Record>
+      <Key>RequiresScrewdriver</Key>
+      <Value>Egy {THING:ItemScrewdriver}ra van szükséged a beállítások változtatásához.</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingTo</Key>
+      <Value>Változtatás erre: {0}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToAll</Key>
+      <Value>Összes változatása erre: {0}</Value>
+    </Record>
+    <Record>
       <Key>HoldForPreviousObject</Key>
       <Value>Tarsd a {KEY:QuantityModifier} gombot az előző tárgyhoz</Value>
     </Record>
     <Record>
       <Key>ChangeSlotSettingToFor</Key>
       <Value>Változtatás {1}&lt;color=yellow&gt;({0})&lt;/color&gt; erre: {2}</Value>
+    </Record>
+    <Record>
+      <Key>InteractionTemporarilyDisabledOnThisObject</Key>
+      <Value>Az interakció ideiglenesen ki van kapcsolva</Value>
+    </Record>
+    <Record>
+      <Key>UnableToInteractAsYouDoNotHaveTheRequiredAccessCard</Key>
+      <Value>{SLOT:AccessCard} szükséges az interakcióhoz</Value>
     </Record>
     <Record>
       <Key>SettingsAtmosphericScattering</Key>
@@ -4975,6 +5007,22 @@ Hőmérséklet {1}</Value>
     <Record>
       <Key>LogicTypeNone</Key>
       <Value>Nincs leírás</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeHorizontal</Key>
+      <Value>Az eszköz vízszintes állítása</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVertical</Key>
+      <Value>Az eszköz függőleges állítása</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSolarAngle</Key>
+      <Value>Eszköz által mért Nap beesési szöge</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeMaximum</Key>
+      <Value>Az eszköz maximális beállítása</Value>
     </Record>
     <Record>
       <Key>LogicTypeImportSlotOccupant</Key>
