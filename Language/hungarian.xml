@@ -5019,6 +5019,14 @@ Hőmérséklet {1}</Value>
       <Value>ELAVULT</Value>
     </Record>
     <Record>
+      <Key>LogicTypePressureSetting</Key>
+      <Value>Az aktuális tárgy belső nyomásának beállítása (pl.: nehézszkafander levegője), KPa-ban</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperatureSetting</Key>
+      <Value>Az aktuális tárgy belső hőmérsékletének beállítása (pl.: nehézszkafander A/C)</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeTemperatureExternal</Key>
       <Value>Az eszköz külső hőmérséklete, általában az azt körülvevő légkör határozza meg</Value>
     </Record>
@@ -5028,7 +5036,7 @@ Hőmérséklet {1}</Value>
     </Record>
     <Record>
       <Key>LogicTypeAirRelease</Key>
-      <Value>A légkiengedőrendszer aktuális állapota, például AirRelease = 1 A Nehézszkafander levegőkiengedését bekapcsolja</Value>
+      <Value>A levegőrendszer aktuális állapota, például AirRelease = 1 A Nehézszkafander légellátását bekapcsolja</Value>
     </Record>
     <Record>
       <Key>LogicTypePositionX</Key>
