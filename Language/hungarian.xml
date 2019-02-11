@@ -4257,6 +4257,20 @@
       <Value>Egér invertálása</Value>
     </Record>
     <Record>
+      <Key>MothershipConstruction</Key>
+      <Value>NEXTPREVIOUS
+&lt;color=yellow&gt;Építés az anyahajón&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>MulticonstructorItem</Key>
+      <Value>&lt;color=yellow&gt;Építési lehetőség {0}/{1}&lt;/color&gt;
+Válts &lt;color=red&gt;görgővel&lt;/color&gt; az opciók között.</Value>
+    </Record>
+    <Record>
+      <Key>UnableToConstruct</Key>
+      <Value>&lt;color=red&gt;Nem lehet megépíteni&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
       <Key>TooltipRotateLeftRight</Key>
       <Value>Használd a {KEY:RotateLeft} és a {KEY:RotateRight} billentyűket a balra és jobbra fordításhoz.</Value>
     </Record>
@@ -4468,6 +4482,10 @@ Próbáld újra.</Value>
     <Record>
       <Key>AlertTitlePleaseWait</Key>
       <Value>Kérjük várj...</Value>
+    </Record>
+    <Record>
+      <Key>TooltipNeedMoreKit</Key>
+      <Value>&lt;color=red&gt;Több {0} szükséges&lt;/color&gt;.</Value>
     </Record>
     <Record>
       <Key>JoinMenuSearchPlaceholder</Key>
@@ -4747,12 +4765,20 @@ Hőmérséklet {1}</Value>
       <Value>Beolvasztás {0}</Value>
     </Record>
     <Record>
+      <Key>LogicState</Key>
+      <Value>Állapot {COLORGREEN:#VAR1#}</Value>
+    </Record>
+    <Record>
       <Key>LogicNoDevice</Key>
       <Value>Nincs eszköz</Value>
     </Record>
     <Record>
       <Key>LogicNoSetting</Key>
       <Value>Nincsenek beállítások</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAdditionalSettingsFor</Key>
+      <Value>Nincsenek további beállítások ehhez: {0}</Value>
     </Record>
     <Record>
       <Key>HoldForPreviousObject</Key>
