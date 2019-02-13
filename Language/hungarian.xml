@@ -5121,6 +5121,14 @@ Hőmérséklet {1}</Value>
       <Value>Az exportált tárgyak száma az utolsó CLearMmorys óta</Value>
     </Record>
     <Record>
+      <Key>LogicTypePowerGeneration</Key>
+      <Value>Mutatja mennyi áram termelődik</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTotalMoles</Key>
+      <Value>Mutatja az eszköz mólszámát</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeVolume</Key>
       <Value>Mutatja az adott eszköz légköri térfogatát</Value>
     </Record>
@@ -5217,8 +5225,16 @@ Hőmérséklet {1}</Value>
       <Value>ha a növény érett, 1 kiírása, ha éretlen, 0</Value>
     </Record>
     <Record>
+      <Key>LogicSlotTypeHealth</Key>
+      <Value>mutatja a slotban levő növény egészségi állapotát</Value>
+    </Record>
+    <Record>
       <Key>LogicSlotTypeGrowth</Key>
       <Value>mutatja a slotban levő növény érési állapotát</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePressure</Key>
+      <Value>mutatja a slotban levő dolog belső nyomását</Value>
     </Record>
     <Record>
       <Key>AppearanceButtonRandomize</Key>
