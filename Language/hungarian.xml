@@ -5045,6 +5045,14 @@ Hőmérséklet {1}</Value>
       <Value>ELAVULT</Value>
     </Record>
     <Record>
+      <Key>LogicTypeHorizontalRatio</Key>
+      <Value>Az eszköz vízszintes beállításának aránya</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVerticalRatio</Key>
+      <Value>Az eszköz függőleges beállításának aránya</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeExportSlotHash</Key>
       <Value>ELAVULT</Value>
     </Record>
@@ -5115,10 +5123,6 @@ Hőmérséklet {1}</Value>
     <Record>
       <Key>LogicTypePlantHash4</Key>
       <Value>ELAVULT</Value>
-    </Record>
-    <Record>
-      <Key>LogicTypeClearMemory</Key>
-      <Value>Ha 1, törli a számláló memóriáját (pl.: ExportCount). Visszaáll 0-ra, ha megtörtént</Value>
     </Record>
     <Record>
       <Key>LogicTypeExportCount</Key>
@@ -5263,6 +5267,14 @@ Hőmérséklet {1}</Value>
     <Record>
       <Key>AppearanceTitleSpecies</Key>
       <Value>Fajok</Value>
+    </Record>
+    <Record>
+      <Key>SpinnerPannelSaving</Key>
+      <Value>Mentés</Value>
+    </Record>
+    <Record>
+      <Key>SpinnerPannelDone</Key>
+      <Value>Kész</Value>
     </Record>
   </Interface>
   <Colors>
