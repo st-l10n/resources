@@ -7,6 +7,34 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
+      <Key>Home</Key>
+      <Title>Strona główna</Title>
+      <Text>Witaj w wewnętrznym systemie pomocy gry Stationeers. Za pomocą tego narzędzia możesz znaleźć informacje o tym, jak działają wszystkie systemy, jak również istotne informacje na temat wszystkich rzeczy w świecie gry.
+
+{HEADER:Using Help}
+Możesz otworzyć lub zamknąć to okno za pomocą klawisza {KEY:Help}. Aby uruchomić kursor myszki podczas gry przytrzymaj klawisz {KEY:MouseControl}. Umożliwi to klikanie linków w systemie pomocy.
+
+{HEADER:Inspecting}
+Jeżeli przytrzymasz {KEY:MouseControl} oraz {KEY:MouseInspect} i klikniesz na coś, możesz to [i]zbadać[/i]. To otworzy system pomocy na stronie związanej z danym obiektem i poda Ci szczegółowe informacje.
+
+{HEADER:Key topics}
+{LIST}{LINK:SmeltingPage;Smelting}, {LINK:MiningPage; Mining}, {LINK:ConstructionPage;Construction}, {LINK:InventoryPage;Inventory}
+{/LIST}
+{HEADER:Guides}
+{LIST}{LINK:GettingStarted;Getting Started}
+{/LIST}
+{HEADER:Other}
+{LIST}{LINK:GasPage;Gases}, {LINK:ReagentPage;Reagents}
+{/LIST}
+{HEADER:Items}
+{LIST}{LINK:ToolPage;Tools}, {LINK:ResourcePage;Resources}, {LINK:KitPage;Kits}, {LINK:FoodPage;Food}, {LINK:ClothingPage;Clothing}, {LINK:AppliancePage;Appliances}, {LINK:IngotPage;Ingots}, {LINK:OrePage;Ores}, {LINK:AlloyPage;Alloys}
+{/LIST}
+{HEADER:Structures}
+{LIST}{LINK:DevicePage;Devices}, {LINK:FabricatorPage;Fabricators}, {LINK:AirlockDevicePage;Airlock Devices}, {LINK:LogicUnitPage;Logic Units}
+{/LIST}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>SlotLeftHand</Key>
       <Title>Sloty Dłoni</Title>
       <Text>Twoje dłonie są specjalnymi slotami. Możesz mieć jedną aktywną dłoń w danym momencie, którą to jest ręka aktualnie używana przez Twój {COLORRED:Primary Action}. Aby zmienić aktywną dłoń, naciśnij {KEY:SwapHands}. Twoja aktywna dłoń może być użyta przez wciśnięcie {KEY:ActiveHandSlot} co spowoduje otwarcie i zamknięcie zawartości Twojej aktywnej dłoni. Jak zawsze, możesz użyć {KEY:MouseControl} aby przywołać kursor i działać w ten sposób. Aby uzyskać więcej informacji, zobacz sekcję {LINK:InventoryPage;Inventory}.
