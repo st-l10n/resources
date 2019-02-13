@@ -5117,8 +5117,16 @@ Hőmérséklet {1}</Value>
       <Value>ELAVULT</Value>
     </Record>
     <Record>
+      <Key>LogicTypeClearMemory</Key>
+      <Value>Ha 1, törli a számláló memóriáját (pl.: ExportCount). Visszaáll 0-ra, ha megtörtént</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeExportCount</Key>
       <Value>Az exportált tárgyak száma az utolsó CLearMmorys óta</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportCount</Key>
+      <Value>Az importált tárgyak száma az utolsó ClearMemory óta</Value>
     </Record>
     <Record>
       <Key>LogicTypePowerGeneration</Key>
@@ -5235,6 +5243,10 @@ Hőmérséklet {1}</Value>
     <Record>
       <Key>LogicSlotTypePressure</Key>
       <Value>mutatja a slotban levő dolog belső nyomását</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeTemperature</Key>
+      <Value>mutatja a slotban levő dolog belső hőmérékletét</Value>
     </Record>
     <Record>
       <Key>AppearanceButtonRandomize</Key>
