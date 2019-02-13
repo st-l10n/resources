@@ -82,10 +82,30 @@
       <Key>MarsTabletStage2Page4</Key>
       <Value>OLDAL 4 / 5 \nKITERMELÉS\n\nNéhány felderítő hajó el van látva alapvető bányászfelszereléssel, ha elég szerencsés vagy, akár még egy adag feldolgozatlan ércet is találhatsz, mellyel jelentősen megugorhatnak a túlélési esélyeid.</Value>
     </Record>
+    <Record>
+      <Key>MarsTabletStage2Page5</Key>
+      <Value>OLDAL 5 / 5 \nBEOLVASZTÁS\n\nA nyersanyagok feldolgozásának és gyártáshoz előkészítése legegyszerűbb módja, ha elektromos kemencét használunk némi árammal ellátva. Ha a forrásaid korlátozottak, erre kéne először hangsúlyt fektetned, hogy megfelelő mennyiségű alapanyagot állíthass elő.</Value>
+    </Record>
     <!-- Mission Stage: Setup Manufacturing -->
+    <Record>
+      <Key>MarsTitleSetupManufacturing</Key>
+      <Value>A gyártás eszközei</Value>
+    </Record>
     <Record>
       <Key>MarsTabletStage3</Key>
       <Value>PRODUKCIÓ 101</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescSetupManufacturing</Key>
+      <Value>Ahhoz hogy mindent le tudj gyártani, a {THING:ItemKitHydraulicPipeBender} és a {THING:ItemKitElectronicsPrinter} használatával kéne kezdeni.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskManufactureHPB</Key>
+      <Value>Gyártsd le: {THING:ItemKitHydraulicPipeBender}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskManufactureEP</Key>
+      <Value>Gyártsd le: {THING:ItemKitElectronicsPrinter}</Value>
     </Record>
     <!-- Mission Stage: Food Supply -->
     <Record>
