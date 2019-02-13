@@ -165,6 +165,22 @@
       <Key>MarsTabletStage5</Key>
       <Value>ŰRUTAZÁS</Value>
     </Record>
+    <Record>
+      <Key>MarsDescCreateMothership</Key>
+      <Value>Építs egy anyahajót egy {THING:ItemKitMotherShipCore} segítsével, az elhelyezett {THING:MothershipCore}hoz kapcsolj egy {THING:StructureRocketEngine}vet</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskSpawnMothershipCore</Key>
+      <Value>Használd ezt: {THING:ItemKitMotherShipCore}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskAttachEngine</Key>
+      <Value>Kapcsolj egy {THING:StructureRocketEngine}vet a {THING:MothershipCore}hoz.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTitleLaunchMothership</Key>
+      <Value>Az anyahajó indítása</Value>
+    </Record>
     <!-- Mission Stage: Launch -->
   </Interface>
 </Language>
