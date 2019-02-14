@@ -2,7 +2,7 @@
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Hungarian</Name>
   <Code>HU</Code>
-  <Font>font_extended</Font>
+  <Font>font_russian</Font>
   <Interface>
     <Record>
       <Key>TutorialTitleWearSpacesuit</Key>
@@ -41,6 +41,10 @@ Tartsd nyomva a {KEY:MouseControl} gombot a kurzor megjelenítéséhez, majd hú
     <Record>
       <Key>TutorialDescPickupJetpack</Key>
       <Value>Találd meg az {THING:ItemSpacepack}ot és vedd a {SLOT:LeftHand} vagy a {SLOT:RightHand} slotba a {KEY:PrimaryAction} megnyomásával.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTitlePowerSuit</Key>
+      <Value>Az űrruha ellátása árammal</Value>
     </Record>
     <Record>
       <Key>TutorialTitleFinishFrame</Key>
