@@ -69,7 +69,7 @@ Az előre biztosított {THING:DynamicHydroponics} használatával elkezdheted a 
 {HEADER:Advanced Smelting}
 A {THING:StructureArcFurnace} csak alapvető {LINK:OrePage;ércek} beolvasztására alkalmas. {LINK:AlloyPage;Ötvözetek} létrehozása a {THING:StructureFurnace} használatával mehet végbe, mégpedig nagyon speciális körülmények között. A megfelelő anyag létrehozásához három dologra kell figyelni: {LINK:PressurePage;nyomás}, {LINK:TemperaturePage;hőmérséklet} és az {LINK:ReagentPage;alapanyagok} keverési aránya. Például {THING:ItemSteelIngot} létrehozásához a {REAGENT:Iron}  és a {REAGENT:Coal} 3 az 1-hez arányú keveréke szükséges.
 
-A felső nyílába közvetlenül tudsz {LINK:IcePage;jeget} helyezni. Ha nincs atmoszféra, ami megindítaná az olvadást, nyomd meg a {LOGICTYPE:Activate} gombot, ami összetöri a jeget és ezzel beindítja az olvadást. A jég magától elolvad, ha van elég gáz a levegőben. {THING:ItemOxite} és {THING:ItemVolatiles} keverékével tudsz egyszerűen tüzet csiholni a kemencében, de vigyázz, ez rendkívül megnöveli a belső nyomást!
+A felső nyílába közvetlenül tudsz {LINK:IcePage;jeget} helyezni. Ha nincs atmoszféra, ami megindítaná az olvadást, nyomd meg a {LOGICTYPE:Activate} gombot, ami összetöri a jeget és ezzel beindítja az olvadást. A jég magától elolvad, ha van elég gáz a levegőben. {THING:ItemOxite} és {THING:ItemVolatiles} keverékével tudsz egyszerűen tüzet csiholni a kohóban, de vigyázz, ez rendkívül megnöveli a belső nyomást!
 
 Ha az eszköz eléri a kívánt hőmérsékletet, helyezd be az érceket, de figyelj a megfelelő arányra, különben melléktermékek is létrejönnek {THING:ItemReagentMix} formájában, ami csak a {THING:StructureCentrifuge} használatával válaztható szét újra. A végső termék kiadásához húzd meg a {LOGICTYPE:Open} kart.
 {/LIST}</Text>
@@ -138,7 +138,7 @@ Az itt található eszközöket használhatod egy légzsilip rendszer elkészít
     <StationpediaPage>
       <Key>SmeltingPage</Key>
       <Title>Beolvasztás</Title>
-      <Text>Ha szereztél {LINK:OrePage;érceket}, {LINK:IngotPage;rudakká} kell olvasztanod őket, hogy {LINK:ReagentPage;alapanyagként} használhasd őket. A beolvasztás gyakran jár {LINK:GasPage;gázok} kibocsátásával. Ehhez szükség van a(z ){THING:StructureArcFurnace} gépre (egyszerűbb dolgokhoz) vagy a {THING:StructureFurnace} használatával {LINK:AlloyPage;ötvözeteket} állíthatsz elő. Ezeknél figyelni kell a tökéletes arányra, a megfelelő {LINK:TemperaturePage;hőmérsékletre} és a {LINK:PressurePage;nyomásra}.</Text>
+      <Text>Ha szereztél {LINK:OrePage;érceket}, {LINK:IngotPage;rudakká} kell olvasztanod őket, hogy {LINK:ReagentPage;alapanyagként} használhasd őket. A beolvasztás gyakran jár {LINK:GasPage;gázok} kibocsátásával. Ehhez szükség van a(z) {THING:StructureArcFurnace}ra (egyszerűbb dolgokhoz) vagy a {THING:StructureFurnace} használatával {LINK:AlloyPage;ötvözeteket} állíthatsz elő. Ezeknél figyelni kell a tökéletes arányra, a megfelelő {LINK:TemperaturePage;hőmérsékletre} és a {LINK:PressurePage;nyomásra}.</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>MiningPage</Key>
