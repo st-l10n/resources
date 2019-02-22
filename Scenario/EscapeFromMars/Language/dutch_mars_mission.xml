@@ -17,10 +17,194 @@
       <Key>MarsTitleInCaseOfEmergency</Key>
       <Value>In Geval van Nood...</Value>
     </Record>
+    <Record>
+      <Key>MarsDescInCaseOfEmergency</Key>
+      <Value>Je pak is beschadigd en je moet wat voedsel vinden.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetTape</Key>
+      <Value>Zoek wat {THING:ItemDuctTape}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetFood</Key>
+      <Value>Vind een {THING:ItemCerealBar}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage1</Key>
+      <Value>Nood Gids</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage1Page1</Key>
+      <Value>PAGINA 1 van 2\n Geen PANIEK.\n\n Als je dit leest, heb je de evacuatie overleefd - gefeliciteerd. Ongeacht je omgeving is je eerste prioriteit om de gezondheid van jezelf en de mensen om je heen te controleren. Zorg ervoor dat u de integriteit van uw pak controleert, evenals dat u niet kunt voorspellen in welke omgeving u zich bevindt en dat het beschermen van je luchttoevoer dan ook cruciaal is.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage1Page2</Key>
+      <Value>PAGINA 2 van 2 \n Als u in de buurt van een intacte ontsnappings capsule en een aangebouwde voorraadkist bent, moet u enkele cruciale benodigdheden hebben om uw wachttijd voor redding te ondersteunen. Zo niet, zoek dan naar overlevenden. U moet er zeker van zijn om de locatie te noteren van of te verzamelen van alle benodigdheden die van het allergrootste belang zijn voor uw overleving, zoals voedsel, batterijen, gebruiksmaterialen zoals duct tape en draagbare overlevingsapparatuur. \n</Value>
+    </Record>
     <!-- Mission Stage: Aquire Raw Materials -->
+    <Record>
+      <Key>MarsTitleRawMaterials</Key>
+      <Value>Smeek, Leen en Steel</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage2</Key>
+      <Value>RUWE MATERIALEN</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescRawMaterials</Key>
+      <Value>Vind een manier om de basismaterialen te produceren die je nodig hebt om aan de gang te gaan.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetIronIngots</Key>
+      <Value>Maak een {THING:ItemIronIngot}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetCopperIngots</Key>
+      <Value>Maak een {THING:ItemCopperIngot}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetGoldIngots</Key>
+      <Value>Maak een {THING:ItemGoldIngot}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage2Page1</Key>
+      <Value>PAGINA 1 van 5 \n SMEEK, LEEN of STEEL \n \n Gelukkig hebben onze productietools kennis van alle recepten die u waarschijnlijk in uw situatie nodig zult hebben. Helaas hebben ze grondstoffen nodig om dit te doen. Deze kunnen afkomstig zijn van verschillende bronnen op basis van uw situatie:</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage2Page2</Key>
+      <Value>PAGINA 2 van 5 \n ZOEKEN \n \n Als uw schip nog grotendeels intact is, kunt u mogelijk materialen in de verwerkte vorm vinden, die zich al in productiemachines bevinden of in de buurt zijn opgeslagen.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage2Page3</Key>
+      <Value>PAGINA 3 van 5 \n DEMONTEREN \n \n Als u een haakse slijper kunt vinden of produceren, kunt u deze gebruiken om een deel van het scheepswrak te demonteren. Een Recycler kan worden gebruikt om deze op te splitsen in een mix van zijn samenstellende materialen en een centrifuge zal ze scheiden zodat ze opnieuw kunnen worden gesmolten tot bruikbare materialen.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage2Page4</Key>
+      <Value>PAGINA 4 van 5 \n UITGRAVEN \n \n Zeer afhankelijk van uw omgeving, waren sommige verkenningsschepen uitgerust met basisuitrusting voor mijnen. Als je het geluk hebt om jezelf ergens te vinden met een overvloed aan minerale bronnen, is dit zeker een haalbare optie.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage2Page5</Key>
+      <Value>PAGINA 5 van 5 \n SMELT \n \n De meest ongecompliceerde manier om grondstoffen om te zetten in verwerkte blokken klaar voor productie, is het gebruik van de Vlamboog Oven en deze stroom te geven. Als u beperkt middelen heb, zou dit waarschijnlijk uw eerste investering moeten zijn, alsof u niet voldoende materialen kunt wegvangen, het zal uiteindelijk een vereiste zijn om ervoor te zorgen dat u meer kunt produceren.</Value>
+    </Record>
     <!-- Mission Stage: Setup Manufacturing -->
+    <Record>
+      <Key>MarsTitleSetupManufacturing</Key>
+      <Value>Het verkrijgen van de productiemiddelen</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage3</Key>
+      <Value>PRODUCTIE 101</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescSetupManufacturing</Key>
+      <Value>Om alles te produceren wat we nodig hebben, moeten we beginnen met een {THING:ItemKitHydraulicPipeBender} en een {THING:ItemKitElectronicsPrinter}.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskManufactureHPB</Key>
+      <Value>Maak een {THING:ItemKitHydraulicPipeBender}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskManufactureEP</Key>
+      <Value>Maak een {THING:ItemKitElectronicsPrinter}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage3Page1</Key>
+      <Value>PAGINA 1 van 5 \n PRODUCTIE \n Terwijl het waarschijnlijk is dat de reddingspogingen al aan de gang zijn, kan het enige tijd duren voordat ze u kunnen bereiken. Het zou relevant zijn om te plannen voor een langer verblijf. U moet een basisproductie-infrastructuur opzetten. Een Autolathe is het natuurlijke startpunt en hierdoor kunt u meer taakspecifieke craftingmachines maken.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage3Page2</Key>
+      <Value>PAGINA 2 van 5 \n STROOM NAAR DE PERSOON \n \n Hopelijk op dit punt heb je wat batterijen gevonden en een manier om ze op te laden. De eenvoudigste manier om stroom te leveren aan een netwerk is door de batterijen aan te sluiten op een Area Power Control-eenheid. Om de kracht te bieden die u nodig hebt voor smelten en bulkproductie, heeft u echter iets handiger nodig. De beste manier om hiermee om te gaan, hangt af van uw situatie, maar de opties omvatten;</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage3Page3</Key>
+      <Value>PAGINA 3 van 5 \n VASTE BRANDSTOFGENERATOR \n Dit genereert stroom door gefossiliseerde koolwaterstoffen in vaste vorm te verbranden. De kit kan worden vervaardigd in een elektronische printer of een fabricator.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage3Page4</Key>
+      <Value>PAGINA 4 van 5 \n GASGENERATOR \n Dit zal energie onttrekken aan de verbranding als gevolg van het ontsteken van een waterstof / zuurstofbrandstofmix. Een schone verbranding zal resulteren in een groter vermogen, maar u zult de hoeveelheid toegevoerde brandstof zorgvuldig moeten beheren en waarschijnlijk een transformator gebruiken om het vermogen te beperken of u zult last hebben van overbelaste kabels.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage3Page5</Key>
+      <Value>PAGINA 5 van 5 \n ZONNE PANELEN \n Zonne panelen. Eenmaal geplaatst, moet u ze invullen met een glasplaat - maar zodra dat is gebeurd, genereren ze overdag een nominale hoeveelheid stroom. U kunt uw moersleutel gebruiken om de verticale en horizontale hoek aan te passen om in de zon te kijken, maar op de lange termijn wilt u misschien kijken naar een logisch circuit en een daglichtsensor om het voor u te volgen.</Value>
+    </Record>
     <!-- Mission Stage: Food Supply -->
+    <Record>
+      <Key>MarsTitleFoodSupply</Key>
+      <Value>Een betrouwbare voedselbron</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage4</Key>
+      <Value>TUINIEREN GIDS</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescFoodSupply</Key>
+      <Value>We weten niet hoe lang je hier nog moet overleven. We moeten een hernieuwbare voedselbron bereiden voor het geval dat.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskPrepareAtmos</Key>
+      <Value>Creëer een ruimte onder druk met voldoende atmosfeer om aardappelen te telen.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGrowPotato</Key>
+      <Value>Kweek een {THING:ItemPotato} tot hij volgroeid is.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage4Page1</Key>
+      <Value>PAGINA 1 van 2 \n Groene vingers \n Het absolute minimum dat je nodig hebt om gewassen te kunnen laten groeien, is een Hydrocultuur Rek of Mobiele Hydrocultuur. Dit moet worden geleverd met een waterbron en in een atmosfeer van ten minste ~ 20 kpa, rond 20-25 graden Celcius en met een kleine hoeveelheid koolstofdioxide.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage4Page2</Key>
+      <Value>PAGINA 2 van 2 \n De moeilijkste eis is het verkrijgen van een aantal zaden om aan de slag te gaan. Elke ontsnappings capsule bevat een voorraadkist met een nominale hoeveelheid zaden om u op weg te helpen - het beschermen van deze is cruciaal. Als u gescheiden raakt van uw ontsnappings capsule, kunt u een GPS Tracker gebruiken om het baken van de capsule te volgen.</Value>
+    </Record>
     <!-- Mission Stage: Spawn Mothership & Engine -->
+    <Record>
+      <Key>MarsTitleCreateMothership</Key>
+      <Value>Een Moederschip maken</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage5</Key>
+      <Value>RUIMTEVAART</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescCreateMothership</Key>
+      <Value>Maak een moederschip door een {THING: MothershipCore} te maken met behulp van {THING: ItemKitMotherShipCore} en een daar een {THING: StructureRocketEngine} aan toe te voegen</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskSpawnMothershipCore</Key>
+      <Value>Gebruik een {THING:ItemKitMotherShipCore}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskAttachEngine</Key>
+      <Value>Voeg een {THING:StructureRocketEngine} toe aan de {THING:MothershipCore}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTitleLaunchMothership</Key>
+      <Value>Lanceer een Moederschip</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage5Page1</Key>
+      <Value>PAGINA 1 van 2 \n Lanceer Pauze \ n Met eten onder controle heb je nu echt wat werk te doen. Het verkrijgen van de middelen om een schip te bouwen en van brandstof te voorzien om van deze rots af te komen, zal niet gemakkelijk zijn. U hebt een aantal geavanceerde legeringen en een veilig systeem nodig om smeltend ijs te beheren en een grote hoeveelheid brandstof te maken / opslaan.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage5Page2</Key>
+      <Value>PAGINA 2 van 2 \n Het absolute minimum dat u nodig hebt voor een schip, is een kern met een paar gekoppelde motoren die de juiste richting op wijzen en een stellair anker, dat bij in- en uitschakelen uw schip in beweging kan brengen. Een commandostoel is niet nodig als je dapper genoeg bent om de motoren met de hand te besturen, maar sterk aanbevolen.</Value>
+    </Record>
     <!-- Mission Stage: Launch -->
+    <Record>
+      <Key>MarsDescLaunchMothership</Key>
+      <Value>Schiet de ruimte in en verover je plek in de lucht!</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskLaunchMothership</Key>
+      <Value>Lanceer je moederschip naar een hoogte van 100m</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage6</Key>
+      <Value>ONTSNAP</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage6Page1</Key>
+      <Value>PAGINA 1 van 1 \n OPSTIJGEN \n Spreekt eigenlijk voor zich. Haal dit ding van de grond. Zorg dat je genoeg brandstof voor je motoren hebt! Succes!</Value>
+    </Record>
   </Interface>
 </Language>
