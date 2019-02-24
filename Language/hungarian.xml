@@ -2848,15 +2848,15 @@
     </Record>
     <Record>
       <Key>ItemKitElevator</Key>
-      <Value>Készlet (Lift)</Value>
+      <Value>Készlet (Felvonó)</Value>
     </Record>
     <Record>
       <Key>ElevatorCarrage</Key>
-      <Value>Lift</Value>
+      <Value>Felvonó</Value>
     </Record>
     <Record>
       <Key>StructureElevatorLevelFront</Key>
-      <Value>Lift emelet</Value>
+      <Value>Felvonó emelet</Value>
     </Record>
     <Record>
       <Key>StructureCrateMount</Key>
@@ -5053,6 +5053,26 @@ Hőmérséklet {1}</Value>
       <Value>Az eszköz függőleges beállításának aránya</Value>
     </Record>
     <Record>
+      <Key>LogicTypeIdle</Key>
+      <Value>1 visszaadása ha az eszköz tétlen, különben 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeColor</Key>
+      <Value>Az eszköz színbeállítása változó formájában</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeElevatorSpeed</Key>
+      <Value>A felvonó jelenlegi sebessége</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeElevatorLevel</Key>
+      <Value>A szint ahol a felvonó áll</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRecipeHash</Key>
+      <Value>Az eszköz jelenlegi hash-e termelésre van állítva</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeExportSlotHash</Key>
       <Value>ELAVULT</Value>
     </Record>
@@ -5123,6 +5143,10 @@ Hőmérséklet {1}</Value>
     <Record>
       <Key>LogicTypePlantHash4</Key>
       <Value>ELAVULT</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRequestHash</Key>
+      <Value>Ha az egyedi azonosítóra van állítva, a megadott típusú elemet kéri az eszköztől</Value>
     </Record>
     <Record>
       <Key>LogicTypeCompletionRatio</Key>
