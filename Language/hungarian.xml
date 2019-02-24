@@ -5021,6 +5021,26 @@ Hőmérséklet {1}</Value>
       <Value>Nincs leírás</Value>
     </Record>
     <Record>
+      <Key>LogicTypeOpen</Key>
+      <Value>1 ha az eszköz nyitva van, különben 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeMode</Key>
+      <Value>Egész szám az üzemmódhoz, különböző eszközöknek különböző üzemmódjuk van</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeError</Key>
+      <Value>1 ha az eszköz hibaállapotban van, különben 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeLock</Key>
+      <Value>1 ha az eszköz le van zárva, különben 0, a legtöbb eszközben állítható és megakadályozza, hogy a felhasználó hozzáférjen az értékekhez</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressure</Key>
+      <Value>Az eszköz által jelenleg olvasott nyomás</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeTemperature</Key>
       <Value>Az eszköz által jelenleg olvasott hőmérséklet</Value>
     </Record>
