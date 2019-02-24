@@ -192,7 +192,7 @@
     </Record>
     <Record>
       <Key>NitrousOxide</Key>
-      <Value>Nitrogén-oxid</Value>
+      <Value>Dinitrogén-oxid</Value>
     </Record>
   </Gases>
   <Actions>
@@ -3212,15 +3212,15 @@
     </Record>
     <Record>
       <Key>ItemGasFilterNitrousOxide</Key>
-      <Value>Szűrő (Nitrogén-oxid)</Value>
+      <Value>Szűrő (Dinitrogén-oxid)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterNitrousOxideL</Key>
-      <Value>Nehéz szűrő (Nitrogén-oxid)</Value>
+      <Value>Nehéz szűrő (Dinitrogén-oxid)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterNitrousOxideM</Key>
-      <Value>Közepes szűrő (Nitrogén-oxid)</Value>
+      <Value>Közepes szűrő (Dinitrogén-oxid)</Value>
     </Record>
     <Record>
       <Key>ItemGasCanisterNitrousOxide</Key>
@@ -5021,6 +5021,34 @@ Hőmérséklet {1}</Value>
       <Value>Nincs leírás</Value>
     </Record>
     <Record>
+      <Key>LogicTypeRatioOxygen</Key>
+      <Value>Az oxigén aránya az eszköz atmoszférájában</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioCarbonDioxide</Key>
+      <Value>A szén-dioxid aránya az eszköz atmoszférájában</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrogen</Key>
+      <Value>A nitrogén aránya az eszköz atmoszférájában</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutant</Key>
+      <Value>A szennyezett gáz aránya az eszköz atmoszférájában</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioVolatiles</Key>
+      <Value>A hidrogén aránya az eszköz atmoszférájában</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioWater</Key>
+      <Value>A víz aránya az eszköz atmoszférájában</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrousOxide</Key>
+      <Value>A dinitrogén-oxid aránya az eszköz atmoszférájában</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeHorizontal</Key>
       <Value>Az eszköz vízszintes állítása</Value>
     </Record>
@@ -5035,6 +5063,14 @@ Hőmérséklet {1}</Value>
     <Record>
       <Key>LogicTypeMaximum</Key>
       <Value>Az eszköz maximális beállítása</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatio</Key>
+      <Value>Környezetfüggő érték eszköztől függően, 0 és 1 közötti arány</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePowerPotential</Key>
+      <Value>Mennyi potenciális energiát szolgáltat az eszköz vagy a hálózat</Value>
     </Record>
     <Record>
       <Key>LogicTypePowerActual</Key>
