@@ -5021,6 +5021,34 @@ Hőmérséklet {1}</Value>
       <Value>Nincs leírás</Value>
     </Record>
     <Record>
+      <Key>LogicTypeTemperature</Key>
+      <Value>Az eszköz által jelenleg olvasott hőmérséklet</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureExternal</Key>
+      <Value>A külső túlnyomásvédelem beállítása KPa-ban</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureInternal</Key>
+      <Value>A belső túlnyomásvédelem beállítása KPa-ban</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeActivate</Key>
+      <Value>1 ha az eszköz aktiválva van (azaz fut), különben 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeCharge</Key>
+      <Value>Az eszköz jelenlegi töltöttsége</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSetting</Key>
+      <Value>Egy változtatható beállítás, ami írható és olvasható eszköztől függően</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeReagents</Key>
+      <Value>Az eszköz által feljegyzett alapanyagok összmennyisége</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeRatioOxygen</Key>
       <Value>Az oxigén aránya az eszköz atmoszférájában</Value>
     </Record>
@@ -5122,7 +5150,7 @@ Hőmérséklet {1}</Value>
     </Record>
     <Record>
       <Key>LogicTypeColor</Key>
-      <Value>Az eszköz színbeállítása változó formájában</Value>
+      <Value>Az eszköz színbeállítása egész szám formájában</Value>
     </Record>
     <Record>
       <Key>LogicTypeElevatorSpeed</Key>
