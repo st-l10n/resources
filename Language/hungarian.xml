@@ -5045,12 +5045,20 @@ Hőmérséklet {1}</Value>
       <Value>ELAVULT</Value>
     </Record>
     <Record>
+      <Key>LogicTypeRequiredPower</Key>
+      <Value>Üresjárathoz szükséges árammennyiség, nem feltétlenül tartalmazza a további áramigényeket</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeHorizontalRatio</Key>
       <Value>Az eszköz vízszintes beállításának aránya</Value>
     </Record>
     <Record>
       <Key>LogicTypeVerticalRatio</Key>
       <Value>Az eszköz függőleges beállításának aránya</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePowerRequired</Key>
+      <Value>A készülék és/vagy a hálózat által igényelt áram</Value>
     </Record>
     <Record>
       <Key>LogicTypeIdle</Key>
