@@ -5037,8 +5037,28 @@ Hőmérséklet {1}</Value>
       <Value>Az eszköz maximális beállítása</Value>
     </Record>
     <Record>
+      <Key>LogicTypePowerActual</Key>
+      <Value>Mennyi energiát használ jelenleg az eszköz vagy a hálózat</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeQuantity</Key>
+      <Value>Az eszköz összmennyisége</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeOn</Key>
+      <Value>Az eszköz jelenlegi állapota, kikapcsoláshoz 0, bekapcsoláshoz 1</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportQuantity</Key>
+      <Value>Az eszköz által importált tárgyak száma</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeImportSlotOccupant</Key>
       <Value>ELAVULT</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeExportQuantity</Key>
+      <Value>Az eszköz által exportált tárgyak száma</Value>
     </Record>
     <Record>
       <Key>LogicTypeExportSlotOccupant</Key>
