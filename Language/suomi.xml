@@ -2595,23 +2595,23 @@
     </Record>
     <Record>
       <Key>AccessCardPurple</Key>
-      <Value>Kulkukortti (Purppura)</Value>
+      <Value>Kulkukortti (purppura)</Value>
     </Record>
     <Record>
       <Key>AccessCardRed</Key>
-      <Value>Kulkukortti (Punainen)</Value>
+      <Value>Kulkukortti (punainen)</Value>
     </Record>
     <Record>
       <Key>AccessCardWhite</Key>
-      <Value>Kulkukortti (Valkoinen)</Value>
+      <Value>Kulkukortti (valkoinen)</Value>
     </Record>
     <Record>
       <Key>AccessCardYellow</Key>
-      <Value>Kulkukortti (Keltainen)</Value>
+      <Value>Kulkukortti (keltainen)</Value>
     </Record>
     <Record>
       <Key>StructureSecurityPrinter</Key>
-      <Value>Turva-Printteri</Value>
+      <Value>Turvalaitteiden tulostin</Value>
     </Record>
     <Record>
       <Key>ItemKitSecurityPrinter</Key>
@@ -2627,15 +2627,19 @@
     </Record>
     <Record>
       <Key>HandgunMagazine</Key>
-      <Value>Lipas (Käsiase)</Value>
+      <Value>Lipas (käsiase)</Value>
     </Record>
     <Record>
       <Key>SMGMagazine</Key>
-      <Value>Lipas (KP)</Value>
+      <Value>Lipas (konepistooli)</Value>
     </Record>
     <Record>
       <Key>FireArmSMG</Key>
       <Value>Konepistooli</Value>
+    </Record>
+    <Record>
+      <Key>StructureElectrolyzer</Key>
+      <Value>Elektrolyysilaite</Value>
     </Record>
     <Record>
       <Key>StructureElevatorShaft</Key>
@@ -2655,7 +2659,7 @@
     </Record>
     <Record>
       <Key>StructureCrateMount</Key>
-      <Value>Kiinnitysalusta</Value>
+      <Value>Varustearkun kiinnitysalusta</Value>
     </Record>
     <Record>
       <Key>ItemKitCrateMount</Key>
@@ -2667,11 +2671,11 @@
     </Record>
     <Record>
       <Key>CircuitboardHashDisplay</Key>
-      <Value>Piirilevy (Hajautusarvonäyttö)</Value>
+      <Value>Piirilevy (loogisen tarkisteen näyttö)</Value>
     </Record>
     <Record>
       <Key>StructureHydroponicsStation</Key>
-      <Value>Hydroponinen Asema</Value>
+      <Value>Hydroponinen asema</Value>
     </Record>
     <Record>
       <Key>ItemKitHydroponicStation</Key>
@@ -3018,12 +3022,32 @@
       <Value>Keskitason suodatin (typpioksiduuli)</Value>
     </Record>
     <Record>
+      <Key>ItemGasCanisterNitrousOxide</Key>
+      <Value>Kaasukanisteri (unikapseli)</Value>
+    </Record>
+    <Record>
+      <Key>ItemNVG</Key>
+      <Value>Pimeänäkölasit</Value>
+    </Record>
+    <Record>
+      <Key>ItemGlasses</Key>
+      <Value>Lasit</Value>
+    </Record>
+    <Record>
       <Key>StructureLogicHashGen</Key>
-      <Value>Varustepakkaus (Polttoaine Generaattori)</Value>
+      <Value>Loogisen tarkisteen generoija</Value>
+    </Record>
+    <Record>
+      <Key>StructureShuttleLandingPad</Key>
+      <Value>Laskeutumisalusta</Value>
     </Record>
     <Record>
       <Key>ItemKitLandingPad</Key>
       <Value>Varustepakkaus (laskeutumisalusta)</Value>
+    </Record>
+    <Record>
+      <Key>StructureSatelliteDish</Key>
+      <Value>Satelliittilautanen</Value>
     </Record>
     <Record>
       <Key>ItemKitSatelliteDish</Key>
@@ -3031,19 +3055,23 @@
     </Record>
     <Record>
       <Key>ItemPlasticSheets</Key>
-      <Value>Lasilevy</Value>
+      <Value>Lasilevyt</Value>
     </Record>
     <Record>
       <Key>MotherboardComms</Key>
-      <Value>Emolevy (Logiikka)</Value>
+      <Value>Emolevy (tietoliikenne)</Value>
     </Record>
     <Record>
       <Key>ItemMarineHelmet</Key>
       <Value>Avaruuskypärä</Value>
     </Record>
     <Record>
+      <Key>UniformMarine</Key>
+      <Value>Merijalkaväen univormu</Value>
+    </Record>
+    <Record>
       <Key>StructureWallLightBattery</Key>
-      <Value>Varustepakkaus (Akku)</Value>
+      <Value>Valaisin (paristoilla toimiva)</Value>
     </Record>
   </Things>
   <Slots>
