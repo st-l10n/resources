@@ -11,5 +11,14 @@
     |                     TEMPLATES               |
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
+    <StationpediaPage>
+      <Key>IceMeltingTemplate</Key>
+      <Text>Temperatura de Topire {POS:300}{1}
+Presiunea de Topire {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatorsHeaderTemplate</Key>
+      <Text>{HEADER:Fabricat de}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
   </HelpPage>
 </Language>
