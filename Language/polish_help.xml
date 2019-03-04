@@ -35,6 +35,16 @@ Jeżeli przytrzymasz {KEY:MouseControl} oraz {KEY:MouseInspect} i klikniesz na c
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>AirlockDevicePage</Key>
+      <Title>Urządzenia śluzy powietrza</Title>
+      <Text>Wkładając {THING:CircuitboardAirlockControl} do {THING:StructureConsole} możesz połączyć różne urządzenia aby stworzyć funkcjonalną śluzę powietrza.
+      
+{HEADER:List of Airlock Devices}
+Poniższe urządzenia mogą być połączone, i użyte, przez system kontroli śluzy:
+{LIST_OF_AIRLOCK_DEVICES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>SlotLeftHand</Key>
       <Title>Sloty Dłoni</Title>
       <Text>Twoje dłonie są specjalnymi slotami. Możesz mieć jedną aktywną dłoń w danym momencie, którą to jest ręka aktualnie używana przez Twój {COLORRED:Primary Action}. Aby zmienić aktywną dłoń, naciśnij {KEY:SwapHands}. Twoja aktywna dłoń może być użyta przez wciśnięcie {KEY:ActiveHandSlot} co spowoduje otwarcie i zamknięcie zawartości Twojej aktywnej dłoni. Jak zawsze, możesz użyć {KEY:MouseControl} aby przywołać kursor i działać w ten sposób. Aby uzyskać więcej informacji, zobacz sekcję {LINK:InventoryPage;ekwipunku}.
@@ -57,6 +67,15 @@ Jeżeli przytrzymasz {KEY:MouseControl} oraz {KEY:MouseInspect} i klikniesz na c
 {HEADER:List of Fabricators}
 {LIST_OF_FABRICATORS}
 
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>DevicePage</Key>
+      <Title>Urządzenia</Title>
+      <Text>Są to struktury, zwykle zasilone, które mają wyspecjalizowane funkcje takie jak logiczne, atmosferyczne, i inne. Są konstruowane w ten sam sposób jak inne struktury.
+      
+{HEADER:List of Devices}
+{LIST_OF_DEVICES}
       </Text>
     </StationpediaPage>
     <!--
