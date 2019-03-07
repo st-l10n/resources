@@ -4841,8 +4841,24 @@ Hőmérséklet {1}</Value>
       <Value>Tarsd a {KEY:QuantityModifier} gombot az előző tárgyhoz</Value>
     </Record>
     <Record>
+      <Key>ChangeSettingToFor</Key>
+      <Value>{1} megváltoztatása erre: &lt;color=yellow&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToForIn</Key>
+      <Value>{3} megváltoztatása erre: &lt;color=yellow&gt;{0}&lt;/color&gt;, itt: &lt;color=yellow&gt;({2})&lt;/color&gt; ebben: {1}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeReagentSettingTo</Key>
+      <Value>Változtatás erre: {2}. &lt;color=yellow&gt;{0}&lt;/color&gt;.&lt;color=yellow&gt;{1}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
       <Key>ChangeSlotSettingToFor</Key>
       <Value>Változtatás {1}&lt;color=yellow&gt;({0})&lt;/color&gt; erre: {2}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToForAll</Key>
+      <Value>Minden {1} megváltoztatása erre: &lt;color=yellow&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>InteractionTemporarilyDisabledOnThisObject</Key>
