@@ -4984,8 +4984,20 @@ Temperatura {1}</Value>
       <Value>Numero di oggetti esportati dall&apos;ultimo ClearMemory</Value>
     </Record>
     <Record>
+      <Key>LogicTypeOutput</Key>
+      <Value>L&apos;operazione di output per un dispositivo di gestione delle ordinazioni, ad esempio un impilatore o uno smistatore, quando in modalità logica il dispositivo azionerà solo una ripetizione quando impostato zero o sopra e poi di nuovo a-1 e attendendo ulteriori istruzioni</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureSetting</Key>
+      <Value>L&apos;impostazione corrente per la pressione interna dell&apos;oggetto (ad es. il rilascio di Aria della Tuta Rinforzata), in KPa</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeTemperatureSetting</Key>
       <Value>L&apos;impostazione corrente per la temperatura interna dell&apos;oggetto (ad es. l&apos;A/C della Tuta Rinforzata)</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperatureExternal</Key>
+      <Value>La temperatura dell&apos;esterno del dispositivo, di solito dell&apos;atmosfera del mondo che lo circonda</Value>
     </Record>
     <Record>
       <Key>LogicTypeFiltration</Key>
