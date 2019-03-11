@@ -4980,12 +4980,88 @@ Temperatura {1}</Value>
       <Value>1 se il dispositivo è aperto, altrimenti 0</Value>
     </Record>
     <Record>
+      <Key>LogicTypeRatioOxygen</Key>
+      <Value>Il rapporto di ossigeno nell&apos;atmosfera del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioCarbonDioxide</Key>
+      <Value>Il rapporto di co2 nell&apos;atmosfera del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrogen</Key>
+      <Value>Il rapporto di azoto nell&apos;atmosfera del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutant</Key>
+      <Value>Il rapporto di inquinanti nell&apos;atmosfera del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioVolatiles</Key>
+      <Value>Il rapporto di Gas volatili nell&apos;atmosfera del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioWater</Key>
+      <Value>Il rapporto di acqua nell&apos;atmosfera del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrousOxide</Key>
+      <Value>Il rapporto di ossido di diazoto nell&apos;atmosfera del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeHorizontal</Key>
+      <Value>Impostazione orizzontale del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVertical</Key>
+      <Value>Impostazione verticale del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSolarAngle</Key>
+      <Value>Angolo solare del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeMaximum</Key>
+      <Value>Impostazione massima del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatio</Key>
+      <Value>Valore specifico del contesto in base al dispositivo, rapporto da 0 a 1</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePowerPotential</Key>
+      <Value>Quanta energia il dispositivo o la rete fornisce potenzialmente</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePowerActual</Key>
+      <Value>Quanta energia il dispositivo o la rete sta effettivamente utilizzando</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeQuantity</Key>
+      <Value>Quantità totale sul dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeOn</Key>
+      <Value>Lo stato corrente del dispositivo, 0 per spento, 1 per acceso</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportQuantity</Key>
+      <Value>Quantità totale di articoli importati dal dispositivo</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeImportSlotOccupant</Key>
       <Value>DEPRECATO</Value>
     </Record>
     <Record>
+      <Key>LogicTypeExportQuantity</Key>
+      <Value>Quantità totale di articoli esportati dal dispositivo</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeExportSlotOccupant</Key>
       <Value>DEPRECATO</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRequiredPower</Key>
+      <Value>Quantità di alimentazione operativa inattiva, non include necessariamente la domanda di alimentazione aggiuntiva</Value>
     </Record>
     <Record>
       <Key>LogicTypeHorizontalRatio</Key>
