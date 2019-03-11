@@ -4984,8 +4984,64 @@ Temperatura {1}</Value>
       <Value>Numero di oggetti esportati dall&apos;ultimo ClearMemory</Value>
     </Record>
     <Record>
+      <Key>LogicTypeTemperatureSetting</Key>
+      <Value>L&apos;impostazione corrente per la temperatura interna dell&apos;oggetto (ad es. l&apos;A/C della Tuta Rinforzata)</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeFiltration</Key>
+      <Value>Lo stato attuale del sistema di filtrazione, ad esempio Filtrazione = 1 per una Tuta Rinforzata imposta la filtrazione su On</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeAirRelease</Key>
+      <Value>Lo stato attuale del sistema di rilascio dell&apos;aria, ad esempio AirRelease = 1 per una Tuta Rinforzata imposta il rilascio dell&apos;aria su On</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePositionX</Key>
+      <Value>La posizione corrente nella dimensione X nelle coordinate mondiali</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePositionY</Key>
+      <Value>La posizione corrente nella dimensione Y nelle coordinate mondiali</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePositionZ</Key>
+      <Value>La posizione corrente nella dimensione Z nelle coordinate mondiali</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityMagnitude</Key>
+      <Value>La grandezza corrente del vettore di velocità</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityRelativeX</Key>
+      <Value>La velocità corrente X rispetto al vettore in avanti di questo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityRelativeY</Key>
+      <Value>La velocità corrente Y rispetto al vettore in avanti di questo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityRelativeZ</Key>
+      <Value>La velocità attuale Z rispetto al vettore in avanti di questo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePrefabHash</Key>
+      <Value>L&apos;hash della struttura</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeForceWrite</Key>
+      <Value>Impone ai dispositivi Logic writer di riscrivere il valore</Value>
+    </Record>
+    <Record>
       <Key>LogicSlotTypeNone</Key>
       <Value>Nessuna descrizione</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeOccupied</Key>
+      <Value>restituisce 0 quando lo slot non è occupato, 1 quando lo è</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeOccupantHash</Key>
+      <Value>restituisce l&apos;has dell&apos;attuale occupante, l&apos;identificatore univoco dell&apos;oggetto</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeQuantity</Key>
