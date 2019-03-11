@@ -4274,6 +4274,10 @@ Per cui esci là fuori, Stationeer !</Value>
       <Value>Attenzione !</Value>
     </Record>
     <Record>
+      <Key>WaitingBody</Key>
+      <Value>Salvataggio dei dati del mondo ancora in corso.  Si prega di riprovare quando sarà finito.</Value>
+    </Record>
+    <Record>
       <Key>PromptQuitTitle</Key>
       <Value>Esci da Stationeers</Value>
     </Record>
@@ -4976,8 +4980,56 @@ Temperatura {1}</Value>
       <Value>Nessuna descrizione</Value>
     </Record>
     <Record>
+      <Key>LogicTypePower</Key>
+      <Value>Può essere letto per indicare se il dispositivo è alimentato correttamente o no, impostato tramite il sistema di alimentazione, ritorno 1 se alimentato e 0 se non lo è</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeOpen</Key>
       <Value>1 se il dispositivo è aperto, altrimenti 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeMode</Key>
+      <Value>Numeri interi per lo stato della modalità, diversi dispositivi avranno diversi stati di modalità disponibili per loro</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeError</Key>
+      <Value>1 se il dispositivo è in stato di errore, altrimenti 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeLock</Key>
+      <Value>1 se il dispositivo è bloccato, altrimenti 0, può essere impostato nella maggior parte dei dispositivi e impedisce all&apos;utente di accedere ai valori</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressure</Key>
+      <Value>La lettura della pressione attuale del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperature</Key>
+      <Value>La lettura della temperatura attuale del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureExternal</Key>
+      <Value>Impostazione per la sicurezza della pressione esterna, in KPa</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureInternal</Key>
+      <Value>Impostazione della sicurezza della pressione interna, in KPa</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeActivate</Key>
+      <Value>1 se il dispositivo è attivato (di solito significa in esecuzione), altrimenti 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeCharge</Key>
+      <Value>La carica corrente del dispositivo è</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSetting</Key>
+      <Value>Un&apos;impostazione variabile che può essere letta o scritta, a seconda del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeReagents</Key>
+      <Value>Numero totale di reagenti registrati dal dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioOxygen</Key>
@@ -5310,6 +5362,14 @@ Temperatura {1}</Value>
     <Record>
       <Key>LogicSlotTypeTemperature</Key>
       <Value>restituisce la temperatura dell&apos;atmosfera interna degli slot occupati</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeCharge</Key>
+      <Value>restituisce la carica di energia corrente che lo slot occupante sta tenendo</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeChargeRatio</Key>
+      <Value>restituisce la carica di energia corrente che lo slot occupante sta tenendo come un rapporto tra 0 e 1 della sua massima</Value>
     </Record>
     <Record>
       <Key>AppearanceButtonRandomize</Key>
