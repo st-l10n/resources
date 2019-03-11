@@ -4988,6 +4988,38 @@ Temperatura {1}</Value>
       <Value>DEPRECATO</Value>
     </Record>
     <Record>
+      <Key>LogicTypeHorizontalRatio</Key>
+      <Value>Radio di impostazione orizzontale per il dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVerticalRatio</Key>
+      <Value>Radio di impostazione verticale per il dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePowerRequired</Key>
+      <Value>Alimentazione richiesta dal dispositivo e/o dalla rete</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeIdle</Key>
+      <Value>Restituisce 1 se il dispositivo è attualmente inattivo, altrimenti 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeColor</Key>
+      <Value>L&apos;impostazione del colore per il dispositivo, rappresentata come un numero intero</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeElevatorSpeed</Key>
+      <Value>Velocità attuale dell&apos;ascensore</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeElevatorLevel</Key>
+      <Value>Livello attuale dell&apos;ascensore a</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRecipeHash</Key>
+      <Value>Hash corrente della ricetta che il dispositivo è impostato per produrre</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeExportSlotHash</Key>
       <Value>DEPRECATO</Value>
     </Record>
@@ -5058,6 +5090,14 @@ Temperatura {1}</Value>
     <Record>
       <Key>LogicTypePlantHash4</Key>
       <Value>DEPRECATO</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRequestHash</Key>
+      <Value>Quando impostato sull&apos;identificatore univoco, richiedi un oggetto del tipo fornito dal dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeCompletionRatio</Key>
+      <Value>Quanto sia completa la produzione per questo dispositivo, tra 0 e 1</Value>
     </Record>
     <Record>
       <Key>LogicTypeClearMemory</Key>
@@ -5186,6 +5226,14 @@ Temperatura {1}</Value>
     <Record>
       <Key>LogicSlotTypeGrowth</Key>
       <Value>restituisce lo stato della crescita della pianta nello slot</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePressure</Key>
+      <Value>restituisce la pressione dell&apos;atmosfera interna degli slot occupati</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeTemperature</Key>
+      <Value>restituisce la temperatura dell&apos;atmosfera interna degli slot occupati</Value>
     </Record>
     <Record>
       <Key>AppearanceButtonRandomize</Key>
