@@ -4271,7 +4271,7 @@ Per cui esci là fuori, Stationeer !</Value>
     </Record>
     <Record>
       <Key>WaitingTitle</Key>
-      <Value>Attenzione !</Value>
+      <Value>Avviso di salvataggio</Value>
     </Record>
     <Record>
       <Key>WaitingBody</Key>
@@ -5372,12 +5372,36 @@ Temperatura {1}</Value>
       <Value>restituisce la carica di energia corrente che lo slot occupante sta tenendo come un rapporto tra 0 e 1 della sua massima</Value>
     </Record>
     <Record>
+      <Key>LogicSlotTypeClass</Key>
+      <Value>restituisce il numero intero che rappresenta la classe di oggetto</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePressureWaste</Key>
+      <Value>restituisce la pressione nel serbatoio di scarico del jetpack in questo slot</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePressureAir</Key>
+      <Value>restituisce la pressione nel serbatoio dell&apos;aria del jetpack in questo slot</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeMaxQuantity</Key>
+      <Value>restituisce la dimensione massima dello stack dell&apos;elemento nello slot</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePrefabHash</Key>
+      <Value>restituisce l&apos;hash della struttura nello slot</Value>
+    </Record>
+    <Record>
       <Key>AppearanceButtonRandomize</Key>
       <Value>Randomizza</Value>
     </Record>
     <Record>
       <Key>SettingsP2PHostEnabled</Key>
-      <Value>Abilita UPNP</Value>
+      <Value>Abilita P2PHost</Value>
+    </Record>
+    <Record>
+      <Key>SettingsP2PHostNote</Key>
+      <Value>Se P2PHost è abilitato, Stationeers utilizzerà il relè di pacchetti di Steam in modo da poter giocare con il tuo amico sotto NAT o VPN. Non è compatibile con TCP/IP e forza la mancata pubblicizzazione del server.</Value>
     </Record>
     <Record>
       <Key>SettingsSavePath</Key>
