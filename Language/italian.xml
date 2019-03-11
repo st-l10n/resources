@@ -4980,8 +4980,116 @@ Temperatura {1}</Value>
       <Value>1 se il dispositivo è aperto, altrimenti 0</Value>
     </Record>
     <Record>
+      <Key>LogicTypeImportSlotOccupant</Key>
+      <Value>DEPRECATO</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeExportSlotOccupant</Key>
+      <Value>DEPRECATO</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeExportSlotHash</Key>
+      <Value>DEPRECATO</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportSlotHash</Key>
+      <Value>DEPRECATO</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHealth1</Key>
+      <Value>DEPRECATO</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHealth2</Key>
+      <Value>DEPRECATO</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHealth3</Key>
+      <Value>DEPRECATO</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHealth4</Key>
+      <Value>DEPRECATO</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantGrowth1</Key>
+      <Value>DEPRECATO</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantGrowth2</Key>
+      <Value>DEPRECATO</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantGrowth3</Key>
+      <Value>DEPRECATO</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantGrowth4</Key>
+      <Value>DEPRECATO</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantEfficiency1</Key>
+      <Value>DEPRECATO</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantEfficiency2</Key>
+      <Value>DEPRECATO</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantEfficiency3</Key>
+      <Value>DEPRECATO</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantEfficiency4</Key>
+      <Value>DEPRECATO</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHash1</Key>
+      <Value>DEPRECATO</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHash2</Key>
+      <Value>DEPRECATO</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHash3</Key>
+      <Value>DEPRECATO</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHash4</Key>
+      <Value>DEPRECATO</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeClearMemory</Key>
+      <Value>Se impostato su 1, cancella la memoria del contatore (ad esempio ExportCount). Si imposterà di nuovo a 0 quando azionato</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeExportCount</Key>
-      <Value>Numero di oggetti esportati dall&apos;ultimo ClearMemory</Value>
+      <Value>Quanti elementi sono esportati dall&apos;ultima ClearMemory</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportCount</Key>
+      <Value>Quanti elementi sono importati dall&apos;ultima ClearMemory</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePowerGeneration</Key>
+      <Value>Restituisce la quantità di energia generata</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTotalMoles</Key>
+      <Value>Restituisce le moli totali del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVolume</Key>
+      <Value>Restituisce il volume dell&apos;atmosfera del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlant</Key>
+      <Value>Esegue l&apos;azione di semina per qualsiasi macchinario per vegetali</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeHarvest</Key>
+      <Value>Esegue l&apos;azione di raccolta per qualsiasi macchinario per vegetali</Value>
     </Record>
     <Record>
       <Key>LogicTypeOutput</Key>
