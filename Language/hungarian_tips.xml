@@ -20,5 +20,8 @@
     <String>Egy árammal ellátott {THING:StructureArcFurnace}ba helyezz egy adag {THING:ItemIronOre}-t, hogy {THING:ItemIronIngot} készülhessen belőle.</String>
     <String>A logikák vezérléséhez helyett egy {THING:MotherboardLogic}-t a {THING:StructureComputer}be. Ezzel feltételeket és műveleteket adhatsz meg, amelyekkel vezérelheted az azonos hálózaton levő eszközöket.</String>
     <String>Ha éppen módosítod valaminek a mennyiségét, a(z) {KEY:QuantityModifier} lenyomásával kisebb mértékben tudsz lépkedni.</String>
+    <String>{THING:ItemKitLogicInputOutput} használatával készíthető {THING:StructureLogicReader} vagy {THING:StructureLogicWriter}. Az olvasók értékeket nyernek ki az eszközökből, az írók pedig az értékeket meg tudják változtatni. Ezeket számoló egységekkel kombinálva komplex automatikákat lehet létrehozni.</String>
+    <String>{THING:ItemKitLogicInputOutput} használatával készíthető {THING:StructureLogicBatchReader} vagy {THING:StructureLogicBatchWriter}. Az olvasók képesek értékeket kinyerni egy eszközökből álló csoportból, az írók pedig ezeknek a csoportoknak az értékeit írják.</String>
+    <String>{THING:ItemKitLogicInputOutput} használatával {THING:StructureLogicSlotReader} készíthető, amivel értékeket olvashatsz le az eszközök slotjairól. Néhány eszköz speciális értékekeket ad vissza, mint például a növények érettsége a {THING:StructureHydroponicsStation} egyik slotjában.</String>
   </GameTip>
 </Language>
