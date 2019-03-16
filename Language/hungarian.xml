@@ -5337,6 +5337,10 @@ Hőmérséklet {1}</Value>
       <Value>Elvégzi a betakarítási műveletet bármely növényi gépen</Value>
     </Record>
     <Record>
+      <Key>LogicTypeOutput</Key>
+      <Value>A kimenő folymata az adott rendező eszköznek, például a halmozó vagy a szortírozó, amikor az eszköz logikai módja csak egy ismétlést végez, ha nullára állítja vagy felé, majd -1-re és utasításokra vár</Value>
+    </Record>
+    <Record>
       <Key>LogicTypePressureSetting</Key>
       <Value>Az aktuális tárgy belső nyomásának beállítása (pl.: nehézűrruha levegője), KPa-ban</Value>
     </Record>
