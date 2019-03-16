@@ -4355,6 +4355,10 @@ Válts &lt;color=red&gt;görgővel&lt;/color&gt; az opciók között.</Value>
       <Value>Mentés figyelmeztetés</Value>
     </Record>
     <Record>
+      <Key>WaitingBody</Key>
+      <Value>Még mindig mentődik a világ. Próbáld meg később.</Value>
+    </Record>
+    <Record>
       <Key>PromptQuitTitle</Key>
       <Value>Kilépés a Stationeersből</Value>
     </Record>
@@ -4714,6 +4718,14 @@ Próbáld újra.</Value>
     <Record>
       <Key>NewWorldAreaCustom</Key>
       <Value>Egyéni</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoonDesc</Key>
+      <Value>Hát, a Holdon ragadtál, de nincs semmi gáz.
+Jó, egy kicsit hideg van, a táj durvas és monoton, de legalább süt a Nap. A napelemeknek jó hasznát veheted. Meg az áramszabályozóknak... és talán az elektromos kemencéknek is.
+Még egy kis kaja és oxigén is van a többi ládában, bár valószínűleg nem fog örökké kitartani. Az elemeid sem.
+Jobb, ha elkezdesz azon gondolkozni, hogyan élj túl. Milyen nehéz lehet légzsilipet építeni? Egy generátort? Talán még érceket is lehetne olvasztani egy bázis építéséhez?
+Úgy néz ki itt leszel egy darabig.</Value>
     </Record>
     <Record>
       <Key>NewWorldSpaceDesc</Key>
@@ -5459,6 +5471,10 @@ Hőmérséklet {1}</Value>
     <Record>
       <Key>LogicSlotTypeTemperature</Key>
       <Value>visszaadja a slotban levő dolog belső hőmérékletét</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeCharge</Key>
+      <Value>visszaadja a jelenlegi töltöttségét a slotban levő dolognak</Value>
     </Record>
     <Record>
       <Key>AppearanceButtonRandomize</Key>
