@@ -5498,6 +5498,30 @@ Hőmérséklet {1}</Value>
       <Value>visszaadja a jelenlegi töltöttségét a slotban levő dolognak</Value>
     </Record>
     <Record>
+      <Key>LogicSlotTypeChargeRatio</Key>
+      <Value>visszaadja a jelenlegi töltöttségét a slotban levő dolopgnak egy 0 és egy 1 közötti arányként</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeClass</Key>
+      <Value>visszaad egy egész számot, ami az objektum oszályát jelöli</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePressureWaste</Key>
+      <Value>visszaadja a selejtes tartály nyomását, ami a ruha slotjában van</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePressureAir</Key>
+      <Value>visszaadja a levegő tartály nyomását, ami a ruha slotjában van</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeMaxQuantity</Key>
+      <Value>visszaadja a slotban levő tárgy maximális stack-méretét</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePrefabHash</Key>
+      <Value>visszaadja a struktúra hash-ét a slotban</Value>
+    </Record>
+    <Record>
       <Key>AppearanceButtonRandomize</Key>
       <Value>Véletlenszerű</Value>
     </Record>
