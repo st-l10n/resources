@@ -1711,14 +1711,6 @@
       <Value>Szortírozó</Value>
     </Record>
     <Record>
-      <Key>StructureStacker</Key>
-      <Value>Stack-rendező</Value>
-    </Record>
-    <Record>
-      <Key>StructureStackerReverse</Key>
-      <Value>Stack-rendező</Value>
-    </Record>
-    <Record>
       <Key>StructureStairs4x2</Key>
       <Value>Lépcső</Value>
     </Record>
@@ -2112,7 +2104,7 @@
     </Record>
     <Record>
       <Key>ItemKitStacker</Key>
-      <Value>Készlet (Stack-rendező)</Value>
+      <Value>Készlet (Stacker)</Value>
     </Record>
     <Record>
       <Key>CartridgeTracker</Key>
@@ -5391,7 +5383,7 @@ Hőmérséklet {1}</Value>
     </Record>
     <Record>
       <Key>LogicTypeOutput</Key>
-      <Value>A kimenő folymata az adott rendező eszköznek, például a halmozó vagy a szortírozó, amikor az eszköz logikai módja csak egy ismétlést végez, ha nullára állítja vagy felé, majd -1-re és utasításokra vár</Value>
+      <Value>A kimenő folymata az adott rendező eszköznek, például a stacker vagy a szortírozó, amikor az eszköz logikai módja csak egy ismétlést végez, ha nullára állítja vagy felé, majd -1-re és utasításokra vár</Value>
     </Record>
     <Record>
       <Key>LogicTypePressureSetting</Key>
