@@ -5153,12 +5153,24 @@ Sıcaklık {1}</Value>
       <Value>Son ClearMemory&apos;den bu yana kaç adet ürün çıkarıldı</Value>
     </Record>
     <Record>
+      <Key>LogicTypePrefabHash</Key>
+      <Value>Yapının hash değeri</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeForceWrite</Key>
+      <Value>Değerleri yeniden yazması için Mantık Yazıcı cihazlarını zorlar</Value>
+    </Record>
+    <Record>
       <Key>LogicSlotTypeNone</Key>
       <Value>Açıklama yok</Value>
     </Record>
     <Record>
+      <Key>LogicSlotTypeOccupied</Key>
+      <Value>yuva dolu değil ise 0, dolu ise 1 döndürür</Value>
+    </Record>
+    <Record>
       <Key>LogicSlotTypeOccupantHash</Key>
-      <Value>mevcut yer işgal eden şeyin hash bilgisini, benzersiz tanıtıcısını döndürür</Value>
+      <Value>mevcut yer işgal eden şeyin hash değeri, benzersiz tanıtıcısını döndürür</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeQuantity</Key>
@@ -5174,7 +5186,7 @@ Sıcaklık {1}</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeMature</Key>
-      <Value>bu yuvadaki bitki olgun ise 1&apos;i, değil ise 0&apos;ı döndürür</Value>
+      <Value>bu yuvadaki bitki olgun ise 1, değil ise 0 döndürür</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeHealth</Key>
