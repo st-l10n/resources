@@ -5157,16 +5157,20 @@ Sıcaklık {1}</Value>
       <Value>Açıklama yok</Value>
     </Record>
     <Record>
+      <Key>LogicSlotTypeEfficiency</Key>
+      <Value>yuvadaki bitkinin büyüme verimliliğini döndürür</Value>
+    </Record>
+    <Record>
       <Key>LogicSlotTypeMature</Key>
-      <Value>bu yuvadaki bitki olgun ise 1&apos;i, değil ise 0&apos;ı verir</Value>
+      <Value>bu yuvadaki bitki olgun ise 1&apos;i, değil ise 0&apos;ı döndürür</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeHealth</Key>
-      <Value>yuvadaki bitkinin sağlığını verir</Value>
+      <Value>yuvadaki bitkinin sağlığını döndürür</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeGrowth</Key>
-      <Value>yuvadaki mevcut büyüme durumunu verir</Value>
+      <Value>yuvadaki mevcut büyüme durumunu döndürür</Value>
     </Record>
     <Record>
       <Key>SettingsP2PHostEnabled</Key>
