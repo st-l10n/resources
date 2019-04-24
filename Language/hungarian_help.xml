@@ -122,7 +122,7 @@ Az itt található eszközöket használhatod egy légzsilip rendszer elkészít
     <StationpediaPage>
       <Key>FabricatorPage</Key>
       <Title>Gyártógépek</Title>
-      <Text>Ezek az árammal ellátott masinák gyártják le az összes játékbeli tárgyat. Legtöbb esetbed {LINK:IngotPage;öntött fémrudakkal} láthatod el {LINK:ReagentPage;alapanyaggal}, hogy képesek legyenek gyártani.
+      <Text>Ezek az árammal ellátott masinák gyártják le az összes játékbeli tárgyat. Legtöbb esetben {LINK:IngotPage;öntött fémrudak} kellenek, hogy a gépeket a gyártáshoz elegendő {LINK:ReagentPage;reagenssel}  lásd el.
 
 {HEADER:Gyártógépek listája}
 {LIST_OF_FABRICATORS}</Text>
@@ -138,7 +138,7 @@ Az itt található eszközöket használhatod egy légzsilip rendszer elkészít
     <StationpediaPage>
       <Key>SmeltingPage</Key>
       <Title>Beolvasztás</Title>
-      <Text>Ha szereztél {LINK:OrePage;érceket}, {LINK:IngotPage;rudakká} kell olvasztanod őket, hogy {LINK:ReagentPage;alapanyagként} használhasd őket. A beolvasztás gyakran jár {LINK:GasPage;gázok} kibocsátásával. Ehhez szükség van a(z) {THING:StructureArcFurnace}ra (egyszerűbb dolgokhoz) vagy a {THING:StructureFurnace} használatával {LINK:AlloyPage;ötvözeteket} állíthatsz elő. Ezeknél figyelni kell a tökéletes arányra, a megfelelő {LINK:TemperaturePage;hőmérsékletre} és a {LINK:PressurePage;nyomásra}.</Text>
+      <Text>Ha szereztél {LINK:OrePage;érceket}, {LINK:IngotPage;rudakká} kell olvasztanod őket, hogy {LINK:ReagentPage;reagensként} használhasd őket. A beolvasztás gyakran jár {LINK:GasPage;gázok} kibocsátásával. Ehhez szükség van a(z) {THING:StructureArcFurnace}ra (egyszerűbb dolgokhoz) vagy a {THING:StructureFurnace} használatával {LINK:AlloyPage;ötvözeteket} állíthatsz elő. Ezeknél figyelni kell a tökéletes arányra, a megfelelő {LINK:TemperaturePage;hőmérsékletre} és a {LINK:PressurePage;nyomásra}.</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>MiningPage</Key>
@@ -159,9 +159,9 @@ Ha közvetlenül ránézel az építés alatt levő tárgyra, a befejezéshez sz
     </StationpediaPage>
     <StationpediaPage>
       <Key>ReagentPage</Key>
-      <Title>Alapanyagok</Title>
+      <Title>Reagensek</Title>
       <Text>Különféle kémiai anyagok egyes típusai.
-{HEADER:Alapanyagok listája}
+{HEADER:Reagensek listája}
 {LIST_OF_REAGENTS}</Text>
     </StationpediaPage>
     <StationpediaPage>
@@ -175,7 +175,7 @@ Ha közvetlenül ránézel az építés alatt levő tárgyra, a befejezéshez sz
     <StationpediaPage>
       <Key>AlloyPage</Key>
       <Title>Ötvözetek</Title>
-      <Text>A {THING:StructureFurnace} segítsélgével készíthetők el {LINK:ReagentPage;alapanyag} keverékekből. Az ötvözetek {LINK:IngotPage;kiöntött rudak}, amiket a {LINK:FabricatorPage;gyártógépekben} használhatsz. A {THING:StructureArcFurnace} nem alkalmas ezeknek az elkészítésére.
+      <Text>A {THING:StructureFurnace} segítségével készíthetők el {LINK:ReagentPage;reagens} keverékekből. Az ötvözetek {LINK:IngotPage;kiöntött rudak}, amiket a {LINK:FabricatorPage;gyártógépekben} használhatsz. A {THING:StructureArcFurnace} nem alkalmas ezeknek az elkészítésére.
 
 {HEADER:Ötvözetek listája}
 {LIST_OF_ALLOYS}</Text>
@@ -322,12 +322,12 @@ Olvadási nyomás {POS:300}{0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>CreatedReagentTemplate</Key>
-      <Text>{HEADER:Alapanyagok}
+      <Text>{HEADER:Reagensek}
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ReagentPageTemplate</Key>
-      <Text>Egy {LINK:ReagentPage;alapanyag}, leginkább {LINK:IngotPage;öntött rúd} formában használható.
+      <Text>Egy {LINK:ReagentPage;reagens}, leginkább {LINK:IngotPage;öntött rúd} formában használható.
 
 {HEADER:Általános}
 {LIST}Egység {POS:300}{1}{/LIST}
