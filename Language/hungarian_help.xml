@@ -24,7 +24,7 @@ A {KEY:MouseControl} és a {KEY:MouseInspect} gomb egy időben való lenyomásá
 {LIST}{LINK:GettingStarted;Első lépések}
 {/LIST}
 {HEADER:Egyéb}
-{LIST}{LINK:GasPage;Gázok}, {LINK:ReagentPage;Alapanyagok}
+{LIST}{LINK:GasPage;Gázok}, {LINK:ReagentPage;Reagensek}
 {/LIST}
 {HEADER:Tárgyak}
 {LIST}{LINK:ToolPage;Eszközök}, {LINK:ResourcePage;Erőforrások}, {LINK:KitPage;Készletek}, {LINK:FoodPage;Élelmiszer}, {LINK:ClothingPage;Öltözet}, {LINK:AppliancePage;Készülékek}, {LINK:IngotPage;Öntvények}, {LINK:OrePage;Ércek}, {LINK:AlloyPage;Ötvözetek}
@@ -67,7 +67,7 @@ Miután meglett a hermetikus zárt helyiséged {LINK:MiningPage;bányássz} egy 
 Az előre biztosított {THING:DynamicHydroponics} használatával elkezdheted a termelést az új üvegházadban. Az eszközön a {THING:ItemGasCanisterWater} látja el vízzel a növényket. Most ültess el egy a kezdő ládában is megtalálható {THING:ItemPotato}t. Először csak egyet ültess el, hogy ellenőrizhesd a megfelelő növekedést. A túléléshez csupán hőre, napfényre és egy kis {GAS:CarbonDioxide}-ra van szükségük.
 
 {HEADER:Haladó beolvasztás}
-A {THING:StructureArcFurnace} csak alapvető {LINK:OrePage;ércek} beolvasztására alkalmas. {LINK:AlloyPage;Ötvözetek} létrehozása a {THING:StructureFurnace} használatával mehet végbe, mégpedig nagyon speciális körülmények között. A megfelelő anyag létrehozásához három dologra kell figyelni: {LINK:PressurePage;nyomás}, {LINK:TemperaturePage;hőmérséklet} és az {LINK:ReagentPage;alapanyagok} keverési aránya. Például {THING:ItemSteelIngot} létrehozásához a {REAGENT:Iron}  és a {REAGENT:Coal} 3 az 1-hez arányú keveréke szükséges.
+A {THING:StructureArcFurnace} csak alapvető {LINK:OrePage;ércek} beolvasztására alkalmas. {LINK:AlloyPage;Ötvözetek} létrehozása a {THING:StructureFurnace} használatával mehet végbe, mégpedig nagyon speciális körülmények között. A megfelelő anyag létrehozásához három dologra kell figyelni: {LINK:PressurePage;nyomás}, {LINK:TemperaturePage;hőmérséklet} és a {LINK:ReagentPage;reagensek} keverési aránya. Például {THING:ItemSteelIngot} létrehozásához a {REAGENT:Iron}  és a {REAGENT:Coal} 3 az 1-hez arányú keveréke szükséges.
 
 A felső nyílába közvetlenül tudsz {LINK:IcePage;jeget} helyezni. Ha nincs atmoszféra, ami megindítaná az olvadást, nyomd meg a {LOGICTYPE:Activate} gombot, ami összetöri a jeget és ezzel beindítja az olvadást. A jég magától elolvad, ha van elég gáz a levegőben. {THING:ItemOxite} és {THING:ItemVolatiles} keverékével tudsz egyszerűen tüzet csiholni a kohóban, de vigyázz, ez rendkívül megnöveli a belső nyomást!
 
