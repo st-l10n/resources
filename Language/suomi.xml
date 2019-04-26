@@ -4933,6 +4933,10 @@ Lämpötila {1}</Value>
       <Value>Skenario Suoritettu</Value>
     </Record>
     <Record>
+      <Key>ButtonLoad</Key>
+      <Value>Lataa</Value>
+    </Record>
+    <Record>
       <Key>SettingsEnableClouds</Key>
       <Value>Automaattinen Tallennus</Value>
     </Record>
@@ -4950,23 +4954,39 @@ Lämpötila {1}</Value>
     </Record>
     <Record>
       <Key>NewWorldGameMode</Key>
-      <Value>Pelin Portti</Value>
+      <Value>Pelin portti</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldGravity</Key>
+      <Value>Painovoima</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldTemperature</Key>
+      <Value>Lämpötila</Value>
     </Record>
     <Record>
       <Key>NewWorldPressure</Key>
-      <Value>Esiasetus</Value>
+      <Value>Paineen esiasetus</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldSolarEnergy</Key>
+      <Value>Aurinkoenergia</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldSolarAngle</Key>
+      <Value>Auringon kulma</Value>
     </Record>
     <Record>
       <Key>SettingsMenuAppearance</Key>
-      <Value>Muokkaa Ulkonäköä</Value>
+      <Value>Muokkaa ulkonäköä</Value>
     </Record>
     <Record>
       <Key>SettingsUserSpeakerMode</Key>
-      <Value>Tila</Value>
+      <Value>Kaiuttimen tila:</Value>
     </Record>
     <Record>
       <Key>LogicTypeNone</Key>
-      <Value>Kuvaus</Value>
+      <Value>Ei kuvausta</Value>
     </Record>
     <Record>
       <Key>LogicTypeCharge</Key>
@@ -4982,11 +5002,19 @@ Lämpötila {1}</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeNone</Key>
-      <Value>Kuvaus</Value>
+      <Value>Ei kuvausta</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceButtonRandomize</Key>
+      <Value>Satunnaista</Value>
     </Record>
     <Record>
       <Key>SettingsP2PHostEnabled</Key>
       <Value>Käynnistä P2PHost</Value>
+    </Record>
+    <Record>
+      <Key>SettingsP2PHostNote</Key>
+      <Value>Mikäli P2PHost on käynnissä, Stationeers käyttää Steamin pakettidataa niin, että voit pelata ystäväsi kanssa NAT:in tai VPN:n kautta. Huom. ei yhteensopiva TCP/IP:n kanssa.</Value>
     </Record>
     <Record>
       <Key>SettingsSavePath</Key>
@@ -5087,6 +5115,10 @@ Lämpötila {1}</Value>
     <Record>
       <Key>Dollar</Key>
       <Value>$</Value>
+    </Record>
+    <Record>
+      <Key>Percent</Key>
+      <Value>%</Value>
     </Record>
     <Record>
       <Key>Ampersand</Key>
