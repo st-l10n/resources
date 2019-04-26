@@ -4455,14 +4455,13 @@ Vieritä &lt;color=red&gt;hiirtä&lt;/color&gt; selataksesi vaihtoehtoja.</Value
     </Record>
     <Record>
       <Key>AlertNoResponse</Key>
-      <Value>    
-        Palvelin ei vastaa.      
-        Ole hyvä ja kokeile uudestaan.
+      <Value>Palvelin ei vastaa.
+Ole hyvä ja kokeile uudestaan.
       </Value>
     </Record>
     <Record>
       <Key>AlertKicked</Key>
-      <Value>Sinut on potkittu palvelimelta.</Value>
+      <Value>Sinut on potkittu pois palvelimelta.</Value>
     </Record>
     <Record>
       <Key>AlertWrongPassword</Key>
@@ -4486,7 +4485,7 @@ Vieritä &lt;color=red&gt;hiirtä&lt;/color&gt; selataksesi vaihtoehtoja.</Value
     </Record>
     <Record>
       <Key>AlertTitlePleaseWait</Key>
-      <Value>Odota Hetki...</Value>
+      <Value>Odota hetki...</Value>
     </Record>
     <Record>
       <Key>TooltipNeedMoreKit</Key>
@@ -4494,23 +4493,23 @@ Vieritä &lt;color=red&gt;hiirtä&lt;/color&gt; selataksesi vaihtoehtoja.</Value
     </Record>
     <Record>
       <Key>JoinMenuSearchPlaceholder</Key>
-      <Value>Hae Palvelinta Nimellä</Value>
+      <Value>Hae palvelimen nimellä</Value>
     </Record>
     <Record>
       <Key>JoinMenuAddressPlaceholder</Key>
-      <Value>Syötä IP:Portti</Value>
+      <Value>Syötä IP:portti</Value>
     </Record>
     <Record>
       <Key>JoinMenuServerDetailConnectButton</Key>
-      <Value>Liity Maailmaan</Value>
+      <Value>Liity maailmaan</Value>
     </Record>
     <Record>
       <Key>JoinMenuServerDetailInfoButton</Key>
-      <Value>Näytä Tiedot</Value>
+      <Value>Näytä tiedot</Value>
     </Record>
     <Record>
       <Key>JoinMenuServerDetailUnFavoriteButton</Key>
-      <Value>Poista Suosikki</Value>
+      <Value>Poista suosikki</Value>
     </Record>
     <Record>
       <Key>JoinMenuServerDetailFavoriteButton</Key>
@@ -4518,7 +4517,7 @@ Vieritä &lt;color=red&gt;hiirtä&lt;/color&gt; selataksesi vaihtoehtoja.</Value
     </Record>
     <Record>
       <Key>SaveMenuSaveWorldButton</Key>
-      <Value>Tallenna Maailma</Value>
+      <Value>Tallenna maailma</Value>
     </Record>
     <Record>
       <Key>SaveMenuOverwriteButton</Key>
@@ -4526,15 +4525,7 @@ Vieritä &lt;color=red&gt;hiirtä&lt;/color&gt; selataksesi vaihtoehtoja.</Value
     </Record>
     <Record>
       <Key>SaveMenuNamePlaceholder</Key>
-      <Value>Nimeä Tallennus...</Value>
-    </Record>
-    <Record>
-      <Key>NewWorldModeCreative</Key>
-      <Value>Luova</Value>
-    </Record>
-    <Record>
-      <Key>NewWorldModeSurvival</Key>
-      <Value>Eloonjääminen</Value>
+      <Value>Nimeä tallennus...</Value>
     </Record>
     <Record>
       <Key>JoinMenuServerListMap</Key>
@@ -4542,7 +4533,7 @@ Vieritä &lt;color=red&gt;hiirtä&lt;/color&gt; selataksesi vaihtoehtoja.</Value
     </Record>
     <Record>
       <Key>JoinMenuInfoIPAddress</Key>
-      <Value>IP Osoite:</Value>
+      <Value>IP-osoite:</Value>
     </Record>
     <Record>
       <Key>JoinMenuInfoMap</Key>
@@ -4562,7 +4553,7 @@ Vieritä &lt;color=red&gt;hiirtä&lt;/color&gt; selataksesi vaihtoehtoja.</Value
     </Record>
     <Record>
       <Key>ChangeAppearanceTitle</Key>
-      <Value>Muokkaa Ulkonäköä</Value>
+      <Value>Muokkaa ulkonäköä</Value>
     </Record>
     <Record>
       <Key>AppearanceTitleGender</Key>
@@ -4578,11 +4569,11 @@ Vieritä &lt;color=red&gt;hiirtä&lt;/color&gt; selataksesi vaihtoehtoja.</Value
     </Record>
     <Record>
       <Key>AppearanceTitleHairColor</Key>
-      <Value>Hiusten Väri</Value>
+      <Value>Hiusten väri</Value>
     </Record>
     <Record>
       <Key>AppearanceTitleEyeColor</Key>
-      <Value>Silmien Väri</Value>
+      <Value>Silmien väri</Value>
     </Record>
     <Record>
       <Key>AppearanceTitleSkinColor</Key>
@@ -4976,6 +4967,10 @@ Lämpötila {1}</Value>
     <Record>
       <Key>LogicTypeCharge</Key>
       <Value>Laitteen nykyinen varaustaso</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeOn</Key>
+      <Value>Laitteen nykyinen status, 0 pois päältä, 1 päällä.</Value>
     </Record>
     <Record>
       <Key>LogicTypePowerRequired</Key>
