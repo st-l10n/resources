@@ -4029,7 +4029,7 @@
     </Record>
     <Record>
       <Key>SettingsShadowResolution</Key>
-      <Value>Varjojen Resoluutio</Value>
+      <Value>Varjojen resoluutio</Value>
     </Record>
     <Record>
       <Key>SettingsShadowDistamce</Key>
@@ -4330,12 +4330,20 @@ Vieritä &lt;color=red&gt;hiirtä&lt;/color&gt; selataksesi vaihtoehtoja.</Value
       <Value>Palauta</Value>
     </Record>
     <Record>
+      <Key>SteamErrorTitle</Key>
+      <Value>Steam-virhe</Value>
+    </Record>
+    <Record>
       <Key>SteamErrorButton</Key>
       <Value>Lopeta</Value>
     </Record>
     <Record>
       <Key>WaitingTitle</Key>
-      <Value>Varoitus</Value>
+      <Value>Tallennusvaroitus</Value>
+    </Record>
+    <Record>
+      <Key>WaitingBody</Key>
+      <Value>Tallentaa maailmaa. Yritä uudelleen, kun tallennus päättyy.</Value>
     </Record>
     <Record>
       <Key>PromptQuitTitle</Key>
@@ -4350,12 +4358,24 @@ Vieritä &lt;color=red&gt;hiirtä&lt;/color&gt; selataksesi vaihtoehtoja.</Value
       <Value>Lopeta</Value>
     </Record>
     <Record>
+      <Key>PromptUnsubscribeTitle</Key>
+      <Value>Lopeta tilaaminen</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeBody</Key>
+      <Value>Oletko varma, että haluat lopettaa tämän Workshop itemin tilaamisen?</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeConfirm</Key>
+      <Value>Lopeta tilaaminen</Value>
+    </Record>
+    <Record>
       <Key>PromptOverwriteTitle</Key>
       <Value>Korvaa</Value>
     </Record>
     <Record>
       <Key>PromptOverwriteBody</Key>
-      <Value>Halutako varmasti korvata olemassaolevan maailman?</Value>
+      <Value>Haluatko varmasti korvata olemassaolevan maailman?</Value>
     </Record>
     <Record>
       <Key>PromptOverwriteConfirm</Key>
@@ -4363,11 +4383,11 @@ Vieritä &lt;color=red&gt;hiirtä&lt;/color&gt; selataksesi vaihtoehtoja.</Value
     </Record>
     <Record>
       <Key>PromptPublishTitle</Key>
-      <Value>Julkaise Workshopiin</Value>
+      <Value>Julkaise Workshopissa</Value>
     </Record>
     <Record>
       <Key>PromptPublishBody</Key>
-      <Value>Haluatko varmasti julkaista tämän maailman Workshopiin?</Value>
+      <Value>Haluatko varmasti julkaista tämän maailman Workshopissa?</Value>
     </Record>
     <Record>
       <Key>PromptPublishConfirm</Key>
@@ -4375,7 +4395,7 @@ Vieritä &lt;color=red&gt;hiirtä&lt;/color&gt; selataksesi vaihtoehtoja.</Value
     </Record>
     <Record>
       <Key>PromptDeleteTitle</Key>
-      <Value>Poista Tallennus</Value>
+      <Value>Poista tallennus</Value>
     </Record>
     <Record>
       <Key>PromptDeleteBody</Key>
@@ -4387,7 +4407,7 @@ Vieritä &lt;color=red&gt;hiirtä&lt;/color&gt; selataksesi vaihtoehtoja.</Value
     </Record>
     <Record>
       <Key>PromptDebugLoadTitle</Key>
-      <Value>Debug Lataus</Value>
+      <Value>Debug-lataus</Value>
     </Record>
     <Record>
       <Key>PromptDebugLoadBody</Key>
@@ -4395,27 +4415,27 @@ Vieritä &lt;color=red&gt;hiirtä&lt;/color&gt; selataksesi vaihtoehtoja.</Value
     </Record>
     <Record>
       <Key>PromptDebugLoadConfirm</Key>
-      <Value>Debug Lataus</Value>
+      <Value>Debug-lataus</Value>
     </Record>
     <Record>
       <Key>PromptRespawnTitle</Key>
-      <Value>Herää Henkiin</Value>
+      <Value>Herätä henkiin</Value>
     </Record>
     <Record>
       <Key>PromptRespawnBody</Key>
-      <Value>Kuolit.</Value>
+      <Value>Sinä kuolit.</Value>
     </Record>
     <Record>
       <Key>PromptRespawnConfirm</Key>
-      <Value>Herää</Value>
+      <Value>Herätä henkiin</Value>
     </Record>
     <Record>
       <Key>PromptGiveUpTitle</Key>
-      <Value>LUOVUTA</Value>
+      <Value>Luovuta</Value>
     </Record>
     <Record>
       <Key>PromptGiveUpBody</Key>
-      <Value>Olet tajuton. Haluatko luovuttaa ja herätä uudelleen?</Value>
+      <Value>Olet tajuton. Haluatko luovuttaa ja herätä uudelleen henkiin?</Value>
     </Record>
     <Record>
       <Key>PromptGiveUpConfirm</Key>
@@ -4423,7 +4443,7 @@ Vieritä &lt;color=red&gt;hiirtä&lt;/color&gt; selataksesi vaihtoehtoja.</Value
     </Record>
     <Record>
       <Key>AlertInvalidIP</Key>
-      <Value>Väärä IP Osoite {0} \nTarkista että IP Osoite tai URL on oikein</Value>
+      <Value>Väärä IP-osoite {0} \nTarkista että IP-osoite tai URL on oikein</Value>
     </Record>
     <Record>
       <Key>AlertPlayerCountExceeded</Key>
