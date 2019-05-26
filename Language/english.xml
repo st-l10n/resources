@@ -4964,6 +4964,14 @@ Just don't be sad when you blow yourself into tiny, tiny little pieces or get sa
       <Value>Mouse Wheel Zoom</Value>
     </Record>
     <Record>
+      <Key>TradingNoMoneyHash</Key>
+      <Value>There is not have enough money to complete this trade!</Value>
+    </Record>
+    <Record>
+      <Key>SomethingWentWrongTrading</Key>
+      <Value>Something went wrong when processing the trade, did something leave the vendor!</Value>
+    </Record>
+    <Record>
       <Key>GameMenuRespawn</Key>
       <Value>Respawn</Value>
     </Record>
@@ -5761,8 +5769,24 @@ Temperature {1}</Value>
       <Value>Contacts</Value>
     </Record>
     <Record>
+      <Key>ContactTradeRequest</Key>
+      <Value>A trader has requested permission for landing.</Value>
+    </Record>
+    <Record>
+      <Key>ContactNoResponse</Key>
+      <Value>There was no response</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradeRequestFail</Key>
+      <Value>Trader requesting safe landing. Please ensure landing space is clear and connected.</Value>
+    </Record>
+    <Record>
       <Key>InputTextTradingTitle</Key>
       <Value>Trading Terminal</Value>
+    </Record>
+    <Record>
+      <Key>ButtonContact</Key>
+      <Value>Contact</Value>
     </Record>
   </Interface>
   <Colors>
