@@ -3318,6 +3318,10 @@
       <Key>RoverCargo</Key>
       <Value>Rover (Cargo)</Value>
     </Record>
+    <Record>
+      <Key>ItemCreditCard</Key>
+      <Value>Credit Card</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -3511,6 +3515,10 @@
     <Record>
       <Key>ProgrammableChip</Key>
       <Value>Processor</Value>
+    </Record>
+    <Record>
+      <Key>CreditCard</Key>
+      <Value>Credit Card</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -4972,6 +4980,10 @@ Just don't be sad when you blow yourself into tiny, tiny little pieces or get sa
       <Value>Something went wrong when processing the trade, did something leave the vendor!</Value>
     </Record>
     <Record>
+      <Key>SomethingWentWrongTrading2</Key>
+      <Value>Something went wrong when processing the trade, you don't have a credit card!</Value>
+    </Record>
+    <Record>
       <Key>GameMenuRespawn</Key>
       <Value>Respawn</Value>
     </Record>
@@ -5769,12 +5781,20 @@ Temperature {1}</Value>
       <Value>Contacts</Value>
     </Record>
     <Record>
+      <Key>TraderGoneMissing</Key>
+      <Value>Seems the contact has moved on.</Value>
+    </Record>
+    <Record>
+      <Key>ContactEventDefault</Key>
+      <Value>There was no response.</Value>
+    </Record>
+    <Record>
       <Key>ContactTradeRequest</Key>
       <Value>A trader has requested permission for landing.</Value>
     </Record>
     <Record>
       <Key>ContactNoResponse</Key>
-      <Value>There was no response</Value>
+      <Value>There was no response.</Value>
     </Record>
     <Record>
       <Key>ContactTradeRequestFail</Key>
