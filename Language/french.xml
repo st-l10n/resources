@@ -5287,6 +5287,14 @@ Temperature {1}</Value>
       <Value>Force les logiques d&apos;écriture à réécrire la valeur</Value>
     </Record>
     <Record>
+      <Key>LogicTypeSignalStrength</Key>
+      <Value>Renvoie la puissance du signal le plus fort reçu de satellite</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSignalID</Key>
+      <Value>Renvoie l&apos;identification du contact avec le signal le plus fort de ce satellite</Value>
+    </Record>
+    <Record>
       <Key>LogicSlotTypeNone</Key>
       <Value>Aucune description</Value>
     </Record>
@@ -5387,16 +5395,28 @@ Temperature {1}</Value>
       <Value>Terminé</Value>
     </Record>
     <Record>
+      <Key>TraderGoneMissing</Key>
+      <Value>Le contact semble avoir poursuivi son chemin.</Value>
+    </Record>
+    <Record>
+      <Key>ContactEventDefault</Key>
+      <Value>Il n&apos;y a pas eu de réponse.</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradeRequest</Key>
+      <Value>Un marchand demande la permission d&apos;atterrir.</Value>
+    </Record>
+    <Record>
+      <Key>ContactNoResponse</Key>
+      <Value>Il n&apos;y a pas eu de réponse.</Value>
+    </Record>
+    <Record>
       <Key>ContactTradeRequestFail</Key>
       <Value>Le marchand nécessite un atterrissage sûre. Veuillez vous assurer que l’espace d’atterrissage est clair et connecté.</Value>
     </Record>
     <Record>
       <Key>InputTextTradingTitle</Key>
       <Value>Terminal de vente</Value>
-    </Record>
-    <Record>
-      <Key>ButtonContact</Key>
-      <Value>Contacts</Value>
     </Record>
   </Interface>
   <Colors>
