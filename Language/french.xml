@@ -3228,6 +3228,10 @@
       <Key>RoverCargo</Key>
       <Value>Rover (cargo)</Value>
     </Record>
+    <Record>
+      <Key>ItemCreditCard</Key>
+      <Value>Carte de crédit</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -3413,6 +3417,10 @@
     <Record>
       <Key>ProgrammableChip</Key>
       <Value>Processeur programmable</Value>
+    </Record>
+    <Record>
+      <Key>CreditCard</Key>
+      <Value>Carte de crédit</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -4682,6 +4690,18 @@ Ne soyez pas triste quand vous vous faites exploser en minuscules petits morceau
       <Value>Zoom avec molette souris</Value>
     </Record>
     <Record>
+      <Key>TradingNoMoneyHash</Key>
+      <Value>Vous n&apos;avez pas assez d&apos;argent pour terminer cette transaction !</Value>
+    </Record>
+    <Record>
+      <Key>SomethingWentWrongTrading</Key>
+      <Value>Quelque chose s&apos;est mal déroulé durant la transaction, quelque chose de quitter le vendeur !</Value>
+    </Record>
+    <Record>
+      <Key>SomethingWentWrongTrading2</Key>
+      <Value>Quelque chose s&apos;est mal déroulé durant la transaction, vous n&apos;avez pas de carte de crédit !</Value>
+    </Record>
+    <Record>
       <Key>GameMenuRespawn</Key>
       <Value>Réapparaitre</Value>
     </Record>
@@ -5365,6 +5385,10 @@ Temperature {1}</Value>
     <Record>
       <Key>SpinnerPannelDone</Key>
       <Value>Terminé</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradeRequestFail</Key>
+      <Value>Le marchand nécessite un atterrissage sûre. Veuillez vous assurer que l’espace d’atterrissage est clair et connecté.</Value>
     </Record>
     <Record>
       <Key>InputTextTradingTitle</Key>
