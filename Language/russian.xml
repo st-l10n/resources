@@ -5257,6 +5257,10 @@
       <Value>Нет описания</Value>
     </Record>
     <Record>
+      <Key>LogicTypeOpen</Key>
+      <Value>1, если устройство открыто, иначе 0</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeError</Key>
       <Value>1 если устройство в состоянии ошибки, иначе 0</Value>
     </Record>
@@ -5298,11 +5302,43 @@
     </Record>
     <Record>
       <Key>LogicTypeRatioOxygen</Key>
-      <Value>Процент кислорода в атмосфере, где находится устройство</Value>
+      <Value>Процент кислорода в атмосфере</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioCarbonDioxide</Key>
+      <Value>Процент CO2 в атмосфере</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrogen</Key>
+      <Value>Процент азота в атмосфере</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioPollutant</Key>
       <Value>Процент токсинов в атмосфере</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioVolatiles</Key>
+      <Value>Процент летучих веществ в атмосфере</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioWater</Key>
+      <Value>Процент воды в атмосфере</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrousOxide</Key>
+      <Value>Процент закиси азота в атмосфере</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeHorizontal</Key>
+      <Value>Настройка горизонтального угла устройства</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVertical</Key>
+      <Value>Настройка вертикального угла устройства</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSolarAngle</Key>
+      <Value>Угол солнца девайса</Value>
     </Record>
     <Record>
       <Key>LogicTypeImportQuantity</Key>
@@ -5315,6 +5351,10 @@
     <Record>
       <Key>LogicTypePowerRequired</Key>
       <Value>Запрашивается питание от устройства и/или сети</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeFiltration</Key>
+      <Value>Текущее состоянии системы фильтрации, например Filtration = 1 для усиленного шлема включает фильтрацию</Value>
     </Record>
     <Record>
       <Key>LogicTypePrefabHash</Key>
