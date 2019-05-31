@@ -5273,8 +5273,32 @@
       <Value>Текущее показание температуры устройства</Value>
     </Record>
     <Record>
+      <Key>LogicTypePressureExternal</Key>
+      <Value>Настройка внешнего давления, в KPa</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureInternal</Key>
+      <Value>Настройка внутреннего давления, в KPa</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeActivate</Key>
+      <Value>1 если устройство активировано (обычно означает, что оно работает), иначе 0</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeCharge</Key>
       <Value>Текущий заряд устройства</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSetting</Key>
+      <Value>Настройка переменной, которая может быть считана или записана (зависит от устройства)</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeReagents</Key>
+      <Value>Общее число реагентов, записанных устройстом</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOxygen</Key>
+      <Value>Процент кислорода в атмосфере, где находится устройство</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioPollutant</Key>
