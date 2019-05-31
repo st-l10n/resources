@@ -4,6 +4,10 @@
   <Code>RU</Code>
   <Font>font_russian</Font>
   <Interface>
+    <Record>
+      <Key>EscapeFromMarsTitle</Key>
+      <Value>Побег с Марса [BETA]</Value>
+    </Record>
     <!-- Mission Stage: In Case of Emergency -->
     <Record>
       <Key>MarsTitleInCaseOfEmergency</Key>
@@ -25,6 +29,22 @@
     <Record>
       <Key>MarsTabletStage2</Key>
       <Value>СЫРЬЕ</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescRawMaterials</Key>
+      <Value>Найдите способ производства основных материалов, необходимых для начала производства.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetIronIngots</Key>
+      <Value>Получите {THING:ItemIronIngot}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetCopperIngots</Key>
+      <Value>Получите {THING:ItemCopperIngot}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetGoldIngots</Key>
+      <Value>Получите {THING:ItemGoldIngot}</Value>
     </Record>
     <!-- Mission Stage: Setup Manufacturing -->
     <!-- Mission Stage: Food Supply -->

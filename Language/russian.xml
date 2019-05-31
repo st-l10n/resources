@@ -5257,6 +5257,22 @@
       <Value>Нет описания</Value>
     </Record>
     <Record>
+      <Key>LogicTypeError</Key>
+      <Value>1 если устройство в состоянии ошибки, иначе 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeLock</Key>
+      <Value>1 если устройство заблокировано, иначе 0, может быть установлено в большинстве устройств и не дает пользователю доступа к значениям</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressure</Key>
+      <Value>Текущее показание давления устройства</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperature</Key>
+      <Value>Текущее показание температуры устройства</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeCharge</Key>
       <Value>Текущий заряд устройства</Value>
     </Record>
