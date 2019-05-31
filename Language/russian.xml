@@ -4499,12 +4499,20 @@
       <Value>Ошибка Steam</Value>
     </Record>
     <Record>
+      <Key>SteamErrorBody</Key>
+      <Value>Не удается подключится к Steam.  Перезагрузите Steam, затем перезапустите игру</Value>
+    </Record>
+    <Record>
       <Key>SteamErrorButton</Key>
       <Value>Выйти</Value>
     </Record>
     <Record>
       <Key>WaitingTitle</Key>
       <Value>Внимание</Value>
+    </Record>
+    <Record>
+      <Key>WaitingBody</Key>
+      <Value>Мир ещё сохраняется.  Повторите попытку позже, когда это закончится.</Value>
     </Record>
     <Record>
       <Key>PromptQuitTitle</Key>
@@ -5199,6 +5207,10 @@
     <Record>
       <Key>LogicTypeImportQuantity</Key>
       <Value>Общее количество предметов, импортированных устройством</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeExportQuantity</Key>
+      <Value>Количество всех предметов, экспортированных устройством</Value>
     </Record>
     <Record>
       <Key>LogicTypePowerRequired</Key>
