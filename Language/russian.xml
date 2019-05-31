@@ -5181,8 +5181,24 @@
       <Value>Порт игры</Value>
     </Record>
     <Record>
+      <Key>NewWorldGravity</Key>
+      <Value>Гравитация</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldTemperature</Key>
+      <Value>Температура</Value>
+    </Record>
+    <Record>
       <Key>NewWorldPressure</Key>
       <Value>Предустановки</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldSolarEnergy</Key>
+      <Value>Солнечная энергия</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldSolarAngle</Key>
+      <Value>Угол солнца</Value>
     </Record>
     <Record>
       <Key>SettingsMenuAppearance</Key>
@@ -5221,6 +5237,26 @@
       <Value>Нет описания</Value>
     </Record>
     <Record>
+      <Key>LogicSlotTypePressureWaste</Key>
+      <Value>возвращает давление канистры для отходов в этот слот</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePressureAir</Key>
+      <Value>возвращает давление в канистре джетпака в этот слот</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeMaxQuantity</Key>
+      <Value>возвращает максимальный размер пачки предмета в слот</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePrefabHash</Key>
+      <Value>возвращает хэш структуры в слот</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceButtonRandomize</Key>
+      <Value>Случайно</Value>
+    </Record>
+    <Record>
       <Key>SettingsP2PHostEnabled</Key>
       <Value>Включить UPNP</Value>
     </Record>
@@ -5243,6 +5279,22 @@
     <Record>
       <Key>ContactsTrading</Key>
       <Value>Управление</Value>
+    </Record>
+    <Record>
+      <Key>ContactEventDefault</Key>
+      <Value>Ответа не было.</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradeRequest</Key>
+      <Value>Торговец запрашивает разрешение на посадку.</Value>
+    </Record>
+    <Record>
+      <Key>ContactNoResponse</Key>
+      <Value>Ответа не было.</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradeRequestFail</Key>
+      <Value>Торговец запрашивает безопасную посадку. Убедитесь, что место посадки свободное и подключенное к сети.</Value>
     </Record>
     <Record>
       <Key>InputTextTradingTitle</Key>
