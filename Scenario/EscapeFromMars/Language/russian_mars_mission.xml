@@ -25,6 +25,10 @@
       <Key>MarsTaskGetFood</Key>
       <Value>Найдите {THING:ItemCerealBar}</Value>
     </Record>
+    <Record>
+      <Key>MarsTabletStage1</Key>
+      <Value>АВАРИЙНОЕ РУКОВОДСТВО</Value>
+    </Record>
     <!-- Mission Stage: Aquire Raw Materials -->
     <Record>
       <Key>MarsTabletStage2</Key>
@@ -47,6 +51,18 @@
       <Value>Получите {THING:ItemGoldIngot}</Value>
     </Record>
     <!-- Mission Stage: Setup Manufacturing -->
+    <Record>
+      <Key>MarsTabletStage3</Key>
+      <Value>ПРОИЗВОДСТВО 101</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskManufactureHPB</Key>
+      <Value>Производство {THING:ItemKitHydraulicPipeBender}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskManufactureEP</Key>
+      <Value>Производство {THING:ItemKitElectronicsPrinter}</Value>
+    </Record>
     <!-- Mission Stage: Food Supply -->
     <Record>
       <Key>MarsTitleFoodSupply</Key>
