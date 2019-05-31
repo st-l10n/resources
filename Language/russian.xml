@@ -5341,6 +5341,22 @@
       <Value>Угол солнца девайса</Value>
     </Record>
     <Record>
+      <Key>LogicTypeMaximum</Key>
+      <Value>Максимальная настройка устройства</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePowerPotential</Key>
+      <Value>Сколько энергии потенциально обеспечивает устройство или сеть</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePowerActual</Key>
+      <Value>Сколько энергии устройство или сеть потребляет в данный момент</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeQuantity</Key>
+      <Value>Общее количество на устройстве</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeImportQuantity</Key>
       <Value>Общее количество предметов, импортированных устройством</Value>
     </Record>
@@ -5351,6 +5367,14 @@
     <Record>
       <Key>LogicTypePowerRequired</Key>
       <Value>Запрашивается питание от устройства и/или сети</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeIdle</Key>
+      <Value>Возвращает 1, если устройство в данный момент ожидает, иначе 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeElevatorSpeed</Key>
+      <Value>Текущая скорость лифта</Value>
     </Record>
     <Record>
       <Key>LogicTypeFiltration</Key>
