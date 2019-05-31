@@ -4912,6 +4912,14 @@
       <Value>Масштаб колесиком мыши</Value>
     </Record>
     <Record>
+      <Key>TradingNoMoneyHash</Key>
+      <Value>Недостаточно денег для совершения сделки!</Value>
+    </Record>
+    <Record>
+      <Key>SomethingWentWrongTrading2</Key>
+      <Value>Что-то пошло не так при обработке сделки, у вас нет кредитной карты!</Value>
+    </Record>
+    <Record>
       <Key>GameMenuRespawn</Key>
       <Value>Возродиться</Value>
     </Record>
@@ -4965,12 +4973,20 @@
       <Value>Нет настроек</Value>
     </Record>
     <Record>
+      <Key>LogicNoAdditionalSettingsFor</Key>
+      <Value>Нет дополнительных настроек для {0}</Value>
+    </Record>
+    <Record>
       <Key>LogicNoSlot</Key>
       <Value>&lt;color=red&gt;Нужно больше {0}&lt;/color&gt;.</Value>
     </Record>
     <Record>
       <Key>LogicNoAvailableSlots</Key>
       <Value>&lt;color=red&gt;Невозможно построить&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>LogicNoAdditionalSlotsFor</Key>
+      <Value>Нет дополнительных слотов для {0}</Value>
     </Record>
     <Record>
       <Key>RequiresScrewdriver</Key>
@@ -5019,6 +5035,14 @@
     <Record>
       <Key>ChangeSettingToForAll</Key>
       <Value>Поменять на &lt;color=yellow&gt;{0}&lt;/color&gt; для {1}</Value>
+    </Record>
+    <Record>
+      <Key>InteractionTemporarilyDisabledOnThisObject</Key>
+      <Value>Взаимодействие временно отключено для этого объекта</Value>
+    </Record>
+    <Record>
+      <Key>UnableToInteractAsYouDoNotHaveTheRequiredAccessCard</Key>
+      <Value>Нельзя взаимодействовать, так как у вас нет требуемой {SLOT:AccessCard}</Value>
     </Record>
     <Record>
       <Key>SettingsAtmosphericScattering</Key>
