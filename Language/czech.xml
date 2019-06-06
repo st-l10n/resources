@@ -4271,6 +4271,10 @@ Opakujte akci.</Value>
       <Value>Není dostatek peněz na dokončení tohoto obchodu!</Value>
     </Record>
     <Record>
+      <Key>SomethingWentWrongTrading2</Key>
+      <Value>Něco se pokazilo při zpracovávání obchodu, nemáš kreditní kartu!</Value>
+    </Record>
+    <Record>
       <Key>MainMenuScenarios</Key>
       <Value>Scénáře</Value>
     </Record>
@@ -4592,6 +4596,30 @@ Teplota {1}</Value>
       <Value>Žádný popis</Value>
     </Record>
     <Record>
+      <Key>LogicTypeRatioOxygen</Key>
+      <Value>Poměr kyslíku v atmosféře zařízení</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioCarbonDioxide</Key>
+      <Value>Poměr CO2 v atmosféře zařízení</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrogen</Key>
+      <Value>Poměr dusíku v atmosféře zařízení</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutant</Key>
+      <Value>Poměr znečišťující látky v atmosféře zařízení</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioWater</Key>
+      <Value>Poměr vody v atmosféře zařízení</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioNitrousOxide</Key>
+      <Value>Poměr oxidu dusného v atmosféře zařízení</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeHorizontal</Key>
       <Value>Horizontální nastavení zařízení</Value>
     </Record>
@@ -4608,16 +4636,32 @@ Teplota {1}</Value>
       <Value>Maximální nastavení zařízení</Value>
     </Record>
     <Record>
+      <Key>LogicTypePowerPotential</Key>
+      <Value>Kolik energie může zařízení nebo síť poskytnout</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePowerActual</Key>
+      <Value>Kolik energie zařízení nebo sítě skutečně používá</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeQuantity</Key>
+      <Value>Celkové množství na zařízení</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeHorizontalRatio</Key>
-      <Value>Žádná další nastavení pro {0}</Value>
+      <Value>Rádio horizontální nastavení pro zařízení</Value>
     </Record>
     <Record>
       <Key>LogicTypeVerticalRatio</Key>
-      <Value>Žádná další nastavení pro {0}</Value>
+      <Value>Rádio vertikálního nastavení pro zařízení</Value>
     </Record>
     <Record>
       <Key>LogicTypePowerRequired</Key>
       <Value>Žádné jiné čitelné zařízení v síti</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeElevatorSpeed</Key>
+      <Value>Aktuální rychlost výtahu</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeNone</Key>
