@@ -4604,6 +4604,14 @@ Teplota {1}</Value>
       <Value>Žádný popis</Value>
     </Record>
     <Record>
+      <Key>LogicTypePressure</Key>
+      <Value>Aktuální údaj o tlaku v zařízení</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperature</Key>
+      <Value>Aktuální údaj o teplotě zařízení</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeRatioOxygen</Key>
       <Value>Poměr kyslíku v atmosféře zařízení</Value>
     </Record>
@@ -4656,6 +4664,10 @@ Teplota {1}</Value>
       <Value>Celkové množství na zařízení</Value>
     </Record>
     <Record>
+      <Key>LogicTypeOn</Key>
+      <Value>Aktuální stav zařízení, 0 pro vypnuto, 1 pro zapnuto</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeHorizontalRatio</Key>
       <Value>Rádio horizontální nastavení pro zařízení</Value>
     </Record>
@@ -4665,7 +4677,7 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>LogicTypePowerRequired</Key>
-      <Value>Žádné jiné čitelné zařízení v síti</Value>
+      <Value>Požadovaný výkon ze zařízení a / nebo sítě</Value>
     </Record>
     <Record>
       <Key>LogicTypeElevatorSpeed</Key>
