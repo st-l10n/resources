@@ -5177,6 +5177,14 @@ Sıcaklık {1}</Value>
       <Value>Eğer cihaz açık ise 1; yoksa 0</Value>
     </Record>
     <Record>
+      <Key>LogicTypeMode</Key>
+      <Value>Mode durumu için tamsayı; farklı cihazların farklı mod durumları olacaktır</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeError</Key>
+      <Value>Eğer cihaz hata durumunda ise 1; yoksa 0</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeHorizontalRatio</Key>
       <Value>Cihaz için yatay ayar oranı</Value>
     </Record>
