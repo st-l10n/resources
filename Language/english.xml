@@ -5348,6 +5348,7 @@ Temperature {1}</Value>
       <Key>LogicTypeOpen</Key>
       <Value>1 if device is open, otherwise 0</Value>
     </Record>
+
     <Record>
       <Key>LogicTypeMode</Key>
       <Value>Integer for mode state, different devices will have different mode states available to them</Value>
@@ -5801,6 +5802,14 @@ Temperature {1}</Value>
       <Value>Seems the contact has moved on.</Value>
     </Record>
     <Record>
+      <Key>Trade</Key>
+      <Value>Trade</Value>
+    </Record>
+    <Record>
+      <Key>Locked</Key>
+      <Value>Locked</Value>
+    </Record>
+    <Record>
       <Key>ContactEventDefault</Key>
       <Value>There was no response.</Value>
     </Record>
@@ -5808,13 +5817,17 @@ Temperature {1}</Value>
       <Key>ContactTradeRequest</Key>
       <Value>A trader has requested permission for landing.</Value>
     </Record>
+        <Record>
+      <Key>TraderInUse</Key>
+      <Value>This contact is already interacting with someone, try again soon.</Value>
+    </Record>
     <Record>
       <Key>ContactNoResponse</Key>
       <Value>There was no response.</Value>
     </Record>
     <Record>
       <Key>ContactTradeRequestFail</Key>
-      <Value>Trader requesting safe landing. Please ensure landing space is clear and connected.</Value>
+      <Value>Trader requesting safe landing. Please ensure landing space is clear and connected. A vending machine is also required to process a trade.</Value>
     </Record>
     <Record>
       <Key>InputTextTradingTitle</Key>
