@@ -5411,6 +5411,14 @@ Temperature {1}</Value>
       <Value>Le contact semble avoir poursuivi son chemin.</Value>
     </Record>
     <Record>
+      <Key>Trade</Key>
+      <Value>Acheter</Value>
+    </Record>
+    <Record>
+      <Key>Locked</Key>
+      <Value>Verrouillé</Value>
+    </Record>
+    <Record>
       <Key>ContactEventDefault</Key>
       <Value>Il n&apos;y a pas eu de réponse.</Value>
     </Record>
@@ -5419,12 +5427,16 @@ Temperature {1}</Value>
       <Value>Un marchand demande la permission d&apos;atterrir.</Value>
     </Record>
     <Record>
+      <Key>TraderInUse</Key>
+      <Value>Ce contact est déjà en interaction avec quelqu&apos;un, essayez plus tard.</Value>
+    </Record>
+    <Record>
       <Key>ContactNoResponse</Key>
       <Value>Il n&apos;y a pas eu de réponse.</Value>
     </Record>
     <Record>
       <Key>ContactTradeRequestFail</Key>
-      <Value>Le marchand nécessite un atterrissage sûre. Veuillez vous assurer que l’espace d’atterrissage est clair et connecté.</Value>
+      <Value>Le marchand nécessite un atterrissage sûre. Veuillez vous assurer que l’espace d’atterrissage soit dégagé et connecté.</Value>
     </Record>
     <Record>
       <Key>InputTextTradingTitle</Key>
