@@ -3250,12 +3250,16 @@
       <Value>Trapano escavatore (pesante)</Value>
     </Record>
     <Record>
+      <Key>ItemCreditCard</Key>
+      <Value>Carta di credito</Value>
+    </Record>
+    <Record>
       <Key>StructureRover</Key>
-      <Value>Telaio in ferro</Value>
+      <Value>Telaio del rover</Value>
     </Record>
     <Record>
       <Key>ItemKitRoverFrame</Key>
-      <Value>Kit (Forno ad arco)</Value>
+      <Value>Kit (Telaio Rover)</Value>
     </Record>
   </Things>
   <Slots>
@@ -3434,6 +3438,10 @@
     <Record>
       <Key>ProgrammableChip</Key>
       <Value>Chip programmabile</Value>
+    </Record>
+    <Record>
+      <Key>CreditCard</Key>
+      <Value>Carta di credito</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -4683,6 +4691,18 @@ Non essere triste quando ti farai saltare in aria in piccoli, piccolissimi pezzi
       <Value>Zoom con rotella del Mouse</Value>
     </Record>
     <Record>
+      <Key>TradingNoMoneyHash</Key>
+      <Value>Non hai abbastanza denaro per completare questo scambio!</Value>
+    </Record>
+    <Record>
+      <Key>SomethingWentWrongTrading</Key>
+      <Value>Qualcosa è andato storto durante l&apos;elaborazione dello scambio, qualcosa ha lasciato il venditore!</Value>
+    </Record>
+    <Record>
+      <Key>SomethingWentWrongTrading2</Key>
+      <Value>Qualcosa è andato storto durante l&apos;elaborazione dello scambio, non hai una carta di credito!</Value>
+    </Record>
+    <Record>
       <Key>MainMenuScenarios</Key>
       <Value>Scenari</Value>
     </Record>
@@ -5241,7 +5261,7 @@ Temperatura {1}</Value>
     </Record>
     <Record>
       <Key>LogicTypeRequestHash</Key>
-      <Value>Quando impostato sull&apos;identificatore univoco, richiedi un oggetto del tipo fornito dal dispositivo</Value>
+      <Value>Se impostato sull&apos;identificatore univoco, richiede un elemento del tipo fornito dal dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeCompletionRatio</Key>
@@ -5338,6 +5358,14 @@ Temperatura {1}</Value>
     <Record>
       <Key>LogicTypeForceWrite</Key>
       <Value>Impone ai dispositivi Logic writer di riscrivere il valore</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSignalStrength</Key>
+      <Value>Rilascia il valore della forza del segnale più forte ricevuto da questo satellite</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSignalID</Key>
+      <Value>Rilascia l&apos;ID del contatto con il segnale più forte da questo satellite</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeNone</Key>
@@ -5442,6 +5470,38 @@ Temperatura {1}</Value>
     <Record>
       <Key>ContactsTrading</Key>
       <Value>Contatti</Value>
+    </Record>
+    <Record>
+      <Key>TraderGoneMissing</Key>
+      <Value>Sembra che il contatto sia andato avanti.</Value>
+    </Record>
+    <Record>
+      <Key>Trade</Key>
+      <Value>Commercio</Value>
+    </Record>
+    <Record>
+      <Key>Locked</Key>
+      <Value>Bloccato</Value>
+    </Record>
+    <Record>
+      <Key>ContactEventDefault</Key>
+      <Value>Nessuna risposta.</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradeRequest</Key>
+      <Value>Un mercante ha richiesto il permesso di atterrare.</Value>
+    </Record>
+    <Record>
+      <Key>TraderInUse</Key>
+      <Value>Questo contatto sta già interagendo con qualcuno, riprova più tardi.</Value>
+    </Record>
+    <Record>
+      <Key>ContactNoResponse</Key>
+      <Value>Nessuna risposta.</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradeRequestFail</Key>
+      <Value>Il Mercante richiede un atterraggio sicuro. Assicurati che lo spazio per l&apos;atterraggio sia libero e connesso. È inoltre necessario un distributore automatico per elaborare una transazione.</Value>
     </Record>
     <Record>
       <Key>InputTextTradingTitle</Key>
