@@ -5576,6 +5576,14 @@ Temperatura {1}</Value>
       <Value>Parece que el contacto se ha movido.</Value>
     </Record>
     <Record>
+      <Key>Trade</Key>
+      <Value>Comerciar</Value>
+    </Record>
+    <Record>
+      <Key>Locked</Key>
+      <Value>Bloqueado</Value>
+    </Record>
+    <Record>
       <Key>ContactEventDefault</Key>
       <Value>No hubo respuesta.</Value>
     </Record>
@@ -5584,12 +5592,16 @@ Temperatura {1}</Value>
       <Value>Un comerciante ha solicitado permiso para aterrizar.</Value>
     </Record>
     <Record>
+      <Key>TraderInUse</Key>
+      <Value>Este contacto ya está interactuando con alguien, inténtalo de nuevo pronto.</Value>
+    </Record>
+    <Record>
       <Key>ContactNoResponse</Key>
       <Value>No hubo respuesta.</Value>
     </Record>
     <Record>
       <Key>ContactTradeRequestFail</Key>
-      <Value>Comerciante solicitando un aterrizaje seguro. Por favor, asegúrese de que la pista de aterrizaje esté despejado y conectado.</Value>
+      <Value>Comerciante solicitando un aterrizaje seguro. Por favor, asegúrese de que el espacio de aterrizaje esté despejado y conectado. También se requiere una máquina expendedora para procesar un comercio.</Value>
     </Record>
     <Record>
       <Key>InputTextTradingTitle</Key>
