@@ -4696,6 +4696,22 @@ Przewin &lt;color=red&gt;k�lkiem myszy&lt;/color&gt;, aby wyswietlic wiecej op
       <Value>zwraca 0 jeśli slot jest wolny, 1 jeśli jest zajęty</Value>
     </Record>
     <Record>
+      <Key>LogicSlotTypeMature</Key>
+      <Value>zwraca 1 jeśli roślina w slocie jest dojrzała, lub 0 jeśli nie jest</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeHealth</Key>
+      <Value>zwraca stan zdrowia rośliny w slocie</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeGrowth</Key>
+      <Value>zwraca aktualny stan rozwoju rośliny w slocie</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeChargeRatio</Key>
+      <Value>zwraca poziom naładowania przedmiotu w slocie w formie wartości z zakresu od 0 do 1 jego maksymalnego stanu</Value>
+    </Record>
+    <Record>
       <Key>LogicSlotTypeClass</Key>
       <Value>zwraca liczbę całkowitą reprezentującą klasę obiektu</Value>
     </Record>
