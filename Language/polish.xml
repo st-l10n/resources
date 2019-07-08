@@ -4696,8 +4696,32 @@ Przewin &lt;color=red&gt;k�lkiem myszy&lt;/color&gt;, aby wyswietlic wiecej op
       <Value>zwraca 0 jeśli slot jest wolny, 1 jeśli jest zajęty</Value>
     </Record>
     <Record>
+      <Key>LogicSlotTypeClass</Key>
+      <Value>zwraca liczbę całkowitą reprezentującą klasę obiektu</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePressureWaste</Key>
+      <Value>zwraca ciśnienie w butli z odpadami plecaka odrzutowego w tym slocie</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePressureAir</Key>
+      <Value>zwraca ciśnienie w butli plecaka odrzutowego w tym slocie</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeMaxQuantity</Key>
+      <Value>zwraca maksymalny rozmiar stosu przedmiotu w slocie</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePrefabHash</Key>
+      <Value>zwraca hash struktury w slocie</Value>
+    </Record>
+    <Record>
+      <Key>AppearanceButtonRandomize</Key>
+      <Value>Losowo</Value>
+    </Record>
+    <Record>
       <Key>SettingsP2PHostEnabled</Key>
-      <Value>Wlacz automatyczny zapis</Value>
+      <Value>Włącz hosting P2P</Value>
     </Record>
     <Record>
       <Key>SettingsSavePath</Key>
