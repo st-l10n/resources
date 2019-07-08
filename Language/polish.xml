@@ -4405,7 +4405,7 @@ Przewin &lt;color=red&gt;k�lkiem myszy&lt;/color&gt;, aby wyswietlic wiecej op
     </Record>
     <Record>
       <Key>ChangeSettingToAll</Key>
-      <Value>Change to {0}</Value>
+      <Value>Zamień dla Wszystkich {0}</Value>
     </Record>
     <Record>
       <Key>ChangeSettingToForIn</Key>
@@ -4688,12 +4688,24 @@ Przewin &lt;color=red&gt;k�lkiem myszy&lt;/color&gt;, aby wyswietlic wiecej op
       <Value>PRZESTARZAŁE</Value>
     </Record>
     <Record>
+      <Key>LogicTypePrefabHash</Key>
+      <Value>Hash struktury</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeForceWrite</Key>
+      <Value>Zmusza Logiczny Zapisywacz do nadpisania wartości</Value>
+    </Record>
+    <Record>
       <Key>LogicSlotTypeNone</Key>
       <Value>Brak opisu</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeOccupied</Key>
       <Value>zwraca 0 jeśli slot jest wolny, 1 jeśli jest zajęty</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeOccupantHash</Key>
+      <Value>zwraca hash przedmiotu w slocie - jego unikalny identyfikator</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeQuantity</Key>
