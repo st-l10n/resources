@@ -5486,6 +5486,10 @@ Hőmérséklet {1}</Value>
       <Value>Kényszeríti a &quot;Logika: írás&quot; eszközöket az értékek újraírására</Value>
     </Record>
     <Record>
+      <Key>LogicTypeSignalID</Key>
+      <Value>Visszaadja a műholdból annak az ügyfélnek az azonosítóját, akinek a legerősebb a jele</Value>
+    </Record>
+    <Record>
       <Key>LogicSlotTypeNone</Key>
       <Value>Nincs leírás</Value>
     </Record>
@@ -5594,8 +5598,20 @@ Hőmérséklet {1}</Value>
       <Value>Üzletelés</Value>
     </Record>
     <Record>
+      <Key>ContactEventDefault</Key>
+      <Value>Nem volt válasz.</Value>
+    </Record>
+    <Record>
       <Key>ContactTradeRequest</Key>
       <Value>Egy kereskedő engedélyt kért a leszálláshoz.</Value>
+    </Record>
+    <Record>
+      <Key>TraderInUse</Key>
+      <Value>Ez az ügyfél már valakivel kapcsolatba lépett, próbálkozz újra később.</Value>
+    </Record>
+    <Record>
+      <Key>ContactNoResponse</Key>
+      <Value>Nem volt válasz.</Value>
     </Record>
     <Record>
       <Key>InputTextTradingTitle</Key>
