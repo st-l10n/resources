@@ -3330,6 +3330,22 @@
       <Key>ItemKitRoverFrame</Key>
       <Value>Kit (Rover Frame)</Value>
     </Record>
+    <Record>
+      <Key>StructureStairs4x2Rails</Key>
+      <Value>Stairs with Rails</Value>
+    </Record>
+    <Record>
+      <Key>StructureStairs4x2RailL</Key>
+      <Value>Stairs with Rail (Left)</Value>
+    </Record>
+	<Record>
+      <Key>StructureStairs4x2RailR</Key>
+      <Value>Stairs with Rail (Right)</Value>
+    </Record>
+    <Record>
+      <Key>Phobos</Key>
+      <Value>Phobos</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -5368,7 +5384,6 @@ Temperature {1}</Value>
       <Key>LogicTypeOpen</Key>
       <Value>1 if device is open, otherwise 0</Value>
     </Record>
-
     <Record>
       <Key>LogicTypeMode</Key>
       <Value>Integer for mode state, different devices will have different mode states available to them</Value>
@@ -5837,7 +5852,7 @@ Temperature {1}</Value>
       <Key>ContactTradeRequest</Key>
       <Value>A trader has requested permission for landing.</Value>
     </Record>
-        <Record>
+    <Record>
       <Key>TraderInUse</Key>
       <Value>This contact is already interacting with someone, try again soon.</Value>
     </Record>
