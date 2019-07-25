@@ -3306,6 +3306,22 @@
       <Key>ItemKitRoverFrame</Key>
       <Value>Készlet (Terepjáró váz)</Value>
     </Record>
+    <Record>
+      <Key>StructureStairs4x2Rails</Key>
+      <Value>Lépcső korláttal</Value>
+    </Record>
+    <Record>
+      <Key>StructureStairs4x2RailL</Key>
+      <Value>Lépcső korláttal (bal)</Value>
+    </Record>
+    <Record>
+      <Key>StructureStairs4x2RailR</Key>
+      <Value>Lépcső korláttal (jobb)</Value>
+    </Record>
+    <Record>
+      <Key>Phobos</Key>
+      <Value>Phobosz</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -4813,6 +4829,18 @@ Csak ne szomorkodj, amikor felrobbantod magad icike picike darabkákra vagy csir
       <Value>Görgő nagyítás</Value>
     </Record>
     <Record>
+      <Key>TradingNoMoneyHash</Key>
+      <Value>Nincs elég pénz az üzlet végrehajtásához!</Value>
+    </Record>
+    <Record>
+      <Key>SomethingWentWrongTrading</Key>
+      <Value>Valami balul sült el az üzlet feldolgozásakor... valami elhagyta a kereskedőt!</Value>
+    </Record>
+    <Record>
+      <Key>SomethingWentWrongTrading2</Key>
+      <Value>Valami balul sült el az üzlet feldolgozásakor... nincs bakkártyád!</Value>
+    </Record>
+    <Record>
       <Key>GameMenuRespawn</Key>
       <Value>Újraéledés</Value>
     </Record>
@@ -5484,6 +5512,10 @@ Hőmérséklet {1}</Value>
     <Record>
       <Key>LogicTypeForceWrite</Key>
       <Value>Kényszeríti a &quot;Logika: írás&quot; eszközöket az értékek újraírására</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSignalStrength</Key>
+      <Value>Visszaadja a műhold által vett legerősebb jelet</Value>
     </Record>
     <Record>
       <Key>LogicTypeSignalID</Key>
