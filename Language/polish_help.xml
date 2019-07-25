@@ -35,6 +35,48 @@ Jeżeli przytrzymasz {KEY:MouseControl} oraz {KEY:MouseInspect} i klikniesz na c
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>GettingStarted</Key>
+      <Title>Jak zacząć?</Title>
+      <Text>{HEADER:Welcome to a new world}
+Jeśli to Twój pierwszy raz, to masz sporo do nauczenia. Początek może być przytłaczający a natłok informacji spory. Tutaj znajdziesz ogólne porady jak zacząć. Każdy świat ma różne problemy, z którymi musisz się zmierzyć, ale to, co tu opisano, powinno dać Ci szersze zrozumienie tego, z czym należy się zapoznać.
+      
+{HEADER:Keeping your Suit Charged}
+Najpilniejszą sprawą jest naładowanie {THING:ItemBatteryCellLarge} w Twoim {THING:ItemEvaSuit}. Bateria kombinezonu zasila światło w {THING:ItemSpaceHelmet} (zgaś je, jeśli go nie używasz), oraz ogrzewa powietrze wewnątrz skafandra. To pobiera mnóstwo prądu na chłodniejszych światach. Musisz ustawić {THING:ItemBatteryCharger} i podłączyć ją do źródła zasilania. {THING:StructureSolidFuelGenerator}, napędzony przez {THING:ItemCoalOre}, lub {THING:StructureSolarPanel}, to bardzo dobre rozwiązania na początku. W razie awarii wyjmuj baterie z {LINK:ToolPage;Tools} i użyj ich by zasilić kombinezon, albo użyj {THING:PortableSolarPanel} aby je naładować.
+
+{HEADER:Improving Power Collection}
+Kładąc {THING:StructureAreaPowerControl}, z wsadzoną {THING:ItemBatteryCell}, pomiędzy źródłem zasilania i ładowarkami, będzie dużym ułatwieniem. To dlatego, że źródło zasilania generuje więcej energii niż {THING:ItemBatteryCharger} może pomieścić, więc się ona marnuje. Dodatkowo, {THING:StructureSolarPanel} można ręcznie obrócić, aczkolwiek automatyzacja tej czynności bardzo Ci pomoże. Możesz skorzystać z {LINK:LogicUnitPage;Logic Units} aby zapoznać się z tematem.
+      
+{HEADER:Managing your Oxygen}
+Twój {THING:ItemEvaSuit} i {THING:ItemSpaceHelmet} tworzą powłokę chroniącą przed zewnętrznymi czynnikami. {THING:ItemEvaSuit} potrzebuje {THING:ItemGasCanisterOxygen} aby dostarczyć Ci czysty {GAS:Oxygen}. Zwracaj uwagę na ilość gazu w zbiorniku. Możesz go uzupełnić korzystając z {THING:DynamicGasCanisterOxygen}, który jest w zestawie początkowym. Znaczek &quot;niebezpieczeństwa&quot; wskazuje slot, w który możesz wsadzić kanister aby go napełnić.
+
+{HEADER:Basic Smelting}
+Kiedy będziesz już posiadać podstawową produkcję energii, musisz zacząć pozyskiwać więcej surowców. {LINK:MiningPage;Kopanie} to najlepszy sposób na pozyskanie podstawowych {LINK:OrePage;rud}. Postaw {THING:StructureArcFurnace} i podłącz go za Twoim {THING:StructureAreaPowerControl}. Dzięki temu {LINK:SmeltingPage;przetopisz} podstawową {LINK:OrePage;rudę}, taką jak {THING:ItemIronOre}, {THING:ItemSiliconOre}, i każdy inny metal który nie jest {LINK:AlloyPage;stopem}.
+
+{HEADER:Basic Fabrication}
+Teraz, kiedy masz {LINK:IngotPage;sztabki} możesz włożyć je do {LINK:FabricatorPage;fabrykatorów} jako surowiec. Skonstruuj {THING:StructureAutolathe} za pomocą {THING:ItemKitAutolathe}, który znajdziesz w jednej ze skrzyń początkowych.
+
+{HEADER:Replacing your Filters}
+Wdychając {GAS:Oxygen}, wydychasz także {GAS:CarbonDioxide}, a zatem potrzebujesz {THING:ItemGasFilterCarbonDioxide} w slocie {SLOT:Filter}. Te z kolei zużywają się z czasem przez co musisz zbudować nowe w {THING:StructureHydraulicPipeBender}. Można je skonstruować za pomocą {THING:ItemKitHydraulicPipeBender} w {THING:StructureAutolathe}.
+
+{HEADER:Build a Glass House}
+Będziesz potrzebować małej, zamkniętej przestrzeni, aby rozstawić {LINK:HydroponicsPage;hydroponikę} aby umożliwić sobie robienie {LINK:FoodPage;jedzenia}. Nie rób pomieszczenia zbyt wielkiego bo będzie trudno utrzymać je pod ciśnieniem. Ustaw sporo {THING:} korzystając z wariantu {THING:ItemKitWallIron} aby wpuścić światło słoneczne. Upewnij się, że do pokoju będzie dostęp przez automatyczną lub manualną {LINK:AirlockPage;śluzę powietrza}. Pamiętaj, że możesz otworzyć niepodłączone do prądu drzwi używając {THING:ItemCrowbar}.
+
+{HEADER:Pressurize Your Glass House}
+Kiedy już uszczelnisz pomieszczenie, {LINK:MiningPage;wykop} trochę {THING:ItemOxite} i stop go póki nie uzyskasz 100 kPa ciśnienia w obszarze uprawy. Potem dodaj trochę {GAS:CarbonDioxide} do atmosfery. Możesz to zrobić biorąc kanister z odpadami z {THING:ItemEvaSuit} do ręki, otworzyć go, a następnie zamknąć i włożyć z powrotem do kombinezonu. To uwolni {GAS:CarbonDioxide}, który wydychasz, do otoczenia. {LINK:PlantPage;Roślinom} będzie to potrzebne do rozrostu.
+
+{HEADER:Growing Plants}
+Zanieś {THING:DynamicHydroponics} do swojej nowej szklarni. Znajdziesz w nim {THING:ItemGasCanisterWater}, który zapewni roślinom {GAS:Water}. Teraz zasiej {THING:ItemPotato} z jednej ze skrzyń startowych. Najpierw zasiej jedno i sprawdź, czy rośnie, zanim zasadzisz resztę. Roślinom potrzeba światła słonecznego, ciepła, oraz niewielkiej ilości {GAS:CarbonDioxide} aby przetrwać.
+
+{HEADER:Advanced Smelting}
+{THING:StructureArcFurnace} pozwala przetopić proste {LINK:OrePage;rudy}. Aby stworzyć zaawansowane komponenty musisz użyć bardziej skomplikowanych metod by wytopić {LINK:AlloyPage;stopy}. Te można uzyskać w {THING:StructureFurnace} poprzez uzyskanie odpowiedniego {LINK:PressurePage;ciśnienia}, {LINK:TemperaturePage;temperatury}, i stosunku mieszanki {LINK:ReagentPage;reagentów}. Dla przykładu, aby stworzyć {THING:ItemSteelIngot} będziesz potrzebować jeden {REAGENT:Coal} oraz trzy {REAGENT:Iron}.
+
+Możesz umieścić {LINK:IcePage;lody} bezpośrednio w hucie, od góry. Jeśli lody nie stopnieją w atmosferze, użyj guzika {LOGICTYPE:Activate} by je skruszyć. Lody stopnieją samoczynnie jeśli w środku będzie wystarczająco dużo gazu o odpowiedniej temperaturze. Użyj {THING:ItemOxite} i {THING:ItemVolatiles} by rozpalić ogień wewnątrz, aczkolwiek to drastycznie zwiększy ciśnienie.
+
+Kiedy piec osiągnie odpowiednią temperaturę, wsadź rudę by ją przetopić - zwróć uwagę na proporcje, inaczej wyjdzie z tego {THING:ItemReagentMix}, który można rozdzielić jedynie w {THING:StructureCentrifuge}. Aby wyeksportować produkt, pociągnij za {LOGICTYPE:Open}.
+{/LIST}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>AirlockDevicePage</Key>
       <Title>Urządzenia śluzy powietrza</Title>
       <Text>Wkładając {THING:CircuitboardAirlockControl} do {THING:StructureConsole} możesz połączyć różne urządzenia aby stworzyć funkcjonalną śluzę powietrza.
