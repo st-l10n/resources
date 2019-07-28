@@ -4,11 +4,147 @@
   <Code>DA</Code>
   <Font>font_extended</Font>
   <Interface>
+    <Record>
+      <Key>EscapeFromMarsTitle</Key>
+      <Value>Slip Væk fra Mars [BETA]</Value>
+    </Record>
+    <Record>
+      <Key>EscapeFromMarsDescription</Key>
+      <Value>FOR TESTING: Med kun en lille mængde forsyninger, må du gøre brug af din forstand og dit gåpåmod til at finde en måde at overlede på Mars.  Skulle alt gå efter planen, vil dette ultimativt føre til bygningen af en raket, som er i stand til, at forlade Mars atmosfære.</Value>
+    </Record>
     <!-- Mission Stage: In Case of Emergency -->
+    <Record>
+      <Key>MarsTitleInCaseOfEmergency</Key>
+      <Value>Til Nødstilfælde...</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescInCaseOfEmergency</Key>
+      <Value>Din dragt er beskadiget, og du har brug for at finde noget mad.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetTape</Key>
+      <Value>Find noget {THING:ItemDuctTape}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetFood</Key>
+      <Value>Find en {THING:ItemCerealBar}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage1</Key>
+      <Value>GUIDE TIL NØDSSITUATIONER</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage1Page1</Key>
+      <Value>SIDE 1 af 2\n GÅ IKKE I PANIK.\n\nHvis du læser dette, har du overlevet evakueringen - Tillykke.  Uanset dit miljø, er din første prioritet at tjekke helbredet på dig selv og dem omkring dig.  Sørg for at tjekke dragtens integritet, da det ikke vides hvilket miljø du eventuelt befinder dig i, og at beskytte hvad end forsyning du har, er afgørende.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage1Page2</Key>
+      <Value>SIDE 2 af 2 \nHvis du er i nærheden af en intakt flugtkapsel og faststat forsyningskasse, burde du have nogle afgørende forsyninger til hjælp af din venten på redning. Hvis ikke, søg efter overlevende.  Du burde sørge for, at notere beliggenheden af, eller samle alle forsyninger, som vil være af allerstørst betydning, for din overlevelse, så som mad, batterier, hjælpematerialer, som gaffatape og transportabelt overlevelsesudstyr. \n</Value>
+    </Record>
     <!-- Mission Stage: Aquire Raw Materials -->
+    <Record>
+      <Key>MarsTitleRawMaterials</Key>
+      <Value>Bed, Begrav og Stjæl</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage2</Key>
+      <Value>RÅ MATERIALER</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescRawMaterials</Key>
+      <Value>Find en måde, at producere de basale materialer, som du skal bruge, for at få gang i fremstillingen.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetIronIngots</Key>
+      <Value>Få en {THING:ItemIronIngot}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetCopperIngots</Key>
+      <Value>Få en {THING:ItemCopperIngot}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetGoldIngots</Key>
+      <Value>Få en {THING:ItemGoldIngot}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage2Page1</Key>
+      <Value>Side 1 af 5 \n Bed, lån eller stjæl \n\n Heldigvis har vores fremstillings-redskaber kendskab til alle opskrifter, som du højst tænkeligt får brug for, i din situation. Uheldigvis kræver de alle rå-materialer for at blive fremstillet. De kan komme fra forskellige kilder alt afhængigt af din situation:</Value>
+    </Record>
     <!-- Mission Stage: Setup Manufacturing -->
+    <Record>
+      <Key>MarsTitleSetupManufacturing</Key>
+      <Value>At gribe produktionsmidlerne</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage3</Key>
+      <Value>PRODUKTION 101</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescSetupManufacturing</Key>
+      <Value>For at fremstille alt vi skal bruge, burde vi starte, med en {THING:ItemKitHydraulicPipeBender} og en {THING:ItemKitElectronicsPrinter}.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskManufactureHPB</Key>
+      <Value>Fremstil en {THING:ItemKitHydraulicPipeBender}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskManufactureEP</Key>
+      <Value>Fremstil en {THING:ItemKitElectronicsPrinter}</Value>
+    </Record>
     <!-- Mission Stage: Food Supply -->
+    <Record>
+      <Key>MarsTitleFoodSupply</Key>
+      <Value>En Pålidelig Madkilde</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage4</Key>
+      <Value>GUIDE TIL HAVEARBEJDE</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescFoodSupply</Key>
+      <Value>Vi ved ikke hvor længe, du er nødt til at overleve her.  Vi burde forberede en vedvarende kilde af mad, for en sikkerheds skyld.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskPrepareAtmos</Key>
+      <Value>Lav et tryksat rum med en tilstrækkelig atmosfære til at gro kartofler.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGrowPotato</Key>
+      <Value>Gro en {THING:ItemPotato} til modenhed.</Value>
+    </Record>
     <!-- Mission Stage: Spawn Mothership & Engine -->
+    <Record>
+      <Key>MarsTitleCreateMothership</Key>
+      <Value>At Lave et Moderskib</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage5</Key>
+      <Value>RUMFART</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescCreateMothership</Key>
+      <Value>Lav et moderskib ved at lave en {THING:MothershipCore} ved brug af {THING:ItemKitMotherShipCore} og fastgøre en {THING:StructureRocketEngine} til den</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskSpawnMothershipCore</Key>
+      <Value>Brug et {THING:ItemKitMotherShipCore}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskAttachEngine</Key>
+      <Value>Fastgør en {THING:StructureRocketEngine} til {THING:MothershipCore}en</Value>
+    </Record>
+    <Record>
+      <Key>MarsTitleLaunchMothership</Key>
+      <Value>At Opsende et Moderskib</Value>
+    </Record>
     <!-- Mission Stage: Launch -->
+    <Record>
+      <Key>MarsDescLaunchMothership</Key>
+      <Value>Affyr ud i rummet og genvind din plads i himlen!</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskLaunchMothership</Key>
+      <Value>Affyr dit moderskib til en højde på 100m</Value>
+    </Record>
   </Interface>
 </Language>
