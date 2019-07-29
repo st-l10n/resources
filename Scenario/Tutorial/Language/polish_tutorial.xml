@@ -5,6 +5,18 @@
   <Font>font_extended</Font>
   <Interface>
     <Record>
+      <Key>TutorialTaskWearHelmet</Key>
+      <Value>Załóż {THING:ItemSpaceHelmet}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskWearSuit</Key>
+      <Value>Załóż {THING:ItemEvaSuit}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskWearJetpack</Key>
+      <Value>Załóż {THING:ItemSpacepack}</Value>
+    </Record>
+    <Record>
       <Key>TutorialDescPickupHelmet</Key>
       <Value>Find the {THING:ItemSpaceHelmet} and put it in your {SLOT:LeftHand} or {SLOT:RightHand} slot by clicking the {COLORRED:Left Mouse Button} over the green interactable you see when looking at it.</Value>
     </Record>
@@ -13,8 +25,13 @@
       <Value>Press and hold {KEY:HelmetSlot} until your {THING:ItemSpaceHelmet} moves to your {SLOT:Helmet} slot.</Value>
     </Record>
     <Record>
+      <Key>TutorialDescPickupSuit</Key>
+      <Value>Znajdź {THING:ItemEvaSuit} i włóż go do {SLOT:LeftHand} lub {SLOT:RightHand}. Tym razem spróbuj przeciągnąć {THING:ItemEvaSuit} bezpośrednio do slotu {SLOT:Suit}, jest to o wiele szybsze. Przytrzymaj {KEY:MouseControl} i najedź kursorem na {THING:ItemEvaSuit}, następnie przytrzymaj {KEY:PrimaryAction} i przeciągnij do {SLOT:Suit}.
+      </Value>
+    </Record>
+    <Record>
       <Key>TutorialDescWearSuit</Key>
-      <Value>Press and hold the {KEY:SuitSlot} key to equip the {THING:ItemEvaSuit} to your {SLOT:Suit} slot.</Value>
+      <Value>Przytrzymaj {KEY:SuitSlot}, albo przytrzymaj {KEY:MouseControl}, aby użyć kursora w celu założenia {THING:ItemEvaSuit} do slotu {SLOT:Suit}. </Value>
     </Record>
     <Record>
       <Key>TutorialDescPickupJetpack</Key>
