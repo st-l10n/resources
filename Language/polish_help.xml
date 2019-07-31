@@ -77,6 +77,27 @@ Kiedy piec osiągnie odpowiednią temperaturę, wsadź rudę by ją przetopić -
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>InventoryPage</Key>
+      <Title>Ekwipunek</Title>
+      <Text>Wszystkie przedmioty w grze posiadają różnego rodzaju sloty. Te sloty mogą być odpowiednio sklasyfikowane, przez co można włożyć jedynie przedmioty pewnego typu. Są różne skróty klawiszowe umożliwiające dostęp do slotów Twojej postaci, jak na przykład klawisz {KEY:HelmetSlot} otwierający twój {SLOT:Helmet}.
+      
+{HEADER:Inventory Windows}
+Niektóre sloty posiadają dodatkowo własne sloty. Aby wejść w interakcję z zawartością slotu użyj odpowiedniego skrótu klawiszowego aby otworzyć okno lub przytrzymaj {KEY:MouseControl} i kliknij myszką na ten slot. Otworzy to okno slotu umożliwiające interakcję ze slotem i jego ustawieniami. Okna można przesuwać chwytając jego pasek z nazwą.
+
+{HEADER:Fast Equipping}
+Możesz przytrzymać skrót klawiszowy aby szybko się w coś wyposażyć, odłożyć lub zamienić sloty. Dla przykładu, mając {THING:ItemSpaceHelmet} w ręce, i nic w {SLOT:Helmet}, przytrzymując przez chwilę klawisz {KEY:HelmetSlot} przeniesie go do tego slotu.
+
+{HEADER:Drag and Drop}
+Alternatywnie, przytrzymując {KEY:MouseControl} możesz coś przeciągnąć między slotami, oknami, a nawet między światem i slotami w świecie.
+
+{HEADER:Dropping}
+Możesz upuścić przedmiot używając klawisza myszki {KEY:MouseControl} i przeciągając go na świat, lub też użyć klawisza {KEY:Drop}.
+
+{HEADER:Selecting}
+Jeśli chcesz użyć skrótu klawiszowego zamiast myszki, klawisz {KEY:InventorySelect} zamieni miejscami przedmiot w aktywnym slocie dłoni z przedmiotem w slocie wybranym za pomocą {COLORRED:Mouse Wheel}.
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>AirlockDevicePage</Key>
       <Title>Urządzenia śluzy powietrza</Title>
       <Text>Wkładając {THING:CircuitboardAirlockControl} do {THING:StructureConsole} możesz połączyć różne urządzenia aby stworzyć funkcjonalną śluzę powietrza.
