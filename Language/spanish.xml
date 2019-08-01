@@ -4590,8 +4590,16 @@ Scroll &lt;color=red&gt;Rueda de ratón&lt;/color&gt; para más opciones.</Value
       <Value>Rendirse</Value>
     </Record>
     <Record>
+      <Key>AlertYourSaveFileIsBroken</Key>
+      <Value>El archivo {0} no es válido. Compruebe el mundo {1}.</Value>
+    </Record>
+    <Record>
       <Key>AlertInvalidIP</Key>
       <Value>Dirección IP no válida {0} \nVerificar dirección IP o una URL válida</Value>
+    </Record>
+    <Record>
+      <Key>AlertNoBackups</Key>
+      <Value>Falta la carpeta de copias de seguridad o está vacía.</Value>
     </Record>
     <Record>
       <Key>AlertPlayerCountExceeded</Key>
@@ -4889,6 +4897,30 @@ No te sientas triste cuando te haces pedazos pequeños o diminutos, o eres asalt
     <Record>
       <Key>SettingsMouseWheelZoom</Key>
       <Value>Zoom de la rueda del mouse</Value>
+    </Record>
+    <Record>
+      <Key>Incident_SolarFlare</Key>
+      <Value>Los satélites han reconocido las condiciones climáticas extremas alrededor de su área.</Value>
+    </Record>
+    <Record>
+      <Key>Incident_MeteorInbound</Key>
+      <Value>Los escáneres satelitales han detectado objetos grandes que se mueven hacia su sector, se mueven hacia un entorno seguro.</Value>
+    </Record>
+    <Record>
+      <Key>Incident_BrokenCable</Key>
+      <Value>Se han detectado fuertes impulsos eléctricos, tenga cuidado con los cables quemados. </Value>
+    </Record>
+    <Record>
+      <Key>Incident_AlienLife</Key>
+      <Value>¿Escuchaste eso?</Value>
+    </Record>
+    <Record>
+      <Key>Incident_ElectroMagnetic</Key>
+      <Value>Sus baterías parecen estar perdiendo energía.</Value>
+    </Record>
+    <Record>
+      <Key>Incident_BrokenPipe</Key>
+      <Value>Advertencia, se espera un aumento de la presión de la tubería.</Value>
     </Record>
     <Record>
       <Key>TradingNoMoneyHash</Key>
@@ -5638,6 +5670,10 @@ Temperatura {1}</Value>
     <Record>
       <Key>ButtonContact</Key>
       <Value>Contacto</Value>
+    </Record>
+    <Record>
+      <Key>LoadBackupsTitle</Key>
+      <Value>Cargar copia de seguridad</Value>
     </Record>
     <Record>
       <Key>BackupMenuFileListTitle</Key>
