@@ -4719,6 +4719,10 @@ Scroll &lt;color=red&gt;Mouse Wheel&lt;/color&gt; for more options.</Value>
       <Value>Give Up</Value>
     </Record>
     <Record>
+      <Key>AlertYourSaveFileIsBroken</Key>
+      <Value>The file {0} is invalid. Check world {1}.</Value>
+    </Record>
+    <Record>
       <Key>AlertInvalidIP</Key>
       <Value>Invalid IP Address {0} \nCheck IP address or URL is valid</Value>
     </Record>
@@ -5024,6 +5028,34 @@ Just don't be sad when you blow yourself into tiny, tiny little pieces or get sa
       <Value>Mouse Wheel Zoom</Value>
     </Record>
     
+    <Record>
+      <Key>Incident_Supply</Key>
+      <Value>Satellites suggest a crate has dropped nearby, your beacon tracker should show you the way.</Value>
+    </Record>
+    <Record>
+      <Key>Incident_SolarFlare</Key>
+      <Value>Satellites have recognized extreme weather patterns around your area.</Value>
+    </Record>
+    <Record>
+      <Key>Incident_MeteorInbound</Key>
+      <Value>Satellite scans have picked up large object moving towards your sector, move to a safe environment.</Value>
+    </Record>
+        <Record>
+      <Key>Incident_BrokenCable</Key>
+      <Value>Strong electric pulses have been detected, beware of burnt cables. </Value>
+    </Record>
+    <Record>
+      <Key>Incident_AlienLife</Key>
+      <Value>Do you hear that?</Value>
+    </Record>
+        <Record>
+      <Key>Incident_ElectroMagnetic</Key>
+      <Value>Your batteries seem to be losing power.</Value>
+    </Record>
+        <Record>
+      <Key>Incident_BrokenPipe</Key>
+      <Value>Warning, increased pipe pressure expected.</Value>
+    </Record>
     <Record>
       <Key>TradingNoMoneyHash</Key>
       <Value>There is not have enough money to complete this trade!</Value>
@@ -5393,6 +5425,7 @@ Temperature {1}</Value>
       <Key>LogicTypeOpen</Key>
       <Value>1 if device is open, otherwise 0</Value>
     </Record>
+
     <Record>
       <Key>LogicTypeMode</Key>
       <Value>Integer for mode state, different devices will have different mode states available to them</Value>
@@ -5861,7 +5894,7 @@ Temperature {1}</Value>
       <Key>ContactTradeRequest</Key>
       <Value>A trader has requested permission for landing.</Value>
     </Record>
-    <Record>
+        <Record>
       <Key>TraderInUse</Key>
       <Value>This contact is already interacting with someone, try again soon.</Value>
     </Record>
