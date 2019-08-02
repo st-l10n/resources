@@ -4445,8 +4445,16 @@ Scroll &lt;color=red&gt;Roulette de la souris&lt;/color&gt; pour plus d&apos;opt
       <Value>Abandonner</Value>
     </Record>
     <Record>
+      <Key>AlertYourSaveFileIsBroken</Key>
+      <Value>Le fichier {0} est invalide. Vérifiez le monde {1}.</Value>
+    </Record>
+    <Record>
       <Key>AlertInvalidIP</Key>
       <Value>Adresse IP non valide {0} \nVérifier que l&apos;adresse IP ou l&apos;URL soit valide</Value>
+    </Record>
+    <Record>
+      <Key>AlertNoBackups</Key>
+      <Value>Dossier de sauvegarde manquant ou vide.</Value>
     </Record>
     <Record>
       <Key>AlertPlayerCountExceeded</Key>
@@ -4724,6 +4732,34 @@ Ne soyez pas triste quand vous vous faites exploser en minuscules petits morceau
     <Record>
       <Key>SettingsMouseWheelZoom</Key>
       <Value>Zoom avec molette souris</Value>
+    </Record>
+    <Record>
+      <Key>Incident_Supply</Key>
+      <Value>Les satellites suggèrent qu&apos;une caisse est tombée à proximité, votre traqueur de balise devrait vous montrer le chemin.</Value>
+    </Record>
+    <Record>
+      <Key>Incident_SolarFlare</Key>
+      <Value>Les satellites ont reconnu les conditions météorologiques extrêmes autour de votre région.</Value>
+    </Record>
+    <Record>
+      <Key>Incident_MeteorInbound</Key>
+      <Value>Les balayages par satellite ont capté de gros objets se déplaçant vers votre secteur, se déplaçant vers un environnement sûr.</Value>
+    </Record>
+    <Record>
+      <Key>Incident_BrokenCable</Key>
+      <Value>De fortes impulsions électriques ont été détectées, méfiez-vous des câbles brûlés.</Value>
+    </Record>
+    <Record>
+      <Key>Incident_AlienLife</Key>
+      <Value>Tu entends ça ?</Value>
+    </Record>
+    <Record>
+      <Key>Incident_ElectroMagnetic</Key>
+      <Value>Vos batteries semblent perdre de la puissance.</Value>
+    </Record>
+    <Record>
+      <Key>Incident_BrokenPipe</Key>
+      <Value>Attention, augmentation de la pression dans le tuyau attendu.</Value>
     </Record>
     <Record>
       <Key>TradingNoMoneyHash</Key>
@@ -5515,8 +5551,12 @@ Temperature {1}</Value>
       <Value>MARCHE SPATIAL</Value>
     </Record>
     <Record>
+      <Key>LoadBackupsTitle</Key>
+      <Value>Charger la sauvegarde</Value>
+    </Record>
+    <Record>
       <Key>BackupMenuFileListTitle</Key>
-      <Value>Retour</Value>
+      <Value>Sauvegardes</Value>
     </Record>
   </Interface>
   <Colors>
