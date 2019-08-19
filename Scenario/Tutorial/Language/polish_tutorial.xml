@@ -132,7 +132,11 @@ A {THING:CircuitboardAirlockControl} in the {THING:StructureConsole} is controll
     </Record>
     <Record>
       <Key>TutorialDescRepairCable1</Key>
-      <Value>There is a broken {THING:StructureCableJunction}, find it and remove by using a {THING:ItemWireCutters} from your {THING:ItemToolBelt}. Press {KEY:ToolBeltSlot} to open your {SLOT:Belt} slot. Press {KEY:InventorySelect} to swap the highlighted interior slot item to your hands.</Value>
+      <Value>{THING:StructureCableStraight} może przenosić zarazem {COLORYELLOW:Data} oraz {COLORYELLOW:Power}, ale mogą się uszkodzić jeżeli przepłynie więcej mocy, niż jest to zalecane.  Jest tutaj gdzieś uszkodzony {THING:StructureCableJunction} pod {THING:StructureAirlock}, z której wyszedłeś, znajdź go i usuń za pomocą {THING:ItemWireCutters} wyjętego z Twojego {THING:ItemToolBelt}.
+      
+Pamiętaj że istnieją dwa sposoby aby wejść w interakcję z twoim ekwipunkiem {LINK:InventoryPage;ekwipunkiem}. Możesz wcisnąć i przytrzymać {KEY:MouseControl} aby uaktywnić kursor, potem przeciągnąć i upuścić, lub otworzyć rzeczy za pomocą myszy. Dla szybkiej kontroli, naciśnij {KEY:ToolBeltSlot} aby otworzyć slot {SLOT:Belt}. Naciśnij {KEY:InventorySelect} aby zamienić podświetlony slot z Twoimi dłońmi.
+
+Jeżeli masz zbyt wiele otwartych okien, możesz zamknąć je wszystkie naraz używając {KEY:HideAllWindows}, natomiast otworzyć poszczególne okna możesz, naciskając odpowiadający im przycisk slotu, lub możesz nacisnąć na slot samemu, podczas gdy za pomocą {KEY:MouseControl} aktywowałeś(aś) kursor.</Value>
     </Record>
     <Record>
       <Key>TutorialTaskRepairCable1</Key>
