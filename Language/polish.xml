@@ -3932,7 +3932,7 @@
     </Record>
     <Record>
       <Key>NewWorldAreaMoon</Key>
-      <Value>Księżyc </Value>
+      <Value>Księżyc</Value>
     </Record>
     <Record>
       <Key>SettingsAntialiasing</Key>
@@ -3980,7 +3980,7 @@
     </Record>
     <Record>
       <Key>TutorialGetStarted</Key>
-      <Value>Rozpocznij samouczek</Value>
+      <Value>Zacznij od samouczka</Value>
     </Record>
     <Record>
       <Key>TutorialSkipButton</Key>
@@ -4213,29 +4213,41 @@ Przewiń &lt;color=red&gt;kółkiem myszy&lt;/color&gt;, aby wyświetlić więce
       <Value>Jestes nieprzytomny. Czy chcesz się poddac i odrodzic?</Value>
     </Record>
     <Record>
+      <Key>AlertYourSaveFileIsBroken</Key>
+      <Value>Plik {0} jest nieprawidłowy. Sprawdź świat {1}.</Value>
+    </Record>
+    <Record>
+      <Key>AlertInvalidIP</Key>
+      <Value>Nieprawidłowy adres IP {0} \nSprawdź czy IP lub URL są prawidłowe</Value>
+    </Record>
+    <Record>
+      <Key>AlertNoBackups</Key>
+      <Value>Folder backupów jest pusty lub nie istnieje.</Value>
+    </Record>
+    <Record>
       <Key>AlertPlayerCountExceeded</Key>
-      <Value>Serwer jest pelny.</Value>
+      <Value>Serwer jest pełny.</Value>
     </Record>
     <Record>
       <Key>AlertVersionMismatch</Key>
-      <Value>Niezgodnosc wersji gry z serwerem.</Value>
+      <Value>Niezgodność wersji gry z serwerem.</Value>
     </Record>
     <Record>
       <Key>AlertNoResponse</Key>
-      <Value>Nie ma odpowiedzi z serwera gry.
-	  Sprobuj ponownie.</Value>
+      <Value>Brak odpowiedzi od Serwera Gry.
+Spróbuj ponownie.</Value>
     </Record>
     <Record>
       <Key>AlertKicked</Key>
-      <Value>Zostales wyrzucony z serwera.</Value>
+      <Value>Zostałeś(aś) wyrzucony z serwera.</Value>
     </Record>
     <Record>
       <Key>AlertWrongPassword</Key>
-      <Value>Niepoprawne haslo serwera.</Value>
+      <Value>Nieprawidłowe hasło serwera.</Value>
     </Record>
     <Record>
       <Key>AlertInvalidPort</Key>
-      <Value>Wartosci portow musza nalezec do zakresu od 0 do 65535.</Value>
+      <Value>Wartości portów muszą znajdować się w zakresie od 0 do 65535.</Value>
     </Record>
     <Record>
       <Key>AlertCannotUpdatePort</Key>
@@ -4259,7 +4271,7 @@ Przewiń &lt;color=red&gt;kółkiem myszy&lt;/color&gt;, aby wyświetlić więce
     </Record>
     <Record>
       <Key>JoinMenuAddressPlaceholder</Key>
-      <Value>Wpisz IP: Port tutaj...</Value>
+      <Value>Wpisz IP:Port tutaj...</Value>
     </Record>
     <Record>
       <Key>JoinMenuServerDetailConnectButton</Key>
@@ -4287,7 +4299,7 @@ Przewiń &lt;color=red&gt;kółkiem myszy&lt;/color&gt;, aby wyświetlić więce
     </Record>
     <Record>
       <Key>SaveMenuNamePlaceholder</Key>
-      <Value>Wprowadz nazwe Zapisz ...</Value>
+      <Value>Wprowadź nazwę zapisu...</Value>
     </Record>
     <Record>
       <Key>JoinMenuServerListMap</Key>
@@ -4303,7 +4315,7 @@ Przewiń &lt;color=red&gt;kółkiem myszy&lt;/color&gt;, aby wyświetlić więce
     </Record>
     <Record>
       <Key>JoinMenuInfoLatency</Key>
-      <Value>Czas oczekiwania:</Value>
+      <Value>Opóźnienie:</Value>
     </Record>
     <Record>
       <Key>JoinMenuInfoPlayers</Key>
@@ -4311,11 +4323,11 @@ Przewiń &lt;color=red&gt;kółkiem myszy&lt;/color&gt;, aby wyświetlić więce
     </Record>
     <Record>
       <Key>ChangeAppearanceTitle</Key>
-      <Value>Zmienic wyglad</Value>
+      <Value>Zmień wygląd</Value>
     </Record>
     <Record>
       <Key>AppearanceTitleGender</Key>
-      <Value>Plec</Value>
+      <Value>Płeć</Value>
     </Record>
     <Record>
       <Key>AppearanceTitleFace</Key>
@@ -4672,8 +4684,8 @@ Przewiń &lt;color=red&gt;kółkiem myszy&lt;/color&gt;, aby wyświetlić więce
       <Value>Maksymalne ustawienie urządzenia</Value>
     </Record>
     <Record>
-      <Key>LogicTypeImportSlotOccupant</Key>
-      <Value>PRZESTARZAŁE</Value>
+      <Key>LogicTypeRatio</Key>
+      <Value>Wartość specyficzna, zależna od urządzenia, od 0 do 1</Value>
     </Record>
     <Record>
       <Key>LogicTypeExportSlotOccupant</Key>
