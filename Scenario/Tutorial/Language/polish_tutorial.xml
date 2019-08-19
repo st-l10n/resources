@@ -45,7 +45,7 @@ Przytrzymaj {KEY:MouseControl} aby aktywować kursor myszy i przeciągnij {THING
     </Record>
     <Record>
       <Key>TutorialDescWearJetpack</Key>
-      <Value>Press and hold the {KEY:BackSlot} key to equip the {THING:ItemSpacepack} to your {SLOT:Back} slot.</Value>
+      <Value>Wciśnij i przytrzymaj przycisk {KEY:BackSlot}, lub naciśnij i przytrzymaj {KEY:MouseControl} aby przywołać kursor myszy, w celu ubrania {THING:ItemSpacepack} do slotu {SLOT:Back}.</Value>
     </Record>
     <Record>
       <Key>TutorialTitlePowerSuit</Key>
@@ -60,16 +60,20 @@ Przytrzymaj {KEY:MouseControl} aby aktywować kursor myszy i przeciągnij {THING
       <Value>Otwórz swój {THING:ItemEvaSuit} poprzez naciśnięcie {KEY:SuitSlot}, lub przytrzymując {KEY:MouseControl} i naciskając na slot {SLOT:Suit}.</Value>
     </Record>
     <Record>
-      <Key>TutorialDescLifesupport1</Key>
-      <Value>You can interact with the {SLOT:Suit} slot by pressing and releasing the {KEY:SuitSlot} key. This will cycle through Interactions and Slot Inventory, if available. Do this until you see the slot inventory.</Value>
+      <Key>TutorialTaskLifesupportSuit1</Key>
+      <Value>Podnieś {THING:ItemBatteryCellLarge}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskLifesupportSuit2</Key>
+      <Value>Otwórz okno {THING:ItemEvaSuit}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskLifesupportSuit4</Key>
+      <Value>Wyposaż {THING:ItemBatteryCellLarge} do swojego {THING:ItemEvaSuit} </Value>
     </Record>
     <Record>
       <Key>TutorialDescLifesupport2</Key>
       <Value>{COLORRED:Musisz ubrać {THING:ItemEvaSuit}, aby kontynuować. Włóż go z powrotem.</Value>
-    </Record>
-    <Record>
-      <Key>TutorialDescLifesupport4</Key>
-      <Value>With the {THING:ItemBatteryCellLarge} active in your {SLOT:LeftHand} or {SLOT:RightHand} slot, press the {KEY:InventorySelect} key to swap the {THING:ItemBatteryCellLarge} into the {SLOT:LifeSupport} slot. If needed you can press the {KEY:SwapHands} key to swap what is your active hand.</Value>
     </Record>
     <Record>
       <Key>TutorialTitleSuitFilter</Key>
@@ -78,14 +82,6 @@ Przytrzymaj {KEY:MouseControl} aby aktywować kursor myszy i przeciągnij {THING
     <Record>
       <Key>TutorialDescFilter1</Key>
       <Value>Znajdź {THING:ItemGasFilterCarbonDioxide} i umieść go w swoim slocie {SLOT:LeftHand} lub {SLOT:RightHand} poprzez wciśnięcie {KEY:PrimaryAction}. Znów, możesz po prostu przeciągnąć {THING:ItemGasFilterCarbonDioxide} ze świata do {THING:ItemEvaSuit} aby zaoszczędzić czas. Ten filtr usuwa {GAS:CarbonDioxide} z Twojego {THING:ItemEvaSuit}.</Value>
-    </Record>
-    <Record>
-      <Key>TutorialDescFilter2</Key>
-      <Value>You can interact with the {SLOT:Suit} slot by pressing and releasing the {KEY:SuitSlot} key. This will cycle through Interactions and Slot Inventory, if available. Do this until you see the slot inventory.</Value>
-    </Record>
-    <Record>
-      <Key>TutorialDescFilter4</Key>
-      <Value>With the {THING:ItemGasFilterCarbonDioxide} active in your {SLOT:LeftHand} or {SLOT:RightHand} slot, press the {KEY:InventorySelect} key to swap the battery into the slot. If needed you can press the {KEY:SwapHands} key to swap what is your active hand.</Value>
     </Record>
     <Record>
       <Key>TutorialTitleGetTools</Key>
@@ -105,22 +101,20 @@ Dobre zarządzanie swoim {LINK:InventoryPage;ekwipunkiem} wymaga umiejętności 
 {THING:ItemMiningBelt} posiada specjalne sloty {LINK:OrePage;rudy} które automatycznie się uzupełniają rudą w momencie gdy, na przykład, używasz {THING:ItemMiningDrill}. Możesz przeczytać o tym więcej w sekcji {LINK:MiningPage;Górnictwo}.</Value>
     </Record>
     <Record>
+      <Key>TutorialTaskGetTools1</Key>
+      <Value>Upuść {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
       <Key>TutorialTitleGoInAirlock</Key>
       <Value>Wyjście w kosmos</Value>
     </Record>
     <Record>
-      <Key>TutorialDescGoInAirlock1</Key>
-      <Value>Head through the {THING:StructureAirlock} door and ensure your {THING:ItemEvaSuit} and {THING:ItemSpaceHelmet} are ready. Press the {KEY:HelmetSlot} key until you see the interactions menu, scroll to the close option, and press {KEY:InventorySelect} to toggle the state.</Value>
+      <Key>TutorialTaskGoInAirlock1</Key>
+      <Value>Zamknij wizjer swojego {THING:ItemSpaceHelmet}</Value>
     </Record>
     <Record>
       <Key>TutorialTitleCycleAirlock</Key>
       <Value>Używanie śluzy</Value>
-    </Record>
-    <Record>
-      <Key>TutorialDescCycleAirlock1</Key>
-      <Value>You can cycle the Airlock using the {THING:StructureConsole} or the keypad interactable on either of the {THING:StructureAirlock} doors. This will depressurize the airlock so you can go into space.
-
-A {THING:CircuitboardAirlockControl} in the {THING:StructureConsole} is controlling the {THING:StructureActiveVent}s and other devices to cycle the airlock.</Value>
     </Record>
     <Record>
       <Key>TutorialTaskCycleAirlock1</Key>
@@ -140,15 +134,15 @@ Jeżeli masz zbyt wiele otwartych okien, możesz zamknąć je wszystkie naraz u�
     </Record>
     <Record>
       <Key>TutorialTaskRepairCable1</Key>
-      <Value>Wyposaz swoj {THING:ItemWireCutters}</Value>
+      <Value>Wyposaż swój {THING:ItemWireCutters}</Value>
     </Record>
     <Record>
       <Key>TutorialTaskRepairCable2</Key>
-      <Value>Usunac {THING:StructureCableJunctionBurnt}</Value>
+      <Value>Usuń {THING:StructureCableJunctionBurnt}</Value>
     </Record>
     <Record>
       <Key>TutorialTaskRepairCable3</Key>
-      <Value>Wyposaz swoj {THING:ItemCableCoil}</Value>
+      <Value>Wyposaż {THING:ItemCableCoil}</Value>
     </Record>
     <Record>
       <Key>TutorialDescRepairCable2</Key>
@@ -157,14 +151,6 @@ Jeżeli masz zbyt wiele otwartych okien, możesz zamknąć je wszystkie naraz u�
     <Record>
       <Key>TutorialDescRepairCable3</Key>
       <Value>Now we need to place a {THING:StructureCableJunction}. Move the {THING:ItemCableCoil} from your {THING:ItemToolBelt} to your {SLOT:LeftHand} or {SLOT:RightHand} slot. Remember the {KEY:InventorySelect} interacts with interior slots and actions, and the {KEY:ToolBeltSlot} key will open and close your {SLOT:Belt} slot.</Value>
-    </Record>
-    <Record>
-      <Key>TutorialDescRepairCable4</Key>
-      <Value>With the {THING:ItemCableCoil} in your active hand, press {COLORRED:Right Mouse Button} to bring up the construction cursor.
-
-Use the {COLORRED:Mouse Wheel} to change placement type, selecting the {THING:StructureCableJunction} variant.
-
-Press {KEY:RotateLeft} to rotate left, {KEY:RotateRight} to rotate right, {KEY:RotateUp} to rotate up, {KEY:RotateDown} to rotate down, {KEY:RotateRollLeft} to roll left, or {KEY:RotateRollRight} to roll right.</Value>
     </Record>
     <Record>
       <Key>TutorialTaskFinishFrame1</Key>
