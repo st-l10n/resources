@@ -149,62 +149,8 @@ Jeżeli masz zbyt wiele otwartych okien, możesz zamknąć je wszystkie naraz u�
       <Value>Spójrz na {THING:StructureCableJunctionBurnt} trzymając {THING:ItemWireCutters} w aktywnej ręce. Zobaczysz {COLORYELLOW:żółte} obramowanie dookoła niego. Przytrzymaj {KEY:PrimaryAction} aby usunąć {THING:StructureCableJunctionBurnt}.</Value>
     </Record>
     <Record>
-      <Key>TutorialDescRepairCable3</Key>
-      <Value>Now we need to place a {THING:StructureCableJunction}. Move the {THING:ItemCableCoil} from your {THING:ItemToolBelt} to your {SLOT:LeftHand} or {SLOT:RightHand} slot. Remember the {KEY:InventorySelect} interacts with interior slots and actions, and the {KEY:ToolBeltSlot} key will open and close your {SLOT:Belt} slot.</Value>
-    </Record>
-    <Record>
-      <Key>TutorialTaskFinishFrame1</Key>
-      <Value>Weld the {THING:StructureFrame} to complete tutorial</Value>
-    </Record>
-    <Record>
-      <Key>TutorialDescTablet1</Key>
-      <Value>Pickup a {THING:ItemTablet} and {THING:ItemBatteryCellLarge} into your {SLOT:LeftHand} or {SLOT:RightHand} slots by looking at it and clicking the {COLORYELLOW:Left Mouse Button}. You can switch your active hand by pressing the {KEY:SwapHands} key. This will allow you to put one item in each hands. Do this to continue.</Value>
-    </Record>
-    <Record>
-      <Key>TutorialDescTablet2</Key>
-      <Value>You can interact with your active hand slot by pressing and releasing the {KEY:ActiveHandSlot} key. This will cycle through Interactions and Slot Inventory, if available for the item currently in your active hand. You can change your currently active hand with the {KEY:SwapHands} key. Select the {THING:ItemTablet} as your active hand and open its slot interior to continue.</Value>
-    </Record>
-    <Record>
-      <Key>TutorialDescTablet4</Key>
-      <Value>Now swap your active hand with the {KEY:SwapHands} key until the {THING:ItemBatteryCellLarge} is in the active hand. You should have the internal inventory of the {THING:ItemTablet} open in one hand, and the {THING:ItemBatteryCellLarge} selected as the active hand in the other. Then press the {KEY:InventorySelect} key to equip into the selected {SLOT:Battery} slot.</Value>
-    </Record>
-    <Record>
-      <Key>TutorialTaskTablet5</Key>
-      <Value>Equip the {THING:ItemTablet} with a {THING:ItemBatteryCellLarge}</Value>
-    </Record>
-    <Record>
-      <Key>TutorialDescUseReader1</Key>
-      <Value>The {ItemTablet} can have different cartridges for different functions. Turn the {ItemTablet} on using the {KEY:ToggleHandPower} key, or the interactions in your hands with the {KEY:ActiveHandSlot} key.</Value>
-    </Record>
-    <Record>
-      <Key>TutorialDescUseReader2</Key>
-      <Value>The {THING:ItemTablet} has a {THING:CartridgeElectronicReader} inserted. This tells you the recipes you need to make for all things in the game, and what they can be made in. Find the recipe that allows you to make a {THING:ItemMuffin} by using the {COLORRED:Mouse Wheel} to scroll through the options.
-
-Using different cartridges allows you to access many different functions, such as the {THING:CartridgeNetworkAnalyser} which allows you to debug cable networks, or the {THING:CartridgeAtmosAnalyser} which provides atmospheric information.</Value>
-    </Record>
-    <Record>
-      <Key>TutorialTaskUseReader2</Key>
-      <Value>Find the recipe to make an {THING:ItemMuffin}</Value>
-    </Record>
-    <Record>
-      <Key>TutorialDescBakeMuffin1</Key>
-      <Value>Some devices in the game are mounted on {THING:StructureBench}s; they are called Appliances. Pickup the {THING:ApplianceMicrowave} and walk in front of the {THING:StructureBench}.</Value>
-    </Record>
-    <Record>
-      <Key>TutorialDescBakeMuffin3</Key>
-      <Value>Look at the {THING:ApplianceMicrowave}. Look at the side, rather than the door, so that you are targeting the item directly and not trying to open it. When you see a {COLORYELLOW:yellow box} hold down the {COLORRED:Left Mouse Button} to wrench it onto the {THING:StructureBench}.</Value>
-    </Record>
-    <Record>
-      <Key>TutorialDescBakeMuffin4</Key>
-      <Value>Look at the door on the {THING:ApplianceMicrowave}. Press the {COLORRED:Left Mouse Button} to open the door and allow you to put reagents inside.</Value>
-    </Record>
-    <Record>
-      <Key>TutorialDescBakeMuffin5</Key>
-      <Value>Pickup the required ingredients in your task list and look inside the {THING:ApplianceMicrowave} with it in your active hand. Hold {COLORRED:Left Mouse Button} to add more of the reagent until you have added enough. Do not add more than is needed for the recipe. You will need to do this twice for some recipes.</Value>
-    </Record>
-    <Record>
-      <Key>TutorialDescBakeMuffin7</Key>
-      <Value>Open your {THING:ItemSpacepack} by pressing the {KEY:BackSlot} key. Cycle to the slot with the {THING:ItemWrench} using the {COLORRED:Mouse Wheel} and press the {KEY:InventorySelect} key to swap it into your hand.</Value>
+      <Key>TutorialTitleFinishFrame</Key>
+      <Value>Dokończ spawanie ramy</Value>
     </Record>
   </Interface>
 </Language>
