@@ -5,6 +5,10 @@
   <Font>font_russian</Font>
   <Interface>
     <Record>
+      <Key>TutorialTitleWearSpacesuit</Key>
+      <Value>Ubieranie Skafandra</Value>
+    </Record>
+    <Record>
       <Key>TutorialTaskWearHelmet</Key>
       <Value>Załóż {THING:ItemSpaceHelmet}</Value>
     </Record>
@@ -44,6 +48,10 @@ Przytrzymaj {KEY:MouseControl} aby aktywować kursor myszy i przeciągnij {THING
       <Value>Press and hold the {KEY:BackSlot} key to equip the {THING:ItemSpacepack} to your {SLOT:Back} slot.</Value>
     </Record>
     <Record>
+      <Key>TutorialTitlePowerSuit</Key>
+      <Value>Zasilanie Skafandra</Value>
+    </Record>
+    <Record>
       <Key>TutorialDescPowerSuit</Key>
       <Value>Znajdź {THING:ItemBatteryCellLarge} i umieść ją w swoim slocie {SLOT:LeftHand} lub {SLOT:RightHand} poprzez spojrzenie na nią i wciśnięcie {KEY:PrimaryAction}. Możesz również przeciągnąć {THING:ItemBatteryCellLarge} bezpośrednio do {THING:ItemEvaSuit}, aby zaoszczędzić czas.</Value>
     </Record>
@@ -80,6 +88,10 @@ Przytrzymaj {KEY:MouseControl} aby aktywować kursor myszy i przeciągnij {THING
       <Value>With the {THING:ItemGasFilterCarbonDioxide} active in your {SLOT:LeftHand} or {SLOT:RightHand} slot, press the {KEY:InventorySelect} key to swap the battery into the slot. If needed you can press the {KEY:SwapHands} key to swap what is your active hand.</Value>
     </Record>
     <Record>
+      <Key>TutorialTitleGetTools</Key>
+      <Value>Zdobywanie narzędzi budowlanych</Value>
+    </Record>
+    <Record>
       <Key>TutorialDescGetTools1</Key>
       <Value>Teraz musimy wyjść ze stacji, aby dokonać napraw. Wyrzuć rzeczy, jeżeli masz jakiekolwiek w swoich dłoniach, używając {KEY:Drop}, dzięki czemu będziemy mogli podnieść inne rzeczy. Pamiętaj, że możesz użyć {KEY:MouseControl} aby uruchomić kursor dla zarządzania {LINK:InventoryPage;ekwipunkiem}, oraz, że możesz zmienić {COLORYELLOW:Active Hand} poprzez wciśnięcie przycisku {KEYS:SwapHands}.
 
@@ -93,14 +105,30 @@ Dobre zarządzanie swoim {LINK:InventoryPage;ekwipunkiem} wymaga umiejętności 
 {THING:ItemMiningBelt} posiada specjalne sloty {LINK:OrePage;rudy} które automatycznie się uzupełniają rudą w momencie gdy, na przykład, używasz {THING:ItemMiningDrill}. Możesz przeczytać o tym więcej w sekcji {LINK:MiningPage;Górnictwo}.</Value>
     </Record>
     <Record>
+      <Key>TutorialTitleGoInAirlock</Key>
+      <Value>Wyjście w kosmos</Value>
+    </Record>
+    <Record>
       <Key>TutorialDescGoInAirlock1</Key>
       <Value>Head through the {THING:StructureAirlock} door and ensure your {THING:ItemEvaSuit} and {THING:ItemSpaceHelmet} are ready. Press the {KEY:HelmetSlot} key until you see the interactions menu, scroll to the close option, and press {KEY:InventorySelect} to toggle the state.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTitleCycleAirlock</Key>
+      <Value>Używanie śluzy</Value>
     </Record>
     <Record>
       <Key>TutorialDescCycleAirlock1</Key>
       <Value>You can cycle the Airlock using the {THING:StructureConsole} or the keypad interactable on either of the {THING:StructureAirlock} doors. This will depressurize the airlock so you can go into space.
 
 A {THING:CircuitboardAirlockControl} in the {THING:StructureConsole} is controlling the {THING:StructureActiveVent}s and other devices to cycle the airlock.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskCycleAirlock1</Key>
+      <Value>Przełącz śluzę</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTitleRepairCable</Key>
+      <Value>Napraw uszkodzony kabel</Value>
     </Record>
     <Record>
       <Key>TutorialDescRepairCable1</Key>
