@@ -4018,6 +4018,10 @@ Scroll &lt;color=red&gt;Kolečko Myši&lt;/color&gt; pro další volbu.</Value>
       <Value>Neplatná IP Adresa {0} \nZkontroluj IP adresu nebo URL jestli je platná</Value>
     </Record>
     <Record>
+      <Key>AlertNoBackups</Key>
+      <Value>Složka záloh chybí nebo je prázdná.</Value>
+    </Record>
+    <Record>
       <Key>AlertPlayerCountExceeded</Key>
       <Value>Server je plný.</Value>
     </Record>
@@ -4728,12 +4732,28 @@ Teplota {1}</Value>
       <Value>Hotovo</Value>
     </Record>
     <Record>
+      <Key>IncidentsTitle</Key>
+      <Value>Incidenty</Value>
+    </Record>
+    <Record>
+      <Key>OpenIncidentUI</Key>
+      <Value>Otevřít incidenty</Value>
+    </Record>
+    <Record>
       <Key>ContactsTrading</Key>
       <Value>Kontakty</Value>
     </Record>
     <Record>
       <Key>TraderGoneMissing</Key>
       <Value>Zdá se, že kontakt byl přesunut.</Value>
+    </Record>
+    <Record>
+      <Key>Trade</Key>
+      <Value>Obchod</Value>
+    </Record>
+    <Record>
+      <Key>Locked</Key>
+      <Value>Uzamčeno</Value>
     </Record>
     <Record>
       <Key>ContactEventDefault</Key>
@@ -4760,8 +4780,12 @@ Teplota {1}</Value>
       <Value>Kontakt</Value>
     </Record>
     <Record>
+      <Key>LoadBackupsTitle</Key>
+      <Value>Načíst Zálohu</Value>
+    </Record>
+    <Record>
       <Key>BackupMenuFileListTitle</Key>
-      <Value>Zpět</Value>
+      <Value>Zálohy</Value>
     </Record>
   </Interface>
   <Colors>
