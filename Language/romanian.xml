@@ -40,6 +40,11 @@
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
+      <Key>Steel</Key>
+      <Value>Oțel</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
       <Key>Hydrocarbon</Key>
       <Value>Hidrocarburi</Value>
       <Unit>g</Unit>
@@ -57,6 +62,11 @@
     <RecordReagent>
       <Key>Lead</Key>
       <Value>Plumb</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Solder</Key>
+      <Value>Fludor</Value>
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
@@ -100,9 +110,14 @@
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
+      <Key>ColorGreen</Key>
+      <Value>Colorare verde</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
       <Key>ColorBlue</Key>
       <Value>Colorare Albastru</Value>
-      <Unit>CuloareAlbastru.g</Unit>
+      <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>ColorYellow</Key>
@@ -525,6 +540,14 @@
   </Things>
   <Slots>
     <Record>
+      <Key>Output</Key>
+      <Value>Ieșire</Value>
+    </Record>
+    <Record>
+      <Key>Input</Key>
+      <Value>Intrare</Value>
+    </Record>
+    <Record>
       <Key>LeftHand</Key>
       <Value>Mâna stângă</Value>
     </Record>
@@ -539,6 +562,14 @@
     <Record>
       <Key>Suit</Key>
       <Value>Costum</Value>
+    </Record>
+    <Record>
+      <Key>Back</Key>
+      <Value>În spate</Value>
+    </Record>
+    <Record>
+      <Key>Brain</Key>
+      <Value>Creier</Value>
     </Record>
     <Record>
       <Key>Uniform</Key>
@@ -621,8 +652,16 @@
       <Value>Se procesează</Value>
     </Record>
     <Record>
+      <Key>AccessCard</Key>
+      <Value>Cartelă de acces</Value>
+    </Record>
+    <Record>
       <Key>Magazine</Key>
       <Value>Încărcător</Value>
+    </Record>
+    <Record>
+      <Key>ContainerSlot</Key>
+      <Value>Slot pentru containere</Value>
     </Record>
     <Record>
       <Key>Plant</Key>
