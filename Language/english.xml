@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>English</Name>
   <Code>EN</Code>
   <Font>font_english</Font>
@@ -162,6 +162,36 @@
     <RecordReagent>
       <Key>Rice</Key>
       <Value>Rice</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Waspaloy</Key>
+      <Value>Waspaloy</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Stellite</Key>
+      <Value>Stellite</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Inconel</Key>
+      <Value>Inconel</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Hastelloy</Key>
+      <Value>Hastelloy</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Astroloy</Key>
+      <Value>Astroloy</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Cobalt</Key>
+      <Value>Cobalt</Value>
       <Unit>g</Unit>
     </RecordReagent>
   </Reagents>
@@ -371,6 +401,14 @@
     <Record>
       <Key>Vend</Key>
       <Value>Vend</Value>
+    </Record>
+    <Record>
+      <Key>Link</Key>
+      <Value>Link</Value>
+    </Record>
+    <Record>
+      <Key>UnLink</Key>
+      <Value>UnLink</Value>
     </Record>
   </Actions>
   <Things>
@@ -916,7 +954,7 @@
     </Record>
     <Record>
       <Key>ItemGasFilterCarbonDioxide</Key>
-      <Value>Filter (CO2)</Value>
+      <Value>Filter (Carbon Dioxide)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterPollutants</Key>
@@ -3354,6 +3392,98 @@
       <Key>ItemReferenceTool</Key>
       <Value>Item Reference Tool</Value>
     </Record>
+    <Record>
+      <Key>ItemKitAutoMiner</Key>
+      <Value>Item Kit Auto Miner</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterNitrousOxide</Key>
+      <Value>Portable Tank (Nitrous Oxide)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterPollutants</Key>
+      <Value>Portable Tank (Pollutants)</Value>
+    </Record>
+    <Record>
+      <Key>Lander</Key>
+      <Value>Lander</Value>
+    </Record>
+    <Record>
+      <Key>ItemRemoteDetonator</Key>
+      <Value>Remote Detonator</Value>
+    </Record>
+    <Record>
+      <Key>ItemExplosive</Key>
+      <Value>Remote Explosive</Value>
+    </Record>
+    <Record>
+      <Key>StructureSolarPanelFused</Key>
+      <Value>Solar Panel</Value>
+    </Record>
+    <Record>
+      <Key>ItemCoffeeMug</Key>
+      <Value>Coffee Mug</Value>
+    </Record>
+    <Record>
+      <Key>AimeeBot</Key>
+      <Value>Aimee Bot</Value>
+    </Record>
+    <Record>
+      <Key>Robot</Key>
+      <Value>Robot</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeGPS</Key>
+      <Value>Cartridge (GPS)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicTransmitter</Key>
+      <Value>Logic Transmitter</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicTransmitter</Key>
+      <Value>Kit (Logic Transmitter)</Value>
+    </Record>
+    <Record>
+      <Key>StructureAdvancedFurnace</Key>
+      <Value>Advanced Furnace</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitAdvancedFurnace</Key>
+      <Value>Kit (Advanced Furnace)</Value>
+    </Record>
+    <Record>
+      <Key>ItemStelliteIngot</Key>
+      <Value>Ingot (Stellite)</Value>
+    </Record>
+    <Record>
+      <Key>ItemWaspaloyIngot</Key>
+      <Value>Ingot (Waspaloy)</Value>
+    </Record>
+    <Record>
+      <Key>ItemHastelloyIngot</Key>
+      <Value>Ingot (Hastelloy)</Value>
+    </Record>
+    <Record>
+      <Key>ItemInconelIngot</Key>
+      <Value>Ingot (Inconel)</Value>
+    </Record>
+    <Record>
+      <Key>ItemAstroloyIngot</Key>
+      <Value>Ingot (Astroloy)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCobaltOre</Key>
+      <Value>Ore (Cobalt)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCobaltIngot</Key>
+      <Value>Ingot (Cobalt)</Value>
+    </Record>
+    <Record>
+      <Key>ReagentCobalt</Key>
+      <Value>Cobalt Powder</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -3546,7 +3676,7 @@
     </Record>
     <Record>
       <Key>ProgrammableChip</Key>
-      <Value>Processor</Value>
+      <Value>Programmable Chip</Value>
     </Record>
     <Record>
       <Key>CreditCard</Key>
@@ -4073,12 +4203,40 @@
       <Value>Space</Value>
     </Record>
     <Record>
+      <Key>Vulcan</Key>
+      <Value>Vulcan</Value>
+    </Record>
+    <Record>
+      <Key>Vulcan2</Key>
+      <Value>Vulcan</Value>
+    </Record>
+    <Record>
+      <Key>Europa2</Key>
+      <Value>Europa</Value>
+    </Record>
+    <Record>
+      <Key>Mimas</Key>
+      <Value>Mimas</Value>
+    </Record>
+    <Record>
       <Key>NewWorldAreaEarth</Key>
       <Value>Earth</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaEuropa</Key>
       <Value>Europa</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaVulcan</Key>
+      <Value>Vulcan</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaEuropa2</Key>
+      <Value>Europa</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaVulcan2</Key>
+      <Value>Vulcan</Value>
     </Record>
     <Record>
       <Key>NewWorldEnableAwayMissions</Key>
@@ -4498,8 +4656,10 @@
     </Record>
     <Record>
       <Key>TutorialCompleteMessage</Key>
-      <Value>There's still much to learn. 
-So get out there, Stationeer!</Value>
+      <Value>
+        There's still much to learn.
+        So get out there, Stationeer!
+      </Value>
     </Record>
     <Record>
       <Key>TutorialBackToMenu</Key>
@@ -4519,8 +4679,10 @@ So get out there, Stationeer!</Value>
     </Record>
     <Record>
       <Key>MulticonstructorItem</Key>
-      <Value>&lt;color=yellow&gt;Constructing option {0} of {1}&lt;/color&gt;
-Scroll &lt;color=red&gt;Mouse Wheel&lt;/color&gt; for more options.</Value>
+      <Value>
+        &lt;color=yellow&gt;Constructing option {0} of {1}&lt;/color&gt;
+        Scroll &lt;color=red&gt;Mouse Wheel&lt;/color&gt; for more options.
+      </Value>
     </Record>
     <Record>
       <Key>UnableToConstruct</Key>
@@ -4748,8 +4910,10 @@ Scroll &lt;color=red&gt;Mouse Wheel&lt;/color&gt; for more options.</Value>
     </Record>
     <Record>
       <Key>AlertNoResponse</Key>
-      <Value>There is no response from the Game Server.
-Please try again.</Value>
+      <Value>
+        There is no response from the Game Server.
+        Please try again.
+      </Value>
     </Record>
     <Record>
       <Key>AlertKicked</Key>
@@ -5001,19 +5165,23 @@ Please try again.</Value>
     </Record>
     <Record>
       <Key>NewWorldMoonDesc</Key>
-      <Value>So you're stuck on the moon, but it's not all bad. 
-Sure, it's cold, harsh and pretty monotonous, but at least the sun's shining. The solar panel is going to be useful, and the power controller... and probably the arc furnace too.
-There's even a little food and oxygen in the other crates, though it's definitely not going to last forever. Neither's your battery. 
-You better start thinking about how you're going to survive. How hard could it be to rig up an airlock? A generator? Maybe even smelt some ore and build yourself a base?
-Looks like you're gonna be here a while.</Value>
+      <Value>
+        So you're stuck on the moon, but it's not all bad.
+        Sure, it's cold, harsh and pretty monotonous, but at least the sun's shining. The solar panel is going to be useful, and the power controller... and probably the arc furnace too.
+        There's even a little food and oxygen in the other crates, though it's definitely not going to last forever. Neither's your battery.
+        You better start thinking about how you're going to survive. How hard could it be to rig up an airlock? A generator? Maybe even smelt some ore and build yourself a base?
+        Looks like you're gonna be here a while.
+      </Value>
     </Record>
     <Record>
       <Key>NewWorldSpaceDesc</Key>
-      <Value>This is Stationeers Creative Mode!
-Spawn in any item, test ideas and build bonkers stuff real fast.
-&lt;color=red&gt;This mode is experimental.&lt;/color&gt; Think of it as a freeform space party where exciting and unexpected things* can and will happen, compared to the more reliable near-death experience of Survival Mode.
-Just don't be sad when you blow yourself into tiny, tiny little pieces or get savaged by chickens or slowly explode while drifting alone into the infinite void.
-*bugs</Value>
+      <Value>
+        This is Stationeers Creative Mode!
+        Spawn in any item, test ideas and build bonkers stuff real fast.
+        &lt;color=red&gt;This mode is experimental.&lt;/color&gt; Think of it as a freeform space party where exciting and unexpected things* can and will happen, compared to the more reliable near-death experience of Survival Mode.
+        Just don't be sad when you blow yourself into tiny, tiny little pieces or get savaged by chickens or slowly explode while drifting alone into the infinite void.
+        *bugs
+      </Value>
     </Record>
     <Record>
       <Key>TextboxEnterName</Key>
@@ -5044,64 +5212,8 @@ Just don't be sad when you blow yourself into tiny, tiny little pieces or get sa
       <Value>Satellites suggest a crate has dropped nearby, your beacon tracker should show you the way.</Value>
     </Record>
     <Record>
-      <Key>Incident_SolarFlare_Title</Key>
-      <Value>SolarFlare Heat</Value>
-    </Record>
-    <Record>
-      <Key>Incident_SolarFlare</Key>
-      <Value>Satellites have recognized extreme weather patterns around your area.</Value>
-    </Record>
-    <Record>
-      <Key>Incident_MeteorInbound_Title</Key>
-      <Value>Meteor Shower</Value>
-    </Record>
-    <Record>
-      <Key>Incident_MeteorInbound</Key>
-      <Value>Satellite scans have picked up large object moving towards your sector, move to a safe environment.</Value>
-    </Record>
-    <Record>
-      <Key>Incident_BrokenCable_Title</Key>
-      <Value>Burn Random Cable</Value>
-    </Record>
-    <Record>
-      <Key>Incident_BrokenCable</Key>
-      <Value>Strong electric pulses have been detected, beware of burnt cables.</Value>
-    </Record>
-    <Record>
-      <Key>Incident_AlienLife_Title</Key>
-      <Value>Grounder Attack</Value>
-    </Record>
-    <Record>
-      <Key>Incident_AlienLife</Key>
-      <Value>Do you hear that?</Value>
-    </Record>
-    <Record>
-      <Key>Incident_ElectroMagnetic_Title</Key>
-      <Value>Power Surge</Value>
-    </Record>
-    <Record>
-      <Key>Incident_ElectroMagnetic</Key>
-      <Value>Your batteries seem to be losing power.</Value>
-    </Record>
-    <Record>
-      <Key>Incident_BrokenPipe_Title</Key>
-      <Value>Break Pipe</Value>
-    </Record>
-    <Record>
-      <Key>Incident_BrokenPipe</Key>
-      <Value>Warning, increased pipe pressure expected.</Value>
-    </Record>
-    <Record>
-      <Key>Incident_PlantInfected_Title</Key>
-      <Value>Fungus Infected Plants</Value>
-    </Record>
-    <Record>
-      <Key>Incident_PlantInfected</Key>
-      <Value>Warning, a fungus has infected some plants in the area</Value>
-    </Record>
-    <Record>
       <Key>TradingNoMoneyHash</Key>
-      <Value>There is not have enough money to complete this trade!</Value>
+      <Value>You do not have enough money to complete this transaction!</Value>
     </Record>
     <Record>
       <Key>SomethingWentWrongTrading</Key>
@@ -5145,8 +5257,10 @@ Just don't be sad when you blow yourself into tiny, tiny little pieces or get sa
     </Record>
     <Record>
       <Key>FurnaceChamberText</Key>
-      <Value>Pressure {0}
-Temperature {1}</Value>
+      <Value>
+        Pressure {0}
+        Temperature {1}
+      </Value>
     </Record>
     <Record>
       <Key>FurnaceSmelting</Key>
@@ -5269,12 +5383,19 @@ Temperature {1}</Value>
       <Value>Europa</Value>
     </Record>
     <Record>
+      <Key>NewWorldAreaMimas</Key>
+      <Value>Mimas</Value>
+    </Record>
+    <Record>
       <Key>NewWorldMarsShortDesc</Key>
       <Value>A desolate dusty red ball, Mars features more varied terrain that can reach into the sky, and a chilly atmosphere that's no good for breathing, but maybe it can be used for something...</Value>
     </Record>
     <Record>
       <Key>NewWorldMoonShortDesc</Key>
-      <Value>While the presence of Coal isn't typical of Earth's Moon, the relatively flat terrain full of various sizeable craters and lack of atmosphere may be more familiar in this grey landscape.</Value>
+      <Value>
+        While the presence of Coal isn't typical of Earth's Moon, the relatively flat terrain full of various sizeable craters and lack of atmosphere may be more familiar in this grey landscape.
+        A great location for the budding stationeer to begin their journey, with fewer of the hazards and complexities offered on more exotic worlds
+      </Value>
     </Record>
     <Record>
       <Key>NewWorldSpaceShortDesc</Key>
@@ -5282,7 +5403,28 @@ Temperature {1}</Value>
     </Record>
     <Record>
       <Key>NewWorldEuropaShortDesc</Key>
-      <Value>Melting some of the ice on this cold world has finally given it an atmosphere, but it's extremely frigid environment presents an extreme challenge for the stationeers.</Value>
+      <Value>
+        Melting some of the ice on this cold world has finally given it an atmosphere, but it's extremely frigid environment presents a serious challenge for the stationeers.
+        The extreme cold will cause batteries to rapidly lose power, so getting a steady power souce and warm location are your priorities.
+      </Value>
+    </Record>
+    <Record>
+      <Key>NewWorldVulcanShortDesc</Key>
+      <Value>The volatile environment on Vulcan is surviable for very few living organisms, but it's fractured surface and rich mineral deposits make it a risky but profitable venture for enterprising traders.</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldVulcan2ShortDesc</Key>
+      <Value>
+        A world torn apart due to massive tidal forces from the supermassive black hole it orbits. Vulcan offers little hope for any organism that ends up here, but it's fractured surface and rich mineral deposits make it a risky but profitable venture for enterprising traders.
+        Watch out for the deep crevasses that lead to deadly magma flows beneath the surface!
+      </Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMimasShortDesc</Key>
+      <Value>
+        A barren rock nestled under the wing of Saturn's spectular rings. Mimas tiny stature is reflected in its extremely low gravity, and the Mimantean surface is saturated with impact craters from wayward ring occupants. It's distance from the sun provides little power from solar devices.
+        Be very careful when walking or jumping, as you can travel a long way and gain a lot of speed due to the extremely low gravity.
+      </Value>
     </Record>
     <Record>
       <Key>SettingsTitleAudioAlerts</Key>
@@ -5989,7 +6131,7 @@ Temperature {1}</Value>
       <Value>CHEM LAB </Value>
     </Record>
     <Record>
-      <Key>TraderExotic</Key>
+      <Key>TraderExotics</Key>
       <Value>EXOTECH </Value>
     </Record>
     <Record>
@@ -6006,6 +6148,14 @@ Temperature {1}</Value>
     </Record>
     <Record>
       <Key>TraderOther</Key>
+      <Value>SPESMALL </Value>
+    </Record>
+    <Record>
+      <Key>TraderGas</Key>
+      <Value>G'HAS IT ALL </Value>
+    </Record>
+    <Record>
+      <Key>TraderCustom</Key>
       <Value>SPESMALL </Value>
     </Record>
     <Record>
@@ -6031,6 +6181,58 @@ Temperature {1}</Value>
     <Record>
       <Key>RoomControlTickSpeed</Key>
       <Value>RoomControl TickSpeed</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTargetX</Key>
+      <Value>The target position in X dimension in world coordinates</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTargetY</Key>
+      <Value>The target position in Y dimension in world coordinates</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTargetZ</Key>
+      <Value>The target position in Z dimension in world coordinates</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSettingInputHash</Key>
+      <Value>The input setting for the device</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSettingOutputHash</Key>
+      <Value>The output setting for the device</Value>
+    </Record>
+    <Record>
+      <Key>ButtonDepart</Key>
+      <Value>Depart</Value>
+    </Record>
+    <Record>
+      <Key>SettingsShowSlotTooltips</Key>
+      <Value>Show Slot Tooltips</Value>
+    </Record>
+    <Record>
+      <Key>SettingsWorldOrigin</Key>
+      <Value>World Origin</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonPause</Key>
+      <Value>Pause</Value>
+    </Record>
+    <Record>
+      <Key>PromptPauseTitle</Key>
+      <Value>Pause</Value>
+    </Record>
+    <Record>
+      <Key>PromptPauseBody</Key>
+      <Value>Paused game play</Value>
+    </Record>
+    <Record>
+      <Key>PromptButtonLeave</Key>
+      <Value>Leave Session</Value>
+    </Record>
+    <Record>
+      <Key>PromptResumeButton</Key>
+      <Value>Resume</Value>
     </Record>
   </Interface>
   <Colors>
@@ -7437,6 +7639,10 @@ Temperature {1}</Value>
     <Record>
       <Key>Silicon</Key>
       <Value>Silicon</Value>
+    </Record>
+    <Record>
+      <Key>Cobalt</Key>
+      <Value>Cobalt</Value>
     </Record>
   </Mineables>
   <HelpPage />

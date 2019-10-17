@@ -28,7 +28,7 @@ If you hold down {KEY:MouseControl} and {KEY:MouseInspect} and click on somethin
 {LIST}{LINK:GasPage;Gases}, {LINK:ReagentPage;Reagents}
 {/LIST}
 {HEADER:Items}
-{LIST}{LINK:ToolPage;Tools}, {LINK:ResourcePage;Resources}, {LINK:KitPage;Kits}, {LINK:FoodPage;Food}, {LINK:ClothingPage;Clothing}, {LINK:AppliancePage;Appliances}, {LINK:IngotPage;Ingots}, {LINK:OrePage;Ores}, {LINK:AlloyPage;Alloys}
+{LIST}{LINK:ToolPage;Tools}, {LINK:ResourcePage;Resources}, {LINK:KitPage;Kits}, {LINK:FoodPage;Food}, {LINK:ClothingPage;Clothing}, {LINK:AppliancePage;Appliances}, {LINK:IngotPage;Ingots}, {LINK:OrePage;Ores}, {LINK:AlloyPage;Alloys}, {LINK:SuperAlloyPage;Superalloys}
 {/LIST}
 {HEADER:Structures}
 {LIST}{LINK:DevicePage;Devices}, {LINK:FabricatorPage;Fabricators}, {LINK:AirlockDevicePage;Airlock Devices}, {LINK:LogicUnitPage;Logic Units}
@@ -75,6 +75,8 @@ The {THING:StructureArcFurnace} only allows you to smelt simple {LINK:OrePage;Or
 You can directly insert {LINK:IcePage;Ices} into the top. If there is no atmosphere to melt them, press the {LOGICTYPE:Activate} button to crush it. The ice will melt automatically if there is enough gas of the right temperature inside. Use a mix of {THING:ItemOxite} and {THING:ItemVolatiles} to start a fire inside, although this will increase the pressure inside dramatically.
 
 Once it is at the right temperature, insert ores to smelt them - but watch your ratios or waste products will come out as {THING:ItemReagentMix} which will need to be sorted in a {THING:StructureCentrifuge}. To export a product, pull the {LOGICTYPE:Open} handle.
+
+Even more advanced {LINK:SuperAlloyPage;Superalloys} can be smelted at the {THING:StructureAdvancedFurnace}. They have very tight requirements to smelt and are extremely difficult, but necessary for very advanced manufacturing.
 {/LIST}
       </Text>
     </StationpediaPage>
@@ -156,7 +158,7 @@ The following devices can be connected to, and used by, the airlock control syst
     <StationpediaPage>
       <Key>SmeltingPage</Key>
       <Title>Smelting</Title>
-      <Text>Once you have {LINK:OrePage;ore}, you need to turn it into {LINK:IngotPage;ingots} so you can use their {LINK:ReagentPage;reagents}. Smelting will often produce {LINK:GasPage;gases}. This occurs in either the {THING:StructureArcFurnace} (for simple recipes) and the {THING:StructureFurnace} for more complicated {LINK:AlloyPage;Alloys}. For the complex alloys, you will need to achieve mixtures at perfect ratios, {LINK:TemperaturePage;Temperature}, and {LINK:PressurePage;Pressure}. 
+      <Text>Once you have {LINK:OrePage;ore}, you need to turn it into {LINK:IngotPage;ingots} so you can use their {LINK:ReagentPage;reagents}. Smelting will often produce {LINK:GasPage;gases}. This occurs in either the {THING:StructureArcFurnace} (for simple recipes) and the {THING:StructureFurnace} for more complicated {LINK:AlloyPage;Alloys}, and finally the {THING:StructureAdvancedFurnace} for very complicated {LINK:SuperAlloyPage;Superalloys}. For the complex alloys, you will need to achieve mixtures at perfect ratios, {LINK:TemperaturePage;Temperature}, and {LINK:PressurePage;Pressure}. 
       </Text>
     </StationpediaPage>
     
@@ -204,10 +206,21 @@ If you look directly at a structure that is incomplete you will get information 
     <StationpediaPage>
       <Key>AlloyPage</Key>
       <Title>Alloys</Title>
-      <Text>Created in the {THING:StructureFurnace} from specialist {LINK:ReagentPage;Reagent} mixtures, these are advanced {LINK:IngotPage;Ingots} for use in {LINK:FabricatorPage;Fabricators}. The {THING:StructureArcFurnace} is not able to smelt these.
+      <Text>Created in the {THING:StructureFurnace} or {THING:StructureAdvancedFurnace} from specialist {LINK:ReagentPage;Reagent} mixtures, these are advanced {LINK:IngotPage;Ingots} for use in {LINK:FabricatorPage;Fabricators}. The {THING:StructureArcFurnace} is not able to smelt these.
 
 {HEADER:List of Alloys}
 {LIST_OF_ALLOYS}
+      </Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>SuperAlloyPage</Key>
+      <Title>Superalloys</Title>
+      <Text>
+        Created in the {THING:StructureAdvancedFurnace} from specialist {LINK:ReagentPage;Reagent} mixtures, these are very advanced {LINK:IngotPage;Ingots} for use in {LINK:FabricatorPage;Fabricators}. The {THING:StructureArcFurnace} and {THING:StructureFurnace} are not able to smelt these.
+
+{HEADER:List of Superalloys}
+{LIST_OF_SUPER_ALLOYS}
       </Text>
     </StationpediaPage>
     
@@ -338,6 +351,11 @@ Autoignition{POS:300}{2}{3}{/LIST}</Text>
       <Key>ThingStackTemplate</Key>
       <Text>Stack Size {POS:300}{0}</Text>
     </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>ThingTransmissibleTemplate</Key>
+      <Text>Connects to {POS:300}{THING:StructureLogicTransmitter}</Text>
+    </StationpediaPage>
     
     <StationpediaPage>
       <Key>ThingNutritionTemplate</Key>
@@ -371,6 +389,14 @@ Melt Pressure {POS:300}{0}</Text>
       <Key>ConstructedHeaderTemplate</Key>
       <Text>{HEADER:Can Construct}
 {LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>LogicTransmitHeaderTemplate</Key>
+      <Text>
+        {HEADER:Connects to}
+        {LIST}{0}{/LIST}
+      </Text>
     </StationpediaPage>
     
     <StationpediaPage>
