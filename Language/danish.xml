@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Danish</Name>
   <Code>DA</Code>
   <Font>font_extended</Font>
@@ -356,6 +356,42 @@
     <Record>
       <Key>ItemGasCanisterSmart</Key>
       <Value>Gasbeholder (Smart)</Value>
+    </Record>
+    <Record>
+      <Key>StructureAdvancedFurnace</Key>
+      <Value>Lysbueovn</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitAdvancedFurnace</Key>
+      <Value>Samlesæt (Lysbueovn)</Value>
+    </Record>
+    <Record>
+      <Key>ItemStelliteIngot</Key>
+      <Value>Bar (Loddemetal)</Value>
+    </Record>
+    <Record>
+      <Key>ItemWaspaloyIngot</Key>
+      <Value>Bar (Silicium)</Value>
+    </Record>
+    <Record>
+      <Key>ItemHastelloyIngot</Key>
+      <Value>Bar (Nikkel)</Value>
+    </Record>
+    <Record>
+      <Key>ItemInconelIngot</Key>
+      <Value>Bar (Nikkel)</Value>
+    </Record>
+    <Record>
+      <Key>ItemAstroloyIngot</Key>
+      <Value>Bar (Loddemetal)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCobaltOre</Key>
+      <Value>Malm (Bly)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCobaltIngot</Key>
+      <Value>Bar (Constantan)</Value>
     </Record>
   </Things>
   <Slots>
@@ -782,6 +818,18 @@
     <Record>
       <Key>LogicSlotTypeNone</Key>
       <Value>Ingen beskrivelse</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTargetX</Key>
+      <Value>Den aktuelle position i X-dimensionen i verdens koordinater</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTargetY</Key>
+      <Value>Den aktuelle position i Y dimension i verdens koordinater</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTargetZ</Key>
+      <Value>Den aktuelle position i Z-dimensionen i verdens koordinater</Value>
     </Record>
   </Interface>
   <Colors>

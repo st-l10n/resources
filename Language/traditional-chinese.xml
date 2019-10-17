@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Traditional Chinese</Name>
   <Code>TW</Code>
   <Font>font_cjk</Font>
@@ -3189,6 +3189,70 @@
       <Key>ItemReferenceTool</Key>
       <Value>創作工具</Value>
     </Record>
+    <Record>
+      <Key>DynamicGasCanisterNitrousOxide</Key>
+      <Value>可攜式壓力罐 (氮氣 Nitrogen)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterPollutants</Key>
+      <Value>可攜式壓力罐 (氫氣 Hydrogen)</Value>
+    </Record>
+    <Record>
+      <Key>StructureSolarPanelFused</Key>
+      <Value>太陽能板</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeGPS</Key>
+      <Value>晶片 (指南)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicTransmitter</Key>
+      <Value>邏輯寫入器</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicTransmitter</Key>
+      <Value>套件 邏輯單元</Value>
+    </Record>
+    <Record>
+      <Key>StructureAdvancedFurnace</Key>
+      <Value>電弧爐</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitAdvancedFurnace</Key>
+      <Value>電弧爐</Value>
+    </Record>
+    <Record>
+      <Key>ItemStelliteIngot</Key>
+      <Value>鑄錠 (鋼 Steel)</Value>
+    </Record>
+    <Record>
+      <Key>ItemWaspaloyIngot</Key>
+      <Value>鑄錠 (垃圾 Waste)</Value>
+    </Record>
+    <Record>
+      <Key>ItemHastelloyIngot</Key>
+      <Value>鑄錠 (垃圾 Waste)</Value>
+    </Record>
+    <Record>
+      <Key>ItemInconelIngot</Key>
+      <Value>鑄錠 (鐵 Iron)</Value>
+    </Record>
+    <Record>
+      <Key>ItemAstroloyIngot</Key>
+      <Value>鑄錠 (鐵 Iron)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCobaltOre</Key>
+      <Value>礦石 (煤 Coal)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCobaltIngot</Key>
+      <Value>鑄錠 (金 Gold)</Value>
+    </Record>
+    <Record>
+      <Key>ReagentCobalt</Key>
+      <Value>金粉末</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -3370,10 +3434,6 @@
     <Record>
       <Key>Circuit</Key>
       <Value>電路</Value>
-    </Record>
-    <Record>
-      <Key>ProgrammableChip</Key>
-      <Value>處理中</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -3876,7 +3936,15 @@
       <Value>太空</Value>
     </Record>
     <Record>
+      <Key>Europa2</Key>
+      <Value>木衛二</Value>
+    </Record>
+    <Record>
       <Key>NewWorldAreaEuropa</Key>
+      <Value>木衛二</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaEuropa2</Key>
       <Value>木衛二</Value>
     </Record>
     <Record>
@@ -5037,6 +5105,14 @@
     <Record>
       <Key>BackupMenuFileListTitle</Key>
       <Value>返回</Value>
+    </Record>
+    <Record>
+      <Key>SettingsWorldOrigin</Key>
+      <Value>世界設置</Value>
+    </Record>
+    <Record>
+      <Key>PromptButtonLeave</Key>
+      <Value>離開連線</Value>
     </Record>
   </Interface>
   <Colors>

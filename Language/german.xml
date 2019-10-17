@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>German</Name>
   <Code>DE</Code>
   <Font>font_extended</Font>
@@ -3283,6 +3283,70 @@
       <Key>ItemReferenceTool</Key>
       <Value>Zeigestock</Value>
     </Record>
+    <Record>
+      <Key>DynamicGasCanisterNitrousOxide</Key>
+      <Value>Portabler Tank (Stickstoff)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterPollutants</Key>
+      <Value>Portabler Tank (Flüchtige Stoffe)</Value>
+    </Record>
+    <Record>
+      <Key>StructureSolarPanelFused</Key>
+      <Value>Solarmodul (dual)</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeGPS</Key>
+      <Value>Kassette (Anleitung)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicTransmitter</Key>
+      <Value>Logische Schreibeinheit</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicTransmitter</Key>
+      <Value>Logikeinheit (Bausatz)</Value>
+    </Record>
+    <Record>
+      <Key>StructureAdvancedFurnace</Key>
+      <Value>Lichtbogenofen</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitAdvancedFurnace</Key>
+      <Value>Lichtbogenofen (Bausatz)</Value>
+    </Record>
+    <Record>
+      <Key>ItemStelliteIngot</Key>
+      <Value>Stahlbarren</Value>
+    </Record>
+    <Record>
+      <Key>ItemWaspaloyIngot</Key>
+      <Value>Abfallbarren</Value>
+    </Record>
+    <Record>
+      <Key>ItemHastelloyIngot</Key>
+      <Value>Abfallbarren</Value>
+    </Record>
+    <Record>
+      <Key>ItemInconelIngot</Key>
+      <Value>Eisenbarren</Value>
+    </Record>
+    <Record>
+      <Key>ItemAstroloyIngot</Key>
+      <Value>Eisenbarren</Value>
+    </Record>
+    <Record>
+      <Key>ItemCobaltOre</Key>
+      <Value>Kohle (Erz)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCobaltIngot</Key>
+      <Value>Goldbarren</Value>
+    </Record>
+    <Record>
+      <Key>ReagentCobalt</Key>
+      <Value>Gold-Pulver</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -3460,10 +3524,6 @@
     <Record>
       <Key>Circuit</Key>
       <Value>Platine</Value>
-    </Record>
-    <Record>
-      <Key>ProgrammableChip</Key>
-      <Value>IC-Slot</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -5512,6 +5572,34 @@ Temperatur {1}</Value>
     <Record>
       <Key>BackupMenuFileListTitle</Key>
       <Value>Zurück</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTargetX</Key>
+      <Value>Die aktuelle absolute Position in X-Dimension</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTargetY</Key>
+      <Value>Die aktuelle absolute Position in Y-Dimension</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTargetZ</Key>
+      <Value>Die aktuelle absolute Position in Z-Dimension</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSettingInputHash</Key>
+      <Value>Maximale Einstellung des Gerätes</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSettingOutputHash</Key>
+      <Value>Vertikale Einstellung des Gerätes</Value>
+    </Record>
+    <Record>
+      <Key>SettingsWorldOrigin</Key>
+      <Value>Welteinstellungen</Value>
+    </Record>
+    <Record>
+      <Key>PromptButtonLeave</Key>
+      <Value>Sitzung Verlassen</Value>
     </Record>
   </Interface>
   <Colors>

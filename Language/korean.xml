@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Korean</Name>
   <Code>KO</Code>
   <Font>font_hangul</Font>
@@ -820,10 +820,6 @@
     <Record>
       <Key>ItemGasCanisterWater</Key>
       <Value>케니스터 (물)</Value>
-    </Record>
-    <Record>
-      <Key>ItemGasFilterCarbonDioxide</Key>
-      <Value>필터 (CO2)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterPollutants</Key>
@@ -2477,6 +2473,66 @@
       <Key>ItemKitRoverFrame</Key>
       <Value>조립킷 (전기 용광로)</Value>
     </Record>
+    <Record>
+      <Key>DynamicGasCanisterNitrousOxide</Key>
+      <Value>운반용 탱크 (N)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterPollutants</Key>
+      <Value>운반용 탱크 (휘발물)</Value>
+    </Record>
+    <Record>
+      <Key>StructureSolarPanelFused</Key>
+      <Value>태양광 발전기</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeGPS</Key>
+      <Value>카트리지 (추적기)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicTransmitter</Key>
+      <Value>작성 로직</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicTransmitter</Key>
+      <Value>조립킷 (로직 유닛)</Value>
+    </Record>
+    <Record>
+      <Key>StructureAdvancedFurnace</Key>
+      <Value>전기 용광로</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitAdvancedFurnace</Key>
+      <Value>조립킷 (전기 용광로)</Value>
+    </Record>
+    <Record>
+      <Key>ItemStelliteIngot</Key>
+      <Value>주괴 (강철)</Value>
+    </Record>
+    <Record>
+      <Key>ItemWaspaloyIngot</Key>
+      <Value>주괴 (폐기물)</Value>
+    </Record>
+    <Record>
+      <Key>ItemHastelloyIngot</Key>
+      <Value>주괴 (폐기물)</Value>
+    </Record>
+    <Record>
+      <Key>ItemInconelIngot</Key>
+      <Value>주괴 (철)</Value>
+    </Record>
+    <Record>
+      <Key>ItemAstroloyIngot</Key>
+      <Value>주괴 (철)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCobaltOre</Key>
+      <Value>광물 (석탄)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCobaltIngot</Key>
+      <Value>주괴 (금)</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -2638,10 +2694,6 @@
     <Record>
       <Key>LoadingRail</Key>
       <Value>장전 레일</Value>
-    </Record>
-    <Record>
-      <Key>ProgrammableChip</Key>
-      <Value>처리</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -3908,8 +3960,29 @@
       <Value>창작마당 열기</Value>
     </Record>
     <Record>
+      <Key>NewWorldMoonDesc</Key>
+      <Value>So you&apos;re stuck on the moon, but it&apos;s not all bad. 
+Sure, it&apos;s cold, harsh and pretty monotonous, but at least the sun&apos;s shining. The solar panel is going to be useful, and the power controller... and probably the arc furnace too.
+There&apos;s even a little food and oxygen in the other crates, though it&apos;s definitely not going to last forever. Neither&apos;s your battery. 
+You better start thinking about how you&apos;re going to survive. How hard could it be to rig up an airlock? A generator? Maybe even smelt some ore and build yourself a base?
+Looks like you&apos;re gonna be here a while.</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldSpaceDesc</Key>
+      <Value>This is Stationeers Creative Mode!
+Spawn in any item, test ideas and build bonkers stuff real fast.
+&lt;color=red&gt;This mode is experimental.&lt;/color&gt; Think of it as a freeform space party where exciting and unexpected things* can and will happen, compared to the more reliable near-death experience of Survival Mode.
+Just don&apos;t be sad when you blow yourself into tiny, tiny little pieces or get savaged by chickens or slowly explode while drifting alone into the infinite void.
+*bugs</Value>
+    </Record>
+    <Record>
       <Key>SettingsDisableParticlesOnMenu</Key>
       <Value>메뉴에서 파티클 비활성화</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceChamberText</Key>
+      <Value>Pressure {0}
+Temperature {1}</Value>
     </Record>
     <Record>
       <Key>LogicNoSlot</Key>
@@ -4006,6 +4079,14 @@
     <Record>
       <Key>BackupMenuFileListTitle</Key>
       <Value>뒤로</Value>
+    </Record>
+    <Record>
+      <Key>SettingsWorldOrigin</Key>
+      <Value>World Settings</Value>
+    </Record>
+    <Record>
+      <Key>PromptButtonLeave</Key>
+      <Value>세션 나가기</Value>
     </Record>
   </Interface>
   <Colors>

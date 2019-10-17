@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Czech</Name>
   <Code>CS</Code>
   <Font>font_russian</Font>
@@ -2898,6 +2898,70 @@
       <Key>ItemReferenceTool</Key>
       <Value>Nástroj pro Tvorbu Položek</Value>
     </Record>
+    <Record>
+      <Key>DynamicGasCanisterNitrousOxide</Key>
+      <Value>Tlaková Láhev (Dusík)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterPollutants</Key>
+      <Value>Tlaková Láhev (Těkavé látky)</Value>
+    </Record>
+    <Record>
+      <Key>StructureSolarPanelFused</Key>
+      <Value>Solární Panel</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeGPS</Key>
+      <Value>Kazeta (Průvodce)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicTransmitter</Key>
+      <Value>Logický Zapisovač</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicTransmitter</Key>
+      <Value>Sada (Logická Jednotka)</Value>
+    </Record>
+    <Record>
+      <Key>StructureAdvancedFurnace</Key>
+      <Value>Oblouková Pec</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitAdvancedFurnace</Key>
+      <Value>Sada (Oblouková Pec)</Value>
+    </Record>
+    <Record>
+      <Key>ItemStelliteIngot</Key>
+      <Value>Cihla (Ocel)</Value>
+    </Record>
+    <Record>
+      <Key>ItemWaspaloyIngot</Key>
+      <Value>Cihla (Odpad)</Value>
+    </Record>
+    <Record>
+      <Key>ItemHastelloyIngot</Key>
+      <Value>Cihla (Odpad)</Value>
+    </Record>
+    <Record>
+      <Key>ItemInconelIngot</Key>
+      <Value>Cihla (Železo)</Value>
+    </Record>
+    <Record>
+      <Key>ItemAstroloyIngot</Key>
+      <Value>Cihla (Železo)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCobaltOre</Key>
+      <Value>Ruda (Uhlí)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCobaltIngot</Key>
+      <Value>Cihla (Zlato)</Value>
+    </Record>
+    <Record>
+      <Key>ReagentCobalt</Key>
+      <Value>Zlatý Prášek</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -3083,10 +3147,6 @@
     <Record>
       <Key>Circuit</Key>
       <Value>Okruh</Value>
-    </Record>
-    <Record>
-      <Key>ProgrammableChip</Key>
-      <Value>Procesor</Value>
     </Record>
     <Record>
       <Key>CreditCard</Key>
@@ -4786,6 +4846,22 @@ Teplota {1}</Value>
     <Record>
       <Key>BackupMenuFileListTitle</Key>
       <Value>Zálohy</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSettingInputHash</Key>
+      <Value>Maximální nastavení zařízení</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSettingOutputHash</Key>
+      <Value>Vertikální nastavení zařízení</Value>
+    </Record>
+    <Record>
+      <Key>SettingsWorldOrigin</Key>
+      <Value>Nastavení Světa</Value>
+    </Record>
+    <Record>
+      <Key>PromptButtonLeave</Key>
+      <Value>Opustit Relaci</Value>
     </Record>
   </Interface>
   <Colors>

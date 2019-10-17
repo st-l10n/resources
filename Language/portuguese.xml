@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Português</Name>
   <Code>PT</Code>
   <Reagents>
@@ -3269,6 +3269,70 @@
       <Key>ItemReferenceTool</Key>
       <Value>Item Ferramenta Autoria</Value>
     </Record>
+    <Record>
+      <Key>DynamicGasCanisterNitrousOxide</Key>
+      <Value>Tanque Portátil (Nitrogénio)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterPollutants</Key>
+      <Value>Tanque Portátil (Voláteis)</Value>
+    </Record>
+    <Record>
+      <Key>StructureSolarPanelFused</Key>
+      <Value>Painel Solar</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeGPS</Key>
+      <Value>Cartucho (Guia)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicTransmitter</Key>
+      <Value>Chip Lógico de Escrita</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicTransmitter</Key>
+      <Value>Kit (Unidade Lógica)</Value>
+    </Record>
+    <Record>
+      <Key>StructureAdvancedFurnace</Key>
+      <Value>Forno de Arco Elétrico</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitAdvancedFurnace</Key>
+      <Value>Kit (Forno de Arco Elétrico)</Value>
+    </Record>
+    <Record>
+      <Key>ItemStelliteIngot</Key>
+      <Value>Lingote (Aço)</Value>
+    </Record>
+    <Record>
+      <Key>ItemWaspaloyIngot</Key>
+      <Value>Lingote (Restos)</Value>
+    </Record>
+    <Record>
+      <Key>ItemHastelloyIngot</Key>
+      <Value>Lingote (Restos)</Value>
+    </Record>
+    <Record>
+      <Key>ItemInconelIngot</Key>
+      <Value>Lingote (Ferro)</Value>
+    </Record>
+    <Record>
+      <Key>ItemAstroloyIngot</Key>
+      <Value>Lingote (Ferro)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCobaltOre</Key>
+      <Value>Minério (Carvão)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCobaltIngot</Key>
+      <Value>Lingote (Ouro)</Value>
+    </Record>
+    <Record>
+      <Key>ReagentCobalt</Key>
+      <Value>Pó de Ouro</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -3450,10 +3514,6 @@
     <Record>
       <Key>Circuit</Key>
       <Value>Circuito</Value>
-    </Record>
-    <Record>
-      <Key>ProgrammableChip</Key>
-      <Value>Processador</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -5229,6 +5289,22 @@ Temperatura {1}</Value>
     <Record>
       <Key>BackupMenuFileListTitle</Key>
       <Value>Voltar</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSettingInputHash</Key>
+      <Value>Sem definições adicionais para {0}</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSettingOutputHash</Key>
+      <Value>Sem definições adicionais para {0}</Value>
+    </Record>
+    <Record>
+      <Key>SettingsWorldOrigin</Key>
+      <Value>Definições do Mundo</Value>
+    </Record>
+    <Record>
+      <Key>PromptButtonLeave</Key>
+      <Value>Sair da Sessão</Value>
     </Record>
   </Interface>
   <Colors>

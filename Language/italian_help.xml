@@ -267,6 +267,11 @@ Pressione di fusione {POS:300}{0}</Text>
       <Text>{HEADER:Creato da}{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>LogicTransmitHeaderTemplate</Key>
+      <Text>{HEADER:Constructed From}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>CreatedGasesTemplate</Key>
       <Text>
 NEXTPREVIOUS

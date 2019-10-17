@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Spanish</Name>
   <Code>ES</Code>
   <Font>font_extended</Font>
@@ -3285,6 +3285,70 @@
       <Key>ItemReferenceTool</Key>
       <Value>Herramienta de Creación</Value>
     </Record>
+    <Record>
+      <Key>DynamicGasCanisterNitrousOxide</Key>
+      <Value>Tanque Portátil (Nitrógeno)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterPollutants</Key>
+      <Value>Tanque Portátil (Volátiles)</Value>
+    </Record>
+    <Record>
+      <Key>StructureSolarPanelFused</Key>
+      <Value>Panel Solar</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeGPS</Key>
+      <Value>Cartucho (Guía)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicTransmitter</Key>
+      <Value>Grabador Lógico</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicTransmitter</Key>
+      <Value>Kit (Unidad Lógica)</Value>
+    </Record>
+    <Record>
+      <Key>StructureAdvancedFurnace</Key>
+      <Value>Horno de Arco</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitAdvancedFurnace</Key>
+      <Value>Kit (Horno de Arco)</Value>
+    </Record>
+    <Record>
+      <Key>ItemStelliteIngot</Key>
+      <Value>Lingote (Acero)</Value>
+    </Record>
+    <Record>
+      <Key>ItemWaspaloyIngot</Key>
+      <Value>Lingote (Residuos)</Value>
+    </Record>
+    <Record>
+      <Key>ItemHastelloyIngot</Key>
+      <Value>Lingote (Residuos)</Value>
+    </Record>
+    <Record>
+      <Key>ItemInconelIngot</Key>
+      <Value>Lingote (Hierro)</Value>
+    </Record>
+    <Record>
+      <Key>ItemAstroloyIngot</Key>
+      <Value>Lingote (Hierro)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCobaltOre</Key>
+      <Value>Mineral (Carbón)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCobaltIngot</Key>
+      <Value>Lingote (Oro)</Value>
+    </Record>
+    <Record>
+      <Key>ReagentCobalt</Key>
+      <Value>Polvo de Oro</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -3469,7 +3533,7 @@
     </Record>
     <Record>
       <Key>ProgrammableChip</Key>
-      <Value>Procesando</Value>
+      <Value>Chip programable</Value>
     </Record>
     <Record>
       <Key>CreditCard</Key>
@@ -4915,62 +4979,6 @@ No te sientas triste cuando te haces pedazos pequeños o diminutos, o eres asalt
       <Value>Los satélites señalan que una caja ha caído cerca, su localizador debería mostrarle el camino.</Value>
     </Record>
     <Record>
-      <Key>Incident_SolarFlare_Title</Key>
-      <Value>SolarFlare Calor</Value>
-    </Record>
-    <Record>
-      <Key>Incident_SolarFlare</Key>
-      <Value>Los satélites han reconocido las condiciones climáticas extremas alrededor de su área.</Value>
-    </Record>
-    <Record>
-      <Key>Incident_MeteorInbound_Title</Key>
-      <Value>Lluvia de meteoritos</Value>
-    </Record>
-    <Record>
-      <Key>Incident_MeteorInbound</Key>
-      <Value>Los escáneres satelitales han detectado objetos grandes que se mueven hacia su sector, se mueven hacia un entorno seguro.</Value>
-    </Record>
-    <Record>
-      <Key>Incident_BrokenCable_Title</Key>
-      <Value>Quemadura de cable aleatorio</Value>
-    </Record>
-    <Record>
-      <Key>Incident_BrokenCable</Key>
-      <Value>Se han detectado fuertes impulsos eléctricos, tenga cuidado con los cables quemados.</Value>
-    </Record>
-    <Record>
-      <Key>Incident_AlienLife_Title</Key>
-      <Value>Ataque de Grounder</Value>
-    </Record>
-    <Record>
-      <Key>Incident_AlienLife</Key>
-      <Value>¿Escuchaste eso?</Value>
-    </Record>
-    <Record>
-      <Key>Incident_ElectroMagnetic_Title</Key>
-      <Value>Sobrecarga de energía</Value>
-    </Record>
-    <Record>
-      <Key>Incident_ElectroMagnetic</Key>
-      <Value>Sus baterías parecen estar perdiendo energía.</Value>
-    </Record>
-    <Record>
-      <Key>Incident_BrokenPipe_Title</Key>
-      <Value>Tubería Rota</Value>
-    </Record>
-    <Record>
-      <Key>Incident_BrokenPipe</Key>
-      <Value>Advertencia, se espera un aumento de la presión de la tubería.</Value>
-    </Record>
-    <Record>
-      <Key>Incident_PlantInfected_Title</Key>
-      <Value>Plantas infectadas por hongos</Value>
-    </Record>
-    <Record>
-      <Key>Incident_PlantInfected</Key>
-      <Value>Advertencia, un hongo ha infectado algunas plantas en el área</Value>
-    </Record>
-    <Record>
       <Key>TradingNoMoneyHash</Key>
       <Value>¡No hay suficiente dinero para completar este intercambio!</Value>
     </Record>
@@ -5738,6 +5746,34 @@ Temperatura {1}</Value>
     <Record>
       <Key>OcclusionTickSpeed</Key>
       <Value>Oclusión TickSpeed</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTargetX</Key>
+      <Value>La posición actual en la dimensión X en coordenadas mundiales</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTargetY</Key>
+      <Value>La posición actual en la dimensión Y en coordenadas mundiales</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTargetZ</Key>
+      <Value>La posición actual en la dimensión Z en coordenadas mundiales</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSettingInputHash</Key>
+      <Value>Ajuste máximo del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSettingOutputHash</Key>
+      <Value>Ajuste vertical del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>SettingsWorldOrigin</Key>
+      <Value>Configuración Mundial</Value>
+    </Record>
+    <Record>
+      <Key>PromptButtonLeave</Key>
+      <Value>Salir Sesión</Value>
     </Record>
   </Interface>
   <Colors>

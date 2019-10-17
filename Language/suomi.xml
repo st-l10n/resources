@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Suomi</Name>
   <Code>FI</Code>
   <Reagents>
@@ -3149,6 +3149,70 @@
       <Key>ItemReferenceTool</Key>
       <Value>Admin-työkalu</Value>
     </Record>
+    <Record>
+      <Key>DynamicGasCanisterNitrousOxide</Key>
+      <Value>Kannettava säiliö (typpi)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterPollutants</Key>
+      <Value>Kannettava säiliö (volatiili)</Value>
+    </Record>
+    <Record>
+      <Key>StructureSolarPanelFused</Key>
+      <Value>Aurinkopaneeli</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeGPS</Key>
+      <Value>Kasetti (opas)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicTransmitter</Key>
+      <Value>Logiikkakirjoitin</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicTransmitter</Key>
+      <Value>Varustepakkaus (logiikkayksikkö)</Value>
+    </Record>
+    <Record>
+      <Key>StructureAdvancedFurnace</Key>
+      <Value>Valokaariuuni</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitAdvancedFurnace</Key>
+      <Value>Varustepakkaus (valokaariuuni)</Value>
+    </Record>
+    <Record>
+      <Key>ItemStelliteIngot</Key>
+      <Value>Harkko (teräs)</Value>
+    </Record>
+    <Record>
+      <Key>ItemWaspaloyIngot</Key>
+      <Value>Harkko (jäte)</Value>
+    </Record>
+    <Record>
+      <Key>ItemHastelloyIngot</Key>
+      <Value>Harkko (jäte)</Value>
+    </Record>
+    <Record>
+      <Key>ItemInconelIngot</Key>
+      <Value>Harkko (rauta)</Value>
+    </Record>
+    <Record>
+      <Key>ItemAstroloyIngot</Key>
+      <Value>Harkko (rauta)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCobaltOre</Key>
+      <Value>Malmi (kivihiili)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCobaltIngot</Key>
+      <Value>Harkko (kulta)</Value>
+    </Record>
+    <Record>
+      <Key>ReagentCobalt</Key>
+      <Value>Kultajauhe</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -3334,10 +3398,6 @@
     <Record>
       <Key>Circuit</Key>
       <Value>Piiri</Value>
-    </Record>
-    <Record>
-      <Key>ProgrammableChip</Key>
-      <Value>Suoritin</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -5071,6 +5131,22 @@ Lämpötila {1}</Value>
     <Record>
       <Key>BackupMenuFileListTitle</Key>
       <Value>Takaisin</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSettingInputHash</Key>
+      <Value>Laitteen nykyinen varaustaso</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSettingOutputHash</Key>
+      <Value>Laitteen nykyinen varaustaso</Value>
+    </Record>
+    <Record>
+      <Key>SettingsWorldOrigin</Key>
+      <Value>Maailman Asetukset</Value>
+    </Record>
+    <Record>
+      <Key>PromptButtonLeave</Key>
+      <Value>Poistu istunnosta</Value>
     </Record>
   </Interface>
   <Colors>

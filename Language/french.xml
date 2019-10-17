@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>French</Name>
   <Code>FR</Code>
   <Font>font_extended</Font>
@@ -3260,6 +3260,70 @@
       <Key>ItemReferenceTool</Key>
       <Value>Outil de création d&apos;objet</Value>
     </Record>
+    <Record>
+      <Key>DynamicGasCanisterNitrousOxide</Key>
+      <Value>Réservoir portable (Azote)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterPollutants</Key>
+      <Value>Réservoir portable (Volatiles)</Value>
+    </Record>
+    <Record>
+      <Key>StructureSolarPanelFused</Key>
+      <Value>Panneau Solaire</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeGPS</Key>
+      <Value>Carte (Guide)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicTransmitter</Key>
+      <Value>Unité Logique: Ecriture</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicTransmitter</Key>
+      <Value>Kit (Unité Logique)</Value>
+    </Record>
+    <Record>
+      <Key>StructureAdvancedFurnace</Key>
+      <Value>Four à Arc</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitAdvancedFurnace</Key>
+      <Value>Kit (Four à Arc)</Value>
+    </Record>
+    <Record>
+      <Key>ItemStelliteIngot</Key>
+      <Value>Lingot (Acier)</Value>
+    </Record>
+    <Record>
+      <Key>ItemWaspaloyIngot</Key>
+      <Value>Lingot (Déchets)</Value>
+    </Record>
+    <Record>
+      <Key>ItemHastelloyIngot</Key>
+      <Value>Lingot (Déchets)</Value>
+    </Record>
+    <Record>
+      <Key>ItemInconelIngot</Key>
+      <Value>Lingot (Fer)</Value>
+    </Record>
+    <Record>
+      <Key>ItemAstroloyIngot</Key>
+      <Value>Lingot (Fer)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCobaltOre</Key>
+      <Value>Minerai (Charbon)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCobaltIngot</Key>
+      <Value>Lingot (Or)</Value>
+    </Record>
+    <Record>
+      <Key>ReagentCobalt</Key>
+      <Value>Poudre d&apos;Or</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -3441,10 +3505,6 @@
     <Record>
       <Key>Storage</Key>
       <Value>Stockage</Value>
-    </Record>
-    <Record>
-      <Key>ProgrammableChip</Key>
-      <Value>Processeur programmable</Value>
     </Record>
     <Record>
       <Key>CreditCard</Key>
@@ -4750,62 +4810,6 @@ Ne soyez pas triste quand vous vous faites exploser en minuscules petits morceau
       <Value>Les satellites suggèrent qu&apos;une caisse est tombée à proximité, votre traqueur de balise devrait vous montrer le chemin.</Value>
     </Record>
     <Record>
-      <Key>Incident_SolarFlare_Title</Key>
-      <Value>Temperature SolarFlare</Value>
-    </Record>
-    <Record>
-      <Key>Incident_SolarFlare</Key>
-      <Value>Les satellites ont reconnu les conditions météorologiques extrêmes autour de votre région.</Value>
-    </Record>
-    <Record>
-      <Key>Incident_MeteorInbound_Title</Key>
-      <Value>Pluie de météorites</Value>
-    </Record>
-    <Record>
-      <Key>Incident_MeteorInbound</Key>
-      <Value>Les balayages par satellite ont capté de gros objets se déplaçant vers votre secteur, se déplaçant vers un environnement sûr.</Value>
-    </Record>
-    <Record>
-      <Key>Incident_BrokenCable_Title</Key>
-      <Value>Fonte aléatoire de câble</Value>
-    </Record>
-    <Record>
-      <Key>Incident_BrokenCable</Key>
-      <Value>De fortes impulsions électriques ont été détectées, méfiez-vous des câbles brûlés.</Value>
-    </Record>
-    <Record>
-      <Key>Incident_AlienLife_Title</Key>
-      <Value>Attaque au sol</Value>
-    </Record>
-    <Record>
-      <Key>Incident_AlienLife</Key>
-      <Value>Tu entends ça ?</Value>
-    </Record>
-    <Record>
-      <Key>Incident_ElectroMagnetic_Title</Key>
-      <Value>Surtension</Value>
-    </Record>
-    <Record>
-      <Key>Incident_ElectroMagnetic</Key>
-      <Value>Vos batteries semblent perdre de la puissance.</Value>
-    </Record>
-    <Record>
-      <Key>Incident_BrokenPipe_Title</Key>
-      <Value>Explosion de tuyaux</Value>
-    </Record>
-    <Record>
-      <Key>Incident_BrokenPipe</Key>
-      <Value>Attention, augmentation de la pression dans le tuyau attendu.</Value>
-    </Record>
-    <Record>
-      <Key>Incident_PlantInfected_Title</Key>
-      <Value>Plantes infectées par les champignons</Value>
-    </Record>
-    <Record>
-      <Key>Incident_PlantInfected</Key>
-      <Value>Attention, un champignon a infecté certaines plantes de la pièce</Value>
-    </Record>
-    <Record>
       <Key>TradingNoMoneyHash</Key>
       <Value>Vous n&apos;avez pas assez d&apos;argent pour terminer cette transaction !</Value>
     </Record>
@@ -5579,7 +5583,7 @@ Temperature {1}</Value>
       <Value>LE LABO</Value>
     </Record>
     <Record>
-      <Key>TraderExotic</Key>
+      <Key>TraderExotics</Key>
       <Value>EXOTECH</Value>
     </Record>
     <Record>
@@ -5599,6 +5603,10 @@ Temperature {1}</Value>
       <Value>MARCHE SPATIAL</Value>
     </Record>
     <Record>
+      <Key>TraderCustom</Key>
+      <Value>MARCHE SPATIAL</Value>
+    </Record>
+    <Record>
       <Key>LoadBackupsTitle</Key>
       <Value>Charger la sauvegarde</Value>
     </Record>
@@ -5613,6 +5621,34 @@ Temperature {1}</Value>
     <Record>
       <Key>OcclusionTickSpeed</Key>
       <Value>TickSpeed masqué</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTargetX</Key>
+      <Value>La position actuelle dans l&apos;axe X en coordonnées du monde</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTargetY</Key>
+      <Value>La position actuelle dans l&apos;axe Y en coordonnées du monde</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTargetZ</Key>
+      <Value>La position actuelle dans l&apos;axe Z en coordonnées du monde</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSettingInputHash</Key>
+      <Value>Réglage maximal de l&apos;appareil</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSettingOutputHash</Key>
+      <Value>Réglage vertical de l&apos;appareil</Value>
+    </Record>
+    <Record>
+      <Key>SettingsWorldOrigin</Key>
+      <Value>Paramètres du Monde</Value>
+    </Record>
+    <Record>
+      <Key>PromptButtonLeave</Key>
+      <Value>Quitter la session</Value>
     </Record>
   </Interface>
   <Colors>

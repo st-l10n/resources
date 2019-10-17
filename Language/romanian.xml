@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Romanian</Name>
   <Code>RO</Code>
   <Font>font_extended</Font>
@@ -537,6 +537,22 @@
       <Key>ItemGasFilterOxygenM</Key>
       <Value>Filtru mediu (oxigen)</Value>
     </Record>
+    <Record>
+      <Key>DynamicGasCanisterPollutants</Key>
+      <Value>Kit (rezervor portabil)</Value>
+    </Record>
+    <Record>
+      <Key>StructureSolarPanelFused</Key>
+      <Value>Panou fotovoltaic</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitAdvancedFurnace</Key>
+      <Value>Kit (perete arcuit)</Value>
+    </Record>
+    <Record>
+      <Key>ReagentCobalt</Key>
+      <Value>Pulbere de aur</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -714,10 +730,6 @@
     <Record>
       <Key>Storage</Key>
       <Value>Stocare</Value>
-    </Record>
-    <Record>
-      <Key>ProgrammableChip</Key>
-      <Value>Procesor</Value>
     </Record>
     <Record>
       <Key>CreditCard</Key>
@@ -1230,6 +1242,10 @@
     <Record>
       <Key>NewWorldSolarEnergy</Key>
       <Value>Energie solară</Value>
+    </Record>
+    <Record>
+      <Key>PromptButtonLeave</Key>
+      <Value>Părăsește sesiunea</Value>
     </Record>
   </Interface>
   <Colors>

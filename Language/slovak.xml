@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Slovak</Name>
   <Code>SK</Code>
   <Font>font_russian</Font>
@@ -586,6 +586,10 @@
     <Record>
       <Key>ItemFlour</Key>
       <Value>Múka</Value>
+    </Record>
+    <Record>
+      <Key>ItemGasFilterCarbonDioxide</Key>
+      <Value>Filter (CO2)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterNitrogen</Key>
@@ -1283,13 +1287,68 @@
       <Key>ItemReferenceTool</Key>
       <Value>Item Authoring Tool</Value>
     </Record>
-  </Things>
-  <Slots>
     <Record>
-      <Key>ProgrammableChip</Key>
-      <Value>Processing</Value>
+      <Key>DynamicGasCanisterNitrousOxide</Key>
+      <Value>Prenosná Nádrž (Dusík)</Value>
     </Record>
-  </Slots>
+    <Record>
+      <Key>DynamicGasCanisterPollutants</Key>
+      <Value>Prenosná Nádrž (Volatiles)</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeGPS</Key>
+      <Value>Cartridge (Guide)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicTransmitter</Key>
+      <Value>Logic Writer</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicTransmitter</Key>
+      <Value>Kit (Logic Unit)</Value>
+    </Record>
+    <Record>
+      <Key>StructureAdvancedFurnace</Key>
+      <Value>Arc Furnace</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitAdvancedFurnace</Key>
+      <Value>Kit (Arc Furnace)</Value>
+    </Record>
+    <Record>
+      <Key>ItemStelliteIngot</Key>
+      <Value>Ingot (Steel)</Value>
+    </Record>
+    <Record>
+      <Key>ItemWaspaloyIngot</Key>
+      <Value>Ingot (Waste)</Value>
+    </Record>
+    <Record>
+      <Key>ItemHastelloyIngot</Key>
+      <Value>Ingot (Waste)</Value>
+    </Record>
+    <Record>
+      <Key>ItemInconelIngot</Key>
+      <Value>Ingot (Iron)</Value>
+    </Record>
+    <Record>
+      <Key>ItemAstroloyIngot</Key>
+      <Value>Ingot (Iron)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCobaltOre</Key>
+      <Value>Ore (Coal)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCobaltIngot</Key>
+      <Value>Ingot (Gold)</Value>
+    </Record>
+    <Record>
+      <Key>ReagentCobalt</Key>
+      <Value>Gold Powder</Value>
+    </Record>
+  </Things>
+  <Slots/>
   <Interactables/>
   <Interface>
     <Record>
@@ -1777,6 +1836,11 @@
       <Value>Tutoriál Hotový</Value>
     </Record>
     <Record>
+      <Key>TutorialCompleteMessage</Key>
+      <Value>There&apos;s still much to learn. 
+So get out there, Stationeer!</Value>
+    </Record>
+    <Record>
       <Key>TutorialBackToMenu</Key>
       <Value>Naspäť do menu</Value>
     </Record>
@@ -1787,6 +1851,11 @@
     <Record>
       <Key>SettingsInvertMouse</Key>
       <Value>Invertovať Myš</Value>
+    </Record>
+    <Record>
+      <Key>MulticonstructorItem</Key>
+      <Value>&lt;color=yellow&gt;Constructing option {0} of {1}&lt;/color&gt;
+Scroll &lt;color=red&gt;Mouse Wheel&lt;/color&gt; for more options.</Value>
     </Record>
     <Record>
       <Key>SettingsExtendedTooltips</Key>
@@ -1861,12 +1930,38 @@
       <Value>Publikovať do Workshopu</Value>
     </Record>
     <Record>
+      <Key>AlertNoResponse</Key>
+      <Value>There is no response from the Game Server.
+Please try again.</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoonDesc</Key>
+      <Value>So you&apos;re stuck on the moon, but it&apos;s not all bad. 
+Sure, it&apos;s cold, harsh and pretty monotonous, but at least the sun&apos;s shining. The solar panel is going to be useful, and the power controller... and probably the arc furnace too.
+There&apos;s even a little food and oxygen in the other crates, though it&apos;s definitely not going to last forever. Neither&apos;s your battery. 
+You better start thinking about how you&apos;re going to survive. How hard could it be to rig up an airlock? A generator? Maybe even smelt some ore and build yourself a base?
+Looks like you&apos;re gonna be here a while.</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldSpaceDesc</Key>
+      <Value>This is Stationeers Creative Mode!
+Spawn in any item, test ideas and build bonkers stuff real fast.
+&lt;color=red&gt;This mode is experimental.&lt;/color&gt; Think of it as a freeform space party where exciting and unexpected things* can and will happen, compared to the more reliable near-death experience of Survival Mode.
+Just don&apos;t be sad when you blow yourself into tiny, tiny little pieces or get savaged by chickens or slowly explode while drifting alone into the infinite void.
+*bugs</Value>
+    </Record>
+    <Record>
       <Key>SettingsDisableParticlesOnMenu</Key>
       <Value>Vypnúť častice v menu                     Preklad vytvoril: samuelcseto</Value>
     </Record>
     <Record>
       <Key>MainMenuScenarios</Key>
       <Value>Scenáre</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceChamberText</Key>
+      <Value>Pressure {0}
+Temperature {1}</Value>
     </Record>
     <Record>
       <Key>LogicNoSlot</Key>
@@ -1963,6 +2058,14 @@
     <Record>
       <Key>BackupMenuFileListTitle</Key>
       <Value>Naspäť</Value>
+    </Record>
+    <Record>
+      <Key>SettingsWorldOrigin</Key>
+      <Value>World Settings</Value>
+    </Record>
+    <Record>
+      <Key>PromptButtonLeave</Key>
+      <Value>Opustiť Session</Value>
     </Record>
   </Interface>
   <Colors>

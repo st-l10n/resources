@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Simplified Chinese</Name>
   <Code>CN</Code>
   <Font>font_cjk</Font>
@@ -3322,6 +3322,70 @@
       <Key>ItemReferenceTool</Key>
       <Value>创作工具</Value>
     </Record>
+    <Record>
+      <Key>DynamicGasCanisterNitrousOxide</Key>
+      <Value>便携储罐(氮)</Value>
+    </Record>
+    <Record>
+      <Key>DynamicGasCanisterPollutants</Key>
+      <Value>便携储罐(固态氢)</Value>
+    </Record>
+    <Record>
+      <Key>StructureSolarPanelFused</Key>
+      <Value>太阳能板</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeGPS</Key>
+      <Value>记忆卡(指南)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicTransmitter</Key>
+      <Value>逻辑编写</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitLogicTransmitter</Key>
+      <Value>逻辑单元</Value>
+    </Record>
+    <Record>
+      <Key>StructureAdvancedFurnace</Key>
+      <Value>电弧炉</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitAdvancedFurnace</Key>
+      <Value>(套件)电弧炉</Value>
+    </Record>
+    <Record>
+      <Key>ItemStelliteIngot</Key>
+      <Value>锭(钢)</Value>
+    </Record>
+    <Record>
+      <Key>ItemWaspaloyIngot</Key>
+      <Value>锭 (废料)</Value>
+    </Record>
+    <Record>
+      <Key>ItemHastelloyIngot</Key>
+      <Value>锭 (废料)</Value>
+    </Record>
+    <Record>
+      <Key>ItemInconelIngot</Key>
+      <Value>锭(铁)</Value>
+    </Record>
+    <Record>
+      <Key>ItemAstroloyIngot</Key>
+      <Value>锭(铁)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCobaltOre</Key>
+      <Value>矿石(煤炭Coal)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCobaltIngot</Key>
+      <Value>锭(金)</Value>
+    </Record>
+    <Record>
+      <Key>ReagentCobalt</Key>
+      <Value>金粉末</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -3511,10 +3575,6 @@
     <Record>
       <Key>Circuit</Key>
       <Value>电路</Value>
-    </Record>
-    <Record>
-      <Key>ProgrammableChip</Key>
-      <Value>处理</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -4037,11 +4097,19 @@
       <Value>太空</Value>
     </Record>
     <Record>
+      <Key>Europa2</Key>
+      <Value>欧罗巴</Value>
+    </Record>
+    <Record>
       <Key>NewWorldAreaEarth</Key>
       <Value>地球</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaEuropa</Key>
+      <Value>欧罗巴</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaEuropa2</Key>
       <Value>欧罗巴</Value>
     </Record>
     <Record>
@@ -5664,6 +5732,34 @@
     <Record>
       <Key>BackupMenuFileListTitle</Key>
       <Value>返回</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTargetX</Key>
+      <Value>世界坐标 z 维度的当前位置</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTargetY</Key>
+      <Value>世界坐标 z 维度的当前位置</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTargetZ</Key>
+      <Value>世界坐标 z 维度的当前位置</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSettingInputHash</Key>
+      <Value>设备的最大设置</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSettingOutputHash</Key>
+      <Value>垂直角度设置</Value>
+    </Record>
+    <Record>
+      <Key>SettingsWorldOrigin</Key>
+      <Value>世界设置</Value>
+    </Record>
+    <Record>
+      <Key>PromptButtonLeave</Key>
+      <Value>离线</Value>
     </Record>
   </Interface>
   <Colors>
