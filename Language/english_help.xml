@@ -398,7 +398,14 @@ Melt Pressure {POS:300}{0}</Text>
         {LIST}{0}{/LIST}
       </Text>
     </StationpediaPage>
-    
+
+    <StationpediaPage>
+      <Key>TierListHeaderTemplate</Key>
+      <Text>
+        {HEADER:Structures Tier List}
+      </Text>
+    </StationpediaPage>
+
     <StationpediaPage>
       <Key>CreatorTemplate</Key>
       <Text>{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}</Text>
