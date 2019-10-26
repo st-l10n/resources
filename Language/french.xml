@@ -326,6 +326,14 @@
       <Key>Vend</Key>
       <Value>Achat</Value>
     </Record>
+    <Record>
+      <Key>Link</Key>
+      <Value>Associer</Value>
+    </Record>
+    <Record>
+      <Key>UnLink</Key>
+      <Value>Dissocier</Value>
+    </Record>
   </Actions>
   <Things>
     <Record>
@@ -1170,7 +1178,7 @@
     </Record>
     <Record>
       <Key>ItemSpaceHelmet</Key>
-      <Value>Casque Spatial</Value>
+      <Value>Casque spatial</Value>
     </Record>
     <Record>
       <Key>ItemSpacepack</Key>
@@ -2874,7 +2882,7 @@
     </Record>
     <Record>
       <Key>ItemHardsuitHelmet</Key>
-      <Value>Casque Combinaison renforcée</Value>
+      <Value>Casque spatial renforcé</Value>
     </Record>
     <Record>
       <Key>ItemWearLamp</Key>
@@ -3261,6 +3269,10 @@
       <Value>Outil de création d&apos;objet</Value>
     </Record>
     <Record>
+      <Key>ItemKitAutoMiner</Key>
+      <Value>Kit Auto Miner</Value>
+    </Record>
+    <Record>
       <Key>DynamicGasCanisterNitrousOxide</Key>
       <Value>Réservoir portable (Azote)</Value>
     </Record>
@@ -3269,32 +3281,52 @@
       <Value>Réservoir portable (Volatiles)</Value>
     </Record>
     <Record>
+      <Key>Lander</Key>
+      <Value>Atterisseur</Value>
+    </Record>
+    <Record>
+      <Key>ItemRemoteDetonator</Key>
+      <Value>Détonateur à distance</Value>
+    </Record>
+    <Record>
+      <Key>ItemExplosive</Key>
+      <Value>Explosif à distance</Value>
+    </Record>
+    <Record>
       <Key>StructureSolarPanelFused</Key>
       <Value>Panneau Solaire</Value>
     </Record>
     <Record>
+      <Key>ItemCoffeeMug</Key>
+      <Value>Tasse de café</Value>
+    </Record>
+    <Record>
+      <Key>AimeeBot</Key>
+      <Value>Aimee robot</Value>
+    </Record>
+    <Record>
       <Key>CartridgeGPS</Key>
-      <Value>Carte (Guide)</Value>
+      <Value>Carte (GPS)</Value>
     </Record>
     <Record>
       <Key>StructureLogicTransmitter</Key>
-      <Value>Unité Logique: Ecriture</Value>
+      <Value>Unité Logique: Transmetteur</Value>
     </Record>
     <Record>
       <Key>ItemKitLogicTransmitter</Key>
-      <Value>Kit (Unité Logique)</Value>
+      <Value>Kit (Unité Logique Transmetteur)</Value>
     </Record>
     <Record>
       <Key>StructureAdvancedFurnace</Key>
-      <Value>Four à Arc</Value>
+      <Value>Fourneau avancé</Value>
     </Record>
     <Record>
       <Key>ItemKitAdvancedFurnace</Key>
-      <Value>Kit (Four à Arc)</Value>
+      <Value>Kit (Fourneau avancé)</Value>
     </Record>
     <Record>
       <Key>ItemStelliteIngot</Key>
-      <Value>Lingot (Acier)</Value>
+      <Value>Lingot (Stellite)</Value>
     </Record>
     <Record>
       <Key>ItemWaspaloyIngot</Key>
@@ -3306,23 +3338,23 @@
     </Record>
     <Record>
       <Key>ItemInconelIngot</Key>
-      <Value>Lingot (Fer)</Value>
+      <Value>Lingot (Inconel)</Value>
     </Record>
     <Record>
       <Key>ItemAstroloyIngot</Key>
-      <Value>Lingot (Fer)</Value>
+      <Value>Lingot (Astroloy)</Value>
     </Record>
     <Record>
       <Key>ItemCobaltOre</Key>
-      <Value>Minerai (Charbon)</Value>
+      <Value>Minerai (Cobalt)</Value>
     </Record>
     <Record>
       <Key>ItemCobaltIngot</Key>
-      <Value>Lingot (Or)</Value>
+      <Value>Lingot (Cobalt)</Value>
     </Record>
     <Record>
       <Key>ReagentCobalt</Key>
-      <Value>Poudre d&apos;Or</Value>
+      <Value>Poudre de cobalt</Value>
     </Record>
     <Record>
       <Key>StructureCompositeCladdingRoundedCornerInner</Key>
@@ -3541,6 +3573,10 @@
     <Record>
       <Key>Storage</Key>
       <Value>Stockage</Value>
+    </Record>
+    <Record>
+      <Key>ProgrammableChip</Key>
+      <Value>Puce programmable</Value>
     </Record>
     <Record>
       <Key>CreditCard</Key>
@@ -3915,8 +3951,24 @@
       <Value>Espace</Value>
     </Record>
     <Record>
+      <Key>Vulcan</Key>
+      <Value>Vulcain</Value>
+    </Record>
+    <Record>
+      <Key>Vulcan2</Key>
+      <Value>Vulcain</Value>
+    </Record>
+    <Record>
       <Key>NewWorldAreaEarth</Key>
       <Value>Terre</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaVulcan</Key>
+      <Value>Vulcain</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaVulcan2</Key>
+      <Value>Vulcain</Value>
     </Record>
     <Record>
       <Key>NewWorldEnableAwayMissions</Key>
@@ -4803,11 +4855,11 @@ Veuillez réessayer.</Value>
     </Record>
     <Record>
       <Key>NewWorldMoonDesc</Key>
-      <Value>Alors vous êtes coincé sur la lune, mais tout n&apos;est pas perdu...
-Bien sûr, il y fait froid, rude et monotone, mais au moins le soleil brille. Le panneau solaire va vous être utile, ainsi que le contrôleur de puissance ... et aussi le four à arc.	  
-Il y a même un peu de nourriture et d&apos;oxygène dans les autres caisses, même si ça ne va pas durer éternellement... tout comme votre batterie...
-Vous feriez mieux de commencer à réfléchir comment vous aller survivre. À quel point cela pourrait être difficile de gréer un SAS ? Un générateur ? Peut-être même faire fondre du minerai et construire votre base ?
-On dirait que vous allez être ici un moment.</Value>
+      <Value>Donc, vous êtes coincé sur la lune, mais tout n&apos;est pas mauvais.
+Bien sûr, il fait froid, dur et joli monotone, mais au moins le soleil brille. Le panneau solaire va être utile, ainsi que le contrôleur de puissance ... et probablement aussi le four à arc.
+Il y a même un peu de nourriture et d&apos;oxygène dans les autres caisses, bien que cela ne dure définitivement pas éternellement. Ni est votre batterie.
+Tu ferais mieux de commencer à penser à la façon dont tu vas survivre. Comment pourrait-il être difficile de monter un sas? Un générateur? Peut-être même fondu du minerai et construit-il une base?
+On dirait que tu vas être ici un moment.</Value>
     </Record>
     <Record>
       <Key>NewWorldSpaceDesc</Key>
@@ -4891,7 +4943,8 @@ Ne soyez pas triste quand vous vous faites exploser en minuscules petits morceau
     </Record>
     <Record>
       <Key>FurnaceChamberText</Key>
-      <Value>Pression {0}
+      <Value>
+Pression {0}
 Temperature {1}</Value>
     </Record>
     <Record>
@@ -5016,7 +5069,8 @@ Temperature {1}</Value>
     </Record>
     <Record>
       <Key>NewWorldMoonShortDesc</Key>
-      <Value>Alors que la présence de charbon n&apos;est pas typique de la lune terrestre, le terrain relativement plat plein de divers cratères importants et le manque d&apos;atmosphère peut être plus familier dans ce paysage gris.</Value>
+      <Value>Bien que la présence de charbon ne soit pas typique de la Lune de la Terre, le terrain relativement plat regorgeant de divers cratères importants et le manque d&apos;atmosphère sont peut-être plus familiers dans ce paysage gris.
+Un excellent endroit pour commencer le voyage du stationnaire en herbe, avec moins de risques et de complexités offerts sur des mondes plus exotiques</Value>
     </Record>
     <Record>
       <Key>NewWorldSpaceShortDesc</Key>
@@ -5024,7 +5078,22 @@ Temperature {1}</Value>
     </Record>
     <Record>
       <Key>NewWorldEuropaShortDesc</Key>
-      <Value>Fondre une partie de la glace sur ce monde froid lui a finalement donné une atmosphère, mais c&apos;est l&apos;environnement extrêmement glacial présente un défi extrême pour le stationeers.</Value>
+      <Value>Faire fondre une partie de la glace sur ce monde froid lui a finalement donné une atmosphère, mais son environnement extrêmement froid présente un sérieux défi pour les stationnaires.
+Le froid extrême provoquera une perte de puissance rapide des batteries. Il est donc prioritaire d’obtenir une source d’alimentation stable dans un environnement chaud.</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldVulcanShortDesc</Key>
+      <Value>L’environnement volatile de Vulcan ne peut survivre que dans très peu d’organismes vivants, mais sa surface fracturée et ses riches gisements de minéraux en font une entreprise risquée mais rentable pour les vendeurs entreprenants.</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldVulcan2ShortDesc</Key>
+      <Value>Un monde déchiré en raison des forces de marée massives du trou noir supermassif qu’il orbite. Vulcan ne laisse guère d’espoir aux organismes qui aboutissent ici, mais sa surface fracturée et ses riches gisements minéraux en font une entreprise à la fois risquée et rentable pour les traders entreprenants.
+Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels sous la surface !</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMimasShortDesc</Key>
+      <Value>Une roche stérile nichée sous l&apos;aile des anneaux spectulaires de Saturne. La petite stature de Mimas se reflète dans sa gravité extrêmement faible, et la surface de Mimantean est saturée de cratères d&apos;impact provenant des occupants de l&apos;anneau capricieux. Sa distance du soleil fournit peu d&apos;énergie à partir d&apos;appareils solaires.
+Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un long chemin et gagner beaucoup de vitesse en raison de la gravité extrêmement faible.</Value>
     </Record>
     <Record>
       <Key>SettingsTitleAudioAlerts</Key>
@@ -5584,7 +5653,7 @@ Temperature {1}</Value>
     </Record>
     <Record>
       <Key>ContactTradeRequestFail</Key>
-      <Value>Le marchand nécessite un atterrissage sûre. Veuillez vous assurer que l’espace d’atterrissage soit dégagé et connecté.</Value>
+      <Value>Le marchand nécessite un atterrissage sûre. Veuillez vous assurer que l’espace d’atterrissage soit dégagé et connecté. Un distributeur automatique est obligatoire pour procéder à un échange.</Value>
     </Record>
     <Record>
       <Key>InputTextTradingTitle</Key>
@@ -5619,10 +5688,6 @@ Temperature {1}</Value>
       <Value>LE LABO</Value>
     </Record>
     <Record>
-      <Key>TraderExotics</Key>
-      <Value>EXOTECH</Value>
-    </Record>
-    <Record>
       <Key>TraderPaint</Key>
       <Value>PEINTURE INDUSTRIE</Value>
     </Record>
@@ -5636,10 +5701,6 @@ Temperature {1}</Value>
     </Record>
     <Record>
       <Key>TraderOther</Key>
-      <Value>MARCHE SPATIAL</Value>
-    </Record>
-    <Record>
-      <Key>TraderCustom</Key>
       <Value>MARCHE SPATIAL</Value>
     </Record>
     <Record>
@@ -5679,12 +5740,28 @@ Temperature {1}</Value>
       <Value>Réglage vertical de l&apos;appareil</Value>
     </Record>
     <Record>
+      <Key>ButtonDepart</Key>
+      <Value>Départ</Value>
+    </Record>
+    <Record>
+      <Key>SettingsShowSlotTooltips</Key>
+      <Value>Afficher les conseils sur les outils</Value>
+    </Record>
+    <Record>
       <Key>SettingsWorldOrigin</Key>
       <Value>Paramètres du Monde</Value>
     </Record>
     <Record>
+      <Key>PromptPauseBody</Key>
+      <Value>Jeu en pause</Value>
+    </Record>
+    <Record>
       <Key>PromptButtonLeave</Key>
       <Value>Quitter la session</Value>
+    </Record>
+    <Record>
+      <Key>PromptResumeButton</Key>
+      <Value>Reprendre</Value>
     </Record>
   </Interface>
   <Colors>

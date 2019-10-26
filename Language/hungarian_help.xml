@@ -9,25 +9,25 @@
     <StationpediaPage>
       <Key>Home</Key>
       <Title>Kezdőlap</Title>
-      <Text>Üdvözlet a Stationeers segítségnyújtó rendszerében! Ezzel az eszközzel megtudhatod, hogyan működnek a játék különféle rendszerei, emellett fontos információkat tudhatsz meg a világróll.
+      <Text>Üdvözlet a Stationeers segítségnyújtó rendszerében! Eme segédlettel megtudhatod, hogyan működnek a játék különféle rendszerei, emellett fontos információkat tudhatsz meg a játékbeli tárgyakról.
 
-{HEADER:Segítő használata}
-Ezt az ablakot az {KEY:Help} gomb segítségével tudod ki- és bekapcsolni. A kurzorral való navigáláshoz játék közben tartsd lenyomva a {KEY:MouseControl} billentyűt!
+{HEADER:Segédlet használata}
+Ezt az ablakot a(z) {KEY:Help} gomb segítségével tudod ki- és bekapcsolni. A kurzorral való navigáláshoz játék közben tartsd lenyomva a(z) {KEY:MouseControl} billentyűt!
 
-{HEADER:Vizsgálás}
+{HEADER:Tárgyak vizsgálata}
 A {KEY:MouseControl} és a {KEY:MouseInspect} gomb egy időben való lenyomásával [i]megvizsgálhatsz[/i] valamit, amire rákattinthatsz. Ekkor meg fog jelenni a tárgy információit tartalmazó oldal.
 
 {HEADER:Fő témák}
-{LIST}{LINK:SmeltingPage;Beolvasztás}, {LINK:MiningPage;Bányászat}, {LINK:ConstructionPage;Építés}, {LINK:InventoryPage;Tárhely}
+{LIST}{LINK:SmeltingPage;Kohászat}, {LINK:MiningPage;Bányászat}, {LINK:ConstructionPage;Építkezés}, {LINK:InventoryPage;Tárhely}
 {/LIST}
-{HEADER:Kézikönyvek}
+{HEADER:Útmutatók}
 {LIST}{LINK:GettingStarted;Első lépések}
 {/LIST}
 {HEADER:Egyéb}
 {LIST}{LINK:GasPage;Gázok}, {LINK:ReagentPage;Reagensek}
 {/LIST}
 {HEADER:Tárgyak}
-{LIST}{LINK:ToolPage;Eszközök}, {LINK:ResourcePage;Erőforrások}, {LINK:KitPage;Készletek}, {LINK:FoodPage;Élelmiszer}, {LINK:ClothingPage;Öltözet}, {LINK:AppliancePage;Készülékek}, {LINK:IngotPage;Öntvények}, {LINK:OrePage;Ércek}, {LINK:AlloyPage;Ötvözetek}
+{LIST}{LINK:ToolPage;Eszközök}, {LINK:ResourcePage;Erőforrások}, {LINK:KitPage;Készletek}, {LINK:FoodPage;Élelmiszer}, {LINK:ClothingPage;Öltözet}, {LINK:AppliancePage;Készülékek}, {LINK:IngotPage;Öntvények}, {LINK:OrePage;Ércek}, {LINK:AlloyPage;Ötvözetek}, {LINK:SuperAlloyPage;Szuperötvözetek}
 {/LIST}
 {HEADER:Struktúrák}
 {LIST}{LINK:DevicePage;Berendezések}, {LINK:FabricatorPage;Gyártógépek}, {LINK:AirlockDevicePage;Légzsilip eszközök}, {LINK:LogicUnitPage;Logikai egységek}
@@ -37,7 +37,7 @@ A {KEY:MouseControl} és a {KEY:MouseInspect} gomb egy időben való lenyomásá
       <Key>GettingStarted</Key>
       <Title>Első lépések</Title>
       <Text>{HEADER:Isten hozott az új világban!}
-Ha most vagy itt először, nagyon sokat kell tanulnod. Érzed a rád nehezedő nyomást? Remek érzés az ismeretlenbe ugrani! A következő sorok egy általános iránymutatást tartalmaznak a kezdéshez. Minden egyes világon különböző problémákkal kell megüzdeni, de most egy széleskörű áttekintést kaphatsz a legfontosabb dolgokról.
+Ha most vagy itt először, nagyon sokat kell tanulnod. Érzed a rád nehezedő nyomást? Remek érzés az ismeretlenbe ugrani! A következő sorok egy általános iránymutatást tartalmaznak a kezdéshez. Minden egyes világon különböző problémákkal kell megüzdeni, most egy széleskörű áttekintést kaphatsz a legfontosabb dolgokról.
 
 {HEADER:A ruhád töltése}
 Az egyik legfontosabb dolog az {THING:ItemEvaSuit} belsejében levő {THING:ItemBatteryCellLarge} töltése. Ez látja el a {THING:ItemSpaceHelmet} lámpáját (kapcsold ki, ha nem kell!) és a ruha fűtését árammal (vigyázz, hidegben többet fogyaszt!). Az elemet a {THING:ItemBatteryCharger} használatával tölthető. A töltőt elláthatod {THING:StructureSolidFuelGenerator}ral (szén szükséges) vagy {THING:StructureSolarPanel}mel. Vészhelyzetben kiveheted az elemeket az {LINK:ToolPage;eszközeidből} és töltheted őket a {THING:PortableSolarPanel}mel.
@@ -48,7 +48,7 @@ Növelheted az elektromos hálózat teljesítményét egy {THING:StructureAreaPo
 {HEADER:Gazdálkodás az oxigénnel}
 Az {THING:ItemEvaSuit} és a {THING:ItemSpaceHelmet} egy megvédenek az elemek ellen. Az {THING:ItemEvaSuit} {GAS:Oxygen}t igényel, amit az {THING:ItemGasCanisterOxygen}ba kell töltened. Mindig figyeld az oxigénszintet! Ha a palack kiürül, a {THING:DynamicGasCanisterOxygen} használatával töltheted újra. A palackot a &quot;veszély&quot; jelzésű rekeszbe kell behelyezned.
 
-{HEADER:Alapvető beolvasztás}
+{HEADER:Kezdetleges kohászat}
 Miután stabilizáltad az energiaellátást, el kell kezdened többféle nyersanyagot szerezni. Alapvető {LINK:OrePage;ércek} begyűjtéséhez lesd meg a {LINK:MiningPage;bányászat} fület! Az {LINK:OrePage;ércek} kiégetését egy {THING:StructureArcFurnace} használatával tudod elérni, amit a hálózatodba a {THING:StructureAreaPowerControl} után kell bekötnöd. Ezzel képes leszel például {THING:ItemIronOre}, {THING:ItemSiliconOre} vagy bármi egyéb beolvasztására az {LINK:AlloyPage;ötvözetek} kivételével.
 
 {HEADER:Alapvető gyártás}
@@ -66,12 +66,14 @@ Miután meglett a hermetikus zárt helyiséged {LINK:MiningPage;bányássz} egy 
 {HEADER:Növénytermesztés}
 Az előre biztosított {THING:DynamicHydroponics} használatával elkezdheted a termelést az új üvegházadban. Az eszközön a {THING:ItemGasCanisterWater} látja el vízzel a növényket. Most ültess el egy a kezdő ládában is megtalálható {THING:ItemPotato}t. Először csak egyet ültess el, hogy ellenőrizhesd a megfelelő növekedést. A túléléshez csupán hőre, napfényre és egy kis {GAS:CarbonDioxide}-ra van szükségük.
 
-{HEADER:Haladó beolvasztás}
-A {THING:StructureArcFurnace} csak alapvető {LINK:OrePage;ércek} beolvasztására alkalmas. {LINK:AlloyPage;Ötvözetek} létrehozása a {THING:StructureFurnace} használatával mehet végbe, mégpedig nagyon speciális körülmények között. A megfelelő anyag létrehozásához három dologra kell figyelni: {LINK:PressurePage;nyomás}, {LINK:TemperaturePage;hőmérséklet} és a {LINK:ReagentPage;reagensek} keverési aránya. Például {THING:ItemSteelIngot} létrehozásához a {REAGENT:Iron}  és a {REAGENT:Coal} 3 az 1-hez arányú keveréke szükséges.
+{HEADER:Haladó kohászat}
+A {THING:StructureArcFurnace} csak alapvető {LINK:OrePage;ércek} beolvasztására alkalmas. Az {LINK:AlloyPage;Ötvözetek} létrehozása a {THING:StructureFurnace} használatával mehet végbe, mégpedig nagyon speciális körülmények között. A megfelelő anyag létrehozásához három dologra kell figyelni: {LINK:PressurePage;nyomás}, {LINK:TemperaturePage;hőmérséklet} és a {LINK:ReagentPage;reagensek} keverési aránya. Például {THING:ItemSteelIngot} létrehozásához a {REAGENT:Iron}  és a {REAGENT:Coal} 3:1 arányú keveréke szükséges.
 
-A felső nyílába közvetlenül tudsz {LINK:IcePage;jeget} helyezni. Ha nincs atmoszféra, ami megindítaná az olvadást, nyomd meg a {LOGICTYPE:Activate} gombot, ami összetöri a jeget és ezzel beindítja az olvadást. A jég magától elolvad, ha van elég gáz a levegőben. {THING:ItemOxite} és {THING:ItemVolatiles} keverékével tudsz egyszerűen tüzet csiholni a kohóban, de vigyázz, ez rendkívül megnöveli a belső nyomást!
+A felső nyílásba közvetlenül tudsz {LINK:IcePage;jeget} helyezni. Ha nincs atmoszféra, ami megindítaná az olvadást, nyomd meg a {LOGICTYPE:Activate} gombot, ami összetöri a jeget és ezzel beindítja az olvadást. A jég magától elolvad, ha van elég gáz a levegőben. {THING:ItemOxite} és {THING:ItemVolatiles} keverékével tudsz egyszerűen tüzet csiholni a kohóban, de vigyázz, ez rendkívül megnöveli a belső nyomást!
 
 Ha az eszköz eléri a kívánt hőmérsékletet, helyezd be az érceket, de figyelj a megfelelő arányra, különben melléktermékek is létrejönnek {THING:ItemReagentMix} formájában, ami csak a {THING:StructureCentrifuge} használatával válaztható szét újra. A végső termék kiadásához húzd meg a {LOGICTYPE:Open} kart.
+
+Még fejlettebb {LINK:SuperAlloyPage;szuperötvözeteket} a {THING:StructureAdvancedFurnace} segítségével tudsz készíteni. A kohászati előfeltételek nagyon szigorúak, ezért a beolvasztás folyamata nagyfokú precizitást igényel, de mindez szükséges a fejlett gyártáshoz.
 {/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
@@ -137,8 +139,8 @@ Az itt található eszközöket használhatod egy légzsilip rendszer elkészít
     </StationpediaPage>
     <StationpediaPage>
       <Key>SmeltingPage</Key>
-      <Title>Beolvasztás</Title>
-      <Text>Ha szereztél {LINK:OrePage;érceket}, {LINK:IngotPage;rudakká} kell olvasztanod őket, hogy {LINK:ReagentPage;reagensként} használhasd őket. A beolvasztás gyakran jár {LINK:GasPage;gázok} kibocsátásával. Ehhez szükség van a(z) {THING:StructureArcFurnace}ra (egyszerűbb dolgokhoz) vagy a {THING:StructureFurnace} használatával {LINK:AlloyPage;ötvözeteket} állíthatsz elő. Ezeknél figyelni kell a tökéletes arányra, a megfelelő {LINK:TemperaturePage;hőmérsékletre} és a {LINK:PressurePage;nyomásra}.</Text>
+      <Title>Kohászat</Title>
+      <Text>Ha szereztél {LINK:OrePage;érceket}, {LINK:IngotPage;rudakká} kell olvasztanod őket, hogy {LINK:ReagentPage;reagensként} használhasd őket. A beolvasztás gyakran jár {LINK:GasPage;gázok} kibocsátásával. Ehhez szükség van a(z) {THING:StructureArcFurnace}ra (egyszerűbb dolgokhoz) vagy a {THING:StructureFurnace}ra bonyolultabb {LINK:AlloyPage;ötvözetekhez}, vagy használhatod a {THING:StructureAdvancedFurnace}t {LINK:SuperAlloyPage;szuperötvözetek} készítéséhez. A ötvözetek készítésekor figyelni kell a tökéletes keverési arányra, a megfelelő {LINK:TemperaturePage;hőmérsékletre} és {LINK:PressurePage;nyomásra}.</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>MiningPage</Key>
@@ -175,10 +177,18 @@ Ha közvetlenül ránézel az építés alatt levő tárgyra, a befejezéshez sz
     <StationpediaPage>
       <Key>AlloyPage</Key>
       <Title>Ötvözetek</Title>
-      <Text>A {THING:StructureFurnace} segítségével készíthetők el {LINK:ReagentPage;reagens} keverékekből. Az ötvözetek {LINK:IngotPage;kiöntött rudak}, amiket a {LINK:FabricatorPage;gyártógépekben} használhatsz. A {THING:StructureArcFurnace} nem alkalmas ezeknek az elkészítésére.
+      <Text>A {THING:StructureFurnace} vagy a {THING:StructureAdvancedFurnace} segítségével készíthetők el {LINK:ReagentPage;reagens} keverékekből. Az ötvözetek {LINK:IngotPage;kiöntött rudak}, amiket a {LINK:FabricatorPage;gyártógépekben} használhatsz. A {THING:StructureArcFurnace} nem alkalmas ezeknek az elkészítésére.
 
 {HEADER:Ötvözetek listája}
 {LIST_OF_ALLOYS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>SuperAlloyPage</Key>
+      <Title>Szuperötvözetek</Title>
+      <Text>A {THING:StructureAdvancedFurnace} segítségével készíthetők el {LINK:ReagentPage;reagens} keverékekből. Az ötvözetek {LINK:IngotPage;kiöntött rudak}, amiket a {LINK:FabricatorPage;gyártógépekben} használhatsz. Az {THING:StructureArcFurnace} és a {THING:StructureFurnace} nem alkalmas ezeknek az elkészítésére.
+
+{HEADER:Szuperötvözetek listája}
+{LIST_OF_SUPER_ALLOYS}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>OrePage</Key>
@@ -280,6 +290,10 @@ Lobbanáspont{POS:300}{1}
       <Text>Stack-méret {POS:300}{0}</Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>ThingTransmissibleTemplate</Key>
+      <Text>Kapcsolódik ehhez: {POS:300}{THING:StructureLogicTransmitter}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>ThingNutritionTemplate</Key>
       <Text>Maximális tápérték {POS:300}{0}</Text>
     </StationpediaPage>
@@ -309,7 +323,7 @@ Olvadási nyomás {POS:300}{0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>LogicTransmitHeaderTemplate</Key>
-      <Text>{HEADER:Előállítva ezzel:}
+      <Text>{HEADER:Kapcsolódik ehhez:}
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>

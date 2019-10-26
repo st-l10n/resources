@@ -27,10 +27,10 @@ Si vous maintenez les touches {KEY:MouseControl} et {KEY:MouseInspect} et clique
 {LIST}{LINK:GasPage;Gaz}, {LINK:ReagentPage;Reactifs}
 {/LIST}
 {HEADER:Objets}
-{LIST}{LINK:ToolPage;Outils}, {LINK:ResourcePage;Resources}, {LINK:KitPage;Kits}, {LINK:FoodPage;Aliments}, {LINK:ClothingPage;Vetements}, {LINK:AppliancePage;Appareils electromenagers}, {LINK:IngotPage;Lingots}, {LINK:OrePage;Minerais}, {LINK:AlloyPage;Alliages}
+{LIST}{LINK:ToolPage;Outils}, {LINK:ResourcePage;Resources}, {LINK:KitPage;Kits}, {LINK:FoodPage;Aliments}, {LINK:ClothingPage;Vetements}, {LINK:AppliancePage;Appareils electromenagers}, {LINK:IngotPage;Lingots}, {LINK:OrePage;Minerais}, {LINK:AlloyPage;Alliages}, {LINK:SuperAlloyPage;Super alliages}
 {/LIST}
 {HEADER:Structures}
-{LIST}{LINK:DevicePage;Dispositifs}, {LINK:FabricatorPage;Machines}, {LINK:AirlockDevicePage;Dispositifs de sas}, {LINK:LogicUnitPage;Unites logiques}{/LIST}
+{LIST}{LINK:DevicePage;Dispositifs}, {LINK:FabricatorPage;Machines}, {LINK:AirlockDevicePage;Dispositifs de SAS}, {LINK:LogicUnitPage;Unites logiques}{/LIST}
 </Text>
     </StationpediaPage>
     <StationpediaPage>
@@ -72,6 +72,8 @@ Prenez le {THING:DynamicHydroponics} fourni dans votre nouvelle serre. Il dispos
 Vous pouvez directement insérer de la {LINK:IcePage;glace} dans la partie supérieure. S&apos;il n&apos;y a pas d&apos;atmosphère pour les fondre, appuyez sur le bouton {LOGICTYPE:Activate} pour l&apos;écraser. La glace fondra automatiquement s&apos;il y a suffisamment de gaz de la bonne température à l&apos;intérieur. Utilisez un mélange de {THING:ItemOxite} et {THING:ItemVolatiles} pour allumer un feu à l&apos;intérieur, bien que cela augmente considérablement la pression à l&apos;intérieur.
 
 Une fois que la température est correcte, insérez les minerais pour les fondre - mais surveillez vos ratios ou vos déchets apparaîtront sous la forme {THING:ItemReagentMix} qui devra être trié dans un {THING:StructureCentrifuge}. Pour récupérer la production, tirez la poignée {LOGICTYPE:Open}.
+
+Même plus avancé, {LINK: SuperAlloyPage; Super alliages} peut être fondu à {THING: StructureAdvancedFurnace}. Ils ont des exigences très strictes en matière de fusion et sont extrêmement difficiles, mais nécessaires pour une fabrication très avancée.
 {/LIST}
 </Text>
     </StationpediaPage>
@@ -142,7 +144,7 @@ Les appareils suivants peuvent être connectés et utilisés par le système de 
     <StationpediaPage>
       <Key>SmeltingPage</Key>
       <Title>Fonte</Title>
-      <Text>Une fois que vous avez du {LINK:OrePage;minerai}, vous devez le convertir en {LINK:IngotPage;lingot} pour pouvoir utiliser leurs {LINK:ReagentPage;reactifs}. La fusion produira souvent des {LINK:GasPage;gaz}. Cela se produit soit dans le {THING:StructureArcFurnace} (pour les recettes simples) et dans le {THING:StructureFurnace} pour des {LINK:AlloyPage;alliages} plus compliqué. Pour les alliages complexes, vous devrez réaliser des mélanges avec des ratios parfaits, en respectant la {LINK:TemperaturePage;temperature} et la {LINK:PressurePage;pression}.</Text>
+      <Text>Une fois que vous avez {LINK: OrePage; ore}, vous devez le convertir en {LINK: IngotPage; lingots} pour pouvoir utiliser leur {LINK: ReagentPage; réactifs}. La fusion produit souvent {LINK: GasPage; gas}. Cela se produit soit dans le {THING: StructureArcFurnace} (pour des recettes simples) et dans le {THING: StructureFurnace} pour un {LINK: AlloyPage; Alliages} plus compliqué, et enfin un {THING: StructureAdvancedFurnace} pour un {LINK: SuperAlloyPage; Super alliages}. Pour les alliages complexes, vous devrez réaliser des mélanges avec des rapports parfaits, {LINK: TemperaturePage; Temperature} et {LINK: PressurePage; Pression}.</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>MiningPage</Key>
@@ -168,11 +170,19 @@ Les appareils suivants peuvent être connectés et utilisés par le système de 
     <StationpediaPage>
       <Key>AlloyPage</Key>
       <Title>Alliages</Title>
-      <Text>Créés dans le {THING:StructureFurnace} à partir de mélange de {LINK:ReagentPage;reactif}, les {LINK:IngotPage;lingots} avancées pourront être utilisés dans des {LINK:FabricatorPage;machines}. Le {THING:StructureArcFurnace} n&apos;est pas capable de les fondre.
+      <Text>Créés dans le {THING:StructureFurnace} ou le {THING:StructureAdvancedFurnace} à partir de mélange de {LINK:ReagentPage;reactif}, les {LINK:IngotPage;lingots} avancées pourront être utilisés dans des {LINK:FabricatorPage;machines}. Le {THING:StructureArcFurnace} n&apos;est pas capable de les fondre.
 
 {HEADER:Liste des alliages}
 {LIST_OF_ALLOYS}
 </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>SuperAlloyPage</Key>
+      <Title>Superalliages</Title>
+      <Text>Créés dans le {THING:StructureAdvancedFurnace} à partir de mélange de {LINK:ReagentPage;reactif}, les {LINK:IngotPage;lingots} avancées pourront être utilisés dans des {LINK:FabricatorPage;machines}. Le {THING:StructureArcFurnace} n&apos;est pas capable de les fondre.
+
+{HEADER:Liste des super alliages}
+{LIST_OF_SUPER_ALLOYS}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>OrePage</Key>
@@ -257,6 +267,10 @@ Auto-allumage{POS:300}{2}{3}{/LIST}</Text>
     <StationpediaPage>
       <Key>ThingStackTemplate</Key>
       <Text>Taille de la pile {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingTransmissibleTemplate</Key>
+      <Text>Se connecte à {POS:300}{THING:StructureLogicTransmitter}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ThingNutritionTemplate</Key>

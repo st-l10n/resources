@@ -164,6 +164,16 @@
       <Value>Rizs</Value>
       <Unit>g</Unit>
     </RecordReagent>
+    <RecordReagent>
+      <Key>Stellite</Key>
+      <Value>Stellit</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Cobalt</Key>
+      <Value>Kobalt</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
   </Reagents>
   <Gases>
     <Record>
@@ -184,7 +194,7 @@
     </Record>
     <Record>
       <Key>Pollutant</Key>
-      <Value>Szennyezett gáz</Value>
+      <Value>Mérgező gáz</Value>
     </Record>
     <Record>
       <Key>Water</Key>
@@ -371,6 +381,14 @@
     <Record>
       <Key>Vend</Key>
       <Value>Vétel</Value>
+    </Record>
+    <Record>
+      <Key>Link</Key>
+      <Value>Csatolás</Value>
+    </Record>
+    <Record>
+      <Key>UnLink</Key>
+      <Value>Leválasztás</Value>
     </Record>
   </Actions>
   <Things>
@@ -888,7 +906,7 @@
     </Record>
     <Record>
       <Key>ItemGasCanisterPollutants</Key>
-      <Value>Gázpalack (Szennyezett gáz)</Value>
+      <Value>Gázpalack (Mérgező gáz)</Value>
     </Record>
     <Record>
       <Key>ItemGasCanisterEmpty</Key>
@@ -920,7 +938,7 @@
     </Record>
     <Record>
       <Key>ItemGasFilterPollutants</Key>
-      <Value>Szűrő (Szennyezett gáz)</Value>
+      <Value>Szűrő (Mérgező gáz)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterNitrogen</Key>
@@ -3096,11 +3114,11 @@
     </Record>
     <Record>
       <Key>ItemGasFilterPollutantsL</Key>
-      <Value>Nagy szűrő (Szennyezett gáz)</Value>
+      <Value>Nagy szűrő (Mérgező gáz)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterPollutantsM</Key>
-      <Value>Közepes szűrő (Szennyezett gáz)</Value>
+      <Value>Közepes szűrő (Mérgező gáz)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterVolatilesL</Key>
@@ -3331,68 +3349,92 @@
       <Value>Tárgy referencia eszköz</Value>
     </Record>
     <Record>
+      <Key>ItemKitAutoMiner</Key>
+      <Value>(Készlet) Automata bányagép</Value>
+    </Record>
+    <Record>
       <Key>DynamicGasCanisterNitrousOxide</Key>
-      <Value>Hordozható tartály (Nitrogén)</Value>
+      <Value>Hordozható tartály (Dinitrogén-oxid)</Value>
     </Record>
     <Record>
       <Key>DynamicGasCanisterPollutants</Key>
-      <Value>Hordozható tartály (Hidrogén)</Value>
+      <Value>Hordozható tartály (Mérgező gáz)</Value>
+    </Record>
+    <Record>
+      <Key>Lander</Key>
+      <Value>Leszállóegység</Value>
+    </Record>
+    <Record>
+      <Key>ItemRemoteDetonator</Key>
+      <Value>Távdetonátor</Value>
+    </Record>
+    <Record>
+      <Key>ItemExplosive</Key>
+      <Value>Távolról elsüthető robbanószer</Value>
     </Record>
     <Record>
       <Key>StructureSolarPanelFused</Key>
       <Value>Napelem</Value>
     </Record>
     <Record>
+      <Key>ItemCoffeeMug</Key>
+      <Value>Kávésbögre</Value>
+    </Record>
+    <Record>
+      <Key>AimeeBot</Key>
+      <Value>Aimee robot</Value>
+    </Record>
+    <Record>
       <Key>CartridgeGPS</Key>
-      <Value>Kártya (Kézikönyv)</Value>
+      <Value>Kártya (GPS)</Value>
     </Record>
     <Record>
       <Key>StructureLogicTransmitter</Key>
-      <Value>Logika: írás</Value>
+      <Value>Logikai továbbító</Value>
     </Record>
     <Record>
       <Key>ItemKitLogicTransmitter</Key>
-      <Value>Készlet (Logikai egység)</Value>
+      <Value>Készlet (Logikai továbbító)</Value>
     </Record>
     <Record>
       <Key>StructureAdvancedFurnace</Key>
-      <Value>Elektromos kohó</Value>
+      <Value>Fejlett kohó</Value>
     </Record>
     <Record>
       <Key>ItemKitAdvancedFurnace</Key>
-      <Value>Készlet (Elektromos kohó)</Value>
+      <Value>Készlet (Fejlett kohó)</Value>
     </Record>
     <Record>
       <Key>ItemStelliteIngot</Key>
-      <Value>Öntvény (Acél)</Value>
+      <Value>Öntvény (Stellit)</Value>
     </Record>
     <Record>
       <Key>ItemWaspaloyIngot</Key>
-      <Value>Öntvény (Selejt)</Value>
+      <Value>Öntvény (Waspaloy)</Value>
     </Record>
     <Record>
       <Key>ItemHastelloyIngot</Key>
-      <Value>Öntvény (Selejt)</Value>
+      <Value>Öntvény (Hastelloy)</Value>
     </Record>
     <Record>
       <Key>ItemInconelIngot</Key>
-      <Value>Öntvény (Vas)</Value>
+      <Value>Öntvény (Inconel)</Value>
     </Record>
     <Record>
       <Key>ItemAstroloyIngot</Key>
-      <Value>Öntvény (Vas)</Value>
+      <Value>Öntvény (Astroloy)</Value>
     </Record>
     <Record>
       <Key>ItemCobaltOre</Key>
-      <Value>Érc (Szén)</Value>
+      <Value>Érc (Kobalt)</Value>
     </Record>
     <Record>
       <Key>ItemCobaltIngot</Key>
-      <Value>Öntvény (Arany)</Value>
+      <Value>Öntvény (Kobalt)</Value>
     </Record>
     <Record>
       <Key>ReagentCobalt</Key>
-      <Value>Aranypor</Value>
+      <Value>Kobaltpor</Value>
     </Record>
     <Record>
       <Key>StructureCompositeCladdingRoundedCornerInner</Key>
@@ -3611,6 +3653,10 @@
     <Record>
       <Key>Circuit</Key>
       <Value>Áramkör</Value>
+    </Record>
+    <Record>
+      <Key>ProgrammableChip</Key>
+      <Value>Programozható csip</Value>
     </Record>
     <Record>
       <Key>CreditCard</Key>
@@ -4058,7 +4104,7 @@
     </Record>
     <Record>
       <Key>GameMenuButtonLeave</Key>
-      <Value>Kilépés a főmenübe</Value>
+      <Value>Játékmenet elhagyása</Value>
     </Record>
     <Record>
       <Key>GameMenuButtonExitDesktop</Key>
@@ -4954,7 +5000,7 @@ Csak ne szomorkodj, amikor felrobbantod magad icike picike darabkákra vagy csir
     </Record>
     <Record>
       <Key>TradingNoMoneyHash</Key>
-      <Value>Nincs elég pénz az üzlet végrehajtásához!</Value>
+      <Value>Nincs elég pénz a tranzakció végrehajtásához!</Value>
     </Record>
     <Record>
       <Key>SomethingWentWrongTrading</Key>
@@ -4998,8 +5044,10 @@ Csak ne szomorkodj, amikor felrobbantod magad icike picike darabkákra vagy csir
     </Record>
     <Record>
       <Key>FurnaceChamberText</Key>
-      <Value>Nyomás {0}
-Hőmérséklet {1}</Value>
+      <Value>
+        Nyomás {0}
+        Hőmérséklet {1}
+      </Value>
     </Record>
     <Record>
       <Key>FurnaceSmelting</Key>
@@ -5123,7 +5171,8 @@ Hőmérséklet {1}</Value>
     </Record>
     <Record>
       <Key>NewWorldMoonShortDesc</Key>
-      <Value>A növények jelenléte nem jellemző a Föld Holdjára, a viszonylag sima sokméretű kráterekkel teli táj és a légkör hiánya sokkal jobban illik a szürke sziklákhoz.</Value>
+      <Value>A növények jelenléte nem jellemző a Föld Holdjára, a viszonylag sima sokméretű kráterekkel teli táj és a légkör hiánya sokkal jobban illik a szürke sziklákhoz.
+Megfelelő a zöldfülű stationeereknek a kaland megkezdéséhez, mivel nem kell számolni az exotikusabb világok extrém veszélyeivel és akadályaival.</Value>
     </Record>
     <Record>
       <Key>NewWorldSpaceShortDesc</Key>
@@ -5131,7 +5180,22 @@ Hőmérséklet {1}</Value>
     </Record>
     <Record>
       <Key>NewWorldEuropaShortDesc</Key>
-      <Value>A jég részleges elolvadásával végre keletkezett némi légkör ezen a jeges világon, de a kialakult extrém hideg időjárás nagy kihívást jelent az érkező stationeereknek.</Value>
+      <Value>A jég részleges elolvadásával végre keletkezett némi légkör ezen a jeges világon, de a kialakult extrém hideg időjárás nagy kihívást jelent az érkező stationeereknek.
+Az extrém hideg az elemek gyors merülését idézi elő, ezért tekintsd prioritásodnak egy megbízható erőforrás és egy meleg élőhely kialakítását!</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldVulcanShortDesc</Key>
+      <Value>A Vulcan forró környezete csekély reményt adhat a megtelepedi kívánó élőlényeknek, de a töredezett felszíne és gazdag ásványkincs készletei mégis vonzó, de veszélyes kihívást jelenthetnek a vállalkozó kereskedőknek.</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldVulcan2ShortDesc</Key>
+      <Value>Egy széttépázott világ, mely mivoltát a szupermasszív fekete lyuknak köszönheti, ami körül kering. A Vulcan csekély reményt adhat a megtelepedi kívánó élőlényeknek, de a töredezett felszíne és gazdag ásványkincs készletei mégis vonzó, de veszélyes kihívást jelenthetnek a vállalkozó kereskedőknek.
+Ügyelj a mély, magmával teli szakadékokra, halálos veszélyt jelentenek rád nézve!</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMimasShortDesc</Key>
+      <Value>Egy kopár szikla, mely a Szaturnusz bámulatos gyűrűi között rejtőzik. A Mimas kicsiny méretét az extrém alacsony gravitációnak köszönheti, kráterekkel teli felszínét pedig a gyűrű kis sziklái tették lyukacsossá. A Naptól való hatalmas távolság miatt a napelemek igen csekély mennyiségű energiát termelnek.
+Óvakodj a hirtelen mozdulatoktól, ugyanis nagyon könnyen elemelkedhetsz a talajtól és repülhetsz el önkéntelenül az extrém alacsony gravitációnak köszönhetően!</Value>
     </Record>
     <Record>
       <Key>SettingsTitleAudioAlerts</Key>
@@ -5363,7 +5427,7 @@ Hőmérséklet {1}</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioPollutant</Key>
-      <Value>A szennyezett gáz aránya az eszköz atmoszférájában</Value>
+      <Value>A mérgező gáz aránya az eszköz atmoszférájában</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioVolatiles</Key>
@@ -5842,6 +5906,10 @@ Hőmérséklet {1}</Value>
       <Value>ŰRPIAC </Value>
     </Record>
     <Record>
+      <Key>TraderGas</Key>
+      <Value>GÁZÁRU </Value>
+    </Record>
+    <Record>
       <Key>TraderCustom</Key>
       <Value>ŰRPIAC </Value>
     </Record>
@@ -5863,31 +5931,55 @@ Hőmérséklet {1}</Value>
     </Record>
     <Record>
       <Key>LogicTypeTargetX</Key>
-      <Value>Az aktuális pozíció X-dimenzióbeli koordinátái</Value>
+      <Value>Az célpont pozíciójának X-dimenzióbeli koordinátái</Value>
     </Record>
     <Record>
       <Key>LogicTypeTargetY</Key>
-      <Value>Az aktuális pozíció Y-dimenzióbeli koordinátái</Value>
+      <Value>Az célpont pozíciójának Y-dimenzióbeli koordinátái</Value>
     </Record>
     <Record>
       <Key>LogicTypeTargetZ</Key>
-      <Value>Az aktuális pozíció Z-dimenzióbeli koordinátái</Value>
+      <Value>Az célpont pozíciójának Z-dimenzióbeli koordinátái</Value>
     </Record>
     <Record>
       <Key>LogicTypeSettingInputHash</Key>
-      <Value>Az eszköz maximális beállítása</Value>
+      <Value>Az eszköz bemeneti beállítása</Value>
     </Record>
     <Record>
       <Key>LogicTypeSettingOutputHash</Key>
-      <Value>Az eszköz függőleges állítása</Value>
+      <Value>Az eszköz kimeneti beállítása</Value>
+    </Record>
+    <Record>
+      <Key>ButtonDepart</Key>
+      <Value>Indulás</Value>
+    </Record>
+    <Record>
+      <Key>SettingsShowSlotTooltips</Key>
+      <Value>Slot eszköztippek mutatása</Value>
     </Record>
     <Record>
       <Key>SettingsWorldOrigin</Key>
-      <Value>Világ beállításai</Value>
+      <Value>Világ központja</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonPause</Key>
+      <Value>Szünet</Value>
+    </Record>
+    <Record>
+      <Key>PromptPauseTitle</Key>
+      <Value>Szünet</Value>
+    </Record>
+    <Record>
+      <Key>PromptPauseBody</Key>
+      <Value>Játék szüneteltetve</Value>
     </Record>
     <Record>
       <Key>PromptButtonLeave</Key>
-      <Value>Kilépés a főmenübe</Value>
+      <Value>Játékmenet elhagyása</Value>
+    </Record>
+    <Record>
+      <Key>PromptResumeButton</Key>
+      <Value>Folytatás</Value>
     </Record>
   </Interface>
   <Colors>
@@ -7103,6 +7195,10 @@ Hőmérséklet {1}</Value>
     <Record>
       <Key>Silicon</Key>
       <Value>Szilícium</Value>
+    </Record>
+    <Record>
+      <Key>Cobalt</Key>
+      <Value>Kobalt</Value>
     </Record>
   </Mineables>
   <HelpPage/>
