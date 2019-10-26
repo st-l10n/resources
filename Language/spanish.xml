@@ -879,7 +879,7 @@
     </Record>
     <Record>
       <Key>ItemGasFilterCarbonDioxide</Key>
-      <Value>Filtro (CO2)</Value>
+      <Value>Filtro (Dióxido de carbono)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterPollutants</Key>
@@ -3251,7 +3251,7 @@
     </Record>
     <Record>
       <Key>RoverCargo</Key>
-      <Value>Rover (Carga)</Value>
+      <Value>Rover</Value>
     </Record>
     <Record>
       <Key>ItemCreditCard</Key>
@@ -3286,36 +3286,56 @@
       <Value>Herramienta de Creación</Value>
     </Record>
     <Record>
+      <Key>ItemKitAutoMiner</Key>
+      <Value>Kit Minero automático</Value>
+    </Record>
+    <Record>
       <Key>DynamicGasCanisterNitrousOxide</Key>
-      <Value>Tanque Portátil (Nitrógeno)</Value>
+      <Value>Tanque Portátil (Óxido Nitroso)</Value>
     </Record>
     <Record>
       <Key>DynamicGasCanisterPollutants</Key>
-      <Value>Tanque Portátil (Volátiles)</Value>
+      <Value>Tanque Portátil (Contaminantes)</Value>
+    </Record>
+    <Record>
+      <Key>Lander</Key>
+      <Value>Módulo de aterrizaje</Value>
+    </Record>
+    <Record>
+      <Key>ItemRemoteDetonator</Key>
+      <Value>Detonador remoto</Value>
+    </Record>
+    <Record>
+      <Key>ItemExplosive</Key>
+      <Value>Explosivos a distancia</Value>
     </Record>
     <Record>
       <Key>StructureSolarPanelFused</Key>
       <Value>Panel Solar</Value>
     </Record>
     <Record>
+      <Key>ItemCoffeeMug</Key>
+      <Value>Taza de café</Value>
+    </Record>
+    <Record>
       <Key>CartridgeGPS</Key>
-      <Value>Cartucho (Guía)</Value>
+      <Value>Cartucho (GPS)</Value>
     </Record>
     <Record>
       <Key>StructureLogicTransmitter</Key>
-      <Value>Grabador Lógico</Value>
+      <Value>Transmisor lógico</Value>
     </Record>
     <Record>
       <Key>ItemKitLogicTransmitter</Key>
-      <Value>Kit (Unidad Lógica)</Value>
+      <Value>Kit (Transmisor lógico)</Value>
     </Record>
     <Record>
       <Key>StructureAdvancedFurnace</Key>
-      <Value>Horno de Arco</Value>
+      <Value>Horno Avanzado</Value>
     </Record>
     <Record>
       <Key>ItemKitAdvancedFurnace</Key>
-      <Value>Kit (Horno de Arco)</Value>
+      <Value>Kit (Horno Avanzado)</Value>
     </Record>
     <Record>
       <Key>ItemStelliteIngot</Key>
@@ -3339,15 +3359,15 @@
     </Record>
     <Record>
       <Key>ItemCobaltOre</Key>
-      <Value>Mineral (Carbón)</Value>
+      <Value>Mineral (Cobalto)</Value>
     </Record>
     <Record>
       <Key>ItemCobaltIngot</Key>
-      <Value>Lingote (Oro)</Value>
+      <Value>Lingote (Cobalto)</Value>
     </Record>
     <Record>
       <Key>ReagentCobalt</Key>
-      <Value>Polvo de Oro</Value>
+      <Value>Polvo de Cobalto</Value>
     </Record>
     <Record>
       <Key>StructureCompositeCladdingRoundedCornerInner</Key>
@@ -5192,6 +5212,10 @@ Temperatura {1}</Value>
       <Value>El deshielo en este mundo frío le ha dado finalmente una atmósfera, pero su ambiente extremadamente glacial presenta un desafío extremo para los stationeers.</Value>
     </Record>
     <Record>
+      <Key>NewWorldVulcanShortDesc</Key>
+      <Value>El entorno volátil de Vulcan es vulnerable para muy pocos organismos vivos, pero su superficie fracturada y los ricos depósitos minerales lo convierten en una empresa arriesgada pero rentable para los comerciantes emprendedores.</Value>
+    </Record>
+    <Record>
       <Key>SettingsTitleAudioAlerts</Key>
       <Value>Notificaciones de Voz</Value>
     </Record>
@@ -5780,6 +5804,10 @@ Temperatura {1}</Value>
       <Value>Copias de Seguridad</Value>
     </Record>
     <Record>
+      <Key>Experiments</Key>
+      <Value>Experimentos</Value>
+    </Record>
+    <Record>
       <Key>OcclusionTickSpeed</Key>
       <Value>Oclusión TickSpeed</Value>
     </Record>
@@ -5804,12 +5832,36 @@ Temperatura {1}</Value>
       <Value>Ajuste vertical del dispositivo</Value>
     </Record>
     <Record>
+      <Key>ButtonDepart</Key>
+      <Value>Salida</Value>
+    </Record>
+    <Record>
+      <Key>SettingsShowSlotTooltips</Key>
+      <Value>Mostrar sugerencias de herramientas de ranura</Value>
+    </Record>
+    <Record>
       <Key>SettingsWorldOrigin</Key>
       <Value>Configuración Mundial</Value>
     </Record>
     <Record>
+      <Key>GameMenuButtonPause</Key>
+      <Value>Pausa</Value>
+    </Record>
+    <Record>
+      <Key>PromptPauseTitle</Key>
+      <Value>Pausa</Value>
+    </Record>
+    <Record>
+      <Key>PromptPauseBody</Key>
+      <Value>Pausa en el juego</Value>
+    </Record>
+    <Record>
       <Key>PromptButtonLeave</Key>
       <Value>Salir Sesión</Value>
+    </Record>
+    <Record>
+      <Key>PromptResumeButton</Key>
+      <Value>Resumen</Value>
     </Record>
   </Interface>
   <Colors>
@@ -7052,6 +7104,10 @@ Temperatura {1}</Value>
     <Record>
       <Key>Silicon</Key>
       <Value>Silicio</Value>
+    </Record>
+    <Record>
+      <Key>Cobalt</Key>
+      <Value>Cobalto</Value>
     </Record>
   </Mineables>
   <HelpPage/>

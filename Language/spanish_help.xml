@@ -191,6 +191,15 @@ Si observa directamente una estructura que está incompleta, obtendrá informaci
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>SuperAlloyPage</Key>
+      <Title>Superaleación</Title>
+      <Text>Creados en la {THING:StructureFurnace} a partir de mezclas especializadas {LINK:ReagentPage;Reagent} son mezclas avanzadas,{LINK:IngotPage;Ingots} para su uso en {LINK:FabricatorPage;Fabricators}. El {THING:StructureArcFurnace} no es capaz de olerlos.
+
+{HEADER:List of Alloys}
+{LIST_OF_ALLOYS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>OrePage</Key>
       <Title>Minerales</Title>
       <Text>Estos son artículos que son {LINK:MiningPage;mined} y a menudo pueden ser {LINK:SmeltingPage;smelted}. También puede obtener mineral mezclado reciclando artículos en el {THING:StructureRecycler} y luego pasándolo a través del {THING:StructureCentrifuge} que lo dividirá en {LINK:OrePage;ore} para {LINK:SmeltingPage;smelting}.
@@ -284,6 +293,10 @@ Autoencendido {POS:300}{2}{3}{/LIST}</Text>
     <StationpediaPage>
       <Key>ThingStackTemplate</Key>
       <Text>Tamaño de apilado {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingTransmissibleTemplate</Key>
+      <Text>Se conecta a {POS:300}{THING:StructureLogicTransmitter}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ThingNutritionTemplate</Key>
