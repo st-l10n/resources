@@ -15,6 +15,13 @@
       <Key>TutorialTheBeginningTitle</Key>
       <Value>El Comienzo</Value>
     </Record>
+    <Record> Using 
+			
+      <Key>TutorialTheBeginningDescription</Key>
+      <Value>Empecemos. Cierre su Stationpedia usando {KEY:Help}. A continuación, además, haga uso de la opción {KEY:PrimaryAction} para recoger los elementos. Pulse {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot} o {KEY:ToolBeltSlot} para alternar entre las interacciones y ranuras en cualquier elemento de ranura que esté usando. Mantenga pulsado para cambiar entre esa ranura y sus manos activas. También puede mantener presionadas las piezas y arrastrarlas a la ranura adecuada.
+
+Las ranuras de tu personaje se pueden ver en el lado izquierdo de la pantalla. Un ejemplo es el uso de la tecla {KEY:MouseControl} y hace clic en la ranura {THING:UniformOrangeJumpSuit}. Esto abrirá un menú para el elemento dado dentro de la ranura, lo que permite intracciones con el elemento.</Value>
+    </Record>
     <Record>
       <Key>TutorialTheBeginningTask1</Key>
       <Value>Cierre la ventana {LINK:Home;Stationpedia}</Value>
@@ -54,6 +61,26 @@
     <Record>
       <Key>TutorialPowerUpTask1</Key>
       <Value>Recoja la {THING:ItemBatteryCellNuclear} usando {KEY:PrimaryAction}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialPowerUpTask2</Key>
+      <Value>Abra su {THING:ItemEvaSuit} usando la tecla {KEY:SuitSlot} .</Value>
+    </Record>
+    <Record>
+      <Key>TutorialPowerUpTask3</Key>
+      <Value>Añadir su {THING:ItemBatteryCellNuclear} a la ranura de batería.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSomethingToFilterTitle</Key>
+      <Value>Algo para filtrar</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSomethingToFilterDescription</Key>
+      <Value>El traje necesita {THING:ItemBatteryCellNuclear}, {THING:ItemGasFilterCarbonDioxide}, y otras cosas para proporcionar un entorno seguro e inclusivo.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSomethingToFilterTask1</Key>
+      <Value>Coge el {THING:ItemGasFilterCarbonDioxide} usando {KEY:PrimaryAction}</Value>
     </Record>
     <Record>
       <Key>TutorialGasItUpTitle</Key>
