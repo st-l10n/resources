@@ -91,8 +91,20 @@ Las ranuras de tu personaje se pueden ver en el lado izquierdo de la pantalla. U
       <Value>Gasolina</Value>
     </Record>
     <Record>
+      <Key>TutorialGasItUpDescription</Key>
+      <Value>El {THING:ItemSpacepack} Requiere el propelente para poder usar la función jet, Vamos a usar ese bote de nitrógeno que tenemos ahí.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialGasItUpTask</Key>
+      <Value>Añade el {THING:ItemGasCanisterNitrogen} a la ranura de Propellente.</Value>
+    </Record>
+    <Record>
       <Key>TutorialFeelingHotHotHotTitle</Key>
       <Value>Sentirse Caliente Caliente Caliente Caliente</Value>
+    </Record>
+    <Record>
+      <Key>TutorialFeelingHotHotHotDescripton</Key>
+      <Value>¡Hace un poco de calor dentro de este traje! Abra su {THING:ItemEvaSuit} con la tecla {KEY:SuitSlot} y baje la temperatura a 20c. Las temperaturas más bajas del traje pueden ayudar a prolongar la vida útil de la batería de tu traje, lo que puede ser útil si te encuentras en una situación complicada. Verá que los cambios se reflejan en el HUD.</Value>
     </Record>
     <Record>
       <Key>TutorialFeelingHotHotHotTask1</Key>
@@ -101,6 +113,186 @@ Las ranuras de tu personaje se pueden ver en el lado izquierdo de la pantalla. U
     <Record>
       <Key>TutorialLockItDownTitle</Key>
       <Value>Ciérrala ahora mismo</Value>
+    </Record>
+    <Record>
+      <Key>TutorialLockItDownDescripton</Key>
+      <Value>¡Es hora de salir! Recuerde cerrar el casco - respirar será difícil de lo contrario. Bloquear el casco puede evitar abrir accidentalmente el traje y exponerse a atmósferas dañinas y fluctuaciones de temperatura, así que vamos a bloquearlo.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialLockItDownTask1</Key>
+      <Value>Cierra tu {THING:ItemSpaceHelmet} usando {KEY:Internals}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialLockItDownTask2</Key>
+      <Value>Abre el menú {THING:ItemSpaceHelmet} usando la tecla {KEY:HelmetSlot} , y selecciona bloquear mascara.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTheGreatOutdoorsTitle</Key>
+      <Value>Las grandes puertas exteriores</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTheGreatOutdoorsDescription</Key>
+      <Value>Vamos a una aventura! Prepárese para el ciclo de la {THING:StructureAirlock} .</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTheGreatOutdoorsTask1</Key>
+      <Value>Entra en la {THING:StructureAirlock}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTheGreatOutdoorsTask2</Key>
+      <Value>Cicla la {THING:StructureAirlock} haciendo clic en el botón Ciclo de la consola iluminada y espere a que se complete.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescCycleAirlock1</Key>
+      <Value>Tomemos un poco de aire no tan fresco, ¿de acuerdo?</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAnotherDayAnotherDollarTitle</Key>
+      <Value>Otro día, Otro Euro</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAnotherDayAnotherDollarDescription</Key>
+      <Value>¡Estos minerales no se van a minar! Puede mover los artículos de una ranura a su mano manteniendo presionada la tecla {KEY:InventorySelect}, y puede mover los artículos de la mano a una ranura manteniendo presionado el número de ranura. Entra en tu mochila y saca tu {THING:ItemMiningBelt}, equipándolo sosteniendo el botón {KEY:ToolBeltSlot} mientras está en tu mano. Equipa tu {THING:ItemMiningDrill} y consigue cavar. ¡No olvides apagarlo de nuevo antes de guardarlo!</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAnotherDayAnotherDollarTask1</Key>
+      <Value>Equipa {THING:ItemMiningDrill} de tu {THING:ItemMiningBelt}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAnotherDayAnotherDollarTask0</Key>
+      <Value>Prueba a encender tu taladro usando {KEY:ToggleHandPower}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAnotherDayAnotherDollarTask2</Key>
+      <Value>Mina algunas {THING:ItemIronOre} del suelo</Value>
+    </Record>
+    <Record>
+      <Key>TutorialJetpackTitle</Key>
+      <Value>Creo que puedo volar</Value>
+    </Record>
+    <Record>
+      <Key>TutorialJetpackDescription</Key>
+      <Value>¡Alguien olvidó la escalera! Vuele al balcón usando {KEY:Ascend} para ascender y {KEY:Descend} para descender.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialJetpackTask1</Key>
+      <Value>Enciende la mochila propulsora en su {THING:ItemSpacepack} usando {KEY:Jetpack}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialJetpackTask2</Key>
+      <Value>Entra en la {THING:StructureAirlock}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialJetpackTask4</Key>
+      <Value>Cicla la {THING:StructureAirlock}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialHatHairTitle</Key>
+      <Value>Cabello de sombrero</Value>
+    </Record>
+    <Record>
+      <Key>TutorialHatHairDescription</Key>
+      <Value>Ahora que estamos a salvo dentro, ¡abre tu máscara de nuevo para preservar el suministro de oxígeno de tu traje!</Value>
+    </Record>
+    <Record>
+      <Key>TutorialHatHairTask1</Key>
+      <Value>Desbloquea tu {THING:ItemSpaceHelmet}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialHatHairTask2</Key>
+      <Value>Abre tu {THING:ItemSpaceHelmet} mascara</Value>
+    </Record>
+    <Record>
+      <Key>TutorialIsItGettingHotInHereTitle</Key>
+      <Value>¿Hace calor aquí?</Value>
+    </Record>
+    <Record>
+      <Key>TutorialIsItGettingHotInHereDescription</Key>
+      <Value>Coge el {THING:ItemKitFurnace} de la taquilla y bájalo aqui. Usa {KEY:QuantityModifier} para rotar.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialIsItGettingHotInHereTask1</Key>
+      <Value>Coloca el {THING:ItemKitFurnace} en el área resaltada.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialItsJustTheFurnaceTitle</Key>
+      <Value>Esto es un horno</Value>
+    </Record>
+    <Record>
+      <Key>TutorialItsJustTheFurnaceDescription</Key>
+      <Value>Lo único que se calienta es el {THING:StructureArcFurnace}, coloca el {THING:ItemIronOre} que acabas de minar y conviértelo en {THING:ItemIronIngot}! No se olvide de apagarlo después, esto ayuda a conservar sus valiosos recursos.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialItsJustTheFurnaceTask1</Key>
+      <Value>Coge tu {THING:ItemIronOre} de tu {THING:ItemMiningBelt}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialItsJustTheFurnaceTask2</Key>
+      <Value>Enciende el {THING:StructureArcFurnace}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialItsJustTheFurnaceTask3</Key>
+      <Value>Coloca el {THING:ItemIronOre} en el {THING:StructureArcFurnace} y espera que se funda.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialItsJustTheFurnaceTask4</Key>
+      <Value>Coge el {THING:ItemIronIngot} usando la tecla {KEY:PrimaryAction}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialItsJustTheFurnaceTask5</Key>
+      <Value>Apaga el {THING:StructureArcFurnace}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialItsJustTheFurnace1Title</Key>
+      <Value>Esto es un horno</Value>
+    </Record>
+    <Record>
+      <Key>TutorialItsJustTheFurnace1Description</Key>
+      <Value>Vamos a ser creativos!</Value>
+    </Record>
+    <Record>
+      <Key>TutorialItsJustTheFurnace1Task1</Key>
+      <Value>Entra en la siguiente sala</Value>
+    </Record>
+    <Record>
+      <Key>TutorialStopLathenAroundTitle</Key>
+      <Value>Paremos</Value>
+    </Record>
+    <Record>
+      <Key>TutorialStopLathenAroundDescription</Key>
+      <Value>Coloca tu {THING:ItemKitAutolathe} y coge tu {THING:ItemWeldingTorch}. Utilice los materiales necesarios para terminar la construcción. Con la opción &apos;Información sobre herramientas extendida&apos; activada en el menú Opciones, puede colocar el cursor sobre la estructura para ver lo que necesita para completar la siguiente etapa de construcción.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialStopLathenAroundTask1</Key>
+      <Value>Coge el {THING:ItemKitAutolathe} de la taquilla y colócalo en el área resaltada</Value>
+    </Record>
+    <Record>
+      <Key>TutorialStopLathenAround1Title</Key>
+      <Value>Paremos</Value>
+    </Record>
+    <Record>
+      <Key>TutorialStopLathenAround1Task1</Key>
+      <Value>Coloca el {THING:ItemKitAutolathe} en el área resaltada</Value>
+    </Record>
+    <Record>
+      <Key>TutorialStopLathenAround2Title</Key>
+      <Value>Paremos</Value>
+    </Record>
+    <Record>
+      <Key>TutorialStopLathenAround2Description</Key>
+      <Value>¡Ahora por fin podemos construir! Comencemos creando un {THING:ItemKitElectronicsPrinter} usando los recursos proporcionados en la taquilla.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialStopLathenAround2Task0</Key>
+      <Value>Enciende tu {THING:StructureAutolathe}!</Value>
+    </Record>
+    <Record>
+      <Key>TutorialStopLathenAround2Task1</Key>
+      <Value>Construye tu {THING:ItemKitAutolathe} usando el {THING:ItemWeldingTorch} en tu {THING:ItemToolBelt}, y los materiales requeridos.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialStopLathenAround2Task2</Key>
+      <Value>Selecciona la receta {THING:ItemKitElectronicsPrinter} de el {THING:StructureAutolathe}</Value>
     </Record>
   </Interface>
 </Language>
