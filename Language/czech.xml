@@ -3545,6 +3545,10 @@
       <Value>Prostor</Value>
     </Record>
     <Record>
+      <Key>Vulcan</Key>
+      <Value>Vulkán</Value>
+    </Record>
+    <Record>
       <Key>Vulcan2</Key>
       <Value>Vulkán</Value>
     </Record>
@@ -4740,12 +4744,24 @@ Teplota {1}</Value>
       <Value>Žádný popis</Value>
     </Record>
     <Record>
+      <Key>LogicTypeOpen</Key>
+      <Value>1, pokud je zařízení otevřeno, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeError</Key>
+      <Value>1, pokud je zařízení v chybovém stavu, jinak 0</Value>
+    </Record>
+    <Record>
       <Key>LogicTypePressure</Key>
       <Value>Aktuální údaj o tlaku v zařízení</Value>
     </Record>
     <Record>
       <Key>LogicTypeTemperature</Key>
       <Value>Aktuální údaj o teplotě zařízení</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeActivate</Key>
+      <Value>1, pokud je zařízení aktivováno (obvykle znamená spuštění), jinak 0</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioOxygen</Key>
@@ -4916,8 +4932,20 @@ Teplota {1}</Value>
       <Value>Nastavení Světa</Value>
     </Record>
     <Record>
+      <Key>GameMenuButtonPause</Key>
+      <Value>Pozastavit</Value>
+    </Record>
+    <Record>
+      <Key>PromptPauseTitle</Key>
+      <Value>Pozastavit</Value>
+    </Record>
+    <Record>
       <Key>PromptButtonLeave</Key>
       <Value>Opustit Relaci</Value>
+    </Record>
+    <Record>
+      <Key>PromptResumeButton</Key>
+      <Value>Pokračovat</Value>
     </Record>
   </Interface>
   <Colors>
@@ -5250,6 +5278,10 @@ Teplota {1}</Value>
       <Value>Led</Value>
     </Record>
     <Record>
+      <Key>Oxite</Key>
+      <Value>Oxit</Value>
+    </Record>
+    <Record>
       <Key>Volatiles</Key>
       <Value>Těkavá Látka</Value>
     </Record>
@@ -5284,6 +5316,10 @@ Teplota {1}</Value>
     <Record>
       <Key>Silicon</Key>
       <Value>Křemík</Value>
+    </Record>
+    <Record>
+      <Key>Cobalt</Key>
+      <Value>Kobalt</Value>
     </Record>
   </Mineables>
   <HelpPage/>
