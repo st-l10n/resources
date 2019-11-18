@@ -144,6 +144,16 @@
       <Value>Pirinç</Value>
       <Unit>g</Unit>
     </RecordReagent>
+    <RecordReagent>
+      <Key>Stellite</Key>
+      <Value>Stellit</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Cobalt</Key>
+      <Value>Kobalt</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
   </Reagents>
   <Gases>
     <Record>
@@ -4998,6 +5008,10 @@
       <Value>Fare Tekerliği Yakınlaştırması</Value>
     </Record>
     <Record>
+      <Key>Incident_Supply_Title</Key>
+      <Value>Tedarik Sandığı</Value>
+    </Record>
+    <Record>
       <Key>GameMenuRespawn</Key>
       <Value>Yeniden Canlan</Value>
     </Record>
@@ -5329,6 +5343,10 @@
       <Value>Eğer cihaz hata durumunda ise 1; yoksa 0</Value>
     </Record>
     <Record>
+      <Key>LogicTypeQuantity</Key>
+      <Value>Cihazdaki toplam miktar</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeExportQuantity</Key>
       <Value>Cihaz tarafından dışa aktarılan öğelerin toplam miktarı</Value>
     </Record>
@@ -5347,6 +5365,10 @@
     <Record>
       <Key>LogicTypeExportCount</Key>
       <Value>Son ClearMemory&apos;den bu yana kaç adet ürün çıkarıldı</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportCount</Key>
+      <Value>Son ClearMemory&apos;den bu yana kaç öğenin içe aktarıldığı</Value>
     </Record>
     <Record>
       <Key>LogicTypePowerGeneration</Key>
@@ -5811,6 +5833,10 @@
     <Record>
       <Key>Dollar</Key>
       <Value>$</Value>
+    </Record>
+    <Record>
+      <Key>Percent</Key>
+      <Value>Yüzde</Value>
     </Record>
     <Record>
       <Key>Ampersand</Key>
@@ -6978,6 +7004,10 @@
     <Record>
       <Key>Silicon</Key>
       <Value>Silikon</Value>
+    </Record>
+    <Record>
+      <Key>Cobalt</Key>
+      <Value>Kobalt</Value>
     </Record>
   </Mineables>
   <HelpPage/>
