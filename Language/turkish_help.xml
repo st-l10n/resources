@@ -38,19 +38,19 @@
       <Key>GettingStarted</Key>
       <Title>Başlarken</Title>
       <Text>{HEADER:Yeni bir dünyaya hoşgeldin}
-Eğer bu senin ilk seferin ise, ilk olarak öğrenmen gereken çok şey olacak. Başlarken, üzerindeki ilk baskı büyük ve gerçekten çok ağır olabilir. Sonrasında devam edebilmek için bazı genel kılavuzlar var. Her dünya tipi, yüzleşmen gereken farklı sorunlara sahip; fakat devamındaki dünya, idare edebilmen için sana geniş bir bakış sağlamalı.
+Eğer bu senin ilk seferin ise, ilk olarak öğrenmen gereken çok şey olacak. Başlarken üzerindeki ilk baskı büyük ve gerçekten çok ağır olabilir. Buradaki bilgiler, devam edebilmen için bazı genel yönergeler içerir. Her dünya tipi, yüzleşmen gereken farklı sorunlara sahiptir fakat yönergeler, idare edebilmen için sana geniş bir bakış sağlamalı.
       
-{HEADER:Giysinin Enerjisinin Dolu Olduğuna Emin Olmak}
-En acil ihtiyacın, {THING:ItemEvaSuit}&apos;ndeki {THING:ItemBatteryCellLarge}&apos;ini şarj etmen. Giysi pilin, {THING:ItemSpaceHelmet} ışığına (kullanılmadığında kapatılabilir) enerji sağlamak ve bir de dahili havanı ısıtmak için kullanılır. Daha soğuk dünyalarda, çok fazla enerji çeker. Bir {THING:ItemBatteryCharger} yerleştirmen gerekecek ve bir enerji kaynağına bağlaman gerekecek; {THING:ItemCoalOre} ile çalışan {THING:StructureSolidFuelGenerator} veya {THING:StructureSolarPanel}, bu enerji durumunu halletmenin iyi bir başlangıç yoludur. Acil bir durumda, giysinin çalışmaya devam etmesi için {LINK:ToolPage;Araçlar}&apos;ından pillerini çıkar veya şarj etmek için verilen {THING:PortableSolarPanel}&apos;ni kullan.
+{HEADER:Giysinin Enerjisini Dolu Tutmak}
+En acil ihtiyacın, {THING:ItemEvaSuit}&apos;ndeki {THING:ItemBatteryCellLarge}&apos;ini şarj etmendir. Giysi pilin, {THING:ItemSpaceHelmet} ışığına (kullanılmadığında kapatılabilir) enerji sağlamak ve bir de dahili havanı ısıtmak için kullanılır. Daha soğuk dünyalarda {THING:ItemEvaSuit} çok fazla enerji çeker. Bir {THING:ItemBatteryCharger} yerleştirmen ve bir enerji kaynağına bağlaman gerekecek; {THING:ItemCoalOre} ile çalışan {THING:StructureSolidFuelGenerator} veya {THING:StructureSolarPanel}, bu enerji ihtiyacını gidermen için iyi bir başlangıçtır. Acil bir durumda, giysinin çalışmaya devam etmesi için {LINK:ToolPage;Araçlar}&apos;ından pillerini çıkar veya şarj etmek için verilen {THING:PortableSolarPanel}&apos;ni kullan.
 
 {HEADER:Enerji Elde Etmenin Geliştirilmesi}
-Enerji kaynağı ile şarj cihazı arasına, bir {THING:ItemBatteryCell} eklenmiş bir {THING:StructureAreaPowerControl} yerleştirmenin çok yardımcı olacak. Bunun nedeni ise, enerji kaynağı muhtemelen, {THING:ItemBatteryCharger}&apos;nın barındırabileceğinden daha fazla enerji üretir ve bu enerji boşa gider. Ek olarak, {THING:StructureSolarPanel}&apos;ni el ile yönlendirebilirsin, fakat otomatik olarak güneşi takip etmesinin sana çok yardımı olacaktır. Bu konuda yardımcı olması için {LINK:LogicUnitPage;Mantık Birimleri}&apos;ni kullanabilirsin.
+Enerji kaynağı ile şarj cihazı arasına, bir tane {THING:ItemBatteryCell} eklenmiş bir {THING:StructureAreaPowerControl} yerleştirmek çok yardımcı olur. Bu eklentinin nedeni ise, enerji kaynağı muhtemelen, {THING:ItemBatteryCharger}&apos;nın barındırabileceğinden daha fazla enerji üretecek ve bu enerjinin de boşa gidecek olmasıdır. Buna ek olarak, {THING:StructureSolarPanel}&apos;ni el ile yönlendirebilirsin fakat otomatik olarak güneşi takip etmesinin sana çok yardımı olacaktır. Bu konuda sana yardımcı olması için {LINK:LogicUnitPage;Mantık Birimleri}&apos;ni kullanabilirsin.
       
 {HEADER:Oksijeninin İdare Edilmesi}
-{THING:ItemEvaSuit}&apos;n ve {THING:ItemSpaceHelmet}&apos;n, öğelerden koruyan bir kabuktan oluşur. {THING:ItemEvaSuit}, sana saf {GAS:Oxygen} sağlayan {THING:ItemGasCanisterOxygen} gerektirir. Başlangıç donanımında tedarik edilen büyük {THING:DynamicGasCanisterOxygen}&apos;nü kullanarak doldurabileceğin tanktaki gaz miktarından gözünü ayırma. Kapsülü yeniden doldurmak için, &quot;tehlike&quot; işareti gösteren yuvaya yerleştirebilirsin.
+{THING:ItemEvaSuit}&apos;n ve {THING:ItemSpaceHelmet}&apos;n, seni dış öğelerden koruyan bir kabuktan oluşur. {THING:ItemEvaSuit}, sana saf {GAS:Oxygen} sağlayan bir {THING:ItemGasCanisterOxygen} gerektirir. Başlangıç donanımında tedarik edilen büyük {THING:DynamicGasCanisterOxygen}&apos;nü kullanarak doldurabileceğin tanktaki gaz miktarından gözünü ayırma. Kapsülü, yeniden doldurmak için &quot;tehlike&quot; işareti gösteren yuvaya yerleştirebilirsin.
 
 {HEADER:Temel Eritme}
-Birkez temel enerji üretimin olduğunda, daha fazla kaynak elde etmeye başlaman gerekir. Temel {LINK:OrePage;Cevher} edinmek için {LINK:MiningPage;Madencilik} yapmaya çık. {THING:StructureArcFurnace} yerleştir ve {THING:StructureAreaPowerControl}&apos;nün arkasına bağla. Bu makine, {THING:ItemIronOre}, {THING:ItemSiliconOre} ve diğer alaşım olmayan temel {LINK:OrePage;Cevherler} {LINK:SmeltingPage;Eritme}ni sağlayacak.
+Temel enerji üretimin olduğunda, daha fazla kaynak elde etmeye başlaman gerekir. Temel {LINK:OrePage;Cevher} edinmek için {LINK:MiningPage;Madencilik} yapmaya çık. Bir {THING:StructureArcFurnace} yerleştir ve {THING:StructureAreaPowerControl}&apos;nün arkasına bağla. Bu makine, {THING:ItemIronOre}, {THING:ItemSiliconOre} ve diğer alaşım olmayan temel {LINK:OrePage;Cevherler} {LINK:SmeltingPage;Eritme}&apos;ni sağlayacak.
 
 {HEADER:Temel İmalat}
 Şimdi, {LINK:FabricatorPage;İmalatçı}&apos;ya kaynak olarak koyabileceğin {LINK:IngotPage;Külçeler}&apos;e sahipsin. Başlangıç sandıklarında bulunan {THING:ItemKitAutolathe}&apos;ndan {THING:StructureAutolathe}&apos;nı kur.
@@ -73,6 +73,8 @@ Camlı yeni evine, tedarik edilmiş {THING:DynamicHydroponics}&apos;yi koy. Bu a
 Tepesinden {LINK:IcePage;Buzlar}&apos;ı doğrudan koyabilirsin. Eğer onları eritecek bir atmosfer yok ise, kırmak için {LOGICTYPE:Activate} tuşuna bas. Buz otomatik olarak eriyecek; eğer içeride doğru sıcaklıkta yeterli gaz varsa. İçeride, ciddi miktarda basıncı arttırmasına rağmen, bir yanma başlatmak için bir {THING:ItemOxite} ve {THING:ItemVolatiles} karışımını kullan.
 
 Bir kere doğru sıcaklık oluştuğunda, cevherleri eritmek için ekle fakat oranlarına dikkat et; yoksa, {THING:StructureCentrifuge}&apos;de ayırman gereken {THING:ItemReagentMix} gibi atık ürün çıkar. Bir ürünü çıkarmak için {LOGICTYPE:Open} kolunu çek.
+
+Hatta daha gelişmiş {LINK:SuperAlloyPage;Süperalaşımlar}, {THING:StructureAdvancedFurnace}&apos;nda eritilebilirler. Bu {LINK:SuperAlloyPage;Süperalaşımlar}, eritmek için çok sıkı gereksinimlere sahiptirler ve elde edilebilmeleri son derece zordur fakat çok ileri üretimler için gereklidirler.
 {/LIST}
       </Text>
     </StationpediaPage>
