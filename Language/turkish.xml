@@ -4309,6 +4309,10 @@
       <Value>Kayıt Başarılı</Value>
     </Record>
     <Record>
+      <Key>SaveLocationBroken</Key>
+      <Value>Kayıt dosyalarının konumuna erişilemiyor; geçersiz bir karakter mi kullanıyorsunuz? Ayarlardan kayıt dizinini değiştirmeyi deneyin.</Value>
+    </Record>
+    <Record>
       <Key>AlertButtonClose</Key>
       <Value>Kapat</Value>
     </Record>
@@ -4679,8 +4683,16 @@
       <Value>Pes Et</Value>
     </Record>
     <Record>
+      <Key>AlertYourSaveFileIsBroken</Key>
+      <Value>{0} dosyası geçersizdir. {1} dünyasını kontrol ediniz.</Value>
+    </Record>
+    <Record>
       <Key>AlertInvalidIP</Key>
       <Value>Geçersiz IP Adresi {0} \nGeçerli IP adresini veya URL&apos;yi kontrol edin</Value>
+    </Record>
+    <Record>
+      <Key>AlertNoBackups</Key>
+      <Value>Yedek klasörü eksik veya boş.</Value>
     </Record>
     <Record>
       <Key>AlertPlayerCountExceeded</Key>
@@ -5317,6 +5329,10 @@
       <Value>Eğer cihaz hata durumunda ise 1; yoksa 0</Value>
     </Record>
     <Record>
+      <Key>LogicTypeExportQuantity</Key>
+      <Value>Cihaz tarafından dışa aktarılan öğelerin toplam miktarı</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeHorizontalRatio</Key>
       <Value>Cihaz için yatay ayar oranı</Value>
     </Record>
@@ -5485,12 +5501,64 @@
       <Value>Cihaz için çıkış ayarı</Value>
     </Record>
     <Record>
+      <Key>ButtonDepart</Key>
+      <Value>Ayrıl</Value>
+    </Record>
+    <Record>
+      <Key>SettingsShowSlotTooltips</Key>
+      <Value>Yuva İpuçlarını Göster</Value>
+    </Record>
+    <Record>
       <Key>SettingsWorldOrigin</Key>
       <Value>Başlangıç Dünyası</Value>
     </Record>
     <Record>
+      <Key>GameMenuButtonPause</Key>
+      <Value>Duraklat</Value>
+    </Record>
+    <Record>
+      <Key>PromptPauseTitle</Key>
+      <Value>Duraklat</Value>
+    </Record>
+    <Record>
+      <Key>PromptPauseBody</Key>
+      <Value>Duraklatılmış oynanış</Value>
+    </Record>
+    <Record>
       <Key>PromptButtonLeave</Key>
       <Value>Oturumdan Ayrıl</Value>
+    </Record>
+    <Record>
+      <Key>PromptResumeButton</Key>
+      <Value>Devam</Value>
+    </Record>
+    <Record>
+      <Key>BuildTimeMultiplier</Key>
+      <Value>Yapım Zamanı Çarpanı</Value>
+    </Record>
+    <Record>
+      <Key>MaterialCostMultiplier</Key>
+      <Value>Malzeme Maliyeti Çarpanı</Value>
+    </Record>
+    <Record>
+      <Key>EnergyCostMultiplier</Key>
+      <Value>Enerji Maliyeti Çarpanı</Value>
+    </Record>
+    <Record>
+      <Key>CreationMultiplier</Key>
+      <Value>Oluşturma Çarpanı</Value>
+    </Record>
+    <Record>
+      <Key>TierThree</Key>
+      <Value>Üçüncü Aşama</Value>
+    </Record>
+    <Record>
+      <Key>TierOne</Key>
+      <Value>Birinci Aşama</Value>
+    </Record>
+    <Record>
+      <Key>TierTwo</Key>
+      <Value>İkinci Aşama</Value>
     </Record>
   </Interface>
   <Colors>
