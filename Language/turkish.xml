@@ -5381,6 +5381,14 @@
       <Value>Cihazdan ve/veya ağdan talep edilen güç</Value>
     </Record>
     <Record>
+      <Key>LogicTypeCompletionRatio</Key>
+      <Value>Bu cihaz için geçerli üretimin ne kadar tamamlandığı; 0 ile 1 arasında</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeClearMemory</Key>
+      <Value>1 olarak ayarlandığında, sayaç hafızasını siler (örnek olarak ExportCount). İşlem yapıldığında kendini 0&apos;a geri ayarlar</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeExportCount</Key>
       <Value>Son ClearMemory&apos;den bu yana kaç adet ürün çıkarıldı</Value>
     </Record>
