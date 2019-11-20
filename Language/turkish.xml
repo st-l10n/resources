@@ -5361,6 +5361,22 @@
       <Value>Eğer cihaz hata durumunda ise 1; yoksa 0</Value>
     </Record>
     <Record>
+      <Key>LogicTypeActivate</Key>
+      <Value>Cihaz etkin ise 1 (genellikle çalışıyor anlamına gelir), değil ise 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeCharge</Key>
+      <Value>Cihazın sahip olduğu geçerli yük</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSetting</Key>
+      <Value>Cihaza bağlı olarak okunabilen veya yazılabilen değişken ayarı</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeReagents</Key>
+      <Value>Cihaz tarafından kaydedilen toplam reaktif sayısı</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeRatioOxygen</Key>
       <Value>Cihaz atmosferindeki oksijen oranı</Value>
     </Record>
