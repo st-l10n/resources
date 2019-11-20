@@ -5361,6 +5361,26 @@
       <Value>Eğer cihaz hata durumunda ise 1; yoksa 0</Value>
     </Record>
     <Record>
+      <Key>LogicTypeLock</Key>
+      <Value>Cihaz kilitli ise 1, değil ise 0; çoğu cihazde ayarlanabilir ve kullanıcının değerlere erişmesini engeller</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressure</Key>
+      <Value>Cihazın geçerli basınç ölçümü</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperature</Key>
+      <Value>Cihazın geçerli sıcaklık ölçümü</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureExternal</Key>
+      <Value>Güvenli dış basınç için KPa cinsinden ayar</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureInternal</Key>
+      <Value>Güvenli iç basınç için KPa cinsinden ayar</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeActivate</Key>
       <Value>Cihaz etkin ise 1 (genellikle çalışıyor anlamına gelir), değil ise 0</Value>
     </Record>
