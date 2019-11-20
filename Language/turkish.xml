@@ -2793,7 +2793,7 @@
     </Record>
     <Record>
       <Key>CircuitboardHashDisplay</Key>
-      <Value>Devre Kartı (Karma Ekran)</Value>
+      <Value>Devre Kartı (Hash Ekranı)</Value>
     </Record>
     <Record>
       <Key>StructureHydroponicsStation</Key>
@@ -3157,7 +3157,7 @@
     </Record>
     <Record>
       <Key>StructureLogicHashGen</Key>
-      <Value>Mantık Karma Üretici</Value>
+      <Value>Mantık Hash&apos;i Üretici</Value>
     </Record>
     <Record>
       <Key>StructureShuttleLandingPad</Key>
@@ -5381,6 +5381,10 @@
       <Value>Cihazdan ve/veya ağdan talep edilen güç</Value>
     </Record>
     <Record>
+      <Key>LogicTypeRecipeHash</Key>
+      <Value>Üretime ayarlı cihazın geçerli tarifinin hash&apos;i</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeRequestHash</Key>
       <Value>Benzersiz tanımlayıcıya ayarlandığında, cihazdan sağlanan türdeki bir öğeyi talep eder</Value>
     </Record>
@@ -5867,10 +5871,6 @@
     <Record>
       <Key>DoubleQuote</Key>
       <Value>&quot;</Value>
-    </Record>
-    <Record>
-      <Key>Hash</Key>
-      <Value>#</Value>
     </Record>
     <Record>
       <Key>Dollar</Key>
