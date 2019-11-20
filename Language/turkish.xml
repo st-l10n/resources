@@ -5361,12 +5361,28 @@
       <Value>Eğer cihaz hata durumunda ise 1; yoksa 0</Value>
     </Record>
     <Record>
+      <Key>LogicTypePowerActual</Key>
+      <Value>Cihazın veya ağın gerçekte ne kadar enerji kullandığı</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeQuantity</Key>
       <Value>Cihazdaki toplam miktar</Value>
     </Record>
     <Record>
+      <Key>LogicTypeOn</Key>
+      <Value>Cihazın geçerli durumu; kapalı için 0, açık için 1</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportQuantity</Key>
+      <Value>Cihaz tarafından içe aktarılan öğelerin toplam miktarı</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeExportQuantity</Key>
       <Value>Cihaz tarafından dışa aktarılan öğelerin toplam miktarı</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRequiredPower</Key>
+      <Value>Boşta çalışma enerji miktarı; gerekli olan daha fazla enerji ilave değildir</Value>
     </Record>
     <Record>
       <Key>LogicTypeHorizontalRatio</Key>
