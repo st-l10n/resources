@@ -4773,6 +4773,10 @@ Teplota {1}</Value>
       <Value>Poměr znečišťující látky v atmosféře zařízení</Value>
     </Record>
     <Record>
+      <Key>LogicTypeRatioVolatiles</Key>
+      <Value>Poměr těkavých látek v atmosféře zařízení</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeRatioWater</Key>
       <Value>Poměr vody v atmosféře zařízení</Value>
     </Record>
@@ -4811,6 +4815,10 @@ Teplota {1}</Value>
     <Record>
       <Key>LogicTypeOn</Key>
       <Value>Aktuální stav zařízení, 0 pro vypnuto, 1 pro zapnuto</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportQuantity</Key>
+      <Value>Celkové množství importovaných položek ze zařízení</Value>
     </Record>
     <Record>
       <Key>LogicTypeExportQuantity</Key>
@@ -4922,11 +4930,11 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>LogicTypeSettingInputHash</Key>
-      <Value>Maximální nastavení zařízení</Value>
+      <Value>Nastavení vstupu pro zařízení</Value>
     </Record>
     <Record>
       <Key>LogicTypeSettingOutputHash</Key>
-      <Value>Vertikální nastavení zařízení</Value>
+      <Value>Nastavení výstupu pro zařízení</Value>
     </Record>
     <Record>
       <Key>SettingsWorldOrigin</Key>
