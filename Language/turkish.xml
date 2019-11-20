@@ -5361,6 +5361,14 @@
       <Value>Eğer cihaz hata durumunda ise 1; yoksa 0</Value>
     </Record>
     <Record>
+      <Key>LogicTypeMaximum</Key>
+      <Value>Cihaz için tavan değeri ayarı</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatio</Key>
+      <Value>Cihaza bağlı olarak içeriğe özgü değer; 0 - 1 tabanlı oran</Value>
+    </Record>
+    <Record>
       <Key>LogicTypePowerPotential</Key>
       <Value>Cihazın veya ağın potansiyel olarak ne kadar enerji sağladığı</Value>
     </Record>
@@ -5578,7 +5586,7 @@
     </Record>
     <Record>
       <Key>LogicSlotTypeChargeRatio</Key>
-      <Value>yuvaya yerleştirilmiş öğenin barındırdığı mevcut enerji yükünü, maksimumunu 0 ile 1 arasında oranlayarak döndürür</Value>
+      <Value>yuvaya yerleştirilmiş öğenin barındırdığı mevcut enerji yükünü, tavan değerini 0 ile 1 arasında oranlayarak döndürür</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeClass</Key>
