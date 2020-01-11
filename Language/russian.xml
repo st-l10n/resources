@@ -5634,6 +5634,22 @@
       <Value>Нет описания</Value>
     </Record>
     <Record>
+      <Key>LogicSlotTypeTemperature</Key>
+      <Value>возвращает температуру слота, занятого внутренней атмосферой</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeCharge</Key>
+      <Value>возвращает текущий заряд энергии, удерживаемый пользователем слота</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeChargeRatio</Key>
+      <Value>возвращает текущий заряд энергии, удерживаемый пользователем слота, в соотношении от 0 до 1 от его максимума</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeClass</Key>
+      <Value>возвращает целое число, представляющее класс объекта</Value>
+    </Record>
+    <Record>
       <Key>LogicSlotTypePressureWaste</Key>
       <Value>возвращает давление канистры для отходов в этот слот</Value>
     </Record>
@@ -5656,6 +5672,10 @@
     <Record>
       <Key>SettingsP2PHostEnabled</Key>
       <Value>Включить P2PHost</Value>
+    </Record>
+    <Record>
+      <Key>SettingsP2PHostNote</Key>
+      <Value>Если P2PHost включен, Stationeers будет использовать ретрансляцию пакетов от steam, для игры с друзьями через NAT или VPN. Функция не совместима с TCP/IP и не объявляет сервер.</Value>
     </Record>
     <Record>
       <Key>SettingsSavePath</Key>
@@ -5690,6 +5710,10 @@
       <Value>Кажется, контакт переместился.</Value>
     </Record>
     <Record>
+      <Key>Trade</Key>
+      <Value>Обмен</Value>
+    </Record>
+    <Record>
       <Key>Locked</Key>
       <Value>Заблокировано</Value>
     </Record>
@@ -5708,6 +5732,10 @@
     <Record>
       <Key>ContactNoResponse</Key>
       <Value>Ответа не было.</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradeRequestFail</Key>
+      <Value>Торговец запрашивает безопасную посадку. Убедитесь, что место посадки свободное и подключено к сети, так же потребуется склад.</Value>
     </Record>
     <Record>
       <Key>InputTextTradingTitle</Key>
