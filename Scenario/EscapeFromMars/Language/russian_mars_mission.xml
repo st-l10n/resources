@@ -148,6 +148,14 @@
       <Key>MarsTaskGrowPotato</Key>
       <Value>Вырастить {THING:ItemPotato} до зрелости.</Value>
     </Record>
+    <Record>
+      <Key>MarsTabletStage4Page1</Key>
+      <Value>Страница 1 из 2 \n МАЛЕНЬКИЙ ЗЕЛЕНЫЙ РОСТОК \n Минимум, который вам понадобится для выращивания сельскохозяйственных культур - это лоток для гидропоники или переносная гидропоника. Они должно быть обеспечены источником воды и помещены в атмосферу, по крайней мере ~ 20 кПа, примерно 20-25 градусов по Цельсию и содержащую небольшое количество углекислого газа.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage4Page2</Key>
+      <Value>Страница 2 из 2 \n Самое сложное - получить несколько семян для старта. Каждая спасательная капсула содержит ящик для снабжения с небольшим количеством семян, чтобы вы могли начать - защита их имеет решающее значение. Если вы далеко ушли от своей спасательной капсулы и сможете найти картридж-путеводитель, его можно использовать для отслеживания маяка.</Value>
+    </Record>
     <!-- Mission Stage: Spawn Mothership & Engine -->
     <Record>
       <Key>MarsTitleCreateMothership</Key>
@@ -156,6 +164,10 @@
     <Record>
       <Key>MarsTabletStage5</Key>
       <Value>КОСМОПЛАВАНЬЕ</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescCreateMothership</Key>
+      <Value>Создайте Космический корабль, создав {THING:MothershipCore} используя {THING:ItemKitMotherShipCore} и прикрепите {THING:StructureRocketEngine} к нему</Value>
     </Record>
     <Record>
       <Key>MarsTaskSpawnMothershipCore</Key>
@@ -169,7 +181,19 @@
       <Key>MarsTitleLaunchMothership</Key>
       <Value>Запуск Космического Корабля</Value>
     </Record>
+    <Record>
+      <Key>MarsTabletStage5Page1</Key>
+      <Value>Страница 1 из 2 \n ЗАПУСК ОСТАНОВЛЕН \n Теперь, когда еда под контролем, у вас есть настоящая работа. Получить ресурсы, построить и заправить корабль, чтобы улететь с этой скалы, все это будет непросто. Вам потребуются некоторые современные сплавы, безопасная система плавки льдов и создания/хранения большого количества топлива.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage5Page2</Key>
+      <Value>Страница 2 из 2 \n Минимум, который вам понадобится для корабля - это ядро с парой двигателей установленных в правильном направлении и звездным якорем, который при включении и выключении позволит вашему кораблю двигаться. Командное кресло не требуется если вы достаточно смелы, чтобы управлять двигателями вручную, но это рекомендуется.</Value>
+    </Record>
     <!-- Mission Stage: Launch -->
+    <Record>
+      <Key>MarsDescLaunchMothership</Key>
+      <Value>Взлетай в космос и верни свое место в небе!</Value>
+    </Record>
     <Record>
       <Key>MarsTaskLaunchMothership</Key>
       <Value>Запустите ваш Космический Корабль на высоту 100 метров</Value>
@@ -177,6 +201,10 @@
     <Record>
       <Key>MarsTabletStage6</Key>
       <Value>ПОБЕГ</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage6Page1</Key>
+      <Value>Страница 1 из 1 \n ВЗЛЕТ \n Все понятно. Заставьте эту штуку покинуть землю. Убедитесь, что у вас достаточно топлива для двигателей! Удачи!</Value>
     </Record>
   </Interface>
 </Language>
