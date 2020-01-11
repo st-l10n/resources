@@ -5618,8 +5618,40 @@
       <Value>Этаж, на котором в данный момент находится лифт</Value>
     </Record>
     <Record>
+      <Key>LogicTypeExportCount</Key>
+      <Value>Сколько предметов было экспортировано с момента последнего ClearMemory</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportCount</Key>
+      <Value>Сколько предметов было импортировано с момента последнего ClearMemory</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePowerGeneration</Key>
+      <Value>Возвращает, сколько энергии генерируется</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeHarvest</Key>
+      <Value>Выполняет сбор урожая для любого оборудования взаимодействующего с растениями</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureSetting</Key>
+      <Value>Текущие параметры для внутреннего давления объекта (к примеру: (Air release) подача воздуха в Прочном Скафандре), в кПа</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperatureSetting</Key>
+      <Value>Текущие параметры для внутренней температуры объекта (к примеру: A/C Прочного скафандра)</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeFiltration</Key>
       <Value>Текущее состоянии системы фильтрации, например Filtration = 1 для усиленного шлема включает фильтрацию</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeAirRelease</Key>
+      <Value>Текущее состояние системы подачи воздуха, например AirRelease = 1 для прочного скафандра включает подачу воздуха</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePositionX</Key>
+      <Value>Текущая позиция по оси X в мировых координатах</Value>
     </Record>
     <Record>
       <Key>LogicTypePositionY</Key>
