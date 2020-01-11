@@ -5153,6 +5153,10 @@
       <Value>Недостаточно денег для совершения сделки!</Value>
     </Record>
     <Record>
+      <Key>SomethingWentWrongTrading</Key>
+      <Value>Что-то пошло не так при обработке сделки, что-то отключилось от продавца!</Value>
+    </Record>
+    <Record>
       <Key>SomethingWentWrongTrading2</Key>
       <Value>Что-то пошло не так при обработке сделки, у вас нет кредитной карты!</Value>
     </Record>
@@ -5190,8 +5194,10 @@
     </Record>
     <Record>
       <Key>FurnaceChamberText</Key>
-      <Value>Давление {0}
-Температура {1}</Value>
+      <Value>¶
+ ·  ·  ·  ·  ·  ·  ·  · Давление {0}¶
+ ·  ·  ·  ·  ·  ·  ·  · Температура {1}¶
+ ·  ·  ·  ·  ·  · </Value>
     </Record>
     <Record>
       <Key>FurnaceSmelting</Key>
@@ -5259,15 +5265,15 @@
     </Record>
     <Record>
       <Key>ChangeSettingToForIn</Key>
-      <Value>Поменять на &lt;color=yellow&gt;{0}&lt;/color&gt; для {1}</Value>
+      <Value>Поменять на &lt;color=yellow&gt;{0}&lt;/color&gt; для {3} &lt;color=yellow&gt;({2})&lt;/color&gt; в {1}</Value>
     </Record>
     <Record>
       <Key>ChangeReagentSettingTo</Key>
-      <Value>Поменять на &lt;color=yellow&gt;{0}&lt;/color&gt; для {1}</Value>
+      <Value>Поменять на {2}.&lt;color=yellow&gt;{0}&lt;/color&gt;.&lt;color=yellow&gt;{1}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>ChangeSlotSettingToFor</Key>
-      <Value>Поменять на &lt;color=yellow&gt;{0}&lt;/color&gt; для {1}</Value>
+      <Value>Поменять на {1}&lt;color=yellow&gt;({0})&lt;/color&gt; для {2}</Value>
     </Record>
     <Record>
       <Key>ChangeSettingToForAll</Key>
@@ -5314,12 +5320,17 @@
       <Value>Европа</Value>
     </Record>
     <Record>
+      <Key>NewWorldAreaMimas</Key>
+      <Value>Мимас</Value>
+    </Record>
+    <Record>
       <Key>NewWorldMarsShortDesc</Key>
       <Value>Пустынный пыльный красный шар, Марс отличается более разнообразной местностью, которая может достичь неба, и прохладной атмосферой, непригодной для дыхания, авось это может быть использовано для чего-то...</Value>
     </Record>
     <Record>
       <Key>NewWorldMoonShortDesc</Key>
-      <Value>Хотя присутствие угля нехарактерно для Луны, относительно плоская территория, полная крупных кратеров и полное отсутствие атмосферы может быть более знакомо в этом сером ландшафте.</Value>
+      <Value>Хотя присутствие угля нехарактерно для Луны, относительно плоская территория, полная крупных кратеров и полное отсутствие атмосферы может быть более знакомо в этом сером ландшафте.
+      </Value>
     </Record>
     <Record>
       <Key>NewWorldSpaceShortDesc</Key>
@@ -5327,7 +5338,8 @@
     </Record>
     <Record>
       <Key>NewWorldEuropaShortDesc</Key>
-      <Value>Таяние льдов на этом холодном мире наконец-то дало ему атмосферу, но его крайне холодное окружение представляет собой чрезвычайно сложное испытания для игроков.</Value>
+      <Value>Таяние льдов в этом холодном мире, наконец, создало атмосферу, но его чрезвычайно холодная среда представляет серьезную проблему для обитателей. Из-за сильного холода батареи быстро теряют заряд, поэтому получение стабильного источника питания и теплого места ваши приоритеты.
+      </Value>
     </Record>
     <Record>
       <Key>SettingsTitleAudioAlerts</Key>
