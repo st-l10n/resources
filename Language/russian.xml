@@ -5634,6 +5634,34 @@
       <Value>Нет описания</Value>
     </Record>
     <Record>
+      <Key>LogicSlotTypeQuantity</Key>
+      <Value>возвращает текущее количество, например размер стека, элемента в слоте</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeDamage</Key>
+      <Value>возвращает состояние повреждения предмета в слоте</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeEfficiency</Key>
+      <Value>возвращает эффективность роста растения в слоте</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeMature</Key>
+      <Value>возвращает 1, если растение в этом слоте является зрелым, 0, когда это не так</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeHealth</Key>
+      <Value>возвращает здоровье растения в слоте</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeGrowth</Key>
+      <Value>возвращает текущее состояние роста растения в слоте</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePressure</Key>
+      <Value>возвращает давление внутри предмета занимающего слот</Value>
+    </Record>
+    <Record>
       <Key>LogicSlotTypeTemperature</Key>
       <Value>возвращает температуру слота, занятого внутренней атмосферой</Value>
     </Record>
