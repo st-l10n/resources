@@ -5622,6 +5622,14 @@
       <Value>Текущее состоянии системы фильтрации, например Filtration = 1 для усиленного шлема включает фильтрацию</Value>
     </Record>
     <Record>
+      <Key>LogicTypePositionY</Key>
+      <Value>Текущая позиция по оси Y в мировых координатах</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePositionZ</Key>
+      <Value>Текущая позиция по оси Z в мировых координатах</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeVelocityMagnitude</Key>
       <Value>Текущая величина вектора скорости</Value>
     </Record>
@@ -5630,8 +5638,28 @@
       <Value>Хеш структуры</Value>
     </Record>
     <Record>
+      <Key>LogicTypeForceWrite</Key>
+      <Value>Заставляет чип-Запись перезаписывать значение</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSignalStrength</Key>
+      <Value>Возвращает силу самого сильного сигнала, полученного от этого спутника</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSignalID</Key>
+      <Value>Возвращает идентификатор контакта самого сильного сигнала от этого спутника</Value>
+    </Record>
+    <Record>
       <Key>LogicSlotTypeNone</Key>
       <Value>Нет описания</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeOccupied</Key>
+      <Value>возвращает 0, когда слот не занят, 1, когда занят</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeOccupantHash</Key>
+      <Value>возвращает хеш, уникальный идентификатор того, что занимает текущее пространство</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeQuantity</Key>
