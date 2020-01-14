@@ -5738,6 +5738,18 @@
       <Value>Этаж, на котором в данный момент находится лифт</Value>
     </Record>
     <Record>
+      <Key>LogicTypeRequestHash</Key>
+      <Value>Если задан уникальный идентификатор, запрашивает элемент указанного типа из устройства</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeCompletionRatio</Key>
+      <Value>Насколько завершена текущая продукция для этого устройства, от 0 до 1</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeClearMemory</Key>
+      <Value>При значении 1, очищает память счетчика (например, ExportCount). Будет установлен обратно в 0 когда сработает</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeExportCount</Key>
       <Value>Сколько предметов было экспортировано с момента последнего ClearMemory</Value>
     </Record>
