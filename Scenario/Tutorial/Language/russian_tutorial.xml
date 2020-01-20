@@ -179,7 +179,11 @@
     </Record>
     <Record>
       <Key>TutorialDescRepairCable1</Key>
-      <Value>Найдите сгоревший участок кабеля, обрежьте его кусачками. Они находятся в вашем поясе для инструментов. Нажмите {KEY:ToolBeltSlot} чтобы открыть ваш {SLOT:Belt}. Нажмите {KEY:InventorySelect}, чтобы взять предмет из выделенной ячейки в руку.</Value>
+      <Value>{THING:StructureCableStraight} может передавать как {COLORYELLOW:Data}, так и {COLORYELLOW:Power}, но он сгорит, если через него будет подано больше энергии, чем рассчитано. Где-то под {THING:StructureAirlock}, из которого вы только что вышли, есть поврежденный {THING:StructureCableJunction}, найдите его и заменте, используя {THING:ItemWireCutters} из вашего {THING:ItemToolBelt}.
+      
+Помните, что есть два способа взаимодействия с вашим {LINK: InventoryPage; инвентарь}. Вы можете нажать и удерживать {KEY: MouseControl}, чтобы включить курсор мыши, а затем перетащить или открыть объекты мышью. Для быстрого управления нажмите {KEY: ToolBeltSlot}, чтобы открыть слот {SLOT: Belt}. Нажмите {KEY: InventorySelect}, чтобы поменять выделенный элемент внутреннего слота и предмет в своих руках.
+
+Если у вас слишком много открытых окон, вы можете закрыть их все сразу, используя {KEY: HideAllWindows}, вы можете переключать отдельное окно с помощью горячей клавиши слота или можено щелкнуть на сам слот, пока мышь включена с помощью { KEY: MouseControl}.</Value>
     </Record>
     <Record>
       <Key>TutorialTaskRepairCable1</Key>
@@ -199,7 +203,7 @@
     </Record>
     <Record>
       <Key>TutorialDescRepairCable2</Key>
-      <Value>Наведите прицел на сгоревший кабель, держа {THING:ItemWireCutters} в активной руке. Вы увидите {COLORYELLOW:жёлтый} куб вокруг кабеля. Удерживайте {COLORRED:левую кнопку мыши}, чтобы удалить сгоревший кабель.</Value>
+      <Value>Посмотрите на {THING:StructureCableJunctionBurnt}, держа {THING:ItemWireCutters} в вашей активной руке. Вы увидите {COLORYELLOW:желтый} прямоугольник вокруг него. Нажмите и держите {KEY:PrimaryAction}, чтобы срезать {THING:StructureCableJunctionBurnt}.</Value>
     </Record>
     <Record>
       <Key>TutorialDescRepairCable3</Key>
