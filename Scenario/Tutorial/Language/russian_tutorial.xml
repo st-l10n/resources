@@ -211,11 +211,13 @@
     </Record>
     <Record>
       <Key>TutorialDescRepairCable4</Key>
-      <Value>Когда {THING:ItemCableCoil} будет в вашей активной руке, нажимте {COLORRED:правую кнопку мыши} чтобы перейти в режим постройки.
+      <Value>С {THING:ItemCableCoil} в вашей {COLORYELLOW:Active Hand} нажмите {KEY:SecondaryAction}, чтобы вызвать курсор {LINK:ConstructionPage;construction}.
 
-Используйте {COLORRED:колесо мыши}, чтобы сменить вид кабеля, вам нужен вариант: {THING:StructureCableJunction}.
+Используйте {COLORRED:колесо мыши}, чтобы сменить вид кабеля, выбрав вариант {THING:StructureCableJunction}.
 
-Нажмите {KEY:RotateLeft} чтобы повернуть его влево, {KEY:RotateRight} чтобы повернуть его вправо, {KEY:RotateUp} чтобы повернуть его вверх, {KEY:RotateDown} чтобы повернуть его вниз, {KEY:RotateRollLeft} чтобы повернуть его против часовой стрелки, или {KEY:RotateRollRight} чтобы повернуть его по часовой стрелке.</Value>
+План размещения содержит важную информацию о подключении, маленькие плюсики указывают, что элемент подключается к существующей кабельной сети. Убедитесь, что ваши линии соединяютя верно.
+
+Нажмите {KEY:QuantityModifier}, и объект попытается установить наилучшее соединение, также вы можете использовать пользовательские клавиши поворота.</Value>
     </Record>
     <Record>
       <Key>TutorialTitleFinishFrame</Key>
