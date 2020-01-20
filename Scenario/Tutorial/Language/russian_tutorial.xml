@@ -53,11 +53,11 @@
     </Record>
     <Record>
       <Key>TutorialDescPowerSuit</Key>
-      <Value>Найдите {THING:ItemBatteryCellLarge} и возьмите её в руку, нажав {COLORRED:левую кнопку мыши} когда смотрите на неё.</Value>
+      <Value>Найдите {THING:ItemBatteryCellLarge} и возьмите ее в {SLOT:LeftHand} или {SLOT:RightHand}, смотря на нее нажмите {KEY:PrimaryAction}. Вы можете перетащить {THING:ItemBatteryCellLarge} в {THING:ItemEvaSuit}.</Value>
     </Record>
     <Record>
       <Key>TutorialDescPowerSuit2</Key>
-      <Value>Вы можете взаимодействовать со скафандром, однократно нажимая на кнопку {KEY:SuitSlot}. Так вы можете переключаться между инвентарем и доступными действиями для скафадра. Откройте инвентарь скафандра.</Value>
+      <Value>Откройте {THING:ItemEvaSuit}, нажав клавишу {KEY:SuitSlot} или удерживая {KEY:MouseControl}, и щелкните на слоте {SLOT:Suit}.</Value>
     </Record>
     <Record>
       <Key>TutorialTaskLifesupportSuit1</Key>
