@@ -121,11 +121,15 @@
     </Record>
     <Record>
       <Key>TutorialDescGetTools1</Key>
-      <Value>Теперь вам нужно выйти со станции, чтобы произвести ремонт. Бросьте {THING:ItemTablet}, нажав клавишу {KEY:Drop} чтобы вы смогли поднять другие предметы.</Value>
+      <Value>Сейчас нам нужно выйти за пределы станции, чтобы сделать ремонт. Бросьте что-нибудь из ваших рук, используя клавишу {KEY:Drop}, тогда мы сможем поднять другие предметы. Помните, что можно использовать {KEY:MouseControl}, чтобы включить мышь для управления {LINK:InventoryPage;inventory}, еще вы можете изменить {COLORYELLOW:Active Hand}, нажав клавишу {KEYS:SwapHands}.
+
+Управление {LINK:InventoryPage;inventory} требует практики; тщательно продумывайте, что вы берете с собой. Забыть заполненный {THING:ItemGasCanisterOxygen} или {THING:ItemBatteryCellLarge} может быть смертельно опасно. Также легко потеряться. Будьте осторожены!</Value>
     </Record>
     <Record>
       <Key>TutorialDescGetTools2</Key>
-      <Value>Возьмите {THING:ItemToolBelt} и экипируйте его в соответствующий слот, удерживая клавишу {KEY:ToolBeltSlot}. Мы продолжим, когда {THING:ItemToolBelt} будет экипирован и {THING:ItemSteelSheets} будет у вас в руке.</Value>
+      <Value>Подберите {THING:ItemToolBelt} и назначьте его в слот {SLOT:Belt}, удерживая клавишу {KEY:ToolBeltSlot}, или перетащите его в слот, нажимая и удерживая {KEY:MouseControl}. Ваш слот {SLOT: Belt} позволяет вам носить пояса, которые могут содержать добычу руды и другие инструменты.
+      
+{THING:ItemMiningBelt} имеет специализированные слоты {LINK:OrePage;Ore}, которые автоматически заполняются рудой, при использовании {THING:ItemMiningDrill}. Узнайте больше о {LINK:MiningPage;Mining}.</Value>
     </Record>
     <Record>
       <Key>TutorialTaskGetTools1</Key>
