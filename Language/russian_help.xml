@@ -33,6 +33,50 @@
 {LIST}{LINK:DevicePage;Devices}, {LINK:FabricatorPage;Fabricators}, {LINK:AirlockDevicePage;Airlock Devices}, {LINK:LogicUnitPage;Logic Units}
 {/LIST}</Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>GettingStarted</Key>
+      <Title>Основы</Title>
+      <Text>{HEADER:Welcome to a new world}
+Если это ваш первый раз, то сразу многому можно научиться. По началу многое будет не известно и начинать будет очень сложно. Ниже приведены общие рекомендации для начала работы. У каждого типа мира есть свои проблемы, с которыми вам нужно столкнуться, но следующая информация должна дать вам общее представление о том, что нужно решить.
+
+{HEADER:Keeping your Suit Charged}
+Самое главное - это зарядить {THING:ItemBatteryCellLarge} в вашем {THING:ItemEvaSuit}. Аккумулятор костюма используется для питания вашего фонаря в {THING:ItemSpaceHelmet} (выключайте его, когда он не используется), а также для подогрева внутреннего воздуха. В более холодных мирах это требует много энергии. Вам нужно будет разместить {THING:ItemBatteryCharger} и подключить его к источнику питания, {THING:StructureSolidFuelGenerator} используюущий {THING:ItemCoalOre} или {THING:StructureSolarPanel} являются хорошим началом для решения этой проблемы. В экстренной ситуации достаньте батарейки из своих {LINK:ToolPage;Tools}, и использовать их для поддержания вашего костюма, или воспользуйтесь {THING:StructureSolarPanel} для подзарядки.
+
+{HEADER:Improving Power Collection}
+Разместите {THING:StructureAreaPowerControl} с вставленным {THING:ItemBatteryCell} между источником питания и зарядным устройством. Это связано с тем, что источник питания, генерирует больше энергии, чем может использовать {THING:ItemBatteryCharger}, и она расходуется впустую. Также вы можете вручную ориентировать {THING:StructureSolarPanel}, но автоматизация его следования за солнцем очень поможет вам. Вы можете использовать {LINK:LogicUnitPage;Logic Units}, которые помогут вам в этом.
+
+{HEADER:Managing your Oxygen}
+Ваши {THING:ItemEvaSuit} и {THING:ItemSpaceHelmet} образуют защитную оболочку. {THING:ItemEvaSuit} требует {THING:ItemGasCanisterOxygen}, чтобы поставлять вам чистый {GAS:Oxygen}. Следите за количеством газа в баллоне, вы можете пополнить его, используя {THING:DynamicGasCanisterOxygen}, прикрепленный на стартовом корабле.
+Существует маркер «опасности» на {THING:DynamicGasCanisterOxygen}, указывающий на место, в которое можно вставить баллон, для наполнения.
+
+{HEADER:Basic Smelting}
+Как только у вас появится базовая энергия, вы должны начать получать больше ресурсов. Отправляйтесь {LINK:MiningPage;Mining}, и находить базовые {LINK:OrePage;Ores}. Поместите {THING:StructureArcFurnace} и подключите ее к {THING:StructureAreaPowerControl}. Печь будет {LINK:SmeltingPage;Smelt} основную {LINK:OrePage;Ores}, такую как {THING:ItemIronOre}, {THING:ItemSiliconOre} и другие не {LINK:AlloyPage;Alloy}.
+
+{HEADER:Basic Fabrication}
+Теперь, когда у вас есть {LINK:IngotPage;Ingots}, вы можете использовать их в {LINK:FabricatorPage;Fabricators} в качестве ресурса. Постройте {THING:StructureAutolathe} из {THING:ItemKitAutolathe}, предоставленного в стартовых ящиках.
+
+{HEADER:Replacing your Filters}
+Когда вы вдыхаете {GAS:Oxygen}, вы выдыхаете {GAS:CarbonDioxide}, поэтому вам необходим {THING:ItemGasFilterCarbonDioxide} в вашем слоте {SLOT:Filter}. Они со временем изнашиваются, и нужно будет создавать новые на {THING:StructureHydraulicPipeBender}. Его можно сделать из {THING:ItemKitHydraulicPipeBender} в {THING:StructureAutolathe}.
+
+{HEADER:Build a Glass House}
+Для использования {LINK:HydroponicsPage;Hydroponics} вам потребуется небольшая закрытая область, в которой вы можете создать {LINK:FoodPage;Food}. Не делайте комнату слишком большую. Сделайте много окон, используя вариант из комплектов {THING:ItemKitWallIron}, чтобы впустить солнечный свет. Убедитесь, что вход управляется с помощью автоматического {LINK:AirlockPage;Airlock} или ручного. Помните, что вы можете открывать и закрывать двери без питания с помощью {THING:ItemCrowbar}.
+
+{HEADER:Pressurize Your Glass House}
+Как только вы закроете комнату, {LINK:MiningPage;Mine} немного {THING:ItemOxite} и растопите его, пока у вас не будет примерно 100 кПа давления в вашей зоне выращивания. Затем добавьте немного {GAS:CarbonDioxide} в атмосферу. Вы можете легко это сделать, взяв свой баллон для отходов из своего {THING:ItemEvaSuit} в свои руки, открыть его, и после закрыть и вернуть в скафандр. Это высвободит фильтрованный {GAS:CarbonDioxide} от вашего дыхания в окружающую среду. {LINK:PlantPage;Plants} будет использовать это для дыхания.
+
+{HEADER:Growing Plants}
+Возьмите с собой {THING:DynamicHydroponics} в новый стеклянный дом. У него есть {THING:ItemGasCanisterWater} для снабжения растений {GAS:Water}. Теперь сажайте, используя {THING:ItemPotato} из стартовых ящиков. Посадите сначала один, и убедитесь, что он растет, прежде чем использовать другие. Они требуют солнечного света, тепла, и небольшое количество {GAS:CarbonDioxide}, чтобы выжить.
+
+{HEADER:Advanced Smelting}
+{THING:StructureArcFurnace} позволяет вам переплавить только простую {LINK:OrePage;Ores}, а для создания более сложных сплавов вам потребуется использовать более сложные методы для выплавки {LINK:AlloyPage;Alloys}. Это делается в {THING:StructureFurnace} путем достижения правильного значения {LINK:PressurePage;Pressure}, {LINK:TemperaturePage;Temperature}, и {LINK:ReagentPage;Reagent}. Например, чтобы сделать {THING:ItemSteelIngot}, вам понадобится три части {REAGENT:Iron} и одна часть {REAGENT:Coal}.
+
+Вы можете напрямую закинуть {LINK:IcePage;Ices} в верхнюю часть. Если нет давления для их плавления, нажмите кнопку {LOGICTYPE:Activate}, чтобы расплавить. Лед автоматически растает, если в печи будет достаточно газа нужной температуры. Используйте смесь {THING:ItemOxite} и {THING:ItemVolatiles}, чтобы разчечь огонь внутри, хотя это резко увеличит давление внутри.
+
+Как только печь достигнет нужной температуры, поместите необходимые руды в нее, чтобы расплавить их, но следите за тем, чтобы ваши сплавы или отходы не вышли в виде {THING:ItemReagentMix}, которые нужно будет отсортировать в {THING:StructureCentrifuge}. Чтобы забрать продукт, потяните за ручку {LOGICTYPE:Open}.
+
+Еще более сложный {LINK: SuperAlloyPage; Superalloys} можно выплавлять на {THING: StructureAdvancedFurnace}. Они имеют очень жесткие требования к плавке и чрезвычайно сложны, но необходимы для очень продвинутого производства.
+{/LIST}</Text>
+    </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
