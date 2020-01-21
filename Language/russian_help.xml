@@ -97,6 +97,21 @@
 {HEADER:Selecting}
 Кнопка {KEY:InventorySelect} заменит любой выбранный вами предмет в вашей активной руке вместе с любым слотом, который вы выбрали с помощью {COLORRED:Mouse Wheel}, еще вы можете использовать горячие клавиши вместо использования мыши.</Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>AirlockDevicePage</Key>
+      <Title>Устройства для шлюза</Title>
+      <Text>Поместив {THING:CircuitboardAirlockControl} в {THING:StructureConsole}, вы можете подключить к нему различные устройства и сделать рабочий шлюз.
+
+{HEADER:List of Airlock Devices}
+Следующие устройства могут быть подключены и использованы платой управления шлюзом:
+{LIST_OF_AIRLOCK_DEVICES}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicUnitPage</Key>
+      <Title>Логические чипы</Title>
+      <Text>{HEADER:List of Logic Units}
+{LIST_OF_LOGIC_UNITS}</Text>
+    </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
