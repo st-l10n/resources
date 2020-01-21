@@ -5710,6 +5710,10 @@
       <Value>Максимальная настройка устройства</Value>
     </Record>
     <Record>
+      <Key>LogicTypeRatio</Key>
+      <Value>Контекстно-зависимое значение устройства, соотношение от 0 до 1</Value>
+    </Record>
+    <Record>
       <Key>LogicTypePowerPotential</Key>
       <Value>Сколько энергии потенциально обеспечивает устройство или сеть</Value>
     </Record>
@@ -5722,12 +5726,20 @@
       <Value>Общее количество на устройстве</Value>
     </Record>
     <Record>
+      <Key>LogicTypeOn</Key>
+      <Value>Текущее состояние устройства, 0 для выключения, 1 для включения</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeImportQuantity</Key>
       <Value>Общее количество предметов, импортированных устройством</Value>
     </Record>
     <Record>
       <Key>LogicTypeExportQuantity</Key>
       <Value>Количество всех предметов, экспортированных устройством</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRequiredPower</Key>
+      <Value>Количество потребляемой энергии в простое не равно полной потребляемой энергии</Value>
     </Record>
     <Record>
       <Key>LogicTypeHorizontalRatio</Key>
