@@ -117,6 +117,19 @@
       <Title>Слоты в руках</Title>
       <Text>Ваши руки - это специальные слоты. В любой момент у вас есть одна активная рука, которая используется вашей {COLORRED:Primary Action}. Чтобы поменять активную руку, нажмите {KEY:SwapHands}. С вашей активной рукой можно взаимодействовать, нажав {KEY:ActiveHandSlot}, которая откроет и закроет содержимое предмета в активной руке. Как всегда, Вы можете использовать {KEY:MouseControl}, чтобы вызвать мышь и взаимодействовать с предметом. Для получения дополнительной информации см. Раздел {LINK:InventoryPage;Inventory}.</Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>SlotRightHand</Key>
+      <Title>Слоты в руках</Title>
+      <Text>Ваши руки - это специальные слоты. В любой момент у вас есть одна активная рука, которая используется вашей {COLORRED:Primary Action}. Чтобы поменять активную руку, нажмите {KEY:SwapHands}. С вашей активной рукой можно взаимодействовать, нажав {KEY:ActiveHandSlot}, которая откроет и закроет содержимое предмета в активной руке. Как всегда, Вы можете использовать {KEY:MouseControl}, чтобы вызвать мышь и взаимодействовать с предметом. Для получения дополнительной информации см. Раздел {LINK:InventoryPage;Inventory}.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FabricatorPage</Key>
+      <Title>Фабрикаторы</Title>
+      <Text>Это мощные структуры, которые можно использовать для изготовления вещей, нужных вам в игре. Обычно они используют {LINK:IngotPage;Ingots} как {LINK:ReagentPage;Reagents}, необходимые им для создания вещей.
+
+{HEADER:List of Fabricators}
+{LIST_OF_FABRICATORS}</Text>
+    </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
