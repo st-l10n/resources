@@ -5622,8 +5622,16 @@
       <Value>Нет описания</Value>
     </Record>
     <Record>
+      <Key>LogicTypePower</Key>
+      <Value>Возвращает значение, которое указывает включено ли устройство, 1 включено и 0 выключено</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeOpen</Key>
       <Value>1, если устройство открыто, иначе 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeMode</Key>
+      <Value>Целое число для состояния режима, различные устройства будут иметь разные состояния режима</Value>
     </Record>
     <Record>
       <Key>LogicTypeError</Key>
