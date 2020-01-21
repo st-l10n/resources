@@ -5734,12 +5734,20 @@
       <Value>Коэффициент горизонтальной настройки устройства</Value>
     </Record>
     <Record>
+      <Key>LogicTypeVerticalRatio</Key>
+      <Value>Коэффициент вертикальной настройки устройства</Value>
+    </Record>
+    <Record>
       <Key>LogicTypePowerRequired</Key>
       <Value>Запрашивается питание от устройства и/или сети</Value>
     </Record>
     <Record>
       <Key>LogicTypeIdle</Key>
       <Value>Возвращает 1, если устройство в данный момент ожидает, иначе 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeColor</Key>
+      <Value>Настройка цвета для устройства, представленная в виде целого числа</Value>
     </Record>
     <Record>
       <Key>LogicTypeElevatorSpeed</Key>
@@ -5792,6 +5800,10 @@
     <Record>
       <Key>LogicTypeHarvest</Key>
       <Value>Выполняет сбор урожая для любого оборудования взаимодействующего с растениями</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeOutput</Key>
+      <Value>Операция вывода для устройства управления сортировкой, такого как укладчик или сортировщик. В логическом режиме, устройство выполняет только одно повторение, когда оно установлено на ноль или выше, затем снова в -1 и ждет дальнейших инструкций</Value>
     </Record>
     <Record>
       <Key>LogicTypePressureSetting</Key>
