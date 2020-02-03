@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Name>English</Name>
+<Code>EN</Code>
+<Font>font_english</Font>
+    <Interface>
+        <Record>
+            <Key>BasicStructureBuilding</Key>
+            <Value>#2 Basic Structure Building</Value>
+        </Record>
+        <Record>
+            <Key>BasicStructureBuildingDescription</Key>
+            <Value>In this lesson, we will teach you how to build a basic platform which we will use as our first base. The materials used in this tutorial will be found upon entering a new world.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialThetoolbelt</Key>
+            <Value>Total Tools</Value>
+        </Record>
+        <Record>
+            <Key>TutorialThetoolbeltDescription</Key>
+            <Value>The {SLOT:Belt} is one of your most important pieces of storage. It holds all of the tools that are required to build and deconstruct things. </Value>
+        </Record>
+        <Record>
+            <Key>TutorialThetoolbeltTask1</Key>
+            <Value>Let's start by opening it. Press and hold the {KEY:MouseControl} key and click on the {SLOT:Belt} or press the {KEY:ToolBeltSlot} key.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialThetoolbeltTask2</Key>
+            <Value>Now, move the welding torch into your hand by holding the {KEY:MouseControl} key and dragging the welding torch from the {SLOT:Belt} into your right-hand slot.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialWhatAreFrames</Key>
+            <Value>What are frames?</Value>
+        </Record>
+        <Record>
+            <Key>TutorialWhatAreFramesDescription</Key>
+            <Value>Good job, Cadet. Let’s start constructing a base.</Value>
+        </Record> 
+        <Record>
+            <Key>TutorialWhatAreFramesTask1</Key>
+            <Value>Press the {KEY:SwapHands} key to swap your active hand and move over to the crate nearby and pick up {THING:ItemIronFrames} from the crate into your left hand.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialWhatAreFramesTask2</Key>
+            <Value>Now that you have a basic idea of how to utilize the UI lets get started with basic buildings, let’s start by opening the nearby crates, in crate 1 you will find the {THING:ItemIronFrames} needed to start the platform.
+        
+        To build the frame go over to the highlighted area with the frames in your active hand tap {KEY:SecondaryAction} to enable the cursor and hold down the {KEY:PrimaryAction} button until it completes</Value>
+        </Record>
+        <Record>
+            <Key>TutorialCompletingFrames</Key>
+            <Value>Completing Frames</Value>
+        </Record>
+        <Record>
+            <Key>TutorialCompletingFramesDescription</Key>
+            <Value>Currently, our {THING:ItemIronFrames} are not airtight. To complete the {THING:ItemIronFrames} we need to weld some iron sheets to it. If you haven't already, tap {KEY:SecondaryAction} button to remove the cursor object from the screen.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialCompletingFramesTask1</Key>
+            <Value>Go back to the crate and swap the frames for {THING:ItemIronSheets} by pressing {KEY:PrimaryAction} button while holding the {THING:ItemIronFrames}.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialCompletingFramesTask2</Key>
+            <Value>Equip your {THING:ItemWeldingTorch} from your ToolBelt and turn it on with {KEY:ToggleHandPower} key and go back to the previously placed frame and hold {KEY:PrimaryAction} button to build the frame until it is complete. You will need the {THING:ItemIronSheets} in your other hand to do this.  Note: Don't forget to turn off the {THING:ItemWeldingTorch} when you are finished to turn off the wielder press the {KEY:ToggleHandPower} key.</Value>
+        </Record>
+        <Record>
+         <Key>TutorialCompletingFramesTask3</Key>
+            <Value>Finish the {THING:ItemIronFrames} by continuing to wield it.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialDoingitOnYourOwn</Key>
+            <Value>Doing it on your own</Value>
+        </Record>
+        <Record>
+            <Key>TutorialDoingitOnYourOwnDescription</Key>
+            <Value>Well done, Cadet! Now that you've built your first frame, let's build some more. Use what you’ve learnt to build more {THING:ItemIronFrames} in the highlighted areas. 
+            
+        Hint: If you fall into a frame and get stuck use the {KEY:Jetpack} key to activate your Jetpack and fly out, then disable it with the same key.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialDoingitOnYourOwnTask1</Key>
+            <Value>Place Frame 1.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialDoingitOnYourOwnTask2</Key>
+            <Value>Place Frame 2.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialDoingitOnYourOwnTask3</Key>
+            <Value>Place Frame 3.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialDoingitOnYourOwnTask4</Key>
+            <Value>Place Frame 4.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialDoingitOnYourOwnTask5</Key>
+            <Value>Place Frame 5.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialDoingitOnYourOwnTask6</Key>
+            <Value>Place Frame 6.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialDoingitOnYourOwnTask7</Key>
+            <Value>Place Frame 7.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialDoingitOnYourOwnpt2</Key>
+            <Value>Doing it on your own part 2.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialDoingitOnYourOwnpt2Description</Key>
+            <Value>Well done! Now, finish them off with the {THING:ItemWeldingTorch} and some {THING:ItemIronSheets}.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialDoingitOnYourOwnpt2Task1</Key>
+            <Value>Finish constructing Frame 1.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialDoingitOnYourOwnpt2Task2</Key>
+            <Value>Finish constructing Frame 2.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialDoingitOnYourOwnpt2Task3</Key>
+            <Value>Finish constructing Frame 3.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialDoingitOnYourOwnpt2Task4</Key>
+            <Value>Finish constructing Frame 4.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialDoingitOnYourOwnpt2Task5</Key>
+            <Value>Finish constructing Frame 5.</Value>
+        </Record>
+                <Record>
+            <Key>TutorialDoingitOnYourOwnpt2Task6</Key>
+            <Value>Finish constructing Frame 6.</Value>
+        </Record>
+                <Record>
+            <Key>TutorialDoingitOnYourOwnpt2Task7</Key>
+            <Value>Finish constructing Frame 7.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialDeconstructingAnArcFurnace</Key>
+            <Value>Deconstructing An Arc Furnace</Value>
+        </Record>
+        <Record>
+            <Key>TutorialDeconstructingAnArcFurnaceDescription</Key>
+            <Value>Cadet, It looks like the arc furnace has been buried by sand. We will need to deconstruct it and move it to the new work platform for it to function. Deconstructing things is as easy as building them. </Value>
+        </Record>
+        <Record>
+            <Key>BuildingDeconstructingAnFurnaceTask1</Key>
+            <Value>Use the {THING:ItemDrill} to from your {SLOT:Belt}.</Value>
+        </Record>
+         <Record>
+            <Key>BuildingDeconstructingAnFurnaceTask2</Key>
+            <Value>Pick up {THING:ItemKitArcFurnace}.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialBuildingAnArcFurnace</Key>
+            <Value>The ArcFurnce</Value>
+        </Record>
+        <Record>
+            <Key>TutorialBuildingAnArcFurnaceDescription</Key>
+            <Value>Nicely done, Cadet. Next up, we need to build an {THING:ItemKitArcFurnace}. This will be used to smelt ores into usable ingots. Locate the Arcfurnace kit in the crate and pick it up.</Value>
+        </Record>
+        <Record>
+            <Key>BuildingAnArcFurnaceTask1</Key>
+            <Value>Place the ArcFurnace in the highlighted area you may need to use {KEY:QuantityModifier} to rotate the object to the correct position.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialDeconstructingAnAutolathe</Key>
+            <Value>Deconstructing The Autolathe</Value>
+        </Record>
+        <Record>
+            <Key>TutorialDeconstructingAnAutolatheDescription</Key>
+            <Value>Cadet, the {THING:StructureAutolathe} is in the incorrect position. To move it, you will need to deconstruct it.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialDeconstructingAnAutolatheTask1</Key>
+            <Value>Use the {THING:ItemAngleGrinder} from your toolbelt to remove the plastic sheeting from the {THING:StructureAutolathe}.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialDeconstructingAnAutolatheTask2</Key>
+            <Value>Use your {THING:ItemWireCutters} to remove the cabling from the {THING:StructureAutolathe}.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialDeconstructingAnAutolatheTask3</Key>
+            <Value>Use the {THING:ItemAngleGrinder} to remove the Iron Sheeting from the {THING:StructureAutolathe}.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialDeconstructingAnAutolatheTask4</Key>
+            <Value>Finally, use the {THING:ItemWrench} to pack the {THING:StructureAutolathe} into a {THING:ItemKitAutolathe}.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialBuildingAnAutolathe</Key>
+            <Value>Lathing away</Value>
+        </Record>
+        <Record>
+            <Key>TutorialBuildingAnAutolatheDescription</Key>
+            <Value>We’re almost there. The final step is to build the {THING:StructureAutolathe}. The {THING:ItemKitAutolathe} is used to create a wide variety of things using ingots and power as its resources.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialBuildingAnAutolatheTask1</Key>
+            <Value>Pick up the {THING:ItemKitAutolathe}.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialBuildingAnAutolatheTask2</Key>
+            <Value>Construct the {THING:ItemKitAutolathe} in the highlighted area. Remember, you may need to use {KEY:QuantityModifier} key to rotate it.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialBuildingAnAutolathePart2</Key>
+            <Value>Latheing away part 2</Value>
+        </Record>
+        <Record>
+            <Key>TutorialBuildingAnAutolathePart2Description</Key>
+            <Value>Some items like the {THING:ItemKitAutolathe} are more difficult to construct and have more stages in the construction process.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialBuildingAnAutolatheTask0.5</Key>
+            <Value>Pick up {THING:ItemIronSheets} from the previous {THING:StructureAutolathe}. </Value>
+        </Record>
+        <Record>
+            <Key>TutorialBuildingAnAutolathePart2Task1</Key>
+            <Value>Weld some {THING:ItemIronSheets} onto the {THING:StructureAutolathe}.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialBuildingAnAutolatheTask1.5</Key>
+            <Value>Get your {THING:ItemCableCoil} from the {SLOT:Belt}.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialBuildingAnAutolathePart2Task2</Key>
+            <Value>Use the {THING:ItemCableCoil} to wire the Autolathe's internals.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialBuildingAnAutolatheTask2.5</Key>
+            <Value>Get the {THING:ItemPlasticSheets} from the previous {THING:StructureAutolathe} .</Value>
+        </Record>
+        <Record>
+            <Key>TutorialBuildingAnAutolathePart2Task3</Key>
+            <Value>Weld the {THING:ItemPlasticSheets} to the {THING:StructureAutolathe}.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialBuildingAnAutolatheTask3.5</Key>
+            <Value>Get your {THING:ItemScrewdriver} from the {SLOT:Belt}.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialBuildingAnAutolathePart2Task4</Key>
+            <Value>Finaly screw the front panel on with the {THING:ItemScrewdriver} from your {SLOT:Belt}.</Value>
+        </Record>
+    </Interface>
+</Language>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Name>English</Name>
+<Code>EN</Code>
+<Font>font_english</Font>
+	<Interface>
+		<Record>
+			<Key>TutorialUIBasics</Key>
+			<Value>#1 Basic UI</Value>
+		</Record>
+		<Record>
+      		<Key>UIBasicsDescription</Key>
+      		<Value>Welcome to the Academy, Cadet! Here we will teach you the basics of becoming a Stationeer. In our first lesson, we will take a dive into the basics of UI and controls.</Value>
+    	</Record>
+		<!-- start the tutorial -->
+		<Record>
+			<Key>TutorialMouseControls</Key>
+			<Value>Where's My Cursor?</Value>
+		</Record>
+		<Record> 
+			<Key>TutorialMouseControlsDescription</Key>
+			<Value>Let's get started. Our first task is to have a quick read of the Stationpedia. When done, close the Stationpedia using {KEY:Help} or with the mouse by holding the {KEY:MouseControl} key and moving the mouse cursor.</Value>
+		</Record> 	
+		<Record>
+			<Key>TutorialMouseControlsTask1</Key>
+			<Value>Close the {LINK:Home;Stationpedia}</Value>
+		</Record>
+		<Record>
+			<Key>AlertSystem</Key>
+			<Value>ALERT</Value>
+		</Record>
+		<Record>
+			<Key>AlertSystemDescription</Key>
+			<Value>Incoming Alert!!!</Value>
+		</Record>
+		<Record>
+        	<Key>DisplayAlert1</Key>
+    		<Value>Cadet, we have detected an imminent malfunction. The Virus is attacking the helmet's opening mechanism.
+Press the  {KEY:Internals} key to close your helmet if it opens.
+Close this message using the {KEY:MouseControl} key to enable the mouse.</Value>
+        </Record>
+		<Record>
+			<Key>TutorialUIControls</Key>
+			<Value>Closing helmet </Value>
+		</Record>
+		<Record>
+			<Key>ALTTask1</Key>
+			<Value>Close Alert</Value>
+		</Record>
+		<Record>
+			<Key>TutorialUIControlsDescription</Key>
+			<Value>As a human, you cannot survive on non-oxygen planets without a suit or a sufficently pressurized base with breatheable atmosphere. Be sure to close your helmet and lock it to prevent accidental death.</Value>
+		</Record>
+		<Record>
+			<Key>TutorialUIControlsTask</Key>
+			<Value>Open your helmet UI with {KEY:HelmetSlot} or use the {KEY:MouseControl} key to interact with your {SLOT:Helmet}.</Value>
+		</Record>
+		<Record>
+            <Key>TutorialUIControlsTask1</Key>
+            <Value>Close your helmet with {KEY:Internals}</Value>
+        </Record>
+		<Record>
+			<Key>TutorialUIControlsTask2</Key>
+			<Value>Be sure to lock the helmet to prevent it happening again while holding the {KEY:MouseControl} key click the lock mask option on the helmet menu.</Value>
+		</Record>
+		<Record>
+			<Key>AlertSystem2</Key>
+			<Value>ALERT</Value>
+		</Record>
+		<Record>
+            <Key>ALTTask2</Key>
+            <Value>Close Alert</Value>
+        </Record>
+		<Record>
+			<Key>AlertSystemDescription2</Key>
+			<Value>Incoming Alert!!!</Value>
+		</Record>
+		<Record>
+        	<Key>DisplayAlert2</Key>
+    		<Value>Cadet, your suit's control system appears to be infected with a virus. We are working on it now,
+but it has started attacking your suits pressure and temperature controls. 
+Close this message using the {KEY:MouseControl} key to enable the mouse</Value>
+        </Record>
+		<Record>
+			<Key>TutorialSuitControls</Key>
+			<Value>Is It Cold Out Here?</Value>
+		</Record>
+		<Record>
+			<Key>TutorialSuitControlsDescription</Key>
+			<Value>Open your suit with {KEY:SuitSlot} or by clicking the suit on the left with the {KEY:MouseControl} key, and adjust your suit's internal pressure and temperature using the controls in the suit menu.</Value>
+		</Record>
+		<Record>
+			<Key>TutorialSuitControlsTask</Key>
+			<Value>Open your Suit UI with {KEY:SuitSlot}</Value>
+		</Record>
+		<Record>
+        	<Key>TutorialSuitControlsTask1</Key>
+    		<Value>Change your suit's temperature to 22 degrees by holding the {KEY:MouseControl} key to enable mouse control and clicking on the Temperature Up option.</Value>
+        </Record>
+		<Record>
+        	<Key>TutorialSuitControlsTask2</Key>
+    		<Value>Change your suits internal pressure to 45 pascals by clicking on the Pressure Up option.</Value>
+        </Record>
+		<Record>
+			<Key>ReplaceingSuititems</Key>
+			<Value>Life Support Items</Value>
+		</Record>
+		<Record>
+			<Key>ReplaceingSuititemsDescription</Key>
+			<Value>We have almost cleared the suit of the virus. However, it has damaged some of your suit's life support equipment. Let's replace them now. We've been granted authorization to access a nearby crate that should have the items you need. For basic survival needs, you will need a battery to power life support systems and a carbon filter to filter any carbon found in your internal atmosphere.</Value>
+		</Record>
+		<Record>
+			<Key>ReplaceingSuititemsTask1</Key>
+			<Value>Replace your battery to power life support. Alternatively, we can just drag the item directly from the crate into the slot. Try dragging the battery from the crate into the slot with the empty battery in your suit to swap them.</Value>
+		</Record>
+		<Record>
+			<Key>ReplaceingSuititemsTask2</Key>
+			<Value>Add a filter to your suit by clicking on the CO2 filter in the crate to move it to your hands. You can then move it into your suit by holding the {KEY:MouseControl} key and dragging it over the used CO2 filter and dropping the CO2 filter into that slot. This will swap the filters.</Value>
+		</Record>
+		<Record>
+			<Key>DisplayAlert3</Key>
+			<Value>Virus Eradicated. Nice job, Cadet! Remember, you can always close all open UI quickly with the {KEY:HideAllWindows} key, or close them manually by clicking the corresponding slot number.</Value>
+		</Record>
+		<Record>
+			<Key>CloseingUIs</Key>
+			<Value>Closing the menus</Value>
+		</Record>
+		<Record>
+			<Key>CloseingUIsDescription</Key>
+			<Value>Now for the final UI step, lets clean up the UI windows.</Value>
+		</Record>
+		<Record>
+			<Key>ALTTask3</Key>
+			<Value>Close the Alert</Value>
+		</Record>
+		<Record>
+			<Key>CloseingUIstask1</Key>
+			<Value>Close all the UIs with the {KEY:HideAllWindows} key.</Value>
+		</Record>
+		<Record>
+			<Key>CloseingUIstask2</Key>
+			<Value>Drop that old carbon filter by pressing the {KEY:Drop} key to drop the current item in your hand.</Value>
+		</Record>
+	</Interface>
+</Language>
