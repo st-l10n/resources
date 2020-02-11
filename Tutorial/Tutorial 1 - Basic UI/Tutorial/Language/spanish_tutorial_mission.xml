@@ -2,7 +2,27 @@
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>ES</Code>
   <Interface>
+    <Record>
+      <Key>TutorialUIBasics</Key>
+      <Value>#1 UI Básico</Value>
+    </Record>
+    <Record>
+      <Key>UIBasicsDescription</Key>
+      <Value>¡Bienvenido a la Academia, Cadete! Aquí le enseñaremos las bases para convertirse en un Stationeer. En nuestra primera lección, nos sumergiremos en los fundamentos de la interfaz de usuario y los controles.</Value>
+    </Record>
     <!-- start the tutorial -->
+    <Record>
+      <Key>TutorialMouseControls</Key>
+      <Value>¿Dónde está mi cursor?</Value>
+    </Record>
+    <Record>
+      <Key>TutorialMouseControlsDescription</Key>
+      <Value>Empecemos. Nuestra primera tarea es hacer una lectura rápida de la Stationpedia. Cuando terminemos, cerraremos la Stationpedia usando {KEY:Help} o con el ratón manteniendo pulsada la tecla {KEY:MouseControl} y moviendo el cursor del ratón.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialMouseControlsTask1</Key>
+      <Value>Cierre el {LINK:Home;Stationpedia}</Value>
+    </Record>
     <Record>
       <Key>ALTTask3</Key>
       <Value>Finalizar la alerta</Value>
