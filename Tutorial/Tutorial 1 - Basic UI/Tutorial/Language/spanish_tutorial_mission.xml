@@ -42,6 +42,22 @@ Cierre este mensaje usando la tecla {KEY:MouseControl} para activar el ratón.</
       <Value>Cerrando el casco </Value>
     </Record>
     <Record>
+      <Key>TutorialUIControlsDescription</Key>
+      <Value>Como humano, no puedes sobrevivir en planetas sin oxígeno sin un traje o una base suficientemente presurizada con atmósfera respirable. Asegúrese de cerrar su casco y bloquearlo para evitar la muerte accidental.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUIControlsTask</Key>
+      <Value>Abre la UI de tu casco con {KEY:HelmetSlot} o usa la tecla {KEY:MouseControl} para interactuar con tu {SLOT:Helmet}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUIControlsTask1</Key>
+      <Value>Cierra el casco con {KEY:Internals}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUIControlsTask2</Key>
+      <Value>Asegúrese de bloquear el casco para evitar que vuelva a ocurrir mientras sostiene la tecla {KEY:MouseControl} key haz clic en la opción bloque de máscara en el menú del casco.</Value>
+    </Record>
+    <Record>
       <Key>AlertSystem2</Key>
       <Value>ALERTA</Value>
     </Record>
@@ -88,6 +104,14 @@ Cierre este mensaje usando la tecla {KEY:MouseControl} para habilitar el ratón<
       <Value>Cambie la batería para alimentar el soporte de vida. Alternativamente, podemos arrastrar el artículo directamente desde la caja a la ranura. Intenta arrastrar la batería de la caja a la ranura con la batería vacía en tu traje para intercambiarla.</Value>
     </Record>
     <Record>
+      <Key>ReplaceingSuititemsTask2</Key>
+      <Value>Agregue un filtro a su traje haciendo clic en el filtro de CO2 en la caja para moverlo a sus manos. Luego puede moverlo a su traje sosteniendo la tecla {KEY:MouseControl} y arrastrándolo sobre el filtro de CO2 usado y soltando el filtro de CO2 en esa ranura. Esto cambiará los filtros.</Value>
+    </Record>
+    <Record>
+      <Key>DisplayAlert3</Key>
+      <Value>Virus erradicado. Buen trabajo, cadete! Recuerde, siempre puede cerrar todas las IU abiertas rápidamente con la tecla {KEY:HideAllWindows} o cerrando manualmente con el numero correspodiente a la ranura en cuestion.</Value>
+    </Record>
+    <Record>
       <Key>CloseingUIs</Key>
       <Value>Cerrando los menús</Value>
     </Record>
@@ -102,6 +126,10 @@ Cierre este mensaje usando la tecla {KEY:MouseControl} para habilitar el ratón<
     <Record>
       <Key>CloseingUIstask1</Key>
       <Value>Cierre toda la interfaz con la tecla {KEY:HideAllWindows}.</Value>
+    </Record>
+    <Record>
+      <Key>CloseingUIstask2</Key>
+      <Value>Deja caer cualquier artículo restante en tus manos con la tecla {KEY:Drop} en las dos manos usa la tecla {KEY:SwapHands}.</Value>
     </Record>
   </Interface>
 </Language>
