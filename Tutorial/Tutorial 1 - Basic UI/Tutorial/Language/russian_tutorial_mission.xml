@@ -2,7 +2,27 @@
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>RU</Code>
   <Interface>
+    <Record>
+      <Key>TutorialUIBasics</Key>
+      <Value>#1 Базовый интерфейс</Value>
+    </Record>
+    <Record>
+      <Key>UIBasicsDescription</Key>
+      <Value>Добро пожаловать в Академию, кадет! Здесь мы научим вас основам становления Stationeer. В нашем первом уроке мы познакомимся с основами пользовательского интерфейса и элементами управления.</Value>
+    </Record>
     <!-- start the tutorial -->
+    <Record>
+      <Key>TutorialMouseControls</Key>
+      <Value>Где мой курсор?</Value>
+    </Record>
+    <Record>
+      <Key>TutorialMouseControlsDescription</Key>
+      <Value>Давайте начнем. Наша первая задача - прочитать Stationpedia. Когда закончите, закройте Stationpedia с помощью {KEY:Help} или с помощью мыши, удерживая клавишу {KEY:MouseControl} и перемещая курсор мыши.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialMouseControlsTask1</Key>
+      <Value>Закройте {LINK:Home;Stationpedia}</Value>
+    </Record>
     <Record>
       <Key>AlertSystem</Key>
       <Value>ОПОВЕЩЕНИЕ</Value>
