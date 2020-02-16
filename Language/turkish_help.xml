@@ -307,73 +307,23 @@ Yanma{POS:300}{2}{3}{/LIST}</Text>
 Erime Basıncı {POS:300}{0}</Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>CreatorsHeaderTemplate</Key>
-      <Text>{LIST}{0}{/LIST}{HEADER:Tarafından Üretilmiştir}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ConstructedByHeaderTemplate</Key>
-      <Text>{HEADER:İnşa Eden}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>CreatedHeaderTemplate</Key>
-      <Text>{HEADER:Üretim Yapabilir}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ConstructedHeaderTemplate</Key>
-      <Text>{HEADER:İnşa Edebilir}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>LogicTransmitHeaderTemplate</Key>
-      <Text>
-        {HEADER:Bağlanır}
-        {LIST}{0}{/LIST}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>TierListHeaderTemplate</Key>
-      <Text>
-        {HEADER:Yapıların Aşama Listesi}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>LogicTypeHeaderTemplate</Key>
-      <Text>{HEADER:Mantık}{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ModeStringHeaderTemplate</Key>
-      <Text>{HEADER:Modlar}{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>CreatedGasesTemplate</Key>
-      <Text>{HEADER:Gazlar}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>CreatedReagentTemplate</Key>
-      <Text>{HEADER:Reaktifler}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>ReagentPageTemplate</Key>
       <Text>Bir {LINK:ReagentPage;reaktif}, çoğu zaman {LINK:IngotPage;Külçeler} biçiminde kullanılır.
 
-{HEADER:Genel}
+{HEADER:General}
 {LIST}Birim {POS:300}{1}{/LIST}
 
-{HEADER:İçeriğinde Bulunan}
+{HEADER:Found In}
 {LIST}{2}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageTemplate</Key>
       <Text>{LINK:SmeltingPage;eritme} işleminde, çoğunlukla bir {LINK:GasPage;gaz} açığa çıkar.
 
-{HEADER:Genel}
+{HEADER:General}
 {LIST}Belirli Sıcaklık {POS:300}{1}{2}{/LIST}
 
-{HEADER:İçeriğinde Bulunan}
+{HEADER:Found In}
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
