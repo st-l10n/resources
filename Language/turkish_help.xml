@@ -316,11 +316,16 @@ Erime Basıncı {POS:300}{0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ConstructedByHeaderTemplate</Key>
-      <Text>{LIST}{0}{/LIST}
-{HEADER:İle İnşa Edildi}</Text>
+      <Text>{HEADER:Üretimin İçeriği}
+{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>CreatedHeaderTemplate</Key>
+      <Text>{HEADER:Üretilebilenler}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructedHeaderTemplate</Key>
       <Text>{HEADER:Üretilebilenler}
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
