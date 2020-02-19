@@ -312,7 +312,17 @@ Erime Basıncı {POS:300}{0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>CreatorsHeaderTemplate</Key>
-      <Text>{LIST}{0}{/LIST}{HEADER:Tarafından Üretildi}</Text>
+      <Text>{HEADER:Üretimi Yapanlar}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructedByHeaderTemplate</Key>
+      <Text>{LIST}{0}{/LIST}
+{HEADER:İle İnşa Edildi}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedHeaderTemplate</Key>
+      <Text>{HEADER:Üretilebilenler}
+{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ReagentPageTemplate</Key>
