@@ -274,16 +274,20 @@ Eğer tamamlanmamış bir yapıya doğrudan bakarsan, tamamlanması için neleri
       <Key>ThingTemplate</Key>
       <Text>{0}
 
-{HEADER:General}
+{HEADER:Genel}
 {LIST}Prefabrik Hash&apos;i {POS:300}{1}
 Boyanabilir {POS:300}{2}{3}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ThingThermalTemplate</Key>
-      <Text>{HEADER:Thermal Limits}
+      <Text>{HEADER:Sıcaklık Sınırları}
 {LIST}Bozulma{POS:300}{0}
-Tutusma{POS:300}{1}
+Tutuşma{POS:300}{1}
 Yanma{POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingSlotHeaderTemplate</Key>
+      <Text>{HEADER:Yuvalar}{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ThingSlotItemTemplate</Key>
@@ -305,6 +309,10 @@ Yanma{POS:300}{2}{3}{/LIST}</Text>
       <Key>IceMeltingTemplate</Key>
       <Text>Erime Sıcaklığı {POS:300}{1}
 Erime Basıncı {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatorsHeaderTemplate</Key>
+      <Text>{LIST}{0}{/LIST}{HEADER:Tarafından Üretildi}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ReagentPageTemplate</Key>
