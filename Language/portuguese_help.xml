@@ -331,7 +331,7 @@ Pressão de Derretimento {POS:300}{0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>LogicTypeHeaderTemplate</Key>
-      <Text>{HEADER:Lógica}{LIST}{0}/LIST</Text>
+      <Text>{HEADER:Lógica}{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>LogicTypeTemplate</Key>
@@ -339,17 +339,12 @@ Pressão de Derretimento {POS:300}{0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ModeStringHeaderTemplate</Key>
-      <Text>{HEADER:Modos}{LIST}{0}/LIST</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>CreatedGasesTemplate</Key>
-      <Text>{HEADER:Gases}
-{LIST}{0}/LIST</Text>
+      <Text>{HEADER:Modos}{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>CreatedReagentTemplate</Key>
       <Text>{HEADER:Reagentes}
-{LIST}{0}/LIST</Text>
+{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ModeStringItemTemplate</Key>
@@ -357,13 +352,13 @@ Pressão de Derretimento {POS:300}{0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ReagentPageTemplate</Key>
-      <Text>Um {LINK:ReagentPage;reagent}, muitas vezes usados na forma de {LINK:IngotPage;Ingots}.
+      <Text>Um {LINK:ReagentPage;reagente}, muitas vezes usados na forma de {LINK:IngotPage;lingotes}.
 
 {HEADER:Geral}
-{LIST}Unidade{POS:300}{1}/LIST
+{LIST}Unidade {POS:300}{1}{/LIST}
 
 {HEADER:Encontrado em}
-{LIST}{2}/LIST</Text>
+{LIST}{2}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageTemplate</Key>
