@@ -174,18 +174,21 @@ Se olhares diretamente para uma estrutura que está incompleta obterás informa�
     <StationpediaPage>
       <Key>AlloyPage</Key>
       <Title>Ligas</Title>
-      <Text>Criadas numa {THING:StructureFurnace} com quantidades específicas de misturas de {LINK:ReagentPage;Reagent}, estes são {LINK:IngotPage;Ingots} avançados para serem usados em {LINK:FabricatorPage;Fabricators}. O {THING:StructureArcFurnace} não consegue os fundir.
+      <Text>Criadas numa {THING:StructureFurnace} ou {THING:StructureAdvancedFurnace} com misturas específicas de {LINK:ReagentPage;Reagentes}, estes são {LINK:IngotPage;Lingotes} avançados para serem usados em {LINK:FabricatorPage;Fabricadores}. O {THING:StructureArcFurnace} não é capaz de os fundir.
 
 {HEADER:Lista de Ligas}
-{LISTA_DE_LIGAS}</Text>
+{LIST_OF_ALLOYS}
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>SuperAlloyPage</Key>
       <Title>Super-Ligas</Title>
-      <Text>Criadas numa {THING:StructureFurnace} com quantidades específicas de misturas de {LINK:ReagentPage;Reagent}, estes são {LINK:IngotPage;Ingots} avançados para serem usados em {LINK:FabricatorPage;Fabricators}. O {THING:StructureArcFurnace} não consegue os fundir.
+      <Text>
+        Criadas numa {THING:StructureAdvancedFurnace} com misturas específicas de {LINK:ReagentPage;Reagentes}, estes são {LINK:IngotPage;Lingotes} avançados para serem usados em {LINK:FabricatorPage;Fabricadores}. O {THING:StructureArcFurnace} e o {THING:StructureFurnace} não é capaz de os fundir.
 
-{HEADER:Lista de Ligas}
-{LISTA_DE_LIGAS}</Text>
+{HEADER:Lista de Super-Ligas}
+{LIST_OF_SUPER_ALLOYS}
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>OrePage</Key>
@@ -217,10 +220,11 @@ Estes são minérios que derretem se forem expostos ao sol ou a calor e produzem
     <StationpediaPage>
       <Key>ResourcePage</Key>
       <Title>Recursos</Title>
-      <Text>Estes são itens que são consumidos durante a {LINK:ConstructionPage;Construction} e outras tarefas.
-
+      <Text>Estes são itens que são consumidos durante a {LINK:ConstructionPage;construção} e outras tarefas.
+      
 {HEADER:Lista de Recursos}
-{LISTA_DE_RECURSOS}</Text>
+{LIST_OF_RESOURCES}
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>FoodPage</Key>
