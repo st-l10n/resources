@@ -378,5 +378,29 @@
       <Text>{HEADER:Реагенты}
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPageTemplate</Key>
+      <Text>{LINK:ReagentPage;Реагент}, часто используемый в форме {LINK:IngotPage;слитков}.
+
+{HEADER:Общая}
+{LIST}шт. {POS:300}{1}{/LIST}
+
+{HEADER:Найти в}
+{LIST}{2}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageTemplate</Key>
+      <Text>{LINK:GasPage;Газ}, часто производимый, когда {LINK:SmeltingPage;выплавляется}.
+
+{HEADER:Общая}
+{LIST}Удельная теплоемкость {POS:300}{1}{2}{/LIST}
+
+{HEADER:Найти в}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageFlamableTemplate</Key>
+      <Text>Огнеопасный предел {POS:300}{0} до {1}</Text>
+    </StationpediaPage>
   </HelpPage>
 </Language>
