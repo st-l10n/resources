@@ -153,6 +153,12 @@
       <Text>Когда у вас есть {LINK:OrePage;руда}, вам нужно превратить её в {LINK:IngotPage;слитки}, чтобы можно было использовать их как {LINK:ReagentPage;реагенты}. При плавке часто образуются побочные {LINK:GasPage;газы}. Это происходит в {THING:StructureArcFurnace} (для простых рецептов) и в {THING:StructureFurnace} для сложных {LINK:AlloyPage;сплавов}, и наконец {THING:StructureAdvancedFurnace} для {LINK:SuperAlloyPage;суперсплавов}. Для сложных сплавов вам нужно будет подготовить идеальные соотношения: {LINK:TemperaturePage;температуры} и {LINK:PressurePage;давления}.
 </Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>MiningPage</Key>
+      <Title>Горное дело</Title>
+      <Text>Вы можете добывать {LINK:OrePage;руду} используя {THING:ItemMiningDrill}. Если вы носите {THING:ItemMiningBelt}, то в него автоматически помещается выкопанная {LINK:OrePage;руда}.
+</Text>
+    </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
