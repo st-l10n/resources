@@ -320,8 +320,32 @@
       <Text>Подключается к {POS:300}{THING:StructureLogicTransmitter}</Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>ThingNutritionTemplate</Key>
+      <Text>Максимальная пищевая ценность {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>IceMeltingTemplate</Key>
-      <Text>Температура плавления {POS:300}{1}Давление плавления {POS:300}{0}</Text>
+      <Text>Температура плавления {POS:300}{1}
+Давление плавления {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatorsHeaderTemplate</Key>
+      <Text>{HEADER:Изготовлено}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructedByHeaderTemplate</Key>
+      <Text>{HEADER:Построен из}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedHeaderTemplate</Key>
+      <Text>{HEADER:Может изготовить}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructedHeaderTemplate</Key>
+      <Text>{HEADER:Можно построить}
+{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
   </HelpPage>
 </Language>
