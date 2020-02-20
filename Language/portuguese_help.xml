@@ -142,12 +142,13 @@ Os seguintes dispositivos podem ser conectados e usados por um sistema de contro
     <StationpediaPage>
       <Key>SmeltingPage</Key>
       <Title>Fundição</Title>
-      <Text>Assim que obtenhas {LINK:OrePage;ore}, vais precisar de os transformar em  {LINK:IngotPage;ingots} de modo a poderes usar os seus {LINK:ReagentPage;reagents}. A fundição irá produzir {LINK:GasPage;gases}. Isto ocorrerá  quer seja na {THING:StructureArcFurnace} (para receitas simples) quer seja na {THING:StructureFurnace} para mais as complicadas {LINK:AlloyPage;Alloys}. Para as ligas mais complexas, vais precisar de alcançar misturas em quantidades perfeitas, {LINK:TemperaturePage;Temperature}, e {LINK:PressurePage;Pressure}. </Text>
+      <Text>Assim que obtenhas {LINK:OrePage;minério}, vais precisar de os transformar em {LINK:IngotPage;lingotes} de modo a poderes usar os seus {LINK:ReagentPage;reagentes}. A fundição irá produzir {LINK:GasPage;gases}. Isto ocorrerá quer seja na {THING:StructureArcFurnace} (para receitas simples) quer seja na {THING:StructureFurnace} para mais complicadas {LINK:AlloyPage;Ligas}, e finalmente na {THING:StructureAdvancedFurnace} para as super complexas {LINK:SuperAlloyPage;Super-Ligas}. Para as ligas mais complexas, vais precisar de alcançar misturas em quantidades perfeitas, {LINK:TemperaturePage;Temperatura}, e {LINK:PressurePage;Pressão}. 
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>MiningPage</Key>
       <Title>Minerando</Title>
-      <Text>Podes minerar {LINK:OrePage;ore} usando uma {THING:ItemMiningDrill}. Se estiveres a usar um {THING:ItemMiningBelt} o {LINK:OrePage;ore} será automaticamente armazenado nele.</Text>
+      <Text>Podes minerar {LINK:OrePage;minério} usando uma {THING:ItemMiningDrill}. Se estiveres a usar um {THING:ItemMiningBelt} o {LINK:OrePage;minério} será automaticamente armazenado nele.</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ConstructionPage</Key>
@@ -165,13 +166,22 @@ Se olhares diretamente para uma estrutura que está incompleta obterás informa�
       <Key>ReagentPage</Key>
       <Title>Reagentes</Title>
       <Text>Estes são quantidades químicas de certos tipos.
-
+      
 {HEADER:Lista de Reagentes}
-{LISTA_DE_REAGENTES}</Text>
+{LIST_OF_REAGENTS}
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>AlloyPage</Key>
       <Title>Ligas</Title>
+      <Text>Criadas numa {THING:StructureFurnace} com quantidades específicas de misturas de {LINK:ReagentPage;Reagent}, estes são {LINK:IngotPage;Ingots} avançados para serem usados em {LINK:FabricatorPage;Fabricators}. O {THING:StructureArcFurnace} não consegue os fundir.
+
+{HEADER:Lista de Ligas}
+{LISTA_DE_LIGAS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>SuperAlloyPage</Key>
+      <Title>Super-Ligas</Title>
       <Text>Criadas numa {THING:StructureFurnace} com quantidades específicas de misturas de {LINK:ReagentPage;Reagent}, estes são {LINK:IngotPage;Ingots} avançados para serem usados em {LINK:FabricatorPage;Fabricators}. O {THING:StructureArcFurnace} não consegue os fundir.
 
 {HEADER:Lista de Ligas}
