@@ -289,6 +289,14 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
+      <Key>ThingTemplate</Key>
+      <Text>{0}
+
+{HEADER:Общая}
+{LIST}Prefab Hash {POS:300}{1}
+Можно покрасить {POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>IceMeltingTemplate</Key>
       <Text>Температура плавления {POS:300}{1}Давление плавления {POS:300}{0}</Text>
     </StationpediaPage>
