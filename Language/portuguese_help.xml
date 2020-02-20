@@ -100,21 +100,23 @@ O botão {KEY:InventorySelect} irá trocar qualquer coisa que tenham selecionado
       <Key>AirlockDevicePage</Key>
       <Title>Dispositivos de Airlock</Title>
       <Text>Colocando um {THING:CircuitboardAirlockControl} numa {THING:StructureConsole} podes conectar vários dispositivos a ele, de modo a montar uma airlock funcional.
-
+      
 {HEADER:Lista de Dispositivos do Airlock}
 Os seguintes dispositivos podem ser conectados e usados por um sistema de controlo de airlock:
-{LISTA_DE_DISPOSITIVOS_DO_AIRLOCK}</Text>
+{LIST_OF_AIRLOCK_DEVICES}
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>LogicUnitPage</Key>
       <Title>Unidades Lógicas</Title>
       <Text>{HEADER:Lista de Unidades Lógicas}
-{LISTA_DE_UNIDADES_LÓGICAS}</Text>
+{LIST_OF_LOGIC_UNITS}
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>SlotLeftHand</Key>
       <Title>Compartimentos das Mãos</Title>
-      <Text>As tuas mãos são compartimentos especiais, Tu tens sempre uma mão ativa, que é a mão que está a ser usada pela {COLORRED:Primary Action}. para mudar de mão ativa, carrega na tecla {KEY:SwapHands}. A tua mão ativa pode ser interagida carregando na tecla {KEY:ActiveHandSlot} a qual irá abrir e fechar os conteúdos nessa mão ativa. Como sempre, podes usar o {KEY:MouseControl} para fazeres aparecer o cursor do rato e interagir desse modo. Para mais informações, vê a secção {LINK:InventoryPage;Inventory}.</Text>
+      <Text>As tuas mãos são compartimentos especiais, Tu tens sempre uma mão ativa, que é a mão que está a ser usada pela {COLORRED:Primary Action}. para mudar de mão ativa, carrega na tecla {KEY:SwapHands}. A tua mão ativa pode ser interagida carregando na tecla {KEY:ActiveHandSlot} a qual irá abrir e fechar os conteúdos nessa mão ativa. Como sempre, podes usar o {KEY:MouseControl} para fazeres aparecer o cursor do rato e interagir desse modo. Para mais informações, vê a secção {LINK:InventoryPage;Inventário}.</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>SlotRightHand</Key>
