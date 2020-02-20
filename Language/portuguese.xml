@@ -4758,8 +4758,16 @@
       <Value>Desistir</Value>
     </Record>
     <Record>
+      <Key>AlertYourSaveFileIsBroken</Key>
+      <Value>O arquivo {0} é invalido. Verifique o mundo {1}.</Value>
+    </Record>
+    <Record>
       <Key>AlertInvalidIP</Key>
-      <Value>O endereço de IP é inválido {0} \nVerifique se o endereço de IP ou a URL é válido</Value>
+      <Value>O endereço de IP é inválido {0} \nVerifique se o endereço de IP ou o URL é válido</Value>
+    </Record>
+    <Record>
+      <Key>AlertNoBackups</Key>
+      <Value>A pasta de Backups não existe ou está vazia.</Value>
     </Record>
     <Record>
       <Key>AlertPlayerCountExceeded</Key>
@@ -4771,8 +4779,10 @@
     </Record>
     <Record>
       <Key>AlertNoResponse</Key>
-      <Value>Não há resposta do Servidor do Jogo.
-Por favor, tente novamente.</Value>
+      <Value>
+        Não há resposta do Servidor do Jogo.
+        Por favor, tente novamente.
+      </Value>
     </Record>
     <Record>
       <Key>AlertKicked</Key>
@@ -4836,7 +4846,7 @@ Por favor, tente novamente.</Value>
     </Record>
     <Record>
       <Key>SaveMenuOverwriteButton</Key>
-      <Value>Regravar</Value>
+      <Value>Sobrescrever</Value>
     </Record>
     <Record>
       <Key>SaveMenuNamePlaceholder</Key>
