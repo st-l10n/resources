@@ -339,13 +339,20 @@
     </StationpediaPage>
     <StationpediaPage>
       <Key>CreatedHeaderTemplate</Key>
-      <Text>{HEADER:Может изготовить}
+      <Text>{HEADER:Можно изготовить}
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ConstructedHeaderTemplate</Key>
       <Text>{HEADER:Можно построить}
 {LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicTransmitHeaderTemplate</Key>
+      <Text>
+        {HEADER:Подключается к}
+        {LIST}{0}{/LIST}
+      </Text>
     </StationpediaPage>
   </HelpPage>
 </Language>
