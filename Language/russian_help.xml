@@ -308,6 +308,18 @@
       <Text>{HEADER:Слоты}{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>ThingSlotItemTemplate</Key>
+      <Text>{0}. {POS:100}{1} {POS:300}Тип {2}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingStackTemplate</Key>
+      <Text>Размер стака {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingTransmissibleTemplate</Key>
+      <Text>Подключается к {POS:300}{THING:StructureLogicTransmitter}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>IceMeltingTemplate</Key>
       <Text>Температура плавления {POS:300}{1}Давление плавления {POS:300}{0}</Text>
     </StationpediaPage>
