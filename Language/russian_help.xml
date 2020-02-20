@@ -190,6 +190,15 @@
 {LIST_OF_GASES}
 </Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>AlloyPage</Key>
+      <Title>Сплавы</Title>
+      <Text>Созданные в {THING:StructureFurnace} или {THING:StructureAdvancedFurnace} из нескольких специальных {LINK:ReagentPage;реагентов}, они представляют собой улучшенные {LINK:IngotPage;слитки} для использования в {LINK:FabricatorPage;фабрикаторах}. {THING:StructureArcFurnace} не может выплавить их.
+
+{HEADER:Список сплавов}
+{LIST_OF_ALLOYS}
+</Text>
+    </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
