@@ -147,6 +147,12 @@
 {LIST_OF_DEVICES}
 </Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>SmeltingPage</Key>
+      <Title>Выплавка</Title>
+      <Text>Когда у вас есть {LINK:OrePage;руда}, вам нужно превратить её в {LINK:IngotPage;слитки}, чтобы можно было использовать их как {LINK:ReagentPage;реагенты}. При плавке часто образуются побочные {LINK:GasPage;газы}. Это происходит в {THING:StructureArcFurnace} (для простых рецептов) и в {THING:StructureFurnace} для сложных {LINK:AlloyPage;сплавов}, и наконец {THING:StructureAdvancedFurnace} для {LINK:SuperAlloyPage;суперсплавов}. Для сложных сплавов вам нужно будет подготовить идеальные соотношения: {LINK:TemperaturePage;температуры} и {LINK:PressurePage;давления}.
+</Text>
+    </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
