@@ -208,6 +208,45 @@
 {LIST_OF_SUPER_ALLOYS}
 </Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>OrePage</Key>
+      <Title>Руды</Title>
+      <Text>Это элементы {LINK:MiningPage;минералов}, которые могут быть {LINK:SmeltingPage;расплавлены}. Вы также можете получить смешанную руду, переработав предметы в {THING:StructureRecycler} и затем пропустив ее через {THING:StructureCentrifuge}, которая разделит ее на отдельные {LINK:OrePage;руды} для {LINK:SmeltingPage;выплавки}.
+
+{HEADER:Melting Ices}
+Есть некоторые руды, которые плавятся под воздействием солнечного света или тепла и производят {LINK:GasPage;газы}. Например, {THING:ItemIce} плавится в {GAS:Water} и {GAS:Oxygen}. Будьте осторожны, чтобы они не попали под солнечный свет или не нагрелись, пока вам это не потребуется.
+
+{HEADER:Список руд}
+{LIST_OF_ORES}
+</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>IngotPage</Key>
+      <Title>Слитки</Title>
+      <Text>Это предметы, которые обычно изготавливаются из {LINK:SmeltingPage;расплавленной} {LINK:OrePage;руды}.
+
+{HEADER:Список слитков}
+{LIST_OF_INGOTS}
+</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ToolPage</Key>
+      <Title>Инструменты</Title>
+      <Text>Это предметы, которые могут поместиться в специальном слоте для инструментов и используются для {LINK:ConstructionPage;строительства} и других задач.
+
+{HEADER:Список инструментов}
+{LIST_OF_TOOLS}
+</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ResourcePage</Key>
+      <Title>Ресурсы</Title>
+      <Text>Это предметы, которые потребляются во время {LINK:ConstructionPage;строительства} и в других задачах.
+
+{HEADER:Список ресурсов}
+{LIST_OF_RESOURCES}
+</Text>
+    </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
