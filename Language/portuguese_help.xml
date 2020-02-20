@@ -299,31 +299,35 @@ Pressão de Derretimento {POS:300}{0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>CreatorsHeaderTemplate</Key>
-      <Text>{HEADER:Produzido por}{LIST}{0}/LIST</Text>
+      <Text>{HEADER:Produzido por}{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ConstructedByHeaderTemplate</Key>
       <Text>{HEADER:Construido por}
-{LIST}{0}/LIST</Text>
+{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>CreatedHeaderTemplate</Key>
       <Text>{HEADER:Pode Produzir}
-{LIST}{0}/LIST</Text>
+{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ConstructedHeaderTemplate</Key>
       <Text>{HEADER:Pode Construir}
-{LIST}{0}/LIST</Text>
+{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>LogicTransmitHeaderTemplate</Key>
-      <Text>{HEADER:Construido por}
-{LIST}{0}/LIST</Text>
+      <Text>
+        {HEADER:Conectado a}
+        {LIST}{0}{/LIST}
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>CreatorTemplate</Key>
-      <Text>{LIST}{0}{LIST:300}{1}/LIST/LIST</Text>
+      <Key>TierListHeaderTemplate</Key>
+      <Text>
+        {HEADER:Lista de Niveis de Estruturas}
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>LogicTypeHeaderTemplate</Key>
