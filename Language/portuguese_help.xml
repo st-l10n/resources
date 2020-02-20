@@ -196,13 +196,14 @@ Se olhares diretamente para uma estrutura que está incompleta obterás informa�
     <StationpediaPage>
       <Key>OrePage</Key>
       <Title>Minérios</Title>
-      <Text>Estes itens são {LINK:MiningPage;mined} e normalmente são {LINK:SmeltingPage;smelted}. Podes obter minérios misturados de um {THING:StructureRecycler} e depois transferi-los para uma {THING:StructureCentrifuge} que os irá separar em {LINK:OrePage;ore} para serem  {LINK:SmeltingPage;smelting}.
-
+      <Text>Estes itens são {LINK:MiningPage;minerados} e normalmente são {LINK:SmeltingPage;fundidos}. Podes obter minérios misturados de um {THING:StructureRecycler} e depois transferi-los para uma {THING:StructureCentrifuge} que os irá separar em {LINK:OrePage;minérios} para serem  {LINK:SmeltingPage;fundidos}.
+      
 {HEADER:Derretendo Gelos}
 Estes são minérios que derretem se forem expostos ao sol ou a calor e produzem {LINK:GasPage;gases}. Por exemplo, o {THING:ItemIce} derrete em {GAS:Water} e {GAS:Oxygen}. Tem cautela para os manter longe de fontes de calor ou do sol até que decidas realmente os derreter.
-
+      
 {HEADER:Lista de Minérios}
-{LISTA_DE_MINÉRIOS}</Text>
+{LIST_OF_ORES}
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>IngotPage</Key>
