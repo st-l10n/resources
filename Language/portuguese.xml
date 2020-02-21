@@ -5500,6 +5500,22 @@ Temperatura {1}</Value>
       <Value>Sem descrição</Value>
     </Record>
     <Record>
+      <Key>LogicTypeOpen</Key>
+      <Value>1 se o dispositivo estiver aberto, caso contrário, 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeError</Key>
+      <Value>1 se o dispositivo estiver em estado de erro, caso contrário, 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeLock</Key>
+      <Value>1 se o dispositivo estiver bloqueado, caso contrário 0, pode ser definido na maioria dos dispositivos e impede que o utilizador aceda aos valores</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressure</Key>
+      <Value>A leitura atual da pressão do dispositivo</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeTemperature</Key>
       <Value>A leitura atual da temperatura do dispositivo</Value>
     </Record>
