@@ -2,7 +2,55 @@
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>FR</Code>
   <Interface>
+    <Record>
+      <Key>TutorialUIBasics</Key>
+      <Value>#1 Interface de base</Value>
+    </Record>
+    <Record>
+      <Key>UIBasicsDescription</Key>
+      <Value>Bienvenue à l’Académie, Cadet ! Ici, nous allons vous enseigner les bases de devenir un Stationeer. Dans notre première leçon, nous allons faire un plongeon dans les bases de l’interface et des contrôles.</Value>
+    </Record>
     <!-- start the tutorial -->
+    <Record>
+      <Key>TutorialMouseControls</Key>
+      <Value>Où est Mon Curseur ?</Value>
+    </Record>
+    <Record>
+      <Key>TutorialMouseControlsDescription</Key>
+      <Value>Commençons. Notre première tâche est d’avoir une lecture rapide de la Stationpedia. Une fois terminé, fermez le Stationpedia à l’aide de {KEY:Help} ou avec la souris en tenant appuyer {KEY:MouseControl} et en déplaçant le curseur de la souris.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialMouseControlsTask1</Key>
+      <Value>Fermez le {LINK:Home;Stationpedia}.</Value>
+    </Record>
+    <Record>
+      <Key>AlertSystem</Key>
+      <Value>ALERTE</Value>
+    </Record>
+    <Record>
+      <Key>AlertSystemDescription</Key>
+      <Value>Alerte entrante !!!</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUIControls</Key>
+      <Value>Fermer le casque</Value>
+    </Record>
+    <Record>
+      <Key>ALTTask1</Key>
+      <Value>Fermer l’alerte</Value>
+    </Record>
+    <Record>
+      <Key>AlertSystem2</Key>
+      <Value>ALERTE</Value>
+    </Record>
+    <Record>
+      <Key>ALTTask2</Key>
+      <Value>Fermer l’alerte</Value>
+    </Record>
+    <Record>
+      <Key>AlertSystemDescription2</Key>
+      <Value>Alerte entrante !!!</Value>
+    </Record>
     <Record>
       <Key>ALTTask3</Key>
       <Value>Fermer l’alerte</Value>
