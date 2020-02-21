@@ -5528,6 +5528,22 @@ Temperatura {1}</Value>
       <Value>Valor seguro da pressão interna, em KPa</Value>
     </Record>
     <Record>
+      <Key>LogicTypePowerPotential</Key>
+      <Value>Quanto potencial de energia o dispositivo ou a rede fornece</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePowerActual</Key>
+      <Value>Quanta energia o dispositivo ou rede está atualmente usando</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeQuantity</Key>
+      <Value>Quantidade total no dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeOn</Key>
+      <Value>O estado atual do dispositivo, 0 para desativado, 1 para ativado</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeImportQuantity</Key>
       <Value>Quantidade total de itens importados pelo dispositivo</Value>
     </Record>
