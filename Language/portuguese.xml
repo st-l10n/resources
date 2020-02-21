@@ -5648,6 +5648,18 @@ Temperatura {1}</Value>
       <Value>Não existem mais nenhuns dispositivos que possam ser lidos na rede</Value>
     </Record>
     <Record>
+      <Key>LogicTypeElevatorSpeed</Key>
+      <Value>Velocidade atual do elevador</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeElevatorLevel</Key>
+      <Value>Nível em que está o elevador</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRecipeHash</Key>
+      <Value>Hash atual da receita que o dispositivo está definido a produzir</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeRequestHash</Key>
       <Value>Quando definido o identificador único, solicita um item do tipo definido do dispositivo</Value>
     </Record>
