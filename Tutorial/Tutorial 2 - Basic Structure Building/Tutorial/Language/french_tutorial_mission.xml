@@ -49,8 +49,30 @@ Pour construire le cadre, couvrez la zone en surbrillance avec les cadres dans v
       <Value>Compléter les cadres</Value>
     </Record>
     <Record>
+      <Key>TutorialCompletingFramesDescription</Key>
+      <Value>À l’heure actuelle, nos {THING:ItemIronFrames} ne sont pas étanches à l’air. Pour compléter les {THING:ItemIronFrames}, nous avons besoin de souder quelques plaque de fer à elle. Si vous ne l’avez pas déjà fait, appuyez sur le bouton {KEY:SecondaryAction} pour retirer l’objet curseur de l’écran.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompletingFramesTask1</Key>
+      <Value>Retournez à la caisse et échangez les cadres pour des {THING:ItemIronSheets} en appuyant sur le bouton{KEY:PrimaryAction} tout en maintenant le bouton {THING:ItemIronFrames}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompletingFramesTask2</Key>
+      <Value>Equipez votre {THING:ItemWeldingTorch} de votre ceinture d&apos;outils et allumez-la avec la touche {KEY:ToggleHandPower} et revenez au cadre précédemment placé et maintenez le bouton {KEY:PrimaryAction} pour construire le cadre jusqu&apos;à ce qu&apos;il soit complet. Pour ce faire, vous aurez besoin de {THING:ItemIronSheets}. Remarque : N&apos;oubliez pas de désactiver le {THING:ItemWeldingTorch} lorsque vous avez terminé, appuyez sur la touche {KEY:ToggleHandPower}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompletingFramesTask3</Key>
+      <Value>Terminez le {THING:ItemIronFrames} en continuant à le manier.</Value>
+    </Record>
+    <Record>
       <Key>TutorialDoingitOnYourOwn</Key>
       <Value>Le faire par vous-même</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDoingitOnYourOwnDescription</Key>
+      <Value>Bravo, Cadet ! Maintenant que vous avez construit votre premier cadre, nous allons construire un peu plus. Utilisez ce que vous avez appris pour construire plus de {THING:ItemIronFrames} dans les zones en surbrillance. 
+            
+Astuce : Si vous tombez dans un cadre et que vous êtes coincé, utilisez la touche {KEY:Jetpack} pour activer votre Jetpack et vous envoler, puis désactivez-le avec la même touche.</Value>
     </Record>
     <Record>
       <Key>TutorialDoingitOnYourOwnTask1</Key>
@@ -82,7 +104,7 @@ Pour construire le cadre, couvrez la zone en surbrillance avec les cadres dans v
     </Record>
     <Record>
       <Key>TutorialDoingitOnYourOwnpt2</Key>
-      <Value>Le faire de votre propre part 2.</Value>
+      <Value>Le faire par vous-même - partie 2</Value>
     </Record>
     <Record>
       <Key>TutorialDoingitOnYourOwnpt2Description</Key>
