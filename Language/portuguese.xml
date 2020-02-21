@@ -5546,6 +5546,10 @@ Apenas não fique triste quando se fizer explodir em pedaços minúsculos, ser a
       <Value>1 se o dispositivo estiver aberto, caso contrário, 0</Value>
     </Record>
     <Record>
+      <Key>LogicTypeMode</Key>
+      <Value>Número inteiro representando o estado do modo, dispositivos diferentes terão outros estados disponíveis</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeError</Key>
       <Value>1 se o dispositivo estiver em estado de erro, caso contrário, 0</Value>
     </Record>
