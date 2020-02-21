@@ -4408,7 +4408,7 @@
     </Record>
     <Record>
       <Key>TutorialStartButton</Key>
-      <Value>Commencer</Value>
+      <Value>Démarrer Tutorial</Value>
     </Record>
     <Record>
       <Key>TutorialComplete</Key>
@@ -5940,6 +5940,10 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>Température personnalisée</Value>
     </Record>
     <Record>
+      <Key>LavaLevelField</Key>
+      <Value>Niveau de lave</Value>
+    </Record>
+    <Record>
       <Key>SolidTerrainColourField</Key>
       <Value>Couleur du terrain solide</Value>
     </Record>
@@ -5952,8 +5956,88 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>Annuler</Value>
     </Record>
     <Record>
+      <Key>CartridgeElectronicReaderRecipeTitle</Key>
+      <Value>Recette:</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeElectronicReaderRecipeOrder</Key>
+      <Value>1 sur 2</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeElectronicReaderAutoFlashTitle</Key>
+      <Value>Point de fusion:</Value>
+    </Record>
+    <Record>
       <Key>CartridgeElectronicReaderAutoITitle</Key>
       <Value>Auto-allumage:</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeElectronicReaderAutoHashTitle</Key>
+      <Value>Hachage:</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderIron</Key>
+      <Value>Fer</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderIce</Key>
+      <Value>Glace</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderGold</Key>
+      <Value>Or</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderCoal</Key>
+      <Value>Charbon</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderCopper</Key>
+      <Value>Cuivre</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderSilver</Key>
+      <Value>Argent</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderLead</Key>
+      <Value>Plomb</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderSilicon</Key>
+      <Value>Silicium</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderCarbon</Key>
+      <Value>Carbone</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderSteel</Key>
+      <Value>Acier</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderHydrocarbon</Key>
+      <Value>Hydrocarbure</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderSilver</Key>
+      <Value>Argent</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderLead</Key>
+      <Value>Plomb</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderSolder</Key>
+      <Value>Soudure</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderSilicon</Key>
+      <Value>Silicium</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderAlcohol</Key>
+      <Value>Alcool</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderOil</Key>
@@ -5961,19 +6045,47 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
     </Record>
     <Record>
       <Key>ElectronicReaderColorRed</Key>
-      <Value>Couleur de Yeux</Value>
+      <Value>Coloration rouge</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderColorBlue</Key>
-      <Value>Couleur de Yeux</Value>
+      <Value>Coloration bleue</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderColorYellow</Key>
+      <Value>Coloration jaune</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderColorOrange</Key>
-      <Value>Terrain</Value>
+      <Value>Coloration orange</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderColorGreen</Key>
+      <Value>Coloration verte</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderMilk</Key>
+      <Value>Lait</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderFlour</Key>
       <Value>Farine</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderEgg</Key>
+      <Value>Oeuf</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReadereggs</Key>
+      <Value>oeufs</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderTime</Key>
+      <Value>Durée</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderSeconds</Key>
+      <Value>Secondes</Value>
     </Record>
     <Record>
       <Key>SettingsThingRenderDistance</Key>
@@ -5990,6 +6102,30 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
     <Record>
       <Key>ElectronicReaderPressure</Key>
       <Value>Pression</Value>
+    </Record>
+    <Record>
+      <Key>NetworkAnalyserNetwork</Key>
+      <Value>CABLE RESEAU</Value>
+    </Record>
+    <Record>
+      <Key>NetworkAnalyserActual</Key>
+      <Value>ACTUEL</Value>
+    </Record>
+    <Record>
+      <Key>NetworkAnalyserPotential</Key>
+      <Value>POTENTIEL</Value>
+    </Record>
+    <Record>
+      <Key>NetworkAnalyserDevices</Key>
+      <Value>APPAREILS</Value>
+    </Record>
+    <Record>
+      <Key>NetworkAnalyserRequired</Key>
+      <Value>OBLIGATOIRE</Value>
+    </Record>
+    <Record>
+      <Key>NetworkAnalyserTitle</Key>
+      <Value>ANALYSEUR RÉSEAU</Value>
     </Record>
   </Interface>
   <Colors>
