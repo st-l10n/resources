@@ -5653,7 +5653,11 @@ Temperatura {1}</Value>
     </Record>
     <Record>
       <Key>LogicTypeFiltration</Key>
-      <Value>O estado atual do sistema de filtração, por exemplo Filtração = 1 para um traje rígido, ativa a filtração</Value>
+      <Value>O estado atual do sistema de filtração, por exemplo Filtração = 1 num traje rígido, ativa a filtração</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeAirRelease</Key>
+      <Value>O estado atual do sistema de libertação de ar, por exemplo AirRelease = 1 num traje rígido, ativa a libertação de ar</Value>
     </Record>
     <Record>
       <Key>LogicTypePositionX</Key>
