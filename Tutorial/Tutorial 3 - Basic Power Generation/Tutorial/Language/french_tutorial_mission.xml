@@ -43,6 +43,18 @@
       <Value>Energie solaire</Value>
     </Record>
     <Record>
+      <Key>TutorialGoingSolarDescription</Key>
+      <Value>Excellent travail, Cadet ! Notre prochaine tâche est de mettre en place un {THING:StructureSolarPanel}. Cela fournira de l’énergie renouvelable pour la base sans avoir besoin de carburant. Cependant, il ne fonctionnera que pendant la journée.</Value>
+    </Record>
+    <Record>
+      <Key>GoingSolarTask1</Key>
+      <Value>Prenez le {THING:ItemKitSolarPanel} dans la caisse de construction 1.</Value>
+    </Record>
+    <Record>
+      <Key>GoingSolarTask2</Key>
+      <Value>Les kits peuvent être utilisés pour construire différentes structures et variantes. Pour construire ce panneau solaire, vous devrez passer à la variante correcte à l’aide de la roue de défilement. Avec le panneau solaire sélectionné, assortissez les formes du curseur avec l’endroit en surbrillance. N’oubliez pas d’utiliser {KEY:QuantityModifier} pour faire pivoter l’objet à la position correcte.</Value>
+    </Record>
+    <Record>
       <Key>TutorialGoingSolarpart2</Key>
       <Value>Energie solaire - partie 2</Value>
     </Record>
@@ -51,8 +63,22 @@
       <Value>Comme le four à arc, le panneau solaire nécessite également une étape supplémentaire de construction.</Value>
     </Record>
     <Record>
+      <Key>GoingSolarPart2Task1</Key>
+      <Value>Prenez les {THING:ItemGlassSheets} dans la caisse de construction 1.</Value>
+    </Record>
+    <Record>
+      <Key>GoingSolarPart2Task2</Key>
+      <Value>Placez les {THING:ItemGlassSheets} sur le panneau solaire.</Value>
+    </Record>
+    <Record>
       <Key>TutorialLearningToWire</Key>
       <Value>Apprendre à cabler</Value>
+    </Record>
+    <Record>
+      <Key>TutorialLearningToWireDescription</Key>
+      <Value>Maintenant, nous devons connecter nos équipements ensemble à l&apos;aide de fils. Sur Terre, les fils normaux feront l&apos;affaire. Cependant, l&apos;oxygène atomique et le rayonnement solaire dégradent de nombreuses substances exposées à l&apos;espace. Par conséquent, nous avons conçu un type spécial de câble capable de résister aux environnements spatiaux. Il peut transporter à la fois des données et de l&apos;énergie, vous permettant de contrôler les machines à partir d&apos;un panneau de commande. Cela sera traité plus tard.
+
+Dans votre {SLOT:Belt}, vous trouverez le {THING:ItemCableCoil}, placez les câbles dans la zone en surbrillance. N’oubliez pas d’utiliser la roue de défilement pour sélectionner le fil correct et d’utiliser la touche {KEY:QuantityModifier} pour faire pivoter pour correspondre au placement</Value>
     </Record>
     <Record>
       <Key>LearningToWireTask0.5</Key>
@@ -75,12 +101,24 @@
       <Value>Câblage des fils</Value>
     </Record>
     <Record>
+      <Key>TutorialWiringWiresDescription</Key>
+      <Value>Étendre les fils à la plate-forme principale.</Value>
+    </Record>
+    <Record>
       <Key>TutorialPowerControlersAndbatteryCharges</Key>
       <Value>Charges de batterie et contrôleurs d’alimentation</Value>
     </Record>
     <Record>
       <Key>PowerControlersAndbatteryChargesTask2</Key>
       <Value>Placez le {THING:ItemAreaPowerControl} dans la zone en surbrillance.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialFinishingTheCircuit</Key>
+      <Value>Terminer le circuit</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTutorialFinishingTheCircuitDescription</Key>
+      <Value>Câblez le reste des composants jusqu’à nos machines.</Value>
     </Record>
     <Record>
       <Key>FinishingTheCircuitTask2</Key>
@@ -97,6 +135,18 @@
     <Record>
       <Key>FinishingTheCircuitTask8</Key>
       <Value>Placez le {THING:StructureCableJunction}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSettingUpThePowerController</Key>
+      <Value>Mise en place du contrôleur d’alimentation</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSettingUpThePowerControllerDescription</Key>
+      <Value>Pour que le contrôleur d’alimentation fonctionne, nous devons ouvrir le couvercle et insérer une batterie, puis retourner le commutateur de disjoncteur pour permettre à l’électricité et aux données de passer à travers. Son habituellement recommandé d’utiliser une grande batterie pour assurer une alimentation durable en cas de panne, bien qu’une petite batterie pourrait être utilisé aussi.</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask1</Key>
+      <Value>Equipez le pied de biche de votre {SLOT:Belt}.</Value>
     </Record>
     <Record>
       <Key>SettingUpThePowerControllerTask4</Key>
