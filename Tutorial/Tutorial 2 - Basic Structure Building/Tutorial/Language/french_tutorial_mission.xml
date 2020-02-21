@@ -152,11 +152,11 @@
     </Record>
     <Record>
       <Key>TutorialDeconstructingAnAutolatheTask3</Key>
-      <Value> Utilisez la {THING: ItemAngleGrinder} pour retirer la tôle en fer du {THING: StructureAutolathe}.</Value>
+      <Value> Utilisez la {THING:ItemAngleGrinder} pour retirer la tôle en fer du {THING:StructureAutolathe}.</Value>
     </Record>
     <Record>
       <Key>TutorialDeconstructingAnAutolatheTask4</Key>
-      <Value> Enfin, utilisez le {THING: ItemWrench} pour emballer le {THING: StructureAutolathe} dans un {THING: ItemKitAutolathe}.</Value>
+      <Value> Enfin, utilisez le {THING:ItemWrench} pour emballer le {THING:StructureAutolathe} dans un {THING:ItemKitAutolathe}.</Value>
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolathe</Key>
@@ -164,7 +164,7 @@
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolatheDescription</Key>
-      <Value>Nous y sommes presque. La dernière étape consiste à construire le {THING: StructureAutolathe}. Le {THING: ItemKitAutolathe} est utilisé pour créer une grande variété de choses en utilisant des lingots et de l&apos;énergie comme ressources.</Value>
+      <Value>Nous y sommes presque. La dernière étape consiste à construire le {THING:StructureAutolathe}. Le {THING:ItemKitAutolathe} est utilisé pour créer une grande variété de choses en utilisant des lingots et de l&apos;énergie comme ressources.</Value>
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolatheTask1</Key>
@@ -179,12 +179,40 @@
       <Value>S&apos;éloigner partie 2</Value>
     </Record>
     <Record>
+      <Key>TutorialBuildingAnAutolathePart2Description</Key>
+      <Value>Certains éléments comme le {THING:ItemKitAutolathe} sont plus difficiles à construire et ont plus d’étapes dans le processus de construction.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolatheTask0.5</Key>
+      <Value>Ramassage les {THING:ItemIronSheets} du précédent {THING:StructureAutolathe}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolathePart2Task1</Key>
+      <Value>Soudez des {THING:ItemIronSheets} sur le {THING:StructureAutolathe}.</Value>
+    </Record>
+    <Record>
       <Key>TutorialBuildingAnAutolatheTask1.5</Key>
       <Value>Obtenez votre {THING:ItemCableCoil} depuis votre {SLOT:Belt}.</Value>
     </Record>
     <Record>
+      <Key>TutorialBuildingAnAutolathePart2Task2</Key>
+      <Value>Utilisez le {THING:ItemCableCoil} pour câbler l&apos;intérieur du fourneau.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolatheTask2.5</Key>
+      <Value>Obtenez les {THING:ItemPlasticSheets} du précédent {THING:StructureAutolathe}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolathePart2Task3</Key>
+      <Value>Soudez le {THING:ItemPlasticSheets} à la {THING:StructureAutolathe}&apos;.</Value>
+    </Record>
+    <Record>
       <Key>TutorialBuildingAnAutolatheTask3.5</Key>
       <Value>Obtenez votre {THING:ItemScrewdriver} depuis votre {SLOT:Belt}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolathePart2Task4</Key>
+      <Value>Terminez en vissant le panneau avant avec le {THING:ItemScrewdriver} de votre {SLOT:Belt}.</Value>
     </Record>
   </Interface>
 </Language>
