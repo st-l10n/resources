@@ -109,8 +109,26 @@ Dans votre {SLOT:Belt}, vous trouverez le {THING:ItemCableCoil}, placez les câb
       <Value>Charges de batterie et contrôleurs d’alimentation</Value>
     </Record>
     <Record>
+      <Key>TutorialPowerControlersAndbatteryChargesDescription</Key>
+      <Value>Dans notre prochaine étape, nous devons placer un {THING:ItemAreaPowerControl}. Les contrôleurs d’alimentation sont utilisés pour contrôler le flux d’alimentation et empêcher les câbles de brûler, ils fournissent également une petite quantité d’alimentation intermédiaire si les générateurs sont hors ligne.
+
+Deuxièmement, nous devons ajouter un {THING:ItemBatteryCharger} pour charger nos batteries épuisées. Nous voulons mettre cela devant notre {THING:ItemAreaPowerControl} afin que tout chargement de la batterie ne vide pas la batterie dans le {THING:ItemAreaPowerControl}.</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlersAndbatteryChargesTask1</Key>
+      <Value>Prenez le {THING:ItemAreaPowerControl} dans la caisse de construction 1.</Value>
+    </Record>
+    <Record>
       <Key>PowerControlersAndbatteryChargesTask2</Key>
       <Value>Placez le {THING:ItemAreaPowerControl} dans la zone en surbrillance.</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlersAndbatteryChargesTask3</Key>
+      <Value>Prenez le {THING:ItemBatteryCharger} dans la caisse de construction 2.</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlersAndbatteryChargesTask4</Key>
+      <Value>Placez le {THING:ItemBatteryCharger} dans la zone en surbrillance.</Value>
     </Record>
     <Record>
       <Key>TutorialFinishingTheCircuit</Key>
@@ -149,8 +167,20 @@ Dans votre {SLOT:Belt}, vous trouverez le {THING:ItemCableCoil}, placez les câb
       <Value>Equipez le pied de biche de votre {SLOT:Belt}.</Value>
     </Record>
     <Record>
+      <Key>SettingUpThePowerControllerTask2</Key>
+      <Value>Ouvrez le {THING:StructureAreaPowerControl} avec le pied-de-biche.</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask3</Key>
+      <Value>Prenez la {THING:ItemBatteryCellLarge} dans la caisse de construction 2.</Value>
+    </Record>
+    <Record>
       <Key>SettingUpThePowerControllerTask4</Key>
       <Value>Placez la {THING:ItemBatteryCellLarge} dans le {THING:StructureAreaPowerControl}.</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask5</Key>
+      <Value>Retournez le disjoncteur à la position &quot; On &quot; sur le {THING:StructureAreaPowerControl}.</Value>
     </Record>
   </Interface>
 </Language>
