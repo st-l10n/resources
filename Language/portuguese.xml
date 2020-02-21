@@ -5493,7 +5493,7 @@ Temperatura {1}</Value>
     </Record>
     <Record>
       <Key>SettingsUserSpeakerMode</Key>
-      <Value>Modo de Alto falante: </Value>
+      <Value>Modo de Altifalante: </Value>
     </Record>
     <Record>
       <Key>LogicTypeNone</Key>
@@ -5518,6 +5518,22 @@ Temperatura {1}</Value>
     <Record>
       <Key>LogicTypeTemperature</Key>
       <Value>A leitura atual da temperatura do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureExternal</Key>
+      <Value>Valor seguro da pressão externa, em KPa</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureInternal</Key>
+      <Value>Valor seguro da pressão interna, em KPa</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportQuantity</Key>
+      <Value>Quantidade total de itens importados pelo dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeExportQuantity</Key>
+      <Value>Quantidade total de itens exportados pelo dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeHorizontalRatio</Key>
