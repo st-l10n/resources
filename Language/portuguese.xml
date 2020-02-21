@@ -5532,8 +5532,16 @@ Temperatura {1}</Value>
       <Value>Valor seguro da pressão interna, em KPa</Value>
     </Record>
     <Record>
+      <Key>LogicTypeActivate</Key>
+      <Value>1 se o dispositivo estiver ativado (geralmente significa em execução), caso contrário, 0</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeCharge</Key>
       <Value>A carga atual que o dispositivo possui</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSetting</Key>
+      <Value>Uma definição variável que pode ser lida ou escrita, dependendo do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeReagents</Key>
