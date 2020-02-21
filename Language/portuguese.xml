@@ -5179,6 +5179,10 @@ Apenas não fique triste quando se fizer explodir em pedaços minúsculos, ser a
       <Value>Os satélites sugerem que uma caixa caiu perto, o seu rastreador de sinal deverá mostrar o caminho.</Value>
     </Record>
     <Record>
+      <Key>TradingNoMoneyHash</Key>
+      <Value>Não tem dinheiro suficiente para completar esta transação!</Value>
+    </Record>
+    <Record>
       <Key>SomethingWentWrongTrading</Key>
       <Value>Algo correu mal ao processar o comércio, algo saiu do fornecedor!</Value>
     </Record>
@@ -5220,8 +5224,10 @@ Apenas não fique triste quando se fizer explodir em pedaços minúsculos, ser a
     </Record>
     <Record>
       <Key>FurnaceChamberText</Key>
-      <Value>Pressão {0} 
-Temperatura {1}</Value>
+      <Value>
+        Pressão {0}
+        Temperatura {1}
+      </Value>
     </Record>
     <Record>
       <Key>FurnaceSmelting</Key>
@@ -5634,6 +5640,10 @@ Temperatura {1}</Value>
     <Record>
       <Key>LogicTypeExportQuantity</Key>
       <Value>Quantidade total de itens exportados pelo dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRequiredPower</Key>
+      <Value>Energia consumida em repouso, não inclui necessariamente energia extra solicitada</Value>
     </Record>
     <Record>
       <Key>LogicTypeHorizontalRatio</Key>
