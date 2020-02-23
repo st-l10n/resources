@@ -3,8 +3,72 @@
   <Code>ES</Code>
   <Interface>
     <Record>
+      <Key>BasicPowerGeneration</Key>
+      <Value>#3 Generación de energía básica</Value>
+    </Record>
+    <Record>
+      <Key>BasicPowerGenerationDescription</Key>
+      <Value>En esta lección, llevaremos luz al mundo en forma de electricidad.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWireCutting</Key>
+      <Value>Corte de cables</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWireCuttingDescription</Key>
+      <Value>Bienvenido de nuevo Cadete, Su primera tarea será limpiar algunos cables quemados viejos. Utilice el {THING:ItemWireCutters} de el cinturon de herramientas para eliminarlos.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWireCuttingTask1</Key>
+      <Value>Retire el cable quemado</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSolidFuelEnergy</Key>
+      <Value>Energía de combustible sólido</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSolidFuelEnergyDescription</Key>
+      <Value>Cadete, ahora que tiene una plataforma base y algunas máquinas en su lugar, tendrá que proporcionarles energía. No es que comience con el {THING:StructureSolidFuelGenerator}. El generador de combustible sólido es ideal para energía de emergencia o para bases tempranas que no tienen mucho almacenamiento de energía durante la noche. Es logico que requiere combustible sólido para funcionar.</Value>
+    </Record>
+    <Record>
+      <Key>SolidFuelEnergyTask1</Key>
+      <Value>Coge el {THING:ItemKitSolidGenerator} de la caja de construcción 1.</Value>
+    </Record>
+    <Record>
       <Key>SolidFuelEnergyTask2</Key>
       <Value>Colocar el {THING:StructureSolidFuelGenerator}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialGoingSolar</Key>
+      <Value>Ir a la parte Solar</Value>
+    </Record>
+    <Record>
+      <Key>TutorialGoingSolarDescription</Key>
+      <Value>¡Buen trabajo, Cadete! Nuestra siguiente tarea es configurar un {THING:StructureSolarPanel}. Esto proporcionará energía renovable para la base sin necesidad de combustible. Sin embargo, sólo funcionará durante el día. </Value>
+    </Record>
+    <Record>
+      <Key>GoingSolarTask1</Key>
+      <Value>Coge el {THING:ItemKitSolarPanel} de la caja de construcción 1.</Value>
+    </Record>
+    <Record>
+      <Key>GoingSolarTask2</Key>
+      <Value>Los kits se pueden utilizar para construir diferentes estructuras y variantes. Para construir este panel solar, tendrá que cambiar a la variante correcta utilizando la rueda de desplazamiento. Con el panel solar seleccionado, haga coincidir las formas del cursor con el punto resaltado. Recuerde utilizar el {KEY:QuantityModifier} para rotar el objeto a la posición correcta.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialGoingSolarpart2</Key>
+      <Value>Vamos con la energía solar - Parte 2.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialGoingSolarDescriptionpart2</Key>
+      <Value>Al igual que el horno de arco, el panel solar también requiere un paso adicional para construir. </Value>
+    </Record>
+    <Record>
+      <Key>GoingSolarPart2Task1</Key>
+      <Value>Coge el {THING:ItemGlassSheets} de la caja de construcción 1.</Value>
+    </Record>
+    <Record>
+      <Key>GoingSolarPart2Task2</Key>
+      <Value>Coloque el {THING:ItemGlassSheets} en el panel solar.</Value>
     </Record>
     <Record>
       <Key>LearningToWireTask0.5</Key>
