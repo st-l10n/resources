@@ -163,8 +163,24 @@ En segundo lugar, tenemos que añadir un {THING:ItemBatteryCharger} para cargar 
       <Value>Para que el controlador de energía funcione, necesitamos abrir la cubierta e insertar una batería y luego girar el interruptor del interruptor para permitir que la electricidad y los datos pasen a través de el. Por lo general, se recomienda utilizar una batería grande para garantizar una potencia duradera en caso de una interrupción, aunque también se podría utilizar una batería pequeña.</Value>
     </Record>
     <Record>
+      <Key>SettingUpThePowerControllerTask1</Key>
+      <Value>Equipa la palanca de tu {SLOT:Belt}.</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask2</Key>
+      <Value>Abra el {THING:StructureAreaPowerControl} con la palanca.</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask3</Key>
+      <Value>Coge el {THING:ItemBatteryCellLarge} de la caja de construcción 2.</Value>
+    </Record>
+    <Record>
       <Key>SettingUpThePowerControllerTask4</Key>
       <Value>Coloca el {THING:ItemBatteryCellLarge} en la {THING:StructureAreaPowerControl}.</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask5</Key>
+      <Value>Gire el interruptor a la posición “On” en el {THING:StructureAreaPowerControl}.</Value>
     </Record>
   </Interface>
 </Language>
