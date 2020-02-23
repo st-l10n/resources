@@ -19,6 +19,14 @@
       <Value>La tecla {SLOT:Belt} es una de tus piezas de almacenamiento más importantes. Contiene todas las herramientas necesarias para construir y deconstruir cosas.</Value>
     </Record>
     <Record>
+      <Key>TutorialThetoolbeltTask1</Key>
+      <Value>Comencemos abriéndolo. Pulsa y mantén la tecla {KEY:MouseControl} y click en el {SLOT:Belt} o pulsa la tecla {KEY:ToolBeltSlot} .</Value>
+    </Record>
+    <Record>
+      <Key>TutorialThetoolbeltTask2</Key>
+      <Value>Ahora, mueva el soldador hacia su mano sosteniendo la tecla {KEY:MouseControl} y arrastre el soldador desde {SLOT:Belt} a su ranura de la derecha.</Value>
+    </Record>
+    <Record>
       <Key>TutorialWhatAreFrames</Key>
       <Value>Donde están los marcos?</Value>
     </Record>
@@ -27,12 +35,44 @@
       <Value>Buen trabajo Cadete. Comencemos a construir una base.</Value>
     </Record>
     <Record>
+      <Key>TutorialWhatAreFramesTask1</Key>
+      <Value>Pulse la tecla {KEY:SwapHands} para intercambiar su mano activa y pasar a la caja cercana y recoger {THING:ItemIronFrames} de la caja en su mano izquierda.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWhatAreFramesTask2</Key>
+      <Value>Ahora que tiene una idea básica de cómo utilizar la interfaz de usuario, comencemos con los edificios básicos, comencemos abriendo las cajas cercanas, en la caja 1 encontrará las {THING:ItemIronFrames} necesarias para iniciar la plataforma.
+        
+         Para construir el marco, vaya al área resaltada con los marcos en su mano activa, toque {KEY:SecondaryAction} para habilitar el cursor y mantenga presionado el botón {KEY:PrimaryAction} hasta que se complete</Value>
+    </Record>
+    <Record>
       <Key>TutorialCompletingFrames</Key>
       <Value>Marcos completados</Value>
     </Record>
     <Record>
+      <Key>TutorialCompletingFramesDescription</Key>
+      <Value>Actualmente, nuestros {THING:ItemIronFrames} no son herméticos. Para completar el {THING: ItemIronFrames} necesitamos soldar algunas láminas de hierro. Si aún no lo ha hecho, toque el botón {KEY: SecondaryAction} para eliminar el objeto cursor de la pantalla.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompletingFramesTask1</Key>
+      <Value>Vuelva a la caja e intercambie los marcos por {THING:ItemIronSheets} presionando el botón {KEY:PrimaryAction} mientras mantiene presionada la {THING:ItemIronFrames}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompletingFramesTask2</Key>
+      <Value>Equipe su {THING:ItemWeldingTorch} de su Cinturon de herramientas y enciéndalo con la tecla {KEY:ToggleHandPower} y regrese al cuadro previamente colocado y mantenga presionado el botón {KEY:PrimaryAction} para construir el cuadro hasta que esté completo. Necesitará {THING:ItemIronSheets} en su otra mano para hacer esto. Nota: No olvides apagar {THING:ItemWeldingTorch} cuando hayas terminado. Para apagar el soldador, presiona la tecla {KEY:ToggleHandPower}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompletingFramesTask3</Key>
+      <Value>Termine el {THING:ItemIronFrames} al continuar manejándolo.</Value>
+    </Record>
+    <Record>
       <Key>TutorialDoingitOnYourOwn</Key>
       <Value>Haciéndolo por tu cuenta</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDoingitOnYourOwnDescription</Key>
+      <Value>¡Bien hecho, cadete! Ahora que ha creado su primer marco, construyamos un poco más. Use lo que aprendió para crear más {THING:ItemIronFrames} en las áreas resaltadas.
+            
+         Sugerencia: si se cae en un marco y se atasca, use la tecla {KEY:Jetpack} para activar su Jetpack y volar hacia otro sitio, luego desactívelo con la misma tecla.</Value>
     </Record>
     <Record>
       <Key>TutorialDoingitOnYourOwnTask1</Key>
