@@ -71,6 +71,16 @@
       <Value>Coloque el {THING:ItemGlassSheets} en el panel solar.</Value>
     </Record>
     <Record>
+      <Key>TutorialLearningToWire</Key>
+      <Value>Aprender a cablear</Value>
+    </Record>
+    <Record>
+      <Key>TutorialLearningToWireDescription</Key>
+      <Value>Ahora necesitamos conectar nuestro equipo usando cables. En la Tierra, los cables normales servirán. Sin embargo, el oxígeno atómico y la radiación solar degradan muchas sustancias expuestas al espacio. Por lo tanto, hemos diseñado un tipo especial de cable capaz de soportar entornos espaciales. Puede transportar tanto datos como energía, lo que le permite controlar las máquinas desde un panel de control. Esto se cubrirá más adelante. 
+
+En su {SLOT:Belt}, encontrará el {THING:ItemCableCoil}, coloque los cables en el área resaltada. Recuerde utilizar la rueda de desplazamiento para seleccionar el cable correcto y utilizar la tecla {KEY:QuantityModifier} para rotar hasta que coincida con la colocación correcta </Value>
+    </Record>
+    <Record>
       <Key>LearningToWireTask0.5</Key>
       <Value>Usa {THING:ItemCableCoil} en la ranura {SLOT:Belt}.</Value>
     </Record>
@@ -87,8 +97,46 @@
       <Value>Coloca el {THING:StructureCableJunction}.</Value>
     </Record>
     <Record>
+      <Key>TutorialWiringWires</Key>
+      <Value>Uniendo Cables</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWiringWiresDescription</Key>
+      <Value>Extienda los cables a la plataforma principal.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialPowerControlersAndbatteryCharges</Key>
+      <Value>Carga de baterías y controladores de alimentación</Value>
+    </Record>
+    <Record>
+      <Key>TutorialPowerControlersAndbatteryChargesDescription</Key>
+      <Value>En nuestro siguiente paso tenemos que colocar un {THING:ItemAreaPowerControl}. Los controladores de alimentación se utilizan para controlar el flujo de energía y evitar que los cables se quemen, también proporcionan una pequeña cantidad de fuente de alimentación intermedia si los generadores están desconectados.
+
+En segundo lugar, tenemos que añadir un {THING:ItemBatteryCharger} para cargar nuestras baterías agotadas. Queremos poner esto delante de nuestro {THING:ItemAreaPowerControl} para que cualquier carga de la batería no agote la batería en el {THING:ItemAreaPowerControl}.</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlersAndbatteryChargesTask1</Key>
+      <Value>Obtenga el {THING:ItemAreaPowerControl} de la caja de construcción 1.</Value>
+    </Record>
+    <Record>
       <Key>PowerControlersAndbatteryChargesTask2</Key>
       <Value>Coloca el {THING:ItemAreaPowerControl} en el lugar resaltado.</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlersAndbatteryChargesTask3</Key>
+      <Value>Obtenga el {THING:ItemBatteryCharger} de la caja de construcción 2.</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlersAndbatteryChargesTask4</Key>
+      <Value>coloca el {THING:ItemBatteryCharger} en el área resaltada.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialFinishingTheCircuit</Key>
+      <Value>Terminar el circuito</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTutorialFinishingTheCircuitDescription</Key>
+      <Value>Conecte el resto de los componentes a nuestras máquinas.</Value>
     </Record>
     <Record>
       <Key>FinishingTheCircuitTask2</Key>
@@ -105,6 +153,14 @@
     <Record>
       <Key>FinishingTheCircuitTask8</Key>
       <Value>Coloca el {THING:StructureCableJunction}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSettingUpThePowerController</Key>
+      <Value>Configuración del controlador de alimentación</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSettingUpThePowerControllerDescription</Key>
+      <Value>Para que el controlador de energía funcione, necesitamos abrir la cubierta e insertar una batería y luego girar el interruptor del interruptor para permitir que la electricidad y los datos pasen a través de el. Por lo general, se recomienda utilizar una batería grande para garantizar una potencia duradera en caso de una interrupción, aunque también se podría utilizar una batería pequeña.</Value>
     </Record>
     <Record>
       <Key>SettingUpThePowerControllerTask4</Key>
