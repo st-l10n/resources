@@ -63,6 +63,14 @@
       <Value>Coloca los marcos 7.</Value>
     </Record>
     <Record>
+      <Key>TutorialDoingitOnYourOwnpt2</Key>
+      <Value>Haciendolo por tu cuenta parte 2.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDoingitOnYourOwnpt2Description</Key>
+      <Value>¡Bien hecho! Ahora, termínalo con el {THING:ItemWeldingTorch} y algunos {THING:ItemIronSheets}.</Value>
+    </Record>
+    <Record>
       <Key>TutorialDoingitOnYourOwnpt2Task1</Key>
       <Value>Finalizar el marco de soldadura 1.</Value>
     </Record>
@@ -95,6 +103,10 @@
       <Value>De construyendo un horno de arco</Value>
     </Record>
     <Record>
+      <Key>TutorialDeconstructingAnArcFurnaceDescription</Key>
+      <Value>Cadete, Parece que el horno de arco ha sido enterrado por la arena. Tendremos que desmontarlo y moverlo a la nueva plataforma de trabajo para que funcione. Desmontar cosas es tan fácil como construirlas. </Value>
+    </Record>
+    <Record>
       <Key>BuildingDeconstructingAnFurnaceTask1</Key>
       <Value>Usa {THING:ItemDrill} en la ranura {SLOT:Belt} </Value>
     </Record>
@@ -107,28 +119,92 @@
       <Value>El Horno de Arco</Value>
     </Record>
     <Record>
+      <Key>TutorialBuildingAnArcFurnaceDescription</Key>
+      <Value>Bien hecho, Cadete. A continuación, tenemos que crear un {THING:ItemKitArcFurnace}. Esto se utilizará para fundir minerales en los lingotes utilizables. Localice el kit horno de arco en la caja y recójalo.</Value>
+    </Record>
+    <Record>
+      <Key>BuildingAnArcFurnaceTask1</Key>
+      <Value>Coloque el Horno de arco en el área resaltada que puede necesitar para utilizar el valor de {KEY:QuantityModifier} para rotar el objeto a la posición correcta.</Value>
+    </Record>
+    <Record>
       <Key>TutorialDeconstructingAnAutolathe</Key>
       <Value>De construyendo la impresora 3D</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDeconstructingAnAutolatheDescription</Key>
+      <Value>Cadete, el {THING:StructureAutolathe} está en la posición incorrecta. Para moverlo, tendrás que desmontarlo.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDeconstructingAnAutolatheTask1</Key>
+      <Value>Utilice el {THING:ItemAngleGrinder} de el cinturón de herramientas para quitar las láminas de plástico de el {THING:StructureAutolathe}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDeconstructingAnAutolatheTask2</Key>
+      <Value>Utilice su {THING:ItemWireCutters} para quitar el cableado de la {THING:StructureAutolathe}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDeconstructingAnAutolatheTask3</Key>
+      <Value>Utilice el archivo {THING:ItemAngleGrinder} para quitar la Hoja de Hierro de la {THING:StructureAutolathe}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDeconstructingAnAutolatheTask4</Key>
+      <Value>Por último, utilice el {THING:ItemWrench} para empaquetar el {THING:StructureAutolathe} en un {THING:ItemKitAutolathe}.</Value>
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolathe</Key>
       <Value>Arrastrándose</Value>
     </Record>
     <Record>
+      <Key>TutorialBuildingAnAutolatheDescription</Key>
+      <Value>Ya casi llegamos. El último paso es construir el {THING:StructureAutolathe}. El {THING:ItemKitAutolathe} se utiliza para crear una amplia variedad de cosas usando lingotes y energía como sus recursos.</Value>
+    </Record>
+    <Record>
       <Key>TutorialBuildingAnAutolatheTask1</Key>
       <Value>Recoge la {THING:ItemKitAutolathe}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolatheTask2</Key>
+      <Value>Construya el {THING:ItemKitAutolathe} en el área resaltada. Recuerde que es posible que deba usar la tecla {KEY:QuantityModifier} para rotarla.</Value>
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolathePart2</Key>
       <Value>Torneado de partes 2</Value>
     </Record>
     <Record>
+      <Key>TutorialBuildingAnAutolathePart2Description</Key>
+      <Value>Algunos elementos, como el {THING:ItemKitAutolathe} son más difíciles de construir y tienen más etapas en el proceso de construcción.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolatheTask0.5</Key>
+      <Value>Recoge el {THING:ItemIronSheets} de el anterior {THING:StructureAutolathe}. </Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolathePart2Task1</Key>
+      <Value>Suelde algunos {THING:ItemIronSheets} en el {THING:StructureAutolathe}.</Value>
+    </Record>
+    <Record>
       <Key>TutorialBuildingAnAutolatheTask1.5</Key>
       <Value>Usa {THING:ItemCableCoil} en la ranura {SLOT:Belt}.</Value>
     </Record>
     <Record>
+      <Key>TutorialBuildingAnAutolathePart2Task2</Key>
+      <Value>Utilice el {THING:ItemCableCoil} para conectar los elementos internos de la Impresora 3D.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolatheTask2.5</Key>
+      <Value>Obtenga el {THING:ItemPlasticSheets} de el anterior {THING:StructureAutolathe} .</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolathePart2Task3</Key>
+      <Value>Soldar la {THING:ItemPlasticSheets} a el {THING:StructureAutolathe}.</Value>
+    </Record>
+    <Record>
       <Key>TutorialBuildingAnAutolatheTask3.5</Key>
       <Value>Usa {THING:ItemScrewdriver} en la ranura {SLOT:Belt}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolathePart2Task4</Key>
+      <Value>Finalmente atornillar el panel frontal con el {THING:ItemScrewdriver} de su {SLOT:Belt}.</Value>
     </Record>
   </Interface>
 </Language>
