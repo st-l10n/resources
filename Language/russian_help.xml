@@ -47,8 +47,7 @@
 Разместите {THING:StructureAreaPowerControl} с вставленным {THING:ItemBatteryCell} между источником питания и зарядным устройством. Это связано с тем, что источник питания, генерирует больше энергии, чем может использовать {THING:ItemBatteryCharger}, и она расходуется впустую. Также вы можете вручную ориентировать {THING:StructureSolarPanel}, но автоматизация его следования за солнцем очень поможет вам. Вы можете использовать {LINK:LogicUnitPage;Логические чипы}, которые помогут в этом.
 
 {HEADER:Управление вашим кислородом}
-Ваши {THING:ItemEvaSuit} и {THING:ItemSpaceHelmet} образуют защитную оболочку. {THING:ItemEvaSuit} требует {THING:ItemGasCanisterOxygen}, чтобы поставлять вам чистый {GAS:Oxygen}. Следите за количеством газа в баллоне, вы можете пополнить его, используя {THING:DynamicGasCanisterOxygen}, прикрепленный на стартовом корабле.
-Существует маркер «опасности» на {THING:DynamicGasCanisterOxygen}, указывающий на место, в которое можно вставить баллон, для наполнения.
+Ваши {THING:ItemEvaSuit} и {THING:ItemSpaceHelmet} образуют защитную оболочку. {THING:ItemEvaSuit} требует {THING:ItemGasCanisterOxygen}, чтобы поставлять вам чистый {GAS:Oxygen}. Следите за количеством газа в баллоне, вы можете пополнить его, используя {THING:DynamicGasCanisterOxygen}, прикрепленный на стартовом корабле. Существует маркер «опасности» на {THING:DynamicGasCanisterOxygen}, указывающий на место, в которое можно вставить баллон, для наполнения.
 
 {HEADER:Основы выплавки}
 Как только у вас появится базовая энергия, вы должны начать получать больше ресурсов. Отправляйтесь {LINK:MiningPage;копать}, и находить базовые {LINK:OrePage;руды}. Поместите {THING:StructureArcFurnace} и подключите ее к {THING:StructureAreaPowerControl}. Печь будет {LINK:SmeltingPage;плавить} основные {LINK:OrePage;руды}, такую как {THING:ItemIronOre}, {THING:ItemSiliconOre} и другие не {LINK:AlloyPage;сплавы}.
