@@ -15,6 +15,14 @@
       <Value>La Tablet</Value>
     </Record>
     <Record>
+      <Key>TheTabletDescription</Key>
+      <Value>¡Bienvenido de nuevo, cadete! Nuestra primera tarea de hoy es equipar la {THING:ItemTablet}. La {THING:ItemTablet} puede ser usada para mostrar información sobre la atmósfera y las redes, así como una enciclopedia o un rastreador de balizas.</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletTask1</Key>
+      <Value>Abre la {SLOT:Back} con {KEY:BackSlot} para encontrar la {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
       <Key>TheTabletTask2</Key>
       <Value>Equipa la {THING:ItemTablet}</Value>
     </Record>
@@ -33,6 +41,10 @@
     <Record>
       <Key>OnTheBadList</Key>
       <Value>En la lista de los malos</Value>
+    </Record>
+    <Record>
+      <Key>OnTheBadListDescription</Key>
+      <Value>Cadete, hemos marcado algunos buenos lugares para que empiece. Usa la tableta y la rueda de desplazamiento para cambiar el objetivo rastreado. Hemos activado la baliza de carbón. Muévete a ese lugar y consigue algo de {THING:ItemCoalOre}.</Value>
     </Record>
     <Record>
       <Key>OnTheBadListTask1</Key>
