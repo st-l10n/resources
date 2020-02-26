@@ -109,8 +109,22 @@ No teu {SLOT:Belt}, irás encontrar uma {THING:ItemCableCoil}, coloca os cabos n
       <Value>Carregador de Baterias e Controladores de Energia</Value>
     </Record>
     <Record>
+      <Key>TutorialPowerControlersAndbatteryChargesDescription</Key>
+      <Value>No próximo passo precisamos colocar um {THING:ItemAreaPowerControl}. Controladores de energia são utilizados para controlar o fluxo de energia e evitar queimar cabos, eles também fornecem um pouco de energia intermédia se os geradores estiverem desligados.
+
+Em seguida, precisamos colocar um {THING:ItemBatteryCharger} de forma a carregar as baterias vazias. Devemos colocá-lo antes do {THING:ItemAreaPowerControl} de forma que qualquer bateria a carregar, não descarregue a bateria do {THING:ItemAreaPowerControl}.</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlersAndbatteryChargesTask1</Key>
+      <Value>Apanha o {THING:ItemAreaPowerControl} da Caixa de Construção 1.</Value>
+    </Record>
+    <Record>
       <Key>PowerControlersAndbatteryChargesTask2</Key>
       <Value>Coloca o {THING:ItemAreaPowerControl} no local indicado.</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlersAndbatteryChargesTask3</Key>
+      <Value>Apanha o {THING:ItemBatteryCharger} da Caixa de Construção 2.</Value>
     </Record>
     <Record>
       <Key>FinishingTheCircuitTask2</Key>
