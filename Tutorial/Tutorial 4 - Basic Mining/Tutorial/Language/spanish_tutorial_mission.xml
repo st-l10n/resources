@@ -7,8 +7,20 @@
       <Value>#4 Minería Básica</Value>
     </Record>
     <Record>
+      <Key>BasicMiningDescription</Key>
+      <Value>En esta lección, aprenderá los fundamentos de la minería de los recursos planetarios y cómo convertirlos en lingotes útiles.</Value>
+    </Record>
+    <Record>
+      <Key>TheTablet</Key>
+      <Value>La Tablet</Value>
+    </Record>
+    <Record>
       <Key>TheTabletTask2</Key>
       <Value>Equipa la {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>TheCoalMines</Key>
+      <Value>Las minas de carbón</Value>
     </Record>
     <Record>
       <Key>TheCoalMinesTask0</Key>
@@ -19,28 +31,48 @@
       <Value>Equipa la {THING:ItemMiningDrill}</Value>
     </Record>
     <Record>
+      <Key>OnTheBadList</Key>
+      <Value>En la lista de los malos</Value>
+    </Record>
+    <Record>
       <Key>OnTheBadListTask1</Key>
       <Value>Enciende tu {THING:ItemMiningDrill}</Value>
     </Record>
     <Record>
       <Key>OnTheBadListTask2</Key>
-      <Value>Usa {THING:ItemDrill} en la ranura {SLOT:Belt} </Value>
+      <Value>Usa el {THING:ItemMiningDrill} para extraer algo de {THING:ItemCoalOre}</Value>
+    </Record>
+    <Record>
+      <Key>HardAsIron</Key>
+      <Value>Duro como el hierro</Value>
     </Record>
     <Record>
       <Key>HardAsIronTask1</Key>
-      <Value>Prepara un {THING:ItemMuffin}</Value>
+      <Value>Mina algo {THING:ItemIronOre}.</Value>
+    </Record>
+    <Record>
+      <Key>ConductiveMetals</Key>
+      <Value>Metales conductores</Value>
+    </Record>
+    <Record>
+      <Key>GoldRush</Key>
+      <Value>La fiebre del oro</Value>
     </Record>
     <Record>
       <Key>GoldRushTask1</Key>
-      <Value>Enciende {THING:ItemTablet}</Value>
+      <Value>Mina algo {THING:ItemGoldOre}.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDown</Key>
+      <Value>Fundiéndolo</Value>
     </Record>
     <Record>
       <Key>SmeltingItDownTask0</Key>
-      <Value>Dejalo en la {THING:StructureBench}</Value>
+      <Value>Enciende el {THING:StructureArcFurnace}.</Value>
     </Record>
     <Record>
       <Key>SmeltingItDownTask1</Key>
-      <Value>Coge la {THING:ItemWrench} de la {THING:ItemSpacepack}</Value>
+      <Value>Saca {THING:ItemIronOre} del {THING:ItemMiningBelt}.</Value>
     </Record>
   </Interface>
 </Language>
