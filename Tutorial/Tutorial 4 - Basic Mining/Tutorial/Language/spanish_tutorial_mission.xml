@@ -27,6 +27,10 @@
       <Value>Equipa la {THING:ItemTablet}</Value>
     </Record>
     <Record>
+      <Key>TheTabletTask3</Key>
+      <Value>Enciende la {THING:ItemTablet} y coloca el cartucho {THING:CartridgeTracker} que se encuentra en la mochila en la Tableta</Value>
+    </Record>
+    <Record>
       <Key>TheCoalMines</Key>
       <Value>Las minas de carbón</Value>
     </Record>
@@ -67,6 +71,10 @@
       <Value>Metales conductores</Value>
     </Record>
     <Record>
+      <Key>ConductiveMetalsTask1</Key>
+      <Value>Mina un poco de {THING:ItemCopperOre}.</Value>
+    </Record>
+    <Record>
       <Key>GoldRush</Key>
       <Value>La fiebre del oro</Value>
     </Record>
@@ -85,6 +93,10 @@
     <Record>
       <Key>SmeltingItDownTask1</Key>
       <Value>Saca {THING:ItemIronOre} del {THING:ItemMiningBelt}.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownTask2</Key>
+      <Value>Fundir {THING:ItemIronOre} colocándolo en el horno de arco y activándolo .</Value>
     </Record>
   </Interface>
 </Language>
