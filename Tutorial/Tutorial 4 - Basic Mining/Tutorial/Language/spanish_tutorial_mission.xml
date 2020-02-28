@@ -27,12 +27,20 @@
       <Value>Equipa la {THING:ItemTablet}</Value>
     </Record>
     <Record>
+      <Key>TheTabletTask2.5</Key>
+      <Value>Inserta el {THING:CartridgeTracker} en {THING:ItemTablet} arrastrando {THING:CartridgeTracker} en {SLOT:Back} o haciendo click en {THING:ItemTablet} una ventana se abrira, arrastra el {THING:CartridgeTracker} en la nueva ventana</Value>
+    </Record>
+    <Record>
       <Key>TheTabletTask3</Key>
       <Value>Enciende la {THING:ItemTablet} y coloca el cartucho {THING:CartridgeTracker} que se encuentra en la mochila en la Tableta</Value>
     </Record>
     <Record>
       <Key>TheCoalMines</Key>
       <Value>Las minas de carbón</Value>
+    </Record>
+    <Record>
+      <Key>TheCoalMinesDescription</Key>
+      <Value>Ahora podemos comenzar a extraer recursos de la superficie del planeta. Vamos a tener que equipar el {THING:ItemMiningBelt} de tu {SLOT:Back}. cambia el {THING:ItemToolBelt} por {THING:ItemMiningBelt} y ponlo en {THING:ItemMiningDrill} de tu {THING:ItemMiningBelt}.</Value>
     </Record>
     <Record>
       <Key>TheCoalMinesTask0</Key>
@@ -63,12 +71,20 @@
       <Value>Duro como el hierro</Value>
     </Record>
     <Record>
+      <Key>HardAsIronDescription</Key>
+      <Value>Bien hecho Cadete! {THING:ItemCoalOre} activara los generadores de combustible solido cuando la energia este baja por la noche. Lo siguiente sera encontrar hierro. {THING:ItemIronOre} es un componente esencial para crear la mayoria de los objetos y herramientas. Ahora tienes marcada una buena posicion en la tablet para encontrarlo.</Value>
+    </Record>
+    <Record>
       <Key>HardAsIronTask1</Key>
       <Value>Mina algo {THING:ItemIronOre}.</Value>
     </Record>
     <Record>
       <Key>ConductiveMetals</Key>
       <Value>Metales conductores</Value>
+    </Record>
+    <Record>
+      <Key>ConductiveMetalsDescription</Key>
+      <Value>Otro trabajo fantastico, Cadete! La proxima localizacion sera un poco mas dificil de llegar - esta en una montaña,seguramente necesitaras la mochila propulsora para llegar hasta el. Puedes activarla y desactivarla con la tecla {KEY:Jetpack}. Tienes marcada la posicion {THING:ItemCopperOre} en tu tablet.</Value>
     </Record>
     <Record>
       <Key>ConductiveMetalsTask1</Key>
@@ -79,12 +95,21 @@
       <Value>La fiebre del oro</Value>
     </Record>
     <Record>
+      <Key>GoldRushDescription</Key>
+      <Value>Deberia ser suficiente por ahora. Finalmente, necesitaras algunos minerales de {THING:ItemGoldOre} para la electronica. Tendras una localizacion para ecncontrarlos en la tablet {THING:ItemTablet}.
+Ayuda: utiliza la {KEY:Jetpack} para viajar rapidamente.</Value>
+    </Record>
+    <Record>
       <Key>GoldRushTask1</Key>
       <Value>Mina algo {THING:ItemGoldOre}.</Value>
     </Record>
     <Record>
       <Key>SmeltingItDown</Key>
       <Value>Fundiéndolo</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownDescription</Key>
+      <Value>Deberia ser todo lo que necesitamos por ahora. Ahora tendras que volver a la base para fundir los minerales en lingotes. El {THING:StructureArcFurnace} Te fundira los minerales en lingotes para poder usarlos. Intenta fundir algunos {THING:ItemIronOre} en {THING:ItemIronIngot}. Te he conseguido acceso a el contenedor de minerales por si necesitas mas recursos.</Value>
     </Record>
     <Record>
       <Key>SmeltingItDownTask0</Key>
