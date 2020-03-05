@@ -40,7 +40,7 @@
     </Record>
     <Record>
       <Key>ShineyNewPlatesTask4</Key>
-      <Value>Mina algo {THING:ItemIronOre}.</Value>
+      <Value>Imprime dos {THING:ItemIronSheets}.</Value>
     </Record>
     <Record>
       <Key>FakePlastic</Key>
@@ -60,7 +60,11 @@
     </Record>
     <Record>
       <Key>FakePlasticTask4</Key>
-      <Value>Recoge la {THING:ItemKitAutolathe}.</Value>
+      <Value>Imprime dos {THING:ItemPlasticSheets}.</Value>
+    </Record>
+    <Record>
+      <Key>BendingMachine</Key>
+      <Value>La Máquina Dobladora</Value>
     </Record>
     <Record>
       <Key>BendingMachineTask1</Key>
@@ -76,15 +80,23 @@
     </Record>
     <Record>
       <Key>BendingMachineTask4</Key>
-      <Value>Recoge la {THING:ItemKitAutolathe}.</Value>
+      <Value>Imprime {THING:ItemKitHydraulicPipeBender}.</Value>
+    </Record>
+    <Record>
+      <Key>ThePipeBender</Key>
+      <Value>El Maestro de la Tubería</Value>
     </Record>
     <Record>
       <Key>ThePipeBenderTask1</Key>
-      <Value>Colocar el {THING:StructureSolidFuelGenerator}.</Value>
+      <Value>Colocar un {THING:ItemKitHydraulicPipeBender}.</Value>
+    </Record>
+    <Record>
+      <Key>ThePassiveVent</Key>
+      <Value>La ventilación pasiva</Value>
     </Record>
     <Record>
       <Key>ThePassiveVentTask1</Key>
-      <Value>Colocar el {THING:StructureSolidFuelGenerator}.</Value>
+      <Value>Completa la {THING:StructureHydraulicPipeBender}.</Value>
     </Record>
     <Record>
       <Key>ThePassiveVentTask2</Key>
