@@ -4960,6 +4960,10 @@ Teplota {1}</Value>
       <Value>Vrací, kolik energie je generováno</Value>
     </Record>
     <Record>
+      <Key>LogicTypeVelocityMagnitude</Key>
+      <Value>Aktuální velikost rychlosti vektoru</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeForceWrite</Key>
       <Value>Vynutí přepsání hodnoty zařízení logického zapisovače</Value>
     </Record>
@@ -4973,7 +4977,7 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeNone</Key>
-      <Value>Žádný Popis</Value>
+      <Value>Žádný popis</Value>
     </Record>
     <Record>
       <Key>AppearanceButtonRandomize</Key>
@@ -5045,7 +5049,7 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>InputTextTradingTitle</Key>
-      <Value>Obchodní Terminál</Value>
+      <Value>Obchodní terminál</Value>
     </Record>
     <Record>
       <Key>ButtonContact</Key>
@@ -5053,7 +5057,7 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>LoadBackupsTitle</Key>
-      <Value>Načíst Zálohu</Value>
+      <Value>Načíst zálohu</Value>
     </Record>
     <Record>
       <Key>BackupMenuFileListTitle</Key>
@@ -5089,7 +5093,7 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>SettingsShowSlotTooltips</Key>
-      <Value>Zobrazit Popisky Slotu</Value>
+      <Value>Zobrazit popisy slotů</Value>
     </Record>
     <Record>
       <Key>SettingsWorldOrigin</Key>
@@ -5109,11 +5113,27 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>PromptButtonLeave</Key>
-      <Value>Opustit Relaci</Value>
+      <Value>Opustit relaci</Value>
     </Record>
     <Record>
       <Key>PromptResumeButton</Key>
       <Value>Pokračovat</Value>
+    </Record>
+    <Record>
+      <Key>BuildTimeMultiplier</Key>
+      <Value>Násobitel trvání stavby</Value>
+    </Record>
+    <Record>
+      <Key>MaterialCostMultiplier</Key>
+      <Value>Násobitel nákladů na materiál</Value>
+    </Record>
+    <Record>
+      <Key>EnergyCostMultiplier</Key>
+      <Value>Násobitel nákladů na energii</Value>
+    </Record>
+    <Record>
+      <Key>CreationMultiplier</Key>
+      <Value>Násobitel vytváření</Value>
     </Record>
     <Record>
       <Key>TierThree</Key>
@@ -5314,6 +5334,10 @@ Teplota {1}</Value>
     <Record>
       <Key>BigWarning</Key>
       <Value>VAROVÁNÍ</Value>
+    </Record>
+    <Record>
+      <Key>DialogConfirmLastSaveIsAutoSave</Key>
+      <Value>JSTE SI JISTÝ? Poslední uložení je automatické uložení. Pokud jej nyní neuložíte, můžete ztratit svůj pokrok.</Value>
     </Record>
     <Record>
       <Key>GameMenuButtonCancel</Key>
