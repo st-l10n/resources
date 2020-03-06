@@ -5044,6 +5044,18 @@ Teplota {1}</Value>
       <Value>Žádný popis</Value>
     </Record>
     <Record>
+      <Key>LogicSlotTypePressureAir</Key>
+      <Value>vrací tlak ve vzduchové nádrži jetpacku v tomto slotu</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeMaxQuantity</Key>
+      <Value>vrátí maximální velikost zásobníku položky ve slotu</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePrefabHash</Key>
+      <Value>vrátí hodnotu hash konstrukce ve slotu</Value>
+    </Record>
+    <Record>
       <Key>AppearanceButtonRandomize</Key>
       <Value>Náhodně</Value>
     </Record>
@@ -5061,7 +5073,7 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>SpinnerPannelSaving</Key>
-      <Value>Uložení</Value>
+      <Value>Ukládání</Value>
     </Record>
     <Record>
       <Key>SpinnerPannelDone</Key>
@@ -5116,6 +5128,14 @@ Teplota {1}</Value>
       <Value>Obchodní terminál</Value>
     </Record>
     <Record>
+      <Key>TraderElectronics</Key>
+      <Value>TECHNOLOGICKÝ STROM </Value>
+    </Record>
+    <Record>
+      <Key>TraderMicrowave</Key>
+      <Value>MIKROZBOŽÍ </Value>
+    </Record>
+    <Record>
       <Key>ButtonContact</Key>
       <Value>Kontakt</Value>
     </Record>
@@ -5130,6 +5150,10 @@ Teplota {1}</Value>
     <Record>
       <Key>Experiments</Key>
       <Value>Experimenty</Value>
+    </Record>
+    <Record>
+      <Key>OcclusionTickSpeed</Key>
+      <Value>Okluze TickSpeed</Value>
     </Record>
     <Record>
       <Key>LogicTypeTargetX</Key>
@@ -5173,7 +5197,7 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>PromptPauseBody</Key>
-      <Value>Pauza hrané hry</Value>
+      <Value>Pozastavená hra</Value>
     </Record>
     <Record>
       <Key>PromptButtonLeave</Key>
