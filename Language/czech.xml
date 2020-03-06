@@ -2372,6 +2372,10 @@
       <Value>Stěna (Malé Panely a Poklop)</Value>
     </Record>
     <Record>
+      <Key>StructureWallSmallPanelsArrow</Key>
+      <Value>Stěna (Malé Panely Šipka)</Value>
+    </Record>
+    <Record>
       <Key>StructureWallSmallPanelsMonoChrome</Key>
       <Value>Stěna (Malé Panely Mono Chrome)</Value>
     </Record>
@@ -3604,6 +3608,10 @@
     <Record>
       <Key>NewWorldAreaSpace</Key>
       <Value>Pás Asteroidů</Value>
+    </Record>
+    <Record>
+      <Key>LoulanShortDesc</Key>
+      <Value>Loulan, při příjezdu si všimnete prodyšné atmosféry, dostatečně vysokého tlaku na udržení života - ale jeho vážného nedostatku. Tento písečný obr se nachází v Gargantuanově systému a každý den se přibližuje k černé díře ve středu. I když je tato planeta opuštěná a již není zelená a plná vody, má stále funkční atmosféru a máte za úkol prohledat pustinu, abyste získali materiály a zdroje potřebné k přežití v této věčné poušti.</Value>
     </Record>
     <Record>
       <Key>Moon</Key>
@@ -4997,7 +5005,7 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>ContactTradeRequestFail</Key>
-      <Value>Obchodník požaduje bezpečné přistání. Ujistěte se, že prostor pro přistání je čístý a připojený.</Value>
+      <Value>Obchodník požaduje bezpečné přistání. Ujistěte se, že prostor pro přistání je čistý a připojený. K zpracování obchodu je také vyžadován prodejní automat.</Value>
     </Record>
     <Record>
       <Key>InputTextTradingTitle</Key>
@@ -5020,6 +5028,18 @@ Teplota {1}</Value>
       <Value>Experimenty</Value>
     </Record>
     <Record>
+      <Key>LogicTypeTargetX</Key>
+      <Value>Cílová pozice v rozměru X ve světových souřadnicích</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTargetY</Key>
+      <Value>Cílová pozice v dimenzi Y ve světových souřadnicích</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTargetZ</Key>
+      <Value>Cílová pozice v dimenzi Z ve světových souřadnicích</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeSettingInputHash</Key>
       <Value>Nastavení vstupu pro zařízení</Value>
     </Record>
@@ -5028,8 +5048,16 @@ Teplota {1}</Value>
       <Value>Nastavení výstupu pro zařízení</Value>
     </Record>
     <Record>
+      <Key>ButtonDepart</Key>
+      <Value>Odlet</Value>
+    </Record>
+    <Record>
       <Key>SettingsShowSlotTooltips</Key>
       <Value>Zobrazit Popisky Slotu</Value>
+    </Record>
+    <Record>
+      <Key>SettingsWorldOrigin</Key>
+      <Value>Světový původ</Value>
     </Record>
     <Record>
       <Key>GameMenuButtonPause</Key>
@@ -5052,24 +5080,60 @@ Teplota {1}</Value>
       <Value>Pokračovat</Value>
     </Record>
     <Record>
+      <Key>TierThree</Key>
+      <Value>Úroveň tři</Value>
+    </Record>
+    <Record>
+      <Key>TierOne</Key>
+      <Value>Úroveň jedna</Value>
+    </Record>
+    <Record>
+      <Key>TierTwo</Key>
+      <Value>Úroveň dva</Value>
+    </Record>
+    <Record>
+      <Key>TravelMenuTitle</Key>
+      <Value>Cestovní svět</Value>
+    </Record>
+    <Record>
+      <Key>TravelMenuListTitle</Key>
+      <Value>Dostupné světy</Value>
+    </Record>
+    <Record>
+      <Key>TravelMenuButtonTravel</Key>
+      <Value>Cestovní svět</Value>
+    </Record>
+    <Record>
+      <Key>GameMenuButtonTravel</Key>
+      <Value>Cestovní svět</Value>
+    </Record>
+    <Record>
+      <Key>PromptTravelBody</Key>
+      <Value>Opravdu chcete cestovat po mapě?</Value>
+    </Record>
+    <Record>
+      <Key>TravelMenuNamePlaceholder</Key>
+      <Value>Název cestovního světa</Value>
+    </Record>
+    <Record>
       <Key>PromptTravelConfirm</Key>
       <Value>Cestovat</Value>
     </Record>
     <Record>
       <Key>TravelMenuButtonTravelNew</Key>
-      <Value>Nový Svět</Value>
+      <Value>Nový svět</Value>
     </Record>
     <Record>
       <Key>TravelMenuButtonTravelLoad</Key>
-      <Value>Načíst Svět</Value>
+      <Value>Načíst svět</Value>
     </Record>
     <Record>
       <Key>SettingsDifficulty</Key>
-      <Value>Různá nastavení</Value>
+      <Value>Nastavení obtížnosti</Value>
     </Record>
     <Record>
       <Key>WorldCustomTerrainLabel</Key>
-      <Value>Terén</Value>
+      <Value>Barva terénu</Value>
     </Record>
     <Record>
       <Key>BlueField</Key>
@@ -5096,6 +5160,18 @@ Teplota {1}</Value>
       <Value>Jas</Value>
     </Record>
     <Record>
+      <Key>RGBValues</Key>
+      <Value>Hodnoty RGB</Value>
+    </Record>
+    <Record>
+      <Key>HVSValues</Key>
+      <Value>Hodnoty HVS</Value>
+    </Record>
+    <Record>
+      <Key>ColourSelecter</Key>
+      <Value>Výběr barev:</Value>
+    </Record>
+    <Record>
       <Key>HasLavaField</Key>
       <Value>Má Lávu</Value>
     </Record>
@@ -5117,15 +5193,15 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>TerrainFeaturesField</Key>
-      <Value>Terén</Value>
+      <Value>Terénní prvky</Value>
     </Record>
     <Record>
       <Key>RespawnConditionsField</Key>
-      <Value>Počáteční Podmínky</Value>
+      <Value>Stav oživení</Value>
     </Record>
     <Record>
       <Key>DifficultyField</Key>
-      <Value>Různá nastavení</Value>
+      <Value>Obtížnost</Value>
     </Record>
     <Record>
       <Key>SolarScaleField</Key>
@@ -5156,16 +5232,28 @@ Teplota {1}</Value>
       <Value>Teplota</Value>
     </Record>
     <Record>
+      <Key>LavaLevelField</Key>
+      <Value>Úroveň lávy</Value>
+    </Record>
+    <Record>
       <Key>SolidTerrainColourField</Key>
       <Value>Barva Pleti</Value>
     </Record>
     <Record>
+      <Key>CartridgeTrackerSelected</Key>
+      <Value>Posunutím vyberte cíl</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeElectronicReaderSelected</Key>
+      <Value>Ocelové rámy</Value>
+    </Record>
+    <Record>
       <Key>CartridgeTrackerDistance</Key>
-      <Value>Vzdálenost Stínu</Value>
+      <Value>Vzdálenost</Value>
     </Record>
     <Record>
       <Key>ButtonCustomWorld</Key>
-      <Value>Vytvořit Svět</Value>
+      <Value>Vlastní svět</Value>
     </Record>
     <Record>
       <Key>GasItemGasMole</Key>
