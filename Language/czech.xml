@@ -4936,6 +4936,22 @@ Teplota {1}</Value>
       <Value>Aktuální rychlost výtahu</Value>
     </Record>
     <Record>
+      <Key>LogicTypePowerGeneration</Key>
+      <Value>Vrací, kolik energie je generováno</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeForceWrite</Key>
+      <Value>Vynutí přepsání hodnoty zařízení logického zapisovače</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSignalStrength</Key>
+      <Value>Vrátí sílu nejsilnějšího signálu přijatého z tohoto satelitu</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSignalID</Key>
+      <Value>Vrátí ID kontaktu nejsilnějšího signálu z tohoto satelitu</Value>
+    </Record>
+    <Record>
       <Key>LogicSlotTypeNone</Key>
       <Value>Žádný Popis</Value>
     </Record>
@@ -5185,7 +5201,7 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>AtmosphereScatteringField</Key>
-      <Value>Atmosférické Rozptylování</Value>
+      <Value>Rozptyl atmosféry</Value>
     </Record>
     <Record>
       <Key>LevelLevelField</Key>
@@ -5204,32 +5220,36 @@ Teplota {1}</Value>
       <Value>Obtížnost</Value>
     </Record>
     <Record>
+      <Key>HasLODField</Key>
+      <Value>Má LOD</Value>
+    </Record>
+    <Record>
       <Key>SolarScaleField</Key>
-      <Value>Sluneční Úhel</Value>
+      <Value>Solární stupnice</Value>
     </Record>
     <Record>
       <Key>DawnTemperatureField</Key>
-      <Value>Teplota</Value>
+      <Value>Teplota úsvitu</Value>
     </Record>
     <Record>
       <Key>NoonTemperatureField</Key>
-      <Value>Teplota</Value>
+      <Value>Teplota poledne</Value>
     </Record>
     <Record>
       <Key>DuskTemperatureField</Key>
-      <Value>Teplota</Value>
+      <Value>Teplota soumraku</Value>
     </Record>
     <Record>
       <Key>MidnightTemperatureField</Key>
-      <Value>Teplota</Value>
+      <Value>Půlnoční teplota</Value>
     </Record>
     <Record>
       <Key>PreviewAtmosphereField</Key>
-      <Value>Atmosféra</Value>
+      <Value>Náhled atmosféry</Value>
     </Record>
     <Record>
       <Key>HasCustomTemperatureField</Key>
-      <Value>Teplota</Value>
+      <Value>Má vlastní teplotu</Value>
     </Record>
     <Record>
       <Key>LavaLevelField</Key>
@@ -5237,7 +5257,7 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>SolidTerrainColourField</Key>
-      <Value>Barva Pleti</Value>
+      <Value>Barva terénu</Value>
     </Record>
     <Record>
       <Key>CartridgeTrackerSelected</Key>
