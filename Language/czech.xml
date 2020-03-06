@@ -5217,8 +5217,20 @@ Skvělá lokalita pro začínajícího stationera, který může začít svou ce
       <Value>Jak je dokončena současná výroba tohoto zařízení, mezi 0 a 1</Value>
     </Record>
     <Record>
+      <Key>LogicTypeExportCount</Key>
+      <Value>Kolik položek bylo exportováno od posledního vymazání paměti</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportCount</Key>
+      <Value>Kolik položek bylo importováno od posledního vymazání paměti</Value>
+    </Record>
+    <Record>
       <Key>LogicTypePowerGeneration</Key>
       <Value>Vrací, kolik energie je generováno</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTotalMoles</Key>
+      <Value>Vrátí celkové moly zařízení</Value>
     </Record>
     <Record>
       <Key>LogicTypeVolume</Key>
@@ -5375,6 +5387,10 @@ Skvělá lokalita pro začínajícího stationera, který může začít svou ce
     <Record>
       <Key>SettingsP2PHostEnabled</Key>
       <Value>Povolit P2P Host</Value>
+    </Record>
+    <Record>
+      <Key>SettingsP2PHostNote</Key>
+      <Value>Pokud je P2PHost povolen, bude Stationeers používat Steam paketové relé, takže si můžete hrát se svým přítelem pod NAT nebo VPN. Není kompatibilní s TCP/IP a nutí neinzerovat server.</Value>
     </Record>
     <Record>
       <Key>SettingsSavePath</Key>
