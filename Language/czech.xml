@@ -5024,8 +5024,36 @@ Teplota {1}</Value>
       <Value>Vrací, kolik energie je generováno</Value>
     </Record>
     <Record>
+      <Key>LogicTypePositionX</Key>
+      <Value>Aktuální poloha v dimenzi X ve světových souřadnicích</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePositionY</Key>
+      <Value>Aktuální poloha v dimenzi Y ve světových souřadnicích</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePositionZ</Key>
+      <Value>Aktuální poloha v dimenzi Z ve světových souřadnicích</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeVelocityMagnitude</Key>
-      <Value>Aktuální velikost rychlosti vektoru</Value>
+      <Value>Aktuální velikost vektoru rychlosti</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityRelativeX</Key>
+      <Value>Aktuální rychlost X vzhledem k dopřednému vektoru tohoto</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityRelativeY</Key>
+      <Value>Aktuální rychlost Y vzhledem k dopřednému vektoru tohoto</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVelocityRelativeZ</Key>
+      <Value>Aktuální rychlost Z vzhledem k dopřednému vektoru tohoto</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePrefabHash</Key>
+      <Value>Hash struktura</Value>
     </Record>
     <Record>
       <Key>LogicTypeForceWrite</Key>
@@ -5046,6 +5074,10 @@ Teplota {1}</Value>
     <Record>
       <Key>LogicSlotTypeOccupied</Key>
       <Value>vrátí 0, pokud není obsazen slot 1, když je obsazen</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeOccupantHash</Key>
+      <Value>vrátí aktuální cestující, jedinečný identifikátor věci</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeQuantity</Key>
