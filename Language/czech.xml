@@ -3707,7 +3707,7 @@
     </Record>
     <Record>
       <Key>GameMenuButtonExitDesktop</Key>
-      <Value>Ukončit na Plochu</Value>
+      <Value>Odejít na plochu</Value>
     </Record>
     <Record>
       <Key>SaveMenuTitle</Key>
@@ -4094,8 +4094,12 @@ Rolovat &lt;color=red&gt;Kolečkem Myši&lt;/color&gt; pro další volbu.</Value
       <Value>Umístění se přichytí k plochám mřížky.</Value>
     </Record>
     <Record>
+      <Key>TooltipPlacementSnapFaceMount</Key>
+      <Value>Umístění je povoleno pouze na strukturách {THING:StructureFrameIron} a {THING:StructureFrame}. Pokud jsou vylepšeny, nabídnou lepší možnosti umístění.</Value>
+    </Record>
+    <Record>
       <Key>GameMenuClearDisconnectedPlayers</Key>
-      <Value>Vymazat Odpojené Hráče</Value>
+      <Value>Vymazat odpojené hráče</Value>
     </Record>
     <Record>
       <Key>SettingsTitleMultiplayerAdvanced</Key>
@@ -4148,6 +4152,10 @@ Rolovat &lt;color=red&gt;Kolečkem Myši&lt;/color&gt; pro další volbu.</Value
     <Record>
       <Key>WaitingTitle</Key>
       <Value>Upozornění při ukládání</Value>
+    </Record>
+    <Record>
+      <Key>WaitingBody</Key>
+      <Value>Stále se ukládají světová data.  Jakmile uložení skončí, zkuste to znova.</Value>
     </Record>
     <Record>
       <Key>PromptQuitTitle</Key>
@@ -4256,7 +4264,7 @@ Prosím zkuste to znovu.</Value>
     </Record>
     <Record>
       <Key>AlertKicked</Key>
-      <Value>Byli jste vyhozen ze serveru.</Value>
+      <Value>Byli jste vyhozeni ze serveru.</Value>
     </Record>
     <Record>
       <Key>AlertWrongPassword</Key>
@@ -5364,6 +5372,10 @@ Teplota {1}</Value>
       <Value>Olovo</Value>
     </Record>
     <Record>
+      <Key>ElectronicReaderSilicon</Key>
+      <Value>Křemík</Value>
+    </Record>
+    <Record>
       <Key>ElectronicReaderCobalt</Key>
       <Value>Kobalt</Value>
     </Record>
@@ -5398,6 +5410,10 @@ Teplota {1}</Value>
     <Record>
       <Key>ElectronicReaderSolder</Key>
       <Value>Pájka</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderSilicon</Key>
+      <Value>Křemík</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderSalicylicAcid</Key>
