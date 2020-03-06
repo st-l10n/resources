@@ -5044,8 +5044,60 @@ Teplota {1}</Value>
       <Value>Žádný popis</Value>
     </Record>
     <Record>
+      <Key>LogicSlotTypeOccupied</Key>
+      <Value>vrátí 0, pokud není obsazen slot 1, když je obsazen</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeQuantity</Key>
+      <Value>vrátí aktuální množství, například velikost zásobníku, položky ve slotu</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeDamage</Key>
+      <Value>vrátí stav poškození položky ve slotu</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeEfficiency</Key>
+      <Value>vrací účinnost růstu rostliny ve slotu</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeMature</Key>
+      <Value>vrátí 1, pokud je rostlina v tomto slotu zralá, 0 když není</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeHealth</Key>
+      <Value>vrátí zdraví rostliny ve slotu</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeGrowth</Key>
+      <Value>vrátí aktuální stav růstu rostliny ve slotu</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePressure</Key>
+      <Value>vrací tlak vnitřní atmosféry pasažérů</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeTemperature</Key>
+      <Value>vrací teplotu vnitřní atmosféry pasažérů</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeCharge</Key>
+      <Value>vrací aktuální energetický náboj, který drží cestující ve slotu</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeChargeRatio</Key>
+      <Value>vrací aktuální energetický náboj, který cestující ve slotu drží v poměru mezi 0 a 1 jeho maxima</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypeClass</Key>
+      <Value>vrátí celé číslo představující třídu objektu</Value>
+    </Record>
+    <Record>
+      <Key>LogicSlotTypePressureWaste</Key>
+      <Value>vrátí tlak v odpadní nádrži jetpacku v tomto slotu</Value>
+    </Record>
+    <Record>
       <Key>LogicSlotTypePressureAir</Key>
-      <Value>vrací tlak ve vzduchové nádrži jetpacku v tomto slotu</Value>
+      <Value>vrátí tlak ve vzduchové nádrži jetpacku v tomto slotu</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeMaxQuantity</Key>
@@ -5053,7 +5105,7 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypePrefabHash</Key>
-      <Value>vrátí hodnotu hash konstrukce ve slotu</Value>
+      <Value>vrátí hash struktury ve slotu</Value>
     </Record>
     <Record>
       <Key>AppearanceButtonRandomize</Key>
