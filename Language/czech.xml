@@ -4920,8 +4920,16 @@ Teplota {1}</Value>
       <Value>1, pokud je zařízení otevřeno, jinak 0</Value>
     </Record>
     <Record>
+      <Key>LogicTypeMode</Key>
+      <Value>Celé číslo pro stav režimu, různá zařízení budou mít k dispozici různé stavy režimu</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeError</Key>
       <Value>1, pokud je zařízení v chybovém stavu, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeLock</Key>
+      <Value>1 pokud je zařízení uzamčeno, jinak 0, lze nastavit ve většině zařízení a zabraňuje uživateli v přístupu k hodnotám</Value>
     </Record>
     <Record>
       <Key>LogicTypePressure</Key>
@@ -4932,8 +4940,28 @@ Teplota {1}</Value>
       <Value>Aktuální údaj o teplotě zařízení</Value>
     </Record>
     <Record>
+      <Key>LogicTypePressureExternal</Key>
+      <Value>Nastavení pro bezpečnost vnějšího tlaku, v KPa</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePressureInternal</Key>
+      <Value>Nastavení pro bezpečnost vnitřního tlaku, v KPa</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeActivate</Key>
       <Value>1, pokud je zařízení aktivováno (obvykle znamená spuštění), jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeCharge</Key>
+      <Value>Aktuální nabíjení, které zařízení má</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSetting</Key>
+      <Value>Nastavení proměnných, které lze číst nebo zapisovat v závislosti na zařízení</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeReagents</Key>
+      <Value>Celkový počet činidel zaznamenaných zařízením</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioOxygen</Key>
@@ -4980,6 +5008,10 @@ Teplota {1}</Value>
       <Value>Maximální nastavení zařízení</Value>
     </Record>
     <Record>
+      <Key>LogicTypeRatio</Key>
+      <Value>Kontextová specifická hodnota v závislosti na zařízení, poměr založený na 0:1</Value>
+    </Record>
+    <Record>
       <Key>LogicTypePowerPotential</Key>
       <Value>Kolik energie může zařízení nebo síť poskytnout</Value>
     </Record>
@@ -5000,8 +5032,20 @@ Teplota {1}</Value>
       <Value>Celkové množství importovaných položek ze zařízení</Value>
     </Record>
     <Record>
+      <Key>LogicTypeImportSlotOccupant</Key>
+      <Value>ZASTARALÉ</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeExportQuantity</Key>
       <Value>Celkové množství exportovaných položek ze zařízení</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeExportSlotOccupant</Key>
+      <Value>ZASTARALÉ</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRequiredPower</Key>
+      <Value>Volnoběžné množství provozního výkonu, nemusí nutně zahrnovat extra poptávku</Value>
     </Record>
     <Record>
       <Key>LogicTypeHorizontalRatio</Key>
@@ -5016,8 +5060,96 @@ Teplota {1}</Value>
       <Value>Požadovaný výkon ze zařízení a / nebo sítě</Value>
     </Record>
     <Record>
+      <Key>LogicTypeIdle</Key>
+      <Value>Vrátí hodnotu 1, pokud je zařízení aktuálně nečinné, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeColor</Key>
+      <Value>Nastavení barev pro zařízení, reprezentované jako celé číslo</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeElevatorSpeed</Key>
       <Value>Aktuální rychlost výtahu</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeElevatorLevel</Key>
+      <Value>Úroveň výtahu je v současné době na</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRecipeHash</Key>
+      <Value>Aktuální hash receptury, kterou má zařízení produkovat</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeExportSlotHash</Key>
+      <Value>ZASTARALÉ</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeImportSlotHash</Key>
+      <Value>ZASTARALÉ</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHealth1</Key>
+      <Value>ZASTARALÉ</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHealth2</Key>
+      <Value>ZASTARALÉ</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHealth3</Key>
+      <Value>ZASTARALÉ</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHealth4</Key>
+      <Value>ZASTARALÉ</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantGrowth1</Key>
+      <Value>ZASTARALÉ</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantGrowth2</Key>
+      <Value>ZASTARALÉ</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantGrowth3</Key>
+      <Value>ZASTARALÉ</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantGrowth4</Key>
+      <Value>ZASTARALÉ</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantEfficiency1</Key>
+      <Value>ZASTARALÉ</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantEfficiency2</Key>
+      <Value>ZASTARALÉ</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantEfficiency3</Key>
+      <Value>ZASTARALÉ</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantEfficiency4</Key>
+      <Value>ZASTARALÉ</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHash1</Key>
+      <Value>ZASTARALÉ</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHash2</Key>
+      <Value>ZASTARALÉ</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHash3</Key>
+      <Value>ZASTARALÉ</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlantHash4</Key>
+      <Value>ZASTARALÉ</Value>
     </Record>
     <Record>
       <Key>LogicTypeRequestHash</Key>
