@@ -4793,23 +4793,23 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>ConnectionPropellant</Key>
-      <Value>Pohonná Hmota</Value>
+      <Value>Pohonná hmota</Value>
     </Record>
     <Record>
       <Key>SettingsChunkRenderDistance</Key>
-      <Value>Vzdálenost Vykreslení Předmětů</Value>
+      <Value>Vzdálenost vykreslení chunků</Value>
     </Record>
     <Record>
       <Key>ScenarioScoreboardBackToMenu</Key>
-      <Value>Opustit Menu</Value>
+      <Value>Odejít do nabídky</Value>
     </Record>
     <Record>
       <Key>ScenarioScoreboardReturnToGame</Key>
-      <Value>Návrat do Hry</Value>
+      <Value>Návrat do hry</Value>
     </Record>
     <Record>
       <Key>ScenarioScoreboardHeading</Key>
-      <Value>Scénář Dokončen</Value>
+      <Value>Scénář dokončen</Value>
     </Record>
     <Record>
       <Key>ButtonCopy</Key>
@@ -4845,11 +4845,11 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>SettingsLegacyInventory</Key>
-      <Value>Starý Inventář</Value>
+      <Value>Starý inventář</Value>
     </Record>
     <Record>
       <Key>SettingsDisableWaterVisualizer</Key>
-      <Value>Zakázat Vodní Vizualizátor</Value>
+      <Value>Zakázat vizualizaci vody</Value>
     </Record>
     <Record>
       <Key>SettingsInterface</Key>
@@ -4861,11 +4861,11 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>SettingsEnableClouds</Key>
-      <Value>Povolit Mraky</Value>
+      <Value>Povolit mraky</Value>
     </Record>
     <Record>
       <Key>SettingsClouds</Key>
-      <Value>Povolit Mraky</Value>
+      <Value>Povolit mraky</Value>
     </Record>
     <Record>
       <Key>InvalidDegrees</Key>
@@ -4877,11 +4877,15 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>WarningControlConflict</Key>
-      <Value>Konflikty Ovládacích Prvků</Value>
+      <Value>Konflikt ovládacích prvků</Value>
+    </Record>
+    <Record>
+      <Key>WarningControlConflictDescription</Key>
+      <Value>Navštivte okno přiřazení ovládacích prvků a odstraňte konflikty</Value>
     </Record>
     <Record>
       <Key>NewWorldGameMode</Key>
-      <Value>Herní Mód</Value>
+      <Value>Herní režim</Value>
     </Record>
     <Record>
       <Key>NewWorldGravity</Key>
@@ -4897,11 +4901,11 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>NewWorldSolarEnergy</Key>
-      <Value>Solární Energie</Value>
+      <Value>Solární energie</Value>
     </Record>
     <Record>
       <Key>NewWorldSolarAngle</Key>
-      <Value>Sluneční Úhel</Value>
+      <Value>Sluneční úhel</Value>
     </Record>
     <Record>
       <Key>SettingsMenuAppearance</Key>
@@ -4909,11 +4913,15 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>SettingsUserSpeakerMode</Key>
-      <Value>Režim Reproduktoru:</Value>
+      <Value>Režim reproduktoru: </Value>
     </Record>
     <Record>
       <Key>LogicTypeNone</Key>
       <Value>Žádný popis</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePower</Key>
+      <Value>Lze číst a vrátit, pokud je zařízení správně napájeno nebo není, nastaveno prostřednictvím napájecího systému, vráceno 1, pokud je napájeno, a 0, pokud není</Value>
     </Record>
     <Record>
       <Key>LogicTypeOpen</Key>
