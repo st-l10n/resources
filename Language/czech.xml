@@ -5020,8 +5020,48 @@ Teplota {1}</Value>
       <Value>Aktuální rychlost výtahu</Value>
     </Record>
     <Record>
+      <Key>LogicTypeRequestHash</Key>
+      <Value>Pokud je nastaven na jedinečný identifikátor, požaduje od zařízení položku poskytovaného typu</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeCompletionRatio</Key>
+      <Value>Jak je dokončena současná výroba tohoto zařízení, mezi 0 a 1</Value>
+    </Record>
+    <Record>
       <Key>LogicTypePowerGeneration</Key>
       <Value>Vrací, kolik energie je generováno</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeVolume</Key>
+      <Value>Vrátí hlasitost atmosféry zařízení</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypePlant</Key>
+      <Value>Provádí výsadbu u všech strojních zařízení</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeHarvest</Key>
+      <Value>Provádí sklízecí akci u všech strojních zařízení</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeOutput</Key>
+      <Value>Operace výstupu zařízení pro třídění, jako je stohovač nebo třídič, v logickém režimu bude zařízení provádět pouze jedno opakování, když je nastaveno na nulu nebo vyšší, a pak zpět na -1 a čekat na další pokyny</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperatureSetting</Key>
+      <Value>Aktuální nastavení vnitřní teploty objektu (např. Hardsuit A/C)</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTemperatureExternal</Key>
+      <Value>Teplota vnějšího povrchu zařízení, obvykle světová atmosféra, která jej obklopuje</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeFiltration</Key>
+      <Value>Aktuální stav filtračního systému, například Filtrace = 1 pro Hardsuit, nastaví filtraci na On</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeAirRelease</Key>
+      <Value>Aktuální stav systému uvolňování vzduchu, například Vypouštění vzduchu = 1 pro Hardsuit, nastaví uvolňování vzduchu na Zapnuto</Value>
     </Record>
     <Record>
       <Key>LogicTypePositionX</Key>
