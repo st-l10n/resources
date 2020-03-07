@@ -118,14 +118,6 @@
       <Value>Baumaterialien erhalten</Value>
     </Record>
     <Record>
-      <Key>TutorialDescGetTools1</Key>
-      <Value>Nun müssen wir ein paar arbeiten außerhalb der Station durchführen. Lass das {THING:ItemTablet} mit der Taste {KEY:Drop} fallen damit wir andere Sachen aufheben können.</Value>
-    </Record>
-    <Record>
-      <Key>TutorialDescGetTools2</Key>
-      <Value>Hebe den {THING:ItemToolBelt} auf und lege ihn im {SLOT:Belt}-Slot durch drücken und halten der Taste {KEY:ToolBeltSlot} an. Es geht weiter sobald der {THING:ItemToolBelt} ausgerüstet ist und du die {THING:ItemSteelSheets} in einer Hand hast.</Value>
-    </Record>
-    <Record>
       <Key>TutorialTaskGetTools1</Key>
       <Value>{THING:ItemTablet} fallen lassen.</Value>
     </Record>
@@ -172,10 +164,6 @@ Ein {THING:CircuitboardAirlockControl} in der {THING:StructureConsole} kontrolli
       <Value>Reparatur defekter Verdrahtung</Value>
     </Record>
     <Record>
-      <Key>TutorialDescRepairCable1</Key>
-      <Value>Hier ist ein {THING:StructureCableJunction}, finde und enferne es mit der {THING:ItemWireCutters} aus deinem {THING:ItemToolBelt}. Drücke {KEY:ToolBeltSlot} zum Öffnen des {SLOT:Belt}-Inventars. Drücke {KEY:InventorySelect} um den markierten Gegenstand mit dem deiner aktiven Hand zu wechseln.</Value>
-    </Record>
-    <Record>
       <Key>TutorialTaskRepairCable1</Key>
       <Value>Ausrüsten des {THING:ItemWireCutters}s</Value>
     </Record>
@@ -193,7 +181,7 @@ Ein {THING:CircuitboardAirlockControl} in der {THING:StructureConsole} kontrolli
     </Record>
     <Record>
       <Key>TutorialDescRepairCable2</Key>
-      <Value>Schaue auf &quot;{THING:StructureCableJunctionBurnt}&quot; mit dem {THING:ItemWireCutters} in deiner aktiven Hand, sa das du den {COLORYELLOW:gelben} Bereich siehst. Drücke und halte die {COLORRED:Linke Maustaste} um &quot;{THING:StructureCableJunctionBurnt}&quot; zu entfernen.</Value>
+      <Value>Schaue auf {THING:StructureCableJunctionBurnt} mit dem {THING:ItemWireCutters} in deiner aktiven Hand, so das du den {COLORYELLOW:gelben} Bereich siehst. Drücke und halte die {KEY:PrimaryAction} um {THING:StructureCableJunctionBurnt} zu entfernen.</Value>
     </Record>
     <Record>
       <Key>TutorialDescRepairCable3</Key>
