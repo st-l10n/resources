@@ -5714,6 +5714,10 @@ Temperatur {1}</Value>
       <Value>Kontakt</Value>
     </Record>
     <Record>
+      <Key>Experiments</Key>
+      <Value>Experimente</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeTargetX</Key>
       <Value>Die Zielposition in der X-Dimension in Weltkoordinaten</Value>
     </Record>
@@ -5738,8 +5742,28 @@ Temperatur {1}</Value>
       <Value>Weltenursprung</Value>
     </Record>
     <Record>
+      <Key>PromptPauseBody</Key>
+      <Value>Spiel Pausiert</Value>
+    </Record>
+    <Record>
       <Key>PromptButtonLeave</Key>
       <Value>Sitzung Verlassen</Value>
+    </Record>
+    <Record>
+      <Key>PromptResumeButton</Key>
+      <Value>Fortsetzen</Value>
+    </Record>
+    <Record>
+      <Key>TierThree</Key>
+      <Value>Stufe Drei</Value>
+    </Record>
+    <Record>
+      <Key>TierOne</Key>
+      <Value>Stufe Eins</Value>
+    </Record>
+    <Record>
+      <Key>TierTwo</Key>
+      <Value>Stufe Zwei</Value>
     </Record>
     <Record>
       <Key>TravelMenuTitle</Key>
@@ -5786,8 +5810,40 @@ Temperatur {1}</Value>
       <Value>Terrain Farbe</Value>
     </Record>
     <Record>
+      <Key>BlueField</Key>
+      <Value>Blau:</Value>
+    </Record>
+    <Record>
+      <Key>GreenField</Key>
+      <Value>Grün:</Value>
+    </Record>
+    <Record>
+      <Key>RedField</Key>
+      <Value>Rot:</Value>
+    </Record>
+    <Record>
+      <Key>HueField</Key>
+      <Value>Farbton:</Value>
+    </Record>
+    <Record>
+      <Key>SaturationField</Key>
+      <Value>Sättigung:</Value>
+    </Record>
+    <Record>
       <Key>BrightnessField</Key>
       <Value>Helligkeit:</Value>
+    </Record>
+    <Record>
+      <Key>RGBValues</Key>
+      <Value>RGB-Werte</Value>
+    </Record>
+    <Record>
+      <Key>HVSValues</Key>
+      <Value>HVS-Werte</Value>
+    </Record>
+    <Record>
+      <Key>HasLavaField</Key>
+      <Value>Hat Lava</Value>
     </Record>
     <Record>
       <Key>Colour</Key>
@@ -5802,6 +5858,10 @@ Temperatur {1}</Value>
       <Value>Atmosphärische Streuung</Value>
     </Record>
     <Record>
+      <Key>LevelLevelField</Key>
+      <Value>Lava-Niveau</Value>
+    </Record>
+    <Record>
       <Key>TerrainFeaturesField</Key>
       <Value>Terrainmerkmale</Value>
     </Record>
@@ -5812,6 +5872,10 @@ Temperatur {1}</Value>
     <Record>
       <Key>DifficultyField</Key>
       <Value>Schwierigkeitsgrad</Value>
+    </Record>
+    <Record>
+      <Key>HasLODField</Key>
+      <Value>Hat LOD</Value>
     </Record>
     <Record>
       <Key>SolarScaleField</Key>
@@ -5842,8 +5906,16 @@ Temperatur {1}</Value>
       <Value>Hat benutzerdefinierte Temperatur</Value>
     </Record>
     <Record>
+      <Key>LavaLevelField</Key>
+      <Value>Lava-Niveau</Value>
+    </Record>
+    <Record>
       <Key>SolidTerrainColourField</Key>
       <Value>Solide Terrain Farbe</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeElectronicReaderSelected</Key>
+      <Value>Stahlgerüst</Value>
     </Record>
     <Record>
       <Key>CartridgeTrackerDistance</Key>
@@ -5854,8 +5926,28 @@ Temperatur {1}</Value>
       <Value>Angepasste Welt</Value>
     </Record>
     <Record>
+      <Key>GasItemGasMole</Key>
+      <Value>12.09 Mol</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeAtmosAnalyserPressureTitle</Key>
+      <Value>Druck</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeAtmosAnalyserTemperatureTitle</Key>
+      <Value>Temperatur</Value>
+    </Record>
+    <Record>
+      <Key>BigWarning</Key>
+      <Value>Warnung</Value>
+    </Record>
+    <Record>
       <Key>GameMenuButtonCancel</Key>
       <Value>Abbruch</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeElectronicReaderRecipeTitle</Key>
+      <Value>Rezept:</Value>
     </Record>
     <Record>
       <Key>CartridgeElectronicReaderAutoITitle</Key>
@@ -5894,6 +5986,10 @@ Temperatur {1}</Value>
       <Value>Blei</Value>
     </Record>
     <Record>
+      <Key>ElectronicReaderSilicon</Key>
+      <Value>Silizium</Value>
+    </Record>
+    <Record>
       <Key>ElectronicReaderCarbon</Key>
       <Value>Kohlenstoff</Value>
     </Record>
@@ -5922,8 +6018,32 @@ Temperatur {1}</Value>
       <Value>Elektrum</Value>
     </Record>
     <Record>
+      <Key>ElectronicReaderConstantan</Key>
+      <Value>Konstantan</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderSolder</Key>
+      <Value>Lötzinn</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderSilicon</Key>
+      <Value>Silizium</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderSalicylicAcid</Key>
+      <Value>Salicylsäure</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderAlcohol</Key>
+      <Value>Alkohol</Value>
+    </Record>
+    <Record>
       <Key>ElectronicReaderOil</Key>
       <Value>Öl</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderFenoxitone</Key>
+      <Value>Fenoxiton</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderColorRed</Key>
@@ -5932,6 +6052,10 @@ Temperatur {1}</Value>
     <Record>
       <Key>ElectronicReaderColorBlue</Key>
       <Value>Farbstoff (Blau)</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderColorYellow</Key>
+      <Value>Farbstoff (Gelb)</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderColorOrange</Key>
