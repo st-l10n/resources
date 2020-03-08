@@ -181,5 +181,55 @@ Tlak tavení {POS:300}{0}</Text>
       <Key>CreatorsHeaderTemplate</Key>
       <Text>{HEADER:Vyrobeno uživatelem}{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructedByHeaderTemplate</Key>
+      <Text>{HEADER:Vyrobeno z}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedHeaderTemplate</Key>
+      <Text>{HEADER:Může vyrábět}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructedHeaderTemplate</Key>
+      <Text>{HEADER:Lze vytvořit}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicTransmitHeaderTemplate</Key>
+      <Text>
+        {HEADER:Připojuje se k}
+        {LIST}{0}{/LIST}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>TierListHeaderTemplate</Key>
+      <Text>
+        {HEADER:Seznam úrovní struktur}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicTypeHeaderTemplate</Key>
+      <Text>{HEADER:Logika}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ModeStringHeaderTemplate</Key>
+      <Text>{HEADER:Režimy} {LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedGasesTemplate</Key>
+      <Text>{HEADER:Plyny}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedReagentTemplate</Key>
+      <Text>{HEADER:Činidla}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageFlamableTemplate</Key>
+      <Text>Hořlavý limit {POS:300}{0} až {1}</Text>
+    </StationpediaPage>
   </HelpPage>
 </Language>
