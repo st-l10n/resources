@@ -35,6 +35,14 @@ Pokud podržíte {KEY:MouseControl} a {KEY:MouseInspect} a kliknete na něco, co
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>InventoryPage</Key>
+      <Title>Inventář</Title>
+      <Text>Všechny věci ve hře mohou mít různé sloty. Tyto sloty mohou mít třídy slotů, které do těchto slotů umožňují pouze určité věci. Existuje několik klávesových zkratek pro přístup k slotům, které jsou ve vaší postavě, například {KEY:HelmetSlot} pro přístup k vaší {SLOT:Helmet}.
+      
+{HEADER: Inventář Windows}
+Některé sloty budou mít vlastní sloty. Chcete-li komunikovat s obsahem slotu, použijte k otevření okna klávesovou zkratku nebo podržte klávesu {KEY:MouseControl} a klikněte na ni myší. Nyní je okno pro daný slot otevřený a můžete s ním komunikovat s jeho sloty a nastavením. Windows lze přemístit přetažením jejich záhlaví.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>AirlockDevicePage</Key>
       <Title>Přechodová zařízení</Title>
       <Text>Umístěním {THING:CircuitboardAirlockControl} do {THING:StructureConsole} můžete k němu připojit různá zařízení, aby se vytvořila funkční přechodová komora.
