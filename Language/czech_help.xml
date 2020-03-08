@@ -35,6 +35,16 @@ Pokud podržíte {KEY:MouseControl} a {KEY:MouseInspect} a kliknete na něco, co
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>AirlockDevicePage</Key>
+      <Title>Přechodová zařízení</Title>
+      <Text>Umístěním {THING:CircuitboardAirlockControl} do {THING:StructureConsole} můžete k němu připojit různá zařízení, aby se vytvořila funkční přechodová komora.
+      
+{HEADER:Seznam zařízení pro přechodovou komoru}
+K řídicímu systému přechodové komory lze připojit a používat následující zařízení:
+{LIST_OF_AIRLOCK_DEVICES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>LogicUnitPage</Key>
       <Title>Logické jednotky</Title>
       <Text>{HEADER:Seznam logických jednotek}
