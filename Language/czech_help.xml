@@ -76,12 +76,30 @@ K řídicímu systému přechodové komory lze připojit a používat následuj�
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>ReagentPage</Key>
+      <Title>Činidla</Title>
+      <Text>Jedná se o chemická množství určitých typů.
+      
+{HEADER:Seznam činidel}
+{LIST_OF_REAGENTS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>GasPage</Key>
       <Title>Plyny</Title>
       <Text>Jedná se o chemické plyny určitých typů.
       
 {HEADER:Seznam plynů}
 {LIST_OF_GASES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>IngotPage</Key>
+      <Title>Ingoty</Title>
+      <Text>Jedná se o položky, které jsou obvykle vyrobeny z {LINK:SmeltingPage;Smelting} {LINK:OrePage;ores}.
+      
+{HEADER:Seznam ingotů}
+{LIST_OF_INGOTS}
       </Text>
     </StationpediaPage>
     <!--
