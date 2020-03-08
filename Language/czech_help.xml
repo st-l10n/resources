@@ -120,6 +120,33 @@ K řídicímu systému přechodové komory lze připojit a používat následuj�
 {LIST_OF_RESOURCES}
       </Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>KitPage</Key>
+      <Title>Sady</Title>
+      <Text>Jedná se o položky, které jsou spotřebovány během {LINK:ConstructionPage;Construction} a dalších úkolu.
+      
+{HEADER:Seznam sad}
+{LIST_OF_KITS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FoodPage</Key>
+      <Title>Potraviny</Title>
+      <Text>Jedná se o položky, které se konzumují za účelem zajištění výživy.
+      
+{HEADER:Seznam potravin}
+{LIST_OF_FOOD}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ClothingPage</Key>
+      <Title>Oblečení</Title>
+      <Text>Jedná se o položky, které mohou být nošeny entitami ve slotech.
+      
+{HEADER:Seznam oblečení}
+{LIST_OF_CLOTHING}
+      </Text>
+    </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
@@ -134,6 +161,14 @@ K řídicímu systému přechodové komory lze připojit a používat následuj�
       <Text>{0}. {POS:100}{1} {POS:300}Typ{2}</Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>ThingStackTemplate</Key>
+      <Text>Velikost zásobníku {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingTransmissibleTemplate</Key>
+      <Text>Připojí se k {POS:300}{THING:StructureLogicTransmitter}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>ThingNutritionTemplate</Key>
       <Text>Maximální výživa {POS:300}{0}</Text>
     </StationpediaPage>
@@ -141,6 +176,10 @@ K řídicímu systému přechodové komory lze připojit a používat následuj�
       <Key>IceMeltingTemplate</Key>
       <Text>Teplota roztavení {POS:300}{1}
 Tlak tavení {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatorsHeaderTemplate</Key>
+      <Text>{HEADER:Vyrobeno uživatelem}{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
   </HelpPage>
 </Language>
