@@ -52,6 +52,30 @@ K řídicímu systému přechodové komory lze připojit a používat následuj�
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>FabricatorPage</Key>
+      <Title>Fabriky</Title>
+      <Text>Jedná se o poháněné struktury, které mohou být použity k výrobě věcí, které potřebujete ve hře. Obvykle berou {LINK:IngotPage;Ingots}, aby poskytli {LINK:ReagentPage;Reagents}, která potřebují k výrobě věcí.
+      
+{HEADER:Seznam výrobních prostředků}
+{LIST_OF_FABRICATORS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>DevicePage</Key>
+      <Title>Zařízení</Title>
+      <Text>Jedná se o struktury, obvykle poháněné, které mají specializované funkce, včetně logiky, atmosféry a další. Jsou konstruovány stejným způsobem jako ostatní struktury.
+      
+{HEADER:Seznam zařízení}
+{LIST_OF_DEVICES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>MiningPage</Key>
+      <Title>Těžení</Title>
+      <Text>Můžete těžit {LINK:OrePage;ore} pomocí {THING:ItemMiningDrill}. Pokud nosíte {THING:ItemMiningBelt} {LINK:OrePage;ore} bude automaticky umístěn do něj.
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>GasPage</Key>
       <Title>Plyny</Title>
       <Text>Jedná se o chemické plyny určitých typů.
