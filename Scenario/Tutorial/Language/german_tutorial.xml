@@ -189,11 +189,13 @@ Ein {THING:CircuitboardAirlockControl} in der {THING:StructureConsole} kontrolli
     </Record>
     <Record>
       <Key>TutorialDescRepairCable4</Key>
-      <Value>Drücke die {COLORRED:rechte Maustaste} mit der {THING:ItemCableCoil} in deiner aktiven Hand, um das Konstruktionsmenü zu zeigen.
+      <Value>Drücke {KEY:SecondaryAction} mit einer {THING:ItemCableCoil} in deiner aktiven Hand, um das {LINK:ConstructionPage;Konstruktionsmenü} zu zeigen.
 
 Benutze das {COLORRED:Mausrad} um zwischen den Optionen zu wechseln um das {THING:StructureCableJunction} zu bekommen.
 
-Drücke {KEY:RotateLeft} um nach links, {KEY:RotateRight} um nach rechts, {KEY:RotateUp} um nach oben und {KEY:RotateDown} um nach unten zu drehen. Mit {KEY:RotateRollLeft} wird nach links und mit {KEY:RotateRollRight} nach rechts gerollt.</Value>
+Drücke {KEY:RotateLeft} um nach links, {KEY:RotateRight} um nach rechts, {KEY:RotateUp} um nach oben und {KEY:RotateDown} um nach unten zu drehen. Mit {KEY:RotateRollLeft} wird nach links und mit {KEY:RotateRollRight} nach rechts gerollt.
+
+Du kannst auch {KEY:QuantityModifier} drücken. Dann wird versucht automatisch die beste Ausrichtung zu finden. Bei mehreren gleichwertigen Ausrichtungen kannst du {KEY:QuantityModifier} wiederholt drücken um zwischen diesen zu wechseln. Du kannst auch {KEY:QuantityModifier} gedrückt halten und mit dem Mausrad durch die verschiedenen Möglichkeiten scrollen.</Value>
     </Record>
     <Record>
       <Key>TutorialTitleFinishFrame</Key>
