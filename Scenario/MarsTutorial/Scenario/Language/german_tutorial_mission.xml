@@ -15,5 +15,28 @@
       <Key>TutorialTheBeginningTitle</Key>
       <Value>Der Anfang</Value>
     </Record>
+    <Record> Using 
+			
+      <Key>TutorialTheBeginningDescription</Key>
+      <Value>Fangen wir an. Schließen Sie Ihre Stationpedia mit {KEY:Help}. Als Nächstes können Sie mit {KEY:PrimaryAction} Gegenstände aufheben. Drücken Sie die Taste {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot} oder {KEY:ToolBeltSlot}, um zwischen Interaktionen und Inventar für jeden Ausrüstungsgegenstand, den Sie tragen, umzuschalten. Drücken und halten Sie die Taste umd Die Ausrüstung mit der in ihrer Aktiven Hand zu wechseln. Sie können auch die Option {KEY:MouseControl} halten und die Teile in den entsprechenden Ausrüstungsplatz ziehen.
+
+Die Ausrüstungsplätze für Ihren Charakter sehen Sie auf der linken Seite des Bildschirms. Sie können zum Bespiel die Taste {KEY:MouseControl} verwenden und auf {THING:UniformOrangeJumpSuit} klicken. Dadurch wird ein Menü für die angelegte Ausrüstung geöffnet, was interaktionen mit diesem zu lässt.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTheBeginningTask1</Key>
+      <Value>{LINK:Home;Stationpedia} schließen. ({KEY:Help})</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTheBeginningTask2</Key>
+      <Value>{THING:ItemSpaceHelmet} ausrüsten.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTheBeginningTask3</Key>
+      <Value>{THING:ItemSpacepack} ausrüsten.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTheBeginningTask4</Key>
+      <Value>{THING:ItemEvaSuit} ausrüsten.</Value>
+    </Record>
   </Interface>
 </Language>
