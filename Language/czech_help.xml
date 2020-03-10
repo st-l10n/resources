@@ -211,6 +211,14 @@ K řídicímu systému přechodové komory lze připojit a používat následuj�
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
+      <Key>ThingTemplate</Key>
+      <Text>{0}
+
+{HEADER:Všeobecné}
+{LIST}Prefabrikovaný hash {POS:300}{1}
+Malovatelné {POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>ThingThermalTemplate</Key>
       <Text>{HEADER:Tepelné limity}
 {LIST}Rozbití {POS:300}{0}
