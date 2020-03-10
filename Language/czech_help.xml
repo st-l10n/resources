@@ -380,7 +380,7 @@ Tlak tavení {POS:300}{0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ReagentPageTemplate</Key>
-      <Text>{LINK:ReagentPage;reagent}, často použitelné, když je ve formě {LINK:IngotPage;Ingots}
+      <Text>{LINK:ReagentPage;Činidla}, často použitelné, když je ve formě {LINK:IngotPage;ingotů}
 
 {HEADER:Všeobecné}
 {LIST} Jednotka {POS:300}{1}{/LIST}
@@ -390,7 +390,7 @@ Tlak tavení {POS:300}{0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageTemplate</Key>
-      <Text>{LINK:GasPage;gas}, často vznikající, když {LINK:SmeltingPage;smelting}.
+      <Text>{LINK:GasPage;Plyn}, často vznikající, když se {LINK:SmeltingPage;taví}.
 
 {HEADER:Všeobecné}
 {LIST} Specifické teplo {POS:300}{1}{2}{/LIST}
