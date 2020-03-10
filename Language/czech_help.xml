@@ -155,20 +155,20 @@ K řídicímu systému přechodové komory lze připojit a používat následuj�
     <StationpediaPage>
       <Key>MiningPage</Key>
       <Title>Těžení</Title>
-      <Text>Můžete těžit {LINK:OrePage;ore} pomocí {THING:ItemMiningDrill}. Pokud nosíte {THING:ItemMiningBelt} {LINK:OrePage;ore} bude automaticky umístěn do něj.
+      <Text>Můžete těžit {LINK:OrePage;rudy} pomocí {THING:ItemMiningDrill}. Pokud nosíte {THING:ItemMiningBelt} {LINK:OrePage;rudy} bude automaticky umístěn do něj.
       </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ConstructionPage</Key>
       <Title>Stavebnictví</Title>
       <Text>{HEADER:Začínáme}
-Obvykle použijete {LINK:KitPage;kit}, abyste zahájili výstavbu a pak dokončili různé {LINK:ToolPage;tools} a {LINK:ResourcePage;resources}. Věnujte velkou pozornost tomu, kolik sady je nutné k vytvoření toho, co jste vybrali, protože některé struktury vyžadují více než jeden zásobník, který má být spotřebován. U některých sad budete mít více možností, použijte {COLORRED:Kolečko myši} pro změnu aktuální možnosti, kterou chcete vytvořit.
+Obvykle použijete {LINK:KitPage;nářadí}, abyste zahájili výstavbu a pak dokončili různé {LINK:ToolPage;nástroje} a {LINK:ResourcePage;zdroje}. Věnujte velkou pozornost tomu, kolik sady je nutné k vytvoření toho, co jste vybrali, protože některé struktury vyžadují více než jeden zásobník, který má být spotřebován. U některých sad budete mít více možností, použijte {COLORRED:Kolečko myši} pro změnu aktuální možnosti, kterou chcete vytvořit.
 
 {HEADER:Stavění}
 Některé struktury budou mít více stavů sestavení, které vyžadují různé kombinace k dokončení. Váš popis vám poradí, jakou kombinaci potřebujete k dokončení struktury. Někdy budete muset mít dva objekty, jeden v každé ruce, k dokončení stavu sestavení. Některé nástroje bude nutné zapnout jako první, což lze provést stisknutím klávesy {KEY:ToggleHandPower}, když je v aktivní ruce.
 
 {HEADER:Popisy}
-Pokud se podíváte přímo na strukturu, která je neúplná, získáte informace o tom, co musíte udělat, abyste ji dokončili. Pokud máte v ruce {LINK:ToolPage;tool} a není to správné {LINK:ToolPage;tool}, zobrazí se popisek s tím, co byste museli použít k jeho dekonstrukci.
+Pokud se podíváte přímo na strukturu, která je neúplná, získáte informace o tom, co musíte udělat, abyste ji dokončili. Pokud máte v ruce {LINK:ToolPage;nástroj} a není to správný {LINK:ToolPage;nástroj}, zobrazí se popisek s tím, co byste museli použít k jeho dekonstrukci.
       </Text>
     </StationpediaPage>
     <StationpediaPage>
@@ -192,7 +192,7 @@ Pokud se podíváte přímo na strukturu, která je neúplná, získáte informa
     <StationpediaPage>
       <Key>AlloyPage</Key>
       <Title>Slitiny</Title>
-      <Text>Vytvořeny v {THING:StructureFurnace} nebo v {THING:StructureAdvancedFurnace} od speciálních {LINK:ReagentPage;Reagent} směsí, jedná se o pokročilé {LINK:IngotPage;Ingots} pro použití v {LINK:FabricatorPage;Fabricators}. {THING:StructureArcFurnace} není schopná je roztavit.
+      <Text>Vytvořeny v {THING:StructureFurnace} nebo v {THING:StructureAdvancedFurnace} od speciálních {LINK:ReagentPage;činidel} směsí, jedná se o pokročilé {LINK:IngotPage;ingoty} pro použití ve {LINK:FabricatorPage;výrobcích}. {THING:StructureArcFurnace} není schopná je roztavit.
 
 {HEADER:Seznam slitin}
 {LIST_OF_ALLOYS}
@@ -202,7 +202,7 @@ Pokud se podíváte přímo na strukturu, která je neúplná, získáte informa
       <Key>SuperAlloyPage</Key>
       <Title>Superslitiny</Title>
       <Text>
-        Vytvořené v {THING:StructureAdvancedFurnace} z několika speciálních {LINK:ReagentPage;Reagent}, jsou velmi pokročilé {LINK:IngotPage;Ingots} pro použití v {LINK:FabricatorPage;Fabricators}. {THING:StructureArcFurnace} a {THING:StructureFurnace} je nemohou roztavit.
+        Vytvořené v {THING:StructureAdvancedFurnace} z několika speciálních {LINK:ReagentPage;činidel}, jsou velmi pokročilé {LINK:IngotPage;ingoty} pro použití v {LINK:FabricatorPage;výrobcích}. {THING:StructureArcFurnace} a {THING:StructureFurnace} je nemohou roztavit.
 
 {HEADER:Seznam superslitin}
 {LIST_OF_SUPER_ALLOYS}
@@ -211,10 +211,10 @@ Pokud se podíváte přímo na strukturu, která je neúplná, získáte informa
     <StationpediaPage>
       <Key>OrePage</Key>
       <Title>Rudy</Title>
-      <Text>Jedná se o položky, které jsou {LINK:MiningPage;mined} a často mohou být {LINK:SmeltingPage;smelted}. Můžete také získat smíšené rudy recyklací položek v {THING:StructureRecycler} a jejím předáním přes {THING:StructureCentrifuge}, který ji rozdělí na {LINK:OrePage;ore} pro {LINK:SmeltingPage;smelting}.
+      <Text>Jedná se o položky, které jsou {LINK:MiningPage;vytěžené} a často mohou být {LINK:SmeltingPage;taveny}. Můžete také získat smíšené rudy recyklací položek v {THING:StructureRecycler} a jejím předáním přes {THING:StructureCentrifuge}, který ji rozdělí na {LINK:OrePage;rudy} pro {LINK:SmeltingPage;tavení}.
       
 {HEADER:Tání ledu}
-Existují některé rudy, které se roztaví, když jsou vystaveny slunečnímu záření nebo teplu a produkují {LINK:GasPage;gases}. Například {THING:ItemIce} se roztaví na {GAS:Water} a {GAS:Oxygen}. Dávejte pozor, abyste je chránili před teplem nebo slunečním zářením, dokud je opravdu nechcete roztavit.
+Existují některé rudy, které se roztaví, když jsou vystaveny slunečnímu záření nebo teplu a produkují {LINK:GasPage;pliny}. Například {THING:ItemIce} se roztaví na {GAS:Water} a {GAS:Oxygen}. Dávejte pozor, abyste je chránili před teplem nebo slunečním zářením, dokud je opravdu nechcete roztavit.
       
 {HEADER:Seznam rud}
 {LIST_OF_ORES}
@@ -223,7 +223,7 @@ Existují některé rudy, které se roztaví, když jsou vystaveny slunečnímu 
     <StationpediaPage>
       <Key>IngotPage</Key>
       <Title>Ingoty</Title>
-      <Text>Jedná se o položky, které jsou obvykle vyrobeny z {LINK:SmeltingPage;Smelting} {LINK:OrePage;ores}.
+      <Text>Jedná se o položky, které jsou obvykle vyrobeny z {LINK:SmeltingPage;tavení} {LINK:OrePage;rud}.
       
 {HEADER:Seznam ingotů}
 {LIST_OF_INGOTS}
@@ -232,7 +232,7 @@ Existují některé rudy, které se roztaví, když jsou vystaveny slunečnímu 
     <StationpediaPage>
       <Key>ToolPage</Key>
       <Title>Nástroje</Title>
-      <Text>Jedná se o položky, které se vejdou do speciálního slotu pro nástroje a používají se pro {LINK:ConstructionPage;Construction} a další úkoly.
+      <Text>Jedná se o položky, které se vejdou do speciálního slotu pro nástroje a používají se pro {LINK:ConstructionPage;konstrukce} a další úkoly.
       
 {HEADER:Seznam nástrojů}
 {LIST_OF_TOOLS}
@@ -241,7 +241,7 @@ Existují některé rudy, které se roztaví, když jsou vystaveny slunečnímu 
     <StationpediaPage>
       <Key>ResourcePage</Key>
       <Title>Zdroje</Title>
-      <Text>Jedná se o položky, které jsou spotřebovány během {LINK:ConstructionPage;Construction} a dalších úkolu.
+      <Text>Jedná se o položky, které jsou spotřebovány během {LINK:ConstructionPage;konstrukce} a dalších úkolu.
       
 {HEADER:Seznam zdrojů}
 {LIST_OF_RESOURCES}
@@ -250,7 +250,7 @@ Existují některé rudy, které se roztaví, když jsou vystaveny slunečnímu 
     <StationpediaPage>
       <Key>KitPage</Key>
       <Title>Sady</Title>
-      <Text>Jedná se o položky, které jsou spotřebovány během {LINK:ConstructionPage;Construction} a dalších úkolu.
+      <Text>Jedná se o položky, které jsou spotřebovány během {LINK:ConstructionPage;konstrukce} a dalších úkolu.
       
 {HEADER:Seznam sad}
 {LIST_OF_KITS}
