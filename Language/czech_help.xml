@@ -35,6 +35,50 @@ Pokud podržíte {KEY:MouseControl} a {KEY:MouseInspect} a kliknete na něco, co
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>GettingStarted</Key>
+      <Title>Začínáme</Title>
+      <Text>{HEADER:Vítejte v novém světě}
+Pokud je to poprvé, pak se toho hodně naučíš najednou. Počáteční tlaky na vás jsou skvělé a může být opravdu ohromující začít. Následuje několik obecných pokynů, jak začít. Každý typ světa má různé problémy, kterým musíte čelit, ale následující informace by vám měli poskytnout široký přehled o tom, co potřebujete spravovat.
+      
+{HEADER:Udržuj svůj oblek nabitý}
+Nejnaléhavější potřebou je dobití {THING:ItemBatteryCellLarge} ve vašem {THING:ItemEvaSuit}. Baterie obleku se používá k napájení vašeho {THING:ItemSpaceHelmet} (vypněte jej, když se nepoužívá) a také zahřívá vnitřní vzduch. V chladnějších světech to spotřebuje hodně energie. Budete muset umístit {THING:ItemBatteryCharger} a připojit jej ke zdroji energie. {THING:StructureSolidFuelGenerator} napájený pomocí {THING:ItemCoalOre} nebo {THING:StructureSolarPanel} jsou dobrými startovacími způsoby, jak to zvládnout. V případě nouze vyjměte z vašeho {LINK:ToolPage;Tools} baterie, které vám pomohou udržet váš oblek v chodu, nebo je použijte k nabíjení pomocí dodaného {THING:PortableSolarPanel}.
+
+{HEADER:Zlepšování sběru energie}
+Umístění {THING:StructureAreaPowerControl} s vloženým {THING:ItemBatteryCell} mezi zdrojem napájení a nabíječkou vám hodně pomůže. Důvodem je, že zdroj energie pravděpodobně generuje více energie, než dokáže {THING:ItemBatteryCharger} udržet a je to zbytečné. Navíc můžete manuálně orientovat {THING:StructureSolarPanel}, ale jeho automatizace pro sledování slunce vám hodně pomůže. K tomu vám může pomoci {LINK:LogicUnitPage;Logic Units}.
+      
+{HEADER:Správa kyslíku}
+Váš {THING:ItemEvaSuit} a {THING:ItemSpaceHelmet} tvoří ochranný obal z prvků. {THING:ItemEvaSuit} potřebuje {THING:ItemGasCanisterOxygen}, aby vám poskytl čistý {GAS:Oxygen}. Sledujte množství plynu v nádrži, můžete jej doplnit pomocí velkého {THING:DynamicGasCanisterOxygen}, který je součástí vašeho startovacího zařízení. Existuje štítek „nebezpečí“ označující štěrbinu, kterou můžete vložit do kanystru pro jeho doplnění.
+
+{HEADER:Základní tavení}
+Jakmile budete mít nějakou základní výrobu energie, musíte začít získávat více zdrojů. Vydejte se na {LINK:MiningPage;Mining} a získejte základní {LINK:OrePage;Ores}. Umístěte {THING:StructureArcFurnace} a připojte jej za {THING:StructureAreaPowerControl}. To bude {LINK:SmeltingPage;Smelt} základní {LINK:OrePage;Ores}, jako {THING:ItemIronOre}, {THING:ItemSiliconOre} a jakékoli jiné ne {LINK:AlloyPage; Alloy}.
+
+{HEADER:Základní výroba}
+Nyní, když máte {LINK:IngotPage;Ingots}, můžete je vložit do {LINK:FabricatorPage;Fabricators} jako zdroj. Sestavte {THING:StructureAutolathe} z {THING:ItemKitAutolathe} poskytovaného  ve startovacích bednách.
+
+{HEADER:Výměna filtrů}
+Když {GAS:Oxygen} vydechujete, vydechujete také {GAS:CarbonDioxide}, takže ve svém slotu {SLOT:Filter} také potřebujete {THING:ItemGasFilterCarbonDioxide}. Tyto se časem opotřebují a budete si muset v {THING:StructureHydraulicPipeBender} postavit nové. To lze provést z {THING:ItemKitHydraulicPipeBender} na {THING:StructureAutolathe}.
+
+{HEADER:Postavte skleník}
+K nastavení {LINK:HydroponicsPage;Hydroponics} budete potřebovat malou uzavřenou oblast, abyste mohli vytvořit {LINK:FoodPage;Food}. Nestavte to příliš velký, protože to bude obtížnější natlakovat. Udělejte spoustu {THING:} pomocí varianty v sadách {THING:ItemKitWallIron}, aby bylo povoleno sluneční světlo. Zajistěte, aby byl záznam spravován pomocí automatizovaného {LINK:AirlockPage;Airlock} nebo manuálního. Nezapomeňte, že můžete otevírat a zavírat nenapájené dveře pomocí {THING:ItemCrowbar}.
+
+{HEADER:Natlakujte svůj skleník}
+Jakmile máte uzavřenou oblast, {LINK:MiningPage;Mine} nějaké {THING:ItemOxite} a roztavte je, dokud nemáte ve vaší pěstební oblasti tlak přibližně 100 kPa. Poté do atmosféry přidejte trochu {GAS:CarbonDioxide}. Můžete to snadno udělat tak, že do své ruky vezmete svou Nádobu na odpady z {THING:ItemEvaSuit}, otevřete ji a zavřete a vložíte zpět. Tím se uvolní filtrovaný {GAS:CarbonDioxide} z vašeho dýchání do životního prostředí. {LINK:PlantPage;Plants} to použijí k dechu.
+
+{HEADER:Pěstování rostlin}
+Vezměte {THING:DynamicHydroponics} do svého nového skleníku. Má {THING:ItemGasCanisterWater} pro zajištění rostlin {GAS:Water}. Nyní rostlina používá {THING:ItemPotato} ze startovacích beden. Zasaďte nejprve jednu a před zasazením ostatních ověřte, že roste. K přežití vyžadují sluneční světlo, teplo a malé množství {GAS:CarbonDioxide}.
+
+{HEADER:Pokročilé tavení}
+{THING:StructureArcFurnace} vám umožňuje pouze tavit jednoduché {LINK:OrePage;Ores}. Chcete-li vyrobit pokročilejší komponenty, budete muset použít složitější metody k tavení {LINK:AlloyPage;Alloys}. To se provádí v {THING:StructureFurnace} dosažením správného poměru {LINK:PressurePage;Pressure}, {LINK:TemperaturePage;Temperature} a {LINK:ReagentPage;Reagent}. Například pro výrobu {THING:ItemSteelIngot} budete potřebovat poměr jedné části {REAGENT:Coal} a tří částí {REAGENT:Iron}.
+
+Můžete přímo vložit {LINK:IcePage;Ices} do horní části. Pokud není k dispozici žádná atmosféra pro jejich roztavení, stiskněte tlačítko {LOGICTYPE:Activate}. Led se automaticky roztaví, pokud je uvnitř dostatek plynu o správné teplotě. Použijte kombinaci {THING:ItemOxite} a {THING:ItemVolatiles} k zahájení požáru uvnitř, i když to dramaticky uvnitř zvýší tlak.
+
+Jakmile je na správné teplotě, vložte rudy, abyste je vytavily - ale sledujte, jak vaše poměry nebo odpadní produkty vyjdou jako {THING:ItemReagentMix}, které bude třeba seřadit do {THING:StructureCentrifuge}. Chcete-li produkt exportovat, zatáhněte za úchyt {LOGICTYPE:Open}.
+
+Ještě pokročilejší {LINK:SuperAlloyPage;Superalloys} lze tavit v {THING:StructureAdvancedFurnace}. Mají velmi přísné požadavky na tavení a jsou extrémně obtížné, ale nezbytné pro velmi pokročilou výrobu.
+{/LIST}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>InventoryPage</Key>
       <Title>Inventář</Title>
       <Text>Všechny věci ve hře mohou mít různé sloty. Tyto sloty mohou mít třídy slotů, které do těchto slotů umožňují pouze určité věci. Existuje několik klávesových zkratek pro přístup k slotům, které jsou ve vaší postavě, například {KEY:HelmetSlot} pro přístup k vaší {SLOT:Helmet}.
