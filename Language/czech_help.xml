@@ -18,19 +18,19 @@ Toto okno můžete otevřít a zavřít pomocí klávesy {KEY:Help}. Pro aktivov
 Pokud podržíte {KEY:MouseControl} a {KEY:MouseInspect} a kliknete na něco, co můžete [i]prohlédnout[/i]. Tím se otevře systém nápovědy na stránce související s daným objektem a poskytne vám podrobné informace.
 
 {HEADER:Klíčová témata}
-{LIST}{LINK:SmeltingPage;Smelting}, {LINK:MiningPage;Mining}, {LINK:ConstructionPage;Construction}, {LINK:InventoryPage;Inventory}
+{LIST}{LINK:SmeltingPage;Tavení}, {LINK:MiningPage;Těžení}, {LINK:ConstructionPage;Konstrukce}, {LINK:InventoryPage;Inventář}
 {/LIST}
 {HEADER:Průvodci}
 {LIST}{LINK:GettingStarted;Getting Started}
 {/LIST}
 {HEADER:Ostatní}
-{LIST}{LINK:GasPage;Gases}, {LINK:ReagentPage;Reagents}
+{LIST}{LINK:GasPage;Plyny}, {LINK:ReagentPage;Činidla}
 {/LIST}
 {HEADER:Položky}
-{LIST}{LINK:ToolPage;Tools}, {LINK:ResourcePage;Resources}, {LINK:KitPage;Kits}, {LINK:FoodPage;Food}, {LINK:ClothingPage;Clothing}, {LINK:AppliancePage;Appliances}, {LINK:IngotPage;Ingots}, {LINK:OrePage;Ores}, {LINK:AlloyPage;Alloys}, {LINK:SuperAlloyPage;Superalloys}
+{LIST}{LINK:ToolPage;Nástroje}, {LINK:ResourcePage;Zdroje}, {LINK:KitPage;Nářadí}, {LINK:FoodPage;Jídlo}, {LINK:ClothingPage;Oblečení}, {LINK:AppliancePage;Spotřebiče}, {LINK:IngotPage;Ingoty}, {LINK:OrePage;Rudy}, {LINK:AlloyPage;Slitiny}, {LINK:SuperAlloyPage;Superslitiny}
 {/LIST}
 {HEADER:Struktury}
-{LIST}{LINK:DevicePage;Devices}, {LINK:FabricatorPage;Fabricators}, {LINK:AirlockDevicePage;Airlock Devices}, {LINK:LogicUnitPage;Logic Units}
+{LIST}{LINK:DevicePage;Zařízení}, {LINK:FabricatorPage;Výrobci}, {LINK:AirlockDevicePage;Přechodové zařízení}, {LINK:LogicUnitPage;Logické jednotky}
 {/LIST}
       </Text>
     </StationpediaPage>
@@ -119,19 +119,19 @@ K řídicímu systému přechodové komory lze připojit a používat následuj�
     <StationpediaPage>
       <Key>SlotLeftHand</Key>
       <Title>Ruční sloty</Title>
-      <Text>Vaše ruce jsou speciální sloty. Kdykoli máte jednu aktivní ruku, kterou používá vaše {COLORRED:Primární akce}. Chcete-li změnit aktivní ruku, stiskněte {KEY:SwapHands}. Se svou aktivní rukou můžete interagovat stisknutím tlačítka {KEY:ActiveHandSlot}, čímž se obsah aktivní položky otevře a zavře. Jako vždy můžete pomocí {KEY:MouseControl} vyvolat myš a takto komunikovat. Další informace naleznete v části {LINK:InventoryPage:Inventory}.
+      <Text>Vaše ruce jsou speciální sloty. Kdykoli máte jednu aktivní ruku, kterou používá vaše {COLORRED:Primární akce}. Chcete-li změnit aktivní ruku, stiskněte {KEY:SwapHands}. Se svou aktivní rukou můžete interagovat stisknutím tlačítka {KEY:ActiveHandSlot}, čímž se obsah aktivní položky otevře a zavře. Jako vždy můžete pomocí {KEY:MouseControl} vyvolat myš a takto komunikovat. Další informace naleznete v části {LINK:InventoryPage:Inventář}.
       </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>SlotRightHand</Key>
       <Title>Ruční sloty</Title>
-      <Text>Vaše ruce jsou speciální sloty. Kdykoli máte jednu aktivní ruku, kterou používá vaše {COLORRED:Primární akce}. Chcete-li změnit aktivní ruku, stiskněte {KEY:SwapHands}. Se svou aktivní rukou můžete interagovat stisknutím tlačítka {KEY:ActiveHandSlot}, čímž se obsah aktivní položky otevře a zavře. Jako vždy můžete pomocí {KEY:MouseControl} vyvolat myš a takto komunikovat. Další informace naleznete v části {LINK:InventoryPage:Inventory}.
+      <Text>Vaše ruce jsou speciální sloty. Kdykoli máte jednu aktivní ruku, kterou používá vaše {COLORRED:Primární akce}. Chcete-li změnit aktivní ruku, stiskněte {KEY:SwapHands}. Se svou aktivní rukou můžete interagovat stisknutím tlačítka {KEY:ActiveHandSlot}, čímž se obsah aktivní položky otevře a zavře. Jako vždy můžete pomocí {KEY:MouseControl} vyvolat myš a takto komunikovat. Další informace naleznete v části {LINK:InventoryPage:Inventář}.
       </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>FabricatorPage</Key>
       <Title>Výrobci</Title>
-      <Text>Jedná se o poháněné struktury, které mohou být použity k výrobě věcí, které potřebujete ve hře. Obvykle berou {LINK:IngotPage;Ingots}, aby poskytli {LINK:ReagentPage;Reagents}, která potřebují k výrobě věcí.
+      <Text>Jedná se o poháněné struktury, které mohou být použity k výrobě věcí, které potřebujete ve hře. Obvykle berou {LINK:IngotPage;ingoty}, aby poskytly {LINK:ReagentPage;činidla}, která potřebují k výrobě věcí.
       
 {HEADER:Seznam výrobních prostředků}
 {LIST_OF_FABRICATORS}
@@ -149,7 +149,7 @@ K řídicímu systému přechodové komory lze připojit a používat následuj�
     <StationpediaPage>
       <Key>SmeltingPage</Key>
       <Title>Tavení</Title>
-      <Text>Jakmile budete mít {LINK:OrePage;ore}, musíte je přeměnit na {LINK:IngotPage;ingots}, aby jste mohli použít jejich {LINK:ReagentPage;reagents}. Tavením často vzniká {LINK:GasPage;gases}. K tomu dochází buď v {THING:StructureArcFurnace} (pro jednoduché recepty) a v {THING:StructureFurnace} pro složitější {LINK:AlloyPage;Alloys}, a nakonec v {THING:StructureAdvancedFurnace} pro velmi složité {LINK:SuperAlloyPage;Superalloys}. U složitých slitin budete muset dosáhnout směsí v perfektních poměrech, {LINK:TemperaturePage;Temperature} a {LINK:PressurePage;Pressure}.
+      <Text>Jakmile budete mít {LINK:OrePage;rudy}, musíte je přeměnit na {LINK:IngotPage;ingoty}, aby jste mohli použít jejich {LINK:ReagentPage;činidla}. Tavením často vzniká {LINK:GasPage;plyny}. K tomu dochází buď v {THING:StructureArcFurnace} (pro jednoduché recepty) a v {THING:StructureFurnace} pro složitější {LINK:AlloyPage;slitiny}, a nakonec v {THING:StructureAdvancedFurnace} pro velmi složité {LINK:SuperAlloyPage;Supeslitiny}. U složitých slitin budete muset dosáhnout směsí v perfektních poměrech, {LINK:TemperaturePage;teplota} a {LINK:PressurePage;tlak}.
       </Text>
     </StationpediaPage>
     <StationpediaPage>
