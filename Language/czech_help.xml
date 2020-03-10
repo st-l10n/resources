@@ -35,6 +35,17 @@ Pokud podržíte {KEY:MouseControl} a {KEY:MouseInspect} a kliknete na něco, co
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>InventoryPage</Key>
+      <Title>Inventář</Title>
+      <Text>Všechny věci ve hře mohou mít různé sloty. Tyto sloty mohou mít třídy slotů, které do těchto slotů umožňují pouze určité věci. Existuje několik klávesových zkratek pro přístup k slotům, které jsou ve vaší postavě, například {KEY:HelmetSlot} pro přístup k vaší {SLOT:Helmet}.
+      
+{HEADER: Inventář Windows}
+Některé sloty budou mít vlastní sloty. Chcete-li komunikovat s obsahem slotu, použijte k otevření okna klávesovou zkratku nebo podržte klávesu {KEY:MouseControl} a klikněte na ni myší. Nyní je okno pro daný slot otevřený a můžete s ním komunikovat s jeho sloty a nastavením. Windows lze přemístit přetažením jejich záhlaví.
+
+{HEADER:Fast Equipping}
+You can hold down a hotkey to fast equip, unequip, or swap a slot. For example, if we had a {THING:ItemSpaceHelmet} in our hands, and nothing in our {SLOT:Helmet}, if we held down {KEY:HelmetSlot} for a second it would be transferred into the slot.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>AirlockDevicePage</Key>
       <Title>Přechodová zařízení</Title>
       <Text>Umístěním {THING:CircuitboardAirlockControl} do {THING:StructureConsole} můžete k němu připojit různá zařízení, aby se vytvořila funkční přechodová komora.
@@ -52,9 +63,15 @@ K řídicímu systému přechodové komory lze připojit a používat následuj�
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>SlotLeftHand</Key>
+      <Title>Ruční sloty</Title>
+      <Text>Vaše ruce jsou speciální sloty. Kdykoli máte jednu aktivní ruku, kterou používá vaše {COLORRED:Primární akce}. Chcete-li změnit aktivní ruku, stiskněte {KEY:SwapHands}. Se svou aktivní rukou můžete interagovat stisknutím tlačítka {KEY:ActiveHandSlot}, čímž se obsah aktivní položky otevře a zavře. Jako vždy můžete pomocí {KEY:MouseControl} vyvolat myš a takto komunikovat. Další informace naleznete v části {LINK:InventoryPage:Inventory}.
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>SlotRightHand</Key>
       <Title>Ruční sloty</Title>
-      <Text>Vaše ruce jsou speciální sloty. Kdykoli máte jednu aktivní ruku, kterou používá vaše {COLORRED:Primary Action}. Chcete-li změnit aktivní ruku, stiskněte {KEY:SwapHands}. Se svou aktivní rukou můžete interagovat stisknutím tlačítka {KEY:ActiveHandSlot}, čímž se obsah aktivní položky otevře a zavře. Jako vždy můžete pomocí {KEY:MouseControl} vyvolat myš a takto komunikovat. Další informace naleznete v části {LINK:InventoryPage:Inventory}.
+      <Text>Vaše ruce jsou speciální sloty. Kdykoli máte jednu aktivní ruku, kterou používá vaše {COLORRED:Primární akce}. Chcete-li změnit aktivní ruku, stiskněte {KEY:SwapHands}. Se svou aktivní rukou můžete interagovat stisknutím tlačítka {KEY:ActiveHandSlot}, čímž se obsah aktivní položky otevře a zavře. Jako vždy můžete pomocí {KEY:MouseControl} vyvolat myš a takto komunikovat. Další informace naleznete v části {LINK:InventoryPage:Inventory}.
       </Text>
     </StationpediaPage>
     <StationpediaPage>
