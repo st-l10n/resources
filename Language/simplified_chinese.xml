@@ -4327,8 +4327,20 @@
       <Value>小行星带</Value>
     </Record>
     <Record>
+      <Key>Vulcan</Key>
+      <Value>祝融星</Value>
+    </Record>
+    <Record>
+      <Key>Vulcan2</Key>
+      <Value>祝融星</Value>
+    </Record>
+    <Record>
       <Key>Europa2</Key>
       <Value>欧罗巴</Value>
+    </Record>
+    <Record>
+      <Key>Mimas</Key>
+      <Value>土卫一</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaEarth</Key>
@@ -4339,8 +4351,16 @@
       <Value>欧罗巴</Value>
     </Record>
     <Record>
+      <Key>NewWorldAreaVulcan</Key>
+      <Value>祝融星</Value>
+    </Record>
+    <Record>
       <Key>NewWorldAreaEuropa2</Key>
       <Value>欧罗巴</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaVulcan2</Key>
+      <Value>祝融星</Value>
     </Record>
     <Record>
       <Key>NewWorldEnableAwayMissions</Key>
@@ -4619,6 +4639,10 @@
       <Value>保存成功</Value>
     </Record>
     <Record>
+      <Key>SaveLocationBroken</Key>
+      <Value>无法访问存档位置。您是否使用了非法字符？请尝试在设置中修改保存路径。</Value>
+    </Record>
+    <Record>
       <Key>AlertButtonClose</Key>
       <Value>关闭</Value>
     </Record>
@@ -4740,7 +4764,7 @@
     </Record>
     <Record>
       <Key>TutorialStartButton</Key>
-      <Value>开始</Value>
+      <Value>开始教程</Value>
     </Record>
     <Record>
       <Key>TutorialComplete</Key>
@@ -4752,8 +4776,10 @@
     </Record>
     <Record>
       <Key>TutorialCompleteMessage</Key>
-      <Value>还有很多东西需要学习。
-所以赶快离开这里吧，空间站工程师！</Value>
+      <Value>
+       还有很多东西需要学习。
+       所以赶快离开这里吧，空间站工程师！
+      </Value>
     </Record>
     <Record>
       <Key>TutorialBackToMenu</Key>
@@ -4878,7 +4904,11 @@
     </Record>
     <Record>
       <Key>WaitingTitle</Key>
-      <Value>警告</Value>
+      <Value>保存中警告</Value>
+    </Record>
+    <Record>
+      <Key>WaitingBody</Key>
+      <Value>仍在保存世界数据。请在保存完成后重试。</Value>
     </Record>
     <Record>
       <Key>PromptQuitTitle</Key>
@@ -4977,8 +5007,16 @@
       <Value>放弃</Value>
     </Record>
     <Record>
+      <Key>AlertYourSaveFileIsBroken</Key>
+      <Value>文件{0}无效，请检查世界{1}。</Value>
+    </Record>
+    <Record>
       <Key>AlertInvalidIP</Key>
       <Value>无效的IP地址 {0} \n检查IP地址或URL是否有效</Value>
+    </Record>
+    <Record>
+      <Key>AlertNoBackups</Key>
+      <Value>备份文件夹缺失或为空。</Value>
     </Record>
     <Record>
       <Key>AlertPlayerCountExceeded</Key>
@@ -5982,6 +6020,10 @@
     <Record>
       <Key>SpinnerPannelSaving</Key>
       <Value>正在保存</Value>
+    </Record>
+    <Record>
+      <Key>SpinnerPannelDone</Key>
+      <Value>完成</Value>
     </Record>
     <Record>
       <Key>IncidentsTitle</Key>
