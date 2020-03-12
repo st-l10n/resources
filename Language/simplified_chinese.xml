@@ -5331,6 +5331,18 @@
       <Value>补给箱</Value>
     </Record>
     <Record>
+      <Key>Incident_Supply</Key>
+      <Value>卫星显示，一个箱子落到了附近，你的信标跟踪器可以告诉你方向。</Value>
+    </Record>
+    <Record>
+      <Key>TradingNoMoneyHash</Key>
+      <Value>您没有足够的钱来完成这笔交易！</Value>
+    </Record>
+    <Record>
+      <Key>SomethingWentWrongTrading2</Key>
+      <Value>处理交易时出现错误，您没有信用卡！</Value>
+    </Record>
+    <Record>
       <Key>GameMenuRespawn</Key>
       <Value>重生</Value>
     </Record>
@@ -5364,8 +5376,10 @@
     </Record>
     <Record>
       <Key>FurnaceChamberText</Key>
-      <Value>压力 {0}
-温度 {1}</Value>
+      <Value>
+        压力 {0}
+        温度 {1}
+      </Value>
     </Record>
     <Record>
       <Key>FurnaceSmelting</Key>
@@ -5486,6 +5500,10 @@
     <Record>
       <Key>NewWorldAreaEuropa</Key>
       <Value>欧罗巴</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaMimas</Key>
+      <Value>土卫一</Value>
     </Record>
     <Record>
       <Key>NewWorldMarsShortDesc</Key>
@@ -6040,24 +6058,48 @@
       <Value>控制</Value>
     </Record>
     <Record>
+      <Key>ContactEventDefault</Key>
+      <Value>没有回复。</Value>
+    </Record>
+    <Record>
+      <Key>InputTextTradingTitle</Key>
+      <Value>交易终端</Value>
+    </Record>
+    <Record>
       <Key>ButtonContact</Key>
       <Value>控制</Value>
     </Record>
     <Record>
+      <Key>LoadBackupsTitle</Key>
+      <Value>载入备份</Value>
+    </Record>
+    <Record>
       <Key>BackupMenuFileListTitle</Key>
-      <Value>返回</Value>
+      <Value>备份</Value>
+    </Record>
+    <Record>
+      <Key>Experiments</Key>
+      <Value>实验</Value>
+    </Record>
+    <Record>
+      <Key>OcclusionTickSpeed</Key>
+      <Value>碰撞检测的Tick速度</Value>
+    </Record>
+    <Record>
+      <Key>RoomControlTickSpeed</Key>
+      <Value>房间控制的Tick速度</Value>
     </Record>
     <Record>
       <Key>LogicTypeTargetX</Key>
-      <Value>世界坐标 z 维度的当前位置</Value>
+      <Value>世界坐标下目标在X轴上的位置</Value>
     </Record>
     <Record>
       <Key>LogicTypeTargetY</Key>
-      <Value>世界坐标 z 维度的当前位置</Value>
+      <Value>世界坐标下目标在Y轴上的位置</Value>
     </Record>
     <Record>
       <Key>LogicTypeTargetZ</Key>
-      <Value>世界坐标 z 维度的当前位置</Value>
+      <Value>世界坐标下目标在Z轴上的位置</Value>
     </Record>
     <Record>
       <Key>LogicTypeSettingInputHash</Key>
