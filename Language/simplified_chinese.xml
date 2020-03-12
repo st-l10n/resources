@@ -5187,6 +5187,10 @@
       <Value>鼠标滚轮缩放视角</Value>
     </Record>
     <Record>
+      <Key>Incident_Supply_Title</Key>
+      <Value>补给箱</Value>
+    </Record>
+    <Record>
       <Key>GameMenuRespawn</Key>
       <Value>重生</Value>
     </Record>
@@ -5892,8 +5896,36 @@
       <Value>世界设置</Value>
     </Record>
     <Record>
+      <Key>GameMenuButtonPause</Key>
+      <Value>暂停</Value>
+    </Record>
+    <Record>
+      <Key>PromptPauseTitle</Key>
+      <Value>暂停</Value>
+    </Record>
+    <Record>
       <Key>PromptButtonLeave</Key>
       <Value>离线</Value>
+    </Record>
+    <Record>
+      <Key>PromptResumeButton</Key>
+      <Value>继续</Value>
+    </Record>
+    <Record>
+      <Key>BuildTimeMultiplier</Key>
+      <Value>建造时间乘数</Value>
+    </Record>
+    <Record>
+      <Key>MaterialCostMultiplier</Key>
+      <Value>材料花费乘数</Value>
+    </Record>
+    <Record>
+      <Key>EnergyCostMultiplier</Key>
+      <Value>能量消耗乘数</Value>
+    </Record>
+    <Record>
+      <Key>CreationMultiplier</Key>
+      <Value>制造乘数</Value>
     </Record>
     <Record>
       <Key>TravelMenuTitle</Key>
@@ -5933,19 +5965,39 @@
     </Record>
     <Record>
       <Key>SettingsDifficulty</Key>
-      <Value>其他设置</Value>
+      <Value>难度设置</Value>
     </Record>
     <Record>
       <Key>WorldCustomTerrainLabel</Key>
-      <Value>地形</Value>
+      <Value>地形颜色</Value>
+    </Record>
+    <Record>
+      <Key>SaturationField</Key>
+      <Value>饱和度：</Value>
     </Record>
     <Record>
       <Key>BrightnessField</Key>
       <Value>亮度</Value>
     </Record>
     <Record>
+      <Key>RGBValues</Key>
+      <Value>RGB值</Value>
+    </Record>
+    <Record>
+      <Key>HVSValues</Key>
+      <Value>HVS值</Value>
+    </Record>
+    <Record>
+      <Key>ColourSelecter</Key>
+      <Value>颜色选择器：</Value>
+    </Record>
+    <Record>
+      <Key>HasLavaField</Key>
+      <Value>开启岩浆</Value>
+    </Record>
+    <Record>
       <Key>Colour</Key>
-      <Value>眼睛颜色</Value>
+      <Value>颜色</Value>
     </Record>
     <Record>
       <Key>Gravity</Key>
@@ -5956,12 +6008,16 @@
       <Value>大气散射</Value>
     </Record>
     <Record>
+      <Key>MineablesField</Key>
+      <Value>矿物设置</Value>
+    </Record>
+    <Record>
       <Key>LevelLevelField</Key>
       <Value>岩浆高度</Value>
     </Record>
     <Record>
       <Key>TerrainFeaturesField</Key>
-      <Value>地形</Value>
+      <Value>地形特征</Value>
     </Record>
     <Record>
       <Key>RespawnConditionsField</Key>
@@ -5969,7 +6025,7 @@
     </Record>
     <Record>
       <Key>DifficultyField</Key>
-      <Value>其他设置</Value>
+      <Value>难度</Value>
     </Record>
     <Record>
       <Key>HasLODField</Key>
@@ -5977,23 +6033,23 @@
     </Record>
     <Record>
       <Key>SolarScaleField</Key>
-      <Value>太阳角度</Value>
+      <Value>太阳能倍数</Value>
     </Record>
     <Record>
       <Key>DawnTemperatureField</Key>
-      <Value>温度</Value>
+      <Value>黎明温度</Value>
     </Record>
     <Record>
       <Key>NoonTemperatureField</Key>
-      <Value>温度</Value>
+      <Value>正午温度</Value>
     </Record>
     <Record>
       <Key>DuskTemperatureField</Key>
-      <Value>温度</Value>
+      <Value>黄昏温度</Value>
     </Record>
     <Record>
       <Key>MidnightTemperatureField</Key>
-      <Value>温度</Value>
+      <Value>午夜温度</Value>
     </Record>
     <Record>
       <Key>PreviewAtmosphereField</Key>
@@ -6001,11 +6057,15 @@
     </Record>
     <Record>
       <Key>HasCustomTemperatureField</Key>
-      <Value>温度</Value>
+      <Value>使用自定义温度</Value>
+    </Record>
+    <Record>
+      <Key>LavaLevelField</Key>
+      <Value>岩浆高度</Value>
     </Record>
     <Record>
       <Key>SolidTerrainColourField</Key>
-      <Value>肤色</Value>
+      <Value>地形颜色</Value>
     </Record>
     <Record>
       <Key>CartridgeTrackerDistance</Key>
@@ -6258,6 +6318,10 @@
     <Record>
       <Key>Dollar</Key>
       <Value>$</Value>
+    </Record>
+    <Record>
+      <Key>Percent</Key>
+      <Value>%</Value>
     </Record>
     <Record>
       <Key>Ampersand</Key>
