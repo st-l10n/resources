@@ -2,6 +2,82 @@
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>CN</Code>
   <Interface>
+    <Record>
+      <Key>TheNewBeginningTitle</Key>
+      <Value>新的开始 [BETA]</Value>
+    </Record>
+    <Record>
+      <Key>TheNewBeginningDescription</Key>
+      <Value>让我们学习一些基础知识，并学习如何成为最好的太空员！</Value>
+    </Record>
     <!-- start the tutorial -->
+    <Record>
+      <Key>TutorialTheBeginningTitle</Key>
+      <Value>开始</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTheBeginningTask1</Key>
+      <Value>关闭 {LINK:Home;Stationpedia}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDontBeAToolTask1</Key>
+      <Value>装备你的{THING:ItemToolBelt}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialPowerUpTitle</Key>
+      <Value>供电</Value>
+    </Record>
+    <Record>
+      <Key>TutorialPowerUpDescription</Key>
+      <Value>棒极了，现在让我们设法使你的宇航服上的系统开始运行。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialPowerUpTask1</Key>
+      <Value>用 {KEY:PrimaryAction} 按键来捡起 {THING:ItemBatteryCellNuclear}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialPowerUpTask2</Key>
+      <Value>用 {KEY:SuitSlot} 按键来打开你的 {THING:ItemEvaSuit} 。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialPowerUpTask3</Key>
+      <Value>把你的 {THING:ItemBatteryCellNuclear} 放入电池槽里。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSomethingToFilterTitle</Key>
+      <Value>过滤的东西</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSomethingToFilterDescription</Key>
+      <Value>宇航服需要 {THING:ItemBatteryCellNuclear} ， {THING:ItemGasFilterCarbonDioxide} 和一些其他的东西来提供安全和包容的环境。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSomethingToFilterTask1</Key>
+      <Value>用 {KEY:PrimaryAction} 来捡起 {THING:ItemGasFilterCarbonDioxide}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSomethingToFilterTask3</Key>
+      <Value>把你的 {THING:ItemGasFilterCarbonDioxide} 放入滤芯槽里</Value>
+    </Record>
+    <Record>
+      <Key>TutorialGasItUpTitle</Key>
+      <Value>给它通上气体</Value>
+    </Record>
+    <Record>
+      <Key>TutorialFeelingHotHotHotTitle</Key>
+      <Value>感觉烫烫烫</Value>
+    </Record>
+    <Record>
+      <Key>TutorialFeelingHotHotHotDescripton</Key>
+      <Value>你的宇航服内部有点热！用 {KEY:SuitSlot} 打开你的 {THING:ItemEvaSuit}，并将温度调低至20度。降低宇航服温度有助于增加电池的持续时间，当你在一个比较严峻的环境中时，这将会带来不少帮助。你可以在面板上看到你所做的修改。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialFeelingHotHotHotTask1</Key>
+      <Value>把你宇航服的温度调低。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialLockItDownTitle</Key>
+      <Value>立即锁定它</Value>
+    </Record>
   </Interface>
 </Language>
