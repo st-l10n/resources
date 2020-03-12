@@ -5028,8 +5028,10 @@
     </Record>
     <Record>
       <Key>AlertNoResponse</Key>
-      <Value>游戏服务器没有响应.
-请再试一次.</Value>
+      <Value>
+        游戏服务器没有响应。
+        请重试。
+      </Value>
     </Record>
     <Record>
       <Key>AlertKicked</Key>
@@ -6243,15 +6245,19 @@
     </Record>
     <Record>
       <Key>CartridgeTrackerDistance</Key>
-      <Value>阴影距离</Value>
+      <Value>距离</Value>
     </Record>
     <Record>
       <Key>ButtonCustomWorld</Key>
-      <Value>创造世界</Value>
+      <Value>自定义世界</Value>
     </Record>
     <Record>
       <Key>GameMenuButtonCancel</Key>
       <Value>取消</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeElectronicReaderRecipeTitle</Key>
+      <Value>配方：</Value>
     </Record>
     <Record>
       <Key>CartridgeElectronicReaderAutoITitle</Key>
@@ -6370,16 +6376,28 @@
       <Value>真空</Value>
     </Record>
     <Record>
+      <Key>ElectronicReaderFenoxitone</Key>
+      <Value>苯氧酮</Value>
+    </Record>
+    <Record>
       <Key>ElectronicReaderColorRed</Key>
-      <Value>眼睛颜色</Value>
+      <Value>红色</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderColorBlue</Key>
-      <Value>眼睛颜色</Value>
+      <Value>蓝色</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderColorYellow</Key>
+      <Value>黄色</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderColorOrange</Key>
-      <Value>地形</Value>
+      <Value>橙色</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderColorGreen</Key>
+      <Value>绿色</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderMilk</Key>
@@ -6398,8 +6416,16 @@
       <Value>鸡蛋</Value>
     </Record>
     <Record>
+      <Key>ElectronicReaderLiquidMeasurement</Key>
+      <Value>毫升</Value>
+    </Record>
+    <Record>
       <Key>ElectronicReaderTime</Key>
       <Value>时间</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderSeconds</Key>
+      <Value> 秒</Value>
     </Record>
     <Record>
       <Key>SettingsThingRenderDistance</Key>
@@ -6419,7 +6445,7 @@
     </Record>
     <Record>
       <Key>CustomWorld</Key>
-      <Value>创造世界</Value>
+      <Value>自定义世界</Value>
     </Record>
   </Interface>
   <Colors>
