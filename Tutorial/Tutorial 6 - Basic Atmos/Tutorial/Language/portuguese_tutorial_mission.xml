@@ -40,6 +40,12 @@ Segue para o sítio do Oxite utilizando o Tablet.</Value>
       <Value>Entrando na Airlock</Value>
     </Record>
     <Record>
+      <Key>AtmoAirLockDescription</Key>
+      <Value>Uma airlock é um dispositivo que permite a passagem de pessoas e objetos entre uma base pressurizada e o seu exterior, minimizando a diferença de pressão e a perda de ar da mesma.
+
+Atualmente a base não tem atmosfera interna, devido a isso a airlock não irá funcionar corretamente já que a mesma requer 100 kpa para funcionar corretamente. Podemos na mesma entrar na base cancelando o processo de pressurização da airlock. Esta é uma boa dica a lembrar caso tenhas uma ruptura de ar na base e precises entrar ou sair sem alternar a airlock. </Value>
+    </Record>
+    <Record>
       <Key>ASimpleAirLockTask1</Key>
       <Value>Entra na Airlock da tua base e carrega no botão &quot;Cycle&quot; na consola e aguarda que a porta exterior se feche. Irá aparecer um novo botão &quot;Cancel Pressurize&quot; carrega neste botão e a porta interior deverá abrir-se.
 </Value>
@@ -62,7 +68,7 @@ Segue para o sítio do Oxite utilizando o Tablet.</Value>
     </Record>
     <Record>
       <Key>Creating_AtmoDescription</Key>
-      <Value>A maneira mais simples de gerar uma atmosfera respirável é, minerar oxite e largá-lo na tua base para derreter. Isto irá libertar oxigénio na atmosfera e ao mesmo tempo aumenta a pressão. Cuidado ao derreter oxite, pois poderás criar demasiada pressão na base causando dano nas paredes. Os humanos precisam de 80% oxite por 10% nitrogénio. Poderás ter uma pequena quantidade de dióxido de carbono, mas não é recomendado ultrapassar os 10%.</Value>
+      <Value>A maneira mais simples de gerar uma atmosfera respirável é, minerar oxite e largá-lo na tua base para derreter. Isto irá libertar oxigénio na atmosfera ao mesmo tempo aumentando a sua pressão. Cuidado ao derreter oxite, pois poderás criar demasiada pressão na base causando dano nas paredes. Os humanos precisam no mínimo 20% oxigénio. Poderás ter uma pequena quantidade de dióxido de carbono, mas não é recomendado ultrapassar os 10%.</Value>
     </Record>
     <Record>
       <Key>Creating_AtmoTask1</Key>
