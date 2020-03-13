@@ -88,6 +88,10 @@
       <Value>{THING:ItemSpacepack} potřebuje pohonnou látku, aby mohl použít trysky, použijeme kanystr Dusíku, který je tam.</Value>
     </Record>
     <Record>
+      <Key>TutorialGasItUpTask</Key>
+      <Value>Přidejte {THING:ItemGasCanisterNitrogen} do slotu pro pohonné hmoty.</Value>
+    </Record>
+    <Record>
       <Key>TutorialFeelingHotHotHotTitle</Key>
       <Value>Cítíš horko horko horko</Value>
     </Record>
@@ -376,6 +380,10 @@
       <Value>Panel dopředu</Value>
     </Record>
     <Record>
+      <Key>TutorialPanelForthDescription</Key>
+      <Value>Vypadá to, že ty dveře potřebují energii, než budeme moci pokračovat. Naštěstí tam, kde je okno, je sluneční světlo. Tam, kde je sluneční světlo, je energie! Pojďme se, umístit {THING:ItemKitSolarPanel}. Můžete použít {THING:ItemWrench} pro upravení úhlu, bude to generovat více energie, když čelí slunci.</Value>
+    </Record>
+    <Record>
       <Key>TutorialPanelForthTask1</Key>
       <Value>Umísti {THING:StructureSolarPanel} na zvýrazněnou oblast</Value>
     </Record>
@@ -516,6 +524,18 @@
       <Value>Tak to natankujme</Value>
     </Record>
     <Record>
+      <Key>TutorialLetsTankItUpTask1</Key>
+      <Value>Umísti {THING:ItemGasCanisterEmpty} </Value>
+    </Record>
+    <Record>
+      <Key>TutorialLetsTankItUpTask2</Key>
+      <Value>Nastav {THING:StructureActiveVent} na vnitřní</Value>
+    </Record>
+    <Record>
+      <Key>TutorialLetsTankItUpTask3</Key>
+      <Value>Nastav {THING:StructureActiveVent} na zapnuto</Value>
+    </Record>
+    <Record>
       <Key>TutorialLetsTankItUp1Title</Key>
       <Value>Jdeme dál</Value>
     </Record>
@@ -654,6 +674,10 @@
     <Record>
       <Key>TutorialUnderPressure1Task3</Key>
       <Value>Dokončete konzoli nanesením skla</Value>
+    </Record>
+    <Record>
+      <Key>TutorialHackingTheMainframeTask1</Key>
+      <Value>Přiřaďte komponenty {THING:StructureAirlock}</Value>
     </Record>
     <Record>
       <Key>TutorialBeFreeTitle</Key>
