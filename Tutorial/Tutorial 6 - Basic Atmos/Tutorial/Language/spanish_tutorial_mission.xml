@@ -16,7 +16,7 @@
     </Record>
     <Record>
       <Key>TheTabletAtmoDescription</Key>
-      <Value>Inserte el cartucho Localizador en el {THING:ItemTablet}.</Value>
+      <Value>Inserte el cartucho localizador en el {THING:ItemTablet}.</Value>
     </Record>
     <Record>
       <Key>BasicAtmosphericsDescription</Key>
@@ -35,6 +35,10 @@
       <Value>Analizando la atmósfera.</Value>
     </Record>
     <Record>
+      <Key>AtmosAnalyserDescription</Key>
+      <Value>El Analizador Atmosférico se utiliza para analizar la atmósfera actual, incluyendo la composición, la temperatura y la presión.</Value>
+    </Record>
+    <Record>
       <Key>TheTabletTaskAtmo</Key>
       <Value>Inserte el {THING:CartridgeNetworkAnalyser} en la {THING:ItemTablet}</Value>
     </Record>
@@ -45,6 +49,14 @@
     <Record>
       <Key>Creating_AtmoTask1</Key>
       <Value>Enciende el {THING:ItemTablet} on.</Value>
+    </Record>
+    <Record>
+      <Key>Creating_AtmoTask2</Key>
+      <Value>Dejar caer Oxite dentro de la habitación y permitir que se derrita liberará atmósfera generando una atmósfera respirable, llevando la presión exterior hasta 60kPa.</Value>
+    </Record>
+    <Record>
+      <Key>Creating_AtmoTask3</Key>
+      <Value>Una vez que la presión haya alcanzado un nivel aceptable de seguridad, abramos el casco y tomemos un poco de aire fresco.</Value>
     </Record>
   </Interface>
 </Language>
