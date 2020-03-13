@@ -340,8 +340,20 @@
       <Value>Vstupte do Další Místnosti</Value>
     </Record>
     <Record>
+      <Key>TutorialWireYouNotWorkingTask2</Key>
+      <Value>Najděte a přeřízněte ten rozbitý drát.</Value>
+    </Record>
+    <Record>
       <Key>TutorialWireYouNotWorking1Task1</Key>
       <Value>Umístěte {THING:ItemAreaPowerControl}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWireYouNotWorking2Description</Key>
+      <Value>Tak teď nastavíme APC jednotku. Budeme potřebovat náš {THING:ItemCrowbar} na její otevření, vložíme baterii a přehodíme vypínač. Tak a teď máte bezpečný nabíjecí systém.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWireYouNotWorking2Task1</Key>
+      <Value>Vezměte si {THING:ItemCrowbar} z opasku. </Value>
     </Record>
     <Record>
       <Key>TutorialWireYouNotWorking2Task2</Key>
@@ -360,6 +372,14 @@
       <Value>Zavřete APC pomocí {THING:ItemCrowbar}</Value>
     </Record>
     <Record>
+      <Key>TutorialWireYouNotWorking2Task6</Key>
+      <Value>Nabijte baterie</Value>
+    </Record>
+    <Record>
+      <Key>TutorialJustAroundTheCornerTitle</Key>
+      <Value>Hned za rohem</Value>
+    </Record>
+    <Record>
       <Key>TutorialJustAroundTheCornerDescription</Key>
       <Value>Jdeme dál.</Value>
     </Record>
@@ -370,6 +390,22 @@
     <Record>
       <Key>TutorialDoYouFeelTheFlowTitle</Key>
       <Value>Cítíš ten proud?</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDoYouFeelTheFlowDescription</Key>
+      <Value>Použitím {THING:ItemWrench} připojíme {THING:StructureGasTankStorage} do {THING:StructureTankConnector}, aby jsme měli proudění vzduchu uvnitř, začíná tu být trochu dusno.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDoYouFeelTheFlowTask1</Key>
+      <Value>Připojte {THING:StructureTankConnector}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDoYouFeelTheFlowTask2</Key>
+      <Value>Zapněte {THING:StructureValve}, aby vzduch proudil.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialLetsTankItUpTitle</Key>
+      <Value>Tak to natankujme</Value>
     </Record>
   </Interface>
 </Language>
