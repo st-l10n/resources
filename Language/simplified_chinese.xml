@@ -5345,6 +5345,10 @@
       <Value>您没有足够的钱来完成这笔交易！</Value>
     </Record>
     <Record>
+      <Key>SomethingWentWrongTrading</Key>
+      <Value>处理交易时出现错误，一些东西离开了供应商！</Value>
+    </Record>
+    <Record>
       <Key>SomethingWentWrongTrading2</Key>
       <Value>处理交易时出现错误，您没有信用卡！</Value>
     </Record>
@@ -5941,7 +5945,7 @@
     </Record>
     <Record>
       <Key>LogicTypeRequestHash</Key>
-      <Value>当设置为唯一标识符时, 从设备请求所提供类型的项</Value>
+      <Value>当设置为唯一标识符时, 从设备请求一个该类型的物品</Value>
     </Record>
     <Record>
       <Key>LogicTypeCompletionRatio</Key>
