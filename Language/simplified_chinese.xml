@@ -4303,6 +4303,10 @@
       <Value>楼兰</Value>
     </Record>
     <Record>
+      <Key>LoulanShortDesc</Key>
+      <Value>楼兰，在到达这颗星球后你会发现它拥有可呼吸的大气层，也有足够的气压来维持生命——但却鲜有生命存在。这个被沙子覆盖的巨型行星位于卡冈图雅星系中，每天都在越来越接近星系中心的黑洞。虽然被抛弃了，也不再覆盖绿色或充满水资源，这颗星球仍然有一个可用的大气层。你的任务就是搜刮这片荒地，以获得所需的材料和资源，从而生存在这个永恒的沙漠中。</Value>
+    </Record>
+    <Record>
       <Key>NewWorldAreaMars</Key>
       <Value>火星</Value>
     </Record>
@@ -4799,8 +4803,10 @@
     </Record>
     <Record>
       <Key>MulticonstructorItem</Key>
-      <Value>&lt;color=yellow&gt;建造选项{0}或{1}&lt;/color&gt;
-滚动&lt;color=red&gt;滑鼠滚动&lt;/color&gt;来选择。</Value>
+      <Value>
+        &lt;color=yellow&gt;建造选项 {0}/{1}&lt;/color&gt;
+        滚动&lt;color=red&gt;鼠标滚轮&lt;/color&gt;来选择。
+      </Value>
     </Record>
     <Record>
       <Key>UnableToConstruct</Key>
@@ -4888,7 +4894,7 @@
     </Record>
     <Record>
       <Key>PromptResetSettingsConfirm</Key>
-      <Value>重启</Value>
+      <Value>重置</Value>
     </Record>
     <Record>
       <Key>SteamErrorTitle</Key>
@@ -4912,7 +4918,7 @@
     </Record>
     <Record>
       <Key>PromptQuitTitle</Key>
-      <Value>退出stationeers</Value>
+      <Value>退出Stationeers</Value>
     </Record>
     <Record>
       <Key>PromptQuitBody</Key>
@@ -4924,7 +4930,7 @@
     </Record>
     <Record>
       <Key>PromptUnsubscribeTitle</Key>
-      <Value>退订</Value>
+      <Value>取消订阅</Value>
     </Record>
     <Record>
       <Key>PromptUnsubscribeBody</Key>
@@ -4932,7 +4938,7 @@
     </Record>
     <Record>
       <Key>PromptUnsubscribeConfirm</Key>
-      <Value>退订</Value>
+      <Value>取消订阅</Value>
     </Record>
     <Record>
       <Key>PromptOverwriteTitle</Key>
@@ -4948,11 +4954,11 @@
     </Record>
     <Record>
       <Key>PromptPublishTitle</Key>
-      <Value>发布到工坊</Value>
+      <Value>发布到创意工坊</Value>
     </Record>
     <Record>
       <Key>PromptPublishBody</Key>
-      <Value>您确定要将这个世界发布到工坊吗？</Value>
+      <Value>您确定要将这个世界发布到创意工坊吗？</Value>
     </Record>
     <Record>
       <Key>PromptPublishConfirm</Key>
