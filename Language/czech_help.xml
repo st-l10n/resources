@@ -140,7 +140,7 @@ K řídicímu systému přechodové komory lze připojit a používat následuj�
     <StationpediaPage>
       <Key>DevicePage</Key>
       <Title>Zařízení</Title>
-      <Text>Jedná se o struktury, obvykle poháněné, které mají specializované funkce, včetně logiky, atmosféry a další. Jsou konstruovány stejným způsobem jako ostatní struktury.
+      <Text>Tohle jsou struktury, obvykle napájené, které mají specializované funkce, včetně logiky, atmosféry a další. Jsou konstruovány stejným způsobem jako ostatní struktury.
       
 {HEADER:Seznam zařízení}
 {LIST_OF_DEVICES}
@@ -164,17 +164,17 @@ K řídicímu systému přechodové komory lze připojit a používat následuj�
       <Text>{HEADER:Začínáme}
 Obvykle použijete {LINK:KitPage;nářadí}, abyste zahájili výstavbu a pak dokončili různé {LINK:ToolPage;nástroje} a {LINK:ResourcePage;zdroje}. Věnujte velkou pozornost tomu, kolik sady je nutné k vytvoření toho, co jste vybrali, protože některé struktury vyžadují více než jeden zásobník, který má být spotřebován. U některých sad budete mít více možností, použijte {COLORRED:Kolečko myši} pro změnu aktuální možnosti, kterou chcete vytvořit.
 
-{HEADER:Stavění}
+{HEADER:Fáze konstrukce}
 Některé struktury budou mít více stavů sestavení, které vyžadují různé kombinace k dokončení. Váš popis vám poradí, jakou kombinaci potřebujete k dokončení struktury. Někdy budete muset mít dva objekty, jeden v každé ruce, k dokončení stavu sestavení. Některé nástroje bude nutné zapnout jako první, což lze provést stisknutím klávesy {KEY:ToggleHandPower}, když je v aktivní ruce.
 
-{HEADER:Popisy}
+{HEADER:Nápověda}
 Pokud se podíváte přímo na strukturu, která je neúplná, získáte informace o tom, co musíte udělat, abyste ji dokončili. Pokud máte v ruce {LINK:ToolPage;nástroj} a není to správný {LINK:ToolPage;nástroj}, zobrazí se popisek s tím, co byste museli použít k jeho dekonstrukci.
       </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ReagentPage</Key>
       <Title>Činidla</Title>
-      <Text>Jedná se o chemická množství určitých typů.
+      <Text>Tohle jsou chemická množství určitých typů.
       
 {HEADER:Seznam činidel}
 {LIST_OF_REAGENTS}
@@ -183,7 +183,7 @@ Pokud se podíváte přímo na strukturu, která je neúplná, získáte informa
     <StationpediaPage>
       <Key>GasPage</Key>
       <Title>Plyny</Title>
-      <Text>Jedná se o chemické plyny určitých typů.
+      <Text>Tohle jsou chemické plyny určitých typů.
       
 {HEADER:Seznam plynů}
 {LIST_OF_GASES}
@@ -192,7 +192,7 @@ Pokud se podíváte přímo na strukturu, která je neúplná, získáte informa
     <StationpediaPage>
       <Key>AlloyPage</Key>
       <Title>Slitiny</Title>
-      <Text>Vytvořeny v {THING:StructureFurnace} nebo v {THING:StructureAdvancedFurnace} od speciálních {LINK:ReagentPage;činidel} směsí, jedná se o pokročilé {LINK:IngotPage;ingoty} pro použití ve {LINK:FabricatorPage;výrobcích}. {THING:StructureArcFurnace} není schopná je roztavit.
+      <Text>Vytvořeny v {THING:StructureFurnace} nebo v {THING:StructureAdvancedFurnace} od speciálních {LINK:ReagentPage;činidel} směsí, jedná se o pokročilé {LINK:IngotPage;ingoty} pro použití ve {LINK:FabricatorPage;konstruktérech}. {THING:StructureArcFurnace} není schopná je roztavit.
 
 {HEADER:Seznam slitin}
 {LIST_OF_ALLOYS}
@@ -202,7 +202,7 @@ Pokud se podíváte přímo na strukturu, která je neúplná, získáte informa
       <Key>SuperAlloyPage</Key>
       <Title>Superslitiny</Title>
       <Text>
-        Vytvořené v {THING:StructureAdvancedFurnace} z několika speciálních {LINK:ReagentPage;činidel}, jsou velmi pokročilé {LINK:IngotPage;ingoty} pro použití v {LINK:FabricatorPage;výrobcích}. {THING:StructureArcFurnace} a {THING:StructureFurnace} je nemohou roztavit.
+        Vytvořené v {THING:StructureAdvancedFurnace} z několika speciálních {LINK:ReagentPage;činidel}, jsou velmi pokročilé {LINK:IngotPage;ingoty} pro použití v {LINK:FabricatorPage;konstruktérech}. {THING:StructureArcFurnace} a {THING:StructureFurnace} nejsou schopni je roztavit.
 
 {HEADER:Seznam superslitin}
 {LIST_OF_SUPER_ALLOYS}
