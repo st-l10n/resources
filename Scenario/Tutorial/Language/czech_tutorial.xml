@@ -121,7 +121,7 @@ Stiskněte a podržte {KEY:MouseControl} pro zobrazení kurzoru myši a přetáh
     </Record>
     <Record>
       <Key>TutorialTitleCycleAirlock</Key>
-      <Value>Synchronizujte přechodovou komoru</Value>
+      <Value>Synchronizace přechodové komory</Value>
     </Record>
     <Record>
       <Key>TutorialTaskCycleAirlock1</Key>
@@ -170,6 +170,22 @@ Stiskněte a podržte {KEY:MouseControl} pro zobrazení kurzoru myši a přetáh
     <Record>
       <Key>TutorialTaskTablet3</Key>
       <Value>Otevřete okno slotu {THING:ItemTablet} v rukou</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskTablet5</Key>
+      <Value>Vložte {THING:ItemBatteryCellLarge} do slotu {SLOT:Battery} {THING:ItemBatteryCellLarge}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTitleUseReader</Key>
+      <Value>Použití {THING:CartridgeElectronicReader}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskUseReader1</Key>
+      <Value>Zapněte {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTaskUseReader2</Key>
+      <Value>Najděte {COLORYELLOW:recept #VAR1#} na upečení {THING:ItemMuffin}</Value>
     </Record>
     <Record>
       <Key>TutorialTitleBakeMuffin</Key>
