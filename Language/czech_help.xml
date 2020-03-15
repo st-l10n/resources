@@ -211,10 +211,10 @@ Pokud se podíváte přímo na strukturu, která je neúplná, získáte informa
     <StationpediaPage>
       <Key>OrePage</Key>
       <Title>Rudy</Title>
-      <Text>Jedná se o položky, které jsou {LINK:MiningPage;vytěžené} a často mohou být {LINK:SmeltingPage;taveny}. Můžete také získat smíšené rudy recyklací položek v {THING:StructureRecycler} a jejím předáním přes {THING:StructureCentrifuge}, který ji rozdělí na {LINK:OrePage;rudy} pro {LINK:SmeltingPage;tavení}.
+      <Text>Jedná se o položky, které jsou {LINK:MiningPage;vytěžené} a často mohou být {LINK:SmeltingPage;taveny}. Můžete také získat smíšené rudy recyklací položek v {THING:StructureRecycler} a předáním přes {THING:StructureCentrifuge}, který ji rozdělí na {LINK:OrePage;rudy} pro {LINK:SmeltingPage;tavení}.
       
 {HEADER:Tání ledu}
-Existují některé rudy, které se roztaví, když jsou vystaveny slunečnímu záření nebo teplu a produkují {LINK:GasPage;pliny}. Například {THING:ItemIce} se roztaví na {GAS:Water} a {GAS:Oxygen}. Dávejte pozor, abyste je chránili před teplem nebo slunečním zářením, dokud je opravdu nechcete roztavit.
+Existují některé rudy, které roztají, když jsou vystaveny slunečnímu záření nebo teplu a produkují {LINK:GasPage;plyny}. Například {THING:ItemIce} se roztaje na {GAS:Water} a {GAS:Oxygen}. Dávejte pozor, abyste je chránili před teplem nebo slunečním zářením, dokud je opravdu nechcete roztát.
       
 {HEADER:Seznam rud}
 {LIST_OF_ORES}
@@ -232,7 +232,7 @@ Existují některé rudy, které se roztaví, když jsou vystaveny slunečnímu 
     <StationpediaPage>
       <Key>ToolPage</Key>
       <Title>Nástroje</Title>
-      <Text>Jedná se o položky, které se vejdou do speciálního slotu pro nástroje a používají se pro {LINK:ConstructionPage;konstrukce} a další úkoly.
+      <Text>Thohle jsou položky, které se vejdou do speciálního slotu pro nástroje a používají se na {LINK:ConstructionPage;konstrukce} a další úkoly.
       
 {HEADER:Seznam nástrojů}
 {LIST_OF_TOOLS}
@@ -259,7 +259,7 @@ Existují některé rudy, které se roztaví, když jsou vystaveny slunečnímu 
     <StationpediaPage>
       <Key>FoodPage</Key>
       <Title>Potraviny</Title>
-      <Text>Jedná se o položky, které se konzumují za účelem zajištění výživy.
+      <Text>Tohle jsou položky, které se konzumují za účelem zajištění výživy.
       
 {HEADER:Seznam potravin}
 {LIST_OF_FOOD}
@@ -268,7 +268,7 @@ Existují některé rudy, které se roztaví, když jsou vystaveny slunečnímu 
     <StationpediaPage>
       <Key>ClothingPage</Key>
       <Title>Oblečení</Title>
-      <Text>Jedná se o položky, které mohou být nošeny entitami ve slotech.
+      <Text>Tohle jsou položky, které mohou být nošeny entitami ve slotech.
       
 {HEADER:Seznam oblečení}
 {LIST_OF_CLOTHING}
@@ -277,7 +277,7 @@ Existují některé rudy, které se roztaví, když jsou vystaveny slunečnímu 
     <StationpediaPage>
       <Key>AppliancePage</Key>
       <Title>Spotřebiče</Title>
-      <Text>Jedná se o položky, které mohou být umístěny na lavičky. Musíte je umístit na lavičku tak, že je umístíte na lavičku a použijete Francouzský klíč.
+      <Text>Tohle jsou položky, které mohou být umístěny na pracovní stůl. Musíte je umístit na pracovní stůl tak, že je umístíte na pracovní stůl a použijete Francouzský klíč.
       
 {HEADER:Seznam spotřebičů}
 {LIST_OF_APPLIANCES}
@@ -325,8 +325,8 @@ Samovznícení {POS:300}{2}{3}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>IceMeltingTemplate</Key>
-      <Text>Teplota roztavení {POS:300}{1}
-Tlak tavení {POS:300}{0}</Text>
+      <Text>Teplota tání {POS:300}{1}
+Tlak tání {POS:300}{0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>CreatorsHeaderTemplate</Key>
