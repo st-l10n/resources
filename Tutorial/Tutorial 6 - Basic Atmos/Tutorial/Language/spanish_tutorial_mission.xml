@@ -41,6 +41,17 @@ Usando la tableta viaja al sitio del Oxite.</Value>
       <Value>Entrando a la esclusa de aire</Value>
     </Record>
     <Record>
+      <Key>AtmoAirLockDescription</Key>
+      <Value>Una esclusa es un dispositivo que permite el paso de personas y objetos entre una base presurizada y sus alrededores, a la vez que minimiza el cambio de presión en la base y la pérdida de aire de la misma.
+
+Actualmente la base no tiene atmósfera interna, por lo que la esclusa no funcionará correctamente ya que requiere 100kpa para funcionar con éxito. Todavía podemos entrar en la base cancelando el ciclo de presurización de la esclusa. Este es un buen consejo para recordar si su base tiene una fuga de aire y necesita entrar o salir de ella sin ejecutar el ciclo. </Value>
+    </Record>
+    <Record>
+      <Key>ASimpleAirLockTask1</Key>
+      <Value>En su base y en la esclusa de aire, presione el botón &quot;Ciclo hacia el interior&quot; en la consola y espere a que se cierre la puerta exterior. Un nuevo botón aparecerá &quot;Presionar para Cancelar&quot; presiona ese botón y la puerta interior debería abrirse.
+        </Value>
+    </Record>
+    <Record>
       <Key>AtmosAnalyser</Key>
       <Value>Analizando la atmósfera.</Value>
     </Record>
@@ -55,6 +66,10 @@ Usando la tableta viaja al sitio del Oxite.</Value>
     <Record>
       <Key>Creating_Atmo</Key>
       <Value>Generando una Atmósfera.</Value>
+    </Record>
+    <Record>
+      <Key>Creating_AtmoDescription</Key>
+      <Value>La forma más simple de crear una atmósfera respirable es extraer el oxite y dejarlo caer en su base en el suelo para que se derrita, esto liberará oxígeno respirable en el ambiente mientras que también aumentará la presión del aire, tenga cuidado al derretir el oxite ya que podría sobre presurizar la base causando daños a las paredes. Los humanos necesitan respirar un mínimo de 20% de oxígeno sin contaminantes o venenos. Puedes tener una pequeña cantidad de dióxido de carbono en la atmósfera pero no es recomendable exceder el 10%.</Value>
     </Record>
     <Record>
       <Key>Creating_AtmoTask1</Key>
