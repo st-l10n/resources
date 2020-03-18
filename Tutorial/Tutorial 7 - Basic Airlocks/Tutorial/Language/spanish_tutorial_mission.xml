@@ -7,6 +7,25 @@
       <Value>#6 Esclusas de aire básicas</Value>
     </Record>
     <Record>
+      <Key>BasicAirlocksDescription</Key>
+      <Value>Aprende a crear un cuarto hermético que podrá ser presurizado y despresurizado.</Value>
+    </Record>
+    <Record>
+      <Key>DisplayAlertAirlockMalfunction</Key>
+      <Value>Bienvenido Cadete!
+Desgraciadamente debido a un fallo de presurización en la cámara de compresión, ha resultado en la destrucción total de la misma.</Value>
+    </Record>
+    <Record>
+      <Key>FramesAreStrong</Key>
+      <Value>Estructuras Fuertes</Value>
+    </Record>
+    <Record>
+      <Key>FramesAreStrongDescription</Key>
+      <Value>En esta lección vamos a crear una cámara de compresión para reemplazar a la destruida. Vamos a utilizar tuberías, sistemas de ventilación, consolas y placas base. 
+            
+Vamos a empezar con la configuración inicial. Primero, construye los {THING:ItemIronFrames} exteriores para la cámara de compresión es recomendable usar marcos de acero para poder sujetar objetos a las paredes. Encontrarás los {THING:ItemIronFrames} en la caja amarilla.</Value>
+    </Record>
+    <Record>
       <Key>FramesAreStrongTask1</Key>
       <Value>Construye 1 {THING:ItemIronFrames}</Value>
     </Record>
@@ -153,6 +172,24 @@ Después de configurar la cámara con éxito, el interior lateral de la  {THING:
       <Value>Regular la esclusa</Value>
     </Record>
     <Record>
+      <Key>ASimpleAirLockDescription</Key>
+      <Value>Ahora para probar la cámara de descompresión creada, presiona el botón “cycle to interior” para iniciar la presurizan, la presión tendrá que llegar a 101 kPa para que la presurizan este completa. En algunos casos el interior necesita de mas presión y la presurización nunca llega a su fin. Si esto pasase pulsa el botón de “Cancel pressurize”.</Value>
+    </Record>
+    <Record>
+      <Key>ASimpleAirLockTask1</Key>
+      <Value>Quita el {THING:ItemDataDisk} y pulsa &quot;Cycle to interior&quot;.</Value>
+    </Record>
+    <Record>
+      <Key>AirlockUpgrades</Key>
+      <Value>Mejoras de la cámara de descompresión</Value>
+    </Record>
+    <Record>
+      <Key>AirlockUpgradesDescription</Key>
+      <Value>Ahora que tiene una cámara básica, hagamos algunas actualizaciones para convertirlo en una cámara avanzada. Las esclusas de aire básicas funcionarán bien en la luna o los planetas sin atmósfera, pero si desea evitar que entren gases venenosos o altas / bajas temperaturas en su base, necesitará una esclusa de aire avanzada. Una cámara de aire avanzada bombea cualquier atmósfera fuera de la cámara de aire antes de presurizarla nuevamente con la atmósfera deseada.
+
+Para construir una esclusa de aire avanzada, necesitará otra {THING: StructureActiveVent} más tubos y cables junto con el {THING: CircuitboardAdvAirlockControl} para reemplazar el {THING: CircuitboardAirlockControl} de la cámara básica.</Value>
+    </Record>
+    <Record>
       <Key>AirlockUpgradesTask1</Key>
       <Value>Coloca el {THING:ItemAreaPowerControl} en el lugar resaltado.</Value>
     </Record>
@@ -165,8 +202,24 @@ Después de configurar la cámara con éxito, el interior lateral de la  {THING:
       <Value>Coloca el {THING:StructureCableStraight}.</Value>
     </Record>
     <Record>
+      <Key>AdvancedPressure</Key>
+      <Value>Presión avanzada</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedPressureDescription</Key>
+      <Value>Ahora que las estructuras están en su lugar, necesitamos cambiar {THING: CircuitboardAirlockControl} por {THING: CircuitboardAdvAirlockControl}
+        
+Solo hay unas pocas diferencias al programar {THING: CircuitboardAdvAirlockControl}. En primer lugar, debe seleccionar {THING: StructureActiveVent} interno y externo, a diferencia de las puertas, tendrá que mirar el interruptor en {THING: StructureActiveVent} para ver si es interactivo o no, así es como puede descifrar qué {THING: StructureActiveVent} corresponde a los del menú.
+
+Lo último que debe hacer es seleccionar la presión que desea para la presión interna y externa que se encuentra cerca de la parte superior del panel.</Value>
+    </Record>
+    <Record>
       <Key>AdvancedPressureTask1</Key>
       <Value>Imprime dos {THING:ItemPlasticSheets}.</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedPressureTask2</Key>
+      <Value>Cambia el {THING:CircuitboardAirlockControl}  por el {THING:CircuitboardAdvAirlockControl}.</Value>
     </Record>
     <Record>
       <Key>AdvancedPressureTask3</Key>
@@ -175,6 +228,18 @@ Después de configurar la cámara con éxito, el interior lateral de la  {THING:
     <Record>
       <Key>AdvancedPressureask4</Key>
       <Value>Suelta el {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>AAdvancedAirLock</Key>
+      <Value>Una cámara de descompresión avanzada</Value>
+    </Record>
+    <Record>
+      <Key>AAdvancedAirLockDescription</Key>
+      <Value>Certifica que la cámara de descompresión funciona pulsando el botón &quot;Cycle to interior&quot;</Value>
+    </Record>
+    <Record>
+      <Key>AAdvancedAirLockTask1</Key>
+      <Value>pulsa el botón “cycle to Interior”.</Value>
     </Record>
   </Interface>
 </Language>
