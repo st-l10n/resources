@@ -90,12 +90,20 @@ Vamos começar com uma configuração de Airlock básica. Primeiro, constrói as
       <Value>Sensores de gás e outros !</Value>
     </Record>
     <Record>
+      <Key>AirSensoresAndMoreDescription</Key>
+      <Value>Em seguida vamos preparar um {THING:StructureGasSensor} e um {THING:StructureActiveVent}, um {THING:StructureGasSensor} irá indicar à consola a atmosfera atual dentro da Airlock sendo um componente chave na airlock, enquanto o {THING:StructureActiveVent} será responsável por pressurizar e despressurizar a airlock. Constrói um {THING:StructureGasSensor} e um {THING:StructureActiveVent}.</Value>
+    </Record>
+    <Record>
       <Key>AirSensoresAndMoreTask1</Key>
       <Value>Constrói o {THING:StructureGasSensor} na área indicada</Value>
     </Record>
     <Record>
       <Key>AirSensoresAndMoreTask2</Key>
       <Value>Constrói o {THING:StructureActiveVent} na área indicada</Value>
+    </Record>
+    <Record>
+      <Key>GasPipes</Key>
+      <Value>Canos de gás</Value>
     </Record>
     <Record>
       <Key>GasPipeCorner</Key>
