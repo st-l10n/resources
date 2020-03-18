@@ -32,27 +32,47 @@
     </Record>
     <Record>
       <Key>FeelsFamiliarTask3</Key>
-      <Value>Finalizar el marco de soldadura 3.</Value>
+      <Value>Finalizar la construcción del {THING:ItemIronFrames} 3.</Value>
     </Record>
     <Record>
       <Key>CloseTheDoor</Key>
-      <Value>Finalizar la alerta</Value>
+      <Value>¡Cierra la puerta!</Value>
+    </Record>
+    <Record>
+      <Key>CloseTheDoorDescription</Key>
+      <Value>Usa la {THING:ItemKitDoor} de la caja amarilla para construir 2 {THING:StructureCompositeDoor} en el área marcada. </Value>
     </Record>
     <Record>
       <Key>CloseTheDoorTask1</Key>
-      <Value>Soldar el {THING:StructureFrame} para completar el tutorial</Value>
+      <Value>Construye la {THING:StructureCompositeDoor} 1</Value>
     </Record>
     <Record>
       <Key>CloseTheDoorTask2</Key>
-      <Value>Soldar el {THING:StructureFrame} para completar el tutorial</Value>
+      <Value>Construye la {THING:StructureCompositeDoor} 2</Value>
+    </Record>
+    <Record>
+      <Key>CreatingASeal</Key>
+      <Value>Sellando</Value>
+    </Record>
+    <Record>
+      <Key>CreatingASealDescription</Key>
+      <Value>Ahora acaba la construcción de las {THING:StructureCompositeDoor}s con {THING:ItemPlasticSheets} y {THING:ItemGlassSheets}.</Value>
     </Record>
     <Record>
       <Key>CreatingASealTask1</Key>
-      <Value>De construyendo un {THING:StructureArcFurnace}</Value>
+      <Value>Construye la {THING:StructureCompositeDoor} 1</Value>
     </Record>
     <Record>
       <Key>CreatingASealTask2</Key>
-      <Value>De construyendo un {THING:StructureArcFurnace}</Value>
+      <Value>Construye la {THING:StructureCompositeDoor} 2</Value>
+    </Record>
+    <Record>
+      <Key>AirSensoresAndMore</Key>
+      <Value>¡ Sensores de gas y mas !</Value>
+    </Record>
+    <Record>
+      <Key>AirSensoresAndMoreDescription</Key>
+      <Value>Lo siguiente es preparar un {THING:StructureGasSensor} y un {THING:StructureActiveVent}, el {THING:StructureGasSensor} indicará a la consola la atmósfera actual dentro de la cámara siendo un componente clave, respecto al {THING:StructureActiveVent} será el responsable de presurizar y despresurizar la cámara de descompresión. Construye un {THING:StructureGasSensor} y un {THING:StructureActiveVent}.</Value>
     </Record>
     <Record>
       <Key>AirSensoresAndMoreTask1</Key>
@@ -63,6 +83,16 @@
       <Value>Coloca el {THING:ItemAreaPowerControl} en el lugar resaltado.</Value>
     </Record>
     <Record>
+      <Key>GasPipes</Key>
+      <Value>Tuberías de Gas</Value>
+    </Record>
+    <Record>
+      <Key>GasPipesDescription</Key>
+      <Value>{THING:ItemKitPipe} son utilizados para transportar gases de un sitio a otro. Vamos a tener que usar algunos en la cámara de descompresión, conecta el {THING:StructureActiveVent} a el {THING:StructurePassiveVent} utilizando {THING:ItemKitPipe}.
+
+Nota: cuando construyes una cámara de descompresión podrás acumular gases dentro del propio tubo si no tuvieras acceso a el {THING:StructurePassiveVent}.</Value>
+    </Record>
+    <Record>
       <Key>GasPipeCorner</Key>
       <Value>Coloca el {THING:StructureCableCorner}.</Value>
     </Record>
@@ -71,12 +101,24 @@
       <Value>Coloca el {THING:StructureCableStraight}.</Value>
     </Record>
     <Record>
+      <Key>DigitalScreens</Key>
+      <Value>Pantallas digitales</Value>
+    </Record>
+    <Record>
       <Key>DigitalScreensDescription</Key>
       <Value>Fundir {THING:ItemIronOre} introduciéndolo en el horno de arco y activar el mismo.</Value>
     </Record>
     <Record>
       <Key>DigitalScreensTask1</Key>
       <Value>Soldar el {THING:StructureFrame} para completar el tutorial</Value>
+    </Record>
+    <Record>
+      <Key>UnderPressure</Key>
+      <Value>Presión Baja</Value>
+    </Record>
+    <Record>
+      <Key>UnderPressureDescription</Key>
+      <Value>Para completar la consola necesitas añadir una placa de circuito en ella. Hay diferentes tipos de placas de circuitos según la situación, En este caso, vamos a construir una cámara de descompresión y necesitas usar el {THING:CircuitboardAirlockControl}, Cambien necesitarás el disco de datos {THING:CircuitboardAirlockControl} para poder programarla después.</Value>
     </Record>
     <Record>
       <Key>UnderPressureTask1</Key>
@@ -89,6 +131,18 @@
     <Record>
       <Key>UnderPressureTask3</Key>
       <Value>Soldar la {THING:ItemPlasticSheets} a el {THING:StructureAutolathe}.</Value>
+    </Record>
+    <Record>
+      <Key>AirLockProgramming</Key>
+      <Value>Programación de la cámara de descompresión</Value>
+    </Record>
+    <Record>
+      <Key>AirLockProgrammingDescription</Key>
+      <Value>Programar una cámara de descompresión es fácil, comienza por encender la {THING:StructureConsole} después selecciona el {THING:StructureActiveVent} y el {THING:StructureGasSensor}.
+
+Al seleccionar las puertas asegúrate de que la puerta &apos;INTERIOR&apos; este para la puerta interior. Podrás ver es esto cuando las luces de la cámara se cambien a color verde a amarillo indicándote la puerta que estas aplicando los ajustes.
+Una vez que selecciones un dispositivo en la consola, el mismo aparece bloqueado para los controles individuales.
+Después de configurar la cámara con éxito, el interior lateral de la  {THING:StructureConsole} se pondrá de color verde y podrás quitar el disco de datos de la {THING:StructureConsole}.</Value>
     </Record>
     <Record>
       <Key>AirLockProgrammingTask1</Key>
