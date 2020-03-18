@@ -58,6 +58,10 @@ Vamos começar com uma configuração de Airlock básica. Primeiro, constrói as
       <Value>Fecha a porta!</Value>
     </Record>
     <Record>
+      <Key>CloseTheDoorDescription</Key>
+      <Value>Utiliza o {THING:ItemKitDoor} da caixa Amarela para construir duas {THING:StructureCompositeDoor} nos locais indicados. </Value>
+    </Record>
+    <Record>
       <Key>CloseTheDoorTask1</Key>
       <Value>Constrói a {THING:StructureCompositeDoor} 1</Value>
     </Record>
@@ -66,12 +70,24 @@ Vamos começar com uma configuração de Airlock básica. Primeiro, constrói as
       <Value>Constrói a {THING:StructureCompositeDoor} 2</Value>
     </Record>
     <Record>
+      <Key>CreatingASeal</Key>
+      <Value>Selando</Value>
+    </Record>
+    <Record>
+      <Key>CreatingASealDescription</Key>
+      <Value>Agora vai e acaba a construção das {THING:StructureCompositeDoor} com {THING:ItemPlasticSheets} e {THING:ItemGlassSheets}.</Value>
+    </Record>
+    <Record>
       <Key>CreatingASealTask1</Key>
       <Value>Acaba de construir a {THING:StructureCompositeDoor} 1</Value>
     </Record>
     <Record>
       <Key>CreatingASealTask2</Key>
       <Value>Acaba de construir a {THING:StructureCompositeDoor} 2</Value>
+    </Record>
+    <Record>
+      <Key>AirSensoresAndMore</Key>
+      <Value>Sensores de gás e outros !</Value>
     </Record>
     <Record>
       <Key>AirSensoresAndMoreTask1</Key>
