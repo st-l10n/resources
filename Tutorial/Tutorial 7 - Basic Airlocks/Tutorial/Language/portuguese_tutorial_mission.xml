@@ -156,6 +156,14 @@ Nota: ao criar uma Airlock poderás armazenar os gases dentro do próprio cano s
       <Value>Programação da Airlock</Value>
     </Record>
     <Record>
+      <Key>AirLockProgrammingDescription</Key>
+      <Value>Programar uma Airlock é simples, começa por ligar a {THING:StructureConsole} depois na lista seleciona o {THING:StructureActiveVent} e o {THING:StructureGasSensor}.
+
+Ao selecionares as portas da Airlock certifica-te que a opção &apos;EXTERIOR&apos; está para a porta exterior. Poderás ver isto quando as luzes da Airlock mudam de verde para vermelho indicando qual a porta que estás a aplicar a opção.
+Assim que selecionares um dispositivo na consola, o mesmo fica bloqueado e sob o seu controle e não irá responder aos teus comandos individuais.
+Após configurares a Airlock com sucesso, o interruptor na lateral da {THING:StructureConsole} irá acender verde e poderás depois remover o disco de dados da {THING:StructureConsole}.</Value>
+    </Record>
+    <Record>
       <Key>AirLockProgrammingTask1</Key>
       <Value>Programa a Airlock utilizando a {THING:StructureConsole}.</Value>
     </Record>
