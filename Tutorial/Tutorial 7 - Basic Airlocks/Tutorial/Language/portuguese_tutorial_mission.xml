@@ -184,6 +184,12 @@ Após configurares a Airlock com sucesso, o interruptor na lateral da {THING:Str
       <Value>Melhoramentos da Airlock</Value>
     </Record>
     <Record>
+      <Key>AirlockUpgradesDescription</Key>
+      <Value>Agora que tens uma Airlock básica vamos fazer uns melhoramentos para converter em uma Airlock Avançada. Airlocks básicas funcionam bem na lua ou em planetas sem atmosfera, mas se quiseres evitar gases tóxicos ou temperaturas altas/baixas entrar na tua base irás precisar uma Airlock Avançada. Uma airlock avançada bombeia qualquer atmosfera para fora da airlock antes de pressurizar com a atmosfera desejada.
+
+Para construir uma airlock avançada irás precisar de outro {THING:StructureActiveVent}, mais alguns canos, cabos assim também como uma {THING:CircuitboardAdvAirlockControl} para substituir a {THING:CircuitboardAirlockControl} da Airlock Básica.</Value>
+    </Record>
+    <Record>
       <Key>AirlockUpgradesTask1</Key>
       <Value>Coloca outro {THING:StructureActiveVent} no local indicado.</Value>
     </Record>
@@ -194,6 +200,10 @@ Após configurares a Airlock com sucesso, o interruptor na lateral da {THING:Str
     <Record>
       <Key>AirlockCableStraight</Key>
       <Value>Coloca um {THING:StructureCableStraight}.</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedPressure</Key>
+      <Value>Pressão Avançada</Value>
     </Record>
     <Record>
       <Key>AdvancedPressureTask1</Key>
