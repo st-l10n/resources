@@ -95,11 +95,11 @@ Vamos a empezar con la configuración inicial. Primero, construye los {THING:Ite
     </Record>
     <Record>
       <Key>AirSensoresAndMoreTask1</Key>
-      <Value>Coloca el {THING:ItemAreaPowerControl} en el lugar resaltado.</Value>
+      <Value>Construye la {THING:StructureGasSensor} en el lugar resaltado</Value>
     </Record>
     <Record>
       <Key>AirSensoresAndMoreTask2</Key>
-      <Value>Coloca el {THING:ItemAreaPowerControl} en el lugar resaltado.</Value>
+      <Value>Construye la {THING:StructureActiveVent} en el lugar resaltado</Value>
     </Record>
     <Record>
       <Key>GasPipes</Key>
@@ -113,11 +113,11 @@ Nota: cuando construyes una cámara de descompresión podrás acumular gases den
     </Record>
     <Record>
       <Key>GasPipeCorner</Key>
-      <Value>Coloca el {THING:StructureCableCorner}.</Value>
+      <Value>Construye un {THING:StructurePipeCorner}.</Value>
     </Record>
     <Record>
       <Key>GasPipeStraight</Key>
-      <Value>Coloca el {THING:StructureCableStraight}.</Value>
+      <Value>Construye un {THING:StructurePipeStraight}</Value>
     </Record>
     <Record>
       <Key>DigitalScreens</Key>
@@ -125,11 +125,11 @@ Nota: cuando construyes una cámara de descompresión podrás acumular gases den
     </Record>
     <Record>
       <Key>DigitalScreensDescription</Key>
-      <Value>Fundir {THING:ItemIronOre} introduciéndolo en el horno de arco y activar el mismo.</Value>
+      <Value>Prepara una {THING:StructureConsole} colocándola en la pared en el lugar destacado.</Value>
     </Record>
     <Record>
       <Key>DigitalScreensTask1</Key>
-      <Value>Soldar el {THING:StructureFrame} para completar el tutorial</Value>
+      <Value>Construye un {THING:StructureConsole}.</Value>
     </Record>
     <Record>
       <Key>UnderPressure</Key>
@@ -141,15 +141,15 @@ Nota: cuando construyes una cámara de descompresión podrás acumular gases den
     </Record>
     <Record>
       <Key>UnderPressureTask1</Key>
-      <Value>Inserte el {THING:CartridgeAtmosAnalyser} en la {THING:ItemTablet}</Value>
+      <Value>Inserte la {THING:CircuitboardAirlockControl} en la {THING:StructureConsole}.</Value>
     </Record>
     <Record>
       <Key>UnderPressureTask2</Key>
-      <Value>Soldar la {THING:ItemPlasticSheets} a el {THING:StructureAutolathe}.</Value>
+      <Value>Coloca {THING:ItemGlassSheets} en la {THING:StructureConsole} para completar la Consola.</Value>
     </Record>
     <Record>
       <Key>UnderPressureTask3</Key>
-      <Value>Soldar la {THING:ItemPlasticSheets} a el {THING:StructureAutolathe}.</Value>
+      <Value>Inserta el {THING:ItemDataDisk} en la {THING:StructureConsole}.</Value>
     </Record>
     <Record>
       <Key>AirLockProgramming</Key>
@@ -165,11 +165,11 @@ Después de configurar la cámara con éxito, el interior lateral de la  {THING:
     </Record>
     <Record>
       <Key>AirLockProgrammingTask1</Key>
-      <Value>Enciende el {THING:StructureAutolathe}.</Value>
+      <Value>Programe la esclusa usando la {THING:StructureConsole}.</Value>
     </Record>
     <Record>
       <Key>ASimpleAirLock</Key>
-      <Value>Regular la esclusa</Value>
+      <Value>Una simple esclusa de aire</Value>
     </Record>
     <Record>
       <Key>ASimpleAirLockDescription</Key>
@@ -191,11 +191,11 @@ Para construir una esclusa de aire avanzada, necesitará otra {THING: StructureA
     </Record>
     <Record>
       <Key>AirlockUpgradesTask1</Key>
-      <Value>Coloca el {THING:ItemAreaPowerControl} en el lugar resaltado.</Value>
+      <Value>Coloca otra {THING:StructureActiveVent} en el lugar destacado.</Value>
     </Record>
     <Record>
       <Key>AirlockCableCorner</Key>
-      <Value>Coloca el {THING:StructureCableCorner}.</Value>
+      <Value>Coloca un {THING:StructureCableCorner}.</Value>
     </Record>
     <Record>
       <Key>AirlockCableStraight</Key>
