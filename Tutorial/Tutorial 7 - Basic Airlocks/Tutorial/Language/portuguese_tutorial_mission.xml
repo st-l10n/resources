@@ -136,6 +136,10 @@ Nota: ao criar uma Airlock poderás armazenar os gases dentro do próprio cano s
       <Value>Sob pressão</Value>
     </Record>
     <Record>
+      <Key>UnderPressureDescription</Key>
+      <Value>Para completar a consola teremos que lhe adicionar uma placa de circuito. Existem diversas placas de circuito para diversas situações, neste caso estamos a construir uma Airlock então precisamos utilizar a {THING:CircuitboardAirlockControl}. Irás também precisar de utilizar um disco de dados para permitir a programação da {THING:CircuitboardAirlockControl}.</Value>
+    </Record>
+    <Record>
       <Key>UnderPressureTask1</Key>
       <Value>Coloca a {THING:CircuitboardAirlockControl} na {THING:StructureConsole}.</Value>
     </Record>
@@ -146,6 +150,10 @@ Nota: ao criar uma Airlock poderás armazenar os gases dentro do próprio cano s
     <Record>
       <Key>UnderPressureTask3</Key>
       <Value>Introduz o {THING:ItemDataDisk} na {THING:StructureConsole}.</Value>
+    </Record>
+    <Record>
+      <Key>AirLockProgramming</Key>
+      <Value>Programação da Airlock</Value>
     </Record>
     <Record>
       <Key>AirLockProgrammingTask1</Key>
