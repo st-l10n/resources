@@ -176,6 +176,14 @@ Após configurares a Airlock com sucesso, o interruptor na lateral da {THING:Str
       <Value>Agora para testar a Airlock criada, pressiona no botão “Alternar para Interior” para iniciar a pressurização, a pressão terá que chegar aos 101 kPa para que a pressurização fique completa. Em alguns casos o interior precisa de mais pressão e a pressurização nunca irá chegar ao fim. Se isto acontecer carrega no botão “Cancel pressurize”.</Value>
     </Record>
     <Record>
+      <Key>ASimpleAirLockTask1</Key>
+      <Value>Remove o {THING:ItemDataDisk} e Alterna para interior.</Value>
+    </Record>
+    <Record>
+      <Key>AirlockUpgrades</Key>
+      <Value>Melhoramentos da Airlock</Value>
+    </Record>
+    <Record>
       <Key>AirlockUpgradesTask1</Key>
       <Value>Coloca outro {THING:StructureActiveVent} no local indicado.</Value>
     </Record>
