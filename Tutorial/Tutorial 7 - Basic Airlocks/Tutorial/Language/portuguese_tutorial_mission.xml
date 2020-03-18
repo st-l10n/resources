@@ -206,8 +206,20 @@ Para construir uma airlock avançada irás precisar de outro {THING:StructureAct
       <Value>Pressão Avançada</Value>
     </Record>
     <Record>
+      <Key>AdvancedPressureDescription</Key>
+      <Value>Agora que as estruturas estão no sítio teremos que trocar a {THING:CircuitboardAirlockControl} pela {THING:CircuitboardAdvAirlockControl}
+
+Existem poucas diferenças quando programas uma {THING:CircuitboardAdvAirlockControl}. Primeiro tens de selecionar o {THING:StructureActiveVent} interno e externo, que diferente das portas terás de olhar para o interruptor no {THING:StructureActiveVent} e ver se consegues interagir ou não, é desta forma que consegues decifrar qual o {THING:StructureActiveVent} que corresponde aos do menu.
+
+A última coisa que tens de fazer é selecionar as pressões interna e externa que desejas na parte de cima do painel. </Value>
+    </Record>
+    <Record>
       <Key>AdvancedPressureTask1</Key>
       <Value>Remove as {THING:ItemGlassSheets}.</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedPressureTask2</Key>
+      <Value>Troca a {THING:CircuitboardAirlockControl} pela {THING:CircuitboardAdvAirlockControl}.</Value>
     </Record>
     <Record>
       <Key>AdvancedPressureTask3</Key>
@@ -216,6 +228,10 @@ Para construir uma airlock avançada irás precisar de outro {THING:StructureAct
     <Record>
       <Key>AdvancedPressureask4</Key>
       <Value>Introduz o {THING:ItemDataDisk}.</Value>
+    </Record>
+    <Record>
+      <Key>AAdvancedAirLock</Key>
+      <Value>Uma airlock avançada</Value>
     </Record>
   </Interface>
 </Language>
