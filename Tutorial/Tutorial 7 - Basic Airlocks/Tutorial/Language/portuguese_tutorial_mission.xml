@@ -106,6 +106,12 @@ Vamos começar com uma configuração de Airlock básica. Primeiro, constrói as
       <Value>Canos de gás</Value>
     </Record>
     <Record>
+      <Key>GasPipesDescription</Key>
+      <Value>{THING:ItemKitPipe} são utilizados para transportar gases de um ponto a outro. Vamos ter de usar canos para a airlock, conecta o {THING:StructureActiveVent} ao {THING:StructurePassiveVent} utilizando {THING:ItemKitPipe}.
+
+Nota: ao criar uma Airlock poderás armazenar os gases dentro do próprio cano se não tiveres acesso a um {THING:StructurePassiveVent}.</Value>
+    </Record>
+    <Record>
       <Key>GasPipeCorner</Key>
       <Value>Constrói um {THING:StructurePipeCorner}.</Value>
     </Record>
@@ -114,12 +120,20 @@ Vamos começar com uma configuração de Airlock básica. Primeiro, constrói as
       <Value>Constrói um {THING:StructurePipeStraight}</Value>
     </Record>
     <Record>
+      <Key>DigitalScreens</Key>
+      <Value>Ecrãs digitais</Value>
+    </Record>
+    <Record>
       <Key>DigitalScreensDescription</Key>
       <Value>Configura uma {THING:StructureConsole} colocando-a na parede no local indicado.</Value>
     </Record>
     <Record>
       <Key>DigitalScreensTask1</Key>
       <Value>Constrói a {THING:StructureConsole}.</Value>
+    </Record>
+    <Record>
+      <Key>UnderPressure</Key>
+      <Value>Sob pressão</Value>
     </Record>
     <Record>
       <Key>UnderPressureTask1</Key>
