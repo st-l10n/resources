@@ -43,12 +43,20 @@
       <Value>Soudez le {THING:StructureFrame} pour terminer le tutoriel</Value>
     </Record>
     <Record>
+      <Key>CreatingASeal</Key>
+      <Value>Création d’un sceau</Value>
+    </Record>
+    <Record>
       <Key>CreatingASealTask1</Key>
       <Value>Déconstruire le Four à Arc</Value>
     </Record>
     <Record>
       <Key>CreatingASealTask2</Key>
       <Value>Déconstruire le Four à Arc</Value>
+    </Record>
+    <Record>
+      <Key>AirSensoresAndMore</Key>
+      <Value>Capteurs d’air et plus encore !</Value>
     </Record>
     <Record>
       <Key>AirSensoresAndMoreTask1</Key>
@@ -75,8 +83,20 @@
       <Value>Écrans numériques</Value>
     </Record>
     <Record>
+      <Key>DigitalScreensDescription</Key>
+      <Value>Configurez une {THING:StructureConsole} en le plaçant sur le mur à l’endroit mis en surbrillance.</Value>
+    </Record>
+    <Record>
       <Key>DigitalScreensTask1</Key>
       <Value>Soudez le {THING:StructureFrame} pour terminer le tutoriel</Value>
+    </Record>
+    <Record>
+      <Key>UnderPressure</Key>
+      <Value>Sous pression</Value>
+    </Record>
+    <Record>
+      <Key>UnderPressureDescription</Key>
+      <Value>Pour compléter la console, nous devons y ajouter un circuit imprimé. Il existe différents types de circuits imprimés pour différentes situations, Dans ce cas, nous allons construire un sas, donc nous devons utiliser le {THING:CircuitboardAirlockControl}, Vous aurez également besoin d’utiliser un disque de données pour permettre à la {THING:CircuitboardAirlockControl} d’être Programmé.</Value>
     </Record>
     <Record>
       <Key>UnderPressureTask1</Key>
@@ -89,6 +109,10 @@
     <Record>
       <Key>UnderPressureTask3</Key>
       <Value>Soudez le {THING:ItemPlasticSheets} à la {THING:StructureAutolathe}&apos;.</Value>
+    </Record>
+    <Record>
+      <Key>AirLockProgramming</Key>
+      <Value>Programmation de sas</Value>
     </Record>
     <Record>
       <Key>AirLockProgrammingTask1</Key>
@@ -119,8 +143,20 @@
       <Value>Pression avancée</Value>
     </Record>
     <Record>
+      <Key>AdvancedPressureDescription</Key>
+      <Value>Maintenant que les structures sont en place, nous devons échanger le {THING:CircuitboardAirlockControl} pour le {THING:CircuitboardAdvAirlockControl} 
+        
+Il n’y a que quelques différences lors de la programmation du {THING:CircuitboardAdvAirlockControl}. Tout d’abord, vous devez sélectionner interne et externe {THING:StructureActiveVent} contrairement aux portes que vous aurez besoin de regarder l’interrupteur sur le {THING:StructureActiveVent} pour voir si c’est interagitable ou non c’est ainsi que vous pouvez déchiffrer lequel {THING:StructureActiveVent} correspond à ceux du menu.
+
+La dernière chose que vous devez faire est de sélectionner la pression que vous voulez à la fois pour la pression interne et externe trouvée près du haut du panneau.</Value>
+    </Record>
+    <Record>
       <Key>AdvancedPressureTask1</Key>
       <Value>Ramasser le {THING:ItemKitAutolathe}.</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedPressureTask2</Key>
+      <Value>Échangez le {THING:CircuitboardAirlockControl} pour le {THING:CircuitboardAdvAirlockControl}.</Value>
     </Record>
     <Record>
       <Key>AdvancedPressureTask3</Key>
