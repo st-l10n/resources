@@ -3,6 +3,10 @@
   <Code>FR</Code>
   <Interface>
     <Record>
+      <Key>BasicAirlocks</Key>
+      <Value>#7 Base des sas</Value>
+    </Record>
+    <Record>
       <Key>FramesAreStrong</Key>
       <Value>Les cadres sont solides</Value>
     </Record>
@@ -55,12 +59,20 @@
       <Value>Placez le {THING:ItemAreaPowerControl} dans la zone en surbrillance.</Value>
     </Record>
     <Record>
+      <Key>GasPipes</Key>
+      <Value>Tuyaux de gaz</Value>
+    </Record>
+    <Record>
       <Key>GasPipeCorner</Key>
       <Value>Placez le {THING:StructureCableCorner}.</Value>
     </Record>
     <Record>
       <Key>GasPipeStraight</Key>
       <Value>Placez le {THING:StructureCableStraight}.</Value>
+    </Record>
+    <Record>
+      <Key>DigitalScreens</Key>
+      <Value>Écrans numériques</Value>
     </Record>
     <Record>
       <Key>DigitalScreensTask1</Key>
@@ -85,6 +97,10 @@
     <Record>
       <Key>ASimpleAirLock</Key>
       <Value>Cycle du SAS</Value>
+    </Record>
+    <Record>
+      <Key>AirlockUpgrades</Key>
+      <Value>Mises à niveau du sas</Value>
     </Record>
     <Record>
       <Key>AirlockUpgradesTask1</Key>
@@ -117,6 +133,14 @@
     <Record>
       <Key>AAdvancedAirLock</Key>
       <Value>Un sas avancé</Value>
+    </Record>
+    <Record>
+      <Key>AAdvancedAirLockDescription</Key>
+      <Value>Assurez-vous que le sas fonctionne en appuyant sur le bouton &quot;cycle vers l’intérieur&quot;.</Value>
+    </Record>
+    <Record>
+      <Key>AAdvancedAirLockTask1</Key>
+      <Value>appuyez sur le bouton &quot;cycle à l’intérieur&quot;.</Value>
     </Record>
   </Interface>
 </Language>
