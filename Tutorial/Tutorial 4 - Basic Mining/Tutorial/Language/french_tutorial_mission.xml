@@ -19,6 +19,10 @@
       <Value>Bienvenue, Cadet ! Notre première tâche aujourd’hui est d’équiper le {THING:ItemTablet}. Le {THING:ItemTablet} peut être utilisé pour afficher des informations sur les atmosphères et les réseaux, ainsi qu’une encyclopédie ou un traqueur de balises.</Value>
     </Record>
     <Record>
+      <Key>TheTabletTask1</Key>
+      <Value>Ouvrez le {SLOT:Back} avec {KEY:BackSlot} pour trouver le {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
       <Key>TheTabletTask2</Key>
       <Value>Jeter la {THING:ItemTablet}</Value>
     </Record>
@@ -41,6 +45,10 @@
     <Record>
       <Key>OnTheBadList</Key>
       <Value>Sur la mauvaise liste</Value>
+    </Record>
+    <Record>
+      <Key>OnTheBadListDescription</Key>
+      <Value>Cadet, nous avons marqué quelques bons endroits pour vous faire démarrer. Utilisez la tablette et utilisez la roue de défilement pour modifier la cible suivie. Nous avons permis la balise de charbon. Déplacez-vous à cet endroit et obtenez un peu de {THING:ItemCoalOre}.</Value>
     </Record>
     <Record>
       <Key>OnTheBadListTask1</Key>
