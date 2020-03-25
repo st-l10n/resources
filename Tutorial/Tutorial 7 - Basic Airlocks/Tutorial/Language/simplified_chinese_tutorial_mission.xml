@@ -4,55 +4,55 @@
   <Interface>
     <Record>
       <Key>FramesAreStrongTask1</Key>
-      <Value>制造一个 {THING:ItemMuffin}</Value>
+      <Value>建造 {THING:ItemIronFrames} 1</Value>
     </Record>
     <Record>
       <Key>FramesAreStrongTask2</Key>
-      <Value>制造一个 {THING:ItemMuffin}</Value>
+      <Value>建造 {THING:ItemIronFrames} 2</Value>
     </Record>
     <Record>
       <Key>FeelsFamiliarTask1</Key>
-      <Value>完成焊接框架</Value>
+      <Value>完成 {THING:ItemIronFrames} 1 的建造。</Value>
     </Record>
     <Record>
       <Key>FeelsFamiliarTask2</Key>
-      <Value>完成焊接框架</Value>
+      <Value>完成 {THING:ItemIronFrames} 2 的建造。</Value>
     </Record>
     <Record>
       <Key>FeelsFamiliarTask3</Key>
-      <Value>完成焊接框架</Value>
+      <Value>完成 {THING:ItemIronFrames} 3 的建造。</Value>
     </Record>
     <Record>
       <Key>CloseTheDoor</Key>
-      <Value>循环气密门</Value>
+      <Value>关门！</Value>
     </Record>
     <Record>
       <Key>CloseTheDoorTask1</Key>
-      <Value>焊接 {THING:StructureFrame} 完成教程</Value>
+      <Value>建造 {THING:StructureCompositeDoor} 1</Value>
     </Record>
     <Record>
       <Key>CloseTheDoorTask2</Key>
-      <Value>焊接 {THING:StructureFrame} 完成教程</Value>
+      <Value>建造 {THING:StructureCompositeDoor} 2</Value>
     </Record>
     <Record>
       <Key>AirSensoresAndMoreTask1</Key>
-      <Value>拿上{THING:ItemToolBelt} 在 {SLOT:Belt} 装备槽</Value>
+      <Value>在高亮位置处建造 {THING:StructureGasSensor}</Value>
     </Record>
     <Record>
       <Key>AirSensoresAndMoreTask2</Key>
-      <Value>拿上{THING:ItemToolBelt} 在 {SLOT:Belt} 装备槽</Value>
+      <Value>在高亮位置处建造 {THING:StructureActiveVent}</Value>
     </Record>
     <Record>
       <Key>GasPipeCorner</Key>
-      <Value>移除 {THING:StructureCableJunctionBurnt}</Value>
+      <Value>建造 {THING:StructurePipeCorner}。</Value>
     </Record>
     <Record>
       <Key>GasPipeStraight</Key>
-      <Value>移除 {THING:StructureCableJunctionBurnt}</Value>
+      <Value>建造 {THING:StructurePipeStraight}</Value>
     </Record>
     <Record>
       <Key>DigitalScreensTask1</Key>
-      <Value>焊接 {THING:StructureFrame} 完成教程</Value>
+      <Value>建造 {THING:StructureConsole}。</Value>
     </Record>
     <Record>
       <Key>UnderPressureTask1</Key>

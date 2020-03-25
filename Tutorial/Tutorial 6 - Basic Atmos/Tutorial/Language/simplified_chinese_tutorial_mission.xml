@@ -4,19 +4,19 @@
   <Interface>
     <Record>
       <Key>TheTabletAtmoDescription</Key>
-      <Value>打开 {THING:ItemTablet}</Value>
+      <Value>将跟踪器记忆卡放入 {THING:ItemTablet}。</Value>
     </Record>
     <Record>
       <Key>AtmoAirLock</Key>
-      <Value>循环气密门</Value>
+      <Value>进入气闸</Value>
     </Record>
     <Record>
       <Key>TheTabletTaskAtmo</Key>
-      <Value>拿上{THING:ItemToolBelt} 在 {SLOT:Belt} 装备槽</Value>
+      <Value>将 {THING:CartridgeAtmosAnalyser} 放入 {THING:ItemTablet}</Value>
     </Record>
     <Record>
       <Key>Creating_AtmoTask1</Key>
-      <Value>打开 {THING:ItemTablet}</Value>
+      <Value>启动 {THING:ItemTablet}。</Value>
     </Record>
   </Interface>
 </Language>
