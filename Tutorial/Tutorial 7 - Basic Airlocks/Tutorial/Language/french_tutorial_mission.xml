@@ -75,6 +75,12 @@
       <Value>Tuyaux de gaz</Value>
     </Record>
     <Record>
+      <Key>GasPipesDescription</Key>
+      <Value>Les « THING : ItemKitPipe » sont utilisés pour transporter le gaz d’un point à l’autre. Nous devrons utiliser des tuyaux pour le sas, connecter le &apos;THING:StructureActiveVent&apos; à la &apos;THING:StructurePassiveVent&apos; en utilisant &apos;THING:ItemKitPipe&apos;. 
+            
+Remarque : lors de la construction d’un sas, vous pouvez simplement stocker les gaz dans le tuyau lui-même si vous n’avez pas accès à un « THING: StructurePassiveVent ».</Value>
+    </Record>
+    <Record>
       <Key>GasPipeCorner</Key>
       <Value>Placez le {THING:StructureCableCorner}.</Value>
     </Record>
@@ -125,6 +131,10 @@
     <Record>
       <Key>ASimpleAirLock</Key>
       <Value>Un simple sas</Value>
+    </Record>
+    <Record>
+      <Key>ASimpleAirLockDescription</Key>
+      <Value>Maintenant, pour tester le sas nouvellement construit, appuyez sur le bouton &quot;cycle pour l’intérieur&quot; pour initialiser la pressurisation, la pression doit atteindre au moins 101 kPa pour que le cycle se termine. Dans certains cas, l’Intérieur n’a pas encore été sous pression et n’atteindra jamais la pression cible. Si cela se produit appuyez sur le bouton &quot;Annuler pressurisation&quot;.</Value>
     </Record>
     <Record>
       <Key>ASimpleAirLockTask1</Key>
