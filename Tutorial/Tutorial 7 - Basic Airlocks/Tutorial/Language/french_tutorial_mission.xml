@@ -7,6 +7,10 @@
       <Value>#7 Base des sas</Value>
     </Record>
     <Record>
+      <Key>BasicAirlocksDescription</Key>
+      <Value>Apprenez à créer une pièce hermétique qui peut pressuriser et dépressuriser la pièce.</Value>
+    </Record>
+    <Record>
       <Key>DisplayAlertAirlockMalfunction</Key>
       <Value>Bienvenue cadet ! 
 Malheureusement, en raison d’un problème de pressurisation dans le sas, un dysfonctionnement s’est produit causant la défaillance catastrophique ayant entraîné la destruction du sas.</Value>
@@ -54,6 +58,10 @@ Commençons par une configuration de sas de base. Tout d’abord, construire l�
       <Value>Ferme la porte !</Value>
     </Record>
     <Record>
+      <Key>CloseTheDoorDescription</Key>
+      <Value>Utilisez le {THING:ItemKitDoor} de la caisse jaune pour construire deux {THING:StructureCompositeDoor} dans les endroits mis en surbrillance.</Value>
+    </Record>
+    <Record>
       <Key>CloseTheDoorTask1</Key>
       <Value>Soudez le {THING:StructureFrame} pour terminer le tutoriel</Value>
     </Record>
@@ -66,6 +74,10 @@ Commençons par une configuration de sas de base. Tout d’abord, construire l�
       <Value>Création d’un sceau</Value>
     </Record>
     <Record>
+      <Key>CreatingASealDescription</Key>
+      <Value>Allez-y et terminez la construction de la {THING:StructureCompositeDoor} avec des {THING:ItemPlasticSheets} et {THING:ItemGlassSheets}.</Value>
+    </Record>
+    <Record>
       <Key>CreatingASealTask1</Key>
       <Value>Déconstruire le Four à Arc</Value>
     </Record>
@@ -76,6 +88,10 @@ Commençons par une configuration de sas de base. Tout d’abord, construire l�
     <Record>
       <Key>AirSensoresAndMore</Key>
       <Value>Capteurs d’air et plus encore !</Value>
+    </Record>
+    <Record>
+      <Key>AirSensoresAndMoreDescription</Key>
+      <Value>Ensuite, il s’agit de mettre en place un {THING:StructureGasSensor} et un {THING:StructureActiveVent}, le {THING:StructureGasSensor} dira à la console l’atmosphère actuelle dans le sas et est un élément clé dans le sas, tandis que le {THING:StructureActiveVent} gérera la pression et dépressurisation du sas. Construire un {THING:StructureGasSensor} et un {THING:StructureActiveVent}.</Value>
     </Record>
     <Record>
       <Key>AirSensoresAndMoreTask1</Key>
