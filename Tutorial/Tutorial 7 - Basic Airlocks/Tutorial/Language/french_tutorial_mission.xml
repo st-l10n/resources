@@ -7,8 +7,19 @@
       <Value>#7 Base des sas</Value>
     </Record>
     <Record>
+      <Key>DisplayAlertAirlockMalfunction</Key>
+      <Value>Bienvenue cadet ! 
+Malheureusement, en raison d’un problème de pressurisation dans le sas, un dysfonctionnement s’est produit causant la défaillance catastrophique ayant entraîné la destruction du sas.</Value>
+    </Record>
+    <Record>
       <Key>FramesAreStrong</Key>
       <Value>Les cadres sont solides</Value>
+    </Record>
+    <Record>
+      <Key>FramesAreStrongDescription</Key>
+      <Value>Dans cette leçon, nous devons créer un sas pour remplacer celui détruit. Nous utiliserons des ventilations, des tuyaux, des consoles et des cartes mères. 
+            
+Commençons par une configuration de sas de base. Tout d’abord, construire l’extérieur {THING:ItemIronFrames} pour le sas, il est recommandé d’utiliser des cadres car ils permettent de plus petits articles à attacher à eux. Vous pouvez trouver le {THING:ItemIronFrames} dans la caisse jaune.</Value>
     </Record>
     <Record>
       <Key>FramesAreStrongTask1</Key>
@@ -21,6 +32,10 @@
     <Record>
       <Key>FeelsFamiliar</Key>
       <Value>Sentiment de familiarité</Value>
+    </Record>
+    <Record>
+      <Key>FeelsFamiliarDescription</Key>
+      <Value>Maintenant, faites des {THING:ItemIronFrames} étanches en les soudants avec quelques plaques de fer trouvées dans la caisse orange à côté de la nouvelle construction {THING:ItemIronFrames}.</Value>
     </Record>
     <Record>
       <Key>FeelsFamiliarTask1</Key>
@@ -123,6 +138,14 @@ Remarque : lors de la construction d’un sas, vous pouvez simplement stocker le
     <Record>
       <Key>AirLockProgramming</Key>
       <Value>Programmation de sas</Value>
+    </Record>
+    <Record>
+      <Key>AirLockProgrammingDescription</Key>
+      <Value>Programmer un sas est assez facile, commencez par allumer le {THING:StructureConsole} il suffit de sélectionner le {THING:StructureActiveVent} et {THING:StructureGasSensor}. 
+
+Lors de la sélection du sas, assurez-vous que l’option &quot;INTERIEUR&quot; est sélectionnée sur la porte intérieure. Cela peut être vu par la lumière des sas tournant du vert au rouge pour indiquer à quel sas vous appliquez l’option.
+Une fois que la console a un appareil sélectionné, il sera sous son contrôle et sera verrouillé, il ne répondra pas à vos interactions de côté.
+Lorsque vous avez terminé avec succès la mise en place du sas, l’interrupteur sur le côté de la {THING:StructureConsole} s’allume en vert, vous pouvez ensuite retirez le disque de données de la {THING:StructureConsole}.</Value>
     </Record>
     <Record>
       <Key>AirLockProgrammingTask1</Key>
