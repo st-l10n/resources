@@ -27,11 +27,11 @@ Commençons par une configuration de sas de base. Tout d’abord, construire l�
     </Record>
     <Record>
       <Key>FramesAreStrongTask1</Key>
-      <Value>Faire un {THING:ItemMuffin}</Value>
+      <Value>Construire un {THING:ItemIronFrames} 1</Value>
     </Record>
     <Record>
       <Key>FramesAreStrongTask2</Key>
-      <Value>Faire un {THING:ItemMuffin}</Value>
+      <Value>Construire un {THING:ItemIronFrames} 2</Value>
     </Record>
     <Record>
       <Key>FeelsFamiliar</Key>
@@ -43,15 +43,15 @@ Commençons par une configuration de sas de base. Tout d’abord, construire l�
     </Record>
     <Record>
       <Key>FeelsFamiliarTask1</Key>
-      <Value>Terminer la construction du cadre 1.</Value>
+      <Value>Terminer la construction du {THING:ItemIronFrames} 1.</Value>
     </Record>
     <Record>
       <Key>FeelsFamiliarTask2</Key>
-      <Value>Terminer la construction du cadre 2.</Value>
+      <Value>Terminer la construction du {THING:ItemIronFrames} 2.</Value>
     </Record>
     <Record>
       <Key>FeelsFamiliarTask3</Key>
-      <Value>Terminer la construction du cadre 3.</Value>
+      <Value>Terminer la construction du {THING:ItemIronFrames} 3.</Value>
     </Record>
     <Record>
       <Key>CloseTheDoor</Key>
@@ -63,11 +63,11 @@ Commençons par une configuration de sas de base. Tout d’abord, construire l�
     </Record>
     <Record>
       <Key>CloseTheDoorTask1</Key>
-      <Value>Soudez le {THING:StructureFrame} pour terminer le tutoriel</Value>
+      <Value>Fabriquez une {THING:StructureCompositeDoor} 1</Value>
     </Record>
     <Record>
       <Key>CloseTheDoorTask2</Key>
-      <Value>Soudez le {THING:StructureFrame} pour terminer le tutoriel</Value>
+      <Value>Fabriquez une {THING:StructureCompositeDoor} 2</Value>
     </Record>
     <Record>
       <Key>CreatingASeal</Key>
@@ -79,11 +79,11 @@ Commençons par une configuration de sas de base. Tout d’abord, construire l�
     </Record>
     <Record>
       <Key>CreatingASealTask1</Key>
-      <Value>Déconstruire le Four à Arc</Value>
+      <Value>Construire la {THING:StructureCompositeDoor} 1</Value>
     </Record>
     <Record>
       <Key>CreatingASealTask2</Key>
-      <Value>Déconstruire le Four à Arc</Value>
+      <Value>Construire la {THING:StructureCompositeDoor} 2</Value>
     </Record>
     <Record>
       <Key>AirSensoresAndMore</Key>
@@ -195,11 +195,11 @@ Pour construire un sas avancé, vous aurez besoin d’un autre {THING:StructureA
     </Record>
     <Record>
       <Key>AirlockCableCorner</Key>
-      <Value>Placez le {THING:StructureCableCorner}.</Value>
+      <Value>Placez un {THING:StructureCableCorner}.</Value>
     </Record>
     <Record>
       <Key>AirlockCableStraight</Key>
-      <Value>Placez le {THING:StructureCableStraight}.</Value>
+      <Value>Placez un {THING:StructureCableStraight}.</Value>
     </Record>
     <Record>
       <Key>AdvancedPressure</Key>
@@ -223,11 +223,11 @@ La dernière chose que vous devez faire est de sélectionner la pression que vou
     </Record>
     <Record>
       <Key>AdvancedPressureTask3</Key>
-      <Value>Placez les {THING:ItemGlassSheets} sur le panneau solaire.</Value>
+      <Value>Remplacer les {THING:ItemGlassSheets}.</Value>
     </Record>
     <Record>
       <Key>AdvancedPressureask4</Key>
-      <Value>Jeter la {THING:ItemTablet}</Value>
+      <Value>Insérez le {THING:ItemDataDisk}.</Value>
     </Record>
     <Record>
       <Key>AAdvancedAirLock</Key>
