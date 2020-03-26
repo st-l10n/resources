@@ -552,15 +552,15 @@ Les emplacements pour votre personnage sont visibles à gauche de l&apos;écran.
     </Record>
     <Record>
       <Key>TutorialLetsTankItUpTask1</Key>
-      <Value>Place {THING: ItemGasCanisterEmpty}</Value>
+      <Value>Placez une {THING:ItemGasCanisterEmpty}</Value>
     </Record>
     <Record>
       <Key>TutorialLetsTankItUpTask2</Key>
-      <Value>Définissez {THING: StructureActiveVent} sur in-ward</Value>
+      <Value>Définissez le {THING:StructureActiveVent} sur &quot;in-ward&quot;</Value>
     </Record>
     <Record>
       <Key>TutorialLetsTankItUpTask3</Key>
-      <Value>Définissez {THING: StructureActiveVent} sur On</Value>
+      <Value>Mettez-le {THING:StructureActiveVent} sur On</Value>
     </Record>
     <Record>
       <Key>TutorialLetsTankItUp1Title</Key>
@@ -632,11 +632,11 @@ Les emplacements pour votre personnage sont visibles à gauche de l&apos;écran.
     </Record>
     <Record>
       <Key>TutorialWaterYaThinkAboutThatDescription</Key>
-      <Value>Remplaçons cette {Thing: ItemGasCanisterWater} vide par une jolie boîte fraîche.</Value>
+      <Value>Remplaçons cette {THING:ItemGasCanisterWater} vide par une jolie boîte fraîche.</Value>
     </Record>
     <Record>
       <Key>TutorialWaterYaThinkAboutThatTask1</Key>
-      <Value>Ajoutez le {THING: ItemGasCanisterWater} complet au {THING: DynamicHydroponics}</Value>
+      <Value>Ajoutez-le {THING:ItemGasCanisterWater} complet au {THING:DynamicHydroponics}</Value>
     </Record>
     <Record>
       <Key>TutorialLetItGrowTitle</Key>
@@ -648,7 +648,7 @@ Les emplacements pour votre personnage sont visibles à gauche de l&apos;écran.
     </Record>
     <Record>
       <Key>TutorialLetItGrowTask1</Key>
-      <Value>Plantez le {THING: Item Tomato} dans le {THING: Hydroponics}</Value>
+      <Value>Plantez-la {THING:ItemTomato} dans le {THING:DynamicHydroponics}</Value>
     </Record>
     <Record>
       <Key>TutorialLetItGrowTask2</Key>
@@ -724,7 +724,7 @@ Les emplacements pour votre personnage sont visibles à gauche de l&apos;écran.
     </Record>
     <Record>
       <Key>TutorialHackingTheMainframeTask1</Key>
-      <Value>Affecter les composants {THING: StructureAirlock}</Value>
+      <Value>Attribuer les composants de la {THING:StructureAirlock}</Value>
     </Record>
     <Record>
       <Key>TutorialBeFreeTitle</Key>
