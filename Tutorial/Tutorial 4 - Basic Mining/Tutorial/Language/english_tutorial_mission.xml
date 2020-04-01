@@ -30,11 +30,11 @@
         </Record>
         <Record>
             <Key>TheTabletTask2.5</Key>
-            <Value>Insert the {THING:CartridgeTracker} into the {THING:ItemTablet} either by dragging the {THING:CartridgeTracker} from the {SLOT:Back} Or by clicking the {THING:ItemTablet} a window will open, drag the {THING:CartridgeTracker} in to the new windiow</Value>
+            <Value>Insert the {THING:CartridgeTracker} by dragging it from the {SLOT:Back} onto the into the equipped {THING:ItemTablet} icon, or click the {THING:ItemTablet} to open its own UI window.</Value>
         </Record>
         <Record>
             <Key>TheTabletTask3</Key>
-            <Value>Turn on the {THING:ItemTablet} and place the {THING:CartridgeTracker} cartrage found in the backpack in to the Tablet</Value>
+            <Value>Turn on the {THING:ItemTablet} using the {KEY:ToggleHandPower} key.</Value>
         </Record>
         <Record>
             <Key>TheCoalMines</Key>
@@ -50,19 +50,19 @@
         </Record>
         <Record>
             <Key>TheCoalMinesTask1</Key>
-            <Value>Equip the {THING:ItemMiningDrill}</Value>
+            <Value>Equip the {THING:ItemMiningDrill}.</Value>
         </Record>
         <Record>
             <Key>OnTheBadList</Key>
-            <Value>On the bad list</Value>
+            <Value>On the Bad List</Value>
         </Record>
         <Record>
             <Key>OnTheBadListDescription</Key>
-            <Value>Cadet, we have marked a few good locations to get you started. Use the tablet and use the scroll wheel to change the tracked target. We have enabled the coal beacon. Move to that location and get some {THING:ItemCoalOre}.</Value>
+            <Value>Cadet, we've marked a few good locations with beacons to get you started. Use the tablet and the scroll wheel to select a beacon. Then go to the location and mine some {THING:ItemCoalOre}.</Value>
         </Record>
         <Record>
             <Key>OnTheBadListTask1</Key>
-            <Value>Turn on your {THING:ItemMiningDrill}</Value>
+            <Value>Turn on your {THING:ItemMiningDrill}.</Value>
         </Record>
         <Record>
             <Key>OnTheBadListTask2</Key>
@@ -74,23 +74,23 @@
         </Record>
           <Record>
             <Key>HardAsIronDescription</Key>
-            <Value>Well done Cadet!  {THING:ItemCoalOre} will run you solid fuel generators when your power is low at night. Next, you will need to find Iron. {THING:ItemIronOre} is a key component in most items and is an essential ore. We have marked a good location on your tablet.</Value>
+            <Value>Well done Cadet! {THING:ItemCoalOre} will run your solid fuel generators when power is low at night. Next, you will need to find Iron. {THING:ItemIronOre} is a key component in most items and an essential ore. We have marked a location on your tablet.</Value>
         </Record>
         <Record>
             <Key>HardAsIronTask1</Key>
-            <Value>Mine Some {THING:ItemIronOre}.</Value>
+            <Value>Mine some {THING:ItemIronOre}.</Value>
         </Record>
            <Record>
             <Key>ConductiveMetals</Key>
-            <Value>Conductive metals</Value>
+            <Value>Conductive Metals</Value>
         </Record>
           <Record>
             <Key>ConductiveMetalsDescription</Key>
-            <Value>Another fantastic job, Cadet. The next location might be harder to reach - it's high up on a hill so you’ll need your Jetpack to reach it. You can toggle it off and on with the {KEY:Jetpack} key. We have marked some {THING:ItemCopperOre} on your tablet.</Value>
+            <Value>Another fine job, Cadet. The next location may be harder to reach - it's high up on a hill, so you’ll need your Jetpack to reach it. Toggle it off and on using the {KEY:Jetpack} key. We have marked the {THING:ItemCopperOre} on your tablet.</Value>
         </Record>
         <Record>
             <Key>ConductiveMetalsTask1</Key>
-            <Value>Mine Some {THING:ItemCopperOre}.</Value>
+            <Value>Mine some {THING:ItemCopperOre}.</Value>
         </Record>
         <Record>
             <Key>GoldRush</Key>
@@ -98,19 +98,19 @@
         </Record>
           <Record>
             <Key>GoldRushDescription</Key>
-            <Value>That should be enough for now. Finally, you will need some {THING:ItemGoldOre} for electronics. We have marked a location on your {THING:ItemTablet}. Hint: use your {KEY:Jetpack} to travel quickly.</Value>
+            <Value>Finally, you will need some {THING:ItemGoldOre} for electronics. We have marked a location on your {THING:ItemTablet}. Hint: Use {KEY:Jetpack} to travel quickly.</Value>
         </Record>
         <Record>
             <Key>GoldRushTask1</Key>
-            <Value>Mine Some {THING:ItemGoldOre}.</Value>
+            <Value>Mine some {THING:ItemGoldOre}.</Value>
         </Record>
         <Record>
             <Key>SmeltingItDown</Key>
-            <Value>Smelting it down</Value>
+            <Value>Smelting it Down</Value>
         </Record>
           <Record>
             <Key>SmeltingItDownDescription</Key>
-            <Value>That should be all we need for now. Now head back to base and get smelting. The {THING:StructureArcFurnace} is used to smelt ores into useful ingots, try smelting some {THING:ItemIronOre} into an {THING:ItemIronIngot}. We have granted access to the ore container if you need more resources.</Value>
+            <Value>That should be all we need for now. Now head back to base and get smelting. The {THING:StructureArcFurnace} is used to smelt ores into useful ingots. Try smelting some {THING:ItemIronOre} into an {THING:ItemIronIngot}. We've given you access to an Ore Container if you need more resources.</Value>
         </Record>
         <Record>
             <Key>SmeltingItDownTask0</Key>

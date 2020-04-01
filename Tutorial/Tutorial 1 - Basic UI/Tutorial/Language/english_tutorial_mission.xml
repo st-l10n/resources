@@ -10,7 +10,7 @@
 		</Record>
 		<Record>
       		<Key>UIBasicsDescription</Key>
-      		<Value>Welcome to the Academy, Cadet! Here we will teach you the basics of becoming a Stationeer. In our first lesson, we will take a dive into the basics of UI and controls.</Value>
+      		<Value>Welcome to the Academy, Cadet! It's time to teach you the basics of becoming a Stationeer! In our first lesson, we'll cover the basics of UI and controls.</Value>
     	</Record>
 		<!-- start the tutorial -->
 		<Record>
@@ -19,7 +19,7 @@
 		</Record>
 		<Record> 
 			<Key>TutorialMouseControlsDescription</Key>
-			<Value>Let's get started. Our first task is to have a quick read of the Stationpedia. When done, close the Stationpedia using {KEY:Help} or with the mouse by holding the {KEY:MouseControl} key and moving the mouse cursor.</Value>
+			<Value>Let's get started. Our first task is to take a quick look at the Stationpedia. When you're done, close the Stationpedia using {KEY:Help} or hold the {KEY:MouseControl} key and move the mouse cursor.</Value>
 		</Record> 	
 		<Record>
 			<Key>TutorialMouseControlsTask1</Key>
@@ -35,8 +35,8 @@
 		</Record>
 		<Record>
         	<Key>DisplayAlert1</Key>
-    		<Value>Cadet, we have detected an imminent malfunction. The Virus is attacking the helmet's opening mechanism.
-Press the  {KEY:Internals} key to close your helmet if it opens.
+    		<Value>Cadet, we've detected an imminent malfunction! A virus is attacking your helmet controls!
+Press the {KEY:Internals} key to close your helmet if it opens.
 Close this message using the {KEY:MouseControl} key to enable the mouse.</Value>
         </Record>
 		<Record>
@@ -49,7 +49,7 @@ Close this message using the {KEY:MouseControl} key to enable the mouse.</Value>
 		</Record>
 		<Record>
 			<Key>TutorialUIControlsDescription</Key>
-			<Value>As a human, you cannot survive on non-oxygen planets without a suit or a sufficently pressurized base with a breatheable atmosphere. Be sure to close your helmet and lock it to prevent accidental death.</Value>
+			<Value>As a human, you cannot survive on non-oxygen planets without a suit, or a base with a breatheable atmosphere. Be sure to close and lock your helmet to avoid accidental death.</Value>
 		</Record>
 		<Record>
 			<Key>TutorialUIControlsTask</Key>
@@ -61,7 +61,7 @@ Close this message using the {KEY:MouseControl} key to enable the mouse.</Value>
         </Record>
 		<Record>
 			<Key>TutorialUIControlsTask2</Key>
-			<Value>Be sure to lock the helmet to prevent it happening again while holding the {KEY:MouseControl} key click the lock mask option on the helmet menu.</Value>
+			<Value>Be sure to lock your helmet to prevent it happening again. Hold the {KEY:MouseControl} key and click the Lock Mask option on the helmet menu.</Value>
 		</Record>
 		<Record>
 			<Key>AlertSystem2</Key>
@@ -77,9 +77,9 @@ Close this message using the {KEY:MouseControl} key to enable the mouse.</Value>
 		</Record>
 		<Record>
         	<Key>DisplayAlert2</Key>
-    		<Value>Cadet, your suit's control system appears to be infected with a virus. We are working on it now,
-but it has started attacking your suits pressure and temperature controls. 
-Close this message using the {KEY:MouseControl} key to enable the mouse</Value>
+    		<Value>Cadet, your suit's control system still appears to be infected with a virus. We are working on it now,
+but it's attacking your suit's pressure and temperature controls. 
+Close this message using the {KEY:MouseControl} key to enable the mouse.</Value>
         </Record>
 		<Record>
 			<Key>TutorialSuitControls</Key>
@@ -87,7 +87,7 @@ Close this message using the {KEY:MouseControl} key to enable the mouse</Value>
 		</Record>
 		<Record>
 			<Key>TutorialSuitControlsDescription</Key>
-			<Value>Open your suit with {KEY:SuitSlot} or by clicking the suit on the left with the {KEY:MouseControl} key, and adjust your suit's internal pressure and temperature using the controls in the suit menu.</Value>
+			<Value>Open your suit controls with {KEY:SuitSlot} or click the suit icon at left with the {KEY:MouseControl} key. Adjust your suit's internal pressure and temperature using the controls in the suit menu.</Value>
 		</Record>
 		<Record>
 			<Key>TutorialSuitControlsTask</Key>
@@ -95,11 +95,11 @@ Close this message using the {KEY:MouseControl} key to enable the mouse</Value>
 		</Record>
 		<Record>
         	<Key>TutorialSuitControlsTask1</Key>
-    		<Value>Change your suit's temperature to 22 degrees by holding the {KEY:MouseControl} key to enable mouse control and clicking on the Temperature Up option.</Value>
+    		<Value>Change your suit's temperature to 22 degrees: hold the {KEY:MouseControl} key for mouse control and click on the 'Temperature Up' option.</Value>
         </Record>
 		<Record>
         	<Key>TutorialSuitControlsTask2</Key>
-    		<Value>Change your suits internal pressure to 45 pascals by clicking on the Pressure Up option.</Value>
+    		<Value>Change your suit's internal pressure to 45 pascals by clicking on the Pressure Up option.</Value>
         </Record>
 		<Record>
 			<Key>ReplaceingSuititems</Key>
@@ -107,19 +107,20 @@ Close this message using the {KEY:MouseControl} key to enable the mouse</Value>
 		</Record>
 		<Record>
 			<Key>ReplaceingSuititemsDescription</Key>
-			<Value>We have almost cleared the suit of the virus. However, it has damaged some of your suit's life support equipment. Let's replace them now. We've been granted authorization to access a nearby crate that should have the items you need. For basic survival needs, you will need a battery to power life support systems and a carbon filter to filter any carbon found in your internal atmosphere.</Value>
+			<Value>We've almost cleared the virus! However, it has damaged some of your suit's life support equipment. Let's replace them now. We've been granted access to a supply crate. It should have the items you need for basic survival: a battery to power life support systems, and a carbon filter to remove any carbon from your internal atmosphere.</Value>
 		</Record>
 		<Record>
 			<Key>ReplaceingSuititemsTask1</Key>
-			<Value>Replace your battery to power life support. Alternatively, we can just drag the item directly from the crate into the slot. Try dragging the battery from the crate into the slot with the empty battery in your suit to swap them.</Value>
+			<Value>Replace your battery to power life support. Alternatively, drag the item directly from the crate into the suit slot that contains the empty battery.</Value>
 		</Record>
 		<Record>
 			<Key>ReplaceingSuititemsTask2</Key>
-			<Value>Add a filter to your suit by clicking on the CO2 filter in the crate to move it to your hands. You can then move it into your suit by holding the {KEY:MouseControl} key and dragging it over the used CO2 filter and dropping the CO2 filter into that slot. This will swap the filters.</Value>
+			<Value>Add a filter to your suit. Click on the CO2 filter in the crate to move it to your hands. Then move it to your suit by holding the {KEY:MouseControl} key and dragging it over the used CO2 filter, then dropping it into that slot.</Value>
 		</Record>
 		<Record>
 			<Key>DisplayAlert3</Key>
-			<Value>Virus Eradicated. Nice job, Cadet! Remember, you can always close all open UI quickly with the {KEY:HideAllWindows} key, or close them manually by clicking the corresponding slot number.</Value>
+			<Value>Virus Eradicated. Good work, Cadet! 
+Remember, you can close all open UI quickly with the {KEY:HideAllWindows} key, or manually by clicking the slot number.</Value>
 		</Record>
 		<Record>
 			<Key>CloseingUIs</Key>
@@ -127,7 +128,7 @@ Close this message using the {KEY:MouseControl} key to enable the mouse</Value>
 		</Record>
 		<Record>
 			<Key>CloseingUIsDescription</Key>
-			<Value>Now for the final UI step, lets clean up the UI windows.</Value>
+			<Value>Now for the final step. Lets clean up the UI windows.</Value>
 		</Record>
 		<Record>
 			<Key>ALTTask3</Key>
@@ -139,7 +140,7 @@ Close this message using the {KEY:MouseControl} key to enable the mouse</Value>
 		</Record>
 		<Record>
 			<Key>CloseingUIstask2</Key>
-			<Value>if you have any remaining items in your hands, drop them with the {KEY:Drop} key to swap hands use the {KEY:SwapHands} key.</Value>
+			<Value>If you have any remaining items in your hands, drop them with the {KEY:Drop} key. To swap hands use the {KEY:SwapHands} key.</Value>
 		</Record>
 	</Interface>
 </Language>

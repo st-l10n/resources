@@ -10,7 +10,7 @@
         </Record>
         <Record>
             <Key>BasicAtmosphericsDescription</Key>
-            <Value>In this lesson you will learn how to fill a starter base with a breathable atmosphere.</Value>
+            <Value>In this lesson you will learn how to fill a small base with breathable atmosphere.</Value>
         </Record>
         <Record>
             <Key>TheTabletAtmo</Key>
@@ -18,11 +18,11 @@
         </Record>
         <Record>
             <Key>TheTabletAtmoDescription</Key>
-            <Value>Insert the Traker cartridge into the {THING:ItemTablet}.</Value>
+            <Value>Insert the Tracker Cartridge into the {THING:ItemTablet}.</Value>
         </Record>
         <Record>
             <Key>BasicAtmosphericsDescription</Key>
-            <Value>In this lesson you will learn how to fill a starter base with a breathable atmosphere.</Value>
+            <Value>In this lesson you will learn how to fill a small base with a breathable atmosphere.</Value>
         </Record>
         <Record>
             <Key>Oxyie-Gen</Key>
@@ -30,13 +30,13 @@
         </Record>
         <Record>
             <Key>Oxyie-GenTask1</Key>
-            <Value>You will need to mine around 100 oxite to pressurize the base, there are two deposits nearby the tracking beacon. Scroll through the options until you find the beacon you need.</Value>
+            <Value>You will need to mine around 100 Oxite to pressurize the base. There are two deposits near the tracking beacon. Scroll through the options until you find the correct beacon.</Value>
         </Record>
         <Record>
             <Key>Oxyie-GenDescription</Key>
-            <Value>Oxite is a frozen breathable gas that exists in small deposits on most planets. Oxite will melt unless it's in your backpack or mining belt. 
+            <Value>Oxite is a frozen, breathable gas that exists in small deposits on most planets. Oxite will melt unless it's in your backpack or mining belt. 
         
-Using the tablet travel to the Oxite site.</Value>
+Using the tablet, navigate to the Oxite site.</Value>
         </Record>
         <Record>
             <Key>AtmoAirLock</Key>
@@ -44,22 +44,22 @@ Using the tablet travel to the Oxite site.</Value>
         </Record>
         <Record>
             <Key>AtmoAirLockDescription</Key>
-            <Value>An airlock is a device which permits the passage of people and objects between a pressurized base and its surroundings while minimizing the change of pressure in the base and loss of air from it.
+            <Value>An airlock is a device that permits the passage of people and objects between a pressurized base and its surroundings, while minimizing the change of pressure and loss of air from the base.
 
-Currently the base has no internal atmosphere, as such the airlock will not work correctly as it requires 100kpa to succesfully function. We can still enter the base by cancelling the pressurization cycle on the airlock. This is a good tip to remember if your base has an air leak and you need to enter or exit it without running the cycle. </Value>
+Currently the base has no internal atmosphere, so the airlock will not work correctly as it requires 100kpa to function. We can still enter the base by cancelling the pressurization cycle on the airlock. Remember this if your base has an air leak and you need to enter or exit it without running the cycle.</Value>
         </Record>
     <Record>
-        <Key>ASimpleAirLockTask1</Key>
-        <Value>At your base and enter the Airlock press the "Cycle to Interior" button on the console and wait for the exterior door to close. A new button will appear "Cancel Pressurize" press this button and the internal door should open.
+        <Key>AtmoAirLockTask1</Key>
+        <Value>Enter the airlock and press the "Cycle to Interior" button on the console. Wait for the exterior door to close, and a new button labelled "Cancel Pressurize" will appear. Press this button and the internal door will open.
         </Value>
     </Record>
         <Record>
             <Key>AtmosAnalyser</Key>
-            <Value>Analysing atmosphere.</Value>
+            <Value>Analysing Atmosphere.</Value>
         </Record>
         <Record>
             <Key>AtmosAnalyserDescription</Key>
-            <Value>The Atmospheric analyzer is used to analyse the current atmosphere including the composition, temperature and pressure.</Value>
+            <Value>The Atmospheric Analyzer is used to analyse the composition, temperature and pressure of the current atmosphere.</Value>
         </Record>
         <Record>
             <Key>TheTabletTaskAtmo</Key>
@@ -71,7 +71,7 @@ Currently the base has no internal atmosphere, as such the airlock will not work
         </Record>
         <Record>
             <Key>Creating_AtmoDescription</Key>
-            <Value>The Simplest way of creating a breathable atmosphere is to mine oxite and drop it in your base to let it melt, this will release breathable oxygen into the atmosphere while also increasing the air pressure, be careful when melting oxite as you could over pressurize the base causing damage to walls. Humans need to breathe a minimum 20% oxygen without pollutants or poisons. You can have a small amount of carbon dioxide in the atmosphere but it's not recommended to exceed 10%.</Value>
+            <Value>The simplest way of creating a breathable atmosphere is to mine oxite, then drop it into your base and let it melt. This will release breathable oxygen into the atmosphere, and increase air pressure. Be careful when melting oxite as you could over-pressurize the base, causing damage to walls. Humans need to breathe a minimum 20% oxygen without pollutants or poisons. You can have a small amount of carbon dioxide in the atmosphere but exceeding 10% is not recommended.</Value>
         </Record>
         <Record>
             <Key>Creating_AtmoTask1</Key>
@@ -79,11 +79,11 @@ Currently the base has no internal atmosphere, as such the airlock will not work
         </Record>
         <Record>
             <Key>Creating_AtmoTask2</Key>
-            <Value>Drop Oxite inside the room and allow it to melt it will release atmosphere generating a breathable atmosphere, bring the exterior preassure up to 60kPa.</Value>
+            <Value>Drop Oxite into the room and wait for it to melt. It will generate a breathable atmosphere, bringing the exterior preassure up to 60kPa.</Value>
         </Record>
         <Record>
             <Key>Creating_AtmoTask3</Key>
-            <Value>Once the pressure has reached an acceptable safe level, open that helmet and take a breath of fresh air.</Value>
+            <Value>Once the pressure has reached an acceptable safe level, open your helmet and take a breath of fresh, fresh air.</Value>
         </Record>
     </Interface>
 </Language>
