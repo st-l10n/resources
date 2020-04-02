@@ -103,7 +103,7 @@ Ve vašem {SLOT:Belt} najdete {THING:ItemCableCoil}. Umístěte kabely do zvýra
     </Record>
     <Record>
       <Key>PowerControlersAndbatteryChargesTask1</Key>
-      <Value>Získej {THING:ItemKitSolarPanel} ze Stavební bedny #1.</Value>
+      <Value>Získej {THING:ItemAreaPowerControl} ze Stavební bedny #1.</Value>
     </Record>
     <Record>
       <Key>PowerControlersAndbatteryChargesTask2</Key>
@@ -111,7 +111,7 @@ Ve vašem {SLOT:Belt} najdete {THING:ItemCableCoil}. Umístěte kabely do zvýra
     </Record>
     <Record>
       <Key>PowerControlersAndbatteryChargesTask3</Key>
-      <Value>Vezměte {THING:ItemBatteryCharger} ze Stavební bedny #2.</Value>
+      <Value>Získej {THING:ItemBatteryCharger} ze Stavební bedny #2.</Value>
     </Record>
     <Record>
       <Key>PowerControlersAndbatteryChargesTask4</Key>
@@ -140,6 +140,22 @@ Ve vašem {SLOT:Belt} najdete {THING:ItemCableCoil}. Umístěte kabely do zvýra
     <Record>
       <Key>TutorialSettingUpThePowerController</Key>
       <Value>Nastavení ovladače napájení</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask2</Key>
+      <Value>Otevřete {THING:StructureAreaPowerControl} s {THING:ItemCrowbar}.</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask3</Key>
+      <Value>Vezmi {THING:ItemBatteryCellLarge} ze Stavební bedny #2</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask4</Key>
+      <Value>Umístěte {THING:ItemBatteryCellLarge} do {THING:StructureAreaPowerControl}.</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask5</Key>
+      <Value>Přepněte jistič do polohy &quot;Zapnuto&quot; na {THING:StructureAreaPowerControl}.</Value>
     </Record>
   </Interface>
 </Language>
