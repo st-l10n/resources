@@ -159,6 +159,14 @@ Se guardi direttamente una struttura incompleta otterrai informazioni su cosa ne
 {LIST_OF_ALLOYS}</Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>SuperAlloyPage</Key>
+      <Title>Superleghe</Title>
+      <Text>Creati in una {THING:StructureFurnace} da miscele specifiche di {LINK:ReagentPage;reagenti} , questi sono {LINK:IngotPage;lingotti} di tipo avanzato da utilizzare nei {LINK:FabricatorPage;fabbricatori}. La {THING:StructureArcFurnace} non è in grado di crearle.
+
+{HEADER:Lista delle Leghe}
+{LIST_OF_ALLOYS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>OrePage</Key>
       <Title>Minerali</Title>
       <Text>Questi sono oggetti che vengono {LINK:MiningPage;minati} e spesso {LINK:SmeltingPage;fusi}. Puoi ottenere anche una miscela di minerali riciclando oggetti con un {THING:StructureRecycler} e poi passandola in una {THING:StructureCentrifuge} che li dividerà in singoli {LINK:OrePage;minerali} per poterli nuovamente {LINK:SmeltingPage;fondere}.
@@ -252,6 +260,10 @@ Autoaccensione{POS:300}{2}{3}{/LIST}</Text>
     <StationpediaPage>
       <Key>ThingStackTemplate</Key>
       <Text>Dimensioni pila {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingTransmissibleTemplate</Key>
+      <Text>Connetti a {POS:300}{THING:StructureLogicTransmitter}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ThingNutritionTemplate</Key>
