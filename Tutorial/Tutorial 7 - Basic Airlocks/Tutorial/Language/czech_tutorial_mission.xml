@@ -68,6 +68,10 @@
       <Value>Zkonstruujte {THING:StructureConsole}.</Value>
     </Record>
     <Record>
+      <Key>UnderPressure</Key>
+      <Value>Pod tlakem</Value>
+    </Record>
+    <Record>
       <Key>UnderPressureTask1</Key>
       <Value>Vložte {THING:CircuitboardAirlockControl} do {THING:StructureConsole}.</Value>
     </Record>
@@ -80,12 +84,20 @@
       <Value>Vložte {THING:ItemDataDisk} do {THING:StructureConsole}.</Value>
     </Record>
     <Record>
+      <Key>AirLockProgramming</Key>
+      <Value>Programování přechodové komory</Value>
+    </Record>
+    <Record>
       <Key>AirLockProgrammingTask1</Key>
       <Value>Naprogramujte přechodovou komoru pomocí {THING:StructureConsole}.</Value>
     </Record>
     <Record>
       <Key>ASimpleAirLock</Key>
       <Value>Jednoduchá přechodová komora</Value>
+    </Record>
+    <Record>
+      <Key>AirlockUpgrades</Key>
+      <Value>Vylepšení přechodové komory</Value>
     </Record>
     <Record>
       <Key>AirlockCableCorner</Key>
@@ -106,6 +118,14 @@
     <Record>
       <Key>AdvancedPressureask4</Key>
       <Value>Vložte {THING:ItemDataDisk}.</Value>
+    </Record>
+    <Record>
+      <Key>AAdvancedAirLock</Key>
+      <Value>Pokročilá přechodová komora</Value>
+    </Record>
+    <Record>
+      <Key>AAdvancedAirLockTask1</Key>
+      <Value>Stiskněte tlačítko &quot;Cycle to Interior&quot;.</Value>
     </Record>
   </Interface>
 </Language>
