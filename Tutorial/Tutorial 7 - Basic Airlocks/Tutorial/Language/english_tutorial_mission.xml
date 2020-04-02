@@ -10,12 +10,12 @@
         </Record>
         <Record>
             <Key>BasicAirlocksDescription</Key>
-            <Value>Learn how to create an airtight room that can pressurise and depressurise the room.</Value>
+            <Value>Learn how to create an airtight room that can pressurise and depressurise.</Value>
         </Record>
         <Record>
             <Key>DisplayAlertAirlockMalfunction</Key>
-            <Value>Welcome back Cadet! 
-Unfortunately due to a pressurization glitch in the airlock, a malfunction occurred causing the catastrophic failure resulting in the airlock being destroyed.</Value>
+            <Value>Welcome back, Cadet! 
+Due to an unfortunate pressurization glitch, a catastrophic failure occurred that destroyed the Airlock!</Value>
         </Record>
         <Record>
             <Key>FramesAreStrong</Key>
@@ -23,25 +23,25 @@ Unfortunately due to a pressurization glitch in the airlock, a malfunction occur
         </Record>
         <Record>
             <Key>FramesAreStrongDescription</Key>
-            <Value>In this lesson we need to create an Airlock for to replace the destroyed one. We will be utilizing vents, pipes, consoles and motherboards. 
+            <Value>In this lesson, we need to create an Airlock to replace the broken one. We will be utilizing vents, pipes, consoles and motherboards. 
             
-Let’s start off with a basic airlock setup. First, build the outer {THING:ItemIronFrames} for the airlock it is recommended to use frames as they allow smaller items to be attached to them. You can find the {THING:ItemIronFrames} in the yellow crate.</Value>
+Lets start off with a basic Airlock. First, build the outer {THING:ItemIronFrames} for the Airlock. Frames are recommended as you can attach smaller items to them. Find the {THING:ItemIronFrames} in the yellow crate.</Value>
         </Record>
         <Record>
             <Key>FramesAreStrongTask1</Key>
-            <Value>Build {THING:ItemIronFrames} 1</Value>
+            <Value>Build {THING:ItemIronFrames} 1.</Value>
         </Record>
         <Record>
             <Key>FramesAreStrongTask2</Key>
-            <Value>Build {THING:ItemIronFrames} 2</Value>
+            <Value>Build {THING:ItemIronFrames} 2.</Value>
         </Record>
         <Record>
             <Key>FeelsFamiliar</Key>
-            <Value>Feels familiar</Value>
+            <Value>Feels Familiar</Value>
         </Record>
         <Record>
             <Key>FeelsFamiliarDescription</Key>
-            <Value>Now make the {THING:ItemIronFrames} Airtight by finishing them with some Iron plates found in the orange create next to the newly build {THING:ItemIronFrames}.</Value>
+            <Value>Now make the {THING:ItemIronFrames} airtight by finishing them with some Iron Sheets from the orange crate.</Value>
         </Record>
         <Record>
             <Key>FeelsFamiliarTask1</Key>
@@ -57,20 +57,20 @@ Let’s start off with a basic airlock setup. First, build the outer {THING:Item
         </Record>
         <Record>
             <Key>CloseTheDoor</Key>
-            <Value>Close the door!</Value>
+            <Value>Close the Door!</Value>
         </Record>
         <Record>
             <Key>CloseTheDoorDescription</Key>
-            <Value>Use the {THING:ItemKitDoor} from the Yellow crate to build two {THING:StructureCompositeDoor} in the highlighted spots. </Value>
+            <Value>Use the {THING:ItemKitDoor} from the yellow crate to build two {THING:StructureCompositeDoor} in the highlighted spots. </Value>
         </Record>
         <Record>
             <Key>CloseTheDoorTask1</Key>
-            <Value>Build {THING:StructureCompositeDoor} 1</Value>
+            <Value>Build {THING:StructureCompositeDoor} 1.</Value>
         </Record>
         <Record>
             <Key>CloseTheDoorTask2</Key>
-            <Value>Build {THING:StructureCompositeDoor} 2</Value>
-        </Record>
+            <Value>Build {THING:StructureCompositeDoor} 2.</Value>
+        </Record>.
         <Record>
             <Key>CreatingASeal</Key>
             <Value>Creating a seal</Value>
@@ -81,27 +81,27 @@ Let’s start off with a basic airlock setup. First, build the outer {THING:Item
         </Record>
         <Record>
             <Key>CreatingASealTask1</Key>
-            <Value>Construct {THING:StructureCompositeDoor} 1</Value>
+            <Value>Construct {THING:StructureCompositeDoor} 1.</Value>
         </Record>
         <Record>
             <Key>CreatingASealTask2</Key>
-            <Value>Construct {THING:StructureCompositeDoor} 2</Value>
+            <Value>Construct {THING:StructureCompositeDoor} 2.</Value>
         </Record>
         <Record>
             <Key>AirSensoresAndMore</Key>
-            <Value>Air sensors and more !</Value>
+            <Value>Air Sensors and More!</Value>
         </Record>
         <Record>
             <Key>AirSensoresAndMoreDescription</Key>
-            <Value>Next up is to set up a {THING:StructureGasSensor} and a {THING:StructureActiveVent}, a {THING:StructureGasSensor} will tell the console the current atmosphere in the Airlock and is a key component in the airlock,  while the {THING:StructureActiveVent} is responsible for pressurising and depressurising the airlock. Build a {THING:StructureGasSensor} and a  {THING:StructureActiveVent}.</Value>
+            <Value>Next, set up a {THING:StructureGasSensor} and an {THING:StructureActiveVent}. A {THING:StructureGasSensor} is a key component in the Airlock, as it informs the console of the current atmosphere inside it, while the {THING:StructureActiveVent} pressurizes and depressurizes the Airlock.</Value>
         </Record>
         <Record>
             <Key>AirSensoresAndMoreTask1</Key>
-            <Value>Build the {THING:StructureGasSensor} in the highlighted location</Value>
+            <Value>Build the {THING:StructureGasSensor} in the highlighted location.</Value>
         </Record>
         <Record>
             <Key>AirSensoresAndMoreTask2</Key>
-            <Value>Build the {THING:StructureActiveVent} in the highlighted location</Value>
+            <Value>Build the {THING:StructureActiveVent} in the highlighted location.</Value>
         </Record>
         <Record>
             <Key>GasPipes</Key>
@@ -109,9 +109,9 @@ Let’s start off with a basic airlock setup. First, build the outer {THING:Item
         </Record>
         <Record>
             <Key>GasPipesDescription</Key>
-            <Value>{THING:ItemKitPipe} are used to carry gas’s from one point to another. We will need to use pipes for the airlock, connect the {THING:StructureActiveVent} to the {THING:StructurePassiveVent} using {THING:ItemKitPipe}. 
+            <Value>{THING:ItemKitPipe} are used to carry gases from one point to another. We will need to connect the {THING:StructureActiveVent} to the {THING:StructurePassiveVent} using {THING:ItemKitPipe}. 
             
-Note: when building an Airlock you can simply store the grass’s in the pipe itself If you don’t have access to a {THING:StructurePassiveVent}.</Value>
+Note: When building an Airlock you can store the gases in the pipe itself, if you don’t have access to a {THING:StructurePassiveVent}.</Value>
         </Record>
         <Record>
             <Key>GasPipeCorner</Key>
@@ -119,7 +119,7 @@ Note: when building an Airlock you can simply store the grass’s in the pipe it
         </Record>
         <Record>
             <Key>GasPipeStraight</Key>
-            <Value>Build a {THING:StructurePipeStraight}</Value>
+            <Value>Build a {THING:StructurePipeStraight}.</Value>
         </Record>
         <Record>
         <Key>PassiveVentBuild</Key>
@@ -143,15 +143,15 @@ Note: when building an Airlock you can simply store the grass’s in the pipe it
         </Record>
         <Record>
             <Key>UnderPressureDescription</Key>
-            <Value>To complete the console we need to add a circuit board to it. There are different types of Circuit boards for different situations, In this case, we will are building an Airlock so we need to use the {THING:CircuitboardAirlockControl}, You will also need to use a data disk to allow the {THING:CircuitboardAirlockControl} to be programmed.</Value>
+            <Value>To complete the {THING:StructureConsole} we need to add a circuit board to it. There are different types of circuit boards for different situations. You're building an Airlock, so you need to use the {THING:CircuitboardAirlockControl}. You will also need to use a data disk to allow the {THING:CircuitboardAirlockControl} to be programmed.</Value>
         </Record>
         <Record>
             <Key>UnderPressureTask1</Key>
-            <Value>Insert the {THING:CircuitboardAirlockControl} in to the {THING:StructureConsole}.</Value>
+            <Value>Insert the {THING:CircuitboardAirlockControl} into the {THING:StructureConsole}.</Value>
         </Record>
         <Record>
             <Key>UnderPressureTask2</Key>
-            <Value>Place {THING:ItemGlassSheets} on the {THING:StructureConsole} to complete the Console.</Value>
+            <Value>Place {THING:ItemGlassSheets} on the {THING:StructureConsole} to complete the console.</Value>
         </Record>
         <Record>
             <Key>UnderPressureTask3</Key>
@@ -163,11 +163,13 @@ Note: when building an Airlock you can simply store the grass’s in the pipe it
         </Record>
         <Record>
             <Key>AirLockProgrammingDescription</Key>
-            <Value>Programming an Airlock is quite easy, Start by turning on the {THING:StructureConsole} simply select the {THING:StructureActiveVent}  and {THING:StructureGasSensor}. 
+            <Value> To programme the Airlock, turn on the {THING:StructureConsole}. Select the {THING:StructureActiveVent} and {THING:StructureGasSensor}.
 
-When selecting the Airlock ensure the 'INTERIOR' option is selected on the interior door. This can be seen by the Airlocks light turning from Green to Red to indicating which Airlock you're applying the option to.
-Once the Console has a device selected it will be under its control and will be locked, it won't respond to your interactions aside.
-When you have successfully completed the Airlock set up the switch on the side of the {THING:StructureConsole} will light up green, you can then remove the data disk from the {THING:StructureConsole}.</Value>
+When selecting the Airlocks, ensure the 'Interior' option is selected for the interior door. Toggle this option by deselecting it, and clicking on the alternate door. The light on the Airlock will turn from green to red, to indicate which Airlock you're programming.
+
+Once the Console has selected a device, that device will be locked under its control, and will not respond to interactions.
+
+When you have successfully completed the Airlock set up, the switch on the side of the {THING:StructureConsole} will light up green. You may now remove the Data Disk from the {THING:StructureConsole}.  The Console will be locked, and will not respond to interactions unless you reinsert the Data Disk.</Value>
         </Record>
         <Record>
             <Key>AirLockProgrammingTask1</Key>
@@ -179,11 +181,11 @@ When you have successfully completed the Airlock set up the switch on the side o
         </Record>
         <Record>
             <Key>ASimpleAirLockDescription</Key>
-            <Value>Now to test the newly built Airlock, press the “cycle to Interior” button to initialise the pressurization the external pressure must reach at least 101 kPa for the cycle to complete. In some case's the Interior has yet to be pressurised and will never reach the target pressure. If this happens press the “Cancel pressurize” button.</Value>
+            <Value>Now to test the newly built Airlock. Press the “Cycle to Interior” button to start pressurization. The Airlock pressure must reach at least 101 kPa for the cycle to complete. If the base within is not pressurized, the airlock cannot complete its cycle. If this happens press the “Cancel pressurize” button.</Value>
         </Record>
         <Record>
             <Key>ASimpleAirLockTask1</Key>
-            <Value>Remove the {THING:ItemDataDisk} and Cycle to interior.</Value>
+            <Value>Remove the {THING:ItemDataDisk} and cycle to interior.</Value>
         </Record>
         <Record>
             <Key>AirlockUpgrades</Key>
@@ -191,9 +193,11 @@ When you have successfully completed the Airlock set up the switch on the side o
         </Record>
         <Record>
             <Key>AirlockUpgradesDescription</Key>
-            <Value>Now that you have a basic Airlock lets make a few upgrades to convert it into an Advanced Airlock. Basic Airlocks will work fine on the moon or planets with no atmosphere but if you want to prevent poisonous gas’s or high/low temperatures entering your base you will need an Advanced airlock. An Advanced airlock pumps any atmosphere out of the airlock before pressurising it again with the desired atmosphere.
+            <Value>Now that you have a basic Airlock, lets make a few upgrades to convert it into an Advanced Airlock. 
 
-To build an advanced airlock you will need another {THING:StructureActiveVent} some more pipes and wire along with the {THING:CircuitboardAdvAirlockControl} to replace the {THING:CircuitboardAirlockControl} from the basic Airlock.</Value>
+Basic Airlocks will work fine on the moon or planets with no atmosphere, but if you want to prevent poisonous gases or high/low temperatures entering your base, you will need an Advanced Airlock. An Advanced Airlock pumps any atmosphere out of the Airlock, before pressurising it again with the desired atmosphere.
+
+To build an advanced Airlock you will need another {THING:StructureActiveVent}, some more pipes and wire, along with the {THING:CircuitboardAdvAirlockControl} to replace the {THING:CircuitboardAirlockControl} from the basic Airlock.</Value>
         </Record>
         <Record>
             <Key>AirlockUpgradesTask1</Key>
@@ -213,15 +217,15 @@ To build an advanced airlock you will need another {THING:StructureActiveVent} s
         </Record>
         <Record>
             <Key>AdvancedPressureDescription</Key>
-            <Value>Now that the structures are in place we need to swap out the {THING:CircuitboardAirlockControl}  for the {THING:CircuitboardAdvAirlockControl} 
+            <Value>Now that the structures are in place, we need to swap out the {THING:CircuitboardAirlockControl} for the {THING:CircuitboardAdvAirlockControl} 
         
-There are only a few differences when programing the  {THING:CircuitboardAdvAirlockControl}. Firstly you need to select and internal and external {THING:StructureActiveVent} unlike doors you will need to look at the switch on the {THING:StructureActiveVent} to see if it’s interactable or not this is how you can decipher which {THING:StructureActiveVent} corresponds to the ones on the menu.
+There are a few differences when programming the {THING:CircuitboardAdvAirlockControl}. Firstly, you need to select an internal and external {THING:StructureActiveVent}. Unlike doors, you will need to look at the switch on the {THING:StructureActiveVent} to see if it’s interactable or not. This is how you can tell which {THING:StructureActiveVent} you have selected from the menu.
 
-The last thing you need to do is select the pressure you want for both the internal and external pressure found near the top of the panel. </Value>
+The last thing you need to do is select the desired internal and external pressure, found near the top of the {THING:CircuitboardAdvAirlockControl} panel. </Value>
         </Record>
         <Record>
             <Key>AdvancedPressureTask1</Key>
-            <Value>Remove the {THING:ItemGlassSheets}.</Value>
+            <Value>Remove the {THING:ItemGlassSheets} from the first {THING:StructureConsole}.</Value>
         </Record>
         <Record>
             <Key>AdvancedPressureTask2</Key>
@@ -237,15 +241,15 @@ The last thing you need to do is select the pressure you want for both the inter
         </Record>
         <Record>
             <Key>AAdvancedAirLock</Key>
-            <Value>An advanced airlock</Value>
+            <Value>An Advanced Airlock</Value>
         </Record>
         <Record>
             <Key>AAdvancedAirLockDescription</Key>
-            <Value>Make sure the airlock works by pressing the “cycle to Interior” button.</Value>
+            <Value>Make sure the Airlock works by pressing the “Cycle to Interior” button.</Value>
         </Record>
         <Record>
             <Key>AAdvancedAirLockTask1</Key>
-            <Value>press the “cycle to Interior” button.</Value>
+            <Value>Press the “Cycle to Interior” button.</Value>
         </Record>
     </Interface>
 </Language>
