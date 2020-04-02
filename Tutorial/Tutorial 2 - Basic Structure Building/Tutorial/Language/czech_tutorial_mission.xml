@@ -20,11 +20,11 @@
     </Record>
     <Record>
       <Key>TutorialThetoolbeltTask1</Key>
-      <Value>Pojďme to otevřít. Stiskněte a podržte klávesu {KEY:MouseControl} a klikněte na tlačítko {SLOT:Belt} nebo stiskněte klávesu {KEY:ToolBeltSlot}.</Value>
+      <Value>Pojďme ho otevřít. Stiskněte a podržte klávesu {KEY:MouseControl} a klikněte na {SLOT:Belt} nebo stiskněte klávesu {KEY:ToolBeltSlot}.</Value>
     </Record>
     <Record>
       <Key>TutorialThetoolbeltTask2</Key>
-      <Value>Nyní vezměte svařovací hořák. Podržte klávesu {KEY:MouseControl} a přetáhněte svařovací hořák z {SLOT:Belt} do pravé ruky.</Value>
+      <Value>Nyní vezměte svářecí hořák. Podržte klávesu {KEY:MouseControl} a přetáhněte svářecí hořák z {SLOT:Belt} do pravé ruky.</Value>
     </Record>
     <Record>
       <Key>TutorialWhatAreFrames</Key>
@@ -40,7 +40,7 @@
     </Record>
     <Record>
       <Key>TutorialWhatAreFramesTask2</Key>
-      <Value>Nyní, když máte základní představu o tom, jak používat uživatelské rozhraní, můžete vyzkoušet některé základní budovy. Přejděte do zvýrazněné oblasti s rámy v aktivní ruce. Kliknutím na {KEY:SecondaryAction} aktivujete kurzor a podržte tlačítko {KEY:PrimaryAction}, dokud se nedokončí.</Value>
+      <Value>Nyní, když máte základní představu o tom, jak používat uživatelské rozhraní, můžete vyzkoušet některé základní budovy. Přejděte do zvýrazněné oblasti s rámy v aktivní ruce. Kliknutím na {KEY:SecondaryAction} aktivujete kurzor, podržte tlačítko {KEY:PrimaryAction}, dokud se stavba nedokončí.</Value>
     </Record>
     <Record>
       <Key>TutorialCompletingFrames</Key>
@@ -56,7 +56,7 @@
     </Record>
     <Record>
       <Key>TutorialCompletingFramesTask2</Key>
-      <Value>Vraťte se k umístěným rámům a vezměte {THING:ItemWeldingTorch} ze svého opasku na nářadí. Zapněte jej klávesou {KEY:ToggleHandPower} a poté přidržte tlačítko {KEY:PrimaryAction}, aby se rám vytvořil, dokud nebude dokončen. Abyste to mohli udělat, musíte držet {THING:ItemIronSheets} v druhé ruce. Poznámka: Nezapomeňte vypnout {THING:ItemWeldingTorch}, když jste hotoví stisknutím klávesy {KEY:ToggleHandPower}.</Value>
+      <Value>Vraťte se k umístěným rámům a vezměte {THING:ItemWeldingTorch} ze svého opasku na nářadí. Zapněte jej klávesou {KEY:ToggleHandPower} a poté přidržujte tlačítko {KEY:PrimaryAction}, dokud nebude rám dokončen. Abyste to mohli udělat, musíte držet {THING:ItemIronSheets} v druhé ruce. Poznámka: Nezapomeňte vypnout {THING:ItemWeldingTorch} po dokončení stisknutím klávesy {KEY:ToggleHandPower}.</Value>
     </Record>
     <Record>
       <Key>TutorialCompletingFramesTask3</Key>
@@ -70,7 +70,7 @@
       <Key>TutorialDoingitOnYourOwnDescription</Key>
       <Value>Výborně, kadete! Nyní, když jste vytvořili svůj první rám, použijte to, co jste se naučili, abyste ve zvýrazněných oblastech vytvořili více {THING:ItemIronFrames}.
             
-Tip: Pokud spadnete do rámu a uvíznete, aktivujte svůj jetpack pomocí tlačítka {KEY:Jetpack} a odleťte. Deaktivujete ho stejným klíčem.</Value>
+Tip: Pokud spadnete do rámu a uvíznete, aktivujte svůj jetpack pomocí tlačítka {KEY:Jetpack} a odleťte. Deaktivujete ho stejným tlačítkem.</Value>
     </Record>
     <Record>
       <Key>TutorialDoingitOnYourOwnTask1</Key>
@@ -166,7 +166,7 @@ Tip: Pokud spadnete do rámu a uvíznete, aktivujte svůj jetpack pomocí tlač�
     </Record>
     <Record>
       <Key>TutorialDeconstructingAnAutolathe</Key>
-      <Value>Rozebírání automatického soustruhu</Value>
+      <Value>Rozebírání autosoustruhu</Value>
     </Record>
     <Record>
       <Key>TutorialDeconstructingAnAutolatheDescription</Key>
@@ -230,7 +230,7 @@ Tip: Pokud spadnete do rámu a uvíznete, aktivujte svůj jetpack pomocí tlač�
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolatheTask2.5</Key>
-      <Value>Získejte {THING:ItemPlasticSheets} z předchozího {THING:StructureAutolathe}.</Value>
+      <Value>Vezměte {THING:ItemPlasticSheets} z předchozího {THING:StructureAutolathe}.</Value>
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolathePart2Task3</Key>
@@ -238,11 +238,11 @@ Tip: Pokud spadnete do rámu a uvíznete, aktivujte svůj jetpack pomocí tlač�
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolatheTask3.5</Key>
-      <Value>Získejte {THING:ItemScrewdriver} z {SLOT:Belt}.</Value>
+      <Value>Vezměte {THING:ItemScrewdriver} z {SLOT:Belt}.</Value>
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolathePart2Task4</Key>
-      <Value>Nakonec zašroubujte přední panel pomocí {THING:ItemScrewdriver}.</Value>
+      <Value>Nakonec našroubujte přední panel pomocí {THING:ItemScrewdriver}.</Value>
     </Record>
   </Interface>
 </Language>
