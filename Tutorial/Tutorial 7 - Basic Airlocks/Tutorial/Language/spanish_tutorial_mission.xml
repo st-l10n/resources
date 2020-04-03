@@ -88,19 +88,19 @@ Vamos a empezar con la configuración inicial de la esclusa. Primero, construye 
     </Record>
     <Record>
       <Key>AirSensoresAndMore</Key>
-      <Value>¡ Sensores de gas y mas !</Value>
+      <Value>¡ Sensores de Gas y Mas !</Value>
     </Record>
     <Record>
       <Key>AirSensoresAndMoreDescription</Key>
-      <Value>Lo siguiente es preparar un {THING:StructureGasSensor} y un {THING:StructureActiveVent}, el {THING:StructureGasSensor} indicará a la consola la atmósfera actual dentro de la cámara siendo un componente clave, respecto al {THING:StructureActiveVent} será el responsable de presurizar y despresurizar la cámara de descompresión. Construye un {THING:StructureGasSensor} y un {THING:StructureActiveVent}.</Value>
+      <Value>Lo siguiente, es preparar un {THING:StructureGasSensor} y un {THING:StructureActiveVent}. El {THING:StructureGasSensor} indicará a la consola la atmósfera actual dentro de la esclusa siendo un componente clave, respecto al {THING:StructureActiveVent} será el responsable de presurizar y despresurizar la cámara de descompresión.</Value>
     </Record>
     <Record>
       <Key>AirSensoresAndMoreTask1</Key>
-      <Value>Construye la {THING:StructureGasSensor} en el lugar resaltado</Value>
+      <Value>Construye el {THING:StructureGasSensor} en el lugar resaltado.</Value>
     </Record>
     <Record>
       <Key>AirSensoresAndMoreTask2</Key>
-      <Value>Construye la {THING:StructureActiveVent} en el lugar resaltado</Value>
+      <Value>Construye la {THING:StructureActiveVent} en el lugar resaltado.</Value>
     </Record>
     <Record>
       <Key>GasPipes</Key>
@@ -108,9 +108,9 @@ Vamos a empezar con la configuración inicial de la esclusa. Primero, construye 
     </Record>
     <Record>
       <Key>GasPipesDescription</Key>
-      <Value>{THING:ItemKitPipe} son utilizados para transportar gases de un sitio a otro. Vamos a tener que usar algunos en la cámara de descompresión, conecta el {THING:StructureActiveVent} a el {THING:StructurePassiveVent} utilizando {THING:ItemKitPipe}.
+      <Value>{THING:ItemKitPipe} son utilizados para transportar gases de un sitio a otro. Vamos a tener que conectar el {THING:StructureActiveVent} a el {THING:StructurePassiveVent} utilizando {THING:ItemKitPipe}.
 
-Nota: cuando construyes una cámara de descompresión podrás acumular gases dentro del propio tubo si no tuvieras acceso a el {THING:StructurePassiveVent}.</Value>
+Nota: Cuando construyes una esclusa podrás acumular gases dentro del propio tubo si no tuvieras acceso a el {THING:StructurePassiveVent}.</Value>
     </Record>
     <Record>
       <Key>GasPipeCorner</Key>
@@ -142,7 +142,7 @@ Nota: cuando construyes una cámara de descompresión podrás acumular gases den
     </Record>
     <Record>
       <Key>UnderPressureDescription</Key>
-      <Value>Para completar la consola necesitas añadir una placa de circuito en ella. Hay diferentes tipos de placas de circuitos según la situación, En este caso, vamos a construir una cámara de descompresión y necesitas usar el {THING:CircuitboardAirlockControl}, Cambien necesitarás el disco de datos {THING:CircuitboardAirlockControl} para poder programarla después.</Value>
+      <Value>Para completar la {THING:StructureConsole} necesitas añadir una placa de circuito en ella. Hay diferentes tipos de placas de circuitos según la situación. En este caso, vamos a construir una cesclusa y necesitas usar el {THING:CircuitboardAirlockControl}. Tambien necesitarás el disco de datos para programar la {THING:CircuitboardAirlockControl} después.</Value>
     </Record>
     <Record>
       <Key>UnderPressureTask1</Key>
@@ -162,11 +162,11 @@ Nota: cuando construyes una cámara de descompresión podrás acumular gases den
     </Record>
     <Record>
       <Key>AirLockProgrammingDescription</Key>
-      <Value>Programar una cámara de descompresión es fácil, comienza por encender la {THING:StructureConsole} después selecciona el {THING:StructureActiveVent} y el {THING:StructureGasSensor}.
+      <Value>Programar una esclusa es fácil, comienza por encender la {THING:StructureConsole}. Selecciona el {THING:StructureActiveVent} y el {THING:StructureGasSensor}.
 
 Al seleccionar las puertas asegúrate de que la puerta &apos;INTERIOR&apos; este para la puerta interior. Podrás ver es esto cuando las luces de la cámara se cambien a color verde a amarillo indicándote la puerta que estas aplicando los ajustes.
 Una vez que selecciones un dispositivo en la consola, el mismo aparece bloqueado para los controles individuales.
-Después de configurar la cámara con éxito, el interior lateral de la  {THING:StructureConsole} se pondrá de color verde y podrás quitar el disco de datos de la {THING:StructureConsole}.</Value>
+Después de configurar la cámara con éxito, el interior lateral de la  {THING:StructureConsole} se pondrá de color verde y podrás quitar el disco de datos de la {THING:StructureConsole} La consola una vez saques el disco quedará bloqueada y no podras configurarla hasta volver a introducir el disco.</Value>
     </Record>
     <Record>
       <Key>AirLockProgrammingTask1</Key>
@@ -178,7 +178,7 @@ Después de configurar la cámara con éxito, el interior lateral de la  {THING:
     </Record>
     <Record>
       <Key>ASimpleAirLockDescription</Key>
-      <Value>Ahora para probar la cámara de descompresión creada, presiona el botón “cycle to interior” para iniciar la presurizan, la presión tendrá que llegar a 101 kPa para que la presurizan este completa. En algunos casos el interior necesita de mas presión y la presurización nunca llega a su fin. Si esto pasase pulsa el botón de “Cancel pressurize”.</Value>
+      <Value>Ahora para probar la esclusa creada. Presiona el botón “cycle to interior” para iniciar la presurización. La presión tendrá que llegar al menos a 101 kPa para que la presurización este completa. En algunos casos el interior necesita de mas presión y la presurización nunca llega a su fin. Si esto pasase pulsa el botón de “Cancel pressurize”.</Value>
     </Record>
     <Record>
       <Key>ASimpleAirLockTask1</Key>
@@ -190,9 +190,9 @@ Después de configurar la cámara con éxito, el interior lateral de la  {THING:
     </Record>
     <Record>
       <Key>AirlockUpgradesDescription</Key>
-      <Value>Ahora que tiene una cámara básica, hagamos algunas actualizaciones para convertirlo en una cámara avanzada. Las esclusas de aire básicas funcionarán bien en la luna o los planetas sin atmósfera, pero si desea evitar que entren gases venenosos o altas / bajas temperaturas en su base, necesitará una esclusa de aire avanzada. Una cámara de aire avanzada bombea cualquier atmósfera fuera de la cámara de aire antes de presurizarla nuevamente con la atmósfera deseada.
+      <Value>Ahora que tiene una esclusa básica, hagamos algunas actualizaciones para convertirlo en una esclusa avanzada. Las esclusas de aire básicas funcionarán bien en la luna o los planetas sin atmósfera, pero si desea evitar que entren gases venenosos o altas / bajas temperaturas en su base, necesitará una esclusa de aire avanzada. Una cámara de aire avanzada bombea cualquier atmósfera fuera de la cámara de aire antes de presurizarla nuevamente con la atmósfera deseada.
 
-Para construir una esclusa de aire avanzada, necesitará otra {THING: StructureActiveVent} más tubos y cables junto con el {THING: CircuitboardAdvAirlockControl} para reemplazar el {THING: CircuitboardAirlockControl} de la cámara básica.</Value>
+Para construir una esclusa de aire avanzada, necesitará otra {THING: StructureActiveVent}, más tubos y cables, junto con el {THING: CircuitboardAdvAirlockControl} para reemplazar el {THING: CircuitboardAirlockControl} de la esclusa básica.</Value>
     </Record>
     <Record>
       <Key>AirlockUpgradesTask1</Key>
@@ -214,13 +214,13 @@ Para construir una esclusa de aire avanzada, necesitará otra {THING: StructureA
       <Key>AdvancedPressureDescription</Key>
       <Value>Ahora que las estructuras están en su lugar, necesitamos cambiar {THING: CircuitboardAirlockControl} por {THING: CircuitboardAdvAirlockControl}
         
-Solo hay unas pocas diferencias al programar {THING: CircuitboardAdvAirlockControl}. En primer lugar, debe seleccionar {THING: StructureActiveVent} interno y externo, a diferencia de las puertas, tendrá que mirar el interruptor en {THING: StructureActiveVent} para ver si es interactivo o no, así es como puede descifrar qué {THING: StructureActiveVent} corresponde a los del menú.
+Solo hay unas pocas diferencias al programar {THING: CircuitboardAdvAirlockControl}. En primer lugar, debe seleccionar {THING: StructureActiveVent} interno y externo. A diferencia de las puertas, tendrá que mirar el interruptor en {THING: StructureActiveVent} para ver si es interactivo o no. Así es como puede identificar qué {THING: StructureActiveVent} esta seleccionado del menú.
 
-Lo último que debe hacer es seleccionar la presión que desea para la presión interna y externa que se encuentra cerca de la parte superior del panel.</Value>
+Lo último que debe hacer es seleccionar la presión que desea para la presión interna y externa, se encuentra cerca de la parte superior del {THING:CircuitboardAdvAirlockControl}. </Value>
     </Record>
     <Record>
       <Key>AdvancedPressureTask1</Key>
-      <Value>Quita el {THING:ItemGlassSheets}.</Value>
+      <Value>Quita el {THING:ItemGlassSheets} de la primera {THING:StructureConsole}.</Value>
     </Record>
     <Record>
       <Key>AdvancedPressureTask2</Key>
@@ -236,15 +236,15 @@ Lo último que debe hacer es seleccionar la presión que desea para la presión 
     </Record>
     <Record>
       <Key>AAdvancedAirLock</Key>
-      <Value>Una cámara de descompresión avanzada</Value>
+      <Value>Una esclusa avanzada</Value>
     </Record>
     <Record>
       <Key>AAdvancedAirLockDescription</Key>
-      <Value>Certifica que la cámara de descompresión funciona pulsando el botón &quot;Cycle to interior&quot;</Value>
+      <Value>Certifica que la esclusa funciona pulsando el botón &quot;Cycle to interior&quot;.</Value>
     </Record>
     <Record>
       <Key>AAdvancedAirLockTask1</Key>
-      <Value>pulsa el botón “cycle to Interior”.</Value>
+      <Value>Pulsa el botón “cycle to Interior”.</Value>
     </Record>
   </Interface>
 </Language>
