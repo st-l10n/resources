@@ -24,7 +24,7 @@
     </Record>
     <Record>
       <Key>TutorialThetoolbeltTask2</Key>
-      <Value>Ahora, mueva el soldador hacia su mano sosteniendo la tecla {KEY:MouseControl} y arrastre el soldador desde {SLOT:Belt} a su ranura de la derecha.</Value>
+      <Value>Ahora, mueva el soldador hacia su mano sosteniendo la tecla {KEY:MouseControl} y arrastre el soldador desde {SLOT:Belt} a su ranura de la mano derecha.</Value>
     </Record>
     <Record>
       <Key>TutorialWhatAreFrames</Key>
@@ -36,13 +36,11 @@
     </Record>
     <Record>
       <Key>TutorialWhatAreFramesTask1</Key>
-      <Value>Pulse la tecla {KEY:SwapHands} para intercambiar su mano activa y pasar a la caja cercana y recoger {THING:ItemIronFrames} de la caja en su mano izquierda.</Value>
+      <Value>Pulse la tecla {KEY:SwapHands} para intercambiar su mano activa y pasar a la caja cercana para recoger {THING:ItemIronFrames} de la caja con su mano izquierda.</Value>
     </Record>
     <Record>
       <Key>TutorialWhatAreFramesTask2</Key>
-      <Value>Ahora que tiene una idea básica de cómo utilizar la interfaz de usuario, comencemos con los edificios básicos, comencemos abriendo las cajas cercanas, en la caja 1 encontrará las {THING:ItemIronFrames} necesarias para iniciar la plataforma.
-        
-         Para construir el marco, vaya al área resaltada con los marcos en su mano activa, toque {KEY:SecondaryAction} para habilitar el cursor y mantenga presionado el botón {KEY:PrimaryAction} hasta que se complete</Value>
+      <Value>Ahora que tiene una idea básica de cómo utilizar la interfaz de usuario, comencemos con la construcción básica. Vamos a el area resaltada con los marcos en tu mano activa. Pulsa {KEY:SecondaryAction} para activar el cursor y manten pulsado el boton {KEY:PrimaryAction} hasta que se complete.</Value>
     </Record>
     <Record>
       <Key>TutorialCompletingFrames</Key>
@@ -50,7 +48,7 @@
     </Record>
     <Record>
       <Key>TutorialCompletingFramesDescription</Key>
-      <Value>Actualmente, nuestros {THING:ItemIronFrames} no son herméticos. Para completar el {THING: ItemIronFrames} necesitamos soldar algunas láminas de hierro. Si aún no lo ha hecho, toque el botón {KEY: SecondaryAction} para eliminar el objeto cursor de la pantalla.</Value>
+      <Value>Actualmente, nuestros {THING:ItemIronFrames} no son herméticos. Para completar el {THING: ItemIronFrames} necesitamos soldar algunas láminas de hierro en el. Si aún no lo ha hecho, toque el botón {KEY: SecondaryAction} para eliminar el objeto cursor de la pantalla.</Value>
     </Record>
     <Record>
       <Key>TutorialCompletingFramesTask1</Key>
@@ -58,7 +56,7 @@
     </Record>
     <Record>
       <Key>TutorialCompletingFramesTask2</Key>
-      <Value>Equipe su {THING:ItemWeldingTorch} de su Cinturon de herramientas y enciéndalo con la tecla {KEY:ToggleHandPower} y regrese al cuadro previamente colocado y mantenga presionado el botón {KEY:PrimaryAction} para construir el cuadro hasta que esté completo. Necesitará {THING:ItemIronSheets} en su otra mano para hacer esto. Nota: No olvides apagar {THING:ItemWeldingTorch} cuando hayas terminado. Para apagar el soldador, presiona la tecla {KEY:ToggleHandPower}.</Value>
+      <Value>Vuelve a los marcos colocados anteriormente y equipa el {THING:ItemWeldingTorch} de tu ToolBelt. Enciéndelo con la tecla {KEY:ToggleHandPower} ,Mantén pulsado el boton {KEY:PrimaryAction} para construir el marco y completarlo. Debes sostener las {THING:ItemIronSheets} en tu otra mano para poder hacerlo. Nota: No olvides apagar el {THING:ItemWeldingTorch} cuando hayas acabado de construir pulsando la tecla {KEY:ToggleHandPower} .</Value>
     </Record>
     <Record>
       <Key>TutorialCompletingFramesTask3</Key>
@@ -70,7 +68,7 @@
     </Record>
     <Record>
       <Key>TutorialDoingitOnYourOwnDescription</Key>
-      <Value>¡Bien hecho, cadete! Ahora que ha creado su primer marco, construyamos un poco más. Use lo que aprendió para crear más {THING:ItemIronFrames} en las áreas resaltadas.
+      <Value>¡Bien hecho, cadete! Ahora que ha creado su primer marco, use lo que aprendió para crear más {THING:ItemIronFrames} en las áreas resaltadas.
             
          Sugerencia: si se cae en un marco y se atasca, use la tecla {KEY:Jetpack} para activar su Jetpack y volar hacia otro sitio, luego desactívelo con la misma tecla.</Value>
     </Record>
@@ -148,7 +146,7 @@
     </Record>
     <Record>
       <Key>BuildingDeconstructingAnFurnaceTask1</Key>
-      <Value>Usa {THING:ItemDrill} en la ranura {SLOT:Belt} </Value>
+      <Value>Usa el {THING:ItemDrill} de el {SLOT:Belt} .</Value>
     </Record>
     <Record>
       <Key>BuildingDeconstructingAnFurnaceTask2</Key>
@@ -164,7 +162,7 @@
     </Record>
     <Record>
       <Key>BuildingAnArcFurnaceTask1</Key>
-      <Value>Utilice el {THING:StructureArcFurnace} previamente desmontado y colócalo en el área resaltada que pueda necesitar utiliza {KEY:QuantityModifier} para girar el objeto a la posición correcta.</Value>
+      <Value>Coloque el {THING:StructureArcFurnace} previamente desmontado en el área resaltada. Puede que necesite utilizar {KEY:QuantityModifier} para girar el objeto a la posición correcta.</Value>
     </Record>
     <Record>
       <Key>TutorialDeconstructingAnAutolathe</Key>
@@ -192,11 +190,11 @@
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolathe</Key>
-      <Value>Arrastrándose</Value>
+      <Value>Arrastrándose - Parte 1</Value>
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolatheDescription</Key>
-      <Value>Ya casi llegamos. El último paso es construir el {THING:StructureAutolathe}. El {THING:ItemKitAutolathe} se utiliza para crear una amplia variedad de cosas usando lingotes y energía como sus recursos.</Value>
+      <Value>Ya casi llegamos. El último paso es construir el {THING:StructureAutolathe}. El {THING:ItemKitAutolathe} se utiliza para crear una amplia variedad de cosas y kits de herramienta usando lingotes y energía como sus recursos esenciales.</Value>
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolatheTask1</Key>
