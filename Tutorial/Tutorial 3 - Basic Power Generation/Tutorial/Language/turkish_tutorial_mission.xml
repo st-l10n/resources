@@ -43,8 +43,12 @@
       <Value>Bir {THING:StructureCableJunction} yerleştir.</Value>
     </Record>
     <Record>
+      <Key>SettingUpThePowerControllerTask2</Key>
+      <Value>{THING:ItemCrowbar} ile {THING:StructureAreaPowerControl}&apos;yi aç.</Value>
+    </Record>
+    <Record>
       <Key>SettingUpThePowerControllerTask4</Key>
-      <Value>{THING:ItemBatteryCellLarge}&apos;in {SLOT:Battery} yuvasına {THING:ItemBatteryCellLarge}&apos;i koy</Value>
+      <Value>{THING:StructureAreaPowerControl}&apos;ye {THING:ItemBatteryCellLarge} yerleştir.</Value>
     </Record>
   </Interface>
 </Language>
