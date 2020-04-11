@@ -121,6 +121,10 @@ Kvůli nešťastné poruše tlaku došlo ke katastrofickému selhání které zn
       <Value>Pod tlakem</Value>
     </Record>
     <Record>
+      <Key>UnderPressureDescription</Key>
+      <Value>K dokončení {THING:StructureConsole} musíme přidat desku s obvody. Existují různé typy desek s obvody pro různé situace. Stavíte přechodovou komoru, takže musíte použít {THING:CircuitboardAirlockControl}. Budete také muset použít datový disk, abyste mohli naprogramovat {THING:CircuitboardAirlockControl}.</Value>
+    </Record>
+    <Record>
       <Key>UnderPressureTask1</Key>
       <Value>Vložte {THING:CircuitboardAirlockControl} do {THING:StructureConsole}.</Value>
     </Record>
