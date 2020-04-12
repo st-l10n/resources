@@ -184,6 +184,16 @@ Možná budete muset uvolnit ruce přesunutím {THING:ItemSteelSheets} do batohu
  Nezapomeňte, že {KEY:InventorySelect} interaguje s interními sloty a akcemi a klávesa {KEY:ToolBeltSlot} otevře a zavře váš slot {SLOT:Belt}. Jako vždy můžete vyvolat ovládání myši stisknutím tlačítka {KEY:MouseControl}.</Value>
     </Record>
     <Record>
+      <Key>TutorialDescRepairCable4</Key>
+      <Value>S {THING:ItemCableCoil} ve vaší {COLORYELLOW:aktivní ruce}, stiskněte {KEY:SecondaryAction} a vyvolejte kurzor {LINK:ConstructionPage;konstrukce}.
+
+Použijte {COLORRED:kolečko myši} ke změně typu umístění a vyberte variantu {THING:StructureCableJunction}.
+
+Plán umístění obsahuje důležité informace o připojení, malé symboly plus označují, že se položka připojuje k kabelové síti. Ujistěte se, že jsou vaše připojovací vedení přesně nastavena.
+
+Stiskněte tlačítko {KEY:QuantityModifier} a objekt se pokusí o nejlepší umístění připojení, jinak můžete použít vlastní otočné klávesy.</Value>
+    </Record>
+    <Record>
       <Key>TutorialTitleFinishFrame</Key>
       <Value>Dokončit Svařovací Rám</Value>
     </Record>
@@ -198,6 +208,10 @@ Možná budete muset uvolnit ruce přesunutím {THING:ItemSteelSheets} do batohu
     <Record>
       <Key>TutorialTitleTablet</Key>
       <Value>Interakce s položkami v rukou</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescTablet2</Key>
+      <Value>S aktivním slotem na ruce můžete komunikovat stisknutím a uvolněním tlačítka {KEY:ActiveHandSlot} nebo kliknutím na něj. Tím se otevře aktuální okno {LINK:InventoryPage;inventáře}. Klávesou {KEY:SwapHands} můžete změnit svou aktivní ruku. Jako aktivní ruku vyberte {THING:ItemTablet} a pokračujte otevřením vnitřku slotu.</Value>
     </Record>
     <Record>
       <Key>TutorialTaskTablet1</Key>
