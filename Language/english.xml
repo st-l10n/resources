@@ -7040,7 +7040,19 @@
       <Key>SettingsTerrainClutterMultiplier</Key>
       <Value>Terrain Clutter Multiplier</Value>
     </Record>
-	<Record>
+    <Record>
+      <Key>ActivateResearch</Key>
+      <Value>Starts reserach process.</Value>
+    </Record>
+    <Record>
+      <Key>ManualGetResearchPodsRequired</Key>
+      <Value>Sets the pod type to search for a certian pod when breaking down a pods.</Value>
+    </Record>
+    <Record>
+      <Key>CurrentResearchPodType</Key>
+      <Value>Returns the pod type stored in the machine.</Value>
+    </Record>
+	  <Record>
       <Key>ResearchFilter</Key>
       <Value>Filter</Value>
     </Record>
@@ -7059,6 +7071,454 @@
     <Record>
       <Key>ResearchCancel</Key>
       <Value>Cancel</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandL</Key>
+      <Value>Loads device var to register.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandS</Key>
+      <Value>Stores register value to var on device.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandLS</Key>
+      <Value>Loads slot var on device to register.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandLR</Key>
+      <Value>Loads reagent of device's reagentMode to register.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandAlias</Key>
+      <Value>Labels register or device reference with name, device references also affect what shows on the screws on the IC base.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandDefine</Key>
+      <Value>Creates a label that will be replaced throughout the program with the provided value.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandMove</Key>
+      <Value>Register = provided num or register value.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandAdd</Key>
+      <Value>Register = a + b.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSub</Key>
+      <Value>Register = a - b.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSdse</Key>
+      <Value>Register = 1 if device is set, otherwise 0.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSdns</Key>
+      <Value>Register = 1 if device is not set, otherwise 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSlt</Key>
+      <Value>Register = 1 if a &lt; b, otherwise 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSgt</Key>
+      <Value>Register = 1 if a &gt; b, otherwise 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSle</Key>
+      <Value>Register = 1 if a &lt;= b, otherwise 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSge</Key>
+      <Value>Register = 1 if a &gt;= b, otherwise 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSeq</Key>
+      <Value>Register = 1 if a == b, otherwise 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSne</Key>
+      <Value>Register = 1 if a != b, otherwise 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSap</Key>
+      <Value>Register = 1 if abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8), otherwise 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSna</Key>
+      <Value>Register = 1 if abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8), otherwise 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSltz</Key>
+      <Value>Register = 1 if a &lt; 0, otherwise 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSgtz</Key>
+      <Value>Register = 1 if a &gt; 0, otherwise 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSlez</Key>
+      <Value>Register = 1 if a &lt;= 0, otherwise 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSgez</Key>
+      <Value>Register = 1 if a &gt;= 0, otherwise 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSeqz</Key>
+      <Value>Register = 1 if a == 0, otherwise 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSnez</Key>
+      <Value>Register = 1 if a != 0, otherwise 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSapz</Key>
+      <Value>Register = 1 if |a| 	&lt;= float.epsilon * 8, otherwise 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSnaz</Key>
+      <Value>Register = 1 if |a| &gt; float.epsilon, otherwise 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandAnd</Key>
+      <Value>Register = 1 if a and b not zero, otherwise 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandOr</Key>
+      <Value>Register = 1 if a and/or b not 0, otherwise 0</Value>
+    </Record>
+     <Record>
+      <Key>ScriptCommandXor</Key>
+      <Value>Register = 1 if either a or b not 0, otherwise 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandNor</Key>
+      <Value>Register = 1 if a and b are 0, otherwise 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandMul</Key>
+      <Value>Register = a * b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandDiv</Key>
+      <Value>Register = a / b</Value>
+    </Record> 
+    <Record>
+      <Key>ScriptCommandMod</Key>
+      <Value>Register = a mod b (note: NOT a % b)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJ</Key>
+      <Value>Jump execution to line a</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBdse</Key>
+      <Value>Branch to line a if device d is set</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBdns</Key>
+      <Value>Branch to line a if device d isn't set</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBlt</Key>
+      <Value>Branch to line c if a &lt; b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgt</Key>
+      <Value>Branch to line c if a &gt; b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBle</Key>
+      <Value>Branch to line c if a &lt;= b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBge</Key>
+      <Value>Branch to line c if a &gt;= b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBeq</Key>
+      <Value>Branch to line c if a == b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBne</Key>
+      <Value>Branch to line c if a != b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBap</Key>
+      <Value>Branch to line d if abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBna</Key>
+      <Value>Branch to line d if abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBltz</Key>
+      <Value>Branch to line b if a &lt; 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgez</Key>
+      <Value>Branch to line b if a &gt;= 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBlez</Key>
+      <Value>Branch to line b if a 	&lt;= 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgtz</Key>
+      <Value>Branch to line b if a 	&gt; 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBeqz</Key>
+      <Value>Branch to line b if a == 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnez</Key>
+      <Value>branch to line b if a != 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBapz</Key>
+      <Value>Branch to line c if abs(a) &lt;= float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnaz</Key>
+      <Value>Branch to line c if abs(a) &gt; float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJr</Key>
+      <Value>Relative jump to line a</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJr</Key>
+      <Value>Relative jump to line a</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrdse</Key>
+      <Value>Relative jump to line a if device is set</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrdns</Key>
+      <Value>Relative jump to line a if device is not set</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrlt</Key>
+      <Value>Relative jump to line c if a &lt; b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrgt</Key>
+      <Value>relative jump to line c if a &gt; b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrle</Key>
+      <Value>Relative jump to line c if a &lt;= b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrge</Key>
+      <Value>Relative jump to line c if a &gt;= b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBreq</Key>
+      <Value>Relative branch to line c if a == b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrne</Key>
+      <Value>Relative branch to line c if a != b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrap</Key>
+      <Value>Relative branch to line d if abs(a - b) 	&lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrna</Key>
+      <Value>Relative branch to line d if abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrltz</Key>
+      <Value>Relative branch to line b if a &lt; 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrgez</Key>
+      <Value>Relative branch to line b if a &gt;= 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrlez</Key>
+      <Value>Relative branch to line b if a &lt;= 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrgtz</Key>
+      <Value>Relative branch to line b if a &gt; 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBreqz</Key>
+      <Value>Relative branch to line b if a == 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrnez</Key>
+      <Value>Relative branch to line b if a != 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrapz</Key>
+      <Value>Relative branch to line c if abs(a) 	&lt;= float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrnaz</Key>
+      <Value>Relative branch to line c if abs(a) &gt; float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJal</Key>
+      <Value>Jump execution to line a and store next line number in ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBdseal</Key>
+      <Value>Jump execution to line a and store next line number if device is set</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBdnsal</Key>
+      <Value>Jump execution to line a and store next line number if device is not set</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBltal</Key>
+      <Value>Branch to line c if a 	&lt; b and store next line number in ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgtal</Key>
+      <Value>Branch to line c if a &gt; b and store next line number in ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBleal</Key>
+      <Value>Branch to line c if a &lt;= b and store next line number in ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgeal</Key>
+      <Value>Branch to line c if a 	&gt;= b and store next line number in ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBeqal</Key>
+      <Value>Branch to line c if a == b and store next line number in ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBneal</Key>
+      <Value>Branch to line c if a != b and store next line number in ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBapal</Key>
+      <Value>Branch to line d if abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) and store next line number in ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnaal</Key>
+      <Value>Branch to line d if abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) and store next line number in ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBltzal</Key>
+      <Value>Branch to line b if a &lt; 0 and store next line number in ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgezal</Key>
+      <Value>Branch to line b if a &gt;= 0 and store next line number in ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBlezal</Key>
+      <Value>Branch to line b if a &lt;= 0 and store next line number in ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgtzal</Key>
+      <Value>Branch to line b if a &gt; 0 and store next line number in ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBeqzal</Key>
+      <Value>Branch to line b if a == 0 and store next line number in ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnezal</Key>
+      <Value>Branch to line b if a != 0 and store next line number in ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBapzal</Key>
+      <Value>Branch to line c if abs(a) &lt;= float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnazal</Key>
+      <Value>Branch to line c if abs(a) &gt; float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSqrt</Key>
+      <Value>Register = square root of a</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandRound</Key>
+      <Value>Register = a rounded to nearest integer</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandTrunc</Key>
+      <Value>Register = a with fractional part removed</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandCeil</Key>
+      <Value>Register = smallest integer greater than a</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandFloor</Key>
+      <Value>Register = largest integer less than a</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandMax</Key>
+      <Value>Register = max of a or b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandMin</Key>
+      <Value>Register = min of a or b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandAbs</Key>
+      <Value>Register = the absolute value of a</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandLog</Key>
+      <Value>Register = log(a)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandExp</Key>
+      <Value>Register = exp(a)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandRand</Key>
+      <Value>Register = a random value x with 0 &lt;= x &lt; 1</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandYield</Key>
+      <Value>Pauses execution for 1 tick</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandLabel</Key>
+      <Value>DEPRECATED</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandPeek</Key>
+      <Value>Register = the value at the top of the stack</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandPush</Key>
+      <Value>Pushes the value of a to the stack at sp and increments sp</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandPop</Key>
+      <Value>Register = the value at the top of the stack and decrements sp</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandHcf</Key>
+      <Value>Halt and catch fire</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSelect</Key>
+      <Value>Register = b if a is non-zero, otherwise c</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSleep</Key>
+      <Value>Pauses execution on the IC for a seconds</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandCommand</Key>
+      <Value>command</Value>
     </Record>
   </Interface>
   <Colors>
