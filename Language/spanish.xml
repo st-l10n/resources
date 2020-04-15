@@ -6625,43 +6625,43 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
     </Record>
     <Record>
       <Key>ScriptCommandSdse</Key>
-      <Value>1 si el dispositivo está abierto, en caso contrario 0</Value>
+      <Value>Registro = 1 si el dispositivo está configurado, de lo contrario 0.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSdns</Key>
-      <Value>1 si el dispositivo está abierto, en caso contrario 0</Value>
+      <Value>Registro = 1 si el dispositivo no está configurado, de lo contrario 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSlt</Key>
-      <Value>1 si el dispositivo está abierto, en caso contrario 0</Value>
+      <Value>Registro = 1 si a &lt; b, de lo contrario 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSgt</Key>
-      <Value>1 si el dispositivo está abierto, en caso contrario 0</Value>
+      <Value>Registro = 1 si a &gt; b, de lo contrario 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSltz</Key>
-      <Value>1 si el dispositivo está abierto, en caso contrario 0</Value>
+      <Value>Registro = 1 si es &lt; 0, de lo contrario 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSgtz</Key>
-      <Value>1 si el dispositivo está abierto, en caso contrario 0</Value>
+      <Value>Registro = 1 si es &gt; 0, de lo contrario 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandAnd</Key>
-      <Value>Devuelve 1 si el dispositivo está actualmente inactivo, de lo contrario 0</Value>
+      <Value>Registro = 1 si a y b no es cero, de lo contrario 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandOr</Key>
-      <Value>Devuelve 1 si el dispositivo está actualmente inactivo, de lo contrario 0</Value>
+      <Value>Registro = 1 si a y/o b no 0, de lo contrario 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandXor</Key>
-      <Value>Devuelve 1 si el dispositivo está actualmente inactivo, de lo contrario 0</Value>
+      <Value>Registro = 1 si a o b no 0, de lo contrario 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandNor</Key>
-      <Value>Devuelve 1 si el dispositivo está actualmente inactivo, de lo contrario 0</Value>
+      <Value>Registro = 1 si a y b son 0, de lo contrario 0</Value>
     </Record>
   </Interface>
   <Colors>
