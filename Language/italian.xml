@@ -5940,6 +5940,10 @@ Temperatura {1}</Value>
       <Value>Terreno</Value>
     </Record>
     <Record>
+      <Key>CurrentResearchPodType</Key>
+      <Value>restituisce l&apos;hash della struttura nello slot</Value>
+    </Record>
+    <Record>
       <Key>ResearchFilter</Key>
       <Value>Filtri</Value>
     </Record>
@@ -5954,6 +5958,50 @@ Temperatura {1}</Value>
     <Record>
       <Key>ResearchCancel</Key>
       <Value>Annulla</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSdse</Key>
+      <Value>1 se il dispositivo è aperto, altrimenti 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSdns</Key>
+      <Value>1 se il dispositivo è aperto, altrimenti 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSlt</Key>
+      <Value>1 se il dispositivo è aperto, altrimenti 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSgt</Key>
+      <Value>1 se il dispositivo è aperto, altrimenti 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSltz</Key>
+      <Value>1 se il dispositivo è aperto, altrimenti 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSgtz</Key>
+      <Value>1 se il dispositivo è aperto, altrimenti 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandAnd</Key>
+      <Value>Restituisce 1 se il dispositivo è attualmente inattivo, altrimenti 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandOr</Key>
+      <Value>Restituisce 1 se il dispositivo è attualmente inattivo, altrimenti 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandXor</Key>
+      <Value>Restituisce 1 se il dispositivo è attualmente inattivo, altrimenti 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandNor</Key>
+      <Value>Restituisce 1 se il dispositivo è attualmente inattivo, altrimenti 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandLabel</Key>
+      <Value>DEPRECATO</Value>
     </Record>
   </Interface>
   <Colors>

@@ -6827,6 +6827,10 @@ Teplota {1}</Value>
       <Value>Multiplikátor terénních nepořádků</Value>
     </Record>
     <Record>
+      <Key>CurrentResearchPodType</Key>
+      <Value>vrátí hash struktury ve slotu</Value>
+    </Record>
+    <Record>
       <Key>ResearchFilter</Key>
       <Value>Filtr</Value>
     </Record>
@@ -6845,6 +6849,50 @@ Teplota {1}</Value>
     <Record>
       <Key>ResearchCancel</Key>
       <Value>Zrušit</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSdse</Key>
+      <Value>1, pokud je zařízení otevřeno, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSdns</Key>
+      <Value>1, pokud je zařízení otevřeno, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSlt</Key>
+      <Value>1, pokud je zařízení otevřeno, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSgt</Key>
+      <Value>1, pokud je zařízení otevřeno, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSltz</Key>
+      <Value>1, pokud je zařízení otevřeno, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSgtz</Key>
+      <Value>1, pokud je zařízení otevřeno, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandAnd</Key>
+      <Value>Vrátí hodnotu 1, pokud je zařízení aktuálně nečinné, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandOr</Key>
+      <Value>Vrátí hodnotu 1, pokud je zařízení aktuálně nečinné, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandXor</Key>
+      <Value>Vrátí hodnotu 1, pokud je zařízení aktuálně nečinné, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandNor</Key>
+      <Value>Vrátí hodnotu 1, pokud je zařízení aktuálně nečinné, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandLabel</Key>
+      <Value>ZASTARALÉ</Value>
     </Record>
   </Interface>
   <Colors>

@@ -6780,6 +6780,10 @@
       <Value>地形颜色</Value>
     </Record>
     <Record>
+      <Key>CurrentResearchPodType</Key>
+      <Value>返回插槽中结构的哈希</Value>
+    </Record>
+    <Record>
       <Key>ResearchFilter</Key>
       <Value>过滤</Value>
     </Record>
@@ -6794,6 +6798,50 @@
     <Record>
       <Key>ResearchCancel</Key>
       <Value>取消</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSdse</Key>
+      <Value>如果设备处于打开状态, 则为 1, 否则为0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSdns</Key>
+      <Value>如果设备处于打开状态, 则为 1, 否则为0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSlt</Key>
+      <Value>如果设备处于打开状态, 则为 1, 否则为0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSgt</Key>
+      <Value>如果设备处于打开状态, 则为 1, 否则为0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSltz</Key>
+      <Value>如果设备处于打开状态, 则为 1, 否则为0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSgtz</Key>
+      <Value>如果设备处于打开状态, 则为 1, 否则为0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandAnd</Key>
+      <Value>如果设备当前处于闲置状态, 则返回 1, 否则为0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandOr</Key>
+      <Value>如果设备当前处于闲置状态, 则返回 1, 否则为0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandXor</Key>
+      <Value>如果设备当前处于闲置状态, 则返回 1, 否则为0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandNor</Key>
+      <Value>如果设备当前处于闲置状态, 则返回 1, 否则为0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandLabel</Key>
+      <Value>已弃用</Value>
     </Record>
   </Interface>
   <Colors>

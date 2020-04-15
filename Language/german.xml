@@ -6166,6 +6166,10 @@ Temperatur {1}</Value>
       <Value>Terrain Farbe</Value>
     </Record>
     <Record>
+      <Key>CurrentResearchPodType</Key>
+      <Value>Gibt den Hash des Gegenstandes im Slot zurück</Value>
+    </Record>
+    <Record>
       <Key>ResearchTitle</Key>
       <Value>Zurücksetzen</Value>
     </Record>
@@ -6176,6 +6180,46 @@ Temperatur {1}</Value>
     <Record>
       <Key>ResearchCancel</Key>
       <Value>Abbruch</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSdse</Key>
+      <Value>1, wenn das Gerät geöffnet ist, sonst 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSdns</Key>
+      <Value>1, wenn das Gerät geöffnet ist, sonst 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSlt</Key>
+      <Value>1, wenn das Gerät geöffnet ist, sonst 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSgt</Key>
+      <Value>1, wenn das Gerät geöffnet ist, sonst 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSltz</Key>
+      <Value>1, wenn das Gerät geöffnet ist, sonst 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSgtz</Key>
+      <Value>1, wenn das Gerät geöffnet ist, sonst 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandAnd</Key>
+      <Value>Gibt 1 zurück, wenn das Gerät gerade im Leerlauf ist, sonst 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandOr</Key>
+      <Value>Gibt 1 zurück, wenn das Gerät gerade im Leerlauf ist, sonst 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandXor</Key>
+      <Value>Gibt 1 zurück, wenn das Gerät gerade im Leerlauf ist, sonst 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandNor</Key>
+      <Value>Gibt 1 zurück, wenn das Gerät gerade im Leerlauf ist, sonst 0</Value>
     </Record>
   </Interface>
   <Colors>

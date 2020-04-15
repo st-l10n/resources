@@ -6570,6 +6570,10 @@ Az extrém hideg az elemek gyors merülését idézi elő, ezért tekintsd prior
       <Value>Terep színe</Value>
     </Record>
     <Record>
+      <Key>CurrentResearchPodType</Key>
+      <Value>visszaadja a struktúra hash-ét a slotban</Value>
+    </Record>
+    <Record>
       <Key>ResearchFilter</Key>
       <Value>Szűrők</Value>
     </Record>
@@ -6584,6 +6588,50 @@ Az extrém hideg az elemek gyors merülését idézi elő, ezért tekintsd prior
     <Record>
       <Key>ResearchCancel</Key>
       <Value>Mégse</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSdse</Key>
+      <Value>1 ha az eszköz nyitva van, különben 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSdns</Key>
+      <Value>1 ha az eszköz nyitva van, különben 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSlt</Key>
+      <Value>1 ha az eszköz nyitva van, különben 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSgt</Key>
+      <Value>1 ha az eszköz nyitva van, különben 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSltz</Key>
+      <Value>1 ha az eszköz nyitva van, különben 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSgtz</Key>
+      <Value>1 ha az eszköz nyitva van, különben 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandAnd</Key>
+      <Value>1 visszaadása ha az eszköz tétlen, különben 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandOr</Key>
+      <Value>1 visszaadása ha az eszköz tétlen, különben 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandXor</Key>
+      <Value>1 visszaadása ha az eszköz tétlen, különben 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandNor</Key>
+      <Value>1 visszaadása ha az eszköz tétlen, különben 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandLabel</Key>
+      <Value>ELAVULT</Value>
     </Record>
   </Interface>
   <Colors>
