@@ -216,15 +216,15 @@ Para construir uma airlock avançada irás precisar de outro {THING:StructureAct
     </Record>
     <Record>
       <Key>AdvancedPressureDescription</Key>
-      <Value>Agora que as estruturas estão no sítio teremos que trocar a {THING:CircuitboardAirlockControl} pela {THING:CircuitboardAdvAirlockControl}
+      <Value>Agora que as estruturas estão no sítio, teremos que trocar a {THING:CircuitboardAirlockControl} pela {THING:CircuitboardAdvAirlockControl}
 
-Existem poucas diferenças quando programas uma {THING:CircuitboardAdvAirlockControl}. Primeiro tens de selecionar o {THING:StructureActiveVent} interno e externo, que diferente das portas terás de olhar para o interruptor no {THING:StructureActiveVent} e ver se consegues interagir ou não, é desta forma que consegues decifrar qual o {THING:StructureActiveVent} que corresponde aos do menu.
+Existem poucas diferenças quando programas uma {THING:CircuitboardAdvAirlockControl}. Primeiro tens de selecionar o {THING:StructureActiveVent} interno e externo. Que diferente das portas, terás de olhar para o interruptor no {THING:StructureActiveVent} e ver se consegues interagir ou não. É desta forma que consegues decifrar qual o {THING:StructureActiveVent} que selecionaste no menu.
 
-A última coisa que tens de fazer é selecionar as pressões interna e externa que desejas na parte de cima do painel. </Value>
+A última coisa que tens de fazer é selecionar as pressões interna e externa que desejas na parte de cima do painel da {THING:CircuitboardAdvAirlockControl}. </Value>
     </Record>
     <Record>
       <Key>AdvancedPressureTask1</Key>
-      <Value>Remove as {THING:ItemGlassSheets}.</Value>
+      <Value>Remove as {THING:ItemGlassSheets} da primeira {THING:StructureConsole}.</Value>
     </Record>
     <Record>
       <Key>AdvancedPressureTask2</Key>
@@ -244,7 +244,7 @@ A última coisa que tens de fazer é selecionar as pressões interna e externa q
     </Record>
     <Record>
       <Key>AAdvancedAirLockDescription</Key>
-      <Value>Certifica-te que a airlock funciona pressionando o botão “Alternar para Interior”.</Value>
+      <Value>Certifica-te que a Airlock funciona pressionando o botão “Cycle to Interior”.</Value>
     </Record>
     <Record>
       <Key>AAdvancedAirLockTask1</Key>
