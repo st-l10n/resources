@@ -6681,35 +6681,35 @@
     </Record>
     <Record>
       <Key>ScriptCommandSdse</Key>
-      <Value>1 se o dispositivo estiver aberto, caso contrário, 0</Value>
+      <Value>Register = 1 se dispositivo definido, senão 0.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSdns</Key>
-      <Value>1 se o dispositivo estiver aberto, caso contrário, 0</Value>
+      <Value>Register = 1 se dispositivo não definido, senão 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSlt</Key>
-      <Value>1 se o dispositivo estiver aberto, caso contrário, 0</Value>
+      <Value>Register = 1 se a &lt; b, senão 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSgt</Key>
-      <Value>1 se o dispositivo estiver aberto, caso contrário, 0</Value>
+      <Value>Register = 1 se a &gt; b, senão 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSltz</Key>
-      <Value>1 se o dispositivo estiver aberto, caso contrário, 0</Value>
+      <Value>Register = 1 se a &lt; 0, senão 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSgtz</Key>
-      <Value>1 se o dispositivo estiver aberto, caso contrário, 0</Value>
+      <Value>Register = 1 se a &gt; 0, senão 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandAnd</Key>
-      <Value>Devolve 1 se o dispositivo estiver parado, caso contrário 0</Value>
+      <Value>Register = 1 se a e b não zero, senão 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandOr</Key>
-      <Value>Devolve 1 se o dispositivo estiver parado, caso contrário 0</Value>
+      <Value>Register = 1 se a e/ou b não 0, senão 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandXor</Key>
