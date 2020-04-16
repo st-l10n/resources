@@ -6648,6 +6648,10 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
       <Value>Registro = 1 si a y b son 0, de lo contrario 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandSleep</Key>
+      <Value>Hace una pausa en la ejecución en el IC por un segundo</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandCommand</Key>
       <Value>comando</Value>
     </Record>
@@ -6656,12 +6660,20 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
       <Value>Azul </Value>
     </Record>
     <Record>
+      <Key>RedPodType</Key>
+      <Value>Rojo </Value>
+    </Record>
+    <Record>
       <Key>GreenPodType</Key>
       <Value>Verde </Value>
     </Record>
     <Record>
       <Key>YellowPodType</Key>
       <Value>Amarilla </Value>
+    </Record>
+    <Record>
+      <Key>DialogConfirmResearchUnlock</Key>
+      <Value>¿Quieres desbloquear esta investigación?</Value>
     </Record>
   </Interface>
   <Colors>
