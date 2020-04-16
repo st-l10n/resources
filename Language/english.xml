@@ -3613,22 +3613,6 @@
       <Value>Human Skull</Value>
     </Record>
     <Record>
-      <Key>BluePodType</Key>
-      <Value>Blue </Value>
-    </Record>
-    <Record>
-      <Key>RedPodType</Key>
-      <Value>Red </Value>
-    </Record>
-    <Record>
-      <Key>GreenPodType</Key>
-      <Value>Green </Value>
-    </Record>
-    <Record>
-      <Key>YellowPodType</Key>
-      <Value>Yellow </Value>
-    </Record>
-    <Record>
       <Key>StructurePictureFrameThinMountLandscapeLarge</Key>
       <Value>Structure Picture Frame Thin Mount Landscape Large</Value>
     </Record>
@@ -7052,7 +7036,7 @@
       <Key>CurrentResearchPodType</Key>
       <Value>Returns the pod type stored in the machine.</Value>
     </Record>
-	  <Record>
+    <Record>
       <Key>ResearchFilter</Key>
       <Value>Filter</Value>
     </Record>
@@ -7174,7 +7158,7 @@
     </Record>
     <Record>
       <Key>ScriptCommandSapz</Key>
-      <Value>Register = 1 if |a| 	&lt;= float.epsilon * 8, otherwise 0</Value>
+      <Value>Register = 1 if |a| &lt;= float.epsilon * 8, otherwise 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSnaz</Key>
@@ -7188,7 +7172,7 @@
       <Key>ScriptCommandOr</Key>
       <Value>Register = 1 if a and/or b not 0, otherwise 0</Value>
     </Record>
-     <Record>
+    <Record>
       <Key>ScriptCommandXor</Key>
       <Value>Register = 1 if either a or b not 0, otherwise 0</Value>
     </Record>
@@ -7203,7 +7187,7 @@
     <Record>
       <Key>ScriptCommandDiv</Key>
       <Value>Register = a / b</Value>
-    </Record> 
+    </Record>
     <Record>
       <Key>ScriptCommandMod</Key>
       <Value>Register = a mod b (note: NOT a % b)</Value>
@@ -7262,11 +7246,11 @@
     </Record>
     <Record>
       <Key>ScriptCommandBlez</Key>
-      <Value>Branch to line b if a 	&lt;= 0</Value>
+      <Value>Branch to line b if a &lt;= 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBgtz</Key>
-      <Value>Branch to line b if a 	&gt; 0</Value>
+      <Value>Branch to line b if a &gt; 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBeqz</Key>
@@ -7326,7 +7310,7 @@
     </Record>
     <Record>
       <Key>ScriptCommandBrap</Key>
-      <Value>Relative branch to line d if abs(a - b) 	&lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+      <Value>Relative branch to line d if abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrna</Key>
@@ -7358,7 +7342,7 @@
     </Record>
     <Record>
       <Key>ScriptCommandBrapz</Key>
-      <Value>Relative branch to line c if abs(a) 	&lt;= float.epsilon * 8</Value>
+      <Value>Relative branch to line c if abs(a) &lt;= float.epsilon * 8</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrnaz</Key>
@@ -7378,7 +7362,7 @@
     </Record>
     <Record>
       <Key>ScriptCommandBltal</Key>
-      <Value>Branch to line c if a 	&lt; b and store next line number in ra</Value>
+      <Value>Branch to line c if a &lt; b and store next line number in ra</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBgtal</Key>
@@ -7390,7 +7374,7 @@
     </Record>
     <Record>
       <Key>ScriptCommandBgeal</Key>
-      <Value>Branch to line c if a 	&gt;= b and store next line number in ra</Value>
+      <Value>Branch to line c if a &gt;= b and store next line number in ra</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBeqal</Key>
@@ -7519,6 +7503,30 @@
     <Record>
       <Key>ScriptCommandCommand</Key>
       <Value>command</Value>
+    </Record>
+    <Record>
+      <Key>BluePodType</Key>
+      <Value>Blue </Value>
+    </Record>
+    <Record>
+      <Key>RedPodType</Key>
+      <Value>Red </Value>
+    </Record>
+    <Record>
+      <Key>GreenPodType</Key>
+      <Value>Green </Value>
+    </Record>
+    <Record>
+      <Key>YellowPodType</Key>
+      <Value>Yellow </Value>
+    </Record>
+    <Record>
+      <Key>SettingsResearch</Key>
+      <Value>Researach Pool Selection</Value>
+    </Record>
+    <Record>
+      <Key>DialogConfirmResearchUnlock</Key>
+      <Value>Do you want to Unlock this Research?</Value>
     </Record>
   </Interface>
   <Colors>
