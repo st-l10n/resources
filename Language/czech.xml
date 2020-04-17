@@ -6915,6 +6915,34 @@ Teplota {1}</Value>
       <Value>Registr = 1, pokud A a B jsou 0, jinak 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBle</Key>
+      <Value>Větev na řádek C, pokud A &lt;= B</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBge</Key>
+      <Value>Větev na řádek C, pokud A &gt;= B</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBeq</Key>
+      <Value>Větev na řádek C, pokud A == B</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBne</Key>
+      <Value>Větev na řádek C, pokud A != B</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBap</Key>
+      <Value>Větev na řádek D, pokud abs(A - B) &lt;= max(C * max(abs(A), abs(B)), float.epsilon * 8)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBna</Key>
+      <Value>Větev na řádek D, pokud abs(A - B) &gt; max(C * max(abs(A), abs(B)), float.epsilon * 8)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBltz</Key>
+      <Value>Větev na řádek B, pokud A &lt; 0</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBgez</Key>
       <Value>Větev na řádek B, pokud A &gt;= 0</Value>
     </Record>
@@ -6932,15 +6960,15 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBnez</Key>
-      <Value>Větev do řádku B, pokud A != 0</Value>
+      <Value>Větev na řádek B, pokud A != 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBapz</Key>
-      <Value>Větev do řádku C, pokud abs(A) &lt;= float.epsilon * 8</Value>
+      <Value>Větev na řádek C, pokud abs(A) &lt;= float.epsilon * 8</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBnaz</Key>
-      <Value>Větev do řádku C, pokud abs(A) &gt; float.epsilon * 8</Value>
+      <Value>Větev na řádek C, pokud abs(A) &gt; float.epsilon * 8</Value>
     </Record>
     <Record>
       <Key>ScriptCommandJr</Key>
@@ -7036,7 +7064,7 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBgtal</Key>
-      <Value>Větev do řádku C, pokud A &gt; B, a uložte další číslo řádku v ra</Value>
+      <Value>Větev na řádek C, pokud A &gt; B, a uložte další číslo řádku v ra</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBleal</Key>
@@ -7088,11 +7116,11 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBapzal</Key>
-      <Value>Větev do řádku C, pokud abs(A) &lt;= float.epsilon * 8</Value>
+      <Value>Větev na řádek C, pokud abs(A) &lt;= float.epsilon * 8</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBnazal</Key>
-      <Value>Větev do řádku C, pokud abs(A) &gt; float.epsilon * 8</Value>
+      <Value>Větev na řádek C, pokud abs(A) &gt; float.epsilon * 8</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSqrt</Key>
