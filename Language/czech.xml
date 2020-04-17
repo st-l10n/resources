@@ -6875,6 +6875,34 @@ Teplota {1}</Value>
       <Value>Registr = 1, pokud A a B jsou 0, jinak 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBapzal</Key>
+      <Value>Větev do řádku C, pokud abs(A) &lt;= float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnazal</Key>
+      <Value>Větev do řádku C, pokud abs(A) &gt; float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSqrt</Key>
+      <Value>Registr = druhá odmocnina A</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandRound</Key>
+      <Value>Registr = A zaokrouhlené na nejbližší celé číslo</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandTrunc</Key>
+      <Value>Registr = A s odstraněnou zlomkovou částí</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandCeil</Key>
+      <Value>Registr = nejmenší celé číslo větší než A</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandFloor</Key>
+      <Value>Registr = největší celé číslo menší než A</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandMax</Key>
       <Value>Registr = max A nebo B</Value>
     </Record>
