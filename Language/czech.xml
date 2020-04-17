@@ -6811,6 +6811,10 @@ Teplota {1}</Value>
       <Value>Multiplikátor terénních nepořádků</Value>
     </Record>
     <Record>
+      <Key>ActivateResearch</Key>
+      <Value>Zahájit výzkumný proces.</Value>
+    </Record>
+    <Record>
       <Key>CurrentResearchPodType</Key>
       <Value>Vrátí typ pod uložený ve stroji.</Value>
     </Record>
@@ -6833,6 +6837,34 @@ Teplota {1}</Value>
     <Record>
       <Key>ResearchCancel</Key>
       <Value>Zrušit</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandL</Key>
+      <Value>Načte zařízení var pro registraci.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandS</Key>
+      <Value>Uloží hodnotu registru do var na zařízení.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandLS</Key>
+      <Value>Načte slot var na zařízení k registraci.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandLR</Key>
+      <Value>Načte činidlo z reagenčního modulu zařízení k registraci.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandAlias</Key>
+      <Value>Registr štítků nebo odkaz na zařízení s názvem, odkazy na zařízení také ovlivňují to, co se zobrazuje na šroubech na základně IC.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandDefine</Key>
+      <Value>Vytvoří štítek, který bude v programu nahrazen poskytnutou hodnotou.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandMove</Key>
+      <Value>Registr = číslo poskytovatele nebo hodnota registru.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandAdd</Key>
@@ -6881,6 +6913,14 @@ Teplota {1}</Value>
     <Record>
       <Key>ScriptCommandNor</Key>
       <Value>Registr = 1, pokud A a B jsou 0, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrapz</Key>
+      <Value>Relativní větev k řádku C, pokud abs(A) &lt;= float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrnaz</Key>
+      <Value>Relativní větev k řádku C, pokud abs(A) &gt; float.epsilon * 8</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBdseal</Key>
