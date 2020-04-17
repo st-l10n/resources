@@ -6835,6 +6835,14 @@ Teplota {1}</Value>
       <Value>Zrušit</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandAdd</Key>
+      <Value>Registr = A + B.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSub</Key>
+      <Value>Registr = A - B.</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandSdse</Key>
       <Value>Registr = 1, pokud je zařízení nastaveno, jinak 0.</Value>
     </Record>
@@ -6873,6 +6881,18 @@ Teplota {1}</Value>
     <Record>
       <Key>ScriptCommandNor</Key>
       <Value>Registr = 1, pokud A a B jsou 0, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBdseal</Key>
+      <Value>Pokud je zařízení nastaveno, přejděte na řádek A a uložte další číslo řádku</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBdnsal</Key>
+      <Value>Pokud není zařízení nastaveno, přejděte na řádek A a uložte další číslo řádku</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBltal</Key>
+      <Value>Větev na řádek C, pokud A &lt; B, a uložte další číslo řádku v ra</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBgtal</Key>
