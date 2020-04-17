@@ -6891,12 +6891,48 @@ Teplota {1}</Value>
       <Value>Registr = 1, pokud je A &gt; B, jinak 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandSle</Key>
+      <Value>Registr = 1, pokud A &lt;= B, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSge</Key>
+      <Value>Registr = 1, pokud A &gt;= B, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSeq</Key>
+      <Value>Registr = 1, pokud A == B, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSne</Key>
+      <Value>Registr = 1, pokud A != B, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSap</Key>
+      <Value>Registr = 1, pokud abs(A - B) &lt;= max(C * max(abs(A), abs(B)), float.epsilon * 8), jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSna</Key>
+      <Value>Registr = 1, pokud abs(A - B) &gt; max(C * max(abs(A), abs(B)), float.epsilon * 8), jinak 0</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandSltz</Key>
       <Value>Registr = 1, pokud je A &lt; 0, jinak 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSgtz</Key>
       <Value>Registr = 1, pokud je A &gt; 0, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSlez</Key>
+      <Value>Registr = 1, pokud A &lt;= 0, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSgez</Key>
+      <Value>Registr = 1, pokud A &gt;= 0, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSeqz</Key>
+      <Value>Registr = 1, pokud A == 0, jinak 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSnez</Key>
