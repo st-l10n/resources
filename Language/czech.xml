@@ -6899,6 +6899,18 @@ Teplota {1}</Value>
       <Value>Registr = 1, pokud je A &gt; 0, jinak 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandSnez</Key>
+      <Value>Registr = 1, pokud A != 0, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSapz</Key>
+      <Value>Registr = 1, pokud |A| &lt;= float.epsilon * 8, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSnaz</Key>
+      <Value>Registr = 1, pokud |A| &gt; float.epsilon, jinak 0</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandAnd</Key>
       <Value>Registr = 1, pokud A a B nejsou nula, jinak 0</Value>
     </Record>
@@ -6913,6 +6925,38 @@ Teplota {1}</Value>
     <Record>
       <Key>ScriptCommandNor</Key>
       <Value>Registr = 1, pokud A a B jsou 0, jinak 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandMul</Key>
+      <Value>Registr = A * B</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandDiv</Key>
+      <Value>Registr = A / B</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandMod</Key>
+      <Value>Registr = A mod B (poznámka: NE A % B)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJ</Key>
+      <Value>Skok provedení řádku A</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBdse</Key>
+      <Value>Větev na řádek A, pokud je zařízení D nastaveno</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBdns</Key>
+      <Value>Větev na řádek A, pokud zařízení D není nastaveno</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBlt</Key>
+      <Value>Větev na řádek C, pokud A &lt; B</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgt</Key>
+      <Value>Větev na řádek C, pokud A &gt; B</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBle</Key>
