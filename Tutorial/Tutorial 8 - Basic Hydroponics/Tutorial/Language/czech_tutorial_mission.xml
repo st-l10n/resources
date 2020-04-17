@@ -48,7 +48,7 @@
     </Record>
     <Record>
       <Key>WaterTanksAndWrenchesTask2</Key>
-      <Value>Nakonec pomocí {THING:ItemWrench} zabalte {THING:StructureAutolathe} do {THING:ItemKitAutolathe}.</Value>
+      <Value>Pomocí {THING:ItemWrench} propojte {THING:DynamicGasCanisterWater} s {THING:ItemTankConnector}.</Value>
     </Record>
     <Record>
       <Key>WaterNetworksTask1</Key>
@@ -60,27 +60,27 @@
     </Record>
     <Record>
       <Key>KeepingItTidyTask1</Key>
-      <Value>Vezměte {THING:ItemCopperIngot} z oranžové bedny.</Value>
+      <Value>Vezměte {THING:ItemKitCompositeFloorGrating} z bedny.</Value>
     </Record>
     <Record>
       <Key>KeepingItTidyTask2</Key>
-      <Value>Umístěte {THING:StructureActiveVent} do zvýrazněné oblasti.</Value>
+      <Value>Umístěte {THING:StructureCompositeFloorGrating} na zvýrazněné místo.</Value>
     </Record>
     <Record>
       <Key>AutomatedHydroponicsTask1</Key>
-      <Value>Zapněte {THING:ItemTablet}</Value>
+      <Value>Zapněte {THING:ItemKitHydroponicStation}.</Value>
     </Record>
     <Record>
       <Key>AutomatedHydroponicsTask2</Key>
-      <Value>Vezměte {THING:ItemKitAutolathe}.</Value>
+      <Value>Vezměte dříve sklizenou {THING:ItemPotato}.</Value>
     </Record>
     <Record>
       <Key>AutomatedHydroponicsTask3</Key>
-      <Value>Vložte {THING:ItemDataDisk} do {THING:StructureConsole}.</Value>
+      <Value>Zasaďte {THING:ItemPotato} do {THING:ItemKitHydroponicStation}.</Value>
     </Record>
     <Record>
       <Key>HonestWorkTask2</Key>
-      <Value>Vytiskni {THING:ItemPassiveVent}.</Value>
+      <Value>Skliďte {THING:ItemPotato}.</Value>
     </Record>
   </Interface>
 </Language>
