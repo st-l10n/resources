@@ -6836,19 +6836,19 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSdse</Key>
-      <Value>1, pokud je zařízení otevřeno, jinak 0</Value>
+      <Value>Registr = 1, pokud je zařízení nastaveno, jinak 0.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSdns</Key>
-      <Value>1, pokud je zařízení otevřeno, jinak 0</Value>
+      <Value>Registr = 1, pokud zařízení není nastaveno, jinak 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSlt</Key>
-      <Value>1, pokud je zařízení otevřeno, jinak 0</Value>
+      <Value>Registr = 1, pokud je A &lt; B, jinak 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSgt</Key>
-      <Value>1, pokud je zařízení otevřeno, jinak 0</Value>
+      <Value>Registr = 1, pokud je A &gt; B, jinak 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSltz</Key>
@@ -6879,8 +6879,16 @@ Teplota {1}</Value>
       <Value>ZASTARALÉ</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandCommand</Key>
+      <Value>příkaz</Value>
+    </Record>
+    <Record>
       <Key>BluePodType</Key>
       <Value>Modrá </Value>
+    </Record>
+    <Record>
+      <Key>RedPodType</Key>
+      <Value>Červená </Value>
     </Record>
     <Record>
       <Key>GreenPodType</Key>
@@ -6889,6 +6897,14 @@ Teplota {1}</Value>
     <Record>
       <Key>YellowPodType</Key>
       <Value>Žlutá </Value>
+    </Record>
+    <Record>
+      <Key>SettingsResearch</Key>
+      <Value>Výběr výzkumného fondu</Value>
+    </Record>
+    <Record>
+      <Key>DialogConfirmResearchUnlock</Key>
+      <Value>Chcete odemknout tento výzkum?</Value>
     </Record>
   </Interface>
   <Colors>
