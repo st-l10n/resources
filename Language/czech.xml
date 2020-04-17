@@ -6875,6 +6875,26 @@ Teplota {1}</Value>
       <Value>Registr = 1, pokud A a B jsou 0, jinak 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBnaal</Key>
+      <Value>Větev na řádek D, pokud abs (A - B) &lt;= max (c * max (abs(A), abs(B)), float.epsilon * 8) a uložte další číslo řádku do ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBltzal</Key>
+      <Value>Větev na řádek B, pokud A &lt; 0, a další číslo řádku uložte do ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgezal</Key>
+      <Value>Větev na řádek B, pokud A &gt;= 0, a další číslo řádku uložte do ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBlezal</Key>
+      <Value>Větev na řádek B, pokud A &lt;= 0, a další číslo řádku uložte do ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgtzal</Key>
+      <Value>Větev na řádek B, pokud A &gt; 0, a další číslo řádku uložte do ra</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBeqzal</Key>
       <Value>Větev na řádek B, pokud A == 0, a další číslo řádku uložte do ra</Value>
     </Record>
