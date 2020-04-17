@@ -6915,6 +6915,50 @@ Teplota {1}</Value>
       <Value>Registr = 1, pokud A a B jsou 0, jinak 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBrge</Key>
+      <Value>Relativní skok na řádek C, pokud A &gt;= B</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBreq</Key>
+      <Value>Relativní větev k řádku C, pokud A == B</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrne</Key>
+      <Value>Relativní větev k řádku C, pokud A != B</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrap</Key>
+      <Value>Relativní větev k řádku D, pokud abs(A - B) &lt;= max(C * max(abs(A), abs(B)), float.epsilon * 8)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrna</Key>
+      <Value>Relativní větev k řádku D, pokud abs(A - B) &gt; max(C * max(abs(A), abs(B)), float.epsilon * 8)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrltz</Key>
+      <Value>Relativní větev k řádku B, pokud A &lt; 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrgez</Key>
+      <Value>Relativní větev k řádku B, pokud A &gt;= 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrlez</Key>
+      <Value>Relativní větev k řádku B, pokud A &lt;= 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrgtz</Key>
+      <Value>Relativní větev k řádku B, pokud A &gt; 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBreqz</Key>
+      <Value>Relativní větev k řádku B, pokud A == 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrnez</Key>
+      <Value>Relativní větev k řádku B, pokud A != 0</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBrapz</Key>
       <Value>Relativní větev k řádku C, pokud abs(A) &lt;= float.epsilon * 8</Value>
     </Record>
