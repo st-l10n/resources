@@ -6852,27 +6852,27 @@ Teplota {1}</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSltz</Key>
-      <Value>1, pokud je zařízení otevřeno, jinak 0</Value>
+      <Value>Registr = 1, pokud je A &lt; 0, jinak 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSgtz</Key>
-      <Value>1, pokud je zařízení otevřeno, jinak 0</Value>
+      <Value>Registr = 1, pokud je A &gt; 0, jinak 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandAnd</Key>
-      <Value>Vrátí hodnotu 1, pokud je zařízení aktuálně nečinné, jinak 0</Value>
+      <Value>Registr = 1, pokud A a B nejsou nula, jinak 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandOr</Key>
-      <Value>Vrátí hodnotu 1, pokud je zařízení aktuálně nečinné, jinak 0</Value>
+      <Value>Registr = 1, pokud A a/nebo B není 0, jinak 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandXor</Key>
-      <Value>Vrátí hodnotu 1, pokud je zařízení aktuálně nečinné, jinak 0</Value>
+      <Value>Registr = 1, pokud A nebo B není 0, jinak 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandNor</Key>
-      <Value>Vrátí hodnotu 1, pokud je zařízení aktuálně nečinné, jinak 0</Value>
+      <Value>Registr = 1, pokud A a B jsou 0, jinak 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandLabel</Key>
