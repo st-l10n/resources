@@ -6875,8 +6875,52 @@ Teplota {1}</Value>
       <Value>Registr = 1, pokud A a B jsou 0, jinak 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandAbs</Key>
+      <Value>Registr = absolutní hodnota A</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandLog</Key>
+      <Value>Registr = log(A)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandExp</Key>
+      <Value>Registr = exp(A)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandRand</Key>
+      <Value>Registr = náhodná hodnota X s 0 &lt;= X &lt; 1</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandYield</Key>
+      <Value>Pozastaví provádění pro 1 tick</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandLabel</Key>
       <Value>ZASTARALÉ</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandPeek</Key>
+      <Value>Registr = hodnota v horní části zásobníku</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandPush</Key>
+      <Value>Posune hodnotu A do zásobníku při sp a přírůstcích sp</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandPop</Key>
+      <Value>Registr = hodnota v horní části zásobníku a sníží sp</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandHcf</Key>
+      <Value>Zastavit a vznítit</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSelect</Key>
+      <Value>Registr = B, pokud A je nenulová, jinak C</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSleep</Key>
+      <Value>Pozastaví provádění na IC na několik sekund</Value>
     </Record>
     <Record>
       <Key>ScriptCommandCommand</Key>
