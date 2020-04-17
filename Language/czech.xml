@@ -6915,6 +6915,62 @@ Teplota {1}</Value>
       <Value>Registr = 1, pokud A a B jsou 0, jinak 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBgez</Key>
+      <Value>Větev na řádek B, pokud A &gt;= 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBlez</Key>
+      <Value>Větev na řádek B, pokud A &lt;= 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgtz</Key>
+      <Value>Větev na řádek B, pokud A &gt; 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBeqz</Key>
+      <Value>Větev na řádek B, pokud A == 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnez</Key>
+      <Value>Větev do řádku B, pokud A != 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBapz</Key>
+      <Value>Větev do řádku C, pokud abs(A) &lt;= float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnaz</Key>
+      <Value>Větev do řádku C, pokud abs(A) &gt; float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJr</Key>
+      <Value>Relativní skok na čáru A</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJr</Key>
+      <Value>Relativní skok na čáru A</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrdse</Key>
+      <Value>Relativní skok na řádek A, pokud je zařízení nastaveno</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrdns</Key>
+      <Value>Relativní skok na řádek A, pokud zařízení není nastaveno</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrlt</Key>
+      <Value>Relativní skok na čáru C, pokud A &lt; B</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrgt</Key>
+      <Value>Relativní skok na čáru C, pokud A &gt; B</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrle</Key>
+      <Value>Relativní skok na čáru C, pokud A &lt;= B</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBrge</Key>
       <Value>Relativní skok na řádek C, pokud A &gt;= B</Value>
     </Record>
