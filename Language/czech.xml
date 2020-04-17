@@ -6875,6 +6875,14 @@ Teplota {1}</Value>
       <Value>Registr = 1, pokud A a B jsou 0, jinak 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBeqzal</Key>
+      <Value>Větev na řádek B, pokud A == 0, a další číslo řádku uložte do ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnezal</Key>
+      <Value>Větev na řádek B, pokud A != 0, a další číslo řádku uložte do ra</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBapzal</Key>
       <Value>Větev do řádku C, pokud abs(A) &lt;= float.epsilon * 8</Value>
     </Record>
