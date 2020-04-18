@@ -7,6 +7,14 @@
       <Value>#7 Base des sas</Value>
     </Record>
     <Record>
+      <Key>BasicHydroponicsDescription</Key>
+      <Value>Cultivez des pommes de terre dans l’espace avec le tutoriel Hydroponique.</Value>
+    </Record>
+    <Record>
+      <Key>PortableHydroponics</Key>
+      <Value>Station Hydroponique portable</Value>
+    </Record>
+    <Record>
       <Key>PortableHydroponicsTask1</Key>
       <Value>Ramasser la {THING:ItemTablet}</Value>
     </Record>
@@ -19,8 +27,20 @@
       <Value>Insérez la carte de localisation dans la {THING:ItemTablet}.</Value>
     </Record>
     <Record>
+      <Key>PortableHydroponicsTask4</Key>
+      <Value>Plantez une {THING:ItemPotato} dans l&apos;un des emplacements de {THING:DynamicHydroponics}.</Value>
+    </Record>
+    <Record>
+      <Key>PotatosInSpace</Key>
+      <Value>Pommes de terre dans l’espace</Value>
+    </Record>
+    <Record>
       <Key>PotatosInSpaceDescription</Key>
       <Value>Ouvrez l&apos;inventaire de la {THING:ItemEvaSuit}</Value>
+    </Record>
+    <Record>
+      <Key>PotatosInSpaceTask1</Key>
+      <Value>Attendez que la plante pousse. Note: Nous avons accéléré le taux de croissance pour ce tutoriel.</Value>
     </Record>
     <Record>
       <Key>PotatosInSpaceTask2</Key>
@@ -77,6 +97,10 @@
     <Record>
       <Key>AutomatedHydroponicsTask3</Key>
       <Value>Insérez le {THING:ItemDataDisk} dans la {THING:StructureConsole}.</Value>
+    </Record>
+    <Record>
+      <Key>HonestWork</Key>
+      <Value>Travail honnête</Value>
     </Record>
     <Record>
       <Key>HonestWorkTask2</Key>
