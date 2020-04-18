@@ -3546,7 +3546,7 @@
     </Record>
     <Record>
       <Key>StructureQuarryBasic</Key>
-      <Value>Structure Machine de recherche</Value>
+      <Value>Structure Foreuse simple</Value>
     </Record>
     <Record>
       <Key>QuarryDrillBitBasic</Key>
@@ -3570,7 +3570,7 @@
     </Record>
     <Record>
       <Key>ItemKitPictureFrame</Key>
-      <Value>Vanne</Value>
+      <Value>Kit de cadre photo</Value>
     </Record>
   </Things>
   <Slots>
@@ -6379,8 +6379,44 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>Réinitialiser</Value>
     </Record>
     <Record>
+      <Key>Construction Supplies 2</Key>
+      <Value>Fournitures de construction 2</Value>
+    </Record>
+    <Record>
+      <Key>Organic Supplies</Key>
+      <Value>Fournitures biologiques</Value>
+    </Record>
+    <Record>
+      <Key>Organic Supplies 1</Key>
+      <Value>Fournitures biologiques 1</Value>
+    </Record>
+    <Record>
+      <Key>Organic Supplies 2</Key>
+      <Value>Fournitures biologiques 2</Value>
+    </Record>
+    <Record>
+      <Key>Consumables Supplies</Key>
+      <Value>Fournitures consommables</Value>
+    </Record>
+    <Record>
+      <Key>Portable Appliance Kits</Key>
+      <Value>Kits d&apos;appareils portables</Value>
+    </Record>
+    <Record>
+      <Key>Misc Crate</Key>
+      <Value>Fournitures diverses</Value>
+    </Record>
+    <Record>
+      <Key>Communications Crate</Key>
+      <Value>Fournitures de communication</Value>
+    </Record>
+    <Record>
       <Key>SettingsTerrainClutterMultiplier</Key>
       <Value>Encombrement du terrain</Value>
+    </Record>
+    <Record>
+      <Key>ActivateResearch</Key>
+      <Value>Démarre le processus de recherche.</Value>
     </Record>
     <Record>
       <Key>CurrentResearchPodType</Key>
@@ -6392,7 +6428,11 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
     </Record>
     <Record>
       <Key>ResearchTitle</Key>
-      <Value>Réinitialiser</Value>
+      <Value>Rechercher</Value>
+    </Record>
+    <Record>
+      <Key>ResearchResourceTitle</Key>
+      <Value>Ressources</Value>
     </Record>
     <Record>
       <Key>ResearchConfirm</Key>
@@ -6443,8 +6483,40 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>Indique 1 si le périphérique est actuellement inactif, sinon 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandMul</Key>
+      <Value>Stocke a * b dans le registre</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandDiv</Key>
+      <Value>Stocke a / b dans le registre</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandLog</Key>
+      <Value>Stocke log(a) dans le registre</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandExp</Key>
+      <Value>Stocke exp(a) dans le registre</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSelect</Key>
+      <Value>Stocke b dans le registre si a est différent de zéro, sinon c</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSleep</Key>
+      <Value>Met l&apos;exécution du CI en pause pour a seconde(s)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandCommand</Key>
+      <Value>commande</Value>
+    </Record>
+    <Record>
       <Key>BluePodType</Key>
       <Value>Bleu:</Value>
+    </Record>
+    <Record>
+      <Key>RedPodType</Key>
+      <Value>Rouge</Value>
     </Record>
     <Record>
       <Key>GreenPodType</Key>
@@ -6453,6 +6525,14 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
     <Record>
       <Key>YellowPodType</Key>
       <Value>Coloration jaune</Value>
+    </Record>
+    <Record>
+      <Key>SettingsResearch</Key>
+      <Value>Sélection du groupe de recherches</Value>
+    </Record>
+    <Record>
+      <Key>DialogConfirmResearchUnlock</Key>
+      <Value>Souhaitez-vous déverrouiller cette recherche ?</Value>
     </Record>
   </Interface>
   <Colors>
