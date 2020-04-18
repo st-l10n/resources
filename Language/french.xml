@@ -6375,8 +6375,16 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>Réinitialiser les fenêtres</Value>
     </Record>
     <Record>
+      <Key>ResetInventoryDescription</Key>
+      <Value>Cela va replacer toutes les fenêtres à leur position d&apos;origine.</Value>
+    </Record>
+    <Record>
       <Key>ConfirmReset</Key>
       <Value>Réinitialiser</Value>
+    </Record>
+    <Record>
+      <Key>Construction Supplies 1</Key>
+      <Value>Fournitures de construction 1</Value>
     </Record>
     <Record>
       <Key>Construction Supplies 2</Key>
@@ -6443,6 +6451,22 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>Annuler</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandL</Key>
+      <Value>Charge la variable du dispositif et la stocke dans le registre</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandS</Key>
+      <Value>Applique la valeur du registre à la variable du dispositif</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandAlias</Key>
+      <Value>Associe un nom à une référence de registre ou de dispositif, les références de dispositif influencent également ce qui s&apos;affiche sur les vis du support de CI.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandDefine</Key>
+      <Value>Crée une étiquette qui sera remplacée dans tout le programme par la valeur fournie</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandSdse</Key>
       <Value>1 si l&apos;appareil est ouvert, sinon 0</Value>
     </Record>
@@ -6491,12 +6515,40 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>Stocke a / b dans le registre</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBnazal</Key>
+      <Value>Saute à la ligne c si abs(a) &gt; float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSqrt</Key>
+      <Value>Stocke la racine carrée de a dans le registre</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandLog</Key>
       <Value>Stocke log(a) dans le registre</Value>
     </Record>
     <Record>
       <Key>ScriptCommandExp</Key>
       <Value>Stocke exp(a) dans le registre</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandYield</Key>
+      <Value>Pause de l&apos;exécution pour 1 cycle</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandPeek</Key>
+      <Value>Stocke la valeur du haut de la pile dans le registre</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandPush</Key>
+      <Value>Pousse la valeur de a dans la pile et incrémente sp</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandPop</Key>
+      <Value>Stocke la valeur du haut de la pile et décrémente sp</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandHcf</Key>
+      <Value>Stoppe l&apos;exécution et grille le circuit intégré</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSelect</Key>
