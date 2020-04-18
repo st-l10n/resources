@@ -55,12 +55,28 @@
       <Value>Placez le {THING:ItemAreaPowerControl} dans la zone en surbrillance.</Value>
     </Record>
     <Record>
+      <Key>TankConnectorsWhatAreThey</Key>
+      <Value>Connecteurs de réservoir - Que sont-ils ?</Value>
+    </Record>
+    <Record>
+      <Key>TankConnectorsWhaAreTheyDescription</Key>
+      <Value>Les connecteurs de réservoir sont utilisés pour relier un {THING:DynamicGasCanisterWater} aux réseaux de tuyaux, qui peuvent être utilisés pour transporter du gaz et de l’eau.</Value>
+    </Record>
+    <Record>
       <Key>TankConnectorsWhatAreTheyTask1</Key>
       <Value>Ramasser la {THING:ItemTablet}</Value>
     </Record>
     <Record>
       <Key>TankConnectorsWhatAreTheyTask2</Key>
       <Value>Construisez un {THING:StructureGasSensor} à l&apos;endroit mis en surbrillance</Value>
+    </Record>
+    <Record>
+      <Key>WaterTanksAndWrenches</Key>
+      <Value>Réservoirs d’eau et clés</Value>
+    </Record>
+    <Record>
+      <Key>WaterTanksAndWrenchesDescription</Key>
+      <Value>Pour joindre un {THING:DynamicGasCanisterWater} à un {THING:ItemTankConnector}, placez le {THING:DynamicGasCanisterWater} sur le dessus de la {THING:ItemTankConnector} et connectez-le à l’aide d’une {THING:ItemWrench}.</Value>
     </Record>
     <Record>
       <Key>WaterTanksAndWrenches1</Key>
@@ -71,6 +87,14 @@
       <Value> Enfin, utilisez le {THING:ItemWrench} pour emballer le {THING:StructureAutolathe} dans un {THING:ItemKitAutolathe}.</Value>
     </Record>
     <Record>
+      <Key>WaterNetworks</Key>
+      <Value>Réseaux d’eau</Value>
+    </Record>
+    <Record>
+      <Key>WaterNetworksDescription</Key>
+      <Value>Utilisez les tuyaux bleus pour connecter le {THING:ItemTankConnector} à la {THING:StructureHydroponicsStation}. L’eau s’écoulera dans l’appareil jusqu’à ce que le {THING:DynamicGasCanisterWater} soit vide.</Value>
+    </Record>
+    <Record>
       <Key>WaterNetworksTask1</Key>
       <Value>Ramasser le {THING:ItemKitAutolathe}.</Value>
     </Record>
@@ -79,12 +103,28 @@
       <Value>Placez un autre {THING:StructureActiveVent} à l&apos;endroit en surbrillance.</Value>
     </Record>
     <Record>
+      <Key>KeepingItTidy</Key>
+      <Value>Garder les choses en ordre</Value>
+    </Record>
+    <Record>
+      <Key>KeepingItTidyDescription</Key>
+      <Value>Le {THING:ItemKitCompositeFloorGrating} est un excellent moyen de cacher les tuyaux et les fils montés sur le sol. Il permet également un meilleur mouvement tout en marchant autour de votre base.</Value>
+    </Record>
+    <Record>
       <Key>KeepingItTidyTask1</Key>
       <Value>Prenez un {THING:ItemCopperIngot} dans la caisse orange.</Value>
     </Record>
     <Record>
       <Key>KeepingItTidyTask2</Key>
       <Value>Placez un autre {THING:StructureActiveVent} à l&apos;endroit en surbrillance.</Value>
+    </Record>
+    <Record>
+      <Key>AutomatedHydroponics</Key>
+      <Value>Hydroponique automatisé</Value>
+    </Record>
+    <Record>
+      <Key>AutomatedHydroponicsDescription</Key>
+      <Value>Vous pouvez maintenant activer le nouveau {THING:ItemKitHydroponicStation} et planter vos {THING:ItemPotato}. Il a intégré des lumières qui garderont vos plantes heureuses, même dans des conditions de faible luminosité.</Value>
     </Record>
     <Record>
       <Key>AutomatedHydroponicsTask1</Key>
@@ -101,6 +141,14 @@
     <Record>
       <Key>HonestWork</Key>
       <Value>Travail honnête</Value>
+    </Record>
+    <Record>
+      <Key>HonestWorkDescription</Key>
+      <Value>Vous êtes maintenant autosuffisant avec une source constante de nourriture ! Maintenant, laissez la {THING:ItemPotato} pousser jusqu’à ce qu’elle soit prête à être récoltée.</Value>
+    </Record>
+    <Record>
+      <Key>HonestWorkTask1</Key>
+      <Value>Attendez que la {THING:ItemPotato} se développe pleinement.</Value>
     </Record>
     <Record>
       <Key>HonestWorkTask2</Key>
