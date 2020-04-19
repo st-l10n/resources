@@ -55,6 +55,10 @@
       <Value>Umístěte {THING:ItemKitHydroponicStation} na zvýrazněné místo.</Value>
     </Record>
     <Record>
+      <Key>TankConnectorsWhaAreTheyDescription</Key>
+      <Value>Konektory nádrží se používají k připojení {THING:DynamicGasCanisterWater} k potrubním sítím, které lze použít k rozvodu plynu a vody.</Value>
+    </Record>
+    <Record>
       <Key>TankConnectorsWhatAreTheyTask1</Key>
       <Value>Vezměte {THING:ItemTankConnector}.</Value>
     </Record>
@@ -75,12 +79,20 @@
       <Value>Vodovodní sítě</Value>
     </Record>
     <Record>
+      <Key>WaterNetworksDescription</Key>
+      <Value>Pomocí modrých trubek propojte {THING:ItemTankConnector} s {THING:StructureHydroponicsStation}. Voda bude proudit do jednotky, dokud nebude {THING:DynamicGasCanisterWater} prázdný.</Value>
+    </Record>
+    <Record>
       <Key>WaterNetworksTask1</Key>
       <Value>Vezměte modrá {THING:ItemKitPipe}.</Value>
     </Record>
     <Record>
       <Key>WaterNetworksTask2</Key>
       <Value>Umístěte {THING:StructurePipeStraight} na zvýrazněné místo.</Value>
+    </Record>
+    <Record>
+      <Key>KeepingItTidyDescription</Key>
+      <Value>{THING:ItemKitCompositeFloorGrating} je skvělý způsob, jak skrýt potrubí a kabely namontované na podlaze. Také umožňuje lepší pohyb při chůzi kolem vaší základny.</Value>
     </Record>
     <Record>
       <Key>KeepingItTidyTask1</Key>
