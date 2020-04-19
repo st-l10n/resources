@@ -6732,6 +6732,18 @@
       <Value>Pausa a execução por 1 tick</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandPush</Key>
+      <Value>Empurra o valor de a para a stack no sp e incrementa o sp</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandPop</Key>
+      <Value>Register = valor no topo da stack e decrementa o sp</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandHcf</Key>
+      <Value>Parar e falhar</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandSelect</Key>
       <Value>Register = b se a não zero, senão c</Value>
     </Record>
