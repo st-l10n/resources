@@ -6720,6 +6720,26 @@
       <Value>Register = 1 se a e b for 0, senão 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBgezal</Key>
+      <Value>Salta para linha b se a &gt;= 0 e guarda a próxima linha no ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBlezal</Key>
+      <Value>Salta para linha b se a &lt;= 0 e guarda a próxima linha no ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgtzal</Key>
+      <Value>Salta para linha b se a &gt; 0 e guarda a próxima linha no ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBeqzal</Key>
+      <Value>Salta para linha b se a == 0 e guarda a próxima linha no ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnezal</Key>
+      <Value>Salta para linha b se a != 0 e guarda a próxima linha no ra</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBapzal</Key>
       <Value>Salta para linha c se abs(a) &lt;= float.epsilon * 8</Value>
     </Record>
