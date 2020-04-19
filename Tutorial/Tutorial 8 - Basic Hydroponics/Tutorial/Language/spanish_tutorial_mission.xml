@@ -35,12 +35,20 @@
       <Value>Coloca el {THING:ItemKitHydroponicStation} en la posición resaltada.</Value>
     </Record>
     <Record>
+      <Key>TankConnectorsWhatAreThey</Key>
+      <Value>Conectores del tanque - ¿Qué son?</Value>
+    </Record>
+    <Record>
       <Key>TankConnectorsWhatAreTheyTask1</Key>
       <Value>Recoge la {THING:ItemTankConnector}.</Value>
     </Record>
     <Record>
       <Key>TankConnectorsWhatAreTheyTask2</Key>
       <Value>Coloca el {THING:StructureTankConnector} en la posición resaltada.</Value>
+    </Record>
+    <Record>
+      <Key>WaterTanksAndWrenches</Key>
+      <Value>Tanques de agua y llaves</Value>
     </Record>
     <Record>
       <Key>WaterTanksAndWrenches1</Key>
@@ -51,6 +59,10 @@
       <Value>Use la {THING:ItemWrench} para conectar la {THING:DynamicGasCanisterWater} al {THING:ItemTankConnector}.</Value>
     </Record>
     <Record>
+      <Key>WaterNetworks</Key>
+      <Value>Sistemas de agua</Value>
+    </Record>
+    <Record>
       <Key>WaterNetworksTask1</Key>
       <Value>Recoge el {THING:ItemKitPipe} azul.</Value>
     </Record>
@@ -59,12 +71,20 @@
       <Value>Coloca otra {THING:StructurePipeStraight} en la posición resaltada.</Value>
     </Record>
     <Record>
+      <Key>KeepingItTidy</Key>
+      <Value>Manteniéndolo ordenado</Value>
+    </Record>
+    <Record>
       <Key>KeepingItTidyTask1</Key>
       <Value>Recoge la {THING:ItemKitCompositeFloorGrating} de la caja.</Value>
     </Record>
     <Record>
       <Key>KeepingItTidyTask2</Key>
       <Value>Coloca otra {THING:StructureCompositeFloorGrating} en la posición resaltada.</Value>
+    </Record>
+    <Record>
+      <Key>AutomatedHydroponics</Key>
+      <Value>Hidroponía automatizada</Value>
     </Record>
     <Record>
       <Key>AutomatedHydroponicsTask1</Key>
@@ -76,11 +96,23 @@
     </Record>
     <Record>
       <Key>AutomatedHydroponicsTask3</Key>
-      <Value>Inserta el {THING:ItemDataDisk} en la {THING:StructureConsole}.</Value>
+      <Value>Planten la {THING:ItemPotato} en la {THING:ItemKitHydroponicStation}.</Value>
+    </Record>
+    <Record>
+      <Key>HonestWork</Key>
+      <Value>Trabajo honrado</Value>
+    </Record>
+    <Record>
+      <Key>HonestWorkDescription</Key>
+      <Value>¡Se ha vuelto autosuficiente con una fuente constante de comida! Ahora deja que la {THING:ItemPotato} crezca hasta que esté lista para cosechar.</Value>
+    </Record>
+    <Record>
+      <Key>HonestWorkTask1</Key>
+      <Value>Espera a que la {THING:ItemPotato} crezca completamente.</Value>
     </Record>
     <Record>
       <Key>HonestWorkTask2</Key>
-      <Value>Imprime un {THING:ItemPassiveVent}.</Value>
+      <Value>Cosechar una {THING:ItemPotato}.</Value>
     </Record>
   </Interface>
 </Language>
