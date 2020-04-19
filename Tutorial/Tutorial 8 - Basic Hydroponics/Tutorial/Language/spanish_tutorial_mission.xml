@@ -73,6 +73,10 @@ Esto significa que la {THING:DynamicHydroponics} debe estar en un lugar iluminad
       <Value>Conectores del tanque - ¿Qué son?</Value>
     </Record>
     <Record>
+      <Key>TankConnectorsWhaAreTheyDescription</Key>
+      <Value>Los conectores de los tanques se utilizan para conectar una {THING:DynamicGasCanisterWater} a las redes de tuberías, que pueden utilizarse para transportar gas y agua.</Value>
+    </Record>
+    <Record>
       <Key>TankConnectorsWhatAreTheyTask1</Key>
       <Value>Recoge la {THING:ItemTankConnector}.</Value>
     </Record>
@@ -83,6 +87,10 @@ Esto significa que la {THING:DynamicHydroponics} debe estar en un lugar iluminad
     <Record>
       <Key>WaterTanksAndWrenches</Key>
       <Value>Tanques de agua y llaves</Value>
+    </Record>
+    <Record>
+      <Key>WaterTanksAndWrenchesDescription</Key>
+      <Value>Para conectar una {THING:DynamicGasCanisterWater} a una {THING:ItemTankConnector}, coloque la {THING:DynamicGasCanisterWater} encima del {THING:ItemTankConnector} y conéctela usando una {THING:ItemWrench}.</Value>
     </Record>
     <Record>
       <Key>WaterTanksAndWrenches1</Key>
@@ -97,6 +105,10 @@ Esto significa que la {THING:DynamicHydroponics} debe estar en un lugar iluminad
       <Value>Sistemas de agua</Value>
     </Record>
     <Record>
+      <Key>WaterNetworksDescription</Key>
+      <Value>Use los tubos azules para conectar la {THING:ItemTankConnector} a la {THING:StructureHydroponicsStation}. El agua fluirá hacia la unidad hasta que la {THING:DynamicGasCanisterWater} esté vacía.</Value>
+    </Record>
+    <Record>
       <Key>WaterNetworksTask1</Key>
       <Value>Recoge el {THING:ItemKitPipe} azul.</Value>
     </Record>
@@ -109,6 +121,10 @@ Esto significa que la {THING:DynamicHydroponics} debe estar en un lugar iluminad
       <Value>Manteniéndolo ordenado</Value>
     </Record>
     <Record>
+      <Key>KeepingItTidyDescription</Key>
+      <Value>{THING:ItemKitCompositeFloorGrating} son una gran forma de esconder los tubos y cables montados en el suelo. También permite un mejor movimiento mientras se camina alrededor de la base.</Value>
+    </Record>
+    <Record>
       <Key>KeepingItTidyTask1</Key>
       <Value>Recoge la {THING:ItemKitCompositeFloorGrating} de la caja.</Value>
     </Record>
@@ -119,6 +135,10 @@ Esto significa que la {THING:DynamicHydroponics} debe estar en un lugar iluminad
     <Record>
       <Key>AutomatedHydroponics</Key>
       <Value>Hidroponía automatizada</Value>
+    </Record>
+    <Record>
+      <Key>AutomatedHydroponicsDescription</Key>
+      <Value>Ahora puedes encender la nueva {THING:ItemKitHydroponicStation} y plantar tu {THING:ItemPotato}. Tiene luces incorporadas que mantendrán a tus plantas felices incluso en condiciones de poca luz.</Value>
     </Record>
     <Record>
       <Key>AutomatedHydroponicsTask1</Key>
