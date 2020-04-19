@@ -6680,6 +6680,10 @@
       <Value>Cancelar</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandDefine</Key>
+      <Value>Cria um rótulo que será substituído no programa todo pelo valor introduzido.</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandSdse</Key>
       <Value>Register = 1 se dispositivo definido, senão 0.</Value>
     </Record>
@@ -6718,6 +6722,10 @@
     <Record>
       <Key>ScriptCommandNor</Key>
       <Value>Register = 1 se a e b for 0, senão 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBltzal</Key>
+      <Value>Salta para linha b se a &lt; 0 e guarda a próxima linha no ra</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBgezal</Key>
