@@ -6720,6 +6720,18 @@
       <Value>Register = 1 se a e b for 0, senão 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandTrunc</Key>
+      <Value>Register = a sem a parte fracional</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandCeil</Key>
+      <Value>Register = menor valor inteiro maior que a</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandFloor</Key>
+      <Value>Register = maior valor inteiro menor que a</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandMax</Key>
       <Value>Register = max de a ou b</Value>
     </Record>
