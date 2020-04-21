@@ -18,9 +18,13 @@
         </Record>
         <Record>
             <Key>PortableHydroponicsDescription</Key>
-            <Value>{THING:DynamicHydroponics} are great for setting up temporary food sources. They're light and portable, but aren't equipped with a lighting system due to weight requirements. 
+            <Value>{THING:DynamicHydroponics} unit are great for setting up temporary food sources. They're light and portable, but aren't equipped with a lighting system due to weight requirements. 
             
-This means the {THING:DynamicHydroponics} must be in a sun-lit spot for plants to grow.</Value>
+This means the {THING:DynamicHydroponics} unit must be in a sun-lit spot for plants to grow. In addiotion to needing a good sun-lit spot they also require a controlled atmosphere.
+
+Best plant growth conditions are between 15 and 50 degrees celsius at a preassure of 8KPa to 130 KPa. The Air composition should contain no hydrogen or pollutants and at least 2% carborn dioxide.
+
+</Value>
         </Record>
         <Record>
             <Key>PortableHydroponicsTask1</Key>
@@ -32,11 +36,11 @@ This means the {THING:DynamicHydroponics} must be in a sun-lit spot for plants t
         </Record>
         <Record>
             <Key>PortableHydroponicsTask3</Key>
-            <Value>Insert the water canister into the base of the {THING:DynamicHydroponics}</Value>
+            <Value>Insert the water canister into the base of the {THING:DynamicHydroponics} unit</Value>
         </Record>
         <Record>
             <Key>PortableHydroponicsTask4</Key>
-            <Value>Plant a {THING:ItemPotato} in any of the {THING:DynamicHydroponics} planting slots.</Value>
+            <Value>Plant a {THING:ItemPotato} in any of the {THING:DynamicHydroponics} unit planting slots.</Value>
         </Record>
          <Record>
             <Key>PotatosInSpace</Key>
@@ -60,7 +64,7 @@ This means the {THING:DynamicHydroponics} must be in a sun-lit spot for plants t
         </Record>
         <Record>
             <Key>FixedHydroponicsDescription</Key>
-            <Value>The {THING:DynamicHydroponics} is good for starting out, but you will soon want to upgrade to a {THING:StructureHydroponicsStation}. It has built-in UV lights and a pipe import to help with automating the system.</Value>
+            <Value>The {THING:DynamicHydroponics} unit is good for starting out, but you will soon want to upgrade to a {THING:StructureHydroponicsStation}. It has built-in UV lights and a pipe import to help with automating the system.</Value>
         </Record>
         <Record>
             <Key>FixedHydroponicsTask1</Key>
@@ -92,7 +96,7 @@ This means the {THING:DynamicHydroponics} must be in a sun-lit spot for plants t
         </Record>
         <Record>
             <Key>WaterTanksAndWrenchesDescription</Key>
-            <Value>To attach a {THING:DynamicGasCanisterWater} to a {THING:ItemTankConnector}, place the {THING:DynamicGasCanisterWater} on top of the {THING:ItemTankConnector} and connect it using a {THING:ItemWrench}.</Value>
+            <Value>Place the {THING:DynamicGasCanisterWater} on top of the {THING:ItemTankConnector} and connect it using a {THING:ItemWrench}.</Value>
         </Record>
         <Record>
             <Key>WaterTanksAndWrenches1</Key>
@@ -140,11 +144,11 @@ This means the {THING:DynamicHydroponics} must be in a sun-lit spot for plants t
         </Record>
         <Record>
             <Key>AutomatedHydroponicsDescription</Key>
-            <Value>You can now turn on the new {THING:ItemKitHydroponicStation} and plant your {THING:ItemPotato}. It has built-in lights that will keep your plants happy even in low-light conditions.</Value>
+            <Value>You can now turn on the new {THING:StructureHydroponicsStation} and plant your {THING:ItemPotato}. It has built-in lights that will keep your plants happy even in low-light conditions.</Value>
         </Record>
         <Record>
             <Key>AutomatedHydroponicsTask1</Key>
-            <Value>Turn on the {THING:ItemKitHydroponicStation}.</Value>
+            <Value>Turn on the {THING:StructureHydroponicsStation}.</Value>
         </Record>
         <Record>
             <Key>AutomatedHydroponicsTask2</Key>
@@ -152,7 +156,11 @@ This means the {THING:DynamicHydroponics} must be in a sun-lit spot for plants t
         </Record>
         <Record>
             <Key>AutomatedHydroponicsTask3</Key>
-            <Value>Plant the {THING:ItemPotato} in the {THING:ItemKitHydroponicStation}.</Value>
+            <Value>Plant the {THING:ItemPotato} in the {THING:StructureHydroponicsStation}.</Value>
+        </Record>
+        <Record>
+            <Key>AutomatedHydroponicsTask4</Key>
+            <Value>Drop any remaning items in your hands.</Value>
         </Record>
         <Record>
             <Key>HonestWork</Key>

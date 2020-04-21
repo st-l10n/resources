@@ -3712,6 +3712,10 @@
       <Key>ItemKitPictureFrame</Key>
       <Value>Item Kit Picture Frame</Value>
     </Record>
+    <Record>
+      <Key>ItemVoxelTool</Key>
+      <Value>Item Voxel Tool</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -7522,11 +7526,19 @@
     </Record>
     <Record>
       <Key>SettingsResearch</Key>
-      <Value>Researach Pool Selection</Value>
+      <Value>Research Pool Selection</Value>
     </Record>
     <Record>
       <Key>DialogConfirmResearchUnlock</Key>
       <Value>Do you want to Unlock this Research?</Value>
+    </Record>
+    <Record>
+      <Key>ResearchRequirementTitle</Key>
+      <Value>Requirements</Value>
+    </Record>
+    <Record>
+      <Key>ResearchUnlocksTitle</Key>
+      <Value>Unlocks</Value>
     </Record>
   </Interface>
   <Colors>
@@ -8939,6 +8951,7 @@
       <Value>Cobalt</Value>
     </Record>
   </Mineables>
+  <ScreenSpaceToolTips />
   <HelpPage />
   <GameTip />
 </Language>
