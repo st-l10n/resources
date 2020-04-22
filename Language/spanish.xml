@@ -6680,6 +6680,18 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
       <Value>Registro = 1 si a y b son 0, de lo contrario 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBrle</Key>
+      <Value>Salto relativo a la línea c si a &lt;= b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrge</Key>
+      <Value>Salto relativo a la línea c si a &gt;= b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBreq</Key>
+      <Value>Rama relativa a la línea c si a == b</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBrne</Key>
       <Value>Rama relativa a la línea c si a != b</Value>
     </Record>
