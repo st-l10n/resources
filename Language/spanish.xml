@@ -6680,6 +6680,94 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
       <Value>Registro = 1 si a y b son 0, de lo contrario 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBrne</Key>
+      <Value>Rama relativa a la línea c si a != b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrltz</Key>
+      <Value>Rama relativa a la línea b si a &lt; 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrgez</Key>
+      <Value>Rama relativa a la línea b si a &gt;= 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrlez</Key>
+      <Value>Rama relativa a la línea b si a &lt;= 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrgtz</Key>
+      <Value>Rama relativa a la línea b si a &gt; 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBreqz</Key>
+      <Value>Rama relativa a la línea b si a == 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrnez</Key>
+      <Value>Rama relativa a la línea b si a != 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJal</Key>
+      <Value>Saltar la ejecución a la línea a y almacenar el siguiente número de línea en ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBdseal</Key>
+      <Value>Saltar la ejecución a la línea a y almacenar el siguiente número de línea si el dispositivo está configurado</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBdnsal</Key>
+      <Value>Saltar la ejecución a la línea a y almacenar el siguiente número de línea si el dispositivo no está configurado</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBltal</Key>
+      <Value>Bifurcarse a la línea c si a &lt; b y almacenar el siguiente número de línea en ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgtal</Key>
+      <Value>Bifurcarse a la línea c si a &gt; b y almacenar el siguiente número de línea en ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBleal</Key>
+      <Value>Bifurca a la línea c si a &lt;= b y guarda el siguiente número de línea en ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgeal</Key>
+      <Value>Bifurca a la línea c si a &gt;= b y guarda el siguiente número de línea en ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBeqal</Key>
+      <Value>Bifurca a la línea c si a == b y guarda el siguiente número de línea en ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBneal</Key>
+      <Value>Bifurca a la línea c si a != b y guarda el siguiente número de línea en ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBltzal</Key>
+      <Value>Bifurcarse a la línea b si a &lt; 0 y almacenar el siguiente número de línea en ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgezal</Key>
+      <Value>Bifurca a la línea b si a &gt;= 0 y almacena el siguiente número de línea en ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBlezal</Key>
+      <Value>Bifurca a la línea b si a &lt;= 0 y guarda el siguiente número de línea en ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgtzal</Key>
+      <Value>Bifurcarse a la línea b si a &gt; 0 y almacenar el siguiente número de línea en ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBeqzal</Key>
+      <Value>Bifurca a la línea b si a == 0 y guarda el siguiente número de línea en ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnezal</Key>
+      <Value>Bifurca a la línea b si a != 0 y guarda el siguiente número de línea en ra</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandYield</Key>
       <Value>Pone en pausa la ejecución por 1 tick</Value>
     </Record>
