@@ -6724,6 +6724,66 @@
       <Value>Register = 1 se a e b for 0, senão 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBltz</Key>
+      <Value>Salta para linha b se a &lt; 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgez</Key>
+      <Value>Salta para linha b se a &gt;= 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBlez</Key>
+      <Value>Salta para linha b se a &lt;= 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgtz</Key>
+      <Value>Salta para linha b se a &gt; 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBeqz</Key>
+      <Value>Salta para linha b se a == 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnez</Key>
+      <Value>Salta para linha b se a != 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBapz</Key>
+      <Value>Salta para linha c se abs(a) &lt;= float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnaz</Key>
+      <Value>Salta para linha c se abs(a) &gt; float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJr</Key>
+      <Value>Salto relativo para linha a</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJr</Key>
+      <Value>Salto relativo para linha a</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrdse</Key>
+      <Value>Salto relativo para linha a se dispositivo definido</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrdns</Key>
+      <Value>Salto relativo para linha a se dispositivo não definido</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrlt</Key>
+      <Value>Salto relativo para linha c se a &lt; b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrgt</Key>
+      <Value>Salto relativo para linha c se a &gt; b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrle</Key>
+      <Value>Salto relativo para linha c se a &lt;= b</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBrge</Key>
       <Value>Salto relativo para linha c se a &gt;= b</Value>
     </Record>
