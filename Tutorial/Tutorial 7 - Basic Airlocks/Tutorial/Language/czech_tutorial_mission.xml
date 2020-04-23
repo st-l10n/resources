@@ -93,6 +93,12 @@ Kvůli nešťastné poruše tlaku došlo ke katastrofickému selhání které zn
       <Value>Plynové potrubí</Value>
     </Record>
     <Record>
+      <Key>GasPipesDescription</Key>
+      <Value>{THING:ItemKitPipe} se používá k přepravě plynů z jednoho bodu do druhého. Budeme muset propojit {THING:StructureActiveVent} s {THING:StructurePassiveVent} pomocí {THING:ItemKitPipe}.
+            
+Poznámka: Při stavbě přechodové komory můžete skladovat plyny v samotném potrubí, pokud nemáte přístup k {THING:StructurePassiveVent}.</Value>
+    </Record>
+    <Record>
       <Key>GasPipeCorner</Key>
       <Value>Postavte {THING:StructurePipeCorner}.</Value>
     </Record>
