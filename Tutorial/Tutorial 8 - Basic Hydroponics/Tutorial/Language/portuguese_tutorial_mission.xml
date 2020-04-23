@@ -87,6 +87,14 @@ As melhores condições de crescimento são entre 15 e 50 graus celsius a uma pr
       <Value>Coloca o {THING:StructureTankConnector} na posição indicada.</Value>
     </Record>
     <Record>
+      <Key>WaterTanksAndWrenches</Key>
+      <Value>Tanques de Água e Chave Inglesa</Value>
+    </Record>
+    <Record>
+      <Key>WaterTanksAndWrenchesDescription</Key>
+      <Value>Coloca o {THING:DynamicGasCanisterWater} em cima do {THING:ItemTankConnector} e conecta-o utilizando a {THING:ItemWrench}.</Value>
+    </Record>
+    <Record>
       <Key>WaterTanksAndWrenches1</Key>
       <Value>Pega a {THING:ItemWrench} do teu cinto de ferramentas.</Value>
     </Record>
@@ -95,12 +103,24 @@ As melhores condições de crescimento são entre 15 e 50 graus celsius a uma pr
       <Value>Utiliza a {THING:ItemWrench} para conetar o {THING:DynamicGasCanisterWater} ao {THING:ItemTankConnector}.</Value>
     </Record>
     <Record>
+      <Key>WaterNetworks</Key>
+      <Value>Rede de Água</Value>
+    </Record>
+    <Record>
+      <Key>WaterNetworksDescription</Key>
+      <Value>Utiliza os canos azuis para conetar o {THING:ItemTankConnector} a {THING:StructureHydroponicsStation}. A água irá fluir para dentro da unidade até o {THING:DynamicGasCanisterWater} ficar vazio.</Value>
+    </Record>
+    <Record>
       <Key>WaterNetworksTask1</Key>
       <Value>Apanha o {THING:ItemKitPipe} azul.</Value>
     </Record>
     <Record>
       <Key>WaterNetworksTask2</Key>
       <Value>Coloca o {THING:StructurePipeStraight} na posição indicada.</Value>
+    </Record>
+    <Record>
+      <Key>KeepingItTidy</Key>
+      <Value>Manter arrumado</Value>
     </Record>
     <Record>
       <Key>KeepingItTidyTask1</Key>
