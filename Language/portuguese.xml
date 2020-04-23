@@ -6700,6 +6700,26 @@
       <Value>Register = 1 se a &gt; b, senão 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandSle</Key>
+      <Value>Register = 1 se a &lt;= b, senão 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSge</Key>
+      <Value>Register = 1 se a &gt;= b, senão 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSeq</Key>
+      <Value>Register = 1 se a == b, senão 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSne</Key>
+      <Value>Register = 1 se a != b, senão 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSap</Key>
+      <Value>Register = 1 se abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8), senão 0</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandSna</Key>
       <Value>Register = 1 se abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8), senão 0</Value>
     </Record>
