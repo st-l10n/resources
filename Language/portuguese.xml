@@ -6724,6 +6724,42 @@
       <Value>Register = 1 se a e b for 0, senão 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBrapz</Key>
+      <Value>Salto relativo para linha c se abs(a) &lt;= float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrnaz</Key>
+      <Value>Salto relativo para linha c se abs(a) &gt; float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJal</Key>
+      <Value>Salta execução para linha a e guarda a próxima linha no ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBdseal</Key>
+      <Value>Salta execução para linha a e guarda a próxima linha se dispositivo definido</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBdnsal</Key>
+      <Value>Salta execução para linha a e guarda a próxima linha se dispositivo não definido</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBltal</Key>
+      <Value>Salta para linha c se a &lt; b e guarda a próxima linha no ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgtal</Key>
+      <Value>Salta para linha c se a &gt; b e guarda a próxima linha no ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBleal</Key>
+      <Value>Salta para linha c se a &lt;= b e guarda a próxima linha no ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgeal</Key>
+      <Value>Salta para linha c se a &gt;= b e guarda a próxima linha no ra</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBeqal</Key>
       <Value>Salta para linha c se a == b e guarda a próxima linha no ra</Value>
     </Record>
