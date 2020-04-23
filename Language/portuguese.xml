@@ -6724,6 +6724,14 @@
       <Value>Register = 1 se a e b for 0, senão 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBeqal</Key>
+      <Value>Salta para linha c se a == b e guarda a próxima linha no ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBneal</Key>
+      <Value>Salta para linha c se a != b e guarda a próxima linha no ra</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBltzal</Key>
       <Value>Salta para linha b se a &lt; 0 e guarda a próxima linha no ra</Value>
     </Record>
