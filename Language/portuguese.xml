@@ -6724,6 +6724,50 @@
       <Value>Register = 1 se a e b for 0, senão 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBrge</Key>
+      <Value>Salto relativo para linha c se a &gt;= b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBreq</Key>
+      <Value>Salto relativo para linha c se a == b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrne</Key>
+      <Value>Salto relativo para linha c se a != b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrap</Key>
+      <Value>Salto relativo para linha d se abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrna</Key>
+      <Value>Salto relativo para linha d se abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrltz</Key>
+      <Value>Salto relativo para linha b se a &lt; 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrgez</Key>
+      <Value>Salto relativo para linha b se a &gt;= 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrlez</Key>
+      <Value>Salto relativo para linha b se a &lt;= 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrgtz</Key>
+      <Value>Salto relativo para linha b se a &gt; 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBreqz</Key>
+      <Value>Salto relativo para linha b se a == 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrnez</Key>
+      <Value>Salto relativo para linha b se a != 0</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBrapz</Key>
       <Value>Salto relativo para linha c se abs(a) &lt;= float.epsilon * 8</Value>
     </Record>
