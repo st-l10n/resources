@@ -6680,8 +6680,16 @@
       <Value>Cancelar</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandS</Key>
+      <Value>Guarda valor do register na var do dispositivo.</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandDefine</Key>
       <Value>Cria um rótulo que será substituído no programa todo pelo valor introduzido.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandMove</Key>
+      <Value>Register = valor fornecido ou valor do register.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSdse</Key>
@@ -6966,6 +6974,14 @@
     <Record>
       <Key>ScriptCommandBneal</Key>
       <Value>Salta para linha c se a != b e guarda a próxima linha no ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBapal</Key>
+      <Value>Salta para linha d se abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) e guarda a próxima linha no ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnaal</Key>
+      <Value>Salta para linha d se abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) e guarda a próxima linha no ra</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBltzal</Key>
