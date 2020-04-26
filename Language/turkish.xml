@@ -6774,11 +6774,11 @@
     </Record>
     <Record>
       <Key>ScriptCommandAnd</Key>
-      <Value>Cihaz şu anda boşta ise 1, değil ise 0 döndürür</Value>
+      <Value>Eğer a ve b, sıfır değil ise saklayıcı = 1; diğer durumlarda 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandOr</Key>
-      <Value>Cihaz şu anda boşta ise 1, değil ise 0 döndürür</Value>
+      <Value>Eğer a ve/veya b, 0 değil ise saklayıcı = 1; diğer durumlarda 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandXor</Key>
