@@ -6773,20 +6773,40 @@
       <Value>Eğer cihaz açık ise 1; yoksa 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandSgez</Key>
+      <Value>Yazmaç = 1; eğer a &gt;= 0 ise. Diğer durumda 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSeqz</Key>
+      <Value>Yazmaç = 1; eğer a == 0 ise. Diğer durumda 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSnez</Key>
+      <Value>Yazmaç = 1; eğer a != 0 ise. Diğer durumda 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSapz</Key>
+      <Value>Yazmaç = 1; eğer |a| &lt;= float.epsilon * 8 ise. Diğer durumda 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSnaz</Key>
+      <Value>Yazmaç = 1; eğer |a| &gt; float.epsilon ise. Diğer durumda 0</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandAnd</Key>
-      <Value>Eğer a ve b, sıfır değil ise saklayıcı = 1; diğer durumlarda 0</Value>
+      <Value>Yazmaç = 1; eğer a ve b, sıfır değil ise. Diğer durumda 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandOr</Key>
-      <Value>Eğer a ve/veya b, 0 değil ise saklayıcı = 1; diğer durumlarda 0</Value>
+      <Value>Yazmaç = 1; eğer a ve/veya b, 0 ise. Diğer durumda 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandXor</Key>
-      <Value>Eğer a veya b, 0 değil ise saklayıcı = 1; diğer durumlarda 0</Value>
+      <Value>Yazmaç = 1; eğer a veya b, 0 değil ise. Diğer durumda 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandNor</Key>
-      <Value>Yazmaç = 1, eğer a ve b 0 ise. Diğer durumda 0</Value>
+      <Value>Yazmaç = 1; eğer a ve b, 0 ise. Diğer durumda 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandMul</Key>
