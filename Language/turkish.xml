@@ -6766,11 +6766,15 @@
     </Record>
     <Record>
       <Key>ScriptCommandSltz</Key>
-      <Value>Eğer cihaz açık ise 1; yoksa 0</Value>
+      <Value>Yazmaç = 1; eğer a &lt; 0 ise. Diğer durumda 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSgtz</Key>
-      <Value>Eğer cihaz açık ise 1; yoksa 0</Value>
+      <Value>Yazmaç = 1; eğer a &gt; 0 ise. Diğer durumda 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSlez</Key>
+      <Value>Yazmaç = 1; eğer a &lt;= 0 ise. Diğer durumda 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSgez</Key>
