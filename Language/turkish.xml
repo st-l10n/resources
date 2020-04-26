@@ -6786,7 +6786,23 @@
     </Record>
     <Record>
       <Key>ScriptCommandNor</Key>
-      <Value>Eğer a ve b, 0 ise saklayıcı = 1; değil ise 0</Value>
+      <Value>Yazmaç = 1, eğer a ve b 0 ise. Diğer durumda 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandMul</Key>
+      <Value>Yazmaç = a * b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandDiv</Key>
+      <Value>Yazmaç = a / b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandMod</Key>
+      <Value>Yazmaç = a mod b (not: a % b değildir)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSqrt</Key>
+      <Value>Yazmaç = a&apos;nın karekökü</Value>
     </Record>
     <Record>
       <Key>ScriptCommandRound</Key>
