@@ -4970,7 +4970,39 @@
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFaceMount</Key>
-      <Value>Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame} structures directly. If these are upgraded, they will offer better placement options.</Value>
+      <Value>Placement is snapped to the small grid.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceMountMissingFrame</Key>
+      <Value>Placement is only allowed on {THING:StructureFrameIron} and {THING:StructureFrame}</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceMountMissingSupport</Key>
+      <Value>Placement requires support</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceMountBlockedDynamic</Key>
+      <Value>Placement blocked by #VAR1#</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceMountBlockedFallback</Key>
+      <Value>Placement blocked</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceNotMountableDynamic</Key>
+      <Value>#VAR1# does not allow mounting</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceNotMountableFallback</Key>
+      <Value>One of these structures does not allow mounting</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceWrongFaceDynamic</Key>
+      <Value>Cannot mount to this face of #VAR1#, try another one</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceWrongFaceFallback</Key>
+      <Value>Cannot mount to this face, try another one</Value>
     </Record>
     <Record>
       <Key>GameMenuClearDisconnectedPlayers</Key>
