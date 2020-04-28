@@ -4841,15 +4841,35 @@
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFaceMount</Key>
-      <Value>Umístění je povoleno pouze na strukturách {THING:StructureFrameIron} a {THING:StructureFrame}. Pokud jsou vylepšeny, nabídnou lepší možnosti umístění.</Value>
+      <Value>Umístění je přichyceno k malé mřížce.</Value>
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFaceMountMissingFrame</Key>
-      <Value>Umístění je povoleno pouze na strukturách {THING:StructureFrameIron} a {THING:StructureFrame}. Pokud jsou vylepšeny, nabídnou lepší možnosti umístění.</Value>
+      <Value>Umístění je povoleno pouze na {THING:StructureFrameIron} a {THING:StructureFrame}</Value>
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFaceMountMissingSupport</Key>
-      <Value>Umístění je přichyceno k mřížce.</Value>
+      <Value>Umístění vyžaduje podporu</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceMountBlockedDynamic</Key>
+      <Value>Umístění blokováno #VAR1#</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceMountBlockedFallback</Key>
+      <Value>Umístění blokováno</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceNotMountableDynamic</Key>
+      <Value>#VAR1# neumožňuje montáž</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceNotMountableFallback</Key>
+      <Value>Jedna z těchto konstrukcí neumožňuje montáž</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceWrongFaceDynamic</Key>
+      <Value>Nelze se připojit k této ploše #VAR1#, zkuste jinou</Value>
     </Record>
     <Record>
       <Key>GameMenuClearDisconnectedPlayers</Key>
