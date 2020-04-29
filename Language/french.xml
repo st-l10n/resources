@@ -3541,10 +3541,6 @@
       <Value>Applique de bureau lampe droite</Value>
     </Record>
     <Record>
-      <Key>StructureQuarryBasic</Key>
-      <Value>Structure Foreuse simple</Value>
-    </Record>
-    <Record>
       <Key>QuarryDrillBitBasic</Key>
       <Value>Trépan de foreuse simple</Value>
     </Record>
@@ -3571,6 +3567,14 @@
     <Record>
       <Key>ItemVoxelTool</Key>
       <Value>Outil de création d&apos;objet</Value>
+    </Record>
+    <Record>
+      <Key>StructureAutoMinerSmall</Key>
+      <Value>Cadre d&apos;image mince en portait (petit)</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitAutoMinerSmall</Key>
+      <Value>Kit Extracteur automatique</Value>
     </Record>
   </Things>
   <Slots>
@@ -6620,6 +6624,10 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
     </Record>
     <Record>
       <Key>ResearchRequirementNotMet</Key>
+      <Value>Souhaitez-vous déverrouiller cette recherche ?</Value>
+    </Record>
+    <Record>
+      <Key>ResearchUnlockConfirm</Key>
       <Value>Souhaitez-vous déverrouiller cette recherche ?</Value>
     </Record>
   </Interface>
