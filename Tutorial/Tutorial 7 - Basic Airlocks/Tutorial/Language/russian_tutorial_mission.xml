@@ -37,44 +37,82 @@
     </Record>
     <Record>
       <Key>FeelsFamiliarTask3</Key>
-      <Value>Завершите строительство каркаса 3.</Value>
+      <Value>Завершите строительство {THING:ItemIronFrames} 3.</Value>
     </Record>
     <Record>
       <Key>CloseTheDoor</Key>
-      <Value>Закрыть оповещение</Value>
+      <Value>Закройте дверь!</Value>
+    </Record>
+    <Record>
+      <Key>CloseTheDoorDescription</Key>
+      <Value>Используйте {THING:ItemKitDoor} из желтого контейнера чтобы построить две {THING:StructureCompositeDoor} в выделенных местах. </Value>
     </Record>
     <Record>
       <Key>CloseTheDoorTask1</Key>
-      <Value>Сварите {THING:StructureFrame}, чтобы завершить обучение</Value>
+      <Value>Постройте {THING:StructureCompositeDoor} 1.</Value>
     </Record>
     <Record>
       <Key>CloseTheDoorTask2</Key>
-      <Value>Сварите {THING:StructureFrame}, чтобы завершить обучение</Value>
+      <Value>Постройте {THING:StructureCompositeDoor} 2.</Value>
     </Record>.
         
     <Record>
+      <Key>CreatingASealTask1</Key>
+      <Value>Соберите {THING:StructureCompositeDoor} 1.</Value>
+    </Record>
+    <Record>
+      <Key>CreatingASealTask2</Key>
+      <Value>Соберите {THING:StructureCompositeDoor} 2.</Value>
+    </Record>
+    <Record>
       <Key>AirSensoresAndMoreTask1</Key>
-      <Value>Установите {THING:ItemAreaPowerControl} в выделенное место.</Value>
+      <Value>Постройте {THING:StructureGasSensor} в выделенном месте.</Value>
     </Record>
     <Record>
       <Key>AirSensoresAndMoreTask2</Key>
-      <Value>Установите {THING:ItemAreaPowerControl} в выделенное место.</Value>
+      <Value>Постройте {THING:StructureActiveVent} в выделенном месте.</Value>
+    </Record>
+    <Record>
+      <Key>GasPipes</Key>
+      <Value>Газовые Трубы</Value>
+    </Record>
+    <Record>
+      <Key>GasPipesDescription</Key>
+      <Value>{THING:ItemKitPipe} используются для доставки газов из одной точки в другую. Нам нужно будет подключить {THING:StructureActiveVent} к {THING:StructurePassiveVent} используя {THING:ItemKitPipe}.
+
+Заметка: При создании шлюза вы можете хранить газы в самой трубе, если у вас нет доступа к {THING:StructurePassiveVent}.</Value>
     </Record>
     <Record>
       <Key>GasPipeCorner</Key>
-      <Value>Проложите {THING:StructureCableCorner}.</Value>
+      <Value>Постройте {THING:StructurePipeCorner}.</Value>
     </Record>
     <Record>
       <Key>GasPipeStraight</Key>
-      <Value>Проложите {THING:StructureCableStraight}.</Value>
+      <Value>Постройте {THING:StructurePipeStraight}.</Value>
     </Record>
     <Record>
       <Key>PassiveVentBuild</Key>
-      <Value>Проложите {THING:StructureCableCorner}.</Value>
+      <Value>Постройте {THING:StructurePassiveVent}.</Value>
+    </Record>
+    <Record>
+      <Key>DigitalScreens</Key>
+      <Value>Цифровые экраны</Value>
+    </Record>
+    <Record>
+      <Key>DigitalScreensDescription</Key>
+      <Value>Установите {THING:StructureConsole} поместив её на стену в выделенном месте.</Value>
     </Record>
     <Record>
       <Key>DigitalScreensTask1</Key>
-      <Value>Сварите {THING:StructureFrame}, чтобы завершить обучение</Value>
+      <Value>Постройте {THING:StructureConsole}.</Value>
+    </Record>
+    <Record>
+      <Key>UnderPressure</Key>
+      <Value>Под Давлением</Value>
+    </Record>
+    <Record>
+      <Key>UnderPressureDescription</Key>
+      <Value>Для завершения {THING:StructureConsole} нам нужно добавить к нему печатную плату. Существуют различные типы печатных плат для различных ситуаций. Вы строите шлюз, так что вам нужно использовать {THING:CircuitboardAirlockControl}. Вам также нужно будет использовать диск данных, чтобы запрограммировать {THING:CircuitboardAirlockControl}.</Value>
     </Record>
     <Record>
       <Key>UnderPressureTask1</Key>
@@ -90,11 +128,15 @@
     </Record>
     <Record>
       <Key>AirLockProgrammingTask1</Key>
-      <Value>Положите её на {THING:StructureBench}</Value>
+      <Value>Запрограммируйте шлюз используя {THING:StructureConsole}.</Value>
     </Record>
     <Record>
       <Key>ASimpleAirLock</Key>
-      <Value>Разгерметизируйте шлюз</Value>
+      <Value>Простой шлюз</Value>
+    </Record>
+    <Record>
+      <Key>AirlockUpgrades</Key>
+      <Value>Улучшения шлюза</Value>
     </Record>
     <Record>
       <Key>AirlockUpgradesTask1</Key>
@@ -102,7 +144,7 @@
     </Record>
     <Record>
       <Key>AirlockCableCorner</Key>
-      <Value>Проложите {THING:StructureCableCorner}.</Value>
+      <Value>Установите {THING:StructureCableCorner}.</Value>
     </Record>
     <Record>
       <Key>AirlockCableStraight</Key>
