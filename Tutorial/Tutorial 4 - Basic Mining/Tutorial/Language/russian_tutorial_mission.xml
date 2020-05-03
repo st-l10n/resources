@@ -56,23 +56,35 @@
     </Record>
     <Record>
       <Key>OnTheBadListTask2</Key>
-      <Value>Используйте {THING:ItemDrill} в вашем {SLOT:Belt}.</Value>
+      <Value>Используйте {THING:ItemMiningDrill} для добычи {THING:ItemCoalOre}</Value>
+    </Record>
+    <Record>
+      <Key>HardAsIron</Key>
+      <Value>Твердый как железо</Value>
+    </Record>
+    <Record>
+      <Key>HardAsIronDescription</Key>
+      <Value>Отличная работа, Кадет! На {THING:ItemCoalOre} будет работать ваш твердотопливный генератор когда ночью не хватает энергии. Далее, вам нужно будет найти железо. {THING:ItemIronOre} является ключевым компонентом в большинстве предметов и ценной рудой. Мы обозначили местоположение на вашем планшете.</Value>
     </Record>
     <Record>
       <Key>HardAsIronTask1</Key>
-      <Value>Испеките {THING:ItemMuffin}</Value>
+      <Value>Добудьте немного {THING:ItemIronOre}.</Value>
+    </Record>
+    <Record>
+      <Key>ConductiveMetals</Key>
+      <Value>Проводящие металлы</Value>
     </Record>
     <Record>
       <Key>GoldRushTask1</Key>
-      <Value>Включите {THING:ItemTablet}</Value>
+      <Value>Добудьте немного {THING:ItemGoldOre}.</Value>
     </Record>
     <Record>
       <Key>SmeltingItDownTask0</Key>
-      <Value>Положите её на {THING:StructureBench}</Value>
+      <Value>Включите {THING:StructureArcFurnace}.</Value>
     </Record>
     <Record>
       <Key>SmeltingItDownTask1</Key>
-      <Value>Возьмите {THING:ItemWrench} из ранца</Value>
+      <Value>Возьмите {THING:ItemIronOre} из {THING:ItemMiningBelt}.</Value>
     </Record>
   </Interface>
 </Language>

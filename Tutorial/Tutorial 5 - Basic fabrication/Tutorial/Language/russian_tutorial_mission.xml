@@ -4,43 +4,43 @@
   <Interface>
     <Record>
       <Key>BasicFabrication</Key>
-      <Value>#1 Базовый интерфейс</Value>
+      <Value>#5 Базовое производство</Value>
     </Record>
     <Record>
       <Key>StopLathenAroundTask1</Key>
-      <Value>Положите её на {THING:StructureBench}</Value>
+      <Value>Включите {THING:StructureAutolathe}.</Value>
     </Record>
     <Record>
       <Key>StopLathenAroundTask3</Key>
-      <Value>Поднимите {THING:ItemKitAutolathe}.</Value>
+      <Value>Возьмите {THING:ItemCopperIngot} из оранжевого ящика.</Value>
     </Record>
     <Record>
       <Key>StopLathenAround2Task1</Key>
-      <Value>Поместите {THING:ItemBatteryCellLarge} в {THING:StructureAreaPowerControl}.</Value>
+      <Value>Положите {THING:ItemCopperIngot} в левый входной слот {THING:StructureAutolathe}.</Value>
     </Record>
     <Record>
       <Key>ShineyNewPlatesTask2</Key>
-      <Value>Поднимите {THING:ItemKitArcFurnace}.</Value>
+      <Value>Возьмите {THING:ItemIronIngot} из оранжевого ящика.</Value>
     </Record>
     <Record>
       <Key>ShineyNewPlatesTask3</Key>
-      <Value>Поместите {THING:ItemBatteryCellLarge} в {THING:StructureAreaPowerControl}.</Value>
+      <Value>Поместите {THING:ItemIronIngot} в левый входной слот {THING:StructureAutolathe}.</Value>
     </Record>
     <Record>
       <Key>ShineyNewPlatesTask4</Key>
-      <Value>Испеките {THING:ItemMuffin}</Value>
+      <Value>Изготовьте две {THING:ItemIronSheets}.</Value>
     </Record>
     <Record>
       <Key>FakePlasticTask1</Key>
-      <Value>Поместите {THING:ItemBatteryCellLarge} в {THING:StructureAreaPowerControl}.</Value>
+      <Value>Выберите {THING:ItemPlasticSheets} в меню {THING:StructureAutolathe}.</Value>
     </Record>
     <Record>
       <Key>FakePlasticTask2</Key>
-      <Value>Возьмите {THING:ItemTablet}</Value>
+      <Value>Возьмите {THING:ItemSiliconIngot} из оранжевого ящика.</Value>
     </Record>
     <Record>
       <Key>FakePlasticTask3</Key>
-      <Value>Поместите {THING:ItemBatteryCellLarge} в {THING:StructureAreaPowerControl}.</Value>
+      <Value>Поместите {THING:ItemSiliconIngot} в левый входной слот {THING:StructureAutolathe}.</Value>
     </Record>
     <Record>
       <Key>FakePlasticTask4</Key>
@@ -48,27 +48,27 @@
     </Record>
     <Record>
       <Key>BendingMachineTask2</Key>
-      <Value>Возьмите {THING:ItemTablet}</Value>
+      <Value>Возьмите {THING:ItemGoldIngot} из ораньжевого ящика.</Value>
     </Record>
     <Record>
       <Key>BendingMachineTask3</Key>
-      <Value>Поместите {THING:ItemBatteryCellLarge} в {THING:StructureAreaPowerControl}.</Value>
+      <Value>Поместите {THING:ItemGoldIngot} в левый входной слот {THING:StructureAutolathe}.</Value>
     </Record>
     <Record>
       <Key>BendingMachineTask4</Key>
-      <Value>Поднимите {THING:ItemKitAutolathe}.</Value>
+      <Value>Изготовьте {THING:ItemKitHydraulicPipeBender}.</Value>
     </Record>
     <Record>
       <Key>ThePipeBenderTask1</Key>
-      <Value>Разместите {THING:StructureSolidFuelGenerator}.</Value>
+      <Value>Разместите {THING:ItemKitHydraulicPipeBender}.</Value>
     </Record>
     <Record>
       <Key>ThePassiveVentTask1</Key>
-      <Value>Разместите {THING:StructureSolidFuelGenerator}.</Value>
+      <Value>Завершите {THING:StructureHydraulicPipeBender}.</Value>
     </Record>
     <Record>
       <Key>ThePassiveVentTask2</Key>
-      <Value>Положите её на {THING:StructureBench}</Value>
+      <Value>Подключите питание и включите {THING:StructureHydraulicPipeBender}.</Value>
     </Record>
     <Record>
       <Key>ThePassiveVentTask3</Key>
