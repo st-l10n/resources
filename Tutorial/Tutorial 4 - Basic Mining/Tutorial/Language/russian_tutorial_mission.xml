@@ -15,20 +15,44 @@
       <Value>Планшет</Value>
     </Record>
     <Record>
+      <Key>TheTabletDescription</Key>
+      <Value>С возвращением, Кадет! Наша первая задача сегодня заключается в использовании {THING:ItemTablet}. {THING:ItemTablet} может быть использован для отображения информации об атмосфере и сетях, а также как энциклопедия или навигатор. </Value>
+    </Record>
+    <Record>
+      <Key>TheTabletTask1</Key>
+      <Value>Откройте {SLOT:Back} при помощи {KEY:BackSlot}, чтобы найти {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
       <Key>TheTabletTask2</Key>
-      <Value>Бросьте {THING:ItemTablet}</Value>
+      <Value>Возьмите {THING:ItemTablet} в руку</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletTask2.5</Key>
+      <Value>Вставьте {THING:CartridgeTracker}, перетащив его из {SLOT:Back} на {THING:ItemTablet} в вашей руке, или нажмите на {THING:ItemTablet} чтобы открыть его собственный интерфейс.</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletTask3</Key>
+      <Value>Включите {THING:ItemTablet} используя клавишу {KEY:ToggleHandPower}.</Value>
+    </Record>
+    <Record>
+      <Key>TheCoalMines</Key>
+      <Value>Угольные Шахты</Value>
+    </Record>
+    <Record>
+      <Key>TheCoalMinesDescription</Key>
+      <Value>Теперь мы можем приступит к добыче ресурсов с поверхности планеты. Нам нужно будет надеть {THING:ItemMiningBelt} из {SLOT:Back}. Замените {THING:ItemToolBelt} на {THING:ItemMiningBelt} и возьмите {THING:ItemMiningDrill} из {THING:ItemMiningBelt}.</Value>
     </Record>
     <Record>
       <Key>TheCoalMinesTask0</Key>
-      <Value>Возьмите {THING:ItemWireCutters}</Value>
+      <Value>Наденьте {THING:ItemMiningBelt}</Value>
     </Record>
     <Record>
       <Key>TheCoalMinesTask1</Key>
-      <Value>Возьмите {THING:ItemCableCoil}</Value>
+      <Value>Возьмите в руку {THING:ItemMiningDrill}.</Value>
     </Record>
     <Record>
       <Key>OnTheBadListTask1</Key>
-      <Value>Включите {THING:ItemTablet}</Value>
+      <Value>Включите {THING:ItemMiningDrill}.</Value>
     </Record>
     <Record>
       <Key>OnTheBadListTask2</Key>
