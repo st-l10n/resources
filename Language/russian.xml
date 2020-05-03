@@ -6763,6 +6763,10 @@
       <Value>Стройматериалы 2</Value>
     </Record>
     <Record>
+      <Key>Organic Supplies</Key>
+      <Value>Органические припасы</Value>
+    </Record>
+    <Record>
       <Key>Consumables Supplies</Key>
       <Value>Ящик расходников</Value>
     </Record>
@@ -6835,8 +6839,24 @@
       <Value>Возвращает 1, если устройство в данный момент ожидает, иначе 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBeqz</Key>
+      <Value>Ответвление на строку b, если a == 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJr</Key>
+      <Value>Переход на строку А относительно текущей</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJr</Key>
+      <Value>Переход на строку А относительно текущей</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandYield</Key>
       <Value>Приостановка выполнения на 1 тик (0,5 секунд)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandHcf</Key>
+      <Value>Остановиться и загореться</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSleep</Key>
