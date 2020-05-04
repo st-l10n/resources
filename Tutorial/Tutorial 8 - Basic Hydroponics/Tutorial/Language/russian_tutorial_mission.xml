@@ -15,44 +15,96 @@
       <Value>Переносная гидропонная установка</Value>
     </Record>
     <Record>
+      <Key>PortableHydroponicsDescription</Key>
+      <Value>{THING:DynamicHydroponics} отлично подходит как временный источник пищи. Они легкие и мобильные, но не включают системы освещения из-за требований к весу.
+
+Это значит что {THING:DynamicHydroponics} должна быть расположна в солнечном месте. В дополнение к солнечному освещению так же требуется контролируемая атмосфера.
+
+Наилучшие условия для выращивания растений находятся между 15 и 50 градусами Цельсия при давлении от 8КПа до 130КПа. Атмосфера не должна содержать водорода или загрязняющих веществ и должна иметь не менее 2% углекислого газа.</Value>
+    </Record>
+    <Record>
       <Key>PortableHydroponicsTask1</Key>
-      <Value>Возьмите {THING:ItemTablet}</Value>
+      <Value>Поднимите {THING:ItemPotato}.</Value>
     </Record>
     <Record>
       <Key>PortableHydroponicsTask2</Key>
-      <Value>Поднимите {THING:ItemKitAutolathe}.</Value>
+      <Value>Поднимите {THING:ItemGasCanisterWater}.</Value>
     </Record>
     <Record>
       <Key>PortableHydroponicsTask3</Key>
-      <Value>Включите {THING:ItemTablet}</Value>
+      <Value>Вставьте канистру с водой в основание {THING:DynamicHydroponics}</Value>
+    </Record>
+    <Record>
+      <Key>PortableHydroponicsTask4</Key>
+      <Value>Посадите {THING:ItemPotato} в любой слот {THING:DynamicHydroponics}.</Value>
+    </Record>
+    <Record>
+      <Key>PotatosInSpace</Key>
+      <Value>Картошка в космосе</Value>
     </Record>
     <Record>
       <Key>PotatosInSpaceDescription</Key>
-      <Value>Откройте окно содержимого скафандра</Value>
+      <Value>Дайте {THING:ItemPotato} вырасти</Value>
+    </Record>
+    <Record>
+      <Key>PotatosInSpaceTask1</Key>
+      <Value>Подождите, пока растение вырастет. Примечание: Мы ускорили темпы роста растений для этого учебного сценария.</Value>
     </Record>
     <Record>
       <Key>PotatosInSpaceTask2</Key>
-      <Value>Бросьте {THING:ItemTablet}</Value>
+      <Value>Соберите урожай {THING:ItemPotato}.</Value>
+    </Record>
+    <Record>
+      <Key>FixedHydroponics</Key>
+      <Value>Стационарная Гидропоника</Value>
+    </Record>
+    <Record>
+      <Key>FixedHydroponicsDescription</Key>
+      <Value>На начальном этапе {THING:DynamicHydroponics} будет вполне достаточно, но в скором времени вам потребуется {THING:StructureHydroponicsStation}. Эта версия имеет встроенное ультрафиолетовое освещение и порт подачи жидкости чтобы помочь с автоматизацией.</Value>
     </Record>
     <Record>
       <Key>FixedHydroponicsTask1</Key>
-      <Value>Поднимите {THING:ItemKitAutolathe}.</Value>
+      <Value>Возьмите {THING:ItemKitHydroponicStation}.</Value>
     </Record>
     <Record>
       <Key>FixedHydroponicsTask2</Key>
-      <Value>Установите {THING:ItemAreaPowerControl} в выделенное место.</Value>
+      <Value>Установите {THING:ItemKitHydroponicStation} в выделенное место.</Value>
+    </Record>
+    <Record>
+      <Key>TankConnectorsWhatAreThey</Key>
+      <Value>Разъемы цистерн - Что это такое?</Value>
+    </Record>
+    <Record>
+      <Key>TankConnectorsWhaAreTheyDescription</Key>
+      <Value>Разъемы цистерн используются для подключения {THING:DynamicGasCanisterWater} к трубам, которые могут использоваться для транспортировки газа и воды.</Value>
     </Record>
     <Record>
       <Key>TankConnectorsWhatAreTheyTask1</Key>
-      <Value>Возьмите {THING:ItemTablet}</Value>
+      <Value>Возьмите {THING:ItemTankConnector}.</Value>
     </Record>
     <Record>
       <Key>TankConnectorsWhatAreTheyTask2</Key>
-      <Value>Установите {THING:ItemAreaPowerControl} в выделенное место.</Value>
+      <Value>Установите {THING:StructureTankConnector} в выделенное место.</Value>
+    </Record>
+    <Record>
+      <Key>WaterTanksAndWrenches</Key>
+      <Value>Водяные Цистерны и Гаечные Ключи</Value>
+    </Record>
+    <Record>
+      <Key>WaterTanksAndWrenchesDescription</Key>
+      <Value>Поместите {THING:DynamicGasCanisterWater} поверх {THING:ItemTankConnector} и подключите его с помощью {THING:ItemWrench}.</Value>
     </Record>
     <Record>
       <Key>WaterTanksAndWrenches1</Key>
-      <Value>Используйте {THING:ItemDrill} в вашем {SLOT:Belt}.</Value>
+      <Value>Возьмите {THING:ItemWrench} с вашего пояса инструментов.</Value>
+    </Record>
+    <Record>
+      <Key>WaterTanksAndWrenchesTask2</Key>
+      <Value>Используйте {THING:ItemWrench} для подключения {THING:DynamicGasCanisterWater} к {THING:ItemTankConnector}.</Value>
+    </Record>
+    <Record>
+      <Key>WaterNetworks</Key>
+      <Value>Водопровод</Value>
     </Record>
     <Record>
       <Key>WaterNetworksTask1</Key>
