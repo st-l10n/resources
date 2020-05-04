@@ -107,36 +107,72 @@
       <Value>Водопровод</Value>
     </Record>
     <Record>
+      <Key>WaterNetworksDescription</Key>
+      <Value>Используйте синие трубы для подключения {THING:ItemTankConnector} к {THING:StructureHydroponicsStation}. Вода будет поступать в устройство до тех пор, пока {THING:DynamicGasCanisterWater} не опустеет.</Value>
+    </Record>
+    <Record>
       <Key>WaterNetworksTask1</Key>
-      <Value>Поднимите {THING:ItemKitAutolathe}.</Value>
+      <Value>Поднимите {THING:ItemKitPipe} синего цвета.</Value>
     </Record>
     <Record>
       <Key>WaterNetworksTask2</Key>
-      <Value>Установите {THING:ItemAreaPowerControl} в выделенное место.</Value>
+      <Value>Установите {THING:StructurePipeStraight} в выделенное место.</Value>
+    </Record>
+    <Record>
+      <Key>KeepingItTidy</Key>
+      <Value>Поддержание порядка</Value>
+    </Record>
+    <Record>
+      <Key>KeepingItTidyDescription</Key>
+      <Value>{THING:ItemKitCompositeFloorGrating} это отличный способ спрятать проведенные по полу трубы и провода. Так же позволяет упростить пешее передвижение по вашей базе.</Value>
     </Record>
     <Record>
       <Key>KeepingItTidyTask1</Key>
-      <Value>Поднимите {THING:ItemKitAutolathe}.</Value>
+      <Value>Возьмите {THING:ItemKitCompositeFloorGrating} из ящика.</Value>
     </Record>
     <Record>
       <Key>KeepingItTidyTask2</Key>
-      <Value>Установите {THING:ItemAreaPowerControl} в выделенное место.</Value>
+      <Value>Установите {THING:StructureCompositeFloorGrating} в выделенное место.</Value>
+    </Record>
+    <Record>
+      <Key>AutomatedHydroponics</Key>
+      <Value>Автоматизированная гидропоника</Value>
+    </Record>
+    <Record>
+      <Key>AutomatedHydroponicsDescription</Key>
+      <Value>Вы теперь можете включить {THING:StructureHydroponicsStation} и посадить {THING:ItemPotato}. Эта станция гидропоники имеет встроенное освещение которое поможет выращивать растения в условиях низкой естественной освещенности.</Value>
     </Record>
     <Record>
       <Key>AutomatedHydroponicsTask1</Key>
-      <Value>Включите {THING:ItemTablet}</Value>
+      <Value>Включите {THING:StructureHydroponicsStation}.</Value>
     </Record>
     <Record>
       <Key>AutomatedHydroponicsTask2</Key>
-      <Value>Поднимите {THING:ItemKitAutolathe}.</Value>
+      <Value>Поднимите ранее собранный урожай {THING:ItemPotato}.</Value>
     </Record>
     <Record>
       <Key>AutomatedHydroponicsTask3</Key>
-      <Value>Поместите {THING:ItemBatteryCellLarge} в {THING:StructureAreaPowerControl}.</Value>
+      <Value>Посадите {THING:ItemPotato} в {THING:StructureHydroponicsStation}.</Value>
+    </Record>
+    <Record>
+      <Key>AutomatedHydroponicsTask4</Key>
+      <Value>Бросьте предметы оставшиеся в ваших руках.</Value>
+    </Record>
+    <Record>
+      <Key>HonestWork</Key>
+      <Value>Честная работа</Value>
+    </Record>
+    <Record>
+      <Key>HonestWorkDescription</Key>
+      <Value>Вы теперь самодостаточны благодаря стабильному источнику пищи! Теперь дайте {THING:ItemPotato} подрасти пока не будет готов урожай.</Value>
+    </Record>
+    <Record>
+      <Key>HonestWorkTask1</Key>
+      <Value>Подождите пока растение {THING:ItemPotato} полностью вырастет.</Value>
     </Record>
     <Record>
       <Key>HonestWorkTask2</Key>
-      <Value>Возьмите {THING:ItemTablet}</Value>
+      <Value>Соберите урожай {THING:ItemPotato}.</Value>
     </Record>
   </Interface>
 </Language>
