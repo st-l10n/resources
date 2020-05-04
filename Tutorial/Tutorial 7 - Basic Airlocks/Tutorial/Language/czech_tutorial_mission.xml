@@ -85,6 +85,10 @@ Kvůli nešťastné poruše tlaku došlo ke katastrofickému selhání které zn
       <Value>Vzduchové senzory a další!</Value>
     </Record>
     <Record>
+      <Key>AirSensoresAndMoreDescription</Key>
+      <Value>Dále nastavte {THING:StructureGasSensor} a {THING:StructureActiveVent}. {THING:StructureGasSensor} je klíčovou součástí Přechodové komory, protože informuje konzoli o aktuální atmosféře uvnitř, zatímco {THING:StructureActiveVent} natlakuje a odtlakuje Přechodovou komoru.</Value>
+    </Record>
+    <Record>
       <Key>AirSensoresAndMoreTask1</Key>
       <Value>Postavte {THING:StructureGasSensor} na zvýrazněné místo.</Value>
     </Record>
@@ -181,6 +185,14 @@ Poznámka: Při stavbě přechodové komory můžete skladovat plyny v samotném
     <Record>
       <Key>AdvancedPressure</Key>
       <Value>Pokročilý tlak</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedPressureDescription</Key>
+      <Value>Nyní, když jsou struktury na místě, musíme vyměnit {THING:CircuitboardAirlockControl} za {THING:CircuitboardAdvAirlockControl}
+        
+Při programování {THING:CircuitboardAdvAirlockControl} existuje několik rozdílů. Nejprve musíte vybrat interní a externí {THING:StructureActiveVent}. Na rozdíl od dveří se budete muset podívat na přepínač na {THING:StructureActiveVent}, abyste zjistili, zda je či není vzájemně propojitelný. Takto můžete zjistit, které {THING:StructureActiveVent} jste vybrali z nabídky.
+
+Poslední věcí, kterou musíte udělat, je vybrat požadovaný vnitřní a vnější tlak, který se nachází v horní části panelu {THING:CircuitboardAdvAirlockControl}. </Value>
     </Record>
     <Record>
       <Key>AdvancedPressureTask1</Key>
