@@ -4926,11 +4926,35 @@
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFaceMountMissingFrame</Key>
-      <Value>Возможно разместить только на железном или стальном каркасе. Если они улучшены, то область размещения увеличится.</Value>
+      <Value>Размещение разрешено только на {THING:StructureFrameIron} и {THING:StructureFrame}</Value>
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFaceMountMissingSupport</Key>
-      <Value>Размещение выравнивается по сетке.</Value>
+      <Value>Размещение требует устойчивой основы</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceMountBlockedDynamic</Key>
+      <Value>Размещение заблокировано из-за #VAR1#</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceMountBlockedFallback</Key>
+      <Value>Размещение заблокировано</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceNotMountableDynamic</Key>
+      <Value>#VAR1# не допускает монтажа</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceNotMountableFallback</Key>
+      <Value>Одна из этих структур не допускает монтажа</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceWrongFaceDynamic</Key>
+      <Value>Нет возможности смонтировать в этом месте #VAR1#, попробуйте в другом</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceWrongFaceFallback</Key>
+      <Value>Нет возможности смонтировать в этом месте, попробуйте в другом</Value>
     </Record>
     <Record>
       <Key>GameMenuClearDisconnectedPlayers</Key>
@@ -6903,16 +6927,52 @@
       <Value>Эксперименты</Value>
     </Record>
     <Record>
+      <Key>ResearchMilitary</Key>
+      <Value>Военные</Value>
+    </Record>
+    <Record>
+      <Key>ResearchProduction</Key>
+      <Value>Производство</Value>
+    </Record>
+    <Record>
       <Key>ResearchAutomation</Key>
-      <Value>Автовозгорание:</Value>
+      <Value>Автоматизация</Value>
+    </Record>
+    <Record>
+      <Key>ResearchTools</Key>
+      <Value>Инструменты</Value>
+    </Record>
+    <Record>
+      <Key>ResearchOrganics</Key>
+      <Value>Органика</Value>
     </Record>
     <Record>
       <Key>ResearchConstruction</Key>
-      <Value>Стройматериалы 2</Value>
+      <Value>Строительство</Value>
+    </Record>
+    <Record>
+      <Key>ResearchLogic</Key>
+      <Value>Логика</Value>
+    </Record>
+    <Record>
+      <Key>ResearchVehicles</Key>
+      <Value>Транспортные средства</Value>
     </Record>
     <Record>
       <Key>ResearchShowLocked</Key>
-      <Value>Заблокировано</Value>
+      <Value>Показать заблокированное</Value>
+    </Record>
+    <Record>
+      <Key>ResearchCantAfford</Key>
+      <Value>Вы не можете позволить себе разблокировку этого исследования.</Value>
+    </Record>
+    <Record>
+      <Key>ResearchRequirementNotMet</Key>
+      <Value>Вы не выполнили условия разблокировки этого исследования.</Value>
+    </Record>
+    <Record>
+      <Key>ResearchUnlockConfirm</Key>
+      <Value>Вы хотите разблокировать это исследование?</Value>
     </Record>
   </Interface>
   <Colors>
