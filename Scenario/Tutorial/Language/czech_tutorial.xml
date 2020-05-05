@@ -127,6 +127,12 @@ Správa {LINK:InventoryPage;inventáře} vyžaduje dovednosti a praxe; pečlivě
       </Value>
     </Record>
     <Record>
+      <Key>TutorialDescGetTools2</Key>
+      <Value>Vezměte {THING:ItemToolBelt} a přiřaďte jej ke slotu {SLOT:Belt} podržením klávesy {KEY:ToolBeltSlot}, nebo přetažením do slotu za současného stisknutí a přidržení {KEY:MouseControl}. Váš {SLOT:Belt} slot vám umožní mít opasky, které mohou obsahovat těžbu a další nástroje.
+      
+{THING:ItemMiningBelt} má specializované sloty {LINK:OrePage;rudy}, které se automaticky naplní rudou, když používáte například {THING:ItemMiningDrill}. Přečtěte si více o {LINK:MiningPage;těžení}.</Value>
+    </Record>
+    <Record>
       <Key>TutorialTaskGetTools1</Key>
       <Value>Položte {THING:ItemTablet}</Value>
     </Record>
@@ -161,6 +167,14 @@ Správa {LINK:InventoryPage;inventáře} vyžaduje dovednosti a praxe; pečlivě
     <Record>
       <Key>TutorialTitleRepairCable</Key>
       <Value>Oprava rozbitého kabelu</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescRepairCable1</Key>
+      <Value>{THING:StructureCableStraight} může přenášet jak {COLORYELLOW:data}, tak {COLORYELLOW:energii}, ale přeruší se, pokud se do něj dá více energie, než je určeno. Někde pod {THING:StructureAirlock} je přerušen {THING:StructureCableJunction}, najděte ho a odeberte pomocí {THING:ItemWireCutters} z {THING:ItemToolBelt}.
+
+Nezapomeňte, že existují dva způsoby interakce s vaším {LINK:InventoryPage;inventářem}. Stisknutím a podržením tlačítka {KEY:MouseControl} aktivujete kurzor myši a poté myší přetahujete nebo otevíráte věci. Pro rychlé ovládání stisknutím tlačítka {KEY:ToolBeltSlot} otevřete slot {SLOT:Belt}. Stisknutím tlačítka {KEY:InventorySelect} zaměňte zvýrazněnou položku vnitřního slotu v ruce.
+
+Pokud zjistíte, že máte příliš mnoho otevřených oken, můžete je všechny zavřít najednou pomocí {KEY:HideAllWindows}, můžete přepínat jednotlivé okna pomocí jejich klávesové zkratky, nebo můžete kliknout na samotný slot, zatímco je myš povolena pomocí {KEY:MouseControl}.</Value>
     </Record>
     <Record>
       <Key>TutorialTaskRepairCable1</Key>
