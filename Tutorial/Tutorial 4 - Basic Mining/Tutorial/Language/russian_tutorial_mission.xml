@@ -51,6 +51,10 @@
       <Value>Возьмите в руку {THING:ItemMiningDrill}.</Value>
     </Record>
     <Record>
+      <Key>OnTheBadListDescription</Key>
+      <Value>Кадет, мы обозначили несколько хороших мест маяками, чтобы вам было откуда начать. Используйте планшет и колесо прокрутки, чтобы выбрать маяк. Затем перейдите на место и добудьте немного {THING:ItemCoalOre}.</Value>
+    </Record>
+    <Record>
       <Key>OnTheBadListTask1</Key>
       <Value>Включите {THING:ItemMiningDrill}.</Value>
     </Record>
@@ -95,12 +99,28 @@
       <Value>Добудьте немного {THING:ItemGoldOre}.</Value>
     </Record>
     <Record>
+      <Key>SmeltingItDown</Key>
+      <Value>Переплавка</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownDescription</Key>
+      <Value>Этого должно быть достаточно на данный момент. Теперь возвращайтесь на базу и беритесь за переплавку. {THING:StructureArcFurnace} используется для плавки руд в полезные слитки. Попробуйте переплавить несколько {THING:ItemIronOre} в {THING:ItemIronIngot}. Мы предоставили вам доступ к ящику с рудой, на случай если вам понадобится больше ресурсов.</Value>
+    </Record>
+    <Record>
       <Key>SmeltingItDownTask0</Key>
       <Value>Включите {THING:StructureArcFurnace}.</Value>
     </Record>
     <Record>
       <Key>SmeltingItDownTask1</Key>
       <Value>Возьмите {THING:ItemIronOre} из {THING:ItemMiningBelt}.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownTask2</Key>
+      <Value>Переплавьте {THING:ItemIronOre} поместив в дуговую печь и активировав печь.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownTask3</Key>
+      <Value>Возьмите свежевыплавленные {THING:ItemIronIngot}.</Value>
     </Record>
   </Interface>
 </Language>

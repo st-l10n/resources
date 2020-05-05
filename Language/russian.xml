@@ -5400,10 +5400,10 @@
     </Record>
     <Record>
       <Key>NewWorldSpaceDesc</Key>
-      <Value>Это креативный режим Stationeers! Спавните в любые предметы, тестируйте идеи и быстро стройте бункеры.
-        &lt;color=red&gt;Это эксперементальый режим игры!&lt;/color&gt; Думайте об этом как о космической компании в свободной форме, где захватывающие и неожиданные вещи* могут и будут происходить по сравнению с более надежным режимом выживания.
-        Не расстраивайтесь, если вы нечаянно взорвете себя, или раздавите цыплят, или погибните, дрейфуя один-одинешенек в пучине черного и враждебного космоса.
-        *bugs
+      <Value>Это креативный режим Stationeers! Создавайте любые предметы, тестируйте идеи и быстро стройте безумные вещи.
+        &lt;color=red&gt;Это эксперементальый режим игры!&lt;/color&gt; Думайте об этом как о космическом приключении, где захватывающие и неожиданные вещи* могут и будут происходить по сравнению с более надежным почти-смертельным опытом режима выживания.
+        Не расстраивайтесь, если вы нечаянно взорвете себя в крошечные, крошечные кусочки, или будете растерзаны цыплятками или погибните, дрейфуя один-одинешенек в пучине черного и враждебного космоса.
+        *Баги
       </Value>
     </Record>
     <Record>
@@ -6268,7 +6268,7 @@
     </Record>
     <Record>
       <Key>SettingsWorldOrigin</Key>
-      <Value>Центр мира</Value>
+      <Value>Перемещение Центра Мира</Value>
     </Record>
     <Record>
       <Key>GameMenuButtonPause</Key>
@@ -6832,11 +6832,11 @@
     </Record>
     <Record>
       <Key>ResearchFilter</Key>
-      <Value>Фильтры</Value>
+      <Value>Фильтр</Value>
     </Record>
     <Record>
       <Key>ResearchTitle</Key>
-      <Value>Сбросить</Value>
+      <Value>Исследование</Value>
     </Record>
     <Record>
       <Key>ResearchConfirm</Key>
@@ -6848,27 +6848,27 @@
     </Record>
     <Record>
       <Key>ScriptCommandSdse</Key>
-      <Value>1, если устройство открыто, иначе 0</Value>
+      <Value>Регистр = 1, если устройство заданно, иначе 0.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSdns</Key>
-      <Value>1, если устройство открыто, иначе 0</Value>
+      <Value>Регистр = 1, если устройство не задано, иначе 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSlt</Key>
-      <Value>1, если устройство открыто, иначе 0</Value>
+      <Value>Регистр = 1, если a &lt; b, иначе 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSgt</Key>
-      <Value>1, если устройство открыто, иначе 0</Value>
+      <Value>Регистр = 1, если a &gt; b, иначе 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSltz</Key>
-      <Value>1, если устройство открыто, иначе 0</Value>
+      <Value>Регистр = 1, если a &lt; 0, иначе 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSgtz</Key>
-      <Value>1, если устройство открыто, иначе 0</Value>
+      <Value>Регистр = 1, если a &gt; 0, иначе 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandAnd</Key>
@@ -6921,6 +6921,10 @@
     <Record>
       <Key>YellowPodType</Key>
       <Value>Желтая краска</Value>
+    </Record>
+    <Record>
+      <Key>DialogConfirmResearchUnlock</Key>
+      <Value>Вы хотите разблокировать это исследование?</Value>
     </Record>
     <Record>
       <Key>ResearchRequirementTitle</Key>
