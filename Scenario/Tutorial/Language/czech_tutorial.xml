@@ -149,6 +149,12 @@ Správa {LINK:InventoryPage;inventáře} vyžaduje dovednosti a praxe; pečlivě
       <Value>Jít do vesmíru</Value>
     </Record>
     <Record>
+      <Key>TutorialDescGoInAirlock1</Key>
+      <Value>Vydejte se do dveří {THING:StructureAirlock} a zajistěte, aby váš {THING:ItemEvaSuit} a {THING:ItemSpaceHelmet} byly připraveny. Stisknutím tlačítka {KEY:HelmetSlot} zobrazíte nabídku interakce a poté kliknutím na interakci, nebo přejděte na možnost Zavřít a stisknutím tlačítka {KEY:InventorySelect} přepnete stav, nebo stisknutím tlačítka {KEY:Internals} rychle přepnete {COLORYELLOW:vnitřní} zapnuto a vypnuto.
+      
+V pravé části obrazovky uvidíte ikony, které vás informují o stavu a také o tom, jaké rychlé akce byly přepnuty. Věnujte velkou pozornost těmto stavovým a varovným indikátorům, které vám mohou zachránit život!</Value>
+    </Record>
+    <Record>
       <Key>TutorialTaskGoInAirlock1</Key>
       <Value>Zavřete masku {THING:ItemSpaceHelmet}</Value>
     </Record>
@@ -159,6 +165,14 @@ Správa {LINK:InventoryPage;inventáře} vyžaduje dovednosti a praxe; pečlivě
     <Record>
       <Key>TutorialTitleCycleAirlock</Key>
       <Value>Synchronizace přechodové komory</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDescCycleAirlock1</Key>
+      <Value>Přechodovou komoru můžete ovládat pomocí {THING:StructureConsole}, nebo pomocí klávesnice, která je kompatibilní na dveřích {THING:StructureAirlock}. Tím dojde k odtlakování přechodové komory, takže můžete jít do vesmíru.
+
+{THING:CircuitboardAirlockControl} v {THING:StructureConsole} řídí {THING:StructureActiveVent}, další zařízení pro synchronizaci přechodové komory. Poznámka: V pravém horním rohu obrazovky máte informace o {COLORYELLOW:Vnitřní} a {COLORYELLOW:Externí}.
+
+Když máte na sobě svůj oblek, máte uvnitř atmosféru a i venku. Herní ikony složité atmosféry, proto věnujte velkou pozornost informacím atmosféry, abyste zůstali v bezpečí.</Value>
     </Record>
     <Record>
       <Key>TutorialTaskCycleAirlock1</Key>
