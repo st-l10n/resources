@@ -70,7 +70,11 @@ Lets start off with a basic Airlock. First, build the outer {THING:ItemIronFrame
         <Record>
             <Key>CloseTheDoorTask2</Key>
             <Value>Build {THING:StructureCompositeDoor} 2.</Value>
-        </Record>.
+        </Record>
+         <Record>
+            <Key>CloseTheDoorTask12</Key>
+            <Value>Rename {THING:StructureCompositeDoor}</Value>
+        </Record>
         <Record>
             <Key>CreatingASeal</Key>
             <Value>Creating a seal</Value>
