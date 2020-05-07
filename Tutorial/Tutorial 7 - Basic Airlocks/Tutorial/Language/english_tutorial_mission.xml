@@ -72,8 +72,12 @@ Lets start off with a basic Airlock. First, build the outer {THING:ItemIronFrame
             <Value>Build {THING:StructureCompositeDoor} 2.</Value>
         </Record>
          <Record>
-            <Key>CloseTheDoorTask12</Key>
-            <Value>Rename {THING:StructureCompositeDoor}</Value>
+            <Key>CloseTheDoorTask3</Key>
+            <Value>Rename the Outter facing {THING:StructureCompositeDoor} to external door or something recognizable.</Value>
+        </Record>
+         <Record>
+            <Key>CloseTheDoorTask4</Key>
+            <Value>Rename the Inward facing {THING:StructureCompositeDoor} to Internal door or something recognizable.</Value>
         </Record>
         <Record>
             <Key>CreatingASeal</Key>
@@ -81,7 +85,7 @@ Lets start off with a basic Airlock. First, build the outer {THING:ItemIronFrame
         </Record>
         <Record>
             <Key>CreatingASealDescription</Key>
-            <Value>Go ahead and finish the construction of the {THING:StructureCompositeDoor}s with {THING:ItemPlasticSheets} and {THING:ItemGlassSheets}.</Value>
+            <Value>Go ahead and finish the construction of the {THING:StructureCompositeDoor}s with {THING:ItemPlasticSheets} and {THING:ItemGlassSheets}. You will then need to rename the newly built doors using the {THING:ItemLabeller} found in the orange crate.</Value>
         </Record>
         <Record>
             <Key>CreatingASealTask1</Key>
