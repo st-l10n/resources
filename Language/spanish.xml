@@ -6696,12 +6696,52 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
       <Value>Registro = 1 si a &gt; b, de lo contrario 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandSle</Key>
+      <Value>Registro = 1 si a &lt;= b, de lo contrario 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSge</Key>
+      <Value>Registro = 1 si a &gt;= b, de lo contrario 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSeq</Key>
+      <Value>Registro = 1 si a == b, de lo contrario 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSne</Key>
+      <Value>Registro = 1 si a != b, de lo contrario 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSap</Key>
+      <Value>Registro = 1 si abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8), de lo contrario 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSna</Key>
+      <Value>Registro = 1 si abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8), en caso contrario 0</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandSltz</Key>
       <Value>Registro = 1 si es &lt; 0, de lo contrario 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSgtz</Key>
       <Value>Registro = 1 si es &gt; 0, de lo contrario 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSlez</Key>
+      <Value>Registro = 1 si un &lt;= 0, de lo contrario 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSgez</Key>
+      <Value>Registro = 1 si un &gt;= 0, de lo contrario 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSeqz</Key>
+      <Value>Registro = 1 si a == 0, de lo contrario 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSnez</Key>
+      <Value>Registro = 1 si un != 0, de lo contrario 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSapz</Key>
@@ -6744,16 +6784,28 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
       <Value>Bifurcación a la línea a si el dispositivo d no está configurado</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBlt</Key>
+      <Value>Rama de la línea c si a &lt; b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgt</Key>
+      <Value>Rama de la línea c si a &gt; b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBle</Key>
+      <Value>Rama de a la línea c si a &lt;= b</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBge</Key>
-      <Value>Rama a la línea c si a &gt;= b</Value>
+      <Value>Rama de a la línea c si a &gt;= b</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBeq</Key>
-      <Value>Rama a la línea c si a == b</Value>
+      <Value>Rama de a la línea c si a == b</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBne</Key>
-      <Value>Bifurcación a la línea c si a != b</Value>
+      <Value>Rama de a la línea c si a != b</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBap</Key>
@@ -6762,6 +6814,14 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
     <Record>
       <Key>ScriptCommandBna</Key>
       <Value>Se bifurca a la línea d si abs (a - b)&gt; max (c * max (abs (a), abs (b)), float.epsilon * 8)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJr</Key>
+      <Value>Salto relativo a la línea a</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJr</Key>
+      <Value>Salto relativo a la línea a</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrle</Key>
@@ -6862,6 +6922,14 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
     <Record>
       <Key>ScriptCommandBnezal</Key>
       <Value>Bifurca a la línea b si a != 0 y guarda el siguiente número de línea en ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandMax</Key>
+      <Value>Registro = máximo de a o b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandMin</Key>
+      <Value>Registro = min de a o b</Value>
     </Record>
     <Record>
       <Key>ScriptCommandYield</Key>
