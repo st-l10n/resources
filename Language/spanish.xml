@@ -6816,16 +6816,60 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
       <Value>Se bifurca a la línea d si abs (a - b)&gt; max (c * max (abs (a), abs (b)), float.epsilon * 8)</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBltz</Key>
+      <Value>Rama de la línea b si a &lt; 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgez</Key>
+      <Value>Rama de la línea b si a &gt;= 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBlez</Key>
+      <Value>Rama de la línea b si a &lt;= 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgtz</Key>
+      <Value>Rama de la línea b si a &gt; 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBeqz</Key>
+      <Value>Rama de la línea b si a == 0</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBnez</Key>
       <Value>rama de la línea b si a != 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBapz</Key>
+      <Value>Rama de la línea c si abs(a) &lt;= float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnaz</Key>
+      <Value>Rama de la línea c si abs(a) &gt; float.epsilon * 8</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandJr</Key>
       <Value>Salto relativo a la línea a</Value>
     </Record>
     <Record>
       <Key>ScriptCommandJr</Key>
       <Value>Salto relativo a la línea a</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrdse</Key>
+      <Value>Salto relativo a la línea a si el dispositivo está configurado</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrdns</Key>
+      <Value>Salto relativo a la línea a si el dispositivo no está configurado</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrlt</Key>
+      <Value>Salto relativo a la línea c si a &lt; b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrgt</Key>
+      <Value>salto relativo a la línea c si a &gt; b</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrle</Key>
@@ -6842,6 +6886,14 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
     <Record>
       <Key>ScriptCommandBrne</Key>
       <Value>Rama relativa a la línea c si a != b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrap</Key>
+      <Value>Rama relativa a la línea d si abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrna</Key>
+      <Value>Rama relativa a la línea d si abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrltz</Key>
@@ -6866,6 +6918,14 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
     <Record>
       <Key>ScriptCommandBrnez</Key>
       <Value>Rama relativa a la línea b si a != 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrapz</Key>
+      <Value>Rama relativa a la línea c si abs(a) &lt;= float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrnaz</Key>
+      <Value>Rama relativa a la línea c si abs(a) &gt; float.epsilon * 8</Value>
     </Record>
     <Record>
       <Key>ScriptCommandJal</Key>
@@ -6974,6 +7034,10 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
     <Record>
       <Key>ScriptCommandAbs</Key>
       <Value>Registro = el valor absoluto de un</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandExp</Key>
+      <Value>Registro = exp(a)</Value>
     </Record>
     <Record>
       <Key>ScriptCommandRand</Key>
