@@ -3602,6 +3602,10 @@
       <Key>ItemKitAutoMinerSmall</Key>
       <Value>Kit Auto Taladro Pequeño</Value>
     </Record>
+    <Record>
+      <Key>ItemDirtBags</Key>
+      <Value>Bolsas de basura</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -6672,6 +6676,10 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
       <Value>Crea una etiqueta que será reemplazada a lo largo del programa con el valor proporcionado.</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandMove</Key>
+      <Value>Registro = número proporcionado o valor de registro.</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandSdse</Key>
       <Value>Registro = 1 si el dispositivo está configurado, de lo contrario 0.</Value>
     </Record>
@@ -6710,6 +6718,10 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
     <Record>
       <Key>ScriptCommandNor</Key>
       <Value>Registro = 1 si a y b son 0, de lo contrario 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJ</Key>
+      <Value>Saltar la ejecución a la línea a</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrle</Key>
@@ -6902,6 +6914,14 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
     <Record>
       <Key>ResearchUnlockConfirm</Key>
       <Value>¿Quieres desbloquear esta investigación?</Value>
+    </Record>
+    <Record>
+      <Key>WarningSavePathNotWritableDescription</Key>
+      <Value>No podía escribir para guardar la ruta. Se ha restablecido a los valores por defecto</Value>
+    </Record>
+    <Record>
+      <Key>WarningSavePathNotWritable</Key>
+      <Value>Guardado en la ruta no se puede escribir</Value>
     </Record>
   </Interface>
   <Colors>
