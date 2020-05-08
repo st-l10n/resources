@@ -6816,6 +6816,10 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
       <Value>Se bifurca a la línea d si abs (a - b)&gt; max (c * max (abs (a), abs (b)), float.epsilon * 8)</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBnez</Key>
+      <Value>rama de la línea b si a != 0</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandJr</Key>
       <Value>Salto relativo a la línea a</Value>
     </Record>
@@ -6900,6 +6904,14 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
       <Value>Bifurca a la línea c si a != b y guarda el siguiente número de línea en ra</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBapal</Key>
+      <Value>Rama de la línea d si abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) y guardar el siguiente número de línea en ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnaal</Key>
+      <Value>Rama de la línea d si abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) y guardar el siguiente número de línea en ra</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBltzal</Key>
       <Value>Bifurcarse a la línea b si a &lt; 0 y almacenar el siguiente número de línea en ra</Value>
     </Record>
@@ -6924,6 +6936,34 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
       <Value>Bifurca a la línea b si a != 0 y guarda el siguiente número de línea en ra</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBapzal</Key>
+      <Value>Rama de la línea c si abs(a) &lt;= float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnazal</Key>
+      <Value>Rama de la línea c si abs(a) &gt; float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSqrt</Key>
+      <Value>Registro = raíz cuadrada de un</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandRound</Key>
+      <Value>Registro = un redondeo al entero más cercano</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandTrunc</Key>
+      <Value>Registro = a con la parte fraccionaria eliminada</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandCeil</Key>
+      <Value>Registro = el menor número entero mayor que un</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandFloor</Key>
+      <Value>Registro = el mayor número entero menor que un</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandMax</Key>
       <Value>Registro = máximo de a o b</Value>
     </Record>
@@ -6932,8 +6972,36 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
       <Value>Registro = min de a o b</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandAbs</Key>
+      <Value>Registro = el valor absoluto de un</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandRand</Key>
+      <Value>Registro = un valor aleatorio x con 0 &lt;= x &lt; 1</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandYield</Key>
       <Value>Pone en pausa la ejecución por 1 tick</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandPeek</Key>
+      <Value>Registro = el valor en la parte superior de la pila</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandPush</Key>
+      <Value>Empuja el valor de a a la pila a sp e incrementa sp</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandPop</Key>
+      <Value>Registro = el valor en la parte superior de la pila y disminuye sp</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandHcf</Key>
+      <Value>Detenerse y prenderse fuego</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSelect</Key>
+      <Value>Registro = b si a no es cero, de lo contrario c</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSleep</Key>
