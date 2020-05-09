@@ -61,6 +61,14 @@ Vaším prvním úkolem je vytvořit {THING:StructureResearchMachine}. Vše, co 
       <Value>Tisk kapslí</Value>
     </Record>
     <Record>
+      <Key>PrintingCapsulesDescription</Key>
+      <Value>Výzkumné kapsle jsou nezbytnou součástí výzkumného procesu. Vytiskněte je pomocí {THING:StructureElectronicsPrinter} a poté je přidejte do {THING:StructureResearchMachine}, abyste získali výzkumné body. Kapsle jsou řazeny podle úrovní, které určují jejich náklady: červená, zelená, modrá a žlutá.
+
+Vyspělejší technologie vyžadují kapsle vyššího stupně.
+
+K tisku některých kapslí použijte blízkou {THING:StructureElectronicsPrinter}. </Value>
+    </Record>
+    <Record>
       <Key>PrintingCapsules1</Key>
       <Value>Zapněte {THING:StructureElectronicsPrinter}.</Value>
     </Record>
@@ -109,8 +117,16 @@ Vaším prvním úkolem je vytvořit {THING:StructureResearchMachine}. Vše, co 
       <Value>Zpracování kapslí</Value>
     </Record>
     <Record>
+      <Key>CapsuleBreakDownDescription</Key>
+      <Value>Každá úroveň výzkumné kapsle má různé doby zpracování. Čím vyšší je úroveň, tím déle bude zpracování trvat.</Value>
+    </Record>
+    <Record>
       <Key>CapsuleBreakDown1</Key>
       <Value>Zpracujte druhou položku {THING:ItemResearchCapsule} pomocí {THING:StructureResearchMachine}.</Value>
+    </Record>
+    <Record>
+      <Key>UnlockingResearch</Key>
+      <Value>Odemknutí výzkumu</Value>
     </Record>
   </Interface>
 </Language>
