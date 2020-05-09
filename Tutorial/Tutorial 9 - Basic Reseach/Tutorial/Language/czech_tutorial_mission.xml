@@ -15,12 +15,26 @@
       <Value>Výzkumný stroj</Value>
     </Record>
     <Record>
+      <Key>TheResearchMachineDescription</Key>
+      <Value>Pokud je výzkum aktivován v nabídce Nastavení světa, budete muset aktivně odemknout nové technologie zpracováním výzkumných kapslí. To se provádí pomocí {THING:StructureResearchMachine}.
+
+Vaším prvním úkolem je vytvořit {THING:StructureResearchMachine}. Vše, co potřebujete, najdete v červená {THING:DynamicCrate}.</Value>
+    </Record>
+    <Record>
       <Key>TheResearchMachine1</Key>
       <Value>Vezměte {THING:ItemKitResearchMachine} z červená {THING:DynamicCrate}.</Value>
     </Record>
     <Record>
       <Key>TheResearchMachine2</Key>
       <Value>Umístěte {THING:ItemKitResearchMachine} na zvýrazněné místo.</Value>
+    </Record>
+    <Record>
+      <Key>TheResearchMachineBuild</Key>
+      <Value>Sestavení výzkumného stroje</Value>
+    </Record>
+    <Record>
+      <Key>TheResearchMachineBuildeDescription</Key>
+      <Value>Stejně jako některé jiné stroje má {THING:StructureResearchMachine} více fází sestavení. Pro úplné vytvoření {THING:StructureResearchMachine} budete muset dokončit každou fázi sestavení.</Value>
     </Record>
     <Record>
       <Key>TheResearchMachineBuild1</Key>
@@ -43,6 +57,10 @@
       <Value>Dokončete {THING:StructureResearchMachine} pomocí {THING:ItemScrewdriver}.</Value>
     </Record>
     <Record>
+      <Key>PrintingCapsules</Key>
+      <Value>Tisk kapslí</Value>
+    </Record>
+    <Record>
       <Key>PrintingCapsules1</Key>
       <Value>Zapněte {THING:StructureElectronicsPrinter}.</Value>
     </Record>
@@ -63,12 +81,32 @@
       <Value>Vytiskněte {THING:ItemResearchCapsule}.</Value>
     </Record>
     <Record>
+      <Key>InsertingCapsules</Key>
+      <Value>Vkládání kapslí</Value>
+    </Record>
+    <Record>
+      <Key>InsertingCapsulesDescription</Key>
+      <Value>Nyní, když máte výzkumné kapsle, můžete je začít rozebrat na výzkumné body.</Value>
+    </Record>
+    <Record>
       <Key>InsertingCapsules0</Key>
       <Value>Zapněte {THING:StructureResearchMachine}.</Value>
     </Record>
     <Record>
       <Key>InsertingCapsules1</Key>
       <Value>Vložte nově vytištěnou položku {THING:ItemResearchCapsuleRed} do zadní části {THING:StructureResearchMachine}.</Value>
+    </Record>
+    <Record>
+      <Key>InsertingCapsules2</Key>
+      <Value>Stisknutím velkého zeleného tlačítka na přední straně {THING:StructureResearchMachine} zahájíte zpracování kapsle. Počkejte, až se vyplní malý ukazatel průběhu pod tlačítkem, což znamená, že zpracování je dokončeno.</Value>
+    </Record>
+    <Record>
+      <Key>InsertingCapsules3</Key>
+      <Value>Po zpracování první kapsle vložte {THING:ItemResearchCapsule} do zadní části {THING:StructureResearchMachine}.</Value>
+    </Record>
+    <Record>
+      <Key>CapsuleBreakDown</Key>
+      <Value>Zpracování kapslí</Value>
     </Record>
     <Record>
       <Key>CapsuleBreakDown1</Key>
