@@ -7,6 +7,10 @@
       <Value>#9 Základní výzkum</Value>
     </Record>
     <Record>
+      <Key>BasicResearchDescription</Key>
+      <Value>Odemkněte nové technologie pomocí výzkumného stroje.</Value>
+    </Record>
+    <Record>
       <Key>TheResearchMachine</Key>
       <Value>Výzkumný stroj</Value>
     </Record>
@@ -64,11 +68,11 @@
     </Record>
     <Record>
       <Key>InsertingCapsules1</Key>
-      <Value>Vložte {THING:ItemDataDisk} do {THING:StructureConsole}.</Value>
+      <Value>Vložte nově vytištěnou položku {THING:ItemResearchCapsuleRed} do zadní části {THING:StructureResearchMachine}.</Value>
     </Record>
     <Record>
       <Key>CapsuleBreakDown1</Key>
-      <Value>Umístěte {THING:ItemBatteryCellLarge} do {THING:StructureAreaPowerControl}.</Value>
+      <Value>Zpracujte druhou položku {THING:ItemResearchCapsule} pomocí {THING:StructureResearchMachine}.</Value>
     </Record>
   </Interface>
 </Language>
