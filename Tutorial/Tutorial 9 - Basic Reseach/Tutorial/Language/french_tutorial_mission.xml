@@ -61,6 +61,14 @@ Votre première tâche consiste à construire la {THING:StructureResearchMachine
       <Value>Capsules d’impression</Value>
     </Record>
     <Record>
+      <Key>PrintingCapsulesDescription</Key>
+      <Value>Les Capsules de recherche sont une partie essentielle du processus de recherche. Imprimez-les à l&apos;aide d&apos;une {THING:StructureElectronicsPrinter}, puis ajoutez-les à la {THING:StructureResearchMachine} pour gagner des points de recherche. Les capsules sont classées par niveaux, qui déterminent leur coût : rouge, vert, bleu et jaune. 
+
+Les technologies plus avancées nécessitent des capsules de niveau supérieur. 
+
+Utilisez l&apos;imprimante {THING:StructureElectronicsPrinter} voisine pour imprimer certaines capsules. </Value>
+    </Record>
+    <Record>
       <Key>PrintingCapsules1</Key>
       <Value>Allumez le {THING:StructureArcFurnace}.</Value>
     </Record>
@@ -97,8 +105,20 @@ Votre première tâche consiste à construire la {THING:StructureResearchMachine
       <Value>Insérez le {THING:ItemDataDisk} dans la {THING:StructureConsole}.</Value>
     </Record>
     <Record>
+      <Key>InsertingCapsules2</Key>
+      <Value>Appuyez sur le grand bouton vert situé à l&apos;avant de la {THING:StructureResearchMachine} pour commencer à traiter la capsule. Attendez que la petite barre de progression située sous le bouton se remplisse, indiquant que le traitement est terminé.</Value>
+    </Record>
+    <Record>
+      <Key>InsertingCapsules3</Key>
+      <Value>Lorsque la première capsule a été traitée, insérez la {THING:ItemResearchCapsule} à l&apos;arrière de la {THING:StructureResearchMachine}.</Value>
+    </Record>
+    <Record>
       <Key>CapsuleBreakDown</Key>
       <Value>Traitement des capsules</Value>
+    </Record>
+    <Record>
+      <Key>CapsuleBreakDownDescription</Key>
+      <Value>Chaque niveau de capsule de recherche a des temps de traitement différents. Plus le niveau est élevé, plus il faudra de temps pour traiter.</Value>
     </Record>
     <Record>
       <Key>CapsuleBreakDown1</Key>
@@ -107,6 +127,18 @@ Votre première tâche consiste à construire la {THING:StructureResearchMachine
     <Record>
       <Key>UnlockingResearch</Key>
       <Value>Débloquer la recherche</Value>
+    </Record>
+    <Record>
+      <Key>UnlockingResearchDescription</Key>
+      <Value>Maintenant que nous avons traité les capsules de recherche, nous pouvons attribuer les points nouvellement gagnés sur les nouvelles technologies. 
+\t\t\t
+Cliquez sur le cercle rouge de la {THING:StructureResearchMachine} pour accéder au menu de recherche. Dans le coin supérieur droit du menu, vous pouvez voir vos points de recherche actuels. Pour chaque pod traité, vous gagnez un point.
+
+Le côté gauche du menu affiche des filtres qui peuvent être activés ou désactivés, pour vous aider à trouver des technologies spécifiques à déverrouiller. Le panneau central affiche les catégories actuellement verrouillées et le prix de déverrouillage de chacune d&apos;entre elles.</Value>
+    </Record>
+    <Record>
+      <Key>UnlockingResearch2</Key>
+      <Value>Cliquez sur le cercle rouge de la {THING:StructureResearchMachine}, puis cliquez sur une catégorie de technologie à déverrouiller, et sélectionnez &quot;confirmer&quot;.</Value>
     </Record>
   </Interface>
 </Language>
