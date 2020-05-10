@@ -110,6 +110,12 @@ Ve vašem {SLOT:Belt} najděte {THING:ItemCableCoil}. Umístěte kabely do zvýr
       <Value>Nabíjení baterie a ovladače elektřiny</Value>
     </Record>
     <Record>
+      <Key>TutorialPowerControlersAndbatteryChargesDescription</Key>
+      <Value>V našem dalším kroku musíme umístit {THING:ItemAreaPowerControl}, aby bylo možné řídit tok energie a zabránit vyhoření kabelů. Poskytují také malý přechodný zdroj napájení, pokud jsou generátory offline.
+
+Za druhé, musíme přidat {THING:ItemBatteryCharger} pro naše vybité baterie. Chceme ho dát do obvodu před {THING:ItemAreaPowerControl}, takže nevyčerpá baterii {THING:ItemAreaPowerControl}.</Value>
+    </Record>
+    <Record>
       <Key>PowerControlersAndbatteryChargesTask1</Key>
       <Value>Vezměte {THING:ItemAreaPowerControl} z Konstrukční bedny #1.</Value>
     </Record>
