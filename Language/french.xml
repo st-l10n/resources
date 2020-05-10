@@ -4645,6 +4645,18 @@ Scroll &lt;color=red&gt;Roulette de la souris&lt;/color&gt; pour plus d&apos;opt
       <Value>Le placement est accroché à la grille.</Value>
     </Record>
     <Record>
+      <Key>TooltipPlacementSnapFaceMountBlockedDynamic</Key>
+      <Value>Placement bloqué par #VAR1#</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceMountBlockedFallback</Key>
+      <Value>Placement bloqué</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceNotMountableDynamic</Key>
+      <Value>#VAR1# ne permet pas de montage</Value>
+    </Record>
+    <Record>
       <Key>GameMenuClearDisconnectedPlayers</Key>
       <Value>Effacer les joueurs déconnectés</Value>
     </Record>
@@ -6479,6 +6491,14 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>Crée une étiquette qui sera remplacée dans tout le programme par la valeur fournie</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandAdd</Key>
+      <Value>Stocke a + b dans le registre</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSub</Key>
+      <Value>Stocke a - b dans le registre</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandSdse</Key>
       <Value>1 si l&apos;appareil est ouvert, sinon 0</Value>
     </Record>
@@ -6495,12 +6515,52 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>1 si l&apos;appareil est ouvert, sinon 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandSle</Key>
+      <Value>Stocke 1 dans le registre si a &lt;= b, sinon 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSge</Key>
+      <Value>Stocke 1 dans le registre si a &gt;= b, sinon 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSeq</Key>
+      <Value>Stocke 1 dans le registre si a == b, sinon 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSne</Key>
+      <Value>Stocke 1 dans le registre si a != b, sinon 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSap</Key>
+      <Value>Stocke 1 dans le registre si abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8), sinon 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSna</Key>
+      <Value>Stocke 1 dans le registre si abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8), sinon 0</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandSltz</Key>
       <Value>1 si l&apos;appareil est ouvert, sinon 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSgtz</Key>
       <Value>1 si l&apos;appareil est ouvert, sinon 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSlez</Key>
+      <Value>Stocke 1 dans le registre si a &lt;= 0, sinon 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSgez</Key>
+      <Value>Stocke 1 dans le registre si a &gt;= 0, sinon 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSeqz</Key>
+      <Value>Stocke 1 dans le registre si a == 0, sinon 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSnez</Key>
+      <Value>Stocke 1 dans le registre si a != 0, sinon 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandAnd</Key>
@@ -6525,6 +6585,170 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
     <Record>
       <Key>ScriptCommandDiv</Key>
       <Value>Stocke a / b dans le registre</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJ</Key>
+      <Value>Saute à la ligne a</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBdse</Key>
+      <Value>Saute à la ligne a si le dispositif est configuré</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBdns</Key>
+      <Value>Saute à la ligne a si le dispositif n&apos;est pas configuré</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBlt</Key>
+      <Value>Saute à la ligne c si a &lt; b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgt</Key>
+      <Value>Saute à la ligne c si a &gt; b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBle</Key>
+      <Value>Saute à la ligne c si a &lt;= b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBge</Key>
+      <Value>Saute à la ligne c si a &gt;= b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBeq</Key>
+      <Value>Saute à la ligne c si a == b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBne</Key>
+      <Value>Saute à la ligne c si a != b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBap</Key>
+      <Value>Saute à la ligne d si abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBna</Key>
+      <Value>Saute à la ligne d si abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBltz</Key>
+      <Value>Saute à la ligne b si a &lt; 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgez</Key>
+      <Value>Saute à la ligne b si a &gt;= 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBlez</Key>
+      <Value>Saute à la ligne b si a &lt;= 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgtz</Key>
+      <Value>Saute à la ligne b si a &gt; 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBeqz</Key>
+      <Value>Saute à la ligne b si a == 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnez</Key>
+      <Value>Saute à la ligne b si a != 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBapz</Key>
+      <Value>Saute à la ligne c si abs(a) &lt;= float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnaz</Key>
+      <Value>Saute à la ligne c si abs(a) &gt; float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJr</Key>
+      <Value>Fait un saut relatif de a lignes</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJr</Key>
+      <Value>Fait un saut relatif de a lignes</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrdse</Key>
+      <Value>Fait un saut relatif de a lignes si le dispositif est configuré</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrdns</Key>
+      <Value>Fait un saut relatif de a lignes si le dispositif n&apos;est pas configuré</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrlt</Key>
+      <Value>Fait un saut relatif de c lignes si a &lt; b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrgt</Key>
+      <Value>Fait un saut relatif de c lignes si a &gt; b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrle</Key>
+      <Value>Fait un saut relatif de c lignes si a &lt;= b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrge</Key>
+      <Value>Fait un saut relatif de c lignes si a &gt;= b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBreq</Key>
+      <Value>Fait un saut relatif de c lignes si a == b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrne</Key>
+      <Value>Fait un saut relatif de c lignes si a != b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrap</Key>
+      <Value>Fait un saut relatif de d lignes si abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrna</Key>
+      <Value>Fait un saut relatif de d lignes si abs(a - b) &gt; max(c * max (abs(a), abs(b)), float.epsilon * 8)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrltz</Key>
+      <Value>Fait un saut relatif de b lignes si a &lt; 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrgez</Key>
+      <Value>Fait un saut relatif de b lignes si a &gt;= 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrlez</Key>
+      <Value>Fait un saut relatif de b lignes si a &lt;= 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrgtz</Key>
+      <Value>Fait un saut relatif de b lignes si a &gt; 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBreqz</Key>
+      <Value>Fait un saut relatif de b lignes si a == 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrnez</Key>
+      <Value>Fait un saut relatif de b lignes si a != 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrapz</Key>
+      <Value>Fait un saut relatif de c lignes si abs(a) &lt;= float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrnaz</Key>
+      <Value>Fait un saut relatif de c lignes si abs(a) &gt; float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJal</Key>
+      <Value>Saute à la ligne a et stocke le numéro de la ligne suivante dans ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBltal</Key>
+      <Value>Saute à la ligne c si a &lt; b et stocke le numéro de la ligne suivante dans ra</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBgtal</Key>
@@ -6691,8 +6915,20 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>Expérimentation</Value>
     </Record>
     <Record>
+      <Key>ResearchUnlocksTitle</Key>
+      <Value>Déverrouillés</Value>
+    </Record>
+    <Record>
+      <Key>ResearchMilitary</Key>
+      <Value>Militaire</Value>
+    </Record>
+    <Record>
       <Key>ResearchAutomation</Key>
       <Value>Auto-allumage:</Value>
+    </Record>
+    <Record>
+      <Key>ResearchTools</Key>
+      <Value>Outils</Value>
     </Record>
     <Record>
       <Key>ResearchOrganics</Key>
@@ -6701,6 +6937,14 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
     <Record>
       <Key>ResearchConstruction</Key>
       <Value>Fournitures de construction 2</Value>
+    </Record>
+    <Record>
+      <Key>ResearchLogic</Key>
+      <Value>Logique</Value>
+    </Record>
+    <Record>
+      <Key>ResearchVehicles</Key>
+      <Value>Véhicules</Value>
     </Record>
     <Record>
       <Key>ResearchShowLocked</Key>
@@ -6717,6 +6961,14 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
     <Record>
       <Key>ResearchUnlockConfirm</Key>
       <Value>Souhaitez-vous déverrouiller cette recherche ?</Value>
+    </Record>
+    <Record>
+      <Key>WarningSavePathNotWritableDescription</Key>
+      <Value>Impossible d’écrire pour sauver le chemin. Il a été réinitialisé en défaut</Value>
+    </Record>
+    <Record>
+      <Key>WarningSavePathNotWritable</Key>
+      <Value>Le chemin de sauvegarde n&apos;est pas accessible en écriture</Value>
     </Record>
   </Interface>
   <Colors>
