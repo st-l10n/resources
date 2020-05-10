@@ -3078,7 +3078,7 @@
     </Record>
     <Record>
       <Key>ItemHardJetpack</Key>
-      <Value>Jetpack renforcé</Value>
+      <Value>Propulseur dorsal renforcé</Value>
     </Record>
     <Record>
       <Key>DynamicHydroponics</Key>
@@ -3322,11 +3322,11 @@
     </Record>
     <Record>
       <Key>ItemWaspaloyIngot</Key>
-      <Value>Lingot (Déchets)</Value>
+      <Value>Lingot (Waspaloy)</Value>
     </Record>
     <Record>
       <Key>ItemHastelloyIngot</Key>
-      <Value>Lingot (Déchets)</Value>
+      <Value>Lingot (Hastelloy)</Value>
     </Record>
     <Record>
       <Key>ItemInconelIngot</Key>
@@ -4569,7 +4569,7 @@
     <Record>
       <Key>TutorialCompleteMessage</Key>
       <Value>Il y a encore beaucoup à apprendre.
-Alors sors de là, Stationeer !</Value>
+Alors au boulot, Stationaute !</Value>
     </Record>
     <Record>
       <Key>TutorialBackToMenu</Key>
@@ -6348,7 +6348,7 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
     </Record>
     <Record>
       <Key>NetworkAnalyserRequired</Key>
-      <Value>OBLIGATOIRE</Value>
+      <Value>REQUIS</Value>
     </Record>
     <Record>
       <Key>NetworkAnalyserTitle</Key>
@@ -6527,6 +6527,62 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>Stocke a / b dans le registre</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBgtal</Key>
+      <Value>Saute à la ligne c si a &gt; b et stocke le numéro de la ligne suivante dans ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBleal</Key>
+      <Value>Saute à la ligne c si a &lt;= b et stocke le numéro de la ligne suivante dans ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgeal</Key>
+      <Value>Saute à la ligne c si a &gt;= b et stocke le numéro de la ligne suivante dans ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBeqal</Key>
+      <Value>Saute à la ligne c si a == b et stocke le numéro de la ligne suivante dans ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBneal</Key>
+      <Value>Saute à la ligne c si a != b et stocke le numéro de la ligne suivante dans ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBapal</Key>
+      <Value>Saute à la ligne d si abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) et stocke le numéro de la ligne suivante dans ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnaal</Key>
+      <Value>Saute à la ligne d si abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) et stocke le numéro de la ligne suivante dans ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBltzal</Key>
+      <Value>Saute à la ligne b si a &lt; 0 et stocke le numéro de la ligne suivante dans ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgezal</Key>
+      <Value>Saute à la ligne b si a &gt;= 0 et stocke le numéro de la ligne suivante dans ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBlezal</Key>
+      <Value>Saute à la ligne b si a &lt;= 0 et stocke le numéro de la ligne suivante dans ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgtzal</Key>
+      <Value>Saute à la ligne b si a &gt; 0 et stocke le numéro de la ligne suivante dans ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBeqzal</Key>
+      <Value>Saute à la ligne b si a == 0 et stocke le numéro de la ligne suivante dans ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnezal</Key>
+      <Value>Saute à la ligne b si a != 0 et stocke le numéro de la ligne suivante dans ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBapzal</Key>
+      <Value>Saute à la ligne c si abs(a) &lt;= float.epsilon * 8</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBnazal</Key>
       <Value>Saute à la ligne c si abs(a) &gt; float.epsilon * 8</Value>
     </Record>
@@ -6535,12 +6591,44 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>Stocke la racine carrée de a dans le registre</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandRound</Key>
+      <Value>Stocke a arrondi à l&apos;entier le plus proche dans le registre</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandTrunc</Key>
+      <Value>Stocke a sans sa partie fractionnelle dans le registre</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandCeil</Key>
+      <Value>Strocke le plus petit entier supérieur à a dans le registre</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandFloor</Key>
+      <Value>Stocke le plus grand entier inférieur à a dans le registre</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandMax</Key>
+      <Value>Stocke la plus grande des valeurs a et b dans le registre</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandMin</Key>
+      <Value>Stocke la plus petite des valeurs a et b dans le registre</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandAbs</Key>
+      <Value>Stocke la valeur absolue de a dans le registre</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandLog</Key>
       <Value>Stocke log(a) dans le registre</Value>
     </Record>
     <Record>
       <Key>ScriptCommandExp</Key>
       <Value>Stocke exp(a) dans le registre</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandRand</Key>
+      <Value>Stocke dans le registre une valeur x telle que 0 &lt;= x &lt; 1</Value>
     </Record>
     <Record>
       <Key>ScriptCommandYield</Key>
@@ -6576,7 +6664,7 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
     </Record>
     <Record>
       <Key>BluePodType</Key>
-      <Value>Bleu:</Value>
+      <Value>Bleu</Value>
     </Record>
     <Record>
       <Key>RedPodType</Key>
@@ -6584,11 +6672,11 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
     </Record>
     <Record>
       <Key>GreenPodType</Key>
-      <Value>Vert:</Value>
+      <Value>Vert</Value>
     </Record>
     <Record>
       <Key>YellowPodType</Key>
-      <Value>Coloration jaune</Value>
+      <Value>Jaune</Value>
     </Record>
     <Record>
       <Key>SettingsResearch</Key>
