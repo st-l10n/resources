@@ -7,8 +7,18 @@
       <Value>#6 Base de l’atmosphère</Value>
     </Record>
     <Record>
+      <Key>BasicResearchDescription</Key>
+      <Value>Débloquez de nouvelles technologies avec la machine de recherche.</Value>
+    </Record>
+    <Record>
       <Key>TheResearchMachine</Key>
       <Value>La machine à plier</Value>
+    </Record>
+    <Record>
+      <Key>TheResearchMachineDescription</Key>
+      <Value>Si la recherche est activée dans le menu Paramètres mondiaux, vous devrez débloquer activement les nouvelles technologies en traitant les Capsules de recherche. Cela se fait avec la {THING:StructureResearchMachine}. 
+
+Votre première tâche consiste à construire la {THING:StructureResearchMachine}. Vous trouverez tout ce dont vous avez besoin dans la {THING:DynamicCrate} rouge.</Value>
     </Record>
     <Record>
       <Key>TheResearchMachine1</Key>
@@ -17,6 +27,14 @@
     <Record>
       <Key>TheResearchMachine2</Key>
       <Value>Placez le {THING:ItemAreaPowerControl} dans la zone en surbrillance.</Value>
+    </Record>
+    <Record>
+      <Key>TheResearchMachineBuild</Key>
+      <Value>La construction de la machine de recherche</Value>
+    </Record>
+    <Record>
+      <Key>TheResearchMachineBuildeDescription</Key>
+      <Value>Comme certaines des autres machines, la {THING:StructureResearchMachine} a plusieurs étapes de construction. Vous devrez compléter chaque étape de construction pour construire entièrement la {THING:StructureResearchMachine}.</Value>
     </Record>
     <Record>
       <Key>TheResearchMachineBuild1</Key>
@@ -39,6 +57,10 @@
       <Value>Ouvrez le {THING:StructureAreaPowerControl} avec {THING:ItemCrowbar}.</Value>
     </Record>
     <Record>
+      <Key>PrintingCapsules</Key>
+      <Value>Capsules d’impression</Value>
+    </Record>
+    <Record>
       <Key>PrintingCapsules1</Key>
       <Value>Allumez le {THING:StructureArcFurnace}.</Value>
     </Record>
@@ -59,6 +81,14 @@
       <Value>Imprimez un {THING:ItemPassiveVent}.</Value>
     </Record>
     <Record>
+      <Key>InsertingCapsules</Key>
+      <Value>Insérer des capsules</Value>
+    </Record>
+    <Record>
+      <Key>InsertingCapsulesDescription</Key>
+      <Value>Maintenant que vous avez des capsules de recherche, vous pouvez commencer à les décomposer en points de recherche.</Value>
+    </Record>
+    <Record>
       <Key>InsertingCapsules0</Key>
       <Value>Allumez le {THING:StructureArcFurnace}.</Value>
     </Record>
@@ -67,8 +97,16 @@
       <Value>Insérez le {THING:ItemDataDisk} dans la {THING:StructureConsole}.</Value>
     </Record>
     <Record>
+      <Key>CapsuleBreakDown</Key>
+      <Value>Traitement des capsules</Value>
+    </Record>
+    <Record>
       <Key>CapsuleBreakDown1</Key>
       <Value>Placez la {THING:ItemBatteryCellLarge} dans le {THING:StructureAreaPowerControl}.</Value>
+    </Record>
+    <Record>
+      <Key>UnlockingResearch</Key>
+      <Value>Débloquer la recherche</Value>
     </Record>
   </Interface>
 </Language>
