@@ -4,7 +4,7 @@
   <Interface>
     <Record>
       <Key>BasicResearch</Key>
-      <Value>#6 Atmósfera básica</Value>
+      <Value>#9 Investigación básica</Value>
     </Record>
     <Record>
       <Key>BasicResearchDescription</Key>
@@ -12,7 +12,7 @@
     </Record>
     <Record>
       <Key>TheResearchMachine</Key>
-      <Value>La Máquina Dobladora</Value>
+      <Value>La máquina de investigación</Value>
     </Record>
     <Record>
       <Key>TheResearchMachineDescription</Key>
@@ -22,7 +22,7 @@ Su primera tarea es construir la {THING:StructureResearchMachine}. Encontrarás 
     </Record>
     <Record>
       <Key>TheResearchMachine1</Key>
-      <Value>Recoge la {THING:ItemKitCompositeFloorGrating} de la caja.</Value>
+      <Value>Coge la {THING:ItemKitResearchMachine} de la {THING:DynamicCrate} roja.</Value>
     </Record>
     <Record>
       <Key>TheResearchMachine2</Key>
@@ -61,6 +61,14 @@ Su primera tarea es construir la {THING:StructureResearchMachine}. Encontrarás 
       <Value>Impresión de cápsulas</Value>
     </Record>
     <Record>
+      <Key>PrintingCapsulesDescription</Key>
+      <Value>Las cápsulas de investigación son una parte esencial del proceso de investigación. Imprimirlas usando una {THING:StructureElectronicsPrinter}, luego agrégalas a la {THING:StructureResearchMachine} para obtener puntos de investigación. Las cápsulas se clasifican por niveles, que determinan sus costes: rojo, verde, azul y amarillo. 
+
+Las tecnologías más avanzadas requieren cápsulas de mayor nivel. 
+
+Usa la {THING:StructureElectronicsPrinter} mas cercana para imprimir algunas cápsulas. </Value>
+    </Record>
+    <Record>
       <Key>PrintingCapsules1</Key>
       <Value>Enciende el {THING:StructureArcFurnace}.</Value>
     </Record>
@@ -97,6 +105,10 @@ Su primera tarea es construir la {THING:StructureResearchMachine}. Encontrarás 
       <Value>Inserta el {THING:ItemDataDisk} en la {THING:StructureConsole}.</Value>
     </Record>
     <Record>
+      <Key>InsertingCapsules2</Key>
+      <Value>Presione el gran botón verde en el frente de la {THING:StructureResearchMachine} para comenzar a procesar la cápsula. Espere a que se llene la pequeña barra de progreso debajo del botón, indicando que el procesamiento se ha completado.</Value>
+    </Record>
+    <Record>
       <Key>InsertingCapsules3</Key>
       <Value>Cuando la primera cápsula haya sido procesada, inserte la {THING:ItemResearchCapsule} en la parte trasera de la {THING:StructureResearchMachine}.</Value>
     </Record>
@@ -115,6 +127,16 @@ Su primera tarea es construir la {THING:StructureResearchMachine}. Encontrarás 
     <Record>
       <Key>UnlockingResearch</Key>
       <Value>Desbloquear la investigación</Value>
+    </Record>
+    <Record>
+      <Key>UnlockingResearchDescription</Key>
+      <Value>Ahora que hemos procesado las cápsulas de investigación, podemos asignar los puntos recién ganados en nuevas tecnologías. 
+			
+Haga clic en el círculo rojo en la {THING:StructureResearchMachine} para acceder al menú de investigación. En la parte superior derecha del menú, puedes ver tus puntos de investigación actuales. Por cada capsula procesada, ganas un punto.
+
+El lado izquierdo del menú muestra los filtros que pueden ser activados o desactivados, para ayudar a encontrar tecnologías específicas para desbloquear. El panel central muestra las categorías actualmente bloqueadas, y el precio de desbloqueo de cada una.
+    
+    </Value>
     </Record>
     <Record>
       <Key>UnlockingResearch2</Key>
