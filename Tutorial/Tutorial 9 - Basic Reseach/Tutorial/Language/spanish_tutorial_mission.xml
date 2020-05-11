@@ -15,12 +15,26 @@
       <Value>La Máquina Dobladora</Value>
     </Record>
     <Record>
+      <Key>TheResearchMachineDescription</Key>
+      <Value>Si se activa la investigación en el menú de Ajustes del Mundo, tendrás que desbloquear activamente las nuevas tecnologías procesando las Cápsulas de Investigación. Esto se hace con la {THING:StructureResearchMachine}.
+
+Su primera tarea es construir la {THING:StructureResearchMachine}. Encontrarás todo lo que necesites en la {THING:DynamicCrate} roja.</Value>
+    </Record>
+    <Record>
       <Key>TheResearchMachine1</Key>
       <Value>Recoge la {THING:ItemKitCompositeFloorGrating} de la caja.</Value>
     </Record>
     <Record>
       <Key>TheResearchMachine2</Key>
       <Value>Coloca el {THING:ItemKitHydroponicStation} en la posición resaltada.</Value>
+    </Record>
+    <Record>
+      <Key>TheResearchMachineBuild</Key>
+      <Value>La máquina de investigación se construye</Value>
+    </Record>
+    <Record>
+      <Key>TheResearchMachineBuildeDescription</Key>
+      <Value>Como algunas de las otras máquinas, la {THING:StructureResearchMachine} tiene múltiples etapas de construcción. Necesitarás completar cada etapa de construcción para construir completamente la {THING:StructureResearchMachine}.</Value>
     </Record>
     <Record>
       <Key>TheResearchMachineBuild1</Key>
@@ -43,6 +57,10 @@
       <Value>Abre el {THING:StructureAreaPowerControl} con la {THING:ItemCrowbar}.</Value>
     </Record>
     <Record>
+      <Key>PrintingCapsules</Key>
+      <Value>Impresión de cápsulas</Value>
+    </Record>
+    <Record>
       <Key>PrintingCapsules1</Key>
       <Value>Enciende el {THING:StructureArcFurnace}.</Value>
     </Record>
@@ -63,6 +81,14 @@
       <Value>Imprime un {THING:ItemPassiveVent}.</Value>
     </Record>
     <Record>
+      <Key>InsertingCapsules</Key>
+      <Value>Insertar las cápsulas</Value>
+    </Record>
+    <Record>
+      <Key>InsertingCapsulesDescription</Key>
+      <Value>Ahora que tienes cápsulas de investigación, puedes empezar a dividirlas en puntos de investigación.</Value>
+    </Record>
+    <Record>
       <Key>InsertingCapsules0</Key>
       <Value>Enciende el {THING:StructureArcFurnace}.</Value>
     </Record>
@@ -71,8 +97,28 @@
       <Value>Inserta el {THING:ItemDataDisk} en la {THING:StructureConsole}.</Value>
     </Record>
     <Record>
+      <Key>InsertingCapsules3</Key>
+      <Value>Cuando la primera cápsula haya sido procesada, inserte la {THING:ItemResearchCapsule} en la parte trasera de la {THING:StructureResearchMachine}.</Value>
+    </Record>
+    <Record>
+      <Key>CapsuleBreakDown</Key>
+      <Value>Procesamiento de la cápsula</Value>
+    </Record>
+    <Record>
+      <Key>CapsuleBreakDownDescription</Key>
+      <Value>Cada nivel de la cápsula de investigación tiene diferentes tiempos de procesamiento. Cuanto más alto sea el nivel, más tiempo llevará el proceso.</Value>
+    </Record>
+    <Record>
       <Key>CapsuleBreakDown1</Key>
       <Value>Coloca el {THING:ItemBatteryCellLarge} en la {THING:StructureAreaPowerControl}.</Value>
+    </Record>
+    <Record>
+      <Key>UnlockingResearch</Key>
+      <Value>Desbloquear la investigación</Value>
+    </Record>
+    <Record>
+      <Key>UnlockingResearch2</Key>
+      <Value>Haga clic en el círculo rojo en la {THING:StructureResearchMachine}, luego haga clic en una categoría de tecnología para desbloquear, y seleccione &apos;confirmar&apos;.</Value>
     </Record>
   </Interface>
 </Language>
