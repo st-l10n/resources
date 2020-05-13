@@ -3688,6 +3688,10 @@
       <Key>ItemKitAutoMinerSmall</Key>
       <Value>Набора Небольшой автоматический рудокоп</Value>
     </Record>
+    <Record>
+      <Key>ItemDirtBags</Key>
+      <Value>Мешки для грязи</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -6872,19 +6876,19 @@
     </Record>
     <Record>
       <Key>ScriptCommandAnd</Key>
-      <Value>Возвращает 1, если устройство в данный момент ожидает, иначе 0</Value>
+      <Value>Регистр = 1, если a и b не равны 0, иначе 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandOr</Key>
-      <Value>Возвращает 1, если устройство в данный момент ожидает, иначе 0</Value>
+      <Value>Регистр = 1, если a и/или b не равны 0, иначе 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandXor</Key>
-      <Value>Возвращает 1, если устройство в данный момент ожидает, иначе 0</Value>
+      <Value>Регистр = 1, если a или b не равны 0, иначе 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandNor</Key>
-      <Value>Возвращает 1, если устройство в данный момент ожидает, иначе 0</Value>
+      <Value>Регистр = 1, если a и b равны 0, иначе 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBeqz</Key>
@@ -6912,15 +6916,19 @@
     </Record>
     <Record>
       <Key>BluePodType</Key>
-      <Value>Синий:</Value>
+      <Value>Синий </Value>
+    </Record>
+    <Record>
+      <Key>RedPodType</Key>
+      <Value>Красный </Value>
     </Record>
     <Record>
       <Key>GreenPodType</Key>
-      <Value>Зеленый:</Value>
+      <Value>Зеленый </Value>
     </Record>
     <Record>
       <Key>YellowPodType</Key>
-      <Value>Желтая краска</Value>
+      <Value>Желтый </Value>
     </Record>
     <Record>
       <Key>DialogConfirmResearchUnlock</Key>
@@ -6928,7 +6936,7 @@
     </Record>
     <Record>
       <Key>ResearchRequirementTitle</Key>
-      <Value>Эксперименты</Value>
+      <Value>Условия</Value>
     </Record>
     <Record>
       <Key>ResearchMilitary</Key>
@@ -6977,6 +6985,10 @@
     <Record>
       <Key>ResearchUnlockConfirm</Key>
       <Value>Вы хотите разблокировать это исследование?</Value>
+    </Record>
+    <Record>
+      <Key>WarningSavePathNotWritableDescription</Key>
+      <Value>Не удалось записать по пути сохранения. Путь будет сброшен до значения по умолчанию</Value>
     </Record>
     <Record>
       <Key>WarningSavePathNotWritable</Key>
