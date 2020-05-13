@@ -364,6 +364,14 @@
       <Key>Vend</Key>
       <Value>売る</Value>
     </Record>
+    <Record>
+      <Key>Link</Key>
+      <Value>リンク</Value>
+    </Record>
+    <Record>
+      <Key>UnLink</Key>
+      <Value>リンク解除</Value>
+    </Record>
   </Actions>
   <Things>
     <Record>
@@ -4025,6 +4033,10 @@
       <Value>続き</Value>
     </Record>
     <Record>
+      <Key>Picture</Key>
+      <Value>画像</Value>
+    </Record>
+    <Record>
       <Key>MainMenuNewWorld</Key>
       <Value>新規ワールド</Value>
     </Record>
@@ -4149,6 +4161,10 @@
       <Value>宇宙</Value>
     </Record>
     <Record>
+      <Key>NewWorldAreaLoulan</Key>
+      <Value>ロウラン</Value>
+    </Record>
+    <Record>
       <Key>NewWorldAreaMars</Key>
       <Value>火星</Value>
     </Record>
@@ -4173,16 +4189,32 @@
       <Value>宇宙</Value>
     </Record>
     <Record>
+      <Key>Vulcan</Key>
+      <Value>バルカン</Value>
+    </Record>
+    <Record>
       <Key>Europa2</Key>
       <Value>エウロパ</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaEarth</Key>
+      <Value>地球</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaEuropa</Key>
       <Value>エウロパ</Value>
     </Record>
     <Record>
+      <Key>NewWorldAreaVulcan</Key>
+      <Value>バルカン</Value>
+    </Record>
+    <Record>
       <Key>NewWorldAreaEuropa2</Key>
       <Value>エウロパ</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaVulcan2</Key>
+      <Value>バルカン</Value>
     </Record>
     <Record>
       <Key>NewWorldEnableAwayMissions</Key>
@@ -4445,6 +4477,10 @@
       <Value>保存されました</Value>
     </Record>
     <Record>
+      <Key>SaveLocationBroken</Key>
+      <Value>セーブファイルの保存フォルダにアクセスできません。設定で保存ディレクトリを変更してみてください。</Value>
+    </Record>
+    <Record>
       <Key>AlertButtonClose</Key>
       <Value>閉じる</Value>
     </Record>
@@ -4695,6 +4731,10 @@
       <Value>リセット</Value>
     </Record>
     <Record>
+      <Key>SteamErrorTitle</Key>
+      <Value>Steamエラー</Value>
+    </Record>
+    <Record>
       <Key>SteamErrorButton</Key>
       <Value>終了</Value>
     </Record>
@@ -4801,6 +4841,10 @@
     <Record>
       <Key>AlertInvalidIP</Key>
       <Value>無効なIPアドレス {0} です。 \nIPアドレスまたはURLが正しいか確認してください。</Value>
+    </Record>
+    <Record>
+      <Key>AlertNoBackups</Key>
+      <Value>バックアップフォルダが見つからないか、空です。</Value>
     </Record>
     <Record>
       <Key>AlertPlayerCountExceeded</Key>
