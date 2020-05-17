@@ -3,12 +3,40 @@
   <Code>ES</Code>
   <Interface>
     <Record>
+      <Key>Tutorial10-CircuitLogicSolarTracking</Key>
+      <Value>#10 Lógica de Circuito ADV - Seguimiento Solar</Value>
+    </Record>
+    <Record>
+      <Key>CircuitLogicSolarTrackingDescription</Key>
+      <Value>Automatizar los paneles solares usando la lógica de los circuitos.</Value>
+    </Record>
+    <Record>
+      <Key>MoveToArea</Key>
+      <Value>Muévete a la zona</Value>
+    </Record>
+    <Record>
+      <Key>MoveToAreaDescription</Key>
+      <Value>Toma el ascensor hasta el centro principal y sigue el pasillo iluminado hasta la zona del tutorial.</Value>
+    </Record>
+    <Record>
+      <Key>MoveToAreaTask1</Key>
+      <Value>Ciclo de esclusa en la zona del tutorial.</Value>
+    </Record>
+    <Record>
+      <Key>ConsoleManuallControl</Key>
+      <Value>Control de la consola solar</Value>
+    </Record>
+    <Record>
       <Key>ConsoleManuallControl1</Key>
       <Value>Termina la red colocando una {THING:StructureCableStraight} en la posición resaltada.</Value>
     </Record>
     <Record>
       <Key>ConsoleManuallControl2</Key>
       <Value>Coloca una {THING:StructureConsole} en la posición resaltada.</Value>
+    </Record>
+    <Record>
+      <Key>ConsoleManualControlSetup</Key>
+      <Value>Configuración del control manual de la consola</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask1</Key>
@@ -31,6 +59,10 @@
       <Value>Retire el {THING:ItemDataDisk} de la {THING:StructureConsole}.</Value>
     </Record>
     <Record>
+      <Key>DaylightSensors</Key>
+      <Value>Configurando los sensores</Value>
+    </Record>
+    <Record>
       <Key>PickUpDaylightSensor</Key>
       <Value>Recoge las unidades de {THING:ItemKitSensor} de la caja</Value>
     </Record>
@@ -39,12 +71,24 @@
       <Value>Coloca una {THING:StructureDaylightSensor} en el lugar resaltado.</Value>
     </Record>
     <Record>
+      <Key>SolarMemory</Key>
+      <Value>Módulo de memoria</Value>
+    </Record>
+    <Record>
+      <Key>SolarMemoryDescription</Key>
+      <Value>La memoria se utiliza para almacenar datos, con valores fijados manualmente por un destornillador. Necesitaremos cinco módulos de memoria para almacenar los datos necesarios para el circuito.</Value>
+    </Record>
+    <Record>
       <Key>PickUpMemory</Key>
       <Value>Recoge las {THING:ItemKitLogicMemory} unidades de la caja cercana.</Value>
     </Record>
     <Record>
       <Key>StructureLogicMemory</Key>
       <Value>Coloca las unidades de {THING:StructureLogicMemory} en sus posiciones resaltadas.</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory</Key>
+      <Value>Ajustar la memoria</Value>
     </Record>
     <Record>
       <Key>SetupLogicWritter1</Key>
@@ -61,6 +105,10 @@
     <Record>
       <Key>LogicWriter1</Key>
       <Value>Coloca una {THING:StructureLogicWriter} en la posición resaltada.</Value>
+    </Record>
+    <Record>
+      <Key>LogicReadersSetup</Key>
+      <Value>Configuración de los lectores lógicos</Value>
     </Record>
     <Record>
       <Key>LogicReader1</Key>
@@ -96,19 +144,19 @@
     </Record>
     <Record>
       <Key>BatchWriter2</Key>
-      <Value>Coloca otra {THING:StructurePipeStraight} en la posición resaltada.</Value>
+      <Value>Coloca una {THING:StructureLogicBatchWriter} en la posición resaltada.</Value>
     </Record>
     <Record>
       <Key>HorizontalBatchWritterSetup4</Key>
-      <Value>Enciende el {THING:StructureAutolathe}.</Value>
+      <Value>Enciende la {THING:StructureLogicBatchWriter}.</Value>
     </Record>
     <Record>
       <Key>LogicSelect1</Key>
-      <Value>Coloca el {THING:StructureTankConnector} en la posición resaltada.</Value>
+      <Value>Coloca la primera {THING:StructureLogicSelect} en la posición resaltada.</Value>
     </Record>
     <Record>
       <Key>LogicSelect2</Key>
-      <Value>Coloca el {THING:StructureTankConnector} en la posición resaltada.</Value>
+      <Value>Coloca la Siguiente {THING:StructureLogicSelect} en la posición resaltada.</Value>
     </Record>
   </Interface>
 </Language>
