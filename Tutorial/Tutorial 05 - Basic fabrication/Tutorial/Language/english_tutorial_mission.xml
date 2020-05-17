@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Name>English</Name>
+<Code>EN</Code>
+<Font>font_english</Font>
+    <Interface>
+        <Record>
+            <Key>05BasicFabrication</Key>
+            <Value>#05 Basic Fabrication</Value>
+        </Record>
+        <Record>
+            <Key>BasicFabricationDescription</Key>
+            <Value>In this lesson, you'll learn how to fabricate new items and machines.</Value>
+        </Record>
+        <Record>
+            <Key>StopLathenAround</Key>
+            <Value>Stop Lathing Around</Value>
+        </Record>
+        <Record>
+            <Key>StopLathenAroundDescription</Key>
+            <Value>Welcome back, Cadet. Today, we will be using the {THING:StructureAutolathe} to turn your newly-made ingots into useful items and resources. Our first task is simple.</Value>
+        </Record>
+        <Record>
+            <Key>StopLathenAroundTask1</Key>
+            <Value>Turn on the {THING:StructureAutolathe}.</Value>
+        </Record>
+        <Record>
+            <Key>StopLathenAroundTask2</Key>
+            <Value>Select the {THING:ItemCableCoil} using the arrow keys on the {THING:StructureAutolathe}, or click the yellow search button to find the {THING:ItemCableCoil}, and select it.</Value>
+        </Record>
+        <Record>
+            <Key>StopLathenAroundTask3</Key>
+            <Value>Pick up a {THING:ItemCopperIngot} from the orange crate.</Value>
+        </Record>
+        <Record>
+            <Key>StopLathenAround2Description</Key>
+            <Value>To print the {THING:ItemCableCoil}, you will need to provide the {THING:StructureAutolathe} with the correct resources.</Value>
+        </Record>
+        <Record>
+            <Key>StopLathenAround2Task1</Key>
+            <Value>Place the {THING:ItemCopperIngot} into the left input slot on the {THING:StructureAutolathe}.</Value>
+        </Record>
+        <Record>
+            <Key>StopLathenAround2Task2</Key>
+            <Value>Press the large green button on the {THING:StructureAutolathe} to begin printing. Print four {THING:ItemCableCoil}.</Value>
+        </Record>
+        <Record>
+            <Key>ShineyNewPlates</Key>
+            <Value>Shiny New Sheets</Value>
+        </Record>
+        <Record>
+            <Key>ShineyNewPlatesDescription</Key>
+            <Value>Nice work, Cadet! The {THING:ItemCableCoil} will come in handy later. Now, we need to create some {THING:ItemIronSheets}. {THING:ItemIronSheets} are a key component in building most structures and machines.</Value>
+        </Record>
+        <Record>
+            <Key>ShineyNewPlatesTask1</Key>
+            <Value>As before, select the {THING:ItemIronSheets} from the menu on the {THING:StructureAutolathe}.</Value>
+        </Record>
+        <Record>
+            <Key>ShineyNewPlatesTask2</Key>
+            <Value>Pick up a {THING:ItemIronIngot} from the orange crate.</Value>
+        </Record>
+        <Record>
+            <Key>ShineyNewPlatesTask3</Key>
+            <Value>Place the {THING:ItemIronIngot} into the left input slot on the {THING:StructureAutolathe}.</Value>
+        </Record>
+        <Record>
+            <Key>ShineyNewPlatesTask4</Key>
+            <Value>Print two {THING:ItemIronSheets}.</Value>
+        </Record>
+        <Record>
+            <Key>FakePlastic</Key>
+            <Value>Plastic is Fake</Value>    
+        </Record>
+        <Record>
+            <Key>FakePlasticDescription</Key>
+            <Value>The next component you will need is {THING:ItemPlasticSheets}. These are used to complete machines.</Value>    
+        </Record>
+        <Record>
+            <Key>FakePlasticTask1</Key>
+            <Value>Select the {THING:ItemPlasticSheets} from the menu on the {THING:StructureAutolathe}.</Value>    
+        </Record>
+        <Record>
+         <Key>FakePlasticTask2</Key>
+         <Value>Pick up a {THING:ItemSiliconIngot} from the orange crate.</Value>
+        </Record>
+         <Record>
+            <Key>FakePlasticTask3</Key>
+            <Value>Place the {THING:ItemSiliconIngot} into the left input slot on the {THING:StructureAutolathe}.</Value>    
+        </Record>
+        <Record>
+            <Key>FakePlasticTask4</Key>
+            <Value>Print two {THING:ItemPlasticSheets}.</Value>    
+        </Record>
+        <Record>
+            <Key>BendingMachine</Key>
+            <Value>The Bending Machine</Value>
+        </Record>
+        <Record>
+            <Key>BendingMachineDescription</Key>
+            <Value>The {THING:StructureHydraulicPipeBender} is used to create pipes, vents, and other atmospherics structures.</Value>
+        </Record>
+        <Record>
+            <Key>BendingMachineTask1</Key>
+            <Value>Select the {THING:ItemKitHydraulicPipeBender} from the menu on the {THING:StructureAutolathe}.</Value>
+        </Record>
+        <Record>
+            <Key>BendingMachineTask2</Key>
+            <Value>Pick up a {THING:ItemGoldIngot} from the orange crate.</Value>
+        </Record>
+        <Record>
+            <Key>BendingMachineTask3</Key>
+            <Value>Place the {THING:ItemGoldIngot} into the left input slot on the {THING:StructureAutolathe}.</Value>
+        </Record>
+        <Record>
+            <Key>BendingMachineTask4</Key>
+            <Value>Print a {THING:ItemKitHydraulicPipeBender}.</Value>
+        </Record>
+        <Record>
+            <Key>ThePipeBender</Key>
+            <Value>The Pipebender</Value>
+        </Record>
+        <Record>
+            <Key>ThePipeBenderDescription</Key>
+            <Value>We can now build a {THING:StructureHydraulicPipeBender}. Equip the newly-made {THING:ItemKitHydraulicPipeBender} and place it in the designated location.</Value>
+        </Record>
+        <Record>
+            <Key>ThePipeBenderTask1</Key>
+            <Value>Place the {THING:ItemKitHydraulicPipeBender}.</Value>
+        </Record>
+        <Record>
+            <Key>ThePassiveVent</Key>
+            <Value>The Passive Vent</Value>
+        </Record>
+        <Record>
+            <Key>ThePassiveVentDescription</Key>
+            <Value>Using the printed components and what you have learned from the past tutorials, finish the {THING:StructureHydraulicPipeBender}, and power it up by connecting it to the power network using {THING:ItemCableCoil}. Then, print a {THING:ItemPassiveVent} using the {THING:StructureHydraulicPipeBender}.</Value>
+        </Record>
+        <Record>
+            <Key>ThePassiveVentTask1</Key>
+            <Value>Complete the {THING:StructureHydraulicPipeBender}.</Value>
+        </Record>
+        <Record>
+            <Key>ThePassiveVentTask2</Key>
+            <Value>Power up and turn on the {THING:StructureHydraulicPipeBender}.</Value>
+        </Record>
+        <Record>
+            <Key>ThePassiveVentTask3</Key>
+            <Value>Pick up a {THING:ItemIronIngot} from the orange crate.</Value>
+        </Record>
+        <Record>
+            <Key>ThePassiveVentTask4</Key>
+            <Value>Place the {THING:ItemIronIngot} in to the left input slot on the {THING:StructureHydraulicPipeBender}.</Value>
+        </Record>
+        <Record>
+            <Key>ThePassiveVentTask5</Key>
+            <Value>Select the {THING:ItemPassiveVent} from the {THING:StructureHydraulicPipeBender}.</Value>
+        </Record>
+        <Record>
+            <Key>ThePassiveVentTask6</Key>
+            <Value>Print a {THING:ItemPassiveVent}.</Value>
+        </Record>
+    </Interface>
+</Language>

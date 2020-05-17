@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Name>English</Name>
+<Code>EN</Code>
+<Font>font_english</Font>
+    <Interface>
+        <Record>
+            <Key>09BasicResearch</Key>
+            <Value>#09 Basic Research</Value>
+        </Record>
+        <Record>
+            <Key>BasicResearchDescription</Key>
+            <Value>Unlock new technologies with the Research Machine.</Value>
+        </Record>
+        <Record>
+            <Key>TheResearchMachine</Key>
+            <Value>The Research Machine</Value>
+        </Record>
+        <Record>
+            <Key>TheResearchMachineDescription</Key>
+            <Value>If research is activated in the World Settings menu, you will need to actively unlock new technologies by processing Research Capsules. This is done with the {THING:StructureResearchMachine}. 
+
+Your first task is to build the {THING:StructureResearchMachine}. You will find everything you need in the red {THING:DynamicCrate}.</Value>
+        </Record>
+        <Record>
+            <Key>TheResearchMachine1</Key>
+            <Value>Pick up the {THING:ItemKitResearchMachine} from the red {THING:DynamicCrate}.</Value>
+        </Record>
+        <Record>
+            <Key>TheResearchMachine2</Key>
+            <Value>Place the {THING:ItemKitResearchMachine} in the highlighted position.</Value>
+        </Record>
+        <Record>
+            <Key>TheResearchMachineBuild</Key>
+            <Value>The Research Machine Build</Value>
+        </Record>
+        <Record>
+            <Key>TheResearchMachineBuildeDescription</Key>
+            <Value>Like some of the other machines, the {THING:StructureResearchMachine} has multiple build stages. You will need to complete each build stage to fully construct the {THING:StructureResearchMachine}.</Value>
+        </Record>
+        <Record>
+            <Key>TheResearchMachineBuild1</Key>
+            <Value>Pick up {THING:ItemIronSheets}.</Value>
+        </Record>
+        <Record>
+            <Key>TheResearchMachineBuild2</Key>
+            <Value>Weld the {THING:ItemIronSheets} to the {THING:StructureResearchMachine} with the {THING:ItemWeldingTorch}.</Value>
+        </Record>
+        <Record>
+            <Key>TheResearchMachineBuild3</Key>
+            <Value>Now pick up some {THING:ItemElectronicParts}.</Value>
+        </Record>
+        <Record>
+            <Key>TheResearchMachineBuild4</Key>
+            <Value>Use the {THING:ItemScrewdriver} to attach the {THING:ItemElectronicParts} to the {THING:StructureResearchMachine}.</Value>
+        </Record>
+        <Record>
+            <Key>TheResearchMachineBuild5</Key>
+            <Value>Complete the {THING:StructureResearchMachine} using the {THING:ItemScrewdriver}.</Value>
+        </Record>
+        <Record>
+            <Key>PrintingCapsules</Key>
+            <Value>Printing Capsules</Value>
+        </Record>
+        <Record>
+            <Key>PrintingCapsulesDescription</Key>
+            <Value>Research Capsules are are an essential part of the researching process. Print them using a {THING:StructureElectronicsPrinter}, then add them to the {THING:StructureResearchMachine} to gain research points. Capsules are ranked by tiers, which determine their costs: red, green, blue, and yellow. 
+
+More advanced technologies require higher tier capsules. 
+
+Use the nearby {THING:StructureElectronicsPrinter} to print some capsules. </Value>
+        </Record>
+        <Record>
+            <Key>PrintingCapsules1</Key>
+            <Value>Turn on the {THING:StructureElectronicsPrinter}.</Value>
+        </Record>
+        <Record>
+            <Key>PrintingCapsules2</Key>
+            <Value>Select the {THING:ItemResearchCapsuleRed} on the {THING:StructureElectronicsPrinter}.</Value>
+        </Record>
+        <Record>
+            <Key>PrintingCapsules3</Key>
+            <Value>Print a {THING:ItemResearchCapsuleRed}.</Value>
+        </Record>
+        <Record>
+            <Key>PrintingCapsules4</Key>
+            <Value>Select the {THING:ItemResearchCapsule} on the {THING:StructureElectronicsPrinter}.</Value>
+        </Record>
+        <Record>
+            <Key>PrintingCapsules5</Key>
+            <Value>Print a {THING:ItemResearchCapsule}.</Value>
+        </Record>
+        <Record>
+            <Key>InsertingCapsules</Key>
+            <Value>Inserting Capsules</Value>
+        </Record>
+        <Record>
+            <Key>InsertingCapsulesDescription</Key>
+            <Value>Now that you have research capsules, you can start breaking them down into research points.</Value>
+        </Record>
+        <Record>
+            <Key>InsertingCapsules0</Key>
+            <Value>Turn on the {THING:StructureResearchMachine}.</Value>
+        </Record>
+        <Record>
+            <Key>InsertingCapsules1</Key>
+            <Value>Insert the newly printed {THING:ItemResearchCapsuleRed} into the back of the {THING:StructureResearchMachine}.</Value>
+        </Record>
+        <Record>
+            <Key>InsertingCapsules2</Key>
+            <Value>Press the large green button On the front of the {THING:StructureResearchMachine} to begin processing the capsule. Wait for the small progress bar below the button to fill, indicating processing is complete.</Value>
+        </Record>
+        <Record>
+            <Key>InsertingCapsules3</Key>
+            <Value>When the first capsule has been processed, insert the {THING:ItemResearchCapsule} into the back of the {THING:StructureResearchMachine}.</Value>
+        </Record>
+        <Record>
+            <Key>CapsuleBreakDown</Key>
+            <Value>Capsule Processing</Value>
+        </Record>
+        <Record>
+            <Key>CapsuleBreakDownDescription</Key>
+            <Value>Each tier of research capsule has different processing times. The higher the tier, the longer it will take to process.</Value>
+        </Record>
+        <Record>
+            <Key>CapsuleBreakDown1</Key>
+            <Value>Process the second {THING:ItemResearchCapsule} using the {THING:StructureResearchMachine}.</Value>
+        </Record>
+        <Record>
+            <Key>UnlockingResearch</Key>
+            <Value>Unlocking Research</Value>
+        </Record>
+        <Record>
+            <Key>UnlockingResearchDescription</Key>
+            <Value>Now we have processed the research capsules, we can allocate the newly-gained points on new technologies. 
+			
+Click the red circle on the {THING:StructureResearchMachine} to access the research menu. In the top right of the menu, you can see your current research points. For each pod processed, you gain one point.
+
+The left side of the menu displays filters that can be toggled on or off, to help find specific technologies to unlock. The center panel displays currently locked categories, and the price of unlocking each.
+    
+    </Value>
+        </Record>
+        <Record>
+            <Key>UnlockingResearch2</Key>
+            <Value>Click the red circle on the {THING:StructureResearchMachine}, then click on a technology category to unlock, and select 'confirm'.</Value>
+        </Record>
+    </Interface>
+</Language>

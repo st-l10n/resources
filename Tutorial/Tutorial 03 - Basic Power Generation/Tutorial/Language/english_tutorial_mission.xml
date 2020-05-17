@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Name>English</Name>
+<Code>EN</Code>
+<Font>font_english</Font>
+    <Interface>
+        <Record>
+            <Key>03BasicPowerGeneration</Key>
+            <Value>#03 Basic power generation</Value>
+        </Record>
+        <Record>
+            <Key>BasicPowerGenerationDescription</Key>
+            <Value>In this lesson, we will bring light to the world in the form of electricity.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialWireCutting</Key>
+            <Value>Wire Cutting</Value>
+        </Record>
+        <Record>
+            <Key>TutorialWireCuttingDescription</Key>
+            <Value>Welcome back, Cadet. Your first task will be to clean up some old burnt out wires. Use the {THING:ItemWireCutters} from your toolbelt to remove them.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialWireCuttingTask1</Key>
+            <Value>Remove burned cable</Value>
+        </Record>
+        <Record>
+            <Key>TutorialSolidFuelEnergy</Key>
+            <Value>Solid Fuel Energy</Value>
+        </Record>
+        <Record>
+            <Key>TutorialSolidFuelEnergyDescription</Key>
+            <Value>Now that you have a base platform and a few machines in place, Cadet, you'll need to provide them with power. Let’s start with the {THING:StructureSolidFuelGenerator}. The solid fuel generator provides power in emergency, or to small bases that don’t have much energy storage during the night. Its downfall is that it requires solid fuel to work.</Value>
+        </Record>
+        <Record>
+            <Key>SolidFuelEnergyTask1</Key>
+            <Value>Grab the {THING:ItemKitSolidGenerator} from Construction Crate #1.</Value>
+        </Record>
+        <Record>
+            <Key>SolidFuelEnergyTask2</Key>
+            <Value>Place the {THING:StructureSolidFuelGenerator}.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialGoingSolar</Key>
+            <Value>Going Solar - Part I</Value>
+        </Record>
+        <Record>
+            <Key>TutorialGoingSolarDescription</Key>
+			<Value>Great work, Cadet! Our next task is to set up a {THING:StructureSolarPanel}. This will provide renewable energy for the base without needing fuel. However, it will only work during the day. </Value>
+        </Record>
+        <Record>
+            <Key>GoingSolarTask1</Key>
+            <Value>Grab the {THING:ItemKitSolarPanel} from Construction Crate #1.</Value>
+        </Record>
+        <Record>
+            <Key>GoingSolarTask2</Key>
+            <Value>Kits can build different structures and variants. To build this kind of Solar Panel, use the scroll wheel to swap to the correct variant, then match the cursor shape with the highlighted spot. Remember to use {KEY:QuantityModifier} to rotate the object to the correct position.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialGoingSolarpart2</Key>
+            <Value>Going Solar - Part II.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialGoingSolarDescriptionpart2</Key>
+            <Value>Like the {THING:StructureAutolathe}, the Solar Panel also requires an extra step to construct. </Value>
+        </Record>
+        <Record>
+            <Key>GoingSolarPart2Task1</Key>
+            <Value>Grab the {THING:ItemGlassSheets} from Construction Crate #1.</Value>
+        </Record>
+        <Record>
+            <Key>GoingSolarPart2Task2</Key>
+            <Value>Place the {THING:ItemGlassSheets} on the Solar Panel.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialLearningToWire</Key>
+            <Value>Learning to wire</Value>
+        </Record>
+        <Record>
+            <Key>TutorialLearningToWireDescription</Key>
+            <Value>Now we need to connect our equipment together using wires. On Earth, normal wires will do, but atomic oxygen and solar radiation degrade substances exposed to space. So we’ve developed special cables capable of withstanding space environments. They carry both data and power, allowing you to control machines from a control panel. This will be covered later. 
+
+
+In your {SLOT:Belt}, you will find the {THING:ItemCableCoil}. Place the cables in the highlighted area, using the scroll wheel to select the correct wire, and the {KEY:QuantityModifier} key to rotate to match the placement. </Value>
+        </Record>
+        <Record>
+            <Key>LearningToWireTask0.5</Key>
+            <Value>Get {THING:ItemCableCoil} from your {SLOT:Belt}.</Value>
+        </Record>
+        <Record>
+            <Key>CableCorner</Key>
+            <Value>Place a {THING:StructureCableCorner}.</Value>
+        </Record>
+        <Record>
+            <Key>CableStraight</Key>
+            <Value>Place a {THING:StructureCableStraight}.</Value>
+        </Record>
+        <Record>
+            <Key>LearningToWireTask4</Key>
+            <Value>Place a {THING:StructureCableJunction}.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialWiringWires</Key>
+            <Value>Wiring Wires</Value>
+        </Record>
+        <Record>
+            <Key>TutorialWiringWiresDescription</Key>
+            <Value>Extend the wires to the main platform.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialPowerControlersAndbatteryCharges</Key>
+            <Value>Battery Charges and Power Controllers</Value>
+        </Record>
+        <Record>
+            <Key>TutorialPowerControlersAndbatteryChargesDescription</Key>
+            <Value>In our next step, we need to place a {THING:ItemAreaPowerControl} to control the flow of power and prevent cables from burning out. They also provide a small intermediate power supply if the generators are offline.
+
+Secondly, we need to add a {THING:ItemBatteryCharger} for our depleted batteries. We want to put it into the circuit before the {THING:ItemAreaPowerControl}, so it won’t drain the {THING:ItemAreaPowerControl} battery.</Value>
+        </Record>
+        <Record>
+            <Key>PowerControlersAndbatteryChargesTask1</Key>
+            <Value>Get the {THING:ItemAreaPowerControl} from Construction Crate #1.</Value>
+        </Record>
+        <Record>
+            <Key>PowerControlersAndbatteryChargesTask2</Key>
+            <Value>Place the {THING:ItemAreaPowerControl} in the highlighted spot.</Value>
+        </Record>
+        <Record>
+            <Key>PowerControlersAndbatteryChargesTask3</Key>
+            <Value>Get the {THING:ItemBatteryCharger} from Construction Crate #2.</Value>
+        </Record>
+        <Record>
+            <Key>PowerControlersAndbatteryChargesTask4</Key>
+            <Value>place the {THING:ItemBatteryCharger} in the highlighted spot.</Value>
+        </Record>
+        <Record>
+            <Key>TutorialFinishingTheCircuit</Key>
+            <Value>Finishing the circuit</Value>
+        </Record>
+        <Record>
+            <Key>TutorialTutorialFinishingTheCircuitDescription</Key>
+            <Value>Wire the rest of the components up to our machines.</Value>
+        </Record>
+        <Record>
+            <Key>FinishingTheCircuitTask2</Key>
+            <Value>Place a {THING:StructureCableCorner3}.</Value>
+        </Record>
+        <Record>
+            <Key>FinishingTheCircuitTask4</Key>
+            <Value>Place a {THING:StructureCableJunction}.</Value>
+        </Record>
+        <Record>
+            <Key>FinishingTheCircuitTask6</Key>
+            <Value>Place a {THING:StructureCableJunction}.</Value>
+        </Record>
+        <Record>
+            <Key>FinishingTheCircuitTask8</Key>
+            <Value>Place a {THING:StructureCableJunction}.</Value>
+        </Record>
+        <Record>   
+            <Key>TutorialSettingUpThePowerController</Key>
+            <Value>Setting Up the Power Controller</Value>
+        </Record>
+        <Record>   
+            <Key>TutorialSettingUpThePowerControllerDescription</Key>
+            <Value>To make the {THING:StructureAreaPowerControl} work, we need to open the cover and insert a battery, then flip the breaker switch to let electricity and data pass-through. It's recommended to use a large battery for long-lasting power in case of an outage, but a small battery can be used.</Value>
+        </Record>
+        <Record>   
+            <Key>SettingUpThePowerControllerTask1</Key>
+            <Value>Equip the {THING:ItemCrowbar} from your {SLOT:Belt}.</Value>
+        </Record>
+        <Record>   
+            <Key>SettingUpThePowerControllerTask2</Key>
+            <Value>Open the {THING:StructureAreaPowerControl} with the {THING:ItemCrowbar}.</Value>
+        </Record>
+        <Record>   
+            <Key>SettingUpThePowerControllerTask3</Key>
+            <Value>Grab the {THING:ItemBatteryCellLarge} from Construction Crate #2.</Value>
+        </Record>
+        <Record>   
+            <Key>SettingUpThePowerControllerTask4</Key>
+            <Value>Place the {THING:ItemBatteryCellLarge} into the {THING:StructureAreaPowerControl}.</Value>
+        </Record>
+        <Record>
+            <Key>SettingUpThePowerControllerTask5</Key>
+            <Value>Flip the breaker to the “On” position on the {THING:StructureAreaPowerControl}.</Value>
+        </Record>
+    </Interface>
+</Language>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Name>English</Name>
+<Code>EN</Code>
+<Font>font_english</Font>
+	<Interface>
+		<Record>
+			<Key>01TutorialUIBasics</Key>
+			<Value>#01 Basic UI</Value>
+		</Record>
+		<Record>
+      		<Key>UIBasicsDescription</Key>
+      		<Value>Welcome to the Academy, Cadet! It's time to teach you the basics of becoming a Stationeer! In our first lesson, we'll cover the basics of UI and controls.</Value>
+    	</Record>
+		<!-- start the tutorial -->
+		<Record>
+			<Key>TutorialMouseControls</Key>
+			<Value>Where's My Cursor?</Value>
+		</Record>
+		<Record> 
+			<Key>TutorialMouseControlsDescription</Key>
+			<Value>Let's get started. Our first task is to take a quick look at the Stationpedia. When you're done, close the Stationpedia using {KEY:Help} or hold the {KEY:MouseControl} key and move the mouse cursor.</Value>
+		</Record> 	
+		<Record>
+			<Key>TutorialMouseControlsTask1</Key>
+			<Value>Close the {LINK:Home;Stationpedia}</Value>
+		</Record>
+		<Record>
+			<Key>AlertSystem</Key>
+			<Value>ALERT</Value>
+		</Record>
+		<Record>
+			<Key>AlertSystemDescription</Key>
+			<Value>Incoming Alert!!!</Value>
+		</Record>
+		<Record>
+        	<Key>DisplayAlert1</Key>
+    		<Value>Cadet, we've detected an imminent malfunction! A virus is attacking your helmet controls!
+Press the {KEY:Internals} key to close your helmet if it opens.
+Close this message using the {KEY:MouseControl} key to enable the mouse.</Value>
+        </Record>
+		<Record>
+			<Key>TutorialUIControls</Key>
+			<Value>Closing helmet </Value>
+		</Record>
+		<Record>
+			<Key>ALTTask1</Key>
+			<Value>Close Alert</Value>
+		</Record>
+		<Record>
+			<Key>TutorialUIControlsDescription</Key>
+			<Value>As a human, you cannot survive on non-oxygen planets without a suit, or a base with a breatheable atmosphere. Be sure to close and lock your helmet to avoid accidental death.</Value>
+		</Record>
+		<Record>
+			<Key>TutorialUIControlsTask</Key>
+			<Value>Open your helmet UI with {KEY:HelmetSlot} or use the {KEY:MouseControl} key to interact with your {SLOT:Helmet}.</Value>
+		</Record>
+		<Record>
+            <Key>TutorialUIControlsTask1</Key>
+            <Value>Close your helmet with {KEY:Internals}</Value>
+        </Record>
+		<Record>
+			<Key>TutorialUIControlsTask2</Key>
+			<Value>Be sure to lock your helmet to prevent it happening again. Hold the {KEY:MouseControl} key and click the Lock Mask option on the helmet menu.</Value>
+		</Record>
+		<Record>
+			<Key>AlertSystem2</Key>
+			<Value>ALERT</Value>
+		</Record>
+		<Record>
+            <Key>ALTTask2</Key>
+            <Value>Close Alert</Value>
+        </Record>
+		<Record>
+			<Key>AlertSystemDescription2</Key>
+			<Value>Incoming Alert!!!</Value>
+		</Record>
+		<Record>
+        	<Key>DisplayAlert2</Key>
+    		<Value>Cadet, your suit's control system still appears to be infected with a virus. We are working on it now,
+but it's attacking your suit's pressure and temperature controls. 
+Close this message using the {KEY:MouseControl} key to enable the mouse.</Value>
+        </Record>
+		<Record>
+			<Key>TutorialSuitControls</Key>
+			<Value>Is It Cold Out Here?</Value>
+		</Record>
+		<Record>
+			<Key>TutorialSuitControlsDescription</Key>
+			<Value>Open your suit controls with {KEY:SuitSlot} or click the suit icon at left with the {KEY:MouseControl} key. Adjust your suit's internal pressure and temperature using the controls in the suit menu.</Value>
+		</Record>
+		<Record>
+			<Key>TutorialSuitControlsTask</Key>
+			<Value>Open your Suit UI with {KEY:SuitSlot}</Value>
+		</Record>
+		<Record>
+        	<Key>TutorialSuitControlsTask1</Key>
+    		<Value>Change your suit's temperature to 22 degrees: hold the {KEY:MouseControl} key for mouse control and click on the 'Temperature Up' option.</Value>
+        </Record>
+		<Record>
+        	<Key>TutorialSuitControlsTask2</Key>
+    		<Value>Change your suit's internal pressure to 45 pascals by clicking on the Pressure Up option.</Value>
+        </Record>
+		<Record>
+			<Key>ReplaceingSuititems</Key>
+			<Value>Life Support Items</Value>
+		</Record>
+		<Record>
+			<Key>ReplaceingSuititemsDescription</Key>
+			<Value>We've almost cleared the virus! However, it has damaged some of your suit's life support equipment. Let's replace them now. We've been granted access to a supply crate. It should have the items you need for basic survival: a battery to power life support systems, and a carbon filter to remove any carbon from your internal atmosphere.</Value>
+		</Record>
+		<Record>
+			<Key>ReplaceingSuititemsTask1</Key>
+			<Value>Replace your battery to power life support. Alternatively, drag the item directly from the crate into the suit slot that contains the empty battery.</Value>
+		</Record>
+		<Record>
+			<Key>ReplaceingSuititemsTask2</Key>
+			<Value>Add a filter to your suit. Click on the CO2 filter in the crate to move it to your hands. Then move it to your suit by holding the {KEY:MouseControl} key and dragging it over the used CO2 filter, then dropping it into that slot.</Value>
+		</Record>
+		<Record>
+			<Key>DisplayAlert3</Key>
+			<Value>Virus Eradicated. Good work, Cadet! 
+Remember, you can close all open UI windows quickly with the {KEY:HideAllWindows} key, or close each window individually by clicking the corresponding slot number for each window.</Value>
+		</Record>
+		<Record>
+			<Key>CloseingUIs</Key>
+			<Value>Closing the menus</Value>
+		</Record>
+		<Record>
+			<Key>CloseingUIsDescription</Key>
+			<Value>Now for the final step. Lets clean up the UI windows.</Value>
+		</Record>
+		<Record>
+			<Key>ALTTask3</Key>
+			<Value>Close the Alert</Value>
+		</Record>
+		<Record>
+			<Key>CloseingUIstask1</Key>
+			<Value>Close all the UIs with the {KEY:HideAllWindows} key.</Value>
+		</Record>
+		<Record>
+			<Key>CloseingUIstask2</Key>
+			<Value>If you have any remaining items in your hands, drop them with the {KEY:Drop} key. To swap hands use the {KEY:SwapHands} key.</Value>
+		</Record>
+	</Interface>
+</Language>
