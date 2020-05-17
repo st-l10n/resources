@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>CN</Code>
+  <Interface>
+    <Record>
+      <Key>07BasicAirlocks</Key>
+      <Value>一个简单的气闸</Value>
+    </Record>
+    <Record>
+      <Key>FramesAreStrongTask1</Key>
+      <Value>建造 {THING:ItemIronFrames} 1</Value>
+    </Record>
+    <Record>
+      <Key>FramesAreStrongTask2</Key>
+      <Value>建造 {THING:ItemIronFrames} 2</Value>
+    </Record>
+    <Record>
+      <Key>FeelsFamiliarTask1</Key>
+      <Value>完成 {THING:ItemIronFrames} 1 的建造。</Value>
+    </Record>
+    <Record>
+      <Key>FeelsFamiliarTask2</Key>
+      <Value>完成 {THING:ItemIronFrames} 2 的建造。</Value>
+    </Record>
+    <Record>
+      <Key>FeelsFamiliarTask3</Key>
+      <Value>完成 {THING:ItemIronFrames} 3 的建造。</Value>
+    </Record>
+    <Record>
+      <Key>CloseTheDoor</Key>
+      <Value>关门！</Value>
+    </Record>
+    <Record>
+      <Key>CloseTheDoorTask1</Key>
+      <Value>建造 {THING:StructureCompositeDoor} 1</Value>
+    </Record>
+    <Record>
+      <Key>CloseTheDoorTask2</Key>
+      <Value>建造 {THING:StructureCompositeDoor} 2</Value>
+    </Record>
+    <Record>
+      <Key>AirSensoresAndMoreTask1</Key>
+      <Value>在高亮位置处建造 {THING:StructureGasSensor}</Value>
+    </Record>
+    <Record>
+      <Key>AirSensoresAndMoreTask2</Key>
+      <Value>在高亮位置处建造 {THING:StructureActiveVent}</Value>
+    </Record>
+    <Record>
+      <Key>GasPipeCorner</Key>
+      <Value>建造 {THING:StructurePipeCorner}。</Value>
+    </Record>
+    <Record>
+      <Key>GasPipeStraight</Key>
+      <Value>建造 {THING:StructurePipeStraight}</Value>
+    </Record>
+    <Record>
+      <Key>PassiveVentBuild</Key>
+      <Value>建造 {THING:StructurePipeCorner}。</Value>
+    </Record>
+    <Record>
+      <Key>DigitalScreensTask1</Key>
+      <Value>建造 {THING:StructureConsole}。</Value>
+    </Record>
+    <Record>
+      <Key>UnderPressureTask1</Key>
+      <Value>将 {THING:CircuitboardAirlockControl} 插入 {THING:StructureConsole} 中。</Value>
+    </Record>
+    <Record>
+      <Key>UnderPressureTask2</Key>
+      <Value>将 {THING:ItemGlassSheets} 放到 {THING:StructureConsole} 上来完成安装。</Value>
+    </Record>
+    <Record>
+      <Key>UnderPressureTask3</Key>
+      <Value>将 {THING:ItemDataDisk} 插入到 {THING:StructureConsole}。</Value>
+    </Record>
+    <Record>
+      <Key>AirLockProgrammingTask1</Key>
+      <Value>用 {THING:StructureConsole} 来对气闸进行编程。</Value>
+    </Record>
+    <Record>
+      <Key>ASimpleAirLock</Key>
+      <Value>一个简单的气闸</Value>
+    </Record>
+    <Record>
+      <Key>AirlockUpgradesTask1</Key>
+      <Value>在高亮位置处放置另一个 {THING:StructureActiveVent}。</Value>
+    </Record>
+    <Record>
+      <Key>AirlockCableCorner</Key>
+      <Value>放置{THING:StructureCableCorner}。</Value>
+    </Record>
+    <Record>
+      <Key>AirlockCableStraight</Key>
+      <Value>放置{THING:StructureCableStraight}。</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedPressureTask1</Key>
+      <Value>移除 {THING:ItemGlassSheets}。</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedPressureTask3</Key>
+      <Value>替换 {THING:ItemGlassSheets}。</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedPressureask4</Key>
+      <Value>插入 {THING:ItemDataDisk}。</Value>
+    </Record>
+  </Interface>
+</Language>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>ES</Code>
+  <Interface>
+    <Record>
+      <Key>06BasicAtmospherics</Key>
+      <Value>#6 Atmósfera básica</Value>
+    </Record>
+    <Record>
+      <Key>BasicAtmosphericsDescription</Key>
+      <Value>En esta lección aprenderás a llenar una base de inicio con una atmósfera respirable.</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletAtmo</Key>
+      <Value>Rastreo de Oxite</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletAtmoDescription</Key>
+      <Value>Inserte el cartucho localizador en el {THING:ItemTablet}.</Value>
+    </Record>
+    <Record>
+      <Key>BasicAtmosphericsDescription</Key>
+      <Value>En esta lección aprenderás a llenar una base de inicio con una atmósfera respirable.</Value>
+    </Record>
+    <Record>
+      <Key>Oxyie-Gen</Key>
+      <Value>Recogiendo Oxite.</Value>
+    </Record>
+    <Record>
+      <Key>Oxyie-GenTask1</Key>
+      <Value>Necesitarás extraer alrededor de 100 oxite para presurizar la base. Hay dos depósitos cerca de la baliza de rastreo. Desplácese a través de las opciones hasta que encuentre la baliza que necesita.</Value>
+    </Record>
+    <Record>
+      <Key>Oxyie-GenDescription</Key>
+      <Value>El Oxite es un gas respirable congelado que existe en pequeños depósitos en la mayoría de los planetas. El Oxite se derretirá si no está en tu mochila o en el cinturón minero cuando la temperatura suba de 0 grados. 
+        
+Usando la tablet, viaja al sitio del Oxite.</Value>
+    </Record>
+    <Record>
+      <Key>AtmoAirLock</Key>
+      <Value>Entrando a la esclusa de aire</Value>
+    </Record>
+    <Record>
+      <Key>AtmoAirLockDescription</Key>
+      <Value>Una esclusa es un dispositivo que permite el paso de personas y objetos entre una base presurizada y sus alrededores, a la vez que minimiza el cambio de presión en la base y la pérdida de aire de la misma.
+
+Actualmente la base no tiene atmósfera interna, por lo que la esclusa no funcionará correctamente ya que requiere 100kpa para funcionar con éxito. Todavía podemos entrar en la base cancelando el ciclo de presurizar de la esclusa. Este es un buen consejo para recordar si su base tiene una fuga de aire y necesita entrar o salir de ella sin ejecutar el ciclo. </Value>
+    </Record>
+    <Record>
+      <Key>AtmoAirLockTask1</Key>
+      <Value>Entra en la esclusa de aire y presione el botón &quot;Ciclo hacia el interior&quot; en la consola. Espere a que se cierre la puerta exterior, y un nuevo botón aparecerá &quot;Presionar para Cancelar&quot; presiona ese botón y la puerta interior debería abrirse.
+        </Value>
+    </Record>
+    <Record>
+      <Key>AtmosAnalyser</Key>
+      <Value>Analizando la atmósfera.</Value>
+    </Record>
+    <Record>
+      <Key>AtmosAnalyserDescription</Key>
+      <Value>El Analizador Atmosférico se utiliza para analizar la atmósfera actual, incluyendo la composición, la temperatura y la presión.</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletTaskAtmo</Key>
+      <Value>Inserte el {THING:CartridgeAtmosAnalyser} en la {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>Creating_Atmo</Key>
+      <Value>Generando una Atmósfera.</Value>
+    </Record>
+    <Record>
+      <Key>Creating_AtmoDescription</Key>
+      <Value>La forma más simple de crear una atmósfera respirable es extraer el oxite y dejarlo caer en su base en el suelo para que se derrita, esto liberará oxígeno respirable en el ambiente mientras que también aumentará la presión del aire, tenga cuidado al derretir el oxite ya que podría sobre presurizar la base causando daños a las paredes. Los humanos necesitan respirar un mínimo de 20% de oxígeno sin contaminantes o venenos. Puedes tener una pequeña cantidad de dióxido de carbono en la atmósfera pero no es recomendable exceder el 10%.</Value>
+    </Record>
+    <Record>
+      <Key>Creating_AtmoTask1</Key>
+      <Value>Enciende el {THING:ItemTablet} on.</Value>
+    </Record>
+    <Record>
+      <Key>Creating_AtmoTask2</Key>
+      <Value>Dejar caer Oxite dentro de la habitación y permite que se derrita. Generará una atmósfera respirable, llevando la presión exterior hasta 60kPa.</Value>
+    </Record>
+    <Record>
+      <Key>Creating_AtmoTask3</Key>
+      <Value>Una vez que la presión haya alcanzado un nivel aceptable de seguridad, abra el casco y tome una bocanada de aire fresco.</Value>
+    </Record>
+  </Interface>
+</Language>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>PT</Code>
+  <Interface>
+    <Record>
+      <Key>03BasicPowerGeneration</Key>
+      <Value>#3 Geração básica de energia</Value>
+    </Record>
+    <Record>
+      <Key>BasicPowerGenerationDescription</Key>
+      <Value>Nesta lição, traremos luz ao mundo em forma de electricidade.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWireCutting</Key>
+      <Value>Cortando cabos</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWireCuttingDescription</Key>
+      <Value>Sê bem vindo, cadete. A tua primeira tarefa será limpar alguns velhos cabos queimados. Utiliza o {THING:ItemWireCutters} do teu Cinto de Ferramentas para removê-los.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWireCuttingTask1</Key>
+      <Value>Remover cabo queimado</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSolidFuelEnergy</Key>
+      <Value>Energia de Combustível Sólido</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSolidFuelEnergyDescription</Key>
+      <Value>Cadete, agora que tens uma plataforma base e algumas máquinas no lugar, terás que prover-lhes energia. Vamos começar com o {THING:StructureSolidFuelGenerator}. O gerador a sólidos é ideal para energia de emergência ou para bases iniciais que não têm muito armazenamento de energia durante a noite. O seu inconveniente é que requer combustível sólido para funcionar.</Value>
+    </Record>
+    <Record>
+      <Key>SolidFuelEnergyTask1</Key>
+      <Value>Apanha o {THING:ItemKitSolidGenerator} da Caixa de Construção #1.</Value>
+    </Record>
+    <Record>
+      <Key>SolidFuelEnergyTask2</Key>
+      <Value>Coloca o {THING:StructureSolidFuelGenerator}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialGoingSolar</Key>
+      <Value>Energia Solar - Parte I</Value>
+    </Record>
+    <Record>
+      <Key>TutorialGoingSolarDescription</Key>
+      <Value>Bom trabalho, cadete! A nossa próxima tarefa é configurar um {THING:StructureSolarPanel}. Isto irá fornecer energia renovável para a base sem necessidade de combustível. No entanto, só irá funcionar de dia. </Value>
+    </Record>
+    <Record>
+      <Key>GoingSolarTask1</Key>
+      <Value>Apanha o {THING:ItemKitSolarPanel} da Caixa de Construção #1.</Value>
+    </Record>
+    <Record>
+      <Key>GoingSolarTask2</Key>
+      <Value>Kits podem ser utilizados para construir diferentes estruturas e variantes. Para construir este painel solar, utiliza a roda do rato para trocar para a variante correta, depois faz coincidir as formas de cursor com o local indicado. Lembra-te de utilizar a tecla {KEY:QuantityModifier} para rodá-lo para a posição correta.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialGoingSolarpart2</Key>
+      <Value>Energia Solar - Parte II.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialGoingSolarDescriptionpart2</Key>
+      <Value>Tal como o {THING:StructureAutolathe}, o painel solar também requer um passo adicional para construir. </Value>
+    </Record>
+    <Record>
+      <Key>GoingSolarPart2Task1</Key>
+      <Value>Apanha as {THING:ItemGlassSheets} da Caixa de Construção #1.</Value>
+    </Record>
+    <Record>
+      <Key>GoingSolarPart2Task2</Key>
+      <Value>Coloca as {THING:ItemGlassSheets} no painel solar.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialLearningToWire</Key>
+      <Value>Aprendendo a conectar</Value>
+    </Record>
+    <Record>
+      <Key>TutorialLearningToWireDescription</Key>
+      <Value>Agora precisamos conectar o nosso equipamento todo utilizando fios. Na terra, fios normais serviriam, no entanto, o oxigénio atómico e radiação solar degrada muitas substâncias expostas no espaço. Por isso, desenhamos um tipo especial de cabos, resistentes aos ambientes espaciais. Conseguem transportar tanto dados como energia, permitindo controlar máquinas de um painel de controle. Esta matéria será explicada mais á frente.
+
+No teu {SLOT:Belt}, irás encontrar uma {THING:ItemCableCoil}. Coloca os cabos na área indicada, utilizando a roda do rato para selecionar o cabo correto e utiliza a tecla {KEY:QuantityModifier} para rodar de forma a coincidir a colocação. </Value>
+    </Record>
+    <Record>
+      <Key>LearningToWireTask0.5</Key>
+      <Value>Pega {THING:ItemCableCoil} do teu {SLOT:Belt}.</Value>
+    </Record>
+    <Record>
+      <Key>CableCorner</Key>
+      <Value>Coloca um {THING:StructureCableCorner}.</Value>
+    </Record>
+    <Record>
+      <Key>CableStraight</Key>
+      <Value>Coloca um {THING:StructureCableStraight}.</Value>
+    </Record>
+    <Record>
+      <Key>LearningToWireTask4</Key>
+      <Value>Coloca um {THING:StructureCableJunction}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWiringWires</Key>
+      <Value>Unindo Cabos</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWiringWiresDescription</Key>
+      <Value>Estende os cabos até a plataforma principal.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialPowerControlersAndbatteryCharges</Key>
+      <Value>Carregador de Baterias e Controladores de Energia</Value>
+    </Record>
+    <Record>
+      <Key>TutorialPowerControlersAndbatteryChargesDescription</Key>
+      <Value>No próximo passo precisamos colocar um {THING:ItemAreaPowerControl} para controlar o fluxo de energia e evitar queimar cabos. Eles também fornecem um pouco de energia intermédia se os geradores estiverem desligados.
+
+Em seguida, precisamos colocar um {THING:ItemBatteryCharger} de forma a carregar as baterias vazias. Devemos colocá-lo antes do {THING:ItemAreaPowerControl} de forma que qualquer bateria a carregar, não descarregue a bateria do {THING:ItemAreaPowerControl}.</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlersAndbatteryChargesTask1</Key>
+      <Value>Apanha o {THING:ItemAreaPowerControl} da Caixa de Construção #1.</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlersAndbatteryChargesTask2</Key>
+      <Value>Coloca o {THING:ItemAreaPowerControl} no local indicado.</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlersAndbatteryChargesTask3</Key>
+      <Value>Apanha o {THING:ItemBatteryCharger} da Caixa de Construção #2.</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlersAndbatteryChargesTask4</Key>
+      <Value>Coloca o {THING:ItemBatteryCharger} no local indicado.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialFinishingTheCircuit</Key>
+      <Value>Completa o circuito</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTutorialFinishingTheCircuitDescription</Key>
+      <Value>Conecta os restantes componentes ás nossas máquinas.</Value>
+    </Record>
+    <Record>
+      <Key>FinishingTheCircuitTask2</Key>
+      <Value>Coloca um {THING:StructureCableCorner3}.</Value>
+    </Record>
+    <Record>
+      <Key>FinishingTheCircuitTask4</Key>
+      <Value>Coloca um {THING:StructureCableJunction}.</Value>
+    </Record>
+    <Record>
+      <Key>FinishingTheCircuitTask6</Key>
+      <Value>Coloca um {THING:StructureCableJunction}.</Value>
+    </Record>
+    <Record>
+      <Key>FinishingTheCircuitTask8</Key>
+      <Value>Coloca um {THING:StructureCableJunction}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSettingUpThePowerController</Key>
+      <Value>Configurando o Controlador de Energia</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSettingUpThePowerControllerDescription</Key>
+      <Value>Para que o {THING:StructureAreaPowerControl} funcione, teremos que abrir a sua cobertura, inserir uma bateria e depois virar o disjuntor, de forma que electricidade e dados possam passar. É geralmente recomendado utilizar uma bateria grande, de forma a permitir uma longa energia em caso de uma baixa, no entanto poderás também utilizar uma bateria pequena.</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask1</Key>
+      <Value>Equipa o {THING:ItemCrowbar} do teu {SLOT:Belt}.</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask2</Key>
+      <Value>Abre o {THING:StructureAreaPowerControl} com o {THING:ItemCrowbar}.</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask3</Key>
+      <Value>Apanha a {THING:ItemBatteryCellLarge} da Caixa de Construção #2.</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask4</Key>
+      <Value>Coloca a {THING:ItemBatteryCellLarge} no {THING:StructureAreaPowerControl}.</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask5</Key>
+      <Value>Vira o disjuntor para a posição “On” no {THING:StructureAreaPowerControl}.</Value>
+    </Record>
+  </Interface>
+</Language>

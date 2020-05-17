@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>TR</Code>
+  <Interface>
+    <Record>
+      <Key>04BasicMining</Key>
+      <Value>#4 Temel Madencilik</Value>
+    </Record>
+    <Record>
+      <Key>TheTablet</Key>
+      <Value>Tablet</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletTask1</Key>
+      <Value>{THING:ItemTablet}&apos;ni bulmak için, {KEY:BackSlot} tuşu ile {SLOT:Back} öğesini aç</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletTask2</Key>
+      <Value>{THING:ItemTablet}&apos;ni donan</Value>
+    </Record>
+    <Record>
+      <Key>TheCoalMines</Key>
+      <Value>Kömür Madenleri</Value>
+    </Record>
+    <Record>
+      <Key>TheCoalMinesTask0</Key>
+      <Value>{THING:ItemMiningBelt}&apos;ni donan.</Value>
+    </Record>
+    <Record>
+      <Key>TheCoalMinesTask1</Key>
+      <Value>{THING:ItemMiningDrill}&apos;nı donan.</Value>
+    </Record>
+    <Record>
+      <Key>OnTheBadListTask1</Key>
+      <Value>{THING:ItemMiningDrill}&apos;nı aç.</Value>
+    </Record>
+    <Record>
+      <Key>OnTheBadListTask2</Key>
+      <Value>Biraz {THING:ItemCoalOre} kazmak için {THING:ItemMiningDrill}&apos;nı kullan</Value>
+    </Record>
+    <Record>
+      <Key>HardAsIronTask1</Key>
+      <Value>Biraz {THING:ItemIronOre} kaz.</Value>
+    </Record>
+    <Record>
+      <Key>GoldRush</Key>
+      <Value>Altına Hücum</Value>
+    </Record>
+    <Record>
+      <Key>GoldRushTask1</Key>
+      <Value>Biraz {THING:ItemGoldOre} kaz.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDown</Key>
+      <Value>Eritme</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownTask0</Key>
+      <Value>{THING:StructureArcFurnace}&apos;nı aç.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownTask1</Key>
+      <Value>{THING:ItemMiningBelt}&apos;nden {THING:ItemIronOre}&apos;ni çıkar.</Value>
+    </Record>
+  </Interface>
+</Language>

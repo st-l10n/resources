@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>CN</Code>
+  <Interface>
+    <Record>
+      <Key>TheTabletAtmoDescription</Key>
+      <Value>将跟踪器记忆卡放入 {THING:ItemTablet}。</Value>
+    </Record>
+    <Record>
+      <Key>AtmoAirLock</Key>
+      <Value>进入气闸</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletTaskAtmo</Key>
+      <Value>将 {THING:CartridgeAtmosAnalyser} 放入 {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>Creating_AtmoTask1</Key>
+      <Value>启动 {THING:ItemTablet}。</Value>
+    </Record>
+  </Interface>
+</Language>

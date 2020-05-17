@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>FR</Code>
+  <Interface>
+    <Record>
+      <Key>04BasicMining</Key>
+      <Value>#4 Base de l&apos;exploitation minière</Value>
+    </Record>
+    <Record>
+      <Key>BasicMiningDescription</Key>
+      <Value>Dans cette leçon, vous apprendrez les bases de l&apos;extraction des ressources planétaires et comment les transformer utilement en lingots.</Value>
+    </Record>
+    <Record>
+      <Key>TheTablet</Key>
+      <Value>La tablette</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletDescription</Key>
+      <Value>Bienvenue, Aspirant ! Notre première tâche aujourd’hui est d’équiper la {THING:ItemTablet}. La {THING:ItemTablet} peut être utilisée pour afficher des informations sur les réseaux électriques et les gaz présents dans notre environnement, ainsi qu’une encyclopédie ou encore un traqueur de balises.</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletTask1</Key>
+      <Value>Ouvrez le {SLOT:Back} avec {KEY:BackSlot} pour trouver le {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletTask2</Key>
+      <Value>Équipez vous de la {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletTask2.5</Key>
+      <Value>Insérez la {THING:CartridgeTracker} dans la {THING:ItemTablet} soit en faisant glisser le {THING:CartridgeTracker} depuis le {SLOT:Back} ou en cliquant sur la {THING:ItemTablet} une fenêtre s’ouvrira, faites glisser la {THING:CartridgeTracker} dans la nouvelle fenetre</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletTask3</Key>
+      <Value>Allumez la {THING:ItemTablet} et placez la {THING:CartridgeTracker} trouvé dans le sac à dos.</Value>
+    </Record>
+    <Record>
+      <Key>TheCoalMines</Key>
+      <Value>Les mines de charbon</Value>
+    </Record>
+    <Record>
+      <Key>TheCoalMinesDescription</Key>
+      <Value>Maintenant nous pouvons commencer à extraire des ressources à la surface de la planète. Nous aurons besoin de prendre la {THING:ItemMiningBelt} dans notre {SLOT:Back}. Permuter la {THING:ItemToolBelt} et la {THING:ItemMiningBelt} et équipez-vous de la {THING:ItemMiningDrill} depuis la {THING:ItemMiningBelt}.</Value>
+    </Record>
+    <Record>
+      <Key>TheCoalMinesTask0</Key>
+      <Value>Équipez-vous de votre {THING:ItemMiningBelt}</Value>
+    </Record>
+    <Record>
+      <Key>TheCoalMinesTask1</Key>
+      <Value>Équipez vous de la {THING:ItemMiningDrill}</Value>
+    </Record>
+    <Record>
+      <Key>OnTheBadList</Key>
+      <Value>Sur la mauvaise liste</Value>
+    </Record>
+    <Record>
+      <Key>OnTheBadListDescription</Key>
+      <Value>Cadet, nous avons marqué quelques bons endroits pour vous faire démarrer. Utilisez la tablette et utilisez la roue de défilement pour modifier la cible suivie. Nous avons permis la balise de charbon. Déplacez-vous à cet endroit et obtenez un peu de {THING:ItemCoalOre}.</Value>
+    </Record>
+    <Record>
+      <Key>OnTheBadListTask1</Key>
+      <Value>Allumez votre {THING:ItemMiningDrill}</Value>
+    </Record>
+    <Record>
+      <Key>OnTheBadListTask2</Key>
+      <Value>Utilisez la {THING:ItemMiningDrill} pour extraire quelques {THING:ItemCoalOre}.</Value>
+    </Record>
+    <Record>
+      <Key>HardAsIron</Key>
+      <Value>Dur comme le fer</Value>
+    </Record>
+    <Record>
+      <Key>HardAsIronDescription</Key>
+      <Value>Bien joué Cadet! {THING:ItemCoalOre} vous fera fonctionner générateurs de carburant solide lorsque votre puissance est faible la nuit. Ensuite, vous aurez besoin de trouver le fer. Le {THING:ItemIronOre} est un élément clé de la plupart des fabrications. Nous avons marqué un bon emplacement sur votre tablette.</Value>
+    </Record>
+    <Record>
+      <Key>HardAsIronTask1</Key>
+      <Value>Miner quelques {THING:ItemIronOre}.</Value>
+    </Record>
+    <Record>
+      <Key>ConductiveMetals</Key>
+      <Value>Métaux conducteurs</Value>
+    </Record>
+    <Record>
+      <Key>ConductiveMetalsDescription</Key>
+      <Value>Un autre travail fantastique, Cadet. L’emplacement suivant pourrait être plus difficile à atteindre - il est haut sur une colline de sorte que vous aurez besoin de votre Jetpack pour l’atteindre. Vous pouvez le basculer hors tension et sur avec la touche {KEY:Jetpack}. Nous avons marqué quelques {THING:ItemCopperOre} sur votre tablette.</Value>
+    </Record>
+    <Record>
+      <Key>ConductiveMetalsTask1</Key>
+      <Value>Miner quelques {THING:ItemCopperOre}.</Value>
+    </Record>
+    <Record>
+      <Key>GoldRush</Key>
+      <Value>Ruée vers l&apos;or</Value>
+    </Record>
+    <Record>
+      <Key>GoldRushDescription</Key>
+      <Value>Cela devrait suffire pour l’instant. Enfin, vous aurez besoin de certains {THING:ItemGoldOre} pour l’électronique. Nous avons marqué un emplacement sur votre {THING:ItemTablet}. Astuce : utilisez votre touche {KEY:Jetpack} pour voyager rapidement.</Value>
+    </Record>
+    <Record>
+      <Key>GoldRushTask1</Key>
+      <Value>Miner quelques {THING:ItemGoldOre}.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDown</Key>
+      <Value>La fonderie</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownDescription</Key>
+      <Value>C&apos;est tout ce dont nous avons besoin pour l&apos;instant. Maintenant, retournez à la base et allez à la fonderie. Le {THING:StructureArcFurnace} est utilisé pour fondre les minerais en lingots utiles, essayez de fondre quelques {THING:ItemIronOre} en un {THING:ItemIronIngot}. Nous avons accordé l&apos;accès au conteneur de minerai si vous avez besoin de plus de ressources.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownTask0</Key>
+      <Value>Allumez le {THING:StructureArcFurnace}.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownTask1</Key>
+      <Value>Obtenez  des {THING:ItemIronOre} provenant de la {THING:ItemMiningBelt}.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownTask2</Key>
+      <Value>Fondre le {THING:ItemIronOre} en le plaçant dans le four à arc et en l’activant.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownTask3</Key>
+      <Value>Obtenez la nouvelle fusion {THING:ItemIronIngot}.</Value>
+    </Record>
+  </Interface>
+</Language>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>CN</Code>
+  <Interface>
+    <Record>
+      <Key>TheTabletTask2</Key>
+      <Value>装备 {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>TheCoalMinesTask0</Key>
+      <Value>装备 {THING:ItemMiningBelt}</Value>
+    </Record>
+    <Record>
+      <Key>TheCoalMinesTask1</Key>
+      <Value>装备 {THING:ItemMiningDrill}</Value>
+    </Record>
+    <Record>
+      <Key>OnTheBadListTask1</Key>
+      <Value>打开 {THING:ItemMiningDrill}</Value>
+    </Record>
+    <Record>
+      <Key>OnTheBadListTask2</Key>
+      <Value>使用 {THING:ItemMiningDrill} 来挖掘一些 {THING:ItemCoalOre}</Value>
+    </Record>
+    <Record>
+      <Key>HardAsIronTask1</Key>
+      <Value>挖掘一些 {THING:ItemIronOre}。</Value>
+    </Record>
+    <Record>
+      <Key>GoldRushTask1</Key>
+      <Value>挖掘一些 {THING:ItemGoldOre}。</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownTask0</Key>
+      <Value>启动 {THING:StructureArcFurnace}。</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownTask1</Key>
+      <Value>从 {THING:ItemMiningBelt} 中拿出 {THING:ItemIronOre}。</Value>
+    </Record>
+  </Interface>
+</Language>

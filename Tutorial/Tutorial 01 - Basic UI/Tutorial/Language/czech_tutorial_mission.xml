@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>CS</Code>
+  <Interface>
+    <Record>
+      <Key>01TutorialUIBasics</Key>
+      <Value>#1 Základní uživatelské rozhraní</Value>
+    </Record>
+    <Record>
+      <Key>UIBasicsDescription</Key>
+      <Value>Vítejte v Akademii, kadete! Je čas vás naučit základy toho jak se stát Stationeerem. V naší první lekci se budeme zabývat základy uživatelského rozhraní a ovládacích prvků.</Value>
+    </Record>
+    <!-- start the tutorial -->
+    <Record>
+      <Key>TutorialMouseControls</Key>
+      <Value>Kde je můj kurzor?</Value>
+    </Record>
+    <Record>
+      <Key>TutorialMouseControlsDescription</Key>
+      <Value>Začněme. Naším prvním úkolem je rychle si přečíst Stationpedii. Po dokončení zavřete Stationpedii pomocí {KEY:Help} nebo pomocí myši podržením klávesy {KEY:MouseControl} a přesunutím kurzoru myši.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialMouseControlsTask1</Key>
+      <Value>Zavřete {LINK:Home;stationpedii}</Value>
+    </Record>
+    <Record>
+      <Key>AlertSystem</Key>
+      <Value>UPOZORNĚNÍ</Value>
+    </Record>
+    <Record>
+      <Key>AlertSystemDescription</Key>
+      <Value>Příchozí upozornění!!!</Value>
+    </Record>
+    <Record>
+      <Key>DisplayAlert1</Key>
+      <Value>Kadete, zachytili jsme hrozící poruchu! Virus útočí na ovládání helmy!
+Stisknutím klávesy {KEY:Internals} zavřete helmu, pokud se otevře.
+Chcete-li povolit myš, zavřete tuto zprávu pomocí klávesy {KEY:MouseControl}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUIControls</Key>
+      <Value>Zavírání helmy </Value>
+    </Record>
+    <Record>
+      <Key>ALTTask1</Key>
+      <Value>Zavřít upozornění</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUIControlsDescription</Key>
+      <Value>Jako člověk nemůžete přežít na nekyslíkových planetách bez obleku nebo základny s dýchatelnou atmosférou. Ujistěte se, že zavřete a zamknete přilbu, abyste se vyhnuli náhodné smrti.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUIControlsTask</Key>
+      <Value>Otevřete uživatelské rozhraní helmy pomocí {KEY:HelmetSlot} nebo použijte klávesu {KEY:MouseControl} pro interakci s {SLOT:Helmet}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUIControlsTask1</Key>
+      <Value>Zavřete helmu pomocí {KEY:Internals}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUIControlsTask2</Key>
+      <Value>Ujistěte se, že je přilba uzamčená, aby se zabránilo tomu, že se to stane znovu. Podržte klávesu {KEY:MouseControl} a klikněte na možnost Zamknout helmu v nabídce helmy.</Value>
+    </Record>
+    <Record>
+      <Key>AlertSystem2</Key>
+      <Value>UPOZORNĚNÍ</Value>
+    </Record>
+    <Record>
+      <Key>ALTTask2</Key>
+      <Value>Zavřít upozornění</Value>
+    </Record>
+    <Record>
+      <Key>AlertSystemDescription2</Key>
+      <Value>Příchozí upozornění!!!</Value>
+    </Record>
+    <Record>
+      <Key>DisplayAlert2</Key>
+      <Value>Kadete, zdá se, že kontrolní systém vašeho obleku je napaden virem. Nyní na tom pracujeme,
+ale útočí na kontrolu tlaku a teploty vašeho obleku.
+Zavřete tuto zprávu pomocí klávesy {KEY:MouseControl}, čímž aktivujete myš.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSuitControls</Key>
+      <Value>Je tu zima?</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSuitControlsDescription</Key>
+      <Value>Otevřete ovládací prvky obleku pomocí klávesy {KEY:SuitSlot} nebo klikněte na ikonu obleku vlevo pomocí klávesy {KEY:MouseControl}. Upravte vnitřní tlak a teplotu obleku pomocí ovládacích prvků v nabídce obleku.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSuitControlsTask</Key>
+      <Value>Otevřete uživatelské rozhraní obleku pomocí {KEY:SuitSlot}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSuitControlsTask1</Key>
+      <Value>Změňte teplotu obleku na 22 stupňů: podržte klávesu {KEY:MouseControl} pro ovládání myší a klikněte na možnost &apos;Zvýšit teplotu&apos;.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSuitControlsTask2</Key>
+      <Value>Změňte vnitřní tlak obleku na 45 pascalů kliknutím na možnost Zvýšit tlak.</Value>
+    </Record>
+    <Record>
+      <Key>ReplaceingSuititems</Key>
+      <Value>Předměty podpory života</Value>
+    </Record>
+    <Record>
+      <Key>ReplaceingSuititemsDescription</Key>
+      <Value>Téměř jsme vyčistili virus. Nicméně, poškodil systém na podporu života. Nahraďme ho nyní. Dostali jsme přístup k přepravní bedně. Měla by obsahovat položky, které potřebujete pro základní přežití: baterie pro napájení systémů podpory života a uhlíkový filtr pro odstranění veškerého uhlíku z vaší vnitřní atmosféry.</Value>
+    </Record>
+    <Record>
+      <Key>ReplaceingSuititemsTask1</Key>
+      <Value>Vyměňte baterii pro napájení podpory života. Případně přetáhněte položku přímo z bedny do slotu pro oblek, který obsahuje prázdnou baterii.</Value>
+    </Record>
+    <Record>
+      <Key>ReplaceingSuititemsTask2</Key>
+      <Value>Přidejte do obleku filtr. Klikněte na filtr CO2 v bedně a přesuňte jej do svých rukou. Poté jej přesuňte do svého obleku přidržením klávesy {KEY:MouseControl} a přetažením přes použitý filtr CO2 a poté jej vložte do tohoto slotu.</Value>
+    </Record>
+    <Record>
+      <Key>DisplayAlert3</Key>
+      <Value>Virus odstraněn. Dobrá práce, kadete!
+Nezapomeňte, že všechna otevřená okna uživatelského rozhraní můžete rychle zavřít klávesou {KEY:HideAllWindows} nebo každé okno zavřít jednotlivě kliknutím na odpovídající číslo slotu pro každé okno.</Value>
+    </Record>
+    <Record>
+      <Key>CloseingUIs</Key>
+      <Value>Zavření nabídek</Value>
+    </Record>
+    <Record>
+      <Key>CloseingUIsDescription</Key>
+      <Value>Nyní poslední krok. Pojďme vyčistit okna uživatelského rozhraní.</Value>
+    </Record>
+    <Record>
+      <Key>ALTTask3</Key>
+      <Value>Zavřete upozornění</Value>
+    </Record>
+    <Record>
+      <Key>CloseingUIstask1</Key>
+      <Value>Zavřete všechna uživatelská rozhraní klávesou {KEY:HideAllWindows}.</Value>
+    </Record>
+    <Record>
+      <Key>CloseingUIstask2</Key>
+      <Value>Pokud máte v ruce zbývající položky, položte je klávesou {KEY:Drop}. Chcete-li zaměnit ruce, použijte klávesu {KEY:SwapHands}.</Value>
+    </Record>
+  </Interface>
+</Language>

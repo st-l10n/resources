@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>ES</Code>
+  <Interface>
+    <Record>
+      <Key>08BasicHydroponics</Key>
+      <Value>#8 Hidroponía Básica</Value>
+    </Record>
+    <Record>
+      <Key>BasicHydroponicsDescription</Key>
+      <Value>Cultivar patatas en el espacio con el tutorial de Hidroponía.</Value>
+    </Record>
+    <Record>
+      <Key>PortableHydroponics</Key>
+      <Value>Hidroponía portátil</Value>
+    </Record>
+    <Record>
+      <Key>PortableHydroponicsDescription</Key>
+      <Value>La unidad de {THING:DynamicHydroponics} es genial para establecer fuentes de alimentación temporales. Son ligeras y portátiles, pero no están equipadas con un sistema de iluminación debido a los requerimientos de peso.
+            
+Esto significa que la unidad {THING:DynamicHydroponics} debe estar en un lugar iluminado por el sol para que las plantas crezcan. Además de necesitar un buen lugar iluminado por el sol, también requieren una atmósfera controlada.</Value>
+    </Record>
+    <Record>
+      <Key>PortableHydroponicsTask1</Key>
+      <Value>Recoge {THING:ItemPotato}.</Value>
+    </Record>
+    <Record>
+      <Key>PortableHydroponicsTask2</Key>
+      <Value>Recoge la {THING:ItemGasCanisterWater}.</Value>
+    </Record>
+    <Record>
+      <Key>PortableHydroponicsTask3</Key>
+      <Value>Inserte el bote de agua en la base del {THING:DynamicHydroponics}</Value>
+    </Record>
+    <Record>
+      <Key>PortableHydroponicsTask4</Key>
+      <Value>Plantar una {THING:ItemPotato} en cualquiera de las ranuras de plantación de la {THING:DynamicHydroponics}.</Value>
+    </Record>
+    <Record>
+      <Key>PotatosInSpace</Key>
+      <Value>Las patatas en el espacio</Value>
+    </Record>
+    <Record>
+      <Key>PotatosInSpaceDescription</Key>
+      <Value>Deje que la planta de {THING:ItemPotato} crezca</Value>
+    </Record>
+    <Record>
+      <Key>PotatosInSpaceTask1</Key>
+      <Value>Espera a que la planta crezca. Nota: Hemos acelerado la tasa de crecimiento de la planta para este tutorial.</Value>
+    </Record>
+    <Record>
+      <Key>PotatosInSpaceTask2</Key>
+      <Value>Cosechar la {THING:ItemPotato}.</Value>
+    </Record>
+    <Record>
+      <Key>FixedHydroponics</Key>
+      <Value>Hidroponía fija</Value>
+    </Record>
+    <Record>
+      <Key>FixedHydroponicsDescription</Key>
+      <Value>La {THING:DynamicHydroponics} es buena para empezar, pero pronto querrás actualizarla a una {THING:StructureHydroponicsStation}. Tiene luces UV incorporadas y un tubo importado para ayudar a automatizar el sistema.</Value>
+    </Record>
+    <Record>
+      <Key>FixedHydroponicsTask1</Key>
+      <Value>Recoge la {THING:ItemKitHydroponicStation}.</Value>
+    </Record>
+    <Record>
+      <Key>FixedHydroponicsTask2</Key>
+      <Value>Coloca el {THING:ItemKitHydroponicStation} en la posición resaltada.</Value>
+    </Record>
+    <Record>
+      <Key>TankConnectorsWhatAreThey</Key>
+      <Value>Conectores del tanque - ¿Qué son?</Value>
+    </Record>
+    <Record>
+      <Key>TankConnectorsWhaAreTheyDescription</Key>
+      <Value>Los conectores de los tanques se utilizan para conectar una {THING:DynamicGasCanisterWater} a las redes de tuberías, que pueden utilizarse para transportar gas y agua.</Value>
+    </Record>
+    <Record>
+      <Key>TankConnectorsWhatAreTheyTask1</Key>
+      <Value>Recoge la {THING:ItemTankConnector}.</Value>
+    </Record>
+    <Record>
+      <Key>TankConnectorsWhatAreTheyTask2</Key>
+      <Value>Coloca el {THING:StructureTankConnector} en la posición resaltada.</Value>
+    </Record>
+    <Record>
+      <Key>WaterTanksAndWrenches</Key>
+      <Value>Tanques de agua y llaves</Value>
+    </Record>
+    <Record>
+      <Key>WaterTanksAndWrenchesDescription</Key>
+      <Value>Coloca el {THING:DynamicGasCanisterWater} encima de la {THING:ItemTankConnector} y conéctela usando una {THING:ItemWrench}.</Value>
+    </Record>
+    <Record>
+      <Key>WaterTanksAndWrenches1</Key>
+      <Value>Saca la {THING:ItemWrench} de tu cinturón de herramientas.</Value>
+    </Record>
+    <Record>
+      <Key>WaterTanksAndWrenchesTask2</Key>
+      <Value>Use la {THING:ItemWrench} para conectar la {THING:DynamicGasCanisterWater} al {THING:ItemTankConnector}.</Value>
+    </Record>
+    <Record>
+      <Key>WaterNetworks</Key>
+      <Value>Sistemas de agua</Value>
+    </Record>
+    <Record>
+      <Key>WaterNetworksDescription</Key>
+      <Value>Use los tubos azules para conectar la {THING:ItemTankConnector} a la {THING:StructureHydroponicsStation}. El agua fluirá hacia la unidad hasta que la {THING:DynamicGasCanisterWater} esté vacía.</Value>
+    </Record>
+    <Record>
+      <Key>WaterNetworksTask1</Key>
+      <Value>Recoge el {THING:ItemKitPipe} azul.</Value>
+    </Record>
+    <Record>
+      <Key>WaterNetworksTask2</Key>
+      <Value>Coloca otra {THING:StructurePipeStraight} en la posición resaltada.</Value>
+    </Record>
+    <Record>
+      <Key>KeepingItTidy</Key>
+      <Value>Manteniéndolo ordenado</Value>
+    </Record>
+    <Record>
+      <Key>KeepingItTidyDescription</Key>
+      <Value>{THING:ItemKitCompositeFloorGrating} son una gran forma de esconder los tubos y cables montados en el suelo. También permite un mejor movimiento mientras se camina alrededor de la base.</Value>
+    </Record>
+    <Record>
+      <Key>KeepingItTidyTask1</Key>
+      <Value>Recoge la {THING:ItemKitCompositeFloorGrating} de la caja.</Value>
+    </Record>
+    <Record>
+      <Key>KeepingItTidyTask2</Key>
+      <Value>Coloca otra {THING:StructureCompositeFloorGrating} en la posición resaltada.</Value>
+    </Record>
+    <Record>
+      <Key>AutomatedHydroponics</Key>
+      <Value>Hidroponía automatizada</Value>
+    </Record>
+    <Record>
+      <Key>AutomatedHydroponicsDescription</Key>
+      <Value>Ahora puedes encender la nueva {THING:ItemKitHydroponicStation} y plantar tu {THING:ItemPotato}. Tiene luces incorporadas que mantendrán a tus plantas felices incluso en condiciones de poca luz.</Value>
+    </Record>
+    <Record>
+      <Key>AutomatedHydroponicsTask1</Key>
+      <Value>Enciende el {THING:ItemKitHydroponicStation}.</Value>
+    </Record>
+    <Record>
+      <Key>AutomatedHydroponicsTask2</Key>
+      <Value>Recoge una {THING:ItemPotato} previamente cosechada.</Value>
+    </Record>
+    <Record>
+      <Key>AutomatedHydroponicsTask3</Key>
+      <Value>Planten la {THING:ItemPotato} en la {THING:ItemKitHydroponicStation}.</Value>
+    </Record>
+    <Record>
+      <Key>AutomatedHydroponicsTask4</Key>
+      <Value>Deje caer de sus manos cualquier objeto remanente.</Value>
+    </Record>
+    <Record>
+      <Key>HonestWork</Key>
+      <Value>Trabajo honrado</Value>
+    </Record>
+    <Record>
+      <Key>HonestWorkDescription</Key>
+      <Value>¡Se ha vuelto autosuficiente con una fuente constante de comida! Ahora deja que la {THING:ItemPotato} crezca hasta que esté lista para cosechar.</Value>
+    </Record>
+    <Record>
+      <Key>HonestWorkTask1</Key>
+      <Value>Espera a que la {THING:ItemPotato} crezca completamente.</Value>
+    </Record>
+    <Record>
+      <Key>HonestWorkTask2</Key>
+      <Value>Cosechar una {THING:ItemPotato}.</Value>
+    </Record>
+  </Interface>
+</Language>

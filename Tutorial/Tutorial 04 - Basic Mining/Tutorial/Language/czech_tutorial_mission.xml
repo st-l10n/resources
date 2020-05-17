@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>CS</Code>
+  <Interface>
+    <Record>
+      <Key>04BasicMining</Key>
+      <Value>#4 Základní těžba</Value>
+    </Record>
+    <Record>
+      <Key>BasicMiningDescription</Key>
+      <Value>V této lekci se naučíte základy těžby planetárních zdrojů a jak je proměnit v užitečné ingoty.</Value>
+    </Record>
+    <Record>
+      <Key>TheTablet</Key>
+      <Value>Tablet</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletDescription</Key>
+      <Value>Vítejte zpět, kadete! Naším dnešním úkolem je vzít {THING:ItemTablet}. {THING:ItemTablet} lze použít k zobrazení informací o atmosférách a sítích stejně jako encyklopedie nebo lokalizátor majáku. </Value>
+    </Record>
+    <Record>
+      <Key>TheTabletTask1</Key>
+      <Value>Otevřete {SLOT:Back} pomocí {KEY:BackSlot} a najděte {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletTask2</Key>
+      <Value>Vezměte si {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletTask2.5</Key>
+      <Value>Vložte {THING:CartridgeTracker} přetažením z {SLOT:Back} na ikonu do vybaveného {THING:ItemTablet} nebo kliknutím na {THING:ItemTablet} otevřete jeho vlastní okno uživatelského rozhraní.</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletTask3</Key>
+      <Value>Zapněte {THING:ItemTablet} pomocí klávesy {KEY:ToggleHandPower}.</Value>
+    </Record>
+    <Record>
+      <Key>TheCoalMines</Key>
+      <Value>Uhelné doly</Value>
+    </Record>
+    <Record>
+      <Key>TheCoalMinesDescription</Key>
+      <Value>Nyní se můžeme dostat k těžbě zdrojů z povrchu planety. Budeme muset vzít {THING:ItemMiningBelt} z {SLOT:Back}. Zaměňte {THING:ItemToolBelt} za {THING:ItemMiningBelt} a získejte {THING:ItemMiningDrill} ze {THING:ItemMiningBelt}.</Value>
+    </Record>
+    <Record>
+      <Key>TheCoalMinesTask0</Key>
+      <Value>Vezměte {THING:ItemMiningBelt}</Value>
+    </Record>
+    <Record>
+      <Key>TheCoalMinesTask1</Key>
+      <Value>Vezměte {THING:ItemMiningDrill}.</Value>
+    </Record>
+    <Record>
+      <Key>OnTheBadList</Key>
+      <Value>Na špatném seznamu</Value>
+    </Record>
+    <Record>
+      <Key>OnTheBadListDescription</Key>
+      <Value>Kadete, označili jsme několik dobrých míst majáky, abyste mohli začít. Pomocí tabletu a rolovacího kolečka vyberte maják. Pak jděte na místo a natěžte nějakou {THING:ItemCoalOre}.</Value>
+    </Record>
+    <Record>
+      <Key>OnTheBadListTask1</Key>
+      <Value>Zapněte {THING:ItemMiningDrill}.</Value>
+    </Record>
+    <Record>
+      <Key>OnTheBadListTask2</Key>
+      <Value>Použijte {THING:ItemMiningDrill} na těžbu některé {THING:ItemCoalOre}</Value>
+    </Record>
+    <Record>
+      <Key>HardAsIron</Key>
+      <Value>Tvrdé jako železo</Value>
+    </Record>
+    <Record>
+      <Key>HardAsIronDescription</Key>
+      <Value>Výborně kadete! {THING:ItemCoalOre} spustí vaše generátory na pevná paliva, když je v noci nízká energie. Dále budete muset najít železo. {THING:ItemIronOre} je klíčovou součástí většiny položek a nezbytnou rudou. Na tabletu jsme označili umístění.</Value>
+    </Record>
+    <Record>
+      <Key>HardAsIronTask1</Key>
+      <Value>Natěžte nějaké {THING:ItemIronOre}.</Value>
+    </Record>
+    <Record>
+      <Key>ConductiveMetals</Key>
+      <Value>Vodivé kovy</Value>
+    </Record>
+    <Record>
+      <Key>ConductiveMetalsDescription</Key>
+      <Value>Další skvělá práce, kadete. Na další místo může být obtížnější dosáhnout - je vysoko na kopci, takže k jeho dosažení budete potřebovat svůj Jetpack. Pomocí tlačítka {KEY:Jetpack} jej vypněte a znovu zapněte. Na tabletu jsme označili {THING:ItemCopperOre}.</Value>
+    </Record>
+    <Record>
+      <Key>ConductiveMetalsTask1</Key>
+      <Value>Natěžte nějakou {THING:ItemCopperOre}.</Value>
+    </Record>
+    <Record>
+      <Key>GoldRush</Key>
+      <Value>Zlatá horečka</Value>
+    </Record>
+    <Record>
+      <Key>GoldRushDescription</Key>
+      <Value>Nakonec budete potřebovat nějaké {THING:ItemGoldOre} pro elektroniku. Na {THING:ItemTablet} jsme označili místo. Tip: K rychlému cestování použijte {KEY:Jetpack}.</Value>
+    </Record>
+    <Record>
+      <Key>GoldRushTask1</Key>
+      <Value>Natěžte nějaké {THING:ItemGoldOre}.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDown</Key>
+      <Value>Roztavení</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownDescription</Key>
+      <Value>To by teď mělo být vše, co potřebujeme. Nyní se vraťte na základnu a začněte tavit. {THING:StructureArcFurnace} se používá k tavení rud do užitečných ingotů. Zkuste roztavit některé {THING:ItemIronOre} do {THING:ItemIronIngot}. Poskytli jsme vám přístup do kontejneru na rudu, pokud potřebujete více zdrojů.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownTask0</Key>
+      <Value>Zapněte {THING:StructureArcFurnace}.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownTask1</Key>
+      <Value>Vezměte {THING:ItemIronOre} z {THING:ItemMiningBelt}.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownTask2</Key>
+      <Value>Roztavte {THING:ItemIronOre} umístěním do obloukové pece a jeho aktivací.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownTask3</Key>
+      <Value>Získejte nově roztavené {THING:ItemIronIngot}.</Value>
+    </Record>
+  </Interface>
+</Language>

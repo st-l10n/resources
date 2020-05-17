@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>RU</Code>
+  <Interface>
+    <Record>
+      <Key>03BasicPowerGeneration</Key>
+      <Value>#3 Основы энергетики</Value>
+    </Record>
+    <Record>
+      <Key>BasicPowerGenerationDescription</Key>
+      <Value>В этом уроке мы привнесем свет в мир при помощи электричества.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWireCutting</Key>
+      <Value>Резка Проводов</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWireCuttingDescription</Key>
+      <Value>С возвращением, Кадет. Ваша первая задача это убрать старые перегоревшие провода. Используйте {THING:ItemWireCutters} из вашего пояса инструментов чтобы отрезать их.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWireCuttingTask1</Key>
+      <Value>Уберите сожженный провод</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSolidFuelEnergy</Key>
+      <Value>Энергия из твердого топлива</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSolidFuelEnergyDescription</Key>
+      <Value>Теперь, когда у вас есть базовая платформа и несколько установленных устройств, Кадет, вы должны будете обеспечить питание. Давайте начнем с {THING:StructureSolidFuelGenerator}. Твердотопливный генератор производит электричество в чрезвычайных ситуациях, или для небольших баз которые не имеют достаточно энергии в ночное время. Его главный недостаток в том, что ему требуется твердое топливо для работы.</Value>
+    </Record>
+    <Record>
+      <Key>SolidFuelEnergyTask1</Key>
+      <Value>Возьмите {THING:ItemKitSolidGenerator} из ящика со строительными ресурсами #1.</Value>
+    </Record>
+    <Record>
+      <Key>SolidFuelEnergyTask2</Key>
+      <Value>Разместите {THING:StructureSolidFuelGenerator}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialGoingSolar</Key>
+      <Value>Переходим на солнечную энергию - Часть I</Value>
+    </Record>
+    <Record>
+      <Key>TutorialGoingSolarDescription</Key>
+      <Value>Отличная работа, Кадет! Наша следующая задача состоит в установке {THING:StructureSolarPanel}. Это обеспечит возобновляемую энергию для базы без необходимости расходовать топливо. Тем не менее, солнечные панели будут работать только в дневное время. </Value>
+    </Record>
+    <Record>
+      <Key>GoingSolarTask1</Key>
+      <Value>Возьмите {THING:ItemKitSolarPanel} из ящика строительных материалов #1.</Value>
+    </Record>
+    <Record>
+      <Key>GoingSolarTask2</Key>
+      <Value>Комплекты могут создавать различные структуры и варианты. Чтобы построить этот вид панели солнечных батарей, используйте колесо прокрутки, чтобы поменять на правильный вариант, а затем сопоставить форму курсора с выделенным местом. Не забудьте использовать {KEY:QuantityModifier} для поворота панели в правильное положение.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialGoingSolarpart2</Key>
+      <Value>Переходим на солнечную энергию - Часть II.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialGoingSolarDescriptionpart2</Key>
+      <Value>Как и {THING:StructureAutolathe}, солнечная панель также требует дополнительного шага для завершения конструкции. </Value>
+    </Record>
+    <Record>
+      <Key>GoingSolarPart2Task1</Key>
+      <Value>Возьмите {THING:ItemGlassSheets} из ящика строительных материалов #1.</Value>
+    </Record>
+    <Record>
+      <Key>GoingSolarPart2Task2</Key>
+      <Value>Установите {THING:ItemGlassSheets} на солнечную панель.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialLearningToWire</Key>
+      <Value>Учимся прокладывать кабель</Value>
+    </Record>
+    <Record>
+      <Key>TutorialLearningToWireDescription</Key>
+      <Value>Теперь нам нужно соединить наше оборудование вместе с помощью проводов. На земле было бы достаточно обычных проводов, но атомный кислород и солнечное излучение портят вещества находящиеся в космосе. Поэтому мы разработали специальные кабели, способные выдерживать космическую среду. Они передают как данные, так и питание, что позволяет управлять машинами с панели управления. Это будет рассмотрено позже.
+
+В вашем {SLOT:Belt} вы найдете {THING:ItemCableCoil}. Поместите кабели в выделенную область, используя колесо прокрутки для выбора правильного провода и {KEY:QuantityModifier} для вращения в соответствии с размещением. </Value>
+    </Record>
+    <Record>
+      <Key>LearningToWireTask0.5</Key>
+      <Value>Возьмите {THING:ItemCableCoil} в вашем {SLOT:Belt}.</Value>
+    </Record>
+    <Record>
+      <Key>CableCorner</Key>
+      <Value>Проложите {THING:StructureCableCorner}.</Value>
+    </Record>
+    <Record>
+      <Key>CableStraight</Key>
+      <Value>Проложите {THING:StructureCableStraight}.</Value>
+    </Record>
+    <Record>
+      <Key>LearningToWireTask4</Key>
+      <Value>Проложите {THING:StructureCableJunction}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWiringWires</Key>
+      <Value>Проложите провода</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWiringWiresDescription</Key>
+      <Value>Протяните провода к основной платформе.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialPowerControlersAndbatteryCharges</Key>
+      <Value>Зарядное устройство и ИБП</Value>
+    </Record>
+    <Record>
+      <Key>TutorialPowerControlersAndbatteryChargesDescription</Key>
+      <Value>Нашим следующим шагом, мы должны разместить {THING:ItemAreaPowerControl} для управления потоком энергии и предотвращения выгорания кабелей. Он также имеет небольшой блок питания, если генератор не вырабатывает энергии.
+
+Во-вторых, мы должны добавить {THING:ItemBatteryCharger} для наших разряженных батарей. Мы хотим поместить его в схему перед {THING:ItemAreaPowerControl}, чтобы он не разряжал батарею в {THING:ItemAreaPowerControl}.</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlersAndbatteryChargesTask1</Key>
+      <Value>Возьмите {THING:ItemAreaPowerControl} из ящика строительных материалов #1.</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlersAndbatteryChargesTask2</Key>
+      <Value>Установите {THING:ItemAreaPowerControl} в выделенное место.</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlersAndbatteryChargesTask3</Key>
+      <Value>Возьмите {THING:ItemBatteryCharger} из ящика строительных материалов #2.</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlersAndbatteryChargesTask4</Key>
+      <Value>Установите {THING:ItemBatteryCharger} в выделенное место.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialFinishingTheCircuit</Key>
+      <Value>Завершение сети</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTutorialFinishingTheCircuitDescription</Key>
+      <Value>Подсоедините остальные компоненты к нашим машинам.</Value>
+    </Record>
+    <Record>
+      <Key>FinishingTheCircuitTask2</Key>
+      <Value>Проложите {THING:StructureCableCorner3}.</Value>
+    </Record>
+    <Record>
+      <Key>FinishingTheCircuitTask4</Key>
+      <Value>Проложите {THING:StructureCableJunction}.</Value>
+    </Record>
+    <Record>
+      <Key>FinishingTheCircuitTask6</Key>
+      <Value>Проложите {THING:StructureCableJunction}.</Value>
+    </Record>
+    <Record>
+      <Key>FinishingTheCircuitTask8</Key>
+      <Value>Проложите {THING:StructureCableJunction}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSettingUpThePowerController</Key>
+      <Value>Настройка ИБП</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSettingUpThePowerControllerDescription</Key>
+      <Value>Чтобы заставить {THING:StructureAreaPowerControl} работать, нам нужно открыть крышку и вставить батарею, а затем переключить выключатель чтобы дать энергии и данным пройти. Рекомендуется использовать большой аккумулятор для длительного питания в случае простоя, но небольшой аккумулятор так же может быть использован.</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask1</Key>
+      <Value>Возьмите {THING:ItemCrowbar} из вашего {SLOT:Belt}.</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask2</Key>
+      <Value>Откройте {THING:StructureAreaPowerControl} при помощи {THING:ItemCrowbar}.</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask3</Key>
+      <Value>Возьмите {THING:ItemBatteryCellLarge} из ящика строительных материалов #2.</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask4</Key>
+      <Value>Поместите {THING:ItemBatteryCellLarge} в {THING:StructureAreaPowerControl}.</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask5</Key>
+      <Value>Поставьте переключатель в положение “Включен“ на {THING:StructureAreaPowerControl}.</Value>
+    </Record>
+  </Interface>
+</Language>

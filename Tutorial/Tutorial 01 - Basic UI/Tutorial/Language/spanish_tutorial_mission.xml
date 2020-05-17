@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>ES</Code>
+  <Interface>
+    <Record>
+      <Key>01TutorialUIBasics</Key>
+      <Value>#1 UI Básico</Value>
+    </Record>
+    <Record>
+      <Key>UIBasicsDescription</Key>
+      <Value>¡Bienvenido a la Academia, Cadete! Aquí le enseñaremos las bases para convertirse en un Stationeer. En nuestra primera lección, nos sumergiremos en los fundamentos de la interfaz de usuario y los controles.</Value>
+    </Record>
+    <!-- start the tutorial -->
+    <Record>
+      <Key>TutorialMouseControls</Key>
+      <Value>¿Dónde está mi cursor?</Value>
+    </Record>
+    <Record>
+      <Key>TutorialMouseControlsDescription</Key>
+      <Value>Empecemos. Nuestra primera tarea es hacer una lectura rápida de la Stationpedia. Cuando terminemos, cerraremos la Stationpedia usando {KEY:Help} o con el ratón manteniendo pulsada la tecla {KEY:MouseControl} y moviendo el cursor del ratón.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialMouseControlsTask1</Key>
+      <Value>Cierre el {LINK:Home;Stationpedia}</Value>
+    </Record>
+    <Record>
+      <Key>AlertSystem</Key>
+      <Value>ALERTA</Value>
+    </Record>
+    <Record>
+      <Key>AlertSystemDescription</Key>
+      <Value>¡¡¡Alerta inminente!!!</Value>
+    </Record>
+    <Record>
+      <Key>DisplayAlert1</Key>
+      <Value>Cadete, hemos detectado una avería inminente. El virus está atacando el mecanismo de apertura del casco!
+Presione la tecla  {KEY:Internals} para cerrar el casco si se abre.
+Cierre este mensaje usando la tecla {KEY:MouseControl} para activar el ratón.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUIControls</Key>
+      <Value>Cerrando el casco </Value>
+    </Record>
+    <Record>
+      <Key>ALTTask1</Key>
+      <Value>Cerrar Alerta</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUIControlsDescription</Key>
+      <Value>Como humano, no puedes sobrevivir en planetas sin oxígeno sin un traje o una base suficientemente presurizada con atmósfera respirable. Asegúrese de cerrar su casco y bloquearlo para evitar la muerte accidental.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUIControlsTask</Key>
+      <Value>Abre la UI de tu casco con {KEY:HelmetSlot} o usa la tecla {KEY:MouseControl} para interactuar con tu {SLOT:Helmet}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUIControlsTask1</Key>
+      <Value>Cierra el casco con {KEY:Internals}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUIControlsTask2</Key>
+      <Value>Asegúrese de bloquear el casco para evitar que vuelva a ocurrir. Manten pulsada la tecla {KEY:MouseControl} haz clic en la opción bloqueo de máscara en el menú del casco.</Value>
+    </Record>
+    <Record>
+      <Key>AlertSystem2</Key>
+      <Value>ALERTA</Value>
+    </Record>
+    <Record>
+      <Key>ALTTask2</Key>
+      <Value>Cerrar Alerta</Value>
+    </Record>
+    <Record>
+      <Key>AlertSystemDescription2</Key>
+      <Value>¡¡¡Alerta inminente!!!</Value>
+    </Record>
+    <Record>
+      <Key>DisplayAlert2</Key>
+      <Value>Cadete, el sistema de control de su traje parece estar infectado con un virus. Estamos trabajando en ello ahora,
+pero ha empezado a atacar los controles de presión y temperatura de sus trajes. 
+Cierre este mensaje usando la tecla {KEY:MouseControl} para habilitar el ratón.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSuitControls</Key>
+      <Value>¿Hace frío ahí fuera?</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSuitControlsDescription</Key>
+      <Value>Abra sus controles del traje con {KEY:SuitSlot} o haciendo clic en el traje de la izquierda con la tecla {KEY:MouseControl} . Ajuste la presión interna y la temperatura del traje con los controles del menú del traje.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSuitControlsTask</Key>
+      <Value>Abre tu traje de interfaz con {KEY:SuitSlot}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSuitControlsTask1</Key>
+      <Value>Cambie la temperatura de su traje a 22 grados: manteniendo pulsada la tecla {KEY:MouseControl} para activar el control del ratón y haciendo clic en la opción &quot;Subir temperatura&quot;.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSuitControlsTask2</Key>
+      <Value>Cambie la presión interna de su traje a 45 pascales pulsando la opción Subir presión.</Value>
+    </Record>
+    <Record>
+      <Key>ReplaceingSuititems</Key>
+      <Value>Artículos de soporte vital</Value>
+    </Record>
+    <Record>
+      <Key>ReplaceingSuititemsDescription</Key>
+      <Value>Casi hemos eliminado el virus del traje. Sin embargo, ha dañado algunos de los equipos de soporte vital de su traje. Vamos a reemplazarlos ahora. Nos han autorizado a acceder a una caja cercana que debería tener los artículos que necesitas. Para las necesidades básicas de supervivencia, necesitarás una batería para alimentar los sistemas de soporte vital y un filtro de carbón para filtrar el carbón que se encuentre en tu atmósfera interna.</Value>
+    </Record>
+    <Record>
+      <Key>ReplaceingSuititemsTask1</Key>
+      <Value>Cambie la batería para alimentar el soporte vital. Alternativamente, podemos arrastrar el artículo directamente desde la caja a la ranura. Intenta arrastrar la batería de la caja a la ranura con la batería vacía en tu traje para intercambiarla.</Value>
+    </Record>
+    <Record>
+      <Key>ReplaceingSuititemsTask2</Key>
+      <Value>Agregue un filtro a su traje. Haz clic en el filtro de CO2 en la caja para moverlo a sus manos. Luego puede moverlo a su traje manteniendo pulsada la tecla {KEY:MouseControl} y arrastrándolo sobre el filtro de CO2 usado y soltando el filtro de CO2 en esa ranura. Esto cambiará los filtros.</Value>
+    </Record>
+    <Record>
+      <Key>DisplayAlert3</Key>
+      <Value>Virus erradicado. ¡Buen trabajo, cadete!
+Recuerde, puede cerrar todas las ventanas abiertas de la interfaz de usuario rápidamente con la tecla {KEY:HideAllWindows}, o cerrar cada ventana individualmente haciendo clic en el número de ranura correspondiente a cada ventana.</Value>
+    </Record>
+    <Record>
+      <Key>CloseingUIs</Key>
+      <Value>Cerrando los menús</Value>
+    </Record>
+    <Record>
+      <Key>CloseingUIsDescription</Key>
+      <Value>Ahora para el último paso de la interfaz de usuario, vamos a limpiar las ventanas de la interfaz de usuario.</Value>
+    </Record>
+    <Record>
+      <Key>ALTTask3</Key>
+      <Value>Finalizar la alerta</Value>
+    </Record>
+    <Record>
+      <Key>CloseingUIstask1</Key>
+      <Value>Cierre toda la interfaz con la tecla {KEY:HideAllWindows}.</Value>
+    </Record>
+    <Record>
+      <Key>CloseingUIstask2</Key>
+      <Value>Si tienes algún objeto sobrante en tus manos, suéltalo con la tecla {KEY:Drop} .Para cambiar de mano usa la tecla {KEY:SwapHands} .</Value>
+    </Record>
+  </Interface>
+</Language>

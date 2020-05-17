@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>PT</Code>
+  <Interface>
+    <Record>
+      <Key>01TutorialUIBasics</Key>
+      <Value>#1 Básicos da Interface</Value>
+    </Record>
+    <Record>
+      <Key>UIBasicsDescription</Key>
+      <Value>Bem-Vindo à academia cadete! É hora de ensinar-te os básicos de como ser um Stationeer. Nesta primeira lição, vamos cobrir os básicos da Interface e controles.</Value>
+    </Record>
+    <!-- start the tutorial -->
+    <Record>
+      <Key>TutorialMouseControls</Key>
+      <Value>Onde está o meu Cursor?</Value>
+    </Record>
+    <Record>
+      <Key>TutorialMouseControlsDescription</Key>
+      <Value>Vamos começar. A primeira tarefa é dar uma olhada na Stationpedia. Quando acabares, fecha a Stationpedia usando {KEY:Help} ou segura a tecla {KEY:MouseControl} e depois movendo o cursor do rato.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialMouseControlsTask1</Key>
+      <Value>Fecha a {LINK:Home;Stationpedia}</Value>
+    </Record>
+    <Record>
+      <Key>AlertSystem</Key>
+      <Value>ALERTA</Value>
+    </Record>
+    <Record>
+      <Key>AlertSystemDescription</Key>
+      <Value>Alerta Recebido!!!</Value>
+    </Record>
+    <Record>
+      <Key>DisplayAlert1</Key>
+      <Value>Cadete, detectámos uma avaria iminente. Um Virus está a atacar os comandos do capacete.
+Pressiona a tecla {KEY:Internals} para fechar o capacete se abrir.
+Fecha esta mensagem usando a tecla {KEY:MouseControl} para ativar o cursor do rato.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUIControls</Key>
+      <Value>Fechando o capacete </Value>
+    </Record>
+    <Record>
+      <Key>ALTTask1</Key>
+      <Value>Fecha o Alerta</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUIControlsDescription</Key>
+      <Value>Como humano, não consegues sobreviver em planetas sem oxigénio, sem um fato ou uma base suficientemente pressurizada com atmosfera respirável. Fecha e bloqueia sempre o teu capacete, para evitar morte acidental.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUIControlsTask</Key>
+      <Value>Abre a interface do capacete com a tecla {KEY:HelmetSlot} ou usa a tecla {KEY:MouseControl} para interagir com o {SLOT:Helmet}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUIControlsTask1</Key>
+      <Value>Fecha o teu capacete com a tecla {KEY:Internals}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUIControlsTask2</Key>
+      <Value>Certifica-te de trancar o capacete para evitar acontecer novamente. Segura a tecla {KEY:MouseControl} e depois clica Bloquear Mask no menu do capacete.</Value>
+    </Record>
+    <Record>
+      <Key>AlertSystem2</Key>
+      <Value>ALERTA</Value>
+    </Record>
+    <Record>
+      <Key>ALTTask2</Key>
+      <Value>Fecha o Alerta</Value>
+    </Record>
+    <Record>
+      <Key>AlertSystemDescription2</Key>
+      <Value>Alerta Recebido!!!</Value>
+    </Record>
+    <Record>
+      <Key>DisplayAlert2</Key>
+      <Value>Cadete, o sistema de controle do teu fato ainda parece infectado com um vírus. Estamos a tratar disso,
+mas já começou a atacar os sistemas de pressão e temperatura. 
+Fecha esta mensagem utilizando a tecla {KEY:MouseControl} para ativar o rato.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSuitControls</Key>
+      <Value>Está frio aqui fora?</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSuitControlsDescription</Key>
+      <Value>Abre os comandos do teu fato com {KEY:SuitSlot} ou clica no ícone do fato à esquerda usando a tecla {KEY:MouseControl}. Ajusta a pressão e temperatura interna com os comandos no menu do fato.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSuitControlsTask</Key>
+      <Value>Abre a interface do teu fato com {KEY:SuitSlot}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSuitControlsTask1</Key>
+      <Value>Altera a temperatura do fato para 22 graus: segura a tecla {KEY:MouseControl} para ativar o rato e clica na opção &apos;Subir Temperatura&apos;.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSuitControlsTask2</Key>
+      <Value>Altera a pressão interna do teu fato para 45 pascais clicando na opção de Subir Pressão.</Value>
+    </Record>
+    <Record>
+      <Key>ReplaceingSuititems</Key>
+      <Value>Itens de Suporte de Vida</Value>
+    </Record>
+    <Record>
+      <Key>ReplaceingSuititemsDescription</Key>
+      <Value>Já quase limpamos o vírus! No entanto, ele danificou alguns equipamentos do suporte de vida. Vamos trocá-los agora. Recebemos autorização para aceder a uma caixa de suprimentos. Deverá ter os itens de sobrevivência básica que precisas: uma bateria, para alimentar os sistemas de suporte de vida e um filtro de dióxido de carbono para filtrar a atmosfera interna.</Value>
+    </Record>
+    <Record>
+      <Key>ReplaceingSuititemsTask1</Key>
+      <Value>Troca a tua bateria para alimentar o sistema de suporte de vida. Opcionalmente, arrasta-a directamente da caixa para o compartimento do teu fato com a bateria vazia.</Value>
+    </Record>
+    <Record>
+      <Key>ReplaceingSuititemsTask2</Key>
+      <Value>Adiciona um filtro ao teu fato clicando no filtro CO2 que está na caixa para mover para as tuas mãos. Depois move-a para o fato segurando a tecla {KEY:MouseControl} e arrastando para cima do filtro CO2 usado.</Value>
+    </Record>
+    <Record>
+      <Key>DisplayAlert3</Key>
+      <Value>Vírus erradicado. Bom trabalho, cadete! 
+Lembra-te que, poderás fechar todos os menus abertos pressionando a tecla {KEY:HideAllWindows}, ou manualmente clicando no compartimento correspondente de cada janela.</Value>
+    </Record>
+    <Record>
+      <Key>CloseingUIs</Key>
+      <Value>Fechando menus</Value>
+    </Record>
+    <Record>
+      <Key>CloseingUIsDescription</Key>
+      <Value>Agora o último passo da interface. Vamos fechar as janelas todas.</Value>
+    </Record>
+    <Record>
+      <Key>ALTTask3</Key>
+      <Value>Fecha o alerta</Value>
+    </Record>
+    <Record>
+      <Key>CloseingUIstask1</Key>
+      <Value>Fecha todos os menus da interface com a tecla {KEY:HideAllWindows}.</Value>
+    </Record>
+    <Record>
+      <Key>CloseingUIstask2</Key>
+      <Value>Se tiveres alguns itens restantes nas tuas mãos, larga-os com a tecla {KEY:Drop}. Para trocar de mão usa a tecla {KEY:SwapHands}.</Value>
+    </Record>
+  </Interface>
+</Language>

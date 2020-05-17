@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>RU</Code>
+  <Interface>
+    <Record>
+      <Key>08BasicHydroponics</Key>
+      <Value>#8 Основы Гидропоники</Value>
+    </Record>
+    <Record>
+      <Key>BasicHydroponicsDescription</Key>
+      <Value>Выращивание картошки в космосе вместе с уроками по гидропонике.</Value>
+    </Record>
+    <Record>
+      <Key>PortableHydroponics</Key>
+      <Value>Переносная гидропонная установка</Value>
+    </Record>
+    <Record>
+      <Key>PortableHydroponicsDescription</Key>
+      <Value>{THING:DynamicHydroponics} отлично подходит как временный источник пищи. Они легкие и мобильные, но не включают системы освещения из-за требований к весу.
+
+Это значит что {THING:DynamicHydroponics} должна быть расположна в солнечном месте. В дополнение к солнечному освещению так же требуется контролируемая атмосфера.
+
+Наилучшие условия для выращивания растений находятся между 15 и 50 градусами Цельсия при давлении от 8КПа до 130КПа. Атмосфера не должна содержать водорода или загрязняющих веществ и должна иметь не менее 2% углекислого газа.</Value>
+    </Record>
+    <Record>
+      <Key>PortableHydroponicsTask1</Key>
+      <Value>Поднимите {THING:ItemPotato}.</Value>
+    </Record>
+    <Record>
+      <Key>PortableHydroponicsTask2</Key>
+      <Value>Поднимите {THING:ItemGasCanisterWater}.</Value>
+    </Record>
+    <Record>
+      <Key>PortableHydroponicsTask3</Key>
+      <Value>Вставьте канистру с водой в основание {THING:DynamicHydroponics}</Value>
+    </Record>
+    <Record>
+      <Key>PortableHydroponicsTask4</Key>
+      <Value>Посадите {THING:ItemPotato} в любой слот {THING:DynamicHydroponics}.</Value>
+    </Record>
+    <Record>
+      <Key>PotatosInSpace</Key>
+      <Value>Картошка в космосе</Value>
+    </Record>
+    <Record>
+      <Key>PotatosInSpaceDescription</Key>
+      <Value>Дайте {THING:ItemPotato} вырасти</Value>
+    </Record>
+    <Record>
+      <Key>PotatosInSpaceTask1</Key>
+      <Value>Подождите, пока растение вырастет. Примечание: Мы ускорили темпы роста растений для этого учебного сценария.</Value>
+    </Record>
+    <Record>
+      <Key>PotatosInSpaceTask2</Key>
+      <Value>Соберите урожай {THING:ItemPotato}.</Value>
+    </Record>
+    <Record>
+      <Key>FixedHydroponics</Key>
+      <Value>Стационарная Гидропоника</Value>
+    </Record>
+    <Record>
+      <Key>FixedHydroponicsDescription</Key>
+      <Value>На начальном этапе {THING:DynamicHydroponics} будет вполне достаточно, но в скором времени вам потребуется {THING:StructureHydroponicsStation}. Эта версия имеет встроенное ультрафиолетовое освещение и порт подачи жидкости чтобы помочь с автоматизацией.</Value>
+    </Record>
+    <Record>
+      <Key>FixedHydroponicsTask1</Key>
+      <Value>Возьмите {THING:ItemKitHydroponicStation}.</Value>
+    </Record>
+    <Record>
+      <Key>FixedHydroponicsTask2</Key>
+      <Value>Установите {THING:ItemKitHydroponicStation} в выделенное место.</Value>
+    </Record>
+    <Record>
+      <Key>TankConnectorsWhatAreThey</Key>
+      <Value>Разъемы цистерн - Что это такое?</Value>
+    </Record>
+    <Record>
+      <Key>TankConnectorsWhaAreTheyDescription</Key>
+      <Value>Разъемы цистерн используются для подключения {THING:DynamicGasCanisterWater} к трубам, которые могут использоваться для транспортировки газа и воды.</Value>
+    </Record>
+    <Record>
+      <Key>TankConnectorsWhatAreTheyTask1</Key>
+      <Value>Возьмите {THING:ItemTankConnector}.</Value>
+    </Record>
+    <Record>
+      <Key>TankConnectorsWhatAreTheyTask2</Key>
+      <Value>Установите {THING:StructureTankConnector} в выделенное место.</Value>
+    </Record>
+    <Record>
+      <Key>WaterTanksAndWrenches</Key>
+      <Value>Водяные Цистерны и Гаечные Ключи</Value>
+    </Record>
+    <Record>
+      <Key>WaterTanksAndWrenchesDescription</Key>
+      <Value>Поместите {THING:DynamicGasCanisterWater} поверх {THING:ItemTankConnector} и подключите его с помощью {THING:ItemWrench}.</Value>
+    </Record>
+    <Record>
+      <Key>WaterTanksAndWrenches1</Key>
+      <Value>Возьмите {THING:ItemWrench} с вашего пояса инструментов.</Value>
+    </Record>
+    <Record>
+      <Key>WaterTanksAndWrenchesTask2</Key>
+      <Value>Используйте {THING:ItemWrench} для подключения {THING:DynamicGasCanisterWater} к {THING:ItemTankConnector}.</Value>
+    </Record>
+    <Record>
+      <Key>WaterNetworks</Key>
+      <Value>Водопровод</Value>
+    </Record>
+    <Record>
+      <Key>WaterNetworksDescription</Key>
+      <Value>Используйте синие трубы для подключения {THING:ItemTankConnector} к {THING:StructureHydroponicsStation}. Вода будет поступать в устройство до тех пор, пока {THING:DynamicGasCanisterWater} не опустеет.</Value>
+    </Record>
+    <Record>
+      <Key>WaterNetworksTask1</Key>
+      <Value>Поднимите {THING:ItemKitPipe} синего цвета.</Value>
+    </Record>
+    <Record>
+      <Key>WaterNetworksTask2</Key>
+      <Value>Установите {THING:StructurePipeStraight} в выделенное место.</Value>
+    </Record>
+    <Record>
+      <Key>KeepingItTidy</Key>
+      <Value>Поддержание порядка</Value>
+    </Record>
+    <Record>
+      <Key>KeepingItTidyDescription</Key>
+      <Value>{THING:ItemKitCompositeFloorGrating} это отличный способ спрятать проведенные по полу трубы и провода. Так же позволяет упростить пешее передвижение по вашей базе.</Value>
+    </Record>
+    <Record>
+      <Key>KeepingItTidyTask1</Key>
+      <Value>Возьмите {THING:ItemKitCompositeFloorGrating} из ящика.</Value>
+    </Record>
+    <Record>
+      <Key>KeepingItTidyTask2</Key>
+      <Value>Установите {THING:StructureCompositeFloorGrating} в выделенное место.</Value>
+    </Record>
+    <Record>
+      <Key>AutomatedHydroponics</Key>
+      <Value>Автоматизированная гидропоника</Value>
+    </Record>
+    <Record>
+      <Key>AutomatedHydroponicsDescription</Key>
+      <Value>Вы теперь можете включить {THING:StructureHydroponicsStation} и посадить {THING:ItemPotato}. Эта станция гидропоники имеет встроенное освещение которое поможет выращивать растения в условиях низкой естественной освещенности.</Value>
+    </Record>
+    <Record>
+      <Key>AutomatedHydroponicsTask1</Key>
+      <Value>Включите {THING:StructureHydroponicsStation}.</Value>
+    </Record>
+    <Record>
+      <Key>AutomatedHydroponicsTask2</Key>
+      <Value>Поднимите ранее собранный урожай {THING:ItemPotato}.</Value>
+    </Record>
+    <Record>
+      <Key>AutomatedHydroponicsTask3</Key>
+      <Value>Посадите {THING:ItemPotato} в {THING:StructureHydroponicsStation}.</Value>
+    </Record>
+    <Record>
+      <Key>AutomatedHydroponicsTask4</Key>
+      <Value>Бросьте предметы оставшиеся в ваших руках.</Value>
+    </Record>
+    <Record>
+      <Key>HonestWork</Key>
+      <Value>Честная работа</Value>
+    </Record>
+    <Record>
+      <Key>HonestWorkDescription</Key>
+      <Value>Вы теперь самодостаточны благодаря стабильному источнику пищи! Теперь дайте {THING:ItemPotato} подрасти пока не будет готов урожай.</Value>
+    </Record>
+    <Record>
+      <Key>HonestWorkTask1</Key>
+      <Value>Подождите пока растение {THING:ItemPotato} полностью вырастет.</Value>
+    </Record>
+    <Record>
+      <Key>HonestWorkTask2</Key>
+      <Value>Соберите урожай {THING:ItemPotato}.</Value>
+    </Record>
+  </Interface>
+</Language>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>CS</Code>
+  <Interface>
+    <Record>
+      <Key>06BasicAtmospherics</Key>
+      <Value>#6 Základní atmosféra</Value>
+    </Record>
+    <Record>
+      <Key>BasicAtmosphericsDescription</Key>
+      <Value>V této lekci se naučíte, jak naplnit malou základnu dýchatelnou atmosférou.</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletAtmo</Key>
+      <Value>Oxit lokalizátor</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletAtmoDescription</Key>
+      <Value>Vložte disketu lokalizátoru do {THING:ItemTablet}.</Value>
+    </Record>
+    <Record>
+      <Key>BasicAtmosphericsDescription</Key>
+      <Value>V této lekci se naučíte, jak naplnit malou základnu dýchatelnou atmosférou.</Value>
+    </Record>
+    <Record>
+      <Key>Oxyie-Gen</Key>
+      <Value>Shromažďování oxitu.</Value>
+    </Record>
+    <Record>
+      <Key>Oxyie-GenTask1</Key>
+      <Value>Budete muset natěžit okolo 100 Oxitů, abyste natlakovali základnu. V blízkosti lokalizačního majáku jsou dvě ložiska. Procházejte možnostmi, dokud nenajdete správný maják.</Value>
+    </Record>
+    <Record>
+      <Key>Oxyie-GenDescription</Key>
+      <Value>Oxit je zmrzlý dýchatelný plyn, který existuje v malých ložiscích na většině planet. Oxit se rozpustí, pokud není v batohu nebo v hornickém opasku. 
+        
+Pomocí tabletu přejděte na stránku Oxit.</Value>
+    </Record>
+    <Record>
+      <Key>AtmoAirLock</Key>
+      <Value>Vstup do vzduchové komory</Value>
+    </Record>
+    <Record>
+      <Key>AtmoAirLockDescription</Key>
+      <Value>Přechodová komora je zařízení, které umožňuje průchod osob a předmětů mezi základnou pod tlakem a jejím okolím a zároveň minimalizuje změnu tlaku a ztrátu vzduchu ze základny.
+
+V současné době nemá základna žádnou vnitřní atmosféru, takže přechodová komora nebude fungovat správně, protože k fungování potřebuje 100 kpa. Stále můžeme vstoupit do základny zrušením synchronizace natlakování na přechodové komoře. Pamatujte si, pokud má základna únik vzduchu, tak musíte do ní vstoupit nebo vystoupit bez spuštění synchronizace.</Value>
+    </Record>
+    <Record>
+      <Key>AtmoAirLockTask1</Key>
+      <Value>Vstupte do přechodové komory a na konzoli stiskněte tlačítko „Synchronizovat do interiéru“. Počkejte, až se zavřou vnější dveře, a objeví se nové tlačítko označené „Zrušit natlakování“. Stisknutím tohoto tlačítka se vnitřní dveře otevřou.
+        </Value>
+    </Record>
+    <Record>
+      <Key>AtmosAnalyser</Key>
+      <Value>Analýza atmosféry.</Value>
+    </Record>
+    <Record>
+      <Key>AtmosAnalyserDescription</Key>
+      <Value>Atmosférický analyzátor se používá k analýze složení, teploty a tlaku současné atmosféry.</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletTaskAtmo</Key>
+      <Value>Vložte {THING:CartridgeAtmosAnalyser} do {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>Creating_Atmo</Key>
+      <Value>Vytváření atmosféry.</Value>
+    </Record>
+    <Record>
+      <Key>Creating_AtmoDescription</Key>
+      <Value>Nejjednodušší způsob, jak vytvořit dýchatelnou atmosféru, je natěžit oxit, pak ho vložit do základny a nechat ho roztát. Tím se uvolní dýchatelný kyslík do atmosféry a zvýší se tlak vzduchu. Při tavení oxitu buďte opatrní, protože byste mohli přetlakovat základnu a způsobit poškození stěn. Lidé musí dýchat minimálně 20% kyslíku bez znečišťujících látek nebo jedů. V atmosféře můžete mít malé množství oxidu uhličitého, ale nedoporučuje se překračovat 10%.</Value>
+    </Record>
+    <Record>
+      <Key>Creating_AtmoTask1</Key>
+      <Value>Zapněte {THING:ItemTablet}.</Value>
+    </Record>
+    <Record>
+      <Key>Creating_AtmoTask2</Key>
+      <Value>Položte Oxit do místnosti a počkejte, až se roztaví. Vytvoří dýchatelnou atmosféru, čímž se vnější tlak zvýší na 60 kPa.</Value>
+    </Record>
+    <Record>
+      <Key>Creating_AtmoTask3</Key>
+      <Value>Jakmile tlak dosáhne přijatelné bezpečné úrovně, otevřete helmu a nadechněte se čerstvého vzduchu.</Value>
+    </Record>
+  </Interface>
+</Language>

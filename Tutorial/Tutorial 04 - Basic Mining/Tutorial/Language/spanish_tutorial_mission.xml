@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>ES</Code>
+  <Interface>
+    <Record>
+      <Key>04BasicMining</Key>
+      <Value>#4 Minería Básica</Value>
+    </Record>
+    <Record>
+      <Key>BasicMiningDescription</Key>
+      <Value>En esta lección, aprenderá los fundamentos de la minería de los recursos planetarios y cómo convertirlos en lingotes útiles.</Value>
+    </Record>
+    <Record>
+      <Key>TheTablet</Key>
+      <Value>La Tablet</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletDescription</Key>
+      <Value>¡Bienvenido de nuevo, cadete! Nuestra primera tarea de hoy es equipar la {THING:ItemTablet}. La {THING:ItemTablet} puede ser usada para mostrar información sobre la atmósfera y las redes, así como una enciclopedia o un rastreador de balizas.</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletTask1</Key>
+      <Value>Abre la {SLOT:Back} con {KEY:BackSlot} para encontrar la {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletTask2</Key>
+      <Value>Equipa la {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletTask2.5</Key>
+      <Value>Inserta el {THING:CartridgeTracker} arrastrandolo de el {SLOT:Back} en la {THING:ItemTablet} o haciendo click en {THING:ItemTablet} una ventana se abrirá.</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletTask3</Key>
+      <Value>Enciende la {THING:ItemTablet} usando la tecla {KEY:ToggleHandPower} .</Value>
+    </Record>
+    <Record>
+      <Key>TheCoalMines</Key>
+      <Value>Las minas de carbón</Value>
+    </Record>
+    <Record>
+      <Key>TheCoalMinesDescription</Key>
+      <Value>Ahora podemos comenzar a extraer recursos de la superficie del planeta. Vamos a tener que equipar el {THING:ItemMiningBelt} de tu {SLOT:Back}. cambia el {THING:ItemToolBelt} por {THING:ItemMiningBelt} y ponlo en {THING:ItemMiningDrill} de tu {THING:ItemMiningBelt}.</Value>
+    </Record>
+    <Record>
+      <Key>TheCoalMinesTask0</Key>
+      <Value>Equipa tu {THING:ItemMiningBelt}</Value>
+    </Record>
+    <Record>
+      <Key>TheCoalMinesTask1</Key>
+      <Value>Equipa el {THING:ItemMiningDrill}.</Value>
+    </Record>
+    <Record>
+      <Key>OnTheBadList</Key>
+      <Value>En la lista de los malos</Value>
+    </Record>
+    <Record>
+      <Key>OnTheBadListDescription</Key>
+      <Value>Cadete, hemos marcado algunos buenos lugares para que empiece. Usa la tableta y la rueda de desplazamiento para cambiar la baliza. Muévete a ese lugar y consigue algo de {THING:ItemCoalOre}.</Value>
+    </Record>
+    <Record>
+      <Key>OnTheBadListTask1</Key>
+      <Value>Enciende tu {THING:ItemMiningDrill}.</Value>
+    </Record>
+    <Record>
+      <Key>OnTheBadListTask2</Key>
+      <Value>Usa el {THING:ItemMiningDrill} para extraer algo de {THING:ItemCoalOre}</Value>
+    </Record>
+    <Record>
+      <Key>HardAsIron</Key>
+      <Value>Duro como el hierro</Value>
+    </Record>
+    <Record>
+      <Key>HardAsIronDescription</Key>
+      <Value>Bien hecho Cadete! {THING:ItemCoalOre} activara los generadores de combustible solido cuando la energía este baja por la noche. Lo siguiente sera encontrar hierro. {THING:ItemIronOre} es un componente esencial para crear la mayoría de los objetos y herramientas. Ahora tienes marcada una buena posición en la tablet para encontrarlo.</Value>
+    </Record>
+    <Record>
+      <Key>HardAsIronTask1</Key>
+      <Value>Mina algo de {THING:ItemIronOre}.</Value>
+    </Record>
+    <Record>
+      <Key>ConductiveMetals</Key>
+      <Value>Metales conductores</Value>
+    </Record>
+    <Record>
+      <Key>ConductiveMetalsDescription</Key>
+      <Value>Otro trabajo fantástico, Cadete! La próxima localización sera un poco mas dificil de llegar - esta en una montaña, seguramente necesitaras la mochila propulsora para llegar hasta allí. Tienes marcada la posicion {THING:ItemCopperOre} en tu tablet.</Value>
+    </Record>
+    <Record>
+      <Key>ConductiveMetalsTask1</Key>
+      <Value>Mina un poco de {THING:ItemCopperOre}.</Value>
+    </Record>
+    <Record>
+      <Key>GoldRush</Key>
+      <Value>La fiebre del oro</Value>
+    </Record>
+    <Record>
+      <Key>GoldRushDescription</Key>
+      <Value>Finalmente, necesitaras algunos minerales de {THING:ItemGoldOre} para la electronica. Tendras una localización para ecncontrarlos en la tablet {THING:ItemTablet}.
+Ayuda: utiliza la {KEY:Jetpack} para viajar rapidamente.</Value>
+    </Record>
+    <Record>
+      <Key>GoldRushTask1</Key>
+      <Value>Mina algo de {THING:ItemGoldOre}.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDown</Key>
+      <Value>Fundiéndolo</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownDescription</Key>
+      <Value>Debería ser todo lo que necesitamos por ahora. Ahora tendrás que volver a la base para fundir los minerales en lingotes. El {THING:StructureArcFurnace} se usa para fundir minerales en lingotes útiles, intenta fundir algo de {THING:ItemIronOre} y {THING:ItemIronIngot}.Te hemos dado acceso al contenedor de mineral si necesitas más recursos.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownTask0</Key>
+      <Value>Enciende el {THING:StructureArcFurnace}.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownTask1</Key>
+      <Value>Saca {THING:ItemIronOre} del {THING:ItemMiningBelt}.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownTask2</Key>
+      <Value>Fundir {THING:ItemIronOre} introduciéndolo en el horno de arco y activar el mismo.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownTask3</Key>
+      <Value>Recoja el {THING:ItemIronIngot} recién fundido.</Value>
+    </Record>
+  </Interface>
+</Language>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>RU</Code>
+  <Interface>
+    <Record>
+      <Key>02BasicStructureBuilding</Key>
+      <Value>#2 Основы Строительства</Value>
+    </Record>
+    <Record>
+      <Key>BasicStructureBuildingDescription</Key>
+      <Value>На этом уроке мы научим вас, как создать базовую платформу, которую будем использовать в качестве нашей первой базы. Материалы, используемые в этом уроке, будут найдены при входе в новый мир.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialThetoolbelt</Key>
+      <Value>Все инструменты</Value>
+    </Record>
+    <Record>
+      <Key>TutorialThetoolbeltDescription</Key>
+      <Value>{SLOT:Belt} является одним из ваших самых важных элементов хранения. Он содержит все инструменты, необходимые для постройки и разборки.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialThetoolbeltTask1</Key>
+      <Value>Давайте откроем его. Нажмите и удерживайте клавишу {KEY:MouseControl} и нажмите на {SLOT:Belt} или нажмите клавишу {KEY:ToolBeltSlot}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialThetoolbeltTask2</Key>
+      <Value>Теперь переместите газовую горелку в руку. Удерживая клавишу {KEY:MouseControl} перетащив газовую горелку из {SLOT:Belt} в правую руку.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWhatAreFrames</Key>
+      <Value>Что за каркасы?</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWhatAreFramesDescription</Key>
+      <Value>Хорошая работа, Кадет. Давайте начнем строить базу.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWhatAreFramesTask1</Key>
+      <Value>Нажмите клавишу {KEY:SwapHands}, чтобы поменять активную руку, затем подойдите к находящемуся рядом ящику. Возьмите {THING:ItemIronFrames} из ящика левой рукой.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWhatAreFramesTask2</Key>
+      <Value>Теперь, когда у вас есть общее представление о том, как использовать интерфейс, давайте попробуем построить что-то простое. Подойдите к выделенной области с каркасоми в активной руке. Нажмите {KEY:SecondaryAction} чтобы разблокировать курсор и зажмите кнопку {KEY:PrimaryAction} пока постройка не завершится.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompletingFrames</Key>
+      <Value>Завершение каркаса</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompletingFramesDescription</Key>
+      <Value>В данный момент наши {THING:ItemIronFrames} не герметичны. Для завершения {THING:ItemIronFrames} мы должны приварить железные листы. Если вы этого еще не сделали, нажмите кнопку {KEY:SecondaryAction} чтобы убрать объект курсора с экрана.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompletingFramesTask1</Key>
+      <Value>Вернитесь к ящику и замените каркас на {THING:ItemIronSheets} нажатием кнопки {KEY:PrimaryAction} пока держите {THING:ItemIronFrames}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompletingFramesTask2</Key>
+      <Value>Вернитесь к установленным вами каркасам и возьмите в руки {THING:ItemWeldingTorch} из вашего пояса инструментов. Включите его с помощью кнопки {KEY:ToggleHandPower}, затем для постройки держите кнопку {KEY:PrimaryAction} до завершения сварки. Вы должны держать {THING:ItemIronSheets} в другой руке чтобы все получилось. Замечание: Не забудьте выключить {THING:ItemWeldingTorch} нажатием кнопки {KEY:ToggleHandPower} когда закончите.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompletingFramesTask3</Key>
+      <Value>Завершите {THING:ItemIronFrames} продолжив сварку.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDoingitOnYourOwn</Key>
+      <Value>Сделай это сам</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDoingitOnYourOwnDescription</Key>
+      <Value>Отличная работа, Кадет! Теперь, вы построили свой первый каркас, используйте полученные знания для постройки {THING:ItemIronFrames} в выделенных местах.
+
+Подсказка: Если вы провалитесь в каркас и застрянете, активируйте реактивный ранец кнопкой {KEY:Jetpack} и выберитесь. Отключите реактивный ранец той же кнопкой.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDoingitOnYourOwnTask1</Key>
+      <Value>Разместите каркас 1.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDoingitOnYourOwnTask2</Key>
+      <Value>Разместите каркас 2.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDoingitOnYourOwnTask3</Key>
+      <Value>Разместите каркас 3.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDoingitOnYourOwnTask4</Key>
+      <Value>Разместите каркас 4.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDoingitOnYourOwnTask5</Key>
+      <Value>Разместите каркас 5.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDoingitOnYourOwnTask6</Key>
+      <Value>Разместите каркас 6.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDoingitOnYourOwnTask7</Key>
+      <Value>Разместите каркас 7.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDoingitOnYourOwnpt2</Key>
+      <Value>Сделай это сам, часть 2.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDoingitOnYourOwnpt2Description</Key>
+      <Value>Отличная работа! Теперь завершите их с помощью {THING:ItemWeldingTorch} и {THING:ItemIronSheets}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDoingitOnYourOwnpt2Task1</Key>
+      <Value>Завершите строительство каркаса 1.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDoingitOnYourOwnpt2Task2</Key>
+      <Value>Завершите строительство каркаса 2.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDoingitOnYourOwnpt2Task3</Key>
+      <Value>Завершите строительство каркаса 3.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDoingitOnYourOwnpt2Task4</Key>
+      <Value>Завершите строительство каркаса 4.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDoingitOnYourOwnpt2Task5</Key>
+      <Value>Завершите строительство каркаса 5.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDoingitOnYourOwnpt2Task6</Key>
+      <Value>Завершите строительство каркаса 6.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDoingitOnYourOwnpt2Task7</Key>
+      <Value>Завершите строительство каркаса 7.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDeconstructingAnArcFurnace</Key>
+      <Value>Разберите {THING:StructureArcFurnace}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDeconstructingAnArcFurnaceDescription</Key>
+      <Value>Кадет, похоже что дуговую печь засыпало песком. Нам нужно будет разобрать её и переставить на новую платформу. 
+Разбирать предметы так же просто как собирать их. </Value>
+    </Record>
+    <Record>
+      <Key>BuildingDeconstructingAnFurnaceTask1</Key>
+      <Value>Используйте {THING:ItemDrill} из вашего {SLOT:Belt}.</Value>
+    </Record>
+    <Record>
+      <Key>BuildingDeconstructingAnFurnaceTask2</Key>
+      <Value>Поднимите {THING:ItemKitArcFurnace}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnArcFurnace</Key>
+      <Value>Дуговая Печь</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnArcFurnaceDescription</Key>
+      <Value>Отличная работа, Кадет. Теперь нам нужно установить {THING:ItemKitArcFurnace}. Печь необходима для плавки руды в пригодные для использования слитки.</Value>
+    </Record>
+    <Record>
+      <Key>BuildingAnArcFurnaceTask1</Key>
+      <Value>Расположите {THING:StructureArcFurnace} в выделенном месте. Используйте {KEY:QuantityModifier} чтобы повернуть объект.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDeconstructingAnAutolathe</Key>
+      <Value>Разберите Автолат</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDeconstructingAnAutolatheDescription</Key>
+      <Value>Кадет, {THING:StructureAutolathe} находится в неправильном положении. Что передвинуть, вам потребуется разобрать его.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDeconstructingAnAutolatheTask1</Key>
+      <Value>Используйте {THING:ItemAngleGrinder} из вашего пояса инструментов, чтобы убрать листы пластика с {THING:StructureAutolathe}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDeconstructingAnAutolatheTask2</Key>
+      <Value>Используйте ваши {THING:ItemWireCutters} чтобы убрать провода из {THING:StructureAutolathe}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDeconstructingAnAutolatheTask3</Key>
+      <Value>Используйте {THING:ItemAngleGrinder}, чтобы извлечь железные листы из {THING:StructureAutolathe}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDeconstructingAnAutolatheTask4</Key>
+      <Value>И наконец используйте {THING:ItemWrench}, чтобы запаковать {THING:StructureAutolathe}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolathe</Key>
+      <Value>Автолатничаем - Часть I</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolatheDescription</Key>
+      <Value>Мы почти закончили. Последний шаг это построить {THING:StructureAutolathe}. {THING:ItemKitAutolathe} может изготавливать широкий спектр материалов и устройств используя слитки и питание в качестве исходных ресурсов.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolatheTask1</Key>
+      <Value>Поднимите {THING:ItemKitAutolathe}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolatheTask2</Key>
+      <Value>Соберите {THING:ItemKitAutolathe} в выделенной зоне. Помните, вы можете использовать кнопку {KEY:QuantityModifier} для вращения устройства.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolathePart2</Key>
+      <Value>Автолатничаем - Часть II</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolathePart2Description</Key>
+      <Value>Некоторые вещи, такие как {THING:ItemKitAutolathe}, сложнее в сборке, с большим количеством этапов в процессе установки.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolatheTask0.5</Key>
+      <Value>Возьмите {THING:ItemIronSheets} оставшуюся от предыдущего {THING:StructureAutolathe}. </Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolathePart2Task1</Key>
+      <Value>Приварите {THING:ItemIronSheets} к {THING:StructureAutolathe}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolatheTask1.5</Key>
+      <Value>Возьмите {THING:ItemCableCoil} из {SLOT:Belt}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolathePart2Task2</Key>
+      <Value>Используйте {THING:ItemCableCoil} чтобы подключить внутренние системы Автолата.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolatheTask2.5</Key>
+      <Value>Возьмите {THING:ItemPlasticSheets} от предыдущего {THING:StructureAutolathe}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolathePart2Task3</Key>
+      <Value>Приварите {THING:ItemPlasticSheets} к {THING:StructureAutolathe}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolatheTask3.5</Key>
+      <Value>Возьмите {THING:ItemScrewdriver} в {SLOT:Belt}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolathePart2Task4</Key>
+      <Value>Наконец, прикрутите переднюю панель с помощью {THING:ItemScrewdriver}.</Value>
+    </Record>
+  </Interface>
+</Language>

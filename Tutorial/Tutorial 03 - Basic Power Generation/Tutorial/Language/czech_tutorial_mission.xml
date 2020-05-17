@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>CS</Code>
+  <Interface>
+    <Record>
+      <Key>03BasicPowerGeneration</Key>
+      <Value>#3 Základní výroba energie</Value>
+    </Record>
+    <Record>
+      <Key>BasicPowerGenerationDescription</Key>
+      <Value>V této lekci přineseme světu světlo ve formě elektřiny.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWireCutting</Key>
+      <Value>Řezání kabelů</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWireCuttingDescription</Key>
+      <Value>Vítejte zpět, kadete. Vaším prvním úkolem bude vyčistit staré vypálené kabely. K jejich odstranění použijte {THING:ItemWireCutters} z vašeho opasku na nářadí.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWireCuttingTask1</Key>
+      <Value>Odstraňte spálený kabel</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSolidFuelEnergy</Key>
+      <Value>Energie na tuhá paliva</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSolidFuelEnergyDescription</Key>
+      <Value>Nyní, když máte základní platformu a několik strojů na svém místě, musíte jim poskytnout energii. Začněme s {THING:StructureSolidFuelGenerator}. Generátor na tuhá paliva poskytuje energii v nouzových případech nebo malým základnám, které během noci nemají mnoho energie. Jeho nevýhodou je, že k práci vyžaduje tuhé palivo.</Value>
+    </Record>
+    <Record>
+      <Key>SolidFuelEnergyTask1</Key>
+      <Value>Vezměte {THING:ItemKitSolidGenerator} z Konstrukční bedny #1.</Value>
+    </Record>
+    <Record>
+      <Key>SolidFuelEnergyTask2</Key>
+      <Value>Umístěte {THING:StructureSolidFuelGenerator}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialGoingSolar</Key>
+      <Value>Jde o solární energii - Část 1</Value>
+    </Record>
+    <Record>
+      <Key>TutorialGoingSolarDescription</Key>
+      <Value>Skvělá práce, kadete! Naším dalším úkolem je postavit {THING:StructureSolarPanel}. Ten poskytne základně obnovitelnou energii bez potřeby paliva. Bude však fungovat pouze během dne. </Value>
+    </Record>
+    <Record>
+      <Key>GoingSolarTask1</Key>
+      <Value>Vezměte {THING:ItemKitSolarPanel} z Konstrukční bedny #1.</Value>
+    </Record>
+    <Record>
+      <Key>GoingSolarTask2</Key>
+      <Value>Soupravy mohou stavět různé struktury a varianty. Chcete-li vytvořit tento druh solárního panelu, použijte posuvné kolečko k přepnutí na správnou variantu a pak tvar kurzoru přiřaďte zvýrazněnému bodu. Nezapomeňte použít {KEY:QuantityModifier} k otočení objektu do správné polohy.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialGoingSolarpart2</Key>
+      <Value>Jde o solární energii - Část 2.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialGoingSolarDescriptionpart2</Key>
+      <Value>Stejně jako {THING:StructureAutolathe} vyžaduje i solární panel další krok ke konstrukci. </Value>
+    </Record>
+    <Record>
+      <Key>GoingSolarPart2Task1</Key>
+      <Value>Vezměte {THING:ItemGlassSheets} z Konstrukční bedny #1.</Value>
+    </Record>
+    <Record>
+      <Key>GoingSolarPart2Task2</Key>
+      <Value>Umístěte {THING:ItemGlassSheets} na solární panel.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialLearningToWire</Key>
+      <Value>Naučit se kabel</Value>
+    </Record>
+    <Record>
+      <Key>TutorialLearningToWireDescription</Key>
+      <Value>Nyní musíme naše zařízení připojit pomocí kabelů. Na Zemi budou fungovat normální kabely, ale atomový kyslík a sluneční záření degradují látky vystavené vesmíru. Vyvinuli jsme tedy speciální kabely, které dokážou odolat kosmickým prostředím. Přenášejí data i energii, což vám umožňuje ovládat stroje z ovládacího panelu. Tím se budete zabývat později.
+
+
+Ve vašem {SLOT:Belt} najděte {THING:ItemCableCoil}. Umístěte kabely do zvýrazněné oblasti, pomocí rolovacího kolečka vyberte správný kabel a pomocí klávesy {KEY:QuantityModifier} otočte podle umístění. </Value>
+    </Record>
+    <Record>
+      <Key>LearningToWireTask0.5</Key>
+      <Value>Vezměte {THING:ItemCableCoil} z {SLOT:Belt}.</Value>
+    </Record>
+    <Record>
+      <Key>CableCorner</Key>
+      <Value>Umístěte {THING:StructureCableCorner}.</Value>
+    </Record>
+    <Record>
+      <Key>CableStraight</Key>
+      <Value>Umístěte {THING:StructureCableStraight}.</Value>
+    </Record>
+    <Record>
+      <Key>LearningToWireTask4</Key>
+      <Value>Umístěte {THING:StructureCableJunction}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWiringWires</Key>
+      <Value>Zapojení kabelů</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWiringWiresDescription</Key>
+      <Value>Prodlužte kabely na hlavní platformu.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialPowerControlersAndbatteryCharges</Key>
+      <Value>Nabíjení baterie a ovladače elektřiny</Value>
+    </Record>
+    <Record>
+      <Key>TutorialPowerControlersAndbatteryChargesDescription</Key>
+      <Value>V našem dalším kroku musíme umístit {THING:ItemAreaPowerControl}, aby bylo možné řídit tok energie a zabránit vyhoření kabelů. Poskytují také malý přechodný zdroj napájení, pokud jsou generátory offline.
+
+Za druhé, musíme přidat {THING:ItemBatteryCharger} pro naše vybité baterie. Chceme ho dát do obvodu před {THING:ItemAreaPowerControl}, takže nevyčerpá baterii {THING:ItemAreaPowerControl}.</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlersAndbatteryChargesTask1</Key>
+      <Value>Vezměte {THING:ItemAreaPowerControl} z Konstrukční bedny #1.</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlersAndbatteryChargesTask2</Key>
+      <Value>Umístěte {THING:ItemAreaPowerControl} do zvýrazněné oblasti.</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlersAndbatteryChargesTask3</Key>
+      <Value>Vezměte {THING:ItemBatteryCharger} z Konstrukční bedny #2.</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlersAndbatteryChargesTask4</Key>
+      <Value>Umístěte {THING:ItemBatteryCharger} do zvýrazněné oblasti.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialFinishingTheCircuit</Key>
+      <Value>Dokončení okruhu</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTutorialFinishingTheCircuitDescription</Key>
+      <Value>Připojte zbytek součástek ke stroji.</Value>
+    </Record>
+    <Record>
+      <Key>FinishingTheCircuitTask2</Key>
+      <Value>Umístěte {THING:StructureCableCorner3}.</Value>
+    </Record>
+    <Record>
+      <Key>FinishingTheCircuitTask4</Key>
+      <Value>Umístěte {THING:StructureCableJunction}.</Value>
+    </Record>
+    <Record>
+      <Key>FinishingTheCircuitTask6</Key>
+      <Value>Umístěte {THING:StructureCableJunction}.</Value>
+    </Record>
+    <Record>
+      <Key>FinishingTheCircuitTask8</Key>
+      <Value>Umístěte {THING:StructureCableJunction}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSettingUpThePowerController</Key>
+      <Value>Nastavení ovladače napájení</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSettingUpThePowerControllerDescription</Key>
+      <Value>Chcete-li aby {THING:StructureAreaPowerControl} fungoval, musíme otevřít kryt a vložit baterii a pak otočit vypínačem, aby elektřina a data prošly. Doporučuje se použít velkou baterii pro dlouhotrvající napájení v případě výpadku ale lze použít i malou baterii.</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask1</Key>
+      <Value>Vezměte {THING: ItemCrowbar} z vašeho {SLOT:Belt}.</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask2</Key>
+      <Value>Otevřete {THING:StructureAreaPowerControl} s {THING:ItemCrowbar}.</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask3</Key>
+      <Value>Vezměte {THING:ItemBatteryCellLarge} z Konstrukční bedny #2.</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask4</Key>
+      <Value>Umístěte {THING:ItemBatteryCellLarge} do {THING:StructureAreaPowerControl}.</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask5</Key>
+      <Value>Přepněte jistič do polohy &quot;Zapnuto&quot; na {THING:StructureAreaPowerControl}.</Value>
+    </Record>
+  </Interface>
+</Language>
