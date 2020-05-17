@@ -91,6 +91,26 @@
       <Value>Ajustar la memoria</Value>
     </Record>
     <Record>
+      <Key>SetMemory0</Key>
+      <Value>Poner la memoria del modo horizontal a un valor de 1</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory1</Key>
+      <Value>Poner la memoria OffSet a un valor de -90</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory2</Key>
+      <Value>Poner la memoria de inversión a un valor de -1</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory3</Key>
+      <Value>Poner la memoria de inclinación a un valor de 1.5</Value>
+    </Record>
+    <Record>
+      <Key>SetupHorizontalSensor</Key>
+      <Value>Configuración del sensor horizontal</Value>
+    </Record>
+    <Record>
       <Key>SetupLogicWritter1</Key>
       <Value>Enciende la {THING:StructureLogicWriter}.</Value>
     </Record>
@@ -157,6 +177,26 @@
     <Record>
       <Key>LogicSelect2</Key>
       <Value>Coloca la Siguiente {THING:StructureLogicSelect} en la posición resaltada.</Value>
+    </Record>
+    <Record>
+      <Key>FinalStage</Key>
+      <Value>La fase final</Value>
+    </Record>
+    <Record>
+      <Key>FinalStageDescription</Key>
+      <Value>Para que el modo de suspensión funcione, reasigne la entrada del Escritor de Lotes para usar las unidades de selección de lógica. Hágalo de la misma manera que cambiaría cualquier otra entrada: cambie cada dispositivo de entrada del Escritor de lotes a su correspondiente unidad de selección lógica.</Value>
+    </Record>
+    <Record>
+      <Key>FinalStage1</Key>
+      <Value>Ponga el dispositivo de entrada del grabador de lotes horizontales en el selector de lógica horizontal.</Value>
+    </Record>
+    <Record>
+      <Key>FinalStage2</Key>
+      <Value>Ponga el dispositivo de entrada del grabador de lote vertical en el selector de lógica vertical.</Value>
+    </Record>
+    <Record>
+      <Key>TurnOnReader</Key>
+      <Value>Enciende el lector lógico.</Value>
     </Record>
   </Interface>
 </Language>
