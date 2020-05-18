@@ -7,12 +7,44 @@
       <Value>#10 ADV logika obvodu - Sluneční sledování</Value>
     </Record>
     <Record>
+      <Key>CircuitLogicSolarTrackingDescription</Key>
+      <Value>Automatizujte solární panely pomocí logiky obvodu.</Value>
+    </Record>
+    <Record>
+      <Key>MoveToArea</Key>
+      <Value>Přesuňte se do oblasti</Value>
+    </Record>
+    <Record>
+      <Key>MoveToAreaDescription</Key>
+      <Value>Sjeďte výtahem dolů k hlavnímu centru a sledujte osvětlenou chodbu do výukové oblasti.</Value>
+    </Record>
+    <Record>
+      <Key>MoveToAreaTask1</Key>
+      <Value>Synchronizujte přechodovou komoru do výukové oblasti.</Value>
+    </Record>
+    <Record>
+      <Key>ConsoleManuallControl</Key>
+      <Value>Ovládání solární konzole</Value>
+    </Record>
+    <Record>
+      <Key>ConsoleManuallControlDescription</Key>
+      <Value>Vyrovnání solárních panelů může být časově náročný úkol. Chcete-li úlohu urychlit, propojte solární panely dohromady a připojte je k ovládací konzoli, abyste mohli ručně upravit jejich polohu najednou. Vše, co potřebujete, je v bedně.</Value>
+    </Record>
+    <Record>
       <Key>ConsoleManuallControl1</Key>
       <Value>Dokončete síť umístěním {THING:StructureCableStraight} na zvýrazněné místo.</Value>
     </Record>
     <Record>
       <Key>ConsoleManuallControl2</Key>
       <Value>Umístěte {THING:StructureConsole} na zvýrazněné místo.</Value>
+    </Record>
+    <Record>
+      <Key>ConsoleManualControlSetup</Key>
+      <Value>Ruční nastavení ovládání konzole</Value>
+    </Record>
+    <Record>
+      <Key>ConsoleManualControlSetUpDescription</Key>
+      <Value>Stejně jako při nastavování přechodové komory musíte naprogramovat řídicí obvod solárního panelu pomocí {THING:CircuitboardSolarControl}.</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask1</Key>
