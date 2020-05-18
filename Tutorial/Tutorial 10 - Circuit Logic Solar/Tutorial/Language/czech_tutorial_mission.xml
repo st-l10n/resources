@@ -303,6 +303,30 @@ Další {THING:StructureLogicMath} přečte vstup našeho prvního {THING:Struct
       <Value>Vertikální dávkový zapisovač</Value>
     </Record>
     <Record>
+      <Key>VerticalBatchWriterDescription</Key>
+      <Value>Dávkový zapisovač zapisuje na všechna připojená zařízení daného typu. Tímto způsobem zapište nově vypočítanou vertikální hodnotu na solární panely.</Value>
+    </Record>
+    <Record>
+      <Key>VerticalBatchWritterSetup</Key>
+      <Value>Nastavení vertikálního dávkového zapisovače</Value>
+    </Record>
+    <Record>
+      <Key>VerticalBatchWritterSetupDescription</Key>
+      <Value>Stejně jako ostatní obvody je třeba nastavit {THING:StructureLogicBatchWriter}, aby se hodnoty odesílaly na solární panely.</Value>
+    </Record>
+    <Record>
+      <Key>VerticalBatchWritterSetup1</Key>
+      <Value>Nastavte vstup {THING:StructureLogicBatchWriter} tak, aby se četla hodnota vertikální matematické jednotky 2.</Value>
+    </Record>
+    <Record>
+      <Key>VerticalBatchWritterSetup2</Key>
+      <Value>Nastavte výstupní data tak, aby se zapisovala do {THING:StructureSolarPanelDual}.</Value>
+    </Record>
+    <Record>
+      <Key>VerticalBatchWritterSetup3</Key>
+      <Value>Nastavte typ logiky na {THING:StructureLogicBatchWriter} na vertikální.</Value>
+    </Record>
+    <Record>
       <Key>VerticalBatchWritterSetup4</Key>
       <Value>Zapněte {THING:StructureLogicBatchWriter}.</Value>
     </Record>
@@ -313,6 +337,10 @@ Další {THING:StructureLogicMath} přečte vstup našeho prvního {THING:Struct
     <Record>
       <Key>BatchWriter1</Key>
       <Value>Umístěte {THING:StructureLogicBatchWriter} na zvýrazněné místo.</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalLogicProcessorSetUp</Key>
+      <Value>Horizontální logické procesory</Value>
     </Record>
     <Record>
       <Key>PlaceLogicMath2</Key>
