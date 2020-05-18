@@ -133,6 +133,36 @@ Tuto hodnotu použijeme na horizontální matematickou jednotku 2, když ji při
 Aby byly solární panely kompatibilní se senzory, používáme vertikální logiku matematiky 1 k rozdělení dat senzoru o 1.5, čímž převedeme stupeň na procenta.</Value>
     </Record>
     <Record>
+      <Key>SetMemoryDescription4</Key>
+      <Value>Nakonec zkalibrujte vertikální polohu solárního panelu. 
+\t\t\t
+Chcete-li to provést, vezměte vertikální procento slunečního úhlu z vertikální matematiky 1 a přidejte 50% pomocí funkce přidat paměť ve vertikální matematice 2. Tím se vytvoří 50% horizontální nulový bod solárního panelu (plochý, obrácený směrem nahoru).</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory0</Key>
+      <Value>Nastavte paměť horizontálního režimu na hodnotu 1</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory1</Key>
+      <Value>Nastavte paměť posunu na hodnotu -90</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory2</Key>
+      <Value>Nastavte invertní paměť na hodnotu -1</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory4</Key>
+      <Value>Nastavte přidat paměť na hodnotu 50</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory3</Key>
+      <Value>Nastavte paměť náklonu na hodnotu 1.5</Value>
+    </Record>
+    <Record>
+      <Key>SetupHorizontalSensor</Key>
+      <Value>Nastavení horizontálního senzoru</Value>
+    </Record>
+    <Record>
       <Key>SetupLogicWritter1</Key>
       <Value>Zapněte {THING:StructureLogicWriter}.</Value>
     </Record>
