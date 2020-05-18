@@ -239,12 +239,32 @@ Poznámka: Zapisovač logiky musíte umístit tak, aby se výstupní datová zá
       <Value>Nastavte logickou hodnotu na sluneční úhel.</Value>
     </Record>
     <Record>
+      <Key>VerticalLogicProcessors</Key>
+      <Value>Logické procesory.</Value>
+    </Record>
+    <Record>
+      <Key>VerticalLogicProcessorsDescription</Key>
+      <Value>Nyní musíme provést některé matematické hodnoty přečtené v {THING:StructureLogicReader} a {THING:StructureLogicMemory}. Začněte s vertikálním datovým modulem obvodu.
+            
+První {THING:StructureLogicMath} rozdělí data {THING:StructureLogicReader} o 1.5 pomocí {THING:StructureLogicMemory}.
+  
+Další {THING:StructureLogicMath} přečte vstup našeho prvního {THING:StructureLogicMath} a přidá 50 pomocí {THING:StructureLogicMemory} pojmenovaného posun.</Value>
+    </Record>
+    <Record>
       <Key>PlaceLogicMath</Key>
       <Value>Umístěte první {THING:StructureLogicMath} na zvýrazněné místo.</Value>
     </Record>
     <Record>
       <Key>PlaceLogicMath1</Key>
       <Value>Umístěte další {THING:StructureLogicMath} na zvýrazněné místo.</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVertical</Key>
+      <Value>Vertikální nastavení matematické logiky.</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVerticalDescription</Key>
+      <Value>Nastavení matematických procesorů je jedním z nejdůležitějších kroků při vytváření logického obvodu, protože zpracovává všechny výpočty potřebné pro většinu úkolů.</Value>
     </Record>
     <Record>
       <Key>VerticalBatchWritterSetup4</Key>
