@@ -191,6 +191,10 @@ Poznámka: Zapisovač logiky musíte umístit tak, aby se výstupní datová zá
       <Value>Nastavte výstup {THING:StructureLogicWriter} na horizontální senzor denního světla.</Value>
     </Record>
     <Record>
+      <Key>SetupLogicWritter4</Key>
+      <Value>Nastavte {THING:StructureLogicWriter} pro zápis do logické hodnoty senzoru nazvané Režim.</Value>
+    </Record>
+    <Record>
       <Key>PickUpLogicProcessor</Key>
       <Value>Vezměte některé jednotky {THING:ItemKitLogicProcessor} z nedaleké bedny.</Value>
     </Record>
@@ -199,8 +203,20 @@ Poznámka: Zapisovač logiky musíte umístit tak, aby se výstupní datová zá
       <Value>Umístěte {THING:StructureLogicWriter} na zvýrazněné místo.</Value>
     </Record>
     <Record>
+      <Key>LogicReadersSetup</Key>
+      <Value>Nastavení čteček logiky</Value>
+    </Record>
+    <Record>
+      <Key>LogicReaderSetupDescription</Key>
+      <Value>Čtečka logiky dělá to, co zní: čte logiku. Použijeme je ke čtení slunečního úhlu z každého senzoru.</Value>
+    </Record>
+    <Record>
       <Key>LogicReader1</Key>
       <Value>Umístěte {THING:StructureLogicReader} na zvýrazněné místo.</Value>
+    </Record>
+    <Record>
+      <Key>LogicReaderLogicSetup</Key>
+      <Value>Nastavení čtečky logiky</Value>
     </Record>
     <Record>
       <Key>PlaceLogicMath</Key>
