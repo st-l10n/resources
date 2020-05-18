@@ -163,12 +163,32 @@ Chcete-li to provést, vezměte vertikální procento slunečního úhlu z verti
       <Value>Nastavení horizontálního senzoru</Value>
     </Record>
     <Record>
+      <Key>SetupHorizontalSensorDescription</Key>
+      <Value>Zapisovač logiky nám umožňuje zapsat danou hodnotu do určitých typů logiky na zařízení. 
+\t\t\t
+Poznámka: Zapisovač logiky musíte umístit tak, aby se výstupní datová zásuvka připojovala k zařízení, do kterého zapisujete, protože některá data logických obvodů proudí specifickým směrem. Navrhněte obvody odpovídajícím způsobem.
+
+    </Value>
+    </Record>
+    <Record>
+      <Key>SetupLogicWritter</Key>
+      <Value>Nastavení zapisovače logiky</Value>
+    </Record>
+    <Record>
+      <Key>SetupLogicWritterDescription</Key>
+      <Value>Musíme nastavit horizontální senzor do horizontálního režimu. K tomu použijeme {THING:StructureLogicWriter} k nastavení režimu na senzoru čtením hodnoty z {THING:StructureLogicMemory}</Value>
+    </Record>
+    <Record>
       <Key>SetupLogicWritter1</Key>
       <Value>Zapněte {THING:StructureLogicWriter}.</Value>
     </Record>
     <Record>
       <Key>SetupLogicWritter2</Key>
       <Value>Pomocí {THING:ItemScrewdriver} nastavte vstup {THING:StructureLogicWriter} do paměti horizontálního režimu.</Value>
+    </Record>
+    <Record>
+      <Key>SetupLogicWritter3</Key>
+      <Value>Nastavte výstup {THING:StructureLogicWriter} na horizontální senzor denního světla.</Value>
     </Record>
     <Record>
       <Key>PickUpLogicProcessor</Key>
