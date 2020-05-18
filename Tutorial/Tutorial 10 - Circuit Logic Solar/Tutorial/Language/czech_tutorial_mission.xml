@@ -59,12 +59,28 @@
       <Value>Vložte {THING:ItemDataDisk} do {THING:StructureConsole}.</Value>
     </Record>
     <Record>
+      <Key>ConsoleManualControlSetUpDescription2</Key>
+      <Value>Zapněte konzoli a vyberte čtyři zobrazené solární panely.
+            
+Po dokončení vyjměte datový disk, nyní můžete upravit horizontální a vertikální úhel všech připojených solárních panelů a monitorovat výstupní výkon</Value>
+    </Record>
+    <Record>
       <Key>ConsoleManualControlSetupTask4</Key>
       <Value>Zapněte {THING:StructureConsole} a vyberte zobrazené solární panely.</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask5</Key>
       <Value>Odeberte {THING:ItemDataDisk} z {THING:StructureConsole}.</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensors</Key>
+      <Value>Nastavení senzorů</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorsDescription</Key>
+      <Value>Automatizace slunečního sledování maximalizuje energii produkovanou solárními panely a znamená, že je nemusíte ručně upravovat tak, aby směřovaly ke slunci.
+            
+Prvním krokem je umístění senzorů denního světla. Jeden změří horizontální úhel slunce, zatímco druhý změří vertikální úhel. To zajistí úplné denní sledování na jakékoli planetě.</Value>
     </Record>
     <Record>
       <Key>PickUpDaylightSensor</Key>
@@ -75,12 +91,24 @@
       <Value>Umístěte {THING:StructureDaylightSensor} na zvýrazněné místo.</Value>
     </Record>
     <Record>
+      <Key>SolarMemory</Key>
+      <Value>Paměťový modul</Value>
+    </Record>
+    <Record>
+      <Key>SolarMemoryDescription</Key>
+      <Value>Paměť se používá k ukládání dat s hodnotami nastavenými ručně pomocí šroubováku. Budeme potřebovat pět paměťových modulů pro uložení dat potřebných pro obvod.</Value>
+    </Record>
+    <Record>
       <Key>PickUpMemory</Key>
       <Value>Vezměte {THING:ItemKitLogicMemory} jednotky z nedaleké bedny.</Value>
     </Record>
     <Record>
       <Key>StructureLogicMemory</Key>
       <Value>Umístěte jednotky {THING:StructureLogicMemory} na jejich zvýrazněné pozice.</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory</Key>
+      <Value>Nastavení paměti</Value>
     </Record>
     <Record>
       <Key>SetupLogicWritter1</Key>
