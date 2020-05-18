@@ -342,6 +342,14 @@ La próxima {THING:StructureLogicMath} leerá la entrada de nuestra primera {THI
       <Value>Procesadores lógicos horizontales</Value>
     </Record>
     <Record>
+      <Key>HorizontalLogicProcessorSetUpDescription</Key>
+      <Value>Al igual que el módulo vertical del circuito, necesitamos realizar cálculos en los datos de entrada horizontales.
+\t\t\t
+Primero, invierta el valor negativo de los datos del ángulo solar horizontal multiplicándolo por -1. Para hacer esto, lea los datos del lector lógico con un {THING:StructureLogicMath} y multiplíquese con el {THING:StructureLogicMemory} etiquetado como Invertir.
+            
+El siguiente paso es compensar los datos entregados por {THING:StructureDaylightSensor}. En este caso, necesitamos ajustar los datos en -90. Haga esto leyendo el valor de salida de {THING:StructureLogicMath} y agregándolo al {THING:StructureLogicMemory} etiquetado Offset.</Value>
+    </Record>
+    <Record>
       <Key>PlaceLogicMath2</Key>
       <Value>Coloca la primera {THING:StructureLogicMath} en la posición resaltada.</Value>
     </Record>
