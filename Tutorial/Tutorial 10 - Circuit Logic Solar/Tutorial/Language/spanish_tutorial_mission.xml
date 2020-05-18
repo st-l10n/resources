@@ -398,12 +398,26 @@ La próxima {THING:StructureLogicMath} leerá la entrada de nuestra primera {THI
       <Value>Establezca la entrada del Escritor de lotes horizontales en Horizontal Math Unit 2</Value>
     </Record>
     <Record>
+      <Key>HorizontalBatchWritterSetup2</Key>
+      <Value>Establezca los datos de salida para escribir en {THING:StructureSolarPanelDual}</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalBatchWritterSetup3</Key>
+      <Value>Establezca el tipo de lógica en {THING:StructureLogicBatchWriter} en Horizontal.</Value>
+    </Record>
+    <Record>
       <Key>HorizontalBatchWritterSetup4</Key>
       <Value>Enciende la {THING:StructureLogicBatchWriter}.</Value>
     </Record>
     <Record>
       <Key>SleepMode</Key>
       <Value>Módulo de modo de reposo</Value>
+    </Record>
+    <Record>
+      <Key>SleepModeDescription</Key>
+      <Value>Ahora tenemos un circuito de seguimiento solar que rastreará la luz solar durante todo el día.
+\t\t\t
+¿Pero qué hay de la noche? Para esto, configuraremos otro módulo que actuará como modo de suspensión. Cuando los sensores de luz diurna están inactivos o no reciben luz diurna, los paneles solares se restablecerán a su posición predeterminada. Para hacer esto, necesitamos usar las unidades {THING:StructureLogicReader} para leer el estado activo en cada {THING:StructureDaylightSensor}.</Value>
     </Record>
     <Record>
       <Key>LogicSelect1</Key>
@@ -440,6 +454,12 @@ La próxima {THING:StructureLogicMath} leerá la entrada de nuestra primera {THI
     <Record>
       <Key>SleepModePart2</Key>
       <Value>Modo de reposo parte 2</Value>
+    </Record>
+    <Record>
+      <Key>SleepModePart2Description</Key>
+      <Value>A continuación, use las unidades {THING:StructureLogicSelect} para leer la {THING:StructureLogicReader} recién colocada y elija si desea usar las salidas de {THING:StructureLogicMath} o los valores de desplazamiento de {THING:StructureLogicMemory}.
+
+Por último, cambie el valor de entrada en cada {THING:StructureLogicBatchWriter} para usar los datos de salida de cada {THING:StructureLogicSelect}.</Value>
     </Record>
     <Record>
       <Key>SleepModePart2Task1</Key>
