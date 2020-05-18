@@ -343,12 +343,32 @@ Další {THING:StructureLogicMath} přečte vstup našeho prvního {THING:Struct
       <Value>Horizontální logické procesory</Value>
     </Record>
     <Record>
+      <Key>HorizontalLogicProcessorSetUpDescription</Key>
+      <Value>Stejně jako vertikální modul obvodu musíme provést výpočty horizontálních vstupních dat. 
+\t\t\t
+Nejprve převeďte zápornou hodnotu horizontálních dat slunečního úhlu vynásobením -1. Chcete-li to provést, přečtěte si data z čtečky logiky pomocí {THING:StructureLogicMath} a vynásobte jej pomocí {THING:StructureLogicMemory} označeného Invertovat.
+            
+Dalším krokem je vyrovnání dat dodaných zařízením {THING:StructureDaylightSensor}. V tomto případě musíme data upravit o -90. To provedete načtením výstupní hodnoty {THING:StructureLogicMath} a přidáním do {THING:StructureLogicMemory} označeného Posun.</Value>
+    </Record>
+    <Record>
       <Key>PlaceLogicMath2</Key>
       <Value>Umístěte první {THING:StructureLogicMath} na zvýrazněné místo.</Value>
     </Record>
     <Record>
       <Key>PlaceLogicMath3</Key>
       <Value>Umístěte druhý {THING:StructureLogicMath} na zvýrazněné místo.</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalLogicProcessorSetUp1</Key>
+      <Value>Zapněte horizontální matematickou jednotku 1.</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalLogicProcessorSetUp2</Key>
+      <Value>Nastavte vstup 1 na horizontální matematické jednotce 1 na horizontální čtečku logiky 1.</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalLogicProcessorSetUp3</Key>
+      <Value>Nastavte vstup 2 na horizontální matematické jednotce 1 na invertovat paměť.</Value>
     </Record>
     <Record>
       <Key>BatchWriter2</Key>
@@ -365,6 +385,10 @@ Další {THING:StructureLogicMath} přečte vstup našeho prvního {THING:Struct
     <Record>
       <Key>LogicSelect2</Key>
       <Value>Umístěte další {THING:StructureLogicSelect} na zvýrazněné místo.</Value>
+    </Record>
+    <Record>
+      <Key>FinalStage</Key>
+      <Value>Závěrečná fáze</Value>
     </Record>
   </Interface>
 </Language>
