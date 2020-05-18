@@ -403,8 +403,24 @@ Dalším krokem je vyrovnání dat dodaných zařízením {THING:StructureDaylig
       <Value>Umístěte {THING:StructureLogicBatchWriter} na zvýrazněné místo.</Value>
     </Record>
     <Record>
+      <Key>HorizontalBatchWritterSetup1</Key>
+      <Value>Nastavte vstup horizontálního dávkového zapisovače na horizontální matematickou jednotku 2</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalBatchWritterSetup2</Key>
+      <Value>Nastavte výstupní data pro zápis na {THING:StructureSolarPanelDual}</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalBatchWritterSetup3</Key>
+      <Value>Nastavte typ logiky na {THING:StructureLogicBatchWriter} na Horizontální.</Value>
+    </Record>
+    <Record>
       <Key>HorizontalBatchWritterSetup4</Key>
       <Value>Zapněte {THING:StructureLogicBatchWriter}.</Value>
+    </Record>
+    <Record>
+      <Key>SleepMode</Key>
+      <Value>Modul režimu spánku</Value>
     </Record>
     <Record>
       <Key>LogicSelect1</Key>
@@ -415,8 +431,32 @@ Dalším krokem je vyrovnání dat dodaných zařízením {THING:StructureDaylig
       <Value>Umístěte další {THING:StructureLogicSelect} na zvýrazněné místo.</Value>
     </Record>
     <Record>
+      <Key>SleepModeSetup</Key>
+      <Value>Nastavení režimu spánku</Value>
+    </Record>
+    <Record>
+      <Key>SleepModeSetupTask2</Key>
+      <Value>Nastavte typ logiky na Aktivovat.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModeSetupTask3</Key>
+      <Value>Nastavení vstupního zařízení v horizontální logické čtečce 2 na horizontální denní světelný senzor</Value>
+    </Record>
+    <Record>
+      <Key>SleepModeSetupTask4</Key>
+      <Value>Nastavte typ logiky na Aktivovat.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModePart2Task8</Key>
+      <Value>Zapněte horizontální volič logiky.</Value>
+    </Record>
+    <Record>
       <Key>FinalStage</Key>
       <Value>Závěrečná fáze</Value>
+    </Record>
+    <Record>
+      <Key>TurnOnReader</Key>
+      <Value>Zapněte čtečku logiky.</Value>
     </Record>
   </Interface>
 </Language>
