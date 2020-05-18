@@ -350,12 +350,60 @@ La próxima {THING:StructureLogicMath} leerá la entrada de nuestra primera {THI
       <Value>Coloca la segunda {THING:StructureLogicMath} en la posición resaltada.</Value>
     </Record>
     <Record>
+      <Key>HorizontalLogicProcessorSetUp1</Key>
+      <Value>Encienda la Unidad de Matemática Horizontal 1.</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalLogicProcessorSetUp2</Key>
+      <Value>Establezca la entrada 1 en la Unidad de Matemática Horizontal 1 en Lector Lógico Horizontal 1.</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalLogicProcessorSetUp3</Key>
+      <Value>Configure la entrada 2 en la Unidad de Matemática Horizontal 1 para Invertir Memoria.</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalLogicProcessorSetUp4</Key>
+      <Value>Establezca el tipo de operación Matemáticas en la Unidad Matemática Horizontal 1 en &apos;multiplicar&apos;.</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalLogicProcessorSetUp5</Key>
+      <Value>Encienda la unidad horizontal de matemáticas 2.</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalLogicProcessorSetUp6</Key>
+      <Value>Establezca la entrada 1 en la Unidad de Matemática Horizontal 2 en la Unidad de Matemática Horizontal 1.</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalLogicProcessorSetUp7</Key>
+      <Value>Establezca la entrada 2 en la Unidad de Matemáticas Horizontal 2 en OffSet Memory.</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalLogicProcessorSetUp8</Key>
+      <Value>Establezca el tipo de operación Matemáticas en la Unidad Matemática Horizontal 2 en &apos;Agregar&apos;.</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalBatchWriter</Key>
+      <Value>Escritor de lotes horizontales</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalBatchWriterDescription</Key>
+      <Value>Batch Writer escribe en todos los dispositivos conectados de un tipo determinado. Usaremos esto para escribir el valor horizontal recién calculado en los paneles solares.</Value>
+    </Record>
+    <Record>
       <Key>BatchWriter2</Key>
       <Value>Coloca una {THING:StructureLogicBatchWriter} en la posición resaltada.</Value>
     </Record>
     <Record>
+      <Key>HorizontalBatchWritterSetup1</Key>
+      <Value>Establezca la entrada del Escritor de lotes horizontales en Horizontal Math Unit 2</Value>
+    </Record>
+    <Record>
       <Key>HorizontalBatchWritterSetup4</Key>
       <Value>Enciende la {THING:StructureLogicBatchWriter}.</Value>
+    </Record>
+    <Record>
+      <Key>SleepMode</Key>
+      <Value>Módulo de modo de reposo</Value>
     </Record>
     <Record>
       <Key>LogicSelect1</Key>
@@ -364,6 +412,62 @@ La próxima {THING:StructureLogicMath} leerá la entrada de nuestra primera {THI
     <Record>
       <Key>LogicSelect2</Key>
       <Value>Coloca la Siguiente {THING:StructureLogicSelect} en la posición resaltada.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModeSetup</Key>
+      <Value>Configuración del modo de suspensión</Value>
+    </Record>
+    <Record>
+      <Key>SleepModeSetupDescription</Key>
+      <Value>Ahora necesitamos leer el estado activo de los sensores solares. Esto nos dirá si es de día o de noche.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModeSetupTask1</Key>
+      <Value>Configure el dispositivo de entrada en el Vertical Logic Reader 2 en Sensor vertical de luz diurna</Value>
+    </Record>
+    <Record>
+      <Key>SleepModeSetupTask2</Key>
+      <Value>Establezca el Tipo de lógica en Activar.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModeSetupTask3</Key>
+      <Value>Configure el dispositivo de entrada en Horizontal Logic Reader 2 en Sensor horizontal de luz diurna</Value>
+    </Record>
+    <Record>
+      <Key>SleepModeSetupTask4</Key>
+      <Value>Establezca el Tipo de lógica en Activar.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModePart2</Key>
+      <Value>Modo de reposo parte 2</Value>
+    </Record>
+    <Record>
+      <Key>SleepModePart2Task1</Key>
+      <Value>En el Selector de lógica vertical, configure la entrada Seleccionar en Lector de lógica vertical 2.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModePart2Task2</Key>
+      <Value>En el Selector lógico vertical, configure la entrada 1 en Agregar memoria.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModePart2Task3</Key>
+      <Value>Establezca la entrada final en Vertical Math Unit 2.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModePart2Task4</Key>
+      <Value>Encienda el selector de lógica vertical.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModePart2Task5</Key>
+      <Value>En el Selector de lógica horizontal, configure la entrada Seleccionar en Lector de lógica horizontal 2.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModePart2Task6</Key>
+      <Value>En el Selector lógico horizontal, configure la entrada 1 en Memoria compensada.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModePart2Task7</Key>
+      <Value>Establezca la entrada final en Horizontal Math Unit 2.</Value>
     </Record>
     <Record>
       <Key>SleepModePart2Task8</Key>
