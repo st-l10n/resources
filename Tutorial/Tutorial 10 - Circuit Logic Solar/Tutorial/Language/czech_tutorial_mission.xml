@@ -423,6 +423,12 @@ Dalším krokem je vyrovnání dat dodaných zařízením {THING:StructureDaylig
       <Value>Modul režimu spánku</Value>
     </Record>
     <Record>
+      <Key>SleepModeDescription</Key>
+      <Value>Nyní máme sluneční sledovací obvod, který bude sledovat sluneční světlo po celý den.
+\t\t\t
+Ale co třeba noc? Za tímto účelem nastavíme další modul, který bude fungovat jako režim spánku. Pokud jsou senzory denního světla neaktivní nebo nepřijímají denní světlo, solární panely se vrátí do výchozí polohy. Abychom to mohli udělat, musíme použít jednotky {THING:StructureLogicReader} ke čtení aktivního stavu na každé {THING:StructureDaylightSensor}.</Value>
+    </Record>
+    <Record>
       <Key>LogicSelect1</Key>
       <Value>Umístěte první {THING:StructureLogicSelect} na zvýrazněné místo.</Value>
     </Record>
@@ -433,6 +439,14 @@ Dalším krokem je vyrovnání dat dodaných zařízením {THING:StructureDaylig
     <Record>
       <Key>SleepModeSetup</Key>
       <Value>Nastavení režimu spánku</Value>
+    </Record>
+    <Record>
+      <Key>SleepModeSetupDescription</Key>
+      <Value>Nyní si musíme přečíst aktivní stav solárních senzorů. To nám řekne, zda je den nebo noc.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModeSetupTask1</Key>
+      <Value>Nastavte vstupní zařízení ve vertikální čtečce logiky 2 na senzor vertikálního denního světla</Value>
     </Record>
     <Record>
       <Key>SleepModeSetupTask2</Key>
@@ -449,6 +463,12 @@ Dalším krokem je vyrovnání dat dodaných zařízením {THING:StructureDaylig
     <Record>
       <Key>SleepModePart2</Key>
       <Value>Režim spánku část 2</Value>
+    </Record>
+    <Record>
+      <Key>SleepModePart2Description</Key>
+      <Value>Dále použijte jednotky {THING:StructureLogicSelect} ke čtení nově umístěných jednotek {THING:StructureLogicReader} a zvolte, zda chcete použít výstupy z {THING:StructureLogicMath} nebo hodnoty posunu z {THING:StructureLogicMemory}.
+
+Nakonec změňte vstupní hodnotu na každé {THING:StructureLogicBatchWriter} pro použití výstupních dat z každého {THING:StructureLogicSelect}.</Value>
     </Record>
     <Record>
       <Key>SleepModePart2Task4</Key>
