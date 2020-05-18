@@ -133,6 +133,12 @@ Aplicamos este valor a la unidad matemática horizontal 2, cuando lo agregamos a
 Para hacer que los paneles solares sean compatibles con los sensores, usamos Vertical Logic Math 1 para dividir los datos del sensor por 1.5, convirtiendo así el grado en un porcentaje.</Value>
     </Record>
     <Record>
+      <Key>SetMemoryDescription4</Key>
+      <Value>Por último, calibre la posición vertical del panel solar.
+\t\t\t
+Para hacer esto, tome el porcentaje de ángulo solar vertical de Vertical Math 1 y agregue 50% usando Agregar memoria en Vertical Math 2. Esto hará que 50% sea el punto cero horizontal del panel solar (plano, hacia arriba).</Value>
+    </Record>
+    <Record>
       <Key>SetMemory0</Key>
       <Value>Poner la memoria del modo horizontal a un valor de 1</Value>
     </Record>
@@ -145,6 +151,10 @@ Para hacer que los paneles solares sean compatibles con los sensores, usamos Ver
       <Value>Poner la memoria de inversión a un valor de -1</Value>
     </Record>
     <Record>
+      <Key>SetMemory4</Key>
+      <Value>Establezca Agregar memoria a un valor de 50</Value>
+    </Record>
+    <Record>
       <Key>SetMemory3</Key>
       <Value>Poner la memoria de inclinación a un valor de 1.5</Value>
     </Record>
@@ -153,12 +163,35 @@ Para hacer que los paneles solares sean compatibles con los sensores, usamos Ver
       <Value>Configuración del sensor horizontal</Value>
     </Record>
     <Record>
+      <Key>SetupHorizontalSensorDescription</Key>
+      <Value>Un escritor de lógica nos permite escribir un valor dado a ciertos tipos de lógica en un dispositivo.
+\t\t\t
+Nota: Debe colocar el escritor lógico con el zócalo de datos de salida conectado al dispositivo en el que está escribiendo, ya que algunos datos del circuito lógico fluyen en una dirección específica. Diseña los circuitos en consecuencia.
+    </Value>
+    </Record>
+    <Record>
+      <Key>SetupLogicWritter</Key>
+      <Value>Configuración de un escritor lógico</Value>
+    </Record>
+    <Record>
+      <Key>SetupLogicWritterDescription</Key>
+      <Value>Necesitamos configurar nuestro sensor horizontal en el modo horizontal. Para hacer esto, utilizaremos un {THING: StructureLogicWriter} para establecer el modo en el sensor leyendo un valor de un {THING: StructureLogicMemory}</Value>
+    </Record>
+    <Record>
       <Key>SetupLogicWritter1</Key>
       <Value>Enciende la {THING:StructureLogicWriter}.</Value>
     </Record>
     <Record>
       <Key>SetupLogicWritter2</Key>
       <Value>Ponga la entrada {THING:StructureLogicWriter} en la memoria del modo horizontal usando un {THING:ItemScrewdriver}.</Value>
+    </Record>
+    <Record>
+      <Key>SetupLogicWritter3</Key>
+      <Value>Establezca la salida {THING:StructureLogicWriter} en el sensor horizontal de luz diurna.</Value>
+    </Record>
+    <Record>
+      <Key>SetupLogicWritter4</Key>
+      <Value>Configure {THING:StructureLogicWriter} para escribir en el valor lógico del sensor denominado Modo.</Value>
     </Record>
     <Record>
       <Key>PickUpLogicProcessor</Key>
@@ -173,8 +206,48 @@ Para hacer que los paneles solares sean compatibles con los sensores, usamos Ver
       <Value>Configuración de los lectores lógicos</Value>
     </Record>
     <Record>
+      <Key>LogicReaderSetupDescription</Key>
+      <Value>Un lector lógico hace lo que parece: lee lógica. Los usaremos para leer el ángulo solar de cada sensor.</Value>
+    </Record>
+    <Record>
       <Key>LogicReader1</Key>
       <Value>Coloca una {THING:StructureLogicReader} en la posición resaltada.</Value>
+    </Record>
+    <Record>
+      <Key>LogicReaderLogicSetup</Key>
+      <Value>Configuración del lector lógico</Value>
+    </Record>
+    <Record>
+      <Key>LogicReaderLogicSetupDescription</Key>
+      <Value>Ahora tenemos que configurar nuestros lectores lógicos recién colocados. Al igual que con el Escritor lógico, necesitamos establecer las entradas.</Value>
+    </Record>
+    <Record>
+      <Key>LogicReaderLogicSetup1</Key>
+      <Value>Establezca la entrada de Horizontal Logic Reader 1 en Sensor de luz de día horizontal.</Value>
+    </Record>
+    <Record>
+      <Key>LogicReaderLogicSetup2</Key>
+      <Value>Establezca el valor lógico en ángulo solar.</Value>
+    </Record>
+    <Record>
+      <Key>LogicReaderLogicSetup3</Key>
+      <Value>Configure el Lector de lógica vertical 1 en Sensor de luz vertical de día.</Value>
+    </Record>
+    <Record>
+      <Key>LogicReaderLogicSetup4</Key>
+      <Value>Establezca el valor lógico en ángulo solar.</Value>
+    </Record>
+    <Record>
+      <Key>VerticalLogicProcessors</Key>
+      <Value>Procesadores Lógicos.</Value>
+    </Record>
+    <Record>
+      <Key>VerticalLogicProcessorsDescription</Key>
+      <Value>Ahora necesitamos realizar algunas operaciones matemáticas con los valores leídos por {THING:StructureLogicReader} y {THING:StructureLogicMemory}. Comience con el módulo de datos vertical del circuito.
+            
+La primera {THING:StructureLogicMath} dividirá los datos de {THING:StructureLogicReader} por 1.5 utilizando una {THING:StructureLogicMemory}.
+  
+La próxima {THING:StructureLogicMath} leerá la entrada de nuestra primera {THING:StructureLogicMath} y agregará 50 usando un desplazamiento denominado {THING:StructureLogicMemory}.</Value>
     </Record>
     <Record>
       <Key>PlaceLogicMath</Key>
@@ -183,6 +256,74 @@ Para hacer que los paneles solares sean compatibles con los sensores, usamos Ver
     <Record>
       <Key>PlaceLogicMath1</Key>
       <Value>Coloca la siguiente {THING:StructureLogicMath} en la posición resaltada.</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVertical</Key>
+      <Value>Configuración vertical de lógica matemática.</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVerticalDescription</Key>
+      <Value>Configurar los procesadores matemáticos es uno de los pasos más importantes para crear un circuito lógico, ya que maneja todos los cálculos necesarios para la mayoría de las tareas.</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVertical1</Key>
+      <Value>Encienda Vertical Math Unit 1.</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVertical2</Key>
+      <Value>Configure la entrada 1 en Vertical Math Unit 1 para leer Vertical Logic Reader 1.</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVertical3</Key>
+      <Value>Configure la entrada 2 en la Unidad de Matemática Vertical 1 para leer la Memoria de Inclinación.</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVertical4</Key>
+      <Value>Establezca el tipo de operación Matemática en la Unidad Matemática Vertical 1 en &apos;Dividir&apos;.</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVertical5</Key>
+      <Value>Encienda Vertical Math Unit 2.</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVertical6</Key>
+      <Value>Establezca la entrada 1 en la Unidad de Matemática Vertical 2 para leer la Unidad de Matemática Vertical 1.</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVertical7</Key>
+      <Value>Configure la entrada 2 en la unidad vertical de matemáticas 2 para leer Agregar memoria.</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVertical8</Key>
+      <Value>Establezca el tipo de operación Matemática en Vertical Math Unit 2 en &apos;Agregar&apos;.</Value>
+    </Record>
+    <Record>
+      <Key>VerticalBatchWriter</Key>
+      <Value>El escritor de lotes verticales</Value>
+    </Record>
+    <Record>
+      <Key>VerticalBatchWriterDescription</Key>
+      <Value>Batch Writer escribe en todos los dispositivos conectados de un tipo determinado. Use esto para escribir el valor vertical recién calculado en todos los paneles solares a la vez.</Value>
+    </Record>
+    <Record>
+      <Key>VerticalBatchWritterSetup</Key>
+      <Value>Configuración de escritor de lote vertical</Value>
+    </Record>
+    <Record>
+      <Key>VerticalBatchWritterSetupDescription</Key>
+      <Value>Al igual que los otros circuitos, debe configurar {THING:StructureLogicBatchWriter} para enviar valores a los paneles solares.</Value>
+    </Record>
+    <Record>
+      <Key>VerticalBatchWritterSetup1</Key>
+      <Value>Establezca la entrada de {THING:StructureLogicBatchWriter} para leer el valor de Vertical Math Unit 2.</Value>
+    </Record>
+    <Record>
+      <Key>VerticalBatchWritterSetup2</Key>
+      <Value>Establezca los datos de salida para escribir en {THING:StructureSolarPanelDual}.</Value>
+    </Record>
+    <Record>
+      <Key>VerticalBatchWritterSetup3</Key>
+      <Value>Establezca el tipo de lógica en {THING:StructureLogicBatchWriter} en Vertical.</Value>
     </Record>
     <Record>
       <Key>VerticalBatchWritterSetup4</Key>
@@ -195,6 +336,10 @@ Para hacer que los paneles solares sean compatibles con los sensores, usamos Ver
     <Record>
       <Key>BatchWriter1</Key>
       <Value>Coloca una {THING:StructureLogicBatchWriter} en la posición resaltada.</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalLogicProcessorSetUp</Key>
+      <Value>Procesadores lógicos horizontales</Value>
     </Record>
     <Record>
       <Key>PlaceLogicMath2</Key>
@@ -219,6 +364,10 @@ Para hacer que los paneles solares sean compatibles con los sensores, usamos Ver
     <Record>
       <Key>LogicSelect2</Key>
       <Value>Coloca la Siguiente {THING:StructureLogicSelect} en la posición resaltada.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModePart2Task8</Key>
+      <Value>Active el selector de lógica horizontal.</Value>
     </Record>
     <Record>
       <Key>FinalStage</Key>
