@@ -171,9 +171,12 @@ Poznámka: Při stavbě přechodové komory můžete skladovat plyny v samotném
     </Record>
     <Record>
       <Key>AirLockProgrammingDescription</Key>
-      <Value> Chcete-li naprogramovat Přechodovou komoru, zapněte {THING:StructureConsole}. Vyberte položky {THING:StructureActiveVent} a {THING:StructureGasSensor}.
-Při výběru přechodových dveří se ujistěte, že je pro vnitřní dveře vybrána možnost Interiér. Tuto volbu přepněte tak, že ji odznačíte a kliknete na alternativní dveře. Světlo na přechodových dveří se změní ze zelené na červenou, což znamená, které dveře nastavujete.
-Jakmile konzole vybere zařízení, bude toto zařízení uzamčeno pod jeho kontrolou a nebude reagovat na interakce.
+      <Value> Chcete-li naprogramovat přechodovou komoru, zapněte {THING:StructureConsole}. Vyberte {THING:StructureActiveVent} a {THING:StructureGasSensor}. Zařízení se zvýrazní zeleně s červeným textem, když je vybraná volba.
+
+Vyberte dvě dveře přechodové komory. Pokud vyberete jedny dveře jako &apos;Exteriér&apos;, budou ostatní automaticky nastaveny na &apos;Interní&apos;. Ujistěte se, že jsou dveře správně přiřazeny.
+
+Jakmile je zařízení vybráno, bude toto zařízení uzamčeno pod svou kontrolou a nebude reagovat na interakce, dokud nebude výběr zrušen.
+
 Po úspěšném dokončení nastavení přechodové komory se přepínač na straně {THING:StructureConsole} rozsvítí zeleně. Nyní můžete odebrat datový disk z {THING:StructureConsole}.  Konzole bude uzamčena a nebude reagovat na interakce, dokud datový disk znovu nevložíte.</Value>
     </Record>
     <Record>
