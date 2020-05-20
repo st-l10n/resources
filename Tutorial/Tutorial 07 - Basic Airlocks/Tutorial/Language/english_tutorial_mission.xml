@@ -73,11 +73,11 @@ Lets start off with a basic Airlock. First, build the outer {THING:ItemIronFrame
         </Record>
          <Record>
             <Key>CloseTheDoorTask3</Key>
-            <Value>Rename the Outter facing {THING:StructureCompositeDoor} to external door or something recognizable.</Value>
+            <Value>Rename the outer facing {THING:StructureCompositeDoor} to 'External Door'.</Value>
         </Record>
          <Record>
             <Key>CloseTheDoorTask4</Key>
-            <Value>Rename the Inward facing {THING:StructureCompositeDoor} to Internal door or something recognizable.</Value>
+            <Value>Rename the inward facing {THING:StructureCompositeDoor} to 'Internal Door.</Value>
         </Record>
         <Record>
             <Key>CreatingASeal</Key>
@@ -85,7 +85,9 @@ Lets start off with a basic Airlock. First, build the outer {THING:ItemIronFrame
         </Record>
         <Record>
             <Key>CreatingASealDescription</Key>
-            <Value>Go ahead and finish the construction of the {THING:StructureCompositeDoor}s with {THING:ItemPlasticSheets} and {THING:ItemGlassSheets}. You will then need to rename the newly built doors using the {THING:ItemLabeller} found in the orange crate.</Value>
+            <Value>Go ahead and finish the construction of the {THING:StructureCompositeDoor}s with {THING:ItemPlasticSheets} and {THING:ItemGlassSheets}.
+You will then need to rename the newly built doors using the {THING:ItemLabeller}, which can be found in the orange crate.
+        </Value>
         </Record>
         <Record>
             <Key>CreatingASealTask1</Key>
@@ -171,11 +173,11 @@ Note: When building an Airlock you can store the gases in the pipe itself, if yo
         </Record>
         <Record>
             <Key>AirLockProgrammingDescription</Key>
-            <Value> To programme the Airlock, turn on the {THING:StructureConsole}. Select the {THING:StructureActiveVent} and {THING:StructureGasSensor}.
+            <Value> To programme the Airlock, turn on the {THING:StructureConsole}. Select the {THING:StructureActiveVent} and {THING:StructureGasSensor}. Devices highlight green with red text when selected.
 
-When selecting the Airlocks, ensure the 'Interior' option is selected for the interior door. Toggle this option by deselecting it, and clicking on the alternate door. The light on the Airlock will turn from green to red, to indicate which Airlock you're programming.
+Select the two Airlock doors. Selecting one door as 'Exterior' will cause the other to default to 'Internal'. Ensure the doors are correctly assigned.
 
-Once the Console has selected a device, that device will be locked under its control, and will not respond to interactions.
+Once a device is selected, that device will be locked under its control, and will not respond to interactions unless deselected.
 
 When you have successfully completed the Airlock set up, the switch on the side of the {THING:StructureConsole} will light up green. You may now remove the Data Disk from the {THING:StructureConsole}.  The Console will be locked, and will not respond to interactions unless you reinsert the Data Disk.</Value>
         </Record>
@@ -203,13 +205,13 @@ When you have successfully completed the Airlock set up, the switch on the side 
             <Key>AirlockUpgradesDescription</Key>
             <Value>Now that you have a basic Airlock, lets make a few upgrades to convert it into an Advanced Airlock. 
 
-Basic Airlocks will work fine on the moon or planets with no atmosphere, but if you want to prevent poisonous gases or high/low temperatures entering your base, you will need an Advanced Airlock. An Advanced Airlock pumps any atmosphere out of the Airlock, before pressurising it again with the desired atmosphere.
+Basic Airlocks work well on planets with no atmosphere, but to prevent poisonous gases or extreme temperatures entering your base, you need an Advanced Airlock. These pump atmosphere out, before pressurising the Airlock with the desired atmosphere.
 
-To build an advanced Airlock you will need another {THING:StructureActiveVent}, some more pipes and wire, along with the {THING:CircuitboardAdvAirlockControl} to replace the {THING:CircuitboardAirlockControl} from the basic Airlock.</Value>
+To create an advanced Airlock you will need to build another {THING:StructureActiveVent} inside it, and a passive vent outside, then connect them with pipes.</Value>
         </Record>
         <Record>
             <Key>AirlockUpgradesTask1</Key>
-            <Value>Place another {THING:StructureActiveVent} in the highlighted spot.</Value>
+            <Value>Place an {THING:StructureActiveVent} in the highlighted spot in the airlock.</Value>
         </Record>
         <Record>
             <Key>AirlockCableCorner</Key>
@@ -225,19 +227,15 @@ To build an advanced Airlock you will need another {THING:StructureActiveVent}, 
         </Record>
         <Record>
             <Key>AdvancedPressureDescription</Key>
-            <Value>Now that the structures are in place, we need to swap out the {THING:CircuitboardAirlockControl} for the {THING:CircuitboardAdvAirlockControl} 
-        
-There are a few differences when programming the {THING:CircuitboardAdvAirlockControl}. Firstly, you need to select an internal and external {THING:StructureActiveVent}. Unlike doors, you will need to look at the switch on the {THING:StructureActiveVent} to see if it’s interactable or not. This is how you can tell which {THING:StructureActiveVent} you have selected from the menu.
-
-The last thing you need to do is select the desired internal and external pressure, found near the top of the {THING:CircuitboardAdvAirlockControl} panel. </Value>
+            <Value>Now that the structures are in place, we need to swap out the {THING:CircuitboardAirlockControl} for the {THING:CircuitboardAdvAirlockControl}.</Value>
         </Record>
         <Record>
             <Key>AdvancedPressureTask1</Key>
-            <Value>Remove the {THING:ItemGlassSheets} from the first {THING:StructureConsole}.</Value>
+            <Value>Remove the {THING:ItemGlassSheets} from the {THING:StructureConsole} with the crowbar.</Value>
         </Record>
         <Record>
             <Key>AdvancedPressureTask2</Key>
-            <Value>Swap the {THING:CircuitboardAirlockControl}  for the {THING:CircuitboardAdvAirlockControl}.</Value>
+            <Value>Swap the {THING:CircuitboardAirlockControl} for the {THING:CircuitboardAdvAirlockControl}.</Value>
         </Record>
          <Record>
             <Key>AdvancedPressureTask3</Key>
@@ -253,7 +251,14 @@ The last thing you need to do is select the desired internal and external pressu
         </Record>
         <Record>
             <Key>AAdvancedAirLockDescription</Key>
-            <Value>Make sure the Airlock works by pressing the “Cycle to Interior” button.</Value>
+            <Value>There are a few differences when programming the {THING:CircuitboardAdvAirlockControl}.
+			
+First, rename the new vent 'External' and the old vent 'Internal', to identify them on the console. Select each {THING:StructureActiveVent}, ensuring to assign them correctly.
+
+The last thing you need to do is select the desired internal and external pressure, found near the top of the {THING:CircuitboardAdvAirlockControl} panel.
+Make sure the Airlock works by pressing the “Cycle to Interior” button.
+            
+            </Value>
         </Record>
         <Record>
             <Key>AAdvancedAirLockTask1</Key>
