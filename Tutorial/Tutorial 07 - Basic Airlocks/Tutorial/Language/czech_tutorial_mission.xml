@@ -198,11 +198,15 @@ Po úspěšném dokončení nastavení přechodové komory se přepínač na str
     </Record>
     <Record>
       <Key>AirlockUpgradesDescription</Key>
-      <Value>Nyní, když máte základní přechodovou komoru, můžeme provést několik vylepšení, aby jste ji převedli na Pokročilou přechodovou komoru. Základní přechodová komora bude dobře fungovat na Měsíci nebo na planetách bez atmosféry, ale pokud chcete zabránit vstupu jedovatých plynů nebo vysokých/nízkých teplot na vaši základnu, budete potřebovat Pokročilou přechodovou komoru. Pokročilá přechodová komora odčerpá jakoukoli atmosféru z komory a poté ji znovu natlakuje na požadovanou atmosférou. K vybudování pokročilé přechodové komory budete potřebovat další {THING:StructureActiveVent}, nějaké trubky a dráty, spolu s {THING:CircuitboardAdvAirlockControl}, který nahradí {THING:CircuitboardAirlockControl} ze základní přechodové komory.</Value>
+      <Value>Nyní, když máte základní přechodovou komoru, pojďme provést několik vylepšení a převést ji na pokročilou přechodovou komoru.
+
+Základní přechodové komory dobře fungují na planetách bez atmosféry, ale abyste zabránili vniknutí jedovatých plynů nebo extrémních teplot do vaší základny, potřebujete pokročilou přechodovou komoru. Tyto odčerpají atmosféru ven, než natlakují přechodovou komoru požadovanou atmosférou.
+
+Chcete-li vytvořit pokročilou přechodovou komoru, budete muset uvnitř vytvořit další {THING:StructureActiveVent} a pasivní větrání venku a pak je spojit s trubkami.</Value>
     </Record>
     <Record>
       <Key>AirlockUpgradesTask1</Key>
-      <Value>Umístěte {THING:StructureActiveVent} do zvýrazněné oblasti.</Value>
+      <Value>Umístěte {THING:StructureActiveVent} na zvýrazněné místo.</Value>
     </Record>
     <Record>
       <Key>AirlockCableCorner</Key>
@@ -218,15 +222,11 @@ Po úspěšném dokončení nastavení přechodové komory se přepínač na str
     </Record>
     <Record>
       <Key>AdvancedPressureDescription</Key>
-      <Value>Nyní, když jsou struktury na místě, musíme vyměnit {THING:CircuitboardAirlockControl} za {THING:CircuitboardAdvAirlockControl}
-        
-Při programování {THING:CircuitboardAdvAirlockControl} existuje několik rozdílů. Nejprve musíte vybrat interní a externí {THING:StructureActiveVent}. Na rozdíl od dveří se budete muset podívat na přepínač na {THING:StructureActiveVent}, abyste zjistili, zda je či není vzájemně propojitelný. Takto můžete zjistit, které {THING:StructureActiveVent} jste vybrali z nabídky.
-
-Poslední věcí, kterou musíte udělat, je vybrat požadovaný vnitřní a vnější tlak, který se nachází v horní části panelu {THING:CircuitboardAdvAirlockControl}. </Value>
+      <Value>Nyní, když jsou struktury na místě, musíme vyměnit {THING:CircuitboardAirlockControl} za {THING:CircuitboardAdvAirlockControl}.</Value>
     </Record>
     <Record>
       <Key>AdvancedPressureTask1</Key>
-      <Value>Odeberte {THING:ItemGlassSheets} z první {THING:StructureConsole}.</Value>
+      <Value>Odstraňte {THING:ItemGlassSheets} z {THING:StructureConsole} pomocí páčidla.</Value>
     </Record>
     <Record>
       <Key>AdvancedPressureTask2</Key>
