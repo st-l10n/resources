@@ -71,11 +71,11 @@ Začněme se základní přechodovou komorou. Nejprve vytvořte vnější {THING
     </Record>
     <Record>
       <Key>CloseTheDoorTask3</Key>
-      <Value>Přejmenujte vnější obložení {THING:StructureCompositeDoor} na vnější dveře nebo na něco, co lze rozeznat.</Value>
+      <Value>Přejmenujte vnější stranu {THING:StructureCompositeDoor} na &apos;Vnější dveře&apos;.</Value>
     </Record>
     <Record>
       <Key>CloseTheDoorTask4</Key>
-      <Value>Přejmenujte vnitřní obložení {THING:StructureCompositeDoor} na vnitřní dveře nebo na něco, co lze rozeznat.</Value>
+      <Value>Přejmenujte vnitřní stranu {THING:StructureCompositeDoor} na &apos;Vnitřní dveře&apos;.</Value>
     </Record>
     <Record>
       <Key>CreatingASeal</Key>
@@ -83,7 +83,9 @@ Začněme se základní přechodovou komorou. Nejprve vytvořte vnější {THING
     </Record>
     <Record>
       <Key>CreatingASealDescription</Key>
-      <Value>Pokračujte a dokončete konstrukci {THING:StructureCompositeDoor} s {THING:ItemPlasticSheets} a {THING:ItemGlassSheets}. Poté budete muset přejmenovat nově postavené dveře pomocí {THING:ItemLabeller} nalezeného v oranžové bedně.</Value>
+      <Value>Pokračujte a dokončete konstrukci {THING:StructureCompositeDoor} pomocí {THING:ItemPlasticSheets} a {THING:ItemGlassSheets}.
+Poté budete muset přejmenovat nově postavené dveře pomocí {THING:ItemLabeller}, kterou najdete v oranžové bedně.
+        </Value>
     </Record>
     <Record>
       <Key>CreatingASealTask1</Key>
