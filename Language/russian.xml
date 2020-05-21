@@ -6983,12 +6983,44 @@
       <Value>Регистр = 1, если a &gt; b, иначе 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandSle</Key>
+      <Value>Регистр = 1, если a &lt;= b, иначе 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSge</Key>
+      <Value>Регистр = 1, если a &gt;= b, иначе 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSeq</Key>
+      <Value>Регистр = 1, если a == b, иначе 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSne</Key>
+      <Value>Регистр = 1, если a != b, иначе 0</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandSltz</Key>
       <Value>Регистр = 1, если a &lt; 0, иначе 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSgtz</Key>
       <Value>Регистр = 1, если a &gt; 0, иначе 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSlez</Key>
+      <Value>Регистр = 1, если a &lt;= 0, иначе 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSgez</Key>
+      <Value>Регистр = 1, если a &gt;= 0, иначе 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSeqz</Key>
+      <Value>Регистр = 1, если a == 0, иначе 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSnez</Key>
+      <Value>Регистр = 1, если a != 0, иначе 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandAnd</Key>
@@ -7005,6 +7037,14 @@
     <Record>
       <Key>ScriptCommandNor</Key>
       <Value>Регистр = 1, если a и b равны 0, иначе 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandMul</Key>
+      <Value>Регистр = a * b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandDiv</Key>
+      <Value>Регистр = a / b</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBeqz</Key>
