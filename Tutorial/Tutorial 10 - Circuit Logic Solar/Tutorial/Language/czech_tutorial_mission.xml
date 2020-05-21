@@ -4,7 +4,7 @@
   <Interface>
     <Record>
       <Key>Tutorial10-CircuitLogicSolarTracking</Key>
-      <Value>#10 ADV logika obvodu - Sluneční sledování</Value>
+      <Value>#10 ADV logika obvodu - Solární sledování</Value>
     </Record>
     <Record>
       <Key>CircuitLogicSolarTrackingDescription</Key>
@@ -78,7 +78,7 @@ Po dokončení vyjměte datový disk, nyní můžete upravit horizontální a ve
     </Record>
     <Record>
       <Key>DaylightSensorsDescription</Key>
-      <Value>Automatizace slunečního sledování maximalizuje energii produkovanou solárními panely a znamená, že je nemusíte ručně upravovat tak, aby směřovaly ke slunci.
+      <Value>Automatizace solárního sledování maximalizuje energii produkovanou solárními panely a znamená, že je nemusíte ručně upravovat tak, aby směřovaly ke slunci.
             
 Prvním krokem je umístění senzorů denního světla. Jeden změří horizontální úhel slunce, zatímco druhý změří vertikální úhel. To zajistí úplné denní sledování na jakékoli planetě.</Value>
     </Record>
@@ -114,7 +114,7 @@ Prvním krokem je umístění senzorů denního světla. Jeden změří horizont
       <Key>SetMemoryDescription</Key>
       <Value>Nyní, když máte jednotku {THING:StructureLogicMemory} na místě a nastavený solární sledovací systém, musíte nastavit specifické hodnoty v {THING:StructureLogicMemory} pomocí {THING:ItemScrewdriver}. Hodnoty závisí na poloze a rotaci {THING:StructureDaylightSensor} a solárních panelů.
             
-Senzory denního světla mají 3 režimy: výchozí, horizontální a vertikální. Každý režim mění výstupní sluneční úhel. V tomto případě musíme nastavit snímač na horizontální, což je režim 1. K tomu nastavte modul horizontální paměti na hodnotu 1 a logický zapisovač tuto hodnotu zapíše do senzoru. </Value>
+Senzory denního světla mají 3 režimy: výchozí, horizontální a vertikální. Každý režim mění výstupní solární úhel. V tomto případě musíme nastavit snímač na horizontální, což je režim 1. K tomu nastavte modul horizontální paměti na hodnotu 1 a logický zapisovač tuto hodnotu zapíše do senzoru. </Value>
     </Record>
     <Record>
       <Key>SetMemoryDescription2</Key>
@@ -124,7 +124,7 @@ Tuto hodnotu použijeme na horizontální matematickou jednotku 2, když ji při
     </Record>
     <Record>
       <Key>SetMemoryDescription3</Key>
-      <Value>Protože sluneční senzory poskytují zápornou hodnotu, musíte proměnit zápornou hodnotu na pozitivní. Za tímto účelem vynásobte hodnotu invertní paměti proti hodnotě slunečního senzoru pomocí horizontální matematiky 1.</Value>
+      <Value>Protože solární senzory poskytují zápornou hodnotu, musíte proměnit zápornou hodnotu na pozitivní. Za tímto účelem vynásobte hodnotu invertní paměti proti hodnotě slunečního senzoru pomocí horizontální matematiky 1.</Value>
     </Record>
     <Record>
       <Key>SetMemoryDescription4</Key>
@@ -427,7 +427,8 @@ Dalším krokem je vyrovnání dat dodaných zařízením {THING:StructureDaylig
       <Key>SleepModeDescription</Key>
       <Value>Nyní máme sluneční sledovací obvod, který bude sledovat sluneční světlo po celý den.
 \t\t\t
-Ale co třeba noc? Za tímto účelem nastavíme další modul, který bude fungovat jako režim spánku. Pokud jsou senzory denního světla neaktivní nebo nepřijímají denní světlo, solární panely se vrátí do výchozí polohy. Abychom to mohli udělat, musíme použít jednotky {THING:StructureLogicReader} ke čtení aktivního stavu na každé {THING:StructureDaylightSensor}.</Value>
+Ale co noc? Za tímto účelem nastavíme další modul, který bude fungovat jako režim spánku. Pokud jsou senzory denního světla neaktivní nebo nepřijímají denní světlo, solární panely se vrátí do výchozí polohy. Abychom to mohli udělat, musíme použít jednotky {THING:StructureLogicReader} ke čtení aktivního stavu na každém {THING:StructureDaylightSensor}.
+            </Value>
     </Record>
     <Record>
       <Key>LogicSelect1</Key>
