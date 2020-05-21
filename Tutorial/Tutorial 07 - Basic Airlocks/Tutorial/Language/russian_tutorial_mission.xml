@@ -207,7 +207,7 @@
     </Record>
     <Record>
       <Key>AirlockUpgradesTask1</Key>
-      <Value>Установите еще один {THING:StructureActiveVent} в выделенное место.</Value>
+      <Value>Установите {THING:StructureActiveVent} в выделенное место в шлюзе.</Value>
     </Record>
     <Record>
       <Key>AirlockCableCorner</Key>
@@ -216,6 +216,10 @@
     <Record>
       <Key>AirlockCableStraight</Key>
       <Value>Установите {THING:StructureCableStraight}.</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedPressureDescription</Key>
+      <Value>Теперь, когда устройства на месте, нам нужно поменять {THING:CircuitboardAirlockControl} на {THING:CircuitboardAdvAirlockControl}.</Value>
     </Record>
     <Record>
       <Key>AdvancedPressureTask1</Key>
