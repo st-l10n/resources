@@ -245,5 +245,13 @@
       <Key>AAdvancedAirLock</Key>
       <Value>Продвинутый шлюз</Value>
     </Record>
+    <Record>
+      <Key>AAdvancedAirLockDescription</Key>
+      <Value>При программировании {THING:CircuitboardAdvAirlockControl} есть несколько отличий.
+\t\t\t
+Сначала переименуйте новую активную вентиляцию в &apos;Внешняя&apos; или &apos;External&apos; и старую активную вентиляцию &apos;Внутренняя&apos; или &apos;Internal&apos;, чтобы определить их на консоли. Выберите каждую {THING:StructureActiveVent}, чтобы правильно назначить их.
+
+Последнее, что вам нужно сделать, это выбрать требуемое внутреннее и внешнее давление, которое находится в верхней части панели {THING:CircuitboardAdvAirlockControl}. Убедитесь, что шлюз работает, нажав кнопку &quot;Цикл входа&quot;.</Value>
+    </Record>
   </Interface>
 </Language>
