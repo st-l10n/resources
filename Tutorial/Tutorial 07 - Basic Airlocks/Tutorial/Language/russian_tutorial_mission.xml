@@ -78,6 +78,10 @@
       <Value>Переименуйте {THING:StructureCompositeDoor} расположенная внутри помещения в &apos;Внутренняя дверь&apos; или  &apos;Internal Door&apos;.</Value>
     </Record>
     <Record>
+      <Key>CreatingASeal</Key>
+      <Value>Создание герметичного шлюза</Value>
+    </Record>
+    <Record>
       <Key>CreatingASealDescription</Key>
       <Value>Продолжайте и завершите создание {THING:StructureCompositeDoor} с помощью {THING:ItemPlasticSheets} и {THING:ItemGlassSheets}.
 Затем нужно будет переименовать построенные двери, используя {THING:ItemLabeller}, который можно найти в оранжевом ящике.</Value>
@@ -89,6 +93,14 @@
     <Record>
       <Key>CreatingASealTask2</Key>
       <Value>Соберите {THING:StructureCompositeDoor} 2.</Value>
+    </Record>
+    <Record>
+      <Key>AirSensoresAndMore</Key>
+      <Value>Датчики воздуха и нетолько!</Value>
+    </Record>
+    <Record>
+      <Key>AirSensoresAndMoreDescription</Key>
+      <Value>Затем установите {THING:StructureGasSensor} и {THING:StructureActiveVent}. {THING:StructureGasSensor} является ключевым компонентом шлюза, так как он информирует консоль о текущей атмосфере внутри него, а {THING:StructureActiveVent} создает и сбрасывает давление в шлюзе.</Value>
     </Record>
     <Record>
       <Key>AirSensoresAndMoreTask1</Key>

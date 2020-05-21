@@ -70,12 +70,24 @@
       <Value>Постройте {THING:StructureCompositeDoor} 2.</Value>
     </Record>
     <Record>
+      <Key>CreatingASeal</Key>
+      <Value>Создание герметичного шлюза</Value>
+    </Record>
+    <Record>
       <Key>CreatingASealTask1</Key>
       <Value>Соберите {THING:StructureCompositeDoor} 1.</Value>
     </Record>
     <Record>
       <Key>CreatingASealTask2</Key>
       <Value>Соберите {THING:StructureCompositeDoor} 2.</Value>
+    </Record>
+    <Record>
+      <Key>AirSensoresAndMore</Key>
+      <Value>Датчики воздуха и нетолько!</Value>
+    </Record>
+    <Record>
+      <Key>AirSensoresAndMoreDescription</Key>
+      <Value>Затем установите {THING:StructureGasSensor} и {THING:StructureActiveVent}. {THING:StructureGasSensor} является ключевым компонентом шлюза, так как он информирует консоль о текущей атмосфере внутри него, а {THING:StructureActiveVent} создает и сбрасывает давление в шлюзе.</Value>
     </Record>
     <Record>
       <Key>AirSensoresAndMoreTask1</Key>
