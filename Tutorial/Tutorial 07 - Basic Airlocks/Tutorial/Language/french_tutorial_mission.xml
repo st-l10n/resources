@@ -70,6 +70,14 @@ Commençons par une configuration de sas de base. Tout d’abord, construire l�
       <Value>Fabriquez une {THING:StructureCompositeDoor} 2</Value>
     </Record>
     <Record>
+      <Key>CloseTheDoorTask2.5</Key>
+      <Value>Prenez un {THING:ItemCopperIngot} dans la caisse orange.</Value>
+    </Record>
+    <Record>
+      <Key>CloseTheDoorTask2.6</Key>
+      <Value>Allumer la {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
       <Key>CloseTheDoorTask3</Key>
       <Value>Renommez la face de Sortie {THING:StructureCompositeDoor} en porte extérieure ou quelque chose de reconnaissable.</Value>
     </Record>

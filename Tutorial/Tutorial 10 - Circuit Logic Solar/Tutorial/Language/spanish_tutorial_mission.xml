@@ -127,16 +127,16 @@ Aplicamos este valor a la unidad matemática horizontal 2, cuando lo agregamos a
       <Value>Como los sensores solares proporcionan un valor negativo, debe convertir un valor negativo en uno positivo. Para hacer esto, multiplique el valor de Invertir memoria contra el valor del sensor solar usando Horizontal Math 1.</Value>
     </Record>
     <Record>
-      <Key>SetMemoryDescription5</Key>
-      <Value>El eje vertical de los paneles solares se mide como un porcentaje, mientras que los sensores emiten datos del ángulo solar en grados de 0 a 150.
-            
-Para hacer que los paneles solares sean compatibles con los sensores, usamos Vertical Logic Math 1 para dividir los datos del sensor por 1.5, convirtiendo así el grado en un porcentaje.</Value>
-    </Record>
-    <Record>
       <Key>SetMemoryDescription4</Key>
       <Value>Por último, calibre la posición vertical del panel solar.
 \t\t\t
 Para hacer esto, tome el porcentaje de ángulo solar vertical de Vertical Math 1 y agregue 50% usando Agregar memoria en Vertical Math 2. Esto hará que 50% sea el punto cero horizontal del panel solar (plano, hacia arriba).</Value>
+    </Record>
+    <Record>
+      <Key>SetMemoryDescription5</Key>
+      <Value>El eje vertical de los paneles solares se mide como un porcentaje, mientras que los sensores emiten datos del ángulo solar en grados de 0 a 150.
+            
+Para hacer que los paneles solares sean compatibles con los sensores, usamos Vertical Logic Math 1 para dividir los datos del sensor por 1.5, convirtiendo así el grado en un porcentaje.</Value>
     </Record>
     <Record>
       <Key>SetMemory0</Key>
