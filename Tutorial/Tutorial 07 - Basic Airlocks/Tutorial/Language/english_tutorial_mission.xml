@@ -71,13 +71,21 @@ Lets start off with a basic Airlock. First, build the outer {THING:ItemIronFrame
             <Key>CloseTheDoorTask2</Key>
             <Value>Build {THING:StructureCompositeDoor} 2.</Value>
         </Record>
+            <Record>
+            <Key>CloseTheDoorTask2.5</Key>
+            <Value>Pick up the {THING:ItemLabeller} from the crate.</Value>
+        </Record>
+        <Record>
+            <Key>CloseTheDoorTask2.6</Key>
+            <Value>Turn On the {THING:ItemLabeller}.</Value>
+        </Record>
          <Record>
             <Key>CloseTheDoorTask3</Key>
-            <Value>Rename the outer facing {THING:StructureCompositeDoor} to 'External Door'.</Value>
+            <Value>Rename the outer {THING:StructureCompositeDoor} to 'External Door'.</Value>
         </Record>
          <Record>
             <Key>CloseTheDoorTask4</Key>
-            <Value>Rename the inward facing {THING:StructureCompositeDoor} to 'Internal Door.</Value>
+            <Value>Rename the inner {THING:StructureCompositeDoor} to 'Internal Door.</Value>
         </Record>
         <Record>
             <Key>CreatingASeal</Key>
@@ -85,8 +93,8 @@ Lets start off with a basic Airlock. First, build the outer {THING:ItemIronFrame
         </Record>
         <Record>
             <Key>CreatingASealDescription</Key>
-            <Value>Go ahead and finish the construction of the {THING:StructureCompositeDoor}s with {THING:ItemPlasticSheets} and {THING:ItemGlassSheets}.
-You will then need to rename the newly built doors using the {THING:ItemLabeller}, which can be found in the orange crate.
+            <Value>Go ahead and finish constructing each {THING:StructureCompositeDoor} with {THING:ItemPlasticSheets} and {THING:ItemGlassSheets}.
+You then need to rename the newly built doors using the {THING:ItemLabeller}, which can be found in the orange crate.
         </Value>
         </Record>
         <Record>
@@ -253,7 +261,7 @@ To create an advanced Airlock you will need to build another {THING:StructureAct
             <Key>AAdvancedAirLockDescription</Key>
             <Value>There are a few differences when programming the {THING:CircuitboardAdvAirlockControl}.
 			
-First, rename the new vent 'External' and the old vent 'Internal', to identify them on the console. Select each {THING:StructureActiveVent}, ensuring to assign them correctly.
+First, rename the new vent 'External Vent' and the old vent 'Internal Vent', to identify them on the console. Select each {THING:StructureActiveVent}, ensuring to assign them correctly.
 
 The last thing you need to do is select the desired internal and external pressure, found near the top of the {THING:CircuitboardAdvAirlockControl} panel.
 Make sure the Airlock works by pressing the “Cycle to Interior” button.

@@ -131,13 +131,14 @@ We apply this value to Horizontal math unit 2, when we add it to the output valu
         </Record>
         
         <Record>
-            <Key>SetMemoryDescription5</Key>
+            <Key>SetMemoryDescription4</Key>
             <Value>The vertical axis of solar panels is measured as a percentage, while sensors output solar angle data in degrees from 0 - 150.
             
-To make solar panels compatible with sensors, we use Vertical Logic Math 1 to divide the sensor’s data by 1.5, thereby converting the degree to a percentage.</Value>
+To make solar panels compatible with sensors, we use Vertical Logic Math 1 to divide the sensor’s data by 1.5, thereby converting the degree to a percentage.
+            </Value>
         </Record>
         <Record>
-            <Key>SetMemoryDescription4</Key>
+            <Key>SetMemoryDescription5</Key>
             <Value>Lastly, calibrate the vertical position for the solar panel. 
 			
 To do this, take the vertical solar angle percentage from Vertical Math 1, and add 50% using Add Memory in Vertical Math 2. This will make 50% the solar panel’s horizontal zero point (flat, facing upwards).</Value>
@@ -352,7 +353,9 @@ The next {THING:StructureLogicMath} will read the input of our first {THING:Stru
 			
 First, invert the negative value of the horizontal solar angle data by multiplying it by -1. To do this, read in data from the Logic Reader with a {THING:StructureLogicMath} and multiply it with the {THING:StructureLogicMemory} labelled Invert.
             
-The next step is to offset the data delivered by the {THING:StructureDaylightSensor}. In this case we need to adjust the data by -90. Do this by reading in the output value of the {THING:StructureLogicMath} and adding it to the {THING:StructureLogicMemory} labelled Offset.</Value>
+The next step is to offset the data delivered by the {THING:StructureDaylightSensor}. In this case we need to adjust the data by -90. Do this by reading in the output value of the {THING:StructureLogicMath} and adding it to the {THING:StructureLogicMemory} labelled Offset.
+
+            </Value>
         </Record>
         <Record>
             <Key>PlaceLogicMath2</Key>
@@ -430,7 +433,8 @@ The next step is to offset the data delivered by the {THING:StructureDaylightSen
             <Key>SleepModeDescription</Key>
             <Value>We now have a solar tracking circuit that will track sunlight throughout the day.
 			
-But what about the night? For this, we will set up another module that will act as a sleep mode. When the daylight sensors are inactive or not receiving daylight, the solar panels will reset to a default position. To do this we need to use {THING:StructureLogicReader} units to read the active state on each {THING:StructureDaylightSensor}.</Value>
+But what about the night? For this, we will set up another module that will act as a sleep mode. When the daylight sensors are inactive or not receiving daylight, the solar panels will reset to a default position. To do this we need to use {THING:StructureLogicReader} units to read the active state on each {THING:StructureDaylightSensor}.
+            </Value>
         </Record>
         <Record>
             <Key>LogicSelect1</Key>
