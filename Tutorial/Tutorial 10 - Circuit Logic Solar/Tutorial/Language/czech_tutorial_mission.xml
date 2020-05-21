@@ -128,7 +128,7 @@ Tuto hodnotu použijeme na horizontální matematickou jednotku 2, když ji při
     </Record>
     <Record>
       <Key>SetMemoryDescription4</Key>
-      <Value>Svislá osa solárních panelů se měří v procentech, zatímco senzory vydávají údaje o slunečních úhlech ve stupních od 0 do 150.
+      <Value>Svislá osa solárních panelů se měří v procentech, zatímco senzory vydávají údaje o solárních úhlech ve stupních od 0 do 150.
             
 Aby byly solární panely kompatibilní se senzory, používáme Vertikální logiku matematiky 1 k rozdělení dat senzoru 1.5, čímž převedeme stupeň na procenta.
             </Value>
@@ -137,7 +137,7 @@ Aby byly solární panely kompatibilní se senzory, používáme Vertikální lo
       <Key>SetMemoryDescription5</Key>
       <Value>Nakonec zkalibrujte vertikální polohu solárního panelu. 
 \t\t\t
-Chcete-li to provést, vezměte vertikální procento slunečního úhlu z vertikální matematiky 1 a přidejte 50% pomocí Přidat paměť ve vertikální matematice 2. Tím se vytvoří 50% horizontální nulový bod solárního panelu (plochý, obrácený směrem nahoru).</Value>
+Chcete-li to provést, vezměte vertikální procento solárního úhlu z vertikální matematiky 1 a přidejte 50% pomocí Přidat paměť ve vertikální matematice 2. Tím se vytvoří 50% horizontální nulový bod solárního panelu (plochý, obrácený směrem nahoru).</Value>
     </Record>
     <Record>
       <Key>SetMemory0</Key>
@@ -209,7 +209,7 @@ Poznámka: Zapisovač logiky musíte umístit tak, aby se výstupní datová zá
     </Record>
     <Record>
       <Key>LogicReaderSetupDescription</Key>
-      <Value>Čtečka logiky dělá přesně to, jak zní: čte logiku. Použijeme je ke čtení slunečního úhlu z každého senzoru.</Value>
+      <Value>Čtečka logiky dělá přesně to, jak zní: čte logiku. Použijeme je ke čtení solárního úhlu z každého senzoru.</Value>
     </Record>
     <Record>
       <Key>LogicReader1</Key>
@@ -229,7 +229,7 @@ Poznámka: Zapisovač logiky musíte umístit tak, aby se výstupní datová zá
     </Record>
     <Record>
       <Key>LogicReaderLogicSetup2</Key>
-      <Value>Nastavte logickou hodnotu na sluneční úhel.</Value>
+      <Value>Nastavte logickou hodnotu na solární úhel.</Value>
     </Record>
     <Record>
       <Key>LogicReaderLogicSetup3</Key>
@@ -237,7 +237,7 @@ Poznámka: Zapisovač logiky musíte umístit tak, aby se výstupní datová zá
     </Record>
     <Record>
       <Key>LogicReaderLogicSetup4</Key>
-      <Value>Nastavte logickou hodnotu na sluneční úhel.</Value>
+      <Value>Nastavte logickou hodnotu na solární úhel.</Value>
     </Record>
     <Record>
       <Key>VerticalLogicProcessors</Key>
@@ -347,9 +347,11 @@ Další {THING:StructureLogicMath} přečte vstup našeho prvního {THING:Struct
       <Key>HorizontalLogicProcessorSetUpDescription</Key>
       <Value>Stejně jako vertikální modul obvodu musíme provést výpočty horizontálních vstupních dat. 
 \t\t\t
-Nejprve převeďte zápornou hodnotu horizontálních dat slunečního úhlu vynásobením -1. Chcete-li to provést, přečtěte si data z čtečky logiky pomocí {THING:StructureLogicMath} a vynásobte jej pomocí {THING:StructureLogicMemory} označeného Invertovat.
+Nejprve převeďte zápornou hodnotu horizontálních dat solárního úhlu vynásobením -1. Chcete-li to provést, přečtěte si data z čtečky logiky pomocí {THING:StructureLogicMath} a vynásobte jej pomocí {THING:StructureLogicMemory} označeného Invertovat.
             
-Dalším krokem je vyrovnání dat dodaných zařízením {THING:StructureDaylightSensor}. V tomto případě musíme data upravit o -90. To provedete načtením výstupní hodnoty {THING:StructureLogicMath} a přidáním do {THING:StructureLogicMemory} označeného Posun.</Value>
+Dalším krokem je vyrovnání dat dodaných zařízením {THING:StructureDaylightSensor}. V tomto případě musíme data upravit o -90. To provedete načtením výstupní hodnoty {THING:StructureLogicMath} a přidáním do {THING:StructureLogicMemory} označeného Posun.
+
+            </Value>
     </Record>
     <Record>
       <Key>PlaceLogicMath2</Key>
@@ -425,7 +427,7 @@ Dalším krokem je vyrovnání dat dodaných zařízením {THING:StructureDaylig
     </Record>
     <Record>
       <Key>SleepModeDescription</Key>
-      <Value>Nyní máme sluneční sledovací obvod, který bude sledovat sluneční světlo po celý den.
+      <Value>Nyní máme solární sledovací obvod, který bude sledovat sluneční světlo po celý den.
 \t\t\t
 Ale co noc? Za tímto účelem nastavíme další modul, který bude fungovat jako režim spánku. Pokud jsou senzory denního světla neaktivní nebo nepřijímají denní světlo, solární panely se vrátí do výchozí polohy. Abychom to mohli udělat, musíme použít jednotky {THING:StructureLogicReader} ke čtení aktivního stavu na každém {THING:StructureDaylightSensor}.
             </Value>
