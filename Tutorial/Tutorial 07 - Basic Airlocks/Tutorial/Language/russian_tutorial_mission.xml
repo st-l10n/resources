@@ -218,12 +218,16 @@
       <Value>Установите {THING:StructureCableStraight}.</Value>
     </Record>
     <Record>
+      <Key>AdvancedPressure</Key>
+      <Value>Расширеное управление давлением</Value>
+    </Record>
+    <Record>
       <Key>AdvancedPressureDescription</Key>
       <Value>Теперь, когда устройства на месте, нам нужно поменять {THING:CircuitboardAirlockControl} на {THING:CircuitboardAdvAirlockControl}.</Value>
     </Record>
     <Record>
       <Key>AdvancedPressureTask1</Key>
-      <Value>Заберите {THING:ItemGlassSheets} из первой {THING:StructureConsole}.</Value>
+      <Value>Снимите {THING:ItemGlassSheets} с {THING:StructureConsole} с помощью лома.</Value>
     </Record>
     <Record>
       <Key>AdvancedPressureTask2</Key>
@@ -236,6 +240,10 @@
     <Record>
       <Key>AdvancedPressureask4</Key>
       <Value>Вставьте {THING:ItemDataDisk}.</Value>
+    </Record>
+    <Record>
+      <Key>AAdvancedAirLock</Key>
+      <Value>Продвинутый шлюз</Value>
     </Record>
   </Interface>
 </Language>
