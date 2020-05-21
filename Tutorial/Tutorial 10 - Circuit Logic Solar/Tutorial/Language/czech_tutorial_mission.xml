@@ -128,15 +128,16 @@ Tuto hodnotu použijeme na horizontální matematickou jednotku 2, když ji při
     </Record>
     <Record>
       <Key>SetMemoryDescription4</Key>
-      <Value>Nakonec zkalibrujte vertikální polohu solárního panelu. 
-\t\t\t
-Chcete-li to provést, vezměte vertikální procento slunečního úhlu z vertikální matematiky 1 a přidejte 50% pomocí funkce přidat paměť ve vertikální matematice 2. Tím se vytvoří 50% horizontální nulový bod solárního panelu (plochý, obrácený směrem nahoru).</Value>
+      <Value>Svislá osa solárních panelů se měří v procentech, zatímco senzory vydávají údaje o slunečních úhlech ve stupních od 0 do 150.
+            
+Aby byly solární panely kompatibilní se senzory, používáme Vertikální logiku matematiky 1 k rozdělení dat senzoru 1.5, čímž převedeme stupeň na procenta.
+            </Value>
     </Record>
     <Record>
       <Key>SetMemoryDescription5</Key>
-      <Value>Svislá osa solárních panelů se měří v procentech, zatímco senzory vydávají údaje o slunečních úhlech ve stupních od 0 do 150.
-            
-Aby byly solární panely kompatibilní se senzory, používáme vertikální logiku matematiky 1 k rozdělení dat senzoru o 1.5, čímž převedeme stupeň na procenta.</Value>
+      <Value>Nakonec zkalibrujte vertikální polohu solárního panelu. 
+\t\t\t
+Chcete-li to provést, vezměte vertikální procento slunečního úhlu z vertikální matematiky 1 a přidejte 50% pomocí Přidat paměť ve vertikální matematice 2. Tím se vytvoří 50% horizontální nulový bod solárního panelu (plochý, obrácený směrem nahoru).</Value>
     </Record>
     <Record>
       <Key>SetMemory0</Key>
