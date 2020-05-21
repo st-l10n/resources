@@ -48,8 +48,25 @@
 Мы все еще можем войти на базу, отменив цикл наддува в шлюзе. Помните об этом, если на вашей базе есть утечка воздуха, и вам нужно войти или выйти из нее, не выполняя цикл.</Value>
     </Record>
     <Record>
+      <Key>AtmoAirLockTask1</Key>
+      <Value>Войдите в шлюз и нажмите кнопку «Cycle to Interior/Цикл входа» на консоли. Подождите, пока внешняя дверь закроется, и появится новая кнопка с надписью «Cancel pressurize/Отменить повышение давления». Нажмите эту кнопку, и внутренняя дверь откроется.
+</Value>
+    </Record>
+    <Record>
+      <Key>AtmosAnalyser</Key>
+      <Value>Анализ атмосферы.</Value>
+    </Record>
+    <Record>
+      <Key>AtmosAnalyserDescription</Key>
+      <Value>Атмосферный анализатор используется для анализа состава, температуры и давления текущей атмосферы.</Value>
+    </Record>
+    <Record>
       <Key>TheTabletTaskAtmo</Key>
       <Value>Вставьте {THING:CartridgeAtmosAnalyser} в {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>Creating_Atmo</Key>
+      <Value>Создание атмосферы.</Value>
     </Record>
     <Record>
       <Key>Creating_AtmoTask1</Key>
