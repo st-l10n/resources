@@ -71,7 +71,16 @@
     </Record>
     <Record>
       <Key>CloseTheDoorTask3</Key>
-      <Value>Переименуйте наружную {THING:StructureCompositeDoor} в &apos;Внешняя дверь&apos; или &apos;External Door&apos;.</Value>
+      <Value>Переименуйте {THING:StructureCompositeDoor} расположенная снаружи в &apos;Внешняя дверь&apos; или &apos;External Door&apos;.</Value>
+    </Record>
+    <Record>
+      <Key>CloseTheDoorTask4</Key>
+      <Value>Переименуйте {THING:StructureCompositeDoor} расположенная внутри помещения в &apos;Внутренняя дверь&apos; или  &apos;Internal Door&apos;.</Value>
+    </Record>
+    <Record>
+      <Key>CreatingASealDescription</Key>
+      <Value>Продолжайте и завершите создание {THING:StructureCompositeDoor} с помощью {THING:ItemPlasticSheets} и {THING:ItemGlassSheets}.
+Затем нужно будет переименовать построенные двери, используя {THING:ItemLabeller}, который можно найти в оранжевом ящике.</Value>
     </Record>
     <Record>
       <Key>CreatingASealTask1</Key>
