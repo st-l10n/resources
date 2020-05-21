@@ -347,7 +347,7 @@ Další {THING:StructureLogicMath} přečte vstup našeho prvního {THING:Struct
       <Key>HorizontalLogicProcessorSetUpDescription</Key>
       <Value>Stejně jako vertikální modul obvodu musíme provést výpočty horizontálních vstupních dat. 
 \t\t\t
-Nejprve převeďte zápornou hodnotu horizontálních dat solárního úhlu vynásobením -1. Chcete-li to provést, přečtěte si data z čtečky logiky pomocí {THING:StructureLogicMath} a vynásobte jej pomocí {THING:StructureLogicMemory} označeného Invertovat.
+Nejprve převeďte zápornou hodnotu horizontálních dat solárního úhlu vynásobením -1. Chcete-li to provést, přečtěte si data z čtečky logiky pomocí {THING:StructureLogicMath} a vynásobte jej pomocí {THING:StructureLogicMemory} označeného Převést.
             
 Dalším krokem je vyrovnání dat dodaných zařízením {THING:StructureDaylightSensor}. V tomto případě musíme data upravit o -90. To provedete načtením výstupní hodnoty {THING:StructureLogicMath} a přidáním do {THING:StructureLogicMemory} označeného Posun.
 
