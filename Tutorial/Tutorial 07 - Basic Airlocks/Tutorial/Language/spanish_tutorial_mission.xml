@@ -254,6 +254,17 @@ Lo último que debe hacer es seleccionar la presión que desea para la presión 
       <Value>Una esclusa avanzada</Value>
     </Record>
     <Record>
+      <Key>AAdvancedAirLockDescription</Key>
+      <Value>Hay algunas diferencias al programar el {THING:CircuitboardAdvAirlockControl}.
+\t\t\t
+Primero, renombre el nuevo respiradero como &quot;Ventilación externa&quot; y el antiguo como &quot;Ventilación interna&quot;, para identificarlos en la consola. Selecciona cada {THING:StructureActiveVent}, asegurándote de asignarlos correctamente.
+
+Lo último que necesitas hacer es seleccionar la presión interna y externa deseada, que se encuentra cerca de la parte superior del panel de {THING:CircuitboardAdvAirlockControl}.
+Asegúrate de que la esclusa funciona pulsando el botón “Ciclo hacia el interior”.
+
+</Value>
+    </Record>
+    <Record>
       <Key>AAdvancedAirLockTask1</Key>
       <Value>Pulsa el botón “cycle to Interior”.</Value>
     </Record>
