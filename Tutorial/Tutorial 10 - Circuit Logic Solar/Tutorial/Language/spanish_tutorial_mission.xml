@@ -135,9 +135,9 @@ Para hacer que los paneles solares sean compatibles con los sensores, usamos Ver
     </Record>
     <Record>
       <Key>SetMemoryDescription5</Key>
-      <Value>El eje vertical de los paneles solares se mide como un porcentaje, mientras que los sensores emiten datos del ángulo solar en grados de 0 a 150.
-            
-Para hacer que los paneles solares sean compatibles con los sensores, usamos Vertical Logic Math 1 para dividir los datos del sensor por 1.5, convirtiendo así el grado en un porcentaje.</Value>
+      <Value>Por último, calibre la posición vertical del panel solar. 
+\t\t\t
+Para hacer esto, toma el porcentaje del ángulo solar vertical de la Matemática Vertical 1, y añade el 50% usando Añadir Memoria en la Matemática Vertical 2. Esto hará que el 50% sea el punto cero horizontal del panel solar (plano, mirando hacia arriba).</Value>
     </Record>
     <Record>
       <Key>SetMemory0</Key>
@@ -344,11 +344,11 @@ La próxima {THING:StructureLogicMath} leerá la entrada de nuestra primera {THI
     </Record>
     <Record>
       <Key>HorizontalLogicProcessorSetUpDescription</Key>
-      <Value>Al igual que el módulo vertical del circuito, necesitamos realizar cálculos en los datos de entrada horizontales.
+      <Value>Al igual que el módulo vertical del circuito, necesitamos realizar cálculos sobre los datos de entrada horizontales.
 \t\t\t
-Primero, invierta el valor negativo de los datos del ángulo solar horizontal multiplicándolo por -1. Para hacer esto, lea los datos del lector lógico con un {THING:StructureLogicMath} y multiplíquese con el {THING:StructureLogicMemory} etiquetado como Invertir.
+Primero, invierta el valor negativo de los datos del ángulo solar horizontal multiplicándolo por -1. Para hacer esto, lee los datos del Lector Lógico con una {THING:StructureLogicMath} y multiplícalos por la {THING:StructureLogicMemory} llamada Invertir.
             
-El siguiente paso es compensar los datos entregados por {THING:StructureDaylightSensor}. En este caso, necesitamos ajustar los datos en -90. Haga esto leyendo el valor de salida de {THING:StructureLogicMath} y agregándolo al {THING:StructureLogicMemory} etiquetado Offset.</Value>
+El siguiente paso es compensar los datos entregados por el {THING:StructureDaylightSensor}. En este caso necesitamos ajustar los datos en -90. Hazlo leyendo el valor de salida de la {THING:StructureLogicMath} y añadiéndolo a la {THING:StructureLogicMemory} etiquetada Offset.</Value>
     </Record>
     <Record>
       <Key>PlaceLogicMath2</Key>
