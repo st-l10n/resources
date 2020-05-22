@@ -83,7 +83,7 @@ Vamos a empezar con la configuración inicial de la esclusa. Primero, construye 
     </Record>
     <Record>
       <Key>CloseTheDoorTask4</Key>
-      <Value>Cambie el nombre de la puerta interior {THING:StructureCompositeDoor} por Puerta interior o algo reconocible.</Value>
+      <Value>Renombra la {THING:StructureCompositeDoor} interna a &quot;Puerta Interna&quot;.</Value>
     </Record>
     <Record>
       <Key>CreatingASeal</Key>
@@ -91,7 +91,9 @@ Vamos a empezar con la configuración inicial de la esclusa. Primero, construye 
     </Record>
     <Record>
       <Key>CreatingASealDescription</Key>
-      <Value>Adelante y termina la construcción de las {THING:StructureCompositeDoor}s con {THING:ItemPlasticSheets} y {THING:ItemGlassSheets}. Luego tendrás que renombrar las puertas recién construidas usando la {THING:ItemLabeller} que se encuentra en la caja naranja.</Value>
+      <Value>Adelante y termina de construir cada {THING:StructureCompositeDoor} con {THING:ItemPlasticSheets} y {THING:ItemGlassSheets}.
+Luego necesitas renombrar las puertas recién construidas usando la {THING:ItemLabeller}, que se encuentra en la caja naranja.
+        </Value>
     </Record>
     <Record>
       <Key>CreatingASealTask1</Key>
@@ -205,13 +207,15 @@ Después de configurar la cámara con éxito, el interior lateral de la  {THING:
     </Record>
     <Record>
       <Key>AirlockUpgradesDescription</Key>
-      <Value>Ahora que tiene una esclusa básica, hagamos algunas actualizaciones para convertirlo en una esclusa avanzada. Las esclusas de aire básicas funcionarán bien en la luna o los planetas sin atmósfera, pero si desea evitar que entren gases venenosos o altas / bajas temperaturas en su base, necesitará una esclusa de aire avanzada. Una cámara de aire avanzada bombea cualquier atmósfera fuera de la cámara de aire antes de presurizarla nuevamente con la atmósfera deseada.
+      <Value>Ahora que tienes una esclusa básica, vamos a hacer algunas mejoras para convertirla en una esclusa avanzada. 
 
-Para construir una esclusa de aire avanzada, necesitará otra {THING: StructureActiveVent}, más tubos y cables, junto con el {THING: CircuitboardAdvAirlockControl} para reemplazar el {THING: CircuitboardAirlockControl} de la esclusa básica.</Value>
+Las esclusas básicas funcionan bien en planetas sin atmósfera, pero para evitar que gases venenosos o temperaturas extremas entren en tu base, necesitas una esclusa avanzada. Estas bombean la atmósfera hacia fuera, antes de presurizar la Esclusa con la atmósfera deseada.
+
+Para crear una Esclusa Avanzada necesitarás construir otra {THING:StructureActiveVent} dentro de ella, y un respiradero pasivo en el exterior, y luego conectarlos con tubos.</Value>
     </Record>
     <Record>
       <Key>AirlockUpgradesTask1</Key>
-      <Value>Coloca otra {THING:StructureActiveVent} en el lugar destacado.</Value>
+      <Value>Coloca una {THING:StructureActiveVent} en el lugar resaltado de la esclusa.</Value>
     </Record>
     <Record>
       <Key>AirlockCableCorner</Key>
@@ -227,19 +231,15 @@ Para construir una esclusa de aire avanzada, necesitará otra {THING: StructureA
     </Record>
     <Record>
       <Key>AdvancedPressureDescription</Key>
-      <Value>Ahora que las estructuras están en su lugar, necesitamos cambiar {THING: CircuitboardAirlockControl} por {THING: CircuitboardAdvAirlockControl}
-        
-Solo hay unas pocas diferencias al programar {THING: CircuitboardAdvAirlockControl}. En primer lugar, debe seleccionar {THING: StructureActiveVent} interno y externo. A diferencia de las puertas, tendrá que mirar el interruptor en {THING: StructureActiveVent} para ver si es interactivo o no. Así es como puede identificar qué {THING: StructureActiveVent} esta seleccionado del menú.
-
-Lo último que debe hacer es seleccionar la presión que desea para la presión interna y externa, se encuentra cerca de la parte superior del {THING:CircuitboardAdvAirlockControl}. </Value>
+      <Value>Ahora que las estructuras están en su lugar, necesitamos cambiar la {THING:CircuitboardAirlockControl} por la {THING:CircuitboardAdvAirlockControl}.</Value>
     </Record>
     <Record>
       <Key>AdvancedPressureTask1</Key>
-      <Value>Quita el {THING:ItemGlassSheets} de la primera {THING:StructureConsole}.</Value>
+      <Value>Quita la {THING:ItemGlassSheets} de la {THING:StructureConsole} con la palanca.</Value>
     </Record>
     <Record>
       <Key>AdvancedPressureTask2</Key>
-      <Value>Cambia el {THING:CircuitboardAirlockControl}  por el {THING:CircuitboardAdvAirlockControl}.</Value>
+      <Value>Cambia la {THING:CircuitboardAirlockControl} por la {THING:CircuitboardAdvAirlockControl}.</Value>
     </Record>
     <Record>
       <Key>AdvancedPressureTask3</Key>

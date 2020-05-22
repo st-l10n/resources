@@ -423,9 +423,10 @@ El siguiente paso es compensar los datos entregados por {THING:StructureDaylight
     </Record>
     <Record>
       <Key>SleepModeDescription</Key>
-      <Value>Ahora tenemos un circuito de seguimiento solar que rastreará la luz solar durante todo el día.
+      <Value>Ahora tenemos un circuito de seguimiento solar que rastreará la luz del sol durante todo el día.
 \t\t\t
-¿Pero qué hay de la noche? Para esto, configuraremos otro módulo que actuará como modo de suspensión. Cuando los sensores de luz diurna están inactivos o no reciben luz diurna, los paneles solares se restablecerán a su posición predeterminada. Para hacer esto, necesitamos usar las unidades {THING:StructureLogicReader} para leer el estado activo en cada {THING:StructureDaylightSensor}.</Value>
+¿Pero qué hay de la noche? Para ello, instalaremos otro módulo que actuará como un modo de descanso. Cuando los sensores de luz diurna estén inactivos o no reciban luz diurna, los paneles solares se reajustarán a una posición predeterminada. Para hacer esto necesitamos usar las unidades {THING:StructureLogicReader} para leer el estado activo en cada {THING:StructureDaylightSensor}.
+            </Value>
     </Record>
     <Record>
       <Key>LogicSelect1</Key>
