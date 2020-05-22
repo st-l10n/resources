@@ -179,11 +179,13 @@ Nota: Cuando construyes una esclusa podrás acumular gases dentro del propio tub
     </Record>
     <Record>
       <Key>AirLockProgrammingDescription</Key>
-      <Value>Programar una esclusa es fácil, comienza por encender la {THING:StructureConsole}. Selecciona el {THING:StructureActiveVent} y el {THING:StructureGasSensor}.
+      <Value>Programar una esclusa es fácil, comienza por encender la {THING:StructureConsole}. Selecciona el {THING:StructureActiveVent} y el {THING:StructureGasSensor}. Los dispositivos resaltados en verde con texto rojo cuando se seleccionan.
 
-Al seleccionar las puertas asegúrate de que la puerta &apos;INTERIOR&apos; este para la puerta interior. Podrás ver es esto cuando las luces de la cámara se cambien a color verde a amarillo indicándote la puerta que estas aplicando los ajustes.
-Una vez que selecciones un dispositivo en la consola, el mismo aparece bloqueado para los controles individuales.
-Después de configurar la cámara con éxito, el interior lateral de la  {THING:StructureConsole} se pondrá de color verde y podrás quitar el disco de datos de la {THING:StructureConsole} La consola una vez saques el disco quedará bloqueada y no podras configurarla hasta volver a introducir el disco.</Value>
+Selecciona las dos puertas de la esclusa de aire. Si selecciona una puerta como &quot;Exterior&quot;, la otra se convertirá en &quot;Interna&quot;. Asegúrate de que las puertas estén correctamente asignadas.
+
+Una vez seleccionado un dispositivo, éste se bloqueará bajo su control y no responderá a las interacciones a menos que sea de seleccionado.
+
+Cuando hayas completado con éxito la instalación de la esclusa, el interruptor en al lado de la {THING:StructureConsole} se iluminará en verde. Ahora puedes quitar el disco de datos de la {THING:StructureConsole}.  La Consola se bloqueará, y no responderá a las interacciones a menos que vuelvas a insertar el Disco de datos.</Value>
     </Record>
     <Record>
       <Key>AirLockProgrammingTask1</Key>
