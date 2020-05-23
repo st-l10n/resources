@@ -4,75 +4,75 @@
   <Interface>
     <Record>
       <Key>PortableHydroponicsTask1</Key>
-      <Value>收集 {THING:ItemTablet}</Value>
+      <Value>拿起一个{THING:ItemPotato}。</Value>
     </Record>
     <Record>
       <Key>PortableHydroponicsTask2</Key>
-      <Value>捡起 {THING:ItemKitAutolathe}。</Value>
+      <Value>捡起{THING:ItemGasCanisterWater}。</Value>
     </Record>
     <Record>
       <Key>PortableHydroponicsTask3</Key>
-      <Value>将跟踪器记忆卡放入 {THING:ItemTablet}。</Value>
+      <Value>将水罐放入{THING:DynamicHydroponics}的底座</Value>
     </Record>
     <Record>
       <Key>PotatosInSpaceDescription</Key>
-      <Value>打开 {THING:ItemEvaSuit} 装备槽窗口</Value>
+      <Value>让{THING:ItemPotato}生长</Value>
     </Record>
     <Record>
       <Key>PotatosInSpaceTask2</Key>
-      <Value>插入 {THING:ItemDataDisk}。</Value>
+      <Value>收获{THING:ItemPotato}。</Value>
     </Record>
     <Record>
       <Key>FixedHydroponicsTask1</Key>
-      <Value>捡起 {THING:ItemKitAutolathe}。</Value>
+      <Value>捡起 {THING:ItemKitHydroponicStation}。</Value>
     </Record>
     <Record>
       <Key>FixedHydroponicsTask2</Key>
-      <Value>将 {THING:ItemAreaPowerControl} 放置在高亮的位置上。</Value>
+      <Value>将 {THING:ItemKitHydroponicStation} 放置在高亮的位置上。</Value>
     </Record>
     <Record>
       <Key>TankConnectorsWhatAreTheyTask1</Key>
-      <Value>收集 {THING:ItemTablet}</Value>
+      <Value>捡起{THING:ItemTankConnector}.</Value>
     </Record>
     <Record>
       <Key>TankConnectorsWhatAreTheyTask2</Key>
-      <Value>在高亮位置处建造 {THING:StructureGasSensor}</Value>
+      <Value>在高亮位置处建造 {THING:StructureTankConnector}。</Value>
     </Record>
     <Record>
       <Key>WaterTanksAndWrenches1</Key>
-      <Value>使用 {SLOT:Belt} 中的 {THING:ItemDrill}。</Value>
+      <Value>从工具带中取出{THING:ItemWrench}。</Value>
     </Record>
     <Record>
       <Key>WaterNetworksTask1</Key>
-      <Value>捡起 {THING:ItemKitAutolathe}。</Value>
+      <Value>捡起 {THING:ItemKitPipe}。</Value>
     </Record>
     <Record>
       <Key>WaterNetworksTask2</Key>
-      <Value>在高亮位置处放置另一个 {THING:StructureActiveVent}。</Value>
+      <Value>在高亮位置处放置另一个{THING:StructurePipeStraight}。</Value>
     </Record>
     <Record>
       <Key>KeepingItTidyTask1</Key>
-      <Value>从橙色箱中拿出一个 {THING:ItemCopperIngot}。</Value>
+      <Value>从箱子拿出一个{THING:ItemKitCompositeFloorGrating}。</Value>
     </Record>
     <Record>
       <Key>KeepingItTidyTask2</Key>
-      <Value>在高亮位置处放置另一个 {THING:StructureActiveVent}。</Value>
+      <Value>在高亮位置处放置另一个 {THING:StructureCompositeFloorGrating}。</Value>
     </Record>
     <Record>
       <Key>AutomatedHydroponicsTask1</Key>
-      <Value>打开 {THING:ItemTablet}</Value>
+      <Value>打开{THING:StructureHydroponicsStation}。</Value>
     </Record>
     <Record>
       <Key>AutomatedHydroponicsTask2</Key>
-      <Value>捡起 {THING:ItemKitAutolathe}。</Value>
+      <Value>拿起之前收获的{THING:ItemPotato}。</Value>
     </Record>
     <Record>
       <Key>AutomatedHydroponicsTask3</Key>
-      <Value>将 {THING:ItemDataDisk} 插入到 {THING:StructureConsole}。</Value>
+      <Value>把{THING:ItemPotato}种在{THING:StructureHydroponicsStation}里。</Value>
     </Record>
     <Record>
       <Key>HonestWorkTask2</Key>
-      <Value>打印一个 {THING:ItemPassiveVent}。</Value>
+      <Value>收获{THING:ItemPotato}。</Value>
     </Record>
   </Interface>
 </Language>

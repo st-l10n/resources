@@ -4,7 +4,7 @@
   <Interface>
     <Record>
       <Key>07BasicAirlocks</Key>
-      <Value>一个简单的气闸</Value>
+      <Value>#07 基础气闸系统</Value>
     </Record>
     <Record>
       <Key>FramesAreStrongTask1</Key>
@@ -64,7 +64,7 @@
     </Record>
     <Record>
       <Key>PassiveVentBuild</Key>
-      <Value>建造 {THING:StructurePipeCorner}。</Value>
+      <Value>建造{THING:StructurePassiveVent}。</Value>
     </Record>
     <Record>
       <Key>DigitalScreensTask1</Key>
@@ -104,7 +104,7 @@
     </Record>
     <Record>
       <Key>AdvancedPressureTask1</Key>
-      <Value>移除 {THING:ItemGlassSheets}。</Value>
+      <Value>用撬棍把 {THING:ItemGlassSheets}从{THING:StructureConsole}上面卸下来。</Value>
     </Record>
     <Record>
       <Key>AdvancedPressureTask3</Key>
