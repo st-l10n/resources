@@ -4902,15 +4902,31 @@
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFaceMount</Key>
-      <Value>只允许在{THING:StructureFrameIron} 和 {THING:StructureFrame} 上摆设，升级后将拥有更多摆设面.</Value>
+      <Value>放置在小网格上</Value>
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFaceMountMissingFrame</Key>
-      <Value>只允许在{THING:StructureFrameIron} 和 {THING:StructureFrame} 上摆设，升级后将拥有更多摆设面.</Value>
+      <Value>只允许摆放在{THING:StructureFrameIron} 和 {THING:StructureFrame} 上</Value>
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFaceMountMissingSupport</Key>
-      <Value>放置在网格上.</Value>
+      <Value>放置点需要支撑</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceMountBlockedDynamic</Key>
+      <Value>放置点被 #VAR1# 挡住</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceMountBlockedFallback</Key>
+      <Value>无法摆放</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceNotMountableDynamic</Key>
+      <Value>#VAR1# 不允许安装</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceNotMountableFallback</Key>
+      <Value>其中一个结构不允许安装</Value>
     </Record>
     <Record>
       <Key>GameMenuClearDisconnectedPlayers</Key>
