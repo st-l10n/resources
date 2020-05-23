@@ -6916,6 +6916,14 @@
       <Value>已弃用</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandPop</Key>
+      <Value>寄存器值取栈顶部的值，并且sp减一</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandHcf</Key>
+      <Value>Halt and catch fire, 早期计算机的机器指令，作用是让CPU去做循环的寻址动作，CPU不停地做读取大量数据的循环，如果寻到不存在的内存地址(此时为Catch fire)，将会锁定计算机，即Halt. </Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandSelect</Key>
       <Value>如果a不为0，则寄存器值为b，否则为c</Value>
     </Record>
