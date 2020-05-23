@@ -24,7 +24,7 @@
 {LIST}{LINK:GettingStarted;入门}
 {/LIST}
 {HEADER:其他}
-{LIST}{LINK:GasPage;气体}, {LINK:ReagentPage;试剂}
+{LIST}{LINK:GasPage;气体}, {LINK:ReagentPage;化学原料}
 {/LIST}
 {HEADER:物品}
 {LIST}{LINK:ToolPage;工具}, {LINK:ResourcePage;资源}, {LINK:KitPage;套件}, {LINK:FoodPage;食物}, {LINK:ClothingPage;服装}, {LINK:AppliancePage;电器}, {LINK:IngotPage;锭块}, {LINK:OrePage;矿石}, {LINK:AlloyPage;合金}, {LINK:SuperAlloyPage;超级合金}
@@ -137,6 +137,15 @@
 如果你直接移向一个不完整的结构，你得到要完成建造该结构的材料和工具需求的提示。如果你使用的是错误的{LINK:ToolPage;工具}，将会出现一个提示，告诉你需要使用什么来拆卸它。
       </Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPage</Key>
+      <Title>化学原料</Title>
+      <Text>These are chemical quantities of certain types.
+      
+{HEADER:化学原料列表}
+{LIST_OF_REAGENTS}
+      </Text>
+    </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
@@ -225,7 +234,7 @@ Paintable {POS:300}{2}{3}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>CreatedReagentTemplate</Key>
-      <Text>{HEADER:试剂}
+      <Text>{HEADER:化学原料}
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
