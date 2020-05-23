@@ -37,7 +37,19 @@
       <Key>MarsTabletStage1Page1</Key>
       <Value>第1/2页\n停止恐慌。\n\n如果你在阅读这个，说明你已经从这次疏散中存活下来了 - 恭喜你.  无论你所处的环境如何，你的首要任务是先检查你自身的身体状况以及周围的情况。  请确保太空服的完整性，这是至关重要的，因为没人会告诉你所处的环境如何，况且这能够保证你的空气供应。</Value>
     </Record>
+    <Record>
+      <Key>MarsTabletStage1Page2</Key>
+      <Value>第2/2页 \n如果你在一个有补给箱的完整逃生舱附近, 你应该有了一些关键性的物资来帮助你等待救援。如果没有, 那就去找。  你一定要记下那些任何对你的生存起关键性作用的物资的位置或是直接收集起来，比如食物、电池、实用材料像胶带和便携式求生设备。\n</Value>
+    </Record>
     <!-- Mission Stage: Aquire Raw Materials -->
+    <Record>
+      <Key>MarsTitleRawMaterials</Key>
+      <Value>乞讨，挖掘和偷窃</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage2</Key>
+      <Value>原材料</Value>
+    </Record>
     <Record>
       <Key>MarsDescRawMaterials</Key>
       <Value>找到一种方法来生产制造所需的基本材料。</Value>
@@ -52,7 +64,11 @@
     </Record>
     <Record>
       <Key>MarsTaskGetGoldIngots</Key>
-      <Value>得到一个{THING:ItemGoldIngot}</Value>
+      <Value>获取一个{THING:ItemGoldIngot}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage2Page1</Key>
+      <Value>第1/5页 \n乞讨，钻地或偷窃\n\n好消息是，我们的制造工具已经知晓所有配方，这些配方根据你的情况可能会派上用场。  坏消息是，这些配方都需要原材料。  根据你的情况，所需的这些原材料可能有好几种来源：</Value>
     </Record>
     <!-- Mission Stage: Setup Manufacturing -->
     <Record>
