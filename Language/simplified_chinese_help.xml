@@ -206,5 +206,25 @@ Paintable {POS:300}{2}{3}{/LIST}</Text>
       <Text>{HEADER:试剂}
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPageTemplate</Key>
+      <Text>一种 {LINK:ReagentPage;化学原料}, 通常在其变为 {LINK:IngotPage;锭块} 的形式时使用.
+
+{HEADER:常规}
+{LIST}单位 {POS:300}{1}{/LIST}
+
+{HEADER:产地}
+{LIST}{2}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageTemplate</Key>
+      <Text>一种{LINK:GasPage;气体}, 通常在进行{LINK:SmeltingPage;熔炼}操作时产出.
+
+{HEADER:常规}
+{LIST}比热容 {POS:300}{1}{2}{/LIST}
+
+{HEADER:产地}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
   </HelpPage>
 </Language>
