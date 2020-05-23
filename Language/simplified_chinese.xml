@@ -6912,6 +6912,14 @@
       <Value>或非运算，当且仅当a, b都为0时, 寄存器 = 1，否则为0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBnazal</Key>
+      <Value>如果abs(a) &gt; float.epsilon * 8 则跳到第 c 行执行代码</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSqrt</Key>
+      <Value>寄存器 r 的值 = 对a的平方根运算</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandRound</Key>
       <Value>寄存器 r 的值 = 对a四舍五入的整数</Value>
     </Record>
