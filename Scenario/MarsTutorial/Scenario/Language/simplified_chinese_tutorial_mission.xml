@@ -20,6 +20,22 @@
       <Value>关闭 {LINK:Home;Stationpedia}</Value>
     </Record>
     <Record>
+      <Key>TutorialTheBeginningTask2</Key>
+      <Value>装备你的{THING:ItemSpaceHelmet}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTheBeginningTask3</Key>
+      <Value>装备你的{THING:ItemSpacepack}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTheBeginningTask4</Key>
+      <Value>装备你的{THING:ItemEvaSuit}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDontBeAToolDescription</Key>
+      <Value>你知道他们在说什么，在带上你的工具带之前哪都不要去! 马上拿起来带上。</Value>
+    </Record>
+    <Record>
       <Key>TutorialDontBeAToolTask1</Key>
       <Value>装备你的{THING:ItemToolBelt}</Value>
     </Record>
@@ -78,6 +94,42 @@
     <Record>
       <Key>TutorialLockItDownTitle</Key>
       <Value>立即锁定它</Value>
+    </Record>
+    <Record>
+      <Key>TutorialLockItDownTask1</Key>
+      <Value>按 {KEY:Internals} 关好你的 {THING:ItemSpaceHelmet}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialLockItDownTask2</Key>
+      <Value>按 {KEY:HelmetSlot} 打开 {THING:ItemSpaceHelmet} 菜单，点击&quot;锁定面罩&quot;按钮</Value>
+    </Record>
+    <Record>
+      <Key>TutorialTheGreatOutdoorsTask1</Key>
+      <Value>进入 {THING:StructureAirlock}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialHatHairTask1</Key>
+      <Value>解锁你的 {THING:ItemSpaceHelmet}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialHatHairTask2</Key>
+      <Value>打开你的 {THING:ItemSpaceHelmet} 面罩</Value>
+    </Record>
+    <Record>
+      <Key>TutorialIsItGettingHotInHereTitle</Key>
+      <Value>这里在变热吗？</Value>
+    </Record>
+    <Record>
+      <Key>TutorialIsItGettingHotInHereDescription</Key>
+      <Value>从储物柜里拿上{THING:ItemKitFurnace}并且安放在那边. 按{KEY:QuantityModifier}来进行旋转调整.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialIsItGettingHotInHereTask1</Key>
+      <Value>把{THING:ItemKitFurnace}安置在高亮的区域中</Value>
+    </Record>
+    <Record>
+      <Key>TutorialItsJustTheFurnaceTitle</Key>
+      <Value>这只是个熔炉</Value>
     </Record>
   </Interface>
 </Language>
