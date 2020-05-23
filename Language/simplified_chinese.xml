@@ -6912,6 +6912,18 @@
       <Value>或非运算，当且仅当a, b都为0时, 寄存器 = 1，否则为0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandAbs</Key>
+      <Value>寄存器 r 的值 = a的绝对值</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandLog</Key>
+      <Value>寄存器 r 的值 = log(a) 对数函数 返回以10为底a的对数值</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandExp</Key>
+      <Value>寄存器 r 的值 = exp(a) 指数函数 返回自然对数e的a次方的值</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandRand</Key>
       <Value>寄存器 r 值等于随机的x数，x区间0 &lt;= x &lt;1</Value>
     </Record>
