@@ -9,76 +9,73 @@
     <StationpediaPage>
       <Key>Home</Key>
       <Title>主页</Title>
-      <Text>欢迎使用Stationeers的内部帮助系统。 使用此工具，您可以找到有关所有系统如何工作的信息，以及有关世界上所有事物的重要信息。
+      <Text>欢迎使用Stationeers的内置帮助系统。 使用此工具，您可知晓所有系统的工作原理以及该游戏的所有重要信息。
+      
+{HEADER:使用帮助}
+您可以按{KEY:Help}键打开和关闭此窗口。要在游戏时启用鼠标光标，请按住{KEY:MouseControl}键，这样可以让你单击帮助系统中出现的链接。
 
-{HEADER:Using Help}
-您可以使用{KEY:Help}键打开和关闭此窗口。要在播放时启用鼠标光标，请按住{KEY:MouseControl}键，这样您就可以单击帮助系统中的链接。
+{HEADER:检查}
+如果你按住 {KEY:MouseControl} 和 {KEY:MouseInspect}然后单击某些东西就可以对其进行 [i]检查[/i] 。这将打开帮助系统中与该物品相关的页面，为您提供关于此物品的详细信息。
 
-{HEADER:Inspecting}
-如果您按住{KEY:MouseControl}和{KEY:MouseInspect}并单击某些内容，您可以[i]检查它[/ i]。这将打开与该对象相关的页面的帮助系统，并为您提供详细信息。
-
-{HEADER:Key topics}
-{LIST}{LINK:SmeltingPage;熔炼},{LINK::MiningPage;采矿}, 
-{LINK:ConstructionPage;结构}, {LINK:InventoryPage;库存}
+{HEADER:主要内容}
+{LIST}{LINK:SmeltingPage;熔炼}, {LINK:MiningPage;采矿}, {LINK:ConstructionPage;建造},{LINK:InventoryPage;库存}
 {/LIST}
-{HEADER:Guides}
+{HEADER:指南}
 {LIST}{LINK:GettingStarted;入门}
 {/LIST}
-{HEADER:Other}
-{{LIST}}{LINK:GasPage;气体}, {LINK:ReagentPage;试剂}
+{HEADER:其他}
+{LIST}{LINK:GasPage;气体}, {LINK:ReagentPage;试剂}
 {/LIST}
-{HEADER:Items}
-{LIST}}{LINK:ToolPage;工具}, {LINK:ResourcePage;资源}, {LINK:KitPage;套件}, 
-{LINK:IngotPage;食品}, {LINK:ClothingPage;服装}, {LINK:AppliancePage;电器},
-{LINK:IngotPage;锭}, {LINK:OrePage;矿石}, {LINK:AlloyPage;合金}
+{HEADER:物品}
+{LIST}{LINK:ToolPage;工具}, {LINK:ResourcePage;资源}, {LINK:KitPage;套件}, {LINK:FoodPage;食物}, {LINK:ClothingPage;服装}, {LINK:AppliancePage;电器}, {LINK:IngotPage;锭块}, {LINK:OrePage;矿石}, {LINK:AlloyPage;合金}, {LINK:SuperAlloyPage;超级合金}
 {/LIST}
-{HEADER:Structures}
-{{LIST}}{LINK:DevicePage;设备}, {LINK:FabricatorPage;加工厂}, {LINK:AirlockDevicePage;气闸设备}, {LINK:LogicUnitPage;逻辑电路}
+{HEADER:建设}
+{LIST}{LINK:DevicePage;设备}, {LINK:FabricatorPage;加工厂}, {LINK:AirlockDevicePage;气闸设备}, {LINK:LogicUnitPage;逻辑单元}
 {/LIST}
       
-
       </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GettingStarted</Key>
       <Title>开始</Title>
-      <Text>{HEADER:Welcome to a new world}
-如果这是你第一次，那么一次学习很多东西。 对你的最初压力是巨大的，开始时可能真的很难。 以下是一些开始的一般指导原则。 每种世界类型都有您需要面对的不同问题，但以下内容应该为您提供您需要管理的内容的广泛概述。
+      <Text>{HEADER:欢迎踏入新大陆}
+如果你是第一-次游玩此游戏。 那你可有得学了。一开始你可能会感到压力山大， 入门更是难上加难。不过没关系，以下列出的指导方针将会告诉你在游戏里应该要干什么。当然在不同的星球上你所要面对的问题是不一样的，所以下列指引只是给出了个大概，不过应该会让你大致了解你需要处理哪些方面的事情。
+      
+{HEADER:让你的宇航服充满电}
+你的当务之急是给你{THING:ItemEvaSuit}里的{THING:ItemBatteryCellLarge}充好电。宇航服电池是用来给你的{THING:ItemSpaceHelmet}灯供电的(不用的时候记得把它关掉)，同时也是加热你内部空气的能源。在寒冷的环境里，这会消耗很多电力。这意味着你需要安装一个{THING:ItemBatteryCharger}并将其连接到一个电源，比如用{THING:ItemCoalOre}作燃料的{THING:StructureSolidFuelGenerator}或是{THING:StructureSolarPanel}，这2种发电方式在初期都能作为很不错的充电电源。在紧急情况下，你甚至要从你的{LINK:ToolPage;工具}中取出电池来让你的宇航服保持供电，或者用{THING:PortableSolarPanel}来为你的电池充电。
 
-{HEADER:Keeping your Suit Charged}
-最紧迫的需求是在{THING:ItemEvaSuit}中为{THING:ItemBatteryCellLarge}充电。 套装电池用于为您的{THING:ItemSpaceHelmet}灯供电（不使用时将其关闭）并预热内部空气。 在寒冷的世界里，这会吸引很多力量。 你需要放下一个{THING:ItemBatteryCharger}并将它连接到一个电源，{THING:StructureSolidFuelGenerator}由{THING:ItemCoalOre}或{THING:StructureSolarPanel}驱动是处理这个的好方法。 在紧急情况下，请从您的{LINK:ToolPage; Tools}中取出电池以保持您的套装正常运行或使用随附的{THING:PortableSolarPanel}为其充电。
+{HEADER:提高电力采集}
+在电源和充电器之间放置一个插入{THING:ItemBatteryCell}的{THING:StructureAreaPowerControl}将会有很大帮助。这是因为电源产生的电量可能超过{THING:ItemBatteryCharger}所能容纳的电量，其他多余的产出电量都会被浪费掉。此外，您还可以手动调整{THING:StructureSolarPanel}的方向，但自动化它来实现太阳追踪将对您有很大帮助。你可以使用{LINK:LogicUnitPage;逻辑单元}去实现这个功能。
+      
+{HEADER:氧气管理}
+你的{THING:ItemEvaSuit}和{THING:ItemSpaceHelmet}形成了了一个隔绝外界环境的保护层。{THING:ItemEvaSuit}需要{THING:ItemGasCanisterOxygen}来给你供应纯净的{GAS:Oxygen}。注意罐里的氧气含量，你可以使用着陆器上提供的大型{THING:DynamicGasCanisterOxygen}来补充。
 
-{HEADER:Improving Power Collection}
-在电源和充电器之间插入{THING:StructureAreaPowerControl}并插入{THING:ItemBatteryCell}将有很大帮助。 这是因为电源可能产生的功率超过{THING:ItemBatteryCharger}可以容纳和浪费的功率。 此外，虽然您可以手动定位{THING:StructureSolarPanel}，但自动跟踪太阳会对您有所帮助。 您可以使用{LINK:LogicUnitPage; Logic Units}来帮助您。
+{HEADER:基础熔炼}
+一旦你有了一些基础的发电设施，你就要开始想办法获得更多的资源。出去{LINK:MiningPage;采矿}来获得基础{LINK:OrePage;矿石}。把{THING:StructureArcFurnace}安装并连接到你的{THING:StructureAreaPowerControl}后面。这将开始熔炼基础{LINK:OrePage;矿石}，如{THING:ItemIronOre}、{THING:ItemSiliconOre}和任何其他非{LINK:AlloyPage;合金}矿石。
 
-{HEADER:Managing your Oxygen}
-你的{THING:ItemEvaSuit}和{THING:ItemSpaceHelmet}构成了元素的保护壳。 {THING:ItemEvaSuit}需要{THING:ItemGasCanisterOxygen}为您提供纯{GAS:Oxygen}。 注意水箱中的气体量，您可以使用起动装置中提供的大型{THING:DynamicGasCanisterOxygen}进行重新填充。 有一个“危险”标记表示您可以插入容器以重新填充它的插槽。
+{HEADER:基础建造}
+现在你有了一些{LINK:IngotPage;锭块}，你可以把它们作为资源插入到{LINK:FabricatorPage;处理设备}。从起始的便携箱中提供的{THING:ItemKitAutolathe}来建造{THING:StructureAutolathe}。
 
-{HEADER:Basic Smelting}
-一旦你有一些基本的发电，你需要开始获得更多的资源。 前往{LINK:MiningPage; Mining}获取基本{LINK:OrePage; Ores}。 放下{THING:StructureArcFurnace}并将其连接到{THING:StructureAreaPowerControl}后面。 这将{LINK:SmeltingPage; Smelt}基本{LINK:OrePage; Ores}，例如{THING:ItemIronOre}，{THING:ItemSiliconOre}，以及任何其他非{LINK:AlloyPage; Alloy}。
+{HEADER:更换你的滤芯}
+当你吸入{GAS:Oxygen}时，你也会呼出{GAS:CarbonDioxide}，所以你需要在你的{SLOT:Filter}槽中安装一个{THING:ItemGasFilterCarbonDioxide}。随着时间的推移，这些东西最终会消耗殆尽，在此之前你需要在{THING:StructureHydraulicPipeBender}上造个新的。这个装置可以从{THING:StructureAutolathe}建造出来。
 
-{HEADER:Basic Fabrication}
-现在您已经{LINK:IngotPage; Ingots}，您可以将它们作为资源插入{LINK:FabricatorPage; Fabricators}。 从起始箱中提供的{THING:ItemKitAutolathe}构造{THING:StructureAutolathe}。
+{HEADER:建造温室}
+你将需要一个小小的密闭区域来设置{LINK:HydroponicsPage;水培}，让你可以生产{LINK:FoodPage;食物}。不要建的太大，太大意味着加压需要更长时间。用{THING:ItemKitWallIron}造多几个{THING:StructureWallIron}，目的是让阳关能照射到植物上。确保在入口处建造自动化的或是手动控制的 {LINK:AirlockPage;气闸} 来管理进出。记得你是可以用{THING:ItemCrowbar}强行打开和关闭未通电的门的。
 
-{HEADER:Replacing your Filters}
-当您在{GAS:Oxygen}呼吸时，您也会呼出{GAS:CarbonDioxide}，所以您的{SLOT:Filter}插槽中还需要{THING:ItemGasFilterCarbonDioxide}。 随着时间的推移，这些磨损，你需要在{THING:StructureHydraulicPipeBender}上建立新的。 这可以通过{THING:StructureAutolathe}上的{THING:ItemKitHydraulicPipeBender}来实现。
+{HEADER:给你的温室加压}
+一旦你封闭了这片区域，去{LINK:MiningPage;开采}一些{THING:ItemOxite}并放进去让它融化，直到你的种植区有大约100kPa的压强。然后再往空气中加入一些{GAS:CarbonDioxide}。你可以很容易地做到这一点，从你的{THING:ItemEvaSuit}里拿出废气罐，打开它，然后再关上，最后放回到宇航服里。这会把你呼出的{GAS:CarbonDioxide}释放到环境中。{LINK:PlantPage;植物}呼吸作用会用到。
 
-{HEADER:Build a Glass House}
-您需要一个小的封闭区域来设置{LINK:HydroponicsPage; Hydroponics}，以便您制作{LINK:FoodPage; Food}。 不要太大，因为加压会更难。 使用{THING:ItemKitWallIron}工具包中的变体充分利用{THING:}，让阳光进入。确保使用自动{LINK:AirlockPage; Airlock}或手动管理条目。 请记住，您可以使用{THING:ItemCrowbar}打开和关闭无动力门。
+{HEADER:种植}
+把提供的{THING:DynamicHydroponics}带到你的新建的温室里。它内置有{THING:ItemGasCanisterWater}能给植物供应{GAS:Water}。现在从起始箱中拿出{THING:ItemPotato}放到里面开始种植。先种一个，别急，在你继续种其他的作物前确保这个是在正常生长的。作物需要阳光、温暖和少量的{GAS:CarbonDioxide}才能生长。
 
-{HEADER:Pressurize Your Glass House}
-一旦你把这个区域包围起来，{LINK:MiningPage; Mine}一些{THING:ItemOxite}并将其融化，直到你的种植区域有大约100 kPa的压力。 然后在大气中加入一些{GAS:CarbonDioxide}。 您可以轻松地将废物箱从{THING:ItemEvaSuit}带到您的手中，打开它，关闭它并将其放回原位。 这将从您的呼吸中释放过滤的{GAS:CarbonDioxide}进入环境。 {LINK:PlantPage; Plants}将用它来呼吸。
+{HEADER:高级熔炼}
+{THING:StructureArcFurnace}只能帮助你熔炼一些简单的{LINK:OrePage;矿石}，但为了制造更高级的部件，你需要使用更复杂的方法来冶炼{LINK:AlloyPage;合金}。这些都是在{THING:StructureFurnace}中完成的，通过达到正确的{LINK:PressurePage;压力}、{LINK:TemperaturePage;温度}和{LINK:ReagentPage;试剂}配比。例如，要得到{THING:ItemSteelIngot}，你需要按1{REAGENT:Coal}  : 3{REAGENT:Iron}的比例来熔炼。
 
-{HEADER:Growing Plants}
-将提供的{THING:DynamicHydroponics}带入您的新玻璃屋。 它有一个{THING:ItemGasCanisterWater}来提供植物{GAS:Water}。 现在使用来自入门板条箱的{THING:ItemPotato}进行种植。 首先种植一个，并在使用其他之前验证它是否在增长。 它们需要阳光，温暖和少量{GAS:CarbonDioxide}才能生存。
+你可以直接把{LINK:IcePage;冰块}从上面放入。如果没有空气可以融化它们，请按{LOGICTYPE:Activate}按钮将其融掉。如果里面有合适的温度的和足够的空气，冰块会自动融化。也可以在里面燃烧{THING:ItemOxite}和{THING:ItemVolatiles}的混合物，虽然会起火，但这会大大增加里面的压力。
 
-{HEADER:Advanced Smelting}
-{THING:StructureArcFurnace}只允许你冶炼简单的{LINK:OrePage; Ores}，并制作更高级的组件，你需要使用更复杂的方法来冶炼{LINK:AlloyPage; Alloys}。 这些是在{THING:StructureFurnace}中完成的，通过实现正确的{LINK:PressurePage; Pressure}，{LINK:TemperaturePage; Temperature}和{LINK:ReagentPage; Reagent}混合比。 例如，要制作{THING:ItemSteelIngot}，您需要一个部分{REAGENT:Iron}和三个部分{REAGENT:Coal}的比率。
+一旦达到合适的温度，放入矿石进行熔炼，但是要注意你的比例要对，否则出来的{THING:ItemReagentMix}就是废渣，这个需要在{THING:StructureCentrifuge}中进行分离。若要导出产物，请拉动{LOGICTYPE:Open}控制杆。
 
-您可以直接将{LINK:IcePage;冰}插入顶部。 如果没有气氛融化它们，请按{LOGICTYPE:Activate}按钮将其压碎。 如果内部有足够的适当温度的气体，冰将自动融化。 混合使用{THING:ItemOxite}和{THING:ItemVolatiles}}来开火，虽然这会大大增加内部压力。
-
-一旦它处于合适的温度，插入矿石来冶炼它们 - 但是观察你的比例或废物将会出现{THING:ItemReagentMix}，需要在{THING:StructureCentrifuge}中进行分类。 要导出产品，请拉出{LOGICTYPE:Open} 手柄。
-{/LIST}</Text>
+更高级的{LINK:SuperAlloyPage;合金}可以在{THING:StructureAdvancedFurnace}中熔炼。它对熔炼工序的要求非常严格，也很难，但对于那些非常高级的制造工序来说是必要的。</Text>
     </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
