@@ -6912,6 +6912,14 @@
       <Value>或非运算，当且仅当a, b都为0时, 寄存器 = 1，否则为0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandRound</Key>
+      <Value>寄存器 r 的值 = 对a四舍五入的整数</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandTrunc</Key>
+      <Value>寄存器 r 的值 = a去掉小数部分的值 (如 trunc r1 1.5 此时r1的值为1)</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandCeil</Key>
       <Value>寄存器 r 的值 = 大于a的最小整数</Value>
     </Record>
