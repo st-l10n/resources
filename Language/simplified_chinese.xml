@@ -4929,6 +4929,14 @@
       <Value>其中一个结构不允许安装</Value>
     </Record>
     <Record>
+      <Key>TooltipPlacementSnapFaceWrongFaceDynamic</Key>
+      <Value>无法安装到#VAR1#这个面, 试试安装在别的地方</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceWrongFaceFallback</Key>
+      <Value>无法安装到这个面，试试安装在其他地方</Value>
+    </Record>
+    <Record>
       <Key>GameMenuClearDisconnectedPlayers</Key>
       <Value>清除断开连接的玩家</Value>
     </Record>
@@ -5022,7 +5030,7 @@
     </Record>
     <Record>
       <Key>PromptOverwriteBody</Key>
-      <Value>您确定要覆盖现有的已保存的世界吗？</Value>
+      <Value>您确定要覆盖现有的已保存的游戏吗？</Value>
     </Record>
     <Record>
       <Key>PromptOverwriteConfirm</Key>
@@ -5082,7 +5090,7 @@
     </Record>
     <Record>
       <Key>PromptGiveUpBody</Key>
-      <Value>你是无意识的。你想放弃和重生吗？</Value>
+      <Value>你陷入无意识状态。你想放弃然后重生吗？</Value>
     </Record>
     <Record>
       <Key>PromptGiveUpConfirm</Key>
@@ -5153,7 +5161,7 @@
     </Record>
     <Record>
       <Key>JoinMenuAddressPlaceholder</Key>
-      <Value>输入 IP:Port ...</Value>
+      <Value>此处输入 [IP地址 : 端口号] ...</Value>
     </Record>
     <Record>
       <Key>JoinMenuServerDetailConnectButton</Key>
@@ -6934,6 +6942,26 @@
     <Record>
       <Key>ResearchShowLocked</Key>
       <Value>显示锁定的研究</Value>
+    </Record>
+    <Record>
+      <Key>ResearchRequirementNotMet</Key>
+      <Value>你不符合解锁这项研究的要求。</Value>
+    </Record>
+    <Record>
+      <Key>ResearchUnlockConfirm</Key>
+      <Value>你想解锁这项研究项目吗？</Value>
+    </Record>
+    <Record>
+      <Key>WarningSavePathNotWritableDescription</Key>
+      <Value>无法写入保存路径。已重置为默认值</Value>
+    </Record>
+    <Record>
+      <Key>WarningSavePathNotWritable</Key>
+      <Value>保存路径无法写入</Value>
+    </Record>
+    <Record>
+      <Key>FramerateLock</Key>
+      <Value>帧数上限 </Value>
     </Record>
   </Interface>
   <Colors>
