@@ -6912,8 +6912,20 @@
       <Value>或非运算，当且仅当a, b都为0时, 寄存器 = 1，否则为0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandRand</Key>
+      <Value>寄存器 r 值等于随机的x数，x区间0 &lt;= x &lt;1</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandYield</Key>
+      <Value>暂停程序1 tick时长</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandLabel</Key>
       <Value>已弃用</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandPeek</Key>
+      <Value>取栈顶值放入寄存器 r 中</Value>
     </Record>
     <Record>
       <Key>ScriptCommandPush</Key>
