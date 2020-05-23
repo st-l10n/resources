@@ -142,24 +142,36 @@
     </Record>
     <Record>
       <Key>MarsTaskGrowPotato</Key>
-      <Value>生长 {THING:ItemPotato}到成熟。</Value>
+      <Value>培育{THING:ItemPotato}到成熟。</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage4Page1</Key>
+      <Value>第1/2页 \n搭顺风车\n要能种植作物的最基本要求就是要有一个水培托盘或是便携式水培盆。  这将需要水源供应，并放置在至少约20kpa，20-25摄氏度，并且含有少量二氧化碳的大气环境中。</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage4Page2</Key>
+      <Value>第2/2页\n万事开头难，最难的部分就是获得种子。  每一个逃生舱都有一个物资供给箱，里面有一定数量的种子让你开始种植——如何保护这些种子就变得很重要了。  如果你是从逃生舱中分离出来的，并且能找到一个追踪记忆卡，你可以用它来追踪逃生舱的信标。</Value>
     </Record>
     <!-- Mission Stage: Spawn Mothership & Engine -->
     <Record>
       <Key>MarsTitleCreateMothership</Key>
-      <Value>创建飞船</Value>
+      <Value>建造一艘母舰</Value>
     </Record>
     <Record>
       <Key>MarsTabletStage5</Key>
-      <Value>航天</Value>
+      <Value>航天飞行</Value>
     </Record>
     <Record>
       <Key>MarsDescCreateMothership</Key>
-      <Value>使用 {THING:MothershipCore} 和附加{THING:ItemKitMotherShipCore}{THING:StructureRocketEngine} 来创建 &quot;飞船&quot;</Value>
+      <Value>用{THING:ItemKitMotherShipCore}建造一个{THING:MothershipCore}，并安装上{THING:StructureRocketEngine}来建造母舰</Value>
     </Record>
     <Record>
       <Key>MarsTaskSpawnMothershipCore</Key>
       <Value>使用 {THING:ItemKitMotherShipCore}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskAttachEngine</Key>
+      <Value>把{THING:StructureRocketEngine}安装到{THING:MothershipCore}上</Value>
     </Record>
     <Record>
       <Key>MarsTitleLaunchMothership</Key>
