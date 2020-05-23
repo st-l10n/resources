@@ -6913,6 +6913,18 @@
       <Value>或非运算，当且仅当a, b都为0时, 寄存器 = 1，否则为0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBrgtz</Key>
+      <Value>如果 a &gt; 0 则相对转移到行b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBreqz</Key>
+      <Value>如果 a == 0 则相对转移到行b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrnez</Key>
+      <Value>如果 a != 0 则代码相对转移到行b</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandJal</Key>
       <Value>跳转到第 a 行执行代码 并存储下一行行号到ra寄存器</Value>
     </Record>
