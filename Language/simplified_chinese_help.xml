@@ -121,9 +121,35 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
+      <Key>IceMeltingTemplate</Key>
+      <Text>熔体温度 {POS:300}{1}
+熔体压力 {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatorsHeaderTemplate</Key>
+      <Text>{HEADER:制造源}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>ConstructedByHeaderTemplate</Key>
       <Text>{HEADER:从下列设备制造}
 {LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedHeaderTemplate</Key>
+      <Text>{HEADER:可制造}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructedHeaderTemplate</Key>
+      <Text>{HEADER:可建造}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicTransmitHeaderTemplate</Key>
+      <Text>
+        {HEADER:连接至}
+        {LIST}{0}{/LIST}
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>TierListHeaderTemplate</Key>
