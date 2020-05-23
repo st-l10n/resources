@@ -6912,6 +6912,26 @@
       <Value>或非运算，当且仅当a, b都为0时, 寄存器 = 1，否则为0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBgezal</Key>
+      <Value>如果 a &gt;= 0 跳到第 b 行执行代码 并存储下一行行号到ra寄存器中</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBlezal</Key>
+      <Value>如果 a &lt;= 0 跳到第b行执行代码 并存储下一行行号到ra寄存器</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgtzal</Key>
+      <Value>如果 a &gt; 0 跳到第 b 行执行代码 并存储下一行行号到ra寄存器</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBeqzal</Key>
+      <Value>如果 a == 0 即a等于0时 跳到第 b 行执行代码 并存储下一行行号到ra寄存器</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnezal</Key>
+      <Value>如果 a != 0 即a不为0时 跳到第 b 行执行代码并存储下一行行号到ra寄存器中</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandSqrt</Key>
       <Value>寄存器 r 的值 = 对a的平方根运算</Value>
     </Record>
