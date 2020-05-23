@@ -4308,7 +4308,7 @@
     </Record>
     <Record>
       <Key>NewWorldButtonCreate</Key>
-      <Value>创造世界</Value>
+      <Value>创建世界</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaTitle</Key>
@@ -4336,11 +4336,11 @@
     </Record>
     <Record>
       <Key>Europa</Key>
-      <Value>欧罗巴</Value>
+      <Value>木卫二</Value>
     </Record>
     <Record>
       <Key>EuropaBeta</Key>
-      <Value>欧罗巴</Value>
+      <Value>木卫二</Value>
     </Record>
     <Record>
       <Key>Moon</Key>
@@ -4360,7 +4360,7 @@
     </Record>
     <Record>
       <Key>Europa2</Key>
-      <Value>欧罗巴</Value>
+      <Value>木卫二</Value>
     </Record>
     <Record>
       <Key>Mimas</Key>
@@ -4380,7 +4380,7 @@
     </Record>
     <Record>
       <Key>NewWorldAreaEuropa2</Key>
-      <Value>欧罗巴</Value>
+      <Value>木卫二</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaVulcan2</Key>
@@ -5493,7 +5493,7 @@
     </Record>
     <Record>
       <Key>ChangeSlotSettingToFor</Key>
-      <Value>更改为&lt;color=yellow&gt;{2} 的 {1} ({0})&lt;/color=yellow&gt;</Value>
+      <Value>更改{2}为{1}&lt;color=yellow&gt;({0})&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>ChangeSettingToForAll</Key>
@@ -6781,7 +6781,7 @@
     </Record>
     <Record>
       <Key>SettingsTerrainClutter</Key>
-      <Value>地形颜色</Value>
+      <Value>地形崎岖</Value>
     </Record>
     <Record>
       <Key>ResetInventoryTitle</Key>
@@ -6793,7 +6793,7 @@
     </Record>
     <Record>
       <Key>SettingsTerrainClutterMultiplier</Key>
-      <Value>地形颜色</Value>
+      <Value>地形崎岖系数</Value>
     </Record>
     <Record>
       <Key>CurrentResearchPodType</Key>
@@ -6801,11 +6801,11 @@
     </Record>
     <Record>
       <Key>ResearchFilter</Key>
-      <Value>过滤</Value>
+      <Value>滤芯</Value>
     </Record>
     <Record>
       <Key>ResearchTitle</Key>
-      <Value>重置</Value>
+      <Value>研究</Value>
     </Record>
     <Record>
       <Key>ResearchConfirm</Key>
@@ -6825,35 +6825,35 @@
     </Record>
     <Record>
       <Key>ScriptCommandSlt</Key>
-      <Value>如果设备处于打开状态, 则为 1, 否则为0</Value>
+      <Value>a &lt; b时，寄存器为1，否则为0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSgt</Key>
-      <Value>如果设备处于打开状态, 则为 1, 否则为0</Value>
+      <Value>a &gt; b时，寄存器为1，否则为0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSltz</Key>
-      <Value>如果设备处于打开状态, 则为 1, 否则为0</Value>
+      <Value>a &lt; 0时，寄存器为1，否则为0.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSgtz</Key>
-      <Value>如果设备处于打开状态, 则为 1, 否则为0</Value>
+      <Value>a &gt; 0时，寄存器为1，否则为0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandAnd</Key>
-      <Value>如果设备当前处于闲置状态, 则返回 1, 否则为0</Value>
+      <Value>与运算，当且仅当a,b都为1时寄存器为1，否则为0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandOr</Key>
-      <Value>如果设备当前处于闲置状态, 则返回 1, 否则为0</Value>
+      <Value>或运算, 当且仅当a,b不全为0时，寄存器为1，否则为0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandXor</Key>
-      <Value>如果设备当前处于闲置状态, 则返回 1, 否则为0</Value>
+      <Value>异或运算，当且仅当a,b值都不相同时寄存器为1，否则为0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandNor</Key>
-      <Value>如果设备当前处于闲置状态, 则返回 1, 否则为0</Value>
+      <Value>或非运算，当且仅当a, b都为0时, 寄存器 = 1，否则为0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandLabel</Key>
@@ -6861,11 +6861,11 @@
     </Record>
     <Record>
       <Key>BluePodType</Key>
-      <Value>蓝：</Value>
+      <Value>蓝色 </Value>
     </Record>
     <Record>
       <Key>GreenPodType</Key>
-      <Value>绿：</Value>
+      <Value>绿色 </Value>
     </Record>
     <Record>
       <Key>YellowPodType</Key>
@@ -6873,19 +6873,19 @@
     </Record>
     <Record>
       <Key>ResearchRequirementTitle</Key>
-      <Value>实验</Value>
+      <Value>需求</Value>
     </Record>
     <Record>
       <Key>ResearchAutomation</Key>
-      <Value>燃点：</Value>
+      <Value>自动化</Value>
     </Record>
     <Record>
       <Key>ResearchConstruction</Key>
-      <Value>康铜</Value>
+      <Value>建筑</Value>
     </Record>
     <Record>
       <Key>ResearchShowLocked</Key>
-      <Value>锁定</Value>
+      <Value>显示锁定的研究</Value>
     </Record>
   </Interface>
   <Colors>
