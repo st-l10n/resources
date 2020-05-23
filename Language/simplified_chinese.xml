@@ -6916,8 +6916,12 @@
       <Value>已弃用</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandPush</Key>
+      <Value>入栈操作. 将a值压入堆栈中，并将sp寄存器的值加1</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandPop</Key>
-      <Value>寄存器值取栈顶部的值，并且sp减一</Value>
+      <Value>出栈操作. 取堆栈顶部的值放入寄存器 r 中，并且将sp寄存器的值减一</Value>
     </Record>
     <Record>
       <Key>ScriptCommandHcf</Key>
