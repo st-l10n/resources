@@ -247,6 +247,30 @@
       <Value>进入下一个房间</Value>
     </Record>
     <Record>
+      <Key>TutorialLetItGrowTask2</Key>
+      <Value>等待迎接你的大丰收</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSoCloseTask1</Key>
+      <Value>进入隔壁房间</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUnderPressureTask1</Key>
+      <Value>安放 {THING:StructureActiveVent}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUnderPressureTask2</Key>
+      <Value>安放 {THING:StructureConsole}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUnderPressureTask3</Key>
+      <Value>安放 {THING:StructureGasSensor}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUnderPressureTask4</Key>
+      <Value>安放 {THING:StructureFlashingLight}</Value>
+    </Record>
+    <Record>
       <Key>TutorialUnderPressure1Description</Key>
       <Value>太好了！现在让我们设置气压平衡程序，插入提供的部件并设置好控制台。</Value>
     </Record>
@@ -261,6 +285,18 @@
     <Record>
       <Key>TutorialUnderPressure1Task3</Key>
       <Value>安上玻璃板完成控制台的制作</Value>
+    </Record>
+    <Record>
+      <Key>TutorialHackingTheMainframeDescription</Key>
+      <Value>现在移除 数据磁盘 并打开控制台对 {THING:StructureAirlock} 进行编程.
+			
+		编程时候确保内部门选项选定的是&apos;INTERIOR&apos; 。 选定后可以看到上面的颜色从绿色转向红色，说明你已经在该门应用该选项。
+			
+		一旦控制台控制了一个设备，该设备将在其控制下并被锁定，它将不会响应你的任何交互指令。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialHackingTheMainframeTask1</Key>
+      <Value>安装 {THING:StructureAirlock}</Value>
     </Record>
   </Interface>
 </Language>
