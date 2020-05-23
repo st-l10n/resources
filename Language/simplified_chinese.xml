@@ -5277,7 +5277,7 @@
     </Record>
     <Record>
       <Key>WorldCreativeMode</Key>
-      <Value>创新模式</Value>
+      <Value>创造模式</Value>
     </Record>
     <Record>
       <Key>WorldTerrain</Key>
@@ -5441,7 +5441,7 @@
     </Record>
     <Record>
       <Key>LogicNoSlot</Key>
-      <Value>&lt;color=red&gt;无插槽&lt;/color=red&gt;</Value>
+      <Value>&lt;color=red&gt;无插槽&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>LogicNoAvailableSlots</Key>
@@ -5481,15 +5481,15 @@
     </Record>
     <Record>
       <Key>ChangeSettingToFor</Key>
-      <Value>更改 &lt;color=yellow&gt;{0}&lt;/color&gt; 为 {1}</Value>
+      <Value>更改{1}为&lt;color=yellow&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>ChangeSettingToForIn</Key>
-      <Value>&lt;color=yellow&gt;&lt;color=yellow&gt;更改为 {1} 中 {3} ({2})&lt;/color=yellow&gt;的 {0}&lt;/color=yellow&gt;</Value>
+      <Value>将在{1}中的{3}&lt;color=yellow&gt;({2})&lt;/color&gt;更改为&lt;color=yellow&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>ChangeReagentSettingTo</Key>
-      <Value>更改为 {2}。&lt;color=yellow&gt;{0}。&lt;color=yellow&gt;{1}&lt;/color=yellow&gt; &lt;/color=yellow&gt;</Value>
+      <Value>更改为{2}.&lt;color=yellow&gt;{0}&lt;/color&gt;.&lt;color=yellow&gt;{1}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>ChangeSlotSettingToFor</Key>
@@ -5497,7 +5497,7 @@
     </Record>
     <Record>
       <Key>ChangeSettingToForAll</Key>
-      <Value>更改为&lt;color=yellow&gt;{0}&gt;for 所有 {1}&lt;/color=yellow&gt;</Value>
+      <Value>更改所有{1}为&lt;color=yellow&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>InteractionTemporarilyDisabledOnThisObject</Key>
@@ -6565,7 +6565,7 @@
     </Record>
     <Record>
       <Key>ElectronicReaderVolatiles</Key>
-      <Value>氢</Value>
+      <Value>挥发性有机物</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderGold</Key>
@@ -6944,8 +6944,24 @@
       <Value>无</Value>
     </Record>
     <Record>
+      <Key>Backspace</Key>
+      <Value>退格</Value>
+    </Record>
+    <Record>
+      <Key>Return</Key>
+      <Value>回车</Value>
+    </Record>
+    <Record>
+      <Key>Pause</Key>
+      <Value>暂停</Value>
+    </Record>
+    <Record>
       <Key>Escape</Key>
       <Value>Esc</Value>
+    </Record>
+    <Record>
+      <Key>Space</Key>
+      <Value>空格</Value>
     </Record>
     <Record>
       <Key>Exclaim</Key>
@@ -7056,8 +7072,16 @@
       <Value>;</Value>
     </Record>
     <Record>
+      <Key>Less</Key>
+      <Value>&lt;</Value>
+    </Record>
+    <Record>
       <Key>Equals</Key>
       <Value>=</Value>
+    </Record>
+    <Record>
+      <Key>Greater</Key>
+      <Value>&gt;</Value>
     </Record>
     <Record>
       <Key>Question</Key>
@@ -7085,7 +7109,7 @@
     </Record>
     <Record>
       <Key>BackQuote</Key>
-      <Value>~</Value>
+      <Value>~BackQuote</Value>
     </Record>
     <Record>
       <Key>LeftCurlyBracket</Key>
@@ -7109,8 +7133,7 @@
     </Record>
     <Record>
       <Key>Keypad0</Key>
-      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
-0</Value>
+      <Value>Num 0</Value>
     </Record>
     <Record>
       <Key>Keypad1</Key>
