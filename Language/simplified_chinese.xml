@@ -6912,6 +6912,18 @@
       <Value>或非运算，当且仅当a, b都为0时, 寄存器 = 1，否则为0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBgeal</Key>
+      <Value>如果 a &gt;= b 跳到第 c 行执行代码 并存储下一行行号到ra寄存器</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBeqal</Key>
+      <Value>如果a==b 即a等于b时 跳到第 c 行执行代码 并存储下一行行号到ra寄存器</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBneal</Key>
+      <Value>如果 a != b 即a不等于b时 跳到第c行执行代码 并存储下一行行号到ra寄存器</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBapal</Key>
       <Value>如果 abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) 跳到第 d 行执行代码 并存储下一行行号到ra寄存器中
 abs()--绝对值运算函数 max()--最大值函数</Value>
