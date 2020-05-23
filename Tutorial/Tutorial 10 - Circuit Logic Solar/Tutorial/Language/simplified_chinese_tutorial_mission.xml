@@ -3,12 +3,24 @@
   <Code>CN</Code>
   <Interface>
     <Record>
+      <Key>Tutorial10-CircuitLogicSolarTracking</Key>
+      <Value>#10 高级 逻辑电路 - 实现太阳追踪</Value>
+    </Record>
+    <Record>
+      <Key>MoveToArea</Key>
+      <Value>移动到区域</Value>
+    </Record>
+    <Record>
+      <Key>ConsoleManuallControl</Key>
+      <Value>太阳能控制台控制</Value>
+    </Record>
+    <Record>
       <Key>ConsoleManuallControl1</Key>
-      <Value>在高亮位置处放置另一个 {THING:StructureActiveVent}。</Value>
+      <Value>在高亮位置处放置另一个 {THING:StructureCableStraight}来完成这个网络。</Value>
     </Record>
     <Record>
       <Key>ConsoleManuallControl2</Key>
-      <Value>在高亮位置处建造 {THING:StructureGasSensor}</Value>
+      <Value>在高亮位置处放置 {THING:StructureConsole}</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask1</Key>
@@ -16,7 +28,7 @@
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask2</Key>
-      <Value>移除 {THING:ItemGlassSheets}。</Value>
+      <Value>给 {THING:StructureConsole} 安上 {THING:ItemGlassSheets}。</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask3</Key>
@@ -24,91 +36,91 @@
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask4</Key>
-      <Value>启动 {THING:StructureArcFurnace}。</Value>
+      <Value>打开 {THING:StructureConsole} 然后选定显示的所有太阳能电池板。</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask5</Key>
-      <Value>将 {THING:ItemDataDisk} 插入到 {THING:StructureConsole}。</Value>
+      <Value>把{THING:ItemDataDisk}从{THING:StructureConsole}里移除。</Value>
     </Record>
     <Record>
       <Key>PickUpDaylightSensor</Key>
-      <Value>从橙色箱中拿出一个 {THING:ItemCopperIngot}。</Value>
+      <Value>从箱中拿出一个 {THING:ItemKitSensor}。</Value>
     </Record>
     <Record>
       <Key>DaylightSensor1</Key>
-      <Value>在高亮位置处放置另一个 {THING:StructureActiveVent}。</Value>
+      <Value>在高亮位置处放置 {THING:StructureDaylightSensor}。</Value>
     </Record>
     <Record>
       <Key>PickUpMemory</Key>
-      <Value>从橙色箱中拿出一个 {THING:ItemSiliconIngot}。</Value>
+      <Value>从附近的箱中拿起 {THING:ItemKitLogicMemory}。</Value>
     </Record>
     <Record>
       <Key>StructureLogicMemory</Key>
-      <Value>在高亮位置处放置另一个 {THING:StructureActiveVent}。</Value>
+      <Value>在高亮位置处放置 {THING:StructureLogicMemory}。</Value>
     </Record>
     <Record>
       <Key>SetupLogicWritter1</Key>
-      <Value>启动 {THING:StructureArcFurnace}。</Value>
+      <Value>打开 {THING:StructureLogicWriter}的开关。</Value>
     </Record>
     <Record>
       <Key>SetupLogicWritter2</Key>
-      <Value>完成 {THING:StructureHydraulicPipeBender}。</Value>
+      <Value>用{THING:ItemScrewdriver}将{THING:StructureLogicWriter}的输入设置为Horizontal Mode Memory传入的数据。</Value>
     </Record>
     <Record>
       <Key>PickUpLogicProcessor</Key>
-      <Value>从橙色箱中拿出一个 {THING:ItemSiliconIngot}。</Value>
+      <Value>从附近箱子中拿些{THING:ItemKitLogicProcessor}单元。</Value>
     </Record>
     <Record>
       <Key>LogicWriter1</Key>
-      <Value>在高亮位置处放置另一个 {THING:StructureActiveVent}。</Value>
+      <Value>在高亮位置处放置 {THING:StructureLogicWriter}。</Value>
     </Record>
     <Record>
       <Key>LogicReader1</Key>
-      <Value>在高亮位置处放置另一个 {THING:StructureActiveVent}。</Value>
+      <Value>在高亮位置处放置 {THING:StructureLogicReader}。</Value>
     </Record>
     <Record>
       <Key>PlaceLogicMath</Key>
-      <Value>在高亮位置处放置另一个 {THING:StructureActiveVent}。</Value>
+      <Value>在高亮位置处放置第一个 {THING:StructureLogicMath}。</Value>
     </Record>
     <Record>
       <Key>PlaceLogicMath1</Key>
-      <Value>在高亮位置处放置另一个 {THING:StructureActiveVent}。</Value>
+      <Value>在高亮位置处放置第二个 {THING:StructureLogicMath}。</Value>
     </Record>
     <Record>
       <Key>VerticalBatchWritterSetup4</Key>
-      <Value>启动 {THING:StructureAutolathe}。</Value>
+      <Value>打开 {THING:StructureLogicBatchWriter}的开关。</Value>
     </Record>
     <Record>
       <Key>PickUpLogicInputOutput</Key>
-      <Value>从橙色箱中拿出一个 {THING:ItemSiliconIngot}。</Value>
+      <Value>从附近箱子中拿出一个 {THING:ItemKitLogicInputOutput}。</Value>
     </Record>
     <Record>
       <Key>BatchWriter1</Key>
-      <Value>在高亮位置处放置另一个 {THING:StructureActiveVent}。</Value>
+      <Value>在高亮位置处放置一个 {THING:StructureLogicBatchWriter}。</Value>
     </Record>
     <Record>
       <Key>PlaceLogicMath2</Key>
-      <Value>在高亮位置处放置另一个 {THING:StructureActiveVent}。</Value>
+      <Value>在高亮位置处放置第一个 {THING:StructureLogicMath}。</Value>
     </Record>
     <Record>
       <Key>PlaceLogicMath3</Key>
-      <Value>在高亮位置处放置另一个 {THING:StructureActiveVent}。</Value>
+      <Value>在高亮位置处放置第二个 {THING:StructureLogicMath}。</Value>
     </Record>
     <Record>
       <Key>BatchWriter2</Key>
-      <Value>在高亮位置处放置另一个 {THING:StructureActiveVent}。</Value>
+      <Value>在高亮位置处放置一个{THING:StructureLogicBatchWriter}。</Value>
     </Record>
     <Record>
       <Key>HorizontalBatchWritterSetup4</Key>
-      <Value>启动 {THING:StructureAutolathe}。</Value>
+      <Value>打开 {THING:StructureLogicBatchWriter}的开关。</Value>
     </Record>
     <Record>
       <Key>LogicSelect1</Key>
-      <Value>在高亮位置处建造 {THING:StructureGasSensor}</Value>
+      <Value>在高亮位置处建放置第一个 {THING:StructureLogicSelect}。</Value>
     </Record>
     <Record>
       <Key>LogicSelect2</Key>
-      <Value>在高亮位置处建造 {THING:StructureGasSensor}</Value>
+      <Value>在高亮位置处放置第二个 {THING:StructureLogicSelect}。</Value>
     </Record>
   </Interface>
 </Language>
