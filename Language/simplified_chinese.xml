@@ -6912,6 +6912,10 @@
       <Value>或非运算，当且仅当a, b都为0时, 寄存器 = 1，否则为0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandJal</Key>
+      <Value>跳转到第 a 行执行代码 并存储下一行行号到ra寄存器</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBltal</Key>
       <Value>如果 a &lt; b 跳到第 c 行执行代码 并存储下一行行号到ra寄存器</Value>
     </Record>
