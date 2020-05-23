@@ -6912,6 +6912,22 @@
       <Value>或非运算，当且仅当a, b都为0时, 寄存器 = 1，否则为0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandCeil</Key>
+      <Value>寄存器 r 的值 = 大于a的最小整数</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandFloor</Key>
+      <Value>寄存器 r 的值 = 小于a的最大整数</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandMax</Key>
+      <Value>寄存器 r 的值 = a和b之间的最大值</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandMin</Key>
+      <Value>寄存器 r 的值 = a和b之间的最小值</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandAbs</Key>
       <Value>寄存器 r 的值 = a的绝对值</Value>
     </Record>
