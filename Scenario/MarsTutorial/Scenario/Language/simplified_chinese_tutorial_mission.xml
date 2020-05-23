@@ -15,6 +15,13 @@
       <Key>TutorialTheBeginningTitle</Key>
       <Value>开始</Value>
     </Record>
+    <Record> Using 
+			
+      <Key>TutorialTheBeginningDescription</Key>
+      <Value>让我们开始吧。按{KEY:Help}关掉你的游戏百科全书 。然后按{KEY:PrimaryAction}来捡起物品。按{KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot},{KEY:UniformSlot}或{KEY:ToolBeltSlot}来和其中的物品或设备进行交互。按住来交换槽位和你手上之间的物品。你也可以按住{KEY:MouseControl}启用鼠标来拖动物品到这些槽上。
+
+角色的这些槽位可以在屏幕的左边看到。比如按住{KEY:MouseControl}启用鼠标然后点击{THING:UniformOrangeJumpSuit}槽位。这就能显示其中的菜单，并且能够用物品与其交互。</Value>
+    </Record>
     <Record>
       <Key>TutorialTheBeginningTask1</Key>
       <Value>关闭 {LINK:Home;Stationpedia}</Value>
@@ -30,6 +37,10 @@
     <Record>
       <Key>TutorialTheBeginningTask4</Key>
       <Value>装备你的{THING:ItemEvaSuit}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDontBeAToolTitle</Key>
+      <Value>别成为工具</Value>
     </Record>
     <Record>
       <Key>TutorialDontBeAToolDescription</Key>
@@ -78,6 +89,10 @@
     <Record>
       <Key>TutorialGasItUpTitle</Key>
       <Value>给它通上气体</Value>
+    </Record>
+    <Record>
+      <Key>TutorialGasItUpDescription</Key>
+      <Value>{THING:ItemSpacepack} 需要推进剂才能使用，让我们把那边的装氮的金属罐拿过来为我们所用。</Value>
     </Record>
     <Record>
       <Key>TutorialFeelingHotHotHotTitle</Key>
