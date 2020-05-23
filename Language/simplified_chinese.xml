@@ -6968,11 +6968,11 @@ abs()--绝对值运算函数 max()--最大值函数</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBeqzal</Key>
-      <Value>如果 a == 0 即a等于0时 跳到第 b 行执行代码 并存储下一行行号到ra寄存器</Value>
+      <Value>如果 a == 0 即a等于0时 转移第 b 行执行代码 并存储下一行行号到ra寄存器</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBnezal</Key>
-      <Value>如果 a != 0 即a不为0时 跳到第 b 行执行代码并存储下一行行号到ra寄存器中</Value>
+      <Value>如果 a != 0 即a不为0时 转移第 b 行执行代码并存储下一行行号到ra寄存器中</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSqrt</Key>
