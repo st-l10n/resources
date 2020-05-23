@@ -77,6 +77,44 @@
 
 更高级的{LINK:SuperAlloyPage;合金}可以在{THING:StructureAdvancedFurnace}中熔炼。它对熔炼工序的要求非常严格，也很难，但对于那些非常高级的制造工序来说是必要的。</Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>InventoryPage</Key>
+      <Title>库存</Title>
+      <Text>游戏中的所有物品都可以放在各种插槽。这些插槽有的可能有固定的分类，只能放入某些特定的物品。有各种快捷键用于访问角色上的插槽，例如{KEY:HelmetSlot}可访问{SLOT:Helmet}.
+
+{HEADER:库存窗口}
+某些插槽里面也有一些它们自己的内容。 要与插槽的内容交互，按下快捷键就能打开其窗口界面，或者按住{KEY:MouseControl}然后用鼠标点击它。现在插槽的窗口界面应该已打开了，您可以与其进行交互了。窗口可以随意拖动，只需把鼠标移到标题栏上然后按住拖动。
+
+{HEADER:快速装备}
+  您可以按住快捷键来快速装备、取消装备或交换装备. 例如, 我们手中现在拿着{THING:ItemSpaceHelmet}, {SLOT:Helmet}插槽是空的, 长按{KEY:HelmetSlot}一会后它就会自动装备到插槽上。
+
+{HEADER:拖放}
+  或者, 你也可以按住{KEY:MouseControl}启用鼠标来拖放物品来装备. 您可以在插槽之间、窗口之间实现物品拖放，甚至在外部环境和内部插槽之间进行拖放操作。
+
+{HEADER:丢弃}
+  您可以通过按{KEY:MouseControl}启用鼠标把它拖到外面实现丢弃，或直接按{KEY:Drop}。
+
+{HEADER:选择}
+如果你更喜欢使用快捷键而不是鼠标的话，按{KEY:InventorySelect}会交换所选插槽与当前手上的物品，可以用{COLORRED:Mouse Wheel}选择插槽。
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>AirlockDevicePage</Key>
+      <Title>气闸装置</Title>
+      <Text>将{THING:CircuitboardAirlockControl}放置在{THING:StructureConsole}中，您可以将各种设备连接到{THING:CircuitboardAirlockControl}，以使气闸发挥作用。
+      
+{HEADER:气闸装置列表}
+以下设备可连接至气闸控制系统并由其使用：
+{LIST_OF_AIRLOCK_DEVICES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicUnitPage</Key>
+      <Title>逻辑单元</Title>
+      <Text>{HEADER:逻辑单元}
+{LIST_OF_LOGIC_UNITS}
+      </Text>
+    </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
