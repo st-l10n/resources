@@ -134,6 +134,18 @@
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>SmeltingPage</Key>
+      <Title>冶炼</Title>
+      <Text>一旦你有了{LINK:OrePage;矿石}，你需要把它变成{LINK:IngotPage;锭块}，这样你就可以使用这种{LINK:ReagentPage;化学原料}. 熔炼通常会产生 {LINK:GasPage;气体}. 这种情况不仅仅会发生在 {THING:StructureArcFurnace} (简单配方) 和用于制造复杂 {LINK:AlloyPage;合金} 的 {THING:StructureFurnace} , 甚至在用于制造非常复杂的{LINK:SuperAlloyPage;超级合金} 的 {THING:StructureAdvancedFurnace} 也会出现 . 要制造这些复杂的合金, 你需要按完美的比例混合原料, 同时{LINK:TemperaturePage;温度}, 和{LINK:PressurePage;压力} 也要适合。 
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>MiningPage</Key>
+      <Title>采矿</Title>
+      <Text>你可以用{THING:ItemMiningDrill} 来挖掘 {LINK:OrePage;矿石}. 如果你身上装备了 {THING:ItemMiningBelt} 那么你所开采的 {LINK:OrePage;矿石} 将会被自动收集进去。
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>ConstructionPage</Key>
       <Title>搭建</Title>
       <Text>{HEADER:开始}
@@ -153,6 +165,15 @@
       
 {HEADER:化学原料列表}
 {LIST_OF_REAGENTS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPage</Key>
+      <Title>气体</Title>
+      <Text>这些是某些化工气体。
+      
+{HEADER:气体列表}
+{LIST_OF_GASES}
       </Text>
     </StationpediaPage>
     <StationpediaPage>
