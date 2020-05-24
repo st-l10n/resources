@@ -118,9 +118,8 @@ Los sensores de luz natural tienen 3 modos: predeterminado, horizontal y vertica
     </Record>
     <Record>
       <Key>SetMemoryDescription2</Key>
-      <Value>Ahora necesitamos establecer un desplazamiento horizontal, para corregir las posiciones y rotaciones del panel solar y los sensores de luz natural. Si su sensor solar está en un ángulo de 90 grados con respecto a sus paneles solares, el desplazamiento ajustará los datos del ángulo solar para que los paneles solares miren hacia el sol.
-            
-Aplicamos este valor a la unidad matemática horizontal 2, cuando lo agregamos al valor de salida de la unidad matemática horizontal 1.</Value>
+      <Value>Ahora necesitamos establecer un desplazamiento horizontal, para corregir las posiciones y rotaciones del panel solar y los sensores de luz del día. Si el sensor solar está en un ángulo de -90 grados con respecto a los paneles solares, la compensación ajustará los datos del ángulo solar para que los paneles solares estén orientados hacia el sol.
+Aplicamos este valor a la unidad matemática horizontal 2, cuando lo sumamos al valor de salida de la unidad matemática horizontal 1.</Value>
     </Record>
     <Record>
       <Key>SetMemoryDescription3</Key>
@@ -128,16 +127,15 @@ Aplicamos este valor a la unidad matemática horizontal 2, cuando lo agregamos a
     </Record>
     <Record>
       <Key>SetMemoryDescription4</Key>
+      <Value>Por último, calibre la posición vertical del panel solar. 
+Para hacer esto, tome el porcentaje del ángulo solar vertical de la Matemática Vertical 1, y añada el 50% usando Añadir Memoria en la Matemática Vertical 2. Esto hará el 50% del punto cero horizontal del panel solar (plano, mirando hacia arriba).</Value>
+    </Record>
+    <Record>
+      <Key>SetMemoryDescription5</Key>
       <Value>El eje vertical de los paneles solares se mide como un porcentaje, mientras que los sensores emiten los datos del ángulo solar en grados de 0 a 150.
             
 Para hacer que los paneles solares sean compatibles con los sensores, usamos Vertical Logic Math 1 para dividir los datos del sensor por 1,5, convirtiendo así el grado en un porcentaje.
             </Value>
-    </Record>
-    <Record>
-      <Key>SetMemoryDescription5</Key>
-      <Value>Por último, calibre la posición vertical del panel solar. 
-\t\t\t
-Para hacer esto, toma el porcentaje del ángulo solar vertical de la Matemática Vertical 1, y añade el 50% usando Añadir Memoria en la Matemática Vertical 2. Esto hará que el 50% sea el punto cero horizontal del panel solar (plano, mirando hacia arriba).</Value>
     </Record>
     <Record>
       <Key>SetMemory0</Key>
@@ -153,7 +151,7 @@ Para hacer esto, toma el porcentaje del ángulo solar vertical de la Matemática
     </Record>
     <Record>
       <Key>SetMemory3</Key>
-      <Value>Establecer añadir memoria a un valor de 50</Value>
+      <Value>Establecer la memoria a un valor de 50</Value>
     </Record>
     <Record>
       <Key>SetMemory4</Key>
