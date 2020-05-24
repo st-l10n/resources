@@ -27,7 +27,7 @@
 {LIST}{LINK:GasPage;气体}, {LINK:ReagentPage;化学原料}
 {/LIST}
 {HEADER:物品}
-{LIST}{LINK:ToolPage;工具}, {LINK:ResourcePage;资源}, {LINK:KitPage;套件}, {LINK:FoodPage;食物}, {LINK:ClothingPage;服装}, {LINK:AppliancePage;电器}, {LINK:IngotPage;锭块}, {LINK:OrePage;矿石}, {LINK:AlloyPage;合金}, {LINK:SuperAlloyPage;超级合金}
+{LIST}{LINK:ToolPage;工具}, {LINK:ResourcePage;资源}, {LINK:KitPage;套件}, {LINK:FoodPage;食物}, {LINK:ClothingPage;服装}, {LINK:AppliancePage;小型设备}, {LINK:IngotPage;锭块}, {LINK:OrePage;矿石}, {LINK:AlloyPage;合金}, {LINK:SuperAlloyPage;超级合金}
 {/LIST}
 {HEADER:建设}
 {LIST}{LINK:DevicePage;设备}, {LINK:FabricatorPage;加工厂}, {LINK:AirlockDevicePage;气闸设备}, {LINK:LogicUnitPage;逻辑单元}
@@ -226,11 +226,47 @@
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>ResourcePage</Key>
+      <Title>资源</Title>
+      <Text>这些是在{LINK:ConstructionPage;建造}或其他任务要用到的物品
+      
+{HEADER:资源列表}
+{LIST_OF_RESOURCES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>KitPage</Key>
+      <Title>套件</Title>
+      <Text>这些是在 {LINK:ConstructionPage;建造} 或是其他任务中要用到的物品。
+      
+{HEADER:套件列表}
+{LIST_OF_KITS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FoodPage</Key>
+      <Title>食物</Title>
+      <Text>这些物品用来给你提供营养。
+      
+{HEADER:食物列表}
+{LIST_OF_FOOD}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ClothingPage</Key>
+      <Title>服装</Title>
+      <Text>这些物品可以被穿戴.
+      
+{HEADER:服装}
+{LIST_OF_CLOTHING}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>AppliancePage</Key>
       <Title>小型设备</Title>
       <Text>这些物品可以安置在 工作桌 上. 你也必须把它们安在 工作桌 上，然后用扳手来固定住。
       
-{HEADER:电器列表}
+{HEADER:小型设备列表}
 {LIST_OF_APPLIANCES}
       </Text>
     </StationpediaPage>
