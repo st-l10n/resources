@@ -6873,6 +6873,15 @@
       <Value>取消</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandMove</Key>
+      <Value>寄存器 r 的值 = 给定的数值或给定寄存器中的值
+如: move r1 1 或 move r1 r2</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandAdd</Key>
+      <Value>寄存器 r = a + b</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandSub</Key>
       <Value>寄存器 r = a - b。</Value>
     </Record>
