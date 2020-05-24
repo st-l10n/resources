@@ -177,6 +177,15 @@
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>AlloyPage</Key>
+      <Title>合金</Title>
+      <Text>从 {THING:StructureFurnace} 或 {THING:StructureAdvancedFurnace} 按特定的 {LINK:ReagentPage;化学原料}比例 混合制造, 其中高级 {LINK:IngotPage;锭块} 同样用于 {LINK:FabricatorPage;加工设备} 制造物品. {THING:StructureArcFurnace} 不能生产这些。
+
+{HEADER:合金列表}
+{LIST_OF_ALLOYS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>AppliancePage</Key>
       <Title>小型设备</Title>
       <Text>这些物品可以安置在 工作桌 上. 你也必须把它们安在 工作桌 上，然后用扳手来固定住。
