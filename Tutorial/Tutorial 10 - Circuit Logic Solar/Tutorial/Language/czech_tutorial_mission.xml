@@ -135,9 +135,11 @@ Aby byly solární panely kompatibilní se senzory, používáme Vertikální lo
     </Record>
     <Record>
       <Key>SetMemoryDescription5</Key>
-      <Value>Nakonec zkalibrujte vertikální polohu solárního panelu. 
-\t\t\t
-Chcete-li to provést, vezměte vertikální procento solárního úhlu z vertikální matematiky 1 a přidejte 50% pomocí Přidat paměť ve vertikální matematice 2. Tím se vytvoří 50% horizontální nulový bod solárního panelu (plochý, obrácený směrem nahoru).</Value>
+      <Value>Svislá osa solárních panelů se měří v procentech, zatímco senzory vydávají údaje o solárních úhlech ve stupních od 0 do 150.
+            
+Aby byly solární panely kompatibilní se senzory, používáme vertikální logiku matematiky 1 k rozdělení dat senzoru o 1.5, čímž převedeme stupeň na procenta.
+            
+            </Value>
     </Record>
     <Record>
       <Key>SetMemory0</Key>
@@ -153,11 +155,11 @@ Chcete-li to provést, vezměte vertikální procento solárního úhlu z vertik
     </Record>
     <Record>
       <Key>SetMemory3</Key>
-      <Value>Nastavte paměť náklonu na hodnotu 1.5</Value>
+      <Value>Nastavte přidat paměť na hodnotu 50</Value>
     </Record>
     <Record>
       <Key>SetMemory4</Key>
-      <Value>Nastavte přidat paměť na hodnotu 50</Value>
+      <Value>Nastavte paměť náklonu na hodnotu 1.5</Value>
     </Record>
     <Record>
       <Key>SetupHorizontalSensor</Key>
@@ -430,6 +432,7 @@ Dalším krokem je vyrovnání dat dodaných zařízením {THING:StructureDaylig
       <Value>Nyní máme solární sledovací obvod, který bude sledovat sluneční světlo po celý den.
 \t\t\t
 Ale co noc? Za tímto účelem nastavíme další modul, který bude fungovat jako režim spánku. Pokud jsou senzory denního světla neaktivní nebo nepřijímají denní světlo, solární panely se vrátí do výchozí polohy. Abychom to mohli udělat, musíme použít jednotky {THING:StructureLogicReader} ke čtení aktivního stavu na každém {THING:StructureDaylightSensor}.
+            
             </Value>
     </Record>
     <Record>
