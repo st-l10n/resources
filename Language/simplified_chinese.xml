@@ -6873,6 +6873,10 @@
       <Value>取消</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandSub</Key>
+      <Value>寄存器 r = a - b。</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandSdse</Key>
       <Value>如果设备处于打开状态, 则为 1, 否则为0</Value>
     </Record>
@@ -6911,6 +6915,14 @@
     <Record>
       <Key>ScriptCommandNor</Key>
       <Value>或非运算，当且仅当a, b都为0时, 寄存器 = 1，否则为0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandMul</Key>
+      <Value>寄存器 r = a * b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandDiv</Key>
+      <Value>寄存器r = a / b</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrgtz</Key>
