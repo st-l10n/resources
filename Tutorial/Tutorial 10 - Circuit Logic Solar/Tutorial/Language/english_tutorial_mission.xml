@@ -116,32 +116,31 @@ The first step is to place daylight sensors. One will measure the horizontal ang
         <Record>
             <Key>SetMemoryDescription</Key>
             <Value>Now that you have the {THING:StructureLogicMemory} units in place, and a solar tracking system set up, you need to set specific values on the {THING:StructureLogicMemory} using the {THING:ItemScrewdriver}. The values depend on the position and rotation of the {THING:StructureDaylightSensor} and solar panels.
-            
 Daylight sensors have 3 modes: Default, Horizontal, and Vertical. Each mode changes the output solar angle. In this case, we need to set the sensor to Horizontal, which is mode 1. To do this, set the Horizontal Memory Module to a value of 1, and the logic writer will write that value to the sensor. </Value>
         </Record>
         <Record>
             <Key>SetMemoryDescription2</Key>
             <Value>We now need to set a horizontal offset, to correct for the positions and rotations of the solar panel and the daylight sensors. If your solar sensor is at a 90-degree angle to your solar panels, the offset will adjust the solar angle data so the solar panels face towards the sun.
-            
 We apply this value to Horizontal math unit 2, when we add it to the output value from Horizontal math unit 1.</Value>
         </Record>
         <Record>
             <Key>SetMemoryDescription3</Key>
             <Value>As solar sensors provide a negative value, you must turn a negative value into a positive one. To do this, multiply the Invert Memory value against the solar sensor value using Horizontal Math 1.</Value>
         </Record>
-        
         <Record>
             <Key>SetMemoryDescription4</Key>
-            <Value>The vertical axis of solar panels is measured as a percentage, while sensors output solar angle data in degrees from 0 - 150.
+            <Value>Lastly, calibrate the vertical position for the solar panel. 
+To do this, take the vertical solar angle percentage from Vertical Math 1, and add 50% using Add Memory in Vertical Math 2. This will make 50% the solar panel’s horizontal zero point (flat, facing upwards).
             
-To make solar panels compatible with sensors, we use Vertical Logic Math 1 to divide the sensor’s data by 1.5, thereby converting the degree to a percentage.
             </Value>
         </Record>
         <Record>
             <Key>SetMemoryDescription5</Key>
-            <Value>Lastly, calibrate the vertical position for the solar panel. 
-			
-To do this, take the vertical solar angle percentage from Vertical Math 1, and add 50% using Add Memory in Vertical Math 2. This will make 50% the solar panel’s horizontal zero point (flat, facing upwards).</Value>
+            <Value>The vertical axis of solar panels is measured as a percentage, while sensors output solar angle data in degrees from 0 - 150.
+            
+To make solar panels compatible with sensors, we use Vertical Logic Math 1 to divide the sensor’s data by 1.5, thereby converting the degree to a percentage.
+            
+            </Value>
         </Record>
         <Record>
             <Key>SetMemory0</Key>
@@ -156,11 +155,11 @@ To do this, take the vertical solar angle percentage from Vertical Math 1, and a
             <Value>Set Invert Memory to a value of -1</Value>
         </Record>
          <Record>
-            <Key>SetMemory4</Key>
+            <Key>SetMemory3</Key>
             <Value>Set Add Memory to a value of 50</Value>
         </Record>
          <Record>
-            <Key>SetMemory3</Key>
+            <Key>SetMemory4</Key>
             <Value>Set Tilt Memory to a value of 1.5</Value>
         </Record>
         <Record>
@@ -434,6 +433,7 @@ The next step is to offset the data delivered by the {THING:StructureDaylightSen
             <Value>We now have a solar tracking circuit that will track sunlight throughout the day.
 			
 But what about the night? For this, we will set up another module that will act as a sleep mode. When the daylight sensors are inactive or not receiving daylight, the solar panels will reset to a default position. To do this we need to use {THING:StructureLogicReader} units to read the active state on each {THING:StructureDaylightSensor}.
+            
             </Value>
         </Record>
         <Record>
