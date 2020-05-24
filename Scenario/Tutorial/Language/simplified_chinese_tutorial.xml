@@ -207,11 +207,13 @@ A {THING:CircuitboardAirlockControl} 在 {THING:StructureConsole} 是控制 {THI
     </Record>
     <Record>
       <Key>TutorialDescRepairCable4</Key>
-      <Value>与 {THING:ItemCableCoil} 在你的手中激活, 按下 {COLORRED:鼠标右键} 调出建设模型.
+      <Value>把 {THING:ItemCableCoil}放在你{COLORYELLOW:当前使用的手}, 按 {KEY:SecondaryAction} 进入 {LINK:ConstructionPage;建造} 蓝图布局界面。
 
-使用 {COLORRED:鼠标滚轮} 改变建设模型的类型, 选择 {THING:StructureCableJunction} 建设模型.
+使用 {COLORRED:鼠标滚轮} 改变建造类型, 选择建造 {THING:StructureCableJunction}.
 
-按下 {KEY:RotateLeft} 向左转, {KEY:RotateRight} 向右转, {KEY:RotateUp} 向上转, {KEY:RotateDown} 向下转, {KEY:RotateRollLeft} 向左滚, or {KEY:RotateRollRight} 向右滚.</Value>
+您的布局蓝图包含重要的连接信息，小的加号表示物品能从这里连接到电缆网络。确保你的连接线是准确的。
+
+按下 {KEY:QuantityModifier} 会让物品尝试其最佳的连接位置。或者，你也可以使用自定义旋转快捷键。</Value>
     </Record>
     <Record>
       <Key>TutorialTitleFinishFrame</Key>
