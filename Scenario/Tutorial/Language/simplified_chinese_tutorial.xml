@@ -57,7 +57,7 @@
     </Record>
     <Record>
       <Key>TutorialDescPowerSuit2</Key>
-      <Value>你可以交换 {SLOT:Suit} 通过按下并释放 {KEY:SuitSlot} 按键. 这将和装备槽库存来交换, 如果可用. 这样做直到你看到装备槽清单.</Value>
+      <Value>按 {KEY:SuitSlot} 键开启你的 {THING:ItemEvaSuit} , 也可以按住 {KEY:MouseControl} 启用鼠标来直接点击 {SLOT:Suit} 完成该操作.</Value>
     </Record>
     <Record>
       <Key>TutorialTaskLifesupportSuit1</Key>
@@ -77,7 +77,7 @@
     </Record>
     <Record>
       <Key>TutorialDescLifesupport2</Key>
-      <Value>{COLORRED:你需要戴上 {THING:ItemEvaSuit} 继续. 请把它放回去.}</Value>
+      <Value>{COLORRED:你需要穿戴好 {THING:ItemEvaSuit} 继续. 请先穿好.}</Value>
     </Record>
     <Record>
       <Key>TutorialDescLifesupport4</Key>
