@@ -113,13 +113,11 @@ Prvním krokem je umístění senzorů denního světla. Jeden změří horizont
     <Record>
       <Key>SetMemoryDescription</Key>
       <Value>Nyní, když máte jednotku {THING:StructureLogicMemory} na místě a nastavený solární sledovací systém, musíte nastavit specifické hodnoty v {THING:StructureLogicMemory} pomocí {THING:ItemScrewdriver}. Hodnoty závisí na poloze a rotaci {THING:StructureDaylightSensor} a solárních panelů.
-            
-Senzory denního světla mají 3 režimy: výchozí, horizontální a vertikální. Každý režim mění výstupní solární úhel. V tomto případě musíme nastavit snímač na horizontální, což je režim 1. K tomu nastavte modul horizontální paměti na hodnotu 1 a logický zapisovač tuto hodnotu zapíše do senzoru. </Value>
+Senzory denního světla mají 3 režimy: výchozí, horizontální a vertikální. Každý režim mění výstupní solární úhel. V tomto případě musíme nastavit senzor na horizontální, což je režim 1. K tomu nastavte modul horizontální paměti na hodnotu 1 a logický zapisovač tuto hodnotu zapíše do senzoru. </Value>
     </Record>
     <Record>
       <Key>SetMemoryDescription2</Key>
-      <Value>Nyní musíme nastavit horizontální posun, abychom opravili polohy a rotace solárního panelu a senzorů denního světla. Pokud je váš solární senzor v úhlu 90 stupňů k vašim solárním panelům, posun upraví údaje o slunečním úhlu tak, aby solární panely směřovaly ke slunci.
-            
+      <Value>Nyní musíme nastavit horizontální posun, abychom opravili polohy a rotace solárního panelu a senzorů denního světla. Pokud je váš solární senzor v úhlu 90 stupňů k vašim solárním panelům, posun upraví údaje o solárním úhlu tak, aby solární panely směřovaly ke slunci.
 Tuto hodnotu použijeme na horizontální matematickou jednotku 2, když ji přidáme k výstupní hodnotě z horizontální matematické jednotky 1.</Value>
     </Record>
     <Record>
