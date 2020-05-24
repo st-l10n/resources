@@ -299,6 +299,10 @@ Paintable {POS:300}{2}{3}{/LIST}</Text>
       <Text>{0}. {POS:100}{1} {POS:300}类型 {2}</Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>ThingStackTemplate</Key>
+      <Text>堆叠数 {POS:300}{0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>ThingTransmissibleTemplate</Key>
       <Text>连接到 {POS:300}{THING:StructureLogicTransmitter}</Text>
     </StationpediaPage>
