@@ -112,9 +112,8 @@ El primer paso es colocar sensores de luz natural. Uno medirá el ángulo horizo
     </Record>
     <Record>
       <Key>SetMemoryDescription</Key>
-      <Value>Ahora que tiene las unidades {THING: StructureLogicMemory} instaladas y un sistema de seguimiento solar configurado, debe establecer valores específicos en {THING: StructureLogicMemory} utilizando {THING: ItemScrewdriver}. Los valores dependen de la posición y la rotación de {THING: StructureDaylightSensor} y los paneles solares. 
-            
-Los sensores de luz natural tienen 3 modos: predeterminado, horizontal y vertical. Cada modo cambia el ángulo solar de salida. En este caso, necesitamos configurar el sensor en Horizontal, que es el modo 1. Para hacer esto, configure el Módulo de Memoria Horizontal en un valor de 1, y el escritor lógico escribirá ese valor en el sensor. </Value>
+      <Value>Ahora que tienes las unidades de {THING:StructureLogicMemory} en su lugar, y un sistema de seguimiento solar establecido, necesitas establecer valores específicos en la {THING:StructureLogicMemory} usando la {THING:ItemScrewdriver}. Los valores dependen de la posición y rotación de la {THING:StructureDaylightSensor} y los paneles solares.
+Los sensores de luz diurna tienen 3 modos: Predeterminado, Horizontal y Vertical. Cada modo cambia el ángulo solar de salida. En este caso, necesitamos poner el sensor en Horizontal, que es el modo 1. Para ello, establezca el Módulo de Memoria Horizontal en un valor de 1, y el escritor lógico escribirá ese valor en el sensor.</Value>
     </Record>
     <Record>
       <Key>SetMemoryDescription2</Key>
