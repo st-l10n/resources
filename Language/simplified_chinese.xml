@@ -6966,12 +6966,32 @@
       <Value>a &gt; b时，寄存器为1，否则为0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandSne</Key>
+      <Value>如果a != b，寄存器 r = 1，否则为0</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandSltz</Key>
       <Value>a &lt; 0时，寄存器为1，否则为0.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSgtz</Key>
       <Value>a &gt; 0时，寄存器为1，否则为0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSlez</Key>
+      <Value>如果a &lt;= 0，寄存器 r = 1，否则为 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSgez</Key>
+      <Value>如果 a &gt;= 0，寄存器 r = 1，否则为0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSeqz</Key>
+      <Value>如果 a == 0, 当 a 等于 0 时 寄存器 r = 1 否则为0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSnez</Key>
+      <Value>如果 a != 0 寄存器 r = 1 否则为0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandAnd</Key>
