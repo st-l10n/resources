@@ -7038,6 +7038,14 @@
       <Value>跳转到第 a 行执行代码 并存储下一行行号到ra寄存器</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBdseal</Key>
+      <Value>如果设备已连接 则转移到行 a</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBdnsal</Key>
+      <Value>如果设备 d 未连接 则转移到行 a</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBltal</Key>
       <Value>如果 a &lt; b 跳到第 c 行执行代码 并存储下一行行号到ra寄存器</Value>
     </Record>
