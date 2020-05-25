@@ -6937,6 +6937,10 @@
       <Value>标识寄存器或设备引用的标签名称，设备引用也影响在 IC 底座上的螺钉上显示的内容。</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandDefine</Key>
+      <Value>创建一个标识符，在程序中出现过的所有该标识符将被替换为所给的数值。</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandMove</Key>
       <Value>寄存器 r 的值 = 给定的数值或给定寄存器中的值
 如: move r1 1 或 move r1 r2</Value>
@@ -6964,6 +6968,18 @@
     <Record>
       <Key>ScriptCommandSgt</Key>
       <Value>a &gt; b时，寄存器为1，否则为0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSle</Key>
+      <Value>如果 a &lt;= b，寄存器 r = 1，否则为0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSge</Key>
+      <Value>如果 a &gt;= b 寄存器 r = 1，否则为0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSeq</Key>
+      <Value>如果 a == b，寄存器 r = 1，否则为0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSne</Key>
