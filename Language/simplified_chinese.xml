@@ -7096,6 +7096,14 @@ abs()--绝对值运算函数 max()--最大值函数</Value>
       <Value>如果 a != 0 即a不为0时 转移第 b 行执行代码并存储下一行行号到ra寄存器中</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBapzal</Key>
+      <Value>如果abs(a) &lt;= float.epsilon * 8 则转移第 c 行执行代码</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnazal</Key>
+      <Value>如果abs(a) &gt; float.epsilon * 8 则转移第 c 行执行代码</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandSqrt</Key>
       <Value>寄存器 r 的值 = 对a的平方根运算</Value>
     </Record>
