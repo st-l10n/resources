@@ -132,6 +132,10 @@
       <Value>将 {THING:ItemBatteryCharger} 放置在高亮的位置上。</Value>
     </Record>
     <Record>
+      <Key>TutorialTutorialFinishingTheCircuitDescription</Key>
+      <Value>用剩下电线把这些部件连接起来。</Value>
+    </Record>
+    <Record>
       <Key>FinishingTheCircuitTask2</Key>
       <Value>放置 {THING:StructureCableCorner3}。</Value>
     </Record>
@@ -146,6 +150,18 @@
     <Record>
       <Key>FinishingTheCircuitTask8</Key>
       <Value>放置 {THING:StructureCableJunction}。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSettingUpThePowerController</Key>
+      <Value>设置电源控制器</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSettingUpThePowerControllerDescription</Key>
+      <Value>为了使 {THING:StructureAreaPowerControl} 工作，我们需要打开盖子并插入电池，然后拉动开关，输送电力和数据。建议在停电时放入大型电池进行持久供电，里面也可放入小型电池。</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask1</Key>
+      <Value>从你的 {SLOT:Belt} 中装备{THING:ItemCrowbar}。</Value>
     </Record>
     <Record>
       <Key>SettingUpThePowerControllerTask3</Key>
