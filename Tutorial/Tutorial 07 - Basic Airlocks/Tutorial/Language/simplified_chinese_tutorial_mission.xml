@@ -174,12 +174,30 @@
       <Value>气闸编程</Value>
     </Record>
     <Record>
+      <Key>AirLockProgrammingDescription</Key>
+      <Value>要对气闸进行编程，先打开 {THING:StructureConsole}。点击 {THING:StructureActiveVent} 和 {THING:StructureGasSensor}。选中设备时，设备将高亮为绿色并且文本变红。
+
+选种这两个气闸门。选择一个门作为&apos;Exterior(外部)&apos;将导致另一扇门默认为&apos;Internal(内部)&apos;。确保门被正确分配。
+
+选中设备后，该设备将只会受控制台控制，你的与其发生的任何交互操作都不会被响应。
+
+成功完成设置后，{THING:StructureConsole} 侧面的开关将发绿光。你现在可以从 {THING:StructureConsole}中拿走数据磁盘。  此时控制台将被锁定，除非你重新插入数据磁盘，否则不会对交互作出响应。</Value>
+    </Record>
+    <Record>
       <Key>AirLockProgrammingTask1</Key>
       <Value>用 {THING:StructureConsole} 来对气闸进行编程。</Value>
     </Record>
     <Record>
       <Key>ASimpleAirLock</Key>
       <Value>一个简单的气闸</Value>
+    </Record>
+    <Record>
+      <Key>ASimpleAirLockDescription</Key>
+      <Value>现在测试你刚建的气闸。点击“Cycle to Interior”按钮开始加压。气闸压力必须达到至少 101 kPa 才能完成气压平衡操作。如果基地内是未加压的，气闸将无法完成其平衡程序。如果发生这种情况，请按“Cancel pressurize”按钮来中断加压操作。</Value>
+    </Record>
+    <Record>
+      <Key>ASimpleAirLockTask1</Key>
+      <Value>拿走 {THING:ItemDataDisk} 并平衡气压来进入内部。</Value>
     </Record>
     <Record>
       <Key>AirlockUpgradesTask1</Key>
