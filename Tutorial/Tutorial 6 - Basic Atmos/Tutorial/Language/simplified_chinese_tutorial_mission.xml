@@ -37,6 +37,17 @@
       <Value>进入气闸</Value>
     </Record>
     <Record>
+      <Key>AtmoAirLockDescription</Key>
+      <Value>气闸是一种装置，能让人自由进出加压的基地的同时，将压力变化和基地空气损失降至最低。
+
+目前，基地内部没有空气，因此气闸无法正常工作，它需要 100kpa 才能正常工作。但我们仍然可以通过取消气闸的气压平衡操作进入基地。请记住，如果您的基地有空气泄漏，千万不要运行气压平衡程序。</Value>
+    </Record>
+    <Record>
+      <Key>AtmoAirLockTask1</Key>
+      <Value>进入气闸舱然后点击控制台上的&quot;Cycle to Interior&quot; 按钮。等待外部门关闭，然后会出现一个标有&quot;Cancel Pressurize&quot;的新按钮。按下它然后内部门就会打开。
+        </Value>
+    </Record>
+    <Record>
       <Key>AtmosAnalyser</Key>
       <Value>分析大气。</Value>
     </Record>
