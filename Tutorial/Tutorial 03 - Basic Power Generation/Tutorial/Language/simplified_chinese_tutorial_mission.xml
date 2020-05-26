@@ -110,6 +110,12 @@
       <Value>充电器和电源控制器</Value>
     </Record>
     <Record>
+      <Key>TutorialPowerControlersAndbatteryChargesDescription</Key>
+      <Value>在下一步中，我们需要放置一个 {THING:ItemAreaPowerControl} 来控制电力流并防止电线烧毁。如果发电机不产电了，它还能当做小型的蓄电池。
+
+其次，我们需要为没电的电池建造一个 {THING:ItemBatteryCharger}。我们推荐放在 {THING:ItemAreaPowerControl} 的前面，这样它就不会一直消耗 {THING:ItemAreaPowerControl} 的电池电量。</Value>
+    </Record>
+    <Record>
       <Key>PowerControlersAndbatteryChargesTask2</Key>
       <Value>将 {THING:ItemAreaPowerControl} 放置在高亮的位置上。</Value>
     </Record>
