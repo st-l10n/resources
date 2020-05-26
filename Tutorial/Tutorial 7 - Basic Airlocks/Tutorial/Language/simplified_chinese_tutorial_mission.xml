@@ -98,6 +98,12 @@
       <Value>气体管道</Value>
     </Record>
     <Record>
+      <Key>GasPipesDescription</Key>
+      <Value>{THING:ItemKitPipe} 用于将气体从一个点输送到另一个点。我们需要使用 {THING:ItemKitPipe} 将 {THING:StructureActiveVent} 连接到 {THING:StructurePassiveVent}。
+            
+注意：搭建气闸时，如果您还没有 {THING:StructurePassiveVent}，仍然可以将气体存储在管道本身中。</Value>
+    </Record>
+    <Record>
       <Key>GasPipeCorner</Key>
       <Value>建造 {THING:StructurePipeCorner}。</Value>
     </Record>
