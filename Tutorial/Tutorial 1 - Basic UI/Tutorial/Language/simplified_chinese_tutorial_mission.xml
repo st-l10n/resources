@@ -108,6 +108,14 @@
       <Value>我们差不多把病毒清除了！但很不巧，它损坏了你宇航服的一些生命维持设备。让我们现在换掉它们。我们可以打开补给箱了。里面应该有些基础生存物品：给维生系统供电的电池，能过滤掉你内部空气二氧化碳的二氧化碳滤芯。</Value>
     </Record>
     <Record>
+      <Key>ReplaceingSuititemsTask1</Key>
+      <Value>更换你的电池来保持维生系统的供电。或者你也可以，将该物品直接从箱子拖动到的宇航服中的电池插槽中。</Value>
+    </Record>
+    <Record>
+      <Key>ReplaceingSuititemsTask2</Key>
+      <Value>给你的宇航服添加滤芯。在箱中找到 次级滤芯(二氧化碳) ，用鼠标点击它放入你的手中。然后，按住 {KEY:MouseControl} 键用鼠标替换掉那个用过的滤芯。</Value>
+    </Record>
+    <Record>
       <Key>DisplayAlert3</Key>
       <Value>病毒被根除了。干得好，学员！
 请记住，您可以按 {KEY:HideAllWindows} 一键关闭所有打开的界面窗口，也可以通过单击每个窗口的相应插槽单独关闭每个窗口。</Value>
@@ -117,8 +125,16 @@
       <Value>关掉菜单</Value>
     </Record>
     <Record>
+      <Key>CloseingUIsDescription</Key>
+      <Value>到最后一步了。让我们清理一下界面窗口。</Value>
+    </Record>
+    <Record>
       <Key>ALTTask3</Key>
-      <Value>关闭报警</Value>
+      <Value>关闭警告</Value>
+    </Record>
+    <Record>
+      <Key>CloseingUIstask2</Key>
+      <Value>如果手中有剩余物品，请按 {KEY:Drop} 键将其丢下。要切换使用手，请使用{KEY:SwapHands} 键。</Value>
     </Record>
   </Interface>
 </Language>
