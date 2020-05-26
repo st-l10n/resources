@@ -116,8 +116,20 @@
 其次，我们需要为没电的电池建造一个 {THING:ItemBatteryCharger}。我们推荐放在 {THING:ItemAreaPowerControl} 的前面，这样它就不会一直消耗 {THING:ItemAreaPowerControl} 的电池电量。</Value>
     </Record>
     <Record>
+      <Key>PowerControlersAndbatteryChargesTask1</Key>
+      <Value>从Construction Crate 1(建筑材料箱 1)拿出 {THING:ItemAreaPowerControl}。</Value>
+    </Record>
+    <Record>
       <Key>PowerControlersAndbatteryChargesTask2</Key>
       <Value>将 {THING:ItemAreaPowerControl} 放置在高亮的位置上。</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlersAndbatteryChargesTask3</Key>
+      <Value>从Construction Crate 2(建筑材料箱 2)拿出 {THING:ItemBatteryCharger}。</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlersAndbatteryChargesTask4</Key>
+      <Value>将 {THING:ItemBatteryCharger} 放置在高亮的位置上。</Value>
     </Record>
     <Record>
       <Key>FinishingTheCircuitTask2</Key>
@@ -134,6 +146,10 @@
     <Record>
       <Key>FinishingTheCircuitTask8</Key>
       <Value>放置 {THING:StructureCableJunction}。</Value>
+    </Record>
+    <Record>
+      <Key>SettingUpThePowerControllerTask3</Key>
+      <Value>从Construction Crate 2(建筑材料箱 2)拿出 {THING:ItemBatteryCellLarge}。</Value>
     </Record>
     <Record>
       <Key>SettingUpThePowerControllerTask4</Key>
