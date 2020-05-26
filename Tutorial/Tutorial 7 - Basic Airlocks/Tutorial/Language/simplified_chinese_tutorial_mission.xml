@@ -116,8 +116,24 @@
       <Value>建造{THING:StructurePassiveVent}。</Value>
     </Record>
     <Record>
+      <Key>DigitalScreens</Key>
+      <Value>数字屏幕</Value>
+    </Record>
+    <Record>
+      <Key>DigitalScreensDescription</Key>
+      <Value>将 {THING:StructureConsole} 放置在墙上的高亮区域中。</Value>
+    </Record>
+    <Record>
       <Key>DigitalScreensTask1</Key>
       <Value>建造 {THING:StructureConsole}。</Value>
+    </Record>
+    <Record>
+      <Key>UnderPressure</Key>
+      <Value>压力之下</Value>
+    </Record>
+    <Record>
+      <Key>UnderPressureDescription</Key>
+      <Value>要完成 {THING:StructureConsole} 的搭建，我们需要向其添加电路板。根据情况放入相应类型的电路板。您正在搭建气闸，因此你需要使用 {THING:CircuitboardAirlockControl}。你还需要使用数据磁盘来设置 {THING:CircuitboardAirlockControl}。</Value>
     </Record>
     <Record>
       <Key>UnderPressureTask1</Key>
@@ -130,6 +146,10 @@
     <Record>
       <Key>UnderPressureTask3</Key>
       <Value>将 {THING:ItemDataDisk} 插入到 {THING:StructureConsole}。</Value>
+    </Record>
+    <Record>
+      <Key>AirLockProgramming</Key>
+      <Value>气闸编程</Value>
     </Record>
     <Record>
       <Key>AirLockProgrammingTask1</Key>
