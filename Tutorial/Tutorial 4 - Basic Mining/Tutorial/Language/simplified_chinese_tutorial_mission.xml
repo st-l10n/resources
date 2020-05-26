@@ -79,12 +79,24 @@
       <Value>熔了它</Value>
     </Record>
     <Record>
+      <Key>SmeltingItDownDescription</Key>
+      <Value>这些应该就是我们现在所需要的。现在回到基地去做点熔炼工作。{THING:StructureArcFurnace} 用于将矿石熔炼为有用的锭块。尝试将一些 {THING:ItemIronOre} 熔炼成一个 {THING:ItemIronIngot} 。如果你需要更多资源，你已经被授权访问矿石容器箱。</Value>
+    </Record>
+    <Record>
       <Key>SmeltingItDownTask0</Key>
       <Value>启动 {THING:StructureArcFurnace}。</Value>
     </Record>
     <Record>
       <Key>SmeltingItDownTask1</Key>
       <Value>从 {THING:ItemMiningBelt} 中拿出 {THING:ItemIronOre}。</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownTask2</Key>
+      <Value>将 {THING:ItemIronOre} 放入电弧炉并点击激活开始熔炼。</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownTask3</Key>
+      <Value>拿到刚刚熔炼好的 {THING:ItemIronIngot}。</Value>
     </Record>
   </Interface>
 </Language>
