@@ -51,6 +51,10 @@
       <Value>干得不错，学员！这些 {THING:ItemCableCoil} 稍后将派上用场。现在，我们需要制造一些 {THING:ItemIronSheets}。{THING:ItemIronSheets} 是搭建大多数结构或机器的关键组件。</Value>
     </Record>
     <Record>
+      <Key>ShineyNewPlatesTask1</Key>
+      <Value>和先前所做的一样，在 {THING:StructureAutolathe} 的菜单上选择 {THING:ItemIronSheets}。</Value>
+    </Record>
+    <Record>
       <Key>ShineyNewPlatesTask2</Key>
       <Value>从橙色箱中拿出一个 {THING:ItemIronIngot}。</Value>
     </Record>
@@ -61,6 +65,10 @@
     <Record>
       <Key>ShineyNewPlatesTask4</Key>
       <Value>打印两个 {THING:ItemIronSheets}。</Value>
+    </Record>
+    <Record>
+      <Key>FakePlasticDescription</Key>
+      <Value>您需要的下一个组件是 {THING:ItemPlasticSheets}。这些用于完成机器。</Value>
     </Record>
     <Record>
       <Key>FakePlasticTask1</Key>
@@ -77,6 +85,14 @@
     <Record>
       <Key>FakePlasticTask4</Key>
       <Value>打印两个 {THING:ItemPlasticSheets}。</Value>
+    </Record>
+    <Record>
+      <Key>BendingMachineDescription</Key>
+      <Value>{THING:StructureHydraulicPipeBender} 用于制造管道、通风口和其他相关空气结构。</Value>
+    </Record>
+    <Record>
+      <Key>BendingMachineTask1</Key>
+      <Value>在 {THING:StructureAutolathe} 的菜单上选择 {THING:ItemKitHydraulicPipeBender}。</Value>
     </Record>
     <Record>
       <Key>BendingMachineTask2</Key>
