@@ -56,6 +56,10 @@
       <Value>分析大气。</Value>
     </Record>
     <Record>
+      <Key>AtmosAnalyserDescription</Key>
+      <Value>大气分析仪芯片用于分析当前空气的组成成分、温度和压力信息。</Value>
+    </Record>
+    <Record>
       <Key>TheTabletTaskAtmo</Key>
       <Value>将 {THING:CartridgeAtmosAnalyser} 放入 {THING:ItemTablet}</Value>
     </Record>
@@ -70,6 +74,14 @@
     <Record>
       <Key>Creating_AtmoTask1</Key>
       <Value>启动 {THING:ItemTablet}。</Value>
+    </Record>
+    <Record>
+      <Key>Creating_AtmoTask2</Key>
+      <Value>将固态氧扔入房间，等待其融化。它将产生一个可呼吸的空气环境。让外部压力提高到60kPa。</Value>
+    </Record>
+    <Record>
+      <Key>Creating_AtmoTask3</Key>
+      <Value>一旦压力达到可接受的安全水平，打开头盔，呼吸这片属于你自己的新鲜空气吧。</Value>
     </Record>
   </Interface>
 </Language>
