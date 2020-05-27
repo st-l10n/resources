@@ -63,12 +63,24 @@
       <Value>用 {THING:ItemWrench} 把{THING:DynamicGasCanisterWater} 到 {THING:ItemTankConnector} 上面。</Value>
     </Record>
     <Record>
+      <Key>WaterNetworksDescription</Key>
+      <Value>使用蓝色管道将 {THING:ItemTankConnector} 连接到 {THING:StructureHydroponicsStation}。水将流入设备，直到 {THING:DynamicGasCanisterWater} 流光。</Value>
+    </Record>
+    <Record>
       <Key>WaterNetworksTask1</Key>
       <Value>捡起 {THING:ItemKitPipe}。</Value>
     </Record>
     <Record>
       <Key>WaterNetworksTask2</Key>
       <Value>在高亮位置处放置另一个{THING:StructurePipeStraight}。</Value>
+    </Record>
+    <Record>
+      <Key>KeepingItTidy</Key>
+      <Value>保持整洁</Value>
+    </Record>
+    <Record>
+      <Key>KeepingItTidyDescription</Key>
+      <Value>{THING:ItemKitCompositeFloorGrating} 是隐藏地板安装的管道和电线的好方法。它还能让你在基地到处跑更方便。</Value>
     </Record>
     <Record>
       <Key>KeepingItTidyTask1</Key>
