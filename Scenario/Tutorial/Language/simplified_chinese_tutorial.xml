@@ -181,7 +181,11 @@ A {THING:CircuitboardAirlockControl} 在 {THING:StructureConsole} 是控制 {THI
     </Record>
     <Record>
       <Key>TutorialDescRepairCable1</Key>
-      <Value>有一个坏的 {THING:StructureCableJunction}, 找到并用你的 {THING:ItemToolBelt} 中的 {THING:ItemWireCutters} 移除 . 使用 {KEY:ToolBeltSlot} 打开你的 {SLOT:Belt} 装备槽. 使用 {KEY:InventorySelect} 将高亮显示的内部装备槽项切换到您的手上.</Value>
+      <Value>{THING:StructureCableStraight} 可以传输 {COLORYELLOW:数据} 和 {COLORYELLOW:电力}，但如果通过它的电力功率大于所能承受的额定功率，它们就会损坏。 这里有些烧焦的 {THING:StructureCableJunction} 在你刚刚走出来的 {THING:StructureAirlock} 下面, 从你的 {THING:ItemToolBelt} 中拿出 {THING:ItemWireCutters} 把这些坏电线移除掉。
+      
+记得你有两种方法可以访问你的 {LINK:InventoryPage;库存}. 你可以按住 {KEY:MouseControl} 来启用鼠标拖动物品或是打开物品的窗口。或者为了快速操作，按 {KEY:ToolBeltSlot} 打开你 {SLOT:Belt} 的窗口。 按 {KEY:InventorySelect} 来与其中高亮的物品交换到你的手中。
+
+如果你觉得你一次性打开的窗口太多了，按 {KEY:HideAllWindows} 关闭所有窗口, 您可以使用各自的插槽快捷键开关单独的窗口, 你还可以按住 {KEY:MouseControl} 启用鼠标用鼠标点。</Value>
     </Record>
     <Record>
       <Key>TutorialTaskRepairCable1</Key>
