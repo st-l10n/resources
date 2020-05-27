@@ -104,6 +104,10 @@
       <Value>建造 {THING:StructureCompositeDoor} 2。</Value>
     </Record>
     <Record>
+      <Key>AirSensoresAndMore</Key>
+      <Value>不只有气体传感器！</Value>
+    </Record>
+    <Record>
       <Key>AirSensoresAndMoreDescription</Key>
       <Value>接下来，安装一个 {THING:StructureGasSensor} 和一个 {THING:StructureActiveVent}。{THING:StructureGasSensor}是气闸的关键部件，因为它向控制台输入气闸内的当前气压大小，而 {THING:StructureActiveVent} 能对气闸进行加压和减压。</Value>
     </Record>
@@ -224,8 +228,20 @@
       <Value>放置{THING:StructureCableStraight}。</Value>
     </Record>
     <Record>
+      <Key>AdvancedPressure</Key>
+      <Value>高级压力控制</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedPressureDescription</Key>
+      <Value>现在，结构已经放到正确位置了，我们只需要将 {THING:CircuitboardAirlockControl} 换为{THING:CircuitboardAdvAirlockControl}。</Value>
+    </Record>
+    <Record>
       <Key>AdvancedPressureTask1</Key>
       <Value>用撬棍把 {THING:ItemGlassSheets}从{THING:StructureConsole}上面卸下来。</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedPressureTask2</Key>
+      <Value>把 {THING:CircuitboardAirlockControl} 更换为 {THING:CircuitboardAdvAirlockControl}。</Value>
     </Record>
     <Record>
       <Key>AdvancedPressureTask3</Key>
@@ -234,6 +250,10 @@
     <Record>
       <Key>AdvancedPressureask4</Key>
       <Value>插入 {THING:ItemDataDisk}。</Value>
+    </Record>
+    <Record>
+      <Key>AAdvancedAirLock</Key>
+      <Value>高级气闸</Value>
     </Record>
     <Record>
       <Key>AAdvancedAirLockTask1</Key>

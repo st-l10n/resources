@@ -3,6 +3,10 @@
   <Code>CN</Code>
   <Interface>
     <Record>
+      <Key>BasicAirlocks</Key>
+      <Value>#07 基础气闸系统</Value>
+    </Record>
+    <Record>
       <Key>BasicAirlocksDescription</Key>
       <Value>了解如何搭建一个可以进行加压和减压的气密舱室。</Value>
     </Record>
@@ -80,6 +84,10 @@
     <Record>
       <Key>CreatingASealTask2</Key>
       <Value>建造 {THING:StructureCompositeDoor} 2。</Value>
+    </Record>
+    <Record>
+      <Key>AirSensoresAndMore</Key>
+      <Value>不只有气体传感器！</Value>
     </Record>
     <Record>
       <Key>AirSensoresAndMoreDescription</Key>
@@ -184,6 +192,10 @@
       <Value>放置{THING:StructureCableStraight}。</Value>
     </Record>
     <Record>
+      <Key>AdvancedPressure</Key>
+      <Value>高级压力控制</Value>
+    </Record>
+    <Record>
       <Key>AdvancedPressureTask1</Key>
       <Value>在之前的{THING:StructureConsole}把{THING:ItemGlassSheets}卸下来。</Value>
     </Record>
@@ -194,6 +206,14 @@
     <Record>
       <Key>AdvancedPressureask4</Key>
       <Value>插入 {THING:ItemDataDisk}。</Value>
+    </Record>
+    <Record>
+      <Key>AAdvancedAirLock</Key>
+      <Value>高级气闸</Value>
+    </Record>
+    <Record>
+      <Key>AAdvancedAirLockDescription</Key>
+      <Value>按下屏幕上的 “Cycle to Interior” 按钮，看看气闸是否正常工作。</Value>
     </Record>
     <Record>
       <Key>AAdvancedAirLockTask1</Key>
