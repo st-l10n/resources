@@ -153,6 +153,10 @@
       <Value>将 {THING:StructureLogicWriter} 输出设置为Horizontal Day Light Sensor。</Value>
     </Record>
     <Record>
+      <Key>SetupLogicWritter4</Key>
+      <Value>将 {THING:StructureLogicWriter} 的写入设置为Mode 这是传感器里一个逻辑值类型。</Value>
+    </Record>
+    <Record>
       <Key>PickUpLogicProcessor</Key>
       <Value>从附近箱子中拿些{THING:ItemKitLogicProcessor}单元。</Value>
     </Record>
@@ -161,8 +165,16 @@
       <Value>在高亮位置处放置 {THING:StructureLogicWriter}。</Value>
     </Record>
     <Record>
+      <Key>LogicReadersSetup</Key>
+      <Value>逻辑读取设置</Value>
+    </Record>
+    <Record>
       <Key>LogicReader1</Key>
       <Value>在高亮位置处放置 {THING:StructureLogicReader}。</Value>
+    </Record>
+    <Record>
+      <Key>VerticalLogicProcessors</Key>
+      <Value>逻辑处理器。</Value>
     </Record>
     <Record>
       <Key>PlaceLogicMath</Key>
@@ -171,6 +183,10 @@
     <Record>
       <Key>PlaceLogicMath1</Key>
       <Value>在高亮位置处放置第二个 {THING:StructureLogicMath}。</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVertical1</Key>
+      <Value>打开 Vertical Math Unit 1.</Value>
     </Record>
     <Record>
       <Key>VerticalBatchWritterSetup4</Key>
