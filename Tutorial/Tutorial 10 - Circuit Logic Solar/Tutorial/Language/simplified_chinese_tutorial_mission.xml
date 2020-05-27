@@ -225,8 +225,18 @@
       <Value>在高亮位置处放置第二个 {THING:StructureLogicSelect}。</Value>
     </Record>
     <Record>
+      <Key>SleepModeSetupTask4</Key>
+      <Value>将逻辑类型设置为Activate(激活)。</Value>
+    </Record>
+    <Record>
       <Key>SleepModePart2</Key>
       <Value>睡眠模式2</Value>
+    </Record>
+    <Record>
+      <Key>SleepModePart2Description</Key>
+      <Value>接下来，用 {THING:StructureLogicSelect} 单元去读取刚刚放置的 {THING:StructureLogicReader} 的数据，然后看你是要用 {THING:StructureLogicMath} 的输出数据还是用 {THING:StructureLogicMemory} 的偏移值了.
+
+最后, 把每个 {THING:StructureLogicBatchWriter} 的输入数据改为相应的 {THING:StructureLogicSelect} 的输出数据。</Value>
     </Record>
     <Record>
       <Key>SleepModePart2Task1</Key>
