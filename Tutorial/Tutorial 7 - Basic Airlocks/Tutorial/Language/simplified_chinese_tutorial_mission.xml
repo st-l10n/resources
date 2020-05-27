@@ -168,6 +168,16 @@
       <Value>气闸编程</Value>
     </Record>
     <Record>
+      <Key>AirLockProgrammingDescription</Key>
+      <Value>要对气闸进行编程，请先打开 {THING:StructureConsole}。然后分别点击 {THING:StructureActiveVent} 和 {THING:StructureGasSensor}。
+
+选择时，请确保内部门选的是 &apos;Interior&apos; 选项。如果选错了要取消选择，请再单击一次，然后点击选择另一扇门。气闸上的设备条将从绿色变为红色，以示意当前你设置的设备是哪个。
+
+控制台选择设备后，该设备将锁定在其控制之下，并且不会响应你的对其的任何交互。
+
+成功完成气闸设置后，{THING:StructureConsole} 侧面的开关将亮起，发绿光。你现在就可以从 {THING:StructureConsole} 中拿走数据磁盘。 这时控制台将被锁定，除非您重新插入数据磁盘，否则不会响应其他交互选项。</Value>
+    </Record>
+    <Record>
       <Key>AirLockProgrammingTask1</Key>
       <Value>用 {THING:StructureConsole} 来对气闸进行编程。</Value>
     </Record>
