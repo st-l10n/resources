@@ -327,6 +327,10 @@
       <Value>这是一台打印机</Value>
     </Record>
     <Record>
+      <Key>TutorialThisIsAPrinter1Task</Key>
+      <Value>搭建 {THING:ItemKitElectronicsPrinter}</Value>
+    </Record>
+    <Record>
       <Key>TutorialThisIsAPrinter1Task0</Key>
       <Value>打开打印机</Value>
     </Record>
@@ -337,6 +341,18 @@
     <Record>
       <Key>TutorialThisIsAPrinter1Task1</Key>
       <Value>在打印机上选择 {THING:ItemKitSolarPanel} 。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSeeTheLightTitle</Key>
+      <Value>要有光</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSeeTheLightTask2</Key>
+      <Value>按 {KEY:PrimaryAction} 捡起 {THING:ItemKitSolarPanel}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSeeTheLight1Title</Key>
+      <Value>要有光</Value>
     </Record>
     <Record>
       <Key>TutorialSeeTheLight1Task1</Key>
@@ -367,6 +383,14 @@
       <Value>按 {KEY:SecondaryAction} 食用它</Value>
     </Record>
     <Record>
+      <Key>TutorialBreakOutTask1</Key>
+      <Value>拿起你的 {THING:ItemCrowbar}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWireYouNotWorkingTitle</Key>
+      <Value>电线不工作?</Value>
+    </Record>
+    <Record>
       <Key>TutorialWireYouNotWorkingTask1</Key>
       <Value>从工具带中取出并装备 {THING:ItemWireCutters}</Value>
     </Record>
@@ -379,8 +403,20 @@
       <Value>你可用 {THING:ItemAreaPowerControl} (又称APC) 来防止电线过载而引发爆炸. 你可以在储物柜里找到一个 - 然后放在线路爆炸的地方。</Value>
     </Record>
     <Record>
+      <Key>TutorialWireYouNotWorking1Task1</Key>
+      <Value>放置 {THING:ItemAreaPowerControl}</Value>
+    </Record>
+    <Record>
       <Key>TutorialWireYouNotWorking2Description</Key>
       <Value>现在，让我们设置 APC 单元。我们需要我们的 {THING:ItemCrowbar} 打开它，在里面放一个电池，然后打开开关。您现在就有了一个安全的电力系统。</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWireYouNotWorking2Task1</Key>
+      <Value>从你的腰带中拿出装备 {THING:ItemCrowbar}。 </Value>
+    </Record>
+    <Record>
+      <Key>TutorialWireYouNotWorking2Task2</Key>
+      <Value>用 {THING:ItemCrowbar} 打开 APC</Value>
     </Record>
     <Record>
       <Key>TutorialWireYouNotWorking2Task3</Key>
