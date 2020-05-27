@@ -127,8 +127,18 @@
       <Value>水平角度传感器设置</Value>
     </Record>
     <Record>
+      <Key>SetupHorizontalSensorDescription</Key>
+      <Value>逻辑写入装置允许我们向设备上逻辑类型写入给定值。
+			
+注意： 您必须将逻辑写入装置与输出数据套接字连接到要写入的设备，因为某些逻辑电路数据会流向特定方向。根据你的情况设计最佳电路。</Value>
+    </Record>
+    <Record>
       <Key>SetupLogicWritter</Key>
       <Value>放置一个逻辑写入</Value>
+    </Record>
+    <Record>
+      <Key>SetupLogicWritterDescription</Key>
+      <Value>我们需要将水平角度传感器设置为水平模式。为此，我们将使用 {THING:StructureLogicWriter} 通过读取 {THING:StructureLogicMemory} 中的值来设置传感器上的模式。</Value>
     </Record>
     <Record>
       <Key>SetupLogicWritter1</Key>
@@ -137,6 +147,10 @@
     <Record>
       <Key>SetupLogicWritter2</Key>
       <Value>用{THING:ItemScrewdriver}将{THING:StructureLogicWriter}的输入设置为Horizontal Mode Memory传入的数据。</Value>
+    </Record>
+    <Record>
+      <Key>SetupLogicWritter3</Key>
+      <Value>将 {THING:StructureLogicWriter} 输出设置为Horizontal Day Light Sensor。</Value>
     </Record>
     <Record>
       <Key>PickUpLogicProcessor</Key>
