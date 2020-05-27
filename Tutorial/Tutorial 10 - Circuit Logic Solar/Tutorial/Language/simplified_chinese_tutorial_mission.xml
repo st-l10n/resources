@@ -69,6 +69,12 @@
       <Value>设置传感器</Value>
     </Record>
     <Record>
+      <Key>DaylightSensorsDescription</Key>
+      <Value>自动化太阳追踪可以最大化太阳能电池板的电力产出，也意味着你不用一直手动调整它们面对太阳。
+            
+第一步是放置日光传感器。一个测量太阳的水平角度，另一个测量垂直角度。这在任何星球上都做到全日追踪。</Value>
+    </Record>
+    <Record>
       <Key>PickUpDaylightSensor</Key>
       <Value>从箱中拿出一个 {THING:ItemKitSensor}。</Value>
     </Record>
@@ -77,12 +83,52 @@
       <Value>在高亮位置处放置 {THING:StructureDaylightSensor}。</Value>
     </Record>
     <Record>
+      <Key>SolarMemory</Key>
+      <Value>内存模块</Value>
+    </Record>
+    <Record>
+      <Key>SolarMemoryDescription</Key>
+      <Value>内存用于存储数据，由螺丝刀手动设置值。我们需要五个内存模块来存储电路所需的数据。</Value>
+    </Record>
+    <Record>
       <Key>PickUpMemory</Key>
       <Value>从附近的箱中拿起 {THING:ItemKitLogicMemory}。</Value>
     </Record>
     <Record>
       <Key>StructureLogicMemory</Key>
       <Value>在高亮位置处放置 {THING:StructureLogicMemory}。</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory</Key>
+      <Value>设置内存</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory0</Key>
+      <Value>将 Horizontal Mode Memory 设置为 1</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory1</Key>
+      <Value>将 OffSet Memory 设置为 -90</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory2</Key>
+      <Value>将 Invert Memory 设置为 -1</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory3</Key>
+      <Value>将 Add Memory 设置为 50</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory4</Key>
+      <Value>将 Tilt Memory 设置为 1.5</Value>
+    </Record>
+    <Record>
+      <Key>SetupHorizontalSensor</Key>
+      <Value>水平角度传感器设置</Value>
+    </Record>
+    <Record>
+      <Key>SetupLogicWritter</Key>
+      <Value>放置一个逻辑写入</Value>
     </Record>
     <Record>
       <Key>SetupLogicWritter1</Key>
