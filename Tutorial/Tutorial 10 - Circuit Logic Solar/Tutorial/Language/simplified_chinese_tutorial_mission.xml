@@ -15,6 +15,10 @@
       <Value>移动到区域</Value>
     </Record>
     <Record>
+      <Key>MoveToAreaTask1</Key>
+      <Value>平衡气闸的气压然后进入教程区域。</Value>
+    </Record>
+    <Record>
       <Key>ConsoleManuallControl</Key>
       <Value>太阳能控制台控制</Value>
     </Record>
@@ -25,6 +29,10 @@
     <Record>
       <Key>ConsoleManuallControl2</Key>
       <Value>在高亮位置处放置 {THING:StructureConsole}</Value>
+    </Record>
+    <Record>
+      <Key>ConsoleManualControlSetup</Key>
+      <Value>控制台手动控制设置</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetUpDescription</Key>
@@ -43,12 +51,22 @@
       <Value>将 {THING:ItemDataDisk} 插入到 {THING:StructureConsole}。</Value>
     </Record>
     <Record>
+      <Key>ConsoleManualControlSetUpDescription2</Key>
+      <Value>打开控制台并选择显示的四个太阳能电池板。
+            
+移除数据磁盘后，您就可以调整所有连接的太阳能电池板的水平和垂直角度，还能看电力的输出的大小</Value>
+    </Record>
+    <Record>
       <Key>ConsoleManualControlSetupTask4</Key>
       <Value>打开 {THING:StructureConsole} 然后选定显示的所有太阳能电池板。</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask5</Key>
       <Value>把{THING:ItemDataDisk}从{THING:StructureConsole}里移除。</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensors</Key>
+      <Value>设置传感器</Value>
     </Record>
     <Record>
       <Key>PickUpDaylightSensor</Key>
