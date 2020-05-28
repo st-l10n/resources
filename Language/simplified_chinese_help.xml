@@ -191,7 +191,7 @@
     <StationpediaPage>
       <Key>AlloyPage</Key>
       <Title>合金</Title>
-      <Text>从 {THING:StructureFurnace} 或 {THING:StructureAdvancedFurnace} 按特定的 {LINK:ReagentPage;化学原料}比例 混合制造, 其中高级 {LINK:IngotPage;锭块} 同样用于 {LINK:FabricatorPage;加工设备} 制造物品. {THING:StructureArcFurnace} 不能生产这些。
+      <Text>从 {THING:StructureFurnace} 或 {THING:StructureAdvancedFurnace} 按特定的 {LINK:ReagentPage;化学原料}比例 混合制造, 其中高级 {LINK:IngotPage;锭块} 同样也是 {LINK:FabricatorPage;装配机器} 制造物品的材料. {THING:StructureArcFurnace} 无法生产这些高级锭块。
 
 {HEADER:合金列表}
 {LIST_OF_ALLOYS}
@@ -201,7 +201,7 @@
       <Key>SuperAlloyPage</Key>
       <Title>超级合金</Title>
       <Text>
-        从 {THING:StructureAdvancedFurnace} 按特定比例的 {LINK:ReagentPage;化学原料} 混合物中制造, 这些东西是非常高级的 {LINK:IngotPage;锭块} 也同样用于 {LINK:FabricatorPage;加工设备} 的生产原料.{THING:StructureArcFurnace} 和 {THING:StructureFurnace} 不能生成这些。
+        从 {THING:StructureAdvancedFurnace} 按特定比例的 {LINK:ReagentPage;化学原料} 混合物中制造, 这些东西是非常高级的 {LINK:IngotPage;锭块} 也同样用于 {LINK:FabricatorPage;装配机器} 的生产原料.{THING:StructureArcFurnace} 和 {THING:StructureFurnace} 不能生成这些。
 
 {HEADER:超级合金列表}
 {LIST_OF_SUPER_ALLOYS}
