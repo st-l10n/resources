@@ -256,6 +256,17 @@
       <Value>高级气闸</Value>
     </Record>
     <Record>
+      <Key>AAdvancedAirLockDescription</Key>
+      <Value>对 {THING:CircuitboardAdvAirlockControl} 的编程会有些不一样.
+			
+首先, 重命名这个新的通风口为 &apos;外部通风口&apos; 之前的那个通风口命名为 &apos;内部通风口&apos;, 这是为让你在控制台里能够区分它们. 分别点击这些 {THING:StructureActiveVent}, 确保它们分配到正确的功能。
+
+最后你需要设定 进入(internal)的压强值 和 出去(external)压强值 , 可以在 {THING:CircuitboardAdvAirlockControl} 面板顶端找到设置.
+点击 “Cycle to Interior” 按钮确保运行正常.
+            
+            </Value>
+    </Record>
+    <Record>
       <Key>AAdvancedAirLockTask1</Key>
       <Value>按“Cycle to Interior”(意为对气闸进行复压操作)。</Value>
     </Record>
