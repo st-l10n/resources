@@ -27,6 +27,10 @@
       <Value>太阳能控制台控制</Value>
     </Record>
     <Record>
+      <Key>ConsoleManuallControlDescription</Key>
+      <Value>让太阳能电池板对齐太阳可能是一项耗时的工作。要加快速度，请将太阳能电池板连接在一起并将其连接到控制台，这样你就可以一次性手动调整其方向。你需要的所有东西都在箱子里。</Value>
+    </Record>
+    <Record>
       <Key>ConsoleManuallControl1</Key>
       <Value>在高亮位置处放置另一个 {THING:StructureCableStraight}来完成这个网络。</Value>
     </Record>
@@ -177,6 +181,14 @@
       <Value>在高亮位置处放置 {THING:StructureLogicReader}。</Value>
     </Record>
     <Record>
+      <Key>LogicReaderLogicSetup</Key>
+      <Value>逻辑读取设置</Value>
+    </Record>
+    <Record>
+      <Key>LogicReaderLogicSetup2</Key>
+      <Value>将逻辑值设置为Solar angle(太阳角度)。</Value>
+    </Record>
+    <Record>
       <Key>VerticalLogicProcessors</Key>
       <Value>逻辑处理器。</Value>
     </Record>
@@ -187,6 +199,10 @@
     <Record>
       <Key>PlaceLogicMath1</Key>
       <Value>在高亮位置处放置第二个 {THING:StructureLogicMath}。</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVertical</Key>
+      <Value>Logic Math Vertical设置。</Value>
     </Record>
     <Record>
       <Key>LogicMathVertical1</Key>
