@@ -3666,7 +3666,27 @@
     </Record>
     <Record>
       <Key>StructureModularRocketEngine01</Key>
-      <Value>火箭发动机</Value>
+      <Value>模块火箭引擎 01</Value>
+    </Record>
+    <Record>
+      <Key>StructureModularRocketCargo</Key>
+      <Value>模块火箭货舱 01</Value>
+    </Record>
+    <Record>
+      <Key>StructureModularRocketCommand</Key>
+      <Value>模块火箭指令舱 01</Value>
+    </Record>
+    <Record>
+      <Key>StructureModularRocketFueltank01</Key>
+      <Value>模块火箭燃料箱 01</Value>
+    </Record>
+    <Record>
+      <Key>StructureModularRocketCargo01</Key>
+      <Value>模块火箭货舱 01</Value>
+    </Record>
+    <Record>
+      <Key>StructureModularRocketCommand01</Key>
+      <Value>模块火箭指令舱 01</Value>
     </Record>
   </Things>
   <Slots>
@@ -7086,6 +7106,14 @@
       <Value>如果 a != 0 则代码相对转移到行b</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBrapz</Key>
+      <Value>如果abs(a) &lt;= float.epsilon * 8 则代码相对转移至行c</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrnaz</Key>
+      <Value>如果abs(a) &gt; float.epsilon * 8 则代码相对转移至行c</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandJal</Key>
       <Value>跳转到第 a 行执行代码 并存储下一行行号到ra寄存器</Value>
     </Record>
@@ -7358,6 +7386,10 @@ abs()--绝对值运算函数 max()--最大值函数</Value>
     <Record>
       <Key>FramerateLock</Key>
       <Value>帧数上限 </Value>
+    </Record>
+    <Record>
+      <Key>SaveBeforeTravel</Key>
+      <Value>在前往另一颗星球之前， 你需要保存您的游戏！ </Value>
     </Record>
     <Record>
       <Key>LaunchRocketAlert</Key>
