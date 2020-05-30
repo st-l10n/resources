@@ -3662,7 +3662,7 @@
     </Record>
     <Record>
       <Key>StructureLaunchPad</Key>
-      <Value>着陆架</Value>
+      <Value>发射台</Value>
     </Record>
     <Record>
       <Key>StructureModularRocketEngine01</Key>
@@ -7070,6 +7070,10 @@
       <Value>转移到行 a 执行程序</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBnez</Key>
+      <Value>如果 a != 0 即a不等于0时，代码转移到行b</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBrgtz</Key>
       <Value>如果 a &gt; 0 则相对转移到行b</Value>
     </Record>
@@ -7357,7 +7361,7 @@ abs()--绝对值运算函数 max()--最大值函数</Value>
     </Record>
     <Record>
       <Key>LaunchRocketAlert</Key>
-      <Value>你想解锁这项研究项目吗？</Value>
+      <Value>你想发射这枚火箭吗</Value>
     </Record>
   </Interface>
   <Colors>
