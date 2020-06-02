@@ -4,19 +4,19 @@
   <Interface>
     <Record>
       <Key>SolidFuelEnergyTask2</Key>
-      <Value>{THING:StructureFrame}を溶接する</Value>
+      <Value>{THING:StructureSolidFuelGenerator}を設置する。</Value>
     </Record>
     <Record>
       <Key>LearningToWireTask0.5</Key>
-      <Value>{THING:ItemToolBelt}を{SLOT:Belt}スロットに装備する</Value>
+      <Value>{SLOT:Belt}から{THING:ItemCableCoil}を取り出す。</Value>
     </Record>
     <Record>
       <Key>CableCorner</Key>
-      <Value>{THING:StructureCableJunctionBurnt}を除去する</Value>
+      <Value>{THING:StructureCableCorner}を設置する</Value>
     </Record>
     <Record>
       <Key>CableStraight</Key>
-      <Value>{THING:StructureCableJunctionBurnt}を除去する</Value>
+      <Value>{THING:StructureCableStraight}を設置する。</Value>
     </Record>
     <Record>
       <Key>LearningToWireTask4</Key>

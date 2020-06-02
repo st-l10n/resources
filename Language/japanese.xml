@@ -164,6 +164,36 @@
       <Value>米</Value>
       <Unit>g</Unit>
     </RecordReagent>
+    <RecordReagent>
+      <Key>Waspaloy</Key>
+      <Value>ワスパロイ</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Stellite</Key>
+      <Value>ステライト</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Inconel</Key>
+      <Value>インコネル</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Hastelloy</Key>
+      <Value>ハステロイ</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Astroloy</Key>
+      <Value>アストロロイ</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Cobalt</Key>
+      <Value>コバルト</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
   </Reagents>
   <Gases>
     <Record>
@@ -3303,12 +3333,24 @@
       <Value>荷箱</Value>
     </Record>
     <Record>
+      <Key>ItemArcWelder</Key>
+      <Value>アーク溶接機</Value>
+    </Record>
+    <Record>
       <Key>ItemMiningDrillHeavy</Key>
-      <Value>採掘ドリル</Value>
+      <Value>採掘ドリル (ヘビー)</Value>
+    </Record>
+    <Record>
+      <Key>RoverCargo</Key>
+      <Value>ローバー(貨物)</Value>
+    </Record>
+    <Record>
+      <Key>ItemCreditCard</Key>
+      <Value>クレジットカード</Value>
     </Record>
     <Record>
       <Key>StructureRover</Key>
-      <Value>鉄フレーム</Value>
+      <Value>ローバーフレーム</Value>
     </Record>
     <Record>
       <Key>ItemKitRoverFrame</Key>
@@ -3336,7 +3378,7 @@
     </Record>
     <Record>
       <Key>ItemKitLogicTransmitter</Key>
-      <Value>キット (ロジックユニット)</Value>
+      <Value>キット (ロジックトランスミッター)</Value>
     </Record>
     <Record>
       <Key>StructureAdvancedFurnace</Key>
@@ -3675,6 +3717,14 @@
     <Record>
       <Key>Circuit</Key>
       <Value>回路</Value>
+    </Record>
+    <Record>
+      <Key>ProgrammableChip</Key>
+      <Value>プログラマブルチップ</Value>
+    </Record>
+    <Record>
+      <Key>CreditCard</Key>
+      <Value>クレジットカード</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -5203,8 +5253,10 @@
     </Record>
     <Record>
       <Key>FurnaceChamberText</Key>
-      <Value>気圧 {0}
-温度 {1}</Value>
+      <Value>
+        圧力 {0}
+        温度 {1}
+      </Value>
     </Record>
     <Record>
       <Key>FurnaceSmelting</Key>
@@ -5524,23 +5576,23 @@
     </Record>
     <Record>
       <Key>SettingsP2PHostEnabled</Key>
-      <Value>UPNPを有効にする</Value>
+      <Value>P2P ホストを有効にする</Value>
     </Record>
     <Record>
       <Key>ContactsTrading</Key>
-      <Value>コントロール</Value>
+      <Value>連絡先</Value>
     </Record>
     <Record>
       <Key>ButtonContact</Key>
-      <Value>コントロール</Value>
+      <Value>連絡先</Value>
     </Record>
     <Record>
       <Key>BackupMenuFileListTitle</Key>
-      <Value>戻る</Value>
+      <Value>バックアップ</Value>
     </Record>
     <Record>
       <Key>SettingsWorldOrigin</Key>
-      <Value>ワールド設定</Value>
+      <Value>ワールドの原点をリベースする</Value>
     </Record>
     <Record>
       <Key>PromptButtonLeave</Key>
@@ -5807,6 +5859,10 @@
       <Value>$</Value>
     </Record>
     <Record>
+      <Key>Percent</Key>
+      <Value>%</Value>
+    </Record>
+    <Record>
       <Key>Ampersand</Key>
       <Value>&amp;</Value>
     </Record>
@@ -5928,11 +5984,19 @@
     </Record>
     <Record>
       <Key>LeftCurlyBracket</Key>
-      <Value>[</Value>
+      <Value>{</Value>
+    </Record>
+    <Record>
+      <Key>Pipe</Key>
+      <Value>|</Value>
     </Record>
     <Record>
       <Key>RightCurlyBracket</Key>
-      <Value>]</Value>
+      <Value>}</Value>
+    </Record>
+    <Record>
+      <Key>Tilde</Key>
+      <Value>~</Value>
     </Record>
     <Record>
       <Key>Keypad0</Key>
