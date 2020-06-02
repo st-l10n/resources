@@ -4202,7 +4202,7 @@
     </Record>
     <Record>
       <Key>Space</Key>
-      <Value>宇宙</Value>
+      <Value>小惑星帯</Value>
     </Record>
     <Record>
       <Key>Vulcan</Key>
@@ -4211,6 +4211,10 @@
     <Record>
       <Key>Europa2</Key>
       <Value>エウロパ</Value>
+    </Record>
+    <Record>
+      <Key>Mimas</Key>
+      <Value>ミマス</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaEarth</Key>
@@ -4614,7 +4618,7 @@
     </Record>
     <Record>
       <Key>TutorialStartButton</Key>
-      <Value>始める</Value>
+      <Value>チュートリアル開始</Value>
     </Record>
     <Record>
       <Key>TutorialComplete</Key>
@@ -4626,8 +4630,10 @@
     </Record>
     <Record>
       <Key>TutorialCompleteMessage</Key>
-      <Value>学ぶべきことは沢山あります。
-さぁ外に出ましょう、Stationeer！</Value>
+      <Value>
+        学ぶべきことは沢山あります。
+        さぁ外に出ましょう、Stationeer！
+      </Value>
     </Record>
     <Record>
       <Key>TutorialBackToMenu</Key>
@@ -4751,12 +4757,16 @@
       <Value>Steamエラー</Value>
     </Record>
     <Record>
+      <Key>SteamErrorBody</Key>
+      <Value>Steamに接続できませんでした。 Stationeersを再起動する前にSteamを再起動してみてください</Value>
+    </Record>
+    <Record>
       <Key>SteamErrorButton</Key>
       <Value>終了</Value>
     </Record>
     <Record>
       <Key>WaitingTitle</Key>
-      <Value>警告</Value>
+      <Value>警告 保存中</Value>
     </Record>
     <Record>
       <Key>PromptQuitTitle</Key>
@@ -5538,19 +5548,19 @@
     </Record>
     <Record>
       <Key>TravelMenuTitle</Key>
-      <Value>セーブ</Value>
+      <Value>トラベルワールド</Value>
     </Record>
     <Record>
       <Key>TravelMenuListTitle</Key>
-      <Value>セーブされたワールド</Value>
+      <Value>利用可能なワールド</Value>
     </Record>
     <Record>
       <Key>TravelMenuButtonTravel</Key>
-      <Value>セーブ</Value>
+      <Value>トラベルワールド</Value>
     </Record>
     <Record>
       <Key>GameMenuButtonTravel</Key>
-      <Value>セーブ</Value>
+      <Value>トラベルワールド</Value>
     </Record>
     <Record>
       <Key>PromptTravelBody</Key>
@@ -5558,11 +5568,11 @@
     </Record>
     <Record>
       <Key>TravelMenuNamePlaceholder</Key>
-      <Value>セーブ</Value>
+      <Value>トラベルワールドの名前</Value>
     </Record>
     <Record>
       <Key>PromptTravelConfirm</Key>
-      <Value>セーブ</Value>
+      <Value>トラベル</Value>
     </Record>
     <Record>
       <Key>TravelMenuButtonTravelNew</Key>
@@ -5570,23 +5580,23 @@
     </Record>
     <Record>
       <Key>TravelMenuButtonTravelLoad</Key>
-      <Value>ロード</Value>
+      <Value>ロードワールド</Value>
     </Record>
     <Record>
       <Key>SettingsDifficulty</Key>
-      <Value>その他の設定</Value>
+      <Value>難易度の設定</Value>
     </Record>
     <Record>
       <Key>WorldCustomTerrainLabel</Key>
-      <Value>環境</Value>
+      <Value>地形の色</Value>
     </Record>
     <Record>
       <Key>BrightnessField</Key>
-      <Value>明るさ</Value>
+      <Value>明るさ:</Value>
     </Record>
     <Record>
       <Key>Colour</Key>
-      <Value>目の色</Value>
+      <Value>色</Value>
     </Record>
     <Record>
       <Key>AtmosphereScatteringField</Key>
@@ -5594,31 +5604,31 @@
     </Record>
     <Record>
       <Key>TerrainFeaturesField</Key>
-      <Value>環境</Value>
+      <Value>地形の特徴</Value>
     </Record>
     <Record>
       <Key>RespawnConditionsField</Key>
-      <Value>開始状態</Value>
+      <Value>リスポーン条件</Value>
     </Record>
     <Record>
       <Key>DifficultyField</Key>
-      <Value>その他の設定</Value>
+      <Value>ゲームの難易度</Value>
     </Record>
     <Record>
       <Key>PreviewAtmosphereField</Key>
-      <Value>大気</Value>
+      <Value>大気のプレビュー</Value>
     </Record>
     <Record>
       <Key>SolidTerrainColourField</Key>
-      <Value>肌の色</Value>
+      <Value>地面の色の均一化</Value>
     </Record>
     <Record>
       <Key>CartridgeTrackerDistance</Key>
-      <Value>影の距離</Value>
+      <Value>距離</Value>
     </Record>
     <Record>
       <Key>ButtonCustomWorld</Key>
-      <Value>ワールド作成</Value>
+      <Value>カスタムワールド</Value>
     </Record>
     <Record>
       <Key>GameMenuButtonCancel</Key>
@@ -5626,31 +5636,27 @@
     </Record>
     <Record>
       <Key>CartridgeElectronicReaderAutoITitle</Key>
-      <Value>注意</Value>
+      <Value>自動点火:</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderColorRed</Key>
-      <Value>目の色</Value>
+      <Value>赤染料</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderColorBlue</Key>
-      <Value>目の色</Value>
+      <Value>青染料</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderColorOrange</Key>
-      <Value>環境</Value>
+      <Value>オレンジ染料</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderFlour</Key>
-      <Value>目の色</Value>
+      <Value>小麦粉</Value>
     </Record>
     <Record>
       <Key>SettingsThingRenderDistance</Key>
-      <Value>チャンク描画距離</Value>
-    </Record>
-    <Record>
-      <Key>ElectronicReaderKelvinSymbol</Key>
-      <Value>OK</Value>
+      <Value>物体レンダリング距離</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderPressure</Key>
@@ -5658,7 +5664,7 @@
     </Record>
     <Record>
       <Key>CustomWorld</Key>
-      <Value>ワールド作成</Value>
+      <Value>カスタムワールド</Value>
     </Record>
     <Record>
       <Key>ScenariosTitle</Key>
@@ -5670,7 +5676,7 @@
     </Record>
     <Record>
       <Key>SettingsTerrainClutter</Key>
-      <Value>環境</Value>
+      <Value>地形変化</Value>
     </Record>
     <Record>
       <Key>ResetInventoryTitle</Key>
@@ -5682,7 +5688,7 @@
     </Record>
     <Record>
       <Key>SettingsTerrainClutterMultiplier</Key>
-      <Value>環境</Value>
+      <Value>地形変化乗数</Value>
     </Record>
     <Record>
       <Key>ResearchFilter</Key>
@@ -5690,7 +5696,7 @@
     </Record>
     <Record>
       <Key>ResearchTitle</Key>
-      <Value>リセット</Value>
+      <Value>研究</Value>
     </Record>
     <Record>
       <Key>ResearchConfirm</Key>
@@ -5702,11 +5708,31 @@
     </Record>
     <Record>
       <Key>ScriptCommandLabel</Key>
-      <Value>廃止</Value>
+      <Value>非推奨</Value>
     </Record>
     <Record>
       <Key>ResearchAutomation</Key>
-      <Value>注意</Value>
+      <Value>オートメーション</Value>
+    </Record>
+    <Record>
+      <Key>ResearchTools</Key>
+      <Value>ツール</Value>
+    </Record>
+    <Record>
+      <Key>ResearchOrganics</Key>
+      <Value>オーガニック</Value>
+    </Record>
+    <Record>
+      <Key>ResearchConstruction</Key>
+      <Value>建造物</Value>
+    </Record>
+    <Record>
+      <Key>ResearchLogic</Key>
+      <Value>ロジック</Value>
+    </Record>
+    <Record>
+      <Key>ResearchVehicles</Key>
+      <Value>車両</Value>
     </Record>
   </Interface>
   <Colors>
