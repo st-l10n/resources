@@ -4699,8 +4699,10 @@
     </Record>
     <Record>
       <Key>MulticonstructorItem</Key>
-      <Value>&lt;color=yellow&gt;{1}個中{0}個の建造オプション&lt;/color&gt;
-&lt;color=red&gt;マウスホイール&lt;/color&gt;をスクロールしてさらなるオプションを表示</Value>
+      <Value>
+        &lt;color=yellow&gt;{1}個中{0}個の建造オプション&lt;/color&gt;
+       &lt;color=red&gt;マウスホイール&lt;/color&gt;をスクロールしてさらなるオプションを表示
+      </Value>
     </Record>
     <Record>
       <Key>UnableToConstruct</Key>
@@ -4748,7 +4750,7 @@
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFaceMountMissingFrame</Key>
-      <Value>{THING:StructureFrameIron}と{THING:StructureFrame}にのみ直接設置できます。アップグレードすることで高度な設置オプションが可能になります。</Value>
+      <Value>{THING:StructureFrameIron}と{THING:StructureFrame}にのみ設置できます。</Value>
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFaceMountMissingSupport</Key>
@@ -5193,9 +5195,9 @@
       <Key>NewWorldSpaceDesc</Key>
       <Value>これはStationeersのクリエイティブモードです！
 好きなアイテムを呼び出して、素早くアイデアを試したり変なものを建てたり出来る。
-&lt;color=red&gt;このモードは実験的です。&lt;/color&gt; 現実的で死が間近にあるサバイバルモードを比べて、エキサイティングで予期しないこと*が起こりうるフリーフォームの宇宙パーティーだと思って下さい。 
-あなたが小さな、小さな非常に小さな欠片に吹き飛ばされたり、鶏に虐殺されたり、無限の虚空を漂いながらゆっくりと爆発したりしても悲しまないで下さい。 
-*バグ</Value>
+        &lt;color=red&gt;このモードは実験的です。&lt;/color&gt; 現実的で死が間近にあるサバイバルモードを比べて、エキサイティングで予期しないこと*が起こりうるフリーフォームの宇宙パーティーだと思って下さい。 
+        あなたが小さな、小さな非常に小さな欠片に吹き飛ばされたり、鶏に虐殺されたり、無限の虚空を漂いながらゆっくりと爆発したりしても悲しまないで下さい。 
+        *バグ</Value>
     </Record>
     <Record>
       <Key>TextboxEnterName</Key>
@@ -5614,7 +5616,7 @@
     </Record>
     <Record>
       <Key>PromptTravelBody</Key>
-      <Value>終了しますか？</Value>
+      <Value>このマップに移動してもよろしいですか？</Value>
     </Record>
     <Record>
       <Key>TravelMenuNamePlaceholder</Key>
