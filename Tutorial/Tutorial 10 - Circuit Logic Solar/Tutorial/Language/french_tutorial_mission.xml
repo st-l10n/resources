@@ -3,6 +3,26 @@
   <Code>FR</Code>
   <Interface>
     <Record>
+      <Key>Tutorial10-CircuitLogicSolarTracking</Key>
+      <Value>#10 ADV Circuit Logique - Suivi solaire</Value>
+    </Record>
+    <Record>
+      <Key>CircuitLogicSolarTrackingDescription</Key>
+      <Value>Automatisez les panneaux solaires en utilisant un circuit logique.</Value>
+    </Record>
+    <Record>
+      <Key>MoveToArea</Key>
+      <Value>Déménagement vers la zone</Value>
+    </Record>
+    <Record>
+      <Key>MoveToAreaDescription</Key>
+      <Value>Prenez l’ascenseur jusqu’au Hub Principal et suivez le couloir éclairé jusqu’à la zone Tutorial.</Value>
+    </Record>
+    <Record>
+      <Key>ConsoleManuallControl</Key>
+      <Value>Contrôle de la console solaire</Value>
+    </Record>
+    <Record>
       <Key>ConsoleManuallControl1</Key>
       <Value>Placez un autre {THING:StructureActiveVent} à l&apos;endroit en surbrillance.</Value>
     </Record>
@@ -31,6 +51,10 @@
       <Value>Insérez le {THING:ItemDataDisk} dans la {THING:StructureConsole}.</Value>
     </Record>
     <Record>
+      <Key>DaylightSensors</Key>
+      <Value>Paramétrage des capteurs</Value>
+    </Record>
+    <Record>
       <Key>PickUpDaylightSensor</Key>
       <Value>Prenez un {THING:ItemCopperIngot} dans la caisse orange.</Value>
     </Record>
@@ -39,12 +63,20 @@
       <Value>Placez un autre {THING:StructureActiveVent} à l&apos;endroit en surbrillance.</Value>
     </Record>
     <Record>
+      <Key>SolarMemory</Key>
+      <Value>Module mémoire</Value>
+    </Record>
+    <Record>
       <Key>PickUpMemory</Key>
       <Value>Prenez un {THING:ItemSiliconIngot} dans la caisse orange.</Value>
     </Record>
     <Record>
       <Key>StructureLogicMemory</Key>
       <Value>Placez un autre {THING:StructureActiveVent} à l&apos;endroit en surbrillance.</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory</Key>
+      <Value>Paramétrage de la mémoire</Value>
     </Record>
     <Record>
       <Key>SetupLogicWritter1</Key>
@@ -65,6 +97,10 @@
     <Record>
       <Key>LogicReader1</Key>
       <Value>Placez un autre {THING:StructureActiveVent} à l&apos;endroit en surbrillance.</Value>
+    </Record>
+    <Record>
+      <Key>VerticalLogicProcessors</Key>
+      <Value>Processeurs logiques.</Value>
     </Record>
     <Record>
       <Key>PlaceLogicMath</Key>
@@ -103,12 +139,28 @@
       <Value>Allumez le {THING:StructureAutolathe}.</Value>
     </Record>
     <Record>
+      <Key>SleepMode</Key>
+      <Value>Module mode veille</Value>
+    </Record>
+    <Record>
       <Key>LogicSelect1</Key>
       <Value>Construisez un {THING:StructureGasSensor} à l&apos;endroit mis en surbrillance</Value>
     </Record>
     <Record>
       <Key>LogicSelect2</Key>
       <Value>Construisez un {THING:StructureGasSensor} à l&apos;endroit mis en surbrillance</Value>
+    </Record>
+    <Record>
+      <Key>SleepModeSetup</Key>
+      <Value>Configuration du mode veille</Value>
+    </Record>
+    <Record>
+      <Key>FinalStage</Key>
+      <Value>Étape finale</Value>
+    </Record>
+    <Record>
+      <Key>TurnOnReader</Key>
+      <Value>Allumez le lecteur logique.</Value>
     </Record>
   </Interface>
 </Language>
