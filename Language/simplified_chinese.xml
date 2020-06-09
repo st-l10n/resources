@@ -7174,8 +7174,20 @@
       <Value>寄存器r = a / b</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandMod</Key>
+      <Value>寄存器r的值为 a mod b (注意：不是 a % b)</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandJ</Key>
       <Value>转移到行 a 执行程序</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBdse</Key>
+      <Value>如果设备d未设置则代码转移到行a</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBdns</Key>
+      <Value>如果设备d未设置则代码转移到行a</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBlt</Key>
