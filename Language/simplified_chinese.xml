@@ -7178,6 +7178,30 @@
       <Value>转移到行 a 执行程序</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBlt</Key>
+      <Value>如果a &lt; b，则代码转移到行c</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgt</Key>
+      <Value>如果a &gt; b，则代码转移到行b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBle</Key>
+      <Value>如果a &lt;= b，则代码转移到行c</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBge</Key>
+      <Value>如果a &gt;= b，则代码转移到行c</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBeq</Key>
+      <Value>如果a == b，则代码转移到行c</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBne</Key>
+      <Value>如果a != b，则代码转移到行c</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBap</Key>
       <Value>如果abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8), 则代码转移到行d</Value>
     </Record>
