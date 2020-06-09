@@ -7178,6 +7178,30 @@
       <Value>如果 a != 0 即a不等于0时，代码转移到行b</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBrlt</Key>
+      <Value>如果 a &lt; b 则相对转移到行c</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrgt</Key>
+      <Value>如果 a &gt; b 则相对转移到行c</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrle</Key>
+      <Value>如果 a &lt;= b 则相对转移到行c</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrge</Key>
+      <Value>如果 a &gt;= b 则相对转移到行c</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBreq</Key>
+      <Value>如果 a == b 则相对转移到行c</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrne</Key>
+      <Value>如果 a != b 则代码相对转移到行c</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBrap</Key>
       <Value>如果abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8), 则代码相对转移到行d</Value>
     </Record>
