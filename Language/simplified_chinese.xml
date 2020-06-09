@@ -7174,8 +7174,40 @@
       <Value>转移到行 a 执行程序</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBgtz</Key>
+      <Value>如果a &gt; 0，则代码转移到行b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBeqz</Key>
+      <Value>如果a==0，则代码转移到行b</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBnez</Key>
       <Value>如果 a != 0 即a不等于0时，代码转移到行b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBapz</Key>
+      <Value>如果abs(a) &lt;= float.epsilon * 8 则代码转移到行c</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnaz</Key>
+      <Value>如果abs(a) &gt; float.epsilon * 8 则代码转移到行c</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJr</Key>
+      <Value>相对转移到行 a</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJr</Key>
+      <Value>相对转移到行 a</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrdse</Key>
+      <Value>如果设备已设置则相对转移到行a</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrdns</Key>
+      <Value>如果设备未设置则相对转移到行a</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrlt</Key>
