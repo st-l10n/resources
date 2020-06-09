@@ -7174,6 +7174,26 @@
       <Value>转移到行 a 执行程序</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBap</Key>
+      <Value>如果abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8), 则代码转移到行d</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBna</Key>
+      <Value>如果abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8), 则代码转移到行d</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBltz</Key>
+      <Value>如果a &lt; 0，则代码转移到行b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgez</Key>
+      <Value>如果a &gt;= 0，则代码转移到行b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBlez</Key>
+      <Value>如果a &lt;= 0，则代码转移到行b</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBgtz</Key>
       <Value>如果a &gt; 0，则代码转移到行b</Value>
     </Record>
@@ -7203,11 +7223,11 @@
     </Record>
     <Record>
       <Key>ScriptCommandBrdse</Key>
-      <Value>如果设备已设置则相对转移到行a</Value>
+      <Value>如果设备已设置则代码相对转移到行a</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrdns</Key>
-      <Value>如果设备未设置则相对转移到行a</Value>
+      <Value>如果设备未设置则代码相对转移到行a</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrlt</Key>
