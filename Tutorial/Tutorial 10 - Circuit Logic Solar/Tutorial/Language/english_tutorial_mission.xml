@@ -136,9 +136,9 @@ To do this, take the vertical solar angle percentage from Vertical Math 1, and a
         </Record>
         <Record>
             <Key>SetMemoryDescription5</Key>
-            <Value>The vertical axis of solar panels is measured as a percentage, while sensors output solar angle data in degrees from 0 - 150.
+            <Value>The vertical axis of solar panels is measured as a percentage, while sensors output solar angle data in degrees from 0 - 160.
             
-To make solar panels compatible with sensors, we use Vertical Logic Math 1 to divide the sensor’s data by 1.5, thereby converting the degree to a percentage.
+To make solar panels compatible with sensors, we use Vertical Logic Math 1 to divide the sensor’s data by 1.6, thereby converting the degree to a percentage.
             
             </Value>
         </Record>
@@ -160,7 +160,7 @@ To make solar panels compatible with sensors, we use Vertical Logic Math 1 to di
         </Record>
          <Record>
             <Key>SetMemory4</Key>
-            <Value>Set Tilt Memory to a value of 1.5</Value>
+            <Value>Set Tilt Memory to a value of 1.6</Value>
         </Record>
         <Record>
             <Key>SetupHorizontalSensor</Key>

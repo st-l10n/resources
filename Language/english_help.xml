@@ -33,6 +33,9 @@ If you hold down {KEY:MouseControl} and {KEY:MouseInspect} and click on somethin
 {HEADER:Structures}
 {LIST}{LINK:DevicePage;Devices}, {LINK:FabricatorPage;Fabricators}, {LINK:AirlockDevicePage;Airlock Devices}, {LINK:LogicUnitPage;Logic Units}
 {/LIST}
+{HEADER:World Travel}
+{LIST}{LINK:RocketShuttlePage;Rocket Shuttle Modules}, {LINK:TravelPage;Travel}
+{/LIST}
       </Text>
     </StationpediaPage>
     
@@ -306,6 +309,24 @@ There are some ores that will melt when exposed to sunlight or heat and produce 
 {LIST_OF_APPLIANCES}
       </Text>
     </StationpediaPage>
+
+ <StationpediaPage>
+      <Key>TravelPage</Key>
+      <Title>Destination</Title>
+      <Text>Wait! Don't close me yet! These are the WORLD TRAVEL IDs. You can use them to travel to specific planets, when combined with a completed {LINK:RocketShuttlePage;Rocket Shuttle} and {LINK:LogicUnitPage;Logic Units}. Simply write the hash to the setting variable on the {THING:StructureLaunchPad}. You need at least 3 core modules and all players seated in a functional Rocket for launch.
+      {LIST}
+        {WORLD_HASHES}
+      {/LIST}
+      </Text>
+    </StationpediaPage>
+        <StationpediaPage>
+      <Key>RocketShuttlePage</Key>
+      <Title>Rocket Shuttle</Title>
+      <Text>These are the Rocket Shuttle Modules, used to travel between worlds. {THING:StructureLaunchPad} is required.
+{HEADER:List of Rocket Shuttle Modules}
+{LIST_OF_ROCKET_SHUTTLE}
+      </Text>
+   </StationpediaPage>
     
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
