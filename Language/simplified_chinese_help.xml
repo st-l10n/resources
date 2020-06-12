@@ -9,10 +9,10 @@
     <StationpediaPage>
       <Key>Home</Key>
       <Title>主页</Title>
-      <Text>欢迎使用Stationeers的内置帮助系统。 使用此工具，您可知晓所有系统的工作原理以及该游戏的所有重要信息。
+      <Text>欢迎使用Stationeers的内置帮助系统。 这个工具可帮助你知晓游戏中所有系统的工作原理以及在行星上求生的重要信息。
       
 {HEADER:使用帮助}
-您可以按{KEY:Help}键打开和关闭此窗口。要在游戏时启用鼠标光标，请按住{KEY:MouseControl}键，这样可以让你单击帮助系统中出现的链接。
+您可以按{KEY:Help}键打开或是关闭此窗口。要在游戏时启用鼠标光标，请按住{KEY:MouseControl}键，这样可以让你单击帮助系统中出现的链接。
 
 {HEADER:检查}
 如果你按住 {KEY:MouseControl} 和 {KEY:MouseInspect}然后单击某些东西就可以对其进行 [i]检查[/i] 。这将打开帮助系统中与该物品相关的页面，为您提供关于此物品的详细信息。
@@ -32,7 +32,9 @@
 {HEADER:建设}
 {LIST}{LINK:DevicePage;设备}, {LINK:FabricatorPage;装配机器}, {LINK:AirlockDevicePage;气闸设备}, {LINK:LogicUnitPage;逻辑单元}
 {/LIST}
-      
+{HEADER:世界穿梭}
+{LIST}{LINK:RocketShuttlePage;火箭穿梭模块}, {LINK:TravelPage;穿梭}
+{/LIST}
       </Text>
     </StationpediaPage>
     <StationpediaPage>
