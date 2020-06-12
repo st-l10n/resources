@@ -287,10 +287,18 @@
     <StationpediaPage>
       <Key>TravelPage</Key>
       <Title>目的地</Title>
-      <Text>等等! 先别急着关掉我! 以下是一些星球的哈希值你也可以称为ID. 你可以输入这些ID来穿梭到特定的星球, 当然你得要有一个完整的 {LINK:RocketShuttlePage;航天飞机} 和一些 {LINK:LogicUnitPage;逻辑单元}. 只要在{THING:StructureLaunchPad} 的设置值上简单的输入这些哈希值就行啦. 你需要至少3个核心模块并且所有玩家都坐在有此功能的火箭来发射。
+      <Text>等等! 先别急着关掉我! 以下是一些星球的哈希值你也可以称为ID. 你可以输入这些ID来穿梭到特定的星球, 当然你得要有一个完整的 {LINK:RocketShuttlePage;火箭} 和一些 {LINK:LogicUnitPage;逻辑单元}. 只要在{THING:StructureLaunchPad} 的设置值上简单的输入这些哈希值就行啦. 你需要至少3个核心模块并且所有玩家都坐在有此功能的火箭来发射。
       {LIST}
         {WORLD_HASHES}
       {/LIST}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>RocketShuttlePage</Key>
+      <Title>火箭</Title>
+      <Text>这些是火箭模块，用于在星球之间移动。要建造火箭 {THING:StructureLaunchPad} 是最基本的东西。
+{HEADER:火箭模块列表}
+{LIST_OF_ROCKET_SHUTTLE}
       </Text>
     </StationpediaPage>
     <!--
