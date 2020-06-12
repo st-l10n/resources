@@ -284,6 +284,15 @@ Existují některé rudy, které roztají, když jsou vystaveny slunečnímu zá
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>TravelPage</Key>
+      <Title>Destinace</Title>
+      <Text>Počkejte! Ještě mě nezavírejte! Toto jsou IDENTIFIKACE SVĚTOVÉHO CESTOVÁNÍ. Můžete je použít k cestování na konkrétní planety v kombinaci s dokončeným {LINK:RocketShuttlePage;raketoplánem} a {LINK:LogicUnitPage;logickými jednotkami}. Jednoduše napište hash do proměnného nastavení na {THING:StructureLaunchPad}. K zahájení musíte mít alespoň 3 základní moduly a všechny hráče sedící ve funkční raketě pro start.
+      {LIST}
+        {WORLD_HASHES}
+      {/LIST}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>RocketShuttlePage</Key>
       <Title>Raketoplán</Title>
       <Text>Jedná se o raketové moduly, které se používají k cestování mezi světy. {THING:StructureLaunchPad} je vyžadována.
