@@ -7150,6 +7150,10 @@
       <Value>如果 a != 0 寄存器 r = 1 否则为0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandSnaz</Key>
+      <Value>如果|a| &gt; float.epsilon寄存器 r 的值 = 1,否则为0</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandAnd</Key>
       <Value>与运算，当且仅当a,b都为1时寄存器为1，否则为0</Value>
     </Record>
