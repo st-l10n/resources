@@ -109,12 +109,20 @@
       <Value>按下在 {THING:StructureResearchMachine} 前方的大大的绿色按钮就可以对这些胶囊进行处理了。只要按钮下方的小进度条完成，就代表处理完成。</Value>
     </Record>
     <Record>
+      <Key>InsertingCapsules3</Key>
+      <Value>当第一个胶囊处理完成后, 将 {THING:ItemResearchCapsule} 插入 {THING:StructureResearchMachine}.</Value>
+    </Record>
+    <Record>
       <Key>CapsuleBreakDown</Key>
       <Value>胶囊处理</Value>
     </Record>
     <Record>
+      <Key>CapsuleBreakDownDescription</Key>
+      <Value>每个等级的研究胶囊其处理时间都会不同。 等级越高花费的时间就越长。</Value>
+    </Record>
+    <Record>
       <Key>CapsuleBreakDown1</Key>
-      <Value>用{THING:StructureResearchMachine}打印第二个{THING:ItemResearchCapsule}。</Value>
+      <Value>用 {THING:StructureResearchMachine} 处理第二个 {THING:ItemResearchCapsule}。</Value>
     </Record>
     <Record>
       <Key>UnlockingResearch</Key>
