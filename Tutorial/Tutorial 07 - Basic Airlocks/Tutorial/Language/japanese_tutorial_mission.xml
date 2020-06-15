@@ -72,7 +72,7 @@
     </Record>
     <Record>
       <Key>UnderPressureTask1</Key>
-      <Value>{THING:ItemToolBelt}を{SLOT:Belt}スロットに装備する</Value>
+      <Value>{THING:StructureConsole} の中に {THING:CircuitboardAirlockControl} を挿入する。</Value>
     </Record>
     <Record>
       <Key>UnderPressureTask2</Key>
@@ -104,15 +104,15 @@
     </Record>
     <Record>
       <Key>AdvancedPressureTask1</Key>
-      <Value>{THING:ItemTablet}を拾う</Value>
+      <Value>{THING:StructureConsole} からバールを使って {THING:ItemGlassSheets} を取り外す。</Value>
     </Record>
     <Record>
       <Key>AdvancedPressureTask3</Key>
-      <Value>{THING:ItemTablet}を拾う</Value>
+      <Value>{THING:ItemGlassSheets} を貼り直す。</Value>
     </Record>
     <Record>
       <Key>AdvancedPressureask4</Key>
-      <Value>{THING:ItemTablet}を捨てる</Value>
+      <Value>{THING:ItemDataDisk} を挿入する。</Value>
     </Record>
   </Interface>
 </Language>
