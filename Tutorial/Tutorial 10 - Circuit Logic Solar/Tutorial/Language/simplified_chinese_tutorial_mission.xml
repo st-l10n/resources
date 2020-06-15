@@ -121,6 +121,10 @@
 当我们用Horizontal math unit 1加上该数值时，我们也会影响到Horizontal math unit 2的值。</Value>
     </Record>
     <Record>
+      <Key>SetMemoryDescription3</Key>
+      <Value>由于那个太阳传感器提供的数据为负，为了方便必须将负转换为正。要转换为正值，用Horizontal Math 1来将数据乘上Invert Memory的值</Value>
+    </Record>
+    <Record>
       <Key>SetMemory0</Key>
       <Value>将 Horizontal Mode Memory 设置为 1</Value>
     </Record>
