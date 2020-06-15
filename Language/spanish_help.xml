@@ -9,13 +9,13 @@
     <StationpediaPage>
       <Key>Home</Key>
       <Title>Inicio</Title>
-      <Text>Bienvenido al sistema de ayuda interna de Stationeers. Con esta herramienta usted puede encontrar información sobre cómo funcionan todos los sistemas, así como información importante sobre todas las cosas del mundo.
+      <Text>Bienvenido al sistema de ayuda interna para los oficiales de la estación. Con esta herramienta podrá encontrar información sobre el funcionamiento de todos los sistemas, así como información importante sobre todas las cosas del mundo.
       
 {HEADER:Using Help}
-Puede alternar entre abrir y cerrar esta ventana con la tecla {KEY:Help}. Para activar el cursor del ratón mientras juegas, mantenga pulsada la tecla{KEY:MouseControl} para hacer clic en los enlaces dentro del sistema de ayuda.
+Puede abrir y cerrar esta ventana con la tecla {KEY:Help}. Para activar el cursor del ratón mientras se reproduce mantenga pulsada la tecla {KEY:MouseControl} esto le permite hacer clic en los enlaces dentro del sistema de ayuda.
 
 {HEADER:Inspecting}
-Si mantiene presionada {KEY:MouseControl} y {KEY:MouseInspect}  y hace clic en algo, puede [i]inspeccionarlo[/i].  Esto abrirá el sistema de ayuda a la página relacionada con ese objeto y le dará información detallada.
+Si mantienes pulsado {KEY:MouseControl} y {KEY:MouseInspect}  y haces click en algo puedes [i]inspect[/i] it. Esto abrirá el sistema de ayuda a la página relacionada con ese objeto y le dará información detallada.
 
 {HEADER:Key topics}
 {LIST}{LINK:SmeltingPage;Smelting}, {LINK:MiningPage;Mining}, {LINK:ConstructionPage;Construction}, {LINK:InventoryPage;Inventory}
@@ -27,10 +27,13 @@ Si mantiene presionada {KEY:MouseControl} y {KEY:MouseInspect}  y hace clic en a
 {LIST}{LINK:GasPage;Gases}, {LINK:ReagentPage;Reagents}
 {/LIST}
 {HEADER:Items}
-{LIST}{LINK:ToolPage;Tools}, {LINK:ResourcePage;Resources}, {LINK:KitPage;Kits}, {LINK:FoodPage;Food}, {LINK:ClothingPage;Clothing}, {LINK:AppliancePage;Appliances}, {LINK:IngotPage;Ingots}, {LINK:OrePage;Ores}, {LINK:AlloyPage;Alloys}
+{LIST}{LINK:ToolPage;Tools}, {LINK:ResourcePage;Resources}, {LINK:KitPage;Kits}, {LINK:FoodPage;Food}, {LINK:ClothingPage;Clothing}, {LINK:AppliancePage;Appliances}, {LINK:IngotPage;Ingots}, {LINK:OrePage;Ores}, {LINK:AlloyPage;Alloys}, {LINK:SuperAlloyPage;Superalloys}
 {/LIST}
 {HEADER:Structures}
 {LIST}{LINK:DevicePage;Devices}, {LINK:FabricatorPage;Fabricators}, {LINK:AirlockDevicePage;Airlock Devices}, {LINK:LogicUnitPage;Logic Units}
+{/LIST}
+{HEADER:World Travel}
+{LIST}{LINK:RocketShuttlePage;Rocket Shuttle Modules}, {LINK:TravelPage;Travel}
 {/LIST}
       </Text>
     </StationpediaPage>
@@ -264,6 +267,15 @@ Hay algunos minerales que se funden cuando se exponen a la luz solar o al calor 
       
 {HEADER:List of Appliances}
 {LIST_OF_APPLIANCES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>TravelPage</Key>
+      <Title>Destino</Title>
+      <Text>¡Espera! ¡No me cierres todavía! Estas son las identificaciones de WORLD TRAVEL IDs. Puedes usarlas para viajar a planetas específicos, cuando se combinan con un completo {LINK:RocketShuttlePage;Rocket Shuttle}. Simplemente escribe el hash a la variable de ajuste en el {THING:StructureLaunchPad}. Necesitas al menos 3 módulos centrales y todos los jugadores sentados en un cohete funcional para el despegue.
+      {LIST}
+        {WORLD_HASHES}
+      {/LIST}
       </Text>
     </StationpediaPage>
     <StationpediaPage>
