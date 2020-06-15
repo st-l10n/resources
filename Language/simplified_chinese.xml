@@ -7126,6 +7126,14 @@
       <Value>如果a != b，寄存器 r = 1，否则为0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandSap</Key>
+      <Value>如果abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) 则寄存器 r 的值 为1，否则为0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSna</Key>
+      <Value>如果abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8) 则寄存器 r 的值 为1，否则为0</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandSltz</Key>
       <Value>a &lt; 0时，寄存器为1，否则为0.</Value>
     </Record>
