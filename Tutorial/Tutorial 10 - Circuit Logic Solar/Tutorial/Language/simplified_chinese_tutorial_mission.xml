@@ -312,6 +312,16 @@
       <Value>水平逻辑处理器</Value>
     </Record>
     <Record>
+      <Key>HorizontalLogicProcessorSetUpDescription</Key>
+      <Value>与垂直模块电路那样，我们也需要对水平模块电路中的输入值进行一些数值运算。
+			
+首先, 对传感器获得的水平太阳角度的数据乘个-1变成正数. 为此, 用 {THING:StructureLogicMath} 来读取逻辑读取中的数据然后乘上我们命名为 Invert的 {THING:StructureLogicMemory} 中设置的值-1.
+            
+下一步是偏移 {THING:StructureDaylightSensor} 中的数据.  在这一步中，我们用-90来作为数据调整. 用 {THING:StructureLogicMath} 来读取传感器的数据然后加上我们命名为Offset的 {THING:StructureLogicMemory} 中的值.
+
+            </Value>
+    </Record>
+    <Record>
       <Key>PlaceLogicMath2</Key>
       <Value>在高亮位置处放置第一个 {THING:StructureLogicMath}。</Value>
     </Record>
@@ -324,12 +334,36 @@
       <Value>打开 Horizontal Math Unit 1.</Value>
     </Record>
     <Record>
+      <Key>HorizontalLogicProcessorSetUp2</Key>
+      <Value>设置Horizontal Math Unit 1的输入1为Horizontal Logic Reader 1.</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalLogicProcessorSetUp3</Key>
+      <Value>设置 Horizontal Math Unit 1的输入2为Invert Memory.</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalLogicProcessorSetUp4</Key>
+      <Value>设置Horizontal Math Unit 1的运算类型为 &apos;multiply&apos;(乘).</Value>
+    </Record>
+    <Record>
       <Key>HorizontalLogicProcessorSetUp5</Key>
       <Value>打开 Horizontal Math Unit 2.</Value>
     </Record>
     <Record>
+      <Key>HorizontalLogicProcessorSetUp6</Key>
+      <Value>设置Horizontal Math Unit 2的输入1为Horizontal Math Unit 1.</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalLogicProcessorSetUp7</Key>
+      <Value>设置 Horizontal Math Unit 2 的输入2为OffSet Memory.</Value>
+    </Record>
+    <Record>
       <Key>HorizontalLogicProcessorSetUp8</Key>
       <Value>将Horizontal Math Unit 2上的数学操作类型设置为 &apos;Add&apos;。</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalBatchWriter</Key>
+      <Value>水平批量写入</Value>
     </Record>
     <Record>
       <Key>BatchWriter2</Key>
