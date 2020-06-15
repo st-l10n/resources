@@ -176,6 +176,10 @@
       <Value>逻辑读取设置</Value>
     </Record>
     <Record>
+      <Key>LogicReaderSetupDescription</Key>
+      <Value>逻辑读取会按它的名字那样工作：读取逻辑值。我们将利用这些装置来读取每个传感器的太阳角度。</Value>
+    </Record>
+    <Record>
       <Key>LogicReader1</Key>
       <Value>在高亮位置处放置 {THING:StructureLogicReader}。</Value>
     </Record>
@@ -184,16 +188,24 @@
       <Value>逻辑读取设置</Value>
     </Record>
     <Record>
+      <Key>LogicReaderLogicSetupDescription</Key>
+      <Value>我们现在需要设置我们刚刚放置的逻辑读取。与逻辑写入一样，我们需要设置输入的值。</Value>
+    </Record>
+    <Record>
       <Key>LogicReaderLogicSetup1</Key>
       <Value>将 Horizontal Logic Reader 1的输入设置为Horizontal Day Light Sensor.</Value>
     </Record>
     <Record>
       <Key>LogicReaderLogicSetup2</Key>
-      <Value>将逻辑值设置为Solar angle(太阳角度)。</Value>
+      <Value>将要读取的逻辑值设置为Solar angle(太阳角度)。</Value>
+    </Record>
+    <Record>
+      <Key>LogicReaderLogicSetup3</Key>
+      <Value>将Vertical Logic Reader 1的输入设置为Vertical Day Light Sensor.</Value>
     </Record>
     <Record>
       <Key>LogicReaderLogicSetup4</Key>
-      <Value>将逻辑值设置为Solar angle(太阳角度)。</Value>
+      <Value>将要读取的逻辑值设置为Solar angle(太阳角度)。</Value>
     </Record>
     <Record>
       <Key>VerticalLogicProcessors</Key>
@@ -351,7 +363,7 @@
     </Record>
     <Record>
       <Key>TurnOnReader</Key>
-      <Value>打开逻辑读取的开关。</Value>
+      <Value>打开这个逻辑读取的开关。</Value>
     </Record>
   </Interface>
 </Language>
