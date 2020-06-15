@@ -116,6 +116,11 @@
 日光传感器有 3 种模式: Default默认, Horizontal水平, 还有Vertical垂直. 每种模式都会改变其输出的太阳角度值. 在当前情况下, 我们要设置这个传感器为Horizontal, 模式 1. 将Horizontal Memory Module水平内存模块的值设置为1, 然后逻辑写入会将此值写入传感器。</Value>
     </Record>
     <Record>
+      <Key>SetMemoryDescription2</Key>
+      <Value>我们现在需要设置水平偏移量，来对太阳能电池板和日光传感器的位置和方向进行校正。如果你的传感器与你的太阳能电池板的角度为90度角，这个偏移值将会调整太阳角度数据，使太阳能电池板面向太阳。
+当我们用Horizontal math unit 1加上该数值时，我们也会影响到Horizontal math unit 2的值。</Value>
+    </Record>
+    <Record>
       <Key>SetMemory0</Key>
       <Value>将 Horizontal Mode Memory 设置为 1</Value>
     </Record>
