@@ -212,6 +212,14 @@
       <Value>逻辑处理器。</Value>
     </Record>
     <Record>
+      <Key>VerticalLogicProcessorsDescription</Key>
+      <Value>我们现在需要对 {THING:StructureLogicReader} 和 {THING:StructureLogicMemory} 中的数据进行一些数学运算. 从电路中的垂直数据模块开始.
+            
+这第一个 {THING:StructureLogicMath} 会用 {THING:StructureLogicReader} 得到的数据除以{THING:StructureLogicMemory}中的数据也就是1.5.
+  
+第二个 {THING:StructureLogicMath} 会读取我们第一个 {THING:StructureLogicMath} 的值然后加上我们命名为 offset 的{THING:StructureLogicMemory} 中的值50.</Value>
+    </Record>
+    <Record>
       <Key>PlaceLogicMath</Key>
       <Value>在高亮位置处放置第一个 {THING:StructureLogicMath}。</Value>
     </Record>
@@ -224,6 +232,10 @@
       <Value>Logic Math Vertical设置。</Value>
     </Record>
     <Record>
+      <Key>LogicMathVerticalDescription</Key>
+      <Value>设置数学处理器是创建逻辑电路中最重要的步骤之一，因为它承担着大多数任务所需的所有运算。</Value>
+    </Record>
+    <Record>
       <Key>LogicMathVertical1</Key>
       <Value>打开 Vertical Math Unit 1.</Value>
     </Record>
@@ -234,6 +246,10 @@
     <Record>
       <Key>LogicMathVertical3</Key>
       <Value>在Vertical Math Unit 1上的输入 2 设置读取Tilt Memory。</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVertical4</Key>
+      <Value>设置Vertical Math Unit 1的运算类型为 &apos;Divide&apos; (除)</Value>
     </Record>
     <Record>
       <Key>LogicMathVertical5</Key>
