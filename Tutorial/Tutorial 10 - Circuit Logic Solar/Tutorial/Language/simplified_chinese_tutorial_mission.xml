@@ -111,6 +111,11 @@
       <Value>设置内存</Value>
     </Record>
     <Record>
+      <Key>SetMemoryDescription</Key>
+      <Value>到现在为止你已经将 {THING:StructureLogicMemory} 都安装好了, 这个太阳追踪系统也设置好了, 你需要用 {THING:ItemScrewdriver} 来给这些 {THING:StructureLogicMemory} 设置特定的值 . 设置的值取决于 {THING:StructureDaylightSensor} 和太阳能电池板的位置和方向.
+日光传感器有 3 种模式: Default默认, Horizontal水平, 还有Vertical垂直. 每种模式都会改变其输出的太阳角度值. 在当前情况下, 我们要设置这个传感器为Horizontal, 模式 1. 将Horizontal Memory Module水平内存模块的值设置为1, 然后逻辑写入会将此值写入传感器。</Value>
+    </Record>
+    <Record>
       <Key>SetMemory0</Key>
       <Value>将 Horizontal Mode Memory 设置为 1</Value>
     </Record>
