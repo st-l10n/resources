@@ -417,12 +417,32 @@
       <Value>打开 {THING:StructureLogicBatchWriter}的开关。</Value>
     </Record>
     <Record>
+      <Key>SleepMode</Key>
+      <Value>休眠模式</Value>
+    </Record>
+    <Record>
+      <Key>SleepModeDescription</Key>
+      <Value>现在我们拥有了一个可整日追踪太阳轨迹的太阳追踪电路.
+			
+但是夜晚怎么办? 所以, 我们要搭建另一个模块让整个电路进入休眠模式。 当传感器关闭了或是没有接收到阳光时, 这些太阳能电池板的角度将会重置为一个初始值. 所以我们要用到 {THING:StructureLogicReader} 来读取每个 {THING:StructureDaylightSensor} 的阳光接收状态 .
+            
+            </Value>
+    </Record>
+    <Record>
       <Key>LogicSelect1</Key>
       <Value>在高亮位置处建放置第一个 {THING:StructureLogicSelect}。</Value>
     </Record>
     <Record>
       <Key>LogicSelect2</Key>
       <Value>在高亮位置处放置第二个 {THING:StructureLogicSelect}。</Value>
+    </Record>
+    <Record>
+      <Key>SleepModeSetup</Key>
+      <Value>休眠模式安装</Value>
+    </Record>
+    <Record>
+      <Key>SleepModeSetupDescription</Key>
+      <Value>现在我们需要读取传感器的状态. 这会告诉我们是在白天还是晚上。</Value>
     </Record>
     <Record>
       <Key>SleepModeSetupTask1</Key>
