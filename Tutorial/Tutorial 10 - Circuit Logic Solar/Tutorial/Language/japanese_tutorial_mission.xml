@@ -4,7 +4,7 @@
   <Interface>
     <Record>
       <Key>ConsoleManuallControl1</Key>
-      <Value>{THING:ItemToolBelt}を{SLOT:Belt}スロットに装備する</Value>
+      <Value>ハイライトされた位置に {THING:StructureCableStraight} を設置してネットワークを完成させる。</Value>
     </Record>
     <Record>
       <Key>ConsoleManuallControl2</Key>
@@ -12,11 +12,11 @@
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask1</Key>
-      <Value>{THING:ItemToolBelt}を{SLOT:Belt}スロットに装備する</Value>
+      <Value>{THING:StructureConsole} に {THING:CircuitboardSolarControl} を挿入する。</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask2</Key>
-      <Value>{THING:ItemTablet}を拾う</Value>
+      <Value>{THING:StructureConsole} に {THING:ItemGlassSheets} を取り付ける。</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask3</Key>
