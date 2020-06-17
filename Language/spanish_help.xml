@@ -272,7 +272,11 @@ Hay algunos minerales que se funden cuando se exponen a la luz solar o al calor 
     <StationpediaPage>
       <Key>TravelPage</Key>
       <Title>Destino</Title>
-      <Text>¡Espera! ¡No me cierres todavía! Estas son las identificaciones de WORLD TRAVEL IDs. Puedes usarlas para viajar a planetas específicos, cuando se combinan con un completo {LINK:RocketShuttlePage;Rocket Shuttle}. Simplemente escribe el hash a la variable de ajuste en el {THING:StructureLaunchPad}. Necesitas al menos 3 módulos centrales y todos los jugadores sentados en un cohete funcional para el despegue.
+      <Text>¡Espera! ¡No me cierres todavía! Estas son las identificaciones de WORLD TRAVEL IDs. Puedes usarlas para viajar a planetas específicos, cuando se combinan con un completo {LINK:RocketShuttlePage;Rocket Shuttle} y {LINK:LogicUnitPage;Logic Units}.
+
+Simplemente escribe el hash a la variable de ajuste en el {THING:StructureLaunchPad} con un {THING:ItemLabeller}. Nota: Puedes hacer clic en un hash para copiarlo al portapapeles.
+
+Necesitas al menos 3 módulos centrales y todos los jugadores sentados en un cohete funcional para el lanzamiento.
       {LIST}
         {WORLD_HASHES}
       {/LIST}
