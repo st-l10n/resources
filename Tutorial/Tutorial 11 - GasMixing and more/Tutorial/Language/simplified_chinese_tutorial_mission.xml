@@ -37,12 +37,28 @@
       <Value>把氧气罐放进 {THING:DynamicGasCanisterOxygen}。</Value>
     </Record>
     <Record>
+      <Key>RetrievingOxyTank</Key>
+      <Value>回收氧气罐</Value>
+    </Record>
+    <Record>
+      <Key>RetrievingOxyTankDescription</Key>
+      <Value>{THING:DynamicGasCanisterOxygen} 将充满 {THING:ItemGasCanisterOxygen} 的氧气。你现在可以从 {THING:DynamicGasCanisterOxygen} 中拿走 {THING:ItemGasCanisterOxygen}。</Value>
+    </Record>
+    <Record>
       <Key>RetrievingOxyTankTask1</Key>
       <Value>把 {THING:ItemGasCanisterOxygen} 从 {THING:DynamicGasCanisterOxygen} 里拿走。</Value>
     </Record>
     <Record>
       <Key>RetrievingOxyTankTask2</Key>
       <Value>换回 {THING:ItemGasCanisterOxygen} 到你的宇航服中。</Value>
+    </Record>
+    <Record>
+      <Key>RemoveingFuelCan</Key>
+      <Value>拆下燃料罐</Value>
+    </Record>
+    <Record>
+      <Key>RemoveingFuelCanDescription</Key>
+      <Value>你的焊枪没有燃料了. 要填充它，我们将需要制造合适的气体混合物. 继续然后把 {THING:ItemGasCanisterFuel} 放入 {THING:StructureGasTankStorage}.</Value>
     </Record>
     <Record>
       <Key>RemoveingFuelCanTask1</Key>
@@ -53,8 +69,16 @@
       <Value>将{THING:ItemGasCanisterFuel} 放进在地板上的所能看到的那个黄色的 {THING:StructureGasTankStorage}里。</Value>
     </Record>
     <Record>
+      <Key>Valves</Key>
+      <Value>阀门</Value>
+    </Record>
+    <Record>
       <Key>ValvesTask1</Key>
       <Value>从附近箱子里拿出一个 {THING:ItemPipeValve} 然后放置在显示的高亮区域中。</Value>
+    </Record>
+    <Record>
+      <Key>PipeMeters</Key>
+      <Value>管道仪表</Value>
     </Record>
     <Record>
       <Key>PipeMetersTask1</Key>
