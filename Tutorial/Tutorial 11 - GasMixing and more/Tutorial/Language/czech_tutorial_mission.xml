@@ -3,16 +3,28 @@
   <Code>CS</Code>
   <Interface>
     <Record>
+      <Key>Tutorial11 - GasMixingAndmore</Key>
+      <Value>#Výuka 11 - Míchání plynů a další</Value>
+    </Record>
+    <Record>
+      <Key>Tutorial 11 - GasFilteringandmoreDescription</Key>
+      <Value>Naučte se, jak naplnit kyslíkovou nádrž svého obleku a smíchat plyny a vytvořit palivo.</Value>
+    </Record>
+    <Record>
+      <Key>GasMixingInd</Key>
+      <Value>Úvod do míchání plynů</Value>
+    </Record>
+    <Record>
       <Key>RemoveingSuitOxyTask1</Key>
-      <Value>Vezměte {THING:ItemWrench} z vašeho opasku.</Value>
+      <Value>Vezměte si {THING:ItemGasCanisterOxygen} ze svého obleku.</Value>
     </Record>
     <Record>
       <Key>RemoveingSuitOxyTask2</Key>
-      <Value>Vezměte {THING:ItemGasCanisterWater}.</Value>
+      <Value>Umístěte kyslíkovou nádrž do {THING:DynamicGasCanisterOxygen}.</Value>
     </Record>
     <Record>
       <Key>RetrievingOxyTankTask1</Key>
-      <Value>Odeberte {THING:ItemDataDisk} z {THING:StructureConsole}.</Value>
+      <Value>Odeberte {THING:ItemGasCanisterOxygen} z {THING:DynamicGasCanisterOxygen}.</Value>
     </Record>
     <Record>
       <Key>RetrievingOxyTankTask2</Key>
