@@ -32,55 +32,55 @@
     </Record>
     <Record>
       <Key>PipeMetersTask1</Key>
-      <Value>在高亮位置处放置 {THING:StructureLogicWriter}。</Value>
+      <Value>在高亮位置处放置 {THING:StructurePipeMeter}。</Value>
     </Record>
     <Record>
       <Key>GasMixerTask1</Key>
-      <Value>在高亮位置处建造 {THING:StructureGasSensor}</Value>
+      <Value>在高亮位置处建造 {THING:StructureGasSensor}。</Value>
     </Record>
     <Record>
       <Key>PressureRegulatorTask1</Key>
-      <Value>在高亮位置处放置另一个{THING:StructurePipeStraight}。</Value>
+      <Value>在高亮位置处放置 {THING:StructurePressureRegulator}。</Value>
     </Record>
     <Record>
       <Key>ConnectingTanks</Key>
-      <Value>完成框架建设</Value>
+      <Value>连接建造</Value>
     </Record>
     <Record>
       <Key>ConnectingTanksTask1</Key>
-      <Value>用 {THING:ItemWrench} 把{THING:DynamicGasCanisterWater} 到 {THING:ItemTankConnector} 上面。</Value>
+      <Value>将 {THING:DynamicGasCanisterOxygen} 连接到白色的储罐连接底座上</Value>
     </Record>
     <Record>
       <Key>ConnectingTanksTask2</Key>
-      <Value>用 {THING:ItemWrench} 把{THING:DynamicGasCanisterWater} 到 {THING:ItemTankConnector} 上面。</Value>
+      <Value>将 {THING:DynamicGasCanisterVolatiles} 连接到那个红色的储罐连接底座上。</Value>
     </Record>
     <Record>
       <Key>FlipingValves</Key>
-      <Value>装备一个过滤器</Value>
+      <Value>翻转阀门</Value>
     </Record>
     <Record>
       <Key>FlipingValvesTask2</Key>
-      <Value>在高亮位置处建造 {THING:StructureGasSensor}</Value>
+      <Value>打开氧气网络的 {THING:StructureValve}。</Value>
     </Record>
     <Record>
       <Key>FlipingValvesTask1</Key>
-      <Value>放置 {THING:StructureSolidFuelGenerator}。</Value>
+      <Value>打开挥发性有机物网络的 {THING:StructureValve}。</Value>
     </Record>
     <Record>
       <Key>SettingYourLimit</Key>
-      <Value>放置一个逻辑写入</Value>
+      <Value>设定你的极限</Value>
     </Record>
     <Record>
       <Key>SettingYourLimitTask1</Key>
-      <Value>将 {THING:StructureLogicBatchWriter} 上的逻辑值类型设置为 Vertical，来写入太阳能板的垂直角度。</Value>
+      <Value>在 {THING:StructurePressureRegulator} 设置压力为1950kpa</Value>
     </Record>
     <Record>
       <Key>SettingYourLimitTask2</Key>
-      <Value>启动 {THING:StructureAutolathe}。</Value>
+      <Value>启动 {THING:StructurePressureRegulator}。</Value>
     </Record>
     <Record>
       <Key>TheGasMix</Key>
-      <Value>煤矿工人</Value>
+      <Value>气体混合</Value>
     </Record>
     <Record>
       <Key>TheGasMixTask2</Key>
