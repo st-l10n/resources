@@ -173,8 +173,20 @@ Nyní můžete připojit kyslíkovou nádrž k {THING:DynamicGasCanisterOxygen} 
       <Value>Nyní nastavte poměr směsi plynů interakcí s kolečkem na {THING:StructureGasMixer}. Otočením kolečka doprava se změní poměr ve prospěch prvního vstupu. Otočením kolečka doleva se změní poměr ve prospěch druhého vstupu. Pomocí {KEY:QuantityModifier} snižte přírůstky z 10 na 1.</Value>
     </Record>
     <Record>
+      <Key>TheGasMixTask1</Key>
+      <Value>Nastavte poměr směsí na &apos;33&apos; na vstupu jedna a &apos;67&apos; na vstupu dva.</Value>
+    </Record>
+    <Record>
       <Key>TheGasMixTask2</Key>
       <Value>Zapněte plynový mixér.</Value>
+    </Record>
+    <Record>
+      <Key>RetrievingTheFuelTank</Key>
+      <Value>Obnovení palivové nádrže</Value>
+    </Record>
+    <Record>
+      <Key>RetrievingTheFuelTankDescription</Key>
+      <Value>Nyní máte perfektní palivovou směs, která naplní vaši prázdnou {THING:ItemGasCanisterFuel}. Nechte ji naplnit a poté ji vyjměte z {THING:StructureGasTankStorage} a vložte ji zpět do {THING:ItemWeldingTorch}.</Value>
     </Record>
     <Record>
       <Key>RetrievingTheFuelTankTask1</Key>
@@ -183,6 +195,14 @@ Nyní můžete připojit kyslíkovou nádrž k {THING:DynamicGasCanisterOxygen} 
     <Record>
       <Key>RetrievingTheFuelTankTask2</Key>
       <Value>Umístěte {THING:ItemGasCanisterFuel} do {THING:ItemWeldingTorch}.</Value>
+    </Record>
+    <Record>
+      <Key>TestTheFuelMix</Key>
+      <Value>Testování palivové směsi</Value>
+    </Record>
+    <Record>
+      <Key>TestTheFuelMixDescription</Key>
+      <Value>Nyní, když jsme doplnili palivo {THING:ItemGasCanisterFuel}, vyzkoušejte to dokončením skleněných dveří vedle míchacího systému plynu. Vedle zdi najdete zásoby, které potřebujete.</Value>
     </Record>
   </Interface>
 </Language>
