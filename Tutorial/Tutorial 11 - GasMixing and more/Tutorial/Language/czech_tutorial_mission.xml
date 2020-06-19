@@ -57,6 +57,10 @@ Nyní můžete připojit kyslíkovou nádrž k {THING:DynamicGasCanisterOxygen} 
       <Value>Vyjmutí palivové nádrže</Value>
     </Record>
     <Record>
+      <Key>RemoveingFuelCanDescription</Key>
+      <Value>Vaší svářečce došlo palivo. K jeho naplnění budeme muset vytvořit vhodnou směs plynů. Jděte do toho a vložte {THING:ItemGasCanisterFuel} do {THING:StructureGasTankStorage}.</Value>
+    </Record>
+    <Record>
       <Key>RemoveingFuelCanTask1</Key>
       <Value>Odeberte {THING:ItemGasCanisterFuel} z {THING:ItemWeldingTorch} ve vašem {THING:ItemToolBelt}</Value>
     </Record>
@@ -65,8 +69,20 @@ Nyní můžete připojit kyslíkovou nádrž k {THING:DynamicGasCanisterOxygen} 
       <Value>Umístěte {THING:ItemGasCanisterFuel} do žlutého {THING:StructureGasTankStorage} nalezeného na podlaze.</Value>
     </Record>
     <Record>
+      <Key>Valves</Key>
+      <Value>Ventily</Value>
+    </Record>
+    <Record>
+      <Key>ValvesDescription</Key>
+      <Value>Nyní musíme zřídit potrubní síť pro systém míchání plynu. Začněte umístěním ventilů vedle každého {THING:StructureTankConnector}. To vám umožní vypnout síť z nově připojených plynových nádrží, dokud nebudeme připraveni je připojit k potrubní síti.</Value>
+    </Record>
+    <Record>
       <Key>ValvesTask1</Key>
       <Value>Získejte {THING:ItemPipeValve} z nedaleké bedny a umístěte ho na zvýrazněné místo.</Value>
+    </Record>
+    <Record>
+      <Key>PipeMeters</Key>
+      <Value>Měřidla potrubí</Value>
     </Record>
     <Record>
       <Key>PipeMetersTask1</Key>
