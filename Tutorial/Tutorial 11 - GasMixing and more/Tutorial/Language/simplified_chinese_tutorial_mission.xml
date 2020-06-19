@@ -110,7 +110,7 @@
     </Record>
     <Record>
       <Key>PressureRegulatorDescription</Key>
-      <Value>{THING:StructurePressureRegulator} 用于调节管道网络内的压力。这能让你限制其内部的压力，不会让这个罐压力破裂。</Value>
+      <Value>{THING:StructurePressureRegulator} 用于调节管道网络内的压力。这能让你限制其内部的压力，不会让这个罐压力过高导致破裂。</Value>
     </Record>
     <Record>
       <Key>PressureRegulatorTask1</Key>
@@ -119,6 +119,10 @@
     <Record>
       <Key>ConnectingTanks</Key>
       <Value>连接建造</Value>
+    </Record>
+    <Record>
+      <Key>ConnectingTanksDescription</Key>
+      <Value>现在，将储罐安装到 {THING:StructureTankConnector}上面。将罐拖到 {THING:StructureTankConnector} 的顶部，然后用储罐上的 {THING:ItemWrench}来连接它。</Value>
     </Record>
     <Record>
       <Key>ConnectingTanksTask1</Key>
@@ -133,6 +137,10 @@
       <Value>翻转阀门</Value>
     </Record>
     <Record>
+      <Key>FlipingValvesDescription</Key>
+      <Value>现在，我们已准备好打开{THING:StructureValve}。要打开阀门，请与 {THING:StructureValve}上的操纵杆进行交互。</Value>
+    </Record>
+    <Record>
       <Key>FlipingValvesTask2</Key>
       <Value>打开氧气网络的 {THING:StructureValve}。</Value>
     </Record>
@@ -145,6 +153,10 @@
       <Value>设定你的极限</Value>
     </Record>
     <Record>
+      <Key>SettingYourLimitDescription</Key>
+      <Value>我们现在需要设置 {THING:StructurePressureRegulator} 的压力极限。通过与 {THING:StructurePressureRegulator}上的操纵轮交互来执行此操作。将压力极限设置为 1950kPa。</Value>
+    </Record>
+    <Record>
       <Key>SettingYourLimitTask1</Key>
       <Value>在 {THING:StructurePressureRegulator} 设置压力为1950kpa</Value>
     </Record>
@@ -155,6 +167,10 @@
     <Record>
       <Key>TheGasMix</Key>
       <Value>气体混合</Value>
+    </Record>
+    <Record>
+      <Key>TheGasMixDescription</Key>
+      <Value>现在用 {THING:StructureGasMixer} 设置气体混合比。向右转动操纵轮会改变第一个输入的比例。向左转动操纵轮会改变第二个输入的比例。按 {KEY:QuantityModifier} 键将增量从10减少到1。</Value>
     </Record>
     <Record>
       <Key>TheGasMixTask2</Key>
