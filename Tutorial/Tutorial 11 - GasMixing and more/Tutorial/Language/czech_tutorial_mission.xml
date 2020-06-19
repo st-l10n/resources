@@ -121,6 +121,10 @@ Nyní můžete připojit kyslíkovou nádrž k {THING:DynamicGasCanisterOxygen} 
       <Value>Připojování nádrží</Value>
     </Record>
     <Record>
+      <Key>ConnectingTanksDescription</Key>
+      <Value>Nyní připojte dynamické nádrže k {THING:StructureTankConnector}. Přetáhněte nádrž na odpovídající {THING:StructureTankConnector} a poté ji připojte pomocí {THING:ItemWrench} na dynamické nádrži.</Value>
+    </Record>
+    <Record>
       <Key>ConnectingTanksTask1</Key>
       <Value>Připojte {THING:DynamicGasCanisterOxygen} k bílému konektoru nádrže.</Value>
     </Record>
@@ -131,6 +135,10 @@ Nyní můžete připojit kyslíkovou nádrž k {THING:DynamicGasCanisterOxygen} 
     <Record>
       <Key>FlipingValves</Key>
       <Value>Překlápěcí ventily</Value>
+    </Record>
+    <Record>
+      <Key>FlipingValvesDescription</Key>
+      <Value>Nyní jsme připraveni zapnout {THING:StructureValve}. Chcete-li otevřít ventil, pracujte s pákou na {THING:StructureValve}.</Value>
     </Record>
     <Record>
       <Key>FlipingValvesTask2</Key>
@@ -145,6 +153,10 @@ Nyní můžete připojit kyslíkovou nádrž k {THING:DynamicGasCanisterOxygen} 
       <Value>Nastavení limitu</Value>
     </Record>
     <Record>
+      <Key>SettingYourLimitDescription</Key>
+      <Value>Nyní musíme nastavit limit tlaku na {THING:StructurePressureRegulator}. To provedete interakcí s kolečkem na {THING:StructurePressureRegulator}. Nastavte tlak na 1950kPa.</Value>
+    </Record>
+    <Record>
       <Key>SettingYourLimitTask1</Key>
       <Value>Nastavte tlak na {THING:StructurePressureRegulator} na 1950kPa</Value>
     </Record>
@@ -155,6 +167,10 @@ Nyní můžete připojit kyslíkovou nádrž k {THING:DynamicGasCanisterOxygen} 
     <Record>
       <Key>TheGasMix</Key>
       <Value>Směs plynů</Value>
+    </Record>
+    <Record>
+      <Key>TheGasMixDescription</Key>
+      <Value>Nyní nastavte poměr směsi plynů interakcí s kolečkem na {THING:StructureGasMixer}. Otočením kolečka doprava se změní poměr ve prospěch prvního vstupu. Otočením kolečka doleva se změní poměr ve prospěch druhého vstupu. Pomocí {KEY:QuantityModifier} snižte přírůstky z 10 na 1.</Value>
     </Record>
     <Record>
       <Key>TheGasMixTask2</Key>
