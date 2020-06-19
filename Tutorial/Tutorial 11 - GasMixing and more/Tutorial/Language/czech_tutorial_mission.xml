@@ -85,12 +85,32 @@ Nyní můžete připojit kyslíkovou nádrž k {THING:DynamicGasCanisterOxygen} 
       <Value>Měřidla potrubí</Value>
     </Record>
     <Record>
+      <Key>PipeMetersDescription</Key>
+      <Value>{THING:StructurePipeMeter} nám umožňuje vidět aktuální tlak uvnitř potrubní sítě. Umístěte je vedle {THING:ItemPipeValve}. Všimněte si, že jsou umístěny na horní straně potrubí, spíše než jako svůj vlastní objekt. Najděte nějaké v bedně poblíž.</Value>
+    </Record>
+    <Record>
       <Key>PipeMetersTask1</Key>
       <Value>Umístěte {THING:StructurePipeMeter} na zvýrazněné místo.</Value>
     </Record>
     <Record>
+      <Key>GasMixer</Key>
+      <Value>Plynová míchačka</Value>
+    </Record>
+    <Record>
+      <Key>GasMixerDescription</Key>
+      <Value>Plynová míchačka nám umožňuje kombinovat dva plyny v definovaném poměru. To vám umožní vytvořit směs paliva potřebnou pro {THING:ItemWeldingTorch}.</Value>
+    </Record>
+    <Record>
       <Key>GasMixerTask1</Key>
       <Value>Umístěte {THING:StructureGasMixer} na zvýrazněné místo.</Value>
+    </Record>
+    <Record>
+      <Key>PressureRegulator</Key>
+      <Value>Regulátor tlaku</Value>
+    </Record>
+    <Record>
+      <Key>PressureRegulatorDescription</Key>
+      <Value>{THING:StructurePressureRegulator} se používá k regulaci tlaku uvnitř potrubní sítě. To vám umožní omezit tlak a zajistit, aby nádrž nebyla přetlakována. </Value>
     </Record>
     <Record>
       <Key>PressureRegulatorTask1</Key>
