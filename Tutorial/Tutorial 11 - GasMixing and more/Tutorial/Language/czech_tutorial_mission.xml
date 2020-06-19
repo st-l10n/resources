@@ -68,31 +68,31 @@
     </Record>
     <Record>
       <Key>SettingYourLimit</Key>
-      <Value>Nastavení zapisovače logiky</Value>
+      <Value>Nastavení limitu</Value>
     </Record>
     <Record>
       <Key>SettingYourLimitTask1</Key>
-      <Value>Nastavte typ logiky na {THING:StructureLogicBatchWriter} na vertikální.</Value>
+      <Value>Nastavte tlak na {THING:StructurePressureRegulator} na 1950kPa</Value>
     </Record>
     <Record>
       <Key>SettingYourLimitTask2</Key>
-      <Value>Zapněte {THING:StructureAutolathe}.</Value>
+      <Value>Zapněte {THING:StructurePressureRegulator}.</Value>
     </Record>
     <Record>
       <Key>TheGasMix</Key>
-      <Value>Uhelné doly</Value>
+      <Value>Směs plynů</Value>
     </Record>
     <Record>
       <Key>TheGasMixTask2</Key>
-      <Value>Zapněte čtečku logiky.</Value>
+      <Value>Zapněte plynový mixér.</Value>
     </Record>
     <Record>
       <Key>RetrievingTheFuelTankTask1</Key>
-      <Value>Odeberte {THING:ItemDataDisk} z {THING:StructureConsole}.</Value>
+      <Value>Vezměte {THING:ItemGasCanisterFuel} z {THING:StructureGasTankStorage}.</Value>
     </Record>
     <Record>
       <Key>RetrievingTheFuelTankTask2</Key>
-      <Value>Umístěte {THING:ItemBatteryCellLarge} do {THING:StructureAreaPowerControl}.</Value>
+      <Value>Umístěte {THING:ItemGasCanisterFuel} do {THING:ItemWeldingTorch}.</Value>
     </Record>
   </Interface>
 </Language>
