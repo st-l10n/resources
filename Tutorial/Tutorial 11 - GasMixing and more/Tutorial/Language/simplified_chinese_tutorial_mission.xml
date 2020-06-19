@@ -4,31 +4,31 @@
   <Interface>
     <Record>
       <Key>RemoveingSuitOxyTask1</Key>
-      <Value>从工具带中取出{THING:ItemWrench}。</Value>
+      <Value>从宇航服中取出 {THING:ItemGasCanisterOxygen}。</Value>
     </Record>
     <Record>
       <Key>RemoveingSuitOxyTask2</Key>
-      <Value>捡起{THING:ItemGasCanisterWater}。</Value>
+      <Value>把氧气罐放进 {THING:DynamicGasCanisterOxygen}。</Value>
     </Record>
     <Record>
       <Key>RetrievingOxyTankTask1</Key>
-      <Value>把{THING:ItemDataDisk}从{THING:StructureConsole}里移除。</Value>
+      <Value>把 {THING:ItemGasCanisterOxygen} 从 {THING:DynamicGasCanisterOxygen} 里拿走。</Value>
     </Record>
     <Record>
       <Key>RetrievingOxyTankTask2</Key>
-      <Value>替换 {THING:ItemGlassSheets}。</Value>
+      <Value>换回 {THING:ItemGasCanisterOxygen} 到你的宇航服中。</Value>
     </Record>
     <Record>
       <Key>RemoveingFuelCanTask1</Key>
-      <Value>把{THING:ItemDataDisk}从{THING:StructureConsole}里移除。</Value>
+      <Value>从 {THING:ItemToolBelt} 中拿出 {THING:ItemWeldingTorch} 移除掉这个 {THING:ItemGasCanisterFuel}。</Value>
     </Record>
     <Record>
       <Key>RemoveingFuelCanTask2</Key>
-      <Value>将{THING:ItemBatteryCellLarge} 放入 {THING:StructureAreaPowerControl}中。</Value>
+      <Value>将{THING:ItemGasCanisterFuel} 放进在地板上的所能看到的那个黄色的 {THING:StructureGasTankStorage}里。</Value>
     </Record>
     <Record>
       <Key>ValvesTask1</Key>
-      <Value>使用黄色箱中的 {THING:ItemKitDoor} 在显示的高亮区域中构搭建两个{THING:StructureCompositeDoor}。</Value>
+      <Value>从附近箱子里拿出一个 {THING:ItemPipeValve} 然后放置在显示的高亮区域中。</Value>
     </Record>
     <Record>
       <Key>PipeMetersTask1</Key>
