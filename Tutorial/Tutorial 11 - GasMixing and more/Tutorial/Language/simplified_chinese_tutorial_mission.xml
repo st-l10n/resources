@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>CN</Code>
+  <Interface>
+    <Record>
+      <Key>RemoveingSuitOxyTask1</Key>
+      <Value>从工具带中取出{THING:ItemWrench}。</Value>
+    </Record>
+    <Record>
+      <Key>RemoveingSuitOxyTask2</Key>
+      <Value>捡起{THING:ItemGasCanisterWater}。</Value>
+    </Record>
+    <Record>
+      <Key>RetrievingOxyTankTask1</Key>
+      <Value>把{THING:ItemDataDisk}从{THING:StructureConsole}里移除。</Value>
+    </Record>
+    <Record>
+      <Key>RetrievingOxyTankTask2</Key>
+      <Value>替换 {THING:ItemGlassSheets}。</Value>
+    </Record>
+    <Record>
+      <Key>RemoveingFuelCanTask1</Key>
+      <Value>把{THING:ItemDataDisk}从{THING:StructureConsole}里移除。</Value>
+    </Record>
+    <Record>
+      <Key>RemoveingFuelCanTask2</Key>
+      <Value>将{THING:ItemBatteryCellLarge} 放入 {THING:StructureAreaPowerControl}中。</Value>
+    </Record>
+    <Record>
+      <Key>ValvesTask1</Key>
+      <Value>使用黄色箱中的 {THING:ItemKitDoor} 在显示的高亮区域中构搭建两个{THING:StructureCompositeDoor}。</Value>
+    </Record>
+    <Record>
+      <Key>PipeMetersTask1</Key>
+      <Value>在高亮位置处放置 {THING:StructureLogicWriter}。</Value>
+    </Record>
+    <Record>
+      <Key>GasMixerTask1</Key>
+      <Value>在高亮位置处建造 {THING:StructureGasSensor}</Value>
+    </Record>
+    <Record>
+      <Key>PressureRegulatorTask1</Key>
+      <Value>在高亮位置处放置另一个{THING:StructurePipeStraight}。</Value>
+    </Record>
+    <Record>
+      <Key>ConnectingTanks</Key>
+      <Value>完成框架建设</Value>
+    </Record>
+    <Record>
+      <Key>ConnectingTanksTask1</Key>
+      <Value>用 {THING:ItemWrench} 把{THING:DynamicGasCanisterWater} 到 {THING:ItemTankConnector} 上面。</Value>
+    </Record>
+    <Record>
+      <Key>ConnectingTanksTask2</Key>
+      <Value>用 {THING:ItemWrench} 把{THING:DynamicGasCanisterWater} 到 {THING:ItemTankConnector} 上面。</Value>
+    </Record>
+    <Record>
+      <Key>FlipingValves</Key>
+      <Value>装备一个过滤器</Value>
+    </Record>
+    <Record>
+      <Key>FlipingValvesTask2</Key>
+      <Value>在高亮位置处建造 {THING:StructureGasSensor}</Value>
+    </Record>
+    <Record>
+      <Key>FlipingValvesTask1</Key>
+      <Value>放置 {THING:StructureSolidFuelGenerator}。</Value>
+    </Record>
+    <Record>
+      <Key>SettingYourLimit</Key>
+      <Value>放置一个逻辑写入</Value>
+    </Record>
+    <Record>
+      <Key>SettingYourLimitTask1</Key>
+      <Value>将 {THING:StructureLogicBatchWriter} 上的逻辑值类型设置为 Vertical，来写入太阳能板的垂直角度。</Value>
+    </Record>
+    <Record>
+      <Key>SettingYourLimitTask2</Key>
+      <Value>启动 {THING:StructureAutolathe}。</Value>
+    </Record>
+    <Record>
+      <Key>TheGasMix</Key>
+      <Value>煤矿工人</Value>
+    </Record>
+    <Record>
+      <Key>TheGasMixTask2</Key>
+      <Value>打开这个逻辑读取的开关。</Value>
+    </Record>
+    <Record>
+      <Key>RetrievingTheFuelTankTask1</Key>
+      <Value>把{THING:ItemDataDisk}从{THING:StructureConsole}里移除。</Value>
+    </Record>
+    <Record>
+      <Key>RetrievingTheFuelTankTask2</Key>
+      <Value>将{THING:ItemBatteryCellLarge} 放入 {THING:StructureAreaPowerControl}中。</Value>
+    </Record>
+  </Interface>
+</Language>
