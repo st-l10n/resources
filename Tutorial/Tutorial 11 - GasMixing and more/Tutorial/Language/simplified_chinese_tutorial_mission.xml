@@ -173,8 +173,20 @@
       <Value>现在用 {THING:StructureGasMixer} 设置气体混合比。向右转动操纵轮会改变第一个输入的比例。向左转动操纵轮会改变第二个输入的比例。按 {KEY:QuantityModifier} 键将增量从10减少到1。</Value>
     </Record>
     <Record>
+      <Key>TheGasMixTask1</Key>
+      <Value>将输入一的混合比例设置为‘33’，输入二的混合比例为‘67’。</Value>
+    </Record>
+    <Record>
       <Key>TheGasMixTask2</Key>
       <Value>打开这个气体混合装置。</Value>
+    </Record>
+    <Record>
+      <Key>RetrievingTheFuelTank</Key>
+      <Value>回收燃料罐</Value>
+    </Record>
+    <Record>
+      <Key>RetrievingTheFuelTankDescription</Key>
+      <Value>你现在已经有了一个完美的混合气体来填充你的空 {THING:ItemGasCanisterFuel}。等它填充完后就把它从{THING:StructureGasTankStorage} 拿下来然后放回到 {THING:ItemWeldingTorch} 里。</Value>
     </Record>
     <Record>
       <Key>RetrievingTheFuelTankTask1</Key>
@@ -183,6 +195,10 @@
     <Record>
       <Key>RetrievingTheFuelTankTask2</Key>
       <Value>将{THING:ItemGasCanisterFuel} 放入 {THING:ItemWeldingTorch}。</Value>
+    </Record>
+    <Record>
+      <Key>TestTheFuelMix</Key>
+      <Value>测试这个混合燃料</Value>
     </Record>
   </Interface>
 </Language>
