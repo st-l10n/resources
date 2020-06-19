@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Name>English</Name>
+<Code>EN</Code>
+<Font>font_english</Font>
+    <Interface>
+    
+        <Record>
+            <Key>Tutorial11 - GasMixingAndmore</Key>
+            <Value>#Tutorial 11 - Gas Mixing and More</Value>
+        </Record>
+        <Record>
+            <Key>Tutorial 11 - GasFilteringandmoreDescription</Key>
+            <Value>Learn how to refill your suit's oxygen tank and mix gases to create fuel.</Value>
+        </Record>
+         <Record>
+            <Key>GasMixingInd</Key>
+            <Value>Gas Mixing introduction</Value>
+        </Record>
+         <Record>
+            <Key>GasMixingIndDescription</Key>
+            <Value>Welcome back, Cadet! In this lesson, we'll refill your suit's oxygen tanks, and then mix two gases to make fuel. Fuel is used for many applications: from powering your welder, to launching rockets!</Value>
+        </Record>
+        <Record>
+            <Key>RemoveingSuitOxy</Key>
+            <Value>Removing your suit oxygen tank.</Value>
+        </Record>
+        <Record>
+            <Key>RemoveingSuitOxyDescription</Key>
+            <Value>Open your suit menu, and move the Oxygen Tank to your hand. 
+You will get an on-screen warning when the tank is removed. Don't panic, there's still a small amount of oxygen circulating in the suit itself. 
+You can now attach the oxygen tank to the {THING:DynamicGasCanisterOxygen} and refill it.</Value>
+        </Record>
+        <Record>
+            <Key>RemoveingSuitOxyTask1</Key>
+            <Value>Take the {THING:ItemGasCanisterOxygen} from your suit.</Value>
+        </Record>
+        <Record>
+            <Key>RemoveingSuitOxyTask2</Key>
+            <Value>Place the Oxygen Tank in the {THING:DynamicGasCanisterOxygen}.</Value>
+        </Record>
+        <Record>
+            <Key>RetrievingOxyTank</Key>
+            <Value>Retrieving the Oxygen Tank</Value>
+        </Record>
+        <Record>
+            <Key>RetrievingOxyTankDescription</Key>
+            <Value>The {THING:DynamicGasCanisterOxygen} will fill the {THING:ItemGasCanisterOxygen} with oxygen. You can now remove the {THING:ItemGasCanisterOxygen} from the {THING:DynamicGasCanisterOxygen}.</Value>
+        </Record>
+        <Record>
+            <Key>RetrievingOxyTankTask1</Key>
+            <Value>Remove the {THING:ItemGasCanisterOxygen} from the {THING:DynamicGasCanisterOxygen}.</Value>
+        </Record>
+        <Record>
+            <Key>RetrievingOxyTankTask2</Key>
+            <Value>Replace the {THING:ItemGasCanisterOxygen} back in your suit.</Value>
+        </Record>
+        <Record>
+            <Key>RemoveingFuelCan</Key>
+            <Value>Removing the Fuel Can</Value>
+        </Record>
+        <Record>
+            <Key>RemoveingFuelCanDescription</Key>
+            <Value>Your Welder has run out of fuel. To fill it we will need to create the appropropriate gas mixture. Go ahead and put the {THING:ItemGasCanisterFuel} into the {THING:StructureGasTankStorage}.</Value>
+        </Record>
+        <Record>
+            <Key>RemoveingFuelCanTask1</Key>
+            <Value>Remove the {THING:ItemGasCanisterFuel} from the {THING:ItemWeldingTorch} in your {THING:ItemToolBelt}</Value>
+        </Record>
+        <Record>
+            <Key>RemoveingFuelCanTask2</Key>
+            <Value>Place the {THING:ItemGasCanisterFuel} into the yellow {THING:StructureGasTankStorage} found on the floor.</Value>
+        </Record>
+        <Record>
+            <Key>Valves</Key>
+            <Value>Valves</Value>
+        </Record>
+        <Record>
+            <Key>ValvesDescription</Key>
+            <Value>We now need to set up a pipe network for the gas mixing system. Start by placing valves next to each {THING:StructureTankConnector}. This lets you shut off the network from newly attached gas tanks, until we are ready to connect them to the pipe network.</Value>
+        </Record>
+        <Record>
+            <Key>ValvesTask1</Key>
+            <Value>Get a {THING:ItemPipeValve} from the nearby crate and place it in the highlighted spot.</Value>
+        </Record>
+        <Record>
+            <Key>PipeMeters</Key>
+            <Value>Pipe Meters</Value>
+        </Record>
+        <Record>
+            <Key>PipeMetersDescription</Key>
+            <Value>{THING:StructurePipeMeter} allow us to see the current pressure inside a pipe network. Place these next to the {THING:ItemPipeValve}. Note that they are placed on top of a pipe, rather than being their own object. Find some in the crate nearby.</Value>
+        </Record>
+        <Record>
+            <Key>PipeMetersTask1</Key>
+            <Value>Place a {THING:StructurePipeMeter} in the highlighted position.</Value>
+        </Record>
+        <Record>
+            <Key>GasMixer</Key>
+            <Value>Gas GasMixer</Value>
+        </Record>
+        <Record>
+            <Key>GasMixerDescription</Key>
+            <Value>The Gas Mixer allows us to combine two gases at a defined ratio. This lets you create the fuel mix needed for the {THING:ItemWeldingTorch}.</Value>
+        </Record>
+        <Record>
+            <Key>GasMixerTask1</Key>
+            <Value>Place the {THING:StructureGasMixer} in the highlighted location.</Value>
+        </Record>
+        <Record>
+            <Key>PressureRegulator</Key>
+            <Value>The Pressure Regulator</Value>
+        </Record>
+        <Record>
+            <Key>PressureRegulatorDescription</Key>
+            <Value>The {THING:StructurePressureRegulator} is used to regulate pressure inside of a pipe network. This lets you restrict the pressure, ensuring you don't overpressurize a tank. </Value>
+        </Record>
+         <Record>
+            <Key>PressureRegulatorTask1</Key>
+            <Value>Place the {THING:StructurePressureRegulator} in the highlighted position.</Value>
+        </Record>
+         <Record>
+            <Key>ConnectingTanks</Key>
+            <Value>Connecting Tanks</Value>
+        </Record>
+         <Record>
+            <Key>ConnectingTanksDescription</Key>
+            <Value>Now connect the Dynamic Tanks to the {THING:StructureTankConnector}. Drag the tank on top of the corresponding {THING:StructureTankConnector}, then use your {THING:ItemWrench} on the Dynamic tank to connect it.</Value>
+        </Record>
+         <Record>
+            <Key>ConnectingTanksTask1</Key>
+            <Value>Connect the {THING:DynamicGasCanisterOxygen} to the white Tank Connector.</Value>
+        </Record>
+         <Record>
+            <Key>ConnectingTanksTask2</Key>
+            <Value>Connect the {THING:DynamicGasCanisterVolatiles} to the red Tank Connector.</Value>
+        </Record>
+         <Record>
+            <Key>FlipingValves</Key>
+            <Value>Flipping Valves</Value>
+        </Record>
+        <Record>
+            <Key>FlipingValvesDescription</Key>
+            <Value>We are now ready to turn on the {THING:StructureValve}. To open the Valve, interact with the lever on the {THING:StructureValve}.</Value>
+        </Record>
+        <Record>
+            <Key>FlipingValvesTask2</Key>
+            <Value>Open the {THING:StructureValve} on the oxygen network.</Value>
+        </Record>
+        <Record>
+            <Key>FlipingValvesTask1</Key>
+            <Value>Open the {THING:StructureValve} on the volatiles network.</Value>
+        </Record>
+        <Record>
+            <Key>SettingYourLimit</Key>
+            <Value>Setting Your Limit</Value>
+        </Record>
+        <Record>
+            <Key>SettingYourLimitDescription</Key>
+            <Value>We now need to set the pressure limit on the {THING:StructurePressureRegulator}. Do this by interacting with the wheel on the {THING:StructurePressureRegulator}. Set the pressure to 1950kPa.</Value>
+        </Record>
+        <Record>
+            <Key>SettingYourLimitTask1</Key>
+            <Value>Set the pressure on the {THING:StructurePressureRegulator} to 1950kPa</Value>
+        </Record>
+        <Record>
+            <Key>SettingYourLimitTask2</Key>
+            <Value>Turn on the {THING:StructurePressureRegulator}.</Value>
+        </Record>
+        <Record>
+            <Key>TheGasMix</Key>
+            <Value>The Gas Mix</Value>
+        </Record>
+        <Record>
+            <Key>TheGasMixDescription</Key>
+            <Value>Now set the gas mix ratio by interacting with the wheel on the {THING:StructureGasMixer}. Turning the wheel to the RIGHT will alter the ratio in favor of the first input. Turning the wheel to the LEFT will alter the ratio in favor of the second input. Use the {KEY:QuantityModifier} key to reduce the increments from 10 to 1.</Value>
+        </Record>
+        <Record>
+            <Key>TheGasMixTask1</Key>
+            <Value>Set the mix ratio to '33' on input one, and '67' on input two.</Value>
+        </Record>
+        <Record>
+            <Key>TheGasMixTask2</Key>
+            <Value>Turn on the Gas Mixer.</Value>
+        </Record>
+        <Record>
+            <Key>RetrievingTheFuelTank</Key>
+            <Value>Retrieving The Fuel Tank</Value>
+        </Record>
+        <Record>
+            <Key>RetrievingTheFuelTankDescription</Key>
+            <Value>You now have a perfect fuel mix filling your empty {THING:ItemGasCanisterFuel}. Let it fill, then remove it from the {THING:StructureGasTankStorage} and slot it back into the {THING:ItemWeldingTorch}.</Value>
+        </Record>
+        <Record>
+            <Key>RetrievingTheFuelTankTask1</Key>
+            <Value>Take the {THING:ItemGasCanisterFuel} from the {THING:StructureGasTankStorage}.</Value>
+        </Record>
+        <Record>
+            <Key>RetrievingTheFuelTankTask2</Key>
+            <Value>Place the {THING:ItemGasCanisterFuel} into the {THING:ItemWeldingTorch}.</Value>
+        </Record>
+        <Record>
+            <Key>TestTheFuelMix</Key>
+            <Value>Testing The Fuel Mix</Value>
+        </Record>
+        <Record>
+            <Key>TestTheFuelMixDescription</Key>
+            <Value>Now that we have refueled the {THING:ItemGasCanisterFuel}, test it by completing the glass door next to the gas mixing system. You will find the supplies you need beside the wall.</Value>
+        </Record>
+        <Record>
+            <Key>TestTheFuelMixTask1</Key>
+            <Value>Complete construction of the glass door.</Value>
+        </Record>
+    </Interface>
+</Language>
