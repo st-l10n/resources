@@ -73,12 +73,20 @@
       <Value>阀门</Value>
     </Record>
     <Record>
+      <Key>ValvesDescription</Key>
+      <Value>我们现在需要为气体混合系统建立一个管道网络。从在每个 {THING:StructureTankConnector} 的旁边放置一个阀门开始。这让你关闭网络从新连接的储气罐，直到我们准备好连接到管道网络。</Value>
+    </Record>
+    <Record>
       <Key>ValvesTask1</Key>
       <Value>从附近箱子里拿出一个 {THING:ItemPipeValve} 然后放置在显示的高亮区域中。</Value>
     </Record>
     <Record>
       <Key>PipeMeters</Key>
       <Value>管道仪表</Value>
+    </Record>
+    <Record>
+      <Key>PipeMetersDescription</Key>
+      <Value>{THING:StructurePipeMeter} 可以让我们看到当前在管道网络中的管道的压力。放置这些到 {THING:ItemPipeValve} 的旁边。注意，它们应该放置在管道的顶部，而不是它们单独自己的对象。在附近的箱子里可以拿到。</Value>
     </Record>
     <Record>
       <Key>PipeMetersTask1</Key>
@@ -89,8 +97,20 @@
       <Value>气体混合器</Value>
     </Record>
     <Record>
+      <Key>GasMixerDescription</Key>
+      <Value>气体混合器能让我们将两种气体按一定的比例混合在一起。这样，你就可以制造 {THING:ItemWeldingTorch}所需的混合燃料。</Value>
+    </Record>
+    <Record>
       <Key>GasMixerTask1</Key>
       <Value>在高亮位置处建造 {THING:StructureGasSensor}。</Value>
+    </Record>
+    <Record>
+      <Key>PressureRegulator</Key>
+      <Value>压力调节器</Value>
+    </Record>
+    <Record>
+      <Key>PressureRegulatorDescription</Key>
+      <Value>{THING:StructurePressureRegulator} 用于调节管道网络内的压力。这能让你限制其内部的压力，不会让这个罐压力破裂。</Value>
     </Record>
     <Record>
       <Key>PressureRegulatorTask1</Key>
