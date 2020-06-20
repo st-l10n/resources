@@ -32,15 +32,15 @@
     </Record>
     <Record>
       <Key>PipeMetersTask1</Key>
-      <Value>Coloca una {THING:StructureLogicWriter} en la posición resaltada.</Value>
+      <Value>Coloca una {THING:StructurePipeMeter} en la posición resaltada.</Value>
     </Record>
     <Record>
       <Key>GasMixerTask1</Key>
-      <Value>Construye el {THING:StructureGasSensor} en el lugar resaltado.</Value>
+      <Value>Coloca la {THING:StructureGasMixer} en el lugar resaltado.</Value>
     </Record>
     <Record>
       <Key>PressureRegulatorTask1</Key>
-      <Value>Coloca otra {THING:StructurePipeStraight} en la posición resaltada.</Value>
+      <Value>Ponga la {THING:StructurePressureRegulator} en la posición resaltada.</Value>
     </Record>
     <Record>
       <Key>ConnectingTanks</Key>
@@ -48,11 +48,11 @@
     </Record>
     <Record>
       <Key>ConnectingTanksTask1</Key>
-      <Value>Use la {THING:ItemWrench} para conectar la {THING:DynamicGasCanisterWater} al {THING:ItemTankConnector}.</Value>
+      <Value>Conecta la {THING:DynamicGasCanisterOxygen} al conector blanco del tanque.</Value>
     </Record>
     <Record>
       <Key>ConnectingTanksTask2</Key>
-      <Value>Use la {THING:ItemWrench} para conectar la {THING:DynamicGasCanisterWater} al {THING:ItemTankConnector}.</Value>
+      <Value>Conecta la {THING:DynamicGasCanisterVolatiles} al Conector de Tanque rojo.</Value>
     </Record>
     <Record>
       <Key>FlipingValves</Key>
@@ -60,11 +60,11 @@
     </Record>
     <Record>
       <Key>FlipingValvesTask2</Key>
-      <Value>Construye el {THING:StructureGasSensor} en el lugar resaltado.</Value>
+      <Value>Abre la {THING:StructureValve} en la red de oxígeno.</Value>
     </Record>
     <Record>
       <Key>FlipingValvesTask1</Key>
-      <Value>Colocar el {THING:StructureSolidFuelGenerator}.</Value>
+      <Value>Abre la {THING:StructureValve} en la red de volátiles.</Value>
     </Record>
     <Record>
       <Key>SettingYourLimit</Key>
@@ -72,11 +72,11 @@
     </Record>
     <Record>
       <Key>SettingYourLimitTask1</Key>
-      <Value>Establezca el tipo de lógica en {THING:StructureLogicBatchWriter} en Vertical.</Value>
+      <Value>Poner la presión en la {THING:StructurePressureRegulator} a 1950kPa</Value>
     </Record>
     <Record>
       <Key>SettingYourLimitTask2</Key>
-      <Value>Enciende el {THING:StructureAutolathe}.</Value>
+      <Value>Enciende el {THING:StructurePressureRegulator}.</Value>
     </Record>
     <Record>
       <Key>TheGasMix</Key>
@@ -88,11 +88,11 @@
     </Record>
     <Record>
       <Key>RetrievingTheFuelTankTask1</Key>
-      <Value>Retire el {THING:ItemDataDisk} de la {THING:StructureConsole}.</Value>
+      <Value>Coge el {THING:ItemGasCanisterFuel} de la {THING:StructureGasTankStorage}.</Value>
     </Record>
     <Record>
       <Key>RetrievingTheFuelTankTask2</Key>
-      <Value>Coloca el {THING:ItemBatteryCellLarge} en la {THING:StructureAreaPowerControl}.</Value>
+      <Value>Coloca la {THING:ItemGasCanisterFuel} en la {THING:ItemWeldingTorch}.</Value>
     </Record>
   </Interface>
 </Language>
