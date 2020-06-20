@@ -4,31 +4,31 @@
   <Interface>
     <Record>
       <Key>RemoveingSuitOxyTask1</Key>
-      <Value>Saca la {THING:ItemWrench} de tu cinturón de herramientas.</Value>
+      <Value>Saca la {THING:ItemGasCanisterOxygen} de tu traje.</Value>
     </Record>
     <Record>
       <Key>RemoveingSuitOxyTask2</Key>
-      <Value>Recoge la {THING:ItemGasCanisterWater}.</Value>
+      <Value>Coloca el tanque de oxígeno en la {THING:DynamicGasCanisterOxygen}.</Value>
     </Record>
     <Record>
       <Key>RetrievingOxyTankTask1</Key>
-      <Value>Retire el {THING:ItemDataDisk} de la {THING:StructureConsole}.</Value>
+      <Value>Retire el {THING:ItemGasCanisterOxygen} de la {THING:DynamicGasCanisterOxygen}.</Value>
     </Record>
     <Record>
       <Key>RetrievingOxyTankTask2</Key>
-      <Value>Reemplazar el {THING:ItemGlassSheets}.</Value>
+      <Value>Reemplaza la {THING:ItemGasCanisterOxygen} de nuevo en tu traje.</Value>
     </Record>
     <Record>
       <Key>RemoveingFuelCanTask1</Key>
-      <Value>Retire el {THING:ItemDataDisk} de la {THING:StructureConsole}.</Value>
+      <Value>Quita la {THING:ItemGasCanisterFuel} de la {THING:ItemWeldingTorch} en tu {THING:ItemToolBelt}</Value>
     </Record>
     <Record>
       <Key>RemoveingFuelCanTask2</Key>
-      <Value>Coloca el {THING:ItemBatteryCellLarge} en la {THING:StructureAreaPowerControl}.</Value>
+      <Value>Coloca la {THING:ItemGasCanisterFuel} en la {THING:StructureGasTankStorage} amarilla que se encuentra en el suelo.</Value>
     </Record>
     <Record>
       <Key>ValvesTask1</Key>
-      <Value>Usa el {THING:ItemKitDoor} de la caja amarilla para construir 2 {THING:StructureCompositeDoor} en el área marcada. </Value>
+      <Value>Consigue una {THING:ItemPipeValve} del cajón cercano y colócala en el lugar resaltado.</Value>
     </Record>
     <Record>
       <Key>PipeMetersTask1</Key>
@@ -44,7 +44,7 @@
     </Record>
     <Record>
       <Key>ConnectingTanks</Key>
-      <Value>Marcos completados</Value>
+      <Value>Conexión de los tanques</Value>
     </Record>
     <Record>
       <Key>ConnectingTanksTask1</Key>
@@ -56,7 +56,7 @@
     </Record>
     <Record>
       <Key>FlipingValves</Key>
-      <Value>Equipando un filtro</Value>
+      <Value>Válvulas de giro</Value>
     </Record>
     <Record>
       <Key>FlipingValvesTask2</Key>
@@ -68,7 +68,7 @@
     </Record>
     <Record>
       <Key>SettingYourLimit</Key>
-      <Value>Configuración de un escritor lógico</Value>
+      <Value>Estableciendo su límite</Value>
     </Record>
     <Record>
       <Key>SettingYourLimitTask1</Key>
@@ -80,11 +80,11 @@
     </Record>
     <Record>
       <Key>TheGasMix</Key>
-      <Value>Las minas de carbón</Value>
+      <Value>La mezcla de gases</Value>
     </Record>
     <Record>
       <Key>TheGasMixTask2</Key>
-      <Value>Enciende el lector lógico.</Value>
+      <Value>Enciende el mezclador de gas.</Value>
     </Record>
     <Record>
       <Key>RetrievingTheFuelTankTask1</Key>
