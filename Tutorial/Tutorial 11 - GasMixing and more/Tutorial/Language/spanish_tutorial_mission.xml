@@ -3,12 +3,46 @@
   <Code>ES</Code>
   <Interface>
     <Record>
+      <Key>Tutorial11 - GasMixingAndmore</Key>
+      <Value>#Tutorial 11 - Mezclado de Gases y Mas</Value>
+    </Record>
+    <Record>
+      <Key>Tutorial 11 - GasFilteringandmoreDescription</Key>
+      <Value>Aprenda cómo rellenar el tanque de oxígeno de su traje y mezclar gases para crear combustible.</Value>
+    </Record>
+    <Record>
+      <Key>GasMixingInd</Key>
+      <Value>Introducción al mezclado de Gases</Value>
+    </Record>
+    <Record>
+      <Key>GasMixingIndDescription</Key>
+      <Value>Bienvenido de nuevo, Cadete! En esta lección, rellenaremos los tanques de oxígeno de su traje y luego mezclaremos dos gases para producir combustible. El combustible se usa para muchas aplicaciones: desde alimentar su soldador, hasta lanzar cohetes!</Value>
+    </Record>
+    <Record>
+      <Key>RemoveingSuitOxy</Key>
+      <Value>Quitando el tanque de oxigeno de su traje.</Value>
+    </Record>
+    <Record>
+      <Key>RemoveingSuitOxyDescription</Key>
+      <Value>Abra el menú de su traje y mueva el tanque de oxígeno a su mano.
+Recibirá una advertencia en pantalla cuando retire el tanque. No entre en pánico, todavía hay una pequeña cantidad de oxígeno circulando en el traje.
+Ahora puede conectar el tanque de oxígeno a la {THING:DynamicGasCanisterOxygen} y rellenarlo.</Value>
+    </Record>
+    <Record>
       <Key>RemoveingSuitOxyTask1</Key>
       <Value>Saca la {THING:ItemGasCanisterOxygen} de tu traje.</Value>
     </Record>
     <Record>
       <Key>RemoveingSuitOxyTask2</Key>
       <Value>Coloca el tanque de oxígeno en la {THING:DynamicGasCanisterOxygen}.</Value>
+    </Record>
+    <Record>
+      <Key>RetrievingOxyTank</Key>
+      <Value>Recuperando el tanque de oxígeno</Value>
+    </Record>
+    <Record>
+      <Key>RetrievingOxyTankDescription</Key>
+      <Value>La {THING:DynamicGasCanisterOxygen} llenará la {THING:ItemGasCanisterOxygen} con oxígeno. Ahora puede eliminar {THING:ItemGasCanisterOxygen} de {THING:DynamicGasCanisterOxygen}.</Value>
     </Record>
     <Record>
       <Key>RetrievingOxyTankTask1</Key>
@@ -19,12 +53,20 @@
       <Value>Reemplaza la {THING:ItemGasCanisterOxygen} de nuevo en tu traje.</Value>
     </Record>
     <Record>
+      <Key>RemoveingFuelCanDescription</Key>
+      <Value>Su soldador se ha quedado sin combustible. Para llenarlo necesitaremos crear la mezcla de gases apropiada. Continúe y coloque el {THING:ItemGasCanisterFuel} en el {THING:StructureGasTankStorage}.</Value>
+    </Record>
+    <Record>
       <Key>RemoveingFuelCanTask1</Key>
       <Value>Quita la {THING:ItemGasCanisterFuel} de la {THING:ItemWeldingTorch} en tu {THING:ItemToolBelt}</Value>
     </Record>
     <Record>
       <Key>RemoveingFuelCanTask2</Key>
       <Value>Coloca la {THING:ItemGasCanisterFuel} en la {THING:StructureGasTankStorage} amarilla que se encuentra en el suelo.</Value>
+    </Record>
+    <Record>
+      <Key>Valves</Key>
+      <Value>Válvulas</Value>
     </Record>
     <Record>
       <Key>ValvesTask1</Key>
