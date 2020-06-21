@@ -53,6 +53,10 @@ Ahora puede conectar el tanque de oxígeno a la {THING:DynamicGasCanisterOxygen}
       <Value>Reemplaza la {THING:ItemGasCanisterOxygen} de nuevo en tu traje.</Value>
     </Record>
     <Record>
+      <Key>RemoveingFuelCan</Key>
+      <Value>Retirar la lata de combustible</Value>
+    </Record>
+    <Record>
       <Key>RemoveingFuelCanDescription</Key>
       <Value>Su soldador se ha quedado sin combustible. Para llenarlo necesitaremos crear la mezcla de gases apropiada. Continúe y coloque el {THING:ItemGasCanisterFuel} en el {THING:StructureGasTankStorage}.</Value>
     </Record>
@@ -69,16 +73,44 @@ Ahora puede conectar el tanque de oxígeno a la {THING:DynamicGasCanisterOxygen}
       <Value>Válvulas</Value>
     </Record>
     <Record>
+      <Key>ValvesDescription</Key>
+      <Value>Ahora necesitamos establecer una red de tuberías para el sistema de mezcla de gases. Comience colocando válvulas al lado de cada {THING:StructureTankConnector}. Esto le permite cerrar la red desde tanques de gas recién conectados, hasta que estemos listos para conectarlos a la red de tuberías.</Value>
+    </Record>
+    <Record>
       <Key>ValvesTask1</Key>
       <Value>Consigue una {THING:ItemPipeValve} del cajón cercano y colócala en el lugar resaltado.</Value>
+    </Record>
+    <Record>
+      <Key>PipeMeters</Key>
+      <Value>Medidores de Tuberías</Value>
+    </Record>
+    <Record>
+      <Key>PipeMetersDescription</Key>
+      <Value>{THING:StructurePipeMeter} nos permite ver la presión actual dentro de una red de tuberías. Colóquelos al lado de {THING:ItemPipeValve}. Tenga en cuenta que se colocan encima de una tubería, en lugar de ser su propio objeto. Encuentra algunos en la caja cercana.</Value>
     </Record>
     <Record>
       <Key>PipeMetersTask1</Key>
       <Value>Coloca una {THING:StructurePipeMeter} en la posición resaltada.</Value>
     </Record>
     <Record>
+      <Key>GasMixer</Key>
+      <Value>Mezclador de Gas</Value>
+    </Record>
+    <Record>
+      <Key>GasMixerDescription</Key>
+      <Value>El mezclador de gases nos permite combinar dos gases en una proporción definida. Esto le permite crear la mezcla de combustible necesaria para {THING:ItemWeldingTorch}.</Value>
+    </Record>
+    <Record>
       <Key>GasMixerTask1</Key>
       <Value>Coloca la {THING:StructureGasMixer} en el lugar resaltado.</Value>
+    </Record>
+    <Record>
+      <Key>PressureRegulator</Key>
+      <Value>El Regulador de Presión</Value>
+    </Record>
+    <Record>
+      <Key>PressureRegulatorDescription</Key>
+      <Value>El {THING:StructurePressureRegulator} se usa para regular la presión dentro de una red de tuberías. Esto le permite restringir la presión, asegurando que no sobre presurice un tanque. </Value>
     </Record>
     <Record>
       <Key>PressureRegulatorTask1</Key>
@@ -87,6 +119,10 @@ Ahora puede conectar el tanque de oxígeno a la {THING:DynamicGasCanisterOxygen}
     <Record>
       <Key>ConnectingTanks</Key>
       <Value>Conexión de los tanques</Value>
+    </Record>
+    <Record>
+      <Key>ConnectingTanksDescription</Key>
+      <Value>Ahora conecte los tanques dinámicos a {THING:StructureTankConnector}. Arrastre el tanque encima del {THING:StructureTankConnector}, correspondiente, luego use su {THING:ItemWrench} en el tanque dinámico para conectarlo.</Value>
     </Record>
     <Record>
       <Key>ConnectingTanksTask1</Key>
@@ -101,6 +137,10 @@ Ahora puede conectar el tanque de oxígeno a la {THING:DynamicGasCanisterOxygen}
       <Value>Válvulas de giro</Value>
     </Record>
     <Record>
+      <Key>FlipingValvesDescription</Key>
+      <Value>Ahora estamos listos para activar {THING:StructureValve}. Para abrir la válvula, interactúe con la palanca en {THING:StructureValve}.</Value>
+    </Record>
+    <Record>
       <Key>FlipingValvesTask2</Key>
       <Value>Abre la {THING:StructureValve} en la red de oxígeno.</Value>
     </Record>
@@ -111,6 +151,10 @@ Ahora puede conectar el tanque de oxígeno a la {THING:DynamicGasCanisterOxygen}
     <Record>
       <Key>SettingYourLimit</Key>
       <Value>Estableciendo su límite</Value>
+    </Record>
+    <Record>
+      <Key>SettingYourLimitDescription</Key>
+      <Value>Ahora necesitamos establecer el límite de presión en el {THING:StructurePressureRegulator}. Haga esto interactuando con la rueda en {THING:StructurePressureRegulator}. Establezca la presión en 1950kPa.</Value>
     </Record>
     <Record>
       <Key>SettingYourLimitTask1</Key>
@@ -125,8 +169,24 @@ Ahora puede conectar el tanque de oxígeno a la {THING:DynamicGasCanisterOxygen}
       <Value>La mezcla de gases</Value>
     </Record>
     <Record>
+      <Key>TheGasMixDescription</Key>
+      <Value>Ahora configure la proporción de mezcla de gases interactuando con la rueda en el {THING:StructureGasMixer}. Girar la rueda a la DERECHA alterará la relación a favor de la primera entrada. Girar la rueda hacia la IZQUIERDA alterará la relación a favor de la segunda entrada. Use la tecla {KEY:QuantityModifier} para reducir los incrementos de 10 a 1.</Value>
+    </Record>
+    <Record>
+      <Key>TheGasMixTask1</Key>
+      <Value>Establezca la relación de mezcla en &apos;33&apos; en la entrada uno y &apos;67&apos; en la entrada dos.</Value>
+    </Record>
+    <Record>
       <Key>TheGasMixTask2</Key>
       <Value>Enciende el mezclador de gas.</Value>
+    </Record>
+    <Record>
+      <Key>RetrievingTheFuelTank</Key>
+      <Value>Recuperando el Tanque de Combustible</Value>
+    </Record>
+    <Record>
+      <Key>RetrievingTheFuelTankDescription</Key>
+      <Value>Ahora tiene una mezcla de combustible perfecta para llenar su {THING:ItemGasCanisterFuel} vacío. Deje que se llene, luego retírelo de {THING:StructureGasTankStorage} y vuelva a colocarlo en el {THING:ItemWeldingTorch}.</Value>
     </Record>
     <Record>
       <Key>RetrievingTheFuelTankTask1</Key>
@@ -135,6 +195,18 @@ Ahora puede conectar el tanque de oxígeno a la {THING:DynamicGasCanisterOxygen}
     <Record>
       <Key>RetrievingTheFuelTankTask2</Key>
       <Value>Coloca la {THING:ItemGasCanisterFuel} en la {THING:ItemWeldingTorch}.</Value>
+    </Record>
+    <Record>
+      <Key>TestTheFuelMix</Key>
+      <Value>Probando la mezcla de Combustible</Value>
+    </Record>
+    <Record>
+      <Key>TestTheFuelMixDescription</Key>
+      <Value>Ahora que hemos reabastecido el combustible de {THING:ItemGasCanisterFuel}, pruébelo completando la puerta de vidrio al lado del sistema de mezcla de gases. Encontrarás los suministros que necesitas al lado de la pared.</Value>
+    </Record>
+    <Record>
+      <Key>TestTheFuelMixTask1</Key>
+      <Value>Completa la construcción de la puerta de cristal.</Value>
     </Record>
   </Interface>
 </Language>
