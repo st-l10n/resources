@@ -56,15 +56,15 @@
     </Record>
     <Record>
       <Key>SettingYourLimitTask2</Key>
-      <Value>{THING:StructureAutolathe} を起動する。</Value>
+      <Value>{THING:StructurePressureRegulator} を起動する。</Value>
     </Record>
     <Record>
       <Key>RetrievingTheFuelTankTask1</Key>
-      <Value>{THING:StructureConsole} から {THING:ItemDataDisk} を取り出す。</Value>
+      <Value>{THING:StructureGasTankStorage} から {THING:ItemGasCanisterFuel} を取り出す。</Value>
     </Record>
     <Record>
       <Key>RetrievingTheFuelTankTask2</Key>
-      <Value>{THING:StructureAreaPowerControl} に {THING:ItemBatteryCellLarge} を設置する。</Value>
+      <Value>{THING:ItemWeldingTorch} に {THING:ItemGasCanisterFuel} を設置する。</Value>
     </Record>
   </Interface>
 </Language>
