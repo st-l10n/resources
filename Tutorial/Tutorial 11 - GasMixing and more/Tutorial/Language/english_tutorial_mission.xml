@@ -159,7 +159,7 @@ You can now attach the oxygen tank to the {THING:DynamicGasCanisterOxygen} and r
             <Key>SettingYourLimitDescription</Key>
             <Value>We now need to set the pressure limit on the {THING:StructurePressureRegulator}. Do this by interacting with the wheel on the {THING:StructurePressureRegulator}. Set the pressure to 1950kPa.
             
-Alternatively, you can use the {THING:ItemLabeller} to set the value with the {THING:ItemLabeller}. Turn it on and highlight the {THING:StructurePressureRegulator}. Find the label called "set". This will bring up a menu, but instead of renaming the item it will set the {THING:StructurePressureRegulator} to the input value.</Value>
+Alternatively, you can use the {THING:ItemLabeller} to set the value with the {THING:ItemLabeller}. Turn it on and highlight the {THING:StructurePressureRegulator}. Find the label called "set" by pointing the labeller at the dia/wWheel. This will bring up a menu, but instead of renaming the item it will set the {THING:StructurePressureRegulator} to the input value.</Value>
         </Record>
         <Record>
             <Key>SettingYourLimitTask1</Key>
