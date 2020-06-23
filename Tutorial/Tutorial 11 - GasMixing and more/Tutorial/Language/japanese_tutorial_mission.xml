@@ -8,23 +8,23 @@
     </Record>
     <Record>
       <Key>RemoveingSuitOxyTask2</Key>
-      <Value>{THING:ItemGasCanisterWater} を拾う。</Value>
+      <Value>酸素タンクを {THING:DynamicGasCanisterOxygen} に入れる。</Value>
     </Record>
     <Record>
       <Key>RetrievingOxyTankTask1</Key>
-      <Value>{THING:StructureConsole} から {THING:ItemDataDisk} を取り出す。</Value>
+      <Value>{THING:DynamicGasCanisterOxygen} から {THING:ItemGasCanisterOxygen} を外す。</Value>
     </Record>
     <Record>
       <Key>RetrievingOxyTankTask2</Key>
-      <Value>{THING:ItemGlassSheets} を貼り直す。</Value>
+      <Value>スーツの {THING:ItemGasCanisterOxygen} を交換する。</Value>
     </Record>
     <Record>
       <Key>RemoveingFuelCanTask1</Key>
-      <Value>{THING:StructureConsole} から {THING:ItemDataDisk} を取り出す。</Value>
+      <Value>{THING:ItemToolBelt} の {THING:ItemWeldingTorch} から {THING:ItemGasCanisterFuel} を取り外す。</Value>
     </Record>
     <Record>
       <Key>RemoveingFuelCanTask2</Key>
-      <Value>{THING:StructureAreaPowerControl} に {THING:ItemBatteryCellLarge} を設置する。</Value>
+      <Value>床上にある黄色の {THING:StructureGasTankStorage} に {THING:ItemGasCanisterFuel} を入れる。</Value>
     </Record>
     <Record>
       <Key>ValvesTask1</Key>
@@ -44,7 +44,7 @@
     </Record>
     <Record>
       <Key>FlipingValves</Key>
-      <Value>フィルターを装備する</Value>
+      <Value>フリップバルブ</Value>
     </Record>
     <Record>
       <Key>FlipingValvesTask2</Key>
