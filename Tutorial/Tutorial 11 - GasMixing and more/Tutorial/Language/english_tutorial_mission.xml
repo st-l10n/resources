@@ -157,7 +157,9 @@ You can now attach the oxygen tank to the {THING:DynamicGasCanisterOxygen} and r
         </Record>
         <Record>
             <Key>SettingYourLimitDescription</Key>
-            <Value>We now need to set the pressure limit on the {THING:StructurePressureRegulator}. Do this by interacting with the wheel on the {THING:StructurePressureRegulator}. Set the pressure to 1950kPa.</Value>
+            <Value>We now need to set the pressure limit on the {THING:StructurePressureRegulator}. Do this by interacting with the wheel on the {THING:StructurePressureRegulator}. Set the pressure to 1950kPa.
+            
+Alternatively, you can use the {THING:ItemLabeller} to set the value with the {THING:ItemLabeller}. Turn it on and highlight the {THING:StructurePressureRegulator}. Find the label called "set". This will bring up a menu, but instead of renaming the item it will set the {THING:StructurePressureRegulator} to the input value.</Value>
         </Record>
         <Record>
             <Key>SettingYourLimitTask1</Key>
@@ -173,7 +175,7 @@ You can now attach the oxygen tank to the {THING:DynamicGasCanisterOxygen} and r
         </Record>
         <Record>
             <Key>TheGasMixDescription</Key>
-            <Value>Now set the gas mix ratio by interacting with the wheel on the {THING:StructureGasMixer}. Turning the wheel to the RIGHT will alter the ratio in favor of the first input. Turning the wheel to the LEFT will alter the ratio in favor of the second input. Use the {KEY:QuantityModifier} key to reduce the increments from 10 to 1.</Value>
+            <Value>Now set the gas mix ratio by interacting with the wheel on the {THING:StructureGasMixer}. Turning the wheel towards Increase will alter the ratio in favor of the first input. Turning the wheel towards Decrease will alter the ratio in favor of the second input. Use the {KEY:QuantityModifier} key to reduce the increments from 10 to 1.</Value>
         </Record>
         <Record>
             <Key>TheGasMixTask1</Key>
