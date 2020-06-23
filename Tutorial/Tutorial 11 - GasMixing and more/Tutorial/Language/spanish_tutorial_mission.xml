@@ -153,6 +153,12 @@ Ahora puede conectar el tanque de oxígeno a la {THING:DynamicGasCanisterOxygen}
       <Value>Estableciendo su límite</Value>
     </Record>
     <Record>
+      <Key>SettingYourLimitDescription</Key>
+      <Value>Ahora tenemos que fijar el límite de presión en el {THING:StructurePressureRegulator}. Hazlo interactuando con la rueda de la{THING:StructurePressureRegulator}. Ajustar la presión a 1950kPa.
+            
+Alternativamente, puedes usar la {THING:ItemLabeller} para establecer el valor con la {THING:ItemLabeller}. Enciéndelo y resalta la {THING:StructurePressureRegulator}. Busque la etiqueta llamada &quot;set&quot;. Esto hará que aparezca un menú, pero en lugar de renombrar el elemento, establecerá la {THING:StructurePressureRegulator} al valor de entrada.</Value>
+    </Record>
+    <Record>
       <Key>SettingYourLimitTask1</Key>
       <Value>Poner la presión en la {THING:StructurePressureRegulator} a 1950kPa</Value>
     </Record>
@@ -166,7 +172,7 @@ Ahora puede conectar el tanque de oxígeno a la {THING:DynamicGasCanisterOxygen}
     </Record>
     <Record>
       <Key>TheGasMixDescription</Key>
-      <Value>Ahora configure la proporción de mezcla de gases interactuando con la rueda en el {THING:StructureGasMixer}. Girar la rueda a la DERECHA alterará la relación a favor de la primera entrada. Girar la rueda hacia la IZQUIERDA alterará la relación a favor de la segunda entrada. Use la tecla {KEY:QuantityModifier} para reducir los incrementos de 10 a 1.</Value>
+      <Value>Ahora establece la relación de mezcla de gases interactuando con la rueda de la {THING:StructureGasMixer}. Girando la rueda hacia Incremento se alterará la relación a favor de la primera entrada. Girar la rueda hacia Disminuir alterará la relación a favor de la segunda entrada. Usa la tecla {KEY:QuantityModifier} para reducir los incrementos de 10 a 1.</Value>
     </Record>
     <Record>
       <Key>TheGasMixTask1</Key>
