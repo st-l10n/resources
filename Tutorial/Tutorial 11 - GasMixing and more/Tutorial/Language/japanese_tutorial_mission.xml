@@ -28,19 +28,19 @@
     </Record>
     <Record>
       <Key>ValvesTask1</Key>
-      <Value>ハイライトされた箇所に {THING:ItemAreaPowerControl} を設置する。</Value>
+      <Value>近くのクレートから {THING:ItemPipeValve} を取り出し、ハイライトされた箇所に設置する。</Value>
     </Record>
     <Record>
       <Key>PipeMetersTask1</Key>
-      <Value>{THING:StructureLogicWriter} をハイライトされた位置に設置する。</Value>
+      <Value>{THING:StructurePipeMeter} をハイライトされた位置に設置する。</Value>
     </Record>
     <Record>
       <Key>GasMixerTask1</Key>
-      <Value>ハイライトされた位置に {THING:StructureGasSensor} を建てる。</Value>
+      <Value>ハイライトされた位置に {THING:StructureGasMixer} を建てる。</Value>
     </Record>
     <Record>
       <Key>PressureRegulatorTask1</Key>
-      <Value>{THING:StructurePipeStraight} をハイライトされた位置に設置する。</Value>
+      <Value>{THING:StructurePressureRegulator} をハイライトされた位置に設置する。</Value>
     </Record>
     <Record>
       <Key>FlipingValves</Key>
@@ -48,11 +48,11 @@
     </Record>
     <Record>
       <Key>FlipingValvesTask2</Key>
-      <Value>ハイライトされた位置に {THING:StructureGasSensor} を建てる。</Value>
+      <Value>酸素配管ネットワーク上にある {THING:StructureValve} を開く。</Value>
     </Record>
     <Record>
       <Key>FlipingValvesTask1</Key>
-      <Value>{THING:StructureSolidFuelGenerator}を設置する。</Value>
+      <Value>揮発性ガスネットワーク上の {THING:StructureValve} を開く。</Value>
     </Record>
     <Record>
       <Key>SettingYourLimitTask2</Key>
