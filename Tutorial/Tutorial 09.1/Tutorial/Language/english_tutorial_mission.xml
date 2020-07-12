@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Name>English</Name>
+<Code>EN</Code>
+<Font>font_english</Font>
+    <Interface>
+    
+        <Record>
+            <Key>Tutorial-BaicSmelting</Key>
+            <Value>Basic Smelting</Value>
+        </Record>
+        <Record>
+            <Key>Tutorial-BaicSmeltingDescription</Key>
+            <Value>Smelt advanced metals and alloys</Value>
+        </Record>
+        <Record>
+            <Key>GasSensors</Key>
+            <Value>Gas Sensors</Value>
+        </Record>
+        <Record>
+            <Key>GasSensorsDescription</Key>
+            <Value>Welcome back Cadet! Let's get smelting. 
+
+The {THING:StructureFurnace} is used to smelt ores into ingots and alloys. Use these to create new and advanced technologies. 
+
+Your first task is to set up a Gas Sensor display to monitor the conditions inside the {THING:StructureFurnace}. You can display pressure or temperature, to get live updates on what's happening.
+    
+</Value>
+        </Record>
+        <Record>
+            <Key>GasSensorsTask1</Key>
+            <Value>Pick up the {THING:CircuitboardGasDisplay} from the red crate.</Value>
+        </Record>
+        <Record>
+            <Key>GasSensorsTask2</Key>
+            <Value>Insert the {THING:CircuitboardGasDisplay) into the empty {THING:StructureConsole} on the wall behind the {THING:StructureFurnace}.</Value>
+        </Record>
+        <Record>
+            <Key>GasSensorsTask3</Key>
+            <Value>Pick up the {THING:ItemGlassSheets} from the red crate. </Value>
+        </Record>
+        <Record>
+            <Key>GasSensorsTask4</Key>
+            <Value>Install the {THING:ItemGlassSheets} on the {THING:StructureConsole}.</Value>
+        </Record>
+        <Record>
+            <Key>ConfigureGasSensor</Key>
+            <Value>Configure Gas Sensor</Value>
+        </Record>
+        <Record>
+            <Key>ConfigureGasSensorDescription</Key>
+            <Value>You can now turn on and configure the {THING:StructureConsole}. The {THING:StructureConsole} on the right will display pressure, so this console will need to display temperature. After turning on the console and inserting the {THING:ItemDataDisk}, toggle the mode to 'Temperature' by clicking on the 'Pressure' option.
+
+Now select the {THING:StructureFurnace} as the input device for the console. Scroll down until you see {THING:StructureFurnace} and select it. 
+    </Value>
+        </Record>
+        <Record>
+            <Key>ConfigureGasSensorTask1</Key>
+            <Value>Turn on the {THING:StructureConsole}</Value>
+        </Record>
+        <Record>
+            <Key>ConfigureGasSensorTask2</Key>
+            <Value>Insert the {THING:ItemDataDisk} into the {THING:StructureConsole}</Value>
+        </Record>
+        <Record>
+            <Key>ConfigureGasSensorTask3</Key>
+            <Value>Select the {THING:StructureFurnace} as the input device on the {THING:StructureConsole}, and change the mode to 'Temperature'.</Value>
+        </Record>
+        <Record>
+            <Key>ConfigureGasSensorTask4</Key>
+            <Value>Remove the data disk from the {THING:StructureConsole}.</Value>
+        </Record>
+        <Record>
+            <Key>HowToMakeSteel</Key>
+            <Value>How To Make Steel</Value>
+        </Record>
+        <Record>
+            <Key>HowToMakeSteelDescription</Key>
+            <Value>To find the recipe for steel, open the Stationpedia with the {KeyCode:Help} key. Navigate to the 'Items' section and click on the 'Alloys' link while holding the {KeyCode:MouseControl} key. On the 'Alloys' page, click on the 'Ingot (steel)' link while holding the {KeyCode:MouseControl} key.
+
+As you can see, you need three parts {THING:ItemIronOre} to one part Carbon or {THING:ItemCoalOre}. These must be combined at a minimum temperature of 600K and a minimum pressure of 100.0kPa.
+    </Value>
+        </Record>
+        <Record>
+            <Key>HowToMakeSteelTask1</Key>
+            <Value>Open the Stationpedia</Value>
+        </Record>
+        <Record>
+            <Key>HowToMakeSteelTask2</Key>
+            <Value>Navigate to the 'Ingot (steel)' page</Value>
+        </Record>
+        <Record>
+            <Key>IgnitingTheFurnace</Key>
+            <Value>Igniting The Furnace</Value>
+        </Record>
+        <Record>
+            <Key>IgnitingTheFurnaceDescription</Key>
+            <Value>To create steel, the {THING:StructureFurnace} must achieve the minimum required pressure and temperature. You can do this either by adding volatiles and oxite ice directly to the furnace, or by providing a fuel mix.
+
+The first method uses two parts volitiles and one part oxite. Be careful not overload the {THING:StructureFurnace}, as adding too many oxites or volatiles may overpressure the furnace and cause a devastating explosion.
+    </Value>
+        </Record>
+        <Record>
+            <Key>IgnitingTheFurnaceTask1</Key>
+            <Value>Pick up the {THING:ItemVolatiles} from the red crate</Value>
+        </Record>
+        <Record>
+            <Key>IgnitingTheFurnaceTask2</Key>
+            <Value>Insert the {THING:ItemVolatiles} into the {THING:StructureFurnace}</Value>
+        </Record>
+        <Record>
+            <Key>IgnitingTheFurnaceTask3</Key>
+            <Value>Press the red 'activate' button on the {THING:StructureFurnace}</Value>
+        </Record>
+        <Record>
+            <Key>IgnitingTheFurnaceTask4</Key>
+            <Value>Pick up the {THING:ItemOxite} from the red crate</Value>
+        </Record>
+        <Record>
+            <Key>IgnitingTheFurnaceTask5</Key>
+            <Value>Insert the {THING:ItemOxite} into the {THING:StructureFurnace}</Value>
+        </Record>
+        <Record>
+            <Key>IgnitingTheFurnaceTask6</Key>
+            <Value>Press the red 'activate' button on the {THING:StructureFurnace}</Value>
+        </Record>
+        <Record>
+            <Key>SmeltingIron</Key>
+            <Value>Smelting Iron</Value>
+        </Record>
+        <Record>
+            <Key>SmeltingIronDescription</Key>
+            <Value>Like the {THING:StructureArcFurnace}, you can smelt ores in the {THING:StructureFurnace}, but you can also add other ores. These alter the composition of the metals, creating new alloys. If you get the mix wrong you'll simply generate a {THING:ItemReagentMix}.
+
+Start by adding three parts {THING:ItemIronOre} into the {THING:StructureFurnace}.
+    </Value>
+        </Record>
+        <Record>
+            <Key>SmeltingIronTask1</Key>
+            <Value>Pick up {THING:ItemIronOre} from the red crate</Value>
+        </Record>
+        <Record>
+            <Key>SmeltingIronTask2</Key>
+            <Value>Put the {THING:ItemIronOre} in the {THING:StructureFurnace}</Value>
+        </Record>
+        <Record>
+            <Key>MakingAnAlloy</Key>
+            <Value>Making An Alloy</Value>
+        </Record>
+        <Record>
+            <Key>MakingAnAlloyDescription</Key>
+            <Value>You can now turn the molten iron into steel. To do this, add one part {THING:ItemCoalOre} to the mix.</Value>
+        </Record>
+          <Record>
+            <Key>MakingAnAlloyTask1</Key>
+            <Value>Pick up the {THING:ItemCoalOre} from the red crate</Value>
+        </Record>
+          <Record>
+            <Key>MakingAnAlloyTask2</Key>
+            <Value>Put the {THING:ItemCoalOre} into the {THING:StructureFurnace}</Value>
+        </Record>
+          <Record>
+            <Key>FromingTheIngot</Key>
+            <Value>Forming the Ingot</Value>
+        </Record>
+          <Record>
+            <Key>FromingTheIngotDescription</Key>
+            <Value>Use the ingot release lever to open the {THING:StructureFurnace} and get the newly made {THING:ItemSteelIngot}. This will provide you with half of the required steel to make a {THING:ItemKitBattery}. </Value>
+        </Record>
+          <Record>
+            <Key>FromingTheIngotTask1</Key>
+            <Value>Pull the ingot release lever on the {THING:StructureFurnace}</Value>
+        </Record>
+          <Record>
+            <Key>FromingTheIngotTask2</Key>
+            <Value>Pick up the {THING:ItemSteelIngot}</Value>
+        </Record>
+          <Record>
+            <Key>FromingTheIngotTask3</Key>
+            <Value>Insert the {THING:ItemSteelIngot} into the {THING:StructureElectronicsPrinter}</Value>
+        </Record>
+          <Record>
+            <Key>VentingTheGases</Key>
+            <Value>Venting The Gases</Value>
+        </Record>
+          <Record>
+            <Key>VentingTheGasesDescription</Key>
+            <Value>The {THING:StructureFurnace} is currently filled with highly pressurized toxic gas. You can vent it directly into the atmosphere or cool, filter and recycle the gases for the future use. The output pipe is connected to a {THING:StructureValve} which prevents the gases from escaping too soon. The pipe is also equipped with a {THING:StructureVolumePump} that allows venting of gases quickly.</Value>
+        </Record>
+          <Record>
+            <Key>VentingTheGasesTask1</Key>
+            <Value>Open the output {THING:StructureValve}</Value>
+        </Record>
+          <Record>
+            <Key>VentingTheGasesTask2</Key>
+            <Value>Turn on the {THING:StructureVolumePump}</Value>
+        </Record>
+          <Record>
+            <Key>VentingTheGasesTask3</Key>
+            <Value>Wait for the internal pressure in the {THING:StructureFurnace} to drop to 2kPa on the left display console. </Value>
+        </Record>
+          <Record>
+            <Key>VentingTheGasesDescription2</Key>
+            <Value>Now that the gases have been vented, close the {THING:StructureValve} and turn off the {THING:StructureVolumePump}.</Value>
+        </Record>
+          <Record>
+            <Key>VentingTheGasesTask4</Key>
+            <Value>Close the {THING:StructureValve}</Value>
+        </Record>
+          <Record>
+            <Key>VentingTheGasesTask5</Key>
+            <Value>Turn off the {THING:StructureValve}</Value>
+        </Record>
+          <Record>
+            <Key>AddingFuelMix</Key>
+            <Value>Adding Fuel Mix</Value>
+        </Record>
+          <Record>
+            <Key>AddingFuelMixDescription</Key>
+            <Value>Now that the {THING:StructureFurnace} is empty, we can refill it an alternative way. Rather than putting the volatiles and oxite mix directly into it, we will be piping a pre-prepared fuel mix into the {THING:StructureFurnace} input pipe.  
+
+The ideal fuel mix for the {THING:StructureFurnace} is a blend of 75% volatiles and 25% oxygen.
+
+Make sure to close the ingot release lever before refilling!
+</Value>
+        </Record>
+          <Record>
+            <Key>AddingFuelMixTask1</Key>
+            <Value>Open the input valve on the right side of the {THING:StructureFurnace}</Value>
+        </Record>
+          <Record>
+            <Key>AddingFuelMixTask3</Key>
+            <Value>Wait for the internal pressure of the {THING:StructureFurnace} to reach 100kPa</Value>
+        </Record>
+          <Record>
+            <Key>AddingFuelMixTask4</Key>
+            <Value>Quickly shut off the input valve - too much fuel mix could cause an explosion </Value>
+        </Record>
+         <Record>
+            <Key>AddingFuelMixTask5</Key>
+            <Value>Press the 'activate' button on the {THING:StructureFurnace}</Value>
+        </Record>
+         <Record>
+            <Key>NewAlloy</Key>
+            <Value>New Alloy</Value>
+        </Record>
+         <Record>
+            <Key>NewAlloyDescription</Key>
+            <Value>Let's make another batch of steel. Just like last time we need to add three parts Iron and one part Coal. You can find more {THING:ItemIronOre} and {THING:ItemCoalOre} in the orange crate, which is now open.</Value>
+        </Record>
+         <Record>
+            <Key>NewAlloyTask1</Key>
+            <Value>Place {THING:ItemIronOre} into the furnace</Value>
+        </Record>
+         <Record>
+            <Key>NewAlloyTask2</Key>
+            <Value>Place {THING:ItemCoalOre} into the furnace</Value>
+        </Record>
+         <Record>
+            <Key>NewAlloyTask3</Key>
+            <Value> Open the {THING:StructureFurnace} and remove the steel</Value>
+        </Record>
+         <Record>
+            <Key>WhatASteel</Key>
+            <Value>What a Steel</Value>
+        </Record>
+         <Record>
+            <Key>WhatASteelDescription</Key>
+            <Value>We now have enough steel to create the {THING:ItemKitBattery}. The {THING:ItemKitBattery} can store large amounts of energy for your station.
+
+    Use the {THING:StructureElectronicsPrinter} to print the battery kit.
+    </Value>
+        </Record>
+         <Record>
+            <Key>WhatASteelTask1</Key>
+            <Value>Pick up the {THING:ItemSteelIngot}</Value>
+        </Record>
+         <Record>
+            <Key>WhatASteelTask2</Key>
+            <Value>Insert the {THING:ItemSteelIngot} into the {THING:StructureElectronicsPrinter}</Value>
+        </Record>
+         <Record>
+            <Key>WhatASteelTask3</Key>
+            <Value>Turn on the {THING:StructureElectronicsPrinter}, look up {THING:ItemKitBattery}, and print it.</Value>
+        </Record>
+    
+    </Interface>
+</Language>
