@@ -7,6 +7,14 @@
       <Value>#4 Minería Básica</Value>
     </Record>
     <Record>
+      <Key>Tutorial-BaicSmeltingDescription</Key>
+      <Value>Fundición de metales y aleaciones avanzadas</Value>
+    </Record>
+    <Record>
+      <Key>GasSensors</Key>
+      <Value>Sensores de gas</Value>
+    </Record>
+    <Record>
       <Key>GasSensorsTask1</Key>
       <Value>Recoge la {THING:ItemLabeller} de la caja.</Value>
     </Record>
@@ -23,6 +31,10 @@
       <Value>Coloque las {THING:ItemGlassSheets} a la {THING:StructureConsole}.</Value>
     </Record>
     <Record>
+      <Key>ConfigureGasSensor</Key>
+      <Value>Configurar el sensor de gas</Value>
+    </Record>
+    <Record>
       <Key>ConfigureGasSensorTask1</Key>
       <Value>Enciende el {THING:StructureAutolathe}.</Value>
     </Record>
@@ -35,8 +47,16 @@
       <Value>Retire el {THING:ItemDataDisk} de la {THING:StructureConsole}.</Value>
     </Record>
     <Record>
+      <Key>HowToMakeSteel</Key>
+      <Value>Cómo hacer acero</Value>
+    </Record>
+    <Record>
       <Key>HowToMakeSteelTask1</Key>
       <Value>Cierre el {LINK:Home;Stationpedia}</Value>
+    </Record>
+    <Record>
+      <Key>HowToMakeSteelTask2</Key>
+      <Value>Navegue a la página de &apos;Lingote (acero)&apos;</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnace</Key>
@@ -79,12 +99,20 @@
       <Value>Soldar algunas {THING:ItemIronSheets} en el {THING:StructureAutolathe}.</Value>
     </Record>
     <Record>
+      <Key>MakingAnAlloy</Key>
+      <Value>Hacer una aleación</Value>
+    </Record>
+    <Record>
       <Key>MakingAnAlloyTask1</Key>
       <Value>Recoge la {THING:ItemLabeller} de la caja.</Value>
     </Record>
     <Record>
       <Key>MakingAnAlloyTask2</Key>
       <Value>Inserta el {THING:ItemDataDisk} en la {THING:StructureConsole}.</Value>
+    </Record>
+    <Record>
+      <Key>FromingTheIngot</Key>
+      <Value>Formando el lingote</Value>
     </Record>
     <Record>
       <Key>FromingTheIngotTask1</Key>
@@ -97,6 +125,10 @@
     <Record>
       <Key>FromingTheIngotTask3</Key>
       <Value>Selecciona la {THING:ItemResearchCapsule} en la {THING:StructureElectronicsPrinter}.</Value>
+    </Record>
+    <Record>
+      <Key>VentingTheGases</Key>
+      <Value>Ventilación de los gases</Value>
     </Record>
     <Record>
       <Key>VentingTheGasesTask1</Key>
@@ -127,6 +159,10 @@
       <Value>Poner la presión en la {THING:StructurePressureRegulator} a 1950kPa</Value>
     </Record>
     <Record>
+      <Key>AddingFuelMixTask4</Key>
+      <Value>Apaga rápidamente la válvula de entrada - demasiada mezcla de combustible podría causar una explosión</Value>
+    </Record>
+    <Record>
       <Key>AddingFuelMixTask5</Key>
       <Value>Enciende el {THING:StructureArcFurnace}.</Value>
     </Record>
@@ -153,6 +189,13 @@
     <Record>
       <Key>WhatASteel</Key>
       <Value>Qué acero</Value>
+    </Record>
+    <Record>
+      <Key>WhatASteelDescription</Key>
+      <Value>Ahora tenemos suficiente acero para crear la {THING:ItemKitBattery}. La {THING:ItemKitBattery} puede almacenar grandes cantidades de energía para su estación.
+
+    Use la {THING:StructureElectronicsPrinter} para imprimir el kit de batería.
+    </Value>
     </Record>
     <Record>
       <Key>WhatASteelTask1</Key>
