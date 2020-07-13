@@ -3679,6 +3679,22 @@
       <Key>ItemKitStructureModularRocketFueltank01</Key>
       <Value>Roket Motoru</Value>
     </Record>
+    <Record>
+      <Key>StructureCompositeWall02</Key>
+      <Value>Alaşım Duvar</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWall03</Key>
+      <Value>Alaşım Duvar</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWall04</Key>
+      <Value>Alaşım Duvar</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWallWindow</Key>
+      <Value>Alaşım Pencere</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -3872,6 +3888,10 @@
     <Record>
       <Key>Circuit</Key>
       <Value>Devre</Value>
+    </Record>
+    <Record>
+      <Key>ProgrammableChip</Key>
+      <Value>Programlanabilir Çip</Value>
     </Record>
     <Record>
       <Key>CreditCard</Key>
@@ -5637,10 +5657,6 @@
       <Value>Öbek Oluşturma Mesafesi</Value>
     </Record>
     <Record>
-      <Key>ScenarioScoreboardBackToMenu</Key>
-      <Value>Menüye Çıkış</Value>
-    </Record>
-    <Record>
       <Key>ScenarioScoreboardReturnToGame</Key>
       <Value>OYUNA GERİ DÖN</Value>
     </Record>
@@ -7039,6 +7055,58 @@
     <Record>
       <Key>ResearchShowLocked</Key>
       <Value>Kilitli Olanları Göster</Value>
+    </Record>
+    <Record>
+      <Key>CompletedKey</Key>
+      <Value>Öğretici Tamamlandı</Value>
+    </Record>
+    <Record>
+      <Key>LockedKey</Key>
+      <Value>Kilitli</Value>
+    </Record>
+    <Record>
+      <Key>TutorialScoreboardHeading</Key>
+      <Value>Öğretici Tamamlandı</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSelectKey</Key>
+      <Value>Öğretici Tamamlandı</Value>
+    </Record>
+    <Record>
+      <Key>ScenarioSelectKey</Key>
+      <Value>Görev Tamamlandı</Value>
+    </Record>
+    <Record>
+      <Key>TankPressure</Key>
+      <Value>Basınç</Value>
+    </Record>
+    <Record>
+      <Key>CrowbarToOpen</Key>
+      <Value>Ayarları değiştirmek için bir {THING:ItemScrewdriver}&apos;ya ihtiyacın var</Value>
+    </Record>
+    <Record>
+      <Key>Display</Key>
+      <Value>FPS&apos;i Göster</Value>
+    </Record>
+    <Record>
+      <Key>Player</Key>
+      <Value>OYUNCULAR:</Value>
+    </Record>
+    <Record>
+      <Key>Contents</Key>
+      <Value>İrtibatlar</Value>
+    </Record>
+    <Record>
+      <Key>InputRight</Key>
+      <Value>Giriş Ayarları</Value>
+    </Record>
+    <Record>
+      <Key>InputLeft</Key>
+      <Value>Giriş Ayarları</Value>
+    </Record>
+    <Record>
+      <Key>PlantToxic</Key>
+      <Value>Cihaz atmosferindeki kirletici madde oranı</Value>
     </Record>
   </Interface>
   <Colors>

@@ -3648,6 +3648,22 @@
       <Key>ItemKitStructureModularRocketFueltank01</Key>
       <Value>Moteur de Fusée</Value>
     </Record>
+    <Record>
+      <Key>StructureCompositeWall02</Key>
+      <Value>Mur Composite</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWall03</Key>
+      <Value>Mur Composite</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWall04</Key>
+      <Value>Mur Composite</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWallWindow</Key>
+      <Value>Fenêtre Composite</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -3833,6 +3849,10 @@
     <Record>
       <Key>Storage</Key>
       <Value>Stockage</Value>
+    </Record>
+    <Record>
+      <Key>ProgrammableChip</Key>
+      <Value>Puce programmable</Value>
     </Record>
     <Record>
       <Key>CreditCard</Key>
@@ -5465,10 +5485,6 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
     <Record>
       <Key>SettingsChunkRenderDistance</Key>
       <Value>Distance de rendu</Value>
-    </Record>
-    <Record>
-      <Key>ScenarioScoreboardBackToMenu</Key>
-      <Value>Sortir vers le menu</Value>
     </Record>
     <Record>
       <Key>ScenarioScoreboardReturnToGame</Key>
@@ -7133,6 +7149,58 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
     <Record>
       <Key>StatusWindowTarget</Key>
       <Value>Cible</Value>
+    </Record>
+    <Record>
+      <Key>CompletedKey</Key>
+      <Value>Tutoriel terminé</Value>
+    </Record>
+    <Record>
+      <Key>LockedKey</Key>
+      <Value>Verrouillé</Value>
+    </Record>
+    <Record>
+      <Key>TutorialScoreboardHeading</Key>
+      <Value>Tutoriel terminé</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSelectKey</Key>
+      <Value>Tutoriel terminé</Value>
+    </Record>
+    <Record>
+      <Key>ScenarioSelectKey</Key>
+      <Value>Scénario terminé</Value>
+    </Record>
+    <Record>
+      <Key>TankPressure</Key>
+      <Value>Pression</Value>
+    </Record>
+    <Record>
+      <Key>CrowbarToOpen</Key>
+      <Value>Vous devez avoir un {THING:ItemScrewdriver} pour changer les réglages</Value>
+    </Record>
+    <Record>
+      <Key>Display</Key>
+      <Value>Afficher FPS</Value>
+    </Record>
+    <Record>
+      <Key>Player</Key>
+      <Value>Joueurs:</Value>
+    </Record>
+    <Record>
+      <Key>Contents</Key>
+      <Value>Contacts</Value>
+    </Record>
+    <Record>
+      <Key>InputRight</Key>
+      <Value>Paramètres d&apos;entrée</Value>
+    </Record>
+    <Record>
+      <Key>InputLeft</Key>
+      <Value>Paramètres d&apos;entrée</Value>
+    </Record>
+    <Record>
+      <Key>PlantToxic</Key>
+      <Value>Le ratio de polluant dans l’atmosphère du dispositif</Value>
     </Record>
   </Interface>
   <Colors>

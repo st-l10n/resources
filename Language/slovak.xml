@@ -992,6 +992,10 @@
       <Value>Kompozitné dvere</Value>
     </Record>
     <Record>
+      <Key>StructureCompositeFloorGrating</Key>
+      <Value>Structure Composite Floor Grating</Value>
+    </Record>
+    <Record>
       <Key>StructureCompositeWall</Key>
       <Value>Kompozitná stena</Value>
     </Record>
@@ -1550,6 +1554,22 @@
     <Record>
       <Key>ItemKitStructureModularRocketFueltank01</Key>
       <Value>Rocket Engine</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWall02</Key>
+      <Value>Kompozitná stena</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWall03</Key>
+      <Value>Kompozitná stena</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWall04</Key>
+      <Value>Kompozitná stena</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWallWindow</Key>
+      <Value>Kompozitné Okno</Value>
     </Record>
   </Things>
   <Slots>
@@ -2226,8 +2246,16 @@ Temperature {1}</Value>
       <Value>No other readable devices on network</Value>
     </Record>
     <Record>
+      <Key>ChangeSettingTo</Key>
+      <Value>Change to {0}</Value>
+    </Record>
+    <Record>
       <Key>ChangeSettingToAll</Key>
       <Value>Change to {0}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToFor</Key>
+      <Value>Change to &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
     </Record>
     <Record>
       <Key>ChangeSettingToForIn</Key>
@@ -2484,6 +2512,50 @@ Temperature {1}</Value>
     <Record>
       <Key>ResearchAutomation</Key>
       <Value>Upozornenie</Value>
+    </Record>
+    <Record>
+      <Key>CompletedKey</Key>
+      <Value>Tutoriál Hotový</Value>
+    </Record>
+    <Record>
+      <Key>TutorialScoreboardHeading</Key>
+      <Value>Tutoriál Hotový</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSelectKey</Key>
+      <Value>Tutoriál Hotový</Value>
+    </Record>
+    <Record>
+      <Key>ScenarioSelectKey</Key>
+      <Value>Scenario Complete</Value>
+    </Record>
+    <Record>
+      <Key>TankPressure</Key>
+      <Value>Preset</Value>
+    </Record>
+    <Record>
+      <Key>CrowbarToOpen</Key>
+      <Value>You need a {THING:ItemScrewdriver} to change settings</Value>
+    </Record>
+    <Record>
+      <Key>Display</Key>
+      <Value>Zobraziť FPS</Value>
+    </Record>
+    <Record>
+      <Key>Player</Key>
+      <Value>Players:</Value>
+    </Record>
+    <Record>
+      <Key>Contents</Key>
+      <Value>Ovládanie</Value>
+    </Record>
+    <Record>
+      <Key>InputRight</Key>
+      <Value>Input Settings</Value>
+    </Record>
+    <Record>
+      <Key>InputLeft</Key>
+      <Value>Input Settings</Value>
     </Record>
   </Interface>
   <Colors>

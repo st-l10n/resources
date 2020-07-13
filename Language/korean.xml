@@ -2681,6 +2681,22 @@
       <Key>ItemKitStructureModularRocketFueltank01</Key>
       <Value>로켓 엔진</Value>
     </Record>
+    <Record>
+      <Key>StructureCompositeWall02</Key>
+      <Value>합성 벽</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWall03</Key>
+      <Value>합성 벽</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWall04</Key>
+      <Value>합성 벽</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWallWindow</Key>
+      <Value>합성 창문</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -4186,8 +4202,16 @@ Temperature {1}</Value>
       <Value>No other readable devices on network</Value>
     </Record>
     <Record>
+      <Key>ChangeSettingTo</Key>
+      <Value>Change to {0}</Value>
+    </Record>
+    <Record>
       <Key>ChangeSettingToAll</Key>
       <Value>Change to {0}</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingToFor</Key>
+      <Value>Change to &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
     </Record>
     <Record>
       <Key>ChangeSettingToForIn</Key>
@@ -4440,6 +4464,38 @@ Temperature {1}</Value>
     <Record>
       <Key>ResearchAutomation</Key>
       <Value>주의</Value>
+    </Record>
+    <Record>
+      <Key>CompletedKey</Key>
+      <Value>튜토리얼 완료</Value>
+    </Record>
+    <Record>
+      <Key>TutorialScoreboardHeading</Key>
+      <Value>튜토리얼 완료</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSelectKey</Key>
+      <Value>튜토리얼 완료</Value>
+    </Record>
+    <Record>
+      <Key>TankPressure</Key>
+      <Value>Preset</Value>
+    </Record>
+    <Record>
+      <Key>CrowbarToOpen</Key>
+      <Value>You need a {THING:ItemScrewdriver} to change settings</Value>
+    </Record>
+    <Record>
+      <Key>Display</Key>
+      <Value>FPS 표시</Value>
+    </Record>
+    <Record>
+      <Key>Player</Key>
+      <Value>플레이어:</Value>
+    </Record>
+    <Record>
+      <Key>Contents</Key>
+      <Value>조작</Value>
     </Record>
   </Interface>
   <Colors>

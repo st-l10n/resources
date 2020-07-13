@@ -3768,6 +3768,22 @@
       <Key>ItemKitStructureModularRocketFueltank01</Key>
       <Value>Большой ракетный двигатель</Value>
     </Record>
+    <Record>
+      <Key>StructureCompositeWall02</Key>
+      <Value>Композитная стена</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWall03</Key>
+      <Value>Композитная стена</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWall04</Key>
+      <Value>Композитная стена</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWallWindow</Key>
+      <Value>Окно</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -3961,6 +3977,10 @@
     <Record>
       <Key>Circuit</Key>
       <Value>Плата для консоли</Value>
+    </Record>
+    <Record>
+      <Key>ProgrammableChip</Key>
+      <Value>Программируемый чип</Value>
     </Record>
     <Record>
       <Key>CreditCard</Key>
@@ -5791,10 +5811,6 @@
       <Value>Дальность отрисовки чанков</Value>
     </Record>
     <Record>
-      <Key>ScenarioScoreboardBackToMenu</Key>
-      <Value>Вернуться в меню</Value>
-    </Record>
-    <Record>
       <Key>ScenarioScoreboardReturnToGame</Key>
       <Value>Вернуться в игру</Value>
     </Record>
@@ -7293,6 +7309,58 @@
     <Record>
       <Key>LaunchRocketAlert</Key>
       <Value>Вы хотите разблокировать это исследование?</Value>
+    </Record>
+    <Record>
+      <Key>CompletedKey</Key>
+      <Value>Обучение пройдено</Value>
+    </Record>
+    <Record>
+      <Key>LockedKey</Key>
+      <Value>Заблокировано</Value>
+    </Record>
+    <Record>
+      <Key>TutorialScoreboardHeading</Key>
+      <Value>Обучение пройдено</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSelectKey</Key>
+      <Value>Обучение пройдено</Value>
+    </Record>
+    <Record>
+      <Key>ScenarioSelectKey</Key>
+      <Value>Завершить сценарий</Value>
+    </Record>
+    <Record>
+      <Key>TankPressure</Key>
+      <Value>Давление</Value>
+    </Record>
+    <Record>
+      <Key>CrowbarToOpen</Key>
+      <Value>Для изменения настроек вам нужна {THING:ItemScrewdriver}</Value>
+    </Record>
+    <Record>
+      <Key>Display</Key>
+      <Value>Отображать FPS</Value>
+    </Record>
+    <Record>
+      <Key>Player</Key>
+      <Value>Игроков:</Value>
+    </Record>
+    <Record>
+      <Key>Contents</Key>
+      <Value>Контакты</Value>
+    </Record>
+    <Record>
+      <Key>InputRight</Key>
+      <Value>Настройки ввода</Value>
+    </Record>
+    <Record>
+      <Key>InputLeft</Key>
+      <Value>Настройки ввода</Value>
+    </Record>
+    <Record>
+      <Key>PlantToxic</Key>
+      <Value>Процент токсинов в атмосфере</Value>
     </Record>
   </Interface>
   <Colors>

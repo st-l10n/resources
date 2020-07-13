@@ -3764,6 +3764,22 @@
       <Key>ItemKitStructureModularRocketFueltank01</Key>
       <Value>套件 火箭燃料箱</Value>
     </Record>
+    <Record>
+      <Key>StructureCompositeWall02</Key>
+      <Value>复合墙体</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWall03</Key>
+      <Value>复合墙体</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWall04</Key>
+      <Value>复合墙体</Value>
+    </Record>
+    <Record>
+      <Key>StructureCompositeWallWindow</Key>
+      <Value>复合窗</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -3957,6 +3973,10 @@
     <Record>
       <Key>Circuit</Key>
       <Value>电路</Value>
+    </Record>
+    <Record>
+      <Key>ProgrammableChip</Key>
+      <Value>可编程芯片</Value>
     </Record>
     <Record>
       <Key>CreditCard</Key>
@@ -5829,10 +5849,6 @@
       <Value>块渲染距离</Value>
     </Record>
     <Record>
-      <Key>ScenarioScoreboardBackToMenu</Key>
-      <Value>退出到菜单</Value>
-    </Record>
-    <Record>
       <Key>ScenarioScoreboardReturnToGame</Key>
       <Value>返回游戏</Value>
     </Record>
@@ -7674,6 +7690,58 @@ abs()--绝对值运算函数 max()--最大值函数</Value>
     <Record>
       <Key>StatusWindowTarget</Key>
       <Value>目标</Value>
+    </Record>
+    <Record>
+      <Key>CompletedKey</Key>
+      <Value>教程完成</Value>
+    </Record>
+    <Record>
+      <Key>LockedKey</Key>
+      <Value>锁定</Value>
+    </Record>
+    <Record>
+      <Key>TutorialScoreboardHeading</Key>
+      <Value>教程完成</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSelectKey</Key>
+      <Value>教程完成</Value>
+    </Record>
+    <Record>
+      <Key>ScenarioSelectKey</Key>
+      <Value>场景完成</Value>
+    </Record>
+    <Record>
+      <Key>TankPressure</Key>
+      <Value>压力</Value>
+    </Record>
+    <Record>
+      <Key>CrowbarToOpen</Key>
+      <Value>你需要一个 {THING:ItemScrewdriver} 去更改设置</Value>
+    </Record>
+    <Record>
+      <Key>Display</Key>
+      <Value>显示FPS</Value>
+    </Record>
+    <Record>
+      <Key>Player</Key>
+      <Value>玩家:</Value>
+    </Record>
+    <Record>
+      <Key>Contents</Key>
+      <Value>联系人</Value>
+    </Record>
+    <Record>
+      <Key>InputRight</Key>
+      <Value>输入设置</Value>
+    </Record>
+    <Record>
+      <Key>InputLeft</Key>
+      <Value>输入设置</Value>
+    </Record>
+    <Record>
+      <Key>PlantToxic</Key>
+      <Value>空气中污染物的比例</Value>
     </Record>
   </Interface>
   <Colors>
