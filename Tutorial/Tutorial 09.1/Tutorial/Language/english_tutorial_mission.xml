@@ -33,7 +33,7 @@ Your first task is to set up a Gas Sensor display to monitor the conditions insi
         </Record>
         <Record>
             <Key>GasSensorsTask2</Key>
-            <Value>Insert the {THING:CircuitboardGasDisplay) into the empty {THING:StructureConsole} on the wall behind the {THING:StructureFurnace}.</Value>
+            <Value>Insert the {THING:CircuitboardGasDisplay} into the empty {THING:StructureConsole} on the wall behind the {THING:StructureFurnace}.</Value>
         </Record>
         <Record>
             <Key>GasSensorsTask3</Key>
@@ -76,7 +76,7 @@ Now select the {THING:StructureFurnace} as the input device for the console. Scr
         </Record>
         <Record>
             <Key>HowToMakeSteelDescription</Key>
-            <Value>To find the recipe for steel, open the Stationpedia with the {KeyCode:Help} key. Navigate to the 'Items' section and click on the 'Alloys' link while holding the {KeyCode:MouseControl} key. On the 'Alloys' page, click on the 'Ingot (steel)' link while holding the {KeyCode:MouseControl} key.
+            <Value>To find the recipe for steel, open the Stationpedia with the {KEY:Help} key. Navigate to the 'Items' section and click on the 'Alloys' link while holding the {KEY:MouseControl} key. On the 'Alloys' page, click on the 'Ingot (steel)' link while holding the {KEY:MouseControl} key.
 
 As you can see, you need three parts {THING:ItemIronOre} to one part Carbon or {THING:ItemCoalOre}. These must be combined at a minimum temperature of 600K and a minimum pressure of 100.0kPa.
     </Value>
