@@ -90,6 +90,13 @@ Jak můžete vidět, potřebujete tři části {THING:ItemIronOre} na jednu čá
       <Value>Zapálení pece</Value>
     </Record>
     <Record>
+      <Key>IgnitingTheFurnaceDescription</Key>
+      <Value>Chcete-li vytvořit ocel, musí {THING:StructureFurnace} dosáhnout minimálního požadovaného tlaku a teploty. Můžete to udělat buď přidáním těkavých látek a oxidového ledu přímo do pece, nebo poskytnutím palivové směsi.
+
+První metoda používá dvě části těkavé látky a jeden díl oxidu. Dávejte pozor, abyste nepřetížili {THING:StructureFurnace}, protože přidání příliš mnoho oxidů nebo těkavých látek může přetlakovat pec a způsobit ničivou explozi.
+    </Value>
+    </Record>
+    <Record>
       <Key>IgnitingTheFurnaceTask1</Key>
       <Value>Vezměte {THING:ItemVolatiles} z červené bedny</Value>
     </Record>
@@ -118,12 +125,23 @@ Jak můžete vidět, potřebujete tři části {THING:ItemIronOre} na jednu čá
       <Value>Tavení železa</Value>
     </Record>
     <Record>
+      <Key>SmeltingIronDescription</Key>
+      <Value>Stejně jako {THING:StructureArcFurnace}, můžete roztavit rudy v {THING:StructureFurnace}, ale můžete také přidat další rudy. Ty mění složení kovů a vytvářejí nové slitiny. Pokud se vám směs nepodaří, jednoduše vygenerujete {THING:ItemReagentMix}.
+
+Začněte přidáním tří částí {THING:ItemIronOre} do {THING:StructureFurnace}.
+    </Value>
+    </Record>
+    <Record>
       <Key>SmeltingIronTask1</Key>
       <Value>Vezměte {THING:ItemIronOre} z červené bedny</Value>
     </Record>
     <Record>
       <Key>SmeltingIronTask2</Key>
       <Value>Vložte {THING:ItemIronOre} do {THING:StructureFurnace}</Value>
+    </Record>
+    <Record>
+      <Key>MakingAnAlloy</Key>
+      <Value>Výroba slitiny</Value>
     </Record>
     <Record>
       <Key>MakingAnAlloyTask1</Key>
