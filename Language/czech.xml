@@ -7636,16 +7636,52 @@ Teplota {1}</Value>
       <Value>Vstup vlevo</Value>
     </Record>
     <Record>
+      <Key>Liquid</Key>
+      <Value>Kapalina</Value>
+    </Record>
+    <Record>
+      <Key>Empty</Key>
+      <Value>Prázdné</Value>
+    </Record>
+    <Record>
+      <Key>Cycle</Key>
+      <Value>Synchronizovat</Value>
+    </Record>
+    <Record>
+      <Key>BuildStateOfHash</Key>
+      <Value>{0} z {1}</Value>
+    </Record>
+    <Record>
+      <Key>Stage1Contains</Key>
+      <Value>Obsahuje {0} ve {3}fázi{1}{4}</Value>
+    </Record>
+    <Record>
+      <Key>PlantWillCreate</Key>
+      <Value>Tím se vytvoří {3}{0}{4} x {1}</Value>
+    </Record>
+    <Record>
+      <Key>PlantGrowing</Key>
+      <Value>{0} {3}roste{4}</Value>
+    </Record>
+    <Record>
+      <Key>PlantDead</Key>
+      <Value>{0} je {1}mrtvý{2}</Value>
+    </Record>
+    <Record>
+      <Key>PlantHydrate</Key>
+      <Value>{0} postrádá {1}hydrataci{2}</Value>
+    </Record>
+    <Record>
       <Key>NoAtmos</Key>
       <Value>{0} nemá {1}atmosféru{2}</Value>
     </Record>
     <Record>
       <Key>PlantTemperature</Key>
-      <Value>{0} není na správné {1} teplotě {2}</Value>
+      <Value>{0} není na správné {1}teplotě{2}</Value>
     </Record>
     <Record>
       <Key>PlantNoSunlight</Key>
-      <Value>{0} nemá požadované {1} sluneční světlo {2}</Value>
+      <Value>{0} nemá požadované {1}sluneční světlo{2}</Value>
     </Record>
     <Record>
       <Key>PlantToxic</Key>
