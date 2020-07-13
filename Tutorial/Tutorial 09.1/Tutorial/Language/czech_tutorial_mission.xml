@@ -44,6 +44,13 @@ Vaším prvním úkolem je nastavit zobrazení senzoru plynu pro monitorování 
       <Value>Konfigurace senzoru plynu</Value>
     </Record>
     <Record>
+      <Key>ConfigureGasSensorDescription</Key>
+      <Value>Nyní můžete zapnout a nakonfigurovat {THING:StructureConsole}. {THING:StructureConsole} vpravo zobrazí tlak, takže tato konzole bude muset zobrazovat teplotu. Po zapnutí konzole a vložení {THING:ItemDataDisk} přepněte režim na &apos;Teplota&apos; kliknutím na možnost &apos;Tlak&apos;.
+
+Nyní vyberte {THING:StructureFurnace} jako vstupní zařízení pro konzoli. Otáčejte kolečkem myši, dokud se nezobrazí položka {THING:StructureFurnace} a vyberte ji. 
+    </Value>
+    </Record>
+    <Record>
       <Key>ConfigureGasSensorTask1</Key>
       <Value>Zapněte {THING:StructureConsole}</Value>
     </Record>
@@ -52,8 +59,16 @@ Vaším prvním úkolem je nastavit zobrazení senzoru plynu pro monitorování 
       <Value>Vložte {THING:ItemDataDisk} do {THING:StructureConsole}</Value>
     </Record>
     <Record>
+      <Key>ConfigureGasSensorTask3</Key>
+      <Value>Vyberte {THING:StructureFurnace} jako vstupní zařízení na {THING:StructureConsole} a změňte režim na &apos;Teplota&apos;.</Value>
+    </Record>
+    <Record>
       <Key>ConfigureGasSensorTask4</Key>
       <Value>Odeberte datový disk z {THING:StructureConsole}.</Value>
+    </Record>
+    <Record>
+      <Key>HowToMakeSteel</Key>
+      <Value>Jak vyrobit ocel</Value>
     </Record>
     <Record>
       <Key>HowToMakeSteelTask1</Key>
