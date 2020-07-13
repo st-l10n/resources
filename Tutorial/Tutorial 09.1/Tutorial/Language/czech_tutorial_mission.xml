@@ -144,12 +144,24 @@ Začněte přidáním tří částí {THING:ItemIronOre} do {THING:StructureFurn
       <Value>Výroba slitiny</Value>
     </Record>
     <Record>
+      <Key>MakingAnAlloyDescription</Key>
+      <Value>Nyní můžete roztavené železo přeměnit na ocel. Chcete-li to provést, přidejte jednu část {THING:ItemCoalOre} do směsi.</Value>
+    </Record>
+    <Record>
       <Key>MakingAnAlloyTask1</Key>
       <Value>Vezměte {THING:ItemCoalOre} z červené bedny</Value>
     </Record>
     <Record>
       <Key>MakingAnAlloyTask2</Key>
       <Value>Vložte {THING:ItemCoalOre} do {THING:StructureFurnace}</Value>
+    </Record>
+    <Record>
+      <Key>FromingTheIngot</Key>
+      <Value>Formování Ingotu</Value>
+    </Record>
+    <Record>
+      <Key>FromingTheIngotDescription</Key>
+      <Value>Pomocí uvolňovací páky ingotů otevřete {THING:StructureFurnace} a získejte nově vyrobenou {THING:ItemSteelIngot}. Tím získáte polovinu požadované oceli k vytvoření {THING:ItemKitBattery}. </Value>
     </Record>
     <Record>
       <Key>FromingTheIngotTask1</Key>
@@ -162,6 +174,10 @@ Začněte přidáním tří částí {THING:ItemIronOre} do {THING:StructureFurn
     <Record>
       <Key>FromingTheIngotTask3</Key>
       <Value>Vložte {THING:ItemSteelIngot} do {THING:StructureElectronicsPrinter}</Value>
+    </Record>
+    <Record>
+      <Key>VentingTheGases</Key>
+      <Value>Odvzdušňování plynů</Value>
     </Record>
     <Record>
       <Key>VentingTheGasesTask1</Key>
@@ -192,8 +208,16 @@ Začněte přidáním tří částí {THING:ItemIronOre} do {THING:StructureFurn
       <Value>Počkejte, až vnitřní tlak {THING:StructureFurnace} dosáhne 100kPa</Value>
     </Record>
     <Record>
+      <Key>AddingFuelMixTask4</Key>
+      <Value>Rychle uzavřete vstupní ventil - příliš mnoho palivové směsi může způsobit výbuch </Value>
+    </Record>
+    <Record>
       <Key>AddingFuelMixTask5</Key>
       <Value>Stiskněte tlačítko &apos;aktivovat&apos; na {THING:StructureFurnace}</Value>
+    </Record>
+    <Record>
+      <Key>NewAlloy</Key>
+      <Value>Nová slitina</Value>
     </Record>
     <Record>
       <Key>NewAlloyTask1</Key>
@@ -206,6 +230,17 @@ Začněte přidáním tří částí {THING:ItemIronOre} do {THING:StructureFurn
     <Record>
       <Key>NewAlloyTask3</Key>
       <Value> Otevřete {THING:StructureFurnace} a odstraňte ocel</Value>
+    </Record>
+    <Record>
+      <Key>WhatASteel</Key>
+      <Value>Jaká ocel</Value>
+    </Record>
+    <Record>
+      <Key>WhatASteelDescription</Key>
+      <Value>Nyní máme dostatek oceli k vytvoření {THING:ItemKitBattery}. Zařízení {THING:ItemKitBattery} může do vaší stanice ukládat velké množství energie.
+
+    K tisku soupravy baterií použijte {THING:StructureElectronicsPrinter}.
+    </Value>
     </Record>
     <Record>
       <Key>WhatASteelTask1</Key>
