@@ -180,12 +180,24 @@ Začněte přidáním tří částí {THING:ItemIronOre} do {THING:StructureFurn
       <Value>Odvzdušňování plynů</Value>
     </Record>
     <Record>
+      <Key>VentingTheGasesDescription</Key>
+      <Value>{THING:StructureFurnace} je v současné době naplněna vysoce stlačeným toxickým plynem. Můžete ji odvzdušnit přímo do atmosféry nebo ochladit, vyfiltrovat a recyklovat plyny pro budoucí použití. Výstupní potrubí je připojeno k {THING:StructureValve}, který zabraňuje úniku plynů příliš brzy. Potrubí je také vybaveno {THING:StructureVolumePump}, které umožňuje rychlé odvádění plynů.</Value>
+    </Record>
+    <Record>
       <Key>VentingTheGasesTask1</Key>
       <Value>Otevřete výstup {THING:StructureValve}</Value>
     </Record>
     <Record>
       <Key>VentingTheGasesTask2</Key>
       <Value>Zapněte {THING:StructureVolumePump}</Value>
+    </Record>
+    <Record>
+      <Key>VentingTheGasesTask3</Key>
+      <Value>Počkejte, až vnitřní tlak v {THING:StructureFurnace} klesne na 2kPa na levé konzoli displeje. </Value>
+    </Record>
+    <Record>
+      <Key>VentingTheGasesDescription2</Key>
+      <Value>Nyní, když byly plyny odvětrány, zavřete {THING:StructureValve} a vypněte {THING:StructureVolumePump}.</Value>
     </Record>
     <Record>
       <Key>VentingTheGasesTask4</Key>
@@ -218,6 +230,10 @@ Začněte přidáním tří částí {THING:ItemIronOre} do {THING:StructureFurn
     <Record>
       <Key>NewAlloy</Key>
       <Value>Nová slitina</Value>
+    </Record>
+    <Record>
+      <Key>NewAlloyDescription</Key>
+      <Value>Uděláme další várku oceli. Stejně jako minule musíme přidat tři části železa a jeden díl uhlí. Další informace o {THING:ItemIronOre} a {THING:ItemCoalOre} najdete v oranžové bedně, která je nyní otevřena.</Value>
     </Record>
     <Record>
       <Key>NewAlloyTask1</Key>
