@@ -1705,10 +1705,6 @@
       <Value>Регулятор давления</Value>
     </Record>
     <Record>
-      <Key>StructureRailing</Key>
-      <Value>Перила</Value>
-    </Record>
-    <Record>
       <Key>StructureRocketEngine</Key>
       <Value>Большой ракетный двигатель</Value>
     </Record>
@@ -2663,6 +2659,10 @@
     <Record>
       <Key>StructureWallGeometryT</Key>
       <Value>Стена (Геометрия, Т-образная)</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallGeometryTMirrored</Key>
+      <Value>Стена (Геометрия, угол)</Value>
     </Record>
     <Record>
       <Key>StructureWallPaddedArch</Key>
@@ -3779,6 +3779,10 @@
     <Record>
       <Key>StructureCompositeWallWindow</Key>
       <Value>Окно</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitRailing</Key>
+      <Value>Набор (Композитное покрытие)</Value>
     </Record>
   </Things>
   <Slots>
