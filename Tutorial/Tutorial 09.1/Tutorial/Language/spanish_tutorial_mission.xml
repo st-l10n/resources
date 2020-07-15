@@ -20,15 +20,15 @@
     </Record>
     <Record>
       <Key>GasSensorsTask2</Key>
-      <Value>Inserte la {THING:CircuitboardAirlockControl} en la {THING:StructureConsole}.</Value>
+      <Value>Inserte la {THING:CircuitboardGasDisplay} en la {THING:StructureConsole} vacía en la pared detrás de la {THING:StructureFurnace}.</Value>
     </Record>
     <Record>
       <Key>GasSensorsTask3</Key>
-      <Value>Recoge la {THING:ItemLabeller} de la caja.</Value>
+      <Value>Recoge la {THING:ItemGlassSheets} de la caja roja.</Value>
     </Record>
     <Record>
       <Key>GasSensorsTask4</Key>
-      <Value>Coloque las {THING:ItemGlassSheets} a la {THING:StructureConsole}.</Value>
+      <Value>Instale la {THING:ItemGlassSheets} en la {THING:StructureConsole}.</Value>
     </Record>
     <Record>
       <Key>ConfigureGasSensor</Key>
@@ -36,15 +36,15 @@
     </Record>
     <Record>
       <Key>ConfigureGasSensorTask1</Key>
-      <Value>Enciende el {THING:StructureAutolathe}.</Value>
+      <Value>Enciende la {THING:StructureConsole}</Value>
     </Record>
     <Record>
       <Key>ConfigureGasSensorTask2</Key>
-      <Value>Inserta el {THING:ItemDataDisk} en la {THING:StructureConsole}.</Value>
+      <Value>Inserte el {THING:ItemDataDisk} en la {THING:StructureConsole}</Value>
     </Record>
     <Record>
       <Key>ConfigureGasSensorTask4</Key>
-      <Value>Retire el {THING:ItemDataDisk} de la {THING:StructureConsole}.</Value>
+      <Value>Retire el disco de datos de la {THING:StructureConsole}.</Value>
     </Record>
     <Record>
       <Key>HowToMakeSteel</Key>
@@ -64,27 +64,27 @@
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask1</Key>
-      <Value>Recoge la {THING:ItemLabeller} de la caja.</Value>
+      <Value>Recoge la {THING:ItemVolatiles} de la caja roja</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask2</Key>
-      <Value>Inserta el {THING:ItemDataDisk} en la {THING:StructureConsole}.</Value>
+      <Value>Inserte la {THING:ItemVolatiles} en la {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask3</Key>
-      <Value>Enciende el {THING:StructureArcFurnace}.</Value>
+      <Value>Presiona el botón rojo de &quot;activar&quot; en el {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask4</Key>
-      <Value>Recoge la {THING:ItemLabeller} de la caja.</Value>
+      <Value>Recoge la {THING:ItemOxite} de la caja roja</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask5</Key>
-      <Value>Inserta el {THING:ItemDataDisk} en la {THING:StructureConsole}.</Value>
+      <Value>Inserte la {THING:ItemOxite} en la {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask6</Key>
-      <Value>Enciende el {THING:StructureArcFurnace}.</Value>
+      <Value>Presiona el botón rojo de &quot;activar&quot; en el {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>SmeltingIron</Key>
@@ -96,7 +96,7 @@
     </Record>
     <Record>
       <Key>SmeltingIronTask2</Key>
-      <Value>Soldar algunas {THING:ItemIronSheets} en el {THING:StructureAutolathe}.</Value>
+      <Value>Ponga la {THING:ItemIronOre} en la {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>MakingAnAlloy</Key>
@@ -108,11 +108,11 @@
     </Record>
     <Record>
       <Key>MakingAnAlloyTask1</Key>
-      <Value>Recoge la {THING:ItemLabeller} de la caja.</Value>
+      <Value>Recoge la {THING:ItemCoalOre} de la caja roja</Value>
     </Record>
     <Record>
       <Key>MakingAnAlloyTask2</Key>
-      <Value>Inserta el {THING:ItemDataDisk} en la {THING:StructureConsole}.</Value>
+      <Value>Ponga la {THING:ItemCoalOre} en la {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>FromingTheIngot</Key>
@@ -120,11 +120,11 @@
     </Record>
     <Record>
       <Key>FromingTheIngotTask1</Key>
-      <Value>Enciende el {THING:StructureArcFurnace}.</Value>
+      <Value>Tire de la palanca de liberación de lingotes en el {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>FromingTheIngotTask2</Key>
-      <Value>Recoge la {THING:ItemTablet}</Value>
+      <Value>Recoge la {THING:ItemSteelIngot}</Value>
     </Record>
     <Record>
       <Key>FromingTheIngotTask3</Key>
@@ -156,11 +156,11 @@
     </Record>
     <Record>
       <Key>AddingFuelMixTask1</Key>
-      <Value>Establezca los datos de salida para escribir en {THING:StructureSolarPanelDual}</Value>
+      <Value>Abra la válvula de entrada en el lado derecho de la {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>AddingFuelMixTask3</Key>
-      <Value>Poner la presión en la {THING:StructurePressureRegulator} a 1950kPa</Value>
+      <Value>Esperar a que la presión interna de la {THING:StructureFurnace} alcance los 100kPa</Value>
     </Record>
     <Record>
       <Key>AddingFuelMixTask4</Key>
@@ -168,7 +168,7 @@
     </Record>
     <Record>
       <Key>AddingFuelMixTask5</Key>
-      <Value>Enciende el {THING:StructureArcFurnace}.</Value>
+      <Value>Presiona el botón &apos;activar&apos; en el {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>NewAlloy</Key>
