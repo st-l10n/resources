@@ -3784,11 +3784,11 @@
     </Record>
     <Record>
       <Key>StructureWallArchCornerRound</Key>
-      <Value>Stěna (Oblouková šipka)</Value>
+      <Value>Stěna (Obloukový rohový kruh)</Value>
     </Record>
     <Record>
       <Key>StructureWallArchCornerSquare</Key>
-      <Value>Stěna (Oblouk dvoubarevná)</Value>
+      <Value>Stěna (Roh rohového oblouku)</Value>
     </Record>
     <Record>
       <Key>StructureWallArchCornerTriangle</Key>
@@ -3805,6 +3805,10 @@
     <Record>
       <Key>StructureWallFlatCornerTriangle</Key>
       <Value>Stěna (Pokovaná)</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallFlatCornerTriangleFlat</Key>
+      <Value>Stěna (Plochý rohový trojúhelník)</Value>
     </Record>
   </Things>
   <Slots>
@@ -5621,7 +5625,7 @@ Neuložený postup bude ztracen.</Value>
     <Record>
       <Key>FurnaceChamberText</Key>
       <Value>Tlak {0}
-Teplota {1}</Value>
+        Teplota {1}</Value>
     </Record>
     <Record>
       <Key>FurnaceSmelting</Key>
