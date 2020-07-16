@@ -3872,6 +3872,34 @@
       <Key>ItemKitRailing</Key>
       <Value>Kit (Railing)</Value>
     </Record>
+    <Record>
+      <Key>StructureWallArchCornerRound</Key>
+      <Value>Wall (Arch Corner Round)</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallArchCornerSquare</Key>
+      <Value>Wall (Arch Corner Square)</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallArchCornerTriangle</Key>
+      <Value>Wall (Arch Corner Triangle)</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallFlatCornerRound</Key>
+      <Value>Wall (Flat Corner Round)</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallFlatCornerSquare</Key>
+      <Value>Wall (Flat Corner Square)</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallFlatCornerTriangle</Key>
+      <Value>Wall (Flat Corner Triangle)</Value>
+    </Record>
+    <Record>
+      <Key>StructureWallFlatCornerTriangleFlat</Key>
+      <Value>Wall (Flat Corner Triangle Flat)</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -5731,10 +5759,8 @@
     </Record>
     <Record>
       <Key>FurnaceChamberText</Key>
-      <Value>
-        Pressure {0}
-        Temperature {1}
-      </Value>
+      <Value>Pressure {0}
+        Temperature {1}</Value>
     </Record>
     <Record>
       <Key>FurnaceSmelting</Key>
