@@ -15,6 +15,14 @@
       <Value>Sensores de gas</Value>
     </Record>
     <Record>
+      <Key>GasSensorsDescription</Key>
+      <Value>¡Bienvenido de nuevo, cadete! Vamos a fundir. 
+
+La {THING:StructureFurnace} se usa para fundir minerales en lingotes y aleaciones. Se usa para crear nuevas y avanzadas tecnologías.
+
+Su primera tarea es configurar una pantalla de sensor de gas para monitorear las condiciones dentro de la {THING:StructureFurnace}. Puedes mostrar la presión o la temperatura, para obtener actualizaciones en vivo de lo que está sucediendo.</Value>
+    </Record>
+    <Record>
       <Key>GasSensorsTask1</Key>
       <Value>Recoge la {THING:CircuitboardGasDisplay} de la caja roja.</Value>
     </Record>
@@ -33,6 +41,10 @@
     <Record>
       <Key>ConfigureGasSensor</Key>
       <Value>Configurar el sensor de gas</Value>
+    </Record>
+    <Record>
+      <Key>ConfigureGasSensorDescription</Key>
+      <Value>Ahora seleccione la {THING:StructureFurnace} como el dispositivo de entrada para la consola. Desplácese hacia abajo hasta que vea {THING:StructureFurnace} y selecciónelo.</Value>
     </Record>
     <Record>
       <Key>ConfigureGasSensorTask1</Key>
@@ -143,6 +155,14 @@
       <Value>Enciende el {THING:StructureVolumePump}</Value>
     </Record>
     <Record>
+      <Key>VentingTheGasesTask3</Key>
+      <Value>Espere a que la presión interna en el {THING:StructureFurnace} baje a 2kPa en la consola de la pantalla izquierda. </Value>
+    </Record>
+    <Record>
+      <Key>VentingTheGasesDescription2</Key>
+      <Value>Ahora que los gases se han ventilado, cierra la {THING:StructureValve} y apaga la {THING:StructureVolumePump}.</Value>
+    </Record>
+    <Record>
       <Key>VentingTheGasesTask4</Key>
       <Value>Cerrar la {THING:StructureValve}</Value>
     </Record>
@@ -180,15 +200,15 @@
     </Record>
     <Record>
       <Key>NewAlloyTask1</Key>
-      <Value>Recoge las unidades de {THING:ItemKitSensor} de la caja</Value>
+      <Value>Ponga {THING:ItemIronOre} en el horno</Value>
     </Record>
     <Record>
       <Key>NewAlloyTask2</Key>
-      <Value>Recoge la {THING:ItemLabeller} de la caja.</Value>
+      <Value>Coloca el {THING:ItemCoalOre} en el horno</Value>
     </Record>
     <Record>
       <Key>NewAlloyTask3</Key>
-      <Value>Abre la {THING:StructureValve} en la red de oxígeno.</Value>
+      <Value>Abre la {THING:StructureFurnace} y quitar el acero</Value>
     </Record>
     <Record>
       <Key>WhatASteel</Key>
@@ -203,15 +223,15 @@
     </Record>
     <Record>
       <Key>WhatASteelTask1</Key>
-      <Value>Recoge la {THING:ItemTablet}</Value>
+      <Value>Recoge la {THING:ItemSteelIngot}</Value>
     </Record>
     <Record>
       <Key>WhatASteelTask2</Key>
-      <Value>Selecciona la {THING:ItemResearchCapsule} en la {THING:StructureElectronicsPrinter}.</Value>
+      <Value>Inserte la {THING:ItemSteelIngot} en la {THING:StructureElectronicsPrinter}</Value>
     </Record>
     <Record>
       <Key>WhatASteelTask3</Key>
-      <Value>Enciende la {THING:StructureElectronicsPrinter}.</Value>
+      <Value>Enciende la {THING:StructureElectronicsPrinter}, busca {THING:ItemKitBattery}, e imprimirlo.</Value>
     </Record>
   </Interface>
 </Language>
