@@ -155,6 +155,10 @@ Su primera tarea es configurar una pantalla de sensor de gas para monitorear las
       <Value>Ventilación de los gases</Value>
     </Record>
     <Record>
+      <Key>VentingTheGasesDescription</Key>
+      <Value>El {THING:StructureFurnace} está actualmente lleno de gas tóxico altamente presurizado. Puedes descargarlo directamente a la atmósfera o enfriar, filtrar y reciclar los gases para su futuro uso. El tubo de salida está conectado a una {THING:StructureValve} que evita que los gases se escapen demasiado pronto. El tubo también está equipado con una {THING:StructureVolumePump} que permite la ventilación de los gases rápidamente.</Value>
+    </Record>
+    <Record>
       <Key>VentingTheGasesTask1</Key>
       <Value>Abrir la salida {THING:StructureValve}</Value>
     </Record>
@@ -181,6 +185,14 @@ Su primera tarea es configurar una pantalla de sensor de gas para monitorear las
     <Record>
       <Key>AddingFuelMix</Key>
       <Value>Añadir la mezcla de combustible</Value>
+    </Record>
+    <Record>
+      <Key>AddingFuelMixDescription</Key>
+      <Value>Ahora que la {THING:StructureFurnace} está vacía, podemos rellenarla de forma alternativa. En lugar de poner los volátiles y la mezcla de oxite directamente en ella, vamos a canalizar una mezcla de combustible preparada en la tubería de entrada de {THING:StructureFurnace}.
+
+La mezcla de combustible ideal para la {THING:StructureFurnace} es una mezcla de 75% de volátiles y 25% de oxígeno.
+
+¡Asegúrate de cerrar la palanca de liberación de lingotes antes de rellenar!</Value>
     </Record>
     <Record>
       <Key>AddingFuelMixTask1</Key>
