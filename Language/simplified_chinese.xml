@@ -3750,7 +3750,7 @@
     </Record>
     <Record>
       <Key>ItemKitStructureLaunchPad</Key>
-      <Value>发射台</Value>
+      <Value>套件 发射台</Value>
     </Record>
     <Record>
       <Key>ItemKitStructureModularRocketEngine01</Key>
@@ -3762,15 +3762,15 @@
     </Record>
     <Record>
       <Key>StructureCompositeWall02</Key>
-      <Value>复合墙体</Value>
+      <Value>复合墙体(类型 2)</Value>
     </Record>
     <Record>
       <Key>StructureCompositeWall03</Key>
-      <Value>复合墙体</Value>
+      <Value>复合墙体(类型 3)</Value>
     </Record>
     <Record>
       <Key>StructureCompositeWall04</Key>
-      <Value>复合墙体</Value>
+      <Value>复合墙体(类型 4)</Value>
     </Record>
     <Record>
       <Key>StructureCompositeWallWindow</Key>
@@ -3778,31 +3778,31 @@
     </Record>
     <Record>
       <Key>ItemKitRailing</Key>
-      <Value>复合包层</Value>
+      <Value>套件(栏杆)</Value>
     </Record>
     <Record>
       <Key>StructureWallArchCornerRound</Key>
-      <Value>拱脚墙箭头</Value>
+      <Value>墙体(圆形拱角)</Value>
     </Record>
     <Record>
       <Key>StructureWallArchCornerSquare</Key>
-      <Value>拱脚墙双绞线</Value>
+      <Value>墙体(方形拱角)</Value>
     </Record>
     <Record>
       <Key>StructureWallArchCornerTriangle</Key>
-      <Value>拱脚墙双绞线</Value>
+      <Value>墙体(三角形拱角)</Value>
     </Record>
     <Record>
       <Key>StructureWallFlatCornerRound</Key>
-      <Value>几何墙直角</Value>
+      <Value>墙体(圆形平角)</Value>
     </Record>
     <Record>
       <Key>StructureWallFlatCornerSquare</Key>
-      <Value>几何墙直角</Value>
+      <Value>墙体(方形平角)</Value>
     </Record>
     <Record>
       <Key>StructureWallFlatCornerTriangle</Key>
-      <Value>墙壁电镀面板</Value>
+      <Value>墙体(三角形平角)</Value>
     </Record>
   </Things>
   <Slots>
@@ -7720,6 +7720,10 @@ abs()--绝对值运算函数 max()--最大值函数</Value>
     <Record>
       <Key>Contents</Key>
       <Value>内容物</Value>
+    </Record>
+    <Record>
+      <Key>holdhotkey</Key>
+      <Value>(按住)</Value>
     </Record>
   </Interface>
   <Colors>
