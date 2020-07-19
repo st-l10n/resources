@@ -4,19 +4,19 @@
   <Interface>
     <Record>
       <Key>Tutorial-BaicSmelting</Key>
-      <Value>#4 基础采矿知识</Value>
+      <Value>基础熔炼</Value>
     </Record>
     <Record>
       <Key>GasSensorsTask1</Key>
-      <Value>从箱中拿出 {THING:ItemLabeller}。</Value>
+      <Value>从红色箱中拿出 {THING:CircuitboardGasDisplay}。</Value>
     </Record>
     <Record>
       <Key>GasSensorsTask2</Key>
-      <Value>将 {THING:CircuitboardAirlockControl} 插入 {THING:StructureConsole} 中。</Value>
+      <Value>将 {THING:CircuitboardGasDisplay} 插入到墙上在 {THING:StructureFurnace} 旁边的那个空的 {THING:StructureConsole}中。</Value>
     </Record>
     <Record>
       <Key>GasSensorsTask3</Key>
-      <Value>从箱中拿出 {THING:ItemLabeller}。</Value>
+      <Value>从红色箱中拿出 {THING:ItemGlassSheets}。</Value>
     </Record>
     <Record>
       <Key>GasSensorsTask4</Key>
@@ -24,19 +24,19 @@
     </Record>
     <Record>
       <Key>ConfigureGasSensorTask1</Key>
-      <Value>启动 {THING:StructureAutolathe}。</Value>
+      <Value>打开 {THING:StructureConsole}。</Value>
     </Record>
     <Record>
       <Key>ConfigureGasSensorTask2</Key>
-      <Value>将 {THING:ItemDataDisk} 插入到 {THING:StructureConsole}。</Value>
+      <Value>将 {THING:ItemDataDisk} 插入到 {THING:StructureConsole}</Value>
     </Record>
     <Record>
       <Key>ConfigureGasSensorTask4</Key>
-      <Value>把{THING:ItemDataDisk}从{THING:StructureConsole}里移除。</Value>
+      <Value>把数据磁盘从 {THING:StructureConsole}里移走。</Value>
     </Record>
     <Record>
       <Key>HowToMakeSteelTask1</Key>
-      <Value>关闭{LINK:Home;百科全书}</Value>
+      <Value>打开Stationpedia</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnace</Key>
@@ -88,11 +88,11 @@
     </Record>
     <Record>
       <Key>FromingTheIngotTask1</Key>
-      <Value>启动 {THING:StructureArcFurnace}。</Value>
+      <Value>拉动 {THING:StructureFurnace} 上面的锭块释放操纵杆</Value>
     </Record>
     <Record>
       <Key>FromingTheIngotTask2</Key>
-      <Value>收集 {THING:ItemTablet}</Value>
+      <Value>拿起 {THING:ItemSteelIngot}</Value>
     </Record>
     <Record>
       <Key>FromingTheIngotTask3</Key>
