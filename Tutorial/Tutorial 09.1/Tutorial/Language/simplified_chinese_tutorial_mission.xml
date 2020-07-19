@@ -132,27 +132,27 @@
     </Record>
     <Record>
       <Key>NewAlloyTask1</Key>
-      <Value>从箱中拿出一个 {THING:ItemKitSensor}。</Value>
+      <Value>放置 {THING:ItemIronOre} 到这个熔炉里</Value>
     </Record>
     <Record>
       <Key>NewAlloyTask2</Key>
-      <Value>从箱中拿出 {THING:ItemLabeller}。</Value>
+      <Value>放置 {THING:ItemCoalOre} 到这个熔炉里</Value>
     </Record>
     <Record>
       <Key>NewAlloyTask3</Key>
-      <Value>打开氧气网络的 {THING:StructureValve}。</Value>
+      <Value> 打开 {THING:StructureFurnace} 并移走钢铁</Value>
     </Record>
     <Record>
       <Key>WhatASteelTask1</Key>
-      <Value>收集 {THING:ItemTablet}</Value>
+      <Value>拾起 {THING:ItemSteelIngot}</Value>
     </Record>
     <Record>
       <Key>WhatASteelTask2</Key>
-      <Value>在 {THING:StructureElectronicsPrinter} 上选择打印 {THING:ItemResearchCapsule}。</Value>
+      <Value>将 {THING:ItemSteelIngot} 放入到 {THING:StructureElectronicsPrinter}</Value>
     </Record>
     <Record>
       <Key>WhatASteelTask3</Key>
-      <Value>启动{THING:StructureElectronicsPrinter}。</Value>
+      <Value>开启 {THING:StructureElectronicsPrinter}， 找到{THING:ItemKitBattery}，然后打印一个。</Value>
     </Record>
   </Interface>
 </Language>
