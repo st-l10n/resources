@@ -11,6 +11,15 @@
       <Value>气体传感器</Value>
     </Record>
     <Record>
+      <Key>GasSensorsDescription</Key>
+      <Value>欢迎回来学员！让我们去学习点熔炼方面的工作。
+
+{THING:StructureFurnace} 用于将矿石熔炼成锭块和合金。使用这些技术来创造新的先进技术。
+
+你的第一个任务是设置气体传感器显示屏，以监控 {THING:StructureFurnace}内的情况。你可以用这个来显示里面的压力或温度，来得到有关所发生情况的实时状况。
+    </Value>
+    </Record>
+    <Record>
       <Key>GasSensorsTask1</Key>
       <Value>从红色箱中拿出 {THING:CircuitboardGasDisplay}。</Value>
     </Record>
@@ -27,6 +36,10 @@
       <Value>给 {THING:StructureConsole} 安上 {THING:ItemGlassSheets}。</Value>
     </Record>
     <Record>
+      <Key>ConfigureGasSensor</Key>
+      <Value>配置气体传感器</Value>
+    </Record>
+    <Record>
       <Key>ConfigureGasSensorTask1</Key>
       <Value>打开 {THING:StructureConsole}。</Value>
     </Record>
@@ -37,6 +50,10 @@
     <Record>
       <Key>ConfigureGasSensorTask4</Key>
       <Value>把数据磁盘从 {THING:StructureConsole}里移走。</Value>
+    </Record>
+    <Record>
+      <Key>HowToMakeSteel</Key>
+      <Value>如何制造钢铁</Value>
     </Record>
     <Record>
       <Key>HowToMakeSteelTask1</Key>
