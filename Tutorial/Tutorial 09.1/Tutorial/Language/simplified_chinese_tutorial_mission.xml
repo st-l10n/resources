@@ -40,31 +40,31 @@
     </Record>
     <Record>
       <Key>IgnitingTheFurnace</Key>
-      <Value>电弧炉</Value>
+      <Value>点燃熔炉</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask1</Key>
-      <Value>从箱中拿出 {THING:ItemLabeller}。</Value>
+      <Value>从红色箱中拿出 {THING:ItemVolatiles}</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask2</Key>
-      <Value>将 {THING:ItemDataDisk} 插入到 {THING:StructureConsole}。</Value>
+      <Value>将 {THING:ItemVolatiles} 放入到 {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask3</Key>
-      <Value>启动 {THING:StructureArcFurnace}。</Value>
+      <Value>点击 {THING:StructureFurnace} 上面的红色的 &apos;activate&apos; 按钮</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask4</Key>
-      <Value>从箱中拿出 {THING:ItemLabeller}。</Value>
+      <Value>从红色箱中拿出 {THING:ItemOxite}</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask5</Key>
-      <Value>将 {THING:ItemDataDisk} 插入到 {THING:StructureConsole}。</Value>
+      <Value>将 {THING:ItemOxite} 放入到 {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask6</Key>
-      <Value>启动 {THING:StructureArcFurnace}。</Value>
+      <Value>点击 {THING:StructureFurnace} 上面的红色的 &apos;activate&apos; 按钮</Value>
     </Record>
     <Record>
       <Key>SmeltingIron</Key>
@@ -96,39 +96,39 @@
     </Record>
     <Record>
       <Key>FromingTheIngotTask3</Key>
-      <Value>在 {THING:StructureElectronicsPrinter} 上选择打印 {THING:ItemResearchCapsule}。</Value>
+      <Value>将 {THING:ItemSteelIngot} 放入到 {THING:StructureElectronicsPrinter}</Value>
     </Record>
     <Record>
       <Key>VentingTheGasesTask1</Key>
-      <Value>焊接 {THING:StructureFrame} 完成教程</Value>
+      <Value>打开输出 {THING:StructureValve}</Value>
     </Record>
     <Record>
       <Key>VentingTheGasesTask2</Key>
-      <Value>启动 {THING:StructureAutolathe}。</Value>
+      <Value>打开 {THING:StructureVolumePump}</Value>
     </Record>
     <Record>
       <Key>VentingTheGasesTask4</Key>
-      <Value>焊接 {THING:StructureFrame} 完成教程</Value>
+      <Value>关闭 {THING:StructureValve}</Value>
     </Record>
     <Record>
       <Key>VentingTheGasesTask5</Key>
-      <Value>启动 {THING:StructureAutolathe}。</Value>
+      <Value>关闭 {THING:StructureValve}</Value>
     </Record>
     <Record>
       <Key>AddingFuelMix</Key>
-      <Value>测试这个混合燃料</Value>
+      <Value>添加混合燃料</Value>
     </Record>
     <Record>
       <Key>AddingFuelMixTask1</Key>
-      <Value>将输出数据设置为写入 {THING:StructureSolarPanelDual}</Value>
+      <Value>打开在 {THING:StructureFurnace} 右侧的输入阀门</Value>
     </Record>
     <Record>
       <Key>AddingFuelMixTask3</Key>
-      <Value>在 {THING:StructurePressureRegulator} 设置压力为1950kpa</Value>
+      <Value>等 {THING:StructureFurnace} 的内部压力达到100kpa</Value>
     </Record>
     <Record>
       <Key>AddingFuelMixTask5</Key>
-      <Value>启动 {THING:StructureArcFurnace}。</Value>
+      <Value>点击 {THING:StructureFurnace} 上面的红色的 &apos;activate&apos; 按钮</Value>
     </Record>
     <Record>
       <Key>NewAlloyTask1</Key>
