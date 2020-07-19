@@ -68,23 +68,23 @@
     </Record>
     <Record>
       <Key>SmeltingIron</Key>
-      <Value>熔了它</Value>
+      <Value>熔炼铁块</Value>
     </Record>
     <Record>
       <Key>SmeltingIronTask1</Key>
-      <Value>从橙色箱中拿出一个 {THING:ItemIronIngot}。</Value>
+      <Value>从红色箱中拿出 {THING:ItemIronOre}</Value>
     </Record>
     <Record>
       <Key>SmeltingIronTask2</Key>
-      <Value>把这些 {THING:ItemIronSheets} 焊接到 {THING:StructureAutolathe} 上。</Value>
+      <Value>把 {THING:ItemIronOre} 放进 {THING:StructureFurnace} 里</Value>
     </Record>
     <Record>
       <Key>MakingAnAlloyTask1</Key>
-      <Value>从箱中拿出 {THING:ItemLabeller}。</Value>
+      <Value>从红色箱中拿出 {THING:ItemCoalOre}</Value>
     </Record>
     <Record>
       <Key>MakingAnAlloyTask2</Key>
-      <Value>将 {THING:ItemDataDisk} 插入到 {THING:StructureConsole}。</Value>
+      <Value>将 {THING:ItemCoalOre} 放入到 {THING:StructureFurnace}。</Value>
     </Record>
     <Record>
       <Key>FromingTheIngotTask1</Key>

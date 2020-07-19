@@ -5671,10 +5671,8 @@
     </Record>
     <Record>
       <Key>FurnaceChamberText</Key>
-      <Value>
-        压力 {0}
-        温度 {1}
-      </Value>
+      <Value>压力 {0}
+        温度 {1}</Value>
     </Record>
     <Record>
       <Key>FurnaceSmelting</Key>
@@ -5725,36 +5723,8 @@
       <Value>网络上没有其他可写设备</Value>
     </Record>
     <Record>
-      <Key>ChangeSettingTo</Key>
-      <Value>更改为 {0}</Value>
-    </Record>
-    <Record>
-      <Key>ChangeSettingToAll</Key>
-      <Value>更改为所有 {0}</Value>
-    </Record>
-    <Record>
       <Key>HoldForPreviousObject</Key>
       <Value>按住 {KEY:QuantityModifier} 对上一个对象</Value>
-    </Record>
-    <Record>
-      <Key>ChangeSettingToFor</Key>
-      <Value>更改{1}为&lt;color=yellow&gt;{0}&lt;/color&gt;</Value>
-    </Record>
-    <Record>
-      <Key>ChangeSettingToForIn</Key>
-      <Value>将在{1}中的{3}&lt;color=yellow&gt;({2})&lt;/color&gt;更改为&lt;color=yellow&gt;{0}&lt;/color&gt;</Value>
-    </Record>
-    <Record>
-      <Key>ChangeReagentSettingTo</Key>
-      <Value>更改为{2}.&lt;color=yellow&gt;{0}&lt;/color&gt;.&lt;color=yellow&gt;{1}&lt;/color&gt;</Value>
-    </Record>
-    <Record>
-      <Key>ChangeSlotSettingToFor</Key>
-      <Value>更改{2}为{1}&lt;color=yellow&gt;({0})&lt;/color&gt;</Value>
-    </Record>
-    <Record>
-      <Key>ChangeSettingToForAll</Key>
-      <Value>更改所有{1}为&lt;color=yellow&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>InteractionTemporarilyDisabledOnThisObject</Key>
@@ -7717,7 +7687,7 @@ abs()--绝对值运算函数 max()--最大值函数</Value>
     </Record>
     <Record>
       <Key>CompletedKey</Key>
-      <Value>教程完成</Value>
+      <Value>已完成</Value>
     </Record>
     <Record>
       <Key>LockedKey</Key>
@@ -7729,19 +7699,19 @@ abs()--绝对值运算函数 max()--最大值函数</Value>
     </Record>
     <Record>
       <Key>TutorialSelectKey</Key>
-      <Value>教程完成</Value>
+      <Value>教程选择</Value>
     </Record>
     <Record>
       <Key>ScenarioSelectKey</Key>
-      <Value>场景完成</Value>
+      <Value>场景选择</Value>
     </Record>
     <Record>
       <Key>TankPressure</Key>
-      <Value>压力</Value>
+      <Value>罐内压力</Value>
     </Record>
     <Record>
       <Key>CrowbarToOpen</Key>
-      <Value>你需要一个 {THING:ItemScrewdriver} 去更改设置</Value>
+      <Value>使用 {THING:ItemCrowbar} 来打开</Value>
     </Record>
     <Record>
       <Key>Display</Key>
