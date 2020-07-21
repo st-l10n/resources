@@ -45,9 +45,9 @@ Vaším prvním úkolem je nastavit displej plynu pro monitorování podmínek u
     </Record>
     <Record>
       <Key>ConfigureGasSensorDescription</Key>
-      <Value>Nyní můžete zapnout a nakonfigurovat {THING:StructureConsole}. {THING:StructureConsole} vpravo zobrazí tlak, takže tato konzole bude muset zobrazovat teplotu. Po zapnutí konzole a vložení {THING:ItemDataDisk} přepněte režim na &apos;Teplota&apos; kliknutím na možnost &apos;Tlak&apos;.
+      <Value>Nyní můžete zapnout a nakonfigurovat {THING:StructureConsole}. Na levé straně {THING:StructureConsole} se zobrazí tlak, takže tato konzole bude muset zobrazovat teplotu. Po zapnutí konzole a vložení {THING:ItemDataDisk} přepněte režim na &apos;Teplota&apos; kliknutím na možnost &apos;Tlak&apos;.
 
-Nyní vyberte {THING:StructureFurnace} jako vstupní zařízení pro konzoli. Otáčejte kolečkem myši, dokud se nezobrazí položka {THING:StructureFurnace} a vyberte ji. 
+Nyní vyberte jako vstupní zařízení konzole {THING:StructureFurnace}. Posouvejte dolů, dokud se nezobrazí {THING:StructureFurnace} a vyberte ji.
     </Value>
     </Record>
     <Record>
@@ -56,7 +56,7 @@ Nyní vyberte {THING:StructureFurnace} jako vstupní zařízení pro konzoli. Ot
     </Record>
     <Record>
       <Key>ConfigureGasSensorTask2</Key>
-      <Value>Vložte {THING:ItemDataDisk} do {THING:StructureConsole}</Value>
+      <Value>Vložte {THING:ItemDataDisk} nalezený v červené bedně do {THING:StructureConsole}</Value>
     </Record>
     <Record>
       <Key>ConfigureGasSensorTask3</Key>
@@ -93,7 +93,7 @@ Jak můžete vidět, potřebujete tři části {THING:ItemIronOre} na jednu čá
       <Key>IgnitingTheFurnaceDescription</Key>
       <Value>Chcete-li vytvořit ocel, musí {THING:StructureFurnace} dosáhnout minimálního požadovaného tlaku a teploty. Můžete to udělat buď přidáním těkavých látek a oxidového ledu přímo do pece, nebo poskytnutím palivové směsi.
 
-První metoda používá dvě části těkavé látky a jeden díl oxidu. Dávejte pozor, abyste nepřetížili {THING:StructureFurnace}, protože přidání příliš mnoho oxidů nebo těkavých látek může přetlakovat pec a způsobit ničivou explozi.
+První metoda používá dvě části těkavých látek a jeden díl oxidu. Dávejte pozor, abyste nepřetížili {THING:StructureFurnace}, protože přidání příliš mnoho oxidů nebo těkavých látek může přetlakovat pec a způsobit ničivou explozi.
     </Value>
     </Record>
     <Record>
@@ -106,7 +106,7 @@ První metoda používá dvě části těkavé látky a jeden díl oxidu. Dávej
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask3</Key>
-      <Value>Stiskněte červené tlačítko &apos;aktivovat&apos; na {THING:StructureFurnace}</Value>
+      <Value>Stiskněte dvakrát červené tlačítko &apos;aktivovat&apos; na {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask4</Key>
