@@ -15,7 +15,7 @@
         </Record>
         <Record>
             <Key>GasSensors</Key>
-            <Value>Gas Sensors</Value>
+            <Value>Gas Displays</Value>
         </Record>
         <Record>
             <Key>GasSensorsDescription</Key>
@@ -23,7 +23,7 @@
 
 The {THING:StructureFurnace} is used to smelt ores into ingots and alloys. Use these to create new and advanced technologies. 
 
-Your first task is to set up a Gas Sensor display to monitor the conditions inside the {THING:StructureFurnace}. You can display pressure or temperature, to get live updates on what's happening.
+Your first task is to set up a Gas Display to monitor the conditions inside the {THING:StructureFurnace}. You can display pressure or temperature, to get live updates on what's happening.
     
 </Value>
         </Record>
@@ -45,11 +45,11 @@ Your first task is to set up a Gas Sensor display to monitor the conditions insi
         </Record>
         <Record>
             <Key>ConfigureGasSensor</Key>
-            <Value>Configure Gas Sensor</Value>
+            <Value>Configure Gas Display</Value>
         </Record>
         <Record>
             <Key>ConfigureGasSensorDescription</Key>
-            <Value>You can now turn on and configure the {THING:StructureConsole}. The {THING:StructureConsole} on the right will display pressure, so this console will need to display temperature. After turning on the console and inserting the {THING:ItemDataDisk}, toggle the mode to 'Temperature' by clicking on the 'Pressure' option.
+            <Value>You can now turn on and configure the {THING:StructureConsole}. The {THING:StructureConsole} on the left will display pressure, so this console will need to display temperature. After turning on the console and inserting the {THING:ItemDataDisk}, toggle the mode to 'Temperature' by clicking on the 'Pressure' option.
 
 Now select the {THING:StructureFurnace} as the input device for the console. Scroll down until you see {THING:StructureFurnace} and select it. 
     </Value>
@@ -60,7 +60,7 @@ Now select the {THING:StructureFurnace} as the input device for the console. Scr
         </Record>
         <Record>
             <Key>ConfigureGasSensorTask2</Key>
-            <Value>Insert the {THING:ItemDataDisk} into the {THING:StructureConsole}</Value>
+            <Value>Insert the {THING:ItemDataDisk} found in the red crate into the {THING:StructureConsole}</Value>
         </Record>
         <Record>
             <Key>ConfigureGasSensorTask3</Key>
@@ -97,7 +97,7 @@ As you can see, you need three parts {THING:ItemIronOre} to one part Carbon or {
             <Key>IgnitingTheFurnaceDescription</Key>
             <Value>To create steel, the {THING:StructureFurnace} must achieve the minimum required pressure and temperature. You can do this either by adding volatiles and oxite ice directly to the furnace, or by providing a fuel mix.
 
-The first method uses two parts volitiles and one part oxite. Be careful not overload the {THING:StructureFurnace}, as adding too many oxites or volatiles may overpressure the furnace and cause a devastating explosion.
+The first method uses two parts volatiles and one part oxite. Be careful not to overload the {THING:StructureFurnace}, as adding too many oxites or volatiles may over pressurize the furnace and cause a devastating explosion.
     </Value>
         </Record>
         <Record>
@@ -110,7 +110,7 @@ The first method uses two parts volitiles and one part oxite. Be careful not ove
         </Record>
         <Record>
             <Key>IgnitingTheFurnaceTask3</Key>
-            <Value>Press the red 'activate' button on the {THING:StructureFurnace}</Value>
+            <Value>Press the red 'activate' button twice on the {THING:StructureFurnace}</Value>
         </Record>
         <Record>
             <Key>IgnitingTheFurnaceTask4</Key>
@@ -165,11 +165,11 @@ Start by adding three parts {THING:ItemIronOre} into the {THING:StructureFurnace
         </Record>
           <Record>
             <Key>FromingTheIngotDescription</Key>
-            <Value>Use the ingot release lever to open the {THING:StructureFurnace} and get the newly made {THING:ItemSteelIngot}. This will provide you with half of the required steel to make a {THING:ItemKitBattery}. </Value>
+            <Value>Use the Open Mold lever to open the {THING:StructureFurnace} and get the newly made {THING:ItemSteelIngot}. This will provide you with half of the required steel to make a {THING:ItemKitBattery}. </Value>
         </Record>
           <Record>
             <Key>FromingTheIngotTask1</Key>
-            <Value>Pull the ingot release lever on the {THING:StructureFurnace}</Value>
+            <Value>Pull the Open Mold lever on the {THING:StructureFurnace}</Value>
         </Record>
           <Record>
             <Key>FromingTheIngotTask2</Key>
@@ -185,7 +185,7 @@ Start by adding three parts {THING:ItemIronOre} into the {THING:StructureFurnace
         </Record>
           <Record>
             <Key>VentingTheGasesDescription</Key>
-            <Value>The {THING:StructureFurnace} is currently filled with highly pressurized toxic gas. You can vent it directly into the atmosphere or cool, filter and recycle the gases for the future use. The output pipe is connected to a {THING:StructureValve} which prevents the gases from escaping too soon. The pipe is also equipped with a {THING:StructureVolumePump} that allows venting of gases quickly.</Value>
+            <Value>The {THING:StructureFurnace} is currently filled with highly pressurized toxic gas. You can vent it directly into the atmosphere or cool, filter and recycle the gases for future use. The output pipe is connected to a {THING:StructureValve} which prevents the gases from escaping too soon. The pipe is also equipped with a {THING:StructureVolumePump} that allows venting of gases quickly.</Value>
         </Record>
           <Record>
             <Key>VentingTheGasesTask1</Key>
@@ -209,7 +209,7 @@ Start by adding three parts {THING:ItemIronOre} into the {THING:StructureFurnace
         </Record>
           <Record>
             <Key>VentingTheGasesTask5</Key>
-            <Value>Turn off the {THING:StructureValve}</Value>
+            <Value>Turn off the {THING:StructureVolumePump}</Value>
         </Record>
           <Record>
             <Key>AddingFuelMix</Key>
@@ -221,7 +221,7 @@ Start by adding three parts {THING:ItemIronOre} into the {THING:StructureFurnace
 
 The ideal fuel mix for the {THING:StructureFurnace} is a blend of 75% volatiles and 25% oxygen.
 
-Make sure to close the ingot release lever before refilling!
+Make sure to close the Open Mold lever before refilling!
 </Value>
         </Record>
           <Record>
@@ -258,7 +258,7 @@ Make sure to close the ingot release lever before refilling!
         </Record>
          <Record>
             <Key>NewAlloyTask3</Key>
-            <Value> Open the {THING:StructureFurnace} and remove the steel</Value>
+            <Value>Open {THING:StructureFurnace} the using the Open Mold lever and remove the steel</Value>
         </Record>
          <Record>
             <Key>WhatASteel</Key>
