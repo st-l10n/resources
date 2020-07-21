@@ -205,7 +205,7 @@ Začněte přidáním tří částí {THING:ItemIronOre} do {THING:StructureFurn
     </Record>
     <Record>
       <Key>VentingTheGasesTask5</Key>
-      <Value>Vypněte {THING:StructureValve}</Value>
+      <Value>Vypněte {THING:StructureVolumePump}</Value>
     </Record>
     <Record>
       <Key>AddingFuelMix</Key>
@@ -213,9 +213,9 @@ Začněte přidáním tří částí {THING:ItemIronOre} do {THING:StructureFurn
     </Record>
     <Record>
       <Key>AddingFuelMixDescription</Key>
-      <Value>Nyní, když je {THING:StructureFurnace} prázdná, můžeme ji doplnit alternativní cestou. Spíše než přímo do ní přidávat těkavé a oxidové směsi, do vstupního potrubí {THING:StructureFurnace} zavedeme předem připravenou palivovou směs.  
+      <Value>Nyní, když je {THING:StructureFurnace} prázdná, můžeme ji doplnit alternativní cestou. Spíše než přímo do ní přidávat těkavé a oxidové směsi, zavedeme do vstupního potrubí {THING:StructureFurnace} předem připravenou palivovou směs.  
 
-Ideální palivová směs pro {THING:StructureFurnace} je směs 75% těkavých látek a 25% kyslíku.
+Ideální palivová směs pro {THING:StructureFurnace} je směsí 75% těkavých látek a 25% kyslíku.
 
 Před doplňováním nezapomeňte uzavřít uvolňovací páku ingotů!</Value>
     </Record>
@@ -253,7 +253,7 @@ Před doplňováním nezapomeňte uzavřít uvolňovací páku ingotů!</Value>
     </Record>
     <Record>
       <Key>NewAlloyTask3</Key>
-      <Value> Otevřete {THING:StructureFurnace} a odstraňte ocel</Value>
+      <Value>Otevřete {THING:StructureFurnace} pomocí páky pro uvolnění ingotu a odstraňte ocel</Value>
     </Record>
     <Record>
       <Key>WhatASteel</Key>
