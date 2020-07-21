@@ -12,7 +12,7 @@
     </Record>
     <Record>
       <Key>GasSensors</Key>
-      <Value>Sensores de gas</Value>
+      <Value>Pantallas de Gas</Value>
     </Record>
     <Record>
       <Key>GasSensorsDescription</Key>
@@ -40,11 +40,13 @@ Su primera tarea es configurar una pantalla de sensor de gas para monitorear las
     </Record>
     <Record>
       <Key>ConfigureGasSensor</Key>
-      <Value>Configurar el sensor de gas</Value>
+      <Value>Configurar la pantalla de gas</Value>
     </Record>
     <Record>
       <Key>ConfigureGasSensorDescription</Key>
-      <Value>Ahora seleccione la {THING:StructureFurnace} como el dispositivo de entrada para la consola. Desplácese hacia abajo hasta que vea {THING:StructureFurnace} y selecciónelo.</Value>
+      <Value>Ahora puedes encender y configurar la {THING:StructureConsole}. La {THING:StructureConsole} de la izquierda mostrará la presión, así que esta consola necesitará mostrar la temperatura. Después de encender la consola e insertar el {THING:ItemDataDisk}, cambie el modo a &apos;Temperatura&apos; haciendo clic en la opción &apos;Presión&apos;.
+
+Ahora seleccione la {THING:StructureFurnace} como dispositivo de entrada para la consola. Desplácese hacia abajo hasta que vea {THING:StructureFurnace} y selecciónelo.</Value>
     </Record>
     <Record>
       <Key>ConfigureGasSensorTask1</Key>
@@ -52,7 +54,7 @@ Su primera tarea es configurar una pantalla de sensor de gas para monitorear las
     </Record>
     <Record>
       <Key>ConfigureGasSensorTask2</Key>
-      <Value>Inserte el {THING:ItemDataDisk} en la {THING:StructureConsole}</Value>
+      <Value>Inserte la {THING:ItemDataDisk}} que se encuentra en la caja roja en la {THING:StructureConsole}</Value>
     </Record>
     <Record>
       <Key>ConfigureGasSensorTask3</Key>
@@ -88,7 +90,7 @@ Su primera tarea es configurar una pantalla de sensor de gas para monitorear las
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask3</Key>
-      <Value>Presiona el botón rojo de &quot;activar&quot; en el {THING:StructureFurnace}</Value>
+      <Value>Presione el botón rojo de &quot;activar&quot; dos veces en el {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask4</Key>
@@ -136,11 +138,11 @@ Su primera tarea es configurar una pantalla de sensor de gas para monitorear las
     </Record>
     <Record>
       <Key>FromingTheIngotDescription</Key>
-      <Value>Usa la palanca de liberación de lingotes para abrir la {THING:StructureFurnace} y obtener la {THING:ItemSteelIngot} recién hecha. Esto le proporcionará la mitad del acero necesario para hacer una {THING:ItemKitBattery}. </Value>
+      <Value>Usa la palanca de abrir el molde para abrir la {THING:StructureFurnace} y obtener la {{THING:ItemSteelIngot} recién hecha. Esto le proporcionará la mitad del acero necesario para hacer una {THING:ItemKitBattery}.</Value>
     </Record>
     <Record>
       <Key>FromingTheIngotTask1</Key>
-      <Value>Tire de la palanca de liberación de lingotes en el {THING:StructureFurnace}</Value>
+      <Value>Tire de la palanca del Molde Abierto en la {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>FromingTheIngotTask2</Key>
@@ -180,7 +182,7 @@ Su primera tarea es configurar una pantalla de sensor de gas para monitorear las
     </Record>
     <Record>
       <Key>VentingTheGasesTask5</Key>
-      <Value>Apaga el {THING:StructureValve}</Value>
+      <Value>Apaga el {THING:StructureVolumePump}</Value>
     </Record>
     <Record>
       <Key>AddingFuelMix</Key>
