@@ -19,11 +19,11 @@
         </Record>
         <Record>
             <Key>GasSensorsDescription</Key>
-            <Value>Welcome back Cadet! Let's get smelting. 
+            <Value>Welcome back Cadet.  Let's get smelting! 
 
-The {THING:StructureFurnace} is used to smelt ores into ingots and alloys. Use these to create new and advanced technologies. 
+The {THING:StructureFurnace} is used to smelt ores into ingots and alloys for creating new technologies. 
 
-Your first task is to set up a Gas Display to monitor the conditions inside the {THING:StructureFurnace}. You can display pressure or temperature, to get live updates on what's happening.
+Your first task is to set up a {THING:CircuitboardGasDisplay} to display pressure and temperature inside the {THING:StructureFurnace}.
     
 </Value>
         </Record>
@@ -49,7 +49,9 @@ Your first task is to set up a Gas Display to monitor the conditions inside the 
         </Record>
         <Record>
             <Key>ConfigureGasSensorDescription</Key>
-            <Value>You can now turn on and configure the {THING:StructureConsole}. The {THING:StructureConsole} on the left will display pressure, so this console will need to display temperature. After turning on the console and inserting the {THING:ItemDataDisk}, toggle the mode to 'Temperature' by clicking on the 'Pressure' option.
+            <Value>You can now turn on and configure the {THING:StructureConsole}.
+
+The {THING:StructureConsole} on the left will display pressure, so the new console will need to display temperature. After turning on the console and inserting the {THING:ItemDataDisk}, toggle the mode to 'Temperature' by clicking on the 'Pressure' option.
 
 Now select the {THING:StructureFurnace} as the input device for the console. Scroll down until you see {THING:StructureFurnace} and select it. 
     </Value>
@@ -60,7 +62,7 @@ Now select the {THING:StructureFurnace} as the input device for the console. Scr
         </Record>
         <Record>
             <Key>ConfigureGasSensorTask2</Key>
-            <Value>Insert the {THING:ItemDataDisk} found in the red crate into the {THING:StructureConsole}</Value>
+            <Value>Insert the {THING:ItemDataDisk} from the crate into the {THING:StructureConsole}</Value>
         </Record>
         <Record>
             <Key>ConfigureGasSensorTask3</Key>
@@ -76,9 +78,9 @@ Now select the {THING:StructureFurnace} as the input device for the console. Scr
         </Record>
         <Record>
             <Key>HowToMakeSteelDescription</Key>
-            <Value>To find the recipe for steel, open the Stationpedia with the {KEY:Help} key. Navigate to the 'Items' section and click on the 'Alloys' link while holding the {KEY:MouseControl} key. On the 'Alloys' page, click on the 'Ingot (steel)' link while holding the {KEY:MouseControl} key.
+            <Value>To find the recipe for steel, open the Stationpedia with the {KEY:Help} key. Hold the {KEY:MouseControl} key and navigate to the 'Items' section, then click on the 'Alloys' link. On the 'Alloys' page, click the 'Ingot (steel)' link.
 
-As you can see, you need three parts {THING:ItemIronOre} to one part Carbon or {THING:ItemCoalOre}. These must be combined at a minimum temperature of 600K and a minimum pressure of 100.0kPa.
+As you can see, you need three parts {THING:ItemIronOre} to one part Carbon or {THING:ItemCoalOre} to make Steel. These must be combined at a minimum temperature of 600K and a minimum pressure of 100.0kPa.
     </Value>
         </Record>
         <Record>
@@ -95,7 +97,7 @@ As you can see, you need three parts {THING:ItemIronOre} to one part Carbon or {
         </Record>
         <Record>
             <Key>IgnitingTheFurnaceDescription</Key>
-            <Value>To create steel, the {THING:StructureFurnace} must achieve the minimum required pressure and temperature. You can do this either by adding volatiles and oxite ice directly to the furnace, or by providing a fuel mix.
+            <Value>To create steel, the {THING:StructureFurnace} must achieve the minimum required pressure and temperature. This can be done by adding volatiles and oxite ice directly to the furnace, or by providing a fuel mix.
 
 The first method uses two parts volatiles and one part oxite. Be careful not to overload the {THING:StructureFurnace}, as adding too many oxites or volatiles may over pressurize the furnace and cause a devastating explosion.
     </Value>
@@ -106,7 +108,7 @@ The first method uses two parts volatiles and one part oxite. Be careful not to 
         </Record>
         <Record>
             <Key>IgnitingTheFurnaceTask2</Key>
-            <Value>Insert the {THING:ItemVolatiles} into the {THING:StructureFurnace}</Value>
+            <Value>Insert the {THING:ItemVolatiles} into the top of the {THING:StructureFurnace}</Value>
         </Record>
         <Record>
             <Key>IgnitingTheFurnaceTask3</Key>
@@ -130,7 +132,7 @@ The first method uses two parts volatiles and one part oxite. Be careful not to 
         </Record>
         <Record>
             <Key>SmeltingIronDescription</Key>
-            <Value>Like the {THING:StructureArcFurnace}, you can smelt ores in the {THING:StructureFurnace}, but you can also add other ores. These alter the composition of the metals, creating new alloys. If you get the mix wrong you'll simply generate a {THING:ItemReagentMix}.
+            <Value>Like the {THING:StructureArcFurnace}, you can smelt ores in the {THING:StructureFurnace}, but you can also combine them. These alter the composition of the metals, creating new alloys. If you get the mix wrong you'll generate a {THING:ItemReagentMix} instead.
 
 Start by adding three parts {THING:ItemIronOre} into the {THING:StructureFurnace}.
     </Value>
@@ -185,7 +187,9 @@ Start by adding three parts {THING:ItemIronOre} into the {THING:StructureFurnace
         </Record>
           <Record>
             <Key>VentingTheGasesDescription</Key>
-            <Value>The {THING:StructureFurnace} is currently filled with highly pressurized toxic gas. You can vent it directly into the atmosphere or cool, filter and recycle the gases for future use. The output pipe is connected to a {THING:StructureValve} which prevents the gases from escaping too soon. The pipe is also equipped with a {THING:StructureVolumePump} that allows venting of gases quickly.</Value>
+            <Value>The {THING:StructureFurnace} is currently filled with highly pressurized toxic gas. You can vent it directly into the atmosphere. Alternatively you can cool, filter and recycle the gases for future use. 
+
+Before you try powering the {THING:StructureFurnace} with a fuel mix, you'll need to vent it. The output pipe is connected to a {THING:StructureValve} that prevents gases from escaping, and a {THING:StructureVolumePump} for venting.</Value>
         </Record>
           <Record>
             <Key>VentingTheGasesTask1</Key>
@@ -217,7 +221,7 @@ Start by adding three parts {THING:ItemIronOre} into the {THING:StructureFurnace
         </Record>
           <Record>
             <Key>AddingFuelMixDescription</Key>
-            <Value>Now that the {THING:StructureFurnace} is empty, we can refill it an alternative way. Rather than putting the volatiles and oxite mix directly into it, we will be piping a pre-prepared fuel mix into the {THING:StructureFurnace} input pipe.  
+            <Value>Now that the {THING:StructureFurnace} is empty, we can refill it another way, by piping a pre-prepared fuel mix into the input pipe.  
 
 The ideal fuel mix for the {THING:StructureFurnace} is a blend of 75% volatiles and 25% oxygen.
 
@@ -268,7 +272,7 @@ Make sure to close the Open Mold lever before refilling!
             <Key>WhatASteelDescription</Key>
             <Value>We now have enough steel to create the {THING:ItemKitBattery}. The {THING:ItemKitBattery} can store large amounts of energy for your station.
 
-    Use the {THING:StructureElectronicsPrinter} to print the battery kit.
+Use the {THING:StructureElectronicsPrinter} to print the battery kit.
     </Value>
         </Record>
          <Record>
