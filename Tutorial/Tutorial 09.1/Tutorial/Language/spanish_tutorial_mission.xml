@@ -44,9 +44,12 @@ Su primera tarea es establecer un {THING:CircuitboardGasDisplay} para mostrar la
     </Record>
     <Record>
       <Key>ConfigureGasSensorDescription</Key>
-      <Value>Ahora puedes encender y configurar la {THING:StructureConsole}. La {THING:StructureConsole} de la izquierda mostrará la presión, así que esta consola necesitará mostrar la temperatura. Después de encender la consola e insertar el {THING:ItemDataDisk}, cambie el modo a &apos;Temperatura&apos; haciendo clic en la opción &apos;Presión&apos;.
+      <Value>Ahora puedes encender y configurar la {THING:StructureConsole}.
 
-Ahora seleccione la {THING:StructureFurnace} como dispositivo de entrada para la consola. Desplácese hacia abajo hasta que vea {THING:StructureFurnace} y selecciónelo.</Value>
+La {THING:StructureConsole} de la izquierda mostrará la presión, así que la nueva consola tendrá que mostrar la temperatura. Después de encender la consola e insertar el {THING:ItemDataDisk}, cambia el modo a &apos;Temperatura&apos; haciendo clic en la opción &apos;Presión&apos;.
+
+Ahora seleccione la {THING:StructureFurnace} como el dispositivo de entrada para la consola. Desplácese hacia abajo hasta que vea {THING:StructureFurnace} y selecciónelo.
+</Value>
     </Record>
     <Record>
       <Key>ConfigureGasSensorTask1</Key>
@@ -70,7 +73,7 @@ Ahora seleccione la {THING:StructureFurnace} como dispositivo de entrada para la
     </Record>
     <Record>
       <Key>HowToMakeSteelDescription</Key>
-      <Value>Para encontrar la receta del acero, abre la Stationpedia con la tecla {KEY:Help}. Navega a la sección de &quot;Artículos&quot; y haz clic en el enlace &quot;Aleaciones&quot; mientras mantienes la tecla {KEY:MouseControl}. En la página de &quot;Aleaciones&quot;, haga clic en el enlace &quot;Lingote (acero)&quot; mientras mantiene pulsada la tecla {KEY:MouseControl}.
+      <Value>Para encontrar la receta del acero, abre la Stationpedia con la tecla {KEY:Help}. Mantén pulsada la tecla {KEY:MouseControl} y navega a la sección de &apos;Artículos&apos;, luego haz clic en el enlace &apos;Aleaciones&apos;. En la página de &quot;Aleaciones&quot;, haga clic en el enlace &quot;Lingote (de acero)&quot;.
 
 Como puedes ver, necesitas tres partes {THING:ItemIronOre} para una parte de Carbono o {THING:ItemCoalOre}. Estas deben ser combinadas a una temperatura mínima de 600K y una presión mínima de 100.0kPa.</Value>
     </Record>
@@ -88,7 +91,7 @@ Como puedes ver, necesitas tres partes {THING:ItemIronOre} para una parte de Car
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceDescription</Key>
-      <Value>Para crear acero, la {THING:StructureFurnace} debe alcanzar la presión y temperatura mínima requerida. Puede hacer esto ya sea añadiendo volátiles y hielo de oxite directamente al horno, o proporcionando una mezcla de combustible.
+      <Value>Para crear acero, la {THING:StructureFurnace} debe alcanzar la presión y temperatura mínima requerida. Esto puede hacerse añadiendo volátiles y hielo de oxite directamente al horno, o proporcionando una mezcla de combustible.
 
 El primer método utiliza dos partes de volátiles y una parte de oxiato. Tenga cuidado de no sobrecargar el {THING:StructureFurnace}, ya que añadir demasiados óxidos o volátiles puede sobrepresurizar el horno y causar una explosión devastadora.</Value>
     </Record>
