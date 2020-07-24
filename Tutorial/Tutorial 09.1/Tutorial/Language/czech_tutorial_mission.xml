@@ -93,9 +93,9 @@ Jak můžete vidět, potřebujete tři části {THING:ItemIronOre} na jednu čá
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceDescription</Key>
-      <Value>Chcete-li vytvořit ocel, musí {THING:StructureFurnace} dosáhnout minimálního požadovaného tlaku a teploty. Můžete to udělat buď přidáním těkavých látek a oxidového ledu přímo do pece, nebo poskytnutím palivové směsi.
+      <Value>Chcete-li vytvořit ocel, musí {THING: StructureFurnace} dosáhnout minimálního požadovaného tlaku a teploty. Toho lze dosáhnout přidáním těkavých látek a oxidového ledu přímo do pece nebo poskytnutím palivové směsi.
 
-První metoda používá dvě části těkavých látek a jeden díl oxidu. Dávejte pozor, abyste nepřetížili {THING:StructureFurnace}, protože přidání příliš mnoho oxidů nebo těkavých látek může přetlakovat pec a způsobit ničivou explozi.
+První metoda používá dvě části těkavých látek a jeden díl oxidu. Dávejte pozor, abyste nepřetěžovali {THING:StructureFurnace}, protože přidání příliš mnoha oxidů nebo těkavých látek může způsobit přetlakování pece a způsobit zničující explozi.
     </Value>
     </Record>
     <Record>
@@ -128,7 +128,7 @@ První metoda používá dvě části těkavých látek a jeden díl oxidu. Dáv
     </Record>
     <Record>
       <Key>SmeltingIronDescription</Key>
-      <Value>Stejně jako {THING:StructureArcFurnace}, můžete roztavit rudy v {THING:StructureFurnace}, ale můžete také přidat další rudy. Ty mění složení kovů a vytvářejí nové slitiny. Pokud se vám směs nepodaří, jednoduše vygenerujete {THING:ItemReagentMix}.
+      <Value>Stejně jako {THING:StructureArcFurnace}, můžete roztavit rudy v {THING:StructureFurnace}, ale můžete je také kombinovat. Ty mění složení kovů a vytvářejí nové slitiny. Pokud se vám směs nepodaří, jednoduše vygenerujete {THING:ItemReagentMix}.
 
 Začněte přidáním tří částí {THING:ItemIronOre} do {THING:StructureFurnace}.
     </Value>
@@ -183,7 +183,9 @@ Začněte přidáním tří částí {THING:ItemIronOre} do {THING:StructureFurn
     </Record>
     <Record>
       <Key>VentingTheGasesDescription</Key>
-      <Value>{THING:StructureFurnace} je v současné době naplněna vysoce stlačeným toxickým plynem. Můžete ji odvzdušnit přímo do atmosféry nebo ochladit, vyfiltrovat a recyklovat plyny pro budoucí použití. Výstupní potrubí je připojeno k {THING:StructureValve}, který zabraňuje úniku plynů příliš brzy. Potrubí je také vybaveno {THING:StructureVolumePump}, které umožňuje rychlé odvádění plynů.</Value>
+      <Value>{THING:StructureFurnace} je v současné době naplněna vysoce stlačeným toxickým plynem. Můžete ji odvzdušnit přímo do atmosféry. Alternativně můžete chladit, filtrovat a recyklovat plyny pro budoucí použití.
+
+Než se pokusíte napájet {THING:StructureFurnace} palivovou směsí, musíte ji odvzdušnit. Výstupní potrubí je připojeno k {THING:StructureValve}, který zabraňuje úniku plynů, a {THING:StructureVolumePump} pro odvětrání.</Value>
     </Record>
     <Record>
       <Key>VentingTheGasesTask1</Key>
