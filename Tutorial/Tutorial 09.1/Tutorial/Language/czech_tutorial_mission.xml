@@ -16,11 +16,11 @@
     </Record>
     <Record>
       <Key>GasSensorsDescription</Key>
-      <Value>Vítejte zpět kadete! Pojďme tavit.
+      <Value>Vítejte zpět kadete!  Pojďme tavit.
 
 {THING:StructureFurnace} se používá k tavení rud do ingotů a slitin. Pomocí nich můžete vytvářet nové a pokročilé technologie.
 
-Vaším prvním úkolem je nastavit displej plynu pro monitorování podmínek uvnitř {THING:StructureFurnace}. Můžete zobrazit tlak nebo teplotu a získat aktuální informace o tom, co se děje.
+Vaším prvním úkolem je nastavit {THING:CircuitboardGasDisplay} pro zobrazení tlaku a teploty uvnitř {THING:StructureFurnace}.
     </Value>
     </Record>
     <Record>
@@ -56,7 +56,7 @@ Nyní vyberte jako vstupní zařízení konzole {THING:StructureFurnace}. Posouv
     </Record>
     <Record>
       <Key>ConfigureGasSensorTask2</Key>
-      <Value>Vložte {THING:ItemDataDisk} nalezený v červené bedně do {THING:StructureConsole}</Value>
+      <Value>Vložte {THING:ItemDataDisk} z bedny do {THING:StructureConsole}</Value>
     </Record>
     <Record>
       <Key>ConfigureGasSensorTask3</Key>
@@ -102,7 +102,7 @@ První metoda používá dvě části těkavých látek a jeden díl oxidu. Dáv
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask2</Key>
-      <Value>Vložte {THING:ItemVolatiles} do {THING:StructureFurnace}</Value>
+      <Value>Vložte {THING:ItemVolatiles} do horní části {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask3</Key>
