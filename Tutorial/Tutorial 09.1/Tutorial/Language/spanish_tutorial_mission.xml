@@ -18,9 +18,9 @@
       <Key>GasSensorsDescription</Key>
       <Value>¡Bienvenido de nuevo, cadete! Vamos a fundir. 
 
-La {THING:StructureFurnace} se usa para fundir minerales en lingotes y aleaciones. Se usa para crear nuevas y avanzadas tecnologías.
+El {THING:StructureFurnace} se utiliza para fundir minerales en lingotes y aleaciones para crear nuevas tecnologías.
 
-Su primera tarea es configurar una pantalla de sensor de gas para monitorear las condiciones dentro de la {THING:StructureFurnace}. Puedes mostrar la presión o la temperatura, para obtener actualizaciones en vivo de lo que está sucediendo.</Value>
+Su primera tarea es establecer un {THING:CircuitboardGasDisplay} para mostrar la presión y la temperatura dentro del {THING:StructureFurnace}.</Value>
     </Record>
     <Record>
       <Key>GasSensorsTask1</Key>
@@ -258,7 +258,7 @@ La mezcla de combustible ideal para la {THING:StructureFurnace} es una mezcla de
       <Key>WhatASteelDescription</Key>
       <Value>Ahora tenemos suficiente acero para crear la {THING:ItemKitBattery}. La {THING:ItemKitBattery} puede almacenar grandes cantidades de energía para su estación.
 
-    Use la {THING:StructureElectronicsPrinter} para imprimir el kit de batería.
+Usa la {THING:StructureElectronicsPrinter} para imprimir el kit de baterías.
     </Value>
     </Record>
     <Record>
