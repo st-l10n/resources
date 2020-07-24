@@ -176,7 +176,9 @@ Comienza agregando tres partes {{THING:ItemIronOre} en la {THING:StructureFurnac
     </Record>
     <Record>
       <Key>VentingTheGasesDescription</Key>
-      <Value>El {THING:StructureFurnace} está actualmente lleno de gas tóxico altamente presurizado. Puedes descargarlo directamente a la atmósfera o enfriarlo, filtrarlo y reciclar los gases para su futuro uso. El tubo de salida está conectado a una {THING:StructureValve} que evita que los gases se escapen demasiado pronto. El tubo también está equipado con una {THING:StructureVolumePump} que permite la ventilación de los gases rápidamente.</Value>
+      <Value>El {THING:StructureFurnace} está actualmente lleno de gas tóxico altamente presurizado. Puedes descargarlo directamente en la atmósfera. Alternativamente puedes enfriar, filtrar y reciclar los gases para su futuro uso.
+
+Antes de intentar alimentar la {THING:StructureFurnace} con una mezcla de combustible, necesitarás ventilarla. El tubo de salida está conectado a una {THING:StructureValve} que evita que los gases se escapen, y a una {THING:StructureVolumePump} para la ventilación.</Value>
     </Record>
     <Record>
       <Key>VentingTheGasesTask1</Key>
@@ -208,7 +210,7 @@ Comienza agregando tres partes {{THING:ItemIronOre} en la {THING:StructureFurnac
     </Record>
     <Record>
       <Key>AddingFuelMixDescription</Key>
-      <Value>Ahora que la {THING:StructureFurnace} está vacía, podemos rellenarla de forma alternativa. En lugar de poner los volátiles y la mezcla de oxite directamente en ella, vamos a canalizar una mezcla de combustible preparada en la tubería de entrada de {THING:StructureFurnace}.
+      <Value>Ahora que la {THING:StructureFurnace} está vacía, podemos rellenarlo de otra manera, canalizando una mezcla de combustible preparada en el tubo de entrada.
 
 La mezcla de combustible ideal para la {THING:StructureFurnace} es una mezcla de 75% de volátiles y 25% de oxígeno.
 
