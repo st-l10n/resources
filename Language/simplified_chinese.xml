@@ -4072,7 +4072,7 @@
     </Record>
     <Record>
       <Key>CircuitBoard</Key>
-      <Value>电路</Value>
+      <Value>电路板</Value>
     </Record>
     <Record>
       <Key>ProgrammableChip</Key>
@@ -5142,11 +5142,11 @@
     </Record>
     <Record>
       <Key>TooltipRotateLeftRight</Key>
-      <Value>使用{KEY:RotateLeft} 和 {KEY:RotateRight} 左右旋转.</Value>
+      <Value>按下 {KEY:RotateLeft} 和 {KEY:RotateRight} 左右旋转.</Value>
     </Record>
     <Record>
       <Key>TooltipRotateUpDown</Key>
-      <Value>使用 {KEY:RotateUp} 和 {KEY:RotateDown} 来上下旋转.</Value>
+      <Value>按下 {KEY:RotateUp} 和 {KEY:RotateDown} 来上下旋转.</Value>
     </Record>
     <Record>
       <Key>TooltipRollLeftRight</Key>
@@ -5748,7 +5748,7 @@
     <Record>
       <Key>FurnaceChamberText</Key>
       <Value>压力 {0}
-        温度 {1}</Value>
+温度 {1}</Value>
     </Record>
     <Record>
       <Key>FurnaceSmelting</Key>
@@ -7826,6 +7826,14 @@ abs()--绝对值运算函数 max()--最大值函数</Value>
       <Value>空</Value>
     </Record>
     <Record>
+      <Key>Cycle</Key>
+      <Value>平衡气压</Value>
+    </Record>
+    <Record>
+      <Key>BuildStateOfHash</Key>
+      <Value>{0} / {1}</Value>
+    </Record>
+    <Record>
       <Key>PlantWillCreate</Key>
       <Value>这将创建{2}{0}{3} x {1}</Value>
     </Record>
@@ -7862,8 +7870,16 @@ abs()--绝对值运算函数 max()--最大值函数</Value>
       <Value>溜槽</Value>
     </Record>
     <Record>
+      <Key>Elevator</Key>
+      <Value>电梯</Value>
+    </Record>
+    <Record>
       <Key>PowerAndData</Key>
       <Value>电源/数据</Value>
+    </Record>
+    <Record>
+      <Key>All</Key>
+      <Value>全部</Value>
     </Record>
   </Interface>
   <Colors>
