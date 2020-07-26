@@ -3229,6 +3229,10 @@
       <Value>逻辑写入开关</Value>
     </Record>
     <Record>
+      <Key>MotherboardProgrammableChip</Key>
+      <Value>IC 编辑器</Value>
+    </Record>
+    <Record>
       <Key>ItemKitLogicCircuit</Key>
       <Value>(套件)集成电路外壳</Value>
     </Record>
@@ -3314,7 +3318,7 @@
     </Record>
     <Record>
       <Key>MotherboardComms</Key>
-      <Value>主板(通讯)</Value>
+      <Value>通信</Value>
     </Record>
     <Record>
       <Key>ItemMarineBodyArmor</Key>
@@ -3522,7 +3526,7 @@
     </Record>
     <Record>
       <Key>StructureRTGSurvival</Key>
-      <Value>同位素温差发电机</Value>
+      <Value>放射性同位素热电发电机</Value>
     </Record>
     <Record>
       <Key>ItemEmergencyHelmet</Key>
@@ -3583,6 +3587,10 @@
     <Record>
       <Key>StructureResearchMachine</Key>
       <Value>科研机器</Value>
+    </Record>
+    <Record>
+      <Key>StructureShelf</Key>
+      <Value>货架</Value>
     </Record>
     <Record>
       <Key>HumanSkull</Key>
@@ -4067,6 +4075,10 @@
       <Value>电路</Value>
     </Record>
     <Record>
+      <Key>ProgrammableChip</Key>
+      <Value>IC 芯片</Value>
+    </Record>
+    <Record>
       <Key>CreditCard</Key>
       <Value>银行卡</Value>
     </Record>
@@ -4122,11 +4134,11 @@
     </Record>
     <Record>
       <Key>Slot1</Key>
-      <Value>插槽1</Value>
+      <Value>插槽 1</Value>
     </Record>
     <Record>
       <Key>Slot2</Key>
-      <Value>数据盘</Value>
+      <Value>插槽 2</Value>
     </Record>
     <Record>
       <Key>GrabLeftHand</Key>
@@ -4158,7 +4170,7 @@
     </Record>
     <Record>
       <Key>Slot3</Key>
-      <Value>插槽3</Value>
+      <Value>插槽 3</Value>
     </Record>
     <Record>
       <Key>Slot4</Key>
@@ -5785,6 +5797,10 @@
     <Record>
       <Key>LogicNoWritableDevices</Key>
       <Value>网络上没有其他可写设备</Value>
+    </Record>
+    <Record>
+      <Key>ChangeSettingTo</Key>
+      <Value>(待译)Cycle to {0}</Value>
     </Record>
     <Record>
       <Key>HoldForPreviousObject</Key>
@@ -7782,6 +7798,10 @@ abs()--绝对值运算函数 max()--最大值函数</Value>
       <Value>使用 {THING:ItemCrowbar} 来打开</Value>
     </Record>
     <Record>
+      <Key>Display</Key>
+      <Value>显示</Value>
+    </Record>
+    <Record>
       <Key>Player</Key>
       <Value>玩家</Value>
     </Record>
@@ -7840,6 +7860,10 @@ abs()--绝对值运算函数 max()--最大值函数</Value>
     <Record>
       <Key>Chute</Key>
       <Value>溜槽</Value>
+    </Record>
+    <Record>
+      <Key>PowerAndData</Key>
+      <Value>电源/数据</Value>
     </Record>
   </Interface>
   <Colors>
