@@ -12,11 +12,11 @@
     </Record>
     <Record>
       <Key>GasSensorsDescription</Key>
-      <Value>欢迎回来学员！让我们去学习点熔炼方面的工作。
+      <Value>欢迎回来, 学员！让我们去学习点熔炼方面的工作。
 
-{THING:StructureFurnace} 用于将矿石熔炼成锭块和合金。使用这些技术来创造新的先进技术。
+{THING:StructureFurnace} 用于将矿石熔炼成锭块和合金。使用这个技术来建造新技术里面的东西。
 
-你的第一个任务是设置气体传感器显示屏，以监控 {THING:StructureFurnace}内的情况。你可以用这个来显示里面的压力或温度，来得到有关所发生情况的实时状况。
+你的第一个任务是设置一个 {THING:CircuitboardGasDisplay} 来获得 {THING:StructureFurnace} 内部压力和温度信息。
     </Value>
     </Record>
     <Record>
@@ -37,7 +37,7 @@
     </Record>
     <Record>
       <Key>ConfigureGasSensor</Key>
-      <Value>配置气体传感器</Value>
+      <Value>配置气体显示</Value>
     </Record>
     <Record>
       <Key>ConfigureGasSensorTask1</Key>
@@ -45,7 +45,7 @@
     </Record>
     <Record>
       <Key>ConfigureGasSensorTask2</Key>
-      <Value>将 {THING:ItemDataDisk} 插入到 {THING:StructureConsole}</Value>
+      <Value>从箱子里拿出 {THING:ItemDataDisk} 并插入到 {THING:StructureConsole}</Value>
     </Record>
     <Record>
       <Key>ConfigureGasSensorTask4</Key>
@@ -69,11 +69,11 @@
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask2</Key>
-      <Value>将 {THING:ItemVolatiles} 放入到 {THING:StructureFurnace}</Value>
+      <Value>将 {THING:ItemVolatiles} 放进 {THING:StructureFurnace} 的上面</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask3</Key>
-      <Value>点击 {THING:StructureFurnace} 上面的红色的 &apos;activate&apos; 按钮</Value>
+      <Value>点击2次 {THING:StructureFurnace} 上面的红色的 &apos;activate&apos; 按钮</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask4</Key>
@@ -109,7 +109,7 @@
     </Record>
     <Record>
       <Key>FromingTheIngotTask1</Key>
-      <Value>拉动 {THING:StructureFurnace} 上面的锭块释放操纵杆</Value>
+      <Value>拉动 {THING:StructureFurnace} 上面的Open Mold lever</Value>
     </Record>
     <Record>
       <Key>FromingTheIngotTask2</Key>
@@ -133,7 +133,7 @@
     </Record>
     <Record>
       <Key>VentingTheGasesTask5</Key>
-      <Value>关闭 {THING:StructureValve}</Value>
+      <Value>关闭 {THING:StructureVolumePump}</Value>
     </Record>
     <Record>
       <Key>AddingFuelMix</Key>
