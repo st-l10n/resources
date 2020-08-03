@@ -34,7 +34,7 @@ If you hold down {KEY:MouseControl} and {KEY:MouseInspect} and click on somethin
 {LIST}{LINK:DevicePage;Devices}, {LINK:FabricatorPage;Fabricators}, {LINK:AirlockDevicePage;Airlock Devices}, {LINK:LogicUnitPage;Logic Units}
 {/LIST}
 {HEADER:World Travel}
-{LIST}{LINK:RocketShuttleModulesHelpPage;Rocket Shuttle Modules Help}, {LINK:TravelPage;Travel}, {LINK:RocketShuttlePage;Rocket Shuttle Modules}
+{LIST}{LINK:RocketShuttlePage;Rocket Shuttle Modules}, {LINK:TravelPage;Travel}
 {/LIST}
       </Text>
     </StationpediaPage>
@@ -318,44 +318,11 @@ There are some ores that will melt when exposed to sunlight or heat and produce 
 Simply write the hash to the setting variable on the {THING:StructureLaunchPad} with a {THING:ItemLabeller}. Note: You can click on a hash to copy it to the clipboard.
       
 You need at least 3 core modules and all players seated in a functional Rocket for launch.
-
-More information on the rocket modules can be found {LINK:RocketShuttleModulesHelpPage;here}
       {LIST}
         {WORLD_HASHES}
       {/LIST}
       </Text>
     </StationpediaPage>
-    <StationpediaPage>
-          <Key>RocketShuttleModulesHelpPage</Key>
-          <Title>Rocket Shuttle Modules</Title>
-          <Text>{HEADER:Modular Rocket Cargo}
-
-The {THING:StructureModularRocketCargo01} has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total.
-
-{HEADER:Modular Rocket Command}
-
-The {THING:StructureModularRocketCommand01} must be placed on top of the rocket. It will assess the rocket’s readiness for flight. Once all conditions are met, the rocket can be launched when all players are seated in the module by pressing ‘Launch’ on the console.
-
-The following conditions must be met for launch:
-
-Fuel full
-Fuel mix ratio correct
-All players seated
-Power supplied to the launch pad
-Fully built rocket
-
-The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient.
-
-{HEADER:Modular Rocket Engine}
-
-The {THING:StructureModularRocketEngine01} is capable of lifting up to seven modules (including itself).
-
-{HEADER:Modular Rocket Fuel Tank}
-
-The {THING:StructureModularRocketFueltank01} requires a 2:1 mixture of {GAS:Oxygen} and {GAS:Volatiles}. If the mixture exceeds these proportions, or you place other gases in the tank, the {THING:StructureModularRocketCommand01} console will display an ‘Invalid’ error.
-
-          </Text>
-        </StationpediaPage>
         <StationpediaPage>
       <Key>RocketShuttlePage</Key>
       <Title>Rocket Shuttle</Title>
