@@ -128,7 +128,7 @@
     </Record>
     <Record>
       <Key>CargoModule2</Key>
-      <Value>Stavění nákladového modulu</Value>
+      <Value>Budování nákladového modulu</Value>
     </Record>
     <Record>
       <Key>CargoModule2Description</Key>
@@ -147,12 +147,24 @@
       <Value>Připojte {THING:ItemElectronicParts} k {THING:StructureModularRocketCargo01}</Value>
     </Record>
     <Record>
+      <Key>CommandMod</Key>
+      <Value>Velitelský modul</Value>
+    </Record>
+    <Record>
+      <Key>CommandModDescription</Key>
+      <Value>Velitelský modul je poslední část rakety a její centrální řídicí bod. Je to také modul, který řídí konečný cíl rakety.</Value>
+    </Record>
+    <Record>
       <Key>CommandModTask1</Key>
       <Value>Vezměte {THING:ItemKitStructureModularRocketCommand01} z bílé bedny nalevo</Value>
     </Record>
     <Record>
       <Key>CommandModTask2</Key>
       <Value>Umístěte {THING:StructureModularRocketCommand01} na zvýrazněné místo</Value>
+    </Record>
+    <Record>
+      <Key>CommandMod2</Key>
+      <Value>Budování velitelského modulu</Value>
     </Record>
     <Record>
       <Key>CommandMod2Task1</Key>
@@ -167,12 +179,24 @@
       <Value>Připojte {THING:ItemElectronicParts} k {THING:StructureModularRocketCommand01}</Value>
     </Record>
     <Record>
+      <Key>FuelUp</Key>
+      <Value>Natankování</Value>
+    </Record>
+    <Record>
       <Key>FuelUpStraight</Key>
       <Value>Umístěte {THING:StructureInsulatedPipeStraight} na zvýrazněné místo</Value>
     </Record>
     <Record>
       <Key>FuelUpCorner</Key>
       <Value>Umístěte {THING:StructureInsulatedPipeCorner} na zvýrazněné místo</Value>
+    </Record>
+    <Record>
+      <Key>NoPower</Key>
+      <Value>Bez napájení</Value>
+    </Record>
+    <Record>
+      <Key>NoPowerDescription</Key>
+      <Value>Zdá se, že raketa nemá žádnou energii. Zkontrolujte {THING:StructureAreaPowerControl} nalezenou za výtahem.</Value>
     </Record>
     <Record>
       <Key>NoPower1</Key>
@@ -209,6 +233,26 @@
     <Record>
       <Key>SettingTheDestination8</Key>
       <Value>Nakonec zapněte {THING:StructureLogicWriter}. Všechny předchozí kroky by měly být odškrtnuty.</Value>
+    </Record>
+    <Record>
+      <Key>FuelUpValve</Key>
+      <Value>Palivový ventil</Value>
+    </Record>
+    <Record>
+      <Key>FuelUpValveDescription</Key>
+      <Value>Poslední část přípravy rakety je zapnout palivový ventil a naplnit palivovou nádrž rakety.</Value>
+    </Record>
+    <Record>
+      <Key>FuelUpValveTask1</Key>
+      <Value>Otevřete palivový ventil umístěný nad logickou místností.</Value>
+    </Record>
+    <Record>
+      <Key>LaunchRocket</Key>
+      <Value>Čas pro vzlet</Value>
+    </Record>
+    <Record>
+      <Key>LaunchRocketDescription</Key>
+      <Value>Je čas vzlétnout! Vezměte výtah do nejvyššího patra, jakmile je raketa plná a připravená, můžete vstoupit do velitelského modulu. Poté stiskněte tlačítko ODPAL.</Value>
     </Record>
     <Record>
       <Key>LaunchRocketTask1</Key>
