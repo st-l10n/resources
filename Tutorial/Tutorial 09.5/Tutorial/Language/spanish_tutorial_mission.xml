@@ -131,12 +131,24 @@
       <Value>Coloque las {THING:ItemGlassSheets} a la {THING:StructureConsole}.</Value>
     </Record>
     <Record>
+      <Key>CommandMod</Key>
+      <Value>Módulo de mando</Value>
+    </Record>
+    <Record>
+      <Key>CommandModDescription</Key>
+      <Value>El módulo de mando es la parte final del cohete y su punto de control central. También es el módulo que controla el destino final del cohete.</Value>
+    </Record>
+    <Record>
       <Key>CommandModTask1</Key>
       <Value>Recoge la {THING:ItemCoalOre} de la caja roja</Value>
     </Record>
     <Record>
       <Key>CommandModTask2</Key>
       <Value>Ponga la {THING:StructurePressureRegulator} en la posición resaltada.</Value>
+    </Record>
+    <Record>
+      <Key>CommandMod2</Key>
+      <Value>Construir el módulo de mando</Value>
     </Record>
     <Record>
       <Key>CommandMod2Task1</Key>
@@ -163,6 +175,14 @@
       <Value>Coloca una {THING:StructurePipeMeter} en la posición resaltada.</Value>
     </Record>
     <Record>
+      <Key>NoPower</Key>
+      <Value>Sin energía</Value>
+    </Record>
+    <Record>
+      <Key>NoPowerDescription</Key>
+      <Value>Parece que no hay energía en el cohete. Revisa la {THING:StructureAreaPowerControl} que se encuentra detrás del ascensor.</Value>
+    </Record>
+    <Record>
       <Key>NoPower1</Key>
       <Value>Enciende la {THING:StructureConsole}</Value>
     </Record>
@@ -171,8 +191,16 @@
       <Value>Configurando los sensores</Value>
     </Record>
     <Record>
+      <Key>SettingTheDestinationDescription</Key>
+      <Value>Antes de despegar, deberá programar el ordenador de vuelo con un destino válido - o de lo contrario puede terminar en el medio de la nada. En este caso, queremos viajar a Mimas, una de las lunas de Saturno. Hazlo escribiendo la identificación del planeta en el módulo de comando usando un escritor lógico.</Value>
+    </Record>
+    <Record>
       <Key>SettingTheDestination1</Key>
       <Value>Abrir la Stationpedia</Value>
+    </Record>
+    <Record>
+      <Key>SettingTheDestination2</Key>
+      <Value>Navegue a la sección de Viajes Mundiales, haga clic en &quot;Viajes&quot;, y lea cómo establecer destinos y luego haga clic en las coordenadas Mimas: -712314497 para copiarlas a su portapapeles</Value>
     </Record>
     <Record>
       <Key>SettingTheDestination3</Key>
@@ -197,6 +225,26 @@
     <Record>
       <Key>SettingTheDestination8</Key>
       <Value>Enciende la {THING:StructureLogicWriter}.</Value>
+    </Record>
+    <Record>
+      <Key>FuelUpValve</Key>
+      <Value>La válvula de combustible</Value>
+    </Record>
+    <Record>
+      <Key>FuelUpValveDescription</Key>
+      <Value>La última parte de la preparación del cohete es encender la válvula de combustible y llenar el tanque de combustible del cohete.</Value>
+    </Record>
+    <Record>
+      <Key>FuelUpValveTask1</Key>
+      <Value>Abre la válvula de combustible, situada encima de la sala de lógica.</Value>
+    </Record>
+    <Record>
+      <Key>LaunchRocket</Key>
+      <Value>Hora de despegar</Value>
+    </Record>
+    <Record>
+      <Key>LaunchRocketTask1</Key>
+      <Value>Lanza el cohete</Value>
     </Record>
   </Interface>
 </Language>
