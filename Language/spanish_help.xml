@@ -285,6 +285,37 @@ Se puede encontrar más información sobre los módulos de los cohetes {LINK:Roc
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>RocketShuttleModulesHelpPage</Key>
+      <Title>Módulos del transbordador de cohetes</Title>
+      <Text>{HEADER:Modular Rocket Cargo}
+
+La {THING:StructureModularRocketCargo01} tiene capacidad para dos cajas de diez ranuras. Puede tener múltiples módulos de carga en su cohete. El cohete puede levantar hasta siete módulos en total.
+
+{HEADER:Modular Rocket Command}
+
+La {THING:StructureModularRocketCommand01} debe ser colocada en la parte superior del cohete. Evaluará la preparación del cohete para el vuelo. Una vez que se cumplan todas las condiciones, el cohete puede ser lanzado cuando todos los jugadores estén sentados en el módulo, presionando &apos;Lanzamiento&apos; (Launch) en la consola.
+
+Para el lanzamiento deben cumplirse las siguientes condiciones:
+
+Combustible lleno
+La proporción de la mezcla de combustible es correcta
+Todos los jugadores sentados
+La energía suministrada a la plataforma de lanzamiento
+Un cohete completamente construido
+
+La consola {THING:StructureModularRocketCommand01} muestra el estado actual de estas condiciones. No requiere una atmósfera para el despegue, la atmósfera de tu traje es suficiente.
+
+{HEADER:Modular Rocket Engine}
+
+La {THING:StructureModularRocketEngine01} es capaz de levantar hasta siete módulos (incluyéndose a sí misma).
+
+{HEADER:Modular Rocket Fuel Tank}
+
+La {THING:StructureModularRocketFueltank01} requiere una mezcla 2:1 de {GAS:Oxygen} y {GAS:Volatiles}. Si la mezcla excede estas proporciones, o se colocan otros gases en el tanque, la consola de {THING:StructureModularRocketCommand01} mostrará un error de &apos;Invalid&apos;.
+
+</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>RocketShuttlePage</Key>
       <Title>Lanzador del cohete</Title>
       <Text>Estos son los módulos del transbordador de cohetes, que se utilizan para viajar entre los mundos. {THING:StructureLaunchPad} es requerido.
