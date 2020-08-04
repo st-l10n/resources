@@ -83,6 +83,10 @@
       <Value>Tanques de combustible</Value>
     </Record>
     <Record>
+      <Key>FuelTanksDescription</Key>
+      <Value>El tanque de combustible es el siguiente módulo del cohete. Puedes tener varios módulos de Tanque de Combustible en un cohete para llevar más combustible. Esto te permitirá llevar más carga contigo.</Value>
+    </Record>
+    <Record>
       <Key>FuelTanksTask1</Key>
       <Value>Recoge las unidades de {THING:ItemKitSensor} de la caja</Value>
     </Record>
@@ -93,6 +97,10 @@
     <Record>
       <Key>FuelTanks2</Key>
       <Value>Tanques de combustible</Value>
+    </Record>
+    <Record>
+      <Key>FuelTanks2Description</Key>
+      <Value>Los cohetes en los Estacionarios usan el mismo combustible que otros artículos que requieren gas inflamable como el Soldador o el Generador de Gas. Una proporción de 2:1 de volátiles y oxígeno proporciona una combustión más limpia.</Value>
     </Record>
     <Record>
       <Key>FuelTanks2Task1</Key>
@@ -111,12 +119,24 @@
       <Value>Módulo de memoria</Value>
     </Record>
     <Record>
+      <Key>CargoModuleDescription</Key>
+      <Value>El Módulo de Carga le permite llevar equipos y dispositivos a su próximo destino. Puedes construir más de un módulo de carga, pero deben estar encima de los tanques de combustible.</Value>
+    </Record>
+    <Record>
       <Key>CargoModuleTask1</Key>
       <Value>Recoge la {THING:ItemCoalOre} de la caja roja</Value>
     </Record>
     <Record>
       <Key>CargoModuleTask2</Key>
       <Value>Construye el {THING:StructureGasSensor} en el lugar resaltado.</Value>
+    </Record>
+    <Record>
+      <Key>CargoModule2</Key>
+      <Value>Construir el módulo de carga</Value>
+    </Record>
+    <Record>
+      <Key>CargoModule2Description</Key>
+      <Value>La construcción del módulo de carga es similar a la de otros módulos. Construir varios módulos añadirá más peso al cohete y requerirá más combustible para salir del campo gravitatorio del planeta.</Value>
     </Record>
     <Record>
       <Key>CargoModule2Task1</Key>
@@ -151,6 +171,10 @@
       <Value>Construir el módulo de mando</Value>
     </Record>
     <Record>
+      <Key>CommandMod2Description</Key>
+      <Value>Equipado con un escudo térmico exterior y un cristal de alumino-silicato templado, el módulo puede salir y volver a entrar con seguridad en la atmósfera de un planeta sin riesgo para los Estacionarios del interior. Está totalmente aislado, con una unidad de aire acondicionado activa y depuradores de carbono para mantener una temperatura y una respirabilidad óptimas.</Value>
+    </Record>
+    <Record>
       <Key>CommandMod2Task1</Key>
       <Value>Soldar la {THING:ItemPlasticSheets} a el {THING:StructureAutolathe}.</Value>
     </Record>
@@ -165,6 +189,10 @@
     <Record>
       <Key>FuelUp</Key>
       <Value>Llene el tanque de combustible.</Value>
+    </Record>
+    <Record>
+      <Key>FuelUpDescription</Key>
+      <Value>Es hora de cargar combustible en el cohete. Se ha añadido una mezcla de combustible preparada al gran depósito de combustible. Necesitarás completar la tubería del nuevo módulo de combustible del cohete. El módulo de mando toma oxígeno pero no es esencial, ya que está en un traje y tendrá suficientes reservas para el vuelo.</Value>
     </Record>
     <Record>
       <Key>FuelUpStraight</Key>
@@ -241,6 +269,10 @@
     <Record>
       <Key>LaunchRocket</Key>
       <Value>Hora de despegar</Value>
+    </Record>
+    <Record>
+      <Key>LaunchRocketDescription</Key>
+      <Value>¡Es hora de despegar! Toma el ascensor hasta el último piso, Una vez que el cohete esté lleno y listo puedes entrar al Módulo de Comando. Luego presiona el botón de LANZAMIENTO.</Value>
     </Record>
     <Record>
       <Key>LaunchRocketTask1</Key>
