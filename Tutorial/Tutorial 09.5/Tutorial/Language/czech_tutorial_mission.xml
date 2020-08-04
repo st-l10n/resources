@@ -7,6 +7,18 @@
       <Value>Základní raketa</Value>
     </Record>
     <Record>
+      <Key>Tutorial-BasicRocketryDescription</Key>
+      <Value>Naučte se, jak vytvářet a připravovat rakety ke spuštění</Value>
+    </Record>
+    <Record>
+      <Key>LaunchPlatforms</Key>
+      <Value>Začínáme s raketou</Value>
+    </Record>
+    <Record>
+      <Key>LaunchPlatformsDescription</Key>
+      <Value>Než budete moci vypustit raketu, musíte postavit odpalovací rampu.</Value>
+    </Record>
+    <Record>
       <Key>LaunchPlatformsTask2</Key>
       <Value>Postavte {THING:StructureLaunchPad} na zvýrazněné místo.</Value>
     </Record>
@@ -140,11 +152,11 @@
     </Record>
     <Record>
       <Key>SettingTheDestination7</Key>
-      <Value>Pomocí {THING:ItemScrewdriver} nastavte vstup {THING:StructureLogicWriter} do paměti horizontálního režimu.</Value>
+      <Value>Nastavte hodnotu typ logiky na {THING:StructureLogicWriter} na &quot;Nastavení&quot; pomocí {THING:ItemScrewdriver}</Value>
     </Record>
     <Record>
       <Key>SettingTheDestination8</Key>
-      <Value>Zapněte {THING:StructureLogicWriter}.</Value>
+      <Value>Nakonec zapněte {THING:StructureLogicWriter}. Všechny předchozí kroky by měly být odškrtnuty.</Value>
     </Record>
   </Interface>
 </Language>
