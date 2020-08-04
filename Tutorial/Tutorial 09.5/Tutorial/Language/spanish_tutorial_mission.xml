@@ -40,7 +40,7 @@
     </Record>
     <Record>
       <Key>ElectronicsL</Key>
-      <Value>Dejalo en la {THING:StructureBench}</Value>
+      <Value>Unir la electronica a el {THING:StructureLaunchPad}.</Value>
     </Record>
     <Record>
       <Key>RocketEngines</Key>
@@ -52,11 +52,11 @@
     </Record>
     <Record>
       <Key>RocketEnginesTask1</Key>
-      <Value>Recoge la {THING:ItemKitCompositeFloorGrating} de la caja.</Value>
+      <Value>Recoge el {THING:ItemKitStructureModularRocketEngine01} de la caja de la izquierda. </Value>
     </Record>
     <Record>
       <Key>RocketEnginesTask2</Key>
-      <Value>Construye la {THING:StructureActiveVent} en el lugar resaltado.</Value>
+      <Value>Construye el {THING:StructureModularRocketEngine01} en el lugar resaltado.</Value>
     </Record>
     <Record>
       <Key>RocketEngines2</Key>
@@ -68,15 +68,15 @@
     </Record>
     <Record>
       <Key>RocketEngines2Task1</Key>
-      <Value>Soldar la {THING:ItemPlasticSheets} a el {THING:StructureAutolathe}.</Value>
+      <Value>Suelda las {THING:ItemSteelSheets} a el {THING:StructureModularRocketEngine01}</Value>
     </Record>
     <Record>
       <Key>RocketEngines2Task2</Key>
-      <Value>Soldar la {THING:ItemPlasticSheets} a el {THING:StructureAutolathe}.</Value>
+      <Value>Soldar la {THING:ItemPlasticSheets} a el {THING:StructureModularRocketEngine01}</Value>
     </Record>
     <Record>
       <Key>RocketEngines2Task3</Key>
-      <Value>Coloque las {THING:ItemGlassSheets} a la {THING:StructureConsole}.</Value>
+      <Value>Coloca las {THING:ItemElectronicParts} a el {THING:StructureModularRocketEngine01}</Value>
     </Record>
     <Record>
       <Key>FuelTanks</Key>
@@ -88,11 +88,11 @@
     </Record>
     <Record>
       <Key>FuelTanksTask1</Key>
-      <Value>Recoge las unidades de {THING:ItemKitSensor} de la caja</Value>
+      <Value>Recoge el {THING:ItemKitStructureModularRocketFueltank01} de la caja de la izquierda.</Value>
     </Record>
     <Record>
       <Key>FuelTanksTask2</Key>
-      <Value>Construye la {THING:StructureActiveVent} en el lugar resaltado.</Value>
+      <Value>Construye el {THING:StructureModularRocketFueltank01} en el lugar resaltado.</Value>
     </Record>
     <Record>
       <Key>FuelTanks2</Key>
@@ -104,15 +104,15 @@
     </Record>
     <Record>
       <Key>FuelTanks2Task1</Key>
-      <Value>Inserte la {THING:ItemOxite} en la {THING:StructureFurnace}</Value>
+      <Value>Junta el {THING:ItemKitTank} a el {THING:StructureModularRocketFueltank01}</Value>
     </Record>
     <Record>
       <Key>FuelTanks2Task2</Key>
-      <Value>Soldar la {THING:ItemPlasticSheets} a el {THING:StructureAutolathe}.</Value>
+      <Value>Suelda las {THING:ItemSteelSheets} a el {THING:StructureModularRocketFueltank01}</Value>
     </Record>
     <Record>
       <Key>FuelTanks2Task3</Key>
-      <Value>Coloque las {THING:ItemGlassSheets} a la {THING:StructureConsole}.</Value>
+      <Value>Coloca las {THING:ItemElectronicParts} a el {THING:StructureModularRocketFueltank01}</Value>
     </Record>
     <Record>
       <Key>CargoModule</Key>
@@ -124,11 +124,11 @@
     </Record>
     <Record>
       <Key>CargoModuleTask1</Key>
-      <Value>Recoge la {THING:ItemCoalOre} de la caja roja</Value>
+      <Value>Recoge el {THING:ItemKitStructureModularRocketCargo01} de la caja de la izquierda</Value>
     </Record>
     <Record>
       <Key>CargoModuleTask2</Key>
-      <Value>Construye el {THING:StructureGasSensor} en el lugar resaltado.</Value>
+      <Value>Construye el {THING:StructureModularRocketCargo01} en el lugar resaltado</Value>
     </Record>
     <Record>
       <Key>CargoModule2</Key>
@@ -140,15 +140,15 @@
     </Record>
     <Record>
       <Key>CargoModule2Task1</Key>
-      <Value>Soldar la {THING:ItemPlasticSheets} a el {THING:StructureAutolathe}.</Value>
+      <Value>Suelda las {THING:ItemSteelSheets} a el {THING:StructureModularRocketCargo01}</Value>
     </Record>
     <Record>
       <Key>CargoModule2Task2</Key>
-      <Value>Soldar la {THING:ItemPlasticSheets} a el {THING:StructureAutolathe}.</Value>
+      <Value>Suelda las {THING:ItemPlasticSheets} a el {THING:StructureModularRocketCargo01}</Value>
     </Record>
     <Record>
       <Key>CargoModule2Task3</Key>
-      <Value>Coloque las {THING:ItemGlassSheets} a la {THING:StructureConsole}.</Value>
+      <Value>Colocas las {THING:ItemElectronicParts} a el {THING:StructureModularRocketCargo01}</Value>
     </Record>
     <Record>
       <Key>CommandMod</Key>
@@ -160,11 +160,11 @@
     </Record>
     <Record>
       <Key>CommandModTask1</Key>
-      <Value>Recoge la {THING:ItemCoalOre} de la caja roja</Value>
+      <Value>Recoge el {THING:ItemKitStructureModularRocketCommand01} de la caja de la izquierda</Value>
     </Record>
     <Record>
       <Key>CommandModTask2</Key>
-      <Value>Ponga la {THING:StructurePressureRegulator} en la posición resaltada.</Value>
+      <Value>Pon el {THING:StructureModularRocketCommand01} en la posición resaltada</Value>
     </Record>
     <Record>
       <Key>CommandMod2</Key>
@@ -176,15 +176,15 @@
     </Record>
     <Record>
       <Key>CommandMod2Task1</Key>
-      <Value>Soldar la {THING:ItemPlasticSheets} a el {THING:StructureAutolathe}.</Value>
+      <Value>Suelda las {THING:ItemSteelSheets} a el {THING:StructureModularRocketCommand01}</Value>
     </Record>
     <Record>
       <Key>CommandMod2Task2</Key>
-      <Value>Soldar la {THING:ItemPlasticSheets} a el {THING:StructureAutolathe}.</Value>
+      <Value>Suelda las {THING:ItemPlasticSheets} a el {THING:StructureModularRocketCommand01}</Value>
     </Record>
     <Record>
       <Key>CommandMod2Task3</Key>
-      <Value>Coloque las {THING:ItemGlassSheets} a la {THING:StructureConsole}.</Value>
+      <Value>Coloca las {THING:ItemElectronicParts} a el {THING:StructureModularRocketCommand01}</Value>
     </Record>
     <Record>
       <Key>FuelUp</Key>
@@ -196,11 +196,11 @@
     </Record>
     <Record>
       <Key>FuelUpStraight</Key>
-      <Value>Coloca otra {THING:StructurePipeStraight} en la posición resaltada.</Value>
+      <Value>Construye el {THING:StructureInsulatedPipeStraight} en la posición resaltada</Value>
     </Record>
     <Record>
       <Key>FuelUpCorner</Key>
-      <Value>Coloca una {THING:StructurePipeMeter} en la posición resaltada.</Value>
+      <Value>Construye la {THING:StructureInsulatedPipeCorner} en la posición resaltada</Value>
     </Record>
     <Record>
       <Key>NoPower</Key>
@@ -236,23 +236,23 @@
     </Record>
     <Record>
       <Key>SettingTheDestination4</Key>
-      <Value>Completa la {THING:StructureResearchMachine} usando el {THING:ItemScrewdriver}.</Value>
+      <Value>Ajusta la {THING:StructureLogicMemory} a las Coordenadas -712314497 usando el {THING:ItemLabeller}.</Value>
     </Record>
     <Record>
       <Key>SettingTheDestination5</Key>
-      <Value>Ponga la entrada {THING:StructureLogicWriter} en la memoria del modo horizontal usando un {THING:ItemScrewdriver}.</Value>
+      <Value>Ajusta el valor de entrada en el {THING:StructureLogicWriter} a {THING:StructureLogicMemory} usando el {THING:ItemScrewdriver}</Value>
     </Record>
     <Record>
       <Key>SettingTheDestination6</Key>
-      <Value>Ponga la entrada {THING:StructureLogicWriter} en la memoria del modo horizontal usando un {THING:ItemScrewdriver}.</Value>
+      <Value>Ajusta el valor de salida en el {THING:StructureLogicWriter} a {THING:StructureLaunchPad} usando un {THING:ItemScrewdriver} </Value>
     </Record>
     <Record>
       <Key>SettingTheDestination7</Key>
-      <Value>Ponga la entrada {THING:StructureLogicWriter} en la memoria del modo horizontal usando un {THING:ItemScrewdriver}.</Value>
+      <Value>Ajusta el valoer LogicType en el {THING:StructureLogicWriter} para &quot;ajustar&quot; usa un {THING:ItemScrewdriver}</Value>
     </Record>
     <Record>
       <Key>SettingTheDestination8</Key>
-      <Value>Enciende la {THING:StructureLogicWriter}.</Value>
+      <Value>Finalmente, Enciende el {THING:StructureLogicWriter}. Los pasos anteriores deben estar hechos.</Value>
     </Record>
     <Record>
       <Key>FuelUpValve</Key>
