@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Name>English</Name>
+<Code>EN</Code>
+<Font>font_english</Font>
+    <Interface>
+    
+        <Record>
+            <Key>Tutorial-BasicRocketry</Key>
+            <Value>Basic Rocketry</Value>
+        </Record>
+        <Record>
+            <Key>Tutorial-BasicRocketryDescription</Key>
+            <Value>Learn how to build and prepare rockets for launch</Value>
+        </Record>
+        <Record>
+            <Key>LaunchPlatforms</Key>
+            <Value>Getting Started in Rocketry</Value>
+        </Record>
+        <Record>
+            <Key>LaunchPlatformsDescription</Key>
+            <Value>Before you can launch a rocket, you need to build a launch pad.</Value>
+        </Record>
+        <Record>
+            <Key>LaunchPlatformsTask1</Key>
+            <Value>Follow the walkway to the launch site and pick up the {THING:ItemKitStructureLaunchPad} on the white crate.</Value>
+        </Record>
+        <Record>
+            <Key>LaunchPlatformsTask2</Key>
+            <Value>Build the {THING:StructureLaunchPad} in the highlighted position.</Value>
+        </Record>
+        <Record>
+            <Key>LaunchPlatforms2</Key>
+            <Value>Building the Launch Platform</Value>
+        </Record>
+        <Record>
+            <Key>LaunchPlatformsDescription2</Key>
+            <Value>The {THING:StructureLaunchPad} is the rocket's main charging point and connects to all of the rocket's modules.</Value>
+        </Record>
+        <Record>
+            <Key>WeildSteelPlatesL</Key>
+            <Value>Weld {THING:ItemSteelSheets} to the {THING:StructureLaunchPad}.</Value>
+        </Record>
+        <Record>
+            <Key>ElectronicsL</Key>
+            <Value>Attach electronics to the {THING:StructureLaunchPad}.</Value>
+        </Record>
+        <Record>
+            <Key>RocketEngines</Key>
+            <Value>Rocket Engines</Value>
+        </Record>
+        <Record>
+            <Key>RocketEnginesDescription</Key>
+            <Value>The next part of the rocket is the {THING:StructureModularRocketEngine01}. This turns fuel into thrust, allowing the rocket to take off and escape the planet's gravity.</Value>
+        </Record>
+        <Record>
+            <Key>RocketEnginesTask1</Key>
+            <Value>Pick up the {THING:ItemKitStructureModularRocketEngine01} from the crate on the left. </Value>
+        </Record>
+        <Record>
+            <Key>RocketEnginesTask2</Key>
+            <Value>Build the {THING:StructureModularRocketEngine01} in the highlighted spot.</Value>
+        </Record>
+        <Record>
+            <Key>RocketEngines2</Key>
+            <Value>Rocket Engineering 101</Value>
+        </Record>
+        <Record>
+            <Key>RocketEngines2Description</Key>
+            <Value>Contrary to popular belief, building a rocket engine is as easy as 1,2,3. You just need some steel, plastic, and electronics.</Value>
+        </Record>
+        <Record>
+            <Key>RocketEngines2Task1</Key>
+            <Value>Weld {THING:ItemSteelSheets} to the {THING:StructureModularRocketEngine01}</Value>
+        </Record>
+        <Record>
+            <Key>RocketEngines2Task2</Key>
+            <Value>Weld {THING:ItemPlasticSheets} to the {THING:StructureModularRocketEngine01}</Value>
+        </Record>
+        <Record>
+            <Key>RocketEngines2Task3</Key>
+            <Value>Attach {THING:ItemElectronicParts} to the {THING:StructureModularRocketEngine01}</Value>
+        </Record>
+        <Record>
+            <Key>FuelTanks</Key>
+            <Value>Fuel Tanks</Value>
+        </Record>
+        <Record>
+            <Key>FuelTanksDescription</Key>
+            <Value>The Fuel Tank is the next module of the rocket. You can have multiple Fuel Tank modules on a rocket to carry more fuel. This will allow you to take more cargo with you.</Value>
+        </Record>
+        <Record>
+            <Key>FuelTanksTask1</Key>
+            <Value>Pick up {THING:ItemKitStructureModularRocketFueltank01} from the crate on the left.</Value>
+        </Record>
+        <Record>
+            <Key>FuelTanksTask2</Key>
+            <Value>Build the {THING:StructureModularRocketFueltank01} in the highlighted position.</Value>
+        </Record>
+        <Record>
+            <Key>FuelTanks2</Key>
+            <Value>Fuel Tanks</Value>
+        </Record>
+        <Record>
+            <Key>FuelTanks2Description</Key>
+            <Value>Rocket Fuel is a little different from standard fuel. Unlike the 75% volatiles to 25% oxygen used for standard fuels, the rocket uses an oxidized mix of 67% volatiles and 33% oxygen. </Value>
+        </Record>
+        <Record>
+            <Key>FuelTanks2Task1</Key>
+            <Value>Attach {THING:ItemKitTank} to the {THING:StructureModularRocketFueltank01}</Value>
+        </Record>
+        <Record>
+            <Key>FuelTanks2Task2</Key>
+            <Value>Weld {THING:ItemSteelSheets} to the {THING:StructureModularRocketFueltank01}</Value>
+        </Record>
+        <Record>
+            <Key>FuelTanks2Task3</Key>
+            <Value>Attach {THING:ItemElectronicParts} to the {THING:StructureModularRocketFueltank01}</Value>
+        </Record>
+        <Record>
+            <Key>CargoModule</Key>
+            <Value>Cargo Module</Value>
+        </Record>
+        <Record>
+            <Key>CargoModuleDescription</Key>
+            <Value>The Cargo Module allows you to take equipment and devices with you to your next destination. You can build more than one cargo module, but they must be above the fuel tanks.</Value>
+        </Record><Record>
+            <Key>CargoModuleTask1</Key>
+            <Value>Pick up the {THING:ItemKitStructureModularRocketCargo01} from the lefthand crate</Value>
+        </Record>
+             <Record>
+            <Key>CargoModuleTask2</Key>
+            <Value>Build the {THING:StructureModularRocketCargo01} in the highlighted position</Value>
+        </Record>
+        <Record>
+            <Key>CargoModule2</Key>
+            <Value>Building The Cargo Module</Value>
+        </Record>
+             <Record>
+            <Key>CargoModule2Description</Key>
+            <Value>Building the Cargo Module is similar to other modules. Building multiple modules will add more weight to the rocket and will require more fuel to exit the planet's gravitational field.</Value>
+        </Record>
+        <Record>
+            <Key>CargoModule2Task1</Key>
+            <Value>Weld {THING:ItemSteelSheets} to the {THING:StructureModularRocketCargo01}</Value>
+        </Record>
+             <Record>
+            <Key>CargoModule2Task2</Key>
+            <Value>Weld {THING:ItemPlasticSheets} to the {THING:StructureModularRocketCargo01}</Value>
+        </Record>
+        <Record>
+            <Key>CargoModule2Task3</Key>
+            <Value>Attach {THING:ItemElectronicParts} to the {THING:StructureModularRocketCargo01}</Value>
+        </Record>
+             <Record>
+            <Key>CommandMod</Key>
+            <Value>Command Module</Value>
+        </Record>
+        <Record>
+            <Key>CommandModDescription</Key>
+            <Value>The Command Module is the final part of the Rocket, and its central control point. It is also the module that controls the final destination of the rocket.</Value>
+        </Record>
+             <Record>
+            <Key>CommandModTask1</Key>
+            <Value>Pick up the {THING:ItemKitStructureModularRocketCommand01} from the white crate on the left</Value>
+        </Record>
+        <Record>
+            <Key>CommandModTask2</Key>
+            <Value>Place the {THING:StructureModularRocketCommand01BuildState01} in the highlighted position</Value>
+        </Record>
+             <Record>
+            <Key>CommandMod2</Key>
+            <Value>Building The Command Module</Value>
+        </Record>
+        <Record>
+            <Key>CommandMod2Description</Key>
+            <Value>Equipped with outer shell heat shielding and a tempered alumino-silicate glass pane, the module can safely leave and re-enter the atmosphere of a planet with no risk to Stationeers inside. It is fully insulated, with an active air conditioning unit and carbon scrubbers to maintain optimum temperature and breathability.</Value>
+        </Record>
+             <Record>
+            <Key>CommandMod2Task1</Key>
+            <Value>Weld {THING:ItemSteelSheets} to the {THING:StructureModularRocketCommand01}</Value>
+        </Record>
+        <Record>
+            <Key>CommandMod2Task2</Key>
+            <Value>Weld {THING:ItemPlasticSheets} to the {THING:StructureModularRocketCommand01}</Value>
+        </Record>
+        <Record>
+            <Key>CommandMod2Task3</Key>
+            <Value>Attach {THING:ItemElectronicParts} to the {THING:StructureModularRocketCommand01}</Value>
+        </Record>
+        <Record>
+            <Key>FuelUp</Key>
+            <Value>Fuel Up</Value>
+        </Record>
+        <Record>
+            <Key>FuelUpDescription</Key>
+            <Value>It's time to fuel up the rocket. A pre-prepared fuel mix has been added to the large fuel tank. You will need to complete the piping to the newly built rocket fuel module. The command module takes oxygen but it is not essential, as you are in a suit and will have sufficient reserves for the flight.</Value>
+        </Record>
+        <Record>
+            <Key>FuelUpStraight</Key>
+            <Value>Build a {THING:StructureInsulatedPipeStraight} in the highlighted position</Value>
+        </Record>
+        <Record>
+            <Key>FuelUpCorner</Key>
+            <Value>Build a {THING:StructureInsulatedPipeCorner} in the highlighted position</Value>
+        </Record>
+        <Record>
+            <Key>NoPower</Key>
+            <Value>No Power</Value>
+        </Record>
+        <Record>
+            <Key>NoPowerDescription</Key>
+            <Value>There seems to be no power to the rocket. Check the {THING:StructureAreaPowerControl} found behind the elevator.</Value>
+        </Record>
+        <Record>
+            <Key>NoPower1</Key>
+            <Value>Turn on the {THING:StructureAreaPowerControl}</Value>
+        </Record>
+        <Record>
+            <Key>SettingTheDestination</Key>
+            <Value>Setting a Destination</Value>
+        </Record>
+        <Record>
+            <Key>SettingTheDestinationDescription</Key>
+            <Value>Before you launch, you will want to program the flight computer with a valid destination - or else you may end up in the middle of nowhere. In this case, we want to travel to Mimas, one of Saturn's moons. Do this by writing the Planet ID to the Command Module using a logic writer.</Value>
+        </Record>
+        <Record>
+            <Key>SettingTheDestination1</Key>
+            <Value>Open the Stationpedia</Value>
+        </Record>
+        <Record>
+            <Key>SettingTheDestination2</Key>
+            <Value>Navigate to the World Travel Section, click on "Travel", and read about how to set destinations.</Value>
+        </Record>
+        
+        <Record>
+            <Key>SettingTheDestination3</Key>
+            <Value>Pick up the {THING:ItemLabeller} found in the lefthand crate.</Value>
+        </Record>
+        <Record>
+            <Key>SettingTheDestination4</Key>
+            <Value>Set the {THING:StructureLogicMemory} to -712314497 using the {THING:ItemLabeller}.</Value>
+        </Record>
+        <Record>
+            <Key>SettingTheDestination5</Key>
+            <Value>Set the input value on the {THING:StructureLogicWriter} to {THING:StructureLogicMemory} using a {THING:ItemScrewdriver}</Value>
+        </Record>
+        <Record>
+            <Key>SettingTheDestination6</Key>
+            <Value>Set the output value on the {THING:StructureLogicWriter} to {THING:ItemKitStructureModularRocketCommand01} using a {THING:ItemScrewdriver} </Value>
+        </Record>
+        <Record>
+            <Key>SettingTheDestination7</Key>
+            <Value>Set the LogicType value on the {THING:StructureLogicWriter} to "Setting" using a {THING:ItemScrewdriver}</Value>
+        </Record>
+        <Record>
+            <Key>SettingTheDestination8</Key>
+            <Value>Finally, turn on the {THING:StructureLogicWriter}. Any previous steps should check off.</Value>
+        </Record>
+        <Record>
+            <Key>FuelUpValve</Key>
+            <Value>The Fuel Up Valve</Value>
+        </Record>
+       <Record>
+            <Key>FuelUpValveDescription</Key>
+            <Value>The last part of preparing the rocket is to turn on the fuel valve and fill rocket's fuel tank.</Value>
+        </Record>
+        <Record>
+            <Key>FuelUpValveTask1</Key>
+            <Value>Open the fuel valve, located above the logic room.</Value>
+        </Record>
+        <Record>
+            <Key>LaunchRocket</Key>
+            <Value>Time for Lift Off</Value>
+        </Record>
+       <Record>
+            <Key>LaunchRocketDescription</Key>
+            <Value>It's time to lift off! Take the elevator up to the top floor, Once the rocket is fulled and ready you can enter the Command Module. Then hit the LAUNCH button.</Value>
+        </Record>
+        <Record>
+            <Key>LaunchRocketTask1</Key>
+            <Value>Launch the rocket</Value>
+        </Record>    
+    </Interface>
+</Language>
