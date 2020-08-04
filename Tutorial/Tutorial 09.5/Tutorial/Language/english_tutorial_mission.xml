@@ -103,7 +103,7 @@
         </Record>
         <Record>
             <Key>FuelTanks2Description</Key>
-            <Value>Rocket Fuel is a little different from standard fuel. Unlike the 75% volatiles to 25% oxygen used for standard fuels, the rocket uses an oxidized mix of 67% volatiles and 33% oxygen. </Value>
+            <Value>Rocket Fuel is a little different from standard fuel. Unlike the 67% volatiles to 34% oxygen used for standard fuels, the rocket uses an oxidized mix of 67% volatiles and 33% oxygen. </Value>
         </Record>
         <Record>
             <Key>FuelTanks2Task1</Key>
@@ -166,7 +166,7 @@
         </Record>
         <Record>
             <Key>CommandModTask2</Key>
-            <Value>Place the {THING:StructureModularRocketCommand01BuildState01} in the highlighted position</Value>
+            <Value>Place the {THING:StructureModularRocketCommand01} in the highlighted position</Value>
         </Record>
              <Record>
             <Key>CommandMod2</Key>
@@ -230,7 +230,7 @@
         </Record>
         <Record>
             <Key>SettingTheDestination2</Key>
-            <Value>Navigate to the World Travel Section, click on "Travel", and read about how to set destinations.</Value>
+            <Value>Navigate to the World Travel Section, click on "Travel", and read about how to set destinations then click on the Mimas Coordinates: -712314497 to copy it to your clipboard</Value>
         </Record>
         
         <Record>
@@ -239,7 +239,7 @@
         </Record>
         <Record>
             <Key>SettingTheDestination4</Key>
-            <Value>Set the {THING:StructureLogicMemory} to -712314497 using the {THING:ItemLabeller}.</Value>
+            <Value>Set the {THING:StructureLogicMemory} to the Mimas Coordinates: -712314497 using the {THING:ItemLabeller}.</Value>
         </Record>
         <Record>
             <Key>SettingTheDestination5</Key>
@@ -247,7 +247,7 @@
         </Record>
         <Record>
             <Key>SettingTheDestination6</Key>
-            <Value>Set the output value on the {THING:StructureLogicWriter} to {THING:ItemKitStructureModularRocketCommand01} using a {THING:ItemScrewdriver} </Value>
+            <Value>Set the output value on the {THING:StructureLogicWriter} to {THING:StructureLaunchPad} using a {THING:ItemScrewdriver} </Value>
         </Record>
         <Record>
             <Key>SettingTheDestination7</Key>
