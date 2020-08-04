@@ -99,6 +99,10 @@
       <Value>Palivové nádrže</Value>
     </Record>
     <Record>
+      <Key>FuelTanks2Description</Key>
+      <Value>Rakety ve stationeers používají stejné palivo jako jiné položky, které vyžadují hořlavý plyn, jako je svářečka nebo generátor na plyn. Poměr těkavých látek a kyslíku 2:1 zajišťuje nejčistší odpal.</Value>
+    </Record>
+    <Record>
       <Key>FuelTanks2Task1</Key>
       <Value>Připojte {THING:ItemKitTank} k {THING:StructureModularRocketFueltank01}</Value>
     </Record>
@@ -121,6 +125,14 @@
     <Record>
       <Key>CargoModuleTask2</Key>
       <Value>Postavte {THING:StructureModularRocketCargo01} na zvýrazněné místo</Value>
+    </Record>
+    <Record>
+      <Key>CargoModule2</Key>
+      <Value>Stavění nákladového modulu</Value>
+    </Record>
+    <Record>
+      <Key>CargoModule2Description</Key>
+      <Value>Budování nákladového modulu je podobná jako u ostatních modulů. Budování více modulů přidá raketě větší váhu a bude vyžadovat více paliva k opuštění gravitačního pole planety.</Value>
     </Record>
     <Record>
       <Key>CargoModule2Task1</Key>
@@ -197,6 +209,10 @@
     <Record>
       <Key>SettingTheDestination8</Key>
       <Value>Nakonec zapněte {THING:StructureLogicWriter}. Všechny předchozí kroky by měly být odškrtnuty.</Value>
+    </Record>
+    <Record>
+      <Key>LaunchRocketTask1</Key>
+      <Value>Odpálení rakety</Value>
     </Record>
   </Interface>
 </Language>
