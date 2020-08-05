@@ -3062,7 +3062,7 @@
     </Record>
     <Record>
       <Key>CircuitboardAdvAirlockControl</Key>
-      <Value>电路板(高级气闸控制)</Value>
+      <Value>高级气闸控制</Value>
     </Record>
     <Record>
       <Key>ItemKitPressurePlate</Key>
@@ -7858,6 +7858,14 @@ abs()--绝对值运算函数 max()--最大值函数</Value>
       <Value>此 {0} 无任何 {1}气体{2}</Value>
     </Record>
     <Record>
+      <Key>PlantNoSunlight</Key>
+      <Value>{0}没有所需的{1}太阳光{2}</Value>
+    </Record>
+    <Record>
+      <Key>PlantToxic</Key>
+      <Value>由于空气中的高 {1} 污染物{2}, {0} 在遭受损害</Value>
+    </Record>
+    <Record>
       <Key>holdhotkey</Key>
       <Value>(按住)</Value>
     </Record>
@@ -7888,6 +7896,10 @@ abs()--绝对值运算函数 max()--最大值函数</Value>
     <Record>
       <Key>All</Key>
       <Value>全部</Value>
+    </Record>
+    <Record>
+      <Key>DeconstructToolTipText</Key>
+      <Value>解构需要 {0}</Value>
     </Record>
   </Interface>
   <Colors>
