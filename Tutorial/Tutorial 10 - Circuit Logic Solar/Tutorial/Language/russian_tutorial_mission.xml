@@ -4,19 +4,19 @@
   <Interface>
     <Record>
       <Key>ConsoleManuallControl1</Key>
-      <Value>Установите {THING:StructurePipeStraight} в выделенное место.</Value>
+      <Value>Закончите сеть установив{THING:StructureCableStraight} в выделенное место.</Value>
     </Record>
     <Record>
       <Key>ConsoleManuallControl2</Key>
-      <Value>Установите {THING:StructureTankConnector} в выделенное место.</Value>
+      <Value>Установите {THING:StructureConsole} в выделенное место.</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask1</Key>
-      <Value>Установите {THING:CircuitboardAirlockControl} в {THING:StructureConsole}.</Value>
+      <Value>Установите {THING:CircuitboardSolarControl} в {THING:StructureConsole}.</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask2</Key>
-      <Value>Заберите {THING:ItemGlassSheets} из первой {THING:StructureConsole}.</Value>
+      <Value>Смонтируйте {THING:ItemGlassSheets} к {THING:StructureConsole}.</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask3</Key>
@@ -100,15 +100,15 @@
     </Record>
     <Record>
       <Key>HorizontalBatchWritterSetup4</Key>
-      <Value>Включите {THING:StructureAutolathe}.</Value>
+      <Value>Включите {THING:StructureLogicBatchWriter}.</Value>
     </Record>
     <Record>
       <Key>LogicSelect1</Key>
-      <Value>Установите {THING:StructureTankConnector} в выделенное место.</Value>
+      <Value>Установите первый {THING:StructureLogicSelect} в выделенное место.</Value>
     </Record>
     <Record>
       <Key>LogicSelect2</Key>
-      <Value>Установите {THING:StructureTankConnector} в выделенное место.</Value>
+      <Value>Установите следующий {THING:StructureLogicSelect} в выделенное место.</Value>
     </Record>
   </Interface>
 </Language>
