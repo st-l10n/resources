@@ -4506,11 +4506,11 @@
     </Record>
     <Record>
       <Key>Cartridge2</Key>
-      <Value>Картридж</Value>
+      <Value>Картридж 2</Value>
     </Record>
     <Record>
       <Key>Cartridge1</Key>
-      <Value>Картридж</Value>
+      <Value>Картридж 1</Value>
     </Record>
     <Record>
       <Key>Next</Key>
@@ -7451,8 +7451,12 @@
       <Value>Заданная частота кадров</Value>
     </Record>
     <Record>
+      <Key>SaveBeforeTravel</Key>
+      <Value>Вам необходимо сохранить игру пред началом путешествия! </Value>
+    </Record>
+    <Record>
       <Key>LaunchRocketAlert</Key>
-      <Value>Вы хотите разблокировать это исследование?</Value>
+      <Value>Хотите ли вы запустить эту ракету</Value>
     </Record>
     <Record>
       <Key>CompletedKey</Key>
@@ -7468,11 +7472,11 @@
     </Record>
     <Record>
       <Key>TutorialSelectKey</Key>
-      <Value>Обучение пройдено</Value>
+      <Value>Выбор Обучения</Value>
     </Record>
     <Record>
       <Key>ScenarioSelectKey</Key>
-      <Value>Завершить сценарий</Value>
+      <Value>Выбор сценария</Value>
     </Record>
     <Record>
       <Key>TankPressure</Key>
@@ -7480,7 +7484,7 @@
     </Record>
     <Record>
       <Key>CrowbarToOpen</Key>
-      <Value>Для изменения настроек вам нужна {THING:ItemScrewdriver}</Value>
+      <Value>Используйте {THING:ItemCrowbar} для открытия</Value>
     </Record>
     <Record>
       <Key>Display</Key>
@@ -7488,7 +7492,11 @@
     </Record>
     <Record>
       <Key>Player</Key>
-      <Value>Игроков:</Value>
+      <Value>Игрок</Value>
+    </Record>
+    <Record>
+      <Key>Unconscious</Key>
+      <Value>Без сознания</Value>
     </Record>
     <Record>
       <Key>Contents</Key>
@@ -7503,12 +7511,36 @@
       <Value>Настройки ввода</Value>
     </Record>
     <Record>
+      <Key>Liquid</Key>
+      <Value>Жидкость</Value>
+    </Record>
+    <Record>
+      <Key>Empty</Key>
+      <Value>Пусто</Value>
+    </Record>
+    <Record>
       <Key>PlantToxic</Key>
-      <Value>Процент токсинов в атмосфере</Value>
+      <Value>{0} получает повреждения из-за высокого содержания {1}токсинов{2} в атмосфере</Value>
+    </Record>
+    <Record>
+      <Key>Pipe</Key>
+      <Value>Труба</Value>
     </Record>
     <Record>
       <Key>Power</Key>
       <Value>Утечка энергии</Value>
+    </Record>
+    <Record>
+      <Key>Data</Key>
+      <Value>Данные</Value>
+    </Record>
+    <Record>
+      <Key>Elevator</Key>
+      <Value>Лифт</Value>
+    </Record>
+    <Record>
+      <Key>PowerAndData</Key>
+      <Value>Питание и Данные</Value>
     </Record>
   </Interface>
   <Colors>
