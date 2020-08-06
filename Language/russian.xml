@@ -3753,22 +3753,6 @@
       <Value>Изолированная Труба Пересечение</Value>
     </Record>
     <Record>
-      <Key>StructureInsulatedPipeCrossJunction3</Key>
-      <Value>Труба (Крестовая)</Value>
-    </Record>
-    <Record>
-      <Key>StructureInsulatedPipeCrossJunction4</Key>
-      <Value>Труба (Крестовая)</Value>
-    </Record>
-    <Record>
-      <Key>StructureInsulatedPipeCrossJunction5</Key>
-      <Value>Труба (Крестовая)</Value>
-    </Record>
-    <Record>
-      <Key>StructureInsulatedPipeCrossJunction6</Key>
-      <Value>Труба (Крестовая)</Value>
-    </Record>
-    <Record>
       <Key>StructureInsulatedPipeTJunction</Key>
       <Value>Изолированная Труба Т-Пересечение</Value>
     </Record>
@@ -3854,27 +3838,27 @@
     </Record>
     <Record>
       <Key>StructureWallArchCornerRound</Key>
-      <Value>Стена (Арка со стрелкой)</Value>
+      <Value>Стена (Арка, закругленный угол)</Value>
     </Record>
     <Record>
       <Key>StructureWallArchCornerSquare</Key>
-      <Value>Стена (Арка два оттенка)</Value>
+      <Value>Стена (Арка, прямой угол)</Value>
     </Record>
     <Record>
       <Key>StructureWallArchCornerTriangle</Key>
-      <Value>Стена (Арка два оттенка)</Value>
+      <Value>Стена (Арка угловая треугольная)</Value>
     </Record>
     <Record>
       <Key>StructureWallFlatCornerRound</Key>
-      <Value>Стена (Геометрия, угол)</Value>
+      <Value>Стена (Плоская, закругленный угол)</Value>
     </Record>
     <Record>
       <Key>StructureWallFlatCornerSquare</Key>
-      <Value>Стена (Геометрия, угол)</Value>
+      <Value>Стена (Плоская, прямой угол)</Value>
     </Record>
     <Record>
       <Key>StructureWallFlatCornerTriangle</Key>
-      <Value>Стена (С обшивкой)</Value>
+      <Value>Стена (Плоская, угловая, треугольная)</Value>
     </Record>
     <Record>
       <Key>StructureWallPaddedArchLightFittingTop</Key>
@@ -3882,39 +3866,39 @@
     </Record>
     <Record>
       <Key>StructureWallPaddedNoBorder</Key>
-      <Value>Стена (Наборная, арка)</Value>
+      <Value>Стена (Наборная, без окантовки)</Value>
     </Record>
     <Record>
       <Key>StructureWallPaddedThinNoBorder</Key>
-      <Value>Стена (Наборная, тонкая)</Value>
+      <Value>Стена (Наборная, тонкая, без окантовки)</Value>
     </Record>
     <Record>
       <Key>StructureWallPaddedWindowThin</Key>
-      <Value>Стена (Наборная, тонкая)</Value>
+      <Value>Стена (Наборная, тонкое окно)</Value>
     </Record>
     <Record>
       <Key>StructureWallPaddedThinNoBorderCorner</Key>
-      <Value>Стена (Геометрия, угол)</Value>
+      <Value>Стена (Наборная, тонкий угол без окантовки)</Value>
     </Record>
     <Record>
       <Key>StructureWallPaddedNoBorderCorner</Key>
-      <Value>Стена (Геометрия, угол)</Value>
+      <Value>Стена (Наборная, угол без окантовки)</Value>
     </Record>
     <Record>
       <Key>StructureWallPaddedCorner</Key>
-      <Value>Стена (Наборная, арка)</Value>
+      <Value>Стена (Наборная, Угол)</Value>
     </Record>
     <Record>
       <Key>StructureWallPaddedCornerThin</Key>
-      <Value>Стена (Наборная, тонкая)</Value>
+      <Value>Стена (Тонкий Наборной Угол)</Value>
     </Record>
     <Record>
       <Key>StructureWallPaddedArchCorner</Key>
-      <Value>Стена (Наборная, арка)</Value>
+      <Value>Стена (Наборной Арочный Угол)</Value>
     </Record>
     <Record>
       <Key>StructureWallPaddedWindow</Key>
-      <Value>Стена (Наборная)</Value>
+      <Value>Стена (Наборное Окно)</Value>
     </Record>
     <Record>
       <Key>StructurePipeOrgan</Key>
@@ -7203,10 +7187,6 @@
       <Value>Определяет тип модуля для поиска определенного пакета при его поломке.</Value>
     </Record>
     <Record>
-      <Key>CurrentResearchPodType</Key>
-      <Value>возвращает хэш структуры в слот</Value>
-    </Record>
-    <Record>
       <Key>ResearchFilter</Key>
       <Value>Фильтр</Value>
     </Record>
@@ -7333,10 +7313,6 @@
     <Record>
       <Key>ScriptCommandSleep</Key>
       <Value>Приостановка выполнения программы на IC (в секундах)</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandSin</Key>
-      <Value>Возвращает общее число молей в устройстве</Value>
     </Record>
     <Record>
       <Key>ScriptCommandCommand</Key>
