@@ -149,12 +149,36 @@
       <Value>Теперь установите соотношение газовой смеси, используя колесо на {THING:StructureGasMixer}. Поворот колеса в сторону увеличения изменит соотношение в пользу первого входа. Поворот колеса в сторону уменьшения изменит соотношение в пользу второго входа. Используйте клавишу {KEY:QuantityModifier}, чтобы уменьшить инкремент с 10 до 1.</Value>
     </Record>
     <Record>
+      <Key>TheGasMixTask1</Key>
+      <Value>Установите соотношение смешивания до &apos;33&apos; на входе один, и &apos;67&apos; на входе два.</Value>
+    </Record>
+    <Record>
+      <Key>RetrievingTheFuelTank</Key>
+      <Value>Изъятие Топливного Бака</Value>
+    </Record>
+    <Record>
+      <Key>RetrievingTheFuelTankDescription</Key>
+      <Value>Теперь идеальный топливный микс заполняет ваш пустой {THING:ItemGasCanisterFuel}. Дайте ему наполнится, а затем переместите его из {THING:StructureGasTankStorage} обратно в {THING:ItemWeldingTorch}.</Value>
+    </Record>
+    <Record>
       <Key>RetrievingTheFuelTankTask1</Key>
-      <Value>Вставьте {THING:ItemDataDisk} в {THING:StructureConsole}.</Value>
+      <Value>Возьмите {THING:ItemGasCanisterFuel} из {THING:StructureGasTankStorage}.</Value>
     </Record>
     <Record>
       <Key>RetrievingTheFuelTankTask2</Key>
-      <Value>Поместите {THING:ItemBatteryCellLarge} в {THING:StructureAreaPowerControl}.</Value>
+      <Value>Поместите {THING:ItemGasCanisterFuel} в {THING:ItemWeldingTorch}.</Value>
+    </Record>
+    <Record>
+      <Key>TestTheFuelMix</Key>
+      <Value>Тестирование Топливной Смеси</Value>
+    </Record>
+    <Record>
+      <Key>TestTheFuelMixDescription</Key>
+      <Value>Теперь, когда мы заправили {THING:ItemGasCanisterFuel}, давайте проверим его завершив стеклянную дверь рядом с системой смешивания газа. Вы найдете нужные вам материалы рядом со стеной.</Value>
+    </Record>
+    <Record>
+      <Key>TestTheFuelMixTask1</Key>
+      <Value>Завершите сборку стеклянной двери.</Value>
     </Record>
   </Interface>
 </Language>
