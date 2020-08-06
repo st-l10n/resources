@@ -40,27 +40,27 @@
     </Record>
     <Record>
       <Key>IgnitingTheFurnace</Key>
-      <Value>Дуговая Печь</Value>
+      <Value>Разжигание Печки</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask1</Key>
-      <Value>Возьмите {THING:ItemLabeller} из ящика.</Value>
+      <Value>Возьмите {THING:ItemVolatiles} из красного ящика</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask2</Key>
-      <Value>Вставьте {THING:ItemDataDisk} в {THING:StructureConsole}.</Value>
+      <Value>Положите {THING:ItemVolatiles} в {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask3</Key>
-      <Value>Включите {THING:StructureArcFurnace}.</Value>
+      <Value>Дважды нажмите красную кнопку &apos;активировать&apos; на {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask4</Key>
-      <Value>Возьмите {THING:ItemLabeller} из ящика.</Value>
+      <Value>Возьмите {THING:ItemOxite} из красного ящика</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask5</Key>
-      <Value>Вставьте {THING:ItemDataDisk} в {THING:StructureConsole}.</Value>
+      <Value>Вставьте {THING:ItemOxite} в {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask6</Key>
@@ -68,23 +68,23 @@
     </Record>
     <Record>
       <Key>SmeltingIron</Key>
-      <Value>Переплавка</Value>
+      <Value>Переплавка Железа</Value>
     </Record>
     <Record>
       <Key>SmeltingIronTask1</Key>
-      <Value>Возьмите {THING:ItemIronIngot} из оранжевого ящика.</Value>
+      <Value>Возьмите {THING:ItemIronOre} из красного ящика</Value>
     </Record>
     <Record>
       <Key>SmeltingIronTask2</Key>
-      <Value>Приварите {THING:ItemIronSheets} к {THING:StructureAutolathe}.</Value>
+      <Value>Положите {THING:ItemIronOre} в {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>MakingAnAlloyTask1</Key>
-      <Value>Возьмите {THING:ItemLabeller} из ящика.</Value>
+      <Value>Возьмите {THING:ItemCoalOre} из красного ящика</Value>
     </Record>
     <Record>
       <Key>MakingAnAlloyTask2</Key>
-      <Value>Вставьте {THING:ItemDataDisk} в {THING:StructureConsole}.</Value>
+      <Value>Вставьте {THING:ItemCoalOre} в {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>FromingTheIngotTask1</Key>
@@ -92,11 +92,11 @@
     </Record>
     <Record>
       <Key>FromingTheIngotTask2</Key>
-      <Value>Возьмите {THING:ItemTablet}</Value>
+      <Value>Возьмите {THING:ItemSteelIngot}</Value>
     </Record>
     <Record>
       <Key>FromingTheIngotTask3</Key>
-      <Value>Выберите {THING:ItemPassiveVent} в меню {THING:StructureHydraulicPipeBender}.</Value>
+      <Value>Вставьте {THING:ItemSteelIngot} в {THING:StructureElectronicsPrinter}</Value>
     </Record>
     <Record>
       <Key>VentingTheGasesTask1</Key>
@@ -104,19 +104,27 @@
     </Record>
     <Record>
       <Key>VentingTheGasesTask2</Key>
-      <Value>Включите {THING:StructureAutolathe}.</Value>
+      <Value>Включите {THING:StructureVolumePump}</Value>
     </Record>
     <Record>
       <Key>VentingTheGasesTask4</Key>
-      <Value>Сварите {THING:StructureFrame}, чтобы завершить обучение</Value>
+      <Value>Закройте {THING:StructureValve}</Value>
     </Record>
     <Record>
       <Key>VentingTheGasesTask5</Key>
-      <Value>Включите {THING:StructureAutolathe}.</Value>
+      <Value>Выключите {THING:StructureVolumePump}</Value>
+    </Record>
+    <Record>
+      <Key>AddingFuelMixTask3</Key>
+      <Value>Дождитесь повышения внутреннего давления {THING:StructureFurnace} до 100kPa</Value>
+    </Record>
+    <Record>
+      <Key>AddingFuelMixTask4</Key>
+      <Value>Быстро выключите входной клапан - слишком много топливной смеси может привести к взрыву </Value>
     </Record>
     <Record>
       <Key>AddingFuelMixTask5</Key>
-      <Value>Включите {THING:StructureArcFurnace}.</Value>
+      <Value>Нажмите кнопку &apos;активация&apos; на {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>NewAlloyTask1</Key>

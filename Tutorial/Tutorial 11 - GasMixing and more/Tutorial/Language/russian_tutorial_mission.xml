@@ -3,76 +3,150 @@
   <Code>RU</Code>
   <Interface>
     <Record>
+      <Key>Tutorial11 - GasMixingAndmore</Key>
+      <Value>Смешивание Газов и Более</Value>
+    </Record>
+    <Record>
+      <Key>GasMixingInd</Key>
+      <Value>Введение в смешивание газов</Value>
+    </Record>
+    <Record>
+      <Key>GasMixingIndDescription</Key>
+      <Value>С возвращением, Кадет! На этом уроке мы пополним кислородные баллоны вашего скафандра, а затем смешаем два газа чтобы сделать топливо. Топливо имеет много применений: от сварщика до запуска ракет!</Value>
+    </Record>
+    <Record>
+      <Key>RemoveingSuitOxyDescription</Key>
+      <Value>Откройте меню скафандра и переместите кислородный баллон в вашу руку. 
+Вы получите предупреждение на экране об отсутствующем баке. Не паникуйте, в самом скафандре все еще циркулирует небольшое количество кислорода. 
+Теперь вы можете вставить кислородный баллон в {THING:DynamicGasCanisterOxygen} и пополнить его.</Value>
+    </Record>
+    <Record>
       <Key>RemoveingSuitOxyTask1</Key>
-      <Value>Возьмите {THING:ItemWrench} с вашего пояса инструментов.</Value>
+      <Value>Возьмите {THING:ItemGasCanisterOxygen} из вашего скафандра.</Value>
     </Record>
     <Record>
       <Key>RemoveingSuitOxyTask2</Key>
-      <Value>Поднимите {THING:ItemGasCanisterWater}.</Value>
+      <Value>Установите ваш кислородный баллон в {THING:DynamicGasCanisterOxygen}.</Value>
+    </Record>
+    <Record>
+      <Key>RetrievingOxyTankDescription</Key>
+      <Value>{THING:DynamicGasCanisterOxygen} наполнит кислородом{THING:ItemGasCanisterOxygen}. Теперь вы можете изъять {THING:ItemGasCanisterOxygen} из {THING:DynamicGasCanisterOxygen}.</Value>
     </Record>
     <Record>
       <Key>RetrievingOxyTankTask1</Key>
-      <Value>Вставьте {THING:ItemDataDisk} в {THING:StructureConsole}.</Value>
+      <Value>Заберите {THING:ItemGasCanisterOxygen} из {THING:DynamicGasCanisterOxygen}.</Value>
     </Record>
     <Record>
       <Key>RetrievingOxyTankTask2</Key>
-      <Value>Переставьте {THING:ItemGlassSheets}.</Value>
+      <Value>Установите {THING:ItemGasCanisterOxygen} обратно в ваш скафандр.</Value>
+    </Record>
+    <Record>
+      <Key>RemoveingFuelCan</Key>
+      <Value>Изъятие Топливной Канистры</Value>
+    </Record>
+    <Record>
+      <Key>RemoveingFuelCanDescription</Key>
+      <Value>У вашего сварщика кончилось топливо. Чтобы заполнить его, нам нужно будет создать подходящую смесь газа. Принимайтесь за дело и поместите {THING:ItemGasCanisterFuel} в {THING:StructureGasTankStorage}.</Value>
     </Record>
     <Record>
       <Key>RemoveingFuelCanTask1</Key>
-      <Value>Вставьте {THING:ItemDataDisk} в {THING:StructureConsole}.</Value>
+      <Value>Заберите {THING:ItemGasCanisterFuel} из {THING:ItemWeldingTorch} который находится в вашем {THING:ItemToolBelt}</Value>
     </Record>
     <Record>
       <Key>RemoveingFuelCanTask2</Key>
-      <Value>Поместите {THING:ItemBatteryCellLarge} в {THING:StructureAreaPowerControl}.</Value>
+      <Value>Установите {THING:ItemGasCanisterFuel} в желтый {THING:StructureGasTankStorage} находящийся на полу.</Value>
+    </Record>
+    <Record>
+      <Key>ValvesDescription</Key>
+      <Value>Теперь нам необходимо создать сеть труб для смешивания газов. Начните с размещения вентилей рядом с каждым {THING:StructureTankConnector}. Это позволит отключить сеть от прикрепленных газовых баллонов, пока мы не будем готовы подключить их к сети труб.</Value>
     </Record>
     <Record>
       <Key>ValvesTask1</Key>
-      <Value>Используйте {THING:ItemKitDoor} из желтого контейнера чтобы построить две {THING:StructureCompositeDoor} в выделенных местах. </Value>
+      <Value>Возьмите {THING:ItemPipeValve} из находящегося рядом ящика и поместите в выделенное место.</Value>
+    </Record>
+    <Record>
+      <Key>PipeMeters</Key>
+      <Value>Манометры</Value>
+    </Record>
+    <Record>
+      <Key>PipeMetersDescription</Key>
+      <Value>{THING:StructurePipeMeter} позволяет нам видеть текущее давление внутри сети труб. Поместите их рядом с {THING:ItemPipeValve}. Обратите внимание, что они располагаются поверх труб, а не являются самостоятельным устройством. Найти их можно в ящике поблизости.</Value>
     </Record>
     <Record>
       <Key>PipeMetersTask1</Key>
-      <Value>Установите {THING:StructurePipeStraight} в выделенное место.</Value>
+      <Value>Установите {THING:StructurePipeMeter} в помеченной области.</Value>
+    </Record>
+    <Record>
+      <Key>GasMixer</Key>
+      <Value>Газовый Газосмеситель</Value>
+    </Record>
+    <Record>
+      <Key>GasMixerDescription</Key>
+      <Value>Смеситель газов позволяет нам объединить два газа в определенном соотношении. Это позволяет создать топливную смесь, необходимую для {THING:ItemWeldingTorch}.</Value>
     </Record>
     <Record>
       <Key>GasMixerTask1</Key>
       <Value>Постройте {THING:StructureGasSensor} в выделенном месте.</Value>
     </Record>
     <Record>
+      <Key>PressureRegulator</Key>
+      <Value>Регулятор Давления</Value>
+    </Record>
+    <Record>
+      <Key>PressureRegulatorDescription</Key>
+      <Value>{THING:StructurePressureRegulator} используется для регулирования давления внутри сети труб. Это позволяет ограничить давление, гарантируя, что вы не превысите безопасное давление бака. </Value>
+    </Record>
+    <Record>
       <Key>PressureRegulatorTask1</Key>
-      <Value>Установите {THING:StructurePipeStraight} в выделенное место.</Value>
+      <Value>Установите {THING:StructurePressureRegulator} в выделенном месте.</Value>
     </Record>
     <Record>
       <Key>ConnectingTanks</Key>
-      <Value>Завершение каркаса</Value>
+      <Value>Подключение Баков</Value>
+    </Record>
+    <Record>
+      <Key>ConnectingTanksDescription</Key>
+      <Value>Теперь подключите Баки к {THING:StructureTankConnector}. Поместите бак поверх соответствующего {THING:StructureTankConnector}, а затем используйте {THING:ItemWrench} на баке, чтобы подключить его.</Value>
     </Record>
     <Record>
       <Key>ConnectingTanksTask1</Key>
-      <Value>Используйте {THING:ItemWrench} для подключения {THING:DynamicGasCanisterWater} к {THING:ItemTankConnector}.</Value>
+      <Value>Подключите {THING:DynamicGasCanisterOxygen} к белому коннектору для баков.</Value>
     </Record>
     <Record>
       <Key>ConnectingTanksTask2</Key>
-      <Value>Используйте {THING:ItemWrench} для подключения {THING:DynamicGasCanisterWater} к {THING:ItemTankConnector}.</Value>
+      <Value>Подключите {THING:DynamicGasCanisterVolatiles} к красному коннектору для баков.</Value>
     </Record>
     <Record>
       <Key>FlipingValves</Key>
-      <Value>Устанавливаем фильтр</Value>
+      <Value>Переключаем Вентили</Value>
+    </Record>
+    <Record>
+      <Key>FlipingValvesDescription</Key>
+      <Value>Теперь мы готовы включить {THING:StructureValve}. Чтобы открыть клапан, воспользуйтесь рычагом на {THING:StructureValve}.</Value>
     </Record>
     <Record>
       <Key>FlipingValvesTask2</Key>
-      <Value>Постройте {THING:StructureGasSensor} в выделенном месте.</Value>
+      <Value>Откройте {THING:StructureValve} кислородной сети.</Value>
     </Record>
     <Record>
       <Key>FlipingValvesTask1</Key>
-      <Value>Разместите {THING:StructureSolidFuelGenerator}.</Value>
+      <Value>Откройте {THING:StructureValve} гидрогеновой сети.</Value>
+    </Record>
+    <Record>
+      <Key>SettingYourLimitTask1</Key>
+      <Value>Установите давление {THING:StructurePressureRegulator} на 1950kPa</Value>
     </Record>
     <Record>
       <Key>SettingYourLimitTask2</Key>
-      <Value>Включите {THING:StructureAutolathe}.</Value>
+      <Value>Включите {THING:StructurePressureRegulator}.</Value>
     </Record>
     <Record>
       <Key>TheGasMix</Key>
-      <Value>Угольные Шахты</Value>
+      <Value>Смесь Газов</Value>
+    </Record>
+    <Record>
+      <Key>TheGasMixDescription</Key>
+      <Value>Теперь установите соотношение газовой смеси, используя колесо на {THING:StructureGasMixer}. Поворот колеса в сторону увеличения изменит соотношение в пользу первого входа. Поворот колеса в сторону уменьшения изменит соотношение в пользу второго входа. Используйте клавишу {KEY:QuantityModifier}, чтобы уменьшить инкремент с 10 до 1.</Value>
     </Record>
     <Record>
       <Key>RetrievingTheFuelTankTask1</Key>

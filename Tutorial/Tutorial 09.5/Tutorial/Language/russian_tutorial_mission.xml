@@ -4,67 +4,119 @@
   <Interface>
     <Record>
       <Key>Tutorial-BasicRocketry</Key>
-      <Value>#9 Основы Исследований</Value>
+      <Value>Основы Ракетостроения</Value>
+    </Record>
+    <Record>
+      <Key>Tutorial-BasicRocketryDescription</Key>
+      <Value>Узнайте, как строить и подготавливать ракеты к запуску</Value>
+    </Record>
+    <Record>
+      <Key>LaunchPlatforms</Key>
+      <Value>Начало работы с ракетами</Value>
+    </Record>
+    <Record>
+      <Key>LaunchPlatformsDescription</Key>
+      <Value>Прежде чем вы сможете запустить ракету, вам нужно построить стартовую площадку.</Value>
+    </Record>
+    <Record>
+      <Key>LaunchPlatformsTask1</Key>
+      <Value>Следуйте по дорожке к месту старта и возьмите {THING:ItemKitStructureLaunchPad} из белого ящика.</Value>
     </Record>
     <Record>
       <Key>LaunchPlatformsTask2</Key>
       <Value>Постройте {THING:StructureGasSensor} в выделенном месте.</Value>
     </Record>
     <Record>
+      <Key>LaunchPlatforms2</Key>
+      <Value>Строим стартовую площадку</Value>
+    </Record>
+    <Record>
+      <Key>LaunchPlatformsDescription2</Key>
+      <Value>{THING:StructureLaunchPad} является основной точкой зарядки ракеты и соединяется со всеми модулями ракеты.</Value>
+    </Record>
+    <Record>
       <Key>WeildSteelPlatesL</Key>
-      <Value>Приварите {THING:ItemPlasticSheets} к {THING:StructureAutolathe}.</Value>
+      <Value>Приварите {THING:ItemSteelSheets} к {THING:StructureLaunchPad}.</Value>
     </Record>
     <Record>
       <Key>ElectronicsL</Key>
-      <Value>Положите её на {THING:StructureBench}</Value>
+      <Value>Установите электронику в {THING:StructureLaunchPad}.</Value>
+    </Record>
+    <Record>
+      <Key>RocketEngines</Key>
+      <Value>Ракетные Двигатели</Value>
+    </Record>
+    <Record>
+      <Key>RocketEnginesDescription</Key>
+      <Value>Следующей частью ракеты является {THING:StructureModularRocketEngine01}. Этот модуль превращает топливо в тягу, позволяя ракете взлететь и избежать гравитации планеты.</Value>
     </Record>
     <Record>
       <Key>RocketEnginesTask1</Key>
-      <Value>Возьмите {THING:ItemKitCompositeFloorGrating} из ящика.</Value>
+      <Value>Возьмите {THING:ItemKitStructureModularRocketEngine01} из ящика слева. </Value>
     </Record>
     <Record>
       <Key>RocketEnginesTask2</Key>
-      <Value>Постройте {THING:StructureActiveVent} в выделенном месте.</Value>
+      <Value>Постройте {THING:StructureModularRocketEngine01} в выделенном месте.</Value>
+    </Record>
+    <Record>
+      <Key>RocketEngines2</Key>
+      <Value>Ракетная Инженерия 101</Value>
     </Record>
     <Record>
       <Key>RocketEngines2Task1</Key>
-      <Value>Приварите {THING:ItemPlasticSheets} к {THING:StructureAutolathe}.</Value>
+      <Value>Приварите {THING:ItemSteelSheets} к {THING:StructureModularRocketEngine01}</Value>
     </Record>
     <Record>
       <Key>RocketEngines2Task2</Key>
-      <Value>Приварите {THING:ItemPlasticSheets} к {THING:StructureAutolathe}.</Value>
+      <Value>Приварите {THING:ItemPlasticSheets} к {THING:StructureModularRocketEngine01}</Value>
     </Record>
     <Record>
       <Key>RocketEngines2Task3</Key>
-      <Value>Заберите {THING:ItemGlassSheets} из первой {THING:StructureConsole}.</Value>
+      <Value>Установите {THING:ItemElectronicParts} в {THING:StructureModularRocketEngine01}</Value>
+    </Record>
+    <Record>
+      <Key>FuelTanks</Key>
+      <Value>Топливные Баки</Value>
     </Record>
     <Record>
       <Key>FuelTanksTask1</Key>
-      <Value>Возьмите {THING:ItemKitCompositeFloorGrating} из ящика.</Value>
+      <Value>Возьмите {THING:ItemKitStructureModularRocketFueltank01} из левого ящика.</Value>
     </Record>
     <Record>
       <Key>FuelTanksTask2</Key>
-      <Value>Постройте {THING:StructureActiveVent} в выделенном месте.</Value>
+      <Value>Постройте {THING:StructureModularRocketFueltank01} в выделенном месте.</Value>
+    </Record>
+    <Record>
+      <Key>FuelTanks2</Key>
+      <Value>Топливные Баки</Value>
+    </Record>
+    <Record>
+      <Key>FuelTanks2Description</Key>
+      <Value>Ракеты в Stationeers используют то же топливо, что и другие элементы, требующие легковоспламеняющегося газа, такие как сварщик или газовый генератор. Соотношение 2:1 летучих веществ и кислорода обеспечивает самое чистое горение.</Value>
     </Record>
     <Record>
       <Key>FuelTanks2Task1</Key>
-      <Value>Вставьте {THING:ItemDataDisk} в {THING:StructureConsole}.</Value>
+      <Value>Установите {THING:ItemKitTank} в {THING:StructureModularRocketFueltank01}</Value>
     </Record>
     <Record>
       <Key>FuelTanks2Task2</Key>
-      <Value>Приварите {THING:ItemPlasticSheets} к {THING:StructureAutolathe}.</Value>
+      <Value>Приварите {THING:ItemSteelSheets} к {THING:StructureModularRocketFueltank01}</Value>
     </Record>
     <Record>
       <Key>FuelTanks2Task3</Key>
-      <Value>Заберите {THING:ItemGlassSheets} из первой {THING:StructureConsole}.</Value>
+      <Value>Установите {THING:ItemElectronicParts} в {THING:StructureModularRocketFueltank01}</Value>
+    </Record>
+    <Record>
+      <Key>CargoModule</Key>
+      <Value>Грузовой Отсек</Value>
     </Record>
     <Record>
       <Key>CargoModuleTask1</Key>
-      <Value>Возьмите {THING:ItemLabeller} из ящика.</Value>
+      <Value>Возьмите {THING:ItemKitStructureModularRocketCargo01} из левого ящика</Value>
     </Record>
     <Record>
       <Key>CargoModuleTask2</Key>
-      <Value>Постройте {THING:StructureGasSensor} в выделенном месте.</Value>
+      <Value>Постройте {THING:StructureModularRocketCargo01} в выделенном месте</Value>
     </Record>
     <Record>
       <Key>CargoModule2Task1</Key>

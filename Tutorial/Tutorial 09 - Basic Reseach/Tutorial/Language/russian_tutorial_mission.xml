@@ -12,47 +12,51 @@
     </Record>
     <Record>
       <Key>TheResearchMachine2</Key>
-      <Value>Установите {THING:ItemKitHydroponicStation} в выделенное место.</Value>
+      <Value>Установите {THING:ItemKitResearchMachine} в выделенное место.</Value>
+    </Record>
+    <Record>
+      <Key>TheResearchMachineBuildeDescription</Key>
+      <Value>Как и некоторые другие машины, {THING:StructureResearchMachine} имеет несколько этапов сборки. Вам нужно будет завершить каждый этап сборки, чтобы полностью построить {THING:StructureResearchMachine}.</Value>
     </Record>
     <Record>
       <Key>TheResearchMachineBuild1</Key>
-      <Value>Поднимите {THING:ItemKitArcFurnace}.</Value>
+      <Value>Поднимите {THING:ItemIronSheets}.</Value>
     </Record>
     <Record>
       <Key>TheResearchMachineBuild2</Key>
-      <Value>Приварите {THING:ItemIronSheets} к {THING:StructureAutolathe}.</Value>
+      <Value>Приварите {THING:ItemIronSheets} к {THING:StructureResearchMachine} с помощью {THING:ItemWeldingTorch}.</Value>
     </Record>
     <Record>
       <Key>TheResearchMachineBuild3</Key>
-      <Value>Возьмите {THING:ItemKitHydroponicStation}.</Value>
+      <Value>Теперь возьмите {THING:ItemElectronicParts}.</Value>
     </Record>
     <Record>
       <Key>TheResearchMachineBuild4</Key>
-      <Value>Используйте {THING:ItemAngleGrinder}, чтобы извлечь железные листы из {THING:StructureAutolathe}.</Value>
+      <Value>Используйте {THING:ItemScrewdriver}, чтобы установить {THING:ItemElectronicParts} в {THING:StructureResearchMachine}.</Value>
     </Record>
     <Record>
       <Key>TheResearchMachineBuild5</Key>
-      <Value>Откройте {THING:StructureAreaPowerControl} при помощи {THING:ItemCrowbar}.</Value>
+      <Value>Завершите {THING:StructureResearchMachine} при помощи {THING:ItemScrewdriver}.</Value>
     </Record>
     <Record>
       <Key>PrintingCapsules1</Key>
-      <Value>Включите {THING:StructureArcFurnace}.</Value>
+      <Value>Включите {THING:StructureElectronicsPrinter}.</Value>
     </Record>
     <Record>
       <Key>PrintingCapsules2</Key>
-      <Value>Выберите {THING:ItemPassiveVent} в меню {THING:StructureHydraulicPipeBender}.</Value>
+      <Value>Выберите {THING:ItemResearchCapsuleRed} в меню {THING:StructureElectronicsPrinter}.</Value>
     </Record>
     <Record>
       <Key>PrintingCapsules3</Key>
-      <Value>Изготовьте {THING:ItemPassiveVent}.</Value>
+      <Value>Изготовьте {THING:ItemResearchCapsuleRed}.</Value>
     </Record>
     <Record>
       <Key>PrintingCapsules4</Key>
-      <Value>Выберите {THING:ItemPassiveVent} в меню {THING:StructureHydraulicPipeBender}.</Value>
+      <Value>Выберите {THING:ItemResearchCapsule} в меню {THING:StructureElectronicsPrinter}.</Value>
     </Record>
     <Record>
       <Key>PrintingCapsules5</Key>
-      <Value>Изготовьте {THING:ItemPassiveVent}.</Value>
+      <Value>Изготовьте {THING:ItemResearchCapsule}.</Value>
     </Record>
     <Record>
       <Key>InsertingCapsules0</Key>
@@ -60,19 +64,19 @@
     </Record>
     <Record>
       <Key>InsertingCapsules1</Key>
-      <Value>Вставьте {THING:ItemDataDisk} в {THING:StructureConsole}.</Value>
+      <Value>Вставьте {THING:ItemResearchCapsuleRed} в порт на задней стенке {THING:StructureResearchMachine}.</Value>
     </Record>
     <Record>
       <Key>CapsuleBreakDown1</Key>
-      <Value>Поместите {THING:ItemBatteryCellLarge} в {THING:StructureAreaPowerControl}.</Value>
+      <Value>Переработайте {THING:ItemResearchCapsule} используя {THING:StructureResearchMachine}.</Value>
     </Record>
     <Record>
       <Key>ItemsUnlocked1</Key>
-      <Value>Выберите {THING:ItemPassiveVent} в меню {THING:StructureHydraulicPipeBender}.</Value>
+      <Value>Выберите {THING:CircuitboardAirControl} в меню {THING:StructureElectronicsPrinter}.</Value>
     </Record>
     <Record>
       <Key>ItemsUnlocked2</Key>
-      <Value>Установите {THING:CircuitboardAirlockControl} в {THING:StructureConsole}.</Value>
+      <Value>Изготовьте {THING:CircuitboardAirControl} в {THING:StructureElectronicsPrinter}.</Value>
     </Record>
   </Interface>
 </Language>
