@@ -3,6 +3,10 @@
   <Code>TR</Code>
   <Interface>
     <Record>
+      <Key>08BasicHydroponics</Key>
+      <Value>Temel Hidroponik</Value>
+    </Record>
+    <Record>
       <Key>PortableHydroponicsTask1</Key>
       <Value>Bir {THING:ItemPotato} al.</Value>
     </Record>
@@ -15,12 +19,20 @@
       <Value>{THING:ItemTablet}&apos;e İzleyici Kartuşu yerleştir.</Value>
     </Record>
     <Record>
+      <Key>PotatosInSpace</Key>
+      <Value>Uzayda Patates</Value>
+    </Record>
+    <Record>
       <Key>PotatosInSpaceDescription</Key>
       <Value>{THING:ItemEvaSuit} yuva penceresini aç</Value>
     </Record>
     <Record>
       <Key>PotatosInSpaceTask2</Key>
       <Value>{THING:ItemDataDisk}&apos;nı yerleştir.</Value>
+    </Record>
+    <Record>
+      <Key>FixedHydroponics</Key>
+      <Value>Sabit Hidroponik</Value>
     </Record>
     <Record>
       <Key>FixedHydroponicsTask1</Key>
@@ -39,8 +51,16 @@
       <Value>Vurgulanan noktaya {THING:StructureGasSensor}&apos;nü inşa et.</Value>
     </Record>
     <Record>
+      <Key>WaterTanksAndWrenches</Key>
+      <Value>Su Tankları ve İngiliz Anahtarları</Value>
+    </Record>
+    <Record>
       <Key>WaterTanksAndWrenches1</Key>
       <Value>{SLOT:Belt}&apos;ndeki {THING:ItemDrill}&apos;nı kullan.</Value>
+    </Record>
+    <Record>
+      <Key>WaterNetworks</Key>
+      <Value>Su Şebekeleri</Value>
     </Record>
     <Record>
       <Key>WaterNetworksTask1</Key>
@@ -51,12 +71,20 @@
       <Value>Vurgulanan noktaya başka bir {THING:StructureActiveVent} yerleştir.</Value>
     </Record>
     <Record>
+      <Key>KeepingItTidy</Key>
+      <Value>Düzenli Tutmak</Value>
+    </Record>
+    <Record>
       <Key>KeepingItTidyTask1</Key>
       <Value>Turuncu sandıktan bir {THING:ItemCopperIngot} al.</Value>
     </Record>
     <Record>
       <Key>KeepingItTidyTask2</Key>
       <Value>Vurgulanan noktaya başka bir {THING:StructureActiveVent} yerleştir.</Value>
+    </Record>
+    <Record>
+      <Key>AutomatedHydroponics</Key>
+      <Value>Otomatik Hidroponik</Value>
     </Record>
     <Record>
       <Key>AutomatedHydroponicsTask1</Key>
@@ -69,6 +97,10 @@
     <Record>
       <Key>AutomatedHydroponicsTask3</Key>
       <Value>{THING:StructureConsole}&apos;a {THING:ItemDataDisk}&apos;ni yerleştir.</Value>
+    </Record>
+    <Record>
+      <Key>HonestWork</Key>
+      <Value>Dürüst Çalışma</Value>
     </Record>
     <Record>
       <Key>HonestWorkTask2</Key>
