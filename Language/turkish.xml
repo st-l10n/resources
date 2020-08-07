@@ -6887,6 +6887,10 @@ Sıcaklık {1}</Value>
       <Value>Arazi Karmaşıklığı Çarpanı</Value>
     </Record>
     <Record>
+      <Key>ActivateResearch</Key>
+      <Value>Araştırma sürecini başlatır.</Value>
+    </Record>
+    <Record>
       <Key>CurrentResearchPodType</Key>
       <Value>yuvadaki yapının hash&apos;ini döndürür</Value>
     </Record>
@@ -7271,20 +7275,40 @@ Sıcaklık {1}</Value>
       <Value>Çevir</Value>
     </Record>
     <Record>
+      <Key>BuildStateOfHash</Key>
+      <Value>{0} / {1}</Value>
+    </Record>
+    <Record>
+      <Key>Stage1Contains</Key>
+      <Value>{2}Aşama{1}{3}&apos;den {0} içerir</Value>
+    </Record>
+    <Record>
+      <Key>PlantWillCreate</Key>
+      <Value>Bu {2}{0}{3} x {1} yaratacak</Value>
+    </Record>
+    <Record>
+      <Key>PlantGrowing</Key>
+      <Value>{0} {1}büyüyor{2}</Value>
+    </Record>
+    <Record>
+      <Key>PlantDead</Key>
+      <Value>{0} {1}ölü{2}</Value>
+    </Record>
+    <Record>
       <Key>PlantHydrate</Key>
-      <Value>{0}, {1}sudan{2} yoksun</Value>
+      <Value>{0} {1}sudan{2} yoksun</Value>
     </Record>
     <Record>
       <Key>NoAtmos</Key>
-      <Value>{0}&apos;in, {1}atmosferi{2} yok</Value>
+      <Value>{0}&apos;in {1}atmosferi{2} yok</Value>
     </Record>
     <Record>
       <Key>PlantTemperature</Key>
-      <Value>{0}, doğru {1}sıcakta{2} değil</Value>
+      <Value>{0} doğru {1}sıcakta{2} değil</Value>
     </Record>
     <Record>
       <Key>PlantNoSunlight</Key>
-      <Value>{0}, gerekli {1}güneş ışığına{2} sahip değil</Value>
+      <Value>{0} gerekli {1}güneş ışığına{2} sahip değil</Value>
     </Record>
     <Record>
       <Key>PlantToxic</Key>
