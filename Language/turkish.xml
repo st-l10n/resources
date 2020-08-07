@@ -6963,6 +6963,14 @@ Sıcaklık {1}</Value>
       <Value>Yazmaç = a mod b (not: a % b değildir)</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandJr</Key>
+      <Value>a satırına göreceli olarak atlama</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJr</Key>
+      <Value>a satırına göreceli olarak atlama</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandSqrt</Key>
       <Value>Yazmaç = a&apos;nın karekökü</Value>
     </Record>
@@ -7007,6 +7015,10 @@ Sıcaklık {1}</Value>
       <Value>Yazmaç = rastgele bir x değeri; 0 &lt;= x &lt; 1 aralığında</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandYield</Key>
+      <Value>Yürütmeyi 1 tik için duraklatır</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandPeek</Key>
       <Value>Yazmaç = yığının en üstündeki değer</Value>
     </Record>
@@ -7015,8 +7027,16 @@ Sıcaklık {1}</Value>
       <Value>Yazmaç = yığının en üstündeki değerdir ve sp bir azaltılır</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandHcf</Key>
+      <Value>Dur ve alev al</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandSelect</Key>
       <Value>Yazmaç = b, eğer a sıfır değil ise; diğer durumda c</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSleep</Key>
+      <Value>IC&apos;deki yürütmeyi bir saniye için duraklatır</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSin</Key>
