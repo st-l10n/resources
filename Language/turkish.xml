@@ -5012,6 +5012,18 @@
       <Value>#VAR1# montaja izin vermiyor</Value>
     </Record>
     <Record>
+      <Key>TooltipPlacementSnapFaceNotMountableFallback</Key>
+      <Value>Bu yapılardan biri montaja izin vermiyor</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceWrongFaceDynamic</Key>
+      <Value>#VAR1#&apos;in bu yüzüne montaj edilemiyor; diğerini deneyin</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceWrongFaceFallback</Key>
+      <Value>Bu yüze montaj edilemiyor; diğerini deneyin</Value>
+    </Record>
+    <Record>
       <Key>GameMenuClearDisconnectedPlayers</Key>
       <Value>Bağlantısı Kesilmiş Oyuncuları Temizle</Value>
     </Record>
@@ -7259,6 +7271,22 @@ Sıcaklık {1}</Value>
       <Value>Çevir</Value>
     </Record>
     <Record>
+      <Key>PlantHydrate</Key>
+      <Value>{0}, {1}sudan{2} yoksun</Value>
+    </Record>
+    <Record>
+      <Key>NoAtmos</Key>
+      <Value>{0}&apos;in, {1}atmosferi{2} yok</Value>
+    </Record>
+    <Record>
+      <Key>PlantTemperature</Key>
+      <Value>{0}, doğru {1}sıcakta{2} değil</Value>
+    </Record>
+    <Record>
+      <Key>PlantNoSunlight</Key>
+      <Value>{0}, gerekli {1}güneş ışığına{2} sahip değil</Value>
+    </Record>
+    <Record>
       <Key>PlantToxic</Key>
       <Value>Atmosferdeki yüksek {1}kirletici madde{2} nedeni ile {0} zarar görüyor</Value>
     </Record>
@@ -7293,6 +7321,10 @@ Sıcaklık {1}</Value>
     <Record>
       <Key>All</Key>
       <Value>Hepsi</Value>
+    </Record>
+    <Record>
+      <Key>DeconstructToolTipText</Key>
+      <Value>Sökmek için {0} gerekli</Value>
     </Record>
   </Interface>
   <Colors>
