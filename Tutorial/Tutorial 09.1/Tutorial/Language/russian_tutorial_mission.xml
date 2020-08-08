@@ -23,6 +23,15 @@
       <Value>Установите {THING:ItemGlassSheets} на {THING:StructureConsole}.</Value>
     </Record>
     <Record>
+      <Key>ConfigureGasSensorDescription</Key>
+      <Value>Теперь вы можете включить и настроить {THING:StructureConsole}.
+
+{THING:StructureConsole} слева будет отображать давление, поэтому новая консоль должна отображать температуру. После включения консоли и вставки {THING:ItemDataDisk}, переключите режим на &apos;Температуру&apos;, нажав на опцию &apos;Давление&apos;.
+
+Теперь выберите {THING:StructureFurnace} в качестве устройства ввода для консоли. Прокрутите вниз, пока не увидите {THING:StructureFurnace} и выберите его. 
+    </Value>
+    </Record>
+    <Record>
       <Key>ConfigureGasSensorTask1</Key>
       <Value>Включите {THING:StructureConsole}</Value>
     </Record>
@@ -31,8 +40,16 @@
       <Value>Вставьте {THING:ItemDataDisk} из ящика в {THING:StructureConsole}</Value>
     </Record>
     <Record>
+      <Key>ConfigureGasSensorTask3</Key>
+      <Value>Выберите {THING:StructureFurnace} в качестве устройства ввода на{THING:StructureConsole} и измените режим на &apos;Температуру&apos;.</Value>
+    </Record>
+    <Record>
       <Key>ConfigureGasSensorTask4</Key>
       <Value>Заберите диск из {THING:StructureConsole}.</Value>
+    </Record>
+    <Record>
+      <Key>HowToMakeSteel</Key>
+      <Value>Как Делать Сталь</Value>
     </Record>
     <Record>
       <Key>HowToMakeSteelTask1</Key>
