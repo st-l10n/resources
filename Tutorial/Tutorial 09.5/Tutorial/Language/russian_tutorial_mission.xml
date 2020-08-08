@@ -63,6 +63,10 @@
       <Value>Ракетная Инженерия 101</Value>
     </Record>
     <Record>
+      <Key>RocketEngines2Description</Key>
+      <Value>Вопреки распространенному мнению, создание ракетного двигателя так же просто, как 1,2,3. Вам просто нужно немного стали, пластика и электроники.</Value>
+    </Record>
+    <Record>
       <Key>RocketEngines2Task1</Key>
       <Value>Приварите {THING:ItemSteelSheets} к {THING:StructureModularRocketEngine01}</Value>
     </Record>
@@ -77,6 +81,10 @@
     <Record>
       <Key>FuelTanks</Key>
       <Value>Топливные Баки</Value>
+    </Record>
+    <Record>
+      <Key>FuelTanksDescription</Key>
+      <Value>Топливный бак является следующим модулем ракеты. Вы можете иметь несколько модулей топливного бака на ракете, чтобы нести больше топлива. Это позволит вам взять с собой больше груза.</Value>
     </Record>
     <Record>
       <Key>FuelTanksTask1</Key>
@@ -111,12 +119,24 @@
       <Value>Грузовой Отсек</Value>
     </Record>
     <Record>
+      <Key>CargoModuleDescription</Key>
+      <Value>Грузовой модуль позволяет взять с собой оборудование и устройства к следующему пункту назначения. Вы можете построить более одного грузового модуля, но они должны быть выше топливных баков.</Value>
+    </Record>
+    <Record>
       <Key>CargoModuleTask1</Key>
       <Value>Возьмите {THING:ItemKitStructureModularRocketCargo01} из левого ящика</Value>
     </Record>
     <Record>
       <Key>CargoModuleTask2</Key>
       <Value>Постройте {THING:StructureModularRocketCargo01} в выделенном месте</Value>
+    </Record>
+    <Record>
+      <Key>CargoModule2</Key>
+      <Value>Строим Грузовой Модуль</Value>
+    </Record>
+    <Record>
+      <Key>CargoModule2Description</Key>
+      <Value>Строительство грузового модуля аналогично другим модулям. Строительство нескольких модулей добавит больше веса ракете и потребует больше топлива для выхода из гравитационного поля планеты.</Value>
     </Record>
     <Record>
       <Key>CargoModule2Task1</Key>
