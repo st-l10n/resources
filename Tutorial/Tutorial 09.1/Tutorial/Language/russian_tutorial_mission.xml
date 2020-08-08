@@ -64,6 +64,13 @@
       <Value>Разжигание Печки</Value>
     </Record>
     <Record>
+      <Key>IgnitingTheFurnaceDescription</Key>
+      <Value>Чтобы выплавить сталь, в {THING:StructureFurnace} нужно достичь минимального необходимого давления и температуры. Это может быть сделано путем добавления летучих веществ и окситов в форме льда непосредственно в печь, или путем предоставления топливной смеси.
+
+Первый метод использует две части летучих веществ и одну часть оксита. Будьте осторожны и не перегрузите {THING:StructureFurnace}, так как добавление слишком большого количества окситов или летучих веществ может привести большому давлению на печь, что приведет к разрушительному взрыву.
+    </Value>
+    </Record>
+    <Record>
       <Key>IgnitingTheFurnaceTask1</Key>
       <Value>Возьмите {THING:ItemVolatiles} из красного ящика</Value>
     </Record>
@@ -92,6 +99,13 @@
       <Value>Переплавка Железа</Value>
     </Record>
     <Record>
+      <Key>SmeltingIronDescription</Key>
+      <Value>Как и в {THING:StructureArcFurnace}, вы можете плавить руды в {THING:StructureFurnace}, но вы также можете их комбинировать. Комбинирование изменяет состав металлов, создавая новые сплавы. Если вы ошибетесь, вы будете создавать {THING:ItemReagentMix} вместо сплавов.
+
+Начните с добавления трех частей {THING:ItemIronOre} в {THING:StructureFurnace}.
+    </Value>
+    </Record>
+    <Record>
       <Key>SmeltingIronTask1</Key>
       <Value>Возьмите {THING:ItemIronOre} из красного ящика</Value>
     </Record>
@@ -100,12 +114,24 @@
       <Value>Положите {THING:ItemIronOre} в {THING:StructureFurnace}</Value>
     </Record>
     <Record>
+      <Key>MakingAnAlloy</Key>
+      <Value>Делаем Сплав</Value>
+    </Record>
+    <Record>
+      <Key>MakingAnAlloyDescription</Key>
+      <Value>Теперь вы можете превратить расплавленное железо в сталь. Чтобы сделать это, добавьте одну часть {THING:ItemCoalOre} в смесь.</Value>
+    </Record>
+    <Record>
       <Key>MakingAnAlloyTask1</Key>
       <Value>Возьмите {THING:ItemCoalOre} из красного ящика</Value>
     </Record>
     <Record>
       <Key>MakingAnAlloyTask2</Key>
       <Value>Вставьте {THING:ItemCoalOre} в {THING:StructureFurnace}</Value>
+    </Record>
+    <Record>
+      <Key>FromingTheIngot</Key>
+      <Value>Изготовление Слитка</Value>
     </Record>
     <Record>
       <Key>FromingTheIngotTask2</Key>
