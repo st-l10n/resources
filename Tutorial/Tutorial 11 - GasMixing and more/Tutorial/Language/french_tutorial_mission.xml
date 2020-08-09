@@ -3,6 +3,18 @@
   <Code>FR</Code>
   <Interface>
     <Record>
+      <Key>Tutorial11 - GasMixingAndmore</Key>
+      <Value>Mélange de gaz et plus</Value>
+    </Record>
+    <Record>
+      <Key>GasMixingInd</Key>
+      <Value>Mélange de gaz : Introduction </Value>
+    </Record>
+    <Record>
+      <Key>GasMixingIndDescription</Key>
+      <Value>Bienvenue, Cadet ! Dans cette leçon, nous remplirons les réservoirs d’oxygène de votre combinaison, puis mélangerons deux gaz pour en faire du carburant. Le carburant est utilisé pour de nombreuses applications : de l’alimentation de votre soudeuse au lancement de fusées !</Value>
+    </Record>
+    <Record>
       <Key>RemoveingSuitOxyTask1</Key>
       <Value>Utilisez la {THING:ItemDrill} depuis de votre {SLOT:Belt}.</Value>
     </Record>
@@ -17,6 +29,10 @@
     <Record>
       <Key>RetrievingOxyTankTask2</Key>
       <Value>Remplacer les {THING:ItemGlassSheets}.</Value>
+    </Record>
+    <Record>
+      <Key>RemoveingFuelCan</Key>
+      <Value>Retirer le réservoir de carburant</Value>
     </Record>
     <Record>
       <Key>RemoveingFuelCanTask1</Key>
@@ -107,12 +123,20 @@
       <Value>Récupération du réservoir de carburant</Value>
     </Record>
     <Record>
+      <Key>RetrievingTheFuelTankDescription</Key>
+      <Value>Vous disposez maintenant d’un mélange de carburant parfait pour remplir votre {THING:ItemGasCanisterFuel} vide. Laissez-le se remplir, puis retirez-le de {THING:StructureGasTankStorage} et remettez-le de nouveau dans le {THING:ItemWeldingTorch}.</Value>
+    </Record>
+    <Record>
       <Key>RetrievingTheFuelTankTask1</Key>
       <Value>Insérez le {THING:ItemDataDisk} dans la {THING:StructureConsole}.</Value>
     </Record>
     <Record>
       <Key>RetrievingTheFuelTankTask2</Key>
       <Value>Placez la {THING:ItemBatteryCellLarge} dans le {THING:StructureAreaPowerControl}.</Value>
+    </Record>
+    <Record>
+      <Key>TestTheFuelMix</Key>
+      <Value>Test du mélange de carburant</Value>
     </Record>
   </Interface>
 </Language>
