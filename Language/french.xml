@@ -3686,19 +3686,19 @@
     </Record>
     <Record>
       <Key>StructureWallPaddedArchLightFittingTop</Key>
-      <Value>Mur extrudé arc (rampe lumière)</Value>
+      <Value>Mur extrudé arc (rampe lumière plafond)</Value>
     </Record>
     <Record>
       <Key>StructureWallPaddedNoBorder</Key>
-      <Value>Mur extrudé arc</Value>
+      <Value>Mur extrudé arc sans bordure</Value>
     </Record>
     <Record>
       <Key>StructureWallPaddedThinNoBorder</Key>
-      <Value>Mur extrudé fin</Value>
+      <Value>Mur extrudé fin sans bordure</Value>
     </Record>
     <Record>
       <Key>StructureWallPaddedWindowThin</Key>
-      <Value>Mur extrudé fin</Value>
+      <Value>Mur extrudé fin avec fenêtre</Value>
     </Record>
     <Record>
       <Key>StructureWallPaddedThinNoBorderCorner</Key>
@@ -3710,19 +3710,19 @@
     </Record>
     <Record>
       <Key>StructureWallPaddedCorner</Key>
-      <Value>Mur extrudé arc</Value>
+      <Value>Mur extrudé arc coin</Value>
     </Record>
     <Record>
       <Key>StructureWallPaddedCornerThin</Key>
-      <Value>Mur extrudé fin</Value>
+      <Value>Mur extrudé fin coin</Value>
     </Record>
     <Record>
       <Key>StructureWallPaddedArchCorner</Key>
-      <Value>Mur extrudé arc</Value>
+      <Value>Mur extrudé arc coin</Value>
     </Record>
     <Record>
       <Key>StructureWallPaddedWindow</Key>
-      <Value>Mur extrudé</Value>
+      <Value>Mur extrudé avec fenêtre</Value>
     </Record>
     <Record>
       <Key>StructurePipeOrgan</Key>
@@ -3939,12 +3939,20 @@
       <Value>Carte d&apos;accès</Value>
     </Record>
     <Record>
+      <Key>Next</Key>
+      <Value>Suivant</Value>
+    </Record>
+    <Record>
       <Key>Cartridge0</Key>
       <Value>Carte d&apos;accès</Value>
     </Record>
     <Record>
       <Key>Cartridge1</Key>
       <Value>Carte d&apos;accès</Value>
+    </Record>
+    <Record>
+      <Key>Previous</Key>
+      <Value>Précédent</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -4306,15 +4314,19 @@
     </Record>
     <Record>
       <Key>Cartridge2</Key>
-      <Value>Carte</Value>
+      <Value>Carte 2</Value>
     </Record>
     <Record>
       <Key>Cartridge1</Key>
-      <Value>Carte</Value>
+      <Value>Carte 1</Value>
     </Record>
     <Record>
       <Key>Next</Key>
       <Value>Page Suivante</Value>
+    </Record>
+    <Record>
+      <Key>Prev</Key>
+      <Value>Préc</Value>
     </Record>
     <Record>
       <Key>Previous</Key>
@@ -5683,6 +5695,10 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>Distance de rendu</Value>
     </Record>
     <Record>
+      <Key>ScenarioScoreboardBackToMenu</Key>
+      <Value>Menu principal</Value>
+    </Record>
+    <Record>
       <Key>ScenarioScoreboardReturnToGame</Key>
       <Value>Revenir en jeu</Value>
     </Record>
@@ -6795,6 +6811,10 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>Crée une étiquette qui sera remplacée dans tout le programme par la valeur fournie</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandMove</Key>
+      <Value>Register = valeur numérique ou valeur de registre.</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandAdd</Key>
       <Value>Stocke a + b dans le registre</Value>
     </Record>
@@ -6867,6 +6887,14 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>Stocke 1 dans le registre si a != 0, sinon 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandSapz</Key>
+      <Value>Register = 1 if |a| &lt;= float.epsilon * 8, sinon 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSnaz</Key>
+      <Value>Register = 1 if |a| &gt; float.epsilon, sinon 0</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandAnd</Key>
       <Value>Indique 1 si le périphérique est actuellement inactif, sinon 0</Value>
     </Record>
@@ -6889,6 +6917,10 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
     <Record>
       <Key>ScriptCommandDiv</Key>
       <Value>Stocke a / b dans le registre</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandMod</Key>
+      <Value>Register = a mod b (note: différent de a % b)</Value>
     </Record>
     <Record>
       <Key>ScriptCommandJ</Key>
@@ -7359,6 +7391,14 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>Joueurs:</Value>
     </Record>
     <Record>
+      <Key>Deceased</Key>
+      <Value>Décédé</Value>
+    </Record>
+    <Record>
+      <Key>Unconscious</Key>
+      <Value>Inconscient</Value>
+    </Record>
+    <Record>
       <Key>Contents</Key>
       <Value>Contacts</Value>
     </Record>
@@ -7371,12 +7411,44 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>Paramètres d&apos;entrée</Value>
     </Record>
     <Record>
+      <Key>Liquid</Key>
+      <Value>Liquide</Value>
+    </Record>
+    <Record>
+      <Key>Empty</Key>
+      <Value>Vide</Value>
+    </Record>
+    <Record>
       <Key>PlantToxic</Key>
       <Value>Le ratio de polluant dans l’atmosphère du dispositif</Value>
     </Record>
     <Record>
+      <Key>holdhotkey</Key>
+      <Value>(maintenir)</Value>
+    </Record>
+    <Record>
+      <Key>Pipe</Key>
+      <Value>Tuyau</Value>
+    </Record>
+    <Record>
       <Key>Power</Key>
       <Value>Surtension</Value>
+    </Record>
+    <Record>
+      <Key>Data</Key>
+      <Value>Données</Value>
+    </Record>
+    <Record>
+      <Key>Chute</Key>
+      <Value>Goulotte</Value>
+    </Record>
+    <Record>
+      <Key>Elevator</Key>
+      <Value>Ascenseur</Value>
+    </Record>
+    <Record>
+      <Key>PowerAndData</Key>
+      <Value>Puissance et Données</Value>
     </Record>
   </Interface>
   <Colors>
