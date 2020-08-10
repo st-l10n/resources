@@ -61,6 +61,12 @@ Comme vous pouvez le voir, vous avez besoin de trois {THING:ItemIronOre} et un {
       <Value>Le Four à Arc</Value>
     </Record>
     <Record>
+      <Key>IgnitingTheFurnaceDescription</Key>
+      <Value>Pour créer de l’acier, le {THING:StructureFurnace} doit atteindre la pression et la température minimales requises. Cela peut être fait en ajoutant de la glace &apos;Volatiles&apos; et de la glace  ’Oxite&apos; directement dans le four, ou en fournissant un mélange de carburant gazeux .
+
+La première méthode utilise deux glaces &apos;Volatiles&apos; et une glace &apos;Oxite&apos;. Veillez à ne pas surcharger le {THING:StructureFurnace}, car l’ajout d’oxites ou de volatiles va augmenter la pression dans le four et provoquer une explosion dévastatrice.</Value>
+    </Record>
+    <Record>
       <Key>IgnitingTheFurnaceTask1</Key>
       <Value>Prenez un {THING:ItemCopperIngot} dans la caisse orange.</Value>
     </Record>
@@ -95,6 +101,10 @@ Comme vous pouvez le voir, vous avez besoin de trois {THING:ItemIronOre} et un {
     <Record>
       <Key>SmeltingIronTask2</Key>
       <Value>Soudez des {THING:ItemIronSheets} sur le {THING:StructureAutolathe}.</Value>
+    </Record>
+    <Record>
+      <Key>MakingAnAlloy</Key>
+      <Value>Fabrication d’un alliage</Value>
     </Record>
     <Record>
       <Key>MakingAnAlloyTask1</Key>
