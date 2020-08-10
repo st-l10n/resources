@@ -23,6 +23,10 @@
       <Value>Ramasser les {THING:ItemGlassSheets}.</Value>
     </Record>
     <Record>
+      <Key>ConfigureGasSensor</Key>
+      <Value>Configurer l’affichage du capteur de gaz</Value>
+    </Record>
+    <Record>
       <Key>ConfigureGasSensorTask1</Key>
       <Value>Allumez le {THING:StructureAutolathe}.</Value>
     </Record>
@@ -35,8 +39,22 @@
       <Value>Insérez le {THING:ItemDataDisk} dans la {THING:StructureConsole}.</Value>
     </Record>
     <Record>
+      <Key>HowToMakeSteel</Key>
+      <Value>Comment produire de l’acier</Value>
+    </Record>
+    <Record>
+      <Key>HowToMakeSteelDescription</Key>
+      <Value>Pour trouver la recette de l’acier, ouvrez la Stationpedia avec la touche {KEY:Help}. Maintenez la touche {KEY:MouseControl} et accédez à la section &apos;Éléments&apos;, puis cliquez sur le lien &apos;Alliages&apos;. Dans la page &apos;Alliages&apos;, cliquez sur le lien &apos;Lingot (acier)&apos;.
+
+Comme vous pouvez le voir, vous avez besoin de trois {THING:ItemIronOre} et un {THING:ItemCoalOre} pour faire de l’acier. Ceux-ci doivent être combinés à une température minimale de 600K et une pression minimale de 100.0kPa.</Value>
+    </Record>
+    <Record>
       <Key>HowToMakeSteelTask1</Key>
       <Value>Fermez le {LINK:Home;Stationpedia}.</Value>
+    </Record>
+    <Record>
+      <Key>HowToMakeSteelTask2</Key>
+      <Value>Accédez à la page &apos;Lingot (acier)&apos;</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnace</Key>
