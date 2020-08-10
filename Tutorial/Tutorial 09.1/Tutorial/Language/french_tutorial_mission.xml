@@ -149,6 +149,12 @@ Commencez par ajouter trois {THING:ItemIronOre} dans {THING:StructureFurnace}.</
       <Value>Ventilation des gaz</Value>
     </Record>
     <Record>
+      <Key>VentingTheGasesDescription</Key>
+      <Value>Le {THING:StructureFurnace} est actuellement rempli de gaz toxique à haute pression. Vous pouvez l’évacuer directement dans l’atmosphère. Ou, vous pouvez refroidir, filtrer et recycler ce gaz pour une utilisation future. 
+
+Avant de recharger le {THING:StructureFurnace} avec un mélange de carburant, vous devez ventiler les gaz résiduels. Le tuyau de sortie est connecté à une {THING:StructureValve} qui empêche les gaz de s’échapper, et à une {THING:StructureVolumePump} pour l’évacuation des gaz.</Value>
+    </Record>
+    <Record>
       <Key>VentingTheGasesTask1</Key>
       <Value>Soudez le {THING:StructureFrame} pour terminer le tutoriel</Value>
     </Record>
