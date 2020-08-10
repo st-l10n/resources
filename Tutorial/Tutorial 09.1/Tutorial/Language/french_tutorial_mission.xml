@@ -95,6 +95,12 @@ La première méthode utilise deux glaces &apos;Volatiles&apos; et une glace &ap
       <Value>La fonderie</Value>
     </Record>
     <Record>
+      <Key>SmeltingIronDescription</Key>
+      <Value>Comme le {THING:StructureArcFurnace}, vous pouvez fondre les minerais dans {THING:StructureFurnace}, mais vous pouvez également les combiner. Ceux-ci modifient la composition des métaux, créant de nouveaux alliages. Si vous faites un mauvais mélange, vous allez obtenir un {THING:ItemReagentMix}.
+
+Commencez par ajouter trois {THING:ItemIronOre} dans {THING:StructureFurnace}.</Value>
+    </Record>
+    <Record>
       <Key>SmeltingIronTask1</Key>
       <Value>Prenez un {THING:ItemIronIngot} dans la caisse orange.</Value>
     </Record>
@@ -107,12 +113,24 @@ La première méthode utilise deux glaces &apos;Volatiles&apos; et une glace &ap
       <Value>Fabrication d’un alliage</Value>
     </Record>
     <Record>
+      <Key>MakingAnAlloyDescription</Key>
+      <Value>Vous pouvez maintenant transformer le fer fondu en acier. Pour ce faire, ajoutez un {THING:ItemCoalOre} dans le {THING:StructureFurnace}.</Value>
+    </Record>
+    <Record>
       <Key>MakingAnAlloyTask1</Key>
       <Value>Prenez un {THING:ItemCopperIngot} dans la caisse orange.</Value>
     </Record>
     <Record>
       <Key>MakingAnAlloyTask2</Key>
       <Value>Insérez le {THING:ItemDataDisk} dans la {THING:StructureConsole}.</Value>
+    </Record>
+    <Record>
+      <Key>FromingTheIngot</Key>
+      <Value>Formation du lingot</Value>
+    </Record>
+    <Record>
+      <Key>FromingTheIngotDescription</Key>
+      <Value>Utilisez le levier pour ouvrir le {THING:StructureFurnace} et obtenir le nouveau {THING:ItemSteelIngot}. Cela vous fournira la moitié de l’acier requis pour faire un {THING:ItemKitBattery}.</Value>
     </Record>
     <Record>
       <Key>FromingTheIngotTask1</Key>
@@ -125,6 +143,10 @@ La première méthode utilise deux glaces &apos;Volatiles&apos; et une glace &ap
     <Record>
       <Key>FromingTheIngotTask3</Key>
       <Value>Sélectionnez le {THING:ItemPassiveVent} dans le {THING:StructureHydraulicPipeBender}.</Value>
+    </Record>
+    <Record>
+      <Key>VentingTheGases</Key>
+      <Value>Ventilation des gaz</Value>
     </Record>
     <Record>
       <Key>VentingTheGasesTask1</Key>
