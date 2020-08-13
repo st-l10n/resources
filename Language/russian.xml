@@ -7227,6 +7227,14 @@
       <Value>Отменить</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandAdd</Key>
+      <Value>Регистр = a + b.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSub</Key>
+      <Value>Регистр = a - b.</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandSdse</Key>
       <Value>Регистр = 1, если устройство заданно, иначе 0.</Value>
     </Record>
@@ -7319,12 +7327,32 @@
       <Value>Переход на строку А относительно текущей</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandLog</Key>
+      <Value>Регистр = log(a)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandExp</Key>
+      <Value>Регистр = exp(a)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandRand</Key>
+      <Value>Регистр = случайное значение x между 0 &lt;= x &lt; 1</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandYield</Key>
       <Value>Приостановка выполнения на 1 тик (0,5 секунд)</Value>
     </Record>
     <Record>
       <Key>ScriptCommandLabel</Key>
       <Value>НЕ РЕКОМЕНДУЕТСЯ</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandPeek</Key>
+      <Value>Регистр = значение верхнего стека</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandPush</Key>
+      <Value>Помещает значение a в стек и увеличивает sp</Value>
     </Record>
     <Record>
       <Key>ScriptCommandPop</Key>
