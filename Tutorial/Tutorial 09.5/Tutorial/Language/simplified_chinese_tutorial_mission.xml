@@ -7,8 +7,24 @@
       <Value>基础火箭</Value>
     </Record>
     <Record>
+      <Key>LaunchPlatforms</Key>
+      <Value>火箭学入门</Value>
+    </Record>
+    <Record>
+      <Key>LaunchPlatformsDescription</Key>
+      <Value>在能发射火箭之前，你要建个发射台.</Value>
+    </Record>
+    <Record>
+      <Key>LaunchPlatformsTask1</Key>
+      <Value>沿着路走到发射场然后从白色箱中拿出{THING:ItemKitStructureLaunchPad}.</Value>
+    </Record>
+    <Record>
       <Key>LaunchPlatformsTask2</Key>
       <Value>在高亮位置处建造 {THING:StructureLaunchPad}.</Value>
+    </Record>
+    <Record>
+      <Key>LaunchPlatforms2</Key>
+      <Value>建造发射平台</Value>
     </Record>
     <Record>
       <Key>WeildSteelPlatesL</Key>
@@ -17,6 +33,10 @@
     <Record>
       <Key>ElectronicsL</Key>
       <Value>给 {THING:StructureLaunchPad} 装上电线.</Value>
+    </Record>
+    <Record>
+      <Key>RocketEngines</Key>
+      <Value>火箭引擎</Value>
     </Record>
     <Record>
       <Key>RocketEnginesTask1</Key>
@@ -39,12 +59,20 @@
       <Value>给{THING:StructureModularRocketEngine01} 安上 {THING:ItemElectronicParts}。</Value>
     </Record>
     <Record>
+      <Key>FuelTanks</Key>
+      <Value>燃料箱</Value>
+    </Record>
+    <Record>
       <Key>FuelTanksTask1</Key>
       <Value>从左边的箱中拿出 {THING:ItemKitStructureModularRocketFueltank01}。</Value>
     </Record>
     <Record>
       <Key>FuelTanksTask2</Key>
       <Value>在高亮位置处建造 {THING:StructureModularRocketFueltank01}</Value>
+    </Record>
+    <Record>
+      <Key>FuelTanks2</Key>
+      <Value>燃料箱</Value>
     </Record>
     <Record>
       <Key>FuelTanks2Task1</Key>
@@ -71,6 +99,10 @@
       <Value>在高亮位置处建造 {THING:StructureModularRocketCargo01}</Value>
     </Record>
     <Record>
+      <Key>CargoModule2</Key>
+      <Value>建造货舱</Value>
+    </Record>
+    <Record>
       <Key>CargoModule2Task1</Key>
       <Value>把这些 {THING:ItemSteelSheets} 焊接到 {THING:StructureModularRocketCargo01} 上。</Value>
     </Record>
@@ -81,6 +113,10 @@
     <Record>
       <Key>CargoModule2Task3</Key>
       <Value>给 {THING:StructureModularRocketCargo01} 安上 {THING:ItemElectronicParts}。</Value>
+    </Record>
+    <Record>
+      <Key>CommandMod</Key>
+      <Value>指令舱</Value>
     </Record>
     <Record>
       <Key>CommandModTask1</Key>
@@ -153,6 +189,10 @@
     <Record>
       <Key>SettingTheDestination8</Key>
       <Value>最后, 打开 {THING:StructureLogicWriter} 的开关。再次确认之前的步骤是否正确,</Value>
+    </Record>
+    <Record>
+      <Key>LaunchRocket</Key>
+      <Value>发射时间</Value>
     </Record>
     <Record>
       <Key>LaunchRocketTask1</Key>
