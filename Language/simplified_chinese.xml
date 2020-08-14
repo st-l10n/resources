@@ -1538,19 +1538,19 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallType1</Key>
-      <Value>复合墙体类型1</Value>
+      <Value>复合墙体(类型 1)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallType2</Key>
-      <Value>复合墙体类型2</Value>
+      <Value>复合墙体(类型 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallType3</Key>
-      <Value>复合墙体类型3</Value>
+      <Value>复合墙体(类型 3)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallType4</Key>
-      <Value>复合墙体类型4</Value>
+      <Value>复合墙体(类型4)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWindow</Key>
@@ -2530,23 +2530,23 @@
     </RecordThing>
     <RecordThing>
       <Key>CompositeFloorGrating1</Key>
-      <Value>复合地板格栅 1</Value>
+      <Value>复合地板格栅(类型1)</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeFloorGrating2</Key>
-      <Value>复合地板格栅 2</Value>
+      <Value>复合地板格栅(类型2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeFloorGrating2</Key>
-      <Value>复合地板光栅2</Value>
+      <Value>复合地板格栅  (类型2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeFloorGrating3</Key>
-      <Value>复合地板格栅 3</Value>
+      <Value>复合地板格栅  (类型3)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeFloorGrating4</Key>
-      <Value>复合地板格栅 4</Value>
+      <Value>复合地板格栅  (类型4)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWallPanels</Key>
@@ -3746,23 +3746,23 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketCommand01</Key>
-      <Value>套件 火箭指令舱</Value>
+      <Value>套件(火箭指令舱)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketCargo01</Key>
-      <Value>套件 火箭货舱</Value>
+      <Value>套件(火箭货舱)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureLaunchPad</Key>
-      <Value>套件 发射台</Value>
+      <Value>套件(发射台)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketEngine01</Key>
-      <Value>套件 火箭引擎</Value>
+      <Value>套件(火箭引擎)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketFueltank01</Key>
-      <Value>套件 火箭燃料箱</Value>
+      <Value>套件(火箭燃料箱)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallIron02</Key>
@@ -3830,19 +3830,19 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedArchLightFittingTop</Key>
-      <Value>拱型上下配灯</Value>
+      <Value>墙体(拱型顶部配灯)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedNoBorder</Key>
-      <Value>壁拱型填充墙</Value>
+      <Value>墙体(壁拱型填充)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedThinNoBorder</Key>
-      <Value>薄型填充墙</Value>
+      <Value>墙体(薄型填充)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedWindowThin</Key>
-      <Value>薄型填充墙</Value>
+      <Value>墙体(薄型填充)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedThinNoBorderCorner</Key>
@@ -5651,15 +5651,10 @@
     </Record>
     <Record>
       <Key>NewWorldMoonDesc</Key>
-      <Value>终于顺利降落到基地预定点了，看来补给箱应该都没有少，情况应该还不算很糟.
-
-月球的表面看起来冷冰冰，让人不由得感受到寂静且孤独...
-不过幸好太阳还在，得先尽快把太阳能板跟基础电力设施安装起来，好让设备可以运作。
-
-还好我还有带着挖矿工具跟电弧炉，我就知道这迟早会派到上用场，提炼矿石碇应该不成问题。
-
-但这食物补给看来不多，看来我得赶快想办法！不然这样绝对撑不了几天。...
-那么，是先建个气闸舱还是先把电力设施完善了呢，还是说我先去挖点矿?</Value>
+      <Value>现在你被困在月球上了, 但情况也没有你想得那么坏.当然, 这里温度很低, 环境恶劣, 且景色非常单调, 但至少太阳还高挂在头上. 也就是说太阳能电池板对你是有用的, 还有电源控制器... 电弧炉也可能非常有用.
+                                              在其他的箱子里甚至还有一些食物和氧气, 不过不会帮你太久就是了. 还有你的电池.
+                                              你最好开始好好思考你该如何在这里生存下去. 弄个气闸舱室能有多难呢? 发电机会成问题吗? 熔炼矿石来建造基地会是你的终极问题吗?
+                                              无论如何，看来你得在这里呆一段时间了.</Value>
     </Record>
     <Record>
       <Key>NewWorldSpaceDesc</Key>
