@@ -302,6 +302,37 @@ Více informací o raketových modulech naleznete {LINK:RocketShuttleModulesHelp
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>RocketShuttleModulesHelpPage</Key>
+      <Title>Raketoplán</Title>
+      <Text>{HEADER:Modulární raketový náklad}
+
+{THING:StructureModularRocketCargo01} má kapacitu pro dvě bedny s deseti sloty. Na raketě můžete mít více nákladových modulů. Raketa může zvednout celkem až sedm modulů.
+
+{HEADER:Modulární raketové velení}
+
+{THING:StructureModularRocketCommand01} musí být umístěna na vrcholu rakety. Posoudí připravenost rakety k letu. Jakmile jsou splněny všechny podmínky, může být raketa vypuštěna, když všichni hráči sedí v modulu stisknutím tlačítka ‘Spuštění’ na konzoli.
+
+Pro spuštění musí být splněny následující podmínky:
+
+Palivo plné
+Poměr směsi paliva správný
+Všichni hráči sedící
+Napájení do odpalovací rampy
+Plně postavená raketa
+
+Konzole {THING:StructureModularRocketCommand01} zobrazuje aktuální stav těchto podmínek. Nevyžaduje atmosféru pro zvednutí - atmosféra vašeho obleku je dostatečná.
+
+{HEADER:Modulární raketový motor}
+
+{THING:StructureModularRocketEngine01} je schopen zvednout až sedm modulů (včetně sebe).
+
+{HEADER:Modulární raketová palivová nádrž}
+
+{THING:StructureModularRocketFueltank01} vyžaduje směs 2:1 {GAS:Těkavé látky} a {GAS:Kyslík}. Pokud směs překročí tyto proporce nebo umístíte do nádrže jiné plyny, konzole {THING:StructureModularRocketCommand01} zobrazí chybu ‘Neplatný’.
+
+          </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>RocketShuttlePage</Key>
       <Title>Raketoplán</Title>
       <Text>Jedná se o raketové moduly, které se používají k cestování mezi světy. {THING:StructureLaunchPad} je vyžadována.
