@@ -128,7 +128,7 @@
     </Record>
     <Record>
       <Key>SmeltingIronDescription</Key>
-      <Value>Как и в {THING:StructureArcFurnace}, вы можете плавить руды в {THING:StructureFurnace}, но вы также можете их комбинировать. Комбинирование изменяет состав металлов, создавая новые сплавы. Если вы ошибетесь, вы будете создавать {THING:ItemReagentMix} вместо сплавов.
+      <Value>Как и в {THING:StructureArcFurnace}, вы можете плавить руды в {THING:StructureFurnace}, но вы также можете их комбинировать. Комбинирование изменяет состав металлов, создавая новые сплавы. Если вы ошибетесь, будет создана {THING:ItemReagentMix} вместо сплава.
 
 Начните с добавления трех частей {THING:ItemIronOre} в {THING:StructureFurnace}.
     </Value>
@@ -160,6 +160,10 @@
     <Record>
       <Key>FromingTheIngot</Key>
       <Value>Изготовление Слитка</Value>
+    </Record>
+    <Record>
+      <Key>FromingTheIngotDescription</Key>
+      <Value>Потяните рычаг, чтобы открыть {THING:StructureFurnace} и получить недавно сделанный {THING:ItemSteelIngot}. Это даст вам половину стали, необходимой для изготовления {THING:ItemKitBattery}.</Value>
     </Record>
     <Record>
       <Key>FromingTheIngotTask2</Key>
