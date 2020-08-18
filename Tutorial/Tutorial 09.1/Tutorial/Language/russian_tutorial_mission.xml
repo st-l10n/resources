@@ -196,12 +196,36 @@
       <Value>Включите {THING:StructureVolumePump}</Value>
     </Record>
     <Record>
+      <Key>VentingTheGasesTask3</Key>
+      <Value>Подождите, пока давление в {THING:StructureFurnace} упадет до 2 кПа на левом дисплее.</Value>
+    </Record>
+    <Record>
+      <Key>VentingTheGasesDescription2</Key>
+      <Value>Теперь, когда газы выпущены, закройте {THING:StructureValve} и выключите {THING:StructureVolumePump}.</Value>
+    </Record>
+    <Record>
       <Key>VentingTheGasesTask4</Key>
       <Value>Закройте {THING:StructureValve}</Value>
     </Record>
     <Record>
       <Key>VentingTheGasesTask5</Key>
       <Value>Выключите {THING:StructureVolumePump}</Value>
+    </Record>
+    <Record>
+      <Key>AddingFuelMix</Key>
+      <Value>Добавление топливной смеси</Value>
+    </Record>
+    <Record>
+      <Key>AddingFuelMixDescription</Key>
+      <Value>Теперь, когда {THING:StructureFurnace} пуста, мы можем пополнить ее другим способом, подав подготовленную топливную смесь во входную трубу.
+
+Идеальная топливная смесь для {THING:StructureFurnace} - это смесь из 75% летучих веществ и 25% кислорода.
+
+Перед заправкой обязательно закройте рычаг плавильни!</Value>
+    </Record>
+    <Record>
+      <Key>AddingFuelMixTask1</Key>
+      <Value>Откройте входной клапан с правой стороны {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>AddingFuelMixTask3</Key>
