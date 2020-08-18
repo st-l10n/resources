@@ -178,6 +178,16 @@
       <Value>Вставьте {THING:ItemSteelIngot} в {THING:StructureElectronicsPrinter}</Value>
     </Record>
     <Record>
+      <Key>VentingTheGases</Key>
+      <Value>Отвод газов</Value>
+    </Record>
+    <Record>
+      <Key>VentingTheGasesDescription</Key>
+      <Value>Сейчас {THING:StructureFurnace} заполнена ядовитым газом под высоким давлением. Вы можете выпустить его прямо в атмосферу. В качестве альтернативы вы можете охладить, отфильтровать и переработать газы для использования в будущем.
+
+Прежде чем вы попытаетесь заправить {THING:StructureFurnace} топливной смесью, вам нужно ее выпустить. Выходная труба подключена к {THING:StructureValve}, предотвращающему утечку газов, и {THING:StructureVolumePump} для вентиляции.</Value>
+    </Record>
+    <Record>
       <Key>VentingTheGasesTask1</Key>
       <Value>Откройте {THING:StructureValve} на выходе печи</Value>
     </Record>
