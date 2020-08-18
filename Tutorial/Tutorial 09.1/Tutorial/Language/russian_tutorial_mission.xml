@@ -47,10 +47,10 @@
       <Key>ConfigureGasSensorDescription</Key>
       <Value>Теперь вы можете включить и настроить {THING:StructureConsole}.
 
-{THING:StructureConsole} слева будет отображать давление, поэтому новая консоль должна отображать температуру. После включения консоли и вставки {THING:ItemDataDisk}, переключите режим на &apos;Температуру&apos;, нажав на опцию &apos;Давление&apos;.
+{THING:StructureConsole} слева будет отображать давление, поэтому новая консоль должна отображать температуру. После включения консоли и вставки {THING:ItemDataDisk}, переключите режим (mode) на &apos;Температуру/Temperature&apos;, нажав на опцию &apos;Давление/Pressure&apos;.
 
-Теперь выберите {THING:StructureFurnace} в качестве устройства ввода для консоли. Прокрутите вниз, пока не увидите {THING:StructureFurnace} и выберите его. 
-    </Value>
+Теперь выберите {THING:StructureFurnace} в списке консоли. Прокрутите вниз, пока не увидите {THING:StructureFurnace}.
+</Value>
     </Record>
     <Record>
       <Key>ConfigureGasSensorTask1</Key>
