@@ -351,6 +351,11 @@
       <Value>Procesador de Reactivos</Value>
     </RecordThing>
     <RecordThing>
+      <Key>BodyPartAstronautFemaleArmL</Key>
+      <Value>Brazo izquierdo de la mujer astronauta</Value>
+      <Description>El brazo izquierdo de una astronauta, mejor cuando está unido.  ¡Solo tienes dos!</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>BodyPartAstronautFemaleArmR</Key>
       <Value>Brazo derecho de la mujer astronauta</Value>
     </RecordThing>
@@ -4465,6 +4470,18 @@
       <Value>Continuar</Value>
     </Record>
     <Record>
+      <Key>TraderErrorConnectWires</Key>
+      <Value>El comerciante no pudo completar el intercambio, ¡revise sus cables en busca de roturas!</Value>
+    </Record>
+    <Record>
+      <Key>TraderErrorMissingMotherboard</Key>
+      <Value>Le falta una placa base en su computadora, perdió el contacto con el comerciante.</Value>
+    </Record>
+    <Record>
+      <Key>TraderErrorMissingVendingMachine</Key>
+      <Value>Falta una máquina expendedora vacía conectada, el intercambio no se pudo completar.</Value>
+    </Record>
+    <Record>
       <Key>Picture</Key>
       <Value>Cuadro</Value>
     </Record>
@@ -7666,6 +7683,10 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
     <Record>
       <Key>DeconstructToolTipText</Key>
       <Value>{0} requerido para deconstruir</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDoubleClickDelay</Key>
+      <Value>Retraso de doble clic</Value>
     </Record>
   </Interface>
   <Colors>
