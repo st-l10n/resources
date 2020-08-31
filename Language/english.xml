@@ -414,13 +414,13 @@
   <Things>
     <RecordThing>
       <Key>ApplianceMicrowave</Key>
-	    <Description>While countless 'better' ways of cooking &lt;color=#0080FFFF&gt;{LINK:FoodPage;Food}&lt;/color&gt; have been invented in the last few hundred years, few are as durable or easy to fabricate as the OK-Zoomer microwave. Licensed from Xigo, the plans are based on a classic model from the mid-21st century, giving it a charmingly retro feel. But don't worry, it oscillates water molecules more than adequately. Just bolt it to a bench, and you're ready to go.</Description>
+	    <Description>While countless 'better' ways of cooking &lt;color=#0080FFFF&gt;{LINK:FoodPage;Food}&lt;/color&gt; have been invented in the last few hundred years, few are as durable or easy to fabricate as the OK-Zoomer microwave. Licensed from Xigo, the plans are based on a classic model from the mid-21st century, giving it a charmingly retro feel. But don't worry, it oscillates water molecules more than adequately. Just bolt it to a bench, and you're cooking.</Description>
       <Value>Microwave</Value>
     </RecordThing>
     <RecordThing>
       <Key>ApplianceReagentProcessor</Key>
       <Value>Reagent Processor</Value>
-      <Description>Sitting somewhere between a high powered juicer and an alchemist's alembic, the Reagent Processor turns certain raw materials into critical ingredients. Indispensible in any space kitchen, just bolt it to the bench, and you're ready to go.</Description>
+      <Description>Sitting somewhere between a high powered juicer and an alchemist's alembic, the Xigo reagent processor turns certain raw materials into critical ingredients. Indispensible in any space kitchen, just bolt it to the bench, and you're ready to go.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleArmL</Key>
@@ -695,17 +695,17 @@
     <RecordThing>
       <Key>CartridgeAtmosAnalyser</Key>
       <Value>Atmos Analyser</Value>
-      <Description>The Atmos Analyzer is a multi-functional mass-spectrometer designed by ExMin for use with the OreCore tablet. It displays the pressure, concentration and molar quantity of gases in rooms, tanks, or pipe networks.</Description>
+      <Description>The Lorenz atmos analyzer is a multi-functional mass-spectrometer designed by ExMin for use with the OreCore {Thing:ItemTablet}. It displays the pressure, concentration and molar quantity of &lt;color=#0080FFFF&gt;{LINK:GasPage;Gas}&lt;/color&gt; in rooms, tanks, or pipe networks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeMedicalAnalyser</Key>
       <Value>Medical Analyser</Value>
-      <Description>Asura's ReadyMed medical analyzer reveals the health, or otherwise, of users various organs. Due to a design flaw, older models were notorious for producing quasar-like levels of x-ray radiation. Recent advances in shielding have more than halved the risk to users.</Description>
+      <Description>When added to the OreCore {Thing:ItemTablet}, Asura's ReadyMed medical analyzer reveals the health, or otherwise, of users various organs. Due to a design flaw, older models were notorious for producing quasar-like levels of x-ray radiation. Recent advances in shielding have more than halved the risk to users.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeNetworkAnalyser</Key>
       <Value>Network Analyser</Value>
-      <Description>A minor masterpiece of micro-electronic engineering, the network analyzer displays the current, voltage and wattage of a cable network, as well as any devices connected to it. Based on a widely-copied Sinotai design, it's used in conjunction with the OreCore tablet.</Description>
+      <Description>A minor masterpiece of micro-electronic engineering, the network analyzer displays the current, voltage and wattage of a cable network, as well as any devices connected to it. Based on a widely-copied Sinotai design, it's used in conjunction with the OreCore {Thing:ItemTablet}.</Description>
       </RecordThing>
     <RecordThing>
       <Key>Character</Key>
@@ -715,50 +715,61 @@
     <RecordThing>
       <Key>CircuitboardAirControl</Key>
       <Value>Air Control</Value>
-      <Description>When added to a console, air control circuit boards allow you to program active vents. As with small dogs and 83% of people, air control circuits have only three modes: Pressure, Draft and Offline. Pressure mode maintains a 100kPa atmosphere, switching the active vent between inward and outward flow until target pressure is achieved. Draft mode allows you to pair active vents to circulate air. Offline mode deactivates the vent. </Description>
+      <Description>When added to a {THING:StructureConsole}, air control circuit boards allow you to program an {Thing:StructureActiveVent}. As with small dogs and 83% of people, air control circuits have only three modes: Pressure, Draft and Offline. Pressure mode maintains a 100kPa atmosphere, switching the active vent between inward and outward flow until target pressure is achieved. Draft mode allows you to pair active vents to circulate air. Offline mode deactivates the vent. </Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardAirlockControl</Key>
       <Value>Airlock</Value>
-      <Description>Rumored to have been first sketched on a Norsec toilet wall by a disgruntled engineer, the Exgress airlock control circuit board’s versatility and ease of fabrication has made it the Stationeers control system of choice for airlock cycling protocols. 
+      <Description>Rumored to have been first sketched on a Norsec toilet wall by a disgruntled engineer, the Exgress airlock control circuit board’s versatility and ease of fabrication has made it the Stationeers control system of choice for {thing:StructureAirlock} cycling protocols. 
 
-To enter setup mode, insert the board into a console along with a data disk. In this mode, you can see all data-accessible objects currently connected to the console. Doors, lights, gas sensors and slave consoles can be selected (highlighted green), and will be controlled once the data disk is removed.</Description>
+To enter setup mode, insert the board into a {THING:StructureConsole} along with a data disk. In this mode, you can see all data-accessible objects currently connected to the {THING:StructureConsole}. Doors, lights, gas sensors and slave consoles can be selected (highlighted green), and will be controlled once the data disk is removed.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardCameraDisplay</Key>
       <Value>Camera Display</Value>
+      <Description>Surveillance is sometimes necessary when building bases in highly hostile environments. The camera display circuit board allows wary Stationeers to turn a {Thing:StructureConsole} into a security display when connected to a {Thing:StructureCamera}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardDoorControl</Key>
       <Value>Door Control</Value>
+      <Description>A basic tool of Stationeer base construction, this circuit board provides a way to open and close a {Thing:StructureCompositeDoor}, {Thing:StructureBlastDoor} or {Thing:StructureGlassDoor} remotely, when connected to a {THING:StructureConsole}. This system can be further linked to {Thing:StructureMotionSensor} to create automatic doors.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardGasDisplay</Key>
       <Value>Gas Display</Value>
+      <Description>Information is power. Place this circuitboard into a {THING:StructureConsole} to create a display that shows gas pressure or temperature of any connected tank, storage cannister, {THING:ItemPipeAnalyizer} or {THING:ItemGasSensor}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardModeControl</Key>
       <Value>Mode Control</Value>
+      <Description>Can't decide which mode you love most? This circuit board allows you to switch any connected device between operation modes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardPowerControl</Key>
       <Value>Power Control</Value>
+      <Description>Under distant suns and demanding environments, Stationeer systems need to balance reliability, resilience and versatility. The power control board allows remote enabling and disabling of selected devices, disconnecting manual operation. 
+      
+The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle' switches each device to their alternate state. </Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardShipDisplay</Key>
       <Value>Ship Display</Value>
+      <Description>When the original Stationeers Handbook collapsed under its own weight into a singularity, certain information was irretrievably lost. Amongst this mysterious corpus of knowledge is the exact purpose of the ship display board.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardSolarControl</Key>
       <Value>Solar Control</Value>
+      <Description>Adding a solar control board to a {thing:StructureConsole} lets you manually control the horizontal and vertical angles of any connected {thing:StructureSolarPanel}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicAirConditioner</Key>
       <Value>Portable Air Conditioner</Value>
+      <Description>The Sinotai-designed Huxi portable air conditioner cools by drawing heat from the atmosphere and storing it, or adding heat to the atmosphere from its internal tank. With a max internal pressure of 8106kPa, its capacity is relatively limited, physics being clear on this subject. To extend its temperature storage ability, bolt the Huxi to a {thing:StructureTankConnector}, then connect it to a pipe network supplying hot or cold &lt;color=#0080FFFF&gt;{LINK:GasPage;gases}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrate</Key>
       <Value>Dynamic Crate</Value>
+      <Description>The humble dynamic crate has become a symbol of Stationeer invention and independence. With twelve slots and handles at either end for ease of carriage, it's critical kit for cadets and Commanders alike.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrateBuildingSupplies</Key>
@@ -779,46 +790,58 @@ To enter setup mode, insert the board into a console along with a data disk. In 
     <RecordThing>
       <Key>DynamicGasCanisterAir</Key>
       <Value>Portable Tank (Air)</Value>
+      <Description>Supplying air to the {Thing:ItemEvaSuit} and {thing:ItemHardSuit}, the white &lt;color=#0080FFFF&gt;{LINK:GasPage;air}&lt;/color&gt; canister is the Stationeer's basic unit of gas delivery. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {thing:DynamicGasCanisterAir} or {thing:StructureGasTankStorage} for refill. Careful not to pressurize beyond 100kPA when refilling, or it may go 'bang'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterCarbonDioxide</Key>
       <Value>Portable Tank (CO2)</Value>
+      <Description>When fabricated, the &lt;color=#0080FFFF&gt;{LINK:GasPage;CO2}&lt;/color&gt; canister is filled a pressure of 8000kPa (80 atmospheres) and coloured default grey. Used as a secondary fuel in the {thing:ItemJetpackBasic}, it can be mounted to a {thing:DynamicGasCanisterAir} or {thing:StructureGasTankStorage} for refill. Careful not to overpressurize when refilling, or it may go 'bang'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterEmpty</Key>
       <Value>Portable Tank</Value>
+      <Description>The portable canister is the Stationeer's basic unit of &lt;color=#0080FFFF&gt;{LINK:GasPage;gas}&lt;/color&gt; delivery. Rated to a standard pressure of 8000kPa (80 atmospheres), empty gas canisters can be mounted to a {thing:DynamicGasCanisterAir} or {thing:StructureGasTankStorage} for refill. Careful not to pressurize beyond 100kPA, or it may go 'bang'. Contains 64L of gas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterFuel</Key>
       <Value>Portable Tank (Fuel)</Value>
+      <Description>The orange portable &lt;color=#0080FFFF&gt;{LINK:GasPage;fuel}&lt;/color&gt; canister supplies a 64L mixture of 66% volatiles/34% oxygen for powering such items as the {thing:ItemWeldingTorch} and the {thing:DynamicGenerator}. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {thing:DynamicGasCanisterAir} or {thing:StructureGasTankStorage} for refill. Careful not to pressurize beyond 100kPA, or it may go 'bang'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterNitrogen</Key>
       <Value>Portable Tank (Nitrogen)</Value>
+      <Description>The green portable &lt;color=#0080FFFF&gt;{LINK:GasPage;nitrogen or nitrous oxide}&lt;/color&gt; canister supplies propellent for the {thing:ItemSpacepack} and the {thing:ItemHardJetpack}. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {thing:DynamicGasCanisterAir} or {thing:StructureGasTankStorage} for refill. Careful not to pressurize beyond 100kPA, or it may go 'bang'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterOxygen</Key>
       <Value>Portable Tank (Oxygen)</Value>
+      <Description>The white portable 64L canister is the Stationeer's basic unit of &lt;color=#0080FFFF&gt;{LINK:GasPage;oxygen}&lt;/color&gt; delivery. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {thing:DynamicGasCanisterAir} or {thing:StructureGasTankStorage} for refill. Careful not to pressurize beyond 100kPA, or it may go 'bang'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterVolatiles</Key>
       <Value>Portable Tank (Volatiles)</Value>
+      <Description>The red portable &lt;color=#0080FFFF&gt;{LINK:GasPage;volatiles}&lt;/color&gt; canister has a 64L capacity. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {thing:DynamicGasCanisterAir} or {thing:StructureGasTankStorage} for refill. Careful not to pressurize beyond 100kPA, or it may go 'bang'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterWater</Key>
       <Value>Portable Tank (Water)</Value>
+      <Description>The blue portable &lt;color=#0080FFFF&gt;{LINK:GasPage;H20}&lt;/color&gt; canister has a 64L capacity, supplying water to items like the {thing:DynamicHydroponics} unit. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {thing:DynamicGasCanisterAir} or {thing:StructureGasTankStorage} for refill. Careful not to pressurize beyond 100kPA, or it may go 'bang'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGenerator</Key>
       <Value>Portable Generator</Value>
+      <Description>Every Stationeer's best friend, the portable generator gets you up and running, fast. Fill it with a {thing:ItemGasCanisterFuel} to power up and charge a {thing:ItemBatteryCell}, or attach it to a {thing:StructurePowerConnector} to link it into your electrical network. It's pressure driven, so functions more efficiently at lower temperatures, and REALLY efficiently if supercooled. Perfecting your fuel mix also makes a big difference.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicLight</Key>
       <Value>Portable Light</Value>
+      <Description>Philippe Starck might not applaud, but this battery-powered light source undarkens the corners when illumination is lacking. Powered by any battery, it's a 'no-frills' Xigo design that can be cheaply fabricated with the minimum of fuss.</Description>
     </RecordThing>
     <RecordThing>
+    <Description></Description>
       <Key>DynamicScrubber</Key>
       <Value>Portable Air Scrubber</Value>
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>EffectSplatEgg</Key>
