@@ -3388,6 +3388,74 @@
       <Key>ModularRocketCargo01</Key>
       <Value>火箭货舱</Value>
     </RecordThing>
+    <RecordThing>
+      <Key>ItemSensorProcessingUnitOreScanner</Key>
+      <Value>记忆卡(矿石扫描仪)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBatteryChargerSmall</Key>
+      <Value>电池(小)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBatteryChargerSmall</Key>
+      <Value>电池(小)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanelFlat</Key>
+      <Value>太阳能板</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel45</Key>
+      <Value>太阳能板</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSolarPanelBasic</Key>
+      <Value>(套件)太阳能板</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSDBHopper</Key>
+      <Value>(套件)分拣机</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitSDBSilo</Key>
+      <Value>(套件)标志牌</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTankBigInsulated</Key>
+      <Value>套件(隔热管道)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTankInsulated</Key>
+      <Value>套件(隔热管道)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDebug</Key>
+      <Value>(套件)门</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFlatBench</Key>
+      <Value>墙壁面板</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTables</Key>
+      <Value>(套件)保险丝</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitchenTableTall</Key>
+      <Value>(套件)便携式储罐</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableThickDouble</Key>
+      <Value>小储罐(燃料)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableDinnerSingle</Key>
+      <Value>墙体(三角形平角)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitChairs</Key>
+      <Value>(套件)楼梯</Value>
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -3618,6 +3686,10 @@
       <Key>Previous</Key>
       <Value>上一个</Value>
     </Record>
+    <Record>
+      <Key>SensorProcessingUnit</Key>
+      <Value>处理</Value>
+    </Record>
   </Slots>
   <Interactables>
     <Record>
@@ -3645,6 +3717,14 @@
       <Value>错误</Value>
     </Record>
     <Record>
+      <Key>Slot1</Key>
+      <Value>插槽 1</Value>
+    </Record>
+    <Record>
+      <Key>Slot2</Key>
+      <Value>插槽 2</Value>
+    </Record>
+    <Record>
       <Key>GrabLeftHand</Key>
       <Value>抓住左手</Value>
     </Record>
@@ -3670,6 +3750,14 @@
     </Record>
     <Record>
       <Key>GrabUpperArmR</Key>
+      <Value>抓住右臂</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmL</Key>
+      <Value>抓住左臂</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmR</Key>
       <Value>抓住右臂</Value>
     </Record>
     <Record>
@@ -7462,6 +7550,18 @@ abs()--绝对值运算函数 max()--最大值函数</Value>
     <Record>
       <Key>SettingsDoubleClickDelay</Key>
       <Value>双击延迟</Value>
+    </Record>
+    <Record>
+      <Key>SettingsServerAdminPassword</Key>
+      <Value>服务器密码不正确.</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardPlayer</Key>
+      <Value>玩家</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardTime</Key>
+      <Value>游戏时间:</Value>
     </Record>
   </Interface>
   <Colors>

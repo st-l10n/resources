@@ -3240,6 +3240,74 @@
       <Key>ModularRocketCargo01</Key>
       <Value>Rakéta hajtómű</Value>
     </RecordThing>
+    <RecordThing>
+      <Key>ItemSensorProcessingUnitOreScanner</Key>
+      <Value>Kártya (Érc szkenner)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBatteryChargerSmall</Key>
+      <Value>Elem (Kicsi)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBatteryChargerSmall</Key>
+      <Value>Elem (Kicsi)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanelFlat</Key>
+      <Value>Napelem</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel45</Key>
+      <Value>Napelem</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSolarPanelBasic</Key>
+      <Value>Készlet (Napelem)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSDBHopper</Key>
+      <Value>Készlet (Szortírozó)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitSDBSilo</Key>
+      <Value>Készlet (Tábla)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTankBigInsulated</Key>
+      <Value>Készlet (Csap)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTankInsulated</Key>
+      <Value>Készlet (Csap)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDebug</Key>
+      <Value>Készlet (Ajtó)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFlatBench</Key>
+      <Value>Fal (Sima)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTables</Key>
+      <Value>Készlet (Biztosíték)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitchenTableTall</Key>
+      <Value>Készlet (Hordozható tartály)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableThickDouble</Key>
+      <Value>Kis tartály (Üzemanyag)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableDinnerSingle</Key>
+      <Value>Fal (Burkolt)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitChairs</Key>
+      <Value>Készlet (Lépcső)</Value>
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -3462,6 +3530,10 @@
       <Key>Previous</Key>
       <Value>Előző</Value>
     </Record>
+    <Record>
+      <Key>SensorProcessingUnit</Key>
+      <Value>Feldolgozás</Value>
+    </Record>
   </Slots>
   <Interactables>
     <Record>
@@ -3489,6 +3561,14 @@
       <Value>Hiba</Value>
     </Record>
     <Record>
+      <Key>Slot1</Key>
+      <Value>Slot 1</Value>
+    </Record>
+    <Record>
+      <Key>Slot2</Key>
+      <Value>Slot 2</Value>
+    </Record>
+    <Record>
       <Key>GrabLeftHand</Key>
       <Value>Bal kéz megfogása</Value>
     </Record>
@@ -3514,6 +3594,14 @@
     </Record>
     <Record>
       <Key>GrabUpperArmR</Key>
+      <Value>Jobb láb mefogása</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmL</Key>
+      <Value>Bal láb megfogása</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmR</Key>
       <Value>Jobb láb mefogása</Value>
     </Record>
     <Record>
@@ -6429,6 +6517,18 @@ Az extrém hideg az elemek gyors merülését idézi elő, ezért tekintsd prior
     <Record>
       <Key>Power</Key>
       <Value>Hirtelen feszültségingadozás</Value>
+    </Record>
+    <Record>
+      <Key>SettingsServerAdminPassword</Key>
+      <Value>Szerver jelszó helytelen.</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardPlayer</Key>
+      <Value>Játékosok:</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardTime</Key>
+      <Value>Játékidő:</Value>
     </Record>
   </Interface>
   <Colors>

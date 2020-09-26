@@ -3155,6 +3155,74 @@
       <Key>ModularRocketCargo01</Key>
       <Value>Triebwerk (Groß)</Value>
     </RecordThing>
+    <RecordThing>
+      <Key>ItemSensorProcessingUnitOreScanner</Key>
+      <Value>Kassette (Erz Scanner)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBatteryChargerSmall</Key>
+      <Value>Batteriezelle (Klein)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBatteryChargerSmall</Key>
+      <Value>Batteriezelle (Klein)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanelFlat</Key>
+      <Value>Solarmodul (dual)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel45</Key>
+      <Value>Solarmodul (dual)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSolarPanelBasic</Key>
+      <Value>Solarmodul (Bausatz)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSDBHopper</Key>
+      <Value>Sortiereinheit (Bausatz)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitSDBSilo</Key>
+      <Value>Schild (Bausatz)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTankBigInsulated</Key>
+      <Value>Rohrventil (Bausatz)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTankInsulated</Key>
+      <Value>Rohrventil (Bausatz)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDebug</Key>
+      <Value>Tür (Bausatz)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFlatBench</Key>
+      <Value>Flachwand</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTables</Key>
+      <Value>Schmelzsicherung (Bausatz)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitchenTableTall</Key>
+      <Value>Portabler Tank (Bausatz)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableThickDouble</Key>
+      <Value>Tank (klein; Kraftstoff)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableDinnerSingle</Key>
+      <Value>Flachwand (gepanzert)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitChairs</Key>
+      <Value>Treppe (Bausatz)</Value>
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -3357,6 +3425,10 @@
       <Key>Cartridge1</Key>
       <Value>Kassette</Value>
     </Record>
+    <Record>
+      <Key>SensorProcessingUnit</Key>
+      <Value>Prozessierend</Value>
+    </Record>
   </Slots>
   <Interactables>
     <Record>
@@ -3384,6 +3456,14 @@
       <Value>Fehler</Value>
     </Record>
     <Record>
+      <Key>Slot1</Key>
+      <Value>Fach 1</Value>
+    </Record>
+    <Record>
+      <Key>Slot2</Key>
+      <Value>Fach 2</Value>
+    </Record>
+    <Record>
       <Key>GrabLeftHand</Key>
       <Value>Greife Linke Hand</Value>
     </Record>
@@ -3409,6 +3489,14 @@
     </Record>
     <Record>
       <Key>GrabUpperArmR</Key>
+      <Value>Greife Rechten Fuß</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmL</Key>
+      <Value>Greife Linken Fuß</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmR</Key>
       <Value>Greife Rechten Fuß</Value>
     </Record>
     <Record>
@@ -6035,6 +6123,18 @@ Seien Sie nicht traurig, wenn Sie sich in winzige kleine Stücke blasen, von Hü
     <Record>
       <Key>PlantToxic</Key>
       <Value>Das Verhältnis von Schadstoff in der Geräteatmosphäre</Value>
+    </Record>
+    <Record>
+      <Key>SettingsServerAdminPassword</Key>
+      <Value>Das Server-Passwort stimmt nicht.</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardPlayer</Key>
+      <Value>Spieler:</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardTime</Key>
+      <Value>Spielzeit:</Value>
     </Record>
   </Interface>
   <Colors>

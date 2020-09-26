@@ -3121,6 +3121,74 @@
       <Key>ModularRocketCargo01</Key>
       <Value>Rakettimoottori</Value>
     </RecordThing>
+    <RecordThing>
+      <Key>ItemSensorProcessingUnitOreScanner</Key>
+      <Value>Kasetti (malmitutka)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBatteryChargerSmall</Key>
+      <Value>Paristo (pieni)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBatteryChargerSmall</Key>
+      <Value>Paristo (pieni)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanelFlat</Key>
+      <Value>Aurinkopaneeli</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel45</Key>
+      <Value>Aurinkopaneeli</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSolarPanelBasic</Key>
+      <Value>Varustepakkaus (aurinkopaneeli)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSDBHopper</Key>
+      <Value>Varustepakkaus (lajittelija)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitSDBSilo</Key>
+      <Value>Varustepakkaus (kyltti)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTankBigInsulated</Key>
+      <Value>Varustepakkaus (putkiventtiili)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTankInsulated</Key>
+      <Value>Varustepakkaus (putkiventtiili)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDebug</Key>
+      <Value>Varustepakkaus (ovi)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFlatBench</Key>
+      <Value>Seinä (tasainen)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTables</Key>
+      <Value>Varustepakkaus (sulake)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitchenTableTall</Key>
+      <Value>Varustepakkaus (kannettava säiliö)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableThickDouble</Key>
+      <Value>Pieni säiliö (polttoaine)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableDinnerSingle</Key>
+      <Value>Seinä (paneloitu)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitChairs</Key>
+      <Value>Varustepakkaus (portaat)</Value>
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -3327,6 +3395,10 @@
       <Key>Cartridge1</Key>
       <Value>Kasetti</Value>
     </Record>
+    <Record>
+      <Key>SensorProcessingUnit</Key>
+      <Value>Käsittely</Value>
+    </Record>
   </Slots>
   <Interactables>
     <Record>
@@ -3354,6 +3426,14 @@
       <Value>Virhe</Value>
     </Record>
     <Record>
+      <Key>Slot1</Key>
+      <Value>Lokero 1</Value>
+    </Record>
+    <Record>
+      <Key>Slot2</Key>
+      <Value>Lokero 2</Value>
+    </Record>
+    <Record>
       <Key>GrabLeftHand</Key>
       <Value>Tartu vasempaan käteen</Value>
     </Record>
@@ -3379,6 +3459,14 @@
     </Record>
     <Record>
       <Key>GrabUpperArmR</Key>
+      <Value>Tartu oikeaan jalkaan</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmL</Key>
+      <Value>Tartu vasempaan jalkaan</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmR</Key>
       <Value>Tartu oikeaan jalkaan</Value>
     </Record>
     <Record>
@@ -5362,6 +5450,18 @@ Spawnaa mikä tahansa esine, testaa ideoita ja rakenna ihme juttuja todella nope
     <Record>
       <Key>InputLeft</Key>
       <Value>Näppäinasetukset</Value>
+    </Record>
+    <Record>
+      <Key>SettingsServerAdminPassword</Key>
+      <Value>Väärä salasana.</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardPlayer</Key>
+      <Value>Pelaajat:</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardTime</Key>
+      <Value>Pelattu:</Value>
     </Record>
   </Interface>
   <Colors>

@@ -3316,6 +3316,74 @@
       <Key>ModularRocketCargo01</Key>
       <Value>Cargo de Fusée</Value>
     </RecordThing>
+    <RecordThing>
+      <Key>ItemSensorProcessingUnitOreScanner</Key>
+      <Value>Carte (Scanneur de minéral)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBatteryChargerSmall</Key>
+      <Value>Batterie (Petite)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBatteryChargerSmall</Key>
+      <Value>Batterie (Petite)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanelFlat</Key>
+      <Value>Panneau Solaire</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel45</Key>
+      <Value>Panneau Solaire</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSolarPanelBasic</Key>
+      <Value>Kit (Panneaux Solaire)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSDBHopper</Key>
+      <Value>Kit (Trieur)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitSDBSilo</Key>
+      <Value>Kit (Panneaux indicateur)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTankBigInsulated</Key>
+      <Value>Kit (Tuyau calfeutré)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTankInsulated</Key>
+      <Value>Kit (Tuyau calfeutré)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDebug</Key>
+      <Value>Kit (Porte)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFlatBench</Key>
+      <Value>Mur plat</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTables</Key>
+      <Value>Kit (Fusibles de Câble)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitchenTableTall</Key>
+      <Value>Kit (Réservoir portable)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableThickDouble</Key>
+      <Value>Petit Réservoir (Carburant)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableDinnerSingle</Key>
+      <Value>Mur (plat coin triangle)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitChairs</Key>
+      <Value>Kit (Escalier)</Value>
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -3538,6 +3606,10 @@
       <Key>Previous</Key>
       <Value>Précédent</Value>
     </Record>
+    <Record>
+      <Key>SensorProcessingUnit</Key>
+      <Value>En traitement</Value>
+    </Record>
   </Slots>
   <Interactables>
     <Record>
@@ -3590,6 +3662,14 @@
     </Record>
     <Record>
       <Key>GrabUpperArmR</Key>
+      <Value>Saisir le bras droite</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmL</Key>
+      <Value>Saisir le bras gauche</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmR</Key>
       <Value>Saisir le bras droite</Value>
     </Record>
     <Record>
@@ -7060,6 +7140,18 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
     <Record>
       <Key>DeconstructToolTipText</Key>
       <Value>{0} nécessaire pour déconstruire</Value>
+    </Record>
+    <Record>
+      <Key>SettingsServerAdminPassword</Key>
+      <Value>Mot de passe du serveur incorrect.</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardPlayer</Key>
+      <Value>Joueur</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardTime</Key>
+      <Value>Temps de jeu :</Value>
     </Record>
   </Interface>
   <Colors>

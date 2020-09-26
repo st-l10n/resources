@@ -3005,6 +3005,74 @@
       <Key>ModularRocketCargo01</Key>
       <Value>火箭引擎</Value>
     </RecordThing>
+    <RecordThing>
+      <Key>ItemSensorProcessingUnitOreScanner</Key>
+      <Value>晶片 (礦石掃描)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBatteryChargerSmall</Key>
+      <Value>隨身電池 (小型)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBatteryChargerSmall</Key>
+      <Value>隨身電池 (小型)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanelFlat</Key>
+      <Value>太陽能板</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel45</Key>
+      <Value>太陽能板</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSolarPanelBasic</Key>
+      <Value>套件 太陽能板</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSDBHopper</Key>
+      <Value>分揀機</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitSDBSilo</Key>
+      <Value>套件 標誌</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTankBigInsulated</Key>
+      <Value>管線閥門</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTankInsulated</Key>
+      <Value>管線閥門</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDebug</Key>
+      <Value>套件 門</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFlatBench</Key>
+      <Value>平面牆</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTables</Key>
+      <Value>保險絲</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitchenTableTall</Key>
+      <Value>可攜式壓力罐</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableThickDouble</Key>
+      <Value>小型壓力槽 (燃料)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableDinnerSingle</Key>
+      <Value>Structure Wall Plating</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitChairs</Key>
+      <Value>樓梯</Value>
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -3207,6 +3275,10 @@
       <Key>Cartridge1</Key>
       <Value>晶片</Value>
     </Record>
+    <Record>
+      <Key>SensorProcessingUnit</Key>
+      <Value>處理中</Value>
+    </Record>
   </Slots>
   <Interactables>
     <Record>
@@ -3234,6 +3306,14 @@
       <Value>錯誤</Value>
     </Record>
     <Record>
+      <Key>Slot1</Key>
+      <Value>插槽1</Value>
+    </Record>
+    <Record>
+      <Key>Slot2</Key>
+      <Value>插槽2</Value>
+    </Record>
+    <Record>
       <Key>GrabLeftHand</Key>
       <Value>抓住左手</Value>
     </Record>
@@ -3259,6 +3339,14 @@
     </Record>
     <Record>
       <Key>GrabUpperArmR</Key>
+      <Value>抓住右腳</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmL</Key>
+      <Value>抓住左腳</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmR</Key>
       <Value>抓住右腳</Value>
     </Record>
     <Record>
@@ -5132,6 +5220,18 @@
     <Record>
       <Key>InputLeft</Key>
       <Value>輸入設置</Value>
+    </Record>
+    <Record>
+      <Key>SettingsServerAdminPassword</Key>
+      <Value>伺服器密碼不正確</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardPlayer</Key>
+      <Value>人數:</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardTime</Key>
+      <Value>遊戲時間:</Value>
     </Record>
   </Interface>
   <Colors>

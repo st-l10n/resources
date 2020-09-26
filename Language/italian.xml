@@ -3093,6 +3093,74 @@
       <Key>ModularRocketCargo01</Key>
       <Value>Motore a razzo</Value>
     </RecordThing>
+    <RecordThing>
+      <Key>ItemSensorProcessingUnitOreScanner</Key>
+      <Value>Cartuccia (Scanner dei minerali)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBatteryChargerSmall</Key>
+      <Value>Batteria (Piccola)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBatteryChargerSmall</Key>
+      <Value>Batteria (Piccola)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanelFlat</Key>
+      <Value>Pannello Solare</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel45</Key>
+      <Value>Pannello Solare</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSolarPanelBasic</Key>
+      <Value>Kit (Pannello solare)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSDBHopper</Key>
+      <Value>Kit (Classificatore)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitSDBSilo</Key>
+      <Value>Kit (Pannello indicatore)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTankBigInsulated</Key>
+      <Value>Kit tubo con valvola</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTankInsulated</Key>
+      <Value>Kit tubo con valvola</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDebug</Key>
+      <Value>Kit (Porta)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFlatBench</Key>
+      <Value>Muro (piatto)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTables</Key>
+      <Value>Kit (Cavo con fusibile)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitchenTableTall</Key>
+      <Value>Kit (Serbatoio portatile)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableThickDouble</Key>
+      <Value>Serbatoio piccolo (Carburante)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableDinnerSingle</Key>
+      <Value>Rivestimento parete</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitChairs</Key>
+      <Value>Kit (Scale)</Value>
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -3291,6 +3359,10 @@
       <Key>Cartridge1</Key>
       <Value>Cartuccia</Value>
     </Record>
+    <Record>
+      <Key>SensorProcessingUnit</Key>
+      <Value>In lavorazione</Value>
+    </Record>
   </Slots>
   <Interactables>
     <Record>
@@ -3343,6 +3415,14 @@
     </Record>
     <Record>
       <Key>GrabUpperArmR</Key>
+      <Value>Prendi la gamba destra</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmL</Key>
+      <Value>Prendi la gamba sinistra</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmR</Key>
       <Value>Prendi la gamba destra</Value>
     </Record>
     <Record>
@@ -5925,6 +6005,18 @@ Non essere triste quando ti farai saltare in aria in piccoli, piccolissimi pezzi
     <Record>
       <Key>PlantToxic</Key>
       <Value>Il rapporto di inquinanti nell&apos;atmosfera del dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>SettingsServerAdminPassword</Key>
+      <Value>Password server errata.</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardPlayer</Key>
+      <Value>Giocatori:</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardTime</Key>
+      <Value>Tempo di gioco :</Value>
     </Record>
   </Interface>
   <Colors>

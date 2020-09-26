@@ -3448,6 +3448,74 @@
       <Key>ModularRocketCargo01</Key>
       <Value>Ракетный груз</Value>
     </RecordThing>
+    <RecordThing>
+      <Key>ItemSensorProcessingUnitOreScanner</Key>
+      <Value>Картридж (Георадар)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBatteryChargerSmall</Key>
+      <Value>Аккумулятор</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBatteryChargerSmall</Key>
+      <Value>Аккумулятор</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanelFlat</Key>
+      <Value>Солнечная панель</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel45</Key>
+      <Value>Солнечная панель</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSolarPanelBasic</Key>
+      <Value>Набор (Солнечная панель)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSDBHopper</Key>
+      <Value>Набор (Сортировщик)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitSDBSilo</Key>
+      <Value>Набор (Знак)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTankBigInsulated</Key>
+      <Value>Набор (Изолированная труба)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTankInsulated</Key>
+      <Value>Набор (Изолированная труба)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDebug</Key>
+      <Value>Набор (Дверь)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFlatBench</Key>
+      <Value>Стена (Плоская)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTables</Key>
+      <Value>Набор (Предохранитель)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitchenTableTall</Key>
+      <Value>Набор (Большой баллон)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableThickDouble</Key>
+      <Value>Малый резервуар (Топливо)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableDinnerSingle</Key>
+      <Value>Стена (Плоская, угловая, треугольная)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitChairs</Key>
+      <Value>Набор (Лестница)</Value>
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -3678,6 +3746,10 @@
       <Key>Previous</Key>
       <Value>Назад</Value>
     </Record>
+    <Record>
+      <Key>SensorProcessingUnit</Key>
+      <Value>Обработка</Value>
+    </Record>
   </Slots>
   <Interactables>
     <Record>
@@ -3705,6 +3777,14 @@
       <Value>Ошибка</Value>
     </Record>
     <Record>
+      <Key>Slot1</Key>
+      <Value>Слот 1</Value>
+    </Record>
+    <Record>
+      <Key>Slot2</Key>
+      <Value>Слот 2</Value>
+    </Record>
+    <Record>
       <Key>GrabLeftHand</Key>
       <Value>Взять за левую руку</Value>
     </Record>
@@ -3730,6 +3810,14 @@
     </Record>
     <Record>
       <Key>GrabUpperArmR</Key>
+      <Value>Взять за правую руку</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmL</Key>
+      <Value>Взять за левую руку</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmR</Key>
       <Value>Взять за правую руку</Value>
     </Record>
     <Record>
@@ -7260,6 +7348,18 @@
     <Record>
       <Key>DeconstructToolTipText</Key>
       <Value>{0} требуется для разборки</Value>
+    </Record>
+    <Record>
+      <Key>SettingsServerAdminPassword</Key>
+      <Value>Неверный пароль.</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardPlayer</Key>
+      <Value>Игрок</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardTime</Key>
+      <Value>Время игры:</Value>
     </Record>
   </Interface>
   <Colors>

@@ -3363,6 +3363,74 @@
       <Key>ModularRocketCargo01</Key>
       <Value>Roket Kargosu</Value>
     </RecordThing>
+    <RecordThing>
+      <Key>ItemSensorProcessingUnitOreScanner</Key>
+      <Value>Kartuş (Cevher Tarayıcı)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBatteryChargerSmall</Key>
+      <Value>Pil Hücresi (Küçük)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBatteryChargerSmall</Key>
+      <Value>Pil Hücresi (Küçük)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanelFlat</Key>
+      <Value>Güneş Paneli</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel45</Key>
+      <Value>Güneş Paneli</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSolarPanelBasic</Key>
+      <Value>Donanım (Güneş Paneli)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSDBHopper</Key>
+      <Value>Donanım (Ayırıcı)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitSDBSilo</Key>
+      <Value>Donanım (İşaret)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTankBigInsulated</Key>
+      <Value>Donanım (Yalıtımlı Boru)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTankInsulated</Key>
+      <Value>Donanım (Yalıtımlı Boru)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDebug</Key>
+      <Value>Donanım (Kapı)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFlatBench</Key>
+      <Value>Duvar (Düz)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTables</Key>
+      <Value>Donanım (Kablo Sigortaları)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitchenTableTall</Key>
+      <Value>Donanım (Taşınabilir Tank)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableThickDouble</Key>
+      <Value>Küçük Tank (Yakıt)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableDinnerSingle</Key>
+      <Value>Duvar (Düz Köşe Üçgen)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitChairs</Key>
+      <Value>Donanım (Merdivenler)</Value>
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -3593,6 +3661,10 @@
       <Key>Previous</Key>
       <Value>Önceki</Value>
     </Record>
+    <Record>
+      <Key>SensorProcessingUnit</Key>
+      <Value>İşleme</Value>
+    </Record>
   </Slots>
   <Interactables>
     <Record>
@@ -3620,6 +3692,14 @@
       <Value>Hata</Value>
     </Record>
     <Record>
+      <Key>Slot1</Key>
+      <Value>Yuva 1</Value>
+    </Record>
+    <Record>
+      <Key>Slot2</Key>
+      <Value>Yuva 2</Value>
+    </Record>
+    <Record>
       <Key>GrabLeftHand</Key>
       <Value>Sol Eli Al</Value>
     </Record>
@@ -3645,6 +3725,14 @@
     </Record>
     <Record>
       <Key>GrabUpperArmR</Key>
+      <Value>Sağ Ayağı Al</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmL</Key>
+      <Value>Sol Ayağı Al</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmR</Key>
       <Value>Sağ Ayağı Al</Value>
     </Record>
     <Record>
@@ -7000,6 +7088,18 @@
     <Record>
       <Key>DeconstructToolTipText</Key>
       <Value>Sökmek için {0} gerekli</Value>
+    </Record>
+    <Record>
+      <Key>SettingsServerAdminPassword</Key>
+      <Value>Sunucu Şifresi yanlış.</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardPlayer</Key>
+      <Value>Oyuncu</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardTime</Key>
+      <Value>Oyun Süresi:</Value>
     </Record>
   </Interface>
   <Colors>

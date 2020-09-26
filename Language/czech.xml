@@ -3370,6 +3370,74 @@
       <Key>ModularRocketCargo01</Key>
       <Value>Raketový náklad</Value>
     </RecordThing>
+    <RecordThing>
+      <Key>ItemSensorProcessingUnitOreScanner</Key>
+      <Value>Disketa (Skener rudy)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBatteryChargerSmall</Key>
+      <Value>Baterie (Malá)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBatteryChargerSmall</Key>
+      <Value>Baterie (Malá)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanelFlat</Key>
+      <Value>Solární panel</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel45</Key>
+      <Value>Solární panel</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSolarPanelBasic</Key>
+      <Value>Souprava (Solární panel)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSDBHopper</Key>
+      <Value>Souprava (Třídič)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitSDBSilo</Key>
+      <Value>Souprava (Cedule)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTankBigInsulated</Key>
+      <Value>Souprava (Izolované potrubí)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTankInsulated</Key>
+      <Value>Souprava (Izolované potrubí)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDebug</Key>
+      <Value>Souprava (Dveře)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFlatBench</Key>
+      <Value>Stěna (Plochá)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTables</Key>
+      <Value>Souprava (Kabelové pojistky)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitchenTableTall</Key>
+      <Value>Souprava (Přenosná nádrž)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableThickDouble</Key>
+      <Value>Malá nádrž (Palivo)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableDinnerSingle</Key>
+      <Value>Stěna (Plochý roh trojúhelník)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitChairs</Key>
+      <Value>Souprava (Schody)</Value>
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -3600,6 +3668,10 @@
       <Key>Previous</Key>
       <Value>Předchozí</Value>
     </Record>
+    <Record>
+      <Key>SensorProcessingUnit</Key>
+      <Value>Zpracovávání</Value>
+    </Record>
   </Slots>
   <Interactables>
     <Record>
@@ -3627,6 +3699,14 @@
       <Value>Chyba</Value>
     </Record>
     <Record>
+      <Key>Slot1</Key>
+      <Value>Slot 1</Value>
+    </Record>
+    <Record>
+      <Key>Slot2</Key>
+      <Value>Slot 2</Value>
+    </Record>
+    <Record>
       <Key>GrabLeftHand</Key>
       <Value>Popadnout levou ruku</Value>
     </Record>
@@ -3652,6 +3732,14 @@
     </Record>
     <Record>
       <Key>GrabUpperArmR</Key>
+      <Value>Uchopit pravou ruku</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmL</Key>
+      <Value>Uchopit levou ruku</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmR</Key>
       <Value>Uchopit pravou ruku</Value>
     </Record>
     <Record>
@@ -7302,6 +7390,18 @@ Neuložený postup bude ztracen.</Value>
     <Record>
       <Key>SettingsDoubleClickDelay</Key>
       <Value>Dvojklik zpoždění</Value>
+    </Record>
+    <Record>
+      <Key>SettingsServerAdminPassword</Key>
+      <Value>Nesprávné heslo serveru.</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardPlayer</Key>
+      <Value>Hráč</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardTime</Key>
+      <Value>Herní čas:</Value>
     </Record>
   </Interface>
   <Colors>

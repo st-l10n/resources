@@ -3312,6 +3312,74 @@
       <Key>ModularRocketCargo01</Key>
       <Value>モジュラーロケットカーゴ</Value>
     </RecordThing>
+    <RecordThing>
+      <Key>ItemSensorProcessingUnitOreScanner</Key>
+      <Value>カードリッジ (鉱石スキャナー)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBatteryChargerSmall</Key>
+      <Value>バッテリー(小)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBatteryChargerSmall</Key>
+      <Value>バッテリー(小)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanelFlat</Key>
+      <Value>ソーラーパネル</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel45</Key>
+      <Value>ソーラーパネル</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSolarPanelBasic</Key>
+      <Value>キット (ソーラーパネル)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSDBHopper</Key>
+      <Value>キット (ソーター)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitSDBSilo</Key>
+      <Value>キット (看板)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTankBigInsulated</Key>
+      <Value>キット (断熱パイプ)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTankInsulated</Key>
+      <Value>キット (断熱パイプ)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDebug</Key>
+      <Value>キット (ドア)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFlatBench</Key>
+      <Value>壁 (平面)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTables</Key>
+      <Value>キット (ケーブルフューズ)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitchenTableTall</Key>
+      <Value>キット (携帯タンク)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableThickDouble</Key>
+      <Value>小型タンク (燃料)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableDinnerSingle</Key>
+      <Value>壁 (プレート)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitChairs</Key>
+      <Value>キット (階段)</Value>
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -3538,6 +3606,10 @@
       <Key>Previous</Key>
       <Value>前</Value>
     </Record>
+    <Record>
+      <Key>SensorProcessingUnit</Key>
+      <Value>処理中</Value>
+    </Record>
   </Slots>
   <Interactables>
     <Record>
@@ -3565,6 +3637,14 @@
       <Value>エラー</Value>
     </Record>
     <Record>
+      <Key>Slot1</Key>
+      <Value>スロット 1</Value>
+    </Record>
+    <Record>
+      <Key>Slot2</Key>
+      <Value>スロット 2</Value>
+    </Record>
+    <Record>
       <Key>GrabLeftHand</Key>
       <Value>左手で掴む</Value>
     </Record>
@@ -3590,6 +3670,14 @@
     </Record>
     <Record>
       <Key>GrabUpperArmR</Key>
+      <Value>右腕を掴む</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmL</Key>
+      <Value>左腕を掴む</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmR</Key>
       <Value>右腕を掴む</Value>
     </Record>
     <Record>
@@ -5738,6 +5826,18 @@
     <Record>
       <Key>DeconstructToolTipText</Key>
       <Value>解体するには{0}が必要です</Value>
+    </Record>
+    <Record>
+      <Key>SettingsServerAdminPassword</Key>
+      <Value>サーバーパスワードが間違っています。</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardPlayer</Key>
+      <Value>プレイヤー</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardTime</Key>
+      <Value>時間:</Value>
     </Record>
   </Interface>
   <Colors>

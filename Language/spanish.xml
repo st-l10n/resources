@@ -3338,6 +3338,74 @@
       <Key>ModularRocketCargo01</Key>
       <Value>Carga de cohetes</Value>
     </RecordThing>
+    <RecordThing>
+      <Key>ItemSensorProcessingUnitOreScanner</Key>
+      <Value>Cartucho (Escáner de Minerales)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBatteryChargerSmall</Key>
+      <Value>Batería (Pequeña)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBatteryChargerSmall</Key>
+      <Value>Batería (Pequeña)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanelFlat</Key>
+      <Value>Panel Solar</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel45</Key>
+      <Value>Panel Solar</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSolarPanelBasic</Key>
+      <Value>Kit (Panel Solar)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSDBHopper</Key>
+      <Value>Kit (Clasificador)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitSDBSilo</Key>
+      <Value>Kit Construción (Cartel)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTankBigInsulated</Key>
+      <Value>Kit (Tubería aislada)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTankInsulated</Key>
+      <Value>Kit (Tubería aislada)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDebug</Key>
+      <Value>Kit (Puerta)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFlatBench</Key>
+      <Value>Muro (plano)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTables</Key>
+      <Value>Kit Construcción (Cable con Fusible)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitchenTableTall</Key>
+      <Value>Kit (Tanque Portátil)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableThickDouble</Key>
+      <Value>Tanque Pequeño (Combustible)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableDinnerSingle</Key>
+      <Value>Pared (Triángulo en esquina plana)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitChairs</Key>
+      <Value>Kit (Escalera)</Value>
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -3560,6 +3628,10 @@
       <Key>Previous</Key>
       <Value>Anterior</Value>
     </Record>
+    <Record>
+      <Key>SensorProcessingUnit</Key>
+      <Value>Procesando</Value>
+    </Record>
   </Slots>
   <Interactables>
     <Record>
@@ -3581,6 +3653,14 @@
     <Record>
       <Key>Powered</Key>
       <Value>Conectado</Value>
+    </Record>
+    <Record>
+      <Key>Slot1</Key>
+      <Value>Ranura 1</Value>
+    </Record>
+    <Record>
+      <Key>Slot2</Key>
+      <Value>Ranura 2</Value>
     </Record>
     <Record>
       <Key>GrabLeftHand</Key>
@@ -3608,6 +3688,14 @@
     </Record>
     <Record>
       <Key>GrabUpperArmR</Key>
+      <Value>Agarrar el brazo derecho</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmL</Key>
+      <Value>Agarrar el brazo izquierdo</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmR</Key>
       <Value>Agarrar el brazo derecho</Value>
     </Record>
     <Record>
@@ -7174,6 +7262,18 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
     <Record>
       <Key>SettingsDoubleClickDelay</Key>
       <Value>Retraso de doble clic</Value>
+    </Record>
+    <Record>
+      <Key>SettingsServerAdminPassword</Key>
+      <Value>Contraseña del servidor incorrecta.</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardPlayer</Key>
+      <Value>Jugador</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardTime</Key>
+      <Value>Tiempo de juego:</Value>
     </Record>
   </Interface>
   <Colors>

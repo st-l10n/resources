@@ -2221,6 +2221,58 @@
       <Key>ModularRocketCargo01</Key>
       <Value>로켓 엔진</Value>
     </RecordThing>
+    <RecordThing>
+      <Key>ItemSensorProcessingUnitOreScanner</Key>
+      <Value>카트리지 (광물 탐지기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBatteryChargerSmall</Key>
+      <Value>배터리 셀 (소형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBatteryChargerSmall</Key>
+      <Value>배터리 셀 (소형)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanelFlat</Key>
+      <Value>태양광 발전기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel45</Key>
+      <Value>태양광 발전기</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSolarPanelBasic</Key>
+      <Value>조립킷 (태양광 발전기)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSDBHopper</Key>
+      <Value>조립킷 (분류장치)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitSDBSilo</Key>
+      <Value>건축물 조립킷 (표지)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTankInsulated</Key>
+      <Value>조립킷 (소형 탱크)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDebug</Key>
+      <Value>조립킷 (문)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTables</Key>
+      <Value>건축물 조립킷 (전선 퓨즈)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableThickDouble</Key>
+      <Value>소형 탱크 (연료)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitChairs</Key>
+      <Value>조립킷 (계단)</Value>
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -2399,6 +2451,10 @@
       <Key>Cartridge1</Key>
       <Value>카트리지</Value>
     </Record>
+    <Record>
+      <Key>SensorProcessingUnit</Key>
+      <Value>처리</Value>
+    </Record>
   </Slots>
   <Interactables>
     <Record>
@@ -2426,6 +2482,14 @@
       <Value>에러</Value>
     </Record>
     <Record>
+      <Key>Slot1</Key>
+      <Value>슬롯1</Value>
+    </Record>
+    <Record>
+      <Key>Slot2</Key>
+      <Value>슬롯2</Value>
+    </Record>
+    <Record>
       <Key>GrabLeftHand</Key>
       <Value>왼손 잡기</Value>
     </Record>
@@ -2451,6 +2515,14 @@
     </Record>
     <Record>
       <Key>GrabUpperArmR</Key>
+      <Value>오른발 잡기</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmL</Key>
+      <Value>왼발 잡기</Value>
+    </Record>
+    <Record>
+      <Key>GrabLowerArmR</Key>
       <Value>오른발 잡기</Value>
     </Record>
     <Record>
@@ -4035,6 +4107,18 @@ Just don&apos;t be sad when you blow yourself into tiny, tiny little pieces or g
     <Record>
       <Key>Contents</Key>
       <Value>조작</Value>
+    </Record>
+    <Record>
+      <Key>SettingsServerAdminPassword</Key>
+      <Value>암호가 일치하지 않습니다.</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardPlayer</Key>
+      <Value>플레이어:</Value>
+    </Record>
+    <Record>
+      <Key>ScoreboardTime</Key>
+      <Value>플레이시간:</Value>
     </Record>
   </Interface>
   <Colors>
