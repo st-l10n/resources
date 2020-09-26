@@ -8,11 +8,11 @@
     </Record>
     <Record>
       <Key>BasicStructureBuildingDescription</Key>
-      <Value>Dans cette leçon, nous vous apprendrons comment construire une plate-forme de base que nous utiliserons comme première base. Les matériaux utilisés dans ce tutoriel seront trouvés à l’entrée dans un nouveau monde.</Value>
+      <Value>Dans cette leçon, nous vous apprendrons comment construire une plate-forme que nous utiliserons comme fondation de notre première base. Les matériaux utilisés dans ce tutoriel seront disponibles à votre point d&apos;arrivé dans le monde.</Value>
     </Record>
     <Record>
       <Key>TutorialThetoolbelt</Key>
-      <Value>Nombre total d’outils</Value>
+      <Value>La ceinture d’outils</Value>
     </Record>
     <Record>
       <Key>TutorialThetoolbeltDescription</Key>
@@ -20,11 +20,11 @@
     </Record>
     <Record>
       <Key>TutorialThetoolbeltTask1</Key>
-      <Value>Commençons par l’ouvrir. Appuyez et maintenez la touche {KEY:MouseControl} et cliquez sur la touche {SLOT:Belt} ou appuyez sur la touche {KEY:ToolBeltSlot}.</Value>
+      <Value>Commençons par l’ouvrir. Appuyez et maintenez la touche {KEY:MouseControl} et cliquez sur la case {SLOT:Belt} ou appuyez sur la touche {KEY:ToolBeltSlot}.</Value>
     </Record>
     <Record>
       <Key>TutorialThetoolbeltTask2</Key>
-      <Value>Maintenant, déplacez le chalumeau dans votre main en tenant la touche {KEY:MouseControl} et en faisant glisse le chalumeau de la {SLOT:Belt} dans votre main droite.</Value>
+      <Value>Déplacez le chalumeau dans votre main en tenant la touche {KEY:MouseControl} et en faisant glisse le chalumeau de la {SLOT:Belt} dans votre main droite.</Value>
     </Record>
     <Record>
       <Key>TutorialWhatAreFrames</Key>
@@ -36,13 +36,13 @@
     </Record>
     <Record>
       <Key>TutorialWhatAreFramesTask1</Key>
-      <Value>Appuyez sur la touche{KEY:SwapHands} pour échanger votre main active et passer à la caisse à proximité et ramasser {THING:ItemIronFrames} de la caisse dans votre main gauche.</Value>
+      <Value>Appuyez sur la touche {KEY:SwapHands} pour changer votre main active. Dans la caisse à proximité, ramasser les {THING:ItemIronFrames} dans votre main gauche.</Value>
     </Record>
     <Record>
       <Key>TutorialWhatAreFramesTask2</Key>
-      <Value>Maintenant que vous avez une idée de la façon d’utiliser l’interface, commençons avec les bâtiments de base, nous allons commencer par l’ouverture des caisses à proximité, dans la caisse 1, vous trouverez le {THING:ItemIronFrames} nécessaire pour démarrer la plate-forme.
+      <Value>Maintenant que vous avez une idée de la façon d’utiliser l’interface, commençons avec les éléments de base. Dans la caisse jaune, vous trouverez des {THING:ItemIronFrames} nécessaire pour démarrer la plate-forme.
         
-Pour construire le cadre, couvrez la zone en surbrillance avec les cadres dans votre main active, appuyez sur {KEY:SecondaryAction} pour activer le curseur et maintenez le bouton {KEY:PrimaryAction} jusqu’à ce qu’il se termine</Value>
+Pour construire un cadre : mettez-le dans votre main active, appuyez sur {KEY:SecondaryAction} pour afficher l&apos;image du cadre. Couvrez la zone en surbrillance orange avec l&apos;image du cadre, et maintenez le bouton {KEY:PrimaryAction} jusqu’à ce que la construction soit terminé.</Value>
     </Record>
     <Record>
       <Key>TutorialCompletingFrames</Key>
@@ -50,19 +50,21 @@ Pour construire le cadre, couvrez la zone en surbrillance avec les cadres dans v
     </Record>
     <Record>
       <Key>TutorialCompletingFramesDescription</Key>
-      <Value>À l’heure actuelle, nos {THING:ItemIronFrames} ne sont pas étanches à l’air. Pour compléter les {THING:ItemIronFrames}, nous avons besoin de souder quelques plaque de fer à elle. Si vous ne l’avez pas déjà fait, appuyez sur le bouton {KEY:SecondaryAction} pour retirer l’objet curseur de l’écran.</Value>
+      <Value>À l’heure actuelle, nos {THING:ItemIronFrames} ne sont pas étanches. Pour compléter les {THING:ItemIronFrames}, nous avons besoin d&apos;y souder quelques {THING:ItemIronSheets}. Si vous ne l’avez pas déjà fait, appuyez sur le bouton {KEY:SecondaryAction} pour retirer l&apos;image du cadre de l’écran.</Value>
     </Record>
     <Record>
       <Key>TutorialCompletingFramesTask1</Key>
-      <Value>Retournez à la caisse et permuter les cadres pour des {THING:ItemIronSheets} en appuyant sur le bouton {KEY:PrimaryAction} tout en maintenant le les {THING:ItemIronFrames}.</Value>
+      <Value>Retournez à la caisse. Permutez les {THING:ItemIronFrames} pour des {THING:ItemIronSheets} en appuyant sur le bouton {KEY:PrimaryAction}.</Value>
     </Record>
     <Record>
       <Key>TutorialCompletingFramesTask2</Key>
-      <Value>Équipez votre {THING:ItemWeldingTorch} de votre ceinture d&apos;outils et allumez-la avec la touche {KEY:ToggleHandPower} et revenez au cadre précédemment placé et maintenez le bouton {KEY:PrimaryAction} pour construire le cadre jusqu&apos;à ce qu&apos;il soit complet. Pour ce faire, vous aurez besoin de {THING:ItemIronSheets}. Remarque : N&apos;oubliez pas de désactiver le {THING:ItemWeldingTorch} lorsque vous avez terminé, appuyez sur la touche {KEY:ToggleHandPower}.</Value>
+      <Value>Équipez votre {THING:ItemWeldingTorch} en changeant votre main active (touche {KEY:SwapHands}) et revenez au cadre posé précédemment. Allumez le {THING:ItemWeldingTorch} avec la touche {KEY:ToggleHandPower}, et maintenez le bouton {KEY:PrimaryAction} pour finaliser la construction du {THING:ItemIronFrames}. Pour ce faire, vous aurez besoin de {THING:ItemIronSheets} dans votre autre main.
+</Value>
     </Record>
     <Record>
       <Key>TutorialCompletingFramesTask3</Key>
-      <Value>Terminez le {THING:ItemIronFrames} en continuant à le manier.</Value>
+      <Value>Terminez le {THING:ItemIronFrames} en continuant de souder.
+Remarque : N&apos;oubliez pas de désactiver le {THING:ItemWeldingTorch} lorsque vous avez terminé, en appuyant sur la touche {KEY:ToggleHandPower}.</Value>
     </Record>
     <Record>
       <Key>TutorialDoingitOnYourOwn</Key>
@@ -140,7 +142,7 @@ Astuce : Si vous tombez dans un cadre et que vous êtes coincé, utilisez la tou
     </Record>
     <Record>
       <Key>TutorialDeconstructingAnArcFurnace</Key>
-      <Value>Déconstruction  d&apos;un {THING:StructureArcFurnace}</Value>
+      <Value>Déconstruction d&apos;un {THING:StructureArcFurnace}</Value>
     </Record>
     <Record>
       <Key>TutorialDeconstructingAnArcFurnaceDescription</Key>
@@ -148,7 +150,7 @@ Astuce : Si vous tombez dans un cadre et que vous êtes coincé, utilisez la tou
     </Record>
     <Record>
       <Key>BuildingDeconstructingAnFurnaceTask1</Key>
-      <Value>Utilisez la {THING:ItemDrill} depuis de votre {SLOT:Belt}.</Value>
+      <Value>Utilisez la {THING:ItemDrill} de votre {SLOT:Belt} pour démonter le {THING:StructureArcFurnance}.</Value>
     </Record>
     <Record>
       <Key>BuildingDeconstructingAnFurnaceTask2</Key>
@@ -188,15 +190,15 @@ Astuce : Si vous tombez dans un cadre et que vous êtes coincé, utilisez la tou
     </Record>
     <Record>
       <Key>TutorialDeconstructingAnAutolatheTask4</Key>
-      <Value> Enfin, utilisez le {THING:ItemWrench} pour emballer le {THING:StructureAutolathe} dans un {THING:ItemKitAutolathe}.</Value>
+      <Value>{THING:ItemKitAutolathe} Enfin, utilisez le {THING:ItemWrench} pour empaqueter le {THING:StructureAutolathe} dans un {THING:ItemKitAutolathe}.</Value>
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolathe</Key>
-      <Value>Un nouveau tour</Value>
+      <Value>Tournage de pièces - Partie 1</Value>
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolatheDescription</Key>
-      <Value>Nous y sommes presque. La dernière étape consiste à construire le {THING:StructureAutolathe}. Le {THING:ItemKitAutolathe} est utilisé pour créer une grande variété de choses en utilisant des lingots et de l&apos;énergie comme ressources.</Value>
+      <Value>Nous y sommes presque. La dernière étape consiste à construire le {THING:StructureAutolathe}. Le {THING:StructureAutolathe} est utilisé pour créer une grande variété de choses en utilisant des lingots et de l&apos;énergie comme ressources.</Value>
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolatheTask1</Key>
@@ -204,47 +206,47 @@ Astuce : Si vous tombez dans un cadre et que vous êtes coincé, utilisez la tou
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolatheTask2</Key>
-      <Value>Construisez le {THING:ItemKitAutolathe} dans la zone en surbrillance. N&apos;oubliez pas, vous devrez peut-être utiliser la touche {KEY:QuantityModifier} pour la faire pivoter.</Value>
+      <Value>Construisez le {THING:StructureAutolathe} dans la zone en surbrillance. N&apos;oubliez pas, vous devrez peut-être utiliser la touche {KEY:QuantityModifier} pour le faire pivoter.</Value>
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolathePart2</Key>
-      <Value>Un nouveau tour - partie 2</Value>
+      <Value>Tournage de pièces - Partie 2</Value>
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolathePart2Description</Key>
-      <Value>Certains éléments comme le {THING:ItemKitAutolathe} sont plus difficiles à construire et ont plus d’étapes dans le processus de construction.</Value>
+      <Value>Certains éléments comme le {THING:StructureAutolathe} sont plus difficiles à construire et ont plus d’étapes dans le processus de construction.</Value>
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolatheTask0.5</Key>
-      <Value>Ramassage les {THING:ItemIronSheets} du précédent {THING:StructureAutolathe}.</Value>
+      <Value>Ramasser les {THING:ItemIronSheets} du précédent {THING:StructureAutolathe}.</Value>
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolathePart2Task1</Key>
-      <Value>Soudez des {THING:ItemIronSheets} sur le {THING:StructureAutolathe}.</Value>
+      <Value>Soudez les {THING:ItemIronSheets} sur le {THING:StructureAutolathe}.</Value>
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolatheTask1.5</Key>
-      <Value>Obtenez votre {THING:ItemCableCoil} depuis votre {SLOT:Belt}.</Value>
+      <Value>Ramassez la {THING:ItemCableCoil} ou prenez la {THING:ItemCableCoil} dans votre {SLOT:Belt}.</Value>
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolathePart2Task2</Key>
-      <Value>Utilisez le {THING:ItemCableCoil} pour câbler l&apos;intérieur du fourneau.</Value>
+      <Value>Utilisez le {THING:ItemCableCoil} pour câbler l&apos;intérieur du {THING:StructureAutholathe}.</Value>
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolatheTask2.5</Key>
-      <Value>Obtenez les {THING:ItemPlasticSheets} du précédent {THING:StructureAutolathe}.</Value>
+      <Value>Ramassez les {THING:ItemPlasticSheets} du précédent {THING:StructureAutolathe}.</Value>
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolathePart2Task3</Key>
-      <Value>Soudez le {THING:ItemPlasticSheets} à la {THING:StructureAutolathe}&apos;.</Value>
+      <Value>Soudez les {THING:ItemPlasticSheets} sur le {THING:StructureAutolathe}.</Value>
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolatheTask3.5</Key>
-      <Value>Obtenez votre {THING:ItemScrewdriver} depuis votre {SLOT:Belt}.</Value>
+      <Value>Prennez votre {THING:ItemScrewdriver} dans votre {SLOT:Belt}.</Value>
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolathePart2Task4</Key>
-      <Value>Terminez en vissant le panneau avant avec le {THING:ItemScrewdriver} de votre {SLOT:Belt}.</Value>
+      <Value>Terminez le {THING:StructureAutolathe} en vissant le panneau avant avec votre {THING:ItemScrewdriver}.</Value>
     </Record>
   </Interface>
 </Language>

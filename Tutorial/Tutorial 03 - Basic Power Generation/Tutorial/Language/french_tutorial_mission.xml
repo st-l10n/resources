@@ -4,7 +4,7 @@
   <Interface>
     <Record>
       <Key>03BasicPowerGeneration</Key>
-      <Value>#3 Base de la production d’électricité</Value>
+      <Value>Base de la production d’électricité</Value>
     </Record>
     <Record>
       <Key>BasicPowerGenerationDescription</Key>
@@ -16,7 +16,7 @@
     </Record>
     <Record>
       <Key>TutorialWireCuttingDescription</Key>
-      <Value>Bienvenue Cadet, votre première tâche sera de nettoyer certains vieux fils brûlés. Utilisez la {THING:ItemWireCutters} de votre ceinture d’outils pour les supprimer.</Value>
+      <Value>Bienvenue Cadet, votre première tâche sera de nettoyer certains vieux fils brûlés. Utilisez la {THING:ItemWireCutters} de votre {SLOT:Belt} pour les supprimer.</Value>
     </Record>
     <Record>
       <Key>TutorialWireCuttingTask1</Key>
@@ -28,7 +28,7 @@
     </Record>
     <Record>
       <Key>TutorialSolidFuelEnergyDescription</Key>
-      <Value>Cadet, maintenant que vous avez une plate-forme de base et quelques machines en place, vous aurez besoin de leur fournir de la puissance. Commençons par le {THING:StructureSolidFuelGenerator}. Le générateur de combustible solide est idéal pour la puissance d’urgence ou pour les bases précoces qui n’ont pas beaucoup de stockage d’énergie pendant la nuit. Son inconvénient, c’est qu’il a besoin de carburant solide pour fonctionner.</Value>
+      <Value>Cadet, maintenant que vous avez une plate-forme de base et quelques machines en place, vous aurez besoin de leur fournir de la puissance électrique. Le {THING:StructureSolidFuelGenerator} est idéal pour la puissance d’urgence ou pour les petites bases qui n’ont pas beaucoup de stockage d’énergie pour la nuit. Son inconvénient, il a besoin de {THING:ItemCoalOre} pour fonctionner.</Value>
     </Record>
     <Record>
       <Key>SolidFuelEnergyTask1</Key>
@@ -40,7 +40,7 @@
     </Record>
     <Record>
       <Key>TutorialGoingSolar</Key>
-      <Value>Energie solaire</Value>
+      <Value>Energie solaire - Partie 1</Value>
     </Record>
     <Record>
       <Key>TutorialGoingSolarDescription</Key>
@@ -52,15 +52,16 @@
     </Record>
     <Record>
       <Key>GoingSolarTask2</Key>
-      <Value>Les kits peuvent être utilisés pour construire différentes structures et variantes. Pour construire ce panneau solaire, vous devrez passer à la variante correcte à l’aide de la roue de défilement. Avec le panneau solaire sélectionné, assortissez les formes du curseur avec l’endroit en surbrillance. N’oubliez pas d’utiliser {KEY:QuantityModifier} pour faire pivoter l’objet à la position correcte.</Value>
+      <Value>Les kits peuvent être utilisés pour construire différentes variantes des structures. Pour construire ce {THING:StructureSolarPanel}, vous pouvez choisir la variante à l’aide de la roue de défilement de la souris.
+Couvrez la zone en surbrillance avec l&apos;image du panneau solaire. N’oubliez pas d’utiliser {KEY:QuantityModifier} pour faire pivoter l’image dans la position correcte.</Value>
     </Record>
     <Record>
       <Key>TutorialGoingSolarpart2</Key>
-      <Value>Energie solaire - partie 2</Value>
+      <Value>Energie solaire - Partie 2</Value>
     </Record>
     <Record>
       <Key>TutorialGoingSolarDescriptionpart2</Key>
-      <Value>Comme pour le {THING:StructureAutolathe}, le panneau solaire nécessite également une étape supplémentaire pour sa construction. </Value>
+      <Value>Comme le {THING:StructureAutolathe}, le {THING:StructureSolarPanel} nécessite également une étape supplémentaire pour sa construction. </Value>
     </Record>
     <Record>
       <Key>GoingSolarPart2Task1</Key>
@@ -72,17 +73,18 @@
     </Record>
     <Record>
       <Key>TutorialLearningToWire</Key>
-      <Value>Apprendre à cabler</Value>
+      <Value>Apprendre à câbler</Value>
     </Record>
     <Record>
       <Key>TutorialLearningToWireDescription</Key>
-      <Value>Maintenant, nous devons connecter nos équipements ensemble à l&apos;aide de fils. Sur Terre, les fils normaux feront l&apos;affaire. Cependant, l&apos;oxygène atomique et le rayonnement solaire dégradent de nombreuses substances exposées à l&apos;espace. Par conséquent, nous avons conçu un type spécial de câble capable de résister aux environnements spatiaux. Il peut transporter à la fois des données et de l&apos;énergie, vous permettant de contrôler les machines à partir d&apos;un panneau de commande. Cela sera traité plus tard.
+      <Value>Maintenant, nous devons connecter nos équipements ensemble à l&apos;aide de câbles. Sur Terre, les fils normaux feront l&apos;affaire. Cependant, le rayonnement solaire dégradent de nombreuses substances exposées à l&apos;espace. Par conséquent, nous avons conçu un type spécial de câble capable de résister aux environnements spatiaux. Il peut transporter à la fois des données et de l&apos;énergie, vous permettant de contrôler les machines à partir d&apos;un panneau de commande. Mais cela sera traité plus tard dans les tutoriaux.
 
-Dans votre {SLOT:Belt}, vous trouverez le {THING:ItemCableCoil}, placez les câbles dans la zone en surbrillance. N’oubliez pas d’utiliser la roue de défilement pour sélectionner le fil correct et d’utiliser la touche {KEY:QuantityModifier} pour faire pivoter pour correspondre au placement</Value>
+Dans votre {SLOT:Belt}, vous trouverez une {THING:ItemCableCoil}, placez les câbles dans la zone en surbrillance. 
+N’oubliez pas d’utiliser la roue de défilement pour sélectionner la variante correcte et d’utiliser la touche {KEY:QuantityModifier} pour faire pivoter pour correspondre au placement</Value>
     </Record>
     <Record>
       <Key>LearningToWireTask0.5</Key>
-      <Value>Obtenez du {THING:ItemCableCoil} depuis votre {SLOT:Belt}.</Value>
+      <Value>Prenez la {THING:ItemCableCoil} dans votre {SLOT:Belt}.</Value>
     </Record>
     <Record>
       <Key>CableCorner</Key>
@@ -106,13 +108,13 @@ Dans votre {SLOT:Belt}, vous trouverez le {THING:ItemCableCoil}, placez les câb
     </Record>
     <Record>
       <Key>TutorialPowerControlersAndbatteryCharges</Key>
-      <Value>Charges de batterie et contrôleurs d’alimentation</Value>
+      <Value>Batterie et contrôleurs d’alimentation</Value>
     </Record>
     <Record>
       <Key>TutorialPowerControlersAndbatteryChargesDescription</Key>
-      <Value>Dans notre prochaine étape, nous devons placer un {THING:ItemAreaPowerControl}. Les contrôleurs d’alimentation sont utilisés pour contrôler le flux d’alimentation et empêcher les câbles de brûler, ils fournissent également une petite quantité d’alimentation intermédiaire si les générateurs sont hors ligne.
+      <Value>Dans notre prochaine étape, nous devons placer un {THING:StructureAreaPowerControl}. Ils sont utilisés pour contrôler le flux d’alimentation et empêcher les câbles de brûler. Equipé d&apos;une batterie, ils peuvent également fournir une petite quantité d&apos;électricité si l&apos;alimentation  principale est hors service.
 
-Deuxièmement, nous devons ajouter un {THING:ItemBatteryCharger} pour charger nos batteries épuisées. Nous voulons mettre cela devant notre {THING:ItemAreaPowerControl} afin que tout chargement de la batterie ne vide pas la batterie dans le {THING:ItemAreaPowerControl}.</Value>
+Deuxièmement, nous devons ajouter un {THING:StructureBatteryCharger} pour recharger nos batteries épuisées. Nous mettont le {THING:StructureBatteryCharger} en amont notre {THING:StructureAreaPowerControl} afin que le rechargement de la batterie ne vide pas la batterie dans le {THING:StructureAreaPowerControl}.</Value>
     </Record>
     <Record>
       <Key>PowerControlersAndbatteryChargesTask1</Key>
@@ -120,7 +122,7 @@ Deuxièmement, nous devons ajouter un {THING:ItemBatteryCharger} pour charger no
     </Record>
     <Record>
       <Key>PowerControlersAndbatteryChargesTask2</Key>
-      <Value>Placez le {THING:ItemAreaPowerControl} dans la zone en surbrillance.</Value>
+      <Value>Placez le {THING:StructureAreaPowerControl} dans la zone en surbrillance.</Value>
     </Record>
     <Record>
       <Key>PowerControlersAndbatteryChargesTask3</Key>
@@ -128,7 +130,7 @@ Deuxièmement, nous devons ajouter un {THING:ItemBatteryCharger} pour charger no
     </Record>
     <Record>
       <Key>PowerControlersAndbatteryChargesTask4</Key>
-      <Value>Placez le {THING:ItemBatteryCharger} dans la zone en surbrillance.</Value>
+      <Value>Placez le {THING:StructureBatteryCharger} dans la zone en surbrillance.</Value>
     </Record>
     <Record>
       <Key>TutorialFinishingTheCircuit</Key>
@@ -136,7 +138,7 @@ Deuxièmement, nous devons ajouter un {THING:ItemBatteryCharger} pour charger no
     </Record>
     <Record>
       <Key>TutorialTutorialFinishingTheCircuitDescription</Key>
-      <Value>Câblez le reste des composants jusqu’à nos machines.</Value>
+      <Value>Câblez les composants et les machines restantes.</Value>
     </Record>
     <Record>
       <Key>FinishingTheCircuitTask2</Key>
@@ -156,11 +158,11 @@ Deuxièmement, nous devons ajouter un {THING:ItemBatteryCharger} pour charger no
     </Record>
     <Record>
       <Key>TutorialSettingUpThePowerController</Key>
-      <Value>Mise en place du contrôleur d’alimentation</Value>
+      <Value>Construction du contrôleur d’alimentation</Value>
     </Record>
     <Record>
       <Key>TutorialSettingUpThePowerControllerDescription</Key>
-      <Value>Pour que le contrôleur d’alimentation fonctionne, nous devons ouvrir le couvercle et insérer une batterie, puis retourner le commutateur de disjoncteur pour permettre à l’électricité et aux données de passer à travers. Son habituellement recommandé d’utiliser une grande batterie pour assurer une alimentation durable en cas de panne, bien qu’une petite batterie pourrait être utilisé aussi.</Value>
+      <Value>Pour que le {THING:StructureAreaPowerControl} fonctionne, ouvrer le couvercle avec votre {THING:ItemCrowbar} et y insérer une {THING:ItemBatteryCellLarge}, puis activer le commutateur du disjoncteur pour permettre à l’électricité et aux données de passer. Il est habituellement recommandé d’utiliser une grande batterie pour assurer une alimentation durable en cas de panne. Néanmoins, il est possible d&apos;utiliser une petite batterie.</Value>
     </Record>
     <Record>
       <Key>SettingUpThePowerControllerTask1</Key>
@@ -180,7 +182,7 @@ Deuxièmement, nous devons ajouter un {THING:ItemBatteryCharger} pour charger no
     </Record>
     <Record>
       <Key>SettingUpThePowerControllerTask5</Key>
-      <Value>Retournez le disjoncteur à la position &quot; On &quot; sur le {THING:StructureAreaPowerControl}.</Value>
+      <Value>Activer le disjoncteur du {THING:StructureAreaPowerControl} en position &quot; On &quot;.</Value>
     </Record>
   </Interface>
 </Language>

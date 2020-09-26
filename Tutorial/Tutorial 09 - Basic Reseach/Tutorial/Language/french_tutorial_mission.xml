@@ -4,7 +4,7 @@
   <Interface>
     <Record>
       <Key>09BasicResearch</Key>
-      <Value>#9 Base de la recherche</Value>
+      <Value>Base de la recherche</Value>
     </Record>
     <Record>
       <Key>BasicResearchDescription</Key>
@@ -26,7 +26,7 @@ Votre première tâche consiste à construire la {THING:StructureResearchMachine
     </Record>
     <Record>
       <Key>TheResearchMachine2</Key>
-      <Value>Placez le {THING:ItemAreaPowerControl} dans la zone en surbrillance.</Value>
+      <Value>Placez la {THING:ItemKitResearchMachine} sur la position en surbrillance.</Value>
     </Record>
     <Record>
       <Key>TheResearchMachineBuild</Key>
@@ -38,11 +38,11 @@ Votre première tâche consiste à construire la {THING:StructureResearchMachine
     </Record>
     <Record>
       <Key>TheResearchMachineBuild1</Key>
-      <Value>Ramasser le {THING:ItemKitArcFurnace}.</Value>
+      <Value>Ramasser le {THING:ItemIronSheets}.</Value>
     </Record>
     <Record>
       <Key>TheResearchMachineBuild2</Key>
-      <Value>Soudez des {THING:ItemIronSheets} sur le {THING:StructureAutolathe}.</Value>
+      <Value>Soudez les {THING:ItemIronSheets} à {THING:StructureResearchMachine} avec le {THING:ItemWeldingTorch}.</Value>
     </Record>
     <Record>
       <Key>TheResearchMachineBuild3</Key>
@@ -139,6 +139,14 @@ Le côté gauche du menu affiche des filtres qui peuvent être activés ou désa
     <Record>
       <Key>UnlockingResearch2</Key>
       <Value>Cliquez sur le cercle rouge de la {THING:StructureResearchMachine}, puis cliquez sur une catégorie de technologie à déverrouiller, et sélectionnez &quot;confirmer&quot;.</Value>
+    </Record>
+    <Record>
+      <Key>ItemsUnlocked</Key>
+      <Value>Objets débloqués</Value>
+    </Record>
+    <Record>
+      <Key>ItemsUnlockedDescription</Key>
+      <Value>Maintenant que vous avez débloqué un nouveau nœud de recherche, vous pouvez accéder aux nouveaux éléments de leur machine d’impression associée.</Value>
     </Record>
     <Record>
       <Key>ItemsUnlocked1</Key>

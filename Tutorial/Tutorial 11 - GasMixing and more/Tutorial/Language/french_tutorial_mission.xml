@@ -7,56 +7,90 @@
       <Value>Mélange de gaz et plus</Value>
     </Record>
     <Record>
+      <Key>Tutorial 11 - GasFilteringandmoreDescription</Key>
+      <Value>Apprenez à remplir la bouteille d&apos;oxygène de votre combinaison et à mélanger les gaz pour créer du carburant.</Value>
+    </Record>
+    <Record>
       <Key>GasMixingInd</Key>
       <Value>Mélange de gaz : Introduction </Value>
     </Record>
     <Record>
       <Key>GasMixingIndDescription</Key>
-      <Value>Bienvenue, Cadet ! Dans cette leçon, nous remplirons les réservoirs d’oxygène de votre combinaison, puis mélangerons deux gaz pour en faire du carburant. Le carburant est utilisé pour de nombreuses applications : de l’alimentation de votre soudeuse au lancement de fusées !</Value>
+      <Value>Bienvenue, Cadet ! Dans cette leçon, nous allons voir comment remplir la bouteille d’oxygène de votre combinaison, puis comment mélanger deux gaz pour en faire du carburant. Le carburant est utilisé pour de nombreuses applications, allant de l’alimentation de votre soudeuse au lancement de fusées !</Value>
+    </Record>
+    <Record>
+      <Key>RemoveingSuitOxy</Key>
+      <Value>Enlever votre bouteille d’oxygène de la combinaison.</Value>
+    </Record>
+    <Record>
+      <Key>RemoveingSuitOxyDescription</Key>
+      <Value>Ouvrez le menu de votre combinaison et placez la bouteille d&apos;oxygène dans votre main.
+Vous obtiendrez un avertissement à l&apos;écran lorsque la bouteille sera retirée. Pas de panique, c&apos;est parce qu&apos;il y a encore une petite quantité d&apos;oxygène qui circule dans la combinaison.
+Vous pouvez maintenant insérer la bouteille d&apos;oxygène dans le {THING:DynamicGasCanisterOxygen} pour la remplir.</Value>
     </Record>
     <Record>
       <Key>RemoveingSuitOxyTask1</Key>
-      <Value>Utilisez la {THING:ItemDrill} depuis de votre {SLOT:Belt}.</Value>
+      <Value>Prenez le {THING:ItemGasCanisterOxygen} de votre combinaison.</Value>
     </Record>
     <Record>
       <Key>RemoveingSuitOxyTask2</Key>
-      <Value>Ramasser le {THING:ItemKitAutolathe}.</Value>
+      <Value>Placez la bouteille d&apos;oxygène dans la {THING:DynamicGasCanisterOxygen}.</Value>
+    </Record>
+    <Record>
+      <Key>RetrievingOxyTank</Key>
+      <Value>Récupération du réservoir d’oxygène</Value>
+    </Record>
+    <Record>
+      <Key>RetrievingOxyTankDescription</Key>
+      <Value>Le {THING:DynamicGasCanisterOxygen} va remplir la {THING:ItemGasCanisterOxygen} avec de l&apos;oxygène. Vous pouvez à présent retirer la {THING:ItemGasCanisterOxygen} du {THING:DynamicGasCanisterOxygen}.</Value>
     </Record>
     <Record>
       <Key>RetrievingOxyTankTask1</Key>
-      <Value>Insérez le {THING:ItemDataDisk} dans la {THING:StructureConsole}.</Value>
+      <Value>Supprimez la {THING:ItemGasCanisterOxygen} de {THING:DynamicGasCanisterOxygen}.</Value>
     </Record>
     <Record>
       <Key>RetrievingOxyTankTask2</Key>
-      <Value>Remplacer les {THING:ItemGlassSheets}.</Value>
+      <Value>Replacez la {THING:ItemGasCanisterOxygen} dans votre combinaison.</Value>
     </Record>
     <Record>
       <Key>RemoveingFuelCan</Key>
-      <Value>Retirer le réservoir de carburant</Value>
+      <Value>Retirer la bouteille de carburant</Value>
+    </Record>
+    <Record>
+      <Key>RemoveingFuelCanDescription</Key>
+      <Value>Votre chalumeau est à court de carburant. Pour le recharger, nous devrons créer un mélange de gaz approprié. Allez placer la {THING:ItemGasCanisterFuel} dans le {THING:StructureGasTankStorage}.</Value>
     </Record>
     <Record>
       <Key>RemoveingFuelCanTask1</Key>
-      <Value>Insérez le {THING:ItemDataDisk} dans la {THING:StructureConsole}.</Value>
+      <Value>Retirez la {THING:ItemGasCanisterFuel} du {THING:ItemWeldingTorch} dans votre {THING:ItemToolBelt}</Value>
     </Record>
     <Record>
       <Key>RemoveingFuelCanTask2</Key>
-      <Value>Placez la {THING:ItemBatteryCellLarge} dans le {THING:StructureAreaPowerControl}.</Value>
+      <Value>Placez la {THING:ItemGasCanisterFuel} dans le {THING:StructureGasTankStorage} jaune posé au sol derrière vous.</Value>
     </Record>
     <Record>
       <Key>Valves</Key>
       <Value>Vannes</Value>
     </Record>
     <Record>
+      <Key>ValvesDescription</Key>
+      <Value>Nous devons mettre en place maintenant un réseau de canalisations pour le système de mélange de gaz. Commencez par placer des vannes à côté de chaque {THING:StructureTankConnector}. Cela vous permet de couper le réseau des réservoirs de gaz nouvellement connectés, jusqu&apos;à ce que nous soyons prêts à les connecter au réseau de canalisations.</Value>
+    </Record>
+    <Record>
       <Key>ValvesTask1</Key>
-      <Value>Utilisez le {THING:ItemKitDoor} de la caisse jaune pour construire deux {THING:StructureCompositeDoor} dans les endroits mis en surbrillance.</Value>
+      <Value>Récupérez une {THING:ItemPipeValve} dans la caisse voisine et placez-la à l&apos;endroit en surbrillance.</Value>
     </Record>
     <Record>
       <Key>PipeMeters</Key>
       <Value>Manomètre</Value>
     </Record>
     <Record>
+      <Key>PipeMetersDescription</Key>
+      <Value>Le {THING:StructurePipeMeter} vous permet de voir la pression actuelle à l&apos;intérieur d&apos;un réseau de canalisations. Placez-les à côté de chaque {THING:ItemPipeValve}. Notez qu&apos;ils sont placés sur un tuyau et non entre deux tuyaux. Prenez-les dans la caisse à proximité.</Value>
+    </Record>
+    <Record>
       <Key>PipeMetersTask1</Key>
-      <Value>Placez un autre {THING:StructureActiveVent} à l&apos;endroit en surbrillance.</Value>
+      <Value>Placez un {THING:StructurePipeMeter} à l&apos;endroit en surbrillance.</Value>
     </Record>
     <Record>
       <Key>GasMixer</Key>
@@ -68,43 +102,55 @@
     </Record>
     <Record>
       <Key>GasMixerTask1</Key>
-      <Value>Construisez un {THING:StructureGasSensor} à l&apos;endroit mis en surbrillance</Value>
+      <Value>Placez le {THING:StructureGasMixer} à l&apos;endroit mis en surbrillance.</Value>
     </Record>
     <Record>
       <Key>PressureRegulator</Key>
       <Value>Le régulateur de pression</Value>
     </Record>
     <Record>
+      <Key>PressureRegulatorDescription</Key>
+      <Value>Le {THING:StructurePressureRegulator} est utilisé pour réguler la pression à l&apos;intérieur d&apos;un réseau de canalisations. Cela vous permet de limiter la pression et de ne pas sur-pressuriser un réservoir.</Value>
+    </Record>
+    <Record>
       <Key>PressureRegulatorTask1</Key>
-      <Value>Placez un autre {THING:StructureActiveVent} à l&apos;endroit en surbrillance.</Value>
+      <Value>Placez le {THING:StructurePressureRegulator} à l&apos;endroit en surbrillance.</Value>
     </Record>
     <Record>
       <Key>ConnectingTanks</Key>
-      <Value>Compléter les cadres</Value>
+      <Value>Connecter les réservoirs</Value>
+    </Record>
+    <Record>
+      <Key>ConnectingTanksDescription</Key>
+      <Value>Connectez maintenant les réservoirs dynamiques à {THING:StructureTankConnector}. Faites glisser le réservoir au-dessus du {THING:StructureTankConnector}, puis utilisez votre {THING:ItemWrench} sur le réservoir Dynamique pour le connecter.</Value>
     </Record>
     <Record>
       <Key>ConnectingTanksTask1</Key>
-      <Value> Enfin, utilisez le {THING:ItemWrench} pour emballer le {THING:StructureAutolathe} dans un {THING:ItemKitAutolathe}.</Value>
+      <Value>Connectez la {THING:DynamicGasCanisterOxygen} au connecteur de réservoir blanc.</Value>
     </Record>
     <Record>
       <Key>ConnectingTanksTask2</Key>
-      <Value> Enfin, utilisez le {THING:ItemWrench} pour emballer le {THING:StructureAutolathe} dans un {THING:ItemKitAutolathe}.</Value>
+      <Value>Connectez le {THING:DynamicGasCanisterVolatiles} au connecteur de réservoir rouge.</Value>
     </Record>
     <Record>
       <Key>FlipingValves</Key>
-      <Value>Equiper un filtre</Value>
+      <Value>Commutation de vannes</Value>
+    </Record>
+    <Record>
+      <Key>FlipingValvesDescription</Key>
+      <Value>Nous sommes maintenant prêts à ouvrir chaque {THING:StructureValve}. Pour cela interagissez avec le levier de chaque {THING:StructureValve}.</Value>
     </Record>
     <Record>
       <Key>FlipingValvesTask2</Key>
-      <Value>Construisez un {THING:StructureGasSensor} à l&apos;endroit mis en surbrillance</Value>
+      <Value>Ouvrez la {THING:StructureValve} sur le réseau oxygène.</Value>
     </Record>
     <Record>
       <Key>FlipingValvesTask1</Key>
-      <Value>Placez le {THING:StructureSolidFuelGenerator}.</Value>
+      <Value>Ouvrez la {THING:StructureValve} sur le réseau volatiles.</Value>
     </Record>
     <Record>
       <Key>SettingYourLimit</Key>
-      <Value>Paramétrage de la mémoire</Value>
+      <Value>Réguler la pression</Value>
     </Record>
     <Record>
       <Key>SettingYourLimitTask2</Key>
@@ -132,11 +178,19 @@
     </Record>
     <Record>
       <Key>RetrievingTheFuelTankTask2</Key>
-      <Value>Placez la {THING:ItemBatteryCellLarge} dans le {THING:StructureAreaPowerControl}.</Value>
+      <Value>Replacez la {THING:ItemGasCanisterFuel} dans le {THING:ItemWeldingTorch}.</Value>
     </Record>
     <Record>
       <Key>TestTheFuelMix</Key>
       <Value>Test du mélange de carburant</Value>
+    </Record>
+    <Record>
+      <Key>TestTheFuelMixDescription</Key>
+      <Value>Maintenant que nous avons recharger le {THING:ItemGasCanisterFuel}, testez-le en complétant la porte en verre à côté du système de mélange de gaz. Vous trouverez les fournitures dont vous avez besoin à côté du mur.</Value>
+    </Record>
+    <Record>
+      <Key>TestTheFuelMixTask1</Key>
+      <Value>Construction complète de la porte en verre.</Value>
     </Record>
   </Interface>
 </Language>

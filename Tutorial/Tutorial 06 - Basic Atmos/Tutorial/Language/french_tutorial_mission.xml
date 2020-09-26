@@ -8,33 +8,28 @@
     </Record>
     <Record>
       <Key>BasicAtmosphericsDescription</Key>
-      <Value>Dans cette leçon, vous apprendrez à remplir une base de démarrage avec une atmosphère respirante.</Value>
+      <Value>Dans cette leçon, vous apprendrez à remplir un bâtiment avec une atmosphère respirable.</Value>
     </Record>
     <Record>
       <Key>TheTabletAtmo</Key>
-      <Value>Suivi de l’oxite</Value>
+      <Value>Suivre la piste de l’Oxite</Value>
     </Record>
     <Record>
       <Key>TheTabletAtmoDescription</Key>
-      <Value>Insérez la carte de localisation dans la {THING:ItemTablet}.</Value>
+      <Value>Cadet, aujourd&apos;hui nous allons pressuriser le bâtiment avec une atmoqphère respirable. Notre première tâche est de ramasser de la {THING:ItemOxite}. Nous avons placé une {THING:ItemBeacon} près d&apos;un filon, utilisez votre {THING:ItemTablet} pour le localiser.</Value>
     </Record>
     <Record>
       <Key>BasicAtmosphericsDescription</Key>
-      <Value>Dans cette leçon, vous apprendrez à remplir une base de démarrage avec une atmosphère respirante.</Value>
+      <Value>Dans cette leçon, vous apprendrez à remplir un bâtiment avec une atmosphère respirable.</Value>
     </Record>
     <Record>
       <Key>Oxyie-Gen</Key>
-      <Value>Rassembler l&apos;oxite.</Value>
-    </Record>
-    <Record>
-      <Key>Oxyie-GenTask1</Key>
-      <Value>Vous aurez besoin de miner environ 100 oxite pour pressuriser la base, il ya deux dépôts à proximité de la balise de suivi. Faites défiler les options jusqu’à ce que vous trouviez la balise dont vous avez besoin.</Value>
+      <Value>Ramasser de la {THING:ItemOxite}.</Value>
     </Record>
     <Record>
       <Key>Oxyie-GenDescription</Key>
-      <Value>L’oxite est un gaz respirable gelé qui existe dans les petits dépôts sur la plupart des planètes. Oxite fondra à moins qu’il ne soit dans votre sac à dos ou ceinture d’extraction. 
-        
-Utilisation de la tablette Voyage sur le site Oxite.</Value>
+      <Value>La {THING:ItemOxite} est un gaz respirable sous forme solide. Il est présent sur la plupart des planètes. La {THING:ItemOxite} fondra à moins qu’il ne soit dans votre {THING:ItemSpacepack} ou votre {THING:ItemMiningBelt}.
+Vous aurez besoin de miner environ 100 {THING:ItemOxite} pour pressuriser le bâtiment, il y a un dépôt à proximité de la balise de suivi. Faites défiler les cibles jusqu’à ce que vous trouviez la balise dont vous avez besoin.</Value>
     </Record>
     <Record>
       <Key>AtmoAirLock</Key>
@@ -42,13 +37,13 @@ Utilisation de la tablette Voyage sur le site Oxite.</Value>
     </Record>
     <Record>
       <Key>AtmoAirLockDescription</Key>
-      <Value>Un sas est un dispositif qui permet le passage de personnes et d’objets entre une base pressurisée et son environnement tout en minimisant le changement de pression dans la base et la perte d’air de celui-ci.
+      <Value>Un sas est une salle étanche entre deux milieux différents. Il permet le passage de personnes et d’objets entre une pièce pressurisée et l&apos;extérieur, tout en minimisant le changement de pression dans la base et la perte d’air.
 
-Actuellement, la base n’a pas d’atmosphère interne, en tant que tel le sas ne fonctionnera pas correctement car il nécessite 100kpa pour fonctionner avec succès. Nous pouvons toujours entrer dans la base en annulant le cycle de pressurisation sur le sas. Il s’agit d’un bon conseil pour se rappeler si votre base a une fuite d’air et vous devez entrer ou sortir sans exécuter le cycle.</Value>
+Actuellement, la base n’a pas d’atmosphère interne. De ce fait, le sas ne fonctionnera pas correctement. En effet, il nécessite une pression de 100kpa dans le bâtiment pour fonctionner correctement. Nous pouvons toujours entrer dans la base en annulant le cycle de pressurisation du sas. Un conseil a se souvenir, si votre base a une fuite d’air et vous deviez entrer ou sortir sans exécuter le cycle.</Value>
     </Record>
     <Record>
       <Key>AtmoAirLockTask1</Key>
-      <Value>À votre base et entrez le sas appuyez sur le bouton &quot;Cycle pour l&apos;intérieur&quot; sur la console et attendez la fermeture de la porte extérieure. Un nouveau bouton apparaîtra &quot;Annuler pressurisation&quot; appuyer sur ce bouton et la porte interne doit s’ouvrir.</Value>
+      <Value>Rejoignez votre base et entrez le sas. Appuyez sur le bouton &amp;quot;Cycle to interior&amp;quot; sur la console et attendez la fermeture de la porte extérieure. Un nouveau bouton apparaîtra &amp;quot;Cancel Pressurize&amp;quot;, appuyer sur ce bouton et la porte interne doit s’ouvrir.</Value>
     </Record>
     <Record>
       <Key>AtmosAnalyser</Key>
@@ -68,7 +63,8 @@ Actuellement, la base n’a pas d’atmosphère interne, en tant que tel le sas 
     </Record>
     <Record>
       <Key>Creating_AtmoDescription</Key>
-      <Value>La façon la plus simple de créer une atmosphère respirable est de miner l’oxite et de la laisser tomber dans votre base pour la laisser fondre, ce qui libérera de l’oxygène respirable dans l’atmosphère tout en augmentant la pression de l’air, soyez prudent lors de la fonte de l’oxite que vous pourriez trop pressuriser le base causant des dommages aux murs. Les humains doivent respirer un minimum de 20% d’oxygène sans polluants ou poisons. Vous pouvez avoir une petite quantité de dioxyde de carbone dans l’atmosphère, mais il n’est pas recommandé de dépasser 10%.</Value>
+      <Value>La façon la plus simple de créer une atmosphère respirable, est de miner la {THING:ItemOxite}. Ensuite la laisser fondre dans votre base, ce qui libérera de l’oxygène respirable dans l’atmosphère. Soyez prudent lors de la fonte de {THING:ItemOxite}, la pression de l&apos;air va augmenter. Une pression trop importante peut causer des dommages aux murs et aux fenêtres.
+Les humains doivent respirer un minimum de 20% d’oxygène sans polluants ou poisons. Une petite quantité de dioxyde de carbone dans l’atmosphère est acceptable, mais il n’est pas recommandé de dépasser 10%.</Value>
     </Record>
     <Record>
       <Key>Creating_AtmoTask1</Key>
@@ -76,11 +72,11 @@ Actuellement, la base n’a pas d’atmosphère interne, en tant que tel le sas 
     </Record>
     <Record>
       <Key>Creating_AtmoTask2</Key>
-      <Value>Déposez Oxite à l’intérieur de la pièce et laissez-la fondre libérera l’atmosphère générant une atmosphère respirante, apportera la préassure extérieure jusqu’à 60kPa.</Value>
+      <Value>Déposez la {THING:ItemOxite} à l’intérieur de la pièce et laissez-la fondre. L&apos;oxygène se libérera dans la pièce générant une atmosphère respirante, la pression d&apos;air doit atteindre au moins 60kPa.</Value>
     </Record>
     <Record>
       <Key>Creating_AtmoTask3</Key>
-      <Value>Une fois que la pression a atteint un niveau de sécurité acceptable, ouvrez ce casque et prenez une bouffée d’air frais.</Value>
+      <Value>Une fois que la pression a atteint un niveau de sécurité acceptable, ouvrez votre casque (Touche {KEY:Internals}) et prenez une bouffée d’air frais.</Value>
     </Record>
   </Interface>
 </Language>

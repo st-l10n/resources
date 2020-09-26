@@ -20,11 +20,15 @@
     </Record>
     <Record>
       <Key>MoveToAreaTask1</Key>
-      <Value>Faites passer le sas dans la zone de didacticiel.</Value>
+      <Value>Accédez au SAS jusqu&apos;à la zone du tutoriel </Value>
     </Record>
     <Record>
       <Key>ConsoleManuallControl</Key>
       <Value>Contrôle de la console solaire</Value>
+    </Record>
+    <Record>
+      <Key>ConsoleManuallControlDescription</Key>
+      <Value>L’alignement des panneaux solaires peut prendre beaucoup de temps. Pour accélérer le travail, reliez les panneaux solaires ensemble et connectez-les à une console de contrôle, de sorte que vous pouvez ajuster manuellement leurs positions tout à la fois. Tout ce dont vous avez besoin est dans la caisse.</Value>
     </Record>
     <Record>
       <Key>ConsoleManuallControl1</Key>
@@ -33,6 +37,14 @@
     <Record>
       <Key>ConsoleManuallControl2</Key>
       <Value>Construisez un {THING:StructureGasSensor} à l&apos;endroit mis en surbrillance</Value>
+    </Record>
+    <Record>
+      <Key>ConsoleManualControlSetup</Key>
+      <Value>Configuration du contrôle manuel de la console</Value>
+    </Record>
+    <Record>
+      <Key>ConsoleManualControlSetUpDescription</Key>
+      <Value>Tout comme la configuration d&apos;un sas, vous devez programmer le circuit de commande du panneau solaire à l&apos;aide d&apos;un {THING:CircuitboardSolarControl}.</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask1</Key>
@@ -47,6 +59,12 @@
       <Value>Insérez le {THING:ItemDataDisk} dans la {THING:StructureConsole}.</Value>
     </Record>
     <Record>
+      <Key>ConsoleManualControlSetUpDescription2</Key>
+      <Value>Activez la console et sélectionnez les quatre panneaux solaires affichés.
+
+Une fois terminé retirer le disque de données. Vous pouvez maintenant ajuster l’angle horizontal et vertical de tous les panneaux solaires connectés, ainsi que surveiller la puissance de sortie</Value>
+    </Record>
+    <Record>
       <Key>ConsoleManualControlSetupTask4</Key>
       <Value>Allumez le {THING:StructureArcFurnace}.</Value>
     </Record>
@@ -57,6 +75,12 @@
     <Record>
       <Key>DaylightSensors</Key>
       <Value>Paramétrage des capteurs</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorsDescription</Key>
+      <Value>L’automatisation du suivi solaire maximise l’énergie produite par les panneaux solaires, et signifie que vous n’avez pas besoin de les ajuster manuellement pour faire face au soleil.
+
+La première étape consiste à placer des capteurs de lumière du jour. L’un mesurera l’angle horizontal du soleil, tandis que l’autre mesurera l’angle vertical. Cela fournira un suivi complet du soleil sur n’importe quelle planète.</Value>
     </Record>
     <Record>
       <Key>PickUpDaylightSensor</Key>
@@ -71,6 +95,10 @@
       <Value>Module mémoire</Value>
     </Record>
     <Record>
+      <Key>SolarMemoryDescription</Key>
+      <Value>La mémoire est utilisée pour stocker des données, avec des valeurs réglées manuellement par un tournevis. Nous aurons besoin de cinq modules de mémoire pour stocker les données nécessaires au circuit.</Value>
+    </Record>
+    <Record>
       <Key>PickUpMemory</Key>
       <Value>Prenez un {THING:ItemSiliconIngot} dans la caisse orange.</Value>
     </Record>
@@ -83,8 +111,57 @@
       <Value>Paramétrage de la mémoire</Value>
     </Record>
     <Record>
+      <Key>SetMemoryDescription</Key>
+      <Value>Maintenant que vous avez mis en place les {THING:StructureLogicMemory} et la configuration d’un système de suivi solaire, vous devez définir des valeurs spécifiques sur {THING:StructureLogicMemory} à l’aide du {THING:ItemScrewdriver}. Les valeurs dépendent de la position et de la rotation des {THING:StructureDaylightSensor} et des panneaux solaires.
+Les {THING:StructureDaylightSensor} ont 3 modes : Par défaut, Horizontal et Vertical. Chaque mode modifie l’angle solaire de sortie. Dans ce cas, nous devons régler le {THING:StructureDaylightSensor} sur le mode Horizontal. Pour ce faire, définissez l&apos;{THINGS:StructureLogicMemory} horizontale sur la valeur de 1, et l’{THINGS:StructureLogicWriter} écrira cette valeur dans le capteur.</Value>
+    </Record>
+    <Record>
+      <Key>SetMemoryDescription2</Key>
+      <Value>Nous devons maintenant définir un décalage horizontal, pour corriger les positions et les rotations du panneau solaire et des capteurs de lumière du jour. Si votre capteur solaire est à un angle de 90 degrés à vos panneaux solaires, le décalage ajustera les données d’angle solaire de sorte que les panneaux solaires face vers le soleil.
+Nous appliquons cette valeur à l’unité de mathématiques horizontale 2, lorsque nous l’ajoutons à la valeur de sortie de l’unité de mathématiques horizontale 1.</Value>
+    </Record>
+    <Record>
+      <Key>SetMemoryDescription3</Key>
+      <Value>Comme les capteurs solaires fournissent une valeur négative, vous devez transformer une valeur négative en une valeur positive. Pour ce faire, multipliez la valeur mémoire inversé par la valeur du capteur solaire à l’aide de Horizontal Math 1.</Value>
+    </Record>
+    <Record>
+      <Key>SetMemoryDescription4</Key>
+      <Value>Enfin, calibrer la position verticale du panneau solaire. 
+Pour ce faire, prenez le pourcentage d’angle solaire vertical de Vertical Math 1, et ajoutez 50% en utilisant la fonction Add Memory dans le Vertical Math 2. Cela fera 50% du point zéro horizontal du panneau solaire (plat, orienté vers le haut).            </Value>
+    </Record>
+    <Record>
+      <Key>SetMemoryDescription5</Key>
+      <Value>L’axe vertical des panneaux solaires est mesuré en pourcentage, tandis que les capteurs produisent des données d’angle solaire en degrés de 0 à 160.
+            
+Pour rendre les panneaux solaires compatibles avec les capteurs, nous utilisons Vertical Logic Math 1 pour diviser les données du capteur par 1,6, convertissant ainsi le degré en pourcentage.            </Value>
+    </Record>
+    <Record>
+      <Key>SetMemory0</Key>
+      <Value>Réglez la mémoire du mode horizontal sur une valeur de 1</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory1</Key>
+      <Value>Définir la mémoire OffSet sur une valeur de -90</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory2</Key>
+      <Value>Définir la mémoire invert à une valeur de -1</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory3</Key>
+      <Value>Définir ajouter de la mémoire à une valeur de 50</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory4</Key>
+      <Value>Définir la mémoire d’inclinaison sur une valeur de 1,6</Value>
+    </Record>
+    <Record>
       <Key>SetupHorizontalSensor</Key>
       <Value>Configuration du capteur horizontal</Value>
+    </Record>
+    <Record>
+      <Key>SetupLogicWritter</Key>
+      <Value>Configuration d&apos;une Unité Logique: Ecriture</Value>
     </Record>
     <Record>
       <Key>SetupLogicWritter1</Key>
