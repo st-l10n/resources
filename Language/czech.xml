@@ -862,8 +862,19 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
       <Description>Při výrobě je &lt;color=#0080FFFF&gt;{LINK:GasPage;CO2}&lt;/color&gt; kanystr naplněn tlakem 8000 kPa (80 atmosfér) a zbarven výchozí šedou barvou. Používá se jako sekundární palivo v {thing:ItemJetpackBasic}, lze ho připojit k {thing:DynamicGasCanisterAir} nebo k {thing:StructureGasTankStorage} pro doplnění. Při doplňování dávejte pozor, abyste ho nepřetlakovali, jinak by mohlo dojít k &apos;prasknutí&apos;.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemGasCanisterPollutants</Key>
+      <Value>Kanystr (Znečišťující látky)</Value>
+      <Description>Zatímco tento vedlejší produkt při tavení - někdy známý jednoduše jako &apos;X&apos; - je toxin, jeho specifické teplo z něj činí cennou chladicí kapalinu.
+Všechny plynové kanystry jsou při výrobě na tlak 8000 kPa (80 atmosfér) plné a lze je namontovat na {thing:DynamicGasCanisterAir} nebo {thing:StructureGasTankStorage} pro doplnění. Dávejte pozor, abyste nepřetlakovali nad 100 kPA, jinak by mohlo dojít k &apos;prasknutí&apos;.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemGasCanisterVolatiles</Key>
       <Value>Kanystr (Těkavé látky)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterCarbonDioxide</Key>
+      <Value>Filtr (Oxid uhličitý)</Value>
+      <Description>Vzhledem k posedlosti lidstva vydechováním CO2 jsou všem Stationeerum vydávány dva základní filtry CO2 jako součást jejich standardní soupravy pro nasazení (SDK). Tyto filtry umožňují průchod CO2 do odpadu obleku {thing:ItemGasCanisterEmpty}, ale jsou také důležitými součástmi {thing:DynamicScrubber} a {thing:StructureFiltration}. K dispozici jsou také {thing:ItemGasFilterCarbonDioxideM} a {thing:ItemGasFilterCarbonDioxideL}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasTankStorage</Key>
