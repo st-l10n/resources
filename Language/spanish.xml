@@ -343,6 +343,61 @@
   </Actions>
   <Things>
     <RecordThing>
+      <Key>ApplianceMicrowave</Key>
+      <Value>Microondas</Value>
+      <Description>Si bien en los últimos cientos de años se han inventado innumerables formas &apos;mejores&apos; de cocinar &lt;color=#0080FFFF&gt;{LINK:FoodPage;Food}&lt;/color&gt;, pocas son tan duraderas o fáciles de fabricar como el microondas OK-Zoomer. Con licencia de Xigo, los planos se basan en un modelo clásico de mediados del siglo XXI, lo que le confiere una encantadora sensación retro. Pero no se preocupe, hace oscilar las moléculas de agua de manera más que adecuada. Simplemente atorníllelo a un banco y estará cocinando.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ApplianceReagentProcessor</Key>
+      <Value>Procesador de Reactivos</Value>
+      <Description>Sentado en algún lugar entre un exprimidor de alta potencia y el alambique de un alquimista, el procesador de reactivos Xigo convierte ciertas materias primas en ingredientes críticos. Indispensable en cualquier espacio de la cocina, simplemente atorníllelo al banco y estará listo para comenzar.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartAstronautFemaleArmL</Key>
+      <Value>Parte del cuerpo Astronauta Mujer Brazo</Value>
+      <Description>En lo que respecta a los brazos izquierdos, este es un ejemplo aceptable, aunque ligeramente olvidable, de este tipo. Ha visto días mejores.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartAstronautFemaleArmR</Key>
+      <Value>Brazo derecho de la mujer astronauta</Value>
+      <Description>Uno de una pareja. El otro probablemente este cerca.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartAstronautFemaleHead</Key>
+      <Value>Cabeza de la mujer astronauta</Value>
+      <Description>Si los ojos son ventanas al alma, ¿qué hace eso a la cabeza?</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartAstronautFemaleLegL</Key>
+      <Value>Pierna izquierda de la mujer astronauta</Value>
+      <Description>Una pierna, es una pierna, es una pierna.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartAstronautFemaleLegR</Key>
+      <Value>Pierna derecha de la mujer astronauta</Value>
+      <Description>Esta es la pierna derecha de una mujer. A juzgar por su estado, estaba bastante sana, de estatura media, con tendencia a caminar sobre la punta de los pies.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartAstronautFemaleTorso</Key>
+      <Value>Torso de la mujer astronauta</Value>
+      <Description>Esto no va a ninguna parte por sí solo.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartAstronautMaleArmL</Key>
+      <Value>Brazo izquierdo del hombre astronauta</Value>
+      <Description>Tu brazo es la cuarta parte más importante de tu cuerpo.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartAstronautMaleArmR</Key>
+      <Value>Brazo derecho del hombre astronauta</Value>
+      <Description>No hay nada gracioso en este húmero.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>BodyPartAstronautMaleHead</Key>
+      <Value>Cabeza del hombre astronauta</Value>
+      <Description>Los Stationeers necesitan mantener la cabeza en todo momento.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>BodyPartAstronautMaleLegL</Key>
       <Value>Pierna izquierda del hombre astronauta</Value>
       <Description>Esta es una pierna. Probablemente alguien lo echa de menos.</Description>
@@ -3742,6 +3797,10 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Value>Unidad de Procesamiento de Sensores (Escáner de Mineral)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemSensorLenses</Key>
+      <Value>Lentes de Sensor</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureBatteryChargerSmall</Key>
       <Value>Cargador de batería pequeño</Value>
     </RecordThing>
@@ -3762,8 +3821,20 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Value>Kit (Panel Solar Básico)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>StructureSDBHopperAdvanced</Key>
+      <Value>SDB Tolva Avanzada</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSDBHopper</Key>
+      <Value>SDB Tolva</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemKitSDBHopper</Key>
       <Value>Kit (SDB Tolva)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTankSmallInsulated</Key>
+      <Value>Tanque pequeño (aislado)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankBigInsulated</Key>
@@ -3774,8 +3845,48 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Value>Kit (Tanque Aislado)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>StructureChairThickSingle</Key>
+      <Value>Silla (gruesa individual)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureChairThickDouble</Key>
+      <Value>Silla (gruesa Doble)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureChairRectangleSingle</Key>
+      <Value>Silla (rectángulo individual)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureChairRectangleDouble</Key>
+      <Value>Silla (rectángulo Doble)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureChairBoothMiddle</Key>
+      <Value>Silla (Puesto en el medio)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureChairBoothCornerRight</Key>
+      <Value>Silla (esquina derecha de la cabina)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureChairBoothCornerLeft</Key>
+      <Value>Silla (esquina izquierda de la cabina)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureChairBacklessSingle</Key>
+      <Value>Silla (sin respaldo individual)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureChairBacklessDouble</Key>
+      <Value>Silla (sin respaldo Doble)</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureFlatBench</Key>
       <Value>Banco (Plano)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureAngledBench</Key>
+      <Value>Banco (en ángulo)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTables</Key>
@@ -3786,16 +3897,73 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Value>Mesa de cocina (alta)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>KitchenTableSimpleTall</Key>
+      <Value>Mesa de cocina (simple alta)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitchenTableSimpleShort</Key>
+      <Value>Mesa de cocina (simple corta)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitchenTableShort</Key>
+      <Value>Mesa de cocina (corta)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableThickSingle</Key>
+      <Value>Mesa pequeña (gruesa individual)</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureSmallTableThickDouble</Key>
       <Value>Pequeña (Tabla Doble Gruesa)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableRectangleSingle</Key>
+      <Value>Pequeño (rectángulo de mesa simple)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableRectangleDouble</Key>
+      <Value>Pequeño (rectángulo de mesa Doble)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureSmallTableDinnerSingle</Key>
       <Value>Pequeña (Mesa Cena Individual)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>StructureSmallTableBacklessSingle</Key>
+      <Value>Pequeño (Mesa Sin Respaldo Individual)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSmallTableBacklessDouble</Key>
+      <Value>Pequeño (Mesa Sin Respaldo Doble)</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemKitChairs</Key>
       <Value>Kit (Sillas)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitBenches</Key>
+      <Value>Kit (Bancos)</Value>
+      <Description>Esta es la página de cosas predeterminada.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFurnitureTable</Key>
+      <Value>Muebles de kit Mesa</Value>
+      <Description>Esta es la página de cosas predeterminada.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFurnitureChair</Key>
+      <Value>Muebles Kit Silla</Value>
+      <Description>Esta es la página de cosas predeterminada.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFurnitureBed</Key>
+      <Value>Muebles Kit Cama</Value>
+      <Description>Esta es la página de cosas predeterminada.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLightRoundAngled</Key>
+      <Value>Luz redonda (en ángulo)</Value>
+      <Description>Esta es la página de cosas predeterminada.</Description>
     </RecordThing>
   </Things>
   <Slots>
