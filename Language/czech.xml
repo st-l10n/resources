@@ -758,6 +758,11 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
       <Value>Bedna (Materiály pro potrubí)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>DynamicGenerator</Key>
+      <Value>Přenosný generátor</Value>
+      <Description>Každý nejlepší přítel Stationeera, přenosný generátor vás rychle rozběhne. Naplňte jej {thing:ItemGasCanisterFuel}, abyste mohli zapnout a nabít {thing:ItemBatteryCell}, nebo ho připojte k {thing:StructurePowerConnector} a připojte ho k elektrické síti. Je poháněn tlakem, takže funguje efektivněji při nižších teplotách a SKUTEČNĚ efektivněji, pokud je podchlazený. Zdokonalení palivové směsi také znamená velký rozdíl.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>DynamicLight</Key>
       <Value>Přenosné světlo</Value>
       <Description>Philippe Starck nemusí tleskat, ale tento světelný zdroj napájený bateriemi zatemňuje rohy, když chybí osvětlení. Poháněné jakoukoli baterií, jedná se o design Xigo &apos;bez ozdůbek&apos;, který lze levně vyrobit s minimem rozruchu.</Description>
@@ -801,6 +806,11 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
       <Key>ItemActiveVent</Key>
       <Value>Souprava (Aktivní ventilátor)</Value>
       <Description>Při konstrukci tato souprava umístí {thing:StructureActiveVent} na libovolnou podpůrnou strukturu.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemAreaPowerControl</Key>
+      <Value>Souprava (Ovladač elektřiny)</Value>
+      <Description>Tato souprava umístí {thing:StructureAreaPowerControl} (APC) na jakoukoli podpůrnou strukturu. Souprava APC má dvě možnosti, které vám umožňují určit, kterým směrem chcete, aby proudil výkon APC.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDrill</Key>
