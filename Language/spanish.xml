@@ -359,8 +359,63 @@
       <Value>Cajón (Suministros de Tubería)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>DynamicGenerator</Key>
+      <Value>Generador Portátil</Value>
+      <Description>El mejor amigo de todo Stationeer, el generador portátil lo pone en marcha rápidamente. Llénelo con una {thing:ItemGasCanisterFuel} para encender y cargar una {thing:ItemBatteryCell}, o conéctelo a una {thing:StructurePowerConnector} para vincularlo a su red eléctrica. Es impulsado por presión, por lo que funciona de manera más eficiente a temperaturas más bajas y REALMENTE eficiente si se sobreenfría. Perfeccionar su mezcla de combustible también marca una gran diferencia.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicLight</Key>
+      <Value>Luz Portátil</Value>
+      <Description>Puede que Philippe Starck no lo aplauda, pero esta fuente de luz que funciona con baterías aclara las esquinas cuando falta iluminación. Alimentado por cualquier batería, es un diseño Xigo &apos;sencillo&apos; que se puede fabricar de forma económica con el mínimo de complicaciones.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>EffectSplatEgg</Key>
       <Value>Huevo de efecto splash</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>EntityAlien</Key>
+      <Value>Alien</Value>
+      <Description>La respuesta a la antigua pregunta: &quot;¿Hay vida en otros planetas?&quot;, Es &quot;Supongo que sí&quot;.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>EntityChick</Key>
+      <Value>Polluelo</Value>
+      <Description>Una vez que nace un polluelo, tiene hambre. Se alimenta de soja, maíz y trigo y pone huevos. Algunos serán fertilizados, produciendo más pollos. Algunos no lo harán.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>EntityChickenBrown</Key>
+      <Value>Gallina Marrón</Value>
+      <Description>Como muchos de sus hermanos, este es un pollo. Uno marrón. Se alimenta de soja, maíz y trigo y pone huevos. Algunos serán fertilizados, produciendo más pollos. Algunos no lo harán.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>EntityChickenWhite</Key>
+      <Value>Gallina Blanca</Value>
+      <Description>Es un pollo, blanco como el polvo lunar. Se alimenta de soja, maíz y trigo y pone huevos. Algunos serán fertilizados, produciendo más pollos. Algunos no lo harán.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>EntityGraylien</Key>
+      <Value>Graylien</Value>
+      <Description>Si bien la humanidad se ha referido históricamente a estas criaturas como &apos;grises&apos;, prefieren la etiqueta más inclusiva &apos;Trans-beige&apos;.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>EntityRoosterBlack</Key>
+      <Value>Gallo Negro</Value>
+      <Description>Este es un gallo. Es negro. Hay dignidad en esto.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>EntityRoosterBrown</Key>
+      <Value>Gallo Marrón</Value>
+      <Description>El gallo marrón común. No dejes que te escuche decir eso.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemActiveVent</Key>
+      <Value>Ventilación Activa</Value>
+      <Description>Cuando se construye, este kit coloca un {thing:StructureActiveVent} en cualquier estructura de soporte.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemAreaPowerControl</Key>
+      <Value>Controlador de Energía</Value>
+      <Description>Este kit coloca un {thing:StructureAreaPowerControl} (APC) en cualquier estructura de soporte. El kit APC tiene dos opciones, lo que le permite determinar en qué dirección le gustaría que fluyera la energía APC.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDrill</Key>
@@ -407,8 +462,48 @@
       <Value>Luz intermitente</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemGasCanisterCarbonDioxide</Key>
+      <Value>Bombona (CO2)</Value>
+      <Description>Cuando se fabrica, el recipiente de &lt;color=#0080FFFF&gt;{LINK:GasPage;CO2}&lt;/color&gt; se llena a una presión de 8000 kPa (80 atmósferas) y tiene el color gris predeterminado. Usado como combustible secundario en el {thing:ItemJetpackBasic}, se puede montar en un {thing:DynamicGasCanisterAir} o {thing:StructureGasTankStorage} para recargarlo. Tenga cuidado de no sobrepresurizar al volver a llenar, o podría explotar.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasCanisterPollutants</Key>
+      <Value>Bombona (Contaminantes)</Value>
+      <Description>Si bien este subproducto de la fundición, a veces conocido simplemente como &apos;X&apos;, es una toxina, su calor específico lo convierte en un refrigerante valioso. Todos los botes de gas están llenos cuando se fabrican a una presión de 8000 kPa (80 atmósferas) y se pueden montar en una {thing:DynamicGasCanisterAir} o {thing:StructureGasTankStorage} para rellenar. Tenga cuidado de no presurizar más allá de 100kPA, o puede explotar.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasCanisterEmpty</Key>
+      <Value>Bombona (Vacía)</Value>
+      <Description>El recipiente portátil es la unidad básica del Stationeer de entrega &lt;color=#0080FFFF&gt;{LINK:GasPage;gas}&lt;/color&gt;. Con una presión estándar de 8000kPa (80 atmósferas), los botes de gas vacíos se pueden montar en una {thing:DynamicGasCanisterAir} o {thing:StructureGasTankStorage} para rellenar. Tenga cuidado de no presurizar más de 100kPA, o puede explotar. Contiene 64L de gas.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasCanisterFuel</Key>
+      <Value>Bombona (Combustible)</Value>
+      <Description>El recipiente naranja portátil &lt;color=#0080FFFF&gt;{LINK:GasPage;volatiles}&lt;/color&gt; tiene una capacidad de 64L. Todos los botes de gas están llenos cuando se fabrican a una presión de 8000 kPa (80 atmósferas) y se pueden montar en un {thing:DynamicGasCanisterAir} o {thing:StructureGasTankStorage} para recargar. Tenga cuidado de no presurizar más de 100kPA, o puede explotar.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemGasCanisterVolatiles</Key>
       <Value>Bombona (Volátiles)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasCanisterNitrogen</Key>
+      <Value>Bombona (Nitrógeno)</Value>
+      <Description>El recipiente verde portátil &lt;color=#0080FFFF&gt;{LINK:GasPage;volatiles}&lt;/color&gt; tiene una capacidad de 64L. Todos los botes de gas están llenos cuando se fabrican a una presión de 8000 kPa (80 atmósferas) y se pueden montar en un {thing:DynamicGasCanisterAir} o {thing:StructureGasTankStorage} para recargar. Tenga cuidado de no presurizar más de 100kPA, o puede explotar.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasCanisterOxygen</Key>
+      <Value>Bombona (Oxígeno)</Value>
+      <Description>El recipiente blanco portátil &lt;color=#0080FFFF&gt;{LINK:GasPage;volatiles}&lt;/color&gt; tiene una capacidad de 64L. Todos los botes de gas están llenos cuando se fabrican a una presión de 8000 kPa (80 atmósferas) y se pueden montar en un {thing:DynamicGasCanisterAir} o {thing:StructureGasTankStorage} para recargar. Tenga cuidado de no presurizar más de 100kPA, o puede explotar.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasCanisterWater</Key>
+      <Value>Bombona (Agua)</Value>
+      <Description>El recipiente rojo portátil &lt;color=#0080FFFF&gt;{LINK:GasPage;volatiles}&lt;/color&gt; tiene una capacidad de 64L. Todos los botes de gas están llenos cuando se fabrican a una presión de 8000 kPa (80 atmósferas) y se pueden montar en un {thing:DynamicGasCanisterAir} o {thing:StructureGasTankStorage} para recargar. Tenga cuidado de no presurizar más de 100kPA, o puede explotar.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterCarbonDioxide</Key>
+      <Value>Filtro (Dióxido de carbono)</Value>
+      <Description>Dada la obsesión de la humanidad por exhalar CO2, todos los Stationeers reciben dos filtros de CO2 básicos como parte de su kit de implementación estándar (SDK). Estos filtros permiten el paso de CO2 a los desechos del traje {thing:ItemGasCanisterEmpty}, pero también son componentes críticos de el {thing:DynamicScrubber} y el {thing:StructureFiltration}. El {thing:ItemGasFilterCarbonDioxideM} y el {thing:ItemGasFilterCarbonDioxideL} también están disponibles.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasTankStorage</Key>
@@ -7266,6 +7361,18 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
     <Record>
       <Key>ScoreboardTime</Key>
       <Value>Tiempo de juego</Value>
+    </Record>
+    <Record>
+      <Key>SettingsFirstPersonHelmet</Key>
+      <Value>Casco Primera Persona</Value>
+    </Record>
+    <Record>
+      <Key>SiloDeconstruct</Key>
+      <Value>Tu Silo debe estar vacio antes de deconstruir.</Value>
+    </Record>
+    <Record>
+      <Key>PressEnterToContinue</Key>
+      <Value>Presione &lt;color=#FBB03B&gt;Intro&lt;/color&gt; para continuar</Value>
     </Record>
   </Interface>
   <Colors>
