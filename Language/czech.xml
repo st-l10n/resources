@@ -688,9 +688,26 @@
       <Description>Po přidání do {THING:StructureConsole} vám desky s plošnými spoji umožňují programovat {Thing:StructureActiveVent}. Stejně jako u malých psů a 83 % lidí mají obvody řízení vzduchu pouze tři režimy: Tlak, Tah a Offline. Tlakový režim udržuje atmosféru 100 kPa a přepíná aktivní ventilaci mezi průtokem dovnitř a ven, dokud není dosaženo cílového tlaku. Režim Tah umožňuje spárovat aktivní větrací otvory pro cirkulaci vzduchu. Režim offline deaktivuje odvětrání. </Description>
     </RecordThing>
     <RecordThing>
+      <Key>CircuitboardAirlockControl</Key>
+      <Value>Přechodová komora</Value>
+      <Description>Říká se, že byl nejprve načrtnut na stěně toalety Norsec nespokojeným technikem, díky univerzálnosti řídicí základní desky přechodové komory a snadnosti její výroby se stal řídícím systémem Stationeers volbou pro synchronizační protokoly {thing:StructureAirlock}.
+
+Chcete-li vstoupit do režimu nastavení, vložte desku do {THING:StructureConsole} spolu s datovým diskem. V tomto režimu můžete vidět všechny objekty přístupné k datům aktuálně připojené ke {THING:StructureConsole}. Lze vybrat dveře, světla, senzory plynu a podřízené konzole (zvýrazněné zeleně) a budou ovládány po vyjmutí datového disku.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>CircuitboardCameraDisplay</Key>
       <Value>Zobrazení kamer</Value>
       <Description>Dohled je někdy nezbytný při budování základen ve vysoce nepřátelském prostředí. Základní deska displeje kamer umožňuje opatrným Stationeerum přeměnit {Thing:StructureConsole} na bezpečnostní displej při připojení ke {Thing:StructureCamera}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>CircuitboardDoorControl</Key>
+      <Value>Ovládání dveří</Value>
+      <Description>Tato základní deska, základní nástroj základní konstrukce Stationeer, poskytuje způsob, jak vzdáleně otevírat a zavírat {Thing:StructureCompositeDoor}, {Thing:StructureBlastDoor} nebo {Thing:StructureGlassDoor}, pokud jsou připojeny ke {THING:StructureConsole}. Tento systém lze dále propojit s {Thing:StructureMotionSensor} a vytvořit tak automatické dveře.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>CircuitboardGasDisplay</Key>
+      <Value>Plynový displej</Value>
+      <Description>Informace jsou moc. Umístěte tuto obvodovou desku do {THING:StructureConsole} a vytvořte displej, který zobrazuje tlak plynu nebo teplotu libovolné připojené nádrže, kanystru pro skladování, {THING:ItemPipeAnalyizer} nebo {THING:ItemGasSensor}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrateBuildingSupplies</Key>
