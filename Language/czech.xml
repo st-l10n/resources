@@ -710,6 +710,28 @@ Chcete-li vstoupit do režimu nastavení, vložte desku do {THING:StructureConso
       <Description>Informace jsou moc. Umístěte tuto obvodovou desku do {THING:StructureConsole} a vytvořte displej, který zobrazuje tlak plynu nebo teplotu libovolné připojené nádrže, kanystru pro skladování, {THING:ItemPipeAnalyizer} nebo {THING:ItemGasSensor}.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>CircuitboardModeControl</Key>
+      <Value>Ovládání režimu</Value>
+      <Description>Nemůžete se rozhodnout, který režim máte nejraději? Tato obvodová deska umožňuje přepínat jakékoli připojené zařízení mezi provozními režimy.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>CircuitboardPowerControl</Key>
+      <Value>Ovládaní napájení</Value>
+      <Description>Za vzdáleného slunce a náročného prostředí musí systémy Stationeer vyvažovat spolehlivost, odolnost a univerzálnost. Řídicí deska napájení umožňuje vzdálené zapnutí a vypnutí vybraných zařízení a odpojení ručního provozu.
+      
+Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všechna zařízení; Funkce &apos;Přepnout&apos; přepne každé zařízení do alternativního stavu. </Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>CircuitboardShipDisplay</Key>
+      <Value>Zobrazení lodě</Value>
+      <Description>Když se původní příručka Stationeers zhroutila pod svou vlastní tíhou do jedinečnosti, některé informace byly nenávratně ztraceny. Mezi tímto záhadným souborem znalostí je přesný účel displeje lodi.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>CircuitboardSolarControl</Key>
+      <Value>Solární ovládání</Value>
+      <Description>Přidání solárního ovládacího panelu do {thing:StructureConsole} vám umožní ručně ovládat horizontální a vertikální úhly všech připojených {thing:StructureSolarPanel}.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>DynamicCrateBuildingSupplies</Key>
       <Value>Bedna (Zásoby pro stavbu)</Value>
     </RecordThing>
