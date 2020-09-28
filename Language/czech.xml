@@ -882,6 +882,11 @@ Všechny plynové kanystry jsou při výrobě na tlak 8000 kPa (80 atmosfér) pl
       <Value>Kanystr (Těkavé látky)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemGasCanisterNitrogen</Key>
+      <Value>Kanystr (Dusík)</Value>
+      <Description>Zelený přenosný kanystr s &lt;color=#0080FFFF&gt;{LINK:GasPage;dusíkem nebo oxidem dusným}&lt;/color&gt; dodává pohonnou látku pro {thing:ItemSpacepack} a {thing:ItemHardJetpack}. Všechny kanystry na plyn jsou při výrobě na tlak 8000 kPa (80 atmosfér) plné a lze je namontovat na {thing:DynamicGasCanisterAir} nebo na {thing:StructureGasTankStorage} pro doplnění. Dávejte pozor, abyste nepřetlakovali nad 100 kPA, jinak by mohlo dojít k &apos;prasknutí&apos;.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemGasFilterCarbonDioxide</Key>
       <Value>Filtr (Oxid uhličitý)</Value>
       <Description>Vzhledem k posedlosti lidstva vydechováním CO2 jsou všem Stationeerum vydávány dva základní filtry CO2 jako součást jejich standardní soupravy pro nasazení (SDK). Tyto filtry umožňují průchod CO2 do odpadu obleku {thing:ItemGasCanisterEmpty}, ale jsou také důležitými součástmi {thing:DynamicScrubber} a {thing:StructureFiltration}. K dispozici jsou také {thing:ItemGasFilterCarbonDioxideM} a {thing:ItemGasFilterCarbonDioxideL}.</Description>
