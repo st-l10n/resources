@@ -665,17 +665,17 @@
     <RecordThing>
       <Key>CartridgeAtmosAnalyser</Key>
       <Value>Atmosférický analyzátor</Value>
-      <Description>Lorenzův atmosférický analyzátor je multifunkční hmotnostní spektrometr navržený společností ExMin pro použití s jádrem rudy {Thing:ItemTablet}. Zobrazuje tlak, koncentraci a molární množství &lt;color=#0080FFFF&gt;{LINK:GasPage;plynu}&lt;/color&gt; v místnostech, nádržích nebo potrubních sítích.</Description>
+      <Description>Atmosférický analyzátor</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeMedicalAnalyser</Key>
       <Value>Zdravotní analyzátor</Value>
-      <Description>Když je přidán do jádra rudy {Thing:ItemTablet}, lékařský analyzátor ReadyMed společnosti Asura odhaluje zdraví nebo jiné podoby uživatelů různých orgánů. Kvůli konstrukční chybě byly starší modely proslulé produkcí kvazarových úrovní rentgenového záření. Nedávné pokroky v oblasti stínění více než poloviční riziko pro uživatele.</Description>
+      <Description>Zdravotní analyzátor</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeNetworkAnalyser</Key>
       <Value>Síťový analyzátor</Value>
-      <Description>Menší mistrovské dílo mikroelektronického inženýrství, síťový analyzátor zobrazuje proud, napětí a příkon kabelové sítě, stejně jako všechna zařízení k ní připojená. Na základě široce kopírovaného designu Sinotai se používá ve spojení s jádrem rudy {Thing:ItemTablet}.</Description>
+      <Description>Síťový analyzátor</Description>
     </RecordThing>
     <RecordThing>
       <Key>Character</Key>
@@ -685,24 +685,22 @@
     <RecordThing>
       <Key>CircuitboardAirControl</Key>
       <Value>Ovládání vzduchotechniky</Value>
-      <Description>Po přidání do {THING:StructureConsole} vám desky s plošnými spoji umožňují programovat {Thing:StructureActiveVent}. Stejně jako u malých psů a 83 % lidí mají obvody řízení vzduchu pouze tři režimy: Tlak, Tah a Offline. Tlakový režim udržuje atmosféru 100 kPa a přepíná aktivní ventilaci mezi průtokem dovnitř a ven, dokud není dosaženo cílového tlaku. Režim Tah umožňuje spárovat aktivní větrací otvory pro cirkulaci vzduchu. Režim offline deaktivuje odvětrání. </Description>
+      <Description>Ovládání vzduchotechniky</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardAirlockControl</Key>
       <Value>Přechodová komora</Value>
-      <Description>Říká se, že byl nejprve načrtnut na stěně toalety Norsec nespokojeným technikem, díky univerzálnosti řídicí základní desky přechodové komory a snadnosti její výroby se stal řídícím systémem Stationeers volbou pro synchronizační protokoly {thing:StructureAirlock}.
-
-Chcete-li vstoupit do režimu nastavení, vložte desku do {THING:StructureConsole} spolu s datovým diskem. V tomto režimu můžete vidět všechny objekty přístupné k datům aktuálně připojené ke {THING:StructureConsole}. Lze vybrat dveře, světla, senzory plynu a podřízené konzole (zvýrazněné zeleně) a budou ovládány po vyjmutí datového disku.</Description>
+      <Description>Přechodová komora</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardCameraDisplay</Key>
       <Value>Zobrazení kamer</Value>
-      <Description>Dohled je někdy nezbytný při budování základen ve vysoce nepřátelském prostředí. Základní deska displeje kamer umožňuje opatrným Stationeerum přeměnit {Thing:StructureConsole} na bezpečnostní displej při připojení ke {Thing:StructureCamera}.</Description>
+      <Description>Zobrazení kamer</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardDoorControl</Key>
       <Value>Ovládání dveří</Value>
-      <Description>Tato základní deska, základní nástroj základní konstrukce Stationeer, poskytuje způsob, jak vzdáleně otevírat a zavírat {Thing:StructureCompositeDoor}, {Thing:StructureBlastDoor} nebo {Thing:StructureGlassDoor}, pokud jsou připojeny ke {THING:StructureConsole}. Tento systém lze dále propojit s {Thing:StructureMotionSensor} a vytvořit tak automatické dveře.</Description>
+      <Description>Ovládání dveří</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardGasDisplay</Key>
@@ -729,21 +727,17 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
     <RecordThing>
       <Key>CircuitboardSolarControl</Key>
       <Value>Solární ovládání</Value>
-      <Description>Přidání solárního ovládacího panelu do {thing:StructureConsole} vám umožní ručně ovládat horizontální a vertikální úhly všech připojených {thing:StructureSolarPanel}.</Description>
+      <Description>Solární ovládání</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicAirConditioner</Key>
       <Value>Přenosná klimatizace</Value>
-      <Description>Přenosná klimatizace Huxi navržená společností Sinotai chladí čerpáním tepla z atmosféry a jeho ukládáním nebo přidáváním tepla do atmosféry z vnitřní nádrže. S maximálním vnitřním tlakem 8106 kPa je její kapacita relativně omezená, fyzika je na toto téma jasná. Chcete-li rozšířit její schopnost uchovávat teplotu, přišroubujte Huxi k {thing:StructureTankConnector} a poté ji připojte k potrubní síti dodávající horké nebo studené &lt;color=#0080FFFF&gt;{LINK:GasPage;plyny}&lt;/color&gt;.</Description>
+      <Description>Přenosná klimatizace</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrate</Key>
       <Value>Dynamická bedna</Value>
-      <Description>Pokorná dynamická bedna se stala symbolem Stationeer invence a nezávislosti. S dvanácti sloty a držadly na obou koncích pro snadnou přepravu je to kritická sada pro kadety i velitele.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>DynamicCrateBuildingSupplies</Key>
-      <Value>Bedna (Zásoby pro stavbu)</Value>
+      <Description>Dynamická bedna</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrateCableSupplies</Key>
@@ -760,12 +754,12 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
     <RecordThing>
       <Key>DynamicGenerator</Key>
       <Value>Přenosný generátor</Value>
-      <Description>Každý nejlepší přítel Stationeera, přenosný generátor vás rychle rozběhne. Naplňte jej {thing:ItemGasCanisterFuel}, abyste mohli zapnout a nabít {thing:ItemBatteryCell}, nebo ho připojte k {thing:StructurePowerConnector} a připojte ho k elektrické síti. Je poháněn tlakem, takže funguje efektivněji při nižších teplotách a SKUTEČNĚ efektivněji, pokud je podchlazený. Zdokonalení palivové směsi také znamená velký rozdíl.</Description>
+      <Description>Přenosný generátor</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicLight</Key>
       <Value>Přenosné světlo</Value>
-      <Description>Philippe Starck nemusí tleskat, ale tento světelný zdroj napájený bateriemi zatemňuje rohy, když chybí osvětlení. Poháněné jakoukoli baterií, jedná se o design Xigo &apos;bez ozdůbek&apos;, který lze levně vyrobit s minimem rozruchu.</Description>
+      <Description>Přenosné světlo</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityAlien</Key>
@@ -805,12 +799,12 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
     <RecordThing>
       <Key>ItemActiveVent</Key>
       <Value>Souprava (Aktivní ventilátor)</Value>
-      <Description>Při konstrukci tato souprava umístí {thing:StructureActiveVent} na libovolnou podpůrnou strukturu.</Description>
+      <Description>Souprava (Aktivní ventilátor)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemAreaPowerControl</Key>
       <Value>Souprava (Ovladač elektřiny)</Value>
-      <Description>Tato souprava umístí {thing:StructureAreaPowerControl} (APC) na jakoukoli podpůrnou strukturu. Souprava APC má dvě možnosti, které vám umožňují určit, kterým směrem chcete, aby proudil výkon APC.</Description>
+      <Description>Souprava (Ovladač elektřiny)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDrill</Key>
@@ -859,23 +853,22 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
     <RecordThing>
       <Key>ItemGasCanisterCarbonDioxide</Key>
       <Value>Kanystr (Oxid uhličitý)</Value>
-      <Description>Při výrobě je &lt;color=#0080FFFF&gt;{LINK:GasPage;CO2}&lt;/color&gt; kanystr naplněn tlakem 8000 kPa (80 atmosfér) a zbarven výchozí šedou barvou. Používá se jako sekundární palivo v {thing:ItemJetpackBasic}, lze ho připojit k {thing:DynamicGasCanisterAir} nebo k {thing:StructureGasTankStorage} pro doplnění. Při doplňování dávejte pozor, abyste ho nepřetlakovali, jinak by mohlo dojít k &apos;prasknutí&apos;.</Description>
+      <Description>Kanystr (Oxid uhličitý)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterPollutants</Key>
       <Value>Kanystr (Znečišťující látky)</Value>
-      <Description>Zatímco tento vedlejší produkt při tavení - někdy známý jednoduše jako &apos;X&apos; - je toxin, jeho specifické teplo z něj činí cennou chladicí kapalinu.
-Všechny plynové kanystry jsou při výrobě na tlak 8000 kPa (80 atmosfér) plné a lze je namontovat na {thing:DynamicGasCanisterAir} nebo {thing:StructureGasTankStorage} pro doplnění. Dávejte pozor, abyste nepřetlakovali nad 100 kPA, jinak by mohlo dojít k &apos;prasknutí&apos;.</Description>
+      <Description>Kanystr (Znečišťující látky)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterEmpty</Key>
       <Value>Kanystr</Value>
-      <Description>Přenosný kanystr je základní jednotkou dodávky &lt;color=#0080FFFF&gt;{LINK:GasPage;plynu}&lt;/color&gt; Stationeera. Prázdné plynové kanystry se standardním tlakem 8000 kPa (80 atmosfér) lze namontovat na {thing:DynamicGasCanisterAir} nebo na {thing:StructureGasTankStorage} pro doplnění. Dávejte pozor, abyste nepřetlakovali nad 100 kPA, jinak by mohlo dojít k &apos;prasknutí&apos;. Obsahuje 64 L plynu.</Description>
+      <Description>Kanystr</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterFuel</Key>
       <Value>Kanystr (Palivo)</Value>
-      <Description>Oranžový přenosný kanystr na &lt;color=#0080FFFF&gt;{LINK:GasPage;palivo}&lt;/color&gt; dodává 64L směs 66% těkavých látek /34% kyslíku pro napájení takových položek, jako jsou {thing:ItemWeldingTorch} a {thing:DynamicGenerator}. Všechny kanystry na plyn jsou při výrobě na tlak 8000 kPa (80 atmosfér) plné a lze je namontovat na {thing:DynamicGasCanisterAir} nebo na {thing:StructureGasTankStorage} pro doplnění. Dávejte pozor, abyste nepřetlakovali nad 100 kPA, jinak by mohlo dojít k &apos;prasknutí&apos;.</Description>
+      <Description>Kanystr (Palivo)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterVolatiles</Key>
@@ -884,22 +877,22 @@ Všechny plynové kanystry jsou při výrobě na tlak 8000 kPa (80 atmosfér) pl
     <RecordThing>
       <Key>ItemGasCanisterNitrogen</Key>
       <Value>Kanystr (Dusík)</Value>
-      <Description>Zelený přenosný kanystr s &lt;color=#0080FFFF&gt;{LINK:GasPage;dusíkem nebo oxidem dusným}&lt;/color&gt; dodává pohonnou látku pro {thing:ItemSpacepack} a {thing:ItemHardJetpack}. Všechny kanystry na plyn jsou při výrobě na tlak 8000 kPa (80 atmosfér) plné a lze je namontovat na {thing:DynamicGasCanisterAir} nebo na {thing:StructureGasTankStorage} pro doplnění. Dávejte pozor, abyste nepřetlakovali nad 100 kPA, jinak by mohlo dojít k &apos;prasknutí&apos;.</Description>
+      <Description>Kanystr (Dusík)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterOxygen</Key>
       <Value>Kanystr (Kyslík)</Value>
-      <Description>Bílý přenosný 64L kanystr je základní jednotkou dodávky &lt;color=#0080FFFF&gt;{LINK:GasPage;kyslíku}&lt;/color&gt; Stationeera. Všechny kanystry na plyn jsou při výrobě na tlak 8000 kPa (80 atmosfér) plné a lze je namontovat na {thing:DynamicGasCanisterAir} nebo na {thing:StructureGasTankStorage} pro doplnění. Dávejte pozor, abyste nepřetlakovali nad 100 kPA, jinak by mohlo dojít k &apos;prasknutí&apos;.</Description>
+      <Description>Kanystr (Kyslík)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterWater</Key>
       <Value>Kanystr (Voda)</Value>
-      <Description>Červený přenosný kanystr na &lt;color=#0080FFFF&gt;{LINK:GasPage;těkavé látky}&lt;/color&gt; má kapacitu 64 litrů. Všechny kanystry na plyn jsou při výrobě na tlak 8000 kPa (80 atmosfér) plné a lze je namontovat na {thing:DynamicGasCanisterAir} nebo na {thing:StructureGasTankStorage} pro doplnění. Dávejte pozor, abyste nepřetlakovali nad 100 kPA, jinak by mohlo dojít k &apos;prasknutí&apos;.</Description>
+      <Description>Kanystr (Voda)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxide</Key>
       <Value>Filtr (Oxid uhličitý)</Value>
-      <Description>Vzhledem k posedlosti lidstva vydechováním CO2 jsou všem Stationeerum vydávány dva základní filtry CO2 jako součást jejich standardní soupravy pro nasazení (SDK). Tyto filtry umožňují průchod CO2 do odpadu obleku {thing:ItemGasCanisterEmpty}, ale jsou také důležitými součástmi {thing:DynamicScrubber} a {thing:StructureFiltration}. K dispozici jsou také {thing:ItemGasFilterCarbonDioxideM} a {thing:ItemGasFilterCarbonDioxideL}.</Description>
+      <Description>Filtr (Oxid uhličitý)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasTankStorage</Key>
@@ -4033,21 +4026,6 @@ Všechny plynové kanystry jsou při výrobě na tlak 8000 kPa (80 atmosfér) pl
     <RecordThing>
       <Key>TriggerZone</Key>
       <Value>Spouštěcí zóna</Value>
-      <Description>Toto je výchozí stránka věci.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureEmergencyButton</Key>
-      <Value>Nouzové tlačítko</Value>
-      <Description>Toto je výchozí stránka věci.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureBatteryLarge</Key>
-      <Value>Velká baterie</Value>
-      <Description>Toto je výchozí stránka věci.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitBatteryLarge</Key>
-      <Value>Souprava (Velká baterie)</Value>
       <Description>Toto je výchozí stránka věci.</Description>
     </RecordThing>
   </Things>

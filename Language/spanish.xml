@@ -625,17 +625,17 @@
     <RecordThing>
       <Key>CartridgeAtmosAnalyser</Key>
       <Value>Analizador Atmósfera</Value>
-      <Description>El analizador atmosférico de Lorenz es un espectrómetro de masas multifuncional diseñado por ExMin para su uso con OreCore {Thing:ItemTablet}. Muestra la presión, concentración y cantidad molar de &lt;color=#0080FFFF&gt; {LINK:GasPage;Gas}&lt;/color&gt; en habitaciones, tanques o redes de tuberías.</Description>
+      <Description>Analizador Atmósfera</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeMedicalAnalyser</Key>
       <Value>Análisis Médico</Value>
-      <Description>Cuando se agrega a OreCore {Thing:ItemTablet}, el analizador médico ReadyMed de Asura revela la salud, o no, de los distintos órganos de los usuarios. Debido a un defecto de diseño, los modelos más antiguos eran conocidos por producir niveles de radiación de rayos X similares a los de un cuásar. Los avances recientes en el blindaje han reducido a más de la mitad el riesgo para los usuarios.</Description>
+      <Description>Análisis Médico</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeNetworkAnalyser</Key>
       <Value>Analizador de Red</Value>
-      <Description>Una obra maestra menor de la ingeniería microelectrónica, el analizador de redes muestra la corriente, el voltaje y la potencia de una red de cable, así como cualquier dispositivo conectado a ella. Basado en un diseño de Sinotai ampliamente copiado, se usa junto con OreCore {Thing:ItemTablet}.</Description>
+      <Description>Analizador de Red</Description>
     </RecordThing>
     <RecordThing>
       <Key>Character</Key>
@@ -645,24 +645,22 @@
     <RecordThing>
       <Key>CircuitboardAirControl</Key>
       <Value>Control de Aire</Value>
-      <Description>Cuando se agrega a una {THING:StructureConsole}, las placas de circuito de control de aire le permiten programar una {Thing:StructureActiveVent}. Al igual que con los perros pequeños y el 83% de las personas, los circuitos de control de aire tienen solo tres modos: Presión, Corriente de aire y Fuera de línea. El modo de presión mantiene una atmósfera de 100 kPa, cambiando el venteo activo entre flujo hacia adentro y hacia afuera hasta que se alcanza la presión objetivo. El modo de corriente de aire le permite emparejar ventilaciones activas para hacer circular el aire. El modo fuera de línea desactiva la ventilación. </Description>
+      <Description>Control de Aire</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardAirlockControl</Key>
       <Value>Esclusa de aire</Value>
-      <Description>Se rumorea que fue esbozado por primera vez en la pared de un inodoro Norsec por un ingeniero descontento, la versatilidad y facilidad de fabricación de la placa de circuito de control de la esclusa de aire Exgress lo ha convertido en el sistema de control de Stationeers preferido para los protocolos de ciclo {thing:StructureAirlock}.
-
-Para ingresar al modo de configuración, inserte la placa en una {THING:StructureConsole} junto con un disco de datos. En este modo, puede ver todos los objetos accesibles a datos actualmente conectados a la {THING:StructureConsole}. Se pueden seleccionar puertas, luces, sensores de gas y consolas esclavas (resaltadas en verde) y se controlarán una vez que se retire el disco de datos.</Description>
+      <Description>Esclusa de aire</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardCameraDisplay</Key>
       <Value>Monitor Cámaras</Value>
-      <Description>La vigilancia a veces es necesaria cuando se construyen bases en entornos altamente hostiles. La placa de circuito de la pantalla de la cámara permite a los cautelosos Stationeers convertir una {Thing:StructureConsole} en una pantalla de seguridad cuando se conecta a una {Thing:StructureCamera}.</Description>
+      <Description>Monitor Cámaras</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardDoorControl</Key>
       <Value>Control de Puerta</Value>
-      <Description>Una herramienta básica de la construcción de bases Stationeer, esta placa de circuito proporciona una manera de abrir y cerrar una {Thing:StructureCompositeDoor}, {Thing:StructureBlastDoor} o {Thing:StructureGlassDoor} de forma remota, cuando se conecta a una {THING:StructureConsole}. Este sistema se puede vincular aún más a {Thing:StructureMotionSensor} para crear puertas automáticas.</Description>
+      <Description>Control de Puerta</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardGasDisplay</Key>
@@ -689,21 +687,17 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     <RecordThing>
       <Key>CircuitboardSolarControl</Key>
       <Value>Control Solar</Value>
-      <Description>Agregar un tablero de control solar a una {thing:StructureConsole} le permite controlar manualmente los ángulos horizontal y vertical de cualquier {thing:StructureSolarPanel} conectado.</Description>
+      <Description>Control Solar</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicAirConditioner</Key>
       <Value>Aire acondicionado portátil</Value>
-      <Description>El aire acondicionado portátil Huxi diseñado por Sinotai se enfría extrayendo calor de la atmósfera y almacenándolo, o agregando calor a la atmósfera desde su tanque interno. Con una presión interna máxima de 8106 kPa, su capacidad es relativamente limitada, siendo la física clara sobre este tema. Para ampliar su capacidad de almacenamiento de temperatura, atornille el Huxi a una {thing:StructureTankConnector}, luego conéctelo a una red de tuberías que suministre &lt;color=#0080FFFF&gt; {LINK:GasPage;gases}&lt;/color&gt; calientes o fríos.</Description>
+      <Description>Aire acondicionado portátil</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrate</Key>
       <Value>Caja Dinámica</Value>
-      <Description>La humilde caja dinámica se ha convertido en un símbolo de la invención y la independencia de Stationeer. Con doce ranuras y asas en cada extremo para facilitar el transporte, es un equipo fundamental para cadetes y comandantes por igual.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>DynamicCrateBuildingSupplies</Key>
-      <Value>Cajón (Material de construcción)</Value>
+      <Description>Caja Dinámica</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrateCableSupplies</Key>
@@ -720,12 +714,12 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     <RecordThing>
       <Key>DynamicGenerator</Key>
       <Value>Generador Portátil</Value>
-      <Description>El mejor amigo de todo Stationeer, el generador portátil lo pone en marcha rápidamente. Llénelo con una {thing:ItemGasCanisterFuel} para encender y cargar una {thing:ItemBatteryCell}, o conéctelo a una {thing:StructurePowerConnector} para vincularlo a su red eléctrica. Es impulsado por presión, por lo que funciona de manera más eficiente a temperaturas más bajas y REALMENTE eficiente si se sobreenfría. Perfeccionar su mezcla de combustible también marca una gran diferencia.</Description>
+      <Description>Generador Portátil</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicLight</Key>
       <Value>Luz Portátil</Value>
-      <Description>Puede que Philippe Starck no lo aplauda, pero esta fuente de luz que funciona con baterías aclara las esquinas cuando falta iluminación. Alimentado por cualquier batería, es un diseño Xigo &apos;sencillo&apos; que se puede fabricar de forma económica con el mínimo de complicaciones.</Description>
+      <Description>Luz Portátil</Description>
     </RecordThing>
     <RecordThing>
       <Key>EffectSplatEgg</Key>
@@ -769,12 +763,12 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     <RecordThing>
       <Key>ItemActiveVent</Key>
       <Value>Ventilación Activa</Value>
-      <Description>Cuando se construye, este kit coloca un {thing:StructureActiveVent} en cualquier estructura de soporte.</Description>
+      <Description>Ventilación Activa</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemAreaPowerControl</Key>
       <Value>Controlador de Energía</Value>
-      <Description>Este kit coloca un {thing:StructureAreaPowerControl} (APC) en cualquier estructura de soporte. El kit APC tiene dos opciones, lo que le permite determinar en qué dirección le gustaría que fluyera la energía APC.</Description>
+      <Description>Controlador de Energía</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDrill</Key>
@@ -823,22 +817,22 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     <RecordThing>
       <Key>ItemGasCanisterCarbonDioxide</Key>
       <Value>Bombona (CO2)</Value>
-      <Description>Cuando se fabrica, el recipiente de &lt;color=#0080FFFF&gt;{LINK:GasPage;CO2}&lt;/color&gt; se llena a una presión de 8000 kPa (80 atmósferas) y tiene el color gris predeterminado. Usado como combustible secundario en el {thing:ItemJetpackBasic}, se puede montar en un {thing:DynamicGasCanisterAir} o {thing:StructureGasTankStorage} para recargarlo. Tenga cuidado de no sobrepresurizar al volver a llenar, o podría explotar.</Description>
+      <Description>Bombona (CO2)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterPollutants</Key>
       <Value>Bombona (Contaminantes)</Value>
-      <Description>Si bien este subproducto de la fundición, a veces conocido simplemente como &apos;X&apos;, es una toxina, su calor específico lo convierte en un refrigerante valioso. Todos los botes de gas están llenos cuando se fabrican a una presión de 8000 kPa (80 atmósferas) y se pueden montar en una {thing:DynamicGasCanisterAir} o {thing:StructureGasTankStorage} para rellenar. Tenga cuidado de no presurizar más allá de 100kPA, o puede explotar.</Description>
+      <Description>Bombona (Contaminantes)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterEmpty</Key>
       <Value>Bombona (Vacía)</Value>
-      <Description>El recipiente portátil es la unidad básica del Stationeer de entrega &lt;color=#0080FFFF&gt;{LINK:GasPage;gas}&lt;/color&gt;. Con una presión estándar de 8000kPa (80 atmósferas), los botes de gas vacíos se pueden montar en una {thing:DynamicGasCanisterAir} o {thing:StructureGasTankStorage} para rellenar. Tenga cuidado de no presurizar más de 100kPA, o puede explotar. Contiene 64L de gas.</Description>
+      <Description>Bombona (Vacía)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterFuel</Key>
       <Value>Bombona (Combustible)</Value>
-      <Description>El recipiente naranja portátil &lt;color=#0080FFFF&gt;{LINK:GasPage;volatiles}&lt;/color&gt; tiene una capacidad de 64L. Todos los botes de gas están llenos cuando se fabrican a una presión de 8000 kPa (80 atmósferas) y se pueden montar en un {thing:DynamicGasCanisterAir} o {thing:StructureGasTankStorage} para recargar. Tenga cuidado de no presurizar más de 100kPA, o puede explotar.</Description>
+      <Description>Bombona (Combustible)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterVolatiles</Key>
@@ -847,22 +841,22 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     <RecordThing>
       <Key>ItemGasCanisterNitrogen</Key>
       <Value>Bombona (Nitrógeno)</Value>
-      <Description>El recipiente verde portátil &lt;color=#0080FFFF&gt;{LINK:GasPage;volatiles}&lt;/color&gt; tiene una capacidad de 64L. Todos los botes de gas están llenos cuando se fabrican a una presión de 8000 kPa (80 atmósferas) y se pueden montar en un {thing:DynamicGasCanisterAir} o {thing:StructureGasTankStorage} para recargar. Tenga cuidado de no presurizar más de 100kPA, o puede explotar.</Description>
+      <Description>Bombona (Nitrógeno)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterOxygen</Key>
       <Value>Bombona (Oxígeno)</Value>
-      <Description>El recipiente blanco portátil &lt;color=#0080FFFF&gt;{LINK:GasPage;volatiles}&lt;/color&gt; tiene una capacidad de 64L. Todos los botes de gas están llenos cuando se fabrican a una presión de 8000 kPa (80 atmósferas) y se pueden montar en un {thing:DynamicGasCanisterAir} o {thing:StructureGasTankStorage} para recargar. Tenga cuidado de no presurizar más de 100kPA, o puede explotar.</Description>
+      <Description>Bombona (Oxígeno)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterWater</Key>
       <Value>Bombona (Agua)</Value>
-      <Description>El recipiente rojo portátil &lt;color=#0080FFFF&gt;{LINK:GasPage;volatiles}&lt;/color&gt; tiene una capacidad de 64L. Todos los botes de gas están llenos cuando se fabrican a una presión de 8000 kPa (80 atmósferas) y se pueden montar en un {thing:DynamicGasCanisterAir} o {thing:StructureGasTankStorage} para recargar. Tenga cuidado de no presurizar más de 100kPA, o puede explotar.</Description>
+      <Description>Bombona (Agua)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxide</Key>
       <Value>Filtro (Dióxido de carbono)</Value>
-      <Description>Dada la obsesión de la humanidad por exhalar CO2, todos los Stationeers reciben dos filtros de CO2 básicos como parte de su kit de implementación estándar (SDK). Estos filtros permiten el paso de CO2 a los desechos del traje {thing:ItemGasCanisterEmpty}, pero también son componentes críticos de el {thing:DynamicScrubber} y el {thing:StructureFiltration}. El {thing:ItemGasFilterCarbonDioxideM} y el {thing:ItemGasFilterCarbonDioxideL} también están disponibles.</Description>
+      <Description>Filtro (Dióxido de carbono)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasTankStorage</Key>
@@ -3988,21 +3982,6 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     <RecordThing>
       <Key>TriggerZone</Key>
       <Value>Zona de Activación</Value>
-      <Description>Esta es la página de cosas predeterminada.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureEmergencyButton</Key>
-      <Value>Traje de emergencia Eva</Value>
-      <Description>Esta es la página de cosas predeterminada.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureBatteryLarge</Key>
-      <Value>Batería (Grande)</Value>
-      <Description>Esta es la página de cosas predeterminada.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitBatteryLarge</Key>
-      <Value>Cargador de Baterías</Value>
       <Description>Esta es la página de cosas predeterminada.</Description>
     </RecordThing>
   </Things>
