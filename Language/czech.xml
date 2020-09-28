@@ -868,6 +868,16 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
 Všechny plynové kanystry jsou při výrobě na tlak 8000 kPa (80 atmosfér) plné a lze je namontovat na {thing:DynamicGasCanisterAir} nebo {thing:StructureGasTankStorage} pro doplnění. Dávejte pozor, abyste nepřetlakovali nad 100 kPA, jinak by mohlo dojít k &apos;prasknutí&apos;.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemGasCanisterEmpty</Key>
+      <Value>Kanystr</Value>
+      <Description>Přenosný kanystr je základní jednotkou dodávky &lt;color=#0080FFFF&gt;{LINK:GasPage;plynu}&lt;/color&gt; Stationeera. Prázdné plynové kanystry se standardním tlakem 8000 kPa (80 atmosfér) lze namontovat na {thing:DynamicGasCanisterAir} nebo na {thing:StructureGasTankStorage} pro doplnění. Dávejte pozor, abyste nepřetlakovali nad 100 kPA, jinak by mohlo dojít k &apos;prasknutí&apos;. Obsahuje 64 L plynu.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasCanisterFuel</Key>
+      <Value>Kanystr (Palivo)</Value>
+      <Description>Oranžový přenosný kanystr na &lt;color=#0080FFFF&gt;{LINK:GasPage;palivo}&lt;/color&gt; dodává 64L směs 66% těkavých látek /34% kyslíku pro napájení takových položek, jako jsou {thing:ItemWeldingTorch} a {thing:DynamicGenerator}. Všechny kanystry na plyn jsou při výrobě na tlak 8000 kPa (80 atmosfér) plné a lze je namontovat na {thing:DynamicGasCanisterAir} nebo na {thing:StructureGasTankStorage} pro doplnění. Dávejte pozor, abyste nepřetlakovali nad 100 kPA, jinak by mohlo dojít k &apos;prasknutí&apos;.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemGasCanisterVolatiles</Key>
       <Value>Kanystr (Těkavé látky)</Value>
     </RecordThing>
