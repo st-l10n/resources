@@ -690,7 +690,9 @@
     <RecordThing>
       <Key>CircuitboardAirlockControl</Key>
       <Value>Přechodová komora</Value>
-      <Description>Přechodová komora</Description>
+      <Description>Říká se, že byl nejprve načrtnut na stěně toalety Norsec nespokojeným inženýrem, díky univerzálnosti řídicí desky přechodové komory a snadnosti jeho výroby se stal řídícím systémem Stationeers volbou pro synchronizační  protokoly {THING:StructureAirlock}.
+
+Chcete-li vstoupit do režimu nastavení, vložte desku do {THING:StructureConsole} spolu s datovým diskem. V tomto režimu můžete vidět všechny objekty přístupné k datům aktuálně připojené ke {THING:StructureConsole}. Lze vybrat dveře, světla, senzory plynu a podřízené konzole (zvýrazněné zeleně) a budou ovládány po vyjmutí datového disku.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardCameraDisplay</Key>
@@ -799,12 +801,12 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
     <RecordThing>
       <Key>ItemActiveVent</Key>
       <Value>Souprava (Aktivní ventilátor)</Value>
-      <Description>Souprava (Aktivní ventilátor)</Description>
+      <Description>Po konstrukci umístí tato souprava {THING:StructureActiveVent} na jakoukoli nosnou konstrukci.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemAreaPowerControl</Key>
       <Value>Souprava (Ovladač elektřiny)</Value>
-      <Description>Souprava (Ovladač elektřiny)</Description>
+      <Description>Tato souprava umístí {THING:StructureAreaPowerControl} (APC) na jakoukoli podpůrnou strukturu. Sada APC má dvě možnosti, což vám umožní určit, kterým směrem chcete, aby výkon APC proudil.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCell</Key>
