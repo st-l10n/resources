@@ -763,7 +763,7 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     <RecordThing>
       <Key>ItemActiveVent</Key>
       <Value>Ventilación Activa</Value>
-      <Description>Ventilación Activa</Description>
+      <Description>Cuando se construye, este kit coloca una {THING:StructureActiveVent} en cualquier estructura de soporte.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemAreaPowerControl</Key>
@@ -857,6 +857,21 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Key>ItemGasFilterCarbonDioxide</Key>
       <Value>Filtro (Dióxido de carbono)</Value>
       <Description>Filtro (Dióxido de carbono)</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterOxygen</Key>
+      <Value>Filtro (Oxígeno)</Value>
+      <Description>Los filtros se utilizan para capturar diversos gases, que pueden ser eliminados o utilizados en otros lugares. El oxígeno es un subproducto común de la fundición de varios minerales.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterWater</Key>
+      <Value>Filtro (Agua)</Value>
+      <Description>Los filtros se utilizan para capturar diversos gases, que pueden ser eliminados o utilizados en otros lugares. El agua se recoge mediante la filtración de los fundidos &lt;color=#0080FFFF&gt;{LINK:OrePage;ice (water)}&lt;/color&gt;</Description> gas to separate it from the nitrogen.
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasTankStorage</Key>
+      <Value>Recargador de Bombonas</Value>
+      <Description>Este kit produce una {THING:ItemGasTankStorage} para rellenar una {THING:ItemGasCanisterEmpty}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemHat</Key>
@@ -4618,7 +4633,7 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     </Record>
     <Record>
       <Key>PersonalBackpacks</Key>
-      <Value>Copias de Seguridad</Value>
+      <Value>Mochilas</Value>
     </Record>
     <Record>
       <Key>PersonalEyeWear</Key>
@@ -4638,7 +4653,7 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     </Record>
     <Record>
       <Key>PersonalToolbelt</Key>
-      <Value>Herramientas</Value>
+      <Value>Cinturón de herramientas</Value>
     </Record>
     <Record>
       <Key>Other</Key>
@@ -4646,7 +4661,7 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     </Record>
     <Record>
       <Key>PowerTool</Key>
-      <Value>Energía</Value>
+      <Value>Herramientas de energía</Value>
     </Record>
     <Record>
       <Key>SlotsTitle</Key>
@@ -4662,23 +4677,31 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     </Record>
     <Record>
       <Key>ControlSystemAtmos</Key>
-      <Value>Controles</Value>
+      <Value>Sistemas de control</Value>
     </Record>
     <Record>
       <Key>ApplianceCategory</Key>
-      <Value>Apariencia</Value>
+      <Value>Electrodomésticos</Value>
     </Record>
     <Record>
       <Key>AirContitioningAtmos</Key>
-      <Value>Condición de inicio de partida</Value>
+      <Value>Aire acondicionado</Value>
     </Record>
     <Record>
       <Key>AtmosDevices</Key>
-      <Value>Atmósfera</Value>
+      <Value>Dispositivos atmosféricos</Value>
+    </Record>
+    <Record>
+      <Key>FireArm</Key>
+      <Value>Armas</Value>
+    </Record>
+    <Record>
+      <Key>ManualTools</Key>
+      <Value>Herramientas manuales</Value>
     </Record>
     <Record>
       <Key>PowerTools</Key>
-      <Value>Energía</Value>
+      <Value>Herramientas de energía</Value>
     </Record>
     <Record>
       <Key>TraderErrorConnectWires</Key>
@@ -7922,6 +7945,18 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
     <Record>
       <Key>PressEnterToContinue</Key>
       <Value>Presione &lt;color=#FBB03B&gt;Intro&lt;/color&gt; para continuar</Value>
+    </Record>
+    <Record>
+      <Key>FrozenOreHeader</Key>
+      <Value>Minerales congelados</Value>
+    </Record>
+    <Record>
+      <Key>OreHeader</Key>
+      <Value>Minerales</Value>
+    </Record>
+    <Record>
+      <Key>ReagentsHeader</Key>
+      <Value>Reactivos</Value>
     </Record>
   </Interface>
   <Colors>
