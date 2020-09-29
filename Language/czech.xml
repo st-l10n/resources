@@ -754,6 +754,26 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
       <Value>Bedna (Materiály pro potrubí)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>DynamicGasCanisterAir</Key>
+      <Value>Přenosná nádrž (Vzduch)</Value>
+      <description>Přenosné nádrže dělají jednu věc: skladují benzín. Ale s nimi můžete udělat spoustu věcí. Chcete-li nádrž znovu naplnit, přišroubujte ji k {THING:ItemTankConnector} a poté ji připojte k potrubní síti. Snažte se vyhnout tlaku nad 100 atmosfér, jinak se stanou špatné věci. Jakmile je plná, můžete doplnit {THING:ItemGasCanisterOxygen} připojením k pruhované části nádrže. Nebo můžete odvzdušnit ventil s proměnným průtokem nádrže do místnosti a vytvořit atmosféru. Také se připevňují k roverům a raketám. Případně to nakopněte a procvičte si válcování hlavně. Možnosti jsou nekonečné.</description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGasCanisterCarbonDioxide</Key>
+      <Value>Přenosná nádrž (Oxid uhličitý)</Value>
+      <description>Přenosné nádrže dělají jednu věc: skladují benzín. Chcete-li nádrž znovu naplnit, přišroubujte ji k {THING:ItemTankConnector} a poté ji připojte k potrubní síti. Snažte se vyhnout tlaku nad 100 atmosfér, nebo ... boom. Jakmile je plná, můžete doplnit {THING:ItemGasCanisterCarbonDioxide} připojením k pruhované části nádrže. Nebo můžete odvzdušnit ventil s proměnným průtokem nádrže do místnosti a vytvořit atmosféru ... svého druhu.</description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGasCanisterEmpty</Key>
+      <Value>Přenosná nádrž</Value>
+      <description>Přenosné nádrže skladují plyn. Chcete-li jednu naplnit, přišroubujte ji k {THING:ItemTankConnector} a poté ji připojte k potrubní síti. Snažte se vyhnout tlaku nad 100 atmosfér, jinak se stanou špatné věci. Jakmile je plná, můžete doplnit {THING:ItemGasCanisterEmpty} připojením k pruhované části nádrže. Nebo můžete odvzdušnit ventil s proměnným průtokem nádrže do místnosti a vytvořit atmosféru.</description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGasCanisterFuel</Key>
+      <Value>Přenosná nádrž (Palivo)</Value>
+      <description>Přenosné nádrže skladují plyn. Jsou v tom dobří. Pokud potřebujete doplnit nádrž, přišroubujte ji k {THING:ItemTankConnector} a poté ji připojte k potrubní síti. Snažte se vyhnout tlaku nad 100 atmosfér, jinak by se věci zamotaly. {THING:ItemGasCanisterFuel} můžete znovu naplnit připojením k pruhované části nádrže. Nebo můžete použít {THING:ItemWrench} k připevnění k vozidlu nebo raketě na později. Je to opravdu na vás.</description>
+    </RecordThing>
+    <RecordThing>
       <Key>DynamicGenerator</Key>
       <Value>Přenosný generátor</Value>
       <Description>Každý nejlepší přítel Stationeera, přenosný generátor vás rychle zprovozní. Naplňte jej {THING:ItemGasCanisterFuel} pro zapnutí a nabití {THING:ItemBatteryCell}, nebo jej připojte k {THING:StructurePowerConnector} a propojte jej s vaší elektrickou sítí. Je poháněn tlakem, takže funguje efektivněji při nižších teplotách a SKUTEČNĚ efektivněji, pokud je podchlazený. Zdokonalení palivové směsi také znamená velký rozdíl.</Description>
