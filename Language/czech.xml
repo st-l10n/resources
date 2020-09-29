@@ -804,6 +804,11 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
       <Description>Philippe Starck nemusí tleskat, ale tento bateriově napájený světelný zdroj odtemňuje rohy, když chybí osvětlení. Poháněno jakoukoli baterií, jedná se o design Xigo &apos;bez ozdůbek&apos;, který lze levně vyrobit s minimem rozruchu. Pokud nemáte rádi povyk. V takovém případě je rozruch vše, co se vám líbí.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>DynamicScrubber</Key>
+      <Value>Přenosný filtr vzduchu</Value>
+      <description>Přenosný mycí stroj dělá přesně to, jak zní: odstraňuje určité látky ze vzduchu. Například připojením {THING:ItemGasFilterCarbonDioxide} vytáhne &lt;color=#0080FFFF&gt;{LINK:GasPage;CO2}&lt;/color&gt; z okolní atmosféry. Pamatujte, že pračka má místo pro jednu baterii a dva filtry, což zdvojnásobí její provozní rychlost. Elegantní. Když dosáhne vnitřního tlaku 8106 kPA, na přepínači bude blikat chybový signál, což znamená, že je třeba ji vyprázdnit. Buď ji odvzdušněte přímo, nebo ji připojte k potrubní síti pomocí {THING:ItemTankConnector} a {THING:ItemWrench}.</description>
+    </RecordThing>
+    <RecordThing>
       <Key>EntityAlien</Key>
       <Value>Mimozemšťan</Value>
       <Description>Odpověď na prastarou otázku: &apos;Existuje život na jiných planetách?&apos; Zní &apos;Myslím, že ano.&apos;</Description>
