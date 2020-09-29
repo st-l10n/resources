@@ -734,7 +734,7 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
     <RecordThing>
       <Key>DynamicAirConditioner</Key>
       <Value>Přenosná klimatizace</Value>
-      <Description>Přenosná klimatizace</Description>
+      <Description>Přenosná klimatizace Huxi navržená společností Sinotai chladí čerpáním tepla z atmosféry a jeho ukládáním nebo přidáváním tepla do atmosféry z vnitřní nádrže. S maximálním vnitřním tlakem 8106 kPa je její kapacita relativně omezená, fyzika je na toto téma jasná. Chcete-li rozšířit její schopnost akumulace teploty, přišroubujte Huxi k {THING:StructureTankConnector} a poté ji připojte k potrubní síti dodávající horké nebo studené &lt;color=#0080FFFF&gt;{LINK:GasPage;plyny}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrate</Key>
@@ -865,12 +865,12 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
     <RecordThing>
       <Key>ItemGasCanisterCarbonDioxide</Key>
       <Value>Kanystr (Oxid uhličitý)</Value>
-      <Description>Kanystr (Oxid uhličitý)</Description>
+      <Description>Když je vyroben, je &lt;color=#0080FFFF&gt;{LINK:GasPage;CO2}&lt;/color&gt; kanystr naplněn tlakem 8000 kPa (80 atmosfér) a zbarven výchozí šedou. Používá se jako sekundární palivo v {THING:ItemJetpackBasic}, lze jej připojit k {THING:DynamicGasCanisterAir} nebo k {THING:StructureGasTankStorage} pro doplnění. Při doplňování dávejte pozor, abyste jej nepřetlakovali, jinak by mohlo dojít k &apos;prasknutí&apos;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterPollutants</Key>
       <Value>Kanystr (Znečišťující látky)</Value>
-      <Description>Kanystr (Znečišťující látky)</Description>
+      <Description>Zatímco tento vedlejší produkt při tavení - někdy známý jednoduše jako &apos;X&apos; - je toxin, jeho specifické teplo z něj činí cennou chladicí kapalinu. Všechny kanystry na plyn jsou plné, pokud jsou vyrobeny na tlak 8000 kPa (80 atmosfér), a lze je namontovat na {THING:DynamicGasCanisterAir} nebo k {THING:StructureGasTankStorage} pro doplnění. Dávejte pozor, abyste jej nepřetlakovali nad 100 kPA, jinak by mohlo dojít k &apos;prasknutí&apos;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterEmpty</Key>
