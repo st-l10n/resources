@@ -839,6 +839,11 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
       <Description>Obyčejný hnědý kohout. Ať to neslyší, že to říkáš.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>GasTankAir</Key>
+      <Value>Nádrž na plyn (Vzduch)</Value>
+      <Description>Přenosné nádrže skladují plyn. Chcete-li jednu naplnit, přišroubujte ji k {THING:ItemTankConnector} pomocí {THING:ItemWrench} a poté ji připojte k potrubní síti. Snažte se vyhnout tlaku nad 100 atmosfér, jinak ochutnáte jemnou příchuť lítosti. Pomocí nádrží doplňte {THING:ItemGasCanisterEmpty} připojením k pruhované části nádrže. Nebo jej můžete odvzdušnit do zapečetěné místnosti, abyste vytvořili atmosféru, připevnit ji k vozidlu a vzít ji na projížďku, nebo ji prostě použít pro hlasitý a nákladný trénink cíle.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemActiveVent</Key>
       <Value>Souprava (Aktivní ventilátor)</Value>
       <Description>Po konstrukci umístí tato souprava {THING:StructureActiveVent} na jakoukoli nosnou konstrukci.</Description>
@@ -852,6 +857,16 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
       <Key>ItemBatteryCell</Key>
       <Value>Baterie (Malá)</Value>
       <Description>Malý bateriový článek, který byl průkopníkem designu na počátku 21. století, je základní jednotkou Stationeerovy přenosné elektrické energie. I když mu chybí poplatek za {THING:ItemBatteryCellLarge} nebo {THING:ItemBatteryCellNuclear}, má skromnou výhodu v tom, že je vyrobena ze základních zdrojů.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBatteryCellLarge</Key>
+      <Value>Baterie (Velká)</Value>
+      <Description>Tento klasický silikonový anodový energetický článek, který sériově vyráběl Xigo v roce 2155 na základě nepřiděleného prototypu, poskytuje téměř 300 000 joulů energie. Konstrukce v pevné fázi také rozšiřuje svůj optimální teplotní rozsah.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBatteryCellNuclear</Key>
+      <Value>Baterie (Jaderná)</Value>
+      <Description>Ilegální na Zemi od události v Čcheng-tu, jaderné články společnosti Norsec našly nový a výrazně méně bezpečný trh mimo svět. &apos;Nuke&apos; posouvá rovnováhu výkonu a hmotnosti na hranici svých možností a má náboj 2.3 megajoule, což odráží jeho závislost na exotických &lt;color=#0080FFFF&gt;{LINK:IngotsPage;superslitinách}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCharger</Key>
