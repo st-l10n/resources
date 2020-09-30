@@ -665,12 +665,12 @@
     <RecordThing>
       <Key>CartridgeAtmosAnalyser</Key>
       <Value>Atmosférický analyzátor</Value>
-      <Description>Lorenzův atmosférický analyzátor je multifunkční hmotnostní spektrometr navržený společností ExMin pro použití s ​​jádrem rudy {Thing:ItemTablet}. Zobrazuje tlak, koncentraci a molární množství &lt;color=#0080FFFF&gt;{LINK:GasPage;plynu}&lt;/color&gt; v místnostech, nádržích nebo potrubních sítích.</Description>
+      <Description>Atmosférický analyzátor</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeMedicalAnalyser</Key>
       <Value>Zdravotní analyzátor</Value>
-      <Description>Když je přidán do jádra rudy {Thing:ItemTablet}, lékařský analyzátor ReadyMed společnosti Asura odhaluje zdraví nebo jiné podoby uživatelů různých orgánů. Kvůli konstrukční chybě byly starší modely proslulé produkcí kvazarových úrovní rentgenového záření. Nedávné pokroky v oblasti stínění více než poloviční riziko pro uživatele.</Description>
+      <Description>Zdravotní analyzátor</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeNetworkAnalyser</Key>
@@ -874,11 +874,6 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
       <Description>Ilegální na Zemi od události v Čcheng-tu, jaderné články společnosti Norsec našly nový a výrazně méně bezpečný trh mimo svět. &apos;Nuke&apos; posouvá rovnováhu výkonu a hmotnosti na hranici svých možností a má náboj 2.3 megajoule, což odráží jeho závislost na exotických &lt;color=#0080FFFF&gt;{LINK:IngotsPage;superslitinách}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>ItemBatteryCharger</Key>
-      <Value>Souprava (Nabíječka baterií)</Value>
-      <Description>Nabíječka s pěti sloty poskytuje 500 W na baterii a lze ji připojit k logickým systémům pro řízení nabíjení.</Description>
-    </RecordThing>
-    <RecordThing>
       <Key>ItemBook</Key>
       <Value>Kniha</Value>
       <Description>Na rozdíl od 8 stop, laserových disků a e-mailu, knihy nikdy úplně nezmizely. Technologie se možná vyvinula, ale něco o struktuře a svůdnosti fyzické knihy je vidělo vydržet v jedinečném, i když mírně iracionálním informačním prostoru.</Description>
@@ -896,7 +891,7 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
     <RecordThing>
       <Key>ItemChemLightGreen</Key>
       <Value>Chemické světlo (Zelená)</Value>
-      <Description>Oživte tu nejsvětlejší bezvzduchovou skálu tímto zeleným světlem. Praskněte pro aktivaci.</Description>
+      <Description>Chemické světlo (Zelená)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemChemLightRed</Key>
@@ -916,7 +911,7 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
     <RecordThing>
       <Key>ItemCoalOre</Key>
       <Value>Ruda (Uhlí)</Value>
-      <Description>Lidstvo by se nedostalo do vesmíru bez skromného, ​​spalitelného uhlí. Spalte ho v {THING:DynamicGenerator} nebo v {THING:StructureSolidFuelGenerator}, roztavte ho v {THING:StructureFurnace} a vytvořte &lt;color=#0080FFFF&gt;{LINK:AlloysPage;slitiny}&lt;/color&gt;, nebo ho použijte v {THING:ApplianceReagentProcessor} a vytvořte   {THING:ItemSprayCanBlack}. Jen si ho nerozmazávejte po tváři a nedělejte si jazzové ruce. To není super.</Description>
+      <Description>Ruda (Uhlí)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDrill</Key>
@@ -999,37 +994,32 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
     <RecordThing>
       <Key>ItemGasCanisterWater</Key>
       <Value>Kanystr (Voda)</Value>
-      <Description>Modrý přenosný kanystr &lt;color=#0080FFFF&gt;{LINK:GasPage;H20}&lt;/color&gt; má kapacitu 64 l a dodává vodu do předmětů, jako je jednotka {THING:DynamicHydroponics}. Všechny plynové kanystry jsou plné, pokud jsou vyrobeny na tlak 8000 kPa (80 atmosfér), a lze je namontovat na {THING:DynamicGasCanisterAir} nebo k {THING:StructureGasTankStorage} pro doplnění. Dávejte pozor, abyste je nepřetlakovali nad 100 kPA, jinak by mohlo dojít k &apos;prasknutí&apos;.</Description>
+      <Description>Kanystr (Voda)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxide</Key>
       <Value>Filtr (Oxid uhličitý)</Value>
-      <Description>Vzhledem k posedlosti lidstva vydechováním CO2 jsou všem Stationeerum vydávány dva základní filtry CO2 jako součást standardní soupravy pro nasazení (SDK). Tyto filtry umožňují průchod CO2 do odpadu obleku {THING:ItemGasCanisterEmpty}, ale jsou také důležitými složkami {THING:DynamicScrubber} a {THING:StructureFiltration}. K dispozici jsou také {THING:ItemGasFilterCarbonDioxideM} a {THING:ItemGasFilterCarbonDioxideL}.</Description>
+      <Description>Filtr (Oxid uhličitý)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterPollutants</Key>
       <Value>Filtr (Znečišťující látka)</Value>
-      <Description>Filtry se používají k zachycení různých plynů, které lze zlikvidovat nebo použít jinde. Přidání filtrů &lt;color=#0080FFFF&gt;{LINK:GasPage;znečišťujících látek}&lt;/color&gt; k {THING:ItemDynamicScrubber} vám umožňuje sbírat tento plyn a poté využívat jeho vynikající vlastnosti chladicí kapaliny v {THING:StructureWallCooler}.</Description>
+      <Description>Filtr (Znečišťující látka)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrogen</Key>
       <Value>Filtr (Dusík)</Value>
-      <Description>Filtry se používají k zachycení různých plynů, které lze zlikvidovat nebo použít jinde. &lt;color=#0080FFFF&gt;{LINK:GasPage;Dusík}&lt;/color&gt; je vedlejším produktem při tavení různých rud, zejména &lt;color=#0080FFFF&gt;{LINK:OrePage;ledů}&lt;/color&gt;, které jsou poté kombinovány s &lt;color=#0080FFFF&gt;{LINK:GasPage;kyslíkem}&lt;/color&gt;, aby vytvořily dýchatelnou - a podstatně méně hořlavou - atmosféru.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemGasFilterOxygen</Key>
-      <Value>Filtr (Kyslík)</Value>
-      <Description>Filtry se používají k zachycení různých plynů, které lze zlikvidovat nebo použít jinde. Kyslík je běžným vedlejším produktem při tavení několika rud.</Description>
+      <Description>Filtr (Dusík)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterVolatiles</Key>
       <Value>Filtr (Těkavé látky)</Value>
-      <Description>Filtry se používají k zachycení různých plynů, které lze zlikvidovat nebo použít jinde. &lt;color=#0080FFFF&gt;{LINK:GasPage;Těkavé látky}&lt;/color&gt; se vytvářejí vystavením &lt;color=#0080FFFF&gt;{LINK:OrePage;ledu (těkavých látek)}&lt;/color&gt; teplu. Ty pak mohou být shromažďovány a kombinovány s &lt;color=#0080FFFF&gt;{LINK:GasPage;kyslíkem}&lt;/color&gt; za vzniku paliva, nebo použity v rámci {THING:StructureFurnace} k tavení rud nebo k vytváření &lt;color=#0080FFFF&gt;{LINK:AlloyPage;slitin}&lt;/color&gt;.</Description>
+      <Description>Filtr (Těkavé látky)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterWater</Key>
       <Value>Filtr (Voda)</Value>
-      <Description>Filtry se používají k zachycení různých plynů, které lze zlikvidovat nebo použít jinde. Voda se shromažďuje filtrací roztaveného &lt;color=#0080FFFF&gt;{LINK:OrePage;ledu (vody)}&lt;/color&gt;</Description> gas to separate it from the nitrogen.
+      <Description>Filtr (Voda)</Description> gas to separate it from nitrogen impurities.
     </RecordThing>
     <RecordThing>
       <Key>ItemGasTankStorage</Key>
@@ -1037,152 +1027,9 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
       <Description>Tato souprava produkuje {THING:ItemGasTankStorage} pro doplňování {THING:ItemGasCanisterEmpty}.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>ItemHat</Key>
-      <Value>Klobouk</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemHydroponicTray</Key>
-      <Value>Souprava (Hydroponická nádoba)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemIce</Key>
-      <Value>Led (Voda)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemIgniter</Key>
-      <Value>Souprava (Roznětka)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemInsulation</Key>
-      <Value>Izolace</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemIronIngot</Key>
-      <Value>Ingot (Železo)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemIronOre</Key>
-      <Value>Ruda (Železo)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitAirlock</Key>
-      <Value>Souprava (Přechodová komora)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitAtmospherics</Key>
-      <Value>Souprava (Atmosferika)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitBattery</Key>
-      <Value>Souprava (Baterie)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitCentrifuge</Key>
-      <Value>Souprava (Odstředivka)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitChute</Key>
-      <Value>Souprava (Žlaby)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitComputer</Key>
-      <Value>Souprava (Počítač)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitConsole</Key>
-      <Value>Souprava (Konzole)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitConveyor</Key>
-      <Value>Souprava (Dopravníky)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitCryoTube</Key>
-      <Value>Souprava (Kryokapsle)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitEngine</Key>
-      <Value>Souprava (Motory)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitFabricator</Key>
-      <Value>Souprava (Konstruktér)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitFurnace</Key>
-      <Value>Souprava (Pec)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitFurniture</Key>
-      <Value>Souprava (Nábytek)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitGyroscope</Key>
-      <Value>Souprava (Gyroskop)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitRegulator</Key>
-      <Value>Souprava (Regulátor tlaku)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitSensor</Key>
-      <Value>Souprava (Senzory)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitSign</Key>
-      <Value>Souprava (Cedule)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitSleeper</Key>
-      <Value>Souprava (Sleeper)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitSolarPanel</Key>
-      <Value>Souprava (Solární panel)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitStairs</Key>
-      <Value>Souprava (Schody)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitStellarAnchor</Key>
-      <Value>Souprava (Hvězdná kotva)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitStorage</Key>
-      <Value>Souprava (Úložiště)</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>ItemKitTank</Key>
       <Value>Souprava (Nádrž)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitTorpedoTube</Key>
-      <Value>Souprava (Torpédový spouštěč)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitTurret</Key>
-      <Value>Souprava (Věž)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitWall</Key>
-      <Value>Souprava (Stěna)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemLabeller</Key>
-      <Value>Popisovač</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemLightSword</Key>
-      <Value>Světelný meč</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemMilk</Key>
-      <Value>Mléko</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemMiningBelt</Key>
-      <Value>Hornický opasek</Value>
+      <Description>Souprava (Nádrž)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningDrill</Key>
@@ -4146,16 +3993,6 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
       <Value>Spouštěcí zóna</Value>
       <Description>Toto je výchozí stránka věci.</Description>
     </RecordThing>
-    <RecordThing>
-      <Key>ItemKitAirlockGate</Key>
-      <Value>Souprava (Přechodová brána)</Value>
-      <Description>Toto je výchozí stránka věci.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureAirlockGate</Key>
-      <Value>Přechodová brána</Value>
-      <Description>Toto je výchozí stránka věci.</Description>
-    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -4705,94 +4542,6 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
     <Record>
       <Key>MainMenuContinue</Key>
       <Value>Pokračovat</Value>
-    </Record>
-    <Record>
-      <Key>PersonalSuits</Key>
-      <Value>Obleky</Value>
-    </Record>
-    <Record>
-      <Key>CableCategory</Key>
-      <Value>Kabely a analyzátory</Value>
-    </Record>
-    <Record>
-      <Key>PersonalBackpacks</Key>
-      <Value>Batohy</Value>
-    </Record>
-    <Record>
-      <Key>PersonalEyeWear</Key>
-      <Value>Brýle</Value>
-    </Record>
-    <Record>
-      <Key>PersonalClothing</Key>
-      <Value>Oblečení</Value>
-    </Record>
-    <Record>
-      <Key>CartridgeCategory</Key>
-      <Value>Diskety</Value>
-    </Record>
-    <Record>
-      <Key>PersonalHelmets</Key>
-      <Value>Přilby</Value>
-    </Record>
-    <Record>
-      <Key>PersonalToolbelt</Key>
-      <Value>Opasky s nářadím</Value>
-    </Record>
-    <Record>
-      <Key>Other</Key>
-      <Value>Ostatní</Value>
-    </Record>
-    <Record>
-      <Key>PowerTool</Key>
-      <Value>Elektrické nářadí</Value>
-    </Record>
-    <Record>
-      <Key>SlotsTitle</Key>
-      <Value>Všechny sloty</Value>
-    </Record>
-    <Record>
-      <Key>LogicReadersCategory</Key>
-      <Value>Čtečky logiky</Value>
-    </Record>
-    <Record>
-      <Key>LogicWriterCategory</Key>
-      <Value>Zapisovače logiky</Value>
-    </Record>
-    <Record>
-      <Key>MotherboardCategory</Key>
-      <Value>Základní desky</Value>
-    </Record>
-    <Record>
-      <Key>ControlSystemAtmos</Key>
-      <Value>Řídicí systémy</Value>
-    </Record>
-    <Record>
-      <Key>ApplianceCategory</Key>
-      <Value>Spotřebiče</Value>
-    </Record>
-    <Record>
-      <Key>Fabricators</Key>
-      <Value>Konstruktéři</Value>
-    </Record>
-    <Record>
-      <Key>AirContitioningAtmos</Key>
-      <Value>Klimatizace</Value>
-    </Record>
-    <Record>
-      <Key>AtmosDevices</Key>
-      <Value>Atmosférická zařízení</Value>
-    </Record>
-    <Record>
-      <Key>FireArm</Key>
-      <Value>Zbraně</Value>
-    </Record>
-    <Record>
-      <Key>ManualTools</Key>
-      <Value>Ruční nástroje</Value>
-    </Record>
-    <Record>
-      <Key>PowerTools</Key>
-      <Value>Elektrické nářadí</Value>
     </Record>
     <Record>
       <Key>TraderErrorConnectWires</Key>
@@ -8220,22 +7969,6 @@ Neuložený postup bude ztracen.</Value>
     <Record>
       <Key>PressEnterToContinue</Key>
       <Value>Pokračujte stisknutím &lt;color=#FBB03B&gt;Enter&lt;/color&gt;</Value>
-    </Record>
-    <Record>
-      <Key>FrozenOreHeader</Key>
-      <Value>Zmrazené rudy</Value>
-    </Record>
-    <Record>
-      <Key>OreHeader</Key>
-      <Value>Rudy</Value>
-    </Record>
-    <Record>
-      <Key>GasesHeader</Key>
-      <Value>Plyny</Value>
-    </Record>
-    <Record>
-      <Key>ReagentsHeader</Key>
-      <Value>Činidla</Value>
     </Record>
   </Interface>
   <Colors>
