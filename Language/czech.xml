@@ -1022,6 +1022,11 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
       <Description>Filtry se používají k zachycení různých plynů, které lze zlikvidovat nebo použít jinde. Kyslík je běžným vedlejším produktem při tavení několika rud.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemGasFilterVolatiles</Key>
+      <Value>Filtr (Těkavé látky)</Value>
+      <Description>Filtry se používají k zachycení různých plynů, které lze zlikvidovat nebo použít jinde. &lt;color=#0080FFFF&gt;{LINK:GasPage;Těkavé látky}&lt;/color&gt; se vytvářejí vystavením &lt;color=#0080FFFF&gt;{LINK:OrePage;ledu (těkavých látek)}&lt;/color&gt; teplu. Ty pak mohou být shromažďovány a kombinovány s &lt;color=#0080FFFF&gt;{LINK:GasPage;kyslíkem}&lt;/color&gt; za vzniku paliva, nebo použity v rámci {THING:StructureFurnace} k tavení rud nebo k vytváření &lt;color=#0080FFFF&gt;{LINK:AlloyPage;slitin}&lt;/color&gt;.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemGasFilterWater</Key>
       <Value>Filtr (Voda)</Value>
       <Description>Filtry se používají k zachycení různých plynů, které lze zlikvidovat nebo použít jinde. Voda se shromažďuje filtrací roztaveného &lt;color=#0080FFFF&gt;{LINK:OrePage;ledu (vody)}&lt;/color&gt;</Description> gas to separate it from the nitrogen.
