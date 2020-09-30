@@ -665,12 +665,12 @@
     <RecordThing>
       <Key>CartridgeAtmosAnalyser</Key>
       <Value>Atmosférický analyzátor</Value>
-      <Description>Atmosférický analyzátor</Description>
+      <Description>Lorenzův atmosférický analyzátor je multifunkční hmotnostní spektrometr navržený společností ExMin pro použití s ​​jádrem rudy {Thing:ItemTablet}. Zobrazuje tlak, koncentraci a molární množství &lt;color=#0080FFFF&gt;{LINK:GasPage;plynu}&lt;/color&gt; v místnostech, nádržích nebo potrubních sítích.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeMedicalAnalyser</Key>
       <Value>Zdravotní analyzátor</Value>
-      <Description>Zdravotní analyzátor</Description>
+      <Description>Když je přidán do jádra rudy {Thing:ItemTablet}, lékařský analyzátor ReadyMed společnosti Asura odhaluje zdraví nebo jiné podoby uživatelů různých orgánů. Kvůli konstrukční chybě byly starší modely proslulé produkcí kvazarových úrovní rentgenového záření. Nedávné pokroky v oblasti stínění více než poloviční riziko pro uživatele.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeNetworkAnalyser</Key>
@@ -965,6 +965,11 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
       <Key>ItemGasFilterCarbonDioxide</Key>
       <Value>Filtr (Oxid uhličitý)</Value>
       <Description>Vzhledem k posedlosti lidstva vydechováním CO2 jsou všem Stationeerum vydávány dva základní filtry CO2 jako součást standardní soupravy pro nasazení (SDK). Tyto filtry umožňují průchod CO2 do odpadu obleku {THING:ItemGasCanisterEmpty}, ale jsou také důležitými složkami {THING:DynamicScrubber} a {THING:StructureFiltration}. K dispozici jsou také {THING:ItemGasFilterCarbonDioxideM} a {THING:ItemGasFilterCarbonDioxideL}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasTankStorage</Key>
+      <Value>Souprava (Úložiště kanystru)</Value>
+      <Description>Tato souprava produkuje {THING:ItemGasTankStorage} pro doplňování {THING:ItemGasCanisterEmpty}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemHat</Key>
