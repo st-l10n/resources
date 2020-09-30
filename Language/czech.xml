@@ -1032,6 +1032,51 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
       <Description>Tato souprava produkuje {THING:ItemGasTankStorage} pro doplňování {THING:ItemGasCanisterEmpty}.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitConveyor</Key>
+      <Value>Souprava (Dopravníky)</Value>
+      <Description>Tato souprava produkuje dopravní prvky, například {THING:StructureConveyorStraight}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCryoTube</Key>
+      <Value>Souprava (Kryokapsle)</Value>
+      <Description>Tato souprava produkuje jeden {THING:StructureCryoTube}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitEngine</Key>
+      <Value>Souprava (Motory)</Value>
+      <Description>Tato souprava produkuje motor.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFabricator</Key>
+      <Value>Souprava (Konstruktér)</Value>
+      <Description>Tato souprava produkuje jeden {THING:StructureFabricator}. (Pouze v kreativním režimu)</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFurnace</Key>
+      <Value>Souprava (Pec)</Value>
+      <Description>Tato souprava produkuje jedinou {THING:StructureFurnace}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFurniture</Key>
+      <Value>Souprava (Nábytek)</Value>
+      <Description>Tato souprava produkuje řadu &lt;color=#0080FFFF&gt;{LINK:FurniturePage;nábytku}&lt;/color&gt;.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitGyroscope</Key>
+      <Value>Souprava (Gyroskop)</Value>
+      <Description>Tato souprava produkuje jediný {THING:StructureGyroscope}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitRegulator</Key>
+      <Value>Souprava (Regulátor tlaku)</Value>
+      <Description>Tato souprava produkuje jediný {THING:StructurePressureRegulator}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSensor</Key>
+      <Value>Souprava (Senzory)</Value>
+      <Description>Tato souprava produkuje řadu senzorů, včetně {THING:StructureGasSensor}, {THING:StructureDaylightSensor} a {THING:StructureMotionSensor}.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemKitSign</Key>
       <Value>Souprava (Cedule)</Value>
       <Description>Tato souprava produkuje {THING:StructureSign1x1} nebo{THING:StructureSign2x1}.</Description>
