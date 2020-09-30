@@ -1032,9 +1032,19 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
       <Description>Tato souprava produkuje {THING:ItemGasTankStorage} pro doplňování {THING:ItemGasCanisterEmpty}.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemHat</Key>
+      <Value>Klobouk</Value>
+      <Description>Jak název napovídá, jedná se o klobouk.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemHydroponicTray</Key>
+      <Value>Souprava (Hydroponická nádoba)</Value>
+      <Description>Tato souprava vytváří {THING:StructureHydroponicsTray} pro pěstování různých rostlin.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemIgniter</Key>
       <Value>Souprava (Roznětka)</Value>
-      <Description>Tato souprava produkuje jednotku {THING:ItemIgniter}.</Description>
+      <Description>Tato souprava vytváří jednotku {THING:ItemIgniter}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemInsulation</Key>
@@ -1049,112 +1059,112 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
     <RecordThing>
       <Key>ItemKitAirlock</Key>
       <Value>Souprava (Přechodová komora)</Value>
-      <Description>Tato souprava produkuje jediný portál {THING:StructureAirlock}.</Description>
+      <Description>Tato souprava vytváří jediný portál {THING:StructureAirlock}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAtmospherics</Key>
       <Value>Souprava (Atmosferika)</Value>
-      <Description>Tato souprava produkuje {THING:StructureAirConditioner}, {THING:StructureElectrolyzer}, {THING:StructureFiltration} nebo {THING:StructureH2Combustor}.</Description>
+      <Description>Tato souprava vytváří {THING:StructureAirConditioner}, {THING:StructureElectrolyzer}, {THING:StructureFiltration} nebo {THING:StructureH2Combustor}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitBattery</Key>
       <Value>Souprava (Baterie)</Value>
-      <Description>Tato souprava produkuje jednu stanici {THING:StructureBattery}.</Description>
+      <Description>Tato souprava vytváří jednu stanici {THING:StructureBattery}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCentrifuge</Key>
       <Value>Souprava (Odstředivka)</Value>
-      <Description>Tato souprava produkuje jednu {THING:StructureCentrifuge}.</Description>
+      <Description>Tato souprava vytváří jednu {THING:StructureCentrifuge}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitChute</Key>
       <Value>Souprava (Žlaby)</Value>
-      <Description>Tato souprava produkuje řadu struktur skluzu, včetně {THING:StructureChuteStraight} a {THING:StructureChuteCorner}.</Description>
+      <Description>Tato souprava vytváří řadu struktur skluzu, včetně {THING:StructureChuteStraight} a {THING:StructureChuteCorner}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitComputer</Key>
       <Value>Souprava (Počítač)</Value>
-      <Description>Tato souprava produkuje jeden {THING:StructureComputer}.</Description>
+      <Description>Tato souprava vytváří jeden {THING:StructureComputer}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitConsole</Key>
       <Value>Souprava (Konzole)</Value>
-      <Description>Tato souprava produkuje řadu {THING:StructureConsole} a displeje, jako je {THING:StructureConsoleLED1x2}.</Description>
+      <Description>Tato souprava vytváří řadu {THING:StructureConsole} a displeje, jako je {THING:StructureConsoleLED1x2}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitConveyor</Key>
       <Value>Souprava (Dopravníky)</Value>
-      <Description>Tato souprava produkuje dopravní prvky, například {THING:StructureConveyorStraight}.</Description>
+      <Description>Tato souprava vytváří dopravní prvky, například {THING:StructureConveyorStraight}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCryoTube</Key>
       <Value>Souprava (Kryokapsle)</Value>
-      <Description>Tato souprava produkuje jeden {THING:StructureCryoTube}.</Description>
+      <Description>Tato souprava vytváří jeden {THING:StructureCryoTube}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitEngine</Key>
       <Value>Souprava (Motory)</Value>
-      <Description>Tato souprava produkuje motor.</Description>
+      <Description>Tato souprava vytváří motor.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFabricator</Key>
       <Value>Souprava (Konstruktér)</Value>
-      <Description>Tato souprava produkuje jeden {THING:StructureFabricator}. (Pouze v kreativním režimu)</Description>
+      <Description>Tato souprava vytváří jeden {THING:StructureFabricator}. (Pouze v kreativním režimu)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFurnace</Key>
       <Value>Souprava (Pec)</Value>
-      <Description>Tato souprava produkuje jedinou {THING:StructureFurnace}.</Description>
+      <Description>Tato souprava vytváří jedinou {THING:StructureFurnace}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFurniture</Key>
       <Value>Souprava (Nábytek)</Value>
-      <Description>Tato souprava produkuje řadu &lt;color=#0080FFFF&gt;{LINK:FurniturePage;nábytku}&lt;/color&gt;.</Description>
+      <Description>Tato souprava vytváří řadu &lt;color=#0080FFFF&gt;{LINK:FurniturePage;nábytku}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGyroscope</Key>
       <Value>Souprava (Gyroskop)</Value>
-      <Description>Tato souprava produkuje jediný {THING:StructureGyroscope}.</Description>
+      <Description>Tato souprava vytváří jediný {THING:StructureGyroscope}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRegulator</Key>
       <Value>Souprava (Regulátor tlaku)</Value>
-      <Description>Tato souprava produkuje jediný {THING:StructurePressureRegulator}.</Description>
+      <Description>Tato souprava vytváří jediný {THING:StructurePressureRegulator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSensor</Key>
       <Value>Souprava (Senzory)</Value>
-      <Description>Tato souprava produkuje řadu senzorů, včetně {THING:StructureGasSensor}, {THING:StructureDaylightSensor} a {THING:StructureMotionSensor}.</Description>
+      <Description>Tato souprava vytváří řadu senzorů, včetně {THING:StructureGasSensor}, {THING:StructureDaylightSensor} a {THING:StructureMotionSensor}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSign</Key>
       <Value>Souprava (Cedule)</Value>
-      <Description>Tato souprava produkuje {THING:StructureSign1x1} nebo{THING:StructureSign2x1}.</Description>
+      <Description>Tato souprava vytváří {THING:StructureSign1x1} nebo{THING:StructureSign2x1}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSleeper</Key>
       <Value>Souprava (Sleeper)</Value>
-      <Description>Tato souprava produkuje jediný {THING:StructureSleeper}.</Description>
+      <Description>Tato souprava vytváří jediný {THING:StructureSleeper}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanel</Key>
       <Value>Souprava (Solární panel)</Value>
-      <Description>Tato souprava produkuje {THING:StructureSolarPanel} a několik variant.</Description>
+      <Description>Tato souprava vytváří {THING:StructureSolarPanel} a několik variant.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStairs</Key>
       <Value>Souprava (Schody)</Value>
-      <Description>Tato souprava produkuje {THING:StructureStairs4x2} a několik variant.</Description>
+      <Description>Tato souprava vytváří {THING:StructureStairs4x2} a několik variant.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStellarAnchor</Key>
       <Value>Souprava (Hvězdná kotva)</Value>
-      <Description>Tato souprava produkuje jedinou {THING:StructureStellarAnchor}.</Description>
+      <Description>Tato souprava vytváří jedinou {THING:StructureStellarAnchor}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStorage</Key>
       <Value>Souprava (Úložiště)</Value>
-      <Description>Tato souprava produkuje {THING:StructureSuitStorage}.</Description>
+      <Description>Tato souprava vytváří {THING:StructureSuitStorage}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTank</Key>
@@ -1164,12 +1174,12 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
     <RecordThing>
       <Key>ItemKitTorpedoTube</Key>
       <Value>Souprava (Torpédový spouštěč)</Value>
-      <Description>Tato souprava produkuje jediné {THING:StructureTorpedoTube}.</Description>
+      <Description>Tato souprava vytváří jediné {THING:StructureTorpedoTube}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTurret</Key>
       <Value>Souprava (Věž)</Value>
-      <Description>Tato souprava produkuje jedinou {THING:StructureGunTurret}.</Description>
+      <Description>Tato souprava vytváří jedinou {THING:StructureGunTurret}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWall</Key>
