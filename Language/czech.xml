@@ -884,6 +884,11 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
       <Description>Na rozdíl od 8 stop, laserových disků a e-mailu, knihy nikdy úplně nezmizely. Technologie se možná vyvinula, ale něco o struktuře a svůdnosti fyzické knihy je vidělo vydržet v jedinečném, i když mírně iracionálním informačním prostoru.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemCableCoil</Key>
+      <Value>Kabelová cívka</Value>
+      <Description>Tělesné metafory jsou unavené a lidsky zaměřené, ale byla to Frida Stuppen, první administrátorka ODA, která řekla: &apos;Ať je kabeláž jako nerv a nádoba, přenášející energii i data prostřednictvím systémů, které umisťujeme mezi hvězdy.&apos; Pozdější komentátoři navrhli, že prostě vrhla romantický lesk na pochybnou ekonomiku. V každém případě je standardní kabeláž tam, kde začíná jakákoli síť Stationeers.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemChemLightBlue</Key>
       <Value>Chemické světlo (Azurová)</Value>
       <Description>Bezpečný a mírně nadšený zdroj modrého světla. Praskněte pro aktivaci.</Description>
@@ -997,9 +1002,24 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
       <Description>Vzhledem k posedlosti lidstva vydechováním CO2 jsou všem Stationeerum vydávány dva základní filtry CO2 jako součást standardní soupravy pro nasazení (SDK). Tyto filtry umožňují průchod CO2 do odpadu obleku {THING:ItemGasCanisterEmpty}, ale jsou také důležitými složkami {THING:DynamicScrubber} a {THING:StructureFiltration}. K dispozici jsou také {THING:ItemGasFilterCarbonDioxideM} a {THING:ItemGasFilterCarbonDioxideL}.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemGasFilterPollutants</Key>
+      <Value>Filtr (Znečišťující látka)</Value>
+      <Description>Filtry se používají k zachycení různých plynů, které lze zlikvidovat nebo použít jinde. Přidání filtrů &lt;color=#0080FFFF&gt;{LINK:GasPage;znečišťujících látek}&lt;/color&gt; k {THING:ItemDynamicScrubber} vám umožňuje sbírat tento plyn a poté využívat jeho vynikající vlastnosti chladicí kapaliny v {THING:StructureWallCooler}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterNitrogen</Key>
+      <Value>Filtr (Dusík)</Value>
+      <Description>Filtry se používají k zachycení různých plynů, které lze zlikvidovat nebo použít jinde. &lt;color=#0080FFFF&gt;{LINK:GasPage;Dusík}&lt;/color&gt; je vedlejším produktem při tavení různých rud, zejména &lt;color=#0080FFFF&gt;{LINK:OrePage;ledů}&lt;/color&gt;, které jsou poté kombinovány s &lt;color=#0080FFFF&gt;{LINK:GasPage;kyslíkem}&lt;/color&gt;, aby vytvořily dýchatelnou - a podstatně méně hořlavou - atmosféru.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemGasFilterOxygen</Key>
       <Value>Filtr (Kyslík)</Value>
       <Description>Filtry se používají k zachycení různých plynů, které lze zlikvidovat nebo použít jinde. Kyslík je běžným vedlejším produktem při tavení několika rud.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterWater</Key>
+      <Value>Filtr (Voda)</Value>
+      <Description>Filtry se používají k zachycení různých plynů, které lze zlikvidovat nebo použít jinde. Voda se shromažďuje filtrací roztaveného &lt;color=#0080FFFF&gt;{LINK:OrePage;ledu (vody)}&lt;/color&gt;</Description> gas to separate it from the nitrogen.
     </RecordThing>
     <RecordThing>
       <Key>ItemGasTankStorage</Key>
