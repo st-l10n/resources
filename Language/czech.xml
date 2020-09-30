@@ -879,6 +879,36 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
       <Description>Nabíječka s pěti sloty poskytuje 500 W na baterii a lze ji připojit k logickým systémům pro řízení nabíjení.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemBook</Key>
+      <Value>Kniha</Value>
+      <Description>Na rozdíl od 8 stop, laserových disků a e-mailu, knihy nikdy úplně nezmizely. Technologie se možná vyvinula, ale něco o struktuře a svůdnosti fyzické knihy je vidělo vydržet v jedinečném, i když mírně iracionálním informačním prostoru.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemChemLightBlue</Key>
+      <Value>Chemické světlo (Azurová)</Value>
+      <Description>Bezpečný a mírně nadšený zdroj modrého světla. Praskněte pro aktivaci.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemChemLightGreen</Key>
+      <Value>Chemické světlo (Zelená)</Value>
+      <Description>Oživte tu nejsvětlejší bezvzduchovou skálu tímto zeleným světlem. Praskněte pro aktivaci.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemChemLightRed</Key>
+      <Value>Chemické světlo (Červená)</Value>
+      <Description>Červená svítící tyčinka. Praskněte pro aktivaci. Pak sáhněte po laserech.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemChemLightWhite</Key>
+      <Value>Chemické světlo (Bílé)</Value>
+      <Description>Praskněte zářící tyčinku a aktivujte bledé záření, které udržuje temnotu na uzdě.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemChemLightYellow</Key>
+      <Value>Chemické světlo (Žlutý)</Value>
+      <Description>Rozptylte temnotu s touto žlutou zářící tyčinkou.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemDrill</Key>
       <Value>Vrtačka</Value>
     </RecordThing>
@@ -965,6 +995,11 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
       <Key>ItemGasFilterCarbonDioxide</Key>
       <Value>Filtr (Oxid uhličitý)</Value>
       <Description>Vzhledem k posedlosti lidstva vydechováním CO2 jsou všem Stationeerum vydávány dva základní filtry CO2 jako součást standardní soupravy pro nasazení (SDK). Tyto filtry umožňují průchod CO2 do odpadu obleku {THING:ItemGasCanisterEmpty}, ale jsou také důležitými složkami {THING:DynamicScrubber} a {THING:StructureFiltration}. K dispozici jsou také {THING:ItemGasFilterCarbonDioxideM} a {THING:ItemGasFilterCarbonDioxideL}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterOxygen</Key>
+      <Value>Filtr (Kyslík)</Value>
+      <Description>Filtry se používají k zachycení různých plynů, které lze zlikvidovat nebo použít jinde. Kyslík je běžným vedlejším produktem při tavení několika rud.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasTankStorage</Key>
