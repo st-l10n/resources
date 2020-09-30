@@ -712,6 +712,46 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Value>Cajón (Suministros de Tubería)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>DynamicGasCanisterAir</Key>
+      <Value>Tanque Portátil (Aire)</Value>
+      <Description>Los tanques portátiles hacen una cosa: almacenar gas. Pero hay muchas cosas que puedes hacer con ellos. Para recargar el tanque, atorníllelo a un {THING:ItemTankConnector}, luego conéctelo a una red de tuberías. Trate de evitar sobrepresionarlo por encima de 100 atmósferas, o sucederán cosas malas. Una vez que esté lleno, puede rellenar una {THING:ItemGasCanisterOxygen} colocándola en la sección rayada del tanque. O puede abrir la válvula de caudal variable del tanque en una habitación y crear una atmósfera. También se adhieren a rovers y cohetes. Alternativamente, dale una patada y practica rodar el barril. Las posibilidades son infinitas.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGasCanisterCarbonDioxide</Key>
+      <Value>Tanque Portátil CO2)</Value>
+      <Description>Los tanques portátiles hacen una cosa: almacenar gas. Para recargar el tanque, atorníllelo a un {THING:ItemTankConnector}, luego conéctelo a una red de tuberías. Trate de evitar sobrepresionarlo por encima de 100 atmósferas, o ... boom. Una vez que esté lleno, puedes rellenar una {THING:ItemGasCanisterCarbonDioxide} colocándola en la sección rayada del tanque. O puede abrir la válvula de caudal variable del tanque en una habitación y crear una atmósfera ... de algún tipo.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGasCanisterEmpty</Key>
+      <Value>Tanque Portátil</Value>
+      <Description>Los tanques portátiles almacenan gas. Para rellenar uno, atorníllelo a un {THING:ItemTankConnector}, luego conéctelo a una red de tuberías. Trate de evitar sobre presionarlo por encima de 100 atmósferas, o sucederán cosas malas. Una vez que esté lleno, puedes rellenar una {THING:ItemGasCanisterEmpty} colocándola en la sección rayada del tanque. O puede abrir la válvula de caudal variable del tanque en una habitación y crear una atmósfera.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGasCanisterFuel</Key>
+      <Value>Tanque Portátil (Combustible)</Value>
+      <Description>Los tanques portátiles almacenan gas. Son buenos en eso. Si necesita rellenar un tanque, atorníllelo a un {THING:ItemTankConnector}, luego conéctelo a una red de tuberías. Trate de evitar sobrepresionarlo por encima de 100 atmósferas, o las cosas se complicaran mucho. Puedes rellenar una {THING:ItemGasCanisterFuel} colocándola en la sección rayada del tanque. O puedes usar una {THING:ItemWrench} para conectarla a un rover o cohete para más tarde. Realmente depende de ti.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGasCanisterNitrogen</Key>
+      <Value>Tanque Portátil (Nitrógeno)</Value>
+      <Description>Los tanques portátiles almacenan gas. Si necesita rellenar un tanque, atorníllelo a un {THING:ItemTankConnector} usando una {THING:ItemWrench}, luego conéctelo a una red de tuberías. Trate de evitar sobrepresionarlo por encima de 100 atmósferas, o terminará con nitrógeno en lugares que no esperaba. Puede rellenar una {THING:ItemGasCanisterNitrogen} colocándola en la sección rayada del tanque. O puedes usar una {THING:ItemWrench} para conectarla a un rover o cohete para más tarde.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGasCanisterOxygen</Key>
+      <Value>Tanque Portátil (Oxígeno)</Value>
+      <Description>Los tanques portátiles almacenan gas. Si necesita rellenar un tanque, atorníllelo a un {THING:ItemTankConnector} usando una {THING:ItemWrench}, luego conéctelo a una red de tuberías. Trate de evitar sobrepresionarlo por encima de 100 atmósferas, o estará arrancando fragmentos de tanque de su cara mucho tiempo. Puedes rellenar una {THING:ItemGasCanisterOxygen} colocándola en la sección rayada del tanque. O puede descomprimirlo en una habitación sellada para crear una atmósfera. O incluso píntalo de rosa, llámalo Steve y llena ese triste espacio en tu corazón.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGasCanisterVolatiles</Key>
+      <Value>Tanque Portátil (Volátiles)</Value>
+      <Description>Los tanques portátiles almacenan gas. Para rellenar uno, atorníllelo a un {THING:ItemTankConnector} usando una {THING:ItemWrench}, luego conéctelo a una red de tuberías. No lo llene por encima de 100 atmósferas, a menos que sea del tipo que ama las emergencias complicadas e inflamables. Puedes rellenar una {THING:ItemGasCanisterVolatiles} colocándola en la sección rayada del tanque. O podrías usar una {THING:ItemWrench} para conectarla a un cohete y mostrarla por el Sistema Solar.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGasCanisterWater</Key>
+      <Value>Tanque Portátil (Agua)</Value>
+      <Description>Los tanques portátiles almacenan cosas. Puede atornillar uno a un {THING:ItemTankConnector} usando una {THING:ItemWrench}, luego conectarlo a una red de tuberías para rellenarlo. Pero trate de mantener la presión por debajo de 100 atmósferas, o terminará mojado, dolido y arrepentido, sin nada de diversión. Puedes rellenar una {THING:ItemGasCanisterWater} colocándola en la sección rayada del tanque. O puedes usar una {THING:ItemWrench} para acoplarla a un cohete y llevarlo a algún lugar distante y seco, luego sentirte bien contigo mismo.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>DynamicGenerator</Key>
       <Value>Generador Portátil</Value>
       <Description>Generador Portátil</Description>
@@ -720,6 +760,11 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Key>DynamicLight</Key>
       <Value>Luz Portátil</Value>
       <Description>Philippe Starck no aplaudirá, pero esta fuente de luz a pilas despeja los rincones cuando falta iluminación. Alimentado por cualquier batería, es un diseño Xigo &quot;sin adornos&quot; que puede ser fabricado de forma barata con el mínimo esfuerzo. A menos que te guste el escándalo. En ese caso, haz todo el escándalo que quieras.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicScrubber</Key>
+      <Value>Depurador de Aire Portátil</Value>
+      <Description>Un depurador portátil hace exactamente lo que parece: elimina sustancias específicas del aire. Por ejemplo, adjuntar un {THING:ItemGasFilterCarbonDioxide} sacará &lt;color=# 0080FFFF&gt;{LINK:GasPage;CO2}&lt;/color&gt; de la atmósfera circundante. Tenga en cuenta que el depurador tiene espacio para una batería y dos filtros, lo que duplicará su velocidad de funcionamiento. Cuando alcanza una presión interna de 8106kPA, una señal de error parpadeará en el interruptor, lo que indica que debe vaciarse. Puede descomprimirlo directamente o conectarlo a una red de tuberías a través de un {THING:ItemTankConnector} y una {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EffectSplatEgg</Key>
@@ -761,6 +806,11 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Description>El gallo marrón común. No dejes que te escuche decir eso.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>GasTankAir</Key>
+      <Value>Tanque de Gas (Aire)</Value>
+      <Description>Los tanques portátiles almacenan gas. Para rellenar uno, atorníllelo a un {THING:ItemTankConnector} usando una {THING:ItemWrench}, luego conéctelo a una red de tuberías. Trate de evitar sobrepresionarlo por encima de las 100 atmósferas, o probará el delicado sabor del arrepentimiento. Usa tanques para llenar una {THING:ItemGasCanisterEmpty} colocándola en la sección rayada del tanque. O puede descomprimirlo en una habitación sellada para crear una atmósfera, conectarlo a un rover y llevarlo a dar una vuelta, o simplemente usarlo para prácticas de tiro ruidosas y costosas.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemActiveVent</Key>
       <Value>Ventilación Activa</Value>
       <Description>Cuando se construye, este kit coloca una {THING:StructureActiveVent} en cualquier estructura de soporte.</Description>
@@ -769,6 +819,66 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Key>ItemAreaPowerControl</Key>
       <Value>Controlador de Energía</Value>
       <Description>Controlador de Energía</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBatteryCell</Key>
+      <Value>Batería (Pequeña)</Value>
+      <Description>Siguiendo un diseño pionero a principios del siglo XXI, la pequeña celda de batería es la unidad básica de energía eléctrica portátil del Stationeers. Si bien carece de la capacidad de una {THING:ItemBatteryCellLarge} o una {THING:ItemBatteryCellNuclear}, tiene la humilde ventaja de estar fabricada a partir de recursos básicos.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBatteryCellLarge</Key>
+      <Value>Batería (Grande)</Value>
+      <Description>Producida en serie por primera vez por Xigo en 2155 sobre la base de un prototipo no atribuido, esta clásica celda de potencia de ánodo de silicio ofrece casi 300k julios de potencia. El diseño de estado sólido también amplía su rango de temperatura óptimo.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBatteryCellNuclear</Key>
+      <Value>Batería (Nuclear)</Value>
+      <Description>Ilegales en la Tierra desde el evento de Chengdu, las células de energía nuclear de Norsec encontraron un mercado fuera del mundo nuevo y drásticamente menos consciente de la seguridad. Llevando el equilibrio poder-peso a sus límites, el &apos;nuclear&apos; tiene una carga de 2,3 megajulios, lo que refleja su dependencia de los exóticos &lt;color=#0080FFFF&gt;{LINK:IngotsPage;superalloys}&lt;/color&gt;.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBatteryCharger</Key>
+      <Value>Cargador de Baterías</Value>
+      <Description>El cargador de cinco celdas entrega 500W por batería y se puede conectar a sistemas lógicos para controlar la carga.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBook</Key>
+      <Value>Libro</Value>
+      <Description>A diferencia de las 8 pistas, los discos láser y el correo electrónico, los libros nunca desaparecieron por completo. La tecnología puede haber evolucionado, pero algo sobre la textura y la sensualidad del libro físico los ha visto perdurar en un nicho informativo único, aunque ligeramente irracional.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCableCoil</Key>
+      <Value>Bobina de Cable</Value>
+      <Description>Las metáforas corporales están cansadas y centrado en el ser humano, pero fue Frida Stuppen, la primera administradora de la ODA, quien dijo: &quot;Dejemos que el cableado sea como el nervio y la nave, transmitiendo energía y datos por igual a través de sistemas que colocamos entre las estrellas&quot;. Los comentaristas posteriores sugirieron que ella simplemente estaba poniendo un brillo romántico en una pieza de economía dudosa. Cualquiera sea el caso, el cableado estándar es donde comienza cualquier red Stationeers.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemChemLightBlue</Key>
+      <Value>Luz Química (Azul)</Value>
+      <Description>Una fuente de luz azul segura y ligeramente delirante. Snap para activar.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemChemLightGreen</Key>
+      <Value>Luz Química (Verde)</Value>
+      <Description>Da vida a la roca sin aire más triste con esta luz verde. Snap para activar.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemChemLightRed</Key>
+      <Value>Luz Química (Rojo)</Value>
+      <Description>Una barra luminosa roja. Snap para activar. Luego alcanza los láseres.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemChemLightWhite</Key>
+      <Value>Luz Química (Blanco)</Value>
+      <Description>Ajuste la barra luminosa para activar un resplandor pálido que mantiene a raya la oscuridad.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemChemLightYellow</Key>
+      <Value>Luz Química (Amarillo)</Value>
+      <Description>Disipa la oscuridad con esta barra luminosa amarilla.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCoalOre</Key>
+      <Value>Mineral (Carbón)</Value>
+      <Description>La humanidad no habría llegado al espacio sin el humilde combustible a base de carbon. Quémelo en un {THING:DynamicGenerator} o {THING:StructureSolidFuelGenerator}, fúndalo en el {THING:StructureFurnace} para crear &lt;color=# 0080FFFF&gt;{LINK:AlloysPage;alloys}&lt;/color&gt;, o utilícelo en el {THING:ApplianceReagentProcessor} para hacer un {THING:ItemSprayCanBlack}. Simplemente no lo untes en tu cara. Eso no es cool.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDrill</Key>
@@ -859,9 +969,24 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Description>Filtro (Dióxido de carbono)</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemGasFilterPollutants</Key>
+      <Value>Filtro (Contaminante)</Value>
+      <Description>Los filtros se utilizan para capturar varios gases, que se pueden eliminar o utilizar en otro lugar. Agregar filtros &lt;color=#0080FFFF&gt;{LINK:GasPage;pollutant}&lt;/color&gt; a un {THING:ItemDynamicScrubber} le permite recolectar este gas y luego emplear sus excelentes propiedades refrigerantes en un {THING:StructureWallCooler}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterNitrogen</Key>
+      <Value>Filtro (Nitrógeno)</Value>
+      <Description>Los filtros se utilizan para capturar varios gases, que se pueden eliminar o utilizar en otro lugar. &lt;color=#0080FFFF&gt;{LINK:GasPage;Nitrogen}&lt;/color&gt; es un subproducto de la fundición de varios minerales, en particular &lt;color=#0080FFFF&gt;{LINK:OrePage;ices}&lt;/color&gt; y luego se combina con &lt;color=#0080FFFF&gt;{LINK:GasPage;oxygen}&lt;/color&gt; para crear una atmósfera respirable y considerablemente menos inflamable.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemGasFilterOxygen</Key>
       <Value>Filtro (Oxígeno)</Value>
       <Description>Los filtros se utilizan para capturar diversos gases, que pueden ser eliminados o utilizados en otros lugares. El oxígeno es un subproducto común de la fundición de varios minerales.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterVolatiles</Key>
+      <Value>Filtro (Volátiles)</Value>
+      <Description>Los filtros se utilizan para capturar varios gases, que pueden eliminarse o utilizarse en otro lugar. &lt;color=#0080FFFF&gt;{LINK:GasPage;Volatiles}&lt;/color&gt; se crean al exponer &lt;color=#0080FFFF&gt;{LINK:OrePage;ice (volatiles)}&lt;/color&gt; al calor. Estos luego se pueden recolectar y combinar con &lt;color=#0080FFFF&gt;{LINK:GasPage;oxygen}&lt;/color&gt; para crear combustible, o usarse dentro de un {THING:StructureFurnace} para fundir minerales o crear &lt;color=#0080FFFF&gt;{LINK:AlloyPage;alloys}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterWater</Key>
