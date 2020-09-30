@@ -38,50 +38,6 @@ Si mantienes pulsado {KEY:MouseControl} y {KEY:MouseInspect} y haces clic en alg
       </Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>GettingStarted</Key>
-      <Title>Primeros pasos</Title>
-      <Text>{HEADER:Bienvenidos a un nuevo mundo}
-Si esta es tu primera vez, entonces tienes mucho que aprender de golpe. Las presiones iniciales sobre ti son grandes y puede ser realmente abrumador comenzar. La siguiente es una guía general para ponerse en marcha. Cada tipo de planeta tiene diferentes problemas a los que debe enfrentarse, pero lo siguiente debería darle una visión general de lo que necesita gestionar.
-      
-{HEADER:Cómo mantener tu traje cargado}
-La necesidad más urgente que tiene es recargar su batería {THING:ItemBatteryCellLarge} en su {THING:ItemEvaSuit}. La batería del traje se utiliza para encender la luz {THING:ItemSpaceHelmet} (apáguela cuando no la necesite) y también para calentar el aire interno del traje. En los mundos más fríos, esto consume mucha energía. Necesitarás colocar un {THING:ItemBatteryCharger} y conectarlo a una fuente de alimentación, el {THING:StructureSolidFuelGenerator} alimentado con {THING:ItemCoalOre} o el {THING:StructureSolarPanel} son buenas formas de empezar a generar energía. En caso de emergencia, saque las pilas de su {LINK:ToolPage;Tools} para utilizarlas para mantener su traje en marcha o utilice el {THING:PortableSolarPanel} suministrado para cargarlas.
-
-{HEADER:Mejora de la recopilación de energía}
-Colocar un {THING:StructureAreaPowerControl}, con un {THING:ItemBatteryCell} insertado, entre la fuente de alimentación y sus cargadores le ayudará mucho. Esto se debe a que es probable que la fuente de energía esté generando más energía de la que el {THING:ItemBatteryCharger} puede contener y se desperdicia. Además, mientras puede orientar manualmente el {THING:StructureSolarPanel}, pero automatizarlo para siga al sol le ayudará mucho en el futuro. Puede utilizar {LINK:LogicUnitPage;Logic Units} para ayudarle con esto.
-      
-{HEADER:Gestionando su oxígeno}
-Su {THING:ItemEvaSuit} y {THING:ItemSpaceHelmet} forman un caparazón protector de los elementos. El {THING:ItemEvaSuit} necesita {THING:ItemGasCanisterOxygen} para proporcionarle oxígeno puro {GAS:Oxygen}. Vigile la cantidad de gas en el tanque, puede rellenarlo usando el sistema grande {THING:DynamicGasCanisterOxygen} suministrado en su equipo de inicio. Hay un marcador de &quot;peligro&quot; que indica la ranura en la que se puede insertar el bote para rellenarlo.
-
-{HEADER:Fundición Básica}
-Una vez que tienes un poco de producción de energía básica, necesitas empezar a obtener más recursos. Salga de {LINK:MiningPage;Mining} para obtener lo básico {LINK:OrePage;Ores}. Coloque el {THING:StructureArcFurnace} y conéctelo detrás de su {THING:StructureAreaPowerControl}. Esto le dara {LINK:SmeltingPage;Smelt} básico {LINK:OrePage;Ores}, como {THING:ItemIronOre}, {THING:ItemSiliconOre}, y cualquier otro no básico {LINK:AlloyPage;Alloy}.
-
-{HEADER:Fabricación básica}
-
-Ahora que tiene  {LINK:IngotPage;Ingots} puede insertarlos en {LINK:FabricatorPage;Fabricators} como recurso. Construya el {THING:StructureAutolathe} a partir del {THING:ItemKitAutolathe} proporcionado en las cajas de inicio.
-
-{HEADER:Sustituir sus filtros}
-A medida que inhala {GAS:Oxygen} también exhala {GAS:CarbonDioxide}, también necesita un {THING:ItemGasFilterCarbonDioxide} en su ranura {SLOT:Filter}. Estos se desgastan con el tiempo, y tendrás que fabricar otros nuevos en el {THING:ItemKitHydraulicPipeBender}. Esto se puede hacer desde una {THING:ItemKitHydraulicPipeBender} en el {THING:StructureAutolathe}.
-
-{HEADER:Construir una casa de cristal}
-Necesitará una pequeña área cerrada para configurar {LINK:HydroponicsPage;Hydroponics} para que le permita elaborar {LINK:FoodPage;Food}. No lo haga demasiado grande ya que será más difícil de presurizar. Haga un montón de {THING:} usando una variante de los kits {THING:ItemKitWallIron}, para permitir la entrada de la luz solar. Asegúrese de que la entrada se administre mediante un {LINK:AirlockPage;Airlock} automático o manual. Recuerde que puede abrir y cerrar puertas sin energía eléctrica usando la {THING:ItemCrowbar}.
-
-{HEADER:Presurice su casa de cristal}
-Una vez que haya cerrado el área, {LINK:MiningPage;Mine} un trozo de {THING:ItemOxite} y derrita esto hasta que tenga alrededor de 100 kPa de presión en su área de cultivo. Luego agregue un poco de {GAS:CarbonDioxide} a la atmósfera. Usted puede hacer esto fácilmente tomando su Tanque de Residuos de su {THING:ItemEvaSuit} en sus manos, abriéndolo, cerrándolo y volviéndolo a poner en su sitio. Esto liberará el {GAS:CarbonDioxide} filtrado de su respiración en el medio ambiente. {LINK:PlantPage;Plants} lo usarán las plantas para respirar.
-
-{HEADER:Plantas de cultivo}
-Lleve la {THING:DynamicHydroponics} a su nueva casa de vidrio. Tiene un {THING:ItemGasCanisterWater} para proporcionar a las plantas {GAS:Water}. Ahora planta semillas usando {THING:ItemPotato} de las cajas de inicio. Plante una primero, y verifique que esté creciendo antes de usar las otras. Necesitan luz solar, calor y una pequeña cantidad de {GAS:CarbonDioxide} para sobrevivir.
-
-{HEADER:Fundición avanzada}
-El {THING:StructureArcFurnace} sólo le permite fundir fácilmente {LINK:OrePage;Ores}, y para hacer componentes más avanzados necesitará usar métodos más complejos para fundir {LINK:AlloyPage;Alloys}. Esto se hace en el {THING:StructureFurnace}, logrando la correcta {LINK:PressurePage;Pressure}, {LINK:TemperaturePage;Temperature}, y {LINK:ReagentPage;Reagent} proporción de mezcla. Por ejemplo, para hacer {THING:ItemSteelIngot} necesitará una proporción de una parte {REAGENT:Iron} y tres partes {REAGENT:Coal}.
-
-Puede insertar directamente {LINK:IcePage;Ices}  en la parte superior. Si no hay atmósfera para derretirlos, pulse el botón {LOGICTYPE:Activate} para aplastarlos. El hielo se derretirá automáticamente si hay suficiente gas a la temperatura adecuada en su interior. Utilice una mezcla de {THING:ItemOxite} y {THING:ItemVolatiles} para iniciar un incendio en el interior, aunque esto aumentará la presión en el interior drásticamente.
-
-Una vez que esté a la temperatura correcta, inserte los minerales para que se fundan, pero tenga cuidado con las proporciones o los productos de desecho, que saldrán como {THING:ItemReagentMix} que deberán separarse en una {THING:StructureCentrifuge}. Para exportar un producto concreto, tire de la palanca {LOGICTYPE:Open}.
-{/LIST}
-      
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>InventoryPage</Key>
       <Title>Inventario</Title>
       <Text>Todas las cosas en el juego pueden tener varias ranuras. Estas ranuras pueden tener clases de ranuras, permitiendo solo ciertas cosas en esas ranuras. Existen varias teclas de acceso rápido para acceder a las ranuras de tu personaje, como {KEY: HelmetSlot} para acceder a tu {SLOT:Helmet}.
