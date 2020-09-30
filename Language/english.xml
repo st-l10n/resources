@@ -695,12 +695,12 @@
     <RecordThing>
       <Key>CartridgeAtmosAnalyser</Key>
       <Value>Atmos Analyser</Value>
-      <Description>The Lorenz atmos analyzer is a multi-functional mass-spectrometer designed by ExMin for use with the OreCore {Thing:ItemTablet}. It displays the pressure, concentration and molar quantity of &lt;color=#0080FFFF&gt;{LINK:GasPage;Gas}&lt;/color&gt; in rooms, tanks, or pipe networks.</Description>
+      <Description>The Lorenz atmos analyzer is a multi-functional mass-spectrometer designed by ExMin for use with the OreCore {THING:ItemTablet}. It displays the pressure, concentration and molar quantity of &lt;color=#0080FFFF&gt;{LINK:GasPage;Gas}&lt;/color&gt; in rooms, tanks, or pipe networks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeMedicalAnalyser</Key>
       <Value>Medical Analyser</Value>
-      <Description>When added to the OreCore {Thing:ItemTablet}, Asura's ReadyMed medical analyzer reveals the health, or otherwise, of users various organs. Due to a design flaw, older models were notorious for producing quasar-like levels of x-ray radiation. Recent advances in shielding have more than halved the risk to users.</Description>
+      <Description>When added to the OreCore {THING:ItemTablet}, Asura's ReadyMed medical analyzer reveals the health, or otherwise, of users various organs. Due to a design flaw, older models were notorious for producing quasar-like levels of x-ray radiation. Recent advances in shielding have more than halved the risk to users.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeNetworkAnalyser</Key>
@@ -774,7 +774,6 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>DynamicCrateBuildingSupplies</Key>
       <Value>Crate (Building Supplies)</Value>
-
       <Description></Description>
     </RecordThing>
     <RecordThing>
@@ -916,7 +915,7 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>ItemBatteryCharger</Key>
       <Value>Kit (Battery Charger)</Value>
-      <Description>The five-slot cell charger delivers 500W per battery, and can be connected to logic systems to control charging.</Description>
+      <Description>This kit produces a 5-slot {THING:ItemBatteryCharg}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBook</Key>
@@ -926,7 +925,7 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>ItemCableCoil</Key>
       <Value>Cable Coil</Value>
-      <Description>Bodily metaphors are tired and humancentric, but it was Frida Stuppen, the first ODA Administrator, who said, 'Let the cabling be as the nerve and the vessel, transmitting power and data alike through systems we place among the stars.' Later commentators suggested that she was simply putting a romantic gloss on a piece of dubious economy. Whatever the case, standard cabling is where any Stationeers network begins.</Description>
+      <Description>Bodily metaphors are tired and humancentric, but it was Frida Stuppen, the first ODA Administrator, who said, 'Let the cabling be as the nerve and the vessel, transmitting power and data alike through systems we forge among the stars.' Later commentators suggested that she was simply putting a romantic gloss on a piece of dubious economy. Whatever the case, standard cabling is where any Stationeers network begins.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemChemLightBlue</Key>
@@ -936,7 +935,7 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>ItemChemLightGreen</Key>
       <Value>Chem Light (Green)</Value>
-      <Description>Enliven the dreariest, airless rock with this green light. Snap to activate.</Description>
+      <Description>Enliven the dreariest, airless rock with this glowy green light. Snap to activate.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemChemLightRed</Key>
@@ -956,37 +955,37 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>ItemCoalOre</Key>
       <Value>Ore (Coal)</Value>
-      <Description>Humanity wouldn't have got to space without humble, combustible coal. Burn it in a {THING:DynamicGenerator} or {THING:StructureSolidFuelGenerator}, smelt it in the {THING:StructureFurnace} to create &lt;color=#0080FFFF&gt;{LINK:AlloysPage;alloys}&lt;/color&gt;, or use it in the {THING:ApplianceReagentProcessor} to make a  {THING:ItemSprayCanBlack}. Just don't smear it on your face and do jazz hands. That's not cool.</Description>
+      <Description>Humanity wouldn't have got to space without humble, combustible coal. Burn it in a {THING:DynamicGenerator} or {THING:StructureSolidFuelGenerator}, smelt it in the {THING:StructureFurnace} to create &lt;color=#0080FFFF&gt;{LINK:AlloysPage;alloys}&lt;/color&gt;, or use it in the {THING:ApplianceReagentProcessor} to make  {THING:ItemSprayCanBlack}. Just don't smear it on your face and do jazz hands. That's not cool.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCompositeFloorGrating</Key>
       <Value>Composite Floor Grating</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCopperIngot</Key>
       <Value>Ingot (Copper)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCopperOre</Key>
       <Value>Ore (Copper)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCorn</Key>
       <Value>Corn</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCrowbar</Key>
       <Value>Crowbar</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDataDisk</Key>
       <Value>Data Disk</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDrill</Key>
@@ -1074,37 +1073,37 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>ItemGasCanisterWater</Key>
       <Value>Canister (Water)</Value>
-      <Description>The blue portable &lt;color=#0080FFFF&gt;{LINK:GasPage;H20}&lt;/color&gt; canister has a 64L capacity, supplying water to items like the {THING:DynamicHydroponics} unit. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill. Careful not to pressurize beyond 100kPA, or it may go 'bang'.</Description>
+      <Description>The blue portable &lt;color=#0080FFFF&gt;{LINK:GasPage;H20}&lt;/color&gt; canister has a 64L capacity, supplying water to items like the {THING:DynamicHydroponics} unit, or any other connected system. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill. Careful not to pressurize beyond 100kPA, or it may go 'bang'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxide</Key>
       <Value>Filter (Carbon Dioxide)</Value>
-      <Description>Given humanity's obsession with exhaling CO2, all Stationeers are issued two basic CO2 filters as part of their standard deployment kit (SDK). These filters allow passage of CO2 into the suit's waste {THING:ItemGasCanisterEmpty}, but are also critical components of the {THING:DynamicScrubber} and the {THING:StructureFiltration}. The {THING:ItemGasFilterCarbonDioxideM} and {THING:ItemGasFilterCarbonDioxideL} are also available.</Description>
+      <Description>Given humanity's obsession with exhaling CO2, all Stationeers are issued two basic Sinotai CO2 filters as part of their standard deployment kit (SDK). These filters allow passage of CO2 into the suit's waste {THING:ItemGasCanisterEmpty}, but are also critical components of the {THING:DynamicScrubber} and the {THING:StructureFiltration}. The {THING:ItemGasFilterCarbonDioxideM} and {THING:ItemGasFilterCarbonDioxideL} are also available.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterPollutants</Key>
       <Value>Filter (Pollutant)</Value>
-      <Description>Filters are used to capture various gases, which can be disposed of, or used elsewhere. Adding &lt;color=#0080FFFF&gt;{LINK:GasPage;pollutant}&lt;/color&gt; filters to a {THING:ItemDynamicScrubber} allows you to collect this gas, then employ its excellent coolant properties in a {THING:StructureWallCooler}.</Description>
+      <Description>Filters are used to capture various gases, such as waste emissions from a {THING:StructureFurnace} or {THING:StructureArcFurnace}. Adding Sinotai-designed &lt;color=#0080FFFF&gt;{LINK:GasPage;pollutant}&lt;/color&gt; filters to a {THING:ItemDynamicScrubber} allows you to isolate this gas, then add it to a pipe network and employ its excellent coolant properties in a {THING:StructureWallCooler}. Try not to inhale.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrogen</Key>
       <Value>Filter (Nitrogen)</Value>
-      <Description>Filters are used to capture various gases, which can be disposed of, or used elsewhere. &lt;color=#0080FFFF&gt;{LINK:GasPage;Nitrogen}&lt;/color&gt; is a byproduct of smelting various ores, notably &lt;color=#0080FFFF&gt;{LINK:OrePage;ices}&lt;/color&gt; then combined with &lt;color=#0080FFFF&gt;{LINK:GasPage;oxygen}&lt;/color&gt; to make a breathable - and considerably less flammable - atmosphere.</Description>
+      <Description>Filters are used to capture various gases, which can be disposed of or used elsewhere. &lt;color=#0080FFFF&gt;{LINK:GasPage;Nitrogen}&lt;/color&gt; is a byproduct of smelting various ores, notably &lt;color=#0080FFFF&gt;{LINK:OrePage;ices}&lt;/color&gt;, which may be combined with &lt;color=#0080FFFF&gt;{LINK:GasPage;oxygen}&lt;/color&gt; to make a breathable - and considerably less flammable - atmosphere.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterOxygen</Key>
       <Value>Filter (Oxygen)</Value>
-      <Description>Filters are used to capture various gases, which can be disposed of, or used elsewhere. Oxygen is a common byproduct of smelting several ores.</Description>
+      <Description>Sinotai have cornered the market in filter design. Their trademarked templates are simple to print and highly efficient at capturing various gases, which can be disposed of or used elsewhere. Oxygen is a common byproduct of smelting various ores, but must be filtered of such impurities as nitrogen using this filter and various devices, such as the {THING:ItemDynamicScrubber}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterVolatiles</Key>
       <Value>Filter (Volatiles)</Value>
-      <Description>Filters are used to capture various gases, which can be disposed of, or used elsewhere. &lt;color=#0080FFFF&gt;{LINK:GasPage;Volatiles}&lt;/color&gt; are created by exposing &lt;color=#0080FFFF&gt;{LINK:OrePage;ice (volatiles)}&lt;/color&gt; to heat. These can then be collected and combined with &lt;color=#0080FFFF&gt;{LINK:GasPage;oxygen}&lt;/color&gt; to create fuel, or used within a {THING:StructureFurnace} to smelt ores or create &lt;color=#0080FFFF&gt;{LINK:AlloyPage;alloys}&lt;/color&gt;.</Description>
+      <Description>Filters are used to capture various gases, which can be disposed of or used elsewhere. &lt;color=#0080FFFF&gt;{LINK:GasPage;Volatiles}&lt;/color&gt; are created by exposing &lt;color=#0080FFFF&gt;{LINK:OrePage;ice (volatiles)}&lt;/color&gt; to heat. The product can then be collected and combined with &lt;color=#0080FFFF&gt;{LINK:GasPage;oxygen}&lt;/color&gt; to create fuel, or used within a {THING:StructureFurnace} to smelt ores and create &lt;color=#0080FFFF&gt;{LINK:AlloyPage;alloys}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterWater</Key>
       <Value>Filter (Water)</Value>
-      <Description>Filters are used to capture various gases, which can be disposed of, or used elsewhere. Water is collected by filtering smelted &lt;color=#0080FFFF&gt;{LINK:OrePage;ice (water)}&lt;/color&gt;</Description> gas to separate it from the nitrogen.
+      <Description>Sinotai filters are used to capture various gases, which can be disposed of, or used elsewhere. Water can be collected by filtering smelted &lt;color=#0080FFFF&gt;{LINK:OrePage;ice (water)}&lt;/color&gt;</Description> gas to separate it from nitrogen impurities.
     </RecordThing>
     <RecordThing>
       <Key>ItemGasTankStorage</Key>
@@ -1114,175 +1113,212 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>ItemGlassSheets</Key>
       <Value>Glass Sheets</Value>
-      <Description></Description>
+      <Description>A fundamental construction component, glass sheets are created from &lt;color=#0080FFFF&gt;{LINK:IngotPage;silicon ingot}&lt;/color&gt;. Fabricated on the {THING:StructureAutolathe}, they are used to make {THING:StructureSolarPanel}s, {THING:StructureAirlock}s and many other structures.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGoldIngot</Key>
       <Value>Ingot (Gold)</Value>
-      <Description></Description>
+      <Description>There is an enduring paradox at the heart of the Stationeers project: An initiative conceived as 'cut-price space exploration' uses &lt;color=#0080FFFF&gt;{LINK:OrePage;gold}&lt;/color&gt; as a fundamental ingredient in fabricating so much of its equipment and materiel. </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGoldOre</Key>
       <Value>Ore (Gold)</Value>
-      <Description></Description>
+      <Description>Surprisingly common throughout the Solar System, gold is thought to originate in the heart of supernovas, gathering as dust in the early stages of solar formation, then incorporating into the slowly accreting planetary bodies. Now a prized element in Stationeer construction, gold is valued not for its beauty, but its reliability: inert, durable, conductive and highly stable, gold's strength is that it does nothing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGrenade</Key>
       <Value>Hand Grenade</Value>
-      <Description></Description>
+      <Description>Invented by the Romans, who threw Greek Fire at their enemies in ceramic jars, the word 'grenade' is derived from the Old French word for 'pomegranate', as many modern grenades resemble this round, many-seeded fruit. Also like many grenades before it, this one goes boom and breaks stuff.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemHat</Key>
       <Value>Hat</Value>
+      <Description>As the name suggests, this is a hat.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemHealPill</Key>
       <Value>Heal Pill</Value>
-      <Description></Description>
+      <Description>Three centuries of pharmeceutical technology compressed into one small, easy to ingest pill: the Heal Pill, aka the Proton Pill, aka Mr Happy contains active enzymes, therapeutic proteins, modified microbial strains, and mammalian cell line analogues in a single-dose boost of high purity, efficacy, and potency that potentiates a swift parasympathetic immune response.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemHydroponicTray</Key>
       <Value>Kit (Hydroponic Tray)</Value>
+      <Description>This kits creates a {THING:StructureHydroponicsTray} for growing various plants.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIce</Key>
       <Value>Ice (Water)</Value>
+      <Description>Water ice can be found on most planets in the Solar System, though not all worlds visited by Stationeers possess this resource. Highly sensitive to temperature, ice will begin to melt as soon as it is mined, unless kept in the {THING:ItemMiningBelt}. When melting, ice produces a mixture of &lt;color=#0080FFFF&gt;{LINK:GasPage;water}&lt;/color&gt; and &lt;color=#0080FFFF&gt;{LINK:GasPage;nitrogen}&lt;/color&gt; gas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIgniter</Key>
       <Value>Kit (Igniter)</Value>
+      <Description>This kit creates an {THING:ItemIgniter} unit.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemInsulation</Key>
       <Value>Insulation</Value>
+      <Description>Mysterious in the extreme, the function of this item is lost to the ages.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIronIngot</Key>
       <Value>Ingot (Iron)</Value>
+      <Description>The most basic unit of construction available to Stationeer-kind, iron ingots are created by smelting &lt;color=#0080FFFF&gt;{LINK:OrePage;iron ore}&lt;/color&gt; in the {THING:StructureFurnace} and {THING:StructureArcFurnace}, and used to create a variety of </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIronOre</Key>
       <Value>Ore (Iron)</Value>
+      <Description>Abundant throughout the Solar System, iron is the ore most commonly used by Stationeers constructing offworld bases. It can be smelted into both {THING:ItemIronIngot}s and {THING:ItemSteelIngot}s.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAirlock</Key>
       <Value>Kit (Airlock)</Value>
+      <Description>This kit produces a single {THING:StructureAirlock} portal.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAtmospherics</Key>
       <Value>Kit (Atmospherics)</Value>
+      <Description>This kit produces a {THING:StructureAirConditioner}, {THING:StructureElectrolyzer}, {THING:StructureFiltration} or {THING:StructureH2Combustor}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitBattery</Key>
       <Value>Kit (Battery)</Value>
+      <Description>This kit produces a single station {THING:StructureBattery}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCentrifuge</Key>
       <Value>Kit (Centrifuge)</Value>
+      <Description>This kit produces a single {THING:StructureCentrifuge}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitChute</Key>
       <Value>Kit (Chutes)</Value>
+      <Description>This kit produces a range of chute structures, including {THING:StructureChuteStraight} and {THING:StructureChuteCorner}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitComputer</Key>
       <Value>Kit (Computer)</Value>
+      <Description>This kit produces a single {THING:StructureComputer}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitConsole</Key>
       <Value>Kit (Consoles)</Value>
+      <Description>This kit produces a range of {THING:StructureConsole}s and displays such as the {THING:StructureConsoleLED1x2}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitConveyor</Key>
       <Value>Kit (Conveyors)</Value>
+      <Description>This kit produces conveyor elements, such as the {THING:StructureConveyorStraight}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCryoTube</Key>
       <Value>Kit (Cryo Tube)</Value>
+      <Description>This kit produces a single {THING:StructureCryoTube}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitEngine</Key>
       <Value>Kit (Engines)</Value>
+      <Description>This kit produces an engine.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFabricator</Key>
       <Value>Kit (Fabricator)</Value>
+      <Description>This kit produces a single {THING:StructureFabricator}. (Creative Mode only)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFurnace</Key>
       <Value>Kit (Furnace)</Value>
+      <Description>This kit produces a single {THING:StructureFurnace}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFurniture</Key>
       <Value>Kit (Furniture)</Value>
+      <Description>This kit produces a range of &lt;color=#0080FFFF&gt;{LINK:FurniturePage;furniture}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGyroscope</Key>
       <Value>Kit (Gyroscope)</Value>
+      <Description>This kit produces a single {THING:StructureGyroscope}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRegulator</Key>
       <Value>Kit (Pressure Regulator)</Value>
+      <Description>This kit produces a single {THING:StructurePressureRegulator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSensor</Key>
       <Value>Kit (Sensors)</Value>
+      <Description>This kit produces a range of sensors, including {THING:StructureGasSensor}, {THING:StructureDaylightSensor} and the {THING:StructureMotionSensor}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSign</Key>
       <Value>Kit (Sign)</Value>
+      <Description>This kit produces a {THING:StructureSign1x1} or {THING:StructureSign2x1}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSleeper</Key>
       <Value>Kit (Sleeper)</Value>
+      <Description>This kit produces a single {THING:StructureSleeper}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanel</Key>
       <Value>Kit (Solar Panel)</Value>
+      <Description>This kit produces a {THING:StructureSolarPanel} and several variants.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStairs</Key>
       <Value>Kit (Stairs)</Value>
+      <Description>This kit produces a {THING:StructureStairs4x2} and several variants.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStellarAnchor</Key>
       <Value>Kit (Stellar Anchor)</Value>
+      <Description>This kit produces a single {THING:StructureStellarAnchor}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStorage</Key>
       <Value>Kit (Storage)</Value>
+      <Description>This kit produces a {THING:StructureSuitStorage}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTank</Key>
       <Value>Kit (Tank)</Value>
+      <Description>This kit produces either a {THING:StructureTankBig} or {THING:StructureTankSmall}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTorpedoTube</Key>
       <Value>Kit (Torpedo Launcher)</Value>
+      <Description>This kit produces a single {THING:StructureTorpedoTube}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTurret</Key>
       <Value>Kit (Turret)</Value>
+      <Description>This kit produces a single {THING:StructureGunTurret}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWall</Key>
-      <Value>Kit (Wall)</Value>
+      <Value>Kit (Wall)</Value> 
+      <Description>This kit produces a range of composite wall elements and windows.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLabeller</Key>
       <Value>Labeller</Value>
+      <Description>The Stationeer's best friend, a labeller lets you set names and values on a variety of devices and structures, including {THING:StructureConsole} and &lt;color=#0080FFFF&gt;{LINK:LogicPage;logic}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLightSword</Key>
       <Value>Light Sword</Value>
+      <Description>A charming, if useless, psuedo-weapon. (Creative only.)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMilk</Key>
       <Value>Milk</Value>
+      <Description>Full disclosure, it's not actually 'milk', but an Agrizero-invented synthesis of {THING:ItemSoyOil} and {THING:ReagentFenoxitone}, delicately blended in the {THING:ApplianceChemistryStation}. Surprisingly filling, it can be used as an ingredient to cook other &lt;color=#0080FFFF&gt;{LINK:FoodPage;food}&lt;/color&gt; in the microwave.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningBelt</Key>
       <Value>Mining Belt</Value>
+      <Description>Originally developed by Recurso Espaciais for asteroid mining, the Stationeers toolbelt has room for two &lt;color=#0080FFFF&gt;{LINK:ToolPage;tools}&lt;/color&gt;, seven &lt;color=#0080FFFF&gt;{LINK:OrePage;ore}&lt;/color&gt; stacks and one {THING:ItemDirtCanister}. While wearing the belt, ore is automatically stored there when mined. Volatile and temperature-dependent ores will remain stable in the environmentally controlled unit.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningDrill</Key>
@@ -4306,16 +4342,6 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
       <Value>Trigger Zone</Value>
       <Description>This is the default thing page.</Description>
     </RecordThing>
-    <RecordThing>
-      <Key>ItemKitAirlockGate</Key>
-      <Value>Kit (Airlock Gate)</Value>
-      <Description>This is the default thing page.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureAirlockGate</Key>
-      <Value>Airlock Gate</Value>
-      <Description>This is the default thing page.</Description>
-    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -4977,94 +5003,6 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <Record>
       <Key>MainMenuContinue</Key>
       <Value>Continue</Value>
-    </Record>
-    <Record>
-      <Key>PersonalSuits</Key>
-      <Value>Suits</Value>
-    </Record>
-    <Record>
-      <Key>CableCategory</Key>
-      <Value>Cables and Analyzers</Value>
-    </Record>
-    <Record>
-      <Key>PersonalBackpacks</Key>
-      <Value>Backpacks</Value>
-    </Record>
-    <Record>
-      <Key>PersonalEyeWear</Key>
-      <Value>Eye Wear</Value>
-    </Record>
-    <Record>
-      <Key>PersonalClothing</Key>
-      <Value>Clothing</Value>
-    </Record>
-    <Record>
-      <Key>CartridgeCategory</Key>
-      <Value>Cartridges</Value>
-    </Record>
-    <Record>
-      <Key>PersonalHelmets</Key>
-      <Value>Helmets</Value>
-    </Record>
-    <Record>
-      <Key>PersonalToolbelt</Key>
-      <Value>Tool Belts</Value>
-    </Record>
-    <Record>
-      <Key>Other</Key>
-      <Value>Other</Value>
-    </Record>
-    <Record>
-      <Key>PowerTool</Key>
-      <Value>Power Tools</Value>
-    </Record>
-    <Record>
-      <Key>SlotsTitle</Key>
-      <Value>All Slots</Value>
-    </Record>
-    <Record>
-      <Key>LogicReadersCategory</Key>
-      <Value>Logic Readers</Value>
-    </Record>
-    <Record>
-      <Key>LogicWriterCategory</Key>
-      <Value>Logic Writers</Value>
-    </Record>
-    <Record>
-      <Key>MotherboardCategory</Key>
-      <Value>Motherboards</Value>
-    </Record>
-    <Record>
-      <Key>ControlSystemAtmos</Key>
-      <Value>Control Systems</Value>
-    </Record>
-    <Record>
-      <Key>ApplianceCategory</Key>
-      <Value>Appliances</Value>
-    </Record>
-    <Record>
-      <Key>Fabricators</Key>
-      <Value>Fabricators</Value>
-    </Record>
-    <Record>
-      <Key>AirContitioningAtmos</Key>
-      <Value>Air Conditioning</Value>
-    </Record>
-    <Record>
-      <Key>AtmosDevices</Key>
-      <Value>Atmospheric Devices</Value>
-    </Record>
-    <Record>
-      <Key>FireArm</Key>
-      <Value>Weapons</Value>
-    </Record>
-    <Record>
-      <Key>ManualTools</Key>
-      <Value>Manual Tools</Value>
-    </Record>
-    <Record>
-      <Key>PowerTools</Key>
-      <Value>Power Tools</Value>
     </Record>
     <Record>
       <Key>TraderErrorConnectWires</Key>
@@ -8627,22 +8565,6 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <Record>
       <Key>PressEnterToContinue</Key>
       <Value>Press &lt;color=#FBB03B&gt;Enter&lt;/color&gt; to Continue</Value>
-    </Record>
-    <Record>
-      <Key>FrozenOreHeader</Key>
-      <Value>Frozen Ores</Value>
-    </Record>
-    <Record>
-      <Key>OreHeader</Key>
-      <Value>Ores</Value>
-    </Record>
-    <Record>
-      <Key>GasesHeader</Key>
-      <Value>Gases</Value>
-    </Record>
-    <Record>
-      <Key>ReagentsHeader</Key>
-      <Value>Reagents</Value>
     </Record>
   </Interface>
   <Colors>
