@@ -1029,6 +1029,11 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Description>Este kit produce un único portal de {THING:StructureAirlock}.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitAtmospherics</Key>
+      <Value>Kit (Atmosféricos)</Value>
+      <Description>Este kit produce una {THING:StructureAirConditioner}, {THING:StructureElectrolyzer}, {THING:StructureFiltration} o {THING:StructureH2Combustor}.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemKitBattery</Key>
       <Value>Kit (Batería Fija)</Value>
       <Description>Este kit produce una única estación {THING:StructureBattery}.</Description>
@@ -1039,14 +1044,34 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Description>Este kit produce una sola {THING:StructureCentrifuge}.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitChute</Key>
+      <Value>Kit Construcción (Tolvas)</Value>
+      <Description>Este equipo produce una serie de estructuras de paracaídas, incluyendo {THING:StructureChuteStraight} y {THING:StructureChuteCorner}.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemKitComputer</Key>
       <Value>Kit (Ordenador)</Value>
       <Description>Este kit produce una sola {THING:StructureComputer}.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitConsole</Key>
+      <Value>Kit Construcción (Consola)</Value>
+      <Description>Este kit produce un rango de {THING:StructureConsole}s y pantallas como la {THING:StructureConsoleLED1x2}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitConveyor</Key>
+      <Value>Kit Construcción (Cintas)</Value>
+      <Description>Este kit produce elementos transportadores, como el {THING:StructureConveyorStraight}.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemKitCryoTube</Key>
       <Value>Kit Construcción (Tubo Criogénico)</Value>
       <Description>Este kit produce una sola {THING:StructureCryoTube}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitEngine</Key>
+      <Value>Kit Construcción (Motores)</Value>
+      <Description>Este equipo produce un motor.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFabricator</Key>
@@ -1059,6 +1084,11 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Description>Este kit produce una sola {THING:StructureFurnace}.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitFurniture</Key>
+      <Value>Kit (Varios Muebles)</Value>
+      <Description>Este kit produce una gama de &lt;color=#0080FFFF&gt;{LINK:FurniturePage;furniture}&lt;/color&gt;.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemKitGyroscope</Key>
       <Value>Kit (Giroscopio)</Value>
       <Description>Este kit produce una sola {THING:StructureGyroscope}.</Description>
@@ -1069,14 +1099,39 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Description>Este kit produce una sola {THING:StructurePressureRegulator}.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitSensor</Key>
+      <Value>Kit Construcción (Sensores)</Value>
+      <Description>Este kit produce un rango de sensores, incluyendo {THING:StructureGasSensor}, {THING:StructureDaylightSensor} y el {THING:StructureMotionSensor}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSign</Key>
+      <Value>Kit Construción (Cartel)</Value>
+      <Description>Este kit produce una {THING:StructureSign1x1} o {THING:StructureSign2x1}.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemKitSleeper</Key>
       <Value>Kit (Cama)</Value>
       <Description>Este kit produce una sola {THING:StructureSleeper}.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitSolarPanel</Key>
+      <Value>Kit (Panel Solar)</Value>
+      <Description>Este kit produce una {THING:StructureSolarPanel} y varias variantes.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitStairs</Key>
+      <Value>Kit (Escalera)</Value>
+      <Description>Este kit produce una {THING:StructureStairs4x2} y varias variantes.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemKitStellarAnchor</Key>
       <Value>Kit Construcción (Ancla Estelar)</Value>
       <Description>Este kit produce una sola {THING:StructureStellarAnchor}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitStorage</Key>
+      <Value>Kit Construcción (Almacenamiento)</Value>
+      <Description>Este kit produce una {THING:StructureSuitStorage}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTank</Key>
