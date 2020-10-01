@@ -836,6 +836,11 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Description>Ilegales en la Tierra desde el evento de Chengdu, las células de energía nuclear de Norsec encontraron un mercado fuera del mundo nuevo y drásticamente menos consciente de la seguridad. Llevando el equilibrio poder-peso a sus límites, el &apos;nuclear&apos; tiene una carga de 2,3 megajulios, lo que refleja su dependencia de los exóticos &lt;color=#0080FFFF&gt;{LINK:IngotsPage;superalloys}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemBatteryCharger</Key>
+      <Value>Cargador de Baterías</Value>
+      <Description>Este kit produce una {THING:ItemBatteryCharg} de 5 ranuras.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemBook</Key>
       <Value>Libro</Value>
       <Description>A diferencia de las 8 pistas, los discos láser y el correo electrónico, los libros nunca desaparecieron por completo. La tecnología puede haber evolucionado, pero algo sobre la textura y la sensualidad del libro físico los ha visto perdurar en un nicho informativo único, aunque ligeramente irracional.</Description>
@@ -974,6 +979,11 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Description>Filtro (Nitrógeno)</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemGasFilterOxygen</Key>
+      <Value>Filtro (Oxígeno)</Value>
+      <Description>Los Sinotai han acaparado el mercado en el diseño de filtros. Sus plantillas de marca registrada son sencillas de imprimir y muy eficientes en la captura de diversos gases, que pueden ser eliminados o utilizados en otros lugares. El oxígeno es un subproducto común de la fundición de varios minerales, pero debe ser filtrado de impurezas tales como el nitrógeno usando este filtro y varios dispositivos, como el {THING:ItemDynamicScrubber}.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemGasFilterVolatiles</Key>
       <Value>Filtro (Volátiles)</Value>
       <Description>Filtro (Volátiles)</Description>
@@ -987,6 +997,61 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Key>ItemGasTankStorage</Key>
       <Value>Recargador de Bombonas</Value>
       <Description>Este kit produce una {THING:ItemGasTankStorage} para rellenar una {THING:ItemGasCanisterEmpty}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGoldOre</Key>
+      <Value>Mineral (Oro)</Value>
+      <Description>Sorprendentemente común en todo el Sistema Solar, se cree que el oro se origina en el corazón de las supernovas, acumulándose como polvo en las primeras etapas de la formación solar, para luego incorporarse a los cuerpos planetarios de crecimiento lento. Ahora un elemento muy apreciado en la construcción de los Estacionarios, el oro es valorado no por su belleza, sino por su fiabilidad: inerte, duradero, conductor y altamente estable, la fuerza del oro es que no hace nada.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGrenade</Key>
+      <Value>Granada de Mano</Value>
+      <Description>Inventado por los romanos, que arrojaban fuego griego a sus enemigos en frascos de cerámica, la palabra &quot;granada&quot; se deriva de la antigua palabra francesa para &quot;granada&quot;, ya que muchas granadas modernas se parecen a esta fruta redonda de muchas semillas. También como muchas granadas anteriores, ésta hace &quot;boom&quot; y rompe cosas.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemHat</Key>
+      <Value>Gorra</Value>
+      <Description>Como el nombre sugiere, esto es un sombrero.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemHealPill</Key>
+      <Value>Píldora de curación</Value>
+      <Description>Tres siglos de tecnología farmacéutica comprimidos en una pequeña píldora fácil de ingerir: la píldora curativa, también conocida como la píldora de protones, también conocida como Mr. Happy, contiene enzimas activas, proteínas terapéuticas, cepas microbianas modificadas y análogos de líneas celulares de mamíferos en un impulso de una sola dosis de alta pureza, eficacia y potencia que potencia una rápida respuesta inmunológica parasimpática.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInsulation</Key>
+      <Value>Aislamiento</Value>
+      <Description>Misterioso en extremo, la función de este objeto se pierde con el paso del tiempo.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitAirlock</Key>
+      <Value>Kit (Esclusa)</Value>
+      <Description>Este kit produce un único portal de {THING:StructureAirlock}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitBattery</Key>
+      <Value>Kit (Batería Fija)</Value>
+      <Description>Este kit produce una única estación {THING:StructureBattery}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCentrifuge</Key>
+      <Value>Kit (Centrifugadora)</Value>
+      <Description>Este kit produce una sola {THING:StructureCentrifuge}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitComputer</Key>
+      <Value>Kit (Ordenador)</Value>
+      <Description>Este kit produce una sola {THING:StructureComputer}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCryoTube</Key>
+      <Value>Kit Construcción (Tubo Criogénico)</Value>
+      <Description>Este kit produce una sola {THING:StructureCryoTube}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFabricator</Key>
+      <Value>Kit (Impresora Informatizada)</Value>
+      <Description>Este kit produce una sola {THING:StructureFabricator}. (Sólo en el modo creativo)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFurnace</Key>
@@ -1032,6 +1097,11 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Key>ItemKitWall</Key>
       <Value>Kit (Paredes)</Value>
       <Description>Este kit produce una gama de elementos compuestos para paredes y ventanas.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLabeller</Key>
+      <Value>Etiquetadora</Value>
+      <Description>El mejor amigo del Stationeer, un etiquetador le permite establecer nombres y valores en una variedad de dispositivos y estructuras, incluyendo {THING:StructureConsole} y &lt;color=#0080FFFF&gt;{LINK:LogicPage;logic}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLightSword</Key>
