@@ -4057,6 +4057,18 @@
       <Value>Продолжить</Value>
     </Record>
     <Record>
+      <Key>TraderErrorConnectWires</Key>
+      <Value>Торговец не смог завершить сделку, проверьте ваши кабели на предмет повреждений!</Value>
+    </Record>
+    <Record>
+      <Key>TraderErrorMissingMotherboard</Key>
+      <Value>Вам не хватает материнской платы в компьютере, вы потеряли связь с торговцем.</Value>
+    </Record>
+    <Record>
+      <Key>TraderErrorMissingVendingMachine</Key>
+      <Value>Вам не хватает подключенного пустого Склада, торговля не может состояться.</Value>
+    </Record>
+    <Record>
       <Key>Picture</Key>
       <Value>Рисунок</Value>
     </Record>
@@ -7232,8 +7244,12 @@
       <Value>{0} требуется для разборки</Value>
     </Record>
     <Record>
+      <Key>SettingsDoubleClickDelay</Key>
+      <Value>Задержка Двойного Нажатия</Value>
+    </Record>
+    <Record>
       <Key>SettingsServerAdminPassword</Key>
-      <Value>Неверный пароль.</Value>
+      <Value>Пароль Администратора Сервера</Value>
     </Record>
     <Record>
       <Key>ScoreboardPlayer</Key>
@@ -7242,6 +7258,10 @@
     <Record>
       <Key>ScoreboardTime</Key>
       <Value>Время игры:</Value>
+    </Record>
+    <Record>
+      <Key>SettingsFirstPersonHelmet</Key>
+      <Value>Шлем От Первого Лица</Value>
     </Record>
   </Interface>
   <Colors>
