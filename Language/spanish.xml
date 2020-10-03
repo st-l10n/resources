@@ -991,12 +991,17 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     <RecordThing>
       <Key>ItemGasFilterWater</Key>
       <Value>Filtro (Agua)</Value>
-      <Description>Filtro (Agua)</Description> gas to separate it from nitrogen impurities.
+      <Description>Los filtros Sinotai se utilizan para capturar diversos gases, que pueden ser eliminados o utilizados en otros lugares. El agua puede ser recolectada por medio de un filtro fundido &lt;color=#0080FFFF&gt;{LINK:OrePage;ice (water)}&lt;/color&gt;</Description> gas to separate it from nitrogen impurities.
     </RecordThing>
     <RecordThing>
       <Key>ItemGasTankStorage</Key>
       <Value>Recargador de Bombonas</Value>
       <Description>Este kit produce una {THING:ItemGasTankStorage} para rellenar una {THING:ItemGasCanisterEmpty}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGoldIngot</Key>
+      <Value>Lingote (Oro)</Value>
+      <Description>Hay una paradoja duradera en el corazón del proyecto de los Stationeers: Una iniciativa concebida como &quot;exploración espacial a precio reducido&quot; utiliza  &lt;color=#0080FFFF&gt;{LINK:OrePage;gold}&lt;/color&gt; como un ingrediente fundamental en la fabricación de gran parte de su equipo y material.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGoldOre</Key>
@@ -1019,9 +1024,24 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Description>Tres siglos de tecnología farmacéutica comprimidos en una pequeña píldora fácil de ingerir: la píldora curativa, también conocida como la píldora de protones, también conocida como Mr. Happy, contiene enzimas activas, proteínas terapéuticas, cepas microbianas modificadas y análogos de líneas celulares de mamíferos en un impulso de una sola dosis de alta pureza, eficacia y potencia que potencia una rápida respuesta inmunológica parasimpática.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemHydroponicTray</Key>
+      <Value>Bandeja hidropónica</Value>
+      <Description>Este kit crea una {THING:StructureHydroponicsTray} para el cultivo de varias plantas.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemIgniter</Key>
+      <Value>Encendedor</Value>
+      <Description>Este kit crea una unidad de {THING:ItemIgniter}.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemInsulation</Key>
       <Value>Aislamiento</Value>
       <Description>Misterioso en extremo, la función de este objeto se pierde con el paso del tiempo.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemIronOre</Key>
+      <Value>Mineral (Hierro)</Value>
+      <Description>Abundante en todo el Sistema Solar, el hierro es el mineral más comúnmente usado por los Stationeers que construyen bases extraterrestres. Puede ser fundido en ambas {THING:ItemIronIngot}s y {THING:ItemSteelIngot}s.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAirlock</Key>
@@ -1136,7 +1156,7 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     <RecordThing>
       <Key>ItemKitTank</Key>
       <Value>Kit (Tanques)</Value>
-      <Description>Kit (Tanques)</Description>
+      <Description>Este kit produce una {THING:StructureTankBig} o {THING:StructureTankSmall}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTorpedoTube</Key>
