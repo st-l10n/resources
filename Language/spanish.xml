@@ -999,6 +999,11 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Description>Este kit produce una {THING:ItemGasTankStorage} para rellenar una {THING:ItemGasCanisterEmpty}.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemGlassSheets</Key>
+      <Value>Placa de Vidrio</Value>
+      <Description>Un componente fundamental de la construcción, las láminas de vidrio se crean a partir de &lt;color=#0080FFFF&gt;{LINK:IngotPage;silicon lingot}&lt;/color&gt;. Fabricados en {THING:StructureAutolathe}, se utilizan para hacer los {THING:StructureSolarPanel} , {THING:StructureAirlock} y muchas otras estructuras.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemGoldIngot</Key>
       <Value>Lingote (Oro)</Value>
       <Description>Hay una paradoja duradera en el corazón del proyecto de los Stationeers: Una iniciativa concebida como &quot;exploración espacial a precio reducido&quot; utiliza  &lt;color=#0080FFFF&gt;{LINK:OrePage;gold}&lt;/color&gt; como un ingrediente fundamental en la fabricación de gran parte de su equipo y material.</Description>
@@ -1029,6 +1034,11 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Description>Este kit crea una {THING:StructureHydroponicsTray} para el cultivo de varias plantas.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemIce</Key>
+      <Value>Trozo de hielo</Value>
+      <Description>El hielo de agua se puede encontrar en la mayoría de los planetas del Sistema Solar, aunque no todos los mundos visitados por Stationeers poseen este recurso. Altamente sensible a la temperatura, el hielo comenzará a derretirse tan pronto como se extraiga, a menos que se mantenga en el {THING:ItemMiningBelt}. Cuando se derrite, el hielo produce una mezcla de gas &lt;color=#0080FFFF&gt;{LINK:GasPage;water}&lt;/color&gt; y &lt;color=#0080FFFF&gt;{LINK:GasPage;nitrogen}&lt;/color&gt;.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemIgniter</Key>
       <Value>Encendedor</Value>
       <Description>Este kit crea una unidad de {THING:ItemIgniter}.</Description>
@@ -1037,6 +1047,11 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Key>ItemInsulation</Key>
       <Value>Aislamiento</Value>
       <Description>Misterioso en extremo, la función de este objeto se pierde con el paso del tiempo.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemIronIngot</Key>
+      <Value>Lingote (Hierro)</Value>
+      <Description>La unidad de construcción más básica disponible para el Stationeer mas ingenuo, los lingotes de hierro se crean fundiendo &lt;color=#0080FFFF&gt;{LINK:OrePage;iron ore}&lt;/color&gt; en el {THING:StructureFurnace} y el {THING:StructureArcFurnace}, y se utiliza para crear una variedad de materiales diferentes </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIronOre</Key>
@@ -1182,6 +1197,16 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Key>ItemLightSword</Key>
       <Value>Espada de Luz</Value>
       <Description>Un encantadora, aunque inútil, arma pisapapeles. (Sólo creativo.)</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemMilk</Key>
+      <Value>Leche</Value>
+      <Description>Revelación completa, en realidad no es &apos;leche&apos;, sino una síntesis inventada por Agrizero de {THING:ItemSoyOil} y {THING:ReagentFenoxitone}, delicadamente mezclados en {THING:ApplianceChemistryStation}. Sorprendentemente abundante, se puede utilizar como ingrediente para cocinar otros &lt;color=#0080FFFF&gt;{LINK:FoodPage;food}&lt;/color&gt; en el microondas.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemMiningBelt</Key>
+      <Value>Cinturón Minero</Value>
+      <Description>Desarrollado originalmente por Recurso Espaciais para la minería de asteroides, el cinturón de herramientas Stationeers tiene espacio para dos &lt;color=#0080FFFF&gt;{LINK:ToolPage;tools}&lt;/color&gt;, siete &lt;color=#0080FFFF&gt;{LINK:OrePage;ore}&lt;/color&gt; pilas y una {THING:ItemDirtCanister}. Mientras lleva puesto el cinturón, el mineral se almacena automáticamente allí cuando se extrae. Los minerales volátiles y dependientes de la temperatura permanecerán estables en la unidad de control ambiental.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningDrill</Key>
