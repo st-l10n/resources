@@ -104,9 +104,15 @@ Hay algunos minerales que se funden cuando se exponen a la luz solar o al calor 
     <StationpediaPage>
       <Key>IngotPage</Key>
       <Title>Lingotes</Title>
-      <Text>Estos son los artículos que se producen normalmente a partir de {LINK:SmeltingPage;Smelting} {LINK:OrePage;ores}.
+      <Text>Estos son artículos que están típicamente hechos de {LINK:SmeltingPage;Smelting} {LINK:OrePage;ores}.
       
 {HEADER:List of Ingots}
+{LIST_OF_INGOTS}
+
+{HEADER:List of Alloys}
+{LIST_OF_INGOTS}
+
+{HEADER:List of Super-Alloys}
 {LIST_OF_INGOTS}
       </Text>
     </StationpediaPage>
@@ -231,24 +237,16 @@ Autoencendido {POS:300}{2}{3}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ThingSlotItemTemplate</Key>
-      <Text>{0}. {POS:100}{1} {POS:300}Tipo {2}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ThingStackTemplate</Key>
-      <Text>Tamaño de apilado {POS:300}{0}</Text>
+      <Text>{0}. {1} Tipo {2}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ThingTransmissibleTemplate</Key>
       <Text>Se conecta a {POS:300}{THING:StructureLogicTransmitter}</Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>ThingNutritionTemplate</Key>
-      <Text>Máxima alimentación {POS:300}{0}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>IceMeltingTemplate</Key>
-      <Text>Temperatura de fusión {POS:300}{1}
-Presión de la masa fundida {POS:300}{0}</Text>
+      <Text>Temperatura de fusión {1}
+Presión de la masa fundida {0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>LogicTransmitHeaderTemplate</Key>
@@ -256,36 +254,28 @@ Presión de la masa fundida {POS:300}{0}</Text>
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>CreatorTemplate</Key>
-      <Text>{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ModeStringItemTemplate</Key>
-      <Text>{0}.{POS:100}{1}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>ReagentPageTemplate</Key>
-      <Text>Un {LINK:ReagentPage;reagent}, a menudo utillizable en forma de {LINK:IngotPage;Ingots} .
+      <Text>Un {LINK:ReagentPage;reagent}, a menudo utilizado cuando está en forma de {LINK:IngotPage;Ingots}.
 
 {HEADER:General}
-{LIST}Unit {POS:300}{1}{/LIST}
+{LIST}Unit {1}{/LIST}
 
 {HEADER:Found In}
 {LIST}{2}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageTemplate</Key>
-      <Text>A {LINK:GasPage;gas}, a menudo producido en {LINK:SmeltingPage;smelting}.
+      <Text>Un {LINK:GasPage;gas}, a menudo producido cuando {LINK:SmeltingPage;smelting}.
 
 {HEADER:General}
-{LIST}Specific Heat {POS:300}{1}{2}{/LIST}
+{LIST}Specific Heat {1}{2}{/LIST}
 
 {HEADER:Found In}
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageFlamableTemplate</Key>
-      <Text>Límite de inflamación {POS:300} {0} a {1}</Text>
+      <Text>Límite inflamable {0} a {1}</Text>
     </StationpediaPage>
   </HelpPage>
 </Language>
