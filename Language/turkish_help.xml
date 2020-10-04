@@ -7,116 +7,6 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
-      <Key>Home</Key>
-      <Title>Başlangıç</Title>
-      <Text>Stationeers için dahili yardım sistemine hoş geldin. Bu araç ile, tüm sistemlerin nasıl çalıştığı ile ilgili bilgiyi, hem de bu dünyadaki herşey ile ilgili önemli bilgileri bulabilirsin.
-      
-{HEADER:Yardımın Kullanılması}
-{KEY:Help} tuşunu kullanarak bu pencereyi açabilir ve kapatabilirsin. Yardım sistemi içerisindeki bağlantılara tıklamanı sağlamak, oyundayken fare imlecini etkinleştirmek için {KEY:MouseControl} tuşuna basılı tut.
-
-{HEADER:İncelemek}
-{KEY:MouseControl} ve {KEY:MouseInspect} tuşlarına basılı tutarak tıklayacağın herhangi bir şeyi [i]inceleyebilirsin[/i]. Bu şekilde tıklaman, o obje ile ilgili yardım sistemini açacaktır ve detaylı bilgi sağlayacaktır.
-
-{HEADER:Önemli Konular}
-{LIST}{LINK:SmeltingPage;Eritme}, {LINK:MiningPage;Madencilik}, {LINK:ConstructionPage;İnşaat}, {LINK:InventoryPage;Envanter}
-{/LIST}
-{HEADER:Kılavuzlar}
-{LIST}{LINK:GettingStarted;Başlarken}
-{/LIST}
-{HEADER:Diğerleri}
-{LIST}{LINK:GasPage;Gazlar}, {LINK:ReagentPage;Reaktifler}
-{/LIST}
-{HEADER:Öğeler}
-{LIST}{LINK:ToolPage;Araçlar}, {LINK:ResourcePage;Kaynaklar}, {LINK:KitPage;Donanımlar}, {LINK:FoodPage;Gıda}, {LINK:ClothingPage;Giyim}, {LINK:AppliancePage;Aletler}, {LINK:IngotPage;Külçeler}, {LINK:OrePage;Cevherler}, {LINK:AlloyPage;Alaşımlar},{LINK:SuperAlloyPage;Süperalaşımlar}
-{/LIST}
-{HEADER:Yapılar}
-{LIST}{LINK:DevicePage;Cihazlar}, {LINK:FabricatorPage;İmalatçı}, {LINK:AirlockDevicePage;Hava Kilidi Cihazları}, {LINK:LogicUnitPage;Mantık Birimleri}
-{/LIST}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>GettingStarted</Key>
-      <Title>Başlarken</Title>
-      <Text>{HEADER:Yeni bir dünyaya hoşgeldin}
-Eğer bu senin ilk seferin ise, ilk olarak öğrenmen gereken çok şey olacak. Başlarken üzerindeki ilk baskı büyük ve gerçekten çok ağır olabilir. Buradaki bilgiler, devam edebilmen için bazı genel yönergeler içerir. Her dünya tipi, yüzleşmen gereken farklı sorunlara sahiptir fakat yönergeler, idare edebilmen için sana geniş bir bakış sağlamalı.
-      
-{HEADER:Giysinin Enerjisini Dolu Tutmak}
-En acil ihtiyacın, {THING:ItemEvaSuit}&apos;ndeki {THING:ItemBatteryCellLarge}&apos;ini şarj etmendir. Giysi pilin, {THING:ItemSpaceHelmet} ışığına (kullanılmadığında kapatılabilir) enerji sağlamak ve bir de dahili havanı ısıtmak için kullanılır. Daha soğuk dünyalarda {THING:ItemEvaSuit} çok fazla enerji çeker. Bir {THING:ItemBatteryCharger} yerleştirmen ve bir enerji kaynağına bağlaman gerekecek; {THING:ItemCoalOre} ile çalışan {THING:StructureSolidFuelGenerator} veya {THING:StructureSolarPanel}, bu enerji ihtiyacını gidermen için iyi bir başlangıçtır. Acil bir durumda, giysinin çalışmaya devam etmesi için {LINK:ToolPage;Araçlar}&apos;ından pillerini çıkar veya şarj etmek için verilen {THING:PortableSolarPanel}&apos;ni kullan.
-
-{HEADER:Enerji Elde Etmenin Geliştirilmesi}
-Enerji kaynağı ile şarj cihazı arasına, bir tane {THING:ItemBatteryCell} eklenmiş bir {THING:StructureAreaPowerControl} yerleştirmek çok yardımcı olur. Bu eklentinin nedeni ise, enerji kaynağı muhtemelen, {THING:ItemBatteryCharger}&apos;nın barındırabileceğinden daha fazla enerji üretecek ve bu enerjinin de boşa gidecek olmasıdır. Buna ek olarak, {THING:StructureSolarPanel}&apos;ni el ile yönlendirebilirsin fakat otomatik olarak güneşi takip etmesinin sana çok yardımı olacaktır. Bu konuda sana yardımcı olması için {LINK:LogicUnitPage;Mantık Birimleri}&apos;ni kullanabilirsin.
-      
-{HEADER:Oksijeninin İdare Edilmesi}
-{THING:ItemEvaSuit}&apos;n ve {THING:ItemSpaceHelmet}&apos;n, seni dış öğelerden koruyan bir kabuktan oluşur. {THING:ItemEvaSuit}, sana saf {GAS:Oxygen} sağlayan bir {THING:ItemGasCanisterOxygen} gerektirir. Başlangıç donanımında tedarik edilen büyük {THING:DynamicGasCanisterOxygen}&apos;nü kullanarak doldurabileceğin tanktaki gaz miktarından gözünü ayırma. Kapsülü, yeniden doldurmak için &quot;tehlike&quot; işareti gösteren yuvaya yerleştirebilirsin.
-
-{HEADER:Temel Eritme}
-Temel enerji üretimin olduğunda, daha fazla kaynak elde etmeye başlaman gerekir. Temel {LINK:OrePage;Cevher} edinmek için {LINK:MiningPage;Madencilik} yapmaya çık. Bir {THING:StructureArcFurnace} yerleştir ve {THING:StructureAreaPowerControl}&apos;nün arkasına bağla. Bu makine, {THING:ItemIronOre}, {THING:ItemSiliconOre} ve diğer alaşım olmayan temel {LINK:OrePage;Cevherler} {LINK:SmeltingPage;Eritme}&apos;ni sağlayacak.
-
-{HEADER:Temel İmalat}
-Şimdi, {LINK:FabricatorPage;İmalatçı}&apos;ya kaynak olarak koyabileceğin {LINK:IngotPage;Külçeler}&apos;e sahipsin. Başlangıç sandıklarında bulunan {THING:ItemKitAutolathe}&apos;ndan {THING:StructureAutolathe}&apos;nı kur.
-
-{HEADER:Filtrelerinin Değiştirilmesi}
-{GAS:Oxygen} soluduğun gibi, aynı zamanda {GAS:CarbonDioxide} üflersin; o yüzden, {SLOT:Filter} yuvanda bir de {THING:ItemGasFilterCarbonDioxide}&apos;ne ihtiyacın var. Bu filtreler zamanla yıpranır ve {THING:StructureHydraulicPipeBender}&apos;de yenisini yapman gerekir. Bu makine, {THING:StructureAutolathe}&apos;da bir {THING:ItemKitHydraulicPipeBender}&apos;ından yapılabilir.
-
-{HEADER:Camlı Bir Ev Yapımı}
-{LINK:FoodPage;Gıda} üretmeni sağlayan {LINK:HydroponicsPage;Hidroponik} kurmak için küçük kapalı bir alana ihtiyacın olacak. Basınçlandırmakta zorlanacağın kadar büyük yapma. Gün ışığını alabilmesi için, farklı {THING:ItemKitWallIron} donanımlarını kullanarak bolca {THING:} yap. Ya bir otomatik {LINK:AirlockPage;Hava Kilidi} ya da bir el ile çalışan bir tane kullanılarak idare edilen girişin olduğundan emin ol. {THING:ItemCrowbar} kullanarak enerjisi olmayan kapıları açıp kapatabileceğini aklında tut.
-
-{HEADER:Camlı Evinin Basınçlandırılması}
-Bir kez kapalı alana sahip olduğunda, biraz {THING:ItemOxite} {LINK:MiningPage;Kazı}&apos;sı yap ve yetiştirme alanında yaklaşık 100 kPa basınç olana dek bu buzları erit. Daha sonra ortama biraz {GAS:CarbonDioxide} ekle. Bunu kolayca, {THING:ItemEvaSuit}&apos;nden eline Atık Tankını alarak, açarak ve kapatıp yerine geri koyarak yapabilirsin. Bu işlemler, soluğundan ortama, süzülmüş {GAS:CarbonDioxide} serbest bırakır. {LINK:PlantPage;Bitkiler} bu soluğu kullanır.
-
-{HEADER:Bitkilerin Yetiştirilmesi}
-Camlı yeni evine, tedarik edilmiş {THING:DynamicHydroponics}&apos;yi koy. Bu araç, bitkilerin {GAS:Water}&apos;yunu sağlayan bir {THING:ItemGasCanisterWater}&apos;ne sahiptir. Şimdi, başlangıç sandığından {THING:ItemPotato} dik. İlk önce bir tanesini dik ve diğerlerini kullanmadan önce yetiştiğinden emin ol. Canlı kalabilmeleri için gün ışığına, sıcaklığa ve az miktarda {GAS:CarbonDioxide}&apos;e ihtiyaç duyarlar.
-
-{HEADER:Gelişmiş Eritme}
-{THING:StructureArcFurnace}, sadece temel {LINK:OrePage;Cevherler}&apos;i eritmeni sağlar ve daha gelişmiş bileşenler yapmak için, {LINK:AlloyPage;Alaşımlar}&apos;ı eritecek daha karmaşık yöntemlere ihtiyacın olacak. Bunlar, {THING:StructureFurnace}&apos;nda, doğru {LINK:PressurePage;Basınç}, {LINK:TemperaturePage;Sıcaklık} ve {LINK:ReagentPage;Reaktif} karışım oranına erişerek yapılmaktadır. Örnek olarak {THING:ItemSteelIngot}&apos;ni yapmak için, bir parça {REAGENT:Iron} ve üç parça {REAGENT:Coal} oranına ihtiyacın olacak.
-
-Tepesinden {LINK:IcePage;Buzlar}&apos;ı doğrudan koyabilirsin. Eğer onları eritecek bir atmosfer yok ise, kırmak için {LOGICTYPE:Activate} tuşuna bas. Buz otomatik olarak eriyecek; eğer içeride doğru sıcaklıkta yeterli gaz varsa. İçeride, ciddi miktarda basıncı arttırmasına rağmen, bir yanma başlatmak için bir {THING:ItemOxite} ve {THING:ItemVolatiles} karışımını kullan.
-
-Bir kere doğru sıcaklık oluştuğunda, cevherleri eritmek için ekle fakat oranlarına dikkat et; yoksa, {THING:StructureCentrifuge}&apos;de ayırman gereken {THING:ItemReagentMix} gibi atık ürün çıkar. Bir ürünü çıkarmak için {LOGICTYPE:Open} kolunu çek.
-
-Hatta daha gelişmiş {LINK:SuperAlloyPage;Süperalaşımlar}, {THING:StructureAdvancedFurnace}&apos;nda eritilebilirler. Bu {LINK:SuperAlloyPage;Süperalaşımlar}, eritmek için çok sıkı gereksinimlere sahiptirler ve elde edilebilmeleri son derece zordur fakat çok ileri üretimler için gereklidirler.
-{/LIST}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>InventoryPage</Key>
-      <Title>Envanter</Title>
-      <Text>Oyundaki her şey çeşitli yuvalara sahiptir. Bu yuvalar, sadece uygun tipteki şeyleri yerleştirebilecek tiplere sahip olabilir.  {SLOT:Helmet}&apos;na erişim için {KEY:HelmetSlot} gibi, karakterin üzerindeki yuvalara erişebilmek için çeşitli kısayollar vardır.
-      
-{HEADER:Envanter Pencereleri}
-Bazı yuvalar, kendi yuvalarına sahiptir. Bir yuvanın içeriği ile etkileşime geçebilmek için, ya kısayol tuşunu kullanabilir veya {KEY:MouseControl} tuşuna basılı tutarak ve üzerine tıklamak için fareyi kullanabilirsin. Şimdi yuvanın penceresi açık ve onun yuvaları ve seçenekleri ile etkileşime geçebilirsin. Pencereler, başlık çubuklarını sürükleyerek konumlandırılabilirler.
-
-{HEADER:Hızlı Yerleştirmek}
-Bir yuvaya hızlıca yerleştirmek, çıkarmak veya yer değiştirmek için kısayoluna basılı tutabilirsin. Örnek olarak, Eğer elimizde bir {THING:ItemSpaceHelmet} var ise ve {SLOT:Helmet}&apos;imiz boş ise ve de eğer bir saniye boyunca {KEY:HelmetSlot}&apos;na basılı tutarsak, {THING:ItemSpaceHelmet}&apos;i yuvaya taşınmış olacaktır.
-
-{HEADER:Sürükle ve Bırak}
-Alternatif olarak, eğer {KEY:MouseControl}&apos;e basılı tutarsan &quot;sürükle ve bırak&quot; yapabilirsin. Yuvalar arasında, hatta dünyalar arasında ve dünya içerisindeki yuvalar arasında &quot;sürükle ve bırak&quot; yapabilirsin.
-
-{HEADER:Bırakmak}
-{KEY:MouseControl} yoluyla, fareyi kullanarak bir nesneyi tutabilirsin ve dünyaya doğru sürükleyip bırakabilirsin veya {KEY:Drop} tuşuna basabilirsin.
-
-{HEADER:Seçmek}
-Eğer yuvalar arasında yer değiştirmeyi fare ile yapmak yerine kısayol kullanarak yapmak istersen, {KEY:InventorySelect} tuşu, {COLORRED:Mouse Wheel} ile seçmiş olduğun herhangi bir yuvayı, etkin elindeki seçili yuva ile değiştirecektir.
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>AirlockDevicePage</Key>
-      <Title>Hava Kilidi Cihazları</Title>
-      <Text>Çalışan bir hava kilidi yapmak için, çeşitli cihazları bağlayabileceğin bir {THING:StructureConsole}&apos;a bir {THING:CircuitboardAirlockControl} yerleştir.
-      
-{HEADER:Hava Kilidi Cihazlarının Listesi}
-Listelenen cihazlar, hava kilidi kontrol sistemine bağlanabilir ve kullanılabilir:
-{LIST_OF_AIRLOCK_DEVICES}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>LogicUnitPage</Key>
-      <Title>Mantık Birimleri</Title>
-      <Text>{HEADER:Mantık Birimlerinin Listesi}
-{LIST_OF_LOGIC_UNITS}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>SlotLeftHand</Key>
       <Title>El Yuvaları</Title>
       <Text>Ellerin özel yuvalardır. Herhangi bir zamanda mevcuttaki {COLORRED:Primary Action}&apos;ni kullanman için bir etkin elin vardır.Etkin elini değiştirmek için {KEY:SwapHands} tuşuna bas. Etkin elin ile, içeriğini açıp kapayabileceğin {KEY:ActiveHandSlot} tuşuna basarak etkileşime geçebilirsin. Her zaman olduğu gibi, fareyi ortaya çıkarmak ve bu şekilde etkileşime geçebilmek için {KEY:MouseControl} tuşunu kullanabilirsin. Daha fazla bilgi için {LINK:InventoryPage;Envanter} bölümüne bak.
@@ -343,6 +233,10 @@ Erime Basıncı {POS:300}{0}</Text>
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>CreatorTemplate</Key>
+      <Text>{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>LogicTypeHeaderTemplate</Key>
       <Text>{HEADER:Mantık}{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
@@ -359,6 +253,10 @@ Erime Basıncı {POS:300}{0}</Text>
       <Key>CreatedReagentTemplate</Key>
       <Text>{HEADER:Reaktifler}
 {LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ModeStringItemTemplate</Key>
+      <Text>{0}.{POS:100}{1}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ReagentPageTemplate</Key>

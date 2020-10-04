@@ -7,120 +7,6 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
-      <Key>Home</Key>
-      <Title>Inicio</Title>
-      <Text>Bienvenido al sistema de ayuda interna para los oficiales de la estación. Con esta herramienta podrá encontrar información sobre el funcionamiento de todos los sistemas, así como información importante sobre todas las cosas del mundo.
-      
-{HEADER:Using Help}
-Puede abrir y cerrar esta ventana con la tecla {KEY:Help}. Para activar el cursor del ratón mientras se reproduce mantenga pulsada la tecla {KEY:MouseControl} esto le permite hacer clic en los enlaces dentro del sistema de ayuda.
-
-{HEADER:Inspecting}
-Si mantienes pulsado {KEY:MouseControl} y {KEY:MouseInspect} y haces clic en algo puedes [i]inspeccionarlo[/i]. Esto abrirá el sistema de ayuda a la página relacionada con ese objeto y te dará información detallada.
-
-{HEADER:Key topics}
-{LIST}{LINK:SmeltingPage;Smelting}, {LINK:MiningPage;Mining}, {LINK:ConstructionPage;Construction}, {LINK:InventoryPage;Inventory}
-{/LIST}
-{HEADER:Guides}
-{LIST}{LINK:GettingStarted;Getting Started}
-{/LIST}
-{HEADER:Other}
-{LIST}{LINK:GasPage;Gases}, {LINK:ReagentPage;Reagents}
-{/LIST}
-{HEADER:Items}
-{LIST}{LINK:ToolPage;Tools}, {LINK:ResourcePage;Resources}, {LINK:KitPage;Kits}, {LINK:FoodPage;Food}, {LINK:ClothingPage;Clothing}, {LINK:AppliancePage;Appliances}, {LINK:IngotPage;Ingots}, {LINK:OrePage;Ores}, {LINK:AlloyPage;Alloys}, {LINK:SuperAlloyPage;Superalloys}
-{/LIST}
-{HEADER:Structures}
-{LIST}{LINK:DevicePage;Devices}, {LINK:FabricatorPage;Fabricators}, {LINK:AirlockDevicePage;Airlock Devices}, {LINK:LogicUnitPage;Logic Units}
-{/LIST}
-{HEADER:World Travel}
-{LIST}{LINK:RocketShuttleModulesHelpPage;Rocket Shuttle Modules Help}, {LINK:TravelPage;Travel}, {LINK:RocketShuttlePage;Rocket Shuttle Modules}
-{/LIST}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>GettingStarted</Key>
-      <Title>Primeros pasos</Title>
-      <Text>{HEADER:Bienvenidos a un nuevo mundo}
-Si esta es tu primera vez, entonces tienes mucho que aprender de golpe. Las presiones iniciales sobre ti son grandes y puede ser realmente abrumador comenzar. La siguiente es una guía general para ponerse en marcha. Cada tipo de planeta tiene diferentes problemas a los que debe enfrentarse, pero lo siguiente debería darle una visión general de lo que necesita gestionar.
-      
-{HEADER:Cómo mantener tu traje cargado}
-La necesidad más urgente que tiene es recargar su batería {THING:ItemBatteryCellLarge} en su {THING:ItemEvaSuit}. La batería del traje se utiliza para encender la luz {THING:ItemSpaceHelmet} (apáguela cuando no la necesite) y también para calentar el aire interno del traje. En los mundos más fríos, esto consume mucha energía. Necesitarás colocar un {THING:ItemBatteryCharger} y conectarlo a una fuente de alimentación, el {THING:StructureSolidFuelGenerator} alimentado con {THING:ItemCoalOre} o el {THING:StructureSolarPanel} son buenas formas de empezar a generar energía. En caso de emergencia, saque las pilas de su {LINK:ToolPage;Tools} para utilizarlas para mantener su traje en marcha o utilice el {THING:PortableSolarPanel} suministrado para cargarlas.
-
-{HEADER:Mejora de la recopilación de energía}
-Colocar un {THING:StructureAreaPowerControl}, con un {THING:ItemBatteryCell} insertado, entre la fuente de alimentación y sus cargadores le ayudará mucho. Esto se debe a que es probable que la fuente de energía esté generando más energía de la que el {THING:ItemBatteryCharger} puede contener y se desperdicia. Además, mientras que puede orientar manualmente el {THING:StructureSolarPanel}, pero automatizarlo para seguir al sol le ayudará mucho. Puede utilizar {LINK:LogicUnitPage;Logic Units} para ayudarle con esto.
-      
-{HEADER:Gestionando su oxígeno}
-Su {THING:ItemEvaSuit} y {THING:ItemSpaceHelmet} forman un caparazón protector de los elementos. El {THING:ItemEvaSuit} necesita {THING:ItemGasCanisterOxygen} para proporcionarle oxígeno puro {GAS:Oxygen}. Vigile la cantidad de gas en el tanque, puede rellenarlo usando el sistema grande {THING:DynamicGasCanisterOxygen} suministrado en su equipo de inicio. Hay un marcador de &quot;peligro&quot; que indica la ranura en la que se puede insertar el bote para rellenarlo.
-
-{HEADER:Fundición Básica}
-Una vez que tienes un poco de producción de energía básica, necesitas empezar a obtener más recursos. Salga de {LINK:MiningPage;Mining} para obtener lo básico {LINK:OrePage;Ores}. Coloque el {THING:StructureArcFurnace} y conéctelo detrás de su {THING:StructureAreaPowerControl}. Esto {LINK:SmeltingPage;Smelt} básico {LINK:OrePage;Ores}, como {THING:ItemIronOre}, {THING:ItemSiliconOre}, y cualquier otro no {LINK:AlloyPage;Alloy}.
-
-{HEADER:Fabricación básica}
-
-Ahora que tiene  {LINK:IngotPage;Ingots} puede insertarlos en {LINK:FabricatorPage;Fabricators} como recurso. Construya el {THING:StructureAutolathe} a partir del {THING:ItemKitAutolathe} proporcionado en las cajas de arranque.
-
-{HEADER:Sustituir sus filtros}
-A medida que inhala {GAS:Oxygen} también exhala {GAS:CarbonDioxide}, también necesita un {THING:ItemGasFilterCarbonDioxide} en su ranura {SLOT:Filter}. Estos se desgastan con el tiempo, y tendrás que fabricar otros nuevos en el {THING:ItemKitHydraulicPipeBender}. Esto se puede hacer desde una {THING:ItemKitHydraulicPipeBender} en el {THING:StructureAutolathe}.
-
-{HEADER:Construir una casa de cristal}
-Necesitará una pequeña área cerrada para configurar {LINK:HydroponicsPage;Hydroponics} para que le permita elaborar {LINK:FoodPage;Food}. No lo haga demasiado grande ya que será más difícil de presurizar. Haga un montón de {THING:} usando una variante de los kits {THING:ItemKitWallIron}, para permitir la entrada de la luz solar. Asegúrese de que la entrada se administre mediante un {LINK:AirlockPage;Airlock} automático o manual. Recuerde que puede abrir y cerrar puertas sin energía eléctrica usando la {THING:ItemCrowbar}.
-
-{HEADER:Presurice su casa de cristal}
-Una vez que haya cerrado el área, {LINK:MiningPage;Mine} un trozo de {THING:ItemOxite} y derrita esto hasta que tenga alrededor de 100 kPa de presión en su área de cultivo. Luego agregue un poco de {GAS:CarbonDioxide} a la atmósfera. Usted puede hacer esto fácilmente tomando su Tanque de Residuos de su {THING:ItemEvaSuit} en sus manos, abriéndolo, cerrándolo y volviéndolo a poner en su sitio. Esto liberará el {GAS:CarbonDioxide} filtrado de su respiración en el medio ambiente. {LINK:PlantPage;Plants} lo usarán para respirar.
-
-{HEADER:Plantas de cultivo}
-Lleve la {THING:DynamicHydroponics} a su nueva casa de vidrio. Tiene un {THING:ItemGasCanisterWater} para proporcionar las plantas {GAS:Water}. Ahora planta usando {THING:ItemPotato} de las cajas de inicio. Plante uno primero, y verifique que esté creciendo antes de usar los otros. Necesitan luz solar, calor y una pequeña cantidad de {GAS:CarbonDioxide} para sobrevivir.
-
-{HEADER:Fundición avanzada}
-El {THING:StructureArcFurnace} sólo le permite fundir fácilmente {LINK:OrePage;Ores}, y para hacer componentes más avanzados necesitará usar métodos más complejos para fundir {LINK:AlloyPage;Alloys}. Esto se hace en el {THING:StructureFurnace}, logrando la correcta {LINK:PressurePage;Pressure}, {LINK:TemperaturePage;Temperature}, y {LINK:ReagentPage;Reagent} proporción de mezcla. Por ejemplo, para hacer {THING:ItemSteelIngot} necesitará una proporción de una parte {REAGENT:Iron} y tres partes {REAGENT:Coal}.
-
-Puede insertar directamente {LINK:IcePage;Ices}  en la parte superior. Si no hay atmósfera para derretirlos, pulse el botón {LOGICTYPE:Activate} para aplastarlos. El hielo se derretirá automáticamente si hay suficiente gas a la temperatura adecuada en su interior. Utilice una mezcla de {THING:ItemOxite} y {THING:ItemVolatiles} para iniciar un incendio en el interior, aunque esto aumentará la presión en el interior drástica.
-
-Una vez que esté a la temperatura correcta, inserte los minerales para que se fundan, pero tenga cuidado con las proporciones o los productos de desecho, que saldrán como {THING:ItemReagentMix} que deberán clasificarse en una {THING:StructureCentrifuge}. Para exportar un producto, tire de la palanca {LOGICTYPE:Open}.
-
-Aún más avanzado {LINK:SuperAlloyPage;Superalloys} puede ser fundido en el {THING:StructureAdvancedFurnace}. Tienen requisitos muy estrictos para ser fundidas y son extremadamente difíciles, pero necesarias para una fabricación muy avanzada.
-{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>InventoryPage</Key>
-      <Title>Inventario</Title>
-      <Text>Todas las cosas en el juego pueden tener varias ranuras. Estas ranuras pueden tener clases de ranuras, permitiendo solo ciertas cosas en esas ranuras. Existen varias teclas de acceso rápido para acceder a las ranuras de tu personaje, como {KEY: HelmetSlot} para acceder a tu {SLOT:Helmet}.
-      
-{HEADER:Inventory Windows}
-Algunas ranuras tendrán sus propias ranuras. Para interactuar con el contenido de una ranura, use la tecla de acceso rápido para abrir la ventana o mantenga presionada la tecla {KEY:MouseControl} y use el mouse para hacer clic en ella. Ahora la ventana para esa ranura está abierta y puede interactuar con sus ranuras y configuraciones. Las ventanas son reposicionables arrastrando su barra de título.
-
-{HEADER:Fast Equipping}
-Puede mantener presionada una tecla de acceso rápido para equipar, desequipar o intercambiar una ranura rápidamente. Por ejemplo, si tuviéramos {THING:ItemSpaceHelmet} en nuestras manos, y nada en nuestro {SLOT:Helmet}, si presionáramos {KEY:HelmetSlot}durante un segundo, se transferiría a la ranura.
-
-{HEADER:Drag and Drop}
-Alternativamente, si mantienes presionada {KEY:MouseControl} también puedes arrastrar y soltar. Puede arrastrar y soltar entre las ranuras, ventanas, incluso entre el mundo y las ranuras dentro del mundo.
-
-{HEADER:Dropping}
-Puede soltar un elemento utilizando el mouse, mediante {KEY:MouseControl} y arrastrándolo y soltándolo en el mundo o puede presionar {KEY:Drop}.
-
-{HEADER:Selecting}
-El botón {KEY:InventorySelect} intercambiará cualquier ranura que tenga en su mano activa, junto con la ranura que haya seleccionado con {COLORRED:Mouse Wheel} si desea usar las teclas de acceso rápido en lugar de hacerlo con el mouse.
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>AirlockDevicePage</Key>
-      <Title>Dispositivos de esclusas de aire</Title>
-      <Text>Colocando un {THING:CircuitboardAirlockControl} en una {THING:StructureConsole} se pueden conectar varios dispositivos a él, para hacer una esclusa que funcione.
-      
-{HEADER:List of Airlock Devices}
-Los siguientes dispositivos pueden conectarse y utilizarse en el sistema de control de la esclusa del aire:
-{LIST_OF_AIRLOCK_DEVICES}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>LogicUnitPage</Key>
-      <Title>Unidades Lógicas</Title>
-      <Text>{HEADER:List of Logic Units} 
-      
-      {LIST_OF_LOGIC_UNITS}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>SlotLeftHand</Key>
       <Title>Ranuras de mano</Title>
       <Text>Tus manos son ranuras especiales. Tienes una mano activa en cualquier momento, que es la mano que está siendo usada por tu {COLORRED:Primary Action}. Para cambiar la mano activa, pulse {KEY:SwapHands}. Puede interactuar con su mano activa pulsando {KEY:ActiveHandSlot} que abrirá y cerrará el contenido de su mano activa. Como siempre, puede usar {KEY:MouseControl} para abrir el ratón e interactuar de esa manera. Para obtener más información, consulte la sección {LINK:InventoryPage:Inventory}.</Text>
@@ -368,6 +254,14 @@ Presión de la masa fundida {POS:300}{0}</Text>
       <Key>LogicTransmitHeaderTemplate</Key>
       <Text>{HEADER:Constructed From}
 {LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatorTemplate</Key>
+      <Text>{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ModeStringItemTemplate</Key>
+      <Text>{0}.{POS:100}{1}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ReagentPageTemplate</Key>

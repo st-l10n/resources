@@ -7,113 +7,6 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
-      <Key>Home</Key>
-      <Title>Casa</Title>
-      <Text>Bem-vindo ao sistema interno de ajuda do Stationeers. Com esta ferramenta encontras informações sobre como todos os sistemas funcionam, assim como informações importantes acerca de todas as coisas que existem neste Mundo.
-
-{HEADER:Usar a Ajuda}
-Podes alternar para que esta janela esteja aberta ou fechada usando a tecla {KEY:Help}. Para ativar o cursor do rato enquanto jogas, carrega na tecla {KEY:MouseControl}, isto vai permitir-te clicar nos links dentro do sistema de ajuda.
-
-{HEADER:Inspecionar}
-Se ficares a carregar em {KEY:MouseControl} e {KEY:MouseInspect} e clicares em alguma coisa, podes [i]inspecionar[/i]. Isto abrirá a página relacionada com esse objeto e as suas informações detalhadas.
-
-{HEADER:Topicos Principais}
-{LIST}{LINK:SmeltingPage;Fundição}, {LINK:MiningPage;Minerando}, {LINK:ConstructionPage;Construção}, {LINK:InventoryPage;Inventário}
-{/LIST}
-{HEADER:Guias}
-{LIST}{LINK:GettingStarted;Iniciando}
-{/LIST}
-{HEADER:Outros}
-{LIST}{LINK:GasPage;Gases}, {LINK:ReagentPage;Reagentes}
-{/LIST}
-{HEADER:Itens}
-{LIST}{LINK:ToolPage;Ferramentas}, {LINK:ResourcePage;Recursos}, {LINK:KitPage;Kits}, {LINK:FoodPage;Comida}, {LINK:ClothingPage;Vestuário}, {LINK:AppliancePage;Utensílios}, {LINK:IngotPage;Lingotes}, {LINK:OrePage;Minérios}, {LINK:AlloyPage;Ligas}, {LINK:SuperAlloyPage;Super-Ligas}
-{/LIST}
-{HEADER:Estruturas}
-{LIST}{LINK:DevicePage;Dispositivos}, {LINK:FabricatorPage;Fabricadores}, {LINK:AirlockDevicePage;Dispositivos de Airlock}, {LINK:LogicUnitPage;Unidades Lógicas}
-{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>GettingStarted</Key>
-      <Title>Iniciando</Title>
-      <Text>{HEADER:Bem vindo a um Mundo Novo}
-Se esta é a tua primeira vez então é muito o que tens de aprender. A pressão inicial é muita e pode ser realmente esmagadora para começar. O texto que se segue é apenas um guia geral para seguires. Cada tipo de mundo tem problemas específicos que precisas de resolver, mas aqui terás uma visão geral do que precisarás para te orientar.
-
-{HEADER:Mantendo o teu Fato com Energia}
-A necessidade mais urgente que tens é de recarregar a {THING:ItemBatteryCellLarge} no teu {THING:ItemEvaSuit}. A bateria do fato é usada para a iluminação do teu {THING:ItemSpaceHelmet} (desliga a luz quando não precisas) e também para aquecer o ar interno do fato. Em mundos mais frios isto drena muita energia. Vais precisar de montar um {THING:ItemBatteryCharger} e ligá-lo a uma fonte de energia. Um {THING:StructureSolidFuelGenerator} a funcionar com {THING:ItemCoalOre} ou um {THING:StructureSolarPanel} são boas maneiras de solucionar isto. Numa emergência, retira baterias das {LINK:ToolPage;Ferramentas} para manteres o teu fato a funcionar ou usa um {THING:PortableSolarPanel} para recarregá-las.
-
-{HEADER:Melhorando a Captura de Energia}
-Colocar um {THING:StructureAreaPowerControl} com uma {THING:ItemBatteryCell} inserida, entre a fonte de energia e os teus carregadores vai ajudar-te muito. Isto porque a fonte de energia está a gerar mais energia do que a {THING:ItemBatteryCharger} consegue armazenar e é desperdiçada. Adicionalmente, embora possas orientar o {THING:StructureSolarPanel} manualmente, automatizá-lo de modo a seguir o sol vai ajudar-te muito. Podes usar {LINK:LogicUnitPage;Unidades Lógicas} para ajudar-te a conseguir isto.
-
-{HEADER:Gerindo o teu Oxigénio}
-O teu {THING:ItemEvaSuit} e o teu {THING:ItemSpaceHelmet} formam um escudo de proteção contra os elementos. O {THING:ItemEvaSuit} precisa de um {THING:ItemGasCanisterOxygen} para providenciar-te {GAS:Oxygen} puro. Toma atenção à quantidade de gás no cilindro e podes o reabastecer usando o {THING:DynamicGasCanisterOxygen} que recebeste com o equipamento inicial. Existe um marcador de perigo indicando o compartimento em que o cilindro pode ser inserido para reabastecimento.
-
-{HEADER:Fundição Básica}
-Após teres algum sistema de geração de energia criado, precisas de começar a obter mais recursos. Dá uma volta {LINK:MiningPage;Minerando} para obteres {LINK:OrePage;Minério}. Monta uma {THING:StructureArcFurnace} e liga-a na saída do teu {THING:StructureAreaPowerControl}. Isto irá {LINK:SmeltingPage;Fundir} {LINK:OrePage;Minérios} básicos, como por exemplo {THING:ItemIronOre}, {THING:ItemSiliconOre} e muitas outras que não sejam {LINK:AlloyPage;Ligas}.
-
-{HEADER:Produção Básica}
-Agora que tens {LINK:IngotPage;Lingotes} podes inseri-los nos {LINK:FabricatorPage;Fabricadores} como recursos. Constrói um {THING:StructureAutolathe} a partir do {THING:ItemKitAutolathe} que foi providenciado com as caixas no início do jogo.
-
-{HEADER:Trocando os teus Filtros}
-Ao respirares {GAS:Oxygen} também exalas {GAS:CarbonDioxide}, por isso precisas de um {THING:ItemGasFilterCarbonDioxide} no compartimento {SLOT:Filter} do fato. Este vai sendo usado e precisarás de produzir novos num {THING:StructureHydraulicPipeBender}. Este último pode ser feito com um {THING:ItemKitHydraulicPipeBender} no {THING:StructureAutolathe}.
-
-{HEADER:Montar uma Casa de Vidro}
- Vais precisar de um pequeno espaço fechado para montares uma {LINK:HydroponicsPage;Hidroponia} de modo a permitir que faças {LINK:FoodPage;Comida}. Não o faças demasiado grande pois será mais difícil a sua pressurização. Produz vários {THING:} usando a variante do kit {THING:ItemKitWallIron} de modo a permitir a sua exposição ao sol. Assegura que o seu acesso seja feito por uma {LINK:AirlockPage;Airlock} automática ou manual. Lembra-te que podes abrir ou fechar portas que não estejam ligadas à energia usando um {THING:ItemCrowbar}.
-
-{HEADER:Pressurizar a tua Casa de Vidro}
-Assim que tenhas uma área fechada, {LINK:MiningPage;Minera} algum {THING:ItemOxite} e derrete-os até teres cerca de 100 kPa de pressão na tua área de plantação. Adiciona algum {GAS:CarbonDioxide} na atmosfera. Podes fazer isto facilmente se retirares o tanque de desperdícios do teu {THING:ItemEvaSuit} para as tuas mãos, abrires e voltares a colocá-lo no sítio. Isto irá libertar o {GAS:CarbonDioxide} que foi filtrado da tua respiração para o ambiente. As {LINK:PlantPage;Plantas} o usarão para respirar.
-
-{HEADER:Plantação}
-Coloca o {THING:DynamicHydroponics} que foi providenciado, dentro da tua casa de vidro. Ele tem um {THING:ItemGasCanisterWater} para dar {GAS:Water} ás plantas. Agora começa a plantar usando uma {THING:ItemPotato} que encontras nas caixas de início. Planta apenas uma e verifica o seu desenvolvimento antes de plantares outras. Elas requerem luz do sol, calor e uma pequena quantidade de {GAS:CarbonDioxide} para sobreviverem. 
-
-{HEADER:Fundição Avançada}
-O {THING:StructureArcFurnace} permite a fundição apenas de {LINK:OrePage;Minérios} simples, e para fazeres componentes mais avançados vais precisar de usar métodos mais complexos para fundir {LINK:AlloyPage;Ligas}. Estes são feitos numa {THING:StructureFurnace}, utilizando a correcta {LINK:PressurePage;Pressão}, {LINK:TemperaturePage;Temperatura} e os {LINK:ReagentPage;Reagentes} na quantidade certa. Por exemplo, para fazer {THING:ItemSteelIngot} precisas de uma parte de {REAGENT:Coal} e três partes de {REAGENT:Iron}.
-
-Podes inserir diretamente {LINK:IcePage;gelos} na entrada superior. Se não houver atmosfera para os derreter, carrega no botão {LOGICTYPE:Activate} para serem esmagados. O gelo derreterá automaticamente se houver gás suficiente à temperatura certa no seu interior. Usa uma mistura de {THING:ItemOxite} e de {THING:ItemVolatiles} para começar o fogo interno, embora isto aumente drasticamente a pressão interna.
-
-Assim que atinja a temperatura certa, insere os minérios a serem fundidos - mas toma atenção às quantidades, ou serão exportados resíduos como {THING:ItemReagentMix} que terão de ser separados numa {THING:StructureCentrifuge}. Para exportar um produto, puxa a alavanca {LOGICTYPE:Open}.
-
-Mais avançadas {LINK:SuperAlloyPage;Super-Ligas} podem ser fundidas na {THING:StructureAdvancedFurnace}. Estas têm requisitos muito explícitos, sendo muito difícil de fundir, mas necessário para fabricação bastante avançada.
-{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>InventoryPage</Key>
-      <Title>Inventário</Title>
-      <Text>Todas as coisas no jogo podem ter vários compartimentos. Estes compartimentos podem ter categorias, permitindo apenas que certas coisas sejam inseridos neles. Existem vários atalhos de teclas para aceder a estes compartimentos que estão na tua personagem, assim como o {KEY:HelmetSlot} para aceder ao compartimento {SLOT:Helmet}.
-
-{HEADER:Janela de Inventário}
-Alguns compartimentos terão os seus espaços próprios. Para interagir com os conteúdos de um compartimento podes usar teclas de atalho para abrir a sua janela de conteúdo, ou usar {KEY:MouseControl} e usar o rato para clicar. Agora a janela daquele compartimento está aberta e podes interagir com o seu ele e as suas definições. As janelas podem ser reposicionadas arrastando-as pela sua barra superior.
-
-{HEADER:Equipando rapidamente}
-Podes carregar e manter pressionada uma tecla de atalho para rapidamente equipares, desequipares ou trocares um compartimento. Por exemplo, se tiveres um {THING:ItemSpaceHelmet} nas mãos, e nada no compartimento {SLOT:Helmet} e carregares na tecla {KEY:HelmetSlot} por um segundo ele será transferido para esse compartimento.
-
-{HEADER:Arrastar e largar}
-Alternativamente, se manteres pressionada a tecla {KEY:MouseControl} podes arrastar e largar. Podes arrastar e largar entre compartimentos, janelas e até mesmo entre o mundo e os compartimentos no mundo.
-
-{HEADER:Deixando cair}
-Podes deixar cair um item usando o rato, usando a tecla {KEY:MouseControl} e arrastando e largando-o no mundo ou podes carregar na tecla {KEY:Drop}.
-
-{HEADER:Selecionando}
-O botão {KEY:InventorySelect} irá trocar qualquer coisa que tenham selecionado na tua mão ativa com qualquer compartimento que tenhas selecionado com o {COLORRED:Mouse Wheel}, isto se quiseres usar o atalho de teclas ao invés de usar o rato. </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>AirlockDevicePage</Key>
-      <Title>Dispositivos de Airlock</Title>
-      <Text>Colocando um {THING:CircuitboardAirlockControl} numa {THING:StructureConsole} podes conectar vários dispositivos a ele, de modo a montar uma airlock funcional.
-      
-{HEADER:Lista de Dispositivos do Airlock}
-Os seguintes dispositivos podem ser conectados e usados por um sistema de controlo de airlock:
-{LIST_OF_AIRLOCK_DEVICES}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>LogicUnitPage</Key>
-      <Title>Unidades Lógicas</Title>
-      <Text>{HEADER:Lista de Unidades Lógicas}
-{LIST_OF_LOGIC_UNITS}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>SlotLeftHand</Key>
       <Title>Compartimentos das Mãos</Title>
       <Text>As tuas mãos são compartimentos especiais, Tu tens sempre uma mão ativa, que é a mão que está a ser usada pela {COLORRED:Primary Action}. para mudar de mão ativa, carrega na tecla {KEY:SwapHands}. A tua mão ativa pode ser interagida carregando na tecla {KEY:ActiveHandSlot} a qual irá abrir e fechar os conteúdos nessa mão ativa. Como sempre, podes usar o {KEY:MouseControl} para fazeres aparecer o cursor do rato e interagir desse modo. Para mais informações, vê a secção {LINK:InventoryPage;Inventário}.</Text>
@@ -335,6 +228,10 @@ Pressão de Derretimento {POS:300}{0}</Text>
       <Text>
         {HEADER:Lista de Niveis de Estruturas}
       </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatorTemplate</Key>
+      <Text>{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>LogicTypeHeaderTemplate</Key>

@@ -7,83 +7,6 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
-      <Key>GettingStarted</Key>
-      <Title>Inizio</Title>
-      <Text>{HEADER:Benvenuto in un nuovo mondo}
-Se questa è la tua prima volta allora avrai molto da imparare tutto insieme. La pressione iniziale su di te sarà grande e può sopraffare l&apos;avvio. Qui di seguito ci sono alcune linee guida generali per prendere il via. Ogni tipo di mondo ha diversi problemi che devi affrontare, ma ciò che segue dovrebbe darti una panoramica generale su quello che dovrai gestire.
-
-{HEADER:Tenere carica la tua Tuta}
-Il tuo bisogno più urgente è ricaricare la {THING:ItemBatteryCellLarge} della tua {THING:ItemEvaSuit}. La batteria nella tuta è utilizzata per alimentare le luci del tuo {THING:ItemSpaceHelmet} (spengile quando non in uso) e per riscaldare la tua aria interna. Su mondi più freddi questa funzione consumerà molta energia. Dovrai piazzare un {THING:ItemBatteryCharger} e collegarlo ad una fonte di elettricità, il  {THING:StructureSolidFuelGenerator}, alimentato con {THING:ItemCoalOre}, oppure il {THING:StructureSolarPanel} sono un buon inizio per gestire la cosa. In caso di emergenza togli le batterie dai tuoi {LINK:ToolPage;Attrezzi} così da avere sempre la tua tuta alimentata oppure utilizza il {THING:PortableSolarPanel} fornito per caricarle.
-
-{HEADER: Gestire la produzione elettrica}
-Piazzare un {THING:StructureAreaPowerControl} con una {THING:ItemBatteryCell} inserita, tra la fonte di energia elettrica e i tuoi caricatori, aiuterà molto. Questo perché la fonte di elettricità starà probabilmente generando una quantità di potenza maggiore di quella che il  {THING:ItemBatteryCharger} può consumare che quindi viene sprecata. Inoltre, puoi orientare  manualmente il {THING:StructureSolarPanel}, ma automatizzarlo per seguire il sole ti aiuterà molto. Puoi usare {LINK:LogicUnitPage;Unità Logiche} per aiutarti a fare ciò.
-
-{HEADER:Gestire il tuo Ossigeno}
-La tua {THING:ItemEvaSuit} e il tuo {THING:ItemSpaceHelmet} formano una barriera protettiva dagli elementi. La {THING:ItemEvaSuit} necessita di una {THING:ItemGasCanisterOxygen} per rifornirti di puro {GAS:Oxygen}. Tieni d&apos;occhio la quantità di gas nella bombola, che puoi riempire nuovamente utilizzando il {THING:DynamicGasCanisterOxygen} fornito con il tuo gear iniziale. È presente un indicatore di &quot;rischio&quot; che ti indica in quale slot devi inserire la bombola per riempirla. 
-
-{HEADER:Smelting base}
-Una volta che avrai attivato la generazione di elettricità avrai bisogno di più risorse. Esci a  {LINK:MiningPage;Minare} per ottenere {LINK:OrePage;Minerali}. Piazza un {THING:StructureArcFurnace} e connettilo al tuo {THING:StructureAreaPowerControl}. Questo ti permetterà di {LINK:SmeltingPage;fondere} {LINK:OrePage;minerali} base, come il {THING:ItemIronOre}, {THING:ItemSiliconOre}, e altre non {LINK:AlloyPage;leghe}.
-
-{HEADER:Fabbricazione di base}
-Adesso che avrai {LINK:IngotPage;lingotti} puoi inserirli nei {LINK:FabricatorPage;fabbricatori} come materiali grezzi. Costruisci il {THING:StructureAutolathe} con il {THING:ItemKitAutolathe} fornito con le casse iniziali. 
-
-{HEADER:Rimpiazzare i tuoi filtri}
-Mentre inspiri {GAS:Oxygen} espirerai anche {GAS:CarbonDioxide}, avrai quindi bisogno di un  {THING:ItemGasFilterCarbonDioxide} nel tuo slot {SLOT:Filter}. Si usureranno con il tempo, dovrai quindi costruirne di nuovi con la {THING:StructureHydraulicPipeBender}. Puoi produrne utilizzando una {THING:ItemKitHydraulicPipeBender} dal {THING:StructureAutolathe}.
-
-{HEADER:Costruisci una serra}
-Ti servirà una piccola area chiusa per installare un sistema {LINK:HydroponicsPage;idroponico} così da permetterti di produrre {LINK:FoodPage;cibo}. Non crearla troppo grande in quanto sarà poi più difficile da pressurizzare. Costruisci molte {THING:} usando una variante del kit {THING:ItemKitWallIron}, per permettere alla luce del sole di entrare. Assicurati che l&apos;accesso sia gestito utilizzando una {LINK:AirlockPage;camera di decompressione} automatizzata o una manuale.  Ricordati che puoi aprire o chiudere le porte non alimentate con il {THING:ItemCrowbar}.
-
-{HEADER:Pressurizza la serra}
-Una volta che avrai chiuso l&apos;area, {LINK:MiningPage;mina} un po&apos; di {THING:ItemOxite} e scioglila fino ad ottenere circa 100 kPa di pressione nella tua area di coltivazione. Aggiungi un po&apos; di {GAS:CarbonDioxide} all&apos;atmosfera. Puoi farlo facilmente prendendo nelle tue mani il serbatoio rifiuti dalla tua {THING:ItemEvaSuit}, aprirlo e chiuderlo, e poi rimetterlo a posto. Questo rilascerà {GAS:CarbonDioxide} filtrata dalla tua respirazione nell&apos;ambiente. Le {LINK:PlantPage;piante} la utilizzeranno per respirare. 
-
-{HEADER:Coltivare piante}
-Porta il {THING:DynamicHydroponics} fornito nella tua serra. Ha un {THING:ItemGasCanisterWater} per fornire alle piante {GAS:Water}. Ora pianta una  {THING:ItemPotato} prendendone una dalle casse di rifornimenti. Piantane una e verifica che stia crescendo prima di piantare le altre. Hanno bisogno di luce solare, calore e una piccola quantità di {GAS:CarbonDioxide} per sopravvivere.
-
-{HEADER:Smelting avanzato}
-Il {THING:StructureArcFurnace} ti permetterà di fondere semplici {LINK:OrePage;minerali}, e per costruire componenti più avanzati avrai bisogno di utilizzare metodi di fusione più complessi per produrre {LINK:AlloyPage;leghe}. Queste vengono prodotte in una {THING:StructureFurnace}, raggiungendo la giusta {LINK:PressurePage;pressione}, {LINK:TemperaturePage;temperatura}, e il giusto rapporto di {LINK:ReagentPage;reagenti}. Ad esempio per produrre un {THING:ItemSteelIngot} avrai bisogno di una parte di {REAGENT:Iron} e tre parti di {REAGENT:Coal}.
-
-Puoi inserire direttamente del {LINK:IcePage;ghiaccio} da sopra. Se non c&apos;è atmosfera all&apos;interno per scioglierlo, premi il bottone {LOGICTYPE:Activate} per frantumarlo. Il ghiaccio si scioglierà automatica se c&apos;è abbastanza gas alla giusta temperatura all&apos;interno Usa un mix di {THING:ItemOxite} e {THING:ItemVolatiles} per accendere il fuoco all&apos;interno, anche se questo innalzerà la pressione interna in modo considerevole. 
-
-Una volta raggiunta la giusta temperatura, inserisci i minerali per fonderli - ma fai attenzione al rapporto di minerali o dovrai inserire gli scarti, che verranno fuori come {THING:ItemReagentMix}, in una {THING:StructureCentrifuge} per essere nuovamente separati. Per ottenere il prodotto, tira la maniglia  {LOGICTYPE:Open}.
-{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>InventoryPage</Key>
-      <Title>Inventario</Title>
-      <Text>Tutte le cose nel gioco possono avere vari slot. Questi slot potrebbero essere slot di classe, permettendo solo alcuni oggetti di poter essere inseriti dentro questi slot. Ci sono varie hotkeys per accedere agli slot sul tuo personaggio, come {KEY:HelmetSlot} per accedere al tuo {SLOT:Helmet}.
-
-{HEADER:Finestra inventario}
-Alcuni slot avranno slot a loro volta. Per interagire con il contenuto di uno slot puoi utilizzare la giusta hotkey per aprirne la finestra, oppure tenere premuto {KEY:MouseControl} e usare il mouse per cliccarci. Ora la finestra per quello slot è aperta e puoi interagire con i suoi slot e settaggi. Le finestre sono riposizionabili trascinandole dalla barra titolo. 
-
-{HEADER:Equipaggiamento rapido}
-Puoi tenere premuta una hotkey per equipaggiare, rimuovere, o scambiare il contenuto di uno slot. Per esempio, se avessimo il {THING:ItemSpaceHelmet} nelle nostre mani, e niente equipaggiato nel nostro {SLOT:Helmet}, tenendo premuto {KEY:HelmetSlot} per un secondo questo verrebbe trasferito nello slot. 
-
-{HEADER:Trascina e rilascia}
-Alternativamente, puoi tenere premuto {KEY:MouseControl} così che tu possa anche trascinare e rilasciare. Puoi trascinare e rilasciare tra slot, finestre e anche tra il mondo e gli slot presenti nel mondo. 
-
-{HEADER:Buttare}
-Puoi buttare un oggetto usando il mouse, tramite {KEY:MouseControl} trascinandolo e rilasciandolo nel mondo oppure puoi premere {KEY:Drop}.
-
-{HEADER:Selecting}
-Il tasto {KEY:InventorySelect} scambierà qualsiasi cosa sia presente nello slot della tua mano attiva, con un qualsiasi slot che avrai selezionato usando {COLORRED:Mouse Wheel} se vuoi utilizzare le hotkeys invece di effettuarlo con il mouse.
-</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>AirlockDevicePage</Key>
-      <Title>Dispositivi per camere di decompressione</Title>
-      <Text>Piazzare una {THING:CircuitboardAirlockControl} in una {THING:StructureConsole} ti permette di collegare vari dispositivi, in modo da creare una camera di decompressione funzionante.
-
-{HEADER:Lista dei dispositivi per camera di decompressione}
-I seguendi dispositivi possono essere collegati, ed utilizzati, dal sistema di controllo della camera di decompressione:
-{LIST_OF_AIRLOCK_DEVICES}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>LogicUnitPage</Key>
-      <Title>Unità logiche</Title>
-      <Text>{HEADER:Lista Unità Logiche}
-{LIST_OF_LOGIC_UNITS}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>SlotLeftHand</Key>
       <Title>Slot delle mani</Title>
       <Text>Le tue mani sono slot speciali. Puoi avere una mano attiva alla volta, cioè la mano che è attualmente usata da {COLORRED:Primary Action}. Per scambiare la mano attiva, premi {KEY:SwapHands}. Puoi interagire con la tua mano attiva premendo {KEY:ActiveHandSlot}, che aprirà e chiuderà ciò che è contenuto in essa. Come sempre, puoi utilizzare {KEY:MouseControl} per utilizzare il mouse per interagire. Per maggiori informazioni, vedi la sezione {LINK:InventoryPage;Inventario}.</Text>
@@ -284,6 +207,10 @@ Pressione di fusione {POS:300}{0}</Text>
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>CreatorTemplate</Key>
+      <Text>{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>CreatedGasesTemplate</Key>
       <Text>
 NEXTPREVIOUS
@@ -294,6 +221,10 @@ NEXTPREVIOUS
       <Key>CreatedReagentTemplate</Key>
       <Text>{HEADER:Reagenti}
 {LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ModeStringItemTemplate</Key>
+      <Text>{0}.{POS:100}{1}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ReagentPageTemplate</Key>

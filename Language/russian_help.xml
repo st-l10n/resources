@@ -7,119 +7,6 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
-      <Key>Home</Key>
-      <Title>Начало</Title>
-      <Text>Добро пожаловать в справочную систему Stationeers. С помощью этого инструмента вы можете узнать информацию о том, как работают все системы, а также важную информацию обо всех вещах в мире.
-
-{HEADER:Использование справки}
-Это окно можно открывать и закрывать с помощью клавиши {KEY:Help}. Чтобы включить курсор мыши во время игры, удерживайте клавишу {KEY:MouseControl}, это позволит вам щелкать ссылки в справочной системе.
-
-{HEADER:Изучение}
-Если вы удерживаете {KEY:MouseControl} и {KEY:MouseInspect} и нажмете на то-что, вы можете [i]осмотреть[/i] предмет. Это откроет справочную систему, связанную с этим объектом, и предоставит вам подробную информацию.
-
-{HEADER:Ключевые темы}
-{LIST}{LINK:SmeltingPage;Выплавка }, {LINK:MiningPage;Горное дело}, {LINK:ConstructionPage;Строительство}, {LINK:InventoryPage;Инвентарь}
-{/LIST}
-{HEADER:Путеводитель}
-{LIST}{LINK:GettingStarted;Основы}
-{/LIST}
-{HEADER:Разное}
-{LIST}{LINK:GasPage;Газы}, {LINK:ReagentPage;Реагенты}
-{/LIST}
-{HEADER:Предметы}
-{LIST}{LINK:ToolPage;Инструменты}, {LINK:ResourcePage;Ресурсы}, {LINK:KitPage;Наборы}, {LINK:FoodPage;Еда}, {LINK:ClothingPage;Экипировка}, {LINK:AppliancePage;Бытовая техника}, {LINK:IngotPage;Слитки}, {LINK:OrePage;Руды}, {LINK:AlloyPage;Сплавы}, {LINK:SuperAlloyPage;Суперсплавы}
-{/LIST}
-{HEADER:Сооружения}
-{LIST}{LINK:DevicePage;Устройства}, {LINK:FabricatorPage;Фабрикаторы}, {LINK:AirlockDevicePage;Шлюзовые устройства}, {LINK:LogicUnitPage;Логические чипы}
-{/LIST}
-{HEADER:Путешествие по миру}
-{LIST}{LINK:RocketShuttleModulesHelpPage;Помощь по ракетным модулям}, {LINK:TravelPage;Путешествия}, {LINK:RocketShuttlePage;Ракетные модули}
-{/LIST}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>GettingStarted</Key>
-      <Title>Основы</Title>
-      <Text>{HEADER:Добро пожаловать в новый мир}
-Если это ваш первый раз, то сразу многому можно научиться. По началу многое будет не известно и начинать будет очень сложно. Ниже приведены общие рекомендации для начала работы. У каждого типа мира есть свои проблемы, с которыми вам нужно столкнуться, но следующая информация должна дать вам общее представление о том, что нужно решить.
-
-{HEADER:Держите свой костюм заряженным}
-Самое главное - это зарядить {THING:ItemBatteryCellLarge} в вашем {THING:ItemEvaSuit}. Аккумулятор костюма используется для питания вашего фонаря в {THING:ItemSpaceHelmet} (выключайте его, когда он не используется), а также для подогрева внутреннего воздуха. В более холодных мирах это требует много энергии. Вам нужно будет разместить {THING:ItemBatteryCharger} и подключить его к источнику питания, {THING:StructureSolidFuelGenerator} используюущий {THING:ItemCoalOre} или {THING:StructureSolarPanel} являются хорошим началом для решения этой проблемы. В экстренной ситуации достаньте батарейки из своих {LINK:ToolPage;Инструментов}, и используйте их для поддержания вашего костюма, или воспользуйтесь {THING:StructureSolarPanel} для подзарядки.
-
-{HEADER:Улучшение накопления энергии}
-Разместите {THING:StructureAreaPowerControl} с вставленным {THING:ItemBatteryCell} между источником питания и зарядным устройством. Это связано с тем, что источник питания, генерирует больше энергии, чем может использовать {THING:ItemBatteryCharger}, и она расходуется впустую. Также вы можете вручную ориентировать {THING:StructureSolarPanel}, но автоматизация его следования за солнцем очень поможет вам. Вы можете использовать {LINK:LogicUnitPage;Логические чипы}, которые помогут в этом.
-
-{HEADER:Управление вашим кислородом}
-Ваши {THING:ItemEvaSuit} и {THING:ItemSpaceHelmet} образуют защитную оболочку. {THING:ItemEvaSuit} требует {THING:ItemGasCanisterOxygen}, чтобы поставлять вам чистый {GAS:Oxygen}. Следите за количеством газа в баллоне, вы можете пополнить его, используя {THING:DynamicGasCanisterOxygen}, прикрепленный на стартовом корабле. Существует маркер «опасности» на {THING:DynamicGasCanisterOxygen}, указывающий на место, в которое можно вставить баллон, для наполнения.
-
-{HEADER:Основы выплавки}
-Как только у вас появится базовая энергия, вы должны начать получать больше ресурсов. Отправляйтесь {LINK:MiningPage;копать}, и находить базовые {LINK:OrePage;руды}. Поместите {THING:StructureArcFurnace} и подключите ее к {THING:StructureAreaPowerControl}. Печь будет {LINK:SmeltingPage;плавить} основные {LINK:OrePage;руды}, такую как {THING:ItemIronOre}, {THING:ItemSiliconOre} и другие не {LINK:AlloyPage;сплавы}.
-
-{HEADER:Основы изготовления}
-Теперь, когда у вас есть {LINK:IngotPage;слитки}, вы можете использовать их в {LINK:FabricatorPage;сборочных автоматах} в качестве ресурса. Постройте {THING:StructureAutolathe} из {THING:ItemKitAutolathe}, предоставленного в стартовых ящиках.
-
-{HEADER:Замена ваших фильтров}
-Когда вы вдыхаете {GAS:Oxygen}, вы выдыхаете {GAS:CarbonDioxide}, поэтому вам необходим {THING:ItemGasFilterCarbonDioxide} в вашем слоте {SLOT:Filter}. Они со временем изнашиваются, и нужно будет создавать новые на {THING:StructureHydraulicPipeBender}. Его можно сделать из {THING:ItemKitHydraulicPipeBender} в {THING:StructureAutolathe}.
-
-{HEADER:Строительство Cтеклянного дома}
-Для использования {LINK:HydroponicsPage;гидрапоники} вам потребуется небольшая закрытая область, в которой вы можете вырастить {LINK:FoodPage;еду}. Не делайте комнату слишком большую. Сделайте много окон, используя вариант из комплектов {THING:ItemKitWallIron}, чтобы впустить солнечный свет. Убедитесь, что вход управляется с помощью автоматического {LINK:AirlockPage;воздушного шлюза} или ручного. Помните, что вы можете открывать и закрывать двери без питания с помощью {THING:ItemCrowbar}.
-
-{HEADER:Герметизация Стеклянного дома}
-Как только вы закроете комнату, {LINK:MiningPage;добудьте} немного {THING:ItemOxite} и растопите его, пока у вас не будет примерно 100 кПа давления в вашей зоне для выращивания. Затем добавьте немного {GAS:CarbonDioxide} в атмосферу. Вы можете легко это сделать, взяв свой баллон для отходов из своего {THING:ItemEvaSuit} в свои руки, открыть его, и после закрыть и вернуть в скафандр. Это высвободит фильтрованный {GAS:CarbonDioxide} из вашего дыхания в окружающую среду. {LINK:PlantPage;Растения} будут использовать его для дыхания.
-
-{HEADER:Выращивание растений}
-Возьмите с собой {THING:DynamicHydroponics} в новый стеклянный дом. У него есть {THING:ItemGasCanisterWater} для снабжения растений {GAS:Water}. Теперь сажайте, используя {THING:ItemPotato} из стартовых ящиков. Посадите сначала один, и убедитесь, что он растет, прежде чем использовать другие. Они требуют солнечного света, тепла, и небольшое количество {GAS:CarbonDioxide}, чтобы выжить.
-
-{HEADER:Продвинутая плавка}
-{THING:StructureArcFurnace} позволяет вам переплавить только простую {LINK:OrePage;руду}, а для создания более сложных сплавов вам потребуется использовать сложные методы для выплавки {LINK:AlloyPage;сплавов}. Это делается в {THING:StructureFurnace} путем достижения правильного значения {LINK:PressurePage;давления}, {LINK:TemperaturePage;температуры}, и {LINK:ReagentPage;реагентов}. Например, чтобы сделать {THING:ItemSteelIngot}, вам понадобится три части {REAGENT:Iron} железа и одна часть {REAGENT:Coal} угля.
-
-Вы можете напрямую закинуть {LINK:IcePage;лёд} в верхнюю часть. Если нет давления для плавления, нажмите кнопку {LOGICTYPE:Activate}, чтобы расплавить. Лед автоматически растает, если в печи будет достаточно газа нужной температуры. Используйте смесь {THING:ItemOxite} и {THING:ItemVolatiles}, чтобы разчечь огонь внутри, только это резко увеличит давление внутри.
-
-Как только печь достигнет нужной температуры, поместите необходимые руды в нее, чтобы расплавить их, но следите за тем, чтобы ваши сплавы или отходы не вышли в виде {THING:ItemReagentMix}, которые нужно будет отсортировать в {THING:StructureCentrifuge}. Чтобы забрать слиток, потяните за ручку {LOGICTYPE:Open}.
-
-Еще более сложный {LINK: SuperAlloyPage;суперсплав} можно выплавлять на {THING:StructureAdvancedFurnace}. Они имеют очень жесткие требования к плавке и чрезвычайно сложны, но необходимы для продвинутого производства.
-
-{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>InventoryPage</Key>
-      <Title>Инвентарь</Title>
-      <Text>Все вещи в игре могут иметь разные места установки. Эти места могут иметь классы слотов, позволяя только определенным предметам использовтаь эти слоты. Существуют различные горячие клавиши для доступа к слотам вашего персонажа, например, {KEY:HelmetSlot} для доступа к вашему {SLOT:Helmet}.
-
-{HEADER:Окно инвентаря}
-Некоторые слоты будут иметь внутренние слоты. Чтобы взаимодействовать с содержимым слота, используйте горячую клавишу и откройте его окно, или удерживайте {KEY:MouseControl} и используйте мышь и щелкните по нему. Теперь окно этого предмета открыто, и вы можете взаимодействовать с его внутренними слотами и настройками. Окна можно перемещать, нажав на их строку заголовка.
-
-{HEADER:Быстрая экипировка}
-Вы можете удерживать горячую клавишу, чтобы быстро надеть, снять или заменить слот. Например, если в наших руках был {THING:ItemSpaceHelmet}, а в нашем слоте для {SLOT:Helmet} ничего не было, и мы удерживали {KEY:HelmetSlot} в течение секунды, он был бы перенесся в слот.
-
-{HEADER:Перетащить}
-Кроме того, если вы удерживаете {KEY:MouseControl}, вы также можете перетащить предметы. Вы можете перетаскивать предметы между слотами, окнами, даже между миром и слотами в мире.
-
-{HEADER:Выбросить}
-Вы можете удалить предмет мышью, с помощью {KEY:MouseControl} и после перетащить его в мир или можете нажать {KEY:Drop}.
-
-{HEADER:Выбирать}
-Кнопка {KEY:InventorySelect} заменит любой выбранный вами предмет в вашей активной руке другим, который вы выбрали с помощью {COLORRED:Mouse Wheel}, еще вы можете использовать горячие клавиши вместо мыши.
-</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>AirlockDevicePage</Key>
-      <Title>Устройства для шлюза</Title>
-      <Text>Поместив {THING:CircuitboardAirlockControl} в {THING:StructureConsole}, вы можете подключить к нему различные устройства и сделать рабочий шлюз.
-
-{HEADER:Список устройств для шлюза}
-Следующие устройства могут быть подключены и использованы платой управления шлюзом:
-{LIST_OF_AIRLOCK_DEVICES}
-</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>LogicUnitPage</Key>
-      <Title>Логические чипы</Title>
-      <Text>{HEADER:Список логических чипов}
-{LIST_OF_LOGIC_UNITS}
-</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>SlotLeftHand</Key>
       <Title>Слоты в руках</Title>
       <Text>Ваши руки - это специальные слоты. В любой момент у вас есть одна активная рука, которая используется вашей {COLORRED:Primary Action}. Чтобы поменять активную руку, нажмите {KEY:SwapHands}. С вашей активной рукой можно взаимодействовать, нажав {KEY:ActiveHandSlot}, которая откроет и закроет содержимое предмета в активной руке. Как всегда, Вы можете использовать {KEY:MouseControl}, чтобы вызвать мышь и взаимодействовать с предметом. Для получения дополнительной информации см. Раздел {LINK:InventoryPage;Инвентарь}.
@@ -402,6 +289,10 @@
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>CreatorTemplate</Key>
+      <Text>{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>LogicTypeHeaderTemplate</Key>
       <Text>{HEADER:Логика}{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
@@ -418,6 +309,10 @@
       <Key>CreatedReagentTemplate</Key>
       <Text>{HEADER:Реагенты}
 {LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ModeStringItemTemplate</Key>
+      <Text>{0}.{POS:100}{1}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ReagentPageTemplate</Key>

@@ -7,117 +7,6 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
-      <Key>Home</Key>
-      <Title>主页</Title>
-      <Text>欢迎使用Stationeers的内置帮助系统。 这个工具可帮助你知晓游戏中所有系统的工作原理以及在行星上求生的重要信息。
-      
-{HEADER:使用帮助}
-您可以按{KEY:Help}键打开或是关闭此窗口。要在游戏时启用鼠标光标，请按住{KEY:MouseControl}键，这样可以让你单击帮助系统中出现的链接。
-
-{HEADER:检查}
-如果你按住 {KEY:MouseControl} 和 {KEY:MouseInspect}然后单击某些东西就可以对其进行 [i]检查[/i] 。这将打开帮助系统中与该物品相关的页面，为您提供关于此物品的详细信息。
-
-{HEADER:主要内容}
-{LIST}{LINK:SmeltingPage;熔炼}, {LINK:MiningPage;采矿}, {LINK:ConstructionPage;建造},{LINK:InventoryPage;库存}
-{/LIST}
-{HEADER:指南}
-{LIST}{LINK:GettingStarted;入门}
-{/LIST}
-{HEADER:其他}
-{LIST}{LINK:GasPage;气体}, {LINK:ReagentPage;化学原料}
-{/LIST}
-{HEADER:物品}
-{LIST}{LINK:ToolPage;工具}, {LINK:ResourcePage;资源}, {LINK:KitPage;套件}, {LINK:FoodPage;食物}, {LINK:ClothingPage;服装}, {LINK:AppliancePage;小型设备}, {LINK:IngotPage;锭块}, {LINK:OrePage;矿石}, {LINK:AlloyPage;合金}, {LINK:SuperAlloyPage;超级合金}
-{/LIST}
-{HEADER:建设}
-{LIST}{LINK:DevicePage;设备}, {LINK:FabricatorPage;装配机器}, {LINK:AirlockDevicePage;气闸设备}, {LINK:LogicUnitPage;逻辑单元}
-{/LIST}
-{HEADER:世界穿梭}
-{LIST}{LINK:RocketShuttleModulesHelpPage;火箭模块帮助}, {LINK:TravelPage;旅行}, {LINK:RocketShuttlePage;火箭模块}
-{/LIST}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>GettingStarted</Key>
-      <Title>开始</Title>
-      <Text>{HEADER:欢迎踏入新大陆}
-如果你是第一-次游玩此游戏。 那你可有得学了。一开始你可能会感到压力山大， 入门更是难上加难。不过没关系，以下列出的指导方针将会告诉你在游戏里应该要干什么。当然在不同的星球上你所要面对的问题是不一样的，所以下列指引只是给出了个大概，不过应该会让你大致了解你需要处理哪些方面的事情。
-      
-{HEADER:让你的宇航服充满电}
-你的当务之急是给你{THING:ItemEvaSuit}里的{THING:ItemBatteryCellLarge}充好电。宇航服电池是用来给你的{THING:ItemSpaceHelmet}灯供电的(不用的时候记得把它关掉)，同时也是加热你内部空气的能源。在寒冷的环境里，这会消耗很多电力。这意味着你需要安装一个{THING:ItemBatteryCharger}并将其连接到一个电源，比如用{THING:ItemCoalOre}作燃料的{THING:StructureSolidFuelGenerator}或是{THING:StructureSolarPanel}，这2种发电方式在初期都能作为很不错的充电电源。在紧急情况下，你甚至要从你的{LINK:ToolPage;工具}中取出电池来让你的宇航服保持供电，或者用{THING:PortableSolarPanel}来为你的电池充电。
-
-{HEADER:提高电力采集}
-在电源和充电器之间放置一个插入{THING:ItemBatteryCell}的{THING:StructureAreaPowerControl}将会有很大帮助。这是因为电源产生的电量可能超过{THING:ItemBatteryCharger}所能容纳的电量，其他多余的产出电量都会被浪费掉。此外，您还可以手动调整{THING:StructureSolarPanel}的方向，但自动化它来实现太阳追踪将对您有很大帮助。你可以使用{LINK:LogicUnitPage;逻辑单元}去实现这个功能。
-      
-{HEADER:氧气管理}
-你的{THING:ItemEvaSuit}和{THING:ItemSpaceHelmet}形成了了一个隔绝外界环境的保护层。{THING:ItemEvaSuit}需要{THING:ItemGasCanisterOxygen}来给你供应纯净的{GAS:Oxygen}。注意罐里的氧气含量，你可以使用着陆器上提供的大型{THING:DynamicGasCanisterOxygen}来补充。
-
-{HEADER:基础熔炼}
-一旦你有了一些基础的发电设施，你就要开始想办法获得更多的资源。出去{LINK:MiningPage;采矿}来获得基础{LINK:OrePage;矿石}。把{THING:StructureArcFurnace}安装并连接到你的{THING:StructureAreaPowerControl}后面。这将开始熔炼基础{LINK:OrePage;矿石}，如{THING:ItemIronOre}、{THING:ItemSiliconOre}和任何其他非{LINK:AlloyPage;合金}矿石。
-
-{HEADER:基础建造}
-现在你有了一些{LINK:IngotPage;锭块}，你可以把它们作为资源插入到{LINK:FabricatorPage;处理设备}。从起始的便携箱中提供的{THING:ItemKitAutolathe}来建造{THING:StructureAutolathe}。
-
-{HEADER:更换你的滤芯}
-当你吸入{GAS:Oxygen}时，你也会呼出{GAS:CarbonDioxide}，所以你需要在你的{SLOT:Filter}槽中安装一个{THING:ItemGasFilterCarbonDioxide}。随着时间的推移，这些东西最终会消耗殆尽，在此之前你需要在{THING:StructureHydraulicPipeBender}上造个新的。这个装置可以从{THING:StructureAutolathe}建造出来。
-
-{HEADER:建造温室}
-你将需要一个小小的密闭区域来设置{LINK:HydroponicsPage;水培}，让你可以生产{LINK:FoodPage;食物}。不要建的太大，太大意味着加压需要更长时间。用{THING:ItemKitWallIron}造多几个{THING:StructureWallIron}，目的是让阳关能照射到植物上。确保在入口处建造自动化的或是手动控制的 {LINK:AirlockPage;气闸} 来管理进出。记得你是可以用{THING:ItemCrowbar}强行打开和关闭未通电的门的。
-
-{HEADER:给你的温室加压}
-一旦你封闭了这片区域，去{LINK:MiningPage;开采}一些{THING:ItemOxite}并放进去让它融化，直到你的种植区有大约100kPa的压强。然后再往空气中加入一些{GAS:CarbonDioxide}。你可以很容易地做到这一点，从你的{THING:ItemEvaSuit}里拿出废气罐，打开它，然后再关上，最后放回到宇航服里。这会把你呼出的{GAS:CarbonDioxide}释放到环境中。{LINK:PlantPage;植物}呼吸作用会用到。
-
-{HEADER:种植}
-把提供的{THING:DynamicHydroponics}带到你的新建的温室里。它内置有{THING:ItemGasCanisterWater}能给植物供应{GAS:Water}。现在从起始箱中拿出{THING:ItemPotato}放到里面开始种植。先种一个，别急，在你继续种其他的作物前确保这个是在正常生长的。作物需要阳光、温暖和少量的{GAS:CarbonDioxide}才能生长。
-
-{HEADER:高级熔炼}
-{THING:StructureArcFurnace}只能帮助你熔炼一些简单的{LINK:OrePage;矿石}，但为了制造更高级的部件，你需要使用更复杂的方法来冶炼{LINK:AlloyPage;合金}。这些都是在{THING:StructureFurnace}中完成的，通过达到正确的{LINK:PressurePage;压力}、{LINK:TemperaturePage;温度}和{LINK:ReagentPage;试剂}配比。例如，要得到{THING:ItemSteelIngot}，你需要按1{REAGENT:Coal}  : 3{REAGENT:Iron}的比例来熔炼。
-
-你可以直接把{LINK:IcePage;冰块}从上面放入。如果没有空气可以融化它们，请按{LOGICTYPE:Activate}按钮将其融掉。如果里面有合适的温度的和足够的空气，冰块会自动融化。也可以在里面燃烧{THING:ItemOxite}和{THING:ItemVolatiles}的混合物，虽然会起火，但这会大大增加里面的压力。
-
-一旦达到合适的温度，放入矿石进行熔炼，但是要注意你的比例要对，否则出来的{THING:ItemReagentMix}就是废渣，这个需要在{THING:StructureCentrifuge}中进行分离。若要导出产物，请拉动{LOGICTYPE:Open}控制杆。
-
-更高级的{LINK:SuperAlloyPage;合金}可以在{THING:StructureAdvancedFurnace}中熔炼。它对熔炼工序的要求非常严格，也很难，但对于那些非常高级的制造工序来说是必要的。</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>InventoryPage</Key>
-      <Title>库存</Title>
-      <Text>游戏中的所有物品都可以放在各种插槽。这些插槽有的可能有固定的分类，只能放入某些特定的物品。有各种快捷键用于访问角色上的插槽，例如{KEY:HelmetSlot}可访问{SLOT:Helmet}.
-
-{HEADER:库存窗口}
-某些插槽里面也有一些它们自己的内容。 要与插槽的内容交互，按下快捷键就能打开其窗口界面，或者按住{KEY:MouseControl}然后用鼠标点击它。现在插槽的窗口界面应该已打开了，您可以与其进行交互了。窗口可以随意拖动，只需把鼠标移到标题栏上然后按住拖动。
-
-{HEADER:快速装备}
-  您可以按住快捷键来快速装备、取消装备或交换装备. 例如, 我们手中现在拿着{THING:ItemSpaceHelmet}, {SLOT:Helmet}插槽是空的, 长按{KEY:HelmetSlot}一会后它就会自动装备到插槽上。
-
-{HEADER:拖放}
-  或者, 你也可以按住{KEY:MouseControl}启用鼠标来拖放物品来装备. 您可以在插槽之间、窗口之间实现物品拖放，甚至在外部环境和内部插槽之间进行拖放操作。
-
-{HEADER:丢弃}
-  您可以通过按{KEY:MouseControl}启用鼠标把它拖到外面实现丢弃，或直接按{KEY:Drop}。
-
-{HEADER:选择}
-如果你更喜欢使用快捷键而不是鼠标的话，按{KEY:InventorySelect}会交换所选插槽与当前手上的物品，可以用{COLORRED:Mouse Wheel}选择插槽。
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>AirlockDevicePage</Key>
-      <Title>气闸装置</Title>
-      <Text>将{THING:CircuitboardAirlockControl}放置在{THING:StructureConsole}中，您可以将各种设备连接到{THING:CircuitboardAirlockControl}，以使气闸发挥作用。
-      
-{HEADER:气闸装置列表}
-以下设备可连接至气闸控制系统并由其使用：
-{LIST_OF_AIRLOCK_DEVICES}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>LogicUnitPage</Key>
-      <Title>逻辑单元</Title>
-      <Text>{HEADER:逻辑单元}
-{LIST_OF_LOGIC_UNITS}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>SlotLeftHand</Key>
       <Title>手部槽位</Title>
       <Text>你的双手是一种特殊的插槽。你永远都有一只手是处于使用状态的，可以通过按 {COLORRED:鼠标左键} 来用手与物品交互. 要切换到另一只手, 按 {KEY:SwapHands}. 你可以按 {KEY:ActiveHandSlot} 键来查看你当前手中物品的内容. 同样的, 你可以按住 {KEY:MouseControl} 来用鼠标完成这些操作. 更多信息, 请看 {LINK:InventoryPage;库存} 一节.
@@ -386,6 +275,10 @@ Paintable {POS:300}{2}{3}{/LIST}</Text>
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>CreatorTemplate</Key>
+      <Text>{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>LogicTypeHeaderTemplate</Key>
       <Text>{HEADER:逻辑}{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
@@ -402,6 +295,10 @@ Paintable {POS:300}{2}{3}{/LIST}</Text>
       <Key>CreatedReagentTemplate</Key>
       <Text>{HEADER:化学原料}
 {LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ModeStringItemTemplate</Key>
+      <Text>{0}.{POS:100}{1}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ReagentPageTemplate</Key>

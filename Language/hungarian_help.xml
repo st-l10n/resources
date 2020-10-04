@@ -7,114 +7,6 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
-      <Key>Home</Key>
-      <Title>Kezdőlap</Title>
-      <Text>Üdvözlet a Stationeers segítségnyújtó rendszerében! Eme segédlettel megtudhatod, hogyan működnek a játék különféle rendszerei, emellett fontos információkat tudhatsz meg a játékbeli tárgyakról.
-
-{HEADER:Segédlet használata}
-Ezt az ablakot a(z) {KEY:Help} gomb segítségével tudod ki- és bekapcsolni. A kurzorral való navigáláshoz játék közben tartsd lenyomva a(z) {KEY:MouseControl} billentyűt!
-
-{HEADER:Tárgyak vizsgálata}
-A {KEY:MouseControl} és a {KEY:MouseInspect} gomb egy időben való lenyomásával [i]megvizsgálhatsz[/i] valamit, amire rákattinthatsz. Ekkor meg fog jelenni a tárgy információit tartalmazó oldal.
-
-{HEADER:Fő témák}
-{LIST}{LINK:SmeltingPage;Kohászat}, {LINK:MiningPage;Bányászat}, {LINK:ConstructionPage;Építkezés}, {LINK:InventoryPage;Tárhely}
-{/LIST}
-{HEADER:Útmutatók}
-{LIST}{LINK:GettingStarted;Első lépések}
-{/LIST}
-{HEADER:Egyéb}
-{LIST}{LINK:GasPage;Gázok}, {LINK:ReagentPage;Reagensek}
-{/LIST}
-{HEADER:Tárgyak}
-{LIST}{LINK:ToolPage;Eszközök}, {LINK:ResourcePage;Erőforrások}, {LINK:KitPage;Készletek}, {LINK:FoodPage;Élelmiszer}, {LINK:ClothingPage;Öltözet}, {LINK:AppliancePage;Készülékek}, {LINK:IngotPage;Öntvények}, {LINK:OrePage;Ércek}, {LINK:AlloyPage;Ötvözetek}, {LINK:SuperAlloyPage;Szuperötvözetek}
-{/LIST}
-{HEADER:Struktúrák}
-{LIST}{LINK:DevicePage;Berendezések}, {LINK:FabricatorPage;Gyártógépek}, {LINK:AirlockDevicePage;Légzsilip eszközök}, {LINK:LogicUnitPage;Logikai egységek}
-{/LIST}
-{HEADER:Űrutazás}
-{LIST}{LINK:RocketShuttleModulesHelpPage;Űrsiklómodul-útmutató}, {LINK:TravelPage;Utazás}, {LINK:RocketShuttlePage;Űrsikló modulok}
-{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>GettingStarted</Key>
-      <Title>Első lépések</Title>
-      <Text>{HEADER:Isten hozott az új világban!}
-Ha most vagy itt először, nagyon sokat kell tanulnod. Érzed a rád nehezedő nyomást? Remek érzés az ismeretlenbe ugrani! A következő sorok egy általános iránymutatást tartalmaznak a kezdéshez. Minden egyes világon különböző problémákkal kell megüzdeni, most egy széleskörű áttekintést kaphatsz a legfontosabb dolgokról.
-
-{HEADER:A ruhád töltése}
-Az egyik legfontosabb dolog az {THING:ItemEvaSuit} belsejében levő {THING:ItemBatteryCellLarge} töltése. Ez látja el a {THING:ItemSpaceHelmet} lámpáját (kapcsold ki, ha nem kell!) és a ruha fűtését árammal (vigyázz, hidegben többet fogyaszt!). Az elemet a {THING:ItemBatteryCharger} használatával tölthető. A töltőt elláthatod {THING:StructureSolidFuelGenerator}ral (szén szükséges) vagy {THING:StructureSolarPanel}mel. Vészhelyzetben kiveheted az elemeket az {LINK:ToolPage;eszközeidből} és töltheted őket a {THING:PortableSolarPanel}mel.
-
-{HEADER:Az energiatermelés fejlesztése}
-Növelheted az elektromos hálózat teljesítményét egy {THING:StructureAreaPowerControl} és egy {THING:ItemBatteryCell} használatával. Ezzel nemcsak az áramingadozás küszöbölhető ki, hanem a felesleget is képes eltárolni az elem, emellett az elem töltődik is és sokkal hatékonyabb, mint a {THING:ItemBatteryCharger}. Továbbá a {THING:StructureSolarPanel} Nap irányába forgatásával még tovább lehet növelni az energiatermelést. Kézzel is lehet forgatni, de {LINK:LogicUnitPage;logikai egységek} használatával automatizálhatod a folyamatot.
-
-{HEADER:Gazdálkodás az oxigénnel}
-Az {THING:ItemEvaSuit} és a {THING:ItemSpaceHelmet} egy megvédenek az elemek ellen. Az {THING:ItemEvaSuit} {GAS:Oxygen}t igényel, amit az {THING:ItemGasCanisterOxygen}ba kell töltened. Mindig figyeld az oxigénszintet! Ha a palack kiürül, a {THING:DynamicGasCanisterOxygen} használatával töltheted újra. A palackot a &quot;veszély&quot; jelzésű rekeszbe kell behelyezned.
-
-{HEADER:Kezdetleges kohászat}
-Miután stabilizáltad az energiaellátást, el kell kezdened többféle nyersanyagot szerezni. Alapvető {LINK:OrePage;ércek} begyűjtéséhez lesd meg a {LINK:MiningPage;bányászat} fület! Az {LINK:OrePage;ércek} kiégetését egy {THING:StructureArcFurnace} használatával tudod elérni, amit a hálózatodba a {THING:StructureAreaPowerControl} után kell bekötnöd. Ezzel képes leszel például {THING:ItemIronOre}, {THING:ItemSiliconOre} vagy bármi egyéb beolvasztására az {LINK:AlloyPage;ötvözetek} kivételével.
-
-{HEADER:Alapvető gyártás}
-Most, hogy lettek {LINK:IngotPage;kiöntött fémrúdjaid}, használhatod is őket {LINK:FabricatorPage;gyártáshoz}. Az {THING:StructureAutolathe} a kezdő ládában található {THING:ItemKitAutolathe} használatával építhető meg.
-
-{HEADER:A szűrőid cseréje}
-Amikor levegőt veszel, {GAS:Oxygen} szívsz be, viszont kilégzéskor {GAS:CarbonDioxide} is kijut a szervezetből, amit ki kell szűrni. A {THING:ItemGasFilterCarbonDioxide} a {SLOT:Filter} rekeszben található meg. Sajnos idővel elhasználódik ezért újakat kell gyártani a {THING:StructureHydraulicPipeBender} segítségével. Az eszköz a {THING:ItemKitHydraulicPipeBender} használatával építhető meg, amit a {THING:StructureAutolathe} képes gyártani.
-
-{HEADER:Építs egy üvegházat!}
-Egy kicsi jól elzárt területre lesz szükséged a {LINK:HydroponicsPage;hidropónikus rendszerek} kialakításához, amik {LINK:FoodPage;élelmet} biztosítanak számodra. Minél nagyobb helyiséget csinálsz, annál nehezebb lesz nyomás alá helyezned. {THING:ItemKitWallIron} egyik variánsa az {THING:}, csinálj egy jó adagot, és helyezd el úgy, hogy a napfény bejusson! Bíztosítsd a légmentes záródást kézi vagy automata {LINK:AirlockPage;légzsilippel}. Tartsd észben, az áramtalanított ajtók a feszítővassal felfeszíthetők!
-
-{HEADER:Töltsd meg levegővel az üvegházat!}
-Miután meglett a hermetikus zárt helyiséged {LINK:MiningPage;bányássz} egy pár {THING:ItemOxite} kristályt, és annyit olvassz ki, hogy a benti nyomás elérje a 100 kPa szintet, majd adj egy kis {GAS:CarbonDioxide}ot a levegőhöz. Ezt könnyedén megteheted a selejttartály rövid idejig való kinytásával. A palackot a {THING:ItemEvaSuit} tárhelyében találhatod meg. A {GAS:CarbonDioxide} azért kell, hogy a {LINK:PlantPage;növények} lélegezhessenek.
-
-{HEADER:Növénytermesztés}
-Az előre biztosított {THING:DynamicHydroponics} használatával elkezdheted a termelést az új üvegházadban. Az eszközön a {THING:ItemGasCanisterWater} látja el vízzel a növényket. Most ültess el egy a kezdő ládában is megtalálható {THING:ItemPotato}t. Először csak egyet ültess el, hogy ellenőrizhesd a megfelelő növekedést. A túléléshez csupán hőre, napfényre és egy kis {GAS:CarbonDioxide}-ra van szükségük.
-
-{HEADER:Haladó kohászat}
-A {THING:StructureArcFurnace} csak alapvető {LINK:OrePage;ércek} beolvasztására alkalmas. Az {LINK:AlloyPage;Ötvözetek} létrehozása a {THING:StructureFurnace} használatával mehet végbe, mégpedig nagyon speciális körülmények között. A megfelelő anyag létrehozásához három dologra kell figyelni: {LINK:PressurePage;nyomás}, {LINK:TemperaturePage;hőmérséklet} és a {LINK:ReagentPage;reagensek} keverési aránya. Például {THING:ItemSteelIngot} létrehozásához a {REAGENT:Iron}  és a {REAGENT:Coal} 3:1 arányú keveréke szükséges.
-
-A felső nyílásba közvetlenül tudsz {LINK:IcePage;jeget} helyezni. Ha nincs atmoszféra, ami megindítaná az olvadást, nyomd meg a {LOGICTYPE:Activate} gombot, ami összetöri a jeget és ezzel beindítja az olvadást. A jég magától elolvad, ha van elég gáz a levegőben. {THING:ItemOxite} és {THING:ItemVolatiles} keverékével tudsz egyszerűen tüzet csiholni a kohóban, de vigyázz, ez rendkívül megnöveli a belső nyomást!
-
-Ha az eszköz eléri a kívánt hőmérsékletet, helyezd be az érceket, de figyelj a megfelelő arányra, különben melléktermékek is létrejönnek {THING:ItemReagentMix} formájában, ami csak a {THING:StructureCentrifuge} használatával válaztható szét újra. A végső termék kiadásához húzd meg a {LOGICTYPE:Open} kart.
-
-Még fejlettebb {LINK:SuperAlloyPage;szuperötvözeteket} a {THING:StructureAdvancedFurnace} segítségével tudsz készíteni. A kohászati előfeltételek nagyon szigorúak, ezért a beolvasztás folyamata nagyfokú precizitást igényel, de mindez szükséges a fejlett gyártáshoz.
-{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>InventoryPage</Key>
-      <Title>Tárhely</Title>
-      <Text>A játék mindegy egyes tárgyának külön slotjai vannak, ezek osztályozva vannak, hogy csak a megfelelő dolog kerülhessen be az adott helyre. A legtöbb slothoz különböző gyorsgombok tartoznak, például a {KEY:HelmetSlot} a {SLOT:Helmet} azonnali hozzáférését biztosítja.
-
-{HEADER:A tárhely ablakai}
-Néhány slotból csak egy van a játékban. A slotok tartalmát az adott gyorsgomb használatával vagy a {KEY:MouseControl} tartásával és közben kattintással lehet mozgatni. Ha megnyitsz egy slothoz tartozó ablakot, a tárgyakat és azok beállításait tudod kezelni, az ablakok a címsorra való kattintással mozgathatók.
-
-{HEADER:Gyors kezelés}
-Egy slot gyorsgombjával azonnal fel- és levehetsz vagy cserélhetsz eszközöket. Például ha éppen az egyik kezedben lenne a {THING:ItemSpaceHelmet}, akkor a {KEY:HelmetSlot} hosszú lenyomásával azonnal a {KEY:HelmetSlot}be kerülne. Ha volt ott másik sisak, akkor kicserélődnének.
-
-{HEADER:Áthúzás}
-A {KEY:MouseControl} lenyomása közben tágyakat húzhatsz át slotok között.
-
-{HEADER:Eldobás}
-Egy tárgyat el is dobhatsz a {KEY:Drop} gomb lenyomásával vagy a {KEY:MouseControl} gombbal és kattintással ki is húzhatod a slotból.
-
-{HEADER:Kiválasztás}
-A {KEY:InventorySelect} lenyomásával válthatsz a kiválasztott slot és a saját kezed között. Ha nem akarod az egeret használni, a {COLORRED:Mouse Wheel} használatával is válthatsz a slotok között.</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>AirlockDevicePage</Key>
-      <Title>Légzsillip eszközök</Title>
-      <Text>Egy működő légzsilip készítéshez helyezz be egy {THING:CircuitboardAirlockControl}t egy {THING:StructureConsole}ba és köss rájuk további szükséges eszközöket.
-
-{HEADER:Légzsilip eszközök listája}
-Az itt található eszközöket használhatod egy légzsilip rendszer elkészítéséhez:
-{LIST_OF_AIRLOCK_DEVICES}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>LogicUnitPage</Key>
-      <Title>Logikai egységek</Title>
-      <Text>{HEADER:Logikai egységek listája}
-{LIST_OF_LOGIC_UNITS}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>SlotLeftHand</Key>
       <Title>Kéz slotok</Title>
       <Text>A kezeid is különleges slotok. Egyszerre csak az egyik aktív, azt a {COLORRED:Primary Action} gombbal használhatod. Az aktív kezek közti váltáshoz használd a(z) {KEY:SwapHands} gombot. Az aktív kezedet a {KEY:ActiveHandSlot} gombbal tudod kezelni, ez a kezed tartalmát nyitja vagy zárja. Mint mindig, most is használhatod a(z) {KEY:MouseControl} gombot a kezeléshez. További információért lesd meg a {LINK:InventoryPage;tárhely} szekciót.</Text>
@@ -344,6 +236,10 @@ Olvadási nyomás {POS:300}{0}</Text>
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>CreatorTemplate</Key>
+      <Text>{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>LogicTypeHeaderTemplate</Key>
       <Text>{HEADER:Logika}{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
@@ -360,6 +256,10 @@ Olvadási nyomás {POS:300}{0}</Text>
       <Key>CreatedReagentTemplate</Key>
       <Text>{HEADER:Reagensek}
 {LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ModeStringItemTemplate</Key>
+      <Text>{0}.{POS:100}{1}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ReagentPageTemplate</Key>

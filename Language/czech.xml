@@ -4174,8 +4174,8 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
       <Description>Toto je výchozí stránka věci.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>ItemKitFurnitureBed</Key>
-      <Value>Souprava postel</Value>
+      <Key>ItemKitFurnitureBeds</Key>
+      <Value>Souprava (Maják)</Value>
       <Description>Toto je výchozí stránka věci.</Description>
     </RecordThing>
     <RecordThing>
@@ -4206,6 +4206,26 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
     <RecordThing>
       <Key>TriggerZone</Key>
       <Value>Spouštěcí zóna</Value>
+      <Description>Toto je výchozí stránka věci.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitAirlockGate</Key>
+      <Value>Souprava (Přechodová brána)</Value>
+      <Description>Toto je výchozí stránka věci.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureAirlockGate</Key>
+      <Value>Přechodová brána</Value>
+      <Description>Toto je výchozí stránka věci.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBatteryLarge</Key>
+      <Value>Velká baterie</Value>
+      <Description>Toto je výchozí stránka věci.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitBatteryLarge</Key>
+      <Value>Souprava (Velká baterie)</Value>
       <Description>Toto je výchozí stránka věci.</Description>
     </RecordThing>
   </Things>
@@ -4757,6 +4777,138 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
     <Record>
       <Key>MainMenuContinue</Key>
       <Value>Pokračovat</Value>
+    </Record>
+    <Record>
+      <Key>KitCategory</Key>
+      <Value>Konstrukce</Value>
+    </Record>
+    <Record>
+      <Key>ChairTableCategory</Key>
+      <Value>Kabely a analyzátory</Value>
+    </Record>
+    <Record>
+      <Key>PersonalSuits</Key>
+      <Value>Obleky</Value>
+    </Record>
+    <Record>
+      <Key>CableCategory</Key>
+      <Value>Kabely a analyzátory</Value>
+    </Record>
+    <Record>
+      <Key>LightCategory</Key>
+      <Value>Jas</Value>
+    </Record>
+    <Record>
+      <Key>PersonalBackpacks</Key>
+      <Value>Batohy</Value>
+    </Record>
+    <Record>
+      <Key>FoodCategory</Key>
+      <Value>Spotřební zásoby</Value>
+    </Record>
+    <Record>
+      <Key>WallFloorCategory</Key>
+      <Value>Kabely a analyzátory</Value>
+    </Record>
+    <Record>
+      <Key>OrganicsCategory</Key>
+      <Value>Organické</Value>
+    </Record>
+    <Record>
+      <Key>PersonalEyeWear</Key>
+      <Value>Brýle</Value>
+    </Record>
+    <Record>
+      <Key>PersonalClothing</Key>
+      <Value>Oblečení</Value>
+    </Record>
+    <Record>
+      <Key>OreHeader</Key>
+      <Value>Rudy</Value>
+    </Record>
+    <Record>
+      <Key>ReagentsHeader</Key>
+      <Value>Činidla</Value>
+    </Record>
+    <Record>
+      <Key>GasesHeader</Key>
+      <Value>Plyny</Value>
+    </Record>
+    <Record>
+      <Key>FrozenOreHeader</Key>
+      <Value>Zmrazené rudy</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeCategory</Key>
+      <Value>Diskety</Value>
+    </Record>
+    <Record>
+      <Key>PersonalHelmets</Key>
+      <Value>Přilby</Value>
+    </Record>
+    <Record>
+      <Key>PersonalToolbelt</Key>
+      <Value>Opasky s nářadím</Value>
+    </Record>
+    <Record>
+      <Key>Other</Key>
+      <Value>Ostatní</Value>
+    </Record>
+    <Record>
+      <Key>PowerTool</Key>
+      <Value>Elektrické nářadí</Value>
+    </Record>
+    <Record>
+      <Key>SlotsTitle</Key>
+      <Value>Všechny sloty</Value>
+    </Record>
+    <Record>
+      <Key>LogicReadersCategory</Key>
+      <Value>Čtečky logiky</Value>
+    </Record>
+    <Record>
+      <Key>LogicWriterCategory</Key>
+      <Value>Zapisovače logiky</Value>
+    </Record>
+    <Record>
+      <Key>MotherboardCategory</Key>
+      <Value>Základní desky</Value>
+    </Record>
+    <Record>
+      <Key>ControlSystemAtmos</Key>
+      <Value>Řídicí systémy</Value>
+    </Record>
+    <Record>
+      <Key>ApplianceCategory</Key>
+      <Value>Spotřebiče</Value>
+    </Record>
+    <Record>
+      <Key>Fabricators</Key>
+      <Value>Konstruktéři</Value>
+    </Record>
+    <Record>
+      <Key>Edibles</Key>
+      <Value>Těžba</Value>
+    </Record>
+    <Record>
+      <Key>AirContitioningAtmos</Key>
+      <Value>Klimatizace</Value>
+    </Record>
+    <Record>
+      <Key>AtmosDevices</Key>
+      <Value>Atmosférická zařízení</Value>
+    </Record>
+    <Record>
+      <Key>FireArm</Key>
+      <Value>Zbraně</Value>
+    </Record>
+    <Record>
+      <Key>ManualTools</Key>
+      <Value>Ruční nástroje</Value>
+    </Record>
+    <Record>
+      <Key>PowerTools</Key>
+      <Value>Elektrické nářadí</Value>
     </Record>
     <Record>
       <Key>TraderErrorConnectWires</Key>

@@ -7,39 +7,6 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
-      <Key>Home</Key>
-      <Title>Startseite</Title>
-      <Text>Herzlich Willkommen zum internen Hilfesystem von Stationeers. Mit diesem Werkzeug können Sie Informationen zur Funktionsweise aller Systeme sowie wichtigen Informationen zu allen Dingen der Welt finden.
-
-{HEADER:Hilfe verwenden}
-Sie können dieses Fenster mit der Taste {KEY:Help} öffnen und schließen. Halten Sie die Taste {KEY:MouseControl} gedrückt, um den Mauszeiger während des Spiels zu aktivieren. Dadurch können Sie auf Verknüpfungen im Hilfesystem klicken.
-
-{HEADER:Überprüfen}
-Wenn Sie {KEY:MouseControl} und {KEY:MouseInspect} gedrückt halten und auf etwas klicken, können Sie es überprüfen. Dadurch wird das Hilfesystem für die mit diesem Objekt verknüpfte Seite geöffnet und Sie erhalten detaillierte Informationen.
-
-{HEADER:Schlüsselthemen}
-{LIST}{LINK:SmeltingPage;Schmelzen}, {LINK:MiningPage;Bergbau}, {LINK:ConstructionPage;Konstruktion}, {LINK:InventoryPage;Inventar}
-{/LIST}
-{HEADER:Handbuch}
-{LIST}{LINK:GettingStarted;Erste Schritte}
-{/LIST}
-{HEADER:Anderes}
-{LIST}{LINK:GasPage;Gase}, {LINK:ReagentPage;Reagenzien}
-{/LIST}
-{HEADER:Gegenstände}
-{LIST}{LINK:ToolPage;Werkzeuge}, {LINK:ResourcePage;Ressourcen}, {LINK:KitPage;Bausätze}, {LINK:FoodPage;Nahrung}, {LINK:ClothingPage;Bekleidung}, {LINK:AppliancePage;Vorrichtungen}, {LINK:IngotPage;Barren}, {LINK:OrePage;Erze}, {LINK:AlloyPage;Legierungen} 
-{/LIST}
-{HEADER:Strukturen}
-{LIST}{LINK:DevicePage;Geräte}, {LINK:FabricatorPage;Fertiger}, {LINK:AirlockDevicePage;Luftschleusen Geräte}, {LINK:LogicUnitPage;Logikeinheiten}
-{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>LogicUnitPage</Key>
-      <Title>Logikeinheiten</Title>
-      <Text>{HEADER:Liste der Logischen Einheiten}
-{LIST_OF_LOGIC_UNITS}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>DevicePage</Key>
       <Title>Geräte</Title>
       <Text>Hierbei handelt es sich um, normalerweise mit Strom betriebene, Strukturen mit speziellen Funktionen wie Logik, Atmosphären und mehr. Sie werden wie andere Strukturen aufgebaut.
@@ -147,6 +114,10 @@ Schmelzdruck {POS:300}{0}</Text>
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>CreatorTemplate</Key>
+      <Text>{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>LogicTypeHeaderTemplate</Key>
       <Text>{HEADER:Logik}{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
@@ -163,6 +134,10 @@ Schmelzdruck {POS:300}{0}</Text>
       <Key>CreatedReagentTemplate</Key>
       <Text>{HEADER:Reagenzien}
 {LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ModeStringItemTemplate</Key>
+      <Text>{0}.{POS:100}{1}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageFlamableTemplate</Key>

@@ -7,50 +7,6 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
-      <Key>GettingStarted</Key>
-      <Title>はじめに</Title>
-      <Text>{HEADER:新しい世界へようこそ}
-今回が初めての場合は、一度に多くのことを学ぶ必要があります。 最初のプレッシャーは大きく、はじめは本当に圧倒されることがあります。 以下は、始めるための一般的なガイドラインです。 各ワールドタイプでは、あなたは様々な問題に直面するでしょう。 以下では、あなたが何を解決する必要があるか大まかな概要を説明します。
-      
-{HEADER:スーツの充電を維持する}
-最も急を要するのは{THING:ItemEvaSuit}の{THING:ItemBatteryCellLarge}を充電することです。 スーツのバッテリーは{THING:ItemSpaceHelmet}のライトに電力を供給し（使用しないときはこれをオフにしてください）、スーツ内部の空気を暖めるために使用されます。 寒いワールドでは、多くの電力を消費します。 {THING:ItemBatteryCharger}を置いて電源に接続する必要がありますが、電力を供給するための良い序盤の方法としては{THING:StructureSolarPanel}や{THING:ItemCoalOre}を使った{THING:StructureSolidFuelGenerator}が挙げられます。
-
-{HEADER:電力の改善}
-{THING:StructureAreaPowerControl}を{THING:ItemBatteryCell}を挿入した状態で、電源と充電器の間に配置すると、非常に役立ちます。 何故かというと、電源は{THING:ItemBatteryCharger}が保持できる電力よりも多くの電力を生成している可能性が高く、生成した電力が無駄になるからです。 さらに、{THING:StructureSolarPanel}の向きを手動で調整することもできますが、自動で太陽に追従するようにすることは非常に役立ちます。 この自動化には{LINK:LogicUnitPage;Logic Units}が役立ちます。
-      
-{HEADER:酸素の管理}
-{THING:ItemEvaSuit}と{THING:ItemSpaceHelmet}は、自然からあなたを保護するためのシェルを形成しています。 {THING:ItemEvaSuit}は綺麗な{GAS:Oxygen}を提供するために{THING:ItemGasCanisterOxygen}を必要とします。 タンク内のガスの量に注意してください。 最初に提供されている大きな{THING:DynamicGasCanisterOxygen}を使用して酸素を補充することができます。 補充するためにキャニスターを挿入できるスロットを示す「ハザード」マーカーがあります。
-
-{HEADER:基本的な製錬}
-基本的な発電量がある程度上がったら、より多くの資源の収集する必要があります。 基本的な{LINK:OrePage;鉱石}を得るために{LINK:MiningPage;採掘}に向かいましょう。 {THING:StructureArcFurnace}を置いて、あなたの{THING:StructureAreaPowerControl}の後ろに接続してください。 これは、{THING:ItemIronOre}、{THING:ItemSiliconOre}、その他の非{LINK:AlloyPage;合金}などの基本的な{LINK:OrePage;鉱石}を{LINK:SmeltingPage;製錬}します。
-
-{HEADER:基本的な製造}
-これで{LINK:IngotPage;インゴット}ができたので、{LINK:FabricatorPage;製造機}にリソースとして挿入することができます。 {KEY:MouseControl}と{KEY:MouseInspect}を押しながら何かをクリックすると、[i]検索[/i]ができます。 これにより、そのオブジェクトに関連するページのヘルプシステムが表示され、詳細な情報を得ることができます。
-
-{HEADER:フィルターの交換}
-{GAS:Oxygen}を吸うと同時に{GAS:CarbonDioxide}も吐くので、{SLOT:Filter}スロットに{THING:ItemGasFilterCarbonDioxide}が必要です。 これらは時間の経過とともに消耗するので、{THING:StructureHydraulicPipeBender}で新しいものを作る必要があります。 これは{THING:StructureAutolathe}の{THING:ItemKitHydraulicPipeBender}から作ることができます。
-
-{HEADER:温室を建築する}
-食料を生産するための{LINK:HydroponicsPage;水耕栽培}を開始するには、小さな密閉された空間が必要になります。 {THING:ItemKitWallIron}キットの変化を使用して、日光が入るように{THING:}を多く作ります。 手動、もしくは自動化された{LINK:AirlockPage;エアロック}を使用して入口を管理してください。電源入っていないドアは{THING:ItemCrowbar}を使用して開閉できることを覚えておいてください。
-
-{HEADER:温室を加圧する}
-エリアを囲んだら、{LINK:MiningPage;採掘}した{THING:ItemOxite}を、栽培エリアの圧力が約100 kPaになるまで溶かしてください。 次に、{GAS:CarbonDioxide}を大気中に加えます。 これは、{THING:ItemEvaSuit}の排気タンクを手に取り、開いて、閉じて元に戻すことで簡単にできます。 これにより、あなたの呼吸からろ過された{GAS:CarbonDioxide}が大気中に放出されます。{LINK:PlantPage;植物}はこれを使って呼吸をします。
-
-{HEADER:植物の栽培}
-{THING:DynamicHydroponics}をあなたの新しい温室に持って行きましょう。 {THING:DynamicHydroponics}には、植物に{GAS:Water}を与えるための{THING:ItemGasCanisterWater}が付属しています。 次にスタータークレートから{THING:ItemPotato}を使って植物を植えます。最初に1つ植えて、成長していることを確認してから他のものを使うようにしてください。 植物を生存させるには、日光と暖かさ、そして少量の{GAS:CarbonDioxide}が必要です。
-
-{HEADER:高度な製錬}
-{THING:StructureArcFurnace}では、単純な{LINK:OrePage;鉱石}を製錬することしかできませんが、より高度な部品を作るためには、より複雑な方法で{LINK:AlloyPage;合金}を製錬する必要があります。 この製錬は{THING:StructureFurnace}の中で、{LINK:PressurePage;圧力}、 {LINK:TemperaturePage;温度}、 そして{LINK:ReagentPage;試薬}の混合比を適切にすることで行えます。例えば、{THING:ItemSteelIngot}を作るには、{REAGENT:Coal}を1、{REAGENT:Iron}を3の割合で作る必要があります。
-
-炉上部に{LINK:IcePage;氷}を直接入れることができます。もし、氷が溶けない場合は{LOGICTYPE:Activate} ボタンを押して氷を潰します。氷は内部に十分な温度の気体があれば自動的に溶けます。{THING:ItemOxite}と{THING:ItemVolatiles}を混ぜたものを使って中で火をおこしましょう。これで炉内部の圧力を劇的に上昇させることもできます。
-
-適切な温度になったら、鉱石を入れて製錬します。ただし、比率に注意してください。廃棄物として{THING:ItemReagentMix}ができた場合、{THING:StructureCentrifuge}で分離する必要があります。  精製物取り出すには、{LOGICTYPE:Open}ハンドルを引きます。
-
-さらに高度な{LINK:SuperAlloyPage;超合金}は{THING:StructureAdvancedFurnace}で製錬することができます。これらは製錬に必要な条件が非常に厳しく、非常に難しいが、非常に高度な製造には必要である。
-{/LIST}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>SlotLeftHand</Key>
       <Title>ハンドスロット</Title>
       <Text>あなたの手は特別なスロットです。アクティブな手は常に1つであり、その手は{COLORRED:Primary Action}で使用する手です。アクティブな手を入れ替えるには、{KEY:SwapHands}を押します。アクティブな手は{KEY:ActiveHandSlot}を押すことで操作でき、アクティブな手の持ったものを開いたり閉じたりすることができます。いつものように、{KEY:MouseControl}を使ってマウス操作をし、インタラクトすることもできます。詳細については、{LINK:InventoryPage;インベントリ} のセクションを参照してください。

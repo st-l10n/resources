@@ -7,119 +7,6 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
-      <Key>Home</Key>
-      <Title>Domovská stránka</Title>
-      <Text>Vítejte v interním systému nápovědy pro Stationeery. Pomocí tohoto nástroje můžete zjistit jak fungují všechny systémy, stejně jako důležité informace o všech věcech na světě.
-      
-{HEADER:Používání nápovědy}
-Toto okno můžete otevřít a zavřít pomocí {KEY:Help}. Chcete-li aktivovat kurzor myši při hraní, podržte {KEY:MouseControl}, což vám umožní kliknout na odkazy v systému nápovědy.
-
-{HEADER:Prohlídka}
-Pokud podržíte {KEY:MouseControl} a {KEY:MouseInspect} a kliknete na něco, co můžete [i]prohlédnout[/i]. Tím se otevře systém nápovědy na stránce související s daným objektem a poskytne vám podrobné informace.
-
-{HEADER:Klíčová témata}
-{LIST}{LINK:SmeltingPage;Tavení}, {LINK:MiningPage;Těžení}, {LINK:ConstructionPage;Konstrukce}, {LINK:InventoryPage;Inventář}
-{/LIST}
-{HEADER:Průvodci}
-{LIST}{LINK:GettingStarted;Jak začít}
-{/LIST}
-{HEADER:Ostatní}
-{LIST}{LINK:GasPage;Plyny}, {LINK:ReagentPage;Činidla}
-{/LIST}
-{HEADER:Položky}
-{LIST}{LINK:ToolPage;Nástroje}, {LINK:ResourcePage;Zdroje}, {LINK:KitPage;Soupravy}, {LINK:FoodPage;Jídlo}, {LINK:ClothingPage;Oblečení}, {LINK:AppliancePage;Spotřebiče}, {LINK:IngotPage;Ingoty}, {LINK:OrePage;Rudy}, {LINK:AlloyPage;Slitiny}, {LINK:SuperAlloyPage;Superslitiny}
-{/LIST}
-{HEADER:Struktury}
-{LIST}{LINK:DevicePage;Zařízení}, {LINK:FabricatorPage;Konstruktéři}, {LINK:AirlockDevicePage;Přechodové zařízení}, {LINK:LogicUnitPage;Logické jednotky}
-{/LIST}
-{HEADER:Světové cestování}
-{LIST}{LINK:RocketShuttleModulesHelpPage;Nápověda k modulům raketoplánu}, {LINK:TravelPage;Cestování}, {LINK:RocketShuttlePage;Moduly raketoplánu}
-{/LIST}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>GettingStarted</Key>
-      <Title>Jak začít</Title>
-      <Text>{HEADER:Vítejte v novém světě}
-Pokud je to poprvé, pak je toho hodně k naučení. Počáteční stres na vás může být velký a může být opravdu ohromující začít. Následuje, je několik obecných pokynů, jak začít. Každý typ světa má různé problémy, kterým musíte čelit, ale následující informace by vám měli poskytnout široký přehled o tom, co potřebujete spravovat.
-      
-{HEADER:Udržujte svůj oblek nabitý}
-Nejnaléhavější potřebou je dobíjení {THING:ItemBatteryCellLarge} ve vašem {THING:ItemEvaSuit}. Baterie obleku se používá k napájení vašeho {THING:ItemSpaceHelmet} světla (vypněte ho, když se nepoužívá) a také k zahřívání vnitřního vzduchu. V chladnějších světech to spotřebuje hodně energie. Budete muset umístit {THING:ItemBatteryCharger} a připojit ho ke zdroji energie, jako například {THING:StructureSolidFuelGenerator} napájený pomocí {THING:ItemCoalOre} nebo {THING:StructureSolarPanel}, jsou dobrými startovacími způsoby, jak to zvládnout. V případě nouze vyjměte z vašeho {LINK:ToolPage;nástroje} baterie, které vám pomohou udržet váš oblek v chodu, nebo je použijte k nabíjení pomocí dodaného {THING:PortableSolarPanel}.
-
-{HEADER:Zlepšování sběru energie}
-Umístění {THING:StructureAreaPowerControl} s vloženým {THING:ItemBatteryCell} mezi zdrojem napájení a nabíječkou vám hodně pomůže. Důvodem je, že zdroj energie pravděpodobně generuje více energie, než dokáže {THING:ItemBatteryCharger} udržet a je to promarněná energie. Navíc, můžete manuálně orientovat {THING:StructureSolarPanel}, ale jeho automatizace pro sledování slunce vám hodně pomůže, za pomoci užití {LINK:LogicUnitPage;logické jednotky}.
-      
-{HEADER:Správa kyslíku}
-Váš {THING:ItemEvaSuit} a {THING:ItemSpaceHelmet} tvoří ochranný obal z prvků. {THING:ItemEvaSuit} potřebuje {THING:ItemGasCanisterOxygen}, aby vám poskytl čistý {GAS:Oxygen}. Sledujte množství plynu v nádrži, můžete jej doplnit pomocí velké {THING:DynamicGasCanisterOxygen}, který je součástí vašeho startovacího vybavení. Existuje štítek &apos;nebezpečí&apos; označující slot, kde můžete vložit kanystr pro jeho doplnění.
-
-{HEADER:Základní tavení}
-Jakmile budete mít nějakou základní výrobu energie, je nutné začít získávat více zdrojů. Vydejte se na {LINK:MiningPage;těžení} a získejte základní {LINK:OrePage;rudy}. Umístěte {THING:StructureArcFurnace} a připojte jej za {THING:StructureAreaPowerControl}. To bude {LINK:SmeltingPage;tavení} základních {LINK:OrePage;rud}, jako {THING:ItemIronOre}, {THING:ItemSiliconOre} a jakékoli jiné ne {LINK:AlloyPage;slitiny}.
-
-{HEADER:Základní výroba}
-Nyní, když máte {LINK:IngotPage;ingoty}, můžete je vložit do {LINK:FabricatorPage;konstruktoru} jako zdroj. Sestavte {THING:StructureAutolathe} ze {THING:ItemKitAutolathe} poskytovaného  ve startovacích bednách.
-
-{HEADER:Výměna filtrů}
-Když vdechujete {GAS:Oxygen}, vydechujete také {GAS:CarbonDioxide}, takže ve svém slotu {SLOT:Filter} také potřebujete {THING:ItemGasFilterCarbonDioxide}. Tyto se časem opotřebují a budete si muset v {THING:StructureHydraulicPipeBender} zkonstruovat nové. To lze provést z {THING:ItemKitHydraulicPipeBender} na {THING:StructureAutolathe}.
-
-{HEADER:Postavte skleník}
-Budete potřebovat malou uzavřenou oblast k zřízení {LINK:HydroponicsPage;Hydroponie}, abyste mohli vytvořit {LINK:FoodPage;jídlo}. Nestavte ho příliš velký, protože bude obtížnější natlakovat. Udělejte spoustu {THING:} (oken) pomocí varianty v {THING:ItemKitWallIron}, aby mohlo vniknout sluneční světlo. Zajistěte, aby byl vstup spravován pomocí automatizované {LINK:AirlockPage;přechodové komory} nebo manuální. Nezapomeňte, že můžete otevírat a zavírat nenapájené dveře pomocí {THING:ItemCrowbar}.
-
-{HEADER:Natlakujte svůj skleník}
-Jakmile máte uzavřenou oblast, {LINK:MiningPage;natěžte} nějaké {THING:ItemOxite} a roztopte je, dokud nemáte ve vaší oblasti na pěstování tlak přibližně 100 kPa. Poté do atmosféry přidejte trochu {GAS:CarbonDioxide}. Můžete to snadno udělat tak, že do své ruky vezmete svou Nádobu na odpady z {THING:ItemEvaSuit}, otevřete ji a zavřete a vložíte zpět. Tím se uvolní filtrovaný {GAS:CarbonDioxide} z vašeho dýchání do životního prostředí. {LINK:PlantPage;Rostliny} ho použijí k dýchání.
-
-{HEADER:Pěstování rostlin}
-Vezměte {THING:DynamicHydroponics} do svého nového skleníku. Má {THING:ItemGasCanisterWater} pro zajištění rostlin {GAS:Water}. Nyní zasadíme {THING:ItemPotato} ze startovacích beden. Zasaďte nejprve jednu a ověřte, že roste, než zasadíte další. K přežití vyžadují sluneční světlo, teplo a malé množství {GAS:CarbonDioxide}.
-
-{HEADER:Pokročilé tavení}
-{THING:StructureArcFurnace} vám umožňuje pouze tavit jednoduché {LINK:OrePage;rudy}. Chcete-li vyrobit pokročilejší komponenty, budete muset použít složitější metody k tavení {LINK:AlloyPage;slitiny}. To se provádí v {THING:StructureFurnace} dosažením správného poměru {LINK:PressurePage;tlaku}, {LINK:TemperaturePage;teploty} a {LINK:ReagentPage;činidel}. Například pro výrobu {THING:ItemSteelIngot} budete potřebovat poměr jedné části {REAGENT:Uhlí} a tří částí {REAGENT:Železa}.
-
-Můžete přímo vložit {LINK:IcePage;ledy} do horní části. Pokud není k dispozici žádná atmosféra pro jejich roztavení, stiskněte tlačítko {LOGICTYPE:Activate}. Led se automaticky roztopí, pokud je uvnitř dostatek plynu o správné teplotě. Použijte kombinaci {THING:ItemOxite} a {THING:ItemVolatiles} k zahájení spalování uvnitř, i když to dramaticky uvnitř zvýší tlak.
-
-Jakmile je na správné teplotě, vložte rudy, abyste je roztavily - ale dávejte pozor jaké jsou vaše poměry, nebo odpadní produkty vyjdou jako {THING:ItemReagentMix}, které bude třeba roztřídit ve {THING:StructureCentrifuge}. Chcete-li produkt exportovat, zatáhněte za {LOGICTYPE:Open} rukojeť.
-
-Ještě pokročilejší {LINK:SuperAlloyPage;superslitiny} lze tavit v {THING:StructureAdvancedFurnace}. Mají velmi přísné požadavky na tavení a jsou extrémně obtížné, ale nezbytné pro velmi pokročilou výrobu.
-{/LIST}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>InventoryPage</Key>
-      <Title>Inventář</Title>
-      <Text>Všechny věci ve hře mohou mít různé sloty. Tyto sloty mohou mít třídy slotů, které do těchto slotů umožňují pouze určité věci. Existuje několik klávesových zkratek pro přístup k slotům, které jsou ve vaší postavě, například {KEY:HelmetSlot} pro přístup k vaší {SLOT:Helmet}.
-      
-{HEADER:Inventář}
-Některé sloty budou mít vlastní sloty. Chcete-li komunikovat s obsahem slotu, použijte k otevření okna klávesovou zkratku nebo podržte klávesu {KEY:MouseControl} a klikněte na ni myší. Nyní je okno pro daný slot otevřený a můžete s ním komunikovat s jeho sloty a nastavením. Okna lze přemístit přetažením jejich záhlaví.
-
-{HEADER:Rychlé vybavení}
-Podržením klávesové zkratky můžete slot rychle nasadit, vyjmout nebo vyměnit. Pokud bychom například měli v ruce {THING:ItemSpaceHelmet} a v našem slotu nebylo nic pro {SLOT:Helmet} a na vteřinu jsme drželi {KEY:HelmetSlot}, bylo by to přeneseno do slotu.
-
-{HEADER:Přetažení a položení}
-Pokud navíc přidržíte {KEY:MouseControl}, můžete také přetahovat a pokládat položky. Můžete přetahovat a pokládat položky mezi sloty, okny, dokonce i mezi světem a sloty na světě.
-
-{HEADER:Vyhození}
-Položku můžete odstranit pomocí myši pomocí {KEY:MouseControl} a poté ji přetáhnout na svět nebo můžete stisknout {KEY:Drop}.
-
-{HEADER:Vybírání}
-Tlačítko {KEY:InventorySelect} přepne cokoli, co je ve vaší aktivní ruce, jinou položkou, kterou jste vybrali pomocí {COLORRED:Kolečkem myši}, můžete také použít klávesové zkratky místo myši.
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>AirlockDevicePage</Key>
-      <Title>Přechodová zařízení</Title>
-      <Text>Umístěním {THING:CircuitboardAirlockControl} do {THING:StructureConsole} můžete k němu připojit různá zařízení, aby se vytvořila funkční přechodová komora.
-      
-{HEADER:Seznam zařízení pro přechodovou komoru}
-K řídicímu systému přechodové komory lze připojit a používat následující zařízení:
-{LIST_OF_AIRLOCK_DEVICES}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>LogicUnitPage</Key>
-      <Title>Logické jednotky</Title>
-      <Text>{HEADER:Seznam logických jednotek}
-{LIST_OF_LOGIC_UNITS}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>SlotLeftHand</Key>
       <Title>Ruční sloty</Title>
       <Text>Vaše ruce jsou speciální sloty. Kdykoli máte jednu aktivní ruku, kterou používá vaše {COLORRED:Primární akce}. Chcete-li změnit aktivní ruku, stiskněte {KEY:SwapHands}. Se svou aktivní rukou můžete interagovat stisknutím tlačítka {KEY:ActiveHandSlot}, čímž se obsah aktivní položky otevře a zavře. Jako vždy můžete pomocí {KEY:MouseControl} vyvolat myš a takhle na ně působit. Další informace naleznete v části {LINK:InventoryPage:Inventář}.
@@ -418,6 +305,10 @@ Tlak tání {POS:300}{0}</Text>
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>CreatorTemplate</Key>
+      <Text>{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>LogicTypeHeaderTemplate</Key>
       <Text>{HEADER:Logika}{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
@@ -434,6 +325,10 @@ Tlak tání {POS:300}{0}</Text>
       <Key>CreatedReagentTemplate</Key>
       <Text>{HEADER:Činidla}
 {LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ModeStringItemTemplate</Key>
+      <Text>{0}.{POS:100}{1}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ReagentPageTemplate</Key>
