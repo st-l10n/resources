@@ -932,17 +932,17 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     <RecordThing>
       <Key>ItemGasCanisterPollutants</Key>
       <Value>Bombona (Contaminantes)</Value>
-      <Description>Bombona (Contaminantes)</Description>
+      <Description>Si bien este subproducto de la fundición, a veces conocido simplemente como &apos;X&apos;, es una toxina, su calor específico lo convierte en un refrigerante valioso. Todos los botes de gas están llenos cuando se fabrican a una presión de 8000 kPa (80 atmósferas) y se pueden montar en un {THING:DynamicGasCanisterAir} o un {THING:StructureGasTankStorage} para recargarlos. Tenga cuidado de no presurizar más de 100kPA, o puede explotar.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterEmpty</Key>
       <Value>Bombona (Vacía)</Value>
-      <Description>Bombona (Vacía)</Description>
+      <Description>El recipiente portátil es la unidad básica del Stationeer de entrega &lt;color=#0080FFFF&gt;{LINK:GasPage;gas}&lt;/color&gt;. Con una presión estándar de 8000 kPa (80 atmósferas), los botes de gas vacíos se pueden montar en un {THING:DynamicGasCanisterAir} o {THING:StructureGasTankStorage} para recargar. Tenga cuidado de no presurizar más de 100kPA, o puede explotar. Contiene 64L de gas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterFuel</Key>
       <Value>Bombona (Combustible)</Value>
-      <Description>Bombona (Combustible)</Description>
+      <Description>El contenedor naranja portátil &lt;color=#0080FFFF&gt;{LINK:GasPage;fuel}&lt;/color&gt; suministra una mezcla de 64 litros de 66% de volátiles / 34% de oxígeno para alimentar elementos como el {THING:ItemWeldingTorch} y el {THING:DynamicGenerator}. Todos los botes de gas están llenos cuando se fabrican a una presión de 8000 kPa (80 atmósferas) y se pueden montar en una {THING:DynamicGasCanisterAir} o un {THING:StructureGasTankStorage} para recargarlos. Tenga cuidado de no presurizar más de 100kPA, o puede explotar.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterVolatiles</Key>
@@ -951,7 +951,7 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     <RecordThing>
       <Key>ItemGasCanisterNitrogen</Key>
       <Value>Bombona (Nitrógeno)</Value>
-      <Description>Bombona (Nitrógeno)</Description>
+      <Description>El bote verde portátil &lt;color=#0080FFFF&gt;{LINK:GasPage;nitrogen or nitrous oxide}&lt;/color&gt; suministra propulsion para la {THING:ItemSpacepack} y la {THING:ItemHardJetpack}. Todos los botes de gas están llenos cuando se fabrican a una presión de 8000 kPa (80 atmósferas) y se pueden montar en una {THING:DynamicGasCanisterAir} o un {THING:StructureGasTankStorage} para recargarlos. Tenga cuidado de no presurizar más de 100kPA, o puede explotar.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterOxygen</Key>
@@ -966,17 +966,17 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxide</Key>
       <Value>Filtro (Dióxido de carbono)</Value>
-      <Description>Filtro (Dióxido de carbono)</Description>
+      <Description>Dada la obsesión de la humanidad por exhalar CO2, todos los Stationeers reciben dos filtros básicos de CO2 Sinotai como parte de su kit de implementación estándar (SDK). Estos filtros permiten el paso de CO2 a los desechos del traje {THING:ItemGasCanisterEmpty}, pero también son componentes críticos de {THING:DynamicScrubber} y {THING:StructureFiltration}. {THING:ItemGasFilterCarbonDioxideM} y {THING:ItemGasFilterCarbonDioxideL} también están disponibles.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterPollutants</Key>
       <Value>Filtro (Contaminante)</Value>
-      <Description>Filtro (Contaminante)</Description>
+      <Description>Los filtros se utilizan para capturar varios gases, como las emisiones de desechos de una {THING:StructureFurnace} o {THING:StructureArcFurnace}. Agregar filtros &lt;color=#0080FFFF&gt;{LINK:GasPage;pollutant}&lt;/color&gt; diseñados por Sinotai a un {THING:ItemDynamicScrubber} le permite aislar este gas, luego agregarlo a una red de tuberías y emplear sus excelentes propiedades refrigerantes en una {THING:StructureWallCooler}. Trate de no inhalarlo.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrogen</Key>
       <Value>Filtro (Nitrógeno)</Value>
-      <Description>Filtro (Nitrógeno)</Description>
+      <Description>Los filtros se utilizan para capturar diversos gases, que se pueden eliminar o utilizar en otro lugar. &lt;color=#0080FFFF&gt;{LINK:GasPage;Nitrogen}&lt;/color&gt; es un subproducto de la fundición de varios minerales, en particular &lt;color=#0080FFFF&gt;{LINK:OrePage;ices}&lt;/color&gt;, que puede combinarse con &lt;color=#0080FFFF&gt;{LINK:GasPage;oxygen}&lt;/color&gt; para crear una atmósfera respirable y considerablemente menos inflamable.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterOxygen</Key>
@@ -986,7 +986,7 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     <RecordThing>
       <Key>ItemGasFilterVolatiles</Key>
       <Value>Filtro (Volátiles)</Value>
-      <Description>Filtro (Volátiles)</Description>
+      <Description>Los filtros se utilizan para capturar diversos gases, que se pueden eliminar o utilizar en otro lugar. &lt;color=#0080FFFF&gt;{LINK:GasPage;Volatiles}&lt;/color&gt; se crean al exponer &lt;color=#0080FFFF&gt;{LINK:OrePage;ice (volatiles)}&lt;/color&gt; al calor. Luego, el producto puede recolectarse y combinarse con &lt;color=#0080FFFF&gt;{LINK:GasPage;oxygen}&lt;/color&gt; para crear combustible, o usarse dentro de una {THING:StructureFurnace} para fundir minerales y crear &lt;color=#0080FFFF&gt;{LINK:AlloyPage;alloys}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterWater</Key>
