@@ -645,22 +645,24 @@
     <RecordThing>
       <Key>CircuitboardAirControl</Key>
       <Value>Control de Aire</Value>
-      <Description>Control de Aire</Description>
+      <Description>Cuando se agrega a una {THING:StructureConsole}, las placas de circuito de control de aire le permiten programar una {THING:StructureActiveVent}. Al igual que con los perros pequeños y el 83% de las personas, los circuitos de control de aire tienen solo tres modos: Presión, corriente de aire y Fuera de línea. El modo de presión mantiene una atmósfera de 100 kPa, cambiando el venteo activo entre flujo hacia adentro y hacia afuera hasta que se alcanza la presión objetivo. El modo de corriente de aire le permite emparejar ventilaciones activas para hacer circular el aire. El modo fuera de línea desactiva la ventilación.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardAirlockControl</Key>
       <Value>Esclusa de aire</Value>
-      <Description>Esclusa de aire</Description>
+      <Description>Se rumorea que fue esbozado por primera vez en la pared de un inodoro Norsec por un ingeniero descontento, la versatilidad y facilidad de fabricación de la placa de circuito de control de la esclusa de aire Exgress lo ha convertido en el sistema de control de Stationeers preferido para los protocolos de ciclo de exclusas {THING:StructureAirlock}.
+
+Para ingresar al modo de configuración, inserte la placa en una {THING:StructureConsole} junto con un disco de datos. En este modo, puede ver todos los objetos accesibles a datos actualmente conectados a {THING:StructureConsole}. Se pueden seleccionar puertas, luces, sensores de gas y consolas esclavas (resaltadas en verde) y se controlarán una vez que se retire el disco de datos.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardCameraDisplay</Key>
       <Value>Monitor Cámaras</Value>
-      <Description>Monitor Cámaras</Description>
+      <Description>La vigilancia a veces es necesaria cuando se construyen bases en entornos altamente hostiles. La placa de circuito de la pantalla de la cámara permite a los cautelosos Stationeers convertir una {THING:StructureConsole} en una pantalla de seguridad cuando se conecta a una {THING:StructureCamera}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardDoorControl</Key>
       <Value>Control de Puerta</Value>
-      <Description>Control de Puerta</Description>
+      <Description>Una herramienta básica de la construcción de la base Stationeer, esta placa de circuito proporciona una manera de abrir y cerrar una {THING:StructureCompositeDoor}, {THING:StructureBlastDoor} o {THING:StructureGlassDoor} de forma remota, cuando se conecta a una {THING:StructureConsole}. Este sistema se puede vincular aún más a {THING:StructureMotionSensor} para crear puertas automáticas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardGasDisplay</Key>
@@ -687,12 +689,12 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     <RecordThing>
       <Key>CircuitboardSolarControl</Key>
       <Value>Control Solar</Value>
-      <Description>Control Solar</Description>
+      <Description>Agregar una placa de control solar a una {THING:StructureConsole} le permite controlar manualmente los ángulos horizontal y vertical de cualquier {THING:StructureSolarPanel} conectado.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicAirConditioner</Key>
       <Value>Aire acondicionado portátil</Value>
-      <Description>Aire acondicionado portátil</Description>
+      <Description>El aire acondicionado portátil Huxi diseñado por Sinotai se enfría extrayendo calor de la atmósfera y almacenándolo, o agregando calor a la atmósfera desde su tanque interno. Con una presión interna máxima de 8106 kPa, su capacidad es relativamente limitada, la física es clara sobre este tema. Para extender su capacidad de almacenamiento de temperatura, atornille el Huxi a un {THING:StructureTankConnector}, luego conéctelo a una red de tuberías que suministre &lt;color=#0080FFFF&gt;{LINK:GasPage;gases}&lt;/color&gt; calientes o fríos.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrate</Key>
@@ -878,7 +880,7 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     <RecordThing>
       <Key>ItemCoalOre</Key>
       <Value>Mineral (Carbón)</Value>
-      <Description>Mineral (Carbón)</Description>
+      <Description>La humanidad no habría llegado al espacio sin el humilde combustible en base al carbon. Quémelo en un {THING:DynamicGenerator} o {THING:StructureSolidFuelGenerator}, fúndalo en el {THING:StructureFurnace} para crear &lt;color=#0080FFFF&gt;{LINK:AlloysPage;alloys}&lt;/color&gt;, o utilícelo en el {THING:ApplianceReagentProcessor} para hacer {THING:ItemSprayCanBlack}. Simplemente no lo untes en tu cara. Eso no es cool.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDrill</Key>
@@ -927,7 +929,7 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     <RecordThing>
       <Key>ItemGasCanisterCarbonDioxide</Key>
       <Value>Bombona (CO2)</Value>
-      <Description>Bombona (CO2)</Description>
+      <Description>Cuando se fabrica, el recipiente de &lt;color=#0080FFFF&gt;{LINK:GasPage;CO2} &lt;/color&gt; se llena a una presión de 8000 kPa (80 atmósferas) y tiene el color gris predeterminado. Usado como combustible secundario en {THING:ItemJetpackBasic}, se puede montar en {THING:DynamicGasCanisterAir} o {THING:StructureGasTankStorage} para recargarlo. Tenga cuidado de no sobrepresurizar al volver a llenar, o podría explotar.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterPollutants</Key>
