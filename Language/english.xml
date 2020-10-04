@@ -1034,7 +1034,7 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>ItemFlour</Key>
       <Value>Flour</Value>
-      <Description/>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterCarbonDioxide</Key>
@@ -1297,7 +1297,7 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWall</Key>
-      <Value>Kit (Wall)</Value> 
+      <Value>Kit (Wall)</Value>
       <Description>This kit produces a range of composite wall elements and windows.</Description>
     </RecordThing>
     <RecordThing>
@@ -4308,8 +4308,8 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
       <Description>This is the default thing page.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>ItemKitFurnitureBed</Key>
-      <Value>Item Kit Furniture Bed</Value>
+      <Key>ItemKitFurnitureBeds</Key>
+      <Value>Kit (Bed)</Value>
       <Description>This is the default thing page.</Description>
     </RecordThing>
     <RecordThing>
@@ -4340,6 +4340,25 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>TriggerZone</Key>
       <Value>Trigger Zone</Value>
+      <Description>This is the default thing page.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitAirlockGate</Key>
+      <Value>Kit (Airlock Gate)</Value>
+      <Description>This is the default thing page.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureAirlockGate</Key>
+      <Value>Airlock Gate</Value>
+      <Description>This is the default thing page.</Description>
+    </RecordThing>   <RecordThing>
+      <Key>StructureBatteryLarge</Key>
+      <Value>Battery Large</Value>
+      <Description>This is the default thing page.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitBatteryLarge</Key>
+      <Value>Kit (Battery Large)</Value>
       <Description>This is the default thing page.</Description>
     </RecordThing>
   </Things>
@@ -5003,6 +5022,150 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <Record>
       <Key>MainMenuContinue</Key>
       <Value>Continue</Value>
+    </Record>
+    <Record>
+      <Key>KitCategory</Key>
+      <Value>Construction Kits</Value>
+    </Record>
+    <Record>
+      <Key>DoorCategory</Key>
+      <Value>Doors and Hatches</Value>
+    </Record>
+    <Record>
+      <Key>ChairTableCategory</Key>
+      <Value>Tables and Chairs</Value>
+    </Record>
+    <Record>
+      <Key>PersonalSuits</Key>
+      <Value>Suits</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCategory</Key>
+      <Value>Power Storage</Value>
+    </Record>
+    <Record>
+      <Key>CableCategory</Key>
+      <Value>Cables and Analyzers</Value>
+    </Record>
+     <Record>
+      <Key>LightCategory</Key>
+      <Value>Lights</Value>
+    </Record>
+    <Record>
+      <Key>PersonalBackpacks</Key>
+      <Value>Backpacks</Value>
+    </Record>
+    <Record>
+      <Key>FoodCategory</Key>
+      <Value>Consumeables</Value>
+    </Record>
+     <Record>
+      <Key>WallFloorCategory</Key>
+      <Value>Walls and Floors</Value>
+    </Record>
+    <Record>
+      <Key>SafetyCategory</Key>
+      <Value>Safety and Transport</Value>
+    </Record>
+    <Record>
+      <Key>OrganicsCategory</Key>
+      <Value>Organics</Value>
+    </Record>
+    <Record>
+      <Key>PersonalEyeWear</Key>
+      <Value>Eye Wear</Value>
+    </Record>
+    <Record>
+      <Key>PersonalClothing</Key>
+      <Value>Clothing</Value>
+    </Record>
+    <Record>
+      <Key>OreHeader</Key>
+      <Value>Ores</Value>
+    </Record>
+    <Record>
+      <Key>ReagentsHeader</Key>
+      <Value>Reagents</Value>
+    </Record>
+    <Record>
+      <Key>GasesHeader</Key>
+      <Value>Gases</Value>
+    </Record>
+    <Record>
+      <Key>FrozenOreHeader</Key>
+      <Value>Frozen Ores</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeCategory</Key>
+      <Value>Cartridges</Value>
+    </Record>
+    <Record>
+      <Key>PersonalHelmets</Key>
+      <Value>Helmets</Value>
+    </Record>
+    <Record>
+      <Key>PersonalToolbelt</Key>
+      <Value>Tool Belts</Value>
+    </Record>
+    <Record>
+      <Key>Other</Key>
+      <Value>Other</Value>
+    </Record>
+    <Record>
+      <Key>PowerTool</Key>
+      <Value>Power Tools</Value>
+    </Record>
+    <Record>
+      <Key>SlotsTitle</Key>
+      <Value>All Slots</Value>
+    </Record>
+    <Record>
+      <Key>LogicReadersCategory</Key>
+      <Value>Logic Readers</Value>
+    </Record>
+    <Record>
+      <Key>LogicWriterCategory</Key>
+      <Value>Logic Writers</Value>
+    </Record>
+    <Record>
+      <Key>MotherboardCategory</Key>
+      <Value>Motherboards</Value>
+    </Record>
+    <Record>
+      <Key>ControlSystemAtmos</Key>
+      <Value>Control Systems</Value>
+    </Record>
+    <Record>
+      <Key>ApplianceCategory</Key>
+      <Value>Appliances</Value>
+    </Record>
+    <Record>
+      <Key>Fabricators</Key>
+      <Value>Fabricators</Value>
+    </Record>
+    <Record>
+      <Key>Edibles</Key>
+      <Value>Edibles</Value>
+    </Record>
+    <Record>
+      <Key>AirContitioningAtmos</Key>
+      <Value>Air Conditioning</Value>
+    </Record>
+    <Record>
+      <Key>AtmosDevices</Key>
+      <Value>Atmospheric Devices</Value>
+    </Record>
+    <Record>
+      <Key>FireArm</Key>
+      <Value>Weapons</Value>
+    </Record>
+    <Record>
+      <Key>ManualTools</Key>
+      <Value>Manual Tools</Value>
+    </Record>
+    <Record>
+      <Key>PowerTools</Key>
+      <Value>Power Tools</Value>
     </Record>
     <Record>
       <Key>TraderErrorConnectWires</Key>

@@ -6,125 +6,69 @@
     |                 MASTER PAGES            |
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->  
-  
+
     <StationpediaPage>
       <Key>Home</Key>
       <Title>Home</Title>
-      <Text>Welcome to the internal help system for Stationeers. With this tool you can find out information about how all the systems work, as well as important information about all the things in the world.
-      
-{HEADER:Using Help}
-You can toggle this window open and closed using the {KEY:Help} key. To enable the mouse cursor while playing hold the {KEY:MouseControl} key this allows you to click on links within the help system.
-
-{HEADER:Inspecting}
-If you hold down {KEY:MouseControl} and {KEY:MouseInspect} and click on something you can [i]inspect[/i] it. This will open up the help system to the page related to that object and give you detailed information.
-
-{HEADER:Key topics}
-{LIST}{LINK:SmeltingPage;Smelting}, {LINK:MiningPage;Mining}, {LINK:ConstructionPage;Construction}, {LINK:InventoryPage;Inventory}
-{/LIST}
-{HEADER:Guides}
-{LIST}{LINK:GettingStarted;Getting Started}
-{/LIST}
-{HEADER:Other}
-{LIST}{LINK:GasPage;Gases}, {LINK:ReagentPage;Reagents}
-{/LIST}
-{HEADER:Items}
-{LIST}{LINK:ToolPage;Tools}, {LINK:ResourcePage;Resources}, {LINK:KitPage;Kits}, {LINK:FoodPage;Food}, {LINK:ClothingPage;Clothing}, {LINK:AppliancePage;Appliances}, {LINK:IngotPage;Ingots}, {LINK:OrePage;Ores}, {LINK:AlloyPage;Alloys}, {LINK:SuperAlloyPage;Superalloys}
-{/LIST}
-{HEADER:Structures}
-{LIST}{LINK:DevicePage;Devices}, {LINK:FabricatorPage;Fabricators}, {LINK:AirlockDevicePage;Airlock Devices}, {LINK:LogicUnitPage;Logic Units}
-{/LIST}
-{HEADER:World Travel}
-{LIST}{LINK:RocketShuttleModulesHelpPage;Rocket Shuttle Modules Help}, {LINK:TravelPage;Travel}, {LINK:RocketShuttlePage;Rocket Shuttle Modules}
-{/LIST}
+      <Text>
       </Text>
     </StationpediaPage>
-    
+
     <StationpediaPage>
       <Key>GettingStarted</Key>
       <Title>Getting Started</Title>
-      <Text>{HEADER:Welcome to a new world}
-If this is your first time then it is a lot to learn at once. The initial pressures on you are great and it can be really overwhelming to get started. The following is some general guidelines to get going. Each world type has different problems you need to face, but the following should give you a broad overview of what you need to manage.
-      
-{HEADER:Keeping your Suit Charged}
-The most pressing need you have is recharging the {THING:ItemBatteryCellLarge} in your {THING:ItemEvaSuit}. The suit battery is used to power your {THING:ItemSpaceHelmet} light (turn this off when not in use) and also warm up your internal air. On colder worlds, this draws a lot of power. You will need to place down a {THING:ItemBatteryCharger} and connect it to a power source, the {THING:StructureSolidFuelGenerator} powered with {THING:ItemCoalOre} or the {THING:StructureSolarPanel} are good starter ways to handle this. In an emergency, take batteries out of your {LINK:ToolPage;Tools} to use to keep your suit going or use the supplied {THING:PortableSolarPanel} to charge them.
-
-{HEADER:Improving Power Collection}
-Placing a {THING:StructureAreaPowerControl}, with a {THING:ItemBatteryCell} inserted, between the power source and your chargers will help a great deal. This is because the power source is likely generating more power than the {THING:ItemBatteryCharger} can hold and is wasted. Additionally, while you can manually orient the {THING:StructureSolarPanel}, but automating it to follow the sun will help you a lot. You can use {LINK:LogicUnitPage;Logic Units} to help you with this.
-      
-{HEADER:Managing your Oxygen}
-Your {THING:ItemEvaSuit} and {THING:ItemSpaceHelmet} form a protective shell from the elements. The {THING:ItemEvaSuit} needs {THING:ItemGasCanisterOxygen} to provide you pure {GAS:Oxygen}. Keep an eye on the gas quantity in the tank, you can refill it using the big {THING:DynamicGasCanisterOxygen} provided in your starting gear. There is a "hazard" marker indicating the slot you can insert the canister to refill it.
-
-{HEADER:Basic Smelting}
-Once you have some basic power generation up, you need to begin getting more resources. Head out {LINK:MiningPage;Mining} to get basic {LINK:OrePage;Ores}. Place down the {THING:StructureArcFurnace} and connect it behind your {THING:StructureAreaPowerControl}. This will {LINK:SmeltingPage;Smelt} basic {LINK:OrePage;Ores}, such as {THING:ItemIronOre}, {THING:ItemSiliconOre}, and any other non {LINK:AlloyPage;Alloy}.
-
-{HEADER:Basic Fabrication}
-Now that you have {LINK:IngotPage;Ingots} you can insert them into {LINK:FabricatorPage;Fabricators} as a resource. Construct the {THING:StructureAutolathe} from the {THING:ItemKitAutolathe} provided in the starter crates.
-
-{HEADER:Replacing your Filters}
-As you breath in {GAS:Oxygen} you also breath out {GAS:CarbonDioxide}, so you also need a {THING:ItemGasFilterCarbonDioxide} in your {SLOT:Filter} slot. These wear out over time, and you'll need to build new ones on the {THING:StructureHydraulicPipeBender}. This can be made from a {THING:ItemKitHydraulicPipeBender} on the {THING:StructureAutolathe}.
-
-{HEADER:Build a Glass House}
-You will need a small enclosed area to setup {LINK:HydroponicsPage;Hydroponics} to allow you to make {LINK:FoodPage;Food}. Don't make it too big as it will be harder to pressurize. Make plenty of {THING:} using a variant on the {THING:ItemKitWallIron} kits, to allow sunlight in. Ensure the entry is managed using either an automated {LINK:AirlockPage;Airlock} or a manual one. Remember you can open and close unpowered doors using the {THING:ItemCrowbar}.
-
-{HEADER:Pressurize Your Glass House}
-Once you have the area enclosed, {LINK:MiningPage;Mine} some {THING:ItemOxite} and melt this until you have around 100 kPa of pressure in your growing area. Then add some {GAS:CarbonDioxide} to the atmosphere. You can do this easily by taking your Waste Tank from your {THING:ItemEvaSuit} into your hands, opening it, and the closing it and putting it back. This will release the filtered {GAS:CarbonDioxide} from your breathing into the environment. {LINK:PlantPage;Plants} will use this to breath.
-
-{HEADER:Growing Plants}
-Take the provided {THING:DynamicHydroponics} into your new glass house. It has a {THING:ItemGasCanisterWater} to provide the plants {GAS:Water}. Now plant using {THING:ItemPotato} from the starter crates. Plant one first, and verify it is growing before you use the others. They require sunlight, warmth, and a small amount of {GAS:CarbonDioxide} to survive.
-
-{HEADER:Advanced Smelting}
-The {THING:StructureArcFurnace} only allows you to smelt simple {LINK:OrePage;Ores}, and to make more advanced components you will need to use more complex methods to smelt {LINK:AlloyPage;Alloys}. These are done in the {THING:StructureFurnace}, by achieving the right {LINK:PressurePage;Pressure}, {LINK:TemperaturePage;Temperature}, and {LINK:ReagentPage;Reagent} mix ratio. For example to make {THING:ItemSteelIngot} you will need a ratio of one part {REAGENT:Coal} and three parts {REAGENT:Iron}.
-
-You can directly insert {LINK:IcePage;Ices} into the top. If there is no atmosphere to melt them, press the {LOGICTYPE:Activate} button to crush it. The ice will melt automatically if there is enough gas of the right temperature inside. Use a mix of {THING:ItemOxite} and {THING:ItemVolatiles} to start a fire inside, although this will increase the pressure inside dramatically.
-
-Once it is at the right temperature, insert ores to smelt them - but watch your ratios or waste products will come out as {THING:ItemReagentMix} which will need to be sorted in a {THING:StructureCentrifuge}. To export a product, pull the {LOGICTYPE:Open} handle.
-
-Even more advanced {LINK:SuperAlloyPage;Superalloys} can be smelted at the {THING:StructureAdvancedFurnace}. They have very tight requirements to smelt and are extremely difficult, but necessary for very advanced manufacturing.
-{/LIST}
+      <Text>
       </Text>
     </StationpediaPage>
     
   <StationpediaPage>
       <Key>InventoryPage</Key>
       <Title>Inventory</Title>
-      <Text>All things in the game can have various slots. These slots may have slot classes, allowing only certain things into those slots. There are various hotkeys for accessing slots that are on your character, such as {KEY:HelmetSlot} for accessing your {SLOT:Helmet}.
-      
-{HEADER:Inventory Windows}
-Some slots will have slots of their own. To interact with the contents of a slot either use the hotkey to open it's window, or hold {KEY:MouseControl} and use the mouse to click on it. Now the window for that slot is open and you can interact with it's slots and settings. Windows are repositionable by dragging their title bar.
-
-{HEADER:Fast Equipping}
-You can hold down a hotkey to fast equip, unequip, or swap a slot. For example, if we had a {THING:ItemSpaceHelmet} in our hands, and nothing in our {SLOT:Helmet}, if we held down {KEY:HelmetSlot} for a second it would be transferred into the slot.
-
-{HEADER:Drag and Drop}
-Alternatively, if you hold down {KEY:MouseControl} you can also drag and drop. You can drag and drop between slots, windows, even between the world and slots within the world.
-
-{HEADER:Dropping}
-You can drop an item using the mouse, via {KEY:MouseControl} and dragging and dropping it into the world or you can press {KEY:Drop}.
-
-{HEADER:Selecting}
-The {KEY:InventorySelect} button will swap whatever your selected slot is in your active hand, along with whatever slot you have selected with the {COLORRED:Mouse Wheel} if you want to use the hotkeys rather than doing it using the mouse.
+      <Text>
       </Text>
     </StationpediaPage>
     
     <StationpediaPage>
       <Key>AirlockDevicePage</Key>
       <Title>Airlock Devices</Title>
-      <Text>Placing a {THING:CircuitboardAirlockControl} in a {THING:StructureConsole} you can connect various devices to it, in order to make a functioning airlock.
-      
-{HEADER:List of Airlock Devices}
-The following devices can be connected to, and used by, the airlock control system:
-{LIST_OF_AIRLOCK_DEVICES}
-      </Text>
+      <Text>{LIST_OF_AIRLOCK_DEVICES}</Text>
     </StationpediaPage>
-    
     <StationpediaPage>
       <Key>LogicUnitPage</Key>
       <Title>Logic Units</Title>
-      <Text>{HEADER:List of Logic Units}
-{LIST_OF_LOGIC_UNITS}
-      </Text>
+      <Text>{LIST_OF_LOGIC_UNITS}</Text>
     </StationpediaPage>
-    
+        <StationpediaPage>
+      <Key>CartridgePage</Key>
+      <Title>Cartridges</Title>
+      <Text>{LIST_OF_CARTRIDGES}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>StructurePage</Key>
+      <Title>Structures</Title>
+      <Text>{LIST_OF_STRUCTURES}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ElectronicPage</Key>
+      <Title>Electronics</Title>
+      <Text>{LIST_OF_ELECTRONICS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>OrganicPage</Key>
+      <Title>Organics</Title>
+      <Text>{LIST_OF_FOOD} {LIST_OF_ORGANICS}</Text>
+    </StationpediaPage>
+        <StationpediaPage>
+      <Key>AtmosphericPage</Key>
+      <Title>Atmospherics</Title>
+      <Text>{LIST_OF_ATMOSPHERICS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FurniturePage</Key>
+      <Title>Furniture</Title>
+      <Text>{LIST_OF_FURNITURES}</Text>
+    </StationpediaPage>
+
   <StationpediaPage>
       <Key>SlotLeftHand</Key>
       <Title>Hand Slots</Title>
@@ -246,6 +190,12 @@ There are some ores that will melt when exposed to sunlight or heat and produce 
       <Text>These are Items that are typically made from {LINK:SmeltingPage;Smelting} {LINK:OrePage;ores}.
       
 {HEADER:List of Ingots}
+{LIST_OF_INGOTS}
+
+{HEADER:List of Alloys}
+{LIST_OF_INGOTS}
+
+{HEADER:List of Super-Alloys}
 {LIST_OF_INGOTS}
       </Text>
     </StationpediaPage>
@@ -402,12 +352,12 @@ Autoignition{POS:300}{2}{3}{/LIST}</Text>
     
     <StationpediaPage>
       <Key>ThingSlotItemTemplate</Key>
-      <Text>{0}. {POS:100}{1} {POS:300}Type {2}</Text>
+      <Text>{0}. {1} Type {2}</Text>
     </StationpediaPage>
     
     <StationpediaPage>
       <Key>ThingStackTemplate</Key>
-      <Text>Stack Size {POS:300}{0}</Text>
+      <Text>{0}</Text>
     </StationpediaPage>
 
     <StationpediaPage>
@@ -417,13 +367,13 @@ Autoignition{POS:300}{2}{3}{/LIST}</Text>
     
     <StationpediaPage>
       <Key>ThingNutritionTemplate</Key>
-      <Text>Max Nutrition {POS:300}{0}</Text>
+      <Text>{0}</Text>
     </StationpediaPage>
     
     <StationpediaPage>
       <Key>IceMeltingTemplate</Key>
-      <Text>Melt Temperature {POS:300}{1}
-Melt Pressure {POS:300}{0}</Text>
+      <Text>Melt Temperature {1}
+Melt Pressure {0}</Text>
     </StationpediaPage>
     
     <StationpediaPage>
@@ -466,7 +416,7 @@ Melt Pressure {POS:300}{0}</Text>
 
     <StationpediaPage>
       <Key>CreatorTemplate</Key>
-      <Text>{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}</Text>
+      <Text>{LIST}{0}{1}{/LIST}{/LIST}</Text>
     </StationpediaPage>
     
     <StationpediaPage>
@@ -498,7 +448,7 @@ Melt Pressure {POS:300}{0}</Text>
     
     <StationpediaPage>
       <Key>ModeStringItemTemplate</Key>
-      <Text>{0}.{POS:100}{1}</Text>
+      <Text>{0}.{1}</Text>
     </StationpediaPage>
     
     
@@ -507,7 +457,7 @@ Melt Pressure {POS:300}{0}</Text>
       <Text>A {LINK:ReagentPage;reagent}, often usable when in {LINK:IngotPage;Ingots} form.
 
 {HEADER:General}
-{LIST}Unit {POS:300}{1}{/LIST}
+{LIST}Unit {1}{/LIST}
 
 {HEADER:Found In}
 {LIST}{2}{/LIST}</Text>
@@ -518,7 +468,7 @@ Melt Pressure {POS:300}{0}</Text>
       <Text>A {LINK:GasPage;gas}, often produced when {LINK:SmeltingPage;smelting}.
 
 {HEADER:General}
-{LIST}Specific Heat {POS:300}{1}{2}{/LIST}
+{LIST}Specific Heat {1}{2}{/LIST}
 
 {HEADER:Found In}
 {LIST}{0}{/LIST}</Text>
@@ -526,7 +476,7 @@ Melt Pressure {POS:300}{0}</Text>
     
     <StationpediaPage>
       <Key>GasPageFlamableTemplate</Key>
-      <Text>Flamable Limit {POS:300}{0} to {1}</Text>
+      <Text>Flamable Limit {0} to {1}</Text>
     </StationpediaPage>
     
   </HelpPage>
