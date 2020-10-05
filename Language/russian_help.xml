@@ -112,11 +112,17 @@
     <StationpediaPage>
       <Key>IngotPage</Key>
       <Title>Слитки</Title>
-      <Text>Это предметы, которые обычно изготавливаются из {LINK:SmeltingPage;расплавленной} {LINK:OrePage;руды}.
-
+      <Text>Это предметы, которые обычно изготавливаются из {LINK:SmeltingPage;Переплавка} {LINK:OrePage;Руды}.
+      
 {HEADER:Список слитков}
 {LIST_OF_INGOTS}
-</Text>
+
+{HEADER:Список Сплавов}
+{LIST_OF_INGOTS}
+
+{HEADER:Список Супер-Сплавов}
+{LIST_OF_INGOTS}
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ToolPage</Key>
@@ -237,24 +243,16 @@
     </StationpediaPage>
     <StationpediaPage>
       <Key>ThingSlotItemTemplate</Key>
-      <Text>{0}. {POS:100}{1} {POS:300}Тип {2}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ThingStackTemplate</Key>
-      <Text>Размер стака {POS:300}{0}</Text>
+      <Text>{0}. {1} Тип {2}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ThingTransmissibleTemplate</Key>
       <Text>Подключается к {POS:300}{THING:StructureLogicTransmitter}</Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>ThingNutritionTemplate</Key>
-      <Text>Максимальная пищевая ценность {POS:300}{0}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>IceMeltingTemplate</Key>
-      <Text>Температура плавления {POS:300}{1}
-Давление плавления {POS:300}{0}</Text>
+      <Text>Температура плавления {1}
+Давление плавления {0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>CreatorsHeaderTemplate</Key>
@@ -289,10 +287,6 @@
       </Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>CreatorTemplate</Key>
-      <Text>{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>LogicTypeHeaderTemplate</Key>
       <Text>{HEADER:Логика}{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
@@ -309,10 +303,6 @@
       <Key>CreatedReagentTemplate</Key>
       <Text>{HEADER:Реагенты}
 {LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ModeStringItemTemplate</Key>
-      <Text>{0}.{POS:100}{1}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ReagentPageTemplate</Key>
