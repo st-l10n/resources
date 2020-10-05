@@ -114,8 +114,14 @@ Existují některé rudy, které roztají, když jsou vystaveny slunečnímu zá
       <Key>IngotPage</Key>
       <Title>Ingoty</Title>
       <Text>Jedná se o položky, které jsou obvykle vyrobeny z {LINK:SmeltingPage;tavení} {LINK:OrePage;rud}.
-      
+           
 {HEADER:Seznam ingotů}
+{LIST_OF_INGOTS}
+
+{HEADER:Seznam slitin}
+{LIST_OF_INGOTS}
+
+{HEADER:Seznam super slitin}
 {LIST_OF_INGOTS}
       </Text>
     </StationpediaPage>
@@ -261,8 +267,8 @@ Samovznícení {POS:300}{2}{3}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>IceMeltingTemplate</Key>
-      <Text>Teplota tání {POS:300}{1}
-Tlak tání {POS:300}{0}</Text>
+      <Text>Teplota tání {1}
+Tlak tání {0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>CreatorsHeaderTemplate</Key>
@@ -297,10 +303,6 @@ Tlak tání {POS:300}{0}</Text>
       </Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>CreatorTemplate</Key>
-      <Text>{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>LogicTypeHeaderTemplate</Key>
       <Text>{HEADER:Logika}{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
@@ -317,10 +319,6 @@ Tlak tání {POS:300}{0}</Text>
       <Key>CreatedReagentTemplate</Key>
       <Text>{HEADER:Činidla}
 {LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ModeStringItemTemplate</Key>
-      <Text>{0}.{POS:100}{1}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ReagentPageTemplate</Key>
@@ -344,7 +342,7 @@ Tlak tání {POS:300}{0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageFlamableTemplate</Key>
-      <Text>Hořlavý limit {POS:300}{0} až {1}</Text>
+      <Text>Limit hořlavosti {0} až {1}</Text>
     </StationpediaPage>
   </HelpPage>
 </Language>
