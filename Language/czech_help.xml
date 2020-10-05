@@ -253,19 +253,11 @@ Samovznícení {POS:300}{2}{3}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ThingSlotItemTemplate</Key>
-      <Text>{0}. {POS:100}{1} {POS:300}Typ{2}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ThingStackTemplate</Key>
-      <Text>Velikost zásobníku {POS:300}{0}</Text>
+      <Text>{0}. {1} Typ {2}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ThingTransmissibleTemplate</Key>
       <Text>Připojí se k {POS:300}{THING:StructureLogicTransmitter}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ThingNutritionTemplate</Key>
-      <Text>Maximální výživa {POS:300}{0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>IceMeltingTemplate</Key>
