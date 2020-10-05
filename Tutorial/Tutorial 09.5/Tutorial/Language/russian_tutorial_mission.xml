@@ -219,8 +219,16 @@
       <Value>Установка Точки Назначения</Value>
     </Record>
     <Record>
+      <Key>SettingTheDestinationDescription</Key>
+      <Value>Перед запуском, вы захотите запрограммировать полетный компьютер на действительное назначения - иначе вы можете оказаться в середине нигде. В этом случае мы хотим полететь на Мимас, один из спутников Сатурна. Сделайте это, написав идентификатор планеты в командный модуль с помощью логических чипов.</Value>
+    </Record>
+    <Record>
       <Key>SettingTheDestination1</Key>
       <Value>Откройте Stationpedia</Value>
+    </Record>
+    <Record>
+      <Key>SettingTheDestination2</Key>
+      <Value>Перейдите в секцию путешествий по миру, нажмите на кнопку &quot;Путешествие&quot; и прочитайте о том, как установить пункты назначения, а затем нажмите на координаты Минмаса: -712314497, чтобы скопировать их в буфер обмена</Value>
     </Record>
     <Record>
       <Key>SettingTheDestination3</Key>
@@ -229,6 +237,22 @@
     <Record>
       <Key>SettingTheDestination4</Key>
       <Value>Насройте {THING:StructureLogicMemory} на координаты Минмаса: -712314497 при помощи {THING:ItemLabeller}.</Value>
+    </Record>
+    <Record>
+      <Key>SettingTheDestination5</Key>
+      <Value>Установите значение ввода на {THING:StructureLogicWriter} на {THING:StructureLogicMemory} используя {THING:ItemScrewdriver}</Value>
+    </Record>
+    <Record>
+      <Key>SettingTheDestination6</Key>
+      <Value>Установите значение вывода на {THING:StructureLogicWriter} на {THING:StructureLaunchPad} испотзуя {THING:ItemScrewdriver} </Value>
+    </Record>
+    <Record>
+      <Key>SettingTheDestination8</Key>
+      <Value>Наконец, включите {THING:StructureLogicWriter}. Любые предыдущие шаги должны быть выполнены.</Value>
+    </Record>
+    <Record>
+      <Key>FuelUpValve</Key>
+      <Value>Топливный Вентиль</Value>
     </Record>
   </Interface>
 </Language>
