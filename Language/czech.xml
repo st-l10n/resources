@@ -1251,14 +1251,29 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
       <Description>Původně vyvinutý společností Recurso Espaciais pro těžbu asteroidů, hornický opasek Stationeera má prostor pro dva &lt;color=#0080FFFF&gt;{LINK:ToolPage;nástroje}&lt;/color&gt;, sedm zásobníků &lt;color=#0080FFFF&gt;{LINK:OrePage;rudy}&lt;/color&gt; a jeden {THING:ItemDirtCanister}. Při nošení opasku se tam ruda automaticky ukládají při těžbě. Těkavé a teplotně závislé zůstávají v ekologicky řízené jednotce stabilní.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemMiningDrill</Key>
+      <Value>Težební vrták</Value>
+      <Description>Ruční tříkónický rotační těžební vrták &apos;Topo&apos; byl vyroben pro jednu věc: rychlé kopání. Po vzoru klasického designu Recurso zero-g funguje stejně dobře ve vakuu i atmosféře, s bity ze slinutého karbidu pro zvýšení odolnosti a životnosti ložiska a snížení odlupování. Jak kdysi řekl Jenk Murtons: &apos;Topo se nezastaví.&apos;</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemPassiveVent</Key>
       <Value>Souprava (Pasivní ventilátor)</Value>
       <Description>Tato souprava vytváří {THING:ItemPassiveVent}.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemPickaxe</Key>
+      <Value>Krumpáč</Value>
+      <Description>Když slunce zapadne a {THING:ItemMiningDrill} se vybije, vybité baterie a váš {THING:StructureSolarPanel} chladný a bez života, {THING:StructureAutolathe} prázdný, cesta vpřed nejasná, jedna věc brzdí nekonečnou noc porážky: důvěryhodný krumpáč.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemPillHeal</Key>
       <Value>Pilulka (Uzdravovací)</Value>
       <Description>Tři století farmaceutické technologie stlačené do jedné malé pilulky, kterou lze snadno pohltit: uzdravovací pilulka, aka protonová pilulka, aka Mr Happy, obsahuje aktivní enzymy, terapeutické proteiny, modifikované mikrobiální kmeny a analogy buněčných linií savců v jediné dávce s vysokou dávkou čistoty, účinnosti a účinnost, která potencuje rychlou parasympatickou imunitní odpověď.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPillStun</Key>
+      <Value>Pilulka (Paralyzační)</Value>
+      <Description>Existence této pilulky je jen zřídka zveřejňována a je veřejným tajemstvím. Pro použití, když selhalo vše ostatní, čípek sayonara znehybňuje a rychle končí průměrnou stanici. Režim doručování zajišťuje, že pokud se Stationeer rozhodne tuto pilulku vzít, musí ji opravdu chtít.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeAnalyizer</Key>
@@ -1359,6 +1374,11 @@ Obvodová deska má dva režimy: &apos;Spojit&apos; zapíná nebo vypíná všec
       <Key>ItemScanner</Key>
       <Value>Ruční skener</Value>
       <Description>Tajemný kousek technologie, o kterém se říká, že má zrilovský původ.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemScrewdriver</Key>
+      <Value>Šroubovák</Value>
+      <Description>Tento standardní seřizovač tření adheze k emisi je špičkovým bi-rotačním modelem se sloupkovým uni-gripem. Není to jen šroubovák. Použijte ho pro konstrukci a dekonstrukci určitých souprav a nastavení hodnot na &lt;color=#0080FFFF&gt;{LINK:LogicPage;logických}&lt;/color&gt; jednotkách.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSecurityCamera</Key>
