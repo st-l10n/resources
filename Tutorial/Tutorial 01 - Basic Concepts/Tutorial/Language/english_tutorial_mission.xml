@@ -281,6 +281,10 @@
       		<Value>You can also drag items from the world directly into your inventory.</Value>
     	</Record>
 		<Record>
+			<Key>DragFromWorldT1Disc</Key>
+			<Value>Drag the mining belt into the backpack UI window.</Value>
+		</Record>
+		<Record>
 			<Key>AltClickControls</Key>
 			<Value>{KEY:MouseControl} + {KEY:PrimaryAction}</Value>
 		</Record>
@@ -397,7 +401,7 @@
       		<Value>When you're mining or building, you can merge one stack of items with another. You can do this in your hands, or any other slot.</Value>
     	</Record>
 		<Record>
-			<key>MergeFramesT1Disc</key>
+			<Key>MergeFramesT1Disc</Key>
 			<Value>Merge the frames by dragging one stack onto the other, in the crate.</Value>
 		</Record>
 		<Record>
@@ -497,7 +501,7 @@
 			<Value>Build iron frame #1</Value>
 		</Record>
 		<Record>
-			<Key>IronFrameBuildTaskT1</Key>
+			<Key>IronFrameBuildTaskT2</Key>
 			<Value>Build iron frame #2</Value>
 		</Record>
 		<Record>
@@ -540,6 +544,10 @@
       		<Key>Narration20T</Key>
       		<Value>Frames</Value>
     	</Record>
+		<Record>
+			<Key>FinishFrameT1</Key>
+			<Value>Finish the frame.</Value>
+		</Record>
 		<Record>
       		<Key>Narration20D</Key>
       		<Value>Now the base is sealed, you can add atmosphere. Activating the area power controller (APC) will start the flow of air into the room. Watch the external pressure rise on your status panel.</Value>
