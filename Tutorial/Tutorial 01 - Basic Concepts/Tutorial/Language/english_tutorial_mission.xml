@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Name>English</Name>
+<Code>EN</Code>
+<Font>font_english</Font>
+	<Interface>
+		<Record>
+			<Key>BasicConcepts</Key>
+			<Value>Basic Concepts</Value>
+		</Record>
+		<Record>
+			<Key>BasicConceptsSubTitle</Key>
+			<Value>Understanding the basics</Value>
+		</Record>
+		<Record>
+      		<Key>BasicConceptsDescription</Key>
+      		<Value>Welcome to the Lunar Training Facility, Cadet. Complete this phase of practical training and you'll be ready to join thousands of other Stationeers working across the Orion Arm.</Value>
+    	</Record>
+		<Record>
+      		<Key>IntroClose</Key>
+      		<Value>Close Mission Breif.</Value>
+    	</Record>
+		<Record>
+      		<Key>WelcomeRecuit</Key>
+      		<Value>Welcome Recuit.</Value>
+    	</Record>
+		<Record>
+      		<Key>BasicConceptsDescription</Key>
+      		<Value>Welcome to the Lunar Training Facility, Cadet. Complete this phase of practical training and you'll be ready to join thousands of other Stationeers working across the Orion Arm.</Value>
+    	</Record>
+		<Record>
+      		<Key>WelcomeRecuitDisc</Key>
+      		<Value>Enter the training base airlock.</Value>
+    	</Record>
+		<Record>
+      		<Key>ControlMovement-1</Key>
+      		<Value>{KEY:Forward}{KEY:Left}{KEY:Backward}{KEY:Right}</Value>
+    	</Record>
+		<Record>
+      		<Key>ControlMovementDisc</Key>
+      		<Value>Player Movement</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration1T</Key>
+      		<Value>Welcome Recuit.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration1D</Key>
+      		<Value>Working and building under hazardous conditions far from home, Stationeers need a wide range of skills. First up, we're going to make sure you've mastered the basics. So let's get started. Enter the training facility through the airlock ahead.</Value>
+    	</Record>
+		<Record>
+      		<Key>EnterAreaT1</Key>
+      		<Value>Enter the airlock</Value>
+    	</Record>
+		<Record>
+			<Key>ControlLeftClick</Key>
+			<Value>{KEY:PrimaryAction}</Value>
+		</Record>
+		<Record>
+			<Key>ControlLeftClickDisc</Key>
+			<Value>Cycle the airlock.</Value>
+		</Record>
+		<Record>
+      		<Key>Narration2T</Key>
+      		<Value>Airlock Controls.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration2D</Key>
+      		<Value>To pass through an airlock, click 'Cycle to interior'. Powered airlocks cycle automatically if the room is pressurized.</Value>
+    	</Record>
+		<Record>
+      		<Key>TrainingBaseDisc</Key>
+      		<Value>Enter the Training Base..</Value>
+    	</Record>
+		<Record>
+      		<Key>OpenAirlock</Key>
+      		<Value>Cycle the airlock.</Value>
+    	</Record>
+		<Record>
+      		<Key>ExitAreaT1</Key>
+      		<Value>Enter Testing Area.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration3T</Key>
+      		<Value>Only Two Hands.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration3D</Key>
+      		<Value>Before it collapsed into a singularity, the Stationeers Handbook established a key protocol: Cadets have TWO hands, but should only do ONE thing at a time.</Value>
+    	</Record>
+		<Record>
+			<Key>PickUpControlsDisc</Key>
+			<Value>Pick up.</Value>
+		</Record>
+		<Record>
+			<Key>SwapControls</Key>
+			<Value>{KEY:SwapHands}</Value>
+		</Record>
+		<Record>
+			<Key>SwapControlsDisc</Key>
+			<Value>Swap Hands.</Value>
+		</Record>
+		<Record>
+      		<Key>Co-OrdinationDisc</Key>
+      		<Value>Test your co-ordination.</Value>
+    	</Record>
+		<Record>
+      		<Key>PickUpT1</Key>
+      		<Value>Get the welder from the crate.</Value>
+    	</Record>
+		<Record>
+      		<Key>SwapHandsT1</Key>
+      		<Value>Swap active hands</Value>
+    	</Record>
+		<Record>
+      		<Key>PickUpT1 1</Key>
+      		<Value>Get the wirecutters from the crate.</Value>
+    	</Record>
+		<Record>
+      		<Key>SwapHandsT1 2</Key>
+      		<Value>Swap active hands ... again.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration4T</Key>
+      		<Value>The welder.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration4D</Key>
+      		<Value>You could have been a juggler. But you signed up as a Stationeer, so you're going to juggle tools instead. Many of these must be activated to use them.</Value>
+    	</Record>
+		<Record>
+		<Key>ActiveWilderDisc</Key>
+		<Value>Activate the welder</Value>
+		</Record>
+		<Record>
+			<Key>TurnOnControls</Key>
+			<Value>{KEY:ToggleHandPower}</Value>
+		</Record>
+		<Record>
+			<Key>TurnOnControlsDisc</Key>
+			<Value>Toggle Power</Value>
+		</Record>
+		<Record>
+      		<Key>WeilderOn</Key>
+      		<Value>Turn on welder.</Value>
+    	</Record>
+		<Record>
+      		<Key>WeilderOff</Key>
+      		<Value>Turn off welder.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration5T</Key>
+      		<Value>Letting Go.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration5D</Key>
+      		<Value>So far, your hands are working fine. Let's try dropping and throwing. Press Q to drop items. Hold Q to throw them away.</Value>
+    	</Record>
+		<Record>
+		<Key>DropItemT1 1</Key>
+		<Value>Drop the item in your right hand.</Value>
+		</Record>
+		<Record>
+      		<Key>DropWireCutters</Key>
+      		<Value>Drop the tool.</Value>
+    	</Record>
+		<Record>
+      		<Key>DropControls</Key>
+      		<Value>{KEY:Drop}</Value>
+    	</Record>
+		<Record>
+      		<Key>DropControlsDisc</Key>
+      		<Value>Drop Item</Value>
+    	</Record>
+		<Record>
+			<Key>PrecisionPLaceT1 1</Key>
+			<Value>Precision place the tool on the table.</Value>
+		</Record>
+		<Record>
+      		<Key>Narration6T</Key>
+      		<Value>The welder.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration6D</Key>
+      		<Value>Sometimes, you'll need to put something down more carefully. Try it, and check your suit joints are working smoothly.</Value>
+    	</Record>
+		<Record>
+      		<Key>PrecisionPlaceControls</Key>
+      		<Value>{KEY:PrecisionPlace}</Value>
+    	</Record>
+		<Record>
+      		<Key>PrecisionPlaceControlsDisc</Key>
+      		<Value>Precision Place</Value>
+    	</Record>
+		<Record>
+      		<Key>PrecisionPlace</Key>
+      		<Value>Place the tool on the table.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration7T</Key>
+      		<Value>Inventory systems.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration7D</Key>
+      		<Value>Let's check your inventory systems. Hold ALT, then mouse over the Tool Belt UI. Left mouse click to open it.</Value>
+    	</Record>
+		<Record>
+			<Key>OpenToolControls</Key>
+			<Value>{KEY:MouseControl} + {KEY:PrimaryAction}</Value>
+		</Record>
+		<Record>
+			<Key>OpenToolControlsDisc</Key>
+			<Value>Open Item</Value>
+		</Record>
+		<Record>
+			<Key>OpenToolbeltT1Disc</Key>
+			<Value>Open your tool belt UI window.</Value>
+		</Record>
+		<Record>
+			<Key>OpenBackControls</Key>
+			<Value>{KEY:BackSlot}</Value>
+		</Record>
+		<Record>
+			<Key>OpenBackControlsDisc</Key>
+			<Value>Open Backpack</Value>
+		</Record>
+		<Record>
+			<Key>GettingTheBelt</Key>
+			<Value>Open the tool belt.</Value>
+		</Record>
+		<Record>
+      		<Key>Narration8T</Key>
+      		<Value>UI windows</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration8D</Key>
+      		<Value>As a Stationeer Cadet, there's always several ways to do something. You can also open UI windows with numeric keys.</Value>
+    	</Record>
+		<Record>
+			<Key>OpenBackPackDisc</Key>
+			<Value>Open your backpack UI window,</Value>
+		</Record>
+		<Record>
+      		<Key>OpenBackPack</Key>
+      		<Value>Press 4 to open backpack.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration9T</Key>
+      		<Value>Inventory Navigation.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration9D</Key>
+      		<Value>There's lots of ways to move things around, too. You can drag objects into and out of the world. Start by dragging something from your inventory into your hand.</Value>
+    	</Record>
+		<Record>
+		<Key>HoldMiningBeltT1Disc</Key>
+		<Value>Drag the mining belt into your hand, then drop it.</Value>
+		</Record>
+		<Record>
+      		<Key>PickUpT1 2</Key>
+      		<Value>Drag mining belt into your left hand.</Value>
+    	</Record>
+		<Record>
+			<Key>AltDragControls</Key>
+			<Value>{KEY:MouseControl} + Drag</Value>
+		</Record>
+		<Record>
+			<Key>AltDragControlsDisc</Key>
+			<Value>Interact with inventory items.</Value>
+		</Record>
+		<Record>
+      		<Key>DropT1 2</Key>
+      		<Value>Drop the mining belt.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration10T</Key>
+      		<Value>Inventory Dragging.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration10D</Key>
+      		<Value>You can also drag items from the world directly into your inventory.</Value>
+    	</Record>
+		<Record>
+			<Key>AltClickControls</Key>
+			<Value>{KEY:MouseControl} + {KEY:PrimaryAction}</Value>
+		</Record>
+		<Record>
+			<Key>AltClickControlsDisc</Key>
+			<Value>Interact with mouse</Value>
+		</Record>
+		<Record>
+			<Key>OpenMaskControls</Key>
+			<Value>{KEY:Internals}</Value>
+		</Record>
+		<Record>
+			<Key>OpenMaskControlsDisc</Key>
+			<Value>Open Mask</Value>
+		</Record>
+		<Record>
+			<Key>StationpediaToggleControls</Key>
+			<Value>{KEY:Help}</Value>
+		</Record>
+		<Record>
+			<Key>StationpediaToggleControlsDisc</Key>
+			<Value>Toggle Stationpedia</Value>
+		</Record>
+		<Record>
+			<Key>QucikEquiptControls</Key>
+			<Value>Scroll wheel + {KEY:InventorySelect} / {KEY:PrimaryAction}x2.</Value>
+		</Record>
+		<Record>
+			<Key>QucikEquiptControlsDisc</Key>
+			<Value>Move Item to Hand.</Value>
+		</Record>
+		<Record>
+			<Key>UseItemControls</Key>
+			<Value>Hold {KEY:SecondaryAction}</Value>
+		</Record>
+		<Record>
+			<Key>UseItemControlsDisc</Key>
+			<Value>Activate Item.</Value>
+		</Record>
+		<Record>
+			<Key>UsePrimeControls</Key>
+			<Value>Hold {KEY:PrimaryAction}</Value>
+		</Record>
+		<Record>
+			<Key>UsePrimeControlsDisc</Key>
+			<Value>Use Item.</Value>
+		</Record>
+		<Record>
+      		<Key>JetpackInsert</Key>
+      		<Value>Drag the mining belt into the backpack</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration11T</Key>
+      		<Value>HotKeys.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration11D</Key>
+      		<Value>There are also hot keys to equip items from your inventory. Double click on items to send them to and from your hands, or use the scroll wheel and press the 'F' key.</Value>
+    	</Record>
+		<Record>
+			<Key>RoadFlareT1Disc</Key>
+			<Value>Use hot keys to equip a flare.</Value>
+		</Record>
+		<Record>
+      		<Key>GetRoadFlare</Key>
+      		<Value>Put flare in your left hand.</Value>
+    	</Record>
+		<Record>
+      		<Key>LightFlare</Key>
+      		<Value>Ignite flare.</Value>
+    	</Record>
+		<Record>
+      		<Key>DropT1 3</Key>
+      		<Value>Drop Flares.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration12T</Key>
+      		<Value>Items In Items.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration12D</Key>
+      		<Value>Items with this icon (insert) contain other items inside them.</Value>
+    	</Record>
+		<Record>
+			<Key>ChildOnSlotOpenDisc</Key>
+			<Value>Open the mining belt in your backpack.</Value>
+		</Record>
+		<Record>
+      		<Key>OpeningTheMininngBelt</Key>
+      		<Value>Open the mining belt</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration13T</Key>
+      		<Value>Insert Batteries.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration13D</Key>
+      		<Value>Items like power sources or fuel cannisters can be removed and recharged.</Value>
+    	</Record>
+		<Record>
+			<Key>ReplaceBattT1Disc</Key>
+			<Value>Replace the battery in the mining drill with one from the crate.</Value>
+		</Record>
+		<Record>
+      		<Key>ChangePowerCell</Key>
+      		<Value>Replace the mining drill's battery</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration14T</Key>
+      		<Value>Merging Stacks.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration14D</Key>
+      		<Value>When you're mining or building, you can merge one stack of items with another. You can do this in your hands, or any other slot.</Value>
+    	</Record>
+		<Record>
+			<key>MergeFramesT1Disc</key>
+			<Value>Merge the frames by dragging one stack onto the other, in the crate.</Value>
+		</Record>
+		<Record>
+      		<Key>Merege de frames</Key>
+      		<Value>Merge frames.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration15T</Key>
+      		<Value>Close UI.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration15D</Key>
+      		<Value>To shut UI windows, click the X to close individually or press ` to close all open windows.</Value>
+    	</Record>
+		<Record>
+			<Key>CloseAllUIT1Disc</Key>
+			<Value>Close all open UI windows.</Value>
+		</Record>
+		<Record>
+      		<Key>CloseUITask</Key>
+      		<Value>Close UI windows.</Value>
+    	</Record>
+		<Record>
+			<Key>ControlCloseUI</Key>
+			<Value>{KEY:HideAllWindows}</Value>
+		</Record>
+		<Record>
+			<Key>ControlCloseUIDisc</Key>
+			<Value>Close Open UI Windows</Value>
+		</Record>
+		<Record>
+      		<Key>Narration16T</Key>
+      		<Value>Seaction B</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration16D</Key>
+      		<Value>Good work, Cadet. Now it's time to move to the next area of the training facility, where we will review the basics of building..</Value>
+    	</Record>
+		<Record>
+			<Key>EnterAreaT1Disc</Key>
+			<Value>Move to the next room of the training facility.</Value>
+		</Record>
+		<Record>
+      		<Key>EnterAreaT3</Key>
+      		<Value>Go to the next room.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration17T</Key>
+      		<Value>Seaction B</Value>
+    	</Record>
+		<Record>
+			<Key>ControlJetpackToggle</Key>
+			<Value>{KEY:Jetpack}</Value>
+		</Record>
+		<Record>
+			<Key>ControlJetpackToggleDisc</Key>
+			<Value>Toggle JetPack</Value>
+		</Record>
+		<Record>
+			<Key>ControlJetpackMovement</Key>
+			<Value>{KEY:Ascend}/{KEY:Descend}</Value>
+		</Record>
+		<Record>
+			<Key>ControlJetpackMovementDisc</Key>
+			<Value>Ascend/Descend</Value>
+		</Record>
+		<Record>
+      		<Key>Narration17D</Key>
+      		<Value>To complete basic testing, you will need to finish building the base's outer structure. The construction area is too high to reach, so you'll need to use your jetpack. Test it first, to make sure it's functioning correctly.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration18T</Key>
+      		<Value>Frames</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration18D</Key>
+      		<Value>Frames are the foundation of any Stationeer-built structure. With frames in your active hand, right click to enter build mode. Hold left click to place a frame.</Value>
+    	</Record>
+		<Record>
+      		<Key>BuildTheFrames</Key>
+      		<Value>Build Iron frames in the uncompleted wall area.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration19T</Key>
+      		<Value>Frames</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration19D</Key>
+      		<Value>To complete the base, weld Iron plates onto the newly-built frames. You'll need a welder in your active hand, and Iron sheets in your other hand.</Value>
+    	</Record>
+		<Record>
+			<Key>BuildFrameT1Disc</Key>
+			<Value>Build Iron frames in the uncompleted wall area.</Value>
+		</Record>
+		<Record>
+			<Key>IronFrameBuildTaskT1</Key>
+			<Value>Build iron frame #1</Value>
+		</Record>
+		<Record>
+			<Key>IronFrameBuildTaskT1</Key>
+			<Value>Build iron frame #2</Value>
+		</Record>
+		<Record>
+      		<Key>PickUpT1 4</Key>
+      		<Value>Pick Up IronSheets.</Value>
+    	</Record>
+		<Record>
+			<Key>FinsihFramesT1Disc</Key>
+			<Value>Equip the welder and steel sheets from the crate and Complete the training base.</Value>
+		</Record>
+		<Record>
+			<Key>FillingWithAirT1Disc</Key>
+			<Value>Fill the base with atmosphere.</Value>
+		</Record>
+		<Record>
+      		<Key>OpenTheAPCPanel</Key>
+      		<Value>Use a crowbar to open the APC.</Value>
+    	</Record>
+		<Record>
+      		<Key>TurnOnAPC</Key>
+      		<Value>Turn On the APC</Value>
+    	</Record>
+		<Record>
+      		<Key>TurningOnTheOXygen</Key>
+      		<Value>Fill the room with oxygen until it reaches atleast 60</Value>
+    	</Record>
+		<Record>
+			<Key>OpenHelmT1Disc</Key>
+			<Value>Open your suit helmet.</Value>
+		</Record>
+		<Record>
+			<Key>OpenHelmT1Task</Key>
+			<Value>Unlock mask.</Value>
+		</Record>
+		<Record>
+			<Key>OpenHelmT2Task</Key>
+			<Value>Open your helmet.</Value>
+		</Record>
+		<Record>
+      		<Key>Narration20T</Key>
+      		<Value>Frames</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration20D</Key>
+      		<Value>Now the base is sealed, you can add atmosphere. Activating the area power controller (APC) will start the flow of air into the room. Watch the external pressure rise on your status panel.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration21T</Key>
+      		<Value>Final Phase</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration21D</Key>
+      		<Value>Alright, Cadet, you've nearly finished Practical Testing, Phase I. If you need to review the test, consult the Stationpedia by pressing F1 and navigating to the Basic Controls page.</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration22T</Key>
+      		<Value>Final Phase</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration22D</Key>
+      		<Value>You're going to be spending some time here, so make yourself at home. Take off your suit, and place it in a storage locker.</Value>
+    	</Record>
+		<Record>
+      		<Key>GettingHelp</Key>
+      		<Value>Opening Stationpedia, navigating to 'getting started'.</Value>
+    	</Record>
+		<Record>
+			<Key>GettingHelpClose</Key>
+			<Value>Close the {LINK:Home;Stationpedia}</Value>
+		</Record>
+		<Record>
+      		<Key>Narration23T</Key>
+      		<Value>Final Phase</Value>
+    	</Record>
+		<Record>
+      		<Key>Narration23D</Key>
+      		<Value>Excellent, Cadet! That's the last step of Practical Testing, Phase I. Press the 'Complete' button to transmit your results to Stationeer Command, and we'll move on..</Value>
+    	</Record>
+		<Record>
+			<Key>HangUpSuitT1Disc</Key>
+			<Value>Drag your suit into the storage locker.</Value>
+		</Record>
+		<Record>
+      		<Key>HangHelm</Key>
+      		<Value>Place your helmet on the suit rack</Value>
+    	</Record>
+		<Record>
+      		<Key>HangSuit</Key>
+      		<Value>Place your Suit on the suit rack</Value>
+    	</Record>
+		<Record>
+      		<Key>HangPack</Key>
+      		<Value>Hang your Jetpack on the suit rack</Value>
+    	</Record>
+		<Record>
+      		<Key>JetpackOn</Key>
+      		<Value>Activate jetpack</Value>
+    	</Record>
+		<Record>
+      		<Key>JetpackOff</Key>
+      		<Value>Deactivated jetpack.</Value>
+    	</Record>
+		<Record>
+			<Key>JetpackT1Disc</Key>
+			<Value>Test your jet pack.</Value>
+		</Record>
+		<Record>
+      		<Key>PickUpT1 6</Key>
+      		<Value>Pick up Weilder from table.</Value>
+    	</Record>
+		<Record>
+			<Key>FillOutPaperworkT1Disc</Key>
+			<Value>Press button to complete test.</Value>
+		</Record>
+		<Record>
+			<Key>OnButtonPressTaskT1</Key>
+			<Value>End test.</Value>
+		</Record>
+	</Interface>
+</Language>

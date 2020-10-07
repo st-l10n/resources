@@ -4379,6 +4379,11 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
       <Description>This is the default thing page.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>StructureEmergencyButton</Key>
+      <Value>Emergency Button</Value>
+      <Description>This is the default thing page.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemKitAirlockGate</Key>
       <Value>Kit (Airlock Gate)</Value>
       <Description>This is the default thing page.</Description>
@@ -4630,10 +4635,6 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <Record>
       <Key>SensorProcessingUnit</Key>
       <Value>Sensor Processing Unit</Value>
-    </Record>
-    <Record>
-      <Key>SlotKey</Key>
-      <Value>Slot</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -5059,6 +5060,10 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     </Record>
   </Interactables>
   <Interface>
+    <Record>
+      <Key>SlotKey</Key>
+      <Value>Slot</Value>
+    </Record>
     <Record>
       <Key>MainMenuContinue</Key>
       <Value>Continue</Value>
