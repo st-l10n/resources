@@ -417,7 +417,7 @@
       <Value>Microwave</Value>
       <Description>While countless 'better' ways of cooking &lt;color=#0080FFFF&gt;{LINK:FoodPage;Food}&lt;/color&gt; have been invented in the last few hundred years, few are as durable or easy to fabricate as the OK-Zoomer microwave. Licensed from Xigo, the plans are based on a classic model from the mid-21st century, giving it a charmingly retro feel. But don't worry, it oscillates water molecules more than adequately. Just bolt it to a bench, and you're cooking.</Description>
     </RecordThing>
-      <RecordThing>
+    <RecordThing>
       <Key>StructureEmergencyButton</Key>
       <Value>Emergency Button</Value>
     </RecordThing>
@@ -778,7 +778,7 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>DynamicCrateBuildingSupplies</Key>
       <Value>Crate (Building Supplies)</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrateCableSupplies</Key>
@@ -964,32 +964,32 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>ItemCompositeFloorGrating</Key>
       <Value>Composite Floor Grating</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemCopperIngot</Key>
       <Value>Ingot (Copper)</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemCopperOre</Key>
       <Value>Ore (Copper)</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemCorn</Key>
       <Value>Corn</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemCrowbar</Key>
       <Value>Crowbar</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemDataDisk</Key>
       <Value>Data Disk</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemDrill</Key>
@@ -1107,7 +1107,7 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>ItemGasFilterWater</Key>
       <Value>Filter (Water)</Value>
-      <Description>Sinotai filters are used to capture various gases, which can be disposed of, or used elsewhere. Water can be collected by filtering smelted &lt;color=#0080FFFF&gt;{LINK:OrePage;ice (water)}&lt;/color&gt;</Description> gas to separate it from nitrogen impurities.
+      <Description>Sinotai filters are used to capture various gases, which can be disposed of, or used elsewhere. Water can be collected by filtering smelted &lt;color=#0080FFFF&gt;{LINK:OrePage;ice (water)}&lt;/color&gt;</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasTankStorage</Key>
@@ -1477,12 +1477,12 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>ItemSpaceHelmet</Key>
       <Value>Space Helmet</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSpacepack</Key>
       <Value>Spacepack</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBlack</Key>
@@ -4392,7 +4392,8 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
       <Key>StructureAirlockGate</Key>
       <Value>Airlock Gate</Value>
       <Description>This is the default thing page.</Description>
-    </RecordThing>   <RecordThing>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureBatteryLarge</Key>
       <Value>Battery Large</Value>
       <Description>This is the default thing page.</Description>
@@ -5092,7 +5093,7 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
       <Key>CableCategory</Key>
       <Value>Cables and Analyzers</Value>
     </Record>
-     <Record>
+    <Record>
       <Key>LightCategory</Key>
       <Value>Lights</Value>
     </Record>
@@ -5104,7 +5105,7 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
       <Key>FoodCategory</Key>
       <Value>Consumeables</Value>
     </Record>
-     <Record>
+    <Record>
       <Key>WallFloorCategory</Key>
       <Value>Walls and Floors</Value>
     </Record>
@@ -8772,7 +8773,7 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     </Record>
     <Record>
       <Key>PressEnterToContinue</Key>
-      <Value>Press &lt;color=#FBB03B&gt;Enter&lt;/color&gt; to Continue</Value>
+      <Value>Press &lt;color=#FBB03B&gt;Space&lt;/color&gt; to Continue</Value>
     </Record>
   </Interface>
   <Colors>
