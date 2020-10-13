@@ -8003,6 +8003,14 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
       <Key>CurrentResearchPodType</Key>
       <Value>Returns the pod type stored in the machine.</Value>
     </Record>
+	<Record>
+      <Key>MineablesInVicinity</Key>
+      <Value>Returns the amount of potential mineables within an extended area around AIMEe.</Value>
+    </Record>
+	<Record>
+      <Key>MineablesInQueue</Key>
+      <Value>Returns the amount of mineables AIMEe has queued up to mine.</Value>
+    </Record>
     <Record>
       <Key>ResearchFilter</Key>
       <Value>Filter</Value>
