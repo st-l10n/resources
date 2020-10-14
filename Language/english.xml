@@ -1477,92 +1477,115 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>ItemSpaceHelmet</Key>
       <Value>Space Helmet</Value>
-      <Description />
+      <Description>The basic space helmet insulates Stationeers against everything from hard vacuum to weird cooking smells. Providing a pressure-controlled, breathable atmosphere, it comes with a built-in light powered by your {THING:ItemEvaSuit} {THING:ItemBatteryCell}. It also incorporates a lock/unlock feature to avoid accidental opening, as well as a flush function to expel and replace the internal atmosphere. If damaged, use {THING:ItemDuctTape} to fix it, or paint it any colour you like using the &lt;color=#0080FFFF&gt;{LINK:ElectronicsPage;paint mixer}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSpacepack</Key>
       <Value>Spacepack</Value>
-      <Description />
+      <Description>The basic spacepack isn't 'technically' a jetpack, it's a gas thruster. Indispensible for building, mining and general movement, it lets Stationeers fly at 3m/s, compared to the more powerful {THING:ItemJetpackBasic} or {THING:ItemHardJetpack}. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.
+The spacepack has ten storage slots and can be powered by any gas, so long as the internal pressure of the &lt;color=#0080FFFF&gt;{LINK:AtmosphericsPage;canister}&lt;/color&gt; is higher than the ambient external pressure. If the external pressure is greater, the jetpack will not function.
+Use 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBlack</Key>
       <Value>Spray Paint (Black)</Value>
+      <Description>Go classic, clandestine or just plain gothic with black paint, which can be applied to most items. Each can has 20 uses.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBlue</Key>
       <Value>Spray Paint (Blue)</Value>
+      <Description>What kind of a color is blue? The kind of of color that says, 'Hey, what about me?'</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBrown</Key>
       <Value>Spray Paint (Brown)</Value>
+      <Description>In more artistic Stationeers circles, the absence of brown is often lamented, but seldom changed.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanGreen</Key>
       <Value>Spray Paint (Green)</Value>
+      <Description>Green is the color of life, and longing. Paradoxically, it's also the color of envy, and tolerance. It denotes sickness, youth, and wealth. But really, it's just what light does at around 500 billionths of a meter.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanGrey</Key>
       <Value>Spray Paint (Grey)</Value>
+      <Description>Arguably the most popular color in the universe, grey was invented so designers had something to do.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanKhaki</Key>
       <Value>Spray Paint (Khaki)</Value>
+      <Description>Not so much a single color, as a category of boredom, khaki is the pigmentation equivalent of a mild depressive episode.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanOrange</Key>
       <Value>Spray Paint (Orange)</Value>
+      <Description>Orange is fun, but also suggestive of hazards. Sitting proudly in the middle of the visual spectrum, it has nothing to prove.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanPink</Key>
       <Value>Spray Paint (Pink)</Value>
+      <Description>With the invention of enduring chemical dyes, the 20th century bestowed associations with innocence and tenderness upon this pale tint of red. Yet classically, it was the color of seduction and eroticism. Things change.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanPurple</Key>
       <Value>Spray Paint (Purple)</Value>
+      <Description>Purple is a curious color. You need to be careful with purple. It can be very good, or go horribly, horribly wrong.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanRed</Key>
       <Value>Spray Paint (Red)</Value>
+      <Description>The king of colors, red is perhaps the defining tone of the universe. Linked to blood, royalty, fire and damnation, it is the chromatic expression of power.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanWhite</Key>
       <Value>Spray Paint (White)</Value>
+      <Description>White looks clean, sharp and nice. But Stationeering can be a dirty job. White tends to scuff.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanYellow</Key>
       <Value>Spray Paint (Yellow)</Value>
+      <Description>A caricature of light itself, yellow lacks the self-confidence of red, or the swagger of purple. It's less fun than orange, but less emotionally limp than khaki. It's hard to know when yellow is appropriate, but it persists as a primary color regardless. Suggesting that yellow gonna yellow, no matter what anyone thinks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSteelFrames</Key>
       <Value>Steel Frames</Value>
+      <Description>An advanced and stronger version of {THING:ItemIronFrames}, steel frames are placed by right-clicking. To complete construction, use {THING:ItemSteelSheets} and a {THING:ItemWeldingTorch} in your active hand.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSteelIngot</Key>
       <Value>Ingot (Steel)</Value>
+      <Description>Steel ingots are a metal alloy, crafted in a {THING:StructureFurnace} by smelting {THING:ItemIronOre} and {THING:ItemCoalOre} at a ratio of 3:1.
+It may not be elegant, but {THING:ItemOxite} and {THING:ItemVolatiles} can be combined at a ratio of 1:2 in a furnace to create the necessary gas mixture for smelting.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSteelSheets</Key>
       <Value>Steel Sheets</Value>
+      <Description>An advanced building material, {THING:ItemSteelIngot} sheets are used when constructing a {THING:StructureFrame} and several other &lt;color=#0080FFFF&gt;{LINK:StructuresPage;wall}&lt;/color&gt; types.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSuitStorage</Key>
       <Value>Kit (Suit Storage)</Value>
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemTablet</Key>
       <Value>Handheld Tablet</Value>
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemTankConnector</Key>
       <Value>Kit (Tank Connector)</Value>
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemToolBelt</Key>
       <Value>Tool Belt</Value>
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemUraniumOre</Key>
       <Value>Ore (Uranium)</Value>
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWallCooler</Key>
@@ -8782,6 +8805,22 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <Record>
       <Key>PressEnterToContinue</Key>
       <Value>Press &lt;color=#FBB03B&gt;Space&lt;/color&gt; to Continue</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompleteDateOfCompletion</Key>
+      <Value>Date of Completion:</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompleteDeanHall</Key>
+      <Value>Deal Hall</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompleteTruly</Key>
+      <Value>Your Dearest Friend</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompleteNextTutorial</Key>
+      <Value>Next Tutorial</Value>
     </Record>
   </Interface>
   <Colors>
