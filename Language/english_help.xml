@@ -15,19 +15,11 @@
     </StationpediaPage>
 
     <StationpediaPage>
-      <Key>GettingStarted</Key>
-      <Title>Getting Started</Title>
+      <Key>Search</Key>
+      <Title>Search</Title>
       <Text>
       </Text>
     </StationpediaPage>
-    
-  <StationpediaPage>
-      <Key>InventoryPage</Key>
-      <Title>Inventory</Title>
-      <Text>
-      </Text>
-    </StationpediaPage>
-    
     <StationpediaPage>
       <Key>AirlockDevicePage</Key>
       <Title>Airlock Devices</Title>
@@ -68,20 +60,6 @@
       <Title>Furniture</Title>
       <Text>{LIST_OF_FURNITURES}</Text>
     </StationpediaPage>
-
-  <StationpediaPage>
-      <Key>SlotLeftHand</Key>
-      <Title>Hand Slots</Title>
-      <Text>Your hands are special slots. You have one active hand at any time, which is the hand that is currently used by your {COLORRED:Primary Action}. To swap the active hand, press {KEY:SwapHands}. You active hand can be interacted with by pressing {KEY:ActiveHandSlot} which will open and close the contents of your active hand. As always, you can use {KEY:MouseControl} to bring up the mouse and interact that way. For more information, see the {LINK:InventoryPage;Inventory} section.
-      </Text>
-    </StationpediaPage>
-  <StationpediaPage>
-      <Key>SlotRightHand</Key>
-      <Title>Hand Slots</Title>
-      <Text>Your hands are special slots. You have one active hand at any time, which is the hand that is currently used by your {COLORRED:Primary Action}. To swap the active hand, press {KEY:SwapHands}. You active hand can be interacted with by pressing {KEY:ActiveHandSlot} which will open and close the contents of your active hand. As always, you can use {KEY:MouseControl} to bring up the mouse and interact that way. For more information, see the {LINK:InventoryPage:Inventory} section.
-      </Text>
-    </StationpediaPage>
-    
     <StationpediaPage>
       <Key>FabricatorPage</Key>
       <Title>Fabricators</Title>
@@ -149,28 +127,7 @@ If you look directly at a structure that is incomplete you will get information 
 {LIST_OF_GASES}
       </Text>
     </StationpediaPage>
-    
-    <StationpediaPage>
-      <Key>AlloyPage</Key>
-      <Title>Alloys</Title>
-      <Text>Created in the {THING:StructureFurnace} or {THING:StructureAdvancedFurnace} from specialist {LINK:ReagentPage;Reagent} mixtures, these are advanced {LINK:IngotPage;Ingots} for use in {LINK:FabricatorPage;Fabricators}. The {THING:StructureArcFurnace} is not able to smelt these.
 
-{HEADER:List of Alloys}
-{LIST_OF_ALLOYS}
-      </Text>
-    </StationpediaPage>
-
-    <StationpediaPage>
-      <Key>SuperAlloyPage</Key>
-      <Title>Superalloys</Title>
-      <Text>
-        Created in the {THING:StructureAdvancedFurnace} from specialist {LINK:ReagentPage;Reagent} mixtures, these are very advanced {LINK:IngotPage;Ingots} for use in {LINK:FabricatorPage;Fabricators}. The {THING:StructureArcFurnace} and {THING:StructureFurnace} are not able to smelt these.
-
-{HEADER:List of Superalloys}
-{LIST_OF_SUPER_ALLOYS}
-      </Text>
-    </StationpediaPage>
-    
     <StationpediaPage>
       <Key>OrePage</Key>
       <Title>Ores</Title>
@@ -204,7 +161,6 @@ There are some ores that will melt when exposed to sunlight or heat and produce 
       <Key>ToolPage</Key>
       <Title>Tools</Title>
       <Text>These are Items that can fit in a specialist tool slot, and are used for {LINK:ConstructionPage;Construction} and other tasks.
-      
 {HEADER:List of Tools}
 {LIST_OF_TOOLS}
       </Text>
@@ -214,7 +170,6 @@ There are some ores that will melt when exposed to sunlight or heat and produce 
       <Key>ResourcePage</Key>
       <Title>Resources</Title>
       <Text>These are Items that are consumed during {LINK:ConstructionPage;Construction} and other tasks.
-      
 {HEADER:List of Resources}
 {LIST_OF_RESOURCES}
       </Text>
@@ -274,7 +229,7 @@ You need at least 3 core modules and all players seated in a functional Rocket f
       {/LIST}
       </Text>
     </StationpediaPage>
-    <StationpediaPage>
+   <!-- <StationpediaPage>
           <Key>RocketShuttleModulesHelpPage</Key>
           <Title>Rocket Shuttle Modules</Title>
           <Text>{HEADER:Modular Rocket Cargo}
@@ -305,6 +260,7 @@ The {THING:StructureModularRocketFueltank01} requires a 2:1 mixture of {GAS:Vola
 
           </Text>
         </StationpediaPage>
+        -->
         <StationpediaPage>
       <Key>RocketShuttlePage</Key>
       <Title>Rocket Shuttle</Title>

@@ -1565,27 +1565,27 @@ It may not be elegant, but {THING:ItemOxite} and {THING:ItemVolatiles} can be co
     <RecordThing>
       <Key>ItemSuitStorage</Key>
       <Value>Kit (Suit Storage)</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemTablet</Key>
       <Value>Handheld Tablet</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemTankConnector</Key>
       <Value>Kit (Tank Connector)</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemToolBelt</Key>
       <Value>Tool Belt</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemUraniumOre</Key>
       <Value>Ore (Uranium)</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWallCooler</Key>
@@ -3760,7 +3760,7 @@ It may not be elegant, but {THING:ItemOxite} and {THING:ItemVolatiles} can be co
       <Value>Transformer (Medium)</Value>
     </RecordThing>
     <RecordThing>
-      <Key>StructureTransformerMedium(Reversed)</Key>
+      <Key>StructureTransformerMediumReversed</Key>
       <Value>Transformer Reversed (Medium)</Value>
     </RecordThing>
     <RecordThing>
@@ -4357,6 +4357,11 @@ It may not be elegant, but {THING:ItemOxite} and {THING:ItemVolatiles} can be co
       <Description>This is the default thing page.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitBeds</Key>
+      <Value>Kit (Beds)</Value>
+      <Description>This is the default thing page.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemKitFurnitureTable</Key>
       <Value>Item Kit Furniture Table</Value>
       <Description>This is the default thing page.</Description>
@@ -4408,7 +4413,7 @@ It may not be elegant, but {THING:ItemOxite} and {THING:ItemVolatiles} can be co
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAirlockGate</Key>
-      <Value>Kit (Airlock Gate)</Value>
+      <Value>Item Kit Airlock Gate</Value>
       <Description>This is the default thing page.</Description>
     </RecordThing>
     <RecordThing>
@@ -4424,6 +4429,26 @@ It may not be elegant, but {THING:ItemOxite} and {THING:ItemVolatiles} can be co
     <RecordThing>
       <Key>ItemKitBatteryLarge</Key>
       <Value>Kit (Battery Large)</Value>
+      <Description>This is the default thing page.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageVendingMachine1</Key>
+      <Value>Wreckage Vending Machine</Value>
+      <Description>This is the default thing page.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageVendingMachine2</Key>
+      <Value>Wreckage Vending Machine</Value>
+      <Description>This is the default thing page.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageVendingMachine3</Key>
+      <Value>Wreckage Vending Machine</Value>
+      <Description>This is the default thing page.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageVendingMachine4</Key>
+      <Value>Wreckage Vending Machine</Value>
       <Description>This is the default thing page.</Description>
     </RecordThing>
   </Things>
@@ -8026,11 +8051,11 @@ It may not be elegant, but {THING:ItemOxite} and {THING:ItemVolatiles} can be co
       <Key>CurrentResearchPodType</Key>
       <Value>Returns the pod type stored in the machine.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MineablesInVicinity</Key>
       <Value>Returns the amount of potential mineables within an extended area around AIMEe.</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>MineablesInQueue</Key>
       <Value>Returns the amount of mineables AIMEe has queued up to mine.</Value>
     </Record>
@@ -8821,6 +8846,10 @@ It may not be elegant, but {THING:ItemOxite} and {THING:ItemVolatiles} can be co
     <Record>
       <Key>TutorialCompleteNextTutorial</Key>
       <Value>Next Tutorial</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMineableRenderDistance</Key>
+      <Value>Mineable Render Distance</Value>
     </Record>
   </Interface>
   <Colors>
