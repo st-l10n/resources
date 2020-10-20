@@ -6,11 +6,11 @@
 	<Interface>
 		<Record>
 			<Key>BasicConcepts</Key>
-			<Value>Essential Skills</Value>
+			<Value>Basic Skills</Value>
 		</Record>
 		<Record>
 			<Key>BasicConceptsSubTitle</Key>
-			<Value>Practical Training: Stage I</Value>
+			<Value>Pra ctical Training: Stage I</Value>
 		</Record>
 		<Record>
 			<Key>MBasicConceptsDescription</Key>
@@ -27,7 +27,7 @@
 		<Record>
       		<Key>BasicConceptsDescription</Key>
       		<Value>Welcome to the Lunar Training Base, Cadet.
-Complete your practical training in order to join thousands of Stationeers deployed across the Solar System, and beyond.</Value>
+Complete your practical training in order to join thousands of Stationeers deployed across the Solar System – and beyond.</Value>
     	</Record>
 		<Record>
       		<Key>WelcomeRecuitDisc</Key>
@@ -47,8 +47,7 @@ Complete your practical training in order to join thousands of Stationeers deplo
     	</Record>
 		<Record>
       		<Key>Narration1D</Key>
-      		<Value>Working and building under hazardous conditions far from home, a Stationeer needs many special skills. Today we're testing your grasp of the basics.
-Enter the training base through the airlock ahead.</Value>
+      		<Value>Working and building under hazardous conditions far from home, a Stationeer needs many special skills. Enter the training base through the airlock ahead.</Value>
     	</Record>
 		<Record>
       		<Key>EnterAreaT1</Key>
@@ -60,16 +59,15 @@ Enter the training base through the airlock ahead.</Value>
 		</Record>
 		<Record>
 			<Key>ControlLeftClickDisc</Key>
-			<Value>Cycle the airlock.</Value>
+			<Value>Cycle airlock</Value>
 		</Record>
 		<Record>
       		<Key>Narration2T</Key>
-      		<Value>Airlock Controls.</Value>
+      		<Value>Airlock Controls</Value>
     	</Record>
 		<Record>
       		<Key>Narration2D</Key>
-      		<Value>Powered airlocks will only cycle if the internal room is pressurized.
-To pass through an airlock, click 'Cycle to interior'.</Value>
+      		<Value>To pass through an airlock, click 'Cycle to interior'.</Value>
     	</Record>
 		<Record>
       		<Key>TrainingBaseDisc</Key>
@@ -77,11 +75,11 @@ To pass through an airlock, click 'Cycle to interior'.</Value>
     	</Record>
 		<Record>
       		<Key>OpenAirlock</Key>
-      		<Value>Cycle the airlock.</Value>
+      		<Value>Cycle airlock using console</Value>
     	</Record>
 		<Record>
       		<Key>ExitAreaT1</Key>
-      		<Value>Enter Testing Area.</Value>
+      		<Value>Enter Testing Area</Value>
     	</Record>
 		<Record>
       		<Key>Narration3T</Key>
@@ -110,19 +108,19 @@ Cadets have TWO hands, but should only do ONE thing at a time.</Value>
     	</Record>
 		<Record>
       		<Key>PickUpT1</Key>
-      		<Value>Take the welder from the crate.</Value>
+      		<Value>Take welder from the crate</Value>
     	</Record>
 		<Record>
       		<Key>SwapHandsT1</Key>
-      		<Value>Swap active hands</Value>
+      		<Value>Swap active hands using 'E'</Value>
     	</Record>
 		<Record>
       		<Key>PickUpT1 1</Key>
-      		<Value>Get the wirecutters from the crate.</Value>
+      		<Value>Take wirecutters from the crate.</Value>
     	</Record>
 		<Record>
       		<Key>SwapHandsT1 2</Key>
-      		<Value>Swap active hands ... again.</Value>
+      		<Value>Swap active hands ... again</Value>
     	</Record>
 		<Record>
       		<Key>Narration4T</Key>
@@ -130,7 +128,7 @@ Cadets have TWO hands, but should only do ONE thing at a time.</Value>
     	</Record>
 		<Record>
       		<Key>Narration4D</Key>
-      		<Value>You could have been a juggler. But you signed up as a Stationeer, so you're going to juggle tools instead. Many of these must be activated to use them.</Value>
+      		<Value>You could have been a juggler. welder with 'Q'But you signed up as a Stationeer, so you're going to juggle tools instead. Many of these must be activated first, by pressing 'O'.</Value>
     	</Record>
 		<Record>
 		<Key>ActiveWilderDisc</Key>
@@ -143,6 +141,10 @@ Cadets have TWO hands, but should only do ONE thing at a time.</Value>
 		<Record>
 			<Key>TurnOnControlsDisc</Key>
 			<Value>Toggle power</Value>
+		</Record>
+		<Record>
+			<Key>TurnOnControlstem in your right handeilderDisc</Key>
+			<Value>Toggle power on welder</Value>
 		</Record>
 		<Record>
       		<Key>WeilderOn</Key>
@@ -158,16 +160,16 @@ Cadets have TWO hands, but should only do ONE thing at a time.</Value>
     	</Record>
 		<Record>
       		<Key>Narration5D</Key>
-      		<Value>So far, your hands are working fine. Let's try dropping and throwing.
+      		<Value>So far, your hands are working fine. But let's try dropping and throwing.
 Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
 		<Key>DropItemT1 1</Key>
-		<Value>Drop item in your right hand</Value>
+		<Value>Dropool in right hand</Value>
 		</Record>
 		<Record>
       		<Key>DropWireCutters</Key>
-      		<Value>Drop the tool</Value>
+      		<Value>Drop tool in your right hand</Value>
     	</Record>
 		<Record>
       		<Key>DropControls</Key>
@@ -179,7 +181,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
 			<Key>PrecisionPLaceT1 1</Key>
-			<Value>Precision place tool on the table</Value>
+			<Value>Precision place tool on table using 'T'</Value>
 		</Record>
 		<Record>
       		<Key>Narration6T</Key>
@@ -187,7 +189,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
       		<Key>Narration6D</Key>
-      		<Value>Sometimes, you'll need to put something down more carefully. Try it, and check your suit joints are working smoothly.</Value>
+      		<Value>Sometimes, you'll need to put something down more carefully. Tryit using 'T', and check your suit joints are working smoothly.</Value>
     	</Record>
 		<Record>
       		<Key>PrecisionPlaceControls</Key>
@@ -195,11 +197,19 @@ Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
       		<Key>PrecisionPlaceControlsDisc</Key>
-      		<Value>Precision Place</Value>
+      		<Value>Enable Precision Place Mode</Value>
+    	</Record>
+		<Record>
+      		<Key>PrecisionPlaceControlsPlace</Key>
+      		<Value>{KEY:PrimaryAction}</Value>
+    	</Record>
+		<Record>
+      		<Key>PrecisionPlaceControlsPlaceDisc</Key>
+      		<Value>Place Item.</Value>
     	</Record>
 		<Record>
       		<Key>PrecisionPlace</Key>
-      		<Value>Place the tool on the table.</Value>
+      		<Value>Place welder on table.</Value>
     	</Record>
 		<Record>
       		<Key>Narration7T</Key>
@@ -207,7 +217,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
       		<Key>Narration7D</Key>
-      		<Value>To access your inventory: hold ALT, then mouse over an inventory panel, and click to open it.</Value>
+      		<Value>Hold left ALT to access your inventory, then click on a panel to open it.</Value>
     	</Record>
 		<Record>
 			<Key>OpenToolControls</Key>
@@ -227,11 +237,11 @@ Press Q to drop items, or hold Q to throw them.</Value>
 		</Record>
 		<Record>
 			<Key>OpenBackControlsDisc</Key>
-			<Value>Open backpack</Value>
+			<Value>Open backpack using numeric keysfrom backpack</Value>
 		</Record>
 		<Record>
 			<Key>GettingTheBelt</Key>
-			<Value>Open your belt</Value>
+			<Value>Open your belt inventory</Value>
 		</Record>
 		<Record>
       		<Key>Narration8T</Key>
@@ -263,7 +273,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
 		</Record>
 		<Record>
       		<Key>PickUpT1 2</Key>
-      		<Value>Drag mining belt into left hand.</Value>
+      		<Value>Drag mining belt from backpackinto left hand.</Value>
     	</Record>
 		<Record>
 			<Key>AltDragControls</Key>
@@ -322,6 +332,18 @@ Press Q to drop items, or hold Q to throw them.</Value>
 			<Value>Send item to/from hand</Value>
 		</Record>
 		<Record>
+			<Key>ControlLeftClickBuildDisc</Key>
+			<Value>Place Item.</Value>
+		</Record>
+		<Record>
+			<Key>BuildControls</Key>
+			<Value>{KEY:SecondaryAction}</Value>
+		</Record>
+		<Record>
+			<Key>BuildControlsDisc</Key>
+			<Value>Enter Build Mode.</Value>
+		</Record>
+		<Record>
 			<Key>UseItemControls</Key>
 			<Value>Hold {KEY:SecondaryAction}</Value>
 		</Record>
@@ -347,11 +369,11 @@ Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
       		<Key>Narration11D</Key>
-      		<Value>Inventory hot keys: Double click an item to send it to (or from) your hands; or use the scroll wheel, then press the 'F' key.</Value>
+      		<Value>Double click inventory items to transfer to/from hands OR use mouse wheel to select, then press 'F'.</Value>
     	</Record>
 		<Record>
 			<Key>RoadFlareT1Disc</Key>
-			<Value>Use 'Hot Keys' to equip a flare.</Value>
+			<Value>Use 'Hot Keys' to equip a flare</Value>
 		</Record>
 		<Record>
       		<Key>GetRoadFlare</Key>
@@ -363,7 +385,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
       		<Key>DropT1 3</Key>
-      		<Value>Drop flare</Value>
+      		<Value>Drop flare using 'Q'</Value>
     	</Record>
 		<Record>
       		<Key>Narration12T</Key>
@@ -371,7 +393,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
       		<Key>Narration12D</Key>
-      		<Value>Items with this icon (insert) contain other items.</Value>
+      		<Value>Many items, like powered tools, contain other items such as batteries or gas cannisters.</Value>
     	</Record>
 		<Record>
 			<Key>ChildOnSlotOpenDisc</Key>
@@ -395,7 +417,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
 		</Record>
 		<Record>
       		<Key>ChangePowerCell</Key>
-      		<Value>Replace mining drill battery</Value>
+      		<Value>Replace mining drill battery  from crate</Value>
     	</Record>
 		<Record>
       		<Key>Narration14T</Key>
@@ -403,8 +425,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
       		<Key>Narration14D</Key>
-      		<Value>When you're mining or building, you can merge stacks of the same items.
-Do this in your hands, or any slot.</Value>
+      		<Value>When you're mining or building, you can merge stacks of the same items.</Value>
     	</Record>
 		<Record>
 			<Key>MergeFramesT1Disc</Key>
@@ -412,11 +433,11 @@ Do this in your hands, or any slot.</Value>
 		</Record>
 		<Record>
       		<Key>Merege de frames</Key>
-      		<Value>Merge frames</Value>
+      		<Value>Merge frames in crate windows</Value>
     	</Record>
 		<Record>
       		<Key>Narration15T</Key>
-      		<Value>Close UI</Value>
+      		<Value>Close UI with `</Value>
     	</Record>
 		<Record>
       		<Key>Narration15D</Key>
@@ -428,7 +449,7 @@ Do this in your hands, or any slot.</Value>
 		</Record>
 		<Record>
       		<Key>CloseUITask</Key>
-      		<Value>Close inventory</Value>
+      		<Value>Close inventory windows</Value>
     	</Record>
 		<Record>
 			<Key>ControlCloseUI</Key>
@@ -473,11 +494,11 @@ Move to the next area of the training base to review the basics of building.</Va
 		</Record>
 		<Record>
 			<Key>ControlJetpackMovementDisc</Key>
-			<Value>Ascend/Descend</Value>
+			<Value>Up/Down</Value>
 		</Record>
 		<Record>
       		<Key>Narration17D</Key>
-      		<Value>To complete this phase of testing, you must demonstrate essential Stationeer building skills.
+      		<Value>To complete this phase of testing, you must demonstrate basic building skills.
 The construction area is too high to reach, so you'll need to use your jetpack.</Value>
     	</Record>
 		<Record>
@@ -487,11 +508,11 @@ The construction area is too high to reach, so you'll need to use your jetpack.<
 		<Record>
       		<Key>Narration18D</Key>
       		<Value>Frames are the foundation of any Stationeer structure.
-Take frames with your active hand, then right click to enter build mode, and left click to place.</Value>
+Pick up frames, then right click to enter build mode, and left click to place.</Value>
     	</Record>
 		<Record>
       		<Key>BuildTheFrames</Key>
-      		<Value>Complete the unfinished roof using iron sheets.</Value>
+      		<Value>Use iron sheets and welder to complete frames</Value>
     	</Record>
 		<Record>
       		<Key>Narration19T</Key>
@@ -508,15 +529,15 @@ You'll need a welder in your active hand, and iron sheets in the other.</Value>
 		</Record>
 		<Record>
 			<Key>IronFrameBuildTaskT1</Key>
-			<Value>Build iron frame #1</Value>
+			<Value>Build frame #1 in highlighted spot.</Value>
 		</Record>
 		<Record>
 			<Key>IronFrameBuildTaskT2</Key>
-			<Value>Build iron frame #2</Value>
+			<Value>Build frame #2 in highlighted spot.</Value>
 		</Record>
 		<Record>
       		<Key>PickUpT1 4</Key>
-      		<Value>Pick up iron sheets</Value>
+      		<Value>Pick up iron sheets from crate</Value>
     	</Record>
 		<Record>
 			<Key>FinsihFramesT1Disc</Key>
@@ -532,7 +553,7 @@ You'll need a welder in your active hand, and iron sheets in the other.</Value>
     	</Record>
 		<Record>
       		<Key>TurnOnAPC</Key>
-      		<Value>Turn on the APC</Value>
+      		<Value>Turn on the APC to add air</Value>
     	</Record>
 		<Record>
       		<Key>TurningOnTheOXygen</Key>
@@ -556,12 +577,12 @@ You'll need a welder in your active hand, and iron sheets in the other.</Value>
     	</Record>
 		<Record>
 			<Key>FinishFrameT1</Key>
-			<Value>Finish the frame</Value>
+			<Value>Finish building frame with iron sheets</Value>
 		</Record>
 		<Record>
       		<Key>Narration20D</Key>
-      		<Value>You have sealed the base, now add atmosphere. 
-Activating the area power controller (APC) will start airflow into the room. Monitor the external pressure on your status panel.</Value>
+      		<Value>You have sealed the base, now to add atmosphere. Activating the area power controller (APC) will start airflow into the room.
+Monitor the external pressure on your status panel.</Value>
     	</Record>
 		<Record>
       		<Key>Narration21T</Key>
@@ -569,7 +590,7 @@ Activating the area power controller (APC) will start airflow into the room. Mon
     	</Record>
 		<Record>
       		<Key>Narration21D</Key>
-      		<Value>Cadet, you've nearly finished your essential skills test. 
+      		<Value>You've nearly finished your essential skills test, Cadet. 
 If you need to review these skills, consult the Stationpedia by pressing F1 and navigating to the BASIC CONTROLS page.</Value>
     	</Record>
 		<Record>
@@ -596,7 +617,7 @@ Take off your suit, and place it in a storage locker.</Value>
 		<Record>
       		<Key>Narration23D</Key>
       		<Value>Excellent, Cadet! That's the last step of Practical Testing, Phase I. 
-Press the 'Complete' button to transmit your results to Stationeer Command.</Value>
+Press the orange 'Complete' button to transmit your results to Stationeer Command.</Value>
     	</Record>
 		<Record>
 			<Key>HangUpSuitT1Disc</Key>
@@ -620,7 +641,7 @@ Press the 'Complete' button to transmit your results to Stationeer Command.</Val
     	</Record>
 		<Record>
       		<Key>JetpackOff</Key>
-      		<Value>Deactivated jetpack</Value>
+      		<Value>Deactivate jetpack</Value>
     	</Record>
 		<Record>
 			<Key>JetpackT1Disc</Key>
@@ -636,11 +657,11 @@ Press the 'Complete' button to transmit your results to Stationeer Command.</Val
 		</Record>
 		<Record>
 			<Key>OnButtonPressTaskT1</Key>
-			<Value>End test</Value>
+			<Value>Press 'Confirm' button to end test</Value>
 		</Record>
 		<Record>
 			<Key>UIBasicsEndDescription</Key>
-			<Value>Congratulations. Your results have been received by the Offworld Development Agency.</Value>
+			<Value>Congratulations. Your results have been received by Stationeer Command of the Offworld Development Agency.</Value>
 		</Record>
 	</Interface>
 </Language>
