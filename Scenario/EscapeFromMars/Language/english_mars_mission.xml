@@ -163,55 +163,40 @@
 	
 	<!-- Mission Stage: Spawn Mothership & Engine -->
 	<Record>
-      <Key>MarsTitleCreateMothership</Key>
-      <Value>Creating a Mothership</Value>
+      <Key>MarsTitleCreateRocket</Key>
+      <Value>Creating a Rocket</Value>
     </Record>
 	<Record>
-      <Key>MarsTabletStage5</Key>
-      <Value>SPACEFARING</Value>
+      <Key>MarsDescCreateRocket</Key>
+      <Value>Create a Rocket by crafting a {THING:StructureLaunchPad} and attaching required modules to it.</Value>
     </Record>
-	<Record>
-      <Key>MarsDescCreateMothership</Key>
-      <Value>Create a Mothership by crafting a {THING:MothershipCore} using {THING:ItemKitMotherShipCore} and attaching a {THING:StructureRocketEngine} to it</Value>
-    </Record>
-	<Record>
-      <Key>MarsTaskSpawnMothershipCore</Key>
-      <Value>Use a {THING:ItemKitMotherShipCore}</Value>
-    </Record>
-	<Record>
-      <Key>MarsTaskAttachEngine</Key>
-      <Value>Attach a {THING:StructureRocketEngine} to the {THING:MothershipCore}</Value>
-    </Record>
-	<Record>
-      <Key>MarsTitleLaunchMothership</Key>
-      <Value>Launching a Mothership</Value>
-    </Record>
-	<Record>
-      <Key>MarsTabletStage5Page1</Key>
-      <Value>PAGE 1 of 2 \nLAUNCH BREAK\nWith food under control, you've now got some real work to do.  Obtaining the resources to build and fuel a vessel to get off this rock won't be easy.  You'll require some advanced alloys and a safe system to manage melting ices and creating/storing a large amount of fuel.</Value>
-    </Record> 	
-	<Record>
-      <Key>MarsTabletStage5Page2</Key>
-      <Value>PAGE 2 of 2\nThe bare minimum you'll need for a ship is a core with a couple of engines attached and facing the right direction and a stellar anchor, which when turned on and off will allow your ship to move.  A command chair is not required if you're brave enough to drive the engines by hand, but thoroughly recommended.</Value>
-    </Record> 	
-	
-	
-	<!-- Mission Stage: Launch -->
-	<Record>
-      <Key>MarsDescLaunchMothership</Key>
-      <Value>Blast off into space and reclaim your place in the skies!</Value>
-    </Record>
-	<Record>
-      <Key>MarsTaskLaunchMothership</Key>
-      <Value>Launch your mothership to an altitude of 100m</Value>
-    </Record>
-	<Record>
-      <Key>MarsTabletStage6</Key>
-      <Value>ESCAPE</Value>
-    </Record>
-	<Record>
-      <Key>MarsTabletStage6Page1</Key>
-      <Value>PAGE 1 of 1 \nTAKEOFF\nPretty self-explanatory.  Get this thing off the ground.  Make sure you've got plenty of fuel for your engines!  Good luck!</Value>
-    </Record> 	
+  <Record>
+    <Key>MarsTaskBuildLaunchPad</Key>
+    <Value>Construct Rocket LaunchPad</Value>
+  </Record>
+  <Record>
+    <Key>MarsTaskBuildEngine</Key>
+    <Value>Construct Rocket Engine</Value>
+  </Record>
+  <Record>
+    <Key>MarsTaskBuildFuelTank</Key>
+    <Value>Construct Rocket FuelTank</Value>
+  </Record>
+  <Record>
+    <Key>MarsTaskBuildCommand</Key>
+    <Value>Construct Rocket Command module</Value>
+  </Record>
+  <Record>
+    <Key>MarsTitleLaunchRocket</Key>
+    <Value>Launching the rocket</Value>
+  </Record>
+  <Record>
+    <Key>MarsDescLaunchRocket</Key>
+    <Value>After fueling your newly constructed rocket, you can finally return to civilization.</Value>
+  </Record>
+  <Record>
+    <Key>MarsTaskLaunchMothership</Key>
+    <Value>Launch the rocket</Value>
+  </Record>
   </Interface>
 </Language>
