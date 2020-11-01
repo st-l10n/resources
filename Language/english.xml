@@ -984,7 +984,7 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>ItemCrowbar</Key>
       <Value>Crowbar</Value>
-      <Description>The crowbar is useful in a variety of everyday Stationeer settings, from opening APCs and unpowered airlocks, to splatting pan-dimensional headcrabs, should the need arise.</Description>
+      <Description>Recurso's entry-level crowbar is useful in a variety of everyday Stationeer settings, from opening {THING:StructureAreaPowerControl}s and unpowered {THING:StructureAirlock}s, to splatting pan-dimensional headcrabs, should the need arise.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDataDisk</Key>
@@ -994,12 +994,12 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>ItemDrill</Key>
       <Value>Hand Drill</Value>
-      <Description></Description>
+      <Description>The ExMin Off-whirled Hand Drill has been a companion to Stationeers for decades. Essential for assembling and deconstructing various items and structures, regardless of gravity, pressure or temperature.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDuctTape</Key>
       <Value>Duct Tape</Value>
-      <Description></Description>
+      <Description>In the distant past, one of Earth's great champions taught a generation of Fix-It People that duct tape was the answer to any problem. Stationeers have demonstrated that this is truth holds strong, so long as the problem is a damaged suit.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDynamite</Key>
@@ -1009,7 +1009,8 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>ItemEgg</Key>
       <Value>Egg</Value>
-      <Description></Description>
+      <Description>It came first.
+As in nature, somes eggs are fertilized, some not. A {THING:EntityChick} will emerge from a fertilized egg, and for the rest, there is the {THING:ApplianceMicrowave}. Perfect for {THING:ItemMuffin}s.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemEggBottom</Key>
@@ -1019,7 +1020,7 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>ItemEggCarton</Key>
       <Value>Egg Carton</Value>
-      <Description></Description>
+      <Description>Within, eggs reside in mysterious, marmoreal silence.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemEggTop</Key>
@@ -1473,7 +1474,7 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>ItemScrewdriver</Key>
       <Value>Screwdriver</Value>
-      <Description>This standard issue frictional adherence adjustor is a top of the line, bi-rotational model with a columnated uni-grip. It's not just a screwdriver. Use it for construction and deconstruction of certain kits, and setting values on &lt;color=#0080FFFF&gt;{LINK:LogicPage;logic}&lt;/color&gt; units.</Description>
+      <Description>This standard issue frictional adherence adjustor is a top of the line, bi-rotational model with a columnated uni-grip. It's definintely not just a screwdriver. Use it for construction and deconstruction of certain kits, and setting values on &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic}&lt;/color&gt; units.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSecurityCamera</Key>
@@ -1581,7 +1582,7 @@ It may not be elegant, but {THING:ItemOxite} and {THING:ItemVolatiles} can be co
     <RecordThing>
       <Key>ItemTablet</Key>
       <Value>Handheld Tablet</Value>
-      <Description></Description>>
+      <Description>The Xigo handheld 'Padi' tablet is an all-purpose data platform, provided as standard issue to all Stationeers. It is a multi-tool that accepts a range of &lt;color=#0080FFFF&gt;{LINK:CartridgePage;cartidges}&lt;/color&gt;, becoming an atmospheric or network analyzer, medical assistant, tracking device, cook book, and various other functions.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemTankConnector</Key>
@@ -1597,7 +1598,7 @@ Designed to meet the most strict-ish ODA safety standards, the toolbelt's eight 
     <RecordThing>
       <Key>ItemUraniumOre</Key>
       <Value>Ore (Uranium)</Value>
-      <Description></Description>>
+      <Description>In 1934, Enrico Fermi noticed that bombarding uranium with neutrons produced a burst of beta rays, and a new material. This process was named 'nuclear fission', and resulted in cheap energy, the Cold War, and countless thousand deaths. While reasonably common throughout the Solar System, Stationeers are wary of the material.</Description>>
     </RecordThing>
     <RecordThing>
       <Key>ItemWallCooler</Key>
@@ -1638,16 +1639,20 @@ An upgraded version of the classic 'Zairo' model first manufactured by ExMin for
     <RecordThing>
       <Key>MotherboardLogic</Key>
       <Value>Logic</Value>
-      <Description></Description>
+      <Description>Motherboards are connected to {THING:StructureComputer}s to perform various technical functions.
+The Norsec-designed K-cops logic motherboard allows Stationeers to set variables and actions on specific &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic}&lt;/color&gt;-controlled items.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardManufacturing</Key>
       <Value>Manufacturing</Value>
-      <Description></Description>
+      <Description>Motherboards are connected to {THING:StructureComputer}s to perform various technical functions.
+The Norsec-designed K-cops 4474 motherboard is - famously - a solution to the problem of their now-obselete General {THING:StructureFabricator} having a notable lack of buttons.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardSorter</Key>
       <Value>Sorter</Value>
+      <Description>Motherboards are connected to {THING:StructureComputer}s to perform various technical functions.
+The Norsec-designed K-cops 10-10 sorter motherboard permits Stationeers to control which items a {THING:StructureSorter} sorter does, and does not, permit to pass.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MothershipCore</Key>
@@ -1676,38 +1681,48 @@ An upgraded version of the classic 'Zairo' model first manufactured by ExMin for
     <RecordThing>
       <Key>SpaceShuttle</Key>
       <Value>Space Shuttle</Value>
+      <Description>An antiquated Sinotai transport craft, long since de-commissioned.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureActiveVent</Key>
       <Value>Active Vent</Value>
+      <Description>Fragments of the original Stationeers Handbook recovered from its self-induced singularity describe the design of active vents:
+... active vent is a powered device for maintaining &lt;color=#0080FFFF&gt;{LINK:GasPage;gas}&lt;/color&gt; pressure by pumping gas into (or out of) a pipe network. The vent has two modes: 'Outward' sets it to pump gas into a space until pressure is reached; 'Inward' sets it to pump gas out until pressure is reached. The pressure parameter can be set on a connected {THING:StructureConsole}. Default pressure is 101kPa for Outward; 0kPa for Inward ...</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirConditioner</Key>
       <Value>Air Conditioner</Value>
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirlock</Key>
       <Value>Airlock</Value>
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAreaPowerControl</Key>
       <Value>Area Power Control</Value>
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAreaPowerControlReversed</Key>
       <Value>Area Power Control</Value>
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBackPressureRegulator</Key>
       <Value>Back Pressure Regulator</Value>
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBattery</Key>
       <Value>Battery</Value>
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBatteryCharger</Key>
       <Value>Battery Cell Charger</Value>
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBench</Key>
@@ -1717,38 +1732,47 @@ An upgraded version of the classic 'Zairo' model first manufactured by ExMin for
     <RecordThing>
       <Key>StructureBlastDoor</Key>
       <Value>Blast Door</Value>
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner</Key>
       <Value>Cable (Corner)</Value>
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner3</Key>
       <Value>Cable (3-Way Corner)</Value>
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction</Key>
       <Value>Cable (Junction)</Value>
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction4</Key>
       <Value>Cable (4-Way Junction)</Value>
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction6</Key>
       <Value>Cable (6-Way Junction)</Value>
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableStraight</Key>
       <Value>Cable (Straight)</Value>
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCamera</Key>
       <Value>Camera</Value>
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCentrifuge</Key>
       <Value>Centrifuge</Value>
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChair</Key>
