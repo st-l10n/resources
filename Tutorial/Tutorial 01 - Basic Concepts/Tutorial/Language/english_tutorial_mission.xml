@@ -10,7 +10,7 @@
 		</Record>
 		<Record>
 			<Key>BasicConceptsSubTitle</Key>
-			<Value>Pra ctical Training: Stage I</Value>
+			<Value>Practical Training: Stage I</Value>
 		</Record>
 		<Record>
 			<Key>MBasicConceptsDescription</Key>
@@ -39,7 +39,7 @@ Complete your practical training in order to join thousands of Stationeers deplo
     	</Record>
 		<Record>
       		<Key>ControlMovementDisc</Key>
-      		<Value>Movement keys</Value>
+      		<Value>Movement</Value>
     	</Record>
 		<Record>
       		<Key>Narration1T</Key>
@@ -59,7 +59,7 @@ Complete your practical training in order to join thousands of Stationeers deplo
 		</Record>
 		<Record>
 			<Key>ControlLeftClickDisc</Key>
-			<Value>Cycle airlock</Value>
+			<Value>Interact</Value>
 		</Record>
 		<Record>
       		<Key>Narration2T</Key>
@@ -92,7 +92,7 @@ Cadets have TWO hands, but should only do ONE thing at a time.</Value>
     	</Record>
 		<Record>
 			<Key>PickUpControlsDisc</Key>
-			<Value>Pick up</Value>
+			<Value>Interact</Value>
 		</Record>
 		<Record>
 			<Key>SwapControls</Key>
@@ -108,11 +108,11 @@ Cadets have TWO hands, but should only do ONE thing at a time.</Value>
     	</Record>
 		<Record>
       		<Key>PickUpT1</Key>
-      		<Value>Take welder from the crate</Value>
+      		<Value>Take welding torch from the crate</Value>
     	</Record>
 		<Record>
       		<Key>SwapHandsT1</Key>
-      		<Value>Swap active hands using 'E'</Value>
+      		<Value>Swap hands</Value>
     	</Record>
 		<Record>
       		<Key>PickUpT1 1</Key>
@@ -120,7 +120,7 @@ Cadets have TWO hands, but should only do ONE thing at a time.</Value>
     	</Record>
 		<Record>
       		<Key>SwapHandsT1 2</Key>
-      		<Value>Swap active hands ... again</Value>
+      		<Value>Swap hands ... again</Value>
     	</Record>
 		<Record>
       		<Key>Narration4T</Key>
@@ -128,11 +128,11 @@ Cadets have TWO hands, but should only do ONE thing at a time.</Value>
     	</Record>
 		<Record>
       		<Key>Narration4D</Key>
-      		<Value>You could have been a juggler. welder with 'Q'But you signed up as a Stationeer, so you're going to juggle tools instead. Many of these must be activated first, by pressing 'O'.</Value>
+      		<Value>You could have been a juggler. But you signed up as a Stationeer, so you're going to juggle tools instead. Many of these must be activated first, by pressing 'O'.</Value>
     	</Record>
 		<Record>
 		<Key>ActiveWilderDisc</Key>
-		<Value>Activate the welder</Value>
+		<Value>Activate the welding torch</Value>
 		</Record>
 		<Record>
 			<Key>TurnOnControls</Key>
@@ -143,16 +143,16 @@ Cadets have TWO hands, but should only do ONE thing at a time.</Value>
 			<Value>Toggle power</Value>
 		</Record>
 		<Record>
-			<Key>TurnOnControlstem in your right handeilderDisc</Key>
-			<Value>Toggle power on welder</Value>
+			<Key>TurnOnControlsDisc</Key>
+			<Value>Toggle power on welding torch</Value>
 		</Record>
 		<Record>
       		<Key>WeilderOn</Key>
-      		<Value>Turn on welder</Value>
+      		<Value>Turn on welding torch</Value>
     	</Record>
 		<Record>
       		<Key>WeilderOff</Key>
-      		<Value>Turn off welder</Value>
+      		<Value>Turn off welding torch</Value>
     	</Record>
 		<Record>
       		<Key>Narration5T</Key>
@@ -169,8 +169,16 @@ Press Q to drop items, or hold Q to throw them.</Value>
 		</Record>
 		<Record>
       		<Key>DropWireCutters</Key>
-      		<Value>Drop tool in your right hand</Value>
+      		<Value>Drop or throw tool in your right hand</Value>
     	</Record>
+		<Record>
+			<Key>ThrowControls</Key>
+			<Value>Hold {KEY:Drop}</Value>
+		</Record>
+		<Record>
+			<Key>ThrowControlsDisc</Key>
+			<Value>Throw item</Value>
+		</Record>
 		<Record>
       		<Key>DropControls</Key>
       		<Value>{KEY:Drop}</Value>
@@ -189,7 +197,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
       		<Key>Narration6D</Key>
-      		<Value>Sometimes, you'll need to put something down more carefully. Tryit using 'T', and check your suit joints are working smoothly.</Value>
+      		<Value>Sometimes, you'll need to put something down more carefully. Try it using 'T', and check your suit joints are working smoothly.</Value>
     	</Record>
 		<Record>
       		<Key>PrecisionPlaceControls</Key>
@@ -197,7 +205,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
       		<Key>PrecisionPlaceControlsDisc</Key>
-      		<Value>Enable Precision Place Mode</Value>
+      		<Value>Precision Place Mode</Value>
     	</Record>
 		<Record>
       		<Key>PrecisionPlaceControlsPlace</Key>
@@ -205,11 +213,11 @@ Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
       		<Key>PrecisionPlaceControlsPlaceDisc</Key>
-      		<Value>Place Item.</Value>
+      		<Value>Place Item</Value>
     	</Record>
 		<Record>
       		<Key>PrecisionPlace</Key>
-      		<Value>Place welder on table.</Value>
+      		<Value>Place welding torch on table using 'Precision place'</Value>
     	</Record>
 		<Record>
       		<Key>Narration7T</Key>
@@ -221,11 +229,11 @@ Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
 			<Key>OpenToolControls</Key>
-			<Value>{KEY:MouseControl} + {KEY:PrimaryAction}</Value>
+			<Value>{KEY:MouseControl}</Value>
 		</Record>
 		<Record>
 			<Key>OpenToolControlsDisc</Key>
-			<Value>Open item</Value>
+			<Value>Enable Mouse Cursor</Value>
 		</Record>
 		<Record>
 			<Key>OpenToolbeltT1Disc</Key>
@@ -233,15 +241,15 @@ Press Q to drop items, or hold Q to throw them.</Value>
 		</Record>
 		<Record>
 			<Key>OpenBackControls</Key>
-			<Value>{KEY:BackSlot}</Value>
+			<Value>{KEY:Helmet}-{KEY:Belt}</Value>
 		</Record>
 		<Record>
 			<Key>OpenBackControlsDisc</Key>
-			<Value>Open backpack using numeric keysfrom backpack</Value>
+			<Value>Open equipped slots</Value>
 		</Record>
 		<Record>
 			<Key>GettingTheBelt</Key>
-			<Value>Open your belt inventory</Value>
+			<Value>Open your Tool Belt</Value>
 		</Record>
 		<Record>
       		<Key>Narration8T</Key>
@@ -253,11 +261,11 @@ Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
 			<Key>OpenBackPackDisc</Key>
-			<Value>Open your backpack inventory.</Value>
+			<Value>Open your Tool Belt</Value>
 		</Record>
 		<Record>
       		<Key>OpenBackPack</Key>
-      		<Value>Open backpack.</Value>
+      		<Value>Open your Jetpack.</Value>
     	</Record>
 		<Record>
       		<Key>Narration9T</Key>
@@ -265,15 +273,15 @@ Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
       		<Key>Narration9D</Key>
-      		<Value>There are also many ways to move items around. Start by dragging items from your inventory into your hand.</Value>
+      		<Value>There are many ways to move items around. Start by dragging items from your inventory into your hand.</Value>
     	</Record>
 		<Record>
-		<Key>HoldMiningBeltT1Disc</Key>
-		<Value>Drag the mining belt from your backpack into your left hand.</Value>
+			<Key>HoldMiningBeltT1Disc</Key>
+			<Value>Drag mining belt from Jetpack into left hand</Value>
 		</Record>
 		<Record>
       		<Key>PickUpT1 2</Key>
-      		<Value>Drag mining belt from backpackinto left hand.</Value>
+      		<Value>Drag mining belt from Jetpack into left hand</Value>
     	</Record>
 		<Record>
 			<Key>AltDragControls</Key>
@@ -285,7 +293,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
 		</Record>
 		<Record>
       		<Key>DropT1 2</Key>
-      		<Value>Drop the mining belt</Value>
+      		<Value>Drop or throw the mining belt</Value>
     	</Record>
 		<Record>
       		<Key>Narration10T</Key>
@@ -297,13 +305,12 @@ Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
 			<Key>DragFromWorldT1Disc</Key>
-			<Value>Drag mining belt into backpack</Value>
+			<Value>Drag mining belt from ground into Jetpack</Value>
 		</Record>
 		<Record>
 			<Key>AltClickControls</Key>
 			<Value>{KEY:MouseControl} + {KEY:PrimaryAction}</Value>
-		</Record>
-		<Record>
+		</Record>	<Record>
 			<Key>AltClickControlsDisc</Key>
 			<Value>Interact with mouse</Value>
 		</Record>
@@ -361,7 +368,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
 		</Record>
 		<Record>
       		<Key>JetpackInsert</Key>
-      		<Value>Drag the mining belt into the backpack.</Value>
+      		<Value>Drag mining belt from ground into jetpack</Value>
     	</Record>
 		<Record>
       		<Key>Narration11T</Key>
@@ -373,19 +380,19 @@ Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
 			<Key>RoadFlareT1Disc</Key>
-			<Value>Use 'Hot Keys' to equip a flare</Value>
+			<Value>Use 'Hot Keys' to equip a road flare</Value>
 		</Record>
 		<Record>
       		<Key>GetRoadFlare</Key>
-      		<Value>Move flare to left hand</Value>
+      		<Value>Move road flare from Jetpack to left hand</Value>
     	</Record>
 		<Record>
       		<Key>LightFlare</Key>
-      		<Value>Activate flare</Value>
+      		<Value>Activate road flare using Secondary Action</Value>
     	</Record>
 		<Record>
       		<Key>DropT1 3</Key>
-      		<Value>Drop flare using 'Q'</Value>
+      		<Value>Drop roadflare using 'Q'</Value>
     	</Record>
 		<Record>
       		<Key>Narration12T</Key>
@@ -397,7 +404,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
 			<Key>ChildOnSlotOpenDisc</Key>
-			<Value>Open the mining belt in your backpack.</Value>
+			<Value>Open the mining belt in your jetpack.</Value>
 		</Record>
 		<Record>
       		<Key>OpeningTheMininngBelt</Key>
@@ -417,7 +424,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
 		</Record>
 		<Record>
       		<Key>ChangePowerCell</Key>
-      		<Value>Replace mining drill battery  from crate</Value>
+      		<Value>Add battery to mining drill from the crate</Value>
     	</Record>
 		<Record>
       		<Key>Narration14T</Key>
@@ -433,7 +440,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
 		</Record>
 		<Record>
       		<Key>Merege de frames</Key>
-      		<Value>Merge frames in crate windows</Value>
+      		<Value>Merge two stacks of iron frames in the crate</Value>
     	</Record>
 		<Record>
       		<Key>Narration15T</Key>
@@ -445,11 +452,11 @@ Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
 			<Key>CloseAllUIT1Disc</Key>
-			<Value>Close all open inventory windows.</Value>
+			<Value>Close all open UI windows</Value>
 		</Record>
 		<Record>
       		<Key>CloseUITask</Key>
-      		<Value>Close inventory windows</Value>
+      		<Value>Close all open UI windows</Value>
     	</Record>
 		<Record>
 			<Key>ControlCloseUI</Key>
@@ -474,7 +481,7 @@ Move to the next area of the training base to review the basics of building.</Va
 		</Record>
 		<Record>
       		<Key>EnterAreaT3</Key>
-      		<Value>Enter Section B</Value>
+      		<Value>Enter the next airlock</Value>
     	</Record>
 		<Record>
       		<Key>Narration17T</Key>
@@ -529,15 +536,15 @@ You'll need a welder in your active hand, and iron sheets in the other.</Value>
 		</Record>
 		<Record>
 			<Key>IronFrameBuildTaskT1</Key>
-			<Value>Build frame #1 in highlighted spot.</Value>
+			<Value>Build frame #1 in highlighted spot above.</Value>
 		</Record>
 		<Record>
 			<Key>IronFrameBuildTaskT2</Key>
-			<Value>Build frame #2 in highlighted spot.</Value>
+			<Value>Build frame #2 in highlighted spot above.</Value>
 		</Record>
 		<Record>
       		<Key>PickUpT1 4</Key>
-      		<Value>Pick up iron sheets from crate</Value>
+      		<Value>Take iron sheets from crate</Value>
     	</Record>
 		<Record>
 			<Key>FinsihFramesT1Disc</Key>
@@ -549,15 +556,15 @@ You'll need a welder in your active hand, and iron sheets in the other.</Value>
 		</Record>
 		<Record>
       		<Key>OpenTheAPCPanel</Key>
-      		<Value>Use a crowbar to open the APC</Value>
+      		<Value>Open the APC with crowbar from crate</Value>
     	</Record>
 		<Record>
       		<Key>TurnOnAPC</Key>
-      		<Value>Turn on the APC to add air</Value>
+      		<Value>Turn on the APC</Value>
     	</Record>
 		<Record>
       		<Key>TurningOnTheOXygen</Key>
-      		<Value>Fill the room with oxygen until it reaches at least 60kPa.</Value>
+      		<Value>Wait for external pressure to reachmask 60kPa.</Value>
     	</Record>
 		<Record>
 			<Key>OpenHelmT1Disc</Key>
@@ -569,7 +576,7 @@ You'll need a welder in your active hand, and iron sheets in the other.</Value>
 		</Record>
 		<Record>
 			<Key>OpenHelmT2Task</Key>
-			<Value>Open helmet</Value>
+			<Value>Open mask</Value>
 		</Record>
 		<Record>
       		<Key>Narration20T</Key>
@@ -577,7 +584,7 @@ You'll need a welder in your active hand, and iron sheets in the other.</Value>
     	</Record>
 		<Record>
 			<Key>FinishFrameT1</Key>
-			<Value>Finish building frame with iron sheets</Value>
+			<Value>Finish constructing frame with iron sheets and welding torch</Value>
 		</Record>
 		<Record>
       		<Key>Narration20D</Key>
@@ -625,23 +632,23 @@ Press the orange 'Complete' button to transmit your results to Stationeer Comman
 		</Record>
 		<Record>
       		<Key>HangHelm</Key>
-      		<Value>Place helmet on suit rack</Value>
+      		<Value>Drag space helmet onto suit storage</Value>
     	</Record>
 		<Record>
       		<Key>HangSuit</Key>
-      		<Value>Place suit on suit rack</Value>
+      		<Value>Drag EVA suit onto suit storage</Value>
     	</Record>
 		<Record>
       		<Key>HangPack</Key>
-      		<Value>Hang jetpack on suit rack</Value>
+      		<Value>Drag jetpack onto suit storage</Value>
     	</Record>
 		<Record>
       		<Key>JetpackOn</Key>
-      		<Value>Activate jetpack</Value>
+      		<Value>Turn on jetpack</Value>
     	</Record>
 		<Record>
       		<Key>JetpackOff</Key>
-      		<Value>Deactivate jetpack</Value>
+      		<Value>Turn off jetpack</Value>
     	</Record>
 		<Record>
 			<Key>JetpackT1Disc</Key>
@@ -653,7 +660,7 @@ Press the orange 'Complete' button to transmit your results to Stationeer Comman
     	</Record>
 		<Record>
 			<Key>FillOutPaperworkT1Disc</Key>
-			<Value>Press button to transmit results.</Value>
+			<Value>Press big blue button to transmit results.</Value>
 		</Record>
 		<Record>
 			<Key>OnButtonPressTaskT1</Key>

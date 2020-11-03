@@ -1009,8 +1009,8 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>ItemEgg</Key>
       <Value>Egg</Value>
-      <Description>It came first.
-As in nature, somes eggs are fertilized, some not. A {THING:EntityChick} will emerge from a fertilized egg, and for the rest, there is the {THING:ApplianceMicrowave}. Perfect for {THING:ItemMuffin}s.</Description>
+      <Description>Resolving, finally, the question of which came first: it was the egg.
+If an egg has been fertilized, and is kept between 20C-30C, an {THING:EntityChick} will emerge. For the rest, there is the {THING:ApplianceMicrowave}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemEggBottom</Key>
@@ -1692,32 +1692,36 @@ The Norsec-designed K-cops 10-10 sorter motherboard permits Stationeers to contr
     <RecordThing>
       <Key>StructureAirConditioner</Key>
       <Value>Air Conditioner</Value>
-      <Description />
+      <Description>Built using the {THING:ItemKitAtmospherics}, the ExMin-designed air conditioner is used to raise or lower local temperature.
+The unit has three pipe connections: input, output, and waste. Attach an {THING:ItemActiveVent} to the unit's input port, and a passive vent to the output port, so the unit can draw gas through it. Run pipes from the unit's waste port to outside your base, where you can add {THING:StructurePipeRadiator}s to rapidly shed or gain temperature from the network. 
+Note that some &lt;color=#0080FFFF&gt;{LINK:GasPage;gases}&lt;/color&gt; are better coolants than others, but if the coolant pipe has less than 100kPa pressure, it will siphon its output to reach the necessary pressure.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirlock</Key>
       <Value>Airlock</Value>
-      <Description />
+      <Description>The standard airlock is a powered portal that forms the main component of an airlock chamber. As long as the airlock is not locked, it can be manually opened using a {Thing:ItemCrowbar}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAreaPowerControl</Key>
       <Value>Area Power Control</Value>
-      <Description />
+      <Description>An Area Power Control (APC) has three main functions. 
+      An APC's primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAreaPowerControlReversed</Key>
       <Value>Area Power Control</Value>
-      <Description />
+      <Description>An Area Power Control (APC) has three main functions. 
+      An APC's primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBackPressureRegulator</Key>
       <Value>Back Pressure Regulator</Value>
-      <Description />
+      <Description>Unlike the {THING:StructurePressureRegulator}, which closes when the input exceeds a given pressure, the back pressure regulator opens when input pressure reaches a given value.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBattery</Key>
       <Value>Battery</Value>
-      <Description />
+      <Description>Providing large-scale, reliable power storage, the Sinotai 'Dianzi' station battery is the heart of most Stationeer bases.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBatteryCharger</Key>
@@ -5027,6 +5031,11 @@ The Norsec-designed K-cops 10-10 sorter motherboard permits Stationeers to contr
       <Value>Structure Blocker</Value>
       <Description />
     </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageHydroponicsTray1</Key>
+      <Value>Wreckage Hydroponics Tray</Value>
+      <Description />
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -7285,7 +7294,7 @@ The Norsec-designed K-cops 10-10 sorter motherboard permits Stationeers to contr
     </Record>
     <Record>
       <Key>ScenarioScoreboardBackToMenu</Key>
-      <Value>Main menu</Value>
+      <Value>Return to Main Menu</Value>
     </Record>
     <Record>
       <Key>ScenarioScoreboardReturnToGame</Key>
@@ -9413,7 +9422,7 @@ The Norsec-designed K-cops 10-10 sorter motherboard permits Stationeers to contr
     </Record>
     <Record>
       <Key>TutorialCompleteDeanHall</Key>
-      <Value>Deal Hall</Value>
+      <Value>Dean Hall</Value>
     </Record>
     <Record>
       <Key>TutorialCompleteTruly</Key>
