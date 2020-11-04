@@ -1721,12 +1721,14 @@ Note that some &lt;color=#0080FFFF&gt;{LINK:GasPage;gases}&lt;/color&gt; are bet
     <RecordThing>
       <Key>StructureBattery</Key>
       <Value>Battery</Value>
-      <Description>Providing large-scale, reliable power storage, the Sinotai 'Dianzi' station battery is the heart of most Stationeer bases.</Description>
+      <Description>Providing large-scale, reliable power storage, the Sinotai 'Dianzi' station battery is the heart of most Stationeer bases. 
+      There are a variety of cautions to the design of electrical systems using batteries, and every experienced Stationeer has a story to tell, hence the Stationeer adage: 'Dianzi cooks, but it also frys.' 
+      Able to store up to 1kWh of power, there are no practical limits to its throughput, hence it is wise to use {THING:ItemCableCoilHeavy}. Seasoned electrical engineers will also laugh in the face of those who fail to separate our their power generation networks using {THING:StructureAreaPowerControl}s and {THING:StructureTransformer}s </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBatteryCharger</Key>
       <Value>Battery Cell Charger</Value>
-      <Description />
+      <Description>The 5-slot Xigo battery charger fits the {THING:ItemBatteryCell}, {THING:ItemBatteryCellLarge} and {THING:ItemBatteryCellNuclear}, providing up to 500W to any connected cell. Note: the older design means this device has minor power draw (10W) even when not charging.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBench</Key>
@@ -1736,37 +1738,43 @@ Note that some &lt;color=#0080FFFF&gt;{LINK:GasPage;gases}&lt;/color&gt; are bet
     <RecordThing>
       <Key>StructureBlastDoor</Key>
       <Value>Blast Door</Value>
-      <Description />
+      <Description>Airtight, and almost undamageable, the original 'Millmar' series of blast door was designed by off-world mining giant Recurso to protect asteroid-mining facilities from nuclear-incident-level explosive decompression. Short of a pocket-sized singularity blinking into the local space-time frame, there is effectively no limit to the pressure these blast doors can contain.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner</Key>
       <Value>Cable (Corner)</Value>
-      <Description />
+      <Description>Cable coil has come to symbolize the innovation, independence and flexibility of Stationeer life - so essential, the ODA designated it an official &lt;color=#0080FFFF&gt;{LINK:ToolPage;'tool'}&lt;/color&gt;.
+Normal coil has a maximum wattage of 5kW, and can supply both power and data across the same network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner3</Key>
       <Value>Cable (3-Way Corner)</Value>
-      <Description />
+      <Description>Cable coil has come to symbolize the innovation, independence and flexibility of Stationeer life - so essential, the ODA designated it an official &lt;color=#0080FFFF&gt;{LINK:ToolPage;'tool'}&lt;/color&gt;.
+Normal coil has a maximum wattage of 5kW, and can supply both power and data across the same network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction</Key>
       <Value>Cable (Junction)</Value>
-      <Description />
+      <Description>Cable coil has come to symbolize the innovation, independence and flexibility of Stationeer life - so essential, the ODA designated it an official &lt;color=#0080FFFF&gt;{LINK:ToolPage;'tool'}&lt;/color&gt;.
+Normal coil has a maximum wattage of 5kW, and can supply both power and data across the same network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction4</Key>
       <Value>Cable (4-Way Junction)</Value>
-      <Description />
+      <Description>Cable coil has come to symbolize the innovation, independence and flexibility of Stationeer life - so essential, the ODA designated it an official &lt;color=#0080FFFF&gt;{LINK:ToolPage;'tool'}&lt;/color&gt;.
+Normal coil has a maximum wattage of 5kW, and can supply both power and data across the same network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction6</Key>
       <Value>Cable (6-Way Junction)</Value>
-      <Description />
+      <Description>Cable coil has come to symbolize the innovation, independence and flexibility of Stationeer life - so essential, the ODA designated it an official &lt;color=#0080FFFF&gt;{LINK:ToolPage;'tool'}&lt;/color&gt;.
+Normal coil has a maximum wattage of 5kW, and can supply both power and data across the same network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableStraight</Key>
       <Value>Cable (Straight)</Value>
-      <Description />
+      <Description>Cable coil has come to symbolize the innovation, independence and flexibility of Stationeer life - so essential, the ODA designated it an official &lt;color=#0080FFFF&gt;{LINK:ToolPage;'tool'}&lt;/color&gt;.
+Normal coil has a maximum wattage of 5kW, and can supply both power and data across the same network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCamera</Key>
@@ -5034,6 +5042,16 @@ Note that some &lt;color=#0080FFFF&gt;{LINK:GasPage;gases}&lt;/color&gt; are bet
     <RecordThing>
       <Key>ItemWreckageHydroponicsTray1</Key>
       <Value>Wreckage Hydroponics Tray</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGasTankAdvanced</Key>
+      <Value>Gas Tank (Advanced)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicGasTankAdvanced</Key>
+      <Value>Kit (Portable Tank Advanced)</Value>
       <Description />
     </RecordThing>
   </Things>
