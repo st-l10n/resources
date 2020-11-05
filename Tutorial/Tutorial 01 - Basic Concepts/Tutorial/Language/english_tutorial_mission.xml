@@ -241,7 +241,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
 		</Record>
 		<Record>
 			<Key>OpenBackControls</Key>
-			<Value>{KEY:Helmet}-{KEY:Belt}</Value>
+			<Value>{KEY:HelmetSlot}-{KEY:ToolBeltSlot}</Value>
 		</Record>
 		<Record>
 			<Key>OpenBackControlsDisc</Key>
@@ -332,15 +332,39 @@ Press Q to drop items, or hold Q to throw them.</Value>
 		</Record>
 		<Record>
 			<Key>QucikEquiptControls</Key>
-			<Value>Scroll wheel + {KEY:InventorySelect} / {KEY:PrimaryAction} x2.</Value>
+			<Value>Scroll wheel</Value>
 		</Record>
 		<Record>
 			<Key>QucikEquiptControlsDisc</Key>
-			<Value>Send item to/from hand</Value>
+			<Value>Select Inventory Slot</Value>
+		</Record>
+		<Record>
+			<Key>QuickSelectItemControls</Key>
+			<Value>{KEY:InventorySelect}</Value>
+		</Record>
+		<Record>
+			<Key>QuickSelectItemControlsDisc</Key>
+			<Value>Interact with inventory</Value>
+		</Record>
+		<Record>
+			<Key>DoubleClickingControls</Key>
+			<Value>{KEY:PrimaryAction} x2</Value>
+		</Record>
+		<Record>
+			<Key>DoubleClickingControlsDisc</Key>
+			<Value>Interact with inventory</Value>
+		</Record>
+		<Record>
+			<Key>SecondaryActionControls</Key>
+			<Value>(hold) {KEY:SecondaryAction}</Value>
+		</Record>
+		<Record>
+			<Key>SecondaryActionControlsDisc</Key>
+			<Value>Secondary Action</Value>
 		</Record>
 		<Record>
 			<Key>ControlLeftClickBuildDisc</Key>
-			<Value>Place Item.</Value>
+			<Value>Build Structure.</Value>
 		</Record>
 		<Record>
 			<Key>BuildControls</Key>
@@ -493,15 +517,23 @@ Move to the next area of the training base to review the basics of building.</Va
 		</Record>
 		<Record>
 			<Key>ControlJetpackToggleDisc</Key>
-			<Value>JetPack on/off</Value>
+			<Value>Toggle Jetpack Power</Value>
 		</Record>
 		<Record>
-			<Key>ControlJetpackMovement</Key>
-			<Value>{KEY:Ascend}/{KEY:Descend}</Value>
+			<Key>ControlJetpackAsendMovement</Key>
+			<Value>{KEY:Ascend}</Value>
 		</Record>
 		<Record>
-			<Key>ControlJetpackMovementDisc</Key>
-			<Value>Up/Down</Value>
+			<Key>ControlJetpackAsendMovementDisc</Key>
+			<Value>Ascend</Value>
+		</Record>
+		<Record>
+			<Key>ControlJetpackDesendMovement</Key>
+			<Value>{KEY:Descend}</Value>
+		</Record>
+		<Record>
+			<Key>ControlJetpackDesendMovementDisc</Key>
+			<Value>Descend</Value>
 		</Record>
 		<Record>
       		<Key>Narration17D</Key>
@@ -531,6 +563,10 @@ Pick up frames, then right click to enter build mode, and left click to place.</
 You'll need a welder in your active hand, and iron sheets in the other.</Value>
     	</Record>
 		<Record>
+      		<Key>PickUpT1 9</Key>
+      		<Value>Take Iron Frames from crate</Value>
+    	</Record>
+		<Record>
 			<Key>BuildFrameT1Disc</Key>
 			<Value>Complete the unfinished roof using iron sheets.</Value>
 		</Record>
@@ -546,6 +582,10 @@ You'll need a welder in your active hand, and iron sheets in the other.</Value>
       		<Key>PickUpT1 4</Key>
       		<Value>Take iron sheets from crate</Value>
     	</Record>
+		<Record>
+		<Key>UsePrimeControlsBuildDisc</Key>
+		<Value>Construct</Value>
+		</Record>
 		<Record>
 			<Key>FinsihFramesT1Disc</Key>
 			<Value>Equip the welder and steel sheets from the crate, to complete the training base.</Value>
