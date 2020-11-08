@@ -1705,13 +1705,13 @@ Note that some &lt;color=#0080FFFF&gt;{LINK:GasPage;gases}&lt;/color&gt; are bet
       <Key>StructureAreaPowerControl</Key>
       <Value>Area Power Control</Value>
       <Description>An Area Power Control (APC) has three main functions. 
-      An APC's primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage.</Description>
+An APC's primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAreaPowerControlReversed</Key>
       <Value>Area Power Control</Value>
       <Description>An Area Power Control (APC) has three main functions. 
-      An APC's primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage.</Description>
+An APC's primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBackPressureRegulator</Key>
@@ -1722,8 +1722,8 @@ Note that some &lt;color=#0080FFFF&gt;{LINK:GasPage;gases}&lt;/color&gt; are bet
       <Key>StructureBattery</Key>
       <Value>Battery</Value>
       <Description>Providing large-scale, reliable power storage, the Sinotai 'Dianzi' station battery is the heart of most Stationeer bases. 
-      There are a variety of cautions to the design of electrical systems using batteries, and every experienced Stationeer has a story to tell, hence the Stationeer adage: 'Dianzi cooks, but it also frys.' 
-      Able to store up to 1kWh of power, there are no practical limits to its throughput, hence it is wise to use {THING:ItemCableCoilHeavy}. Seasoned electrical engineers will also laugh in the face of those who fail to separate our their power generation networks using {THING:StructureAreaPowerControl}s and {THING:StructureTransformer}s </Description>
+There are a variety of cautions to the design of electrical systems using batteries, and every experienced Stationeer has a story to tell, hence the Stationeer adage: 'Dianzi cooks, but it also frys.' 
+Able to store up to 1kWh of power, there are no practical limits to its throughput, hence it is wise to use {THING:ItemCableCoilHeavy}. Seasoned electrical engineers will also laugh in the face of those who fail to separate our their power generation networks using an {THING:StructureAreaPowerControl} and {THING:StructureTransformer}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBatteryCharger</Key>
@@ -1738,53 +1738,55 @@ Note that some &lt;color=#0080FFFF&gt;{LINK:GasPage;gases}&lt;/color&gt; are bet
     <RecordThing>
       <Key>StructureBlastDoor</Key>
       <Value>Blast Door</Value>
-      <Description>Airtight, and almost undamageable, the original 'Millmar' series of blast door was designed by off-world mining giant Recurso to protect asteroid-mining facilities from nuclear-incident-level explosive decompression. Short of a pocket-sized singularity blinking into the local space-time frame, there is effectively no limit to the pressure these blast doors can contain.</Description>
+      <Description>Airtight and almost undamageable, the original 'Millmar' series of blast door was designed by off-world mining giant Recurso to protect asteroid-mining facilities from nuclear-incident-level explosive decompression.
+Short of a pocket-sized singularity blinking into the local space-time frame, there is effectively no limit to the pressure these blast doors can contain - ideal for constructing airlocks in pressure-sensitive environments.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner</Key>
       <Value>Cable (Corner)</Value>
-      <Description>Cable coil has come to symbolize the innovation, independence and flexibility of Stationeer life - so essential, the ODA designated it an official &lt;color=#0080FFFF&gt;{LINK:ToolPage;'tool'}&lt;/color&gt;.
-Normal coil has a maximum wattage of 5kW, and can supply both power and data across the same network.</Description>
+      <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of Stationeer life - so essential, the ODA designated it an official &lt;color=#0080FFFF&gt;{LINK:ToolPage;'tool'}&lt;/color&gt; during the 3rd Decannual Stationeer Solar Conference.
+Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner3</Key>
       <Value>Cable (3-Way Corner)</Value>
-      <Description>Cable coil has come to symbolize the innovation, independence and flexibility of Stationeer life - so essential, the ODA designated it an official &lt;color=#0080FFFF&gt;{LINK:ToolPage;'tool'}&lt;/color&gt;.
-Normal coil has a maximum wattage of 5kW, and can supply both power and data across the same network.</Description>
+      <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of Stationeer life - so essential, the ODA designated it an official &lt;color=#0080FFFF&gt;{LINK:ToolPage;'tool'}&lt;/color&gt; during the 3rd Decannual Stationeer Solar Conference.
+Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction</Key>
       <Value>Cable (Junction)</Value>
-      <Description>Cable coil has come to symbolize the innovation, independence and flexibility of Stationeer life - so essential, the ODA designated it an official &lt;color=#0080FFFF&gt;{LINK:ToolPage;'tool'}&lt;/color&gt;.
-Normal coil has a maximum wattage of 5kW, and can supply both power and data across the same network.</Description>
+      <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of Stationeer life - so much so, the ODA designated it an official &lt;color=#0080FFFF&gt;{LINK:ToolPage;'tool'}&lt;/color&gt; during the 3rd Decannual Stationeer Solar Conference.
+Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction4</Key>
       <Value>Cable (4-Way Junction)</Value>
-      <Description>Cable coil has come to symbolize the innovation, independence and flexibility of Stationeer life - so essential, the ODA designated it an official &lt;color=#0080FFFF&gt;{LINK:ToolPage;'tool'}&lt;/color&gt;.
-Normal coil has a maximum wattage of 5kW, and can supply both power and data across the same network.</Description>
+      <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of Stationeer life - so much so, the ODA designated it an official &lt;color=#0080FFFF&gt;{LINK:ToolPage;'tool'}&lt;/color&gt; during the 3rd Decannual Stationeer Solar Conference.
+Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction6</Key>
       <Value>Cable (6-Way Junction)</Value>
-      <Description>Cable coil has come to symbolize the innovation, independence and flexibility of Stationeer life - so essential, the ODA designated it an official &lt;color=#0080FFFF&gt;{LINK:ToolPage;'tool'}&lt;/color&gt;.
-Normal coil has a maximum wattage of 5kW, and can supply both power and data across the same network.</Description>
+      <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of Stationeer duty - so much so, the ODA designated it an official &lt;color=#0080FFFF&gt;{LINK:ToolPage;'tool'}&lt;/color&gt; during the 3rd Decannual Stationeer Solar Conference.
+Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableStraight</Key>
       <Value>Cable (Straight)</Value>
-      <Description>Cable coil has come to symbolize the innovation, independence and flexibility of Stationeer life - so essential, the ODA designated it an official &lt;color=#0080FFFF&gt;{LINK:ToolPage;'tool'}&lt;/color&gt;.
-Normal coil has a maximum wattage of 5kW, and can supply both power and data across the same network.</Description>
+      <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of Stationeer life - so much so, the ODA designated it an official &lt;color=#0080FFFF&gt;{LINK:ToolPage;'tool'}&lt;/color&gt;.
+Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCamera</Key>
       <Value>Camera</Value>
-      <Description />
+      <Description>Nothing says 'I care' like a security camera that's been linked a {THING:StructureMotionSensor} and a {THING:StructureConsole} fitted with a {THING:CircuitboardCameraDisplay}.
+Be there, even when you're not.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCentrifuge</Key>
       <Value>Centrifuge</Value>
-      <Description />
+      <Description>If a {THING:StructureRecycler} or unbalanced{THING:StructureFurnace} outputs &lt;color=#0080FFFF&gt;{LINK:ReagentPage;reagent}&lt;/color&gt; mixture rather than the desired &lt;color=#0080FFFF&gt;{LINK:IngotPage;ingots}&lt;/color&gt;, a centrifuge allows you to reclaim the raw ores.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChair</Key>
@@ -1794,66 +1796,89 @@ Normal coil has a maximum wattage of 5kW, and can supply both power and data acr
     <RecordThing>
       <Key>StructureChuteBin</Key>
       <Value>Chute Bin</Value>
+      <Description>The Stationeer's goal is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+Like most Recurso-designed systems, chute bins are simple and robust, allowing items to be manually passed into chute networks. They can also be programmed with &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic}&lt;/color&gt; to operate automatically, although full automation requires the use items such as a {THING:StructureSDBHopper}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteCorner</Key>
       <Value>Chute (Corner)</Value>
+      <Description>The aim for any Stationeer is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+Chute corners are fundamental components of chute networks, which allow the transport of items between machines with import and export slots, such as the {THING:StructureFurnace} and other automatable structures.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteInlet</Key>
       <Value>Chute Inlet</Value>
+      <Description>The aim for any Stationeer is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+The chute inlet is an aperture by which items can be introduced to chute networks. Note that its origins in zero-gravity mining means chute inlets are permanently open, rather than interactable, but can be connected to &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic}&lt;/color&gt; systems to monitor throughput.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteJunction</Key>
       <Value>Chute (Junction)</Value>
+      <Description>The aim for any Stationeer is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+Chute junctions are fundamental components of chute networks, allowing merging or splitting of these networks. When combined with a programmed {THING:StructureSorter}, items can be sent down different paths to various machines with import and export slots.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteOutlet</Key>
       <Value>Chute Outlet</Value>
+      <Description>The aim for any Stationeer is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+The chute outlet is an aperture for exiting items from chute networks. Note that the outlet's origins in zero-gravity mining means they are permanently open, rather than interactable, but can be connected to &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic}&lt;/color&gt; systems to monitor throughput.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteStraight</Key>
       <Value>Chute (Straight)</Value>
+      <Description>The aim for any Stationeer is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an import and export slot.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeDoor</Key>
       <Value>Composite Door</Value>
+      <Description>Recurso's composite doors are rated to 300kPa, which is more than sufficient for most purposes they were designed for. However, steep pressure differentials are not your friend.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeFloorGrating</Key>
       <Value>Composite Floor Grating</Value>
+      <Description>While aesthetics rank low on the ladder of Stationeer concerns, composite gratings allow the concealment of unsightly cables on floors, walls and ceilings.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWall</Key>
       <Value>Composite Wall (Type 1)</Value>
+      <Description>Air-tight and resistant to extreme temperatures, composite walls favor form over function, coming in a range of slightly different, functionally identical varieties.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallRound</Key>
       <Value>Composite Wall Round</Value>
+      <Description>Yeah, nah.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallType1</Key>
       <Value>Composite Wall (Type 1)</Value>
+      <Description>Air-tight and resistant to extreme temperatures, composite walls come in several charming, near identical varieties - reflecting their designer's focus on form over function.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallType2</Key>
       <Value>Composite Wall (Type 2)</Value>
+      <Description>Air-tight and resistant to extreme temperatures, composite walls come several charming, near identical varieties - reflecting their focus on form over function.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallType3</Key>
       <Value>Composite Wall (Type 3)</Value>
+      <Description>Air-tight and resistant to extreme temperatures, composite walls come in several charming, near identical varieties - reflecting their focus on form over function.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallType4</Key>
       <Value>Composite Wall (Type 4)</Value>
+      <Description>Air-tight and resistant to extreme temperatures, composite walls come in several charming, near identical varieties - reflecting their designer's focus on form over function.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWindow</Key>
       <Value>Composite Window</Value>
+      <Description>Air-tight and resistant to extreme temperatures, composite walls come in several charming, near identical varieties - reflecting their designer's focus on form over function.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureComputer</Key>
       <Value>Computer</Value>
+      <Description>In some ways a relic, the 'Chonk' was designed by severely conflicted Norsec technicians, who needed a system for handling a wide range of &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;motherboards}&lt;/color&gt;, while also enduring the worst a new Cadet could throw at it.
+The result is a machine described by some as 'the only PC likely to survive our collision with a blackhole', while other, less appreciative users regard it as sharing most of its technological DNA with a cheese grater.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsole</Key>
@@ -1870,7 +1895,6 @@ Normal coil has a maximum wattage of 5kW, and can supply both power and data acr
     <RecordThing>
       <Key>StructureControlChair</Key>
       <Value>Control Chair</Value>
-      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorCorner</Key>
