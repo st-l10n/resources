@@ -5077,8 +5077,103 @@ The result is a machine described by some as 'the only PC likely to survive our 
       <Key>ItemKitDynamicGasTankAdvanced</Key>
       <Value>Kit (Portable Tank Advanced)</Value>
       <Description />
+    </RecordThing>    <RecordThing>
+      <Key>StructurePlinth</Key>
+      <Value>Plinth</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Rover_MkI</Key>
+      <Value>Rover MkI</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSpawnPoint</Key>
+      <Value>Structure Spawn Point</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>RespawnPoint</Key>
+      <Value>Respawn Point</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>RespawnPointWallMounted</Key>
+      <Value>Respawn Point Wall Mounted</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitRespawnPointWallMounted</Key>
+      <Value>Respawn Structure (Kit)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFlagODA</Key>
+      <Value>Kit Flag ODA</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Flag_ODA_10m</Key>
+      <Value>Flag ODA 10m</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Flag_ODA_8m</Key>
+      <Value>Flag ODA 8m</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Flag_ODA_6m</Key>
+      <Value>Flag ODA 6m</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Flag_ODA_4m</Key>
+      <Value>Flag ODA 4m</Value>
+      <Description />
+    </RecordThing>
+ <RecordThing>
+      <Key>ItemWreckageStructureRTG1</Key>
+      <Value>Wreckage Structure RTG</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageTurbineGenerator1</Key>
+      <Value>Wreckage Turbine Generator</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageTurbineGenerator2</Key>
+      <Value>Wreckage Turbine Generator</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageTurbineGenerator3</Key>
+      <Value>Wreckage Turbine Generator</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAirConditioner1</Key>
+      <Value>Wreckage Air Conditioner</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAirConditioner2</Key>
+      <Value>Wreckage Air Conditioner</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageWallCooler1</Key>
+      <Value>Wreckage Wall Cooler</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageWallCooler2</Key>
+      <Value>Wreckage Wall Cooler</Value>
+      <Description />
     </RecordThing>
   </Things>
+
   <Slots>
     <Record>
       <Key>Output</Key>
@@ -9477,6 +9572,46 @@ The result is a machine described by some as 'the only PC likely to survive our 
     <Record>
       <Key>SettingsMineableRenderDistance</Key>
       <Value>Mineable Render Distance</Value>
+    </Record>
+    <Record>
+      <Key>SetSpawnMessage</Key>
+      <Value>Use to set Spawn Point</Value>
+    </Record>
+    <Record>
+      <Key>SetSpawnTitle</Key>
+      <Value>Spawn Point</Value>
+    </Record>
+    <Record>
+      <Key>ControlPrimaryClick</Key>
+      <Value>{KEY:PrimaryAction}</Value>
+    </Record>
+    <Record>
+      <Key>ControlPrimaryClickDisc</Key>
+      <Value>Interact</Value>
+    </Record>
+        <Record>
+      <Key>ControlHoldPrimaryClick</Key>
+      <Value>Hold {KEY:PrimaryAction}</Value>
+    </Record>
+    <Record>
+      <Key>ControlHoldPrimaryClickConstructDisc</Key>
+      <Value>Construct</Value>
+    </Record>
+    <Record>
+      <Key>ControlHoldPrimaryClickDeconstructDisc</Key>
+      <Value>Deconstruct</Value>
+    </Record>
+    <Record>
+      <Key>ControlHoldPrimaryClickPlaceDisc</Key>
+      <Value>Place</Value>
+    </Record>
+    <Record>
+      <Key>ControlHoldPrimaryClickPlantDisc</Key>
+      <Value>Plant</Value>
+    </Record>
+    <Record>
+      <Key>ControlHoldPrimaryClickHarvestDisc</Key>
+      <Value>Harvest</Value>
     </Record>
   </Interface>
   <Colors>
