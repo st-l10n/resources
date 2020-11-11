@@ -9613,6 +9613,22 @@ The result is a machine described by some as 'the only PC likely to survive our 
       <Key>ControlHoldPrimaryClickHarvestDisc</Key>
       <Value>Harvest</Value>
     </Record>
+     <Record>
+      <Key>ControlPlayerMovement</Key>
+      <Value>{KEY:Forward}{KEY:Left}{KEY:Backward}{KEY:Right}</Value>
+    </Record>
+    <Record>
+      <Key>ControlPlayerMovementDisc</Key>
+      <Value>Movement</Value>
+    </Record>
+      <Record>
+      <Key>ControlSwapHands</Key>
+      <Value>{KEY:SwapHands}</Value>
+    </Record>
+      <Record>
+      <Key>ControlSwapHandsDisc</Key>
+      <Value>Swap Hands</Value>
+    </Record>
   </Interface>
   <Colors>
     <Record>
