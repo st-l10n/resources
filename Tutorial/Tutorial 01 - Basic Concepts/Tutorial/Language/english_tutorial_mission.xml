@@ -131,8 +131,8 @@ Cadets have TWO hands, but should only do ONE thing at a time.</Value>
       		<Value>You could have been a juggler. But you signed up as a Stationeer, so you're going to juggle tools instead. Many of these must be activated first, by pressing 'O'.</Value>
     	</Record>
 		<Record>
-		<Key>ActiveWilderDisc</Key>
-		<Value>Activate the welding torch</Value>
+			<Key>ActiveWilderDisc</Key>
+			<Value>Activate the welding torch</Value>
 		</Record>
 		<Record>
 			<Key>TurnOnControls</Key>
@@ -164,8 +164,8 @@ Cadets have TWO hands, but should only do ONE thing at a time.</Value>
 Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
-		<Key>DropItemT1 1</Key>
-		<Value>Dropool in right hand</Value>
+			<Key>DropItemT1 1</Key>
+			<Value>Dropool in right hand</Value>
 		</Record>
 		<Record>
       		<Key>DropWireCutters</Key>
@@ -265,7 +265,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
 		</Record>
 		<Record>
       		<Key>OpenBackPack</Key>
-      		<Value>Open your Jetpack.</Value>
+      		<Value>Open your backpack.</Value>
     	</Record>
 		<Record>
       		<Key>Narration9T</Key>
@@ -277,11 +277,11 @@ Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
 			<Key>HoldMiningBeltT1Disc</Key>
-			<Value>Drag mining belt from Jetpack into left hand</Value>
+			<Value>Drag mining belt from backpack into left hand</Value>
 		</Record>
 		<Record>
       		<Key>PickUpT1 2</Key>
-      		<Value>Drag mining belt from Jetpack into left hand</Value>
+      		<Value>Drag mining belt from backpack into left hand</Value>
     	</Record>
 		<Record>
 			<Key>AltDragControls</Key>
@@ -305,7 +305,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
 			<Key>DragFromWorldT1Disc</Key>
-			<Value>Drag mining belt from ground into Jetpack</Value>
+			<Value>Drag mining belt from ground into backpack</Value>
 		</Record>
 		<Record>
 			<Key>AltClickControls</Key>
@@ -320,7 +320,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
 		</Record>
 		<Record>
 			<Key>OpenMaskControlsDisc</Key>
-			<Value>Open mask</Value>
+			<Value>Open helmet</Value>
 		</Record>
 		<Record>
 			<Key>StationpediaToggleControls</Key>
@@ -392,7 +392,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
 		</Record>
 		<Record>
       		<Key>JetpackInsert</Key>
-      		<Value>Drag mining belt from ground into jetpack</Value>
+      		<Value>Drag mining belt from ground into backpack</Value>
     	</Record>
 		<Record>
       		<Key>Narration11T</Key>
@@ -408,7 +408,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
 		</Record>
 		<Record>
       		<Key>GetRoadFlare</Key>
-      		<Value>Move road flare from Jetpack to left hand</Value>
+      		<Value>Move road flare from backpack to left hand</Value>
     	</Record>
 		<Record>
       		<Key>LightFlare</Key>
@@ -428,7 +428,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
 			<Key>ChildOnSlotOpenDisc</Key>
-			<Value>Open the mining belt in your jetpack.</Value>
+			<Value>Open the mining belt in your backpack.</Value>
 		</Record>
 		<Record>
       		<Key>OpeningTheMininngBelt</Key>
@@ -604,7 +604,7 @@ You'll need a welder in your active hand, and iron sheets in the other.</Value>
     	</Record>
 		<Record>
       		<Key>TurningOnTheOXygen</Key>
-      		<Value>Wait for external pressure to reachmask 60kPa.</Value>
+      		<Value>Wait for external pressure to reach 60kPa.</Value>
     	</Record>
 		<Record>
 			<Key>OpenHelmT1Disc</Key>
@@ -612,11 +612,11 @@ You'll need a welder in your active hand, and iron sheets in the other.</Value>
 		</Record>
 		<Record>
 			<Key>OpenHelmT1Task</Key>
-			<Value>Unlock mask</Value>
+			<Value>Unlock helmet</Value>
 		</Record>
 		<Record>
 			<Key>OpenHelmT2Task</Key>
-			<Value>Open mask</Value>
+			<Value>Open helmet</Value>
 		</Record>
 		<Record>
       		<Key>Narration20T</Key>
@@ -624,7 +624,7 @@ You'll need a welder in your active hand, and iron sheets in the other.</Value>
     	</Record>
 		<Record>
 			<Key>FinishFrameT1</Key>
-			<Value>Finish constructing frame with iron sheets and welding torch</Value>
+			<Value>Finish frames: iron sheets + welding torch (active hand)</Value>
 		</Record>
 		<Record>
       		<Key>Narration20D</Key>
@@ -676,11 +676,11 @@ Press the orange 'Complete' button to transmit your results to Stationeer Comman
     	</Record>
 		<Record>
       		<Key>HangSuit</Key>
-      		<Value>Drag EVA suit onto suit storage</Value>
+      		<Value>Drag suit onto suit storage</Value>
     	</Record>
 		<Record>
       		<Key>HangPack</Key>
-      		<Value>Drag jetpack onto suit storage</Value>
+      		<Value>Drag backpack onto suit storage</Value>
     	</Record>
 		<Record>
       		<Key>JetpackOn</Key>
@@ -692,7 +692,7 @@ Press the orange 'Complete' button to transmit your results to Stationeer Comman
     	</Record>
 		<Record>
 			<Key>JetpackT1Disc</Key>
-			<Value>Test your jet pack controls.</Value>
+			<Value>Test your jetpack controls.</Value>
 		</Record>
 		<Record>
       		<Key>PickUpT1 6</Key>
