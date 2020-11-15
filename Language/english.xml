@@ -999,7 +999,8 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>ItemDuctTape</Key>
       <Value>Duct Tape</Value>
-      <Description>In the distant past, one of Earth's great champions taught a generation of Fix-It People that duct tape was the answer to any problem. Stationeers have demonstrated that this is truth holds strong, so long as the problem is a damaged suit.</Description>
+      <Description>In the distant past, one of Earth's great champions taught a generation of 'Fix-It People' that duct tape was the answer to any problem. Stationeers have demonstrated that this is truth holds strong, so long as the problem is a damaged {THING:ItemEvaSuit}, {THING:ItemJetpackBasic} or {THING:ItemSpaceHelmet}.
+To use: put duct tape in your active hand, hold RIGHT MOUSE BUTTON to automatically repair damage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDynamite</Key>
@@ -1489,7 +1490,8 @@ If an egg has been fertilized, and is kept between 20C-30C, an {THING:EntityChic
     <RecordThing>
       <Key>ItemSpaceHelmet</Key>
       <Value>Space Helmet</Value>
-      <Description>The basic space helmet insulates Stationeers against everything from hard vacuum to weird cooking smells. Providing a pressure-controlled, breathable atmosphere, it comes with a built-in light powered by your {THING:ItemEvaSuit} {THING:ItemBatteryCell}. It also incorporates a lock/unlock feature to avoid accidental opening, as well as a flush function to expel and replace the internal atmosphere. If damaged, use {THING:ItemDuctTape} to fix it, or paint it any colour you like using the &lt;color=#0080FFFF&gt;{LINK:ElectronicsPage;paint mixer}&lt;/color&gt;.</Description>
+      <Description>The basic space helmet insulates Stationeers against everything from hard vacuum to weird cooking smells. Providing a pressure-controlled, breathable atmosphere, it comes with a built-in light powered by your {THING:ItemEvaSuit} {THING:ItemBatteryCell}.
+It also incorporates a lock/unlock feature to avoid accidental opening, as well as a flush function to expel and replace the internal atmosphere. If damaged, use {THING:ItemDuctTape} to fix it, or paint it any colour you like using the {THING:AppliancePaintMixer}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSpacepack</Key>
@@ -1877,7 +1879,7 @@ Chutes are fundamental components of chute networks, which allow the transport o
     <RecordThing>
       <Key>StructureComputer</Key>
       <Value>Computer</Value>
-      <Description>In some ways a relic, the 'Chonk' was designed by severely conflicted Norsec technicians, who needed a system for handling a wide range of &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;motherboards}&lt;/color&gt;, while also enduring the worst a new Cadet could throw at it.
+      <Description>In some ways a relic, the 'Chonk R1' was designed by severely conflicted Norsec technicians, who needed a unit that could operate with a wide range of &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;motherboards}&lt;/color&gt;, while also enduring the worst a new Cadet could throw at it.
 The result is a machine described by some as 'the only PC likely to survive our collision with a blackhole', while other, less appreciative users regard it as sharing most of its technological DNA with a cheese grater.</Description>
     </RecordThing>
     <RecordThing>
@@ -3752,12 +3754,17 @@ The result is a machine described by some as 'the only PC likely to survive our 
       <Value>Coffee Mug</Value>
     </RecordThing>
     <RecordThing>
-      <Key>AimeeBot</Key>
-      <Value>Aimee Bot</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>Robot</Key>
-      <Value>Robot</Value>
+      <Value>AIMeE Bot</Value>
+      <Description>Designed by - presumably drunk - Norsec roboticists, AIMeE (or Automated Independent Mechanical Entity) can be a Stationeer's best friend, or tiresome nemesis, or both several times in the same day. Intended to unearth and retrieve ores automatically, the unit requires basic programming knowledge to operate.
+AIMEe has 7 modes:
+RobotMode.None = 0 = Do nothing
+RobotMode.None = 1 = Follow nearest player
+RobotMode.None = 2 = Move to target in straight line
+RobotMode.None = 3 = Wander around looking for ores in 15 co-ords radius
+RobotMode.None = 4 = Unload in chute input or chute bin within 3 meters / 1.5 large grids
+RobotMode.None = 5 = Path(find) to target
+RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeGPS</Key>
@@ -9628,6 +9635,121 @@ The result is a machine described by some as 'the only PC likely to survive our 
       <Record>
       <Key>ControlSwapHandsDisc</Key>
       <Value>Swap Hands</Value>
+    </Record>
+
+   <Record>
+      <Key>Agrizero</Key>
+      <Value>Agrizero</Value>
+    </Record>
+    <Record>
+      <Key>AgrizeroDesc</Key>
+      <Value>Coming soon...</Value>
+    </Record>
+
+    <Record>
+      <Key>Asura</Key>
+      <Value>Asura</Value>
+    </Record>
+    <Record>
+      <Key>AsuraDesc</Key>
+      <Value>Coming soon...</Value>
+    </Record>
+
+    <Record>
+      <Key>CHAC</Key>
+      <Value>CHAC</Value>
+    </Record>
+    <Record>
+      <Key>CHACDesc</Key>
+      <Value>Coming soon...</Value>
+    </Record>
+
+    <Record>
+      <Key>ExMin</Key>
+      <Value>ExMin</Value>
+    </Record>
+    <Record>
+      <Key>ExMinDesc</Key>
+      <Value>Coming soon...</Value>
+    </Record>
+
+    <Record>
+      <Key>GeFabrik</Key>
+      <Value>GeFabrik</Value>
+    </Record>
+    <Record>
+      <Key>GeFabrikDesc</Key>
+      <Value>Coming soon...</Value>
+    </Record>
+
+
+    <Record>
+      <Key>Hiiragi</Key>
+      <Value>Hiiragi</Value>
+    </Record>
+    <Record>
+      <Key>HiiragiDesc</Key>
+      <Value>Coming soon...</Value>
+    </Record>
+
+    <Record>
+      <Key>Norsec</Key>
+      <Value>Norsec</Value>
+    </Record>
+    <Record>
+      <Key>NorsecDesc</Key>
+      <Value>Coming soon...</Value>
+    </Record>
+
+    <Record>
+      <Key>ODA</Key>
+      <Value>ODA</Value>
+    </Record>
+    <Record>
+      <Key>ODADesc</Key>
+      <Value>Coming soon...</Value>
+    </Record>
+
+    <Record>
+      <Key>Recurso</Key>
+      <Value>Recurso</Value>
+    </Record>
+    <Record>
+      <Key>RecursoDesc</Key>
+      <Value>Coming soon...</Value>
+    </Record>
+
+    <Record>
+      <Key>Sinotai</Key>
+      <Value>Sinotai</Value>
+    </Record>
+    <Record>
+      <Key>SinotaiDesc</Key>
+      <Value>Coming soon...</Value>
+    </Record>
+    <Record>
+      <Key>TK</Key>
+      <Value>TK</Value>
+    </Record>
+    <Record>
+      <Key>TKDesc</Key>
+      <Value>Coming soon...</Value>
+    </Record>
+    <Record>
+      <Key>Xigo</Key>
+      <Value>Xigo</Value>
+    </Record>
+    <Record>
+      <Key>XigoDesc</Key>
+      <Value>Coming soon...</Value>
+    </Record>
+    <Record>
+      <Key>Stationeers</Key>
+      <Value>Stationeers</Value>
+    </Record>
+    <Record>
+      <Key>StationeersDesc</Key>
+      <Value>Coming soon...</Value>
     </Record>
   </Interface>
   <Colors>
