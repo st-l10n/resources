@@ -5084,7 +5084,8 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
       <Key>ItemKitDynamicGasTankAdvanced</Key>
       <Value>Kit (Portable Tank Advanced)</Value>
       <Description />
-    </RecordThing>    <RecordThing>
+    </RecordThing>
+    <RecordThing>
       <Key>StructurePlinth</Key>
       <Value>Plinth</Value>
       <Description />
@@ -5139,7 +5140,7 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
       <Value>Flag ODA 4m</Value>
       <Description />
     </RecordThing>
- <RecordThing>
+    <RecordThing>
       <Key>ItemWreckageStructureRTG1</Key>
       <Value>Wreckage Structure RTG</Value>
       <Description />
@@ -5179,8 +5180,17 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
       <Value>Wreckage Wall Cooler</Value>
       <Description />
     </RecordThing>
+    <RecordThing>
+      <Key>ItemKitRoverMKI</Key>
+      <Value>Kit (Rover MKI)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Rover_MkI_build_states</Key>
+      <Value>Rover MKI</Value>
+      <Description />
+    </RecordThing>
   </Things>
-
   <Slots>
     <Record>
       <Key>Output</Key>
@@ -9596,7 +9606,7 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
       <Key>ControlPrimaryClickDisc</Key>
       <Value>Interact</Value>
     </Record>
-        <Record>
+    <Record>
       <Key>ControlHoldPrimaryClick</Key>
       <Value>Hold {KEY:PrimaryAction}</Value>
     </Record>
@@ -9620,7 +9630,7 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
       <Key>ControlHoldPrimaryClickHarvestDisc</Key>
       <Value>Harvest</Value>
     </Record>
-     <Record>
+    <Record>
       <Key>ControlPlayerMovement</Key>
       <Value>{KEY:Forward}{KEY:Left}{KEY:Backward}{KEY:Right}</Value>
     </Record>
@@ -9628,16 +9638,15 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
       <Key>ControlPlayerMovementDisc</Key>
       <Value>Movement</Value>
     </Record>
-      <Record>
+    <Record>
       <Key>ControlSwapHands</Key>
       <Value>{KEY:SwapHands}</Value>
     </Record>
-      <Record>
+    <Record>
       <Key>ControlSwapHandsDisc</Key>
       <Value>Swap Hands</Value>
     </Record>
-
-   <Record>
+    <Record>
       <Key>Agrizero</Key>
       <Value>Agrizero</Value>
     </Record>
@@ -9645,7 +9654,6 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
       <Key>AgrizeroDesc</Key>
       <Value>Coming soon...</Value>
     </Record>
-
     <Record>
       <Key>Asura</Key>
       <Value>Asura</Value>
@@ -9654,7 +9662,6 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
       <Key>AsuraDesc</Key>
       <Value>Coming soon...</Value>
     </Record>
-
     <Record>
       <Key>CHAC</Key>
       <Value>CHAC</Value>
@@ -9663,7 +9670,6 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
       <Key>CHACDesc</Key>
       <Value>Coming soon...</Value>
     </Record>
-
     <Record>
       <Key>ExMin</Key>
       <Value>ExMin</Value>
@@ -9672,7 +9678,6 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
       <Key>ExMinDesc</Key>
       <Value>Coming soon...</Value>
     </Record>
-
     <Record>
       <Key>GeFabrik</Key>
       <Value>GeFabrik</Value>
@@ -9681,8 +9686,6 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
       <Key>GeFabrikDesc</Key>
       <Value>Coming soon...</Value>
     </Record>
-
-
     <Record>
       <Key>Hiiragi</Key>
       <Value>Hiiragi</Value>
@@ -9691,7 +9694,6 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
       <Key>HiiragiDesc</Key>
       <Value>Coming soon...</Value>
     </Record>
-
     <Record>
       <Key>Norsec</Key>
       <Value>Norsec</Value>
@@ -9700,7 +9702,6 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
       <Key>NorsecDesc</Key>
       <Value>Coming soon...</Value>
     </Record>
-
     <Record>
       <Key>ODA</Key>
       <Value>ODA</Value>
@@ -9709,7 +9710,6 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
       <Key>ODADesc</Key>
       <Value>Coming soon...</Value>
     </Record>
-
     <Record>
       <Key>Recurso</Key>
       <Value>Recurso</Value>
@@ -9718,7 +9718,6 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
       <Key>RecursoDesc</Key>
       <Value>Coming soon...</Value>
     </Record>
-
     <Record>
       <Key>Sinotai</Key>
       <Value>Sinotai</Value>
