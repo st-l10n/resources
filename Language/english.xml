@@ -424,7 +424,7 @@
     <RecordThing>
       <Key>ApplianceReagentProcessor</Key>
       <Value>Reagent Processor</Value>
-      <Description>Sitting somewhere between a high powered juicer and an alchemist's alembic, the &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; reagent processor turns certain raw materials into critical ingredients. Indispensible in any space kitchen, just bolt it to the bench, and you're ready to go.</Description>
+      <Description>Sitting somewhere between a high powered juicer and an alchemist's alembic, the &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; reagent processor turns certain raw materials and food items into cooking and crafting ingredients. Indispensible in any space kitchen, just bolt it to the bench, and you're ready to go.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleArmL</Key>
@@ -1885,18 +1885,25 @@ The result is a machine described by some as 'the only PC likely to survive our 
     <RecordThing>
       <Key>StructureConsole</Key>
       <Value>Console</Value>
+      <Description>This &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec-designed}&lt;/color&gt; control box manages devices such as the {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor} and {THING:StructureCompositeDoor}, depending on which &lt;color=#0080FFFF&gt;{LINK:LogicPage;circuitboard}&lt;/color&gt; is inserted into the unit. It has a shared data/power port.
+A completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. Consoles are locked once a {THING:ItemDataDisk} is removed.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleDual</Key>
       <Value>Console Dual</Value>
+      <Description>This &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec-designed}&lt;/color&gt; control box manages devices such as the {THING:StructureActiveVent}, {THING:StructureGasSensor}, {THING:StructureCompositeDoor} and others, depending on which &lt;color=#0080FFFF&gt;{LINK:LogicPage;circuitboard}&lt;/color&gt; is inserted into the unit. It has separate data and power ports.
+A completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. Consoles are locked once a {THING:ItemDataDisk} is removed.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleMonitor</Key>
       <Value>Console Monitor</Value>
+      <Description>This &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec-designed}&lt;/color&gt; control box manages devices such as the {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor}, {THING:ItemSecurityCamera} and {THING:StructureCompositeDoor}, depending on which &lt;color=#0080FFFF&gt;{LINK:LogicPage;circuitboard}&lt;/color&gt; is inserted into the unit. It has a shared data/power port, and a charming sloped interface.
+A completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. Consoles are locked once a {THING:ItemDataDisk} is removed.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureControlChair</Key>
       <Value>Control Chair</Value>
+      <Description>Once, these chairs were the heart of space-going behemoths. Now, they're items of nostalgia built by a handful of Stationeers with a sense of history. In other words, it's kitsch.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorCorner</Key>
