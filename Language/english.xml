@@ -1496,9 +1496,9 @@ It also incorporates a lock/unlock feature to avoid accidental opening, as well 
     <RecordThing>
       <Key>ItemSpacepack</Key>
       <Value>Spacepack</Value>
-      <Description>The basic spacepack isn't 'technically' a jetpack, it's a gas thruster. Indispensible for building, mining and general movement, it lets &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; fly at 3m/s, compared to the more powerful {THING:ItemJetpackBasic} or {THING:ItemHardJetpack}. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.
-The spacepack has ten storage slots and can be powered by any gas, so long as the internal pressure of the &lt;color=#0080FFFF&gt;{LINK:AtmosphericsPage;canister}&lt;/color&gt; is higher than the ambient external pressure. If the external pressure is greater, the jetpack will not function.
-Use 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move.</Description>
+      <Description>The basic &lt;color=#0080FFFF&gt;{LINK:CHAC;CHAC}&lt;/color&gt; spacepack isn't 'technically' a jetpack, it's a gas thruster. It can be powered by any gas, so long as the internal pressure of the &lt;color=#0080FFFF&gt;{LINK:AtmosphericsPage;canister}&lt;/color&gt; is higher than the ambient external pressure. If the external pressure is greater, the spacepack will not function.
+Indispensible for building, mining and general movement, it has ten storage slots and lets &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; fly at 3m/s, compared to the more powerful {THING:ItemJetpackBasic} or {THING:ItemHardJetpack}. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.
+USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBlack</Key>
@@ -1940,7 +1940,7 @@ A completed console displays all devices connected to the current power network.
     <RecordThing>
       <Key>StructureFabricator</Key>
       <Value>Fabricator</Value>
-      <Description>Capable of manufacturing a vast array of items, the &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; General Fabricator was considered too powerful by the &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; for civilian - or even general &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; - use. As a result, its deployment is now heavily regulated.</Description>
+      <Description>Capable of manufacturing a vast array of items, the &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; General Fabricator was considered too risky by the &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; for widespread use. Certainly, it has been used for purposes beyond those it was intended, including counterfeiting, terrorism, and bad art. As a result, its deployment is now heavily regulated.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFiltration</Key>
@@ -3543,6 +3543,9 @@ A completed console displays all devices connected to the current power network.
     <RecordThing>
       <Key>ItemHardJetpack</Key>
       <Value>Hardsuit Jetpack</Value>
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; jetpack isn't 'technically' a jetpack at all, it's a gas thruster. It can be powered by any gas, so long as the internal pressure of the &lt;color=#0080FFFF&gt;{LINK:AtmosphericsPage;canister}&lt;/color&gt; is higher than the ambient external pressure. If the external pressure is greater, the spacepack will not function. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.
+The hardsuit jetpack is capable of much higher speeds than the {THING:ItemJetpackBasic} - up to 15m/s. Indispensible for building, mining and general movement, it has fifteen storage slots.
+USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicHydroponics</Key>
@@ -3872,6 +3875,9 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
     <RecordThing>
       <Key>ItemJetpackBasic</Key>
       <Value>Jetpack Basic</Value>
+      <Description>The basic &lt;color=#0080FFFF&gt;{LINK:CHAC;CHAC}&lt;/color&gt; jetpack isn't 'technically' a jetpack, it's a gas thruster. It can be powered by any gas, so long as the internal pressure of the &lt;color=#0080FFFF&gt;{LINK:AtmosphericsPage;canister}&lt;/color&gt; is higher than the ambient external pressure. If the external pressure is greater, the spacepack will not function.
+Indispensible for building, mining and general movement, it has ten storage slots and lets &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; fly at 3m/s, compared to the more powerful {THING:ItemHardJetpack}. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.
+USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRTGSurvival</Key>
