@@ -78,33 +78,12 @@
     </Record>
     <!-- Mission Stage: Spawn Mothership & Engine -->
     <Record>
-      <Key>MarsTitleCreateMothership</Key>
+      <Key>MarsTitleCreateRocket</Key>
       <Value>創建母艦</Value>
     </Record>
     <Record>
-      <Key>MarsDescCreateMothership</Key>
-      <Value>使用 {THING:MothershipCore} 創建母艦並連結上 {THING:StructureRocketEngine} </Value>
-    </Record>
-    <Record>
-      <Key>MarsTaskSpawnMothershipCore</Key>
-      <Value>創建一個 {THING:MothershipCore}</Value>
-    </Record>
-    <Record>
-      <Key>MarsTaskAttachEngine</Key>
-      <Value>連結一個 {THING:StructureRocketEngine} 到 {THING:MothershipCore}</Value>
-    </Record>
-    <Record>
-      <Key>MarsTitleLaunchMothership</Key>
+      <Key>MarsTitleLaunchRocket</Key>
       <Value>發射母艦</Value>
-    </Record>
-    <!-- Mission Stage: Launch -->
-    <Record>
-      <Key>MarsDescLaunchMothership</Key>
-      <Value>升空，並回到你太空中的地方！</Value>
-    </Record>
-    <Record>
-      <Key>MarsTaskLaunchMothership</Key>
-      <Value>將你的母艦發射到海拔100米</Value>
     </Record>
   </Interface>
 </Language>

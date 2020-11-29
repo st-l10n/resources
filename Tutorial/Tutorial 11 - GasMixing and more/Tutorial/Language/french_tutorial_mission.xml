@@ -154,11 +154,15 @@ Vous pouvez maintenant insérer la bouteille d&apos;oxygène dans le {THING:Dyna
     </Record>
     <Record>
       <Key>SettingYourLimitTask2</Key>
-      <Value>Allumez le {THING:StructureAutolathe}.</Value>
+      <Value>Allumez le {THING:StructurePressureRegulator}.</Value>
     </Record>
     <Record>
       <Key>TheGasMix</Key>
       <Value>Le mélange des gaz</Value>
+    </Record>
+    <Record>
+      <Key>TheGasMixTask1</Key>
+      <Value>Définissez le rapport de mélange à &apos;33&apos; sur l’entrée un, et &apos;67&apos; sur l’entrée deux.</Value>
     </Record>
     <Record>
       <Key>TheGasMixTask2</Key>
@@ -174,7 +178,7 @@ Vous pouvez maintenant insérer la bouteille d&apos;oxygène dans le {THING:Dyna
     </Record>
     <Record>
       <Key>RetrievingTheFuelTankTask1</Key>
-      <Value>Insérez le {THING:ItemDataDisk} dans la {THING:StructureConsole}.</Value>
+      <Value>Prenez le {THING:ItemGasCanisterFuel} du {THING:StructureGasTankStorage}.</Value>
     </Record>
     <Record>
       <Key>RetrievingTheFuelTankTask2</Key>

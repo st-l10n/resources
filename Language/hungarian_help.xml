@@ -7,16 +7,6 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
-      <Key>SlotLeftHand</Key>
-      <Title>Kéz slotok</Title>
-      <Text>A kezeid is különleges slotok. Egyszerre csak az egyik aktív, azt a {COLORRED:Primary Action} gombbal használhatod. Az aktív kezek közti váltáshoz használd a(z) {KEY:SwapHands} gombot. Az aktív kezedet a {KEY:ActiveHandSlot} gombbal tudod kezelni, ez a kezed tartalmát nyitja vagy zárja. Mint mindig, most is használhatod a(z) {KEY:MouseControl} gombot a kezeléshez. További információért lesd meg a {LINK:InventoryPage;tárhely} szekciót.</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>SlotRightHand</Key>
-      <Title>Kéz slotok</Title>
-      <Text>A kezeid is különleges slotok. Egyszerre csak az egyik aktív, azt a {COLORRED:Primary Action} gombbal használhatod. Az aktív kezek közti váltáshoz használd a(z) {KEY:SwapHands} gombot. Az aktív kezedet a {KEY:ActiveHandSlot} gombbal tudod kezelni, ez a kezed tartalmát nyitja vagy zárja. Mint mindig, most is használhatod a(z) {KEY:MouseControl} gombot a kezeléshez. További információért lesd meg a {LINK:InventoryPage:Inventory} szekciót.</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>FabricatorPage</Key>
       <Title>Gyártógépek</Title>
       <Text>Ezek az árammal ellátott masinák gyártják le az összes játékbeli tárgyat. Legtöbb esetben {LINK:IngotPage;öntött fémrudak} kellenek, hogy a gépeket a gyártáshoz elegendő {LINK:ReagentPage;reagenssel}  lásd el.
@@ -68,22 +58,6 @@ Ha közvetlenül ránézel az építés alatt levő tárgyra, a befejezéshez sz
 
 {HEADER:Gázok listája}
 {LIST_OF_GASES}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>AlloyPage</Key>
-      <Title>Ötvözetek</Title>
-      <Text>A {THING:StructureFurnace} vagy a {THING:StructureAdvancedFurnace} segítségével készíthetők el {LINK:ReagentPage;reagens} keverékekből. Az ötvözetek {LINK:IngotPage;kiöntött rudak}, amiket a {LINK:FabricatorPage;gyártógépekben} használhatsz. A {THING:StructureArcFurnace} nem alkalmas ezeknek az elkészítésére.
-
-{HEADER:Ötvözetek listája}
-{LIST_OF_ALLOYS}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>SuperAlloyPage</Key>
-      <Title>Szuperötvözetek</Title>
-      <Text>A {THING:StructureAdvancedFurnace} segítségével készíthetők el {LINK:ReagentPage;reagens} keverékekből. Az ötvözetek {LINK:IngotPage;kiöntött rudak}, amiket a {LINK:FabricatorPage;gyártógépekben} használhatsz. Az {THING:StructureArcFurnace} és a {THING:StructureFurnace} nem alkalmas ezeknek az elkészítésére.
-
-{HEADER:Szuperötvözetek listája}
-{LIST_OF_SUPER_ALLOYS}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>OrePage</Key>
@@ -152,6 +126,38 @@ Néhány érc napfény és más hő hatására elolvad ezzel {LINK:GasPage;gázo
 {HEADER:Készülékek listája}
 {LIST_OF_APPLIANCES}</Text>
     </StationpediaPage>
+    <!-- <StationpediaPage>
+          <Key>RocketShuttleModulesHelpPage</Key>
+          <Title>Rocket Shuttle Modules</Title>
+          <Text>{HEADER:Modular Rocket Cargo}
+
+The {THING:StructureModularRocketCargo01} has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total.
+
+{HEADER:Modular Rocket Command}
+
+The {THING:StructureModularRocketCommand01} must be placed on top of the rocket. It will assess the rocket’s readiness for flight. Once all conditions are met, the rocket can be launched when all players are seated in the module by pressing ‘Launch’ on the console.
+
+The following conditions must be met for launch:
+
+Fuel full
+Fuel mix ratio correct
+All players seated
+Power supplied to the launch pad
+Fully built rocket
+
+The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient.
+
+{HEADER:Modular Rocket Engine}
+
+The {THING:StructureModularRocketEngine01} is capable of lifting up to seven modules (including itself).
+
+{HEADER:Modular Rocket Fuel Tank}
+
+The {THING:StructureModularRocketFueltank01} requires a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}. If the mixture exceeds these proportions, or you place other gases in the tank, the {THING:StructureModularRocketCommand01} console will display an ‘Invalid’ error.
+
+          </Text>
+        </StationpediaPage>
+        -->
     <StationpediaPage>
       <Key>RocketShuttlePage</Key>
       <Title>Űrsikló</Title>

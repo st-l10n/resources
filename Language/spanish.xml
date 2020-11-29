@@ -15,11 +15,6 @@
       <Unit>ml</Unit>
     </RecordReagent>
     <RecordReagent>
-      <Key>Egg</Key>
-      <Value>Huevo</Value>
-      <Unit/>
-    </RecordReagent>
-    <RecordReagent>
       <Key>Iron</Key>
       <Value>Hierro</Value>
       <Unit>g</Unit>
@@ -95,16 +90,6 @@
       <Unit>ml</Unit>
     </RecordReagent>
     <RecordReagent>
-      <Key>Potato</Key>
-      <Value>Patata</Value>
-      <Unit/>
-    </RecordReagent>
-    <RecordReagent>
-      <Key>Tomato</Key>
-      <Value>Tomate</Value>
-      <Unit/>
-    </RecordReagent>
-    <RecordReagent>
       <Key>Fenoxitone</Key>
       <Value>Fenoxitona</Value>
       <Unit>g</Unit>
@@ -137,7 +122,7 @@
     <RecordReagent>
       <Key>Pumpkin</Key>
       <Value>Calabaza</Value>
-      <Unit/>
+      <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Rice</Key>
@@ -343,18 +328,8 @@
   </Actions>
   <Things>
     <RecordThing>
-      <Key>ApplianceMicrowave</Key>
-      <Value>Microondas</Value>
-      <Description>Si bien en los últimos cientos de años se han inventado innumerables formas &apos;mejores&apos; de cocinar &lt;color=#0080FFFF&gt;{LINK:FoodPage;Food}&lt;/color&gt;, pocas son tan duraderas o fáciles de fabricar como el microondas OK-Zoomer. Con licencia de Xigo, los planos se basan en un modelo clásico de mediados del siglo XXI, lo que le confiere una encantadora sensación retro. Pero no se preocupe, hace oscilar las moléculas de agua de manera más que adecuada. Simplemente atorníllelo a un banco y estará cocinando.</Description>
-    </RecordThing>
-    <RecordThing>
       <Key>StructureEmergencyButton</Key>
-      <Value>Traje de emergencia Eva</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ApplianceReagentProcessor</Key>
-      <Value>Procesador de Reactivos</Value>
-      <Description>Sentado en algún lugar entre un exprimidor de alta potencia y el alambique de un alquimista, el procesador de reactivos Xigo convierte ciertas materias primas en ingredientes críticos. Indispensable en cualquier espacio de la cocina, simplemente atorníllelo al banco y estará listo para comenzar.</Description>
+      <Value>Botón Importante</Value>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleArmL</Key>
@@ -395,11 +370,6 @@
       <Key>BodyPartAstronautMaleArmR</Key>
       <Value>Brazo derecho del hombre astronauta</Value>
       <Description>No hay nada gracioso en este húmero.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>BodyPartAstronautMaleHead</Key>
-      <Value>Cabeza del hombre astronauta</Value>
-      <Description>Los Stationeers necesitan mantener la cabeza en todo momento.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautMaleLegL</Key>
@@ -627,21 +597,6 @@
       <Description>El ala de un gallo marrón. Bueno, pardusco.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>CartridgeAtmosAnalyser</Key>
-      <Value>Analizador Atmósfera</Value>
-      <Description>El analizador de atmósfera de Lorenz es un espectrómetro de masas multifuncional diseñado por ExMin para su uso con el OreCore {THING:ItemTablet}. Muestra la presión, concentración y cantidad molar de &lt;color=#0080FFFF&gt;{LINK:GasPage;Gas}&lt;/color&gt; en habitaciones, tanques o redes de tuberías.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>CartridgeMedicalAnalyser</Key>
-      <Value>Análisis Médico</Value>
-      <Description>Cuando se añade al OreCore {THING:ItemTablet}, el analizador médico ReadyMed de Asura revela la salud, o no, de los usuarios de varios órganos. Debido a un defecto de diseño, los modelos más antiguos eran notorios por producir niveles de radiación de rayos X similares a los de un cuásar. Los recientes avances en el blindaje han reducido a más de la mitad el riesgo para los usuarios.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>CartridgeNetworkAnalyser</Key>
-      <Value>Analizador de Red</Value>
-      <Description>Una obra maestra menor de la ingeniería microelectrónica, el analizador de redes muestra la corriente, el voltaje y el vatiaje de una red de cables, así como los dispositivos conectados a ella. Basado en un diseño Sinotai ampliamente copiado, se utiliza junto con el el OreCore {THING:ItemTablet}.</Description>
-    </RecordThing>
-    <RecordThing>
       <Key>Character</Key>
       <Value>Personaje</Value>
       <Description>Este eres tu.</Description>
@@ -652,21 +607,9 @@
       <Description>Cuando se agrega a una {THING:StructureConsole}, las placas de circuito de control de aire le permiten programar una {THING:StructureActiveVent}. Al igual que con los perros pequeños y el 83% de las personas, los circuitos de control de aire tienen solo tres modos: Presión, corriente de aire y Fuera de línea. El modo de presión mantiene una atmósfera de 100 kPa, cambiando el venteo activo entre flujo hacia adentro y hacia afuera hasta que se alcanza la presión objetivo. El modo de corriente de aire le permite emparejar ventilaciones activas para hacer circular el aire. El modo fuera de línea desactiva la ventilación.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>CircuitboardAirlockControl</Key>
-      <Value>Esclusa de aire</Value>
-      <Description>Se rumorea que fue esbozado por primera vez en la pared de un inodoro Norsec por un ingeniero descontento, la versatilidad y facilidad de fabricación de la placa de circuito de control de la esclusa de aire Exgress lo ha convertido en el sistema de control de Stationeers preferido para los protocolos de ciclo de exclusas {THING:StructureAirlock}.
-
-Para ingresar al modo de configuración, inserte la placa en una {THING:StructureConsole} junto con un disco de datos. En este modo, puede ver todos los objetos accesibles a datos actualmente conectados a {THING:StructureConsole}. Se pueden seleccionar puertas, luces, sensores de gas y consolas esclavas (resaltadas en verde) y se controlarán una vez que se retire el disco de datos.</Description>
-    </RecordThing>
-    <RecordThing>
       <Key>CircuitboardCameraDisplay</Key>
       <Value>Monitor Cámaras</Value>
       <Description>La vigilancia a veces es necesaria cuando se construyen bases en entornos altamente hostiles. La placa de circuito de la pantalla de la cámara permite a los cautelosos Stationeers convertir una {THING:StructureConsole} en una pantalla de seguridad cuando se conecta a una {THING:StructureCamera}.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>CircuitboardDoorControl</Key>
-      <Value>Control de Puerta</Value>
-      <Description>Una herramienta básica de la construcción de la base Stationeer, esta placa de circuito proporciona una manera de abrir y cerrar una {THING:StructureCompositeDoor}, {THING:StructureBlastDoor} o {THING:StructureGlassDoor} de forma remota, cuando se conecta a una {THING:StructureConsole}. Este sistema se puede vincular aún más a {THING:StructureMotionSensor} para crear puertas automáticas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardGasDisplay</Key>
@@ -679,31 +622,9 @@ Para ingresar al modo de configuración, inserte la placa en una {THING:Structur
       <Description>¿No puedes decidir qué modo te gusta más? Esta placa de circuito le permite cambiar cualquier dispositivo conectado entre modos de operación.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>CircuitboardPowerControl</Key>
-      <Value>Control de Energía</Value>
-      <Description>Bajo soles distantes y entornos exigentes, los sistemas Stationeer deben equilibrar la fiabilidad, la resistencia y la versatilidad. El tablero de control de energía permite habilitar y deshabilitar remotamente los dispositivos seleccionados, desconectando la operación manual. 
-      
-La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos los dispositivos; &apos;Toggle&apos; cambia cada dispositivo a su estado alternativo. </Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>CircuitboardShipDisplay</Key>
-      <Value>Monitor Nave</Value>
-      <Description>Cuando el Manual de Stationeers original colapsó por su propio peso en una singularidad, cierta información se perdió irremediablemente. Entre este misterioso corpus de conocimiento se encuentra el propósito exacto del tablero de exhibición de la nave.</Description>
-    </RecordThing>
-    <RecordThing>
       <Key>CircuitboardSolarControl</Key>
       <Value>Control Solar</Value>
       <Description>Agregar una placa de control solar a una {THING:StructureConsole} le permite controlar manualmente los ángulos horizontal y vertical de cualquier {THING:StructureSolarPanel} conectado.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>DynamicAirConditioner</Key>
-      <Value>Aire acondicionado portátil</Value>
-      <Description>El aire acondicionado portátil Huxi diseñado por Sinotai se enfría extrayendo calor de la atmósfera y almacenándolo, o agregando calor a la atmósfera desde su tanque interno. Con una presión interna máxima de 8106 kPa, su capacidad es relativamente limitada, la física es clara sobre este tema. Para extender su capacidad de almacenamiento de temperatura, atornille el Huxi a un {THING:StructureTankConnector}, luego conéctelo a una red de tuberías que suministre &lt;color=#0080FFFF&gt;{LINK:GasPage;gases}&lt;/color&gt; calientes o fríos.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>DynamicCrate</Key>
-      <Value>Caja Dinámica</Value>
-      <Description>La humilde caja dinámica se ha convertido en un símbolo de la invención e independencia de los Stationeer. Con doce ranuras y asas en cada extremo para facilitar su transporte, es tanto una cuestión estándar como un kit crítico para cadetes y comandantes por igual.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrateCableSupplies</Key>
@@ -756,16 +677,6 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Key>DynamicGasCanisterWater</Key>
       <Value>Tanque Portátil (Agua)</Value>
       <Description>Los tanques portátiles almacenan cosas. Puede atornillar uno a un {THING:ItemTankConnector} usando una {THING:ItemWrench}, luego conectarlo a una red de tuberías para rellenarlo. Pero trate de mantener la presión por debajo de 100 atmósferas, o terminará mojado, dolido y arrepentido, sin nada de diversión. Puedes rellenar una {THING:ItemGasCanisterWater} colocándola en la sección rayada del tanque. O puedes usar una {THING:ItemWrench} para acoplarla a un cohete y llevarlo a algún lugar distante y seco, luego sentirte bien contigo mismo.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>DynamicGenerator</Key>
-      <Value>Generador Portátil</Value>
-      <Description>El mejor amigo de todo stationeer, el generador portátil te pone en marcha, rápido. Llénalo con una {THING:ItemGasCanisterFuel} para encender y cargar una {THING:ItemBatteryCell}, o conéctalo a una {THING:StructurePowerConnector} para conectarlo a tu red eléctrica. Es impulsado por la presión, por lo que funciona más eficientemente a bajas temperaturas, y REALMENTE eficiente si está supe enfriado. Perfeccionar tu mezcla de combustible también hace una gran diferencia.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>DynamicLight</Key>
-      <Value>Luz Portátil</Value>
-      <Description>Philippe Starck no aplaudirá, pero esta fuente de luz a pilas despeja los rincones cuando falta iluminación. Alimentado por cualquier batería, es un diseño Xigo &quot;sin adornos&quot; que puede ser fabricado de forma barata con el mínimo esfuerzo. A menos que te guste el escándalo. En ese caso, haz todo el escándalo que quieras.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicScrubber</Key>
@@ -827,21 +738,6 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Description>Este kit coloca una {THING:StructureAreaPowerControl} (APC) en cualquier estructura de apoyo. El kit de APC tiene dos opciones, que le permiten determinar en qué dirección desea que fluya la energía del APC.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>ItemBatteryCell</Key>
-      <Value>Batería (Pequeña)</Value>
-      <Description>Siguiendo un diseño pionero a principios del siglo XXI, la pequeña celda de batería es la unidad básica de energía eléctrica portátil del Stationeers. Si bien carece de la capacidad de una {THING:ItemBatteryCellLarge} o una {THING:ItemBatteryCellNuclear}, tiene la humilde ventaja de estar fabricada a partir de recursos básicos.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemBatteryCellLarge</Key>
-      <Value>Batería (Grande)</Value>
-      <Description>Producida en serie por primera vez por Xigo en 2155 sobre la base de un prototipo no atribuido, esta clásica celda de potencia de ánodo de silicio ofrece casi 300k julios de potencia. El diseño de estado sólido también amplía su rango de temperatura óptimo.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemBatteryCellNuclear</Key>
-      <Value>Batería (Nuclear)</Value>
-      <Description>Ilegales en la Tierra desde el evento de Chengdu, las células de energía nuclear de Norsec encontraron un mercado fuera del mundo nuevo y drásticamente menos consciente de la seguridad. Llevando el equilibrio poder-peso a sus límites, el &apos;nuclear&apos; tiene una carga de 2,3 megajulios, lo que refleja su dependencia de los exóticos &lt;color=#0080FFFF&gt;{LINK:IngotsPage;superalloys}&lt;/color&gt;.</Description>
-    </RecordThing>
-    <RecordThing>
       <Key>ItemBatteryCharger</Key>
       <Value>Kit (Cargador de Baterías)</Value>
       <Description>Este kit produce una {THING:ItemBatteryCharg} de 5 ranuras.</Description>
@@ -850,11 +746,6 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Key>ItemBook</Key>
       <Value>Libro</Value>
       <Description>A diferencia de las 8 pistas, los discos láser y el correo electrónico, los libros nunca desaparecieron por completo. La tecnología puede haber evolucionado, pero algo sobre la textura y la sensualidad del libro físico los ha visto perdurar en un nicho informativo único, aunque ligeramente irracional.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemCableCoil</Key>
-      <Value>Bobina de Cable</Value>
-      <Description>Las metáforas corporales son cansadas y humanas, pero fue Frida Stuppen, la primera administradora de la ODA, quien dijo: &quot;Dejemos que el cableado sea como el nervio y la nave, transmitiendo energía y datos por igual a través de los sistemas que forjamos entre las estrellas&quot;. Los comentaristas posteriores sugirieron que ella simplemente estaba poniendo una glosa romántica en una pieza de economía dudosa. Sea cual sea el caso, el cableado estándar es donde comienza cualquier red de los Stationeers.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemChemLightBlue</Key>
@@ -882,53 +773,9 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Description>Disipa la oscuridad con esta barra luminosa amarilla.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>ItemCoalOre</Key>
-      <Value>Mineral (Carbón)</Value>
-      <Description>La humanidad no habría llegado al espacio sin el humilde carbón combustible. Quémalo en un {THING:StructureSolidFuelGenerator}, fúndelo en lae {THING:StructureFurnace} para crear &lt;color=#0080FFFF&gt;{LINK:AlloysPage;alloys}&lt;/color&gt;, o úsalo en el {THING:ApplianceReagentProcessor} para hacer  {THING:ItemSprayCanBlack}. Sólo no te lo untes en la cara y haz manos de jazz. Eso no está bien.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemDrill</Key>
-      <Value>Taladro de Mano</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemDuctTape</Key>
-      <Value>Cinta Adhesiva</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemDynamite</Key>
-      <Value>Dinamita</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemEgg</Key>
-      <Value>Huevo</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemEggBottom</Key>
-      <Value>Parte inferior del huevo</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>ItemEggCarton</Key>
       <Value>Cartón de huevos</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemEggTop</Key>
-      <Value>Parte superior del huevo</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemEvaSuit</Key>
-      <Value>Traje Eva</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemFertilizedEgg</Key>
-      <Value>Huevo fertilizado</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemFireExtinguisher</Key>
-      <Value>Extintor de incendios</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemFlashingLight</Key>
-      <Value>Luz intermitente</Value>
+      <Description>Dentro, los huevos residen en un silencio misterioso y marmóreo.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterCarbonDioxide</Key>
@@ -939,11 +786,6 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Key>ItemGasCanisterPollutants</Key>
       <Value>Bombona (Contaminantes)</Value>
       <Description>Si bien este subproducto de la fundición, a veces conocido simplemente como &apos;X&apos;, es una toxina, su calor específico lo convierte en un refrigerante valioso. Todos los botes de gas están llenos cuando se fabrican a una presión de 8000 kPa (80 atmósferas) y se pueden montar en un {THING:DynamicGasCanisterAir} o un {THING:StructureGasTankStorage} para recargarlos. Tenga cuidado de no presurizar más de 100kPA, o puede explotar.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemGasCanisterEmpty</Key>
-      <Value>Bombona (Vacía)</Value>
-      <Description>El recipiente portátil es la unidad básica del Stationeer de entrega &lt;color=#0080FFFF&gt;{LINK:GasPage;gas}&lt;/color&gt;. Con una presión estándar de 8000 kPa (80 atmósferas), los botes de gas vacíos se pueden montar en un {THING:DynamicGasCanisterAir} o {THING:StructureGasTankStorage} para recargar. Tenga cuidado de no presurizar más de 100kPA, o puede explotar. Contiene 64L de gas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterFuel</Key>
@@ -960,24 +802,9 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Description>El bote verde portátil &lt;color=#0080FFFF&gt;{LINK:GasPage;nitrogen or nitrous oxide}&lt;/color&gt; suministra propulsion para la {THING:ItemSpacepack} y la {THING:ItemHardJetpack}. Todos los botes de gas están llenos cuando se fabrican a una presión de 8000 kPa (80 atmósferas) y se pueden montar en una {THING:DynamicGasCanisterAir} o un {THING:StructureGasTankStorage} para recargarlos. Tenga cuidado de no presurizar más de 100kPA, o puede explotar.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>ItemGasCanisterOxygen</Key>
-      <Value>Bombona (Oxígeno)</Value>
-      <Description>El bote blanco portátil de 64L es la unidad básica del Stationeer de &lt;color=#0080FFFF&gt;{LINK:GasPage;oxygen}&lt;/color&gt; entrega. Todos los bidones de gas están llenos cuando se fabrican a una presión de 8000kPa (80 atmósferas), y pueden ser montados en una {THING:DynamicGasCanisterAir} o {THING:StructureGasTankStorage} para su relleno. Tenga cuidado de no presurizar más allá de 100kPA, o puede explotar.</Description>
-    </RecordThing>
-    <RecordThing>
       <Key>ItemGasCanisterWater</Key>
       <Value>Bombona (Agua)</Value>
       <Description>El bote portátil azul &lt;color=#0080FFFF&gt;{LINK:GasPage;H20}&lt;/color&gt; tiene una capacidad de 64L, suministrando agua a artículos como la unidad {THING:DynamicHydroponics}, o cualquier otro sistema conectado. Todos los bidones de gas están llenos cuando se fabrican a una presión de 8000kPa (80 atmósferas), y pueden ser montados en una {THING:DynamicGasCanisterAir} o {THING:StructureGasTankStorage} para ser rellenados. Tenga cuidado de no presurizar más allá de 100kPA, o puede explotar.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemGasFilterCarbonDioxide</Key>
-      <Value>Filtro (Dióxido de carbono)</Value>
-      <Description>Dada la obsesión de la humanidad por exhalar CO2, todos los Stationeers reciben dos filtros básicos de CO2 Sinotai como parte de su kit de implementación estándar (SDK). Estos filtros permiten el paso de CO2 a los desechos del traje {THING:ItemGasCanisterEmpty}, pero también son componentes críticos de {THING:DynamicScrubber} y {THING:StructureFiltration}. {THING:ItemGasFilterCarbonDioxideM} y {THING:ItemGasFilterCarbonDioxideL} también están disponibles.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemGasFilterPollutants</Key>
-      <Value>Filtro (Contaminante)</Value>
-      <Description>Los filtros se utilizan para capturar varios gases, como las emisiones de desechos de una {THING:StructureFurnace} o {THING:StructureArcFurnace}. Agregar filtros &lt;color=#0080FFFF&gt;{LINK:GasPage;pollutant}&lt;/color&gt; diseñados por Sinotai a un {THING:ItemDynamicScrubber} le permite aislar este gas, luego agregarlo a una red de tuberías y emplear sus excelentes propiedades refrigerantes en una {THING:StructureWallCooler}. Trate de no inhalarlo.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrogen</Key>
@@ -985,19 +812,9 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Description>Los filtros se utilizan para capturar diversos gases, que se pueden eliminar o utilizar en otro lugar. &lt;color=#0080FFFF&gt;{LINK:GasPage;Nitrogen}&lt;/color&gt; es un subproducto de la fundición de varios minerales, en particular &lt;color=#0080FFFF&gt;{LINK:OrePage;ices}&lt;/color&gt;, que puede combinarse con &lt;color=#0080FFFF&gt;{LINK:GasPage;oxygen}&lt;/color&gt; para crear una atmósfera respirable y considerablemente menos inflamable.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>ItemGasFilterOxygen</Key>
-      <Value>Filtro (Oxígeno)</Value>
-      <Description>Los Sinotai han acaparado el mercado en el diseño de filtros. Sus plantillas de marca registrada son sencillas de imprimir y muy eficientes en la captura de diversos gases, que pueden ser eliminados o utilizados en otros lugares. El oxígeno es un subproducto común de la fundición de varios minerales, pero debe ser filtrado de impurezas tales como el nitrógeno usando este filtro y varios dispositivos, como el {THING:ItemDynamicScrubber}.</Description>
-    </RecordThing>
-    <RecordThing>
       <Key>ItemGasFilterVolatiles</Key>
       <Value>Filtro (Volátiles)</Value>
       <Description>Los filtros se utilizan para capturar diversos gases, que se pueden eliminar o utilizar en otro lugar. &lt;color=#0080FFFF&gt;{LINK:GasPage;Volatiles}&lt;/color&gt; se crean al exponer &lt;color=#0080FFFF&gt;{LINK:OrePage;ice (volatiles)}&lt;/color&gt; al calor. Luego, el producto puede recolectarse y combinarse con &lt;color=#0080FFFF&gt;{LINK:GasPage;oxygen}&lt;/color&gt; para crear combustible, o usarse dentro de una {THING:StructureFurnace} para fundir minerales y crear &lt;color=#0080FFFF&gt;{LINK:AlloyPage;alloys}&lt;/color&gt;.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemGasFilterWater</Key>
-      <Value>Filtro (Agua)</Value>
-      <Description>Los filtros Sinotai se utilizan para capturar diversos gases, que pueden ser eliminados o utilizados en otros lugares. El agua puede ser recolectada por medio de un filtro fundido &lt;color=#0080FFFF&gt;{LINK:OrePage;ice (water)}&lt;/color&gt;</Description> gas to separate it from nitrogen impurities.
     </RecordThing>
     <RecordThing>
       <Key>ItemGasTankStorage</Key>
@@ -1008,16 +825,6 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Key>ItemGlassSheets</Key>
       <Value>Placa de Vidrio</Value>
       <Description>Un componente fundamental de la construcción, las láminas de vidrio se crean a partir de &lt;color=#0080FFFF&gt;{LINK:IngotPage;silicon lingot}&lt;/color&gt;. Fabricados en {THING:StructureAutolathe}, se utilizan para hacer los {THING:StructureSolarPanel} , {THING:StructureAirlock} y muchas otras estructuras.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemGoldIngot</Key>
-      <Value>Lingote (Oro)</Value>
-      <Description>Hay una paradoja duradera en el corazón del proyecto de los Stationeers: Una iniciativa concebida como &quot;exploración espacial a precio reducido&quot; utiliza  &lt;color=#0080FFFF&gt;{LINK:OrePage;gold}&lt;/color&gt; como un ingrediente fundamental en la fabricación de gran parte de su equipo y material.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemGoldOre</Key>
-      <Value>Mineral (Oro)</Value>
-      <Description>Sorprendentemente común en todo el Sistema Solar, se cree que el oro se origina en el corazón de las supernovas, acumulándose como polvo en las primeras etapas de la formación solar, para luego incorporarse a los cuerpos planetarios de crecimiento lento. Ahora un elemento muy apreciado en la construcción de los Estacionarios, el oro es valorado no por su belleza, sino por su fiabilidad: inerte, duradero, conductor y altamente estable, la fuerza del oro es que no hace nada.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGrenade</Key>
@@ -1040,11 +847,6 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Description>Este kit crea una {THING:StructureHydroponicsTray} para el cultivo de varias plantas.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>ItemIce</Key>
-      <Value>Trozo de hielo</Value>
-      <Description>El hielo de agua se puede encontrar en la mayoría de los planetas del Sistema Solar, aunque no todos los mundos visitados por Stationeers poseen este recurso. Altamente sensible a la temperatura, el hielo comenzará a derretirse tan pronto como se extraiga, a menos que se mantenga en el {THING:ItemMiningBelt}. Cuando se derrite, el hielo produce una mezcla de gas &lt;color=#0080FFFF&gt;{LINK:GasPage;water}&lt;/color&gt; y &lt;color=#0080FFFF&gt;{LINK:GasPage;nitrogen}&lt;/color&gt;.</Description>
-    </RecordThing>
-    <RecordThing>
       <Key>ItemIgniter</Key>
       <Value>Encendedor</Value>
       <Description>Este kit crea una unidad de {THING:ItemIgniter}.</Description>
@@ -1053,16 +855,6 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Key>ItemInsulation</Key>
       <Value>Aislamiento</Value>
       <Description>Misterioso en extremo, la función de este objeto se pierde con el paso del tiempo.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemIronIngot</Key>
-      <Value>Lingote (Hierro)</Value>
-      <Description>La unidad de construcción más básica disponible para el Stationeer mas ingenuo, los lingotes de hierro se crean fundiendo &lt;color=#0080FFFF&gt;{LINK:OrePage;iron ore}&lt;/color&gt; en el {THING:StructureFurnace} y el {THING:StructureArcFurnace}, y se utiliza para crear una variedad de materiales diferentes </Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemIronOre</Key>
-      <Value>Mineral (Hierro)</Value>
-      <Description>Abundante en todo el Sistema Solar, el hierro es el mineral más comúnmente usado por los Stationeers que construyen bases extraterrestres. Puede ser fundido en ambas {THING:ItemIronIngot}s y {THING:ItemSteelIngot}s.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAirlock</Key>
@@ -1195,29 +987,9 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Description>Este kit produce una gama de elementos compuestos para paredes y ventanas.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>ItemLabeller</Key>
-      <Value>Etiquetadora</Value>
-      <Description>El mejor amigo del Stationeer, un etiquetador le permite establecer nombres y valores en una variedad de dispositivos y estructuras, incluyendo {THING:StructureConsole} y &lt;color=#0080FFFF&gt;{LINK:LogicPage;logic}&lt;/color&gt;.</Description>
-    </RecordThing>
-    <RecordThing>
       <Key>ItemLightSword</Key>
       <Value>Espada de Luz</Value>
       <Description>Un encantadora, aunque inútil, arma pisapapeles. (Sólo creativo.)</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemMilk</Key>
-      <Value>Leche</Value>
-      <Description>Revelación completa, en realidad no es &apos;leche&apos;, sino una síntesis inventada por Agrizero de {THING:ItemSoyOil} y {THING:ReagentFenoxitone}, delicadamente mezclados en {THING:ApplianceChemistryStation}. Sorprendentemente abundante, se puede utilizar como ingrediente para cocinar otros &lt;color=#0080FFFF&gt;{LINK:FoodPage;food}&lt;/color&gt; en el microondas.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemMiningBelt</Key>
-      <Value>Cinturón Minero</Value>
-      <Description>Originalmente desarrollado por Recurso Espaciais for asteroid mining , el cinturón de herramientas de los Stationeers tiene espacio para dos &lt;color=#0080FFFF&gt;{LINK:ToolPage;tools}&lt;/color&gt;, siete  &lt;color=#0080FFFF&gt;{LINK:OrePage;ore}&lt;/color&gt; pilas y una {THING:ItemDirtCanister}. Mientras se lleva el cinturón, el mineral se almacena automáticamente allí cuando se extrae. El volátil y dependiente de la temperatura permanece estable en la unidad de control ambiental.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemMiningDrill</Key>
-      <Value>Taladro Minería</Value>
-      <Description>El taladro minero rotatorio tricónico &quot;Topo&quot; fue hecho para una cosa: una excavación rápida. Modelada en un diseño clásico de Recurso cero-g, funciona igual de bien en el vacío y en la atmósfera, con brocas de carburo cementado para aumentar la resistencia y la vida útil de los cojinetes, y reducir el desconchamiento. Como Jenk Murtons dijo una vez, &quot;El topo no se detiene&quot;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPassiveVent</Key>
@@ -1228,11 +1000,6 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Key>ItemPillHeal</Key>
       <Value>Píldora (Médica)</Value>
       <Description>Tres siglos de tecnología farmacéutica comprimidos en una pequeña píldora fácil de ingerir: la píldora curativa, también conocida como la píldora de protones, también conocida como Mr. Happy, contiene enzimas activas, proteínas terapéuticas, cepas microbianas modificadas y análogos de líneas celulares de mamíferos en un impulso de una sola dosis de alta pureza, eficacia y potencia que potencia una rápida respuesta inmunológica parasimpática.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemPillStun</Key>
-      <Value>Píldora (Parálisis)</Value>
-      <Description>A través de la rareza de la publicidad, la existencia de esta píldora es un secreto a voces. Para usarla cuando todo lo demás ha fallado, el Supositorio Sayonara inmoviliza y acaba rápidamente con el estacionario promedio. El modo de entrega asegura que si un estacionario elige tomar esta píldora, realmente tiene que quererla.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeAnalyizer</Key>
@@ -1342,362 +1109,228 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     <RecordThing>
       <Key>ItemSprayCanBlack</Key>
       <Value>Spray Pintura (Negro)</Value>
+      <Description>Vaya clásico, clandestino o simplemente gótico con pintura negra, que se puede aplicar a la mayoría de los artículos. Cada lata tiene 20 usos.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBlue</Key>
       <Value>Spray Pintura (Azul)</Value>
+      <Description>¿Qué tipo de color es el azul? El tipo de color que dice: &apos;Oye, ¿qué hay de mí?&apos;</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBrown</Key>
       <Value>Spray Pintura (Marrón)</Value>
+      <Description>En círculos &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; más artísticos, la ausencia del marrón a menudo se lamenta, pero rara vez se cambia.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanGreen</Key>
       <Value>Spray Pintura (Verde)</Value>
+      <Description>El verde es el color de la vida y el anhelo. Paradójicamente, también es el color de la envidia y la tolerancia. Denota enfermedad, juventud y riqueza. Pero en realidad, es lo que hace la luz a unas 500 mil millonésimas de metro.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanGrey</Key>
       <Value>Spray Pintura (Gris)</Value>
+      <Description>Posiblemente el color más popular del universo, el gris se inventó para que los diseñadores tuvieran algo que hacer.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanKhaki</Key>
       <Value>Spray Pintura (Caqui)</Value>
+      <Description>No tanto un color como una categoría de aburrimiento, el caqui es el equivalente de pigmentación de un episodio depresivo leve.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanOrange</Key>
       <Value>Spray Pintura (Naranja)</Value>
+      <Description>El naranja es divertido, pero también sugiere peligros. Sentado con orgullo en medio del espectro visual, no tiene nada que probar.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanPink</Key>
       <Value>Spray Pintura (Rosa)</Value>
+      <Description>Con la invención de tintes químicos duraderos, el siglo XX otorgó asociaciones con inocencia y ternura a este pálido tinte rojo. Sin embargo, clásicamente, era el color de la seducción y el erotismo. Las cosas cambian.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanPurple</Key>
       <Value>Spray Pintura (Purpura)</Value>
+      <Description>El morado es un color curioso. Debes tener cuidado con el morado. Puede ser muy bueno o salir horriblemente mal.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanRed</Key>
       <Value>Spray Pintura (Rojo)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemSprayCanWhite</Key>
-      <Value>Spray Pintura (Blanco)</Value>
+      <Description>El rey de los colores, el rojo es quizás el tono definitorio del universo. Vinculado a la sangre, la realeza, el fuego y la condenación, es la expresión cromática del poder.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanYellow</Key>
       <Value>Spray Pintura (Amarillo)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemSteelFrames</Key>
-      <Value>Marcos de Acero</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemSteelIngot</Key>
-      <Value>Lingote (Acero)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemSteelSheets</Key>
-      <Value>Placas de Acero</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemSuitStorage</Key>
-      <Value>Soporte de Trajes</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemTablet</Key>
-      <Value>Tablet</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemTankConnector</Key>
-      <Value>Conector de Tanques</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemToolBelt</Key>
-      <Value>Cinturón de Herramientas</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemUraniumOre</Key>
-      <Value>Mineral (Uranio)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWallCooler</Key>
-      <Value>Enfriador de Pared</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWallHeater</Key>
-      <Value>Calentador de Pared</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWallLight</Key>
-      <Value>Luz de Pared</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWeldingTorch</Key>
-      <Value>Soplete</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWheat</Key>
-      <Value>Trigo</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWireCutters</Key>
-      <Value>Alicates</Value>
+      <Description>Una caricatura de la luz en sí misma, el amarillo carece de la confianza en sí mismo del rojo o de la arrogancia del púrpura. Es menos divertido que el naranja, pero menos débil emocionalmente que el caqui. Es difícil saber cuándo es apropiado el amarillo, pero persiste como color primario independientemente. Sugiere que el amarillo se volverá amarillo, no importa lo que piensen los demás.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWrench</Key>
       <Value>Llave Inglesa</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>MotherboardLogic</Key>
-      <Value>Lógica</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>MotherboardManufacturing</Key>
-      <Value>Manufactura</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>MotherboardSorter</Key>
-      <Value>Filtro</Value>
+      <Description>Una de las contribuciones perdurables de la humanidad al cosmos, la llave inglesa representa la esencia de nuestra especie. Una herramienta simple, efectiva y espiritualmente estéril, úsela para construir y deconstruir una variedad de &lt;color=#0080FFFF&gt;{LINK:StructurePage;structures}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MothershipCore</Key>
       <Value>Núcleo Nave Nodriza</Value>
+      <Description>Una reliquia de una era anterior de ambición espacial, los núcleos de nave nodriza de &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; formaron el elemento central de las creaciones espaciales de una generación. Si bien el giro de Sinotai hacia embarcaciones modulares más pequeñas molestó a algunos puristas, las naves nodrizas continúan siendo construidas y mantenidas por entusiastas dedicados.</Description>
     </RecordThing>
     <RecordThing>
       <Key>NPCDummyCharacter</Key>
       <Value>Personaje NPC</Value>
     </RecordThing>
     <RecordThing>
-      <Key>NpcGrounder</Key>
-      <Value>Insecto NPC</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>OrganBrain</Key>
-      <Value>Cerebro Humano</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>OrganLungs</Key>
       <Value>Pulmones Humanos</Value>
+      <Description>Los pulmones son órganos delicados. Es aconsejable mantenerlos a la temperatura y presión correctas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SpaceShuttle</Key>
       <Value>Transbordador</Value>
+      <Description>Una nave de transporte &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; anticuada, que se retiró del servicio hace mucho tiempo.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureActiveVent</Key>
       <Value>Ventilación Activa</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureAirConditioner</Key>
-      <Value>Aire Acondicionado</Value>
+      <Description>Los fragmentos del manual &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; original recuperados de su singularidad autoinducida describen el diseño de ventilaciones activas:
+... la ventilación activa es un dispositivo motorizado para mantener la presión de &lt;color=#0080FFFF&gt;{LINK:GasPage;gas}&lt;/color&gt; bombeando gas dentro (o fuera) de una red de tuberías. El respiradero tiene dos modos: &quot;Hacia afuera&quot; lo configura para bombear gas en un espacio hasta que se alcanza la presión; &apos;Inward&apos; lo configura para bombear gas hasta que se alcanza la presión. El parámetro de presión se puede configurar en una {THING:StructureConsole} conectada. La presión predeterminada es 101 kPa para el exterior; 0kPa para el interior...</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirlock</Key>
       <Value>Esclusa</Value>
+      <Description>La esclusa de aire estándar es un portal motorizado que forma el componente principal de una cámara de esclusa. Siempre que la esclusa de aire no esté bloqueada, se puede abrir manualmente usando una {Thing:ItemCrowbar}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAreaPowerControl</Key>
       <Value>Control de Energía </Value>
+      <Description>Un control de potencia de área (APC) tiene tres funciones principales.
+El propósito principal de un APC es regular el flujo de energía, asegurando un rendimiento ininterrumpido de los dispositivos y maquinaria, especialmente aquellos con un consumo fluctuante. Los APC también crean subredes, ya que ningún dispositivo en el extremo más alejado de un APC es visible en la red principal. Por último, un APC carga las baterías, lo que puede proporcionar energía de respaldo a la subred en caso de una interrupción de energia.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAreaPowerControlReversed</Key>
       <Value>Control de Energía</Value>
+      <Description>Un control de potencia de área (APC) tiene tres funciones principales.
+El propósito principal de un APC es regular el flujo de energía, asegurando un rendimiento ininterrumpido de los dispositivos y maquinaria, especialmente aquellos con un consumo fluctuante. Los APC también crean subredes, ya que ningún dispositivo en el extremo más alejado de un APC es visible en la red principal. Por último, un APC carga las baterías, lo que puede proporcionar energía de respaldo a la subred en caso de una interrupción de energia.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBackPressureRegulator</Key>
       <Value>Regulador de Presión Posterior</Value>
+      <Description>A diferencia de el {THING:StructurePressureRegulator}, que se cierra cuando la entrada supera una presión determinada, el regulador de contrapresión se abre cuando la presión de entrada alcanza un valor determinado.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBattery</Key>
       <Value>Batería</Value>
+      <Description>Al proporcionar almacenamiento de energía confiable y a gran escala, la batería de la estación &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; &apos;Dianzi&apos; es el corazón de la mayoría de &lt;color=#0080FFFF&gt;{LINK: Stationeers;Stationeer}&lt;/color&gt; bases.
+Hay una variedad de precauciones para el diseño de sistemas eléctricos que utilizan baterías, y cada Stationeer experimentado tiene una historia que contar, de ahí el adagio Stationeer: &quot;Dianzi cocina, pero también fríe&quot;.
+Capaz de almacenar hasta 1kWh de energía, no hay límites prácticos para su rendimiento, por lo tanto, es aconsejable usar {THING:ItemCableCoilHeavy}. Los ingenieros eléctricos experimentados también se reirán de aquellos que no logran separar nuestras redes de generación de energía usando {THING:StructureAreaPowerControl} y {THING:StructureTransformer}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBatteryCharger</Key>
       <Value>Cargador de Baterías</Value>
+      <Description>El cargador de batería &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; de 5 ranuras se adapta a {THING:ItemBatteryCell}, {THING:ItemBatteryCellLarge} y {THING:ItemBatteryCellNuclear}, y proporciona hasta 500 W a cualquier célula. Nota: el diseño anterior significa que este dispositivo tiene un consumo de energía mínimo (10 W) incluso cuando no se está cargando.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBench</Key>
       <Value>Mesa</Value>
+      <Description>Cuando llega el momento de sentarse, nada te apoya más que un banco.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBlastDoor</Key>
       <Value>Puerta Blindada</Value>
+      <Description>Hermética y casi indemne, la serie original de puertas blindadas &apos;Millmar&apos; fue diseñada por el gigante minero externo &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; para proteger las instalaciones mineras de asteroides de incidentes nucleares. nivel de descompresión explosiva.
+A falta de una singularidad del tamaño de bolsillo que parpadea en el marco del espacio-tiempo local, efectivamente no hay límite para la presión que estas puertas blindadas pueden contener, ideal para construir esclusas de aire en entornos sensibles a la presión.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner</Key>
       <Value>Cable (Esquina)</Value>
+      <Description>Al transportar energía y datos por igual, la bobina de cable ha llegado a simbolizar la innovación, la independencia y la flexibilidad de la vida &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt;, tanto es así, que la &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; lo designó como una &lt;color=#0080FFFF&gt;{LINK:ToolPage;&apos;tool&apos;}&lt;/color&gt; oficial.
+La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner3</Key>
       <Value>Cable (Esquina 3 Vías)</Value>
+      <Description>Al transportar energía y datos por igual, la bobina de cable ha llegado a simbolizar la innovación, la independencia y la flexibilidad de la vida &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt;, tanto es así, que la &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; lo designó como una &lt;color=#0080FFFF&gt;{LINK:ToolPage;&apos;tool&apos;}&lt;/color&gt; oficial.
+La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction</Key>
       <Value>Cable (Cruce 3 Vías)</Value>
+      <Description>Al transportar energía y datos por igual, la bobina de cable ha llegado a simbolizar la innovación, la independencia y la flexibilidad de la vida &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt;, tanto es así, que la &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; lo designó como una &lt;color=#0080FFFF&gt;{LINK:ToolPage;&apos;tool&apos;}&lt;/color&gt; oficial.
+La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction4</Key>
       <Value>Cable (Unión 4 Vías)</Value>
+      <Description>Al transportar energía y datos por igual, la bobina de cable ha llegado a simbolizar la innovación, la independencia y la flexibilidad de la vida &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt;, tanto es así, que la &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; lo designó como una &lt;color=#0080FFFF&gt;{LINK:ToolPage;&apos;tool&apos;}&lt;/color&gt; oficial.
+La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction6</Key>
       <Value>Cable (Unión 6 Vías)</Value>
+      <Description>Al transportar energía y datos por igual, la bobina de cable ha llegado a simbolizar la innovación, la independencia y la flexibilidad de la vida &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt;, tanto es así, que la &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; lo designó como una &lt;color=#0080FFFF&gt;{LINK:ToolPage;&apos;tool&apos;}&lt;/color&gt; oficial.
+La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableStraight</Key>
       <Value>Cable (Recto)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureCamera</Key>
-      <Value>Cámara</Value>
+      <Description>Al transportar energía y datos por igual, la bobina de cable ha llegado a simbolizar la innovación, la independencia y la flexibilidad de la vida &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt;, tanto es así, que la &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; lo designó como una &lt;color=#0080FFFF&gt;{LINK:ToolPage;&apos;tool&apos;}&lt;/color&gt; oficial.
+La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCentrifuge</Key>
       <Value>Centrifugadora</Value>
+      <Description>Si un {THING:StructureRecycler} o un {THING:StructureFurnace} desequilibrado genera &lt;color=#0080FFFF&gt;{LINK:ReagentPage;reagent}&lt;/color&gt; mezcla en lugar del &lt;color=#0080FFFF&gt;{LINK:IngotPage;ingots}&lt;/color&gt; deseado, una centrífugadora le permite recuperar los minerales crudos separados.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChair</Key>
       <Value>Silla</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureChuteBin</Key>
-      <Value>Contenedor con Tolva</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureChuteCorner</Key>
-      <Value>Tolva (Esquina)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureChuteInlet</Key>
-      <Value>Entrada Tolva</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureChuteJunction</Key>
-      <Value>Tolva (Cruce)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureChuteOutlet</Key>
-      <Value>Salida Tolva</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureChuteStraight</Key>
-      <Value>Tolva (Recta)</Value>
+      <Description>Una de las muchas sillas del universo, optimizada para bípedos con entre cero y dos miembros superiores.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeDoor</Key>
       <Value>Puerta Compuesta</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureCompositeFloorGrating</Key>
-      <Value>Rejilla de suelo compuesto</Value>
+      <Description>&lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso&apos;s}&lt;/color&gt; Las puertas compuestas tienen una resistencia de 300kPa, que es más que suficiente para la mayoría de los propósitos para los que fueron diseñadas. Sin embargo, los diferenciales de presión pronunciados no son tus amigos.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWall</Key>
       <Value>Pared compuesta (Tipo 1)</Value>
+      <Description>Herméticos y resistentes a temperaturas extremas, las paredes compuestas favorecen la forma sobre la función, y vienen en una gama de variedades ligeramente diferentes y funcionalmente idénticas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallRound</Key>
       <Value>Compuesto de Pared Redondo</Value>
+      <Description>Si, bueno.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallType1</Key>
       <Value>Pared Compuesta (Tipo 1)</Value>
+      <Description>Herméticos y resistentes a temperaturas extremas, las paredes compuestas vienen en varias variedades encantadoras, casi idénticas, lo que refleja el enfoque de su diseñador en la forma sobre la función.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallType2</Key>
       <Value>Pared Compuesta (Tipo 2)</Value>
+      <Description>Herméticos y resistentes a temperaturas extremas, las paredes compuestas vienen en varias variedades encantadoras, casi idénticas, lo que refleja el enfoque de su diseñador en la forma sobre la función.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallType3</Key>
       <Value>Pared Compuesta (Tipo 3)</Value>
+      <Description>Herméticos y resistentes a temperaturas extremas, las paredes compuestas vienen en varias variedades encantadoras, casi idénticas, lo que refleja el enfoque de su diseñador en la forma sobre la función.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallType4</Key>
       <Value>Pared compuesta (Tipo 4)</Value>
+      <Description>Herméticos y resistentes a temperaturas extremas, las paredes compuestas vienen en varias variedades encantadoras, casi idénticas, lo que refleja el enfoque de su diseñador en la forma sobre la función.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWindow</Key>
       <Value>Ventana Compuesta</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureComputer</Key>
-      <Value>Ordenador</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureConsole</Key>
-      <Value>Consola</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureConsoleDual</Key>
-      <Value>Consola Doble</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureConsoleMonitor</Key>
-      <Value>Monitor de Consola </Value>
+      <Description>Herméticos y resistentes a temperaturas extremas, las paredes compuestas vienen en varias variedades encantadoras, casi idénticas, lo que refleja el enfoque de su diseñador en la forma sobre la función.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureControlChair</Key>
       <Value>Silla de Control</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureConveyorCorner</Key>
-      <Value>Cinta (Esquina)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureConveyorRiser</Key>
-      <Value>Cinta (Vertical)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureConveyorStraight</Key>
-      <Value>Cinta (Recta)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureConveyorStraightLong</Key>
-      <Value>Cinta (Recta Larga)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureConveyorStraightShort</Key>
-      <Value>Cinta (Recta Corta)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureCryoTube</Key>
-      <Value>CrioTubo</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureDaylightSensor</Key>
-      <Value>Sensor de Luz Diurna</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureDigitalValve</Key>
-      <Value>Válvula Digital</Value>
+      <Description>Una vez, estas sillas fueron el corazón de los monstruos del espacio. Ahora, son objetos de nostalgia construidos sólo por un puñado de estafadores con sentido de la historia. En otras palabras, kitsch.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFabricator</Key>
       <Value>Impresora Informatizada</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureFiltration</Key>
-      <Value>Depurador de Aire</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureFlashingLight</Key>
-      <Value>Luz intermitente</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureFrame</Key>
-      <Value>Marco de acero</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureFrameCorner</Key>
-      <Value>Marco de acero (esquina)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureFrameSide</Key>
-      <Value>Marco de acero (Lateral)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureFurnace</Key>
-      <Value>Horno</Value>
+      <Description>Capaz de fabricar una amplia variedad de artículos, el &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; General Fabricator fue considerado demasiado arriesgado por el &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/ color&gt; para uso generalizado. Ciertamente, se ha utilizado para fines más allá de los previstos, incluida la falsificación, el terrorismo y el mal arte. Como resultado, su implementación ahora está fuertemente regulada.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGasMixer</Key>
@@ -1734,6 +1367,7 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     <RecordThing>
       <Key>StructureLocker</Key>
       <Value>Armario</Value>
+      <Description>Si una base ordenada es el signo de una mente ordenada, los casilleros son el poste sobre el que se asienta ese letrero.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureMotionSensor</Key>
@@ -1850,6 +1484,7 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     <RecordThing>
       <Key>StructureTankConnector</Key>
       <Value>Conector de Tanque Portátil</Value>
+      <Description>Los conectores de tanque son dispositivos de montaje básicos que le permiten conectar una {THING:DynamicGasCanisterEmpty} a una red de tuberías.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankSmall</Key>
@@ -2018,10 +1653,6 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     <RecordThing>
       <Key>StructureChuteWindow</Key>
       <Value>Ventana del Conducto</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureArcFurnace</Key>
-      <Value>Horno de Arco</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureAutolathe</Key>
@@ -3262,6 +2893,9 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     <RecordThing>
       <Key>ItemHardJetpack</Key>
       <Value>Mochila Propulsora Avanzada</Value>
+      <Description>El &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; jetpack no es &apos;técnicamente&apos; un jetpack en absoluto, es un propulsor de gas. Puede funcionar con cualquier gas, siempre que la presión interna del &lt;color=#0080FFFF&gt;{LINK:AtmosphericsPage;canister}&lt;/color&gt; sea mayor que la presión externa ambiental. Si la presión externa es mayor, el spacepack no funcionará. El ajuste del valor de empuje altera su tasa de aceleración, mientras que la activación del estabilizador hace que el paquete espacial se mueva cuando se alcanza una altura determinada.
+El jetpack de traje duro es capaz de alcanzar velocidades mucho más altas que el {THING:ItemJetpackBasic}: hasta 15 m / s. Indispensable para edificación, minería y movimiento en general, cuenta con quince ranuras de almacenamiento.
+USE: &apos;J&apos; para activar; &apos;espacio&apos; para volar; &apos;Ctrl izquierda&apos; para descender; y &apos;WASD&apos; para moverse.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicHydroponics</Key>
@@ -3556,12 +3190,15 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Value>Transformador (Medio)</Value>
     </RecordThing>
     <RecordThing>
-      <Key>StructureTransformerMedium(Reversed)</Key>
-      <Value>Transformador Invertido (Medio)</Value>
+      <Key>StructureTransformerMediumReversed</Key>
+      <Value>Transformador invertido (Medio)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemJetpackBasic</Key>
       <Value>Jetpack Básico</Value>
+      <Description>El jetpack &lt;color=#0080FFFF&gt;{LINK:CHAC;CHAC}&lt;/color&gt; básico no es &apos;técnicamente&apos; un jetpack, es un propulsor de gas. Puede funcionar con cualquier gas, siempre que la presión interna del &lt;color=#0080FFFF&gt;{LINK:AtmosphericsPage;canister}&lt;/color&gt; sea mayor que la presión externa ambiental. Si la presión externa es mayor, el spacepack no funcionará.
+Indispensable para la construcción, la minería y el movimiento en general, tiene diez espacios de almacenamiento y permite que &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; vuele a 3 m/s, en comparación con el {THING:ItemHardJetpack} más potente. El ajuste del valor de empuje altera su tasa de aceleración, mientras que la activación del estabilizador hace que el paquete espacial se mueva cuando se alcanza una altura determinada.
+USE: &apos;J&apos; para activar; &apos;espacio&apos; para volar; &apos;Ctrl izquierda&apos; para descender; y &apos;WASD&apos; para moverse.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemEmergencyHelmet</Key>
@@ -3806,10 +3443,6 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     <RecordThing>
       <Key>StructureInsulatedPipeTJunction</Key>
       <Value>Tubería aislada en unión T</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemAdvancedTablet</Key>
-      <Value>Tableta avanzada</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedPipe</Key>
@@ -4129,6 +3762,11 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Description>Esta es la página de objetos por defecto.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitBeds</Key>
+      <Value>Kit (camas)</Value>
+      <Description>Esta es la página de objetos por defecto.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemKitFurnitureTable</Key>
       <Value>Muebles de kit Mesa</Value>
       <Description>Esta es la página de objetos por defecto.</Description>
@@ -4174,8 +3812,13 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Description>Esta es la página de objetos por defecto.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>StructureEmergencyButton</Key>
+      <Value>Botón Importante</Value>
+      <Description>This is the default thing page.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemKitAirlockGate</Key>
-      <Value>Kit (Puerta de la esclusa)</Value>
+      <Value>Kit Puerta de esclusa de aire</Value>
       <Description>Esta es la página de objetos por defecto.</Description>
     </RecordThing>
     <RecordThing>
@@ -4192,6 +3835,26 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
       <Key>ItemKitBatteryLarge</Key>
       <Value>Cargador de Baterías</Value>
       <Description>Esta es la página de cosas predeterminada.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageVendingMachine1</Key>
+      <Value>Máquina expendedora de restos</Value>
+      <Description>Esta es la página de objetos por defecto.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageVendingMachine2</Key>
+      <Value>Máquina expendedora de restos</Value>
+      <Description>Esta es la página de objetos por defecto.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageVendingMachine3</Key>
+      <Value>Máquina expendedora de restos</Value>
+      <Description>Esta es la página de objetos por defecto.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageVendingMachine4</Key>
+      <Value>Máquina expendedora de restos</Value>
+      <Description>Esta es la página de cosas por defecto.</Description>
     </RecordThing>
   </Things>
   <Slots>
@@ -4418,10 +4081,6 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     <Record>
       <Key>SensorProcessingUnit</Key>
       <Value>Unidad de procesamiento de sensores</Value>
-    </Record>
-    <Record>
-      <Key>SlotKey</Key>
-      <Value>Ranura</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -4831,6 +4490,10 @@ La placa de circuito tiene dos modos: &apos;Link&apos; enciende o apaga todos lo
     </Record>
   </Interactables>
   <Interface>
+    <Record>
+      <Key>SlotKey</Key>
+      <Value>Ranura</Value>
+    </Record>
     <Record>
       <Key>MainMenuContinue</Key>
       <Value>Continuar</Value>
@@ -6355,7 +6018,7 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
     </Record>
     <Record>
       <Key>ScenarioScoreboardBackToMenu</Key>
-      <Value>Menú principal</Value>
+      <Value>Volver al menú principal</Value>
     </Record>
     <Record>
       <Key>ScenarioScoreboardReturnToGame</Key>
@@ -7471,6 +7134,14 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
       <Value>Devuelve el tipo de pod almacenado en la máquina.</Value>
     </Record>
     <Record>
+      <Key>MineablesInVicinity</Key>
+      <Value>Devuelve la cantidad de posibles minas dentro de un área extendida alrededor de AIMEe.</Value>
+    </Record>
+    <Record>
+      <Key>MineablesInQueue</Key>
+      <Value>Devuelve la cantidad de objetos extraíbles que AIMEe ha puesto en cola para extraer.</Value>
+    </Record>
+    <Record>
       <Key>ResearchFilter</Key>
       <Value>Filtros</Value>
     </Record>
@@ -8216,7 +7887,184 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
     </Record>
     <Record>
       <Key>PressEnterToContinue</Key>
-      <Value>Presione &lt;color=#FBB03B&gt;Intro&lt;/color&gt; para continuar</Value>
+      <Value>Presiona &lt;color=#FBB03B&gt;Espacio&lt;/color&gt; para continuar</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompleteDateOfCompletion</Key>
+      <Value>Fecha de finalización:</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompleteNextTutorial</Key>
+      <Value>Siguiente Tutorial</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMineableRenderDistance</Key>
+      <Value>La distancia de rendición de la minería</Value>
+    </Record>
+    <Record>
+      <Key>SetSpawnMessage</Key>
+      <Value>Úsalo para ajustar el Punto de Reaparición</Value>
+    </Record>
+    <Record>
+      <Key>SetSpawnTitle</Key>
+      <Value>Punto de Reaparición</Value>
+    </Record>
+    <Record>
+      <Key>ControlPrimaryClickDisc</Key>
+      <Value>Interactuar</Value>
+    </Record>
+    <Record>
+      <Key>ControlHoldPrimaryClick</Key>
+      <Value>Mantener {KEY:PrimaryAction}</Value>
+    </Record>
+    <Record>
+      <Key>ControlHoldPrimaryClickConstructDisc</Key>
+      <Value>Construcción</Value>
+    </Record>
+    <Record>
+      <Key>ControlHoldPrimaryClickDeconstructDisc</Key>
+      <Value>Deconstruir</Value>
+    </Record>
+    <Record>
+      <Key>ControlHoldPrimaryClickPlaceDisc</Key>
+      <Value>Colocar</Value>
+    </Record>
+    <Record>
+      <Key>ControlHoldPrimaryClickPlantDisc</Key>
+      <Value>Plantar</Value>
+    </Record>
+    <Record>
+      <Key>ControlHoldPrimaryClickHarvestDisc</Key>
+      <Value>Cosechar</Value>
+    </Record>
+    <Record>
+      <Key>ControlPlayerMovementDisc</Key>
+      <Value>Movimiento</Value>
+    </Record>
+    <Record>
+      <Key>ControlSwapHandsDisc</Key>
+      <Value>Cambiar Manos</Value>
+    </Record>
+    <Record>
+      <Key>AgrizeroDesc</Key>
+      <Value>Agrizero es una empresa de biotecnología agrícola centrada en la investigación y el despliegue de tecnología agrícola fuera del mundo. El objetivo de la compañía es proporcionar una red de &apos;bio-fábricas&apos; autosuficientes y autónomas que, en última instancia, alimentarán a un millón de seres humanos en el espacio.
+Tras emerger de los desastres medioambientales de finales del siglo XXI, la empresa tiene sus raíces en las iniciativas de agricultura artificial que salvan al mundo de China y ahora se ha extendido a instalaciones en el Cinturón de Asteroides, donde el suministro de asteroides de hielo hace que la agricultura vertical y la agricultura de ambiente controlado sean extremadamente prometedoras.
+Si bien muchas de sus instalaciones aún están en construcción, Agrizero ya es uno de los principales proveedores de grupos externos como &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;, &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; y &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; a través de la Red de comerciantes en constante expansión.</Value>
+    </Record>
+    <Record>
+      <Key>AsuraDesc</Key>
+      <Value>Asura Biomedia fue fundada a principios del siglo XXII por el trillonario de Mumbai Ashan Gurwaja. Centrada nominalmente en la &quot;biotecnología&quot;, la compañía siempre ha tenido una noción &quot;elástica&quot; de lo que eso implicaba exactamente: todo, desde productos farmacéuticos hasta comida para mascotas.
+La experiencia de Gurwaja en empresas de bioingeniería colocó a la empresa en el más alto nivel de las industrias de las ciencias biológicas desde el principio, y creció exactamente como su fundador pretendía: de forma rápida y fiable, estructurada específicamente para absorber cualquier empresa más pequeña que se interpusiera en su camino.
+Cerca de mediados de siglo, las ambiciones de Asura evolucionaron hasta abarcar sistemas de salud enteros: ahora es el mayor proveedor de atención sanitaria de la Tierra, integrando los hospitales y la atención primaria con los suministros médicos, la producción y venta al por menor de productos farmacéuticos, la atención residencial y los servicios funerarios.
+En 2150, el negocio de Asura era una simple propuesta, como se refleja en su famoso, si no infame, eslogan publicitario: &quot;Estamos en ti&quot;.</Value>
+    </Record>
+    <Record>
+      <Key>ExMinDesc</Key>
+      <Value>A raíz del desastre de Sísifo en Marte en 2079, el &lt;color = # 0080FFFF&gt; {LINK: ODA; ODA} &lt;/color&gt; prohibió oficialmente el desplazamiento de asteroides. Este cambio radical obligó a la recién nacida industria de la minería espacial a reconsiderar sus estrategias, pero hasta la apertura del Ascensor Espacial de Manaus, la economía marginal significaba que la extracción de recursos fuera del mundo era efectivamente imposible.
+Formado en 2095 por un conglomerado minero suizo-alemán de larga estancia y un consorcio de otros intereses, ExMin fue más una idea que una realidad comercial durante varias décadas. Creado con la certeza de que eventualmente llegaría un ascensor espacial, ExMin fue uno de los primeros en explotar el acceso que ofrecía. Posteriormente se ha convertido en una de las entidades comerciales más poderosas del Sistema Solar.
+Con el acceso al espacio seguro, ExMin se convirtió en un actor central en el flujo de recursos al sistema interno. Tiene competencia, principalmente del gigante minero brasileño &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt;, pero la empresa nunca ha perdido por completo su liderazgo en la minería fuera del mundo. Sinónimo de metales de tierras raras y pionera en la extracción de recursos fuera del mundo, se encuentra a la vanguardia del desarrollo en todo el Sistema Solar.</Value>
+    </Record>
+    <Record>
+      <Key>GeFabrikDesc</Key>
+      <Value>Oficialmente conocida como Gewehrfabrik GmbH, GeFabrik es una de las firmas de armamento más antiguas y respetadas del mundo, conocida por producir armas de fuego de alta gama excepcionalmente precisas.
+A raíz del colapso de la fabricación de armas europea en la década de 2030, un grupo de personal de armamento desempleado formó GeFabrik. Dedicada a renovar los principios de diseño originales, la compañía es legendaria por sus extensas pruebas, que a veces duran hasta 10 años, para producir formatos de armas &quot;ganz&quot;.
+Se considera que GeFabrik ha salvado por sí solo la reputación de fabricación de Alemania, sin hacer nada por su sentido del humor.</Value>
+    </Record>
+    <Record>
+      <Key>Hiiragi</Key>
+      <Value>Hilragi</Value>
+    </Record>
+    <Record>
+      <Key>HiiragiDesc</Key>
+      <Value>Fundada por Noboru Hiiragi a raíz de la burbuja económica de la década de 2110, Hiiragi Communications absorbió varios activos destacados fuera del mundo, convirtiéndose rápidamente en la red de comunicaciones trans-solar más utilizada.
+Si se ha comunicado con amigos y familiares fuera del mundo recientemente, ha sido a través de la red de Hiiragi, incluso si tiene la marca de una de sus muchas empresas secundarias. Hiiragi es también el vendedor número uno de PCD (dispositivos de comunicación personal), así como un inversor profundo, aunque difícil de evaluar, en redes de telecomunicaciones terrestres.</Value>
+    </Record>
+    <Record>
+      <Key>NorsecDesc</Key>
+      <Value>Con sus raíces en la industria de defensa de principios del siglo XX, Norsec (también conocido como Northern Security Systems) fue uno de los primeros en adoptar la minería de asteroides: uno de sus remolcadores estuvo involucrado en el infame Sísifo Hit en la incipiente colonia marciana en Sanders.
+Norsec fue oficialmente absuelto de cualquier mala conducta, pero cuando &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; prohibió la reubicación de asteroides, la compañía cambió su enfoque hacia la infraestructura y la fabricación.
+La División de Sistemas Espaciales de Norsec, con base orbital, es responsable del diseño y producción de los sistemas de transporte centrales de &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;, aunque también se rumorea que tiene un gran interés en &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt;. La compañía también se destaca por su disposición a participar en tecnología robótica experimental.</Value>
+    </Record>
+    <Record>
+      <Key>ODADesc</Key>
+      <Value>A raíz de la Crisis de la Tierra, el enfoque de la humanidad en el espacio disminuyó. Sin embargo, muchos sintieron que, sin ambiciones más allá de nuestro planeta de origen, nuestra especie podría flaquear.
+Creada en 2070 EC por Naciones Unidas recientemente renovada, la Agencia de Desarrollo Offworld recibió un objetivo muy específico: guiar y alentar la exploración espacial humana en un momento en que el cosmos se estaba desvaneciendo de la mente del público.
+Inauguró el programa &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; en 2095. Entendiendo que sería difícil conseguir financiación, la ODA concibió el programa como una iniciativa espacial de bajo consumo y de combustión lenta. Mientras que algunos se burlaron de Stationeers como &apos;náufragos cósmicos de precio reducido&apos;, el éxito del programa es testimonio de la sabiduría y el pragmatismo de la visión de ODA.</Value>
+    </Record>
+    <Record>
+      <Key>Recurso</Key>
+      <Value>Recursos Espaciales</Value>
+    </Record>
+    <Record>
+      <Key>RecursoDesc</Key>
+      <Value>Este grupo minero brasileño de larga estancia se ramificó en el espacio a fines del siglo XXI.
+Centrada principalmente en minerales y metales a granel, la compañía quizás se entienda mejor como una extensión del gobierno brasileño: muy pocas figuras políticas del escalón superior en el Brasil moderno no están implicadas en un brazo u otro de este gigante industrial.
+El enredo con la política sudamericana le ha dado a la compañía una gran influencia sobre el ascensor espacial de Manaus. Este profundo control estatal ha llevado a otros grupos  el &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; incluido  a ejercer cierta &quot;flexibilidad&quot; hacia el Recurso.
+Las acusaciones de reubicación ilegal de asteroides, violaciones de seguridad y numerosas infracciones comerciales apenas lo han tocado. Mientras tanto, los defensores señalan que se ha probado muy poco en los tribunales, y Recurso no está solo, de ahí la obviedad: &quot;En el espacio, todos vivimos en casas de cristal&quot;.</Value>
+    </Record>
+    <Record>
+      <Key>SinotaiDesc</Key>
+      <Value>La única entidad estatal &apos;tradicional&apos; que sobrevivió a la política exterior, el alcance y el poder de Sinotai es superado solo por el &lt;color=#0080FFFF&gt; {LINK:ODA;ODA}&lt;/color&gt; en sí. En muchos sentidos, una reliquia, una sub-agencia de una burocracia corporativa asombrosamente complicada ligada a la Tierra, su estructura le ha permitido a Sinotai lograr cosas increíbles.
+Demostrando su valía a principios del siglo XXI al colocar a los primeros humanos en Marte, establecer el primer sistema de energía de gigavatios fuera del mundo y la primera refinería de combustible espacial, pocas organizaciones espaciales carecen de algún grado de relación con Sinotai. Una broma común dice que es imposible hacer algo en el espacio sin ellos.
+Independientemente de la verdad, el enfoque de Sinotai para el desarrollo fuera del mundo ha involucrado un enfoque de &apos;poder blando&apos;, de MOU con &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; (dándoles acceso preferencial al espacio de Manaus ascensor) a alianzas de conveniencia más turbias con una variedad de grupos de comerciantes.</Value>
+    </Record>
+    <Record>
+      <Key>TKDesc</Key>
+      <Value>Tanzanian Kinetic Systems, que originalmente era un contratista de defensa especializado en fuerza bruta y armamento de alta potencia, ejecutó un giro a gran escala en tiempos de paz para convertirse en el diseñador líder de transportadores de mercancías de alta velocidad de la Asamblea Africana.
+TK, que ahora produce una gama de diseños y componentes de redes de conductos, tiene una fuerte presencia fuera del mundo como resultado de las asociaciones afro-chino a finales del siglo XXI. Con sede en el distrito &quot;reconocido&quot; de Kigamboni de Dar E Salaam, la empresa establece asociaciones de desarrollo con &lt;color=#0080FFFF&gt;{LINK:CHAC;CHAC}&lt;/color&gt; y, como resultado, muchos de sus productos se muestran distintas similitudes.
+Después de todo, ¿qué es una pistola sino un &quot;transportador de mercancías de alta velocidad&quot;?</Value>
+    </Record>
+    <Record>
+      <Key>XigoDesc</Key>
+      <Value>Una encuesta de 2150CE reveló que Xigo &apos;X&apos; es uno de los símbolos más reconocidos del mundo. Sin embargo, pocos participantes pudieron describir claramente el alcance real de la empresa.
+Precisamente el lugar donde comienza y termina la empresa ha sido objeto de un sinfín de teorías, estudios financieros y demandas: originalmente un sitio web para comparaciones de precios, el conglomerado se expandió para abarcar datos, luego distribución y finalmente producción.
+Fue una expansión aparentemente indiscriminada, centrada no en una industria, sino en todas, abarcando tantos campos que los analistas de negocios han rechazado en gran medida la idea de Xigo como una sola entidad. Más bien, es una agrupación conceptual para una rama de la actividad humana. Y aunque tales estadísticas son, por su propia naturaleza, difíciles de confirmar, estimaciones recientes sugieren que Xigo emplea a más del 1,5% de toda la raza humana.
+Basta decir que produce casi todo.</Value>
+    </Record>
+    <Record>
+      <Key>StationeersDesc</Key>
+      <Value>A principios del siglo 22, la Tierra estaba emergiendo de un cataclismo. Sus recursos se erosionaron, nuestra población se redujo, la reconstrucción era el espíritu de la época.
+Iniciado por la &lt;color=#0080FFFF&gt;{LINK:ODA;Agencia de Desarrollo Offworld}&lt;/color&gt; (ODA) en 2095CE, el Programa Stationeers se dedicó a un solo ideal: mantener a la humanidad apuntando a las estrellas.
+Los Stationeers lo son todo: astronautas, ingenieros y exploradores, desplegados con equipos y herramientas limitados, entrenados para hacer más con menos. Aprovechando el medio ambiente, su trabajo consiste en proporcionar infraestructura para los humanos en el espacio, a una fracción del costo de los programas espaciales tradicionales.
+Capaces de construir y mantener bases en cualquier lugar, desde la Luna hasta Mimas y más allá, Stationeers son nuestra vanguardia en el cosmos. Formados en supervivencia fuera del mundo, técnicas de minería y construcción, metalurgia básica, electrónica, cohetería, hidroponía y más ciencias &quot;arcanas&quot;, los Stationeers hacen lo que deben para sobrevivir y prosperar.
+Reconocido por no tener criterios de entrada, no existe un Stationeer &quot;típico&quot;. El perfil psicológico sugiere que los cadetes exitosos muestran un pragmatismo &quot;básico&quot; y una determinación, pero algunos de los Stationeers más famosos no poseen ninguna de estas cualidades.
+Reclutando personas con experiencia en ingeniería civil, industrias militares y aeroespaciales, desarrollo de software, grupos mineros, así como campos científicos e incluso órdenes religiosas, el Programa Stationeers está, fundamentalmente, abierto a toda la humanidad.</Value>
+    </Record>
+    <Record>
+      <Key>ControlMouseControlDisc</Key>
+      <Value>Activar el control del ratón</Value>
+    </Record>
+    <Record>
+      <Key>ControlMouseDrag</Key>
+      <Value>Mantener y arrastrar {KEY:PrimaryAction}</Value>
+    </Record>
+    <Record>
+      <Key>ControlMouseDragDisc</Key>
+      <Value>Mover la selección</Value>
+    </Record>
+    <Record>
+      <Key>ControlSecondaryActionBuildModeDisc</Key>
+      <Value>Cambiar el modo de construcción</Value>
+    </Record>
+    <Record>
+      <Key>ControlScrollWheelSelectDisc</Key>
+      <Value>Cambiar el modo de construcción</Value>
+    </Record>
+    <Record>
+      <Key>ControlAutoRotateDisc</Key>
+      <Value>Auto rotación</Value>
+    </Record>
+    <Record>
+      <Key>ControlMouseScroll</Key>
+      <Value>Scroll del ratón</Value>
+    </Record>
+    <Record>
+      <Key>ControlMouseScrollDisc</Key>
+      <Value>Seleccionar artículo</Value>
+    </Record>
+    <Record>
+      <Key>ControlTurnOnDisc</Key>
+      <Value>Enciende</Value>
     </Record>
   </Interface>
   <Colors>

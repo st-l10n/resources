@@ -7,18 +7,6 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
-      <Key>SlotLeftHand</Key>
-      <Title>Слоты в руках</Title>
-      <Text>Ваши руки - это специальные слоты. В любой момент у вас есть одна активная рука, которая используется вашей {COLORRED:Primary Action}. Чтобы поменять активную руку, нажмите {KEY:SwapHands}. С вашей активной рукой можно взаимодействовать, нажав {KEY:ActiveHandSlot}, которая откроет и закроет содержимое предмета в активной руке. Как всегда, Вы можете использовать {KEY:MouseControl}, чтобы вызвать мышь и взаимодействовать с предметом. Для получения дополнительной информации см. Раздел {LINK:InventoryPage;Инвентарь}.
-</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>SlotRightHand</Key>
-      <Title>Слоты в руках</Title>
-      <Text>Ваши руки - это специальные слоты. В любой момент у вас есть одна активная рука, которая используется вашей {COLORRED:Primary Action}. Чтобы поменять активную руку, нажмите {KEY:SwapHands}. С вашей активной рукой можно взаимодействовать, нажав {KEY:ActiveHandSlot}, которая откроет и закроет содержимое предмета в активной руке. Как всегда, Вы можете использовать {KEY:MouseControl}, чтобы вызвать мышь и взаимодействовать с предметом. Для получения дополнительной информации см. Раздел {LINK:InventoryPage;Инвентарь}.
-</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>FabricatorPage</Key>
       <Title>Фабрикаторы</Title>
       <Text>Это мощные структуры, которые можно использовать для изготовления вещей, нужных вам в игре. Обычно они используют {LINK:IngotPage;слитки} как {LINK:ReagentPage;реагенты}, необходимые им для создания вещей.
@@ -80,24 +68,6 @@
 </Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>AlloyPage</Key>
-      <Title>Сплавы</Title>
-      <Text>Созданные в {THING:StructureFurnace} или {THING:StructureAdvancedFurnace} из нескольких специальных {LINK:ReagentPage;реагентов}, они представляют собой улучшенные {LINK:IngotPage;слитки} для использования в {LINK:FabricatorPage;фабрикаторах}. {THING:StructureArcFurnace} не может выплавить их.
-
-{HEADER:Список сплавов}
-{LIST_OF_ALLOYS}
-</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>SuperAlloyPage</Key>
-      <Title>Суперсплавы</Title>
-      <Text>Созданные в {THING:StructureAdvancedFurnace} из нескольких специальных {LINK:ReagentPage;реагентов}, являются очень продвинутыми {LINK:IngotPage;слитками} для использования в {LINK:FabricatorPage;фабрикаторах}. {THING:StructureArcFurnace} и {THING:StructureFurnace} не могут выплавить их.
-
-{HEADER:Список суперсплавов}
-{LIST_OF_SUPER_ALLOYS}
-</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>OrePage</Key>
       <Title>Руды</Title>
       <Text>Это элементы {LINK:MiningPage;минералов}, которые могут быть {LINK:SmeltingPage;расплавлены}. Вы также можете получить смешанную руду, переработав предметы в {THING:StructureRecycler} и затем пропустив ее через {THING:StructureCentrifuge}, которая разделит ее на отдельные {LINK:OrePage;руды} для {LINK:SmeltingPage;выплавки}.
@@ -127,20 +97,18 @@
     <StationpediaPage>
       <Key>ToolPage</Key>
       <Title>Инструменты</Title>
-      <Text>Это предметы, которые могут поместиться в специальном слоте для инструментов и используются для {LINK:ConstructionPage;строительства} и других задач.
-
+      <Text>Это предметы, которые могут поместиться в специальном слоте для инструментов и используются для {LINK:ConstructionPage;Строительства} и других задач.
 {HEADER:Список инструментов}
 {LIST_OF_TOOLS}
-</Text>
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ResourcePage</Key>
       <Title>Ресурсы</Title>
-      <Text>Это предметы, которые потребляются во время {LINK:ConstructionPage;строительства} и в других задачах.
-
+      <Text>Это предметы, которые расходуются во время {LINK:ConstructionPage;Строительства} и в других задачах.
 {HEADER:Список ресурсов}
 {LIST_OF_RESOURCES}
-</Text>
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>KitPage</Key>
@@ -178,37 +146,38 @@
 {LIST_OF_APPLIANCES}
 </Text>
     </StationpediaPage>
-    <StationpediaPage>
-      <Key>RocketShuttleModulesHelpPage</Key>
-      <Title>Модули Ракетного Шаттла</Title>
-      <Text>{HEADER:Modular Rocket Cargo}
+    <!-- <StationpediaPage>
+          <Key>RocketShuttleModulesHelpPage</Key>
+          <Title>Rocket Shuttle Modules</Title>
+          <Text>{HEADER:Modular Rocket Cargo}
 
-Емкость {THING:StructureModularRocketCargo01} позволяет хранить два десяти-слотовых ящиков. Вы можете иметь несколько грузовых модулей на ракете. Ракета может поднять до семи модулей в общей сложности.
+The {THING:StructureModularRocketCargo01} has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total.
 
 {HEADER:Modular Rocket Command}
 
-{THING:StructureModularRocketCommand01} должен быть помещен на самом верху ракеты. Он оценит готовность ракеты к полету. Как только все условия будут выполнены, ракета может быть запущена, когда все игроки сидят в модуле, нажав &apos;Запуск&apos; на консоли.
+The {THING:StructureModularRocketCommand01} must be placed on top of the rocket. It will assess the rocket’s readiness for flight. Once all conditions are met, the rocket can be launched when all players are seated in the module by pressing ‘Launch’ on the console.
 
-Для запуска необходимо выполнить следующие условия:
+The following conditions must be met for launch:
 
-Топливо полное
-Соотношение топливных смесей правильное
-Все игроки сидят
-Питание подключено к стартовой площадке
-Ракета полностью построена
+Fuel full
+Fuel mix ratio correct
+All players seated
+Power supplied to the launch pad
+Fully built rocket
 
-Консоль в {THING:StructureModularRocketCommand01} отображает текущее состояние этих условий. Для старта не требуется атмосфера - атмосферы вашего костюма достаточно.
+The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient.
 
 {HEADER:Modular Rocket Engine}
 
-{THING:StructureModularRocketEngine01} способен поднимать до семи модулей (включая себя).
+The {THING:StructureModularRocketEngine01} is capable of lifting up to seven modules (including itself).
 
 {HEADER:Modular Rocket Fuel Tank}
 
-{THING:StructureModularRocketFueltank01} требует смеси {GAS:Volatiles} и {GAS:Oxygen} в отношении 2:1. Если смесь не удовлетворяет этим пропорциям, или вы поместите другие газы в бак, консоль {THING:StructureModularRocketCommand01} будет отображать ошибку &apos;Недействительно&apos;. 
+The {THING:StructureModularRocketFueltank01} requires a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}. If the mixture exceeds these proportions, or you place other gases in the tank, the {THING:StructureModularRocketCommand01} console will display an ‘Invalid’ error.
 
-             </Text>
-    </StationpediaPage>
+          </Text>
+        </StationpediaPage>
+        -->
     <StationpediaPage>
       <Key>RocketShuttlePage</Key>
       <Title>Ракетный Шаттл</Title>
@@ -306,27 +275,27 @@
     </StationpediaPage>
     <StationpediaPage>
       <Key>ReagentPageTemplate</Key>
-      <Text>{LINK:ReagentPage;Реагент}, часто используемый в форме {LINK:IngotPage;слитков}.
+      <Text>{LINK:ReagentPage;Реагенты}, часто используются в форме {LINK:IngotPage;Слитков}.
 
 {HEADER:Общая}
-{LIST}шт. {POS:300}{1}{/LIST}
+{LIST}шт. {1}{/LIST}
 
 {HEADER:Найти в}
 {LIST}{2}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageTemplate</Key>
-      <Text>{LINK:GasPage;Газ}, часто производимый, когда {LINK:SmeltingPage;выплавляется}.
+      <Text>{LINK:GasPage;Газ}, часто вырабатывается в процессе {LINK:SmeltingPage;Плавки руд}.
 
 {HEADER:Общая}
-{LIST}Удельная теплоемкость {POS:300}{1}{2}{/LIST}
+{LIST}Удельная теплоемкость {1}{2}{/LIST}
 
 {HEADER:Найти в}
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageFlamableTemplate</Key>
-      <Text>Огнеопасный предел {POS:300}{0} до {1}</Text>
+      <Text>Огнеопасный Предел {0} до {1}</Text>
     </StationpediaPage>
   </HelpPage>
 </Language>

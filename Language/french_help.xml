@@ -7,14 +7,14 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
-      <Key>SlotLeftHand</Key>
-      <Title>Emplacements de main</Title>
-      <Text>Vos mains sont des emplacements spéciaux. Vous avez une main active à tout moment, qui est la main actuellement utilisée par votre {COLORRED:Primary Action}. Pour échanger la main active, appuyez sur {KEY:SwapHands}. Vous pouvez interagir avec votre main active en appuyant sur {KEY:ActiveHandSlot} pour ouvrir et fermer le contenu de votre main active. Comme toujours, vous pouvez utiliser {KEY:MouseControl} pour afficher la souris et interagir de cette façon. Pour plus d&apos;informations, consultez la section {LINK:InventoryPage;Inventaire}.</Text>
+      <Key>Home</Key>
+      <Title>Accueil</Title>
+      <Text/>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>SlotRightHand</Key>
-      <Title>Emplacements de main</Title>
-      <Text>Vos mains sont des emplacements spéciaux. Vous avez une main active à tout moment, qui est la main actuellement utilisée par votre {COLORRED:Primary Action}. Pour échanger la main active, appuyez sur {KEY:SwapHands}. Vous pouvez interagir avec votre main active en appuyant sur {KEY:ActiveHandSlot} pour ouvrir et fermer le contenu de votre main active. Comme toujours, vous pouvez utiliser {KEY:MouseControl} pour afficher la souris et interagir de cette façon. Pour plus d&apos;informations, consultez la section {LINK:InventoryPage;Inventaire}.</Text>
+      <Key>Search</Key>
+      <Title>Rechercher</Title>
+      <Text/>
     </StationpediaPage>
     <StationpediaPage>
       <Key>FabricatorPage</Key>
@@ -61,23 +61,6 @@
 </Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>AlloyPage</Key>
-      <Title>Alliages</Title>
-      <Text>Créés dans le {THING:StructureFurnace} ou le {THING:StructureAdvancedFurnace} à partir de mélange de {LINK:ReagentPage;reactif}, les {LINK:IngotPage;lingots} avancées pourront être utilisés dans des {LINK:FabricatorPage;machines}. Le {THING:StructureArcFurnace} n&apos;est pas capable de les fondre.
-
-{HEADER:Liste des alliages}
-{LIST_OF_ALLOYS}
-</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>SuperAlloyPage</Key>
-      <Title>Superalliages</Title>
-      <Text>Créés dans le {THING:StructureAdvancedFurnace} à partir de mélange de {LINK:ReagentPage;reactif}, les {LINK:IngotPage;lingots} avancées pourront être utilisés dans des {LINK:FabricatorPage;machines}. Le {THING:StructureArcFurnace} n&apos;est pas capable de les fondre.
-
-{HEADER:Liste des super alliages}
-{LIST_OF_SUPER_ALLOYS}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>OrePage</Key>
       <Title>Minerais</Title>
       <Text>Il s’agit d’éléments issu de l&apos;{LINK:MiningPage;exploitation miniere} et pouvant souvent être {LINK:SmeltingPage;fondu}. Vous pouvez également obtenir du minerai mélangé en recyclant des éléments dans le {THING:StructureRecycler}, puis en le passant à travers le {THING:StructureCentrifuge} qui le divisera en {LINK:OrePage;minerai} pour la {LINK:SmeltingPage;fonte}.
@@ -95,6 +78,14 @@ Certains minerais fondent lorsqu&apos;ils sont exposés au soleil ou à la chale
       <Text>Ce sont des éléments généralement fabriqués à partir de {LINK:SmeltingPage;fonte} et de {LINK:OrePage;minerais}.
 {HEADER:Liste des lingots}
 {LIST_OF_INGOTS}
+
+{HEADER:Liste des alliages}
+{LIST_OF_INGOTS}
+
+{HEADER:Liste des super alliages}
+{LIST_OF_INGOTS}
+
+      
 </Text>
     </StationpediaPage>
     <StationpediaPage>
@@ -137,6 +128,38 @@ Certains minerais fondent lorsqu&apos;ils sont exposés au soleil ou à la chale
 {LIST_OF_APPLIANCES}
 </Text>
     </StationpediaPage>
+    <!-- <StationpediaPage>
+          <Key>RocketShuttleModulesHelpPage</Key>
+          <Title>Rocket Shuttle Modules</Title>
+          <Text>{HEADER:Modular Rocket Cargo}
+
+The {THING:StructureModularRocketCargo01} has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total.
+
+{HEADER:Modular Rocket Command}
+
+The {THING:StructureModularRocketCommand01} must be placed on top of the rocket. It will assess the rocket’s readiness for flight. Once all conditions are met, the rocket can be launched when all players are seated in the module by pressing ‘Launch’ on the console.
+
+The following conditions must be met for launch:
+
+Fuel full
+Fuel mix ratio correct
+All players seated
+Power supplied to the launch pad
+Fully built rocket
+
+The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient.
+
+{HEADER:Modular Rocket Engine}
+
+The {THING:StructureModularRocketEngine01} is capable of lifting up to seven modules (including itself).
+
+{HEADER:Modular Rocket Fuel Tank}
+
+The {THING:StructureModularRocketFueltank01} requires a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}. If the mixture exceeds these proportions, or you place other gases in the tank, the {THING:StructureModularRocketCommand01} console will display an ‘Invalid’ error.
+
+          </Text>
+        </StationpediaPage>
+        -->
     <StationpediaPage>
       <Key>RocketShuttlePage</Key>
       <Title>Capsule de fusée</Title>
@@ -164,24 +187,16 @@ Auto-allumage{POS:300}{2}{3}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ThingSlotItemTemplate</Key>
-      <Text>{0}. {POS:100}{1} {POS:300}Type {2}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ThingStackTemplate</Key>
-      <Text>Taille de la pile {POS:300}{0}</Text>
+      <Text>{0}. {1} type {2}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ThingTransmissibleTemplate</Key>
       <Text>Se connecte à {POS:300}{THING:StructureLogicTransmitter}</Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>ThingNutritionTemplate</Key>
-      <Text>Alimentation maximum {POS:300}{0}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>IceMeltingTemplate</Key>
-      <Text>Température de fusion {POS:300}{1}
-Pression de fusion {POS:300}{0}</Text>
+      <Text>Température de fusion {1}
+Pression de fusion {0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>CreatorsHeaderTemplate</Key>
@@ -212,10 +227,6 @@ Pression de fusion {POS:300}{0}</Text>
       <Text>{HEADER:Liste des structures}</Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>CreatorTemplate</Key>
-      <Text>{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>CreatedGasesTemplate</Key>
       <Text>{HEADER:Gaz}
 {LIST}{0}{/LIST}</Text>
@@ -226,17 +237,13 @@ Pression de fusion {POS:300}{0}</Text>
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>ModeStringItemTemplate</Key>
-      <Text>{0}.{POS:100}{1}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>ReagentPageTemplate</Key>
       <Text>A {LINK:ReagentPage;réactif}, souvent utilisable sous forme de {LINK:IngotPage;lingots}.
 
 {HEADER:Général}
-{LIST}Unit {POS:300}{1}{/LIST}
+{LIST}Unit {1}{/LIST}
 
-{HEADER:Found In}
+{HEADER:Se trouve dans}
 {LIST}{2}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
@@ -244,14 +251,14 @@ Pression de fusion {POS:300}{0}</Text>
       <Text>Du {LINK:GasPage;gas}, est généralement produit lors de la fusion {LINK:SmeltingPage;smelting}.
 
 {HEADER:General}
-{LIST}Specific Heat {POS:300}{1}{2}{/LIST}
+{LIST}Specific Heat {1}{2}{/LIST}
 
-{HEADER:Found In}
+{HEADER:Se trouve dans}
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageFlamableTemplate</Key>
-      <Text>Limite d&apos;embrassement {POS: 300} {0} à {1}</Text>
+      <Text>Limite d&apos;embrassement {0} à {1}</Text>
     </StationpediaPage>
   </HelpPage>
 </Language>

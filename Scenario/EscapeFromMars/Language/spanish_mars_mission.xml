@@ -158,45 +158,40 @@
     </Record>
     <!-- Mission Stage: Spawn Mothership & Engine -->
     <Record>
-      <Key>MarsTitleCreateMothership</Key>
-      <Value>Creando una Nave Nodriza</Value>
+      <Key>MarsTitleCreateRocket</Key>
+      <Value>Creando un cohete</Value>
     </Record>
     <Record>
-      <Key>MarsDescCreateMothership</Key>
-      <Value>Crear una nave nodriza mediante la generación de un {THING:MothershipCore} y conectándole un  {THING:StructureRocketEngine} </Value>
+      <Key>MarsDescCreateRocket</Key>
+      <Value>Crea un cohete creando una {THING:StructureLaunchPad} y adjuntando los módulos necesarios.</Value>
     </Record>
     <Record>
-      <Key>MarsTaskSpawnMothershipCore</Key>
-      <Value>Generar un {THING:MothershipCore}</Value>
+      <Key>MarsTaskBuildLaunchPad</Key>
+      <Value>Construir plataforma de lanzamiento de cohetes</Value>
     </Record>
     <Record>
-      <Key>MarsTaskAttachEngine</Key>
-      <Value>Conecte un {THING:StructureRocketEngine} al {THING:MothershipCore}</Value>
+      <Key>MarsTaskBuildEngine</Key>
+      <Value>Contruir Motor de Cohete</Value>
     </Record>
     <Record>
-      <Key>MarsTitleLaunchMothership</Key>
-      <Value>Lanzamiento de una Nave Nodriza</Value>
+      <Key>MarsTaskBuildFuelTank</Key>
+      <Value>Construir Tanque de Combustible de Cohete</Value>
     </Record>
     <Record>
-      <Key>MarsTabletStage5Page1</Key>
-      <Value>PAGE 1 of 2 \nPAUSA DE INICIO \nCon la comida bajo control, ahora tienes mucho trabajo que hacer.  Obtener los recursos para construir y reabastecer de combustible una nave para salir de esta roca no será fácil.  Necesitarás algunas aleaciones avanzadas y un sistema seguro para manipular los hielos que se derriten y crear/almacenar una gran cantidad de combustible.</Value>
+      <Key>MarsTaskBuildCommand</Key>
+      <Value>Construir Modulo de Comando de Cohetes</Value>
     </Record>
     <Record>
-      <Key>MarsTabletStage5Page2</Key>
-      <Value>PAGE 2 of 2 \nEl mínimo necesario para una nave es un núcleo con un par de motores acoplados y orientados en la dirección correcta y un ancla estelar, que cuando se encienda y se apague permitirá que su nave se mueva.  Una silla de mando no es necesaria si usted es lo suficientemente valiente para conducir los motores a mano, pero se recomienda a conciencia.</Value>
+      <Key>MarsTitleLaunchRocket</Key>
+      <Value>Lanzando el cohete</Value>
     </Record>
-    <!-- Mission Stage: Launch -->
     <Record>
-      <Key>MarsDescLaunchMothership</Key>
-      <Value>Despega al espacio y recupera tu lugar en los cielos!</Value>
+      <Key>MarsDescLaunchRocket</Key>
+      <Value>Después de alimentar su cohete recién construido, finalmente puede regresar a la civilización.</Value>
     </Record>
     <Record>
       <Key>MarsTaskLaunchMothership</Key>
-      <Value>Despegue su nave nodriza a una altitud de 100m</Value>
-    </Record>
-    <Record>
-      <Key>MarsTabletStage6Page1</Key>
-      <Value>PAGE 1 of 1 \nDESPEGUE\nSe lo explicaré yo mismo.  Despega esta nave del suelo.  Asegúrate de que tienes suficiente combustible para tus motores!  Buena suerte!</Value>
+      <Value>Lanza el Cohete</Value>
     </Record>
   </Interface>
 </Language>

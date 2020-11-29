@@ -4,7 +4,7 @@
   <Interface>
     <Record>
       <Key>Tutorial10-CircuitLogicSolarTracking</Key>
-      <Value>#10 ADV Circuit Logique - Suivi solaire</Value>
+      <Value>ADV Circuit Logique - Suivi solaire</Value>
     </Record>
     <Record>
       <Key>CircuitLogicSolarTrackingDescription</Key>
@@ -160,32 +160,90 @@ Pour rendre les panneaux solaires compatibles avec les capteurs, nous utilisons 
       <Value>Configuration du capteur horizontal</Value>
     </Record>
     <Record>
+      <Key>SetupHorizontalSensorDescription</Key>
+      <Value>Une unité logique d&apos;écriture vous permet d’écrire une valeur donnée à certains types de logique sur un appareil. 
+			
+Remarque : Vous devez placer l’unité logique d&apos;écriture avec la prise de données de sortie se connectant à l’appareil sur lequelle vous écrivez, car certaines données de circuit logique circulent dans une direction spécifique. Concevoir les circuits en conséquence.    </Value>
+    </Record>
+    <Record>
       <Key>SetupLogicWritter</Key>
       <Value>Configuration d&apos;une Unité Logique: Ecriture</Value>
     </Record>
     <Record>
+      <Key>SetupLogicWritterDescription</Key>
+      <Value>Nous devons mettre notre capteur horizontal en mode horizontal. Pour ce faire, nous utiliserons une {THING:StructureLogicWriter} pour définir le mode sur le capteur en lisant une valeur à partir d’un {THING:StructureLogicMemory}</Value>
+    </Record>
+    <Record>
       <Key>SetupLogicWritter1</Key>
-      <Value>Allumez le {THING:StructureArcFurnace}.</Value>
+      <Value>Allumez l&apos;{THING:StructureLogicWriter}.</Value>
     </Record>
     <Record>
       <Key>SetupLogicWritter2</Key>
-      <Value>Ouvrez le {THING:StructureAreaPowerControl} avec {THING:ItemCrowbar}.</Value>
+      <Value>Définissez l’entrée {THING:StructureLogicWriter} sur la mémoire en mode horizontal à l’aide d’un {THING:ItemScrewdriver}.</Value>
+    </Record>
+    <Record>
+      <Key>SetupLogicWritter3</Key>
+      <Value>Définissez la sortie {THING:StructureLogicWriter} sur le capteur horizontal de lumière de jour.</Value>
+    </Record>
+    <Record>
+      <Key>SetupLogicWritter4</Key>
+      <Value>Définissez le {THING:StructureLogicWriter} pour écrire sur la valeur logique du capteur appelée Mode.</Value>
     </Record>
     <Record>
       <Key>PickUpLogicProcessor</Key>
-      <Value>Prenez un {THING:ItemSiliconIngot} dans la caisse orange.</Value>
+      <Value>Récupérez des {THING:ItemKitLogicProcessor} de la caisse voisine.</Value>
     </Record>
     <Record>
       <Key>LogicWriter1</Key>
-      <Value>Placez un autre {THING:StructureActiveVent} à l&apos;endroit en surbrillance.</Value>
+      <Value>Placez un {THING:StructureLogicWriter} à l&apos;endroit en surbrillance.</Value>
+    </Record>
+    <Record>
+      <Key>LogicReadersSetup</Key>
+      <Value>Configuration des lecteurs logiques</Value>
+    </Record>
+    <Record>
+      <Key>LogicReaderSetupDescription</Key>
+      <Value>Un lecteur logique fait ce qu’il ressemble : il lit la logique. Nous allons les utiliser pour lire l’angle solaire de chaque capteur.</Value>
     </Record>
     <Record>
       <Key>LogicReader1</Key>
-      <Value>Placez un autre {THING:StructureActiveVent} à l&apos;endroit en surbrillance.</Value>
+      <Value>Placez un {THING:StructureLogicReader} à l&apos;endroit en surbrillance.</Value>
+    </Record>
+    <Record>
+      <Key>LogicReaderLogicSetup</Key>
+      <Value>SetUp du lecteur logique</Value>
+    </Record>
+    <Record>
+      <Key>LogicReaderLogicSetupDescription</Key>
+      <Value>Nous devons maintenant mettre en place nos nouveaux lecteurs logiques. Comme avec l’unité logique d&apos;écriture, nous devons définir les entrées.</Value>
+    </Record>
+    <Record>
+      <Key>LogicReaderLogicSetup1</Key>
+      <Value>Régler l&apos;entrée du lecteur logique horizontal 1 sur le capteur horizontal de lumière du jour.</Value>
+    </Record>
+    <Record>
+      <Key>LogicReaderLogicSetup2</Key>
+      <Value>Réglez la valeur logique sur l&apos;angle solaire.</Value>
+    </Record>
+    <Record>
+      <Key>LogicReaderLogicSetup3</Key>
+      <Value>Réglez le lecteur logique vertical 1 sur le capteur de lumière du jour vertical.</Value>
+    </Record>
+    <Record>
+      <Key>LogicReaderLogicSetup4</Key>
+      <Value>Réglez la valeur logique sur l&apos;angle solaire.</Value>
     </Record>
     <Record>
       <Key>VerticalLogicProcessors</Key>
       <Value>Processeurs logiques.</Value>
+    </Record>
+    <Record>
+      <Key>VerticalLogicProcessorsDescription</Key>
+      <Value>Nous devons maintenant effectuer quelques calculs sur les valeurs lues par l&apos;{THING:StructureLogicReader} et {THING:StructureLogicMemory}. Commencez par le module de données verticale du circuit.
+            
+Le premier {THING:StructureLogicMath} divisera les données {THING:StructureLogicReader} par 1.5 à l’aide d’un {THING:StructureLogicMemory}.
+  
+Le prochain {THING:StructureLogicMath} lira l’entrée de notre premier {THING:StructureLogicMath} et ajoutera 50 à l’aide d’un décalage nommé {THING:StructureLogicMemory} .</Value>
     </Record>
     <Record>
       <Key>PlaceLogicMath</Key>
@@ -196,12 +254,24 @@ Pour rendre les panneaux solaires compatibles avec les capteurs, nous utilisons 
       <Value>Placez un autre {THING:StructureActiveVent} à l&apos;endroit en surbrillance.</Value>
     </Record>
     <Record>
+      <Key>LogicMathVertical</Key>
+      <Value>Configuration verticale de l&apos;unité logique mathématique.</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVerticalDescription</Key>
+      <Value>La configuration des processeurs mathématiques est l’une des étapes les plus importantes dans la création d’un circuit logique, car il gère tous les calculs requis pour la plupart des tâches.</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVertical1</Key>
+      <Value>Allumez l’unité mathématique verticale 1.</Value>
+    </Record>
+    <Record>
       <Key>VerticalBatchWritterSetup4</Key>
-      <Value>Allumez le {THING:StructureAutolathe}.</Value>
+      <Value>Allumez le {THING:StructureLogicBatchWriter}.</Value>
     </Record>
     <Record>
       <Key>PickUpLogicInputOutput</Key>
-      <Value>Prenez un {THING:ItemSiliconIngot} dans la caisse orange.</Value>
+      <Value>Prenez un {THING:ItemKitLogicInputOutput} dans la caisse.</Value>
     </Record>
     <Record>
       <Key>BatchWriter1</Key>
@@ -221,7 +291,7 @@ Pour rendre les panneaux solaires compatibles avec les capteurs, nous utilisons 
     </Record>
     <Record>
       <Key>HorizontalBatchWritterSetup4</Key>
-      <Value>Allumez le {THING:StructureAutolathe}.</Value>
+      <Value>Allumez le {THING:StructureLogicBatchWriter}.</Value>
     </Record>
     <Record>
       <Key>SleepMode</Key>
@@ -229,19 +299,31 @@ Pour rendre les panneaux solaires compatibles avec les capteurs, nous utilisons 
     </Record>
     <Record>
       <Key>LogicSelect1</Key>
-      <Value>Construisez un {THING:StructureGasSensor} à l&apos;endroit mis en surbrillance</Value>
+      <Value>Placez en premier la {THING:StructureLogicSelect} à l&apos;endroit en surbrillance.</Value>
     </Record>
     <Record>
       <Key>LogicSelect2</Key>
-      <Value>Construisez un {THING:StructureGasSensor} à l&apos;endroit mis en surbrillance</Value>
+      <Value>Placez ensuite un {THING:StructureLogicSelect} à l&apos;endroit mis en surbrillance</Value>
     </Record>
     <Record>
       <Key>SleepModeSetup</Key>
       <Value>Configuration du mode veille</Value>
     </Record>
     <Record>
+      <Key>SleepModePart2Task4</Key>
+      <Value>Activez le sélecteur de logique verticale.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModePart2Task8</Key>
+      <Value>Activez le sélecteur de logique horizontale.</Value>
+    </Record>
+    <Record>
       <Key>FinalStage</Key>
       <Value>Étape finale</Value>
+    </Record>
+    <Record>
+      <Key>FinalStageDescription</Key>
+      <Value>Pour que le mode veille fonctionne, réaffectez l’entrée de l’auteur de lots pour utiliser les unités de sélection logiques. Faites-le de la même façon que vous modifieriez n’importe quelle autre entrée : modifiez le périphérique d’entrée de chaque rédacteur de lot à son unité de sélection logique correspondante.</Value>
     </Record>
     <Record>
       <Key>TurnOnReader</Key>

@@ -7,18 +7,6 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
-      <Key>SlotLeftHand</Key>
-      <Title>Ruční sloty</Title>
-      <Text>Vaše ruce jsou speciální sloty. Kdykoli máte jednu aktivní ruku, kterou používá vaše {COLORRED:Primární akce}. Chcete-li změnit aktivní ruku, stiskněte {KEY:SwapHands}. Se svou aktivní rukou můžete interagovat stisknutím tlačítka {KEY:ActiveHandSlot}, čímž se obsah aktivní položky otevře a zavře. Jako vždy můžete pomocí {KEY:MouseControl} vyvolat myš a takhle na ně působit. Další informace naleznete v části {LINK:InventoryPage:Inventář}.
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>SlotRightHand</Key>
-      <Title>Ruční sloty</Title>
-      <Text>Vaše ruce jsou speciální sloty. Kdykoli máte jednu aktivní ruku, kterou používá vaše {COLORRED:Primární akce}. Chcete-li změnit aktivní ruku, stiskněte {KEY:SwapHands}. Se svou aktivní rukou můžete interagovat stisknutím tlačítka {KEY:ActiveHandSlot}, čímž se obsah aktivní položky otevře a zavře. Jako vždy můžete pomocí {KEY:MouseControl} vyvolat myš a takto komunikovat. Další informace naleznete v části {LINK:InventoryPage:Inventář}.
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>FabricatorPage</Key>
       <Title>Konstruktéři</Title>
       <Text>Tyhle jsou napájené struktury, které mohou být použity k výrobě věcí, které potřebujete ve hře. Obvykle berou {LINK:IngotPage;ingoty}, aby poskytly {LINK:ReagentPage;činidla}, která potřebují k výrobě věcí.
@@ -80,25 +68,6 @@ Pokud se podíváte přímo na strukturu, která je neúplná, získáte informa
       </Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>AlloyPage</Key>
-      <Title>Slitiny</Title>
-      <Text>Vytvořeny v {THING:StructureFurnace} nebo v {THING:StructureAdvancedFurnace} od speciálních {LINK:ReagentPage;činidel} směsí, jedná se o pokročilé {LINK:IngotPage;ingoty} pro použití ve {LINK:FabricatorPage;konstruktérech}. {THING:StructureArcFurnace} není schopná je roztavit.
-
-{HEADER:Seznam slitin}
-{LIST_OF_ALLOYS}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>SuperAlloyPage</Key>
-      <Title>Superslitiny</Title>
-      <Text>
-        Vytvořené v {THING:StructureAdvancedFurnace} z několika speciálních {LINK:ReagentPage;činidel}, jsou velmi pokročilé {LINK:IngotPage;ingoty} pro použití v {LINK:FabricatorPage;konstruktérech}. {THING:StructureArcFurnace} a {THING:StructureFurnace} nejsou schopni je roztavit.
-
-{HEADER:Seznam superslitin}
-{LIST_OF_SUPER_ALLOYS}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>OrePage</Key>
       <Title>Rudy</Title>
       <Text>Jedná se o položky, které jsou {LINK:MiningPage;vytěžené} a často mohou být {LINK:SmeltingPage;taveny}. Můžete také získat smíšené rudy recyklací položek v {THING:StructureRecycler} a předáním přes {THING:StructureCentrifuge}, který ji rozdělí na {LINK:OrePage;rudy} pro {LINK:SmeltingPage;tavení}.
@@ -128,8 +97,7 @@ Existují některé rudy, které roztají, když jsou vystaveny slunečnímu zá
     <StationpediaPage>
       <Key>ToolPage</Key>
       <Title>Nástroje</Title>
-      <Text>Toto jsou položky, které se vejdou do speciálního slotu pro nástroje a používají se pro {LINK:ConstructionPage;konstrukce} a další úkoly.
-      
+      <Text>Toto jsou položky, které se vejdou do speciálního slotu a používají se pro {LINK:ConstructionPage;konstrukce} a další úkoly.
 {HEADER:Seznam nástrojů}
 {LIST_OF_TOOLS}
       </Text>
@@ -138,7 +106,6 @@ Existují některé rudy, které roztají, když jsou vystaveny slunečnímu zá
       <Key>ResourcePage</Key>
       <Title>Zdroje</Title>
       <Text>Jedná se o položky, které jsou spotřebovány během {LINK:ConstructionPage;konstrukce} a dalších úkolu.
-      
 {HEADER:Seznam zdrojů}
 {LIST_OF_RESOURCES}
       </Text>
@@ -193,37 +160,38 @@ K zahájení musíte mít alespoň 3 základní moduly a všechny hráče sedíc
       {/LIST}
       </Text>
     </StationpediaPage>
-    <StationpediaPage>
-      <Key>RocketShuttleModulesHelpPage</Key>
-      <Title>Raketoplán</Title>
-      <Text>{HEADER:Modulární raketový náklad}
+    <!-- <StationpediaPage>
+          <Key>RocketShuttleModulesHelpPage</Key>
+          <Title>Rocket Shuttle Modules</Title>
+          <Text>{HEADER:Modular Rocket Cargo}
 
-{THING:StructureModularRocketCargo01} má kapacitu pro dvě bedny s deseti sloty. Na raketě můžete mít více nákladových modulů. Raketa může zvednout celkem až sedm modulů.
+The {THING:StructureModularRocketCargo01} has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total.
 
-{HEADER:Modulární raketové velení}
+{HEADER:Modular Rocket Command}
 
-{THING:StructureModularRocketCommand01} musí být umístěna na vrcholu rakety. Posoudí připravenost rakety k letu. Jakmile jsou splněny všechny podmínky, může být raketa vypuštěna, když všichni hráči sedí v modulu stisknutím tlačítka ‘Spuštění’ na konzoli.
+The {THING:StructureModularRocketCommand01} must be placed on top of the rocket. It will assess the rocket’s readiness for flight. Once all conditions are met, the rocket can be launched when all players are seated in the module by pressing ‘Launch’ on the console.
 
-Pro spuštění musí být splněny následující podmínky:
+The following conditions must be met for launch:
 
-Palivo plné
-Poměr směsi paliva správný
-Všichni hráči sedící
-Napájení do odpalovací rampy
-Plně postavená raketa
+Fuel full
+Fuel mix ratio correct
+All players seated
+Power supplied to the launch pad
+Fully built rocket
 
-Konzole {THING:StructureModularRocketCommand01} zobrazuje aktuální stav těchto podmínek. Nevyžaduje atmosféru pro zvednutí - atmosféra vašeho obleku je dostatečná.
+The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient.
 
-{HEADER:Modulární raketový motor}
+{HEADER:Modular Rocket Engine}
 
-{THING:StructureModularRocketEngine01} je schopen zvednout až sedm modulů (včetně sebe).
+The {THING:StructureModularRocketEngine01} is capable of lifting up to seven modules (including itself).
 
-{HEADER:Modulární raketová palivová nádrž}
+{HEADER:Modular Rocket Fuel Tank}
 
-{THING:StructureModularRocketFueltank01} vyžaduje směs 2:1 {GAS:Volatiles} a {GAS:Oxygen}. Pokud směs překročí tyto proporce nebo umístíte do nádrže jiné plyny, konzole {THING:StructureModularRocketCommand01} zobrazí chybu ‘Neplatný’.
+The {THING:StructureModularRocketFueltank01} requires a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}. If the mixture exceeds these proportions, or you place other gases in the tank, the {THING:StructureModularRocketCommand01} console will display an ‘Invalid’ error.
 
           </Text>
-    </StationpediaPage>
+        </StationpediaPage>
+        -->
     <StationpediaPage>
       <Key>RocketShuttlePage</Key>
       <Title>Raketoplán</Title>

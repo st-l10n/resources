@@ -154,53 +154,40 @@
     </Record>
     <!-- Mission Stage: Spawn Mothership & Engine -->
     <Record>
-      <Key>MarsTitleCreateMothership</Key>
-      <Value>Création d&apos;un vaisseau mère</Value>
+      <Key>MarsTitleCreateRocket</Key>
+      <Value>Création d&apos;une fusée</Value>
     </Record>
     <Record>
-      <Key>MarsTabletStage5</Key>
-      <Value>LIEU D&apos;ATTERRISSAGE</Value>
+      <Key>MarsDescCreateRocket</Key>
+      <Value>Créer une fusée en créant un {THING:StructureLaunchPad} en utilisant un {THING:ItemKitStructureLaunchPad} et en y attachant les modules nécessaires.</Value>
     </Record>
     <Record>
-      <Key>MarsDescCreateMothership</Key>
-      <Value>Créer un vaisseau mère en créant un {THING:MothershipCore} en utilisant {THING:ItemKitMotherShipCore} et en lui attachant un {THING:StructureRocketEngine}</Value>
+      <Key>MarsTaskBuildLaunchPad</Key>
+      <Value>Construire une {THING:StructureLaunchPad}</Value>
     </Record>
     <Record>
-      <Key>MarsTaskSpawnMothershipCore</Key>
-      <Value>Utiliser un {THING:ItemKitMotherShipCore}</Value>
+      <Key>MarsTaskBuildEngine</Key>
+      <Value>Construire le {THING:StructureModularRocketEngine01}</Value>
     </Record>
     <Record>
-      <Key>MarsTaskAttachEngine</Key>
-      <Value>Attachez une {THING:StructureRocketEngine} à la {THING:MothershipCore}</Value>
+      <Key>MarsTaskBuildFuelTank</Key>
+      <Value>Construire le {THING:StructureModularRocketFueltank01}</Value>
     </Record>
     <Record>
-      <Key>MarsTitleLaunchMothership</Key>
-      <Value>Lancement d&apos;un vaisseau mère</Value>
+      <Key>MarsTaskBuildCommand</Key>
+      <Value>Construire le {THING:StructureModularRocketCommand01}</Value>
     </Record>
     <Record>
-      <Key>MarsTabletStage5Page1</Key>
-      <Value>PAGE 1 of 2 \nPAUSE DE LANCEMENT\nAvec la nourriture sous contrôle, vous avez maintenant du vrai travail à faire.  Obtenir les ressources nécessaires pour construire et alimenter un vaisseau pour sortir de cet planète ne sera pas facile. Vous aurez besoin d&apos;alliages avancés et d&apos;un système sûr pour gérer la fontes des glaces et créer/stocker une grande quantité de carburant.</Value>
+      <Key>MarsTitleLaunchRocket</Key>
+      <Value>Lancement de la fusée</Value>
     </Record>
     <Record>
-      <Key>MarsTabletStage5Page2</Key>
-      <Value>PAGE 2 of 2\nLe strict minimum dont vous aurez besoin pour vote vaisseau est un noyau avec deux moteurs attachés et orientés dans la bonne direction et une ancre stellaire qui, une fois allumée et éteinte, permettra à votre navire de se déplacer. Un siège de contrôle n&apos;est pas nécessaire si vous êtes assez courageux pour conduire les moteurs à la main, mais c&apos;est fortement recommandé.</Value>
-    </Record>
-    <!-- Mission Stage: Launch -->
-    <Record>
-      <Key>MarsDescLaunchMothership</Key>
-      <Value>Décollez dans l&apos;espace et récupérer votre place dans les cieux!</Value>
+      <Key>MarsDescLaunchRocket</Key>
+      <Value>Après avoir alimenté en carburant votre fusée toute neuve, vous pouvez enfin retourner à la civilisation.</Value>
     </Record>
     <Record>
       <Key>MarsTaskLaunchMothership</Key>
-      <Value>Atteignez une altitude de 100M avec votre vaisseau-mère</Value>
-    </Record>
-    <Record>
-      <Key>MarsTabletStage6</Key>
-      <Value>S ENFUIR</Value>
-    </Record>
-    <Record>
-      <Key>MarsTabletStage6Page1</Key>
-      <Value>PAGE 1 of 1 \nDECOLLAGE\nPlutôt evident.  Il est temps de quitter le sol.  Assurez-vous d&apos;avoir suffisamment de carburant pour vos moteurs!  Bonne chance!</Value>
+      <Value>Lancer la fusée</Value>
     </Record>
   </Interface>
 </Language>

@@ -7,18 +7,6 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
-      <Key>SlotLeftHand</Key>
-      <Title>El Yuvaları</Title>
-      <Text>Ellerin özel yuvalardır. Herhangi bir zamanda mevcuttaki {COLORRED:Primary Action}&apos;ni kullanman için bir etkin elin vardır.Etkin elini değiştirmek için {KEY:SwapHands} tuşuna bas. Etkin elin ile, içeriğini açıp kapayabileceğin {KEY:ActiveHandSlot} tuşuna basarak etkileşime geçebilirsin. Her zaman olduğu gibi, fareyi ortaya çıkarmak ve bu şekilde etkileşime geçebilmek için {KEY:MouseControl} tuşunu kullanabilirsin. Daha fazla bilgi için {LINK:InventoryPage;Envanter} bölümüne bak.
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>SlotRightHand</Key>
-      <Title>El Yuvaları</Title>
-      <Text>Ellerin özel yuvalardır. Herhangi bir zamanda, mevcuttaki {COLORRED:Primary Action}&apos;ini kullanabileceğin bir etkin elin vardır. Etkin elini değiştirmek için {KEY:SwapHands} tuşuna bas. Etkin elin ile, içeriğini açıp kapatabileceğin {KEY:ActiveHandSlot} tuşuna basarak etkileşime geçebilirsin. Her zaman olduğu gibi, fareyi ortaya çıkarmak ve bu yol ile etkileşime geçmek için {KEY:MouseControl} tuşunu kullanabilirsin. Daha fazla bilgi için, {LINK:InventoryPage:Envanter} bölümüne bak.
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>FabricatorPage</Key>
       <Title>İmalatçı</Title>
       <Text>Bu makineler, oyunda ihtiyacın olan şeyleri Üretmek için kullanılan elektrikli Yapılardır. Birşeyleri yapmaları için ihtiyaç duydukları {LINK:ReagentPage;Reaktifler}i sağlamak için, genellikle {LINK:IngotPage;Külçeler} alırlar.
@@ -74,32 +62,15 @@ Eğer tamamlanmamış bir yapıya doğrudan bakarsan, tamamlanması için neleri
       </Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>AlloyPage</Key>
-      <Title>Alaşımlar</Title>
-      <Text>{LINK:FabricatorPage;İmalatçı}&apos;da kullanmak için, {THING:StructureFurnace}&apos;da, özelleştirilmiş {LINK:ReagentPage;Reaktif} karışımlardan üretilmiş gelişmiş {LINK:IngotPage;Külçeler}. {THING:StructureArcFurnace} bunları eritemez.
-
-{HEADER:Alaşımların Listesi}
-{LIST_OF_ALLOYS}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>SuperAlloyPage</Key>
-      <Title>Süperalaşımlar</Title>
-      <Text>
-        {LINK:FabricatorPage;İmalatçı}&apos;da kullanmak için, {THING:StructureFurnace}&apos;da, özelleştirilmiş {LINK:ReagentPage;Reaktif} karışımlardan üretilmiş çok gelişmiş {LINK:IngotPage;Külçeler}. {THING:StructureArcFurnace} ve {THING:StructureFurnace} bunları eritemez.
-
-{HEADER:Süperalaşımların Listesi}
-{LIST_OF_SUPER_ALLOYS}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>IngotPage</Key>
       <Title>Külçeler</Title>
-      <Text>Bunlar, tipik olarak {LINK:OrePage;Cevherler}i {LINK:SmeltingPage;Eritme} ile üretilen Öğelerdir.
+      <Text>Bunlar, tipik olarak {LINK:OrePage;cevher} {LINK:SmeltingPage;eritilerek} üretilen Öğelerdir.
       
 {HEADER:Külçelerin Listesi}
 {LIST_OF_INGOTS}
-      </Text>
+
+{HEADER:Alaşımların Listesi}
+{LIST_OF_INGOTS}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ToolPage</Key>
@@ -155,6 +126,38 @@ Eğer tamamlanmamış bir yapıya doğrudan bakarsan, tamamlanması için neleri
 {LIST_OF_APPLIANCES}
       </Text>
     </StationpediaPage>
+    <!-- <StationpediaPage>
+          <Key>RocketShuttleModulesHelpPage</Key>
+          <Title>Rocket Shuttle Modules</Title>
+          <Text>{HEADER:Modular Rocket Cargo}
+
+The {THING:StructureModularRocketCargo01} has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total.
+
+{HEADER:Modular Rocket Command}
+
+The {THING:StructureModularRocketCommand01} must be placed on top of the rocket. It will assess the rocket’s readiness for flight. Once all conditions are met, the rocket can be launched when all players are seated in the module by pressing ‘Launch’ on the console.
+
+The following conditions must be met for launch:
+
+Fuel full
+Fuel mix ratio correct
+All players seated
+Power supplied to the launch pad
+Fully built rocket
+
+The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient.
+
+{HEADER:Modular Rocket Engine}
+
+The {THING:StructureModularRocketEngine01} is capable of lifting up to seven modules (including itself).
+
+{HEADER:Modular Rocket Fuel Tank}
+
+The {THING:StructureModularRocketFueltank01} requires a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}. If the mixture exceeds these proportions, or you place other gases in the tank, the {THING:StructureModularRocketCommand01} console will display an ‘Invalid’ error.
+
+          </Text>
+        </StationpediaPage>
+        -->
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
@@ -181,24 +184,16 @@ Yanma{POS:300}{2}{3}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ThingSlotItemTemplate</Key>
-      <Text>{0}. {POS:100}{1} {POS:300}Tür {2}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ThingStackTemplate</Key>
-      <Text>İstif Boyutu {POS:300}{0}</Text>
+      <Text>{0}. {1} Tip {2}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ThingTransmissibleTemplate</Key>
       <Text>{POS:300}{THING:StructureLogicTransmitter} bağlar</Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>ThingNutritionTemplate</Key>
-      <Text>En Fazla Beslenme {POS:300}{0}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>IceMeltingTemplate</Key>
-      <Text>Erime Sıcaklığı {POS:300}{1}
-Erime Basıncı {POS:300}{0}</Text>
+      <Text>Erime Sıcaklığı {1}
+Erime Basıncı {0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>CreatorsHeaderTemplate</Key>
@@ -233,10 +228,6 @@ Erime Basıncı {POS:300}{0}</Text>
       </Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>CreatorTemplate</Key>
-      <Text>{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>LogicTypeHeaderTemplate</Key>
       <Text>{HEADER:Mantık}{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
@@ -255,32 +246,28 @@ Erime Basıncı {POS:300}{0}</Text>
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>ModeStringItemTemplate</Key>
-      <Text>{0}.{POS:100}{1}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>ReagentPageTemplate</Key>
       <Text>Bir {LINK:ReagentPage;reaktif}, çoğu zaman {LINK:IngotPage;Külçeler} biçiminde kullanılır.
 
-{HEADER:General}
-{LIST}Birim {POS:300}{1}{/LIST}
+{HEADER:Genel}
+{LIST}Birim {1}{/LIST}
 
-{HEADER:Found In}
+{HEADER:İçinde Bulunan}
 {LIST}{2}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageTemplate</Key>
-      <Text>{LINK:SmeltingPage;eritme} işleminde, çoğunlukla bir {LINK:GasPage;gaz} açığa çıkar.
+      <Text>{LINK:SmeltingPage;Eritme} işleminde, çoğunlukla bir {LINK:GasPage;gaz} açığa çıkar.
 
-{HEADER:General}
-{LIST}Belirli Sıcaklık {POS:300}{1}{2}{/LIST}
+{HEADER:Genel}
+{LIST}Özısı {1}{2}{/LIST}
 
-{HEADER:Found In}
+{HEADER:İçinde Bulunan}
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageFlamableTemplate</Key>
-      <Text>Alevlenme Sınırı {POS:300}{0} ile {1}</Text>
+      <Text>Alevlenme Sınırı {0} ile {1}</Text>
     </StationpediaPage>
   </HelpPage>
 </Language>

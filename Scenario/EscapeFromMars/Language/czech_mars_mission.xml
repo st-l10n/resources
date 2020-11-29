@@ -121,7 +121,7 @@
     </Record>
     <Record>
       <Key>MarsTabletStage3Page4</Key>
-      <Value>STRÁNKA 4 z 5 \nPLYNOVÝ GENERÁTOR \nTím bude získána energie ze spalování v důsledku zapálení směsi vodíku a kyslíku. Čisté vypálení bude mít za následek vyšší výkon, ale budete muset pečlivě řídit množství paliva, které je zdrojem a pravděpodobně budete používat transformátor k omezení výkonu nebo budete mít přetížené kabely.</Value>
+      <Value>STRÁNKA 4 z 5 \nGENERÁTOR NA PLYN \nTím bude získána energie ze spalování v důsledku zapálení směsi vodíku a kyslíku. Čisté vypálení bude mít za následek vyšší výkon, ale budete muset pečlivě řídit množství paliva, které je zdrojem a pravděpodobně budete používat transformátor k omezení výkonu nebo budete mít přetížené kabely.</Value>
     </Record>
     <Record>
       <Key>MarsTabletStage3Page5</Key>
@@ -158,53 +158,40 @@
     </Record>
     <!-- Mission Stage: Spawn Mothership & Engine -->
     <Record>
-      <Key>MarsTitleCreateMothership</Key>
-      <Value>Vytvoření mateřské lodi</Value>
+      <Key>MarsTitleCreateRocket</Key>
+      <Value>Vytvoření rakety</Value>
     </Record>
     <Record>
-      <Key>MarsTabletStage5</Key>
-      <Value>VESMÍRNÉ HLÍDÁNÍ</Value>
+      <Key>MarsDescCreateRocket</Key>
+      <Value>Vytvořte raketu vytvořením {THING:StructureLaunchPad} a připojením požadovaných modulů k ní.</Value>
     </Record>
     <Record>
-      <Key>MarsDescCreateMothership</Key>
-      <Value>Vytvořte mateřskou loď vyrobením {THING:MothershipCore} pomocí {THING:ItemKitMotherShipCore} a připojením {THING:StructureRocketEngine}</Value>
+      <Key>MarsTaskBuildLaunchPad</Key>
+      <Value>Zkonstruujte raketovou odpalovací rampu</Value>
     </Record>
     <Record>
-      <Key>MarsTaskSpawnMothershipCore</Key>
-      <Value>Použijte {THING:ItemKitMotherShipCore}</Value>
+      <Key>MarsTaskBuildEngine</Key>
+      <Value>Zkonstruujte raketový motor</Value>
     </Record>
     <Record>
-      <Key>MarsTaskAttachEngine</Key>
-      <Value>Připojte {THING:StructureRocketEngine} na {THING:MothershipCore}</Value>
+      <Key>MarsTaskBuildFuelTank</Key>
+      <Value>Zkonstruujte raketovou palivovou nádrž</Value>
     </Record>
     <Record>
-      <Key>MarsTitleLaunchMothership</Key>
-      <Value>Odpálení mateřské lodi</Value>
+      <Key>MarsTaskBuildCommand</Key>
+      <Value>Zkonstruujte raketový příkazový modul</Value>
     </Record>
     <Record>
-      <Key>MarsTabletStage5Page1</Key>
-      <Value>STRÁNKA 1 z 2 \n PŘERUŠENÍ STARTU \n S jídlem pod kontrolou, jste teď dostali opravdovou práci. Získání zdrojů ke stavbě lodi a získání dostatku paliva k dostání se z této skály nebude lehké. Budete potřebovat nějaké pokročilé slitiny a bezpečný systém k rozpouštění ledů a vytváření/skladování velkého množství paliva.</Value>
+      <Key>MarsTitleLaunchRocket</Key>
+      <Value>Odpálení rakety</Value>
     </Record>
     <Record>
-      <Key>MarsTabletStage5Page2</Key>
-      <Value>STRÁNKA 2 z 2\nMinimální, co budete potřebovat pro loď, je jádro s několika motory připojenými a směřujícími správným směrem a hvězdnou kotvu,která po zapnutí a vypnutí umožní vaší loď přesunout. Velitelská židle není potřeba, pokud jste natolik odvážní, že řídíte motory manuálně, ale důkladně jí doporučujeme.</Value>
-    </Record>
-    <!-- Mission Stage: Launch -->
-    <Record>
-      <Key>MarsDescLaunchMothership</Key>
-      <Value>Vyražte do vesmíru a zaberte zpět své místo na obloze!</Value>
+      <Key>MarsDescLaunchRocket</Key>
+      <Value>Po natankování nově postavené rakety se můžete konečně vrátit do civilizace.</Value>
     </Record>
     <Record>
       <Key>MarsTaskLaunchMothership</Key>
-      <Value>Odpalte svou mateřskou loď do výšky 100m</Value>
-    </Record>
-    <Record>
-      <Key>MarsTabletStage6</Key>
-      <Value>UNIKNI</Value>
-    </Record>
-    <Record>
-      <Key>MarsTabletStage6Page1</Key>
-      <Value>STRÁNKA 1 z 1 \nVZLET\nDocela vysvětlující. Vezměte tuhle věc ze země. Ujistěte se, že máte dostatek paliva pro vaše motory! Hodně štěstí!</Value>
+      <Value>Odpalte raketu</Value>
     </Record>
   </Interface>
 </Language>

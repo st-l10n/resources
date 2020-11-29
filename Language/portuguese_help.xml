@@ -7,16 +7,6 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
-      <Key>SlotLeftHand</Key>
-      <Title>Compartimentos das Mãos</Title>
-      <Text>As tuas mãos são compartimentos especiais, Tu tens sempre uma mão ativa, que é a mão que está a ser usada pela {COLORRED:Primary Action}. para mudar de mão ativa, carrega na tecla {KEY:SwapHands}. A tua mão ativa pode ser interagida carregando na tecla {KEY:ActiveHandSlot} a qual irá abrir e fechar os conteúdos nessa mão ativa. Como sempre, podes usar o {KEY:MouseControl} para fazeres aparecer o cursor do rato e interagir desse modo. Para mais informações, vê a secção {LINK:InventoryPage;Inventário}.</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>SlotRightHand</Key>
-      <Title>Compartimentos das Mãos</Title>
-      <Text>As tuas mãos são compartimentos especiais, Tu tens sempre uma mão ativa, que é a mão que está a ser usada pela {COLORRED:Primary Action}. para mudar de mão ativa, carrega na tecla {KEY:SwapHands}. A tua mão ativa pode ser interagida carregando na tecla {KEY:ActiveHandSlot} a qual irá abrir e fechar os conteúdos nessa mão ativa. Como sempre, podes usar o {KEY:MouseControl} para fazeres aparecer o cursor do rato e interagir desse modo. Para mais informações, vê a secção {LINK:InventoryPage;Inventory}.</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>FabricatorPage</Key>
       <Title>Fabricadores</Title>
       <Text>Estes são Estruturas ligadas à energia que podem ser usadas para fabricar coisas que precisas no jogo. Eles usam {LINK:IngotPage;lingotes} para providenciar os {LINK:ReagentPage;reagentes} que eles precisam para fazem os itens.
@@ -65,25 +55,6 @@ Se olhares diretamente para uma estrutura que está incompleta obterás informa�
       
 {HEADER:Lista de Reagentes}
 {LIST_OF_REAGENTS}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>AlloyPage</Key>
-      <Title>Ligas</Title>
-      <Text>Criadas numa {THING:StructureFurnace} ou {THING:StructureAdvancedFurnace} com misturas específicas de {LINK:ReagentPage;Reagentes}, estes são {LINK:IngotPage;Lingotes} avançados para serem usados em {LINK:FabricatorPage;Fabricadores}. O {THING:StructureArcFurnace} não é capaz de os fundir.
-
-{HEADER:Lista de Ligas}
-{LIST_OF_ALLOYS}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>SuperAlloyPage</Key>
-      <Title>Super-Ligas</Title>
-      <Text>
-        Criadas numa {THING:StructureAdvancedFurnace} com misturas específicas de {LINK:ReagentPage;Reagentes}, estes são {LINK:IngotPage;Lingotes} avançados para serem usados em {LINK:FabricatorPage;Fabricadores}. O {THING:StructureArcFurnace} e a {THING:StructureFurnace} não é capaz de os fundir.
-
-{HEADER:Lista de Super-Ligas}
-{LIST_OF_SUPER_ALLOYS}
       </Text>
     </StationpediaPage>
     <StationpediaPage>
@@ -152,6 +123,38 @@ Estes são minérios que derretem se forem expostos ao sol ou a calor e produzem
 {LIST_OF_APPLIANCES}
       </Text>
     </StationpediaPage>
+    <!-- <StationpediaPage>
+          <Key>RocketShuttleModulesHelpPage</Key>
+          <Title>Rocket Shuttle Modules</Title>
+          <Text>{HEADER:Modular Rocket Cargo}
+
+The {THING:StructureModularRocketCargo01} has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total.
+
+{HEADER:Modular Rocket Command}
+
+The {THING:StructureModularRocketCommand01} must be placed on top of the rocket. It will assess the rocket’s readiness for flight. Once all conditions are met, the rocket can be launched when all players are seated in the module by pressing ‘Launch’ on the console.
+
+The following conditions must be met for launch:
+
+Fuel full
+Fuel mix ratio correct
+All players seated
+Power supplied to the launch pad
+Fully built rocket
+
+The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient.
+
+{HEADER:Modular Rocket Engine}
+
+The {THING:StructureModularRocketEngine01} is capable of lifting up to seven modules (including itself).
+
+{HEADER:Modular Rocket Fuel Tank}
+
+The {THING:StructureModularRocketFueltank01} requires a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}. If the mixture exceeds these proportions, or you place other gases in the tank, the {THING:StructureModularRocketCommand01} console will display an ‘Invalid’ error.
+
+          </Text>
+        </StationpediaPage>
+        -->
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |

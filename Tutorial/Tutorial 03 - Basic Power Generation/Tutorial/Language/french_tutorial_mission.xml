@@ -4,7 +4,7 @@
   <Interface>
     <Record>
       <Key>03BasicPowerGeneration</Key>
-      <Value>Base de la production d’électricité</Value>
+      <Value>#3 Base de la production d’électricité</Value>
     </Record>
     <Record>
       <Key>BasicPowerGenerationDescription</Key>
@@ -16,7 +16,7 @@
     </Record>
     <Record>
       <Key>TutorialWireCuttingDescription</Key>
-      <Value>Bienvenue Cadet, votre première tâche sera de nettoyer certains vieux fils brûlés. Utilisez la {THING:ItemWireCutters} de votre {SLOT:Belt} pour les supprimer.</Value>
+      <Value>Bienvenue Cadet, votre première tâche sera de nettoyer de vieux fils brûlés. Utilisez la {THING:ItemWireCutters} de votre {SLOT:Belt} pour les supprimer.</Value>
     </Record>
     <Record>
       <Key>TutorialWireCuttingTask1</Key>
@@ -53,7 +53,7 @@
     <Record>
       <Key>GoingSolarTask2</Key>
       <Value>Les kits peuvent être utilisés pour construire différentes variantes des structures. Pour construire ce {THING:StructureSolarPanel}, vous pouvez choisir la variante à l’aide de la roue de défilement de la souris.
-Couvrez la zone en surbrillance avec l&apos;image du panneau solaire. N’oubliez pas d’utiliser {KEY:QuantityModifier} pour faire pivoter l’image dans la position correcte.</Value>
+Couvrez la zone en surbrillance avec l&apos;image du panneau solaire. N’oubliez pas d’utiliser la touche {KEY:QuantityModifier} pour faire pivoter l’image dans la position correcte.</Value>
     </Record>
     <Record>
       <Key>TutorialGoingSolarpart2</Key>
@@ -108,13 +108,13 @@ N’oubliez pas d’utiliser la roue de défilement pour sélectionner la varian
     </Record>
     <Record>
       <Key>TutorialPowerControlersAndbatteryCharges</Key>
-      <Value>Batterie et contrôleurs d’alimentation</Value>
+      <Value>Batteries et contrôleurs d’alimentation</Value>
     </Record>
     <Record>
       <Key>TutorialPowerControlersAndbatteryChargesDescription</Key>
-      <Value>Dans notre prochaine étape, nous devons placer un {THING:StructureAreaPowerControl}. Ils sont utilisés pour contrôler le flux d’alimentation et empêcher les câbles de brûler. Equipé d&apos;une batterie, ils peuvent également fournir une petite quantité d&apos;électricité si l&apos;alimentation  principale est hors service.
+      <Value>Dans notre prochaine étape, nous devons placer un {THING:StructureAreaPowerControl}. Ils sont utilisés pour contrôler le flux d’alimentation et empêcher les câbles de brûler. Equipé d&apos;une batterie, ils peuvent également fournir une petite quantité d&apos;électricité si l&apos;alimentation principale est hors service.
 
-Deuxièmement, nous devons ajouter un {THING:StructureBatteryCharger} pour recharger nos batteries épuisées. Nous mettont le {THING:StructureBatteryCharger} en amont notre {THING:StructureAreaPowerControl} afin que le rechargement de la batterie ne vide pas la batterie dans le {THING:StructureAreaPowerControl}.</Value>
+Deuxièmement, nous devons ajouter un {THING:StructureBatteryCharger} pour recharger nos batteries épuisées. Nous mettrons le {THING:StructureBatteryCharger} en amont notre {THING:StructureAreaPowerControl} afin que le rechargement de la batterie ne vide pas la batterie dans le {THING:StructureAreaPowerControl}.</Value>
     </Record>
     <Record>
       <Key>PowerControlersAndbatteryChargesTask1</Key>
@@ -170,7 +170,7 @@ Deuxièmement, nous devons ajouter un {THING:StructureBatteryCharger} pour recha
     </Record>
     <Record>
       <Key>SettingUpThePowerControllerTask2</Key>
-      <Value>Ouvrez le {THING:StructureAreaPowerControl} avec {THING:ItemCrowbar}.</Value>
+      <Value>Ouvrez le {THING:StructureAreaPowerControl} avec le {THING:ItemCrowbar}.</Value>
     </Record>
     <Record>
       <Key>SettingUpThePowerControllerTask3</Key>

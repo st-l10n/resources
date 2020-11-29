@@ -7,144 +7,276 @@
       <Value>#11 Base des Fusées</Value>
     </Record>
     <Record>
+      <Key>Tutorial-BasicRocketryDescription</Key>
+      <Value>Apprenez à construire et à préparer des fusées pour leur lancement</Value>
+    </Record>
+    <Record>
+      <Key>LaunchPlatforms</Key>
+      <Value>Débuter en fuséologie</Value>
+    </Record>
+    <Record>
+      <Key>LaunchPlatformsDescription</Key>
+      <Value>Avant de pouvoir lancer une fusée, vous devez construire une {THING:StructureLaunchPad}.</Value>
+    </Record>
+    <Record>
+      <Key>LaunchPlatformsTask1</Key>
+      <Value>Suivez la passerelle jusqu’au site de lancement et prenez le {THING:ItemKitStructureLaunchPad} sur la caisse blanche.</Value>
+    </Record>
+    <Record>
       <Key>LaunchPlatformsTask2</Key>
-      <Value>Construisez un {THING:StructureGasSensor} à l&apos;endroit mis en surbrillance</Value>
+      <Value>Construisez un {THING:StructureLaunchPad} dans la zone en surbrillance.</Value>
+    </Record>
+    <Record>
+      <Key>LaunchPlatforms2</Key>
+      <Value>Création de l&apos;aire de lancement</Value>
+    </Record>
+    <Record>
+      <Key>LaunchPlatformsDescription2</Key>
+      <Value>L&apos;{THING:StructureLaunchPad} est le point d&apos;ancrage principal, tous les modules de la fusée s&apos;y connectent.</Value>
     </Record>
     <Record>
       <Key>WeildSteelPlatesL</Key>
-      <Value>Soudez le {THING:ItemPlasticSheets} à la {THING:StructureAutolathe}&apos;.</Value>
+      <Value>Soudez les {THING:ItemSteelSheets} à l&apos;{THING:StructureLaunchPad}.</Value>
     </Record>
     <Record>
       <Key>ElectronicsL</Key>
-      <Value>Déposez le sur la {THING:StructureBench}</Value>
+      <Value>Fixer les {THING:ItemElectronicParts} à l&apos;{THING:StructureLaunchPad}.</Value>
+    </Record>
+    <Record>
+      <Key>RocketEngines</Key>
+      <Value>Moteurs de fusée</Value>
+    </Record>
+    <Record>
+      <Key>RocketEnginesDescription</Key>
+      <Value>Le {THING:StructureModularRocketEngine01} transforme le carburant en poussée verticale, permettant à la fusée de décoller et d’échapper à la gravité de la planète.</Value>
     </Record>
     <Record>
       <Key>RocketEnginesTask1</Key>
-      <Value>Prenez un {THING:ItemCopperIngot} dans la caisse orange.</Value>
+      <Value>Prenez le {THING:ItemKitStructureModularRocketEngine01} dans la caisse de gauche. </Value>
     </Record>
     <Record>
       <Key>RocketEnginesTask2</Key>
-      <Value>Construisez un {THING:StructureActiveVent} à l&apos;endroit mis en surbrillance</Value>
+      <Value>Construisez un {THING:StructureModularRocketEngine01} dans la zone en surbrillance.</Value>
+    </Record>
+    <Record>
+      <Key>RocketEngines2</Key>
+      <Value>Ingénierie des fusées 101</Value>
+    </Record>
+    <Record>
+      <Key>RocketEngines2Description</Key>
+      <Value>Contrairement à la croyance populaire, la construction d’un moteur de fusée est très facile. Vous avez juste besoin d’acier, de plastique et d’électronique.</Value>
     </Record>
     <Record>
       <Key>RocketEngines2Task1</Key>
-      <Value>Soudez le {THING:ItemPlasticSheets} à la {THING:StructureAutolathe}&apos;.</Value>
+      <Value>Soudez les {THING:ItemSteelSheets} au {THING:StructureModularRocketEngine01}</Value>
     </Record>
     <Record>
       <Key>RocketEngines2Task2</Key>
-      <Value>Soudez le {THING:ItemPlasticSheets} à la {THING:StructureAutolathe}&apos;.</Value>
+      <Value>Soudez les {THING:ItemPlasticSheets} au {THING:StructureModularRocketEngine01}</Value>
     </Record>
     <Record>
       <Key>RocketEngines2Task3</Key>
-      <Value>Ramasser les {THING:ItemGlassSheets}.</Value>
+      <Value>Fixer les {THING:ItemElectronicParts} au {THING:StructureModularRocketEngine01}</Value>
+    </Record>
+    <Record>
+      <Key>FuelTanks</Key>
+      <Value>Réservoirs de carburant</Value>
+    </Record>
+    <Record>
+      <Key>FuelTanksDescription</Key>
+      <Value>Le réservoir de carburant est le prochain module de la fusée. Vous pouvez avoir plusieurs modules de réservoir de carburant sur une fusée pour transporter plus de carburant. Cela vous permettra de prendre plus de fret avec vous.</Value>
     </Record>
     <Record>
       <Key>FuelTanksTask1</Key>
-      <Value>Prenez un {THING:ItemCopperIngot} dans la caisse orange.</Value>
+      <Value>Prenez un {THING:ItemKitStructureModularRocketFueltank01} dans la caisse à gauche.</Value>
     </Record>
     <Record>
       <Key>FuelTanksTask2</Key>
-      <Value>Construisez un {THING:StructureActiveVent} à l&apos;endroit mis en surbrillance</Value>
+      <Value>Construisez un {THING:StructureModularRocketFueltank01} dans la zone en surbrillance</Value>
+    </Record>
+    <Record>
+      <Key>FuelTanks2</Key>
+      <Value>Réservoirs de carburant</Value>
+    </Record>
+    <Record>
+      <Key>FuelTanks2Description</Key>
+      <Value>Les fusées des Stationeers utilisent le même carburant que d’autres objets nécessitant du gaz inflammable comme le chalumeau ou le Générateur à gaz. Un rapport de 2:1 de volatiles et d’oxygène fournit la combustion la plus propre.</Value>
     </Record>
     <Record>
       <Key>FuelTanks2Task1</Key>
-      <Value>Insérez le {THING:ItemDataDisk} dans la {THING:StructureConsole}.</Value>
+      <Value>Fixez les {THING:ItemKitTank} dans le {THING:StructureModularRocketFueltank01} avec votre {THING:ItemWrench}.</Value>
     </Record>
     <Record>
       <Key>FuelTanks2Task2</Key>
-      <Value>Soudez le {THING:ItemPlasticSheets} à la {THING:StructureAutolathe}&apos;.</Value>
+      <Value>Soudez les {THING:ItemSteelSheets} au {THING:StructureModularRocketFueltank01}</Value>
     </Record>
     <Record>
       <Key>FuelTanks2Task3</Key>
-      <Value>Ramasser les {THING:ItemGlassSheets}.</Value>
+      <Value>Attachez les {THING:ItemElectronicParts} au {THING:StructureModularRocketFueltank01}</Value>
     </Record>
     <Record>
       <Key>CargoModule</Key>
       <Value>Module Gargo</Value>
     </Record>
     <Record>
+      <Key>CargoModuleDescription</Key>
+      <Value>Le module cargo vous permet d’emporter de l’équipement et des appareils jusqu’à votre prochaine destination. Vous pouvez construire plus d’un module de chargement, mais ils doivent être tous au-dessus des réservoirs de carburant.</Value>
+    </Record>
+    <Record>
       <Key>CargoModuleTask1</Key>
-      <Value>Prenez un {THING:ItemCopperIngot} dans la caisse orange.</Value>
+      <Value>Prenez un {THING:ItemKitStructureModularRocketCargo01} dans la caisse de gauche</Value>
     </Record>
     <Record>
       <Key>CargoModuleTask2</Key>
-      <Value>Construisez un {THING:StructureGasSensor} à l&apos;endroit mis en surbrillance</Value>
+      <Value>Construisez un {THING:StructureModularRocketCargo01} dans la zone en surbrillance</Value>
+    </Record>
+    <Record>
+      <Key>CargoModule2</Key>
+      <Value>Construction du module cargo</Value>
+    </Record>
+    <Record>
+      <Key>CargoModule2Description</Key>
+      <Value>La construction du {THING:StructureModularRocketCargo01} est similaire à celle d’autres modules de fusée. Construire plus de modules ajoutera plus de poids à la fusée et nécessitera plus de carburant pour sortir du champ gravitationnel de la planète.</Value>
     </Record>
     <Record>
       <Key>CargoModule2Task1</Key>
-      <Value>Soudez le {THING:ItemPlasticSheets} à la {THING:StructureAutolathe}&apos;.</Value>
+      <Value>Soudez les {THING:ItemSteelSheets} au {THING:StructureModularRocketCargo01}.</Value>
     </Record>
     <Record>
       <Key>CargoModule2Task2</Key>
-      <Value>Soudez le {THING:ItemPlasticSheets} à la {THING:StructureAutolathe}&apos;.</Value>
+      <Value>Soudez les {THING:ItemPlasticSheets} au {THING:StructureModularRocketCargo01}.</Value>
     </Record>
     <Record>
       <Key>CargoModule2Task3</Key>
-      <Value>Ramasser les {THING:ItemGlassSheets}.</Value>
+      <Value>Attachez les {THING:ItemElectronicParts} au {THING:StructureModularRocketFueltank01}</Value>
+    </Record>
+    <Record>
+      <Key>CommandMod</Key>
+      <Value>Module de commande</Value>
+    </Record>
+    <Record>
+      <Key>CommandModDescription</Key>
+      <Value>Le module de commande est la dernière partie de la fusée, c&apos;est ici que se trouve l&apos;ordinateur central. C’est aussi ce module qui contrôle la destination finale de la fusée.</Value>
     </Record>
     <Record>
       <Key>CommandModTask1</Key>
-      <Value>Prenez un {THING:ItemCopperIngot} dans la caisse orange.</Value>
+      <Value>Prenez un {THING:ItemKitStructureModularRocketCommand01} dans la caisse de gauche</Value>
     </Record>
     <Record>
       <Key>CommandModTask2</Key>
-      <Value>Placez un autre {THING:StructureActiveVent} à l&apos;endroit en surbrillance.</Value>
+      <Value>Placez le {THING:StructureModularRocketCommand01} dans la zone en surbrillance</Value>
+    </Record>
+    <Record>
+      <Key>CommandMod2</Key>
+      <Value>Construction du module de commande</Value>
+    </Record>
+    <Record>
+      <Key>CommandMod2Description</Key>
+      <Value>Équipé d’un blindage thermique extérieur et d’une vitre en verre d&apos;alumino-silicate trempé, le module de commande peut quitter et retourner dans l’atmosphère d’une planète sans risque pour les Stationeers à bord. Il est entièrement isolé, avec une unité de climatisation active et des épurateurs de dioxyde de carbone pour maintenir une température et une atmosphère optimale.</Value>
     </Record>
     <Record>
       <Key>CommandMod2Task1</Key>
-      <Value>Soudez le {THING:ItemPlasticSheets} à la {THING:StructureAutolathe}&apos;.</Value>
+      <Value>Soudez les {THING:ItemSteelSheets} au {THING:StructureModularRocketCommand01}</Value>
     </Record>
     <Record>
       <Key>CommandMod2Task2</Key>
-      <Value>Soudez le {THING:ItemPlasticSheets} à la {THING:StructureAutolathe}&apos;.</Value>
+      <Value>Soudez les {THING:ItemPlasticSheets} au {THING:StructureModularRocketCommand01}</Value>
     </Record>
     <Record>
       <Key>CommandMod2Task3</Key>
-      <Value>Ramasser les {THING:ItemGlassSheets}.</Value>
+      <Value>Fixez les {THING:ItemElectronicParts} au {THING:StructureModularRocketCommand01}</Value>
+    </Record>
+    <Record>
+      <Key>FuelUp</Key>
+      <Value>Faire le plein</Value>
+    </Record>
+    <Record>
+      <Key>FuelUpDescription</Key>
+      <Value>Il est temps d’alimenter la fusée. Un mélange de carburant est prêt dans le grand réservoir de carburant. Vous devrez compléter la tuyauterie du module de carburant de fusée nouvellement construite. Le module de commande a une réserve d’oxygène mais ce n’est pas essentiel, car avec votre combinaison, vous aurez suffisamment d&apos;oxygène pour le vol.</Value>
     </Record>
     <Record>
       <Key>FuelUpStraight</Key>
-      <Value>Placez un autre {THING:StructureActiveVent} à l&apos;endroit en surbrillance.</Value>
+      <Value>Placez un {THING:StructureInsulatedPipeStraight} dans la zone en surbrillance</Value>
     </Record>
     <Record>
       <Key>FuelUpCorner</Key>
-      <Value>Placez un autre {THING:StructureActiveVent} à l&apos;endroit en surbrillance.</Value>
+      <Value>Placez un {THING:StructureInsulatedPipeCorner} dans la zone en surbrillance</Value>
+    </Record>
+    <Record>
+      <Key>NoPower</Key>
+      <Value>Pas d&apos;électricité</Value>
+    </Record>
+    <Record>
+      <Key>NoPowerDescription</Key>
+      <Value>La fusée ne semble pas avoir d&apos;électricité. Vérifiez le {THING:StructureAreaPowerControl} situé derrière l’ascenseur.</Value>
     </Record>
     <Record>
       <Key>NoPower1</Key>
-      <Value>Allumez le {THING:StructureAutolathe}.</Value>
+      <Value>Allumez le {THING:StructureAreaPowerControl}</Value>
     </Record>
     <Record>
       <Key>SettingTheDestination</Key>
       <Value>Définir une destination</Value>
     </Record>
     <Record>
+      <Key>SettingTheDestinationDescription</Key>
+      <Value>Avant le lancement, il est préférable de programmer l’ordinateur de bord avec une destination valide, ou bien vous pourriez vous retrouver au milieu de nulle part. Dans ce cas, nous voulons voyager vers Mimas, l&apos;une des lunes de Saturne. A l&apos;aide d&apos;une {THING:StructureLogicWriter}, vous pouvez programmer l&apos;ID de la planète dans le {TNING:StructureModularRocketCommand01}.</Value>
+    </Record>
+    <Record>
       <Key>SettingTheDestination1</Key>
       <Value>Ouvrir la Stationpedia</Value>
     </Record>
     <Record>
+      <Key>SettingTheDestination2</Key>
+      <Value>Accédez à la section&lt;color=#0080FFFF&gt;{LINK:TravelPage;Travel}&lt;/color&gt;, lisez comment définir des destinations, puis cliquez sur les coordonnées de Mimas : -712314497 (pour les copier dans le presse-papiers)</Value>
+    </Record>
+    <Record>
       <Key>SettingTheDestination3</Key>
-      <Value>Prenez un {THING:ItemCopperIngot} dans la caisse orange.</Value>
+      <Value>Prenez l&apos;{THING:ItemLabeller} dans la caisse de gauche</Value>
     </Record>
     <Record>
       <Key>SettingTheDestination4</Key>
-      <Value>Ouvrez le {THING:StructureAreaPowerControl} avec {THING:ItemCrowbar}.</Value>
+      <Value>Inscrivez les coordonnées de Mimas (-712314497) dans l&apos;{THING:StructureLogicMemory} en utilisant l&apos;{THING:ItemLabeller}</Value>
     </Record>
     <Record>
       <Key>SettingTheDestination5</Key>
-      <Value>Ouvrez le {THING:StructureAreaPowerControl} avec {THING:ItemCrowbar}.</Value>
+      <Value>Définissez la valeur IN de l&apos;{THING:StructureLogicWriter} sur l&apos;{THING:StructureLogicMemory} en utilisant votre {THING:ItemScrewdriver}</Value>
     </Record>
     <Record>
       <Key>SettingTheDestination6</Key>
-      <Value>Ouvrez le {THING:StructureAreaPowerControl} avec {THING:ItemCrowbar}.</Value>
+      <Value>Définissez la valeur OUT de l&apos;{THING:StructureLogicWriter} sur l&apos;{THING:StructureLaunchPad} en utilisant votre {THING:ItemScrewdriver}</Value>
     </Record>
     <Record>
       <Key>SettingTheDestination7</Key>
-      <Value>Ouvrez le {THING:StructureAreaPowerControl} avec {THING:ItemCrowbar}.</Value>
+      <Value>Définissez la valeur LogicType du {THING:StructureLogicWriter} à &quot;Setting&quot; en utilisant votre {THING:ItemScrewdriver}</Value>
     </Record>
     <Record>
       <Key>SettingTheDestination8</Key>
-      <Value>Allumez le {THING:StructureArcFurnace}.</Value>
+      <Value>Pour finir, Allumez l&apos;{THING:StructureLogicWriter}. Toutes les étapes précédentes doivent être validées.</Value>
+    </Record>
+    <Record>
+      <Key>FuelUpValve</Key>
+      <Value>Alimentation en carburant</Value>
+    </Record>
+    <Record>
+      <Key>FuelUpValveDescription</Key>
+      <Value>La dernière partie de la préparation de la fusée est d&apos;ouvrir la vanne de carburant et de remplir le réservoir de la fusée.</Value>
+    </Record>
+    <Record>
+      <Key>FuelUpValveTask1</Key>
+      <Value>Ouvrez la {THING:StructureValve} de carburant, située au-dessus de la salle contenant les unités logiques.</Value>
+    </Record>
+    <Record>
+      <Key>LaunchRocket</Key>
+      <Value>L&apos;heure du décollage</Value>
+    </Record>
+    <Record>
+      <Key>LaunchRocketDescription</Key>
+      <Value>Il est temps de décoller ! Prenez l’ascenseur jusqu’au dernier étage, vous pouvez entrer dans le module de commande. Ensuite, appuyez sur le bouton LAUNCH (décollage).</Value>
+    </Record>
+    <Record>
+      <Key>LaunchRocketTask1</Key>
+      <Value>Lancer la fusée</Value>
     </Record>
   </Interface>
 </Language>

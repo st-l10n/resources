@@ -7,18 +7,6 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
-      <Key>SlotLeftHand</Key>
-      <Title>手部槽位</Title>
-      <Text>你的双手是一种特殊的插槽。你永远都有一只手是处于使用状态的，可以通过按 {COLORRED:鼠标左键} 来用手与物品交互. 要切换到另一只手, 按 {KEY:SwapHands}. 你可以按 {KEY:ActiveHandSlot} 键来查看你当前手中物品的内容. 同样的, 你可以按住 {KEY:MouseControl} 来用鼠标完成这些操作. 更多信息, 请看 {LINK:InventoryPage;库存} 一节.
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>SlotRightHand</Key>
-      <Title>手部槽位</Title>
-      <Text>你的双手是一种特殊的插槽。你永远都有一只手是处于使用状态的，可以通过按 {COLORRED:鼠标左键} 来用手与物品交互. 要切换到另一只手, 按 {KEY:SwapHands}. 你可以按 {KEY:ActiveHandSlot} 键来查看你当前手中物品的内容. 同样的, 你可以按住 {KEY:MouseControl} 来用鼠标完成这些操作. 更多信息, 请看 {{LINK:InventoryPage:Inventory}库存} 一节.
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>FabricatorPage</Key>
       <Title>装配机器</Title>
       <Text>这些是需要通电来加工制造你需要的物品的设备。 他们通常用{LINK:IngotPage;锭块}来提供制造东西所需的{LINK:ReagentPage;化学原料}。
@@ -77,25 +65,6 @@
       
 {HEADER:气体列表}
 {LIST_OF_GASES}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>AlloyPage</Key>
-      <Title>合金</Title>
-      <Text>从 {THING:StructureFurnace} 或 {THING:StructureAdvancedFurnace} 按特定的 {LINK:ReagentPage;化学原料}比例 混合制造, 其中高级 {LINK:IngotPage;锭块} 同样也是 {LINK:FabricatorPage;装配机器} 制造物品的材料. {THING:StructureArcFurnace} 无法生产这些高级锭块。
-
-{HEADER:合金列表}
-{LIST_OF_ALLOYS}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>SuperAlloyPage</Key>
-      <Title>超级合金</Title>
-      <Text>
-        从 {THING:StructureAdvancedFurnace} 按特定比例的 {LINK:ReagentPage;化学原料} 混合物中制造, 这些东西是非常高级的 {LINK:IngotPage;锭块} 也同样用于 {LINK:FabricatorPage;装配机器} 的生产原料.{THING:StructureArcFurnace} 和 {THING:StructureFurnace} 不能生成这些。
-
-{HEADER:超级合金列表}
-{LIST_OF_SUPER_ALLOYS}
       </Text>
     </StationpediaPage>
     <StationpediaPage>
@@ -189,6 +158,38 @@
       {/LIST}
       </Text>
     </StationpediaPage>
+    <!-- <StationpediaPage>
+          <Key>RocketShuttleModulesHelpPage</Key>
+          <Title>Rocket Shuttle Modules</Title>
+          <Text>{HEADER:Modular Rocket Cargo}
+
+The {THING:StructureModularRocketCargo01} has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total.
+
+{HEADER:Modular Rocket Command}
+
+The {THING:StructureModularRocketCommand01} must be placed on top of the rocket. It will assess the rocket’s readiness for flight. Once all conditions are met, the rocket can be launched when all players are seated in the module by pressing ‘Launch’ on the console.
+
+The following conditions must be met for launch:
+
+Fuel full
+Fuel mix ratio correct
+All players seated
+Power supplied to the launch pad
+Fully built rocket
+
+The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient.
+
+{HEADER:Modular Rocket Engine}
+
+The {THING:StructureModularRocketEngine01} is capable of lifting up to seven modules (including itself).
+
+{HEADER:Modular Rocket Fuel Tank}
+
+The {THING:StructureModularRocketFueltank01} requires a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}. If the mixture exceeds these proportions, or you place other gases in the tank, the {THING:StructureModularRocketCommand01} console will display an ‘Invalid’ error.
+
+          </Text>
+        </StationpediaPage>
+        -->
     <StationpediaPage>
       <Key>RocketShuttlePage</Key>
       <Title>火箭</Title>

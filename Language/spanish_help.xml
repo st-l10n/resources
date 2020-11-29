@@ -7,17 +7,6 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
-      <Key>SlotLeftHand</Key>
-      <Title>Ranuras de mano</Title>
-      <Text>Tus manos son ranuras especiales. Tienes una mano activa en cualquier momento, que es la mano que está siendo usada por tu {COLORRED:Primary Action}. Para cambiar la mano activa, pulse {KEY:SwapHands}. Puede interactuar con su mano activa pulsando {KEY:ActiveHandSlot} que abrirá y cerrará el contenido de su mano activa. Como siempre, puede usar {KEY:MouseControl} para abrir el ratón e interactuar de esa manera. Para obtener más información, consulte la sección {LINK:InventoryPage:Inventory}.</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>SlotRightHand</Key>
-      <Title>Ranuras de mano</Title>
-      <Text>Tus manos son ranuras especiales. Tienes una mano activa en cualquier momento, que es la mano que está siendo usada por tu {COLORRED:Primary Action}. Para cambiar la mano activa, pulse {KEY:SwapHands}. Puede interactuar con su mano activa pulsando {KEY:ActiveHandSlot} que abrirá y cerrará el contenido de su mano activa. Como siempre, puede usar {KEY:MouseControl} para abrir el ratón e interactuar de esa manera. Para obtener más información, consulte la sección {LINK:InventoryPage:Inventory}.
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>FabricatorPage</Key>
       <Title>Impresora Informatizada</Title>
       <Text>Se trata de estructuras motorizadas que se pueden utilizar para fabricar las cosas que necesitas en el juego. Usualmente toman {LINK:IngotPage;Ingots} para proporcionar {LINK:ReagentPage;Reagents} que necesitan para hacer las cosas.
@@ -71,24 +60,6 @@ Si observa directamente una estructura que está incompleta, obtendrá informaci
       </Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>AlloyPage</Key>
-      <Title>Aleaciones</Title>
-      <Text>Creados en la {THING:StructureFurnace} a partir de mezclas especializadas {LINK:ReagentPage;Reagent} son mezclas avanzadas,{LINK:IngotPage;Ingots} para su uso en {LINK:FabricatorPage;Fabricators}. El {THING:StructureArcFurnace} no es capaz de olerlos.
-
-{HEADER:List of Alloys}
-{LIST_OF_ALLOYS}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>SuperAlloyPage</Key>
-      <Title>Superaleación</Title>
-      <Text>Creados en la {THING:StructureFurnace} a partir de mezclas especializadas {LINK:ReagentPage;Reagent} son mezclas avanzadas,{LINK:IngotPage;Ingots} para su uso en {LINK:FabricatorPage;Fabricators}. El {THING:StructureArcFurnace} no es capaz de olerlos.
-
-{HEADER:List of Alloys}
-{LIST_OF_ALLOYS}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>OrePage</Key>
       <Title>Minerales</Title>
       <Text>Estos son artículos que son {LINK:MiningPage;mined} y a menudo pueden ser {LINK:SmeltingPage;smelted}. También puede obtener mineral mezclado reciclando artículos en el {THING:StructureRecycler} y luego pasándolo a través del {THING:StructureCentrifuge} que lo dividirá en {LINK:OrePage;ore} para {LINK:SmeltingPage;smelting}.
@@ -119,8 +90,7 @@ Hay algunos minerales que se funden cuando se exponen a la luz solar o al calor 
     <StationpediaPage>
       <Key>ToolPage</Key>
       <Title>Herramientas</Title>
-      <Text>Estos son elementos que pueden caber en una ranura de herramienta especializada y se utilizan para {LINK:ConstructionPage;Construction} y otras tareas.
-      
+      <Text>Estos son artículos que pueden caber en una ranura de herramientas especializadas, y se utilizan para {LINK:ConstructionPage;Construction} y otras tareas.
 {HEADER:List of Tools}
 {LIST_OF_TOOLS}
       </Text>
@@ -128,8 +98,7 @@ Hay algunos minerales que se funden cuando se exponen a la luz solar o al calor 
     <StationpediaPage>
       <Key>ResourcePage</Key>
       <Title>Recursos</Title>
-      <Text>Estos son los artículos que se consumen durante {LINK:ConstructionPage;Construction} y otras tareas.
-      
+      <Text>Estos son artículos que se consumen durante {LINK:ConstructionPage;Construction} y otras tareas.
 {HEADER:List of Resources}
 {LIST_OF_RESOURCES}
       </Text>
@@ -175,37 +144,38 @@ Necesitas al menos 3 módulos centrales y todos los jugadores sentados en un coh
       {/LIST}
       </Text>
     </StationpediaPage>
-    <StationpediaPage>
-      <Key>RocketShuttleModulesHelpPage</Key>
-      <Title>Módulos del transbordador de cohetes</Title>
-      <Text>{HEADER:Modular Rocket Cargo}
+    <!-- <StationpediaPage>
+          <Key>RocketShuttleModulesHelpPage</Key>
+          <Title>Rocket Shuttle Modules</Title>
+          <Text>{HEADER:Modular Rocket Cargo}
 
-La {THING:StructureModularRocketCargo01} tiene capacidad para dos cajas de diez ranuras. Puede tener múltiples módulos de carga en su cohete. El cohete puede levantar hasta siete módulos en total.
+The {THING:StructureModularRocketCargo01} has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total.
 
 {HEADER:Modular Rocket Command}
 
-La {THING:StructureModularRocketCommand01} debe ser colocada en la parte superior del cohete. Evaluará la preparación del cohete para el vuelo. Una vez que se cumplan todas las condiciones, el cohete puede ser lanzado cuando todos los jugadores estén sentados en el módulo, presionando &apos;Lanzamiento&apos; (Launch) en la consola.
+The {THING:StructureModularRocketCommand01} must be placed on top of the rocket. It will assess the rocket’s readiness for flight. Once all conditions are met, the rocket can be launched when all players are seated in the module by pressing ‘Launch’ on the console.
 
-Para el lanzamiento deben cumplirse las siguientes condiciones:
+The following conditions must be met for launch:
 
-Combustible lleno
-La proporción de la mezcla de combustible es correcta
-Todos los jugadores sentados
-La energía suministrada a la plataforma de lanzamiento
-Un cohete completamente construido
+Fuel full
+Fuel mix ratio correct
+All players seated
+Power supplied to the launch pad
+Fully built rocket
 
-La consola {THING:StructureModularRocketCommand01} muestra el estado actual de estas condiciones. No requiere una atmósfera para el despegue, la atmósfera de tu traje es suficiente.
+The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient.
 
 {HEADER:Modular Rocket Engine}
 
-La {THING:StructureModularRocketEngine01} es capaz de levantar hasta siete módulos (incluyéndose a sí misma).
+The {THING:StructureModularRocketEngine01} is capable of lifting up to seven modules (including itself).
 
 {HEADER:Modular Rocket Fuel Tank}
 
-La {THING:StructureModularRocketFueltank01} requiere una mezcla 2:1 de {GAS:Oxygen} y {GAS:Volatiles}. Si la mezcla excede estas proporciones, o se colocan otros gases en el tanque, la consola de {THING:StructureModularRocketCommand01} mostrará un error de &apos;Invalid&apos;.
+The {THING:StructureModularRocketFueltank01} requires a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}. If the mixture exceeds these proportions, or you place other gases in the tank, the {THING:StructureModularRocketCommand01} console will display an ‘Invalid’ error.
 
-</Text>
-    </StationpediaPage>
+          </Text>
+        </StationpediaPage>
+        -->
     <StationpediaPage>
       <Key>RocketShuttlePage</Key>
       <Title>Lanzador del cohete</Title>

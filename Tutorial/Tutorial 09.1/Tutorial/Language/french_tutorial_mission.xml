@@ -11,16 +11,28 @@
       <Value>Apprenez a mélanger des métaux et obtenir des alliages avancés.</Value>
     </Record>
     <Record>
+      <Key>GasSensors</Key>
+      <Value>Pression et temperature</Value>
+    </Record>
+    <Record>
+      <Key>GasSensorsDescription</Key>
+      <Value>Heureux de vous revoir Cadet. Allons à la fonderie !
+
+Le {THING:StructureFurnace} va fondre les minerais en lingots et en alliages, utile pour créer de nouveaux éléments technologiques.
+
+Votre première tâche consite a installer un {THING:CircuitboardGasDisplay} pour afficher la pression et la température à l&apos;intérieur du {THING:StructureFurnace}.</Value>
+    </Record>
+    <Record>
       <Key>GasSensorsTask1</Key>
-      <Value>Prenez un {THING:CircuitboardGasDisplay} dans la caisse orange.</Value>
+      <Value>Prenez un {THING:CircuitboardGasDisplay} dans la {THING:DynamicCrate} rouge.</Value>
     </Record>
     <Record>
       <Key>GasSensorsTask2</Key>
-      <Value>Insérez le {THING:CircuitboardGasDisplay} dans la {THING:StructureConsole}.</Value>
+      <Value>Insérez le {THING:CircuitboardGasDisplay} dans la {THING:StructureConsole} sur le mur derrière le {THING:StructureFurnace}.</Value>
     </Record>
     <Record>
       <Key>GasSensorsTask3</Key>
-      <Value>Prenez une {THING:ItemGlassSheets} dans la caisse orange.</Value>
+      <Value>Prenez une {THING:ItemGlassSheets} dans la {THING:DynamicCrate} rouge.</Value>
     </Record>
     <Record>
       <Key>GasSensorsTask4</Key>
@@ -49,7 +61,7 @@ Puis sélectionnez le périphérique en entrée de console, déroulez le menu et
     </Record>
     <Record>
       <Key>ConfigureGasSensorTask3</Key>
-      <Value>Sur la {THING:StructureConsole} sélectionnez le {THING:StructureFurnace} comme périphérique d’entrée, puis modifiez le mode en &apos;Temperature&apos;.</Value>
+      <Value>Sur la {THING:StructureConsole}, sélectionnez le {THING:StructureFurnace} comme périphérique d’entrée, puis modifiez le mode en &apos;Temperature&apos;.</Value>
     </Record>
     <Record>
       <Key>ConfigureGasSensorTask4</Key>
@@ -205,11 +217,11 @@ Avant de recharger le {THING:StructureFurnace} avec un mélange de carburant, vo
 
 Le mélange de carburant idéal est composé de 75% d&apos;hydrogène et 25% d&apos;oxygène.
 
-Assurez-vous de fermer le levier d&apos;ouverture du {THING:StructureFurnance}, avant de remplir le carburant.</Value>
+Assurez-vous de fermer le levier d&apos;ouverture du {THING:StructureFurnace}, avant de remplir le carburant.</Value>
     </Record>
     <Record>
       <Key>AddingFuelMixTask1</Key>
-      <Value>Ouvrez la vanne d’entrée sur le côté droit de {THING:StructureFurnace}</Value>
+      <Value>Ouvrez la {THING:StructureValve} d’entrée sur le côté droit de {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>AddingFuelMixTask3</Key>
@@ -233,11 +245,11 @@ Assurez-vous de fermer le levier d&apos;ouverture du {THING:StructureFurnance}, 
     </Record>
     <Record>
       <Key>NewAlloyTask1</Key>
-      <Value>insérez un {THING:ItemIronOre} dans le {THING:StructureFurnace}</Value>
+      <Value>Insérez le {THING:ItemIronOre} dans le {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>NewAlloyTask2</Key>
-      <Value>Insérez un {THING:ItemCoalOre} dans le {THING:StructureFurnace}</Value>
+      <Value>Insérez le {THING:ItemCoalOre} dans le {THING:StructureFurnace}</Value>
     </Record>
     <Record>
       <Key>NewAlloyTask3</Key>
@@ -259,7 +271,7 @@ Imprimez un {THING:ItemKitBattery} avec l&apos;{THING:StructureElectronicsPrinte
     </Record>
     <Record>
       <Key>WhatASteelTask2</Key>
-      <Value>Insérer le {THING:ItemSteelingot} dans l&apos;{THING:StructureElectronicsPrinter}</Value>
+      <Value>Insérer le {THING:ItemSteelIngot} dans l&apos;{THING:StructureElectronicsPrinter}</Value>
     </Record>
     <Record>
       <Key>WhatASteelTask3</Key>
