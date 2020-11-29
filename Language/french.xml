@@ -659,7 +659,7 @@
     <RecordThing>
       <Key>CircuitboardDoorControl</Key>
       <Value>Circuit Imprimé (Contrôle de porte)</Value>
-      <Description>Circuit Imprimé (Contrôle de porte)</Description>
+      <Description>Outil de base de la construction de la base &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt;, cette carte de circuit imprimé permet d’ouvrir et de fermer à distance une {THING:StructureCompositeDoor}, une {THING:StructureBlastDoor} ou une {THING:StructureGlassDoor}, lorsqu’il est connecté à une {THING:StructureConsole}. Ce système peut être lié à un {THING:StructureMotionSensor} pour créer des portes automatiques.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardGasDisplay</Key>
@@ -674,7 +674,10 @@
     <RecordThing>
       <Key>CircuitboardPowerControl</Key>
       <Value>Circuit Imprimé (Contrôle d&apos;alimentation)</Value>
-      <Description>Circuit Imprimé (Contrôle d&apos;alimentation)</Description>
+      <Description>Sous des soleils lointains et des environnements exigeants, les &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; doivent équilibrer leurs systèmes entre fiabilité, résilience et polyvalence. Le {THING:CircuitboardPowerControl} permet d’activer et de désactiver à distance les dispositifs sélectionnés. Cela désactive le fonctionnement manuel des dispositifs sous contrôle. 
+      
+Le circuit imprimé comporte deux modes : &apos;Link&apos; active ou désactive tous les dispositifs ; &apos;Toggle&apos; bascule chaque dispositif dans son état alternatif (actif ou inactif).
+</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardShipDisplay</Key>
