@@ -1226,7 +1226,7 @@ Pokud bylo vajíčko oplodněno a je udržováno mezi 20 ° C - 30 ° C, objeví
     <RecordThing>
       <Key>ItemMilk</Key>
       <Value>Mléko</Value>
-      <Description>Mléko</Description>
+      <Description>Úplné zveřejnění, ve skutečnosti to není &apos;mléko&apos;, ale syntéza {THING:ItemSoyOil} a {THING:ReagentFenoxitone} vyvinutá společností &lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero}&lt;/color&gt;, jemně smíchaná v {THING:ApplianceChemistryStation}. Je překvapivě sytá a lze ji použít jako přísadu k vaření jiného &lt;color=#0080FFFF&gt;{LINK:FoodPage;jídla}&lt;/color&gt; v {THING:ApplianceMicrowave}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningBelt</Key>
@@ -1901,6 +1901,12 @@ Základní směsi plynů lze dosáhnout přidáním {THING:ItemOxite} a {THING:I
       <Value>Gyroskop</Value>
     </RecordThing>
     <RecordThing>
+      <Key>StructureHydroponicsTray</Key>
+      <Value>Hydroponický zásobník</Value>
+      <Description>Hydroponický zásobník &lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero}&lt;/color&gt; je ideální nádobou pro pěstování různých druhů &lt;color=#0080FFFF&gt;{LINK:OrganicPage;rostlin}&lt;/color&gt;. Musí být zásobován vodou pomocí potrubní sítě a dostatečným světlem pro generování fotosyntézy.
+Lze jej automatizovat pomocí {THING:StructureHarvie}.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureIgniter</Key>
       <Value>Zapalovač</Value>
     </RecordThing>
@@ -2179,8 +2185,20 @@ Základní směsi plynů lze dosáhnout přidáním {THING:ItemOxite} a {THING:I
       <Value>Pojistka (100kW)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>StructureTransformer</Key>
+      <Value>Transformátor (Velký)</Value>
+      <Description>Velký transformátor &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; je rozhodující součástí rozšířených &lt;color=#0080FFFF&gt;{LINK:ElectronicPage;elektrických}&lt;/color&gt; sítí a řídí maximální výkon, který bude proudit po kabelu. Aby se zabránilo přetížení, lze nastavit výstup od 0 do 50 kW.
+Všimněte si, že transformátory fungují jako izolátory dat, které brání toku dat do jiné sítě.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemKitTransformer</Key>
       <Value>Souprava transformátor (Velký)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTransformerSmall</Key>
+      <Value>Transformátor (Malý)</Value>
+      <Description>Transformátory řídí maximální výkon, který bude proudit po kabelové síti, aby se zabránilo přetížení &lt;color=#0080FFFF&gt;{LINK:ElectronicPage;elektrických}&lt;/color&gt; systémů. Výstup na malých transformátorech lze nastavit od 0 do 5 kW.
+Všimněte si, že transformátory fungují jako izolátory dat, které brání toku dat do jiné sítě.</Description>
     </RecordThing>
     <RecordThing>
       <Key>WeaponPistolEnergy</Key>
@@ -2197,6 +2215,11 @@ Základní směsi plynů lze dosáhnout přidáním {THING:ItemOxite} a {THING:I
 Spolu s &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; nyní poskytuje Stationeerům způsob, jak vyrábět čisté ingoty různých zdrojů.
 Proces tavení také uvolňuje řadu vedlejších &lt;color=#0080FFFF&gt;{LINK:GasPage;plynů}&lt;/color&gt;, zejména &lt;color=#0080FFFF&gt;{LINK:GasPage;dusíku}&lt;/color&gt;, &lt;color=#0080FFFF&gt;{LINK:GasPage;oxidu uhličitého}&lt;/color&gt;, &lt;color=#0080FFFF&gt;{LINK:GasPage;těkavých látek}&lt;/color&gt; a &lt;color=#0080FFFF&gt;{LINK:GasPage;kyslíku}&lt;/color&gt; v různých poměrech. Ty lze zachytit z atmosféry filtrací, ale také to vytváří oblouková pec v uzavřeném prostředí.
 Na rozdíl od pokročilejší {THING:StructureFurnace} nemůže oblouková pec vytvářet &lt;color=#0080FFFF&gt;{LINK:IngotPage;slitiny}&lt;/color&gt;.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureAutolathe</Key>
+      <Value>Autosoustruh</Value>
+      <Description>Autosoustruh &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt;, který je základem většiny výrobních systémů &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeerů}&lt;/color&gt;, je víceosý systém molekulárního skládání. Jeho složitost vyžaduje značné množství času na sestavení, ale i tak zůstává nepostradatelným nástrojem pro výrobu.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFabrication</Key>
@@ -2405,6 +2428,12 @@ Na rozdíl od pokročilejší {THING:StructureFurnace} nemůže oblouková pec v
     <RecordThing>
       <Key>ItemKitToolManufactory</Key>
       <Value>Souprava (Výrobník nástrojů)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTransformerSmallReversed</Key>
+      <Value>Obrácený transformátor (Malý)</Value>
+      <Description>Transformátory řídí maximální výkon, který bude proudit po kabelové síti, aby se zabránilo přetížení &lt;color=#0080FFFF&gt;{LINK:ElectronicPage;elektrických}&lt;/color&gt; systémů. Výstup na malých transformátorech lze nastavit od 0 do 5 kW.
+Všimněte si, že transformátory fungují jako izolátory dat, které brání toku dat do jiné sítě.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicUnit</Key>
