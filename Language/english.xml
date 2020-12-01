@@ -1688,7 +1688,7 @@ The &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec-designed}&lt;/color&gt; K-cops 10
     <RecordThing>
       <Key>StructureActiveVent</Key>
       <Value>Active Vent</Value>
-      <Description>Fragments of the original &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; Handbook recovered from its self-induced singularity describe the design of active vents:
+      <Description>Fragments of the original &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; Handbook recovered from the singularity describe the design of active vents:
 ... active vent is a powered device for maintaining &lt;color=#0080FFFF&gt;{LINK:GasPage;gas}&lt;/color&gt; pressure by pumping gas into (or out of) a pipe network. The vent has two modes: 'Outward' sets it to pump gas into a space until pressure is reached; 'Inward' sets it to pump gas out until pressure is reached. The pressure parameter can be set on a connected {THING:StructureConsole}. Default pressure is 101kPa for Outward; 0kPa for Inward ...</Description>
     </RecordThing>
     <RecordThing>
@@ -2040,6 +2040,7 @@ It can be automated using the {THING:StructureHarvie}.</Description>
     <RecordThing>
       <Key>StructurePassiveVent</Key>
       <Value>Passive Vent</Value>
+      <Description>Passive vents allow gases to move into and out of pipe networks, which are closed systems unless connected to a device or structure. Passive vents are not powered, merely an aperture, essentially turning an enclosed space into part of the pipe network. </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeAnalysizer</Key>
@@ -5253,6 +5254,16 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemKitGrowLight</Key>
       <Value>Item Kit Grow Light</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureWeatherStation</Key>
+      <Value>Weather Station</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitWeatherStation</Key>
+      <Value>Kit (Weather Station)</Value>
       <Description />
     </RecordThing>
   </Things>
@@ -8864,6 +8875,10 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
       <Value>Returns the amount of mineables AIMEe has queued up to mine.</Value>
     </Record>
     <Record>
+      <Key>NextWeatherEventTime</Key>
+      <Value>Returns in seconds when the next weather event is inbound.</Value>
+    </Record>
+    <Record>
       <Key>ResearchFilter</Key>
       <Value>Filter</Value>
     </Record>
@@ -9896,7 +9911,7 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     </Record>
     <Record>
       <Key>ControlTurnOn</Key>
-      <Value>{KEY:SecondaryAction}</Value>
+      <Value>{KEY:ToggleHandPower}</Value>
     </Record>
     <Record>
       <Key>ControlTurnOnDisc</Key>
@@ -9913,6 +9928,14 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     <Record>
       <Key>WeatherEventsField</Key>
       <Value>Has Weather Events</Value>
+    </Record>
+    <Record>
+      <Key>ControlUseItemDisc</Key>
+      <Value>Use Item</Value>
+    </Record>
+    <Record>
+      <Key>ControlMineDisc</Key>
+      <Value>Mine Ore</Value>
     </Record>
   </Interface>
   <Colors>
