@@ -1574,8 +1574,7 @@ Základní deska třídiče K-cops 10-10 navržená společností &lt;color=#008
     <RecordThing>
       <Key>StructureActiveVent</Key>
       <Value>Aktivní ventilátor</Value>
-      <Description>Fragmenty původní ruční příručky &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeerů}&lt;/color&gt; získané z její samostatně vyvolané singularity popisují design aktivních ventilací:
-... aktivní ventilace je zařízení napájené k udržování tlaku &lt;color=#0080FFFF&gt;{LINK:GasPage;plynu}&lt;/color&gt; čerpáním plynu do (nebo z) potrubní sítě. Odvzdušnění má dva režimy: &apos;Vnější&apos; jej nastavuje na čerpání plynu do prostoru, dokud není dosaženo tlaku; Funkce &apos;Vnitřní&apos; nastavuje čerpání plynu, dokud není dosaženo tlaku. Parametr tlaku lze nastavit na připojené {THING:StructureConsole}. Výchozí tlak je 101kPa pro vnějíš; 0kPa pro vnitřní ...</Description>
+      <Description>Aktivní ventilátor</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirConditioner</Key>
@@ -1922,10 +1921,6 @@ Lze jej automatizovat pomocí {THING:StructureHarvie}.</Description>
     <RecordThing>
       <Key>StructureMotionSensor</Key>
       <Value>Snímač pohybu</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructurePassiveVent</Key>
-      <Value>Pasivní ventilátor</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeAnalysizer</Key>
@@ -9073,6 +9068,10 @@ Program náborů z oblasti stavebnictví, vojenského a leteckého průmyslu, v�
     <Record>
       <Key>WeatherEventsField</Key>
       <Value>Má události počasí</Value>
+    </Record>
+    <Record>
+      <Key>ControlMineDisc</Key>
+      <Value>MineRite</Value>
     </Record>
   </Interface>
   <Colors>

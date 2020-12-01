@@ -1188,8 +1188,7 @@
     <RecordThing>
       <Key>StructureActiveVent</Key>
       <Value>Ventilación Activa</Value>
-      <Description>Los fragmentos del manual &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; original recuperados de su singularidad autoinducida describen el diseño de ventilaciones activas:
-... la ventilación activa es un dispositivo motorizado para mantener la presión de &lt;color=#0080FFFF&gt;{LINK:GasPage;gas}&lt;/color&gt; bombeando gas dentro (o fuera) de una red de tuberías. El respiradero tiene dos modos: &quot;Hacia afuera&quot; lo configura para bombear gas en un espacio hasta que se alcanza la presión; &apos;Inward&apos; lo configura para bombear gas hasta que se alcanza la presión. El parámetro de presión se puede configurar en una {THING:StructureConsole} conectada. La presión predeterminada es 101 kPa para el exterior; 0kPa para el interior...</Description>
+      <Description>Ventilación Activa</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirlock</Key>
@@ -1352,10 +1351,6 @@ La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor c
     <RecordThing>
       <Key>StructureMotionSensor</Key>
       <Value>Sensor de Movimiento</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructurePassiveVent</Key>
-      <Value>Ventilación Pasiva</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeAnalysizer</Key>
@@ -8043,6 +8038,10 @@ Reclutando personas con experiencia en ingeniería civil, industrias militares y
     <Record>
       <Key>WeatherEventsField</Key>
       <Value>Tiene eventos meteorológicos</Value>
+    </Record>
+    <Record>
+      <Key>ControlMineDisc</Key>
+      <Value>MineRite</Value>
     </Record>
   </Interface>
   <Colors>

@@ -1532,11 +1532,7 @@ La carte mère de tri K-cops 10-10 conçue par &lt;color=#0080FFFF&gt;{LINK:Nors
     <RecordThing>
       <Key>StructureActiveVent</Key>
       <Value>Ventilation Active</Value>
-      <Description>Des fragments du Guide du Stationeers original récupérés de la singularité auto-induite décrivent la conception des {THING:StructureActiveVent} :
-... la ventilation active est un dispositif électrique pour varier la pression des &lt;color=#0080FFFF&gt;{LINK:GasPage;gaz}&lt;/color&gt; en pompant du gaz dans (ou hors) du réseau de canalisations. La {THING:StructureActiveVent} a deux modes : 
-- &apos;Outward&apos; permet de pomper le gaz dans un espace clos.
-- &apos;Inward&apos; permet d&apos;envoyer le gaz dans un espace clos.
-Le paramètre de pression peut être défini sur un {THING:StructureConsole}. La pression par défaut est de 101kPa pour Outward ; 0kPa pour Inward ...</Description>
+      <Description>Ventilation Active</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirConditioner</Key>
@@ -1853,10 +1849,6 @@ Un mélange de gaz de base peut être réalisé en ajoutant un {THING:ItemOxite}
     <RecordThing>
       <Key>StructureMotionSensor</Key>
       <Value>Capteur de Mouvement</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructurePassiveVent</Key>
-      <Value>Ventilation Passive</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeAnalysizer</Key>
@@ -8865,8 +8857,8 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
       <Value>Sélection du scénario</Value>
     </Record>
     <Record>
-      <Key>ControlTurnOn</Key>
-      <Value>{KEY:PrimaryAction}</Value>
+      <Key>ControlMineDisc</Key>
+      <Value>MineRite</Value>
     </Record>
   </Interface>
   <Colors>
