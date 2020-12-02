@@ -933,11 +933,11 @@ Si un œuf a été fertilisé, et s&apos;il est conservé entre 20°C et 30°C, 
     <RecordThing>
       <Key>ItemGasCanisterFuel</Key>
       <Value>Bouteille de Gaz (Carburant)</Value>
-      <Description>La bouteille orange de &lt;color=#0080FFFF&gt;{LINK:GasPage;fuel}&lt;/color&gt; fournit un mélange de 64L de 66 % de matières volatiles et 34 % d’oxygène pour alimenter des éléments tels que le {THING:ItemWeldingTorch} et le {THING:DynamicGenerator}. Lorsqu’elles sont fabriquées, les bouteilles de gaz sont remplies à une pression de 8000kPa (80 atmosphères). Elles peuvent être placées dans un {THING:DynamicGasCanisterAir} ou un {THING:StructureGasTankStorage} pour le remplissage. Attention de ne pas pressuriser au-delà de 100 kPA, ou BOUMM.</Description>
+      <Description>La bouteille orange de &lt;color=#0080FFFF&gt;{LINK:GasPage;fuel}&lt;/color&gt; fournit un mélange de 64L de 66 % d&apos;hydrogène et 34 % d’oxygène pour alimenter des éléments tels que le {THING:ItemWeldingTorch} et le {THING:DynamicGenerator}. Lorsqu’elles sont fabriquées, les bouteilles de gaz sont remplies à une pression de 8000kPa (80 atmosphères). Elles peuvent être placées dans un {THING:DynamicGasCanisterAir} ou un {THING:StructureGasTankStorage} pour le remplissage. Attention de ne pas pressuriser au-delà de 100 kPA, ou BOUMM.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterVolatiles</Key>
-      <Value>Bouteille de Gaz (Volatiles)</Value>
+      <Value>Bouteille de Gaz (Hydrogène)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterNitrogen</Key>
@@ -980,7 +980,7 @@ Si un œuf a été fertilisé, et s&apos;il est conservé entre 20°C et 30°C, 
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterVolatiles</Key>
-      <Value>Filtre (Volatiles)</Value>
+      <Value>Filtre (Hydrogène)</Value>
       <Description>Les filtres sont utilisés pour capter divers gaz, qui peuvent être éliminés ou utilisés ailleurs. Les &lt;color=#0080FFFF&gt;{LINK:GasPage;Volatiles}&lt;/color&gt; sont créés en exposant de la &lt;color=#0080FFFF&gt;{LINK:OrePage;glace (volatiles)}&lt;/color&gt; à la chaleur. Le gaz peut ensuite être collecté et combiné avec de l&apos;&lt;color=#0080FFFF&gt;{LINK:GasPage;oxygène}&lt;/color&gt; pour créer du carburant, ou utilisé dans un {THING:StructureFurnace} pour fusionner des minerais et créer des &lt;color=#0080FFFF&gt;{LINK:AlloyPage;alliages}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
