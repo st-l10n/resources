@@ -149,6 +149,10 @@
       <Value>Azote</Value>
     </Record>
     <Record>
+      <Key>Volatiles</Key>
+      <Value>Hydrogène</Value>
+    </Record>
+    <Record>
       <Key>Pollutant</Key>
       <Value>Polluant</Value>
     </Record>
@@ -746,7 +750,7 @@ Le circuit imprimé comporte deux modes : &apos;Link&apos; active ou désactive 
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterVolatiles</Key>
-      <Value>Réservoir portable (Volatiles)</Value>
+      <Value>Réservoir portable (Hydrogène)</Value>
       <Description>Les réservoirs portables stockent le gaz. Pour en remplir un, boulonnez-le sur un {THING:ItemTankConnector} à l’aide d’une {THING:ItemWrench}, puis connectez le tout à un réseau de tuyaux. Ne le remplissez pas au-dessus de 100 atmosphères, sauf si vous êtes du genre à aimer les urgences compliquées et inflammables. Vous pouvez remplir un {THING:ItemGasCanisterVolatiles} en le plaçant dans la section rayée du réservoir. Ou vous pouvez utiliser une {THING:ItemWrench} pour l’attacher à une fusée et le montrer tout autour du système solaire.</Description>
     </RecordThing>
     <RecordThing>
