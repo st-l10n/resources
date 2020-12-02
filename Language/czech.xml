@@ -689,7 +689,7 @@
     <RecordThing>
       <Key>CircuitboardAirControl</Key>
       <Value>Ovládání vzduchotechniky</Value>
-      <Description>Po přidání do {THING:StructureConsole} vám obvodové desky umožňují naprogramovat {THING:StructureActiveVent}. Stejně jako u malých psů a 83% lidí mají obvody řízení vzduchu pouze tři režimy: Tlak, Tah a Offline. Tlakový režim udržuje atmosféru 100 kPa a přepíná aktivní ventilaci mezi průtokem dovnitř a ven, dokud není dosaženo cílového tlaku. Režim Tah umožňuje spárovat aktivní ventilační otvory pro cirkulaci vzduchu. Režim offline deaktivuje odvětrání. </Description>
+      <Description>Po přidání do {THING:StructureConsole} vám obvodové desky umožňují naprogramovat {THING:StructureActiveVent}. Stejně jako u malých psů a 83% lidí mají i obvody řízení vzduchu pouze tři režimy: Tlak, Tah a Vypnuto. Režim &apos;Tlak&apos; udržuje atmosféru 100 kPa a přepíná aktivní ventilátor mezi průtokem dovnitř a ven, dokud není dosaženo cílového tlaku. Režim &apos;Tah&apos; umožňuje spárovat aktivní ventilátory pro cirkulaci vzduchu. Režim &apos;Vypnuto&apos; deaktivuje větrání.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardAirlockControl</Key>
@@ -1574,14 +1574,15 @@ Základní deska třídiče K-cops 10-10 navržená společností &lt;color=#008
     <RecordThing>
       <Key>StructureActiveVent</Key>
       <Value>Aktivní ventilátor</Value>
-      <Description>Aktivní ventilátor</Description>
+      <Description>Fragmenty původní příručky &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeerů}&lt;/color&gt; získané z jedinečného popisu principu aktivních ventilátorů:
+... aktivní ventilátor je napájené zařízení k udržování tlaku v místnosti čerpáním &lt;color=#0080FFFF&gt;{LINK:GasPage;plynů}&lt;/color&gt; do (nebo z) potrubní sítě. Ventilátor má dva režimy: Režim &apos;Ven&apos; odčerpá plyny do prostoru, dokud není dosaženo cílového tlaku; Režim &apos;Dovnitř&apos; čerpá plyny, dokud není dosaženo cílového tlaku. Parametr tlaku lze nastavit na připojené {THING:StructureConsole}, výchozí hodnota je 0 kPa pro ven a 101 kPa pro dovnitř...</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirConditioner</Key>
       <Value>Klimatizace</Value>
-      <Description>Klimatizační jednotka navržená společností &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt;, vyrobená pomocí {THING:ItemKitAtmospherics}, se používá ke zvýšení nebo snížení místní teploty.
-Jednotka má tři potrubní přípojky: vstupní, výstupní a odpadní. Připojte {THING:ItemActiveVent} ke vstupnímu portu jednotky a pasivní ventilaci k výstupnímu portu, aby jednotka mohla nasávat plyn skrz něj. Veďte potrubí z odpadního portu jednotky do vnějšku vaší základny, kde můžete přidat {THING:StructurePipeRadiator} pro rychlé zbavení nebo zvýšení teploty ze sítě.
-Pamatujte, že některé &lt;color=#0080FFFF&gt;{LINK:GasPage;plyny}&lt;/color&gt; jsou lepší chladicí kapaliny než jiné, ale pokud má potrubí chladicí kapaliny tlak nižší než 100kPa, nasaje svůj výkon, aby dosáhl potřebného tlaku.</Description>
+      <Description>Klimatizační jednotka navržená společností &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt;, postavená pomocí {THING:ItemKitAtmospherics}, se používá ke zvýšení nebo snížení teploty v okolí.
+Jednotka má tři potrubní přípojky: vstupní, výstupní a odpadní. Připojte {THING:ItemActiveVent} ke vstupnímu portu a {THING:ItemPassiveVent} k výstupnímu portu, aby přes jednotku mohl proudit vzduch. Z odpadního portu veďte potrubí mimo regulovanou oblast, kde můžete přidat {THING:StructurePipeRadiator} pro rychlé snížení nebo zvýšení teploty.
+Pamatujte, že některé &lt;color=#0080FFFF&gt;{LINK:GasPage;plyny}&lt;/color&gt; jsou lepší chladiva než jiná, ale pokud bude tlak chladiva v potrubí pod 100 kPa, odčerpá si ho jednotka pro dosažení potřebného tlaku.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirlock</Key>
@@ -8111,6 +8112,10 @@ Neuložený postup bude ztracen.</Value>
       <Value>Vrátí množství těžení, které AIMEe zařadil do fronty.</Value>
     </Record>
     <Record>
+      <Key>NextWeatherEventTime</Key>
+      <Value>Vrací sekundy do další atmosférické poruchy.</Value>
+    </Record>
+    <Record>
       <Key>ResearchFilter</Key>
       <Value>Filtr</Value>
     </Record>
@@ -9070,8 +9075,12 @@ Program náborů z oblasti stavebnictví, vojenského a leteckého průmyslu, v�
       <Value>Má události počasí</Value>
     </Record>
     <Record>
+      <Key>ControlUseItemDisc</Key>
+      <Value>Použijte předmět</Value>
+    </Record>
+    <Record>
       <Key>ControlMineDisc</Key>
-      <Value>MineRite</Value>
+      <Value>Vytěžte rudu</Value>
     </Record>
   </Interface>
   <Colors>
