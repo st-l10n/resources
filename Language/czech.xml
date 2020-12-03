@@ -1924,6 +1924,11 @@ Lze jej automatizovat pomocí {THING:StructureHarvie}.</Description>
       <Value>Snímač pohybu</Value>
     </RecordThing>
     <RecordThing>
+      <Key>StructurePassiveVent</Key>
+      <Value>Pasivní ventilátor</Value>
+      <Description>Pasivní ventilátor umožňuje plynům proudit z a do potrubní sítě, což je vlastně do připojení nějakého zařízení nebo konstrukce uzavřený systém. Pasivní ventilátor nepotřebuje napájení a vytvoří pouze větrací otvor v potrubní síti.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>StructurePipeAnalysizer</Key>
       <Value>Analyzátor potrubí</Value>
     </RecordThing>
@@ -5366,7 +5371,7 @@ POUŽITÍ: &apos;J&apos; pro aktivaci; &apos;mezerník&apos; k letu; &apos;levý
     </Record>
     <Record>
       <Key>FrozenOreHeader</Key>
-      <Value>Zmrazené rudy</Value>
+      <Value>Zmrzlé rudy</Value>
     </Record>
     <Record>
       <Key>CartridgeCategory</Key>
@@ -5386,7 +5391,7 @@ POUŽITÍ: &apos;J&apos; pro aktivaci; &apos;mezerník&apos; k letu; &apos;levý
     </Record>
     <Record>
       <Key>PowerTool</Key>
-      <Value>Elektrické nářadí</Value>
+      <Value>Elektrické nástroje</Value>
     </Record>
     <Record>
       <Key>SlotsTitle</Key>
@@ -5438,7 +5443,7 @@ POUŽITÍ: &apos;J&apos; pro aktivaci; &apos;mezerník&apos; k letu; &apos;levý
     </Record>
     <Record>
       <Key>PowerTools</Key>
-      <Value>Elektrické nářadí</Value>
+      <Value>Elektrické nástroje</Value>
     </Record>
     <Record>
       <Key>TraderErrorConnectWires</Key>
@@ -7345,11 +7350,11 @@ Neuložený postup bude ztracen.</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeCharge</Key>
-      <Value>vrací aktuální energetický náboj, který drží cestující ve slotu</Value>
+      <Value>vrací aktuální energetický náboj, který obsluhující slot drží</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeChargeRatio</Key>
-      <Value>vrací aktuální energetický náboj, který cestující ve slotu drží v poměru mezi 0 a 1 jeho maxima</Value>
+      <Value>vrací aktuální energetický náboj, který obsluhující slot drží jako poměr mezi 0 a 1 svého maxima</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeClass</Key>
