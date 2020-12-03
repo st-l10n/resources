@@ -418,10 +418,6 @@
       <Description>While countless 'better' ways of cooking &lt;color=#0080FFFF&gt;{LINK:FoodPage;Food}&lt;/color&gt; have been invented in the last few hundred years, few are as durable or easy to fabricate as the OK-Zoomer microwave. Licensed from &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt;, the plans are based on a classic model from the mid-21st century, giving it a charmingly retro feel. But don't worry, it oscillates water molecules more than adequately. Just bolt it to a bench, follow the recipe, and you're cooking.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>StructureEmergencyButton</Key>
-      <Value>Important Button</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>ApplianceReagentProcessor</Key>
       <Value>Reagent Processor</Value>
       <Description>Sitting somewhere between a high powered juicer and an alchemist's alembic, the &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; reagent processor turns certain raw materials and food items into cooking and crafting ingredients. Indispensible in any space kitchen, just bolt it to the bench, and you're ready to go.</Description>
@@ -2017,6 +2013,7 @@ A basic gas mixture can be achieved by adding {THING:ItemOxite} and {THING:ItemV
     <RecordThing>
       <Key>StructureGyroscope</Key>
       <Value>Gyroscope</Value>
+      <Description>An element of an ancient class of spaceship, the gyroscope allowed these vehicles to rotate in at least one of the universe's most popular directions.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHydroponicsTray</Key>
@@ -2027,15 +2024,18 @@ It can be automated using the {THING:StructureHarvie}.</Description>
     <RecordThing>
       <Key>StructureIgniter</Key>
       <Value>Igniter</Value>
+      <Description>It gets the party started. Especially if that party is an explosive gas mixture.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLocker</Key>
       <Value>Locker</Value>
-      <Description>If a tidy base is the sign of a ordered mind, lockers are the post upon which that sign sits.</Description>
+      <Description>If a tidy base is the sign of a ordered mind, lockers are the righteous post upon which that sign hangs.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureMotionSensor</Key>
       <Value>Motion Sensor</Value>
+      <Description>Originally developed to monitor dance marathons, the motion sensor can also be connect to {&lt;color=#0080FFFF&gt;{LINK:LogicPage;logic}&lt;/color&gt; systems for security purposes, automatic lighting, doors and various other applications.
+The sensor activates whenever a player enters the grid it is place on.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassiveVent</Key>
@@ -2045,58 +2045,84 @@ It can be automated using the {THING:StructureHarvie}.</Description>
     <RecordThing>
       <Key>StructurePipeAnalysizer</Key>
       <Value>Pipe Analyser</Value>
+      <Description>Allegedly the outcome of a weekend father-daughter electronics project by an overzealous {&lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; engineer, the pipe analyzer is essentially a more advanced version of the {THING:StructurePipeMeter}.
+Displaying the internal pressure of pipe networks, it  also reads out temperature and gas contents, and can be connected to a {THING:StructureConsole} or {THING:StructureComputer} via a {&lt;color=#0080FFFF&gt;{LINK:LogicPage;logic}&lt;/color&gt; system.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCorner</Key>
       <Value>Pipe (Corner)</Value>
+      <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
+Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60mPa. Beyond that, things get 'interesting'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction</Key>
       <Value>Pipe (Junction)</Value>
+      <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
+Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60mPa. Beyond that, things get 'interesting'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction3</Key>
       <Value>Pipe (3-Way Corner)</Value>
+      <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
+Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60mPa. Beyond that, things get 'interesting'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction5</Key>
       <Value>Pipe (5-Way Junction)</Value>
+      <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
+Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60mPa. Beyond that, things get 'interesting'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction6</Key>
       <Value>Pipe (6-Way Junction)</Value>
+      <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
+Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60mPa. Beyond that, things get 'interesting'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLabel</Key>
       <Value>Pipe Label</Value>
+      <Description>As its perspicacious name suggests, the pipe label is designed to be attached to a straight stretch of pipe. Users can then label the label with the {THING:ItemLabeller}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeMeter</Key>
       <Value>Pipe Meter</Value>
+      <Description>While the Stationeers program has, thus far, inspired little in the way of classical poetry, the following haiku was found etched, ironically, on a piece of pipe wreckage found on Vulcan:
+"Humble pipe meter
+speaks the truth, transmits pressure
+within any pipe"</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeRadiator</Key>
       <Value>Pipe Radiator</Value>
+      <Description>A simple heat exchanger, pipe radiators can be placed on pipes to shed or gain heat, depending on the temperature of the surrounding atmosphere. If the atmosphere is hotter, heat will be added the gas within the pipe network, and visa versa if colder. In a vacuum, heat will be radiated. 
+The speed of heat gain or loss will depend on the gas in question. Adding multiple radiators will sped up heat transfer.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeStraight</Key>
       <Value>Pipe (Straight)</Value>
+      <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
+Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60mPa. Beyond that, things get 'interesting'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeTJunction</Key>
       <Value>Pipe (T Junction)</Value>
+      <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
+Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60mPa. Beyond that, things get 'interesting'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerConnector</Key>
       <Value>Power Connector</Value>
+      <Description>Attaches a {THING:ItemKitDynamicGenerator} to a power network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePressureRegulator</Key>
       <Value>Pressure Regulator</Value>
+      <Description>Controlling the flow of gas between two pipe networks, pressure regulators shift gas until a set pressure on the outlet side is achieved, or the gas supply is exhausted. The back pressure regulator, by contrast, will only operate when pressure on the intake side exceeds the set value. With a max pressure of over 20,000kPa, it requires power to operate.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRailing</Key>
       <Value>Railing Industrial (Type 1)</Value>
+      <Description>"Safety third."</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketEngine</Key>
@@ -2113,6 +2139,7 @@ It can be automated using the {THING:StructureHarvie}.</Description>
     <RecordThing>
       <Key>StructureRTG</Key>
       <Value>Creative RTG</Value>
+      <Description>The {&lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt;RTG (radioisotope thermoelectric generator) uses the heat output of radioactive decay to generate voltage via a temperature differential across a thermocouple. Normally restricted to low energy devices, the RTG is rumored to exploit Zrillian engineering to achieve its improbably high power output.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSleeper</Key>
@@ -6222,7 +6249,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     </Record>
     <Record>
       <Key>LoulanShortDesc</Key>
-      <Value>Loulan, upon arrival you will notice a breathable atmosphere, high enough pressure to sustain life - but a severe lack of it. This Sandy giant is situated in the Gargantuan System, moving closer to the black hole situated in the centre each day. While abandoned and no longer green and full of water, this planet still has a functioning atmosphere and you are tasked with scouring the wasteland to acquire the materials and resources needed to survive on this everlasting desert.</Value>
+      <Value>Loulan, upon arrival you will notice a breathable atmosphere, high enough pressure to sustain life - but a severe lack of it. This sandy giant is situated in the Gargantuan System, moving closer to the black hole situated in the centre each day. While abandoned and no longer green and full of water, this planet still has a functioning atmosphere and you are tasked with scouring the wasteland to acquire the materials and resources needed to survive on this everlasting desert.</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaMars</Key>
@@ -9936,6 +9963,10 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     <Record>
       <Key>ControlMineDisc</Key>
       <Value>Mine Ore</Value>
+    </Record>
+    <Record>
+      <Key>ToggleChangeLog</Key>
+      <Value>Toggle Changelog</Value>
     </Record>
   </Interface>
   <Colors>
