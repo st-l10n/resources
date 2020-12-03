@@ -388,10 +388,6 @@
       <Description>Zatímco v posledních několika stech letech bylo vynalezeno nespočet &apos;lepších&apos; způsobů vaření &lt;color=#0080FFFF&gt;{LINK:FoodPage;jídla}&lt;/color&gt;, málo z nich je stejně odolných nebo snadno vyrobitelných jako mikrovlnná trouba OK-Zoomer. S licencí od společnosti &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; jsou plány založeny na klasickém modelu z poloviny 21. století, který ji dodává okouzlující retro vzhled. Ale nebojte se, osciluje molekuly vody více než dostatečně. Jednoduše ji přichyťte k pracovnímu stolu, dodržujte recept a vařte.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>StructureEmergencyButton</Key>
-      <Value>Důležité tlačítko</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>ApplianceReagentProcessor</Key>
       <Value>Zpracovatel činidel</Value>
       <Description>Zpracovatel činidel &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt;, který sedí někde mezi vysoce výkonným odšťavňovačem a alchymistickým alembikem, přeměňuje určité suroviny a potraviny na kuchyňské a řemeslné přísady. Nepostradatelný v každé vesmírné kuchyni, stačí přichytit k pracovnímu stolu a můžete začít.</Description>
@@ -1901,88 +1897,20 @@ Základní směsi plynů lze dosáhnout přidáním {THING:ItemOxite} a {THING:I
       <Value>Umístění zbraně</Value>
     </RecordThing>
     <RecordThing>
-      <Key>StructureGyroscope</Key>
-      <Value>Gyroskop</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>StructureHydroponicsTray</Key>
       <Value>Hydroponický zásobník</Value>
       <Description>Hydroponický zásobník &lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero}&lt;/color&gt; je ideální nádobou pro pěstování různých druhů &lt;color=#0080FFFF&gt;{LINK:OrganicPage;rostlin}&lt;/color&gt;. Musí být zásobován vodou pomocí potrubní sítě a dostatečným světlem pro generování fotosyntézy.
 Lze jej automatizovat pomocí {THING:StructureHarvie}.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>StructureIgniter</Key>
-      <Value>Zapalovač</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>StructureLocker</Key>
       <Value>Skříňka</Value>
-      <Description>Pokud je uklizená základna znamením nařízené mysli, skříňky jsou místo, na kterém toto znamení sedí.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureMotionSensor</Key>
-      <Value>Snímač pohybu</Value>
+      <Description>Skříňka</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassiveVent</Key>
       <Value>Pasivní ventilátor</Value>
       <Description>Pasivní ventilátor umožňuje plynům proudit z a do potrubní sítě, což je vlastně do připojení nějakého zařízení nebo konstrukce uzavřený systém. Pasivní ventilátor nepotřebuje napájení a vytvoří pouze větrací otvor v potrubní síti.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructurePipeAnalysizer</Key>
-      <Value>Analyzátor potrubí</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructurePipeCorner</Key>
-      <Value>Potrubí (Rohové)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructurePipeCrossJunction</Key>
-      <Value>Potrubí (Křížové)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructurePipeCrossJunction3</Key>
-      <Value>Potrubí (3-cestné rohové)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructurePipeCrossJunction5</Key>
-      <Value>Potrubí (5-cestné křížové)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructurePipeCrossJunction6</Key>
-      <Value>Potrubí (6-cestné křížové)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructurePipeLabel</Key>
-      <Value>Štítek na potrubí</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructurePipeMeter</Key>
-      <Value>Měřidlo potrubí</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructurePipeRadiator</Key>
-      <Value>Trubkový radiátor</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructurePipeStraight</Key>
-      <Value>Potrubí (Rovné)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructurePipeTJunction</Key>
-      <Value>Potrubí (T křižové)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructurePowerConnector</Key>
-      <Value>Napájecí konektor</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructurePressureRegulator</Key>
-      <Value>Regulátor tlaku</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureRailing</Key>
-      <Value>Průmyslové zábradlí (Typ 1)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketEngine</Key>
@@ -1995,10 +1923,6 @@ Lze jej automatizovat pomocí {THING:StructureHarvie}.</Description>
     <RecordThing>
       <Key>StructureRocketEngineTiny</Key>
       <Value>Raketový motor (Malinký)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureRTG</Key>
-      <Value>Kreativní RTG</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureSleeper</Key>
@@ -4388,8 +4312,8 @@ POUŽITÍ: &apos;J&apos; pro aktivaci; &apos;mezerník&apos; k letu; &apos;levý
     </RecordThing>
     <RecordThing>
       <Key>StructureEmergencyButton</Key>
-      <Value>Důležité tlačítko</Value>
-      <Description>This is the default thing page.</Description>
+      <Value>Nouzové tlačítko</Value>
+      <Description>Toto je výchozí stránka věci.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAirlockGate</Key>
