@@ -3363,11 +3363,11 @@
     </Record>
     <Record>
       <Key>Slot1</Key>
-      <Value>슬롯1</Value>
+      <Value>슬롯 1</Value>
     </Record>
     <Record>
       <Key>Slot2</Key>
-      <Value>슬롯2</Value>
+      <Value>슬롯 2</Value>
     </Record>
     <Record>
       <Key>GrabLeftHand</Key>
@@ -3387,39 +3387,39 @@
     </Record>
     <Record>
       <Key>GrabHead</Key>
-      <Value>왼손 잡기</Value>
+      <Value>머리 잡기</Value>
     </Record>
     <Record>
       <Key>GrabUpperArmL</Key>
-      <Value>왼발 잡기</Value>
+      <Value>왼팔 잡기</Value>
     </Record>
     <Record>
       <Key>GrabUpperArmR</Key>
-      <Value>오른발 잡기</Value>
+      <Value>오른팔 잡기</Value>
     </Record>
     <Record>
       <Key>GrabLowerArmL</Key>
-      <Value>왼발 잡기</Value>
+      <Value>왼팔 잡기</Value>
     </Record>
     <Record>
       <Key>GrabLowerArmR</Key>
-      <Value>오른발 잡기</Value>
+      <Value>오른팔 잡기</Value>
     </Record>
     <Record>
       <Key>GrabThighR</Key>
-      <Value>오른발 잡기</Value>
+      <Value>오른쪽 허벅지 잡기</Value>
     </Record>
     <Record>
       <Key>GrabThighL</Key>
-      <Value>왼발 잡기</Value>
+      <Value>왼쪽 허벅지 잡기</Value>
     </Record>
     <Record>
       <Key>GrabCalfR</Key>
-      <Value>오른손 잡기</Value>
+      <Value>오른쪽 무릎 잡기</Value>
     </Record>
     <Record>
       <Key>GrabCalfL</Key>
-      <Value>왼손 잡기</Value>
+      <Value>왼쪽 무릎 잡기</Value>
     </Record>
     <Record>
       <Key>Drag</Key>
@@ -3650,6 +3650,10 @@
       <Value>계획 생성</Value>
     </Record>
     <Record>
+      <Key>Search</Key>
+      <Value>검색</Value>
+    </Record>
+    <Record>
       <Key>Button4</Key>
       <Value>버튼 4</Value>
     </Record>
@@ -3694,20 +3698,56 @@
       <Value>색상</Value>
     </Record>
     <Record>
+      <Key>Access</Key>
+      <Value>접근</Value>
+    </Record>
+    <Record>
+      <Key>Magazine</Key>
+      <Value>탄창</Value>
+    </Record>
+    <Record>
+      <Key>TemperatureUp</Key>
+      <Value>온도 상승</Value>
+    </Record>
+    <Record>
+      <Key>TemperatureDown</Key>
+      <Value>온도 하강</Value>
+    </Record>
+    <Record>
+      <Key>ThrustUp</Key>
+      <Value>추진력 상승</Value>
+    </Record>
+    <Record>
+      <Key>ThrustDown</Key>
+      <Value>추진력 감소</Value>
+    </Record>
+    <Record>
+      <Key>Button5</Key>
+      <Value>버튼 5</Value>
+    </Record>
+    <Record>
+      <Key>Button6</Key>
+      <Value>버튼 6</Value>
+    </Record>
+    <Record>
       <Key>Cartridge2</Key>
-      <Value>카트리지</Value>
+      <Value>카트리지 2</Value>
     </Record>
     <Record>
       <Key>Cartridge1</Key>
-      <Value>카트리지</Value>
+      <Value>카트리지 1</Value>
     </Record>
     <Record>
       <Key>Next</Key>
-      <Value>다음 페이지</Value>
+      <Value>다음</Value>
+    </Record>
+    <Record>
+      <Key>Prev</Key>
+      <Value>이전</Value>
     </Record>
     <Record>
       <Key>Previous</Key>
-      <Value>이전 페이지</Value>
+      <Value>이전</Value>
     </Record>
   </Interactables>
   <Interface>
@@ -3728,8 +3768,72 @@
       <Value>뒤로</Value>
     </Record>
     <Record>
+      <Key>WallFloorCategory</Key>
+      <Value>벽과 바닥</Value>
+    </Record>
+    <Record>
+      <Key>OrganicsCategory</Key>
+      <Value>식품</Value>
+    </Record>
+    <Record>
+      <Key>PersonalEyeWear</Key>
+      <Value>안경</Value>
+    </Record>
+    <Record>
+      <Key>PersonalClothing</Key>
+      <Value>옷</Value>
+    </Record>
+    <Record>
+      <Key>OreHeader</Key>
+      <Value>광석</Value>
+    </Record>
+    <Record>
+      <Key>ReagentsHeader</Key>
+      <Value>재료</Value>
+    </Record>
+    <Record>
+      <Key>GasesHeader</Key>
+      <Value>기체</Value>
+    </Record>
+    <Record>
+      <Key>FrozenOreHeader</Key>
+      <Value>얼어붙은 광석</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeCategory</Key>
+      <Value>카트리지</Value>
+    </Record>
+    <Record>
       <Key>PersonalHelmets</Key>
       <Value>헬멧</Value>
+    </Record>
+    <Record>
+      <Key>PersonalToolbelt</Key>
+      <Value>도구 벨트</Value>
+    </Record>
+    <Record>
+      <Key>Other</Key>
+      <Value>기타</Value>
+    </Record>
+    <Record>
+      <Key>PowerTool</Key>
+      <Value>전력 도구</Value>
+    </Record>
+    <Record>
+      <Key>SlotsTitle</Key>
+      <Value>모든 슬롯</Value>
+    </Record>
+    <Record>
+      <Key>LogicReadersCategory</Key>
+      <Value>논리 판독기</Value>
+    </Record>
+    <Record>
+      <Key>LogicWriterCategory</Key>
+      <Value>논리 작성기</Value>
+    </Record>
+    <Record>
+      <Key>MotherboardCategory</Key>
+      <Value>마더보드</Value>
     </Record>
     <Record>
       <Key>ControlSystemAtmos</Key>
@@ -3737,15 +3841,35 @@
     </Record>
     <Record>
       <Key>ApplianceCategory</Key>
-      <Value>모양 변경</Value>
+      <Value>외관</Value>
+    </Record>
+    <Record>
+      <Key>Fabricators</Key>
+      <Value>제조기</Value>
     </Record>
     <Record>
       <Key>AirContitioningAtmos</Key>
-      <Value>시작 조건</Value>
+      <Value>에어컨</Value>
     </Record>
     <Record>
       <Key>AtmosDevices</Key>
-      <Value>Atmosphere</Value>
+      <Value>대기 장치</Value>
+    </Record>
+    <Record>
+      <Key>FireArm</Key>
+      <Value>무기</Value>
+    </Record>
+    <Record>
+      <Key>ManualTools</Key>
+      <Value>수동 도구</Value>
+    </Record>
+    <Record>
+      <Key>PowerTools</Key>
+      <Value>전력 도구</Value>
+    </Record>
+    <Record>
+      <Key>Picture</Key>
+      <Value>사진</Value>
     </Record>
     <Record>
       <Key>MainMenuNewWorld</Key>
@@ -3769,7 +3893,7 @@
     </Record>
     <Record>
       <Key>MainMenuTutorial</Key>
-      <Value>튜토리얼&lt;color=green&gt; - 새로운&lt;/color&gt;</Value>
+      <Value>튜토리얼</Value>
     </Record>
     <Record>
       <Key>MainMenuExit</Key>
@@ -3876,12 +4000,28 @@
       <Value>화성</Value>
     </Record>
     <Record>
+      <Key>Europa</Key>
+      <Value>유로파</Value>
+    </Record>
+    <Record>
+      <Key>EuropaBeta</Key>
+      <Value>유로파</Value>
+    </Record>
+    <Record>
       <Key>Moon</Key>
       <Value>달</Value>
     </Record>
     <Record>
       <Key>Space</Key>
       <Value>우주</Value>
+    </Record>
+    <Record>
+      <Key>Vulcan</Key>
+      <Value>벌칸</Value>
+    </Record>
+    <Record>
+      <Key>Vulcan2</Key>
+      <Value>벌칸</Value>
     </Record>
     <Record>
       <Key>NewWorldEnableAwayMissions</Key>
