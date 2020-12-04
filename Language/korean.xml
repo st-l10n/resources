@@ -3752,20 +3752,48 @@
   </Interactables>
   <Interface>
     <Record>
+      <Key>SlotKey</Key>
+      <Value>슬롯</Value>
+    </Record>
+    <Record>
       <Key>MainMenuContinue</Key>
       <Value>이어하기</Value>
+    </Record>
+    <Record>
+      <Key>KitCategory</Key>
+      <Value>건설 키트</Value>
+    </Record>
+    <Record>
+      <Key>DoorCategory</Key>
+      <Value>문과 출입구</Value>
+    </Record>
+    <Record>
+      <Key>ChairTableCategory</Key>
+      <Value>탁자 및 의자</Value>
     </Record>
     <Record>
       <Key>PersonalSuits</Key>
       <Value>슈트</Value>
     </Record>
     <Record>
+      <Key>BatteryCategory</Key>
+      <Value>전력 저장소</Value>
+    </Record>
+    <Record>
+      <Key>CableCategory</Key>
+      <Value>전선 및 분석기</Value>
+    </Record>
+    <Record>
       <Key>LightCategory</Key>
-      <Value>밝기</Value>
+      <Value>조명</Value>
     </Record>
     <Record>
       <Key>PersonalBackpacks</Key>
-      <Value>뒤로</Value>
+      <Value>배낭</Value>
+    </Record>
+    <Record>
+      <Key>FoodCategory</Key>
+      <Value>소모품</Value>
     </Record>
     <Record>
       <Key>WallFloorCategory</Key>
@@ -4024,12 +4052,44 @@
       <Value>벌칸</Value>
     </Record>
     <Record>
+      <Key>Europa2</Key>
+      <Value>유로파</Value>
+    </Record>
+    <Record>
+      <Key>Mimas</Key>
+      <Value>마이마스</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaEarth</Key>
+      <Value>지구</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaEuropa</Key>
+      <Value>유로파</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaVulcan</Key>
+      <Value>벌칸</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaEuropa2</Key>
+      <Value>유로파</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaVulcan2</Key>
+      <Value>벌칸</Value>
+    </Record>
+    <Record>
       <Key>NewWorldEnableAwayMissions</Key>
       <Value>Away 미션 사용</Value>
     </Record>
     <Record>
       <Key>InventorySlotBelt</Key>
       <Value>벨트</Value>
+    </Record>
+    <Record>
+      <Key>InventorySlotGlasses</Key>
+      <Value>유리</Value>
     </Record>
     <Record>
       <Key>InventorySlotUniform</Key>
@@ -4417,7 +4477,7 @@
     </Record>
     <Record>
       <Key>TutorialStartButton</Key>
-      <Value>시작</Value>
+      <Value>훈련 시작</Value>
     </Record>
     <Record>
       <Key>TutorialComplete</Key>
@@ -4506,6 +4566,10 @@
     <Record>
       <Key>TooltipPlacementSnapFaceMountMissingSupport</Key>
       <Value>격자에 설치가 가능합니다.</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceMountBlockedFallback</Key>
+      <Value>설치 차단됨</Value>
     </Record>
     <Record>
       <Key>GameMenuClearDisconnectedPlayers</Key>
@@ -4893,6 +4957,10 @@ Just don&apos;t be sad when you blow yourself into tiny, tiny little pieces or g
       <Value>Change to &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
     </Record>
     <Record>
+      <Key>NewWorldAreaEuropa</Key>
+      <Value>유로파</Value>
+    </Record>
+    <Record>
       <Key>SettingsInterface</Key>
       <Value>내부</Value>
     </Record>
@@ -5161,8 +5229,36 @@ Just don&apos;t be sad when you blow yourself into tiny, tiny little pieces or g
       <Value>조작</Value>
     </Record>
     <Record>
+      <Key>Power</Key>
+      <Value>전력</Value>
+    </Record>
+    <Record>
+      <Key>Data</Key>
+      <Value>데이터</Value>
+    </Record>
+    <Record>
+      <Key>Elevator</Key>
+      <Value>엘리베이터</Value>
+    </Record>
+    <Record>
+      <Key>PowerAndData</Key>
+      <Value>전력 그리고 데이터</Value>
+    </Record>
+    <Record>
+      <Key>All</Key>
+      <Value>전체</Value>
+    </Record>
+    <Record>
+      <Key>DeconstructToolTipText</Key>
+      <Value>해체하는데 {0}가 필요합니다.</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDoubleClickDelay</Key>
+      <Value>더블 클릭 딜레이</Value>
+    </Record>
+    <Record>
       <Key>SettingsServerAdminPassword</Key>
-      <Value>암호가 일치하지 않습니다.</Value>
+      <Value>서버 관리자 비밀번호</Value>
     </Record>
     <Record>
       <Key>ScoreboardPlayer</Key>
@@ -5173,36 +5269,88 @@ Just don&apos;t be sad when you blow yourself into tiny, tiny little pieces or g
       <Value>플레이시간:</Value>
     </Record>
     <Record>
+      <Key>SettingsFirstPersonHelmet</Key>
+      <Value>1인칭 헬멧</Value>
+    </Record>
+    <Record>
       <Key>TutorialCompleteNextTutorial</Key>
-      <Value>튜토리얼&lt;color=green&gt; - 새로운&lt;/color&gt;</Value>
+      <Value>다음 훈련</Value>
     </Record>
     <Record>
       <Key>SettingsMineableRenderDistance</Key>
       <Value>그림자 거리</Value>
     </Record>
     <Record>
+      <Key>SetSpawnMessage</Key>
+      <Value>스폰 지점을 설정하는데 사용</Value>
+    </Record>
+    <Record>
+      <Key>SetSpawnTitle</Key>
+      <Value>스폰 지점</Value>
+    </Record>
+    <Record>
       <Key>ControlPrimaryClickDisc</Key>
-      <Value>내부</Value>
+      <Value>상호작용</Value>
+    </Record>
+    <Record>
+      <Key>ControlHoldPrimaryClick</Key>
+      <Value>{KEY:PrimaryAction}키를 꾹 누르세요.</Value>
+    </Record>
+    <Record>
+      <Key>ControlHoldPrimaryClickConstructDisc</Key>
+      <Value>건설</Value>
+    </Record>
+    <Record>
+      <Key>ControlHoldPrimaryClickDeconstructDisc</Key>
+      <Value>해체</Value>
+    </Record>
+    <Record>
+      <Key>ControlHoldPrimaryClickPlaceDisc</Key>
+      <Value>설치</Value>
+    </Record>
+    <Record>
+      <Key>ControlHoldPrimaryClickPlantDisc</Key>
+      <Value>심기</Value>
+    </Record>
+    <Record>
+      <Key>ControlHoldPrimaryClickHarvestDisc</Key>
+      <Value>수확</Value>
+    </Record>
+    <Record>
+      <Key>ControlPlayerMovementDisc</Key>
+      <Value>이동</Value>
+    </Record>
+    <Record>
+      <Key>ControlSwapHandsDisc</Key>
+      <Value>손 변경</Value>
     </Record>
     <Record>
       <Key>TK</Key>
-      <Value>예</Value>
+      <Value>TK 시스템</Value>
     </Record>
     <Record>
       <Key>Stationeers</Key>
-      <Value>게임 종료</Value>
+      <Value>스테이셔니어</Value>
     </Record>
     <Record>
       <Key>ControlMouseDragDisc</Key>
-      <Value>반사</Value>
+      <Value>이동 선택</Value>
     </Record>
     <Record>
       <Key>ControlAutoRotate</Key>
-      <Value>Hold {KEY:QuantityModifier} for previous object</Value>
+      <Value>{KEY:QuantityModifier}키를 눌러 이전 오브젝트로 변경</Value>
+    </Record>
+    <Record>
+      <Key>ControlAutoRotateDisc</Key>
+      <Value>자동 회전</Value>
+    </Record>
+    <Record>
+      <Key>ControlMouseScroll</Key>
+      <Value>마우스 스크롤</Value>
     </Record>
     <Record>
       <Key>ControlMouseScrollDisc</Key>
-      <Value>튜토리얼 완료</Value>
+      <Value>아이템 선택</Value>
     </Record>
   </Interface>
   <Colors>
