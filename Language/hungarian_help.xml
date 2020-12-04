@@ -279,17 +279,17 @@ Olvadási nyomás {0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageTemplate</Key>
-      <Text>Egy {LINK:GasPage;gáz}, gyakran {LINK:SmeltingPage;beolvasztásnál} szabadul fel.
+      <Text>A {LINK:GasPage;gázok} gyakran {LINK:SmeltingPage;ércek beolvasztásánál} szabadulnak fel.
 
 {HEADER:Általános}
-{LIST}Jellemző hőmérséklet {POS:300}{1}{2}{/LIST}
+{LIST}Jellemző hőmérséklet {1}{2}{/LIST}
 
 {HEADER:Megtalálható itt:}
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageFlamableTemplate</Key>
-      <Text>Gyújtási határ {POS:300}{0} és egy {1} között</Text>
+      <Text>Lobbanási határ {0} és egy {1} között</Text>
     </StationpediaPage>
   </HelpPage>
 </Language>
