@@ -7348,47 +7348,47 @@ Az extrém hideg az elemek gyors merülését idézi elő, ezért tekintsd prior
     </Record>
     <Record>
       <Key>ResearchCancel</Key>
-      <Value>Mégse</Value>
+      <Value>Mégsem</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSdse</Key>
-      <Value>1 ha az eszköz nyitva van, különben 0</Value>
+      <Value>Regiszter = 1, ha az eszköz be van állítva, különben 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSdns</Key>
-      <Value>1 ha az eszköz nyitva van, különben 0</Value>
+      <Value>Regiszter = 1, ha az eszköz nincs beállítva, különben 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSlt</Key>
-      <Value>1 ha az eszköz nyitva van, különben 0</Value>
+      <Value>Regiszter = 1, ha a &lt; b, különben 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSgt</Key>
-      <Value>1 ha az eszköz nyitva van, különben 0</Value>
+      <Value>Regiszter = 1, ha a &gt; b, különben 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSltz</Key>
-      <Value>1 ha az eszköz nyitva van, különben 0</Value>
+      <Value>Regiszter = 1, ha a &lt; 0, különben 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSgtz</Key>
-      <Value>1 ha az eszköz nyitva van, különben 0</Value>
+      <Value>Regiszter = 1, ha a &gt; 0, különben 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandAnd</Key>
-      <Value>1 visszaadása ha az eszköz tétlen, különben 0</Value>
+      <Value>Regiszter = 1, ha a és b nem 0, ülönben 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandOr</Key>
-      <Value>1 visszaadása ha az eszköz tétlen, különben 0</Value>
+      <Value>Regiszter = 1, ha a és/vagy b nem 0, különben 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandXor</Key>
-      <Value>1 visszaadása ha az eszköz tétlen, különben 0</Value>
+      <Value>Regiszter = 1, ha a és b sem 0, különben 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandNor</Key>
-      <Value>1 visszaadása ha az eszköz tétlen, különben 0</Value>
+      <Value>Regiszter = 1, ha a és b is 0, különben 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandLabel</Key>
@@ -7396,7 +7396,7 @@ Az extrém hideg az elemek gyors merülését idézi elő, ezért tekintsd prior
     </Record>
     <Record>
       <Key>ScriptCommandSin</Key>
-      <Value>Visszaadja az eszköz mólszámát</Value>
+      <Value>Visszatér az adott szög szinuszával</Value>
     </Record>
     <Record>
       <Key>ScriptCommandCos</Key>
