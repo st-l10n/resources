@@ -207,12 +207,44 @@
       <Value>{THING:ItemKitAutolathe}을 강조된 지점에 설치해주세요. {KEY:QuantityModifier}키를 눌러 회전할 수 있습니다.</Value>
     </Record>
     <Record>
+      <Key>TutorialBuildingAnAutolathePart2</Key>
+      <Value>자동 선반 분해 및 재설치 - 파트 2</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolathePart2Description</Key>
+      <Value>{THING:ItemKitAutolathe}과 같은 아이템들은 설치에 있어 많은 단계가 있어 어렵습니다.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolatheTask0.5</Key>
+      <Value>{THING:ItemIronSheets}을 {THING:StructureAutolathe}의 이전 설치 지점에서 주우세요. </Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolathePart2Task1</Key>
+      <Value>{THING:ItemIronSheets}을 {THING:StructureAutolathe}에 용접하세요.</Value>
+    </Record>
+    <Record>
       <Key>TutorialBuildingAnAutolatheTask1.5</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:ItemCableCoil}을 {SLOT:Belt}에서 꺼내세요.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolathePart2Task2</Key>
+      <Value>{THING:ItemCableCoil}을 이용하여 자동 선반의 내부와 연결하세요.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolatheTask2.5</Key>
+      <Value>{THING:ItemPlasticSheets}을 {THING:StructureAutolathe}의 이전 설치 지점에서 주우세요.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolathePart2Task3</Key>
+      <Value>{THING:ItemPlasticSheets}을 {THING:StructureAutolathe}에 용접하세요.</Value>
     </Record>
     <Record>
       <Key>TutorialBuildingAnAutolatheTask3.5</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{SLOT:Belt}벨트에서 {THING:ItemScrewdriver}를 장착하세요.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBuildingAnAutolathePart2Task4</Key>
+      <Value>마지막으로, {THING:ItemScrewdriver}를 이용해 정면의 패널을 조여주세요.</Value>
     </Record>
   </Interface>
 </Language>

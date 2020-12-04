@@ -3,12 +3,28 @@
   <Code>KO</Code>
   <Interface>
     <Record>
+      <Key>2Narration3T</Key>
+      <Value>건설</Value>
+    </Record>
+    <Record>
       <Key>2Narration3D</Key>
-      <Value>틀 용접 완료하기</Value>
+      <Value>이제, 기지의 벽을 건설하는 작업을 완료하세요. 철 틀이 주어집니다. </Value>
     </Record>
     <Record>
       <Key>BuildFramesTutorial2N1</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>틀을 강조된 지점에 설치하세요.</Value>
+    </Record>
+    <Record>
+      <Key>2Narration6T</Key>
+      <Value>자동 선반 건설</Value>
+    </Record>
+    <Record>
+      <Key>Tutorial2AutolatePlacement</Key>
+      <Value>자동 선반을 설치하세요.</Value>
+    </Record>
+    <Record>
+      <Key>2Narration8T</Key>
+      <Value>케이블 배치</Value>
     </Record>
     <Record>
       <Key>2Narration12T</Key>
@@ -16,19 +32,43 @@
     </Record>
     <Record>
       <Key>2GetBatt</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>배터리를 상자에서 주우세요</Value>
+    </Record>
+    <Record>
+      <Key>PlaceBatt</Key>
+      <Value>배터리를 상자에서 주우세요</Value>
     </Record>
     <Record>
       <Key>2GetCoal</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>석탄을 상자에서 주우세요</Value>
+    </Record>
+    <Record>
+      <Key>AddCoalToGenerator</Key>
+      <Value>석탄을 발전기에 투입하세요</Value>
+    </Record>
+    <Record>
+      <Key>2TurnOnGenerator</Key>
+      <Value>발전기를 켜세요</Value>
+    </Record>
+    <Record>
+      <Key>PlaceBatt</Key>
+      <Value>배터리를 상자에서 주우세요</Value>
+    </Record>
+    <Record>
+      <Key>2Narration16T</Key>
+      <Value>끝났습니다.</Value>
+    </Record>
+    <Record>
+      <Key>2OnButtonPressTaskT1</Key>
+      <Value>버튼을 눌러 시험을 마치세요.</Value>
     </Record>
     <Record>
       <Key>2GetCableHCoil</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>고압 전선을 상자에서 주우세요.</Value>
     </Record>
     <Record>
       <Key>2GetFrames</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>철 틀을 상자에서 주우세요.</Value>
     </Record>
   </Interface>
 </Language>

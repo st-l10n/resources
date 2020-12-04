@@ -3,24 +3,59 @@
   <Code>KO</Code>
   <Interface>
     <Record>
+      <Key>03BasicPowerGeneration</Key>
+      <Value>발전의 기본</Value>
+    </Record>
+    <Record>
+      <Key>BasicPowerGenerationDescription</Key>
+      <Value>이 강의에서는, 기본적인 전력 생산에 대해 배웁니다.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWireCutting</Key>
+      <Value>전선 자르기</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWireCuttingDescription</Key>
+      <Value>환영합니다, 훈련생님. 첫번째로 타버린 전선을 제거해주세요. {THING:ItemWireCutters}를 이용해 제거할 수 있습니다.
+
+</Value>
+    </Record>
+    <Record>
+      <Key>TutorialWireCuttingTask1</Key>
+      <Value>불에 탄 전선 제거</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSolidFuelEnergy</Key>
+      <Value>고체 연료 에너지</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSolidFuelEnergyDescription</Key>
+      <Value>훈련생님, 이제 기본 플랫폼과 기계가 몇 대 갖추어졌으니 전력을 공급해봅시다. 먼저 {THING:StructureSolidFuelGenerator}부터 시작합시다.
+고체 연료 발전기는 비상시에 전력을 공급하거나 작은 기지에서 에너지를 공급할 때 사용되며 단점으로는 고체를 연료료 사용한다는 점이 있습니다.</Value>
+    </Record>
+    <Record>
+      <Key>SolidFuelEnergyTask1</Key>
+      <Value>{THING:ItemKitSolidGenerator}를 건설 상자 #1에서 집으세요.</Value>
+    </Record>
+    <Record>
       <Key>SolidFuelEnergyTask2</Key>
-      <Value>{THING:StructureFrame}을 용접하면 튜토리얼을 완료할 수 있습니다.</Value>
+      <Value>{THING:StructureSolidFuelGenerator}를 설치하세요.</Value>
     </Record>
     <Record>
       <Key>LearningToWireTask0.5</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{SLOT:Belt}에서 {THING:ItemCableCoil}을 꺼내세요.</Value>
     </Record>
     <Record>
       <Key>CableCorner</Key>
-      <Value>{THING:StructureCableJunctionBurnt} 제거하기</Value>
+      <Value>{THING:StructureCableCorner}을 설치하세요.</Value>
     </Record>
     <Record>
       <Key>CableStraight</Key>
-      <Value>{THING:StructureCableJunctionBurnt} 제거하기</Value>
+      <Value>{THING:StructureCableStraight}을 설치하세요.</Value>
     </Record>
     <Record>
       <Key>LearningToWireTask4</Key>
-      <Value>{THING:StructureCableJunctionBurnt} 제거하기</Value>
+      <Value>{THING:StructureCableJunction}를 설치하세요.</Value>
     </Record>
     <Record>
       <Key>PowerControlersAndbatteryChargesTask2</Key>
@@ -41,6 +76,10 @@
     <Record>
       <Key>FinishingTheCircuitTask8</Key>
       <Value>{THING:StructureCableJunctionBurnt} 제거하기</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSettingUpThePowerController</Key>
+      <Value>전력 제어기 설정하기</Value>
     </Record>
     <Record>
       <Key>SettingUpThePowerControllerTask4</Key>
