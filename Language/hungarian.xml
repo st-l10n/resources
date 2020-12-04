@@ -6430,7 +6430,7 @@
     </Record>
     <Record>
       <Key>LogicTypeIdle</Key>
-      <Value>1 visszaadása ha az eszköz tétlen, különben 0</Value>
+      <Value>Visszatér 1-gyel, ha az eszköz tétlen, különben 0</Value>
     </Record>
     <Record>
       <Key>LogicTypeColor</Key>
@@ -6542,11 +6542,11 @@
     </Record>
     <Record>
       <Key>LogicTypePowerGeneration</Key>
-      <Value>Visszaadja mennyi áram termelődik</Value>
+      <Value>Visszatér a generált áram mennyiségével</Value>
     </Record>
     <Record>
       <Key>LogicTypeTotalMoles</Key>
-      <Value>Visszaadja az eszköz mólszámát</Value>
+      <Value>Visszatér az eszköz mólszámával</Value>
     </Record>
     <Record>
       <Key>LogicTypeVolume</Key>
@@ -7327,6 +7327,10 @@
     <Record>
       <Key>CurrentResearchPodType</Key>
       <Value>Visszatér a gépben tárolt kapszula típusával</Value>
+    </Record>
+    <Record>
+      <Key>NextWeatherEventTime</Key>
+      <Value>Visszatér időtartammal (másodpercben), ha közeleg egy időjárási esemény</Value>
     </Record>
     <Record>
       <Key>ResearchFilter</Key>
