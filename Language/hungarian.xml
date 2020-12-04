@@ -6550,7 +6550,7 @@
     </Record>
     <Record>
       <Key>LogicTypeVolume</Key>
-      <Value>Visszaadja az adott eszköz légköri térfogatát</Value>
+      <Value>Visszatér az adott eszköz légköri térfogatával</Value>
     </Record>
     <Record>
       <Key>LogicTypePlant</Key>
@@ -6622,7 +6622,7 @@
     </Record>
     <Record>
       <Key>LogicTypeSignalStrength</Key>
-      <Value>Visszaadja a műhold által vett legerősebb jelet</Value>
+      <Value>Visszatér a műhold által vett legerősebb jel erősségével</Value>
     </Record>
     <Record>
       <Key>LogicTypeSignalID</Key>
@@ -6634,15 +6634,15 @@
     </Record>
     <Record>
       <Key>LogicSlotTypeOccupied</Key>
-      <Value>ha a slot üres, 0 kiírása, ha foglalt, 1</Value>
+      <Value>visszatér 0-val, ha a slot üres, 1-gyel, ha foglalt</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeOccupantHash</Key>
-      <Value>visszaadja a tárgy hashét, azaz az egyedi jellemzőjét</Value>
+      <Value>visszatér a tárgy hash értékével, azaz az egyedi azonosítójával</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeQuantity</Key>
-      <Value>visszaadja a slotban levő tárgy mennyiségét, stack-méretét</Value>
+      <Value>visszatér a slotban levő tárgy mennyiségével (például stack-méret)</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeDamage</Key>
