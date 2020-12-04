@@ -230,24 +230,80 @@
       <Value>수직 논리 판독기 1을 수직 햇빛 감지기로 설정하세요.</Value>
     </Record>
     <Record>
+      <Key>LogicReaderLogicSetup4</Key>
+      <Value>논리 값을 태양 각도로 설정하세요.</Value>
+    </Record>
+    <Record>
+      <Key>VerticalLogicProcessors</Key>
+      <Value>논리 단계</Value>
+    </Record>
+    <Record>
+      <Key>VerticalLogicProcessorsDescription</Key>
+      <Value>이제 {THING:StructureLogicReader} 및 {THING:StructureLogicMemory}가 읽는 값에 대해 몇가지 계산을 해야합니다. 회로의 수직 데이터 모듈부터 시작하세요.
+
+첫 번째로 {THING:StructureLogicMath}는 {THING:StructureLogicMemory}를 사용하여 {THING:StructureLogicReader} 데이터를 1.5로 나눕니다.
+
+다음으로 {THING:StructureLogicMath}는 처음에 {THING:StructureLogicMath}의 값을 읽고 {THING:StructureLogicMemory}의 명시된 오프셋을 사용하여 50을 추가하세요.</Value>
+    </Record>
+    <Record>
       <Key>PlaceLogicMath</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructureLogicMath}를 강조 표시된 지점에 설치하세요.</Value>
     </Record>
     <Record>
       <Key>PlaceLogicMath1</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>다음 {THING:StructureLogicMath}를 강조 표시된 지점에 설치하세요.</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVertical</Key>
+      <Value>논리 연산 수직 설정</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVerticalDescription</Key>
+      <Value>대부분의 작업에 필요한 모든 연산을 처리하기 때문에 연산 프로세서를 설정하는 것은 논리 회로를 만드는데 있어 가장 중요한 단계 중 하나입니다.</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVertical1</Key>
+      <Value>수직 연산 유닛 1을 켜세요.</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVertical2</Key>
+      <Value>수직 연산 유닛 1의 입력 1을 수직 논리 판독기 1로 설정합니다.</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVertical3</Key>
+      <Value>수직 연산 유닛 1의 입력 2를 기울기 메모리로 설정합니다.</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVertical4</Key>
+      <Value>수직 연산 유닛 1의 연산 방식을 &apos;나누기&apos;로 설정하세요.</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVertical5</Key>
+      <Value>수직 연산 유닛 2를 켜세요.</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVertical6</Key>
+      <Value>수직 연산 유닛 2의 입력 1을 수직 연산 유닛 1로 설정하세요.</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVertical7</Key>
+      <Value>수직 연산 유닛 2의 입력 2를 덧셈 메모리로 설정합니다.</Value>
+    </Record>
+    <Record>
+      <Key>LogicMathVertical8</Key>
+      <Value>수직 연산 유닛 2의 연산 방식을 &apos;덧셈&apos; 으로 설정하세요.</Value>
     </Record>
     <Record>
       <Key>VerticalBatchWritterSetup4</Key>
-      <Value>{THING:StructureBench}에 내려놓으세요.</Value>
+      <Value>{THING:StructureLogicBatchWriter}를 켜세요.</Value>
     </Record>
     <Record>
       <Key>PickUpLogicInputOutput</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>상자에서 {THING:ItemKitLogicInputOutput}를 주우세요.</Value>
     </Record>
     <Record>
       <Key>BatchWriter1</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructureLogicBatchWriter}를 강조 표시된 지점에 설치하세요.</Value>
     </Record>
     <Record>
       <Key>PlaceLogicMath2</Key>
@@ -258,12 +314,48 @@
       <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
     </Record>
     <Record>
+      <Key>HorizontalLogicProcessorSetUp1</Key>
+      <Value>수평 연산 유닛 1을 켜세요.</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalLogicProcessorSetUp2</Key>
+      <Value>수평 연산 유닛 1의 입력 1을 수평 논리 판독기 1로 설정합니다.</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalLogicProcessorSetUp3</Key>
+      <Value>수평 연산 유닛 1의 입력 2를 반전 메모리로 설정합니다.</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalLogicProcessorSetUp4</Key>
+      <Value>수평 연산 유닛 1의 연산 방식을 &apos;곱셈&apos;으로 설정하세요.</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalLogicProcessorSetUp5</Key>
+      <Value>수평 연산 유닛 2를 켜세요.</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalLogicProcessorSetUp6</Key>
+      <Value>수평 연산 유닛 2의 입력을 1로 설정하여 수평 연산 유닛 1을 읽습니다.</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalLogicProcessorSetUp7</Key>
+      <Value>수평 연산 유닛 2의 입력 2를 오프셋 메모리로 설정합니다.</Value>
+    </Record>
+    <Record>
+      <Key>HorizontalLogicProcessorSetUp8</Key>
+      <Value>수평 논리 연산 2의 연산 방식을 &apos;덧셈&apos;으로 설정하세요.</Value>
+    </Record>
+    <Record>
       <Key>BatchWriter2</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructureLogicBatchWriter}를 강조 표시된 지점에 설치하세요.</Value>
     </Record>
     <Record>
       <Key>HorizontalBatchWritterSetup4</Key>
-      <Value>{THING:StructureBench}에 내려놓으세요.</Value>
+      <Value>{THING:StructureLogicBatchWriter}를 켜세요.</Value>
+    </Record>
+    <Record>
+      <Key>SleepMode</Key>
+      <Value>절전 모드 모듈</Value>
     </Record>
     <Record>
       <Key>LogicSelect1</Key>
@@ -272,6 +364,74 @@
     <Record>
       <Key>LogicSelect2</Key>
       <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+    </Record>
+    <Record>
+      <Key>SleepModeSetup</Key>
+      <Value>절전 모드 설정</Value>
+    </Record>
+    <Record>
+      <Key>SleepModeSetupDescription</Key>
+      <Value>이제 태양 센서의 활성 상태를 읽어줘야합니다. 이는 낮과 밤을 구분할 수 있게 해줍니다.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModeSetupTask1</Key>
+      <Value>수직 논리 판독기 2의 입력 장치를 수직 햇빛 감지기로 설정하세요.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModeSetupTask2</Key>
+      <Value>논리 종류를 활성화로 설정합니다.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModeSetupTask3</Key>
+      <Value>수평 논리 판독기 2의 입력 장치를 수평 햇빛 감지기로 설정하세요.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModeSetupTask4</Key>
+      <Value>논리 종류를 활성화로 설정합니다.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModePart2</Key>
+      <Value>절전 모드 파트 2</Value>
+    </Record>
+    <Record>
+      <Key>SleepModePart2Task1</Key>
+      <Value>수직 논리 선택기에서, 선택 입력을 수직 논리 판독기 2로 설정하세요.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModePart2Task2</Key>
+      <Value>수직 논리 선택기에서 입력 1을 덧셈 메모리로 설정하세요.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModePart2Task3</Key>
+      <Value>마지막 입력을 수직 연산 유닛 2로 설정하세요.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModePart2Task4</Key>
+      <Value>수직 논리 선택기를 켜세요.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModePart2Task5</Key>
+      <Value>수평 논리 선택기에서, 선택 입력을 수평 논리 판독기 2로 설정하세요.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModePart2Task6</Key>
+      <Value>수평 논리 선택기에서, 입력 1을 오프셋 메모리로 설정하세요.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModePart2Task7</Key>
+      <Value>마지막 입력을 수평 연산 유닛 2로 설정하세요.</Value>
+    </Record>
+    <Record>
+      <Key>SleepModePart2Task8</Key>
+      <Value>수평 논리 선택기를 켜세요.</Value>
+    </Record>
+    <Record>
+      <Key>FinalStage</Key>
+      <Value>마지막 단계</Value>
+    </Record>
+    <Record>
+      <Key>TurnOnReader</Key>
+      <Value>논리 판독기를 켜세요.</Value>
     </Record>
   </Interface>
 </Language>

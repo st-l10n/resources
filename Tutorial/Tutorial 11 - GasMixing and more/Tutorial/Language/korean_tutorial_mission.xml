@@ -3,20 +3,51 @@
   <Code>KO</Code>
   <Interface>
     <Record>
+      <Key>Tutorial11 - GasMixingAndmore</Key>
+      <Value>가스 혼합 및 나머지</Value>
+    </Record>
+    <Record>
+      <Key>Tutorial 11 - GasFilteringandmoreDescription</Key>
+      <Value>슈트에 산소 탱크를 채우고 가스를 혼합하여 연료를 만드는 방법에 대해 배우겠습니다.</Value>
+    </Record>
+    <Record>
+      <Key>GasMixingInd</Key>
+      <Value>가스 혼합 설명</Value>
+    </Record>
+    <Record>
+      <Key>GasMixingIndDescription</Key>
+      <Value>환영합니다, 훈련생님! 이 강의에서는 산소 탱크를 다시 채우는 방법과 가스 2개를 혼합하여 연료를 만드는 방법에 대해 배우도록 하겠습니다. 연료는 여러 동력에 많이 사용됩니다.</Value>
+    </Record>
+    <Record>
+      <Key>RemoveingSuitOxy</Key>
+      <Value>슈트의 산소 탱크를 제거하세요.</Value>
+    </Record>
+    <Record>
+      <Key>RemoveingSuitOxyDescription</Key>
+      <Value>슈트 메뉴를 열고 산소 탱크를 손으로 옮기세요.
+탱크를 분리할 시 화면에 경고가 표시됩니다. 당황하지마세요, 슈트 자체에는 아직 소량의 산소가 존재합니다.
+이제 산소 탱크를 {THING:DynamicGasCanisterOxygen}에 부착하고 다시 채우세요.
+</Value>
+    </Record>
+    <Record>
       <Key>RemoveingSuitOxyTask1</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:ItemGasCanisterOxygen}를 슈트에서 꺼내세요.</Value>
     </Record>
     <Record>
       <Key>RemoveingSuitOxyTask2</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:DynamicGasCanisterOxygen} 안에 산소 탱크를 설치하세요.</Value>
     </Record>
     <Record>
       <Key>RetrievingOxyTankTask1</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:DynamicGasCanisterOxygen}에서 {THING:ItemGasCanisterOxygen}를 제거하세요.</Value>
     </Record>
     <Record>
       <Key>RetrievingOxyTankTask2</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>슈트의 {THING:ItemGasCanisterOxygen}를 교체하세요.</Value>
+    </Record>
+    <Record>
+      <Key>RemoveingFuelCan</Key>
+      <Value>연료 캔 제거하기</Value>
     </Record>
     <Record>
       <Key>RemoveingFuelCanTask1</Key>
@@ -27,20 +58,36 @@
       <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
     </Record>
     <Record>
+      <Key>Valves</Key>
+      <Value>밸브</Value>
+    </Record>
+    <Record>
+      <Key>ValvesDescription</Key>
+      <Value>이제 가스 혼합 시스템을 위한 배관 네트워크를 설치해야합니다. 밸브를 각 {THING:StructureTankConnector} 옆에 배치하는 것부터 시작하세요. 이는 네트워크에 연결할 준비가 될 때까지 새로 부착된 가스 탱크로부터 네트워크를 차단할 수 있게 해줍니다.</Value>
+    </Record>
+    <Record>
       <Key>ValvesTask1</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>근처 상자에서 {THING:ItemPipeValve}를 주워 강조 표시된 지점에 설치하세요.</Value>
     </Record>
     <Record>
       <Key>PipeMetersTask1</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructurePipeMeter}를 강조 표시된 지점에 설치하세요.</Value>
     </Record>
     <Record>
       <Key>GasMixerTask1</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructureGasMixer}를 강조 표시된 지점에 설치하세요.</Value>
+    </Record>
+    <Record>
+      <Key>PressureRegulator</Key>
+      <Value>압력 조절기</Value>
     </Record>
     <Record>
       <Key>PressureRegulatorTask1</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructurePressureRegulator}를 강조 표시된 지점에 설치하세요.</Value>
+    </Record>
+    <Record>
+      <Key>ConnectingTanks</Key>
+      <Value>탱크 연결</Value>
     </Record>
     <Record>
       <Key>FlipingValves</Key>
@@ -48,23 +95,51 @@
     </Record>
     <Record>
       <Key>FlipingValvesTask2</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>산소 네트워크에서 {THING:StructureValve}를 여세요.</Value>
     </Record>
     <Record>
       <Key>FlipingValvesTask1</Key>
-      <Value>{THING:StructureFrame}을 용접하면 튜토리얼을 완료할 수 있습니다.</Value>
+      <Value>휘발성 네트워크에서 {THING:StructureValve}를 여세요.</Value>
+    </Record>
+    <Record>
+      <Key>SettingYourLimit</Key>
+      <Value>제한 설정</Value>
     </Record>
     <Record>
       <Key>SettingYourLimitTask2</Key>
-      <Value>{THING:StructureBench}에 내려놓으세요.</Value>
+      <Value>{THING:StructurePressureRegulator}를 켜세요.</Value>
+    </Record>
+    <Record>
+      <Key>TheGasMix</Key>
+      <Value>가스 혼합</Value>
+    </Record>
+    <Record>
+      <Key>TheGasMixTask1</Key>
+      <Value>혼합 배율을 입력 1에는 &apos;33&apos;으로, 입력 2에는 &apos;67&apos;로 설정하세요.</Value>
+    </Record>
+    <Record>
+      <Key>TheGasMixTask2</Key>
+      <Value>가스 혼합기를 켜세요.</Value>
+    </Record>
+    <Record>
+      <Key>RetrievingTheFuelTank</Key>
+      <Value>연료 탱크 검색</Value>
     </Record>
     <Record>
       <Key>RetrievingTheFuelTankTask1</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:StructureGasTankStorage}에서 {THING:ItemGasCanisterFuel}를 주우세요.</Value>
     </Record>
     <Record>
       <Key>RetrievingTheFuelTankTask2</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:ItemGasCanisterFuel}를 {THING:ItemWeldingTorch}에 삽입하세요.</Value>
+    </Record>
+    <Record>
+      <Key>TestTheFuelMix</Key>
+      <Value>연료 혼합 시험</Value>
+    </Record>
+    <Record>
+      <Key>TestTheFuelMixTask1</Key>
+      <Value>유리 문 건설을 완료하세요.</Value>
     </Record>
   </Interface>
 </Language>
