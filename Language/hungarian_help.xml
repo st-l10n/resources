@@ -128,6 +128,20 @@ Néhány érc napfény és más hő hatására elolvad ezzel {LINK:GasPage;gázo
 {HEADER:Készülékek listája}
 {LIST_OF_APPLIANCES}</Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>TravelPage</Key>
+      <Title>Úticél</Title>
+      <Text>Várj! Még ne zárj be! Ezek itt a VILÁGUTAZÓ-AZONOSÍTÓK. Használhatod őket bizonyos bolygók közti utazásra, ha együtt használod egy már kész {LINK:RocketShuttlePage;űrhajóval} és {LINK:LogicUnitPage;logikai egységekkel}.
+       
+Csak írd be a hash értékeket a {THING:StructureLaunchPad} Beállítás változójábaegy {THING:ItemLabeller} segítségével. Megjegyzés: Ha a hash értékre kattintasz, akkor bemásolódik a vágólapra.
+      
+Az induláshoz legalább 3 központi modulra lesz szükséged és arra, hogy minden játékos a rakétában üljön.
+
+      {LIST}
+        {WORLD_HASHES}
+      {/LIST}
+      </Text>
+    </StationpediaPage>
     <!-- <StationpediaPage>
           <Key>RocketShuttleModulesHelpPage</Key>
           <Title>Rocket Shuttle Modules</Title>
@@ -194,11 +208,7 @@ Lobbanáspont{POS:300}{1}
     </StationpediaPage>
     <StationpediaPage>
       <Key>ThingSlotItemTemplate</Key>
-      <Text>{0}. {POS:100}{1} {POS:300}Típus {2}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ThingStackTemplate</Key>
-      <Text>Stack-méret {POS:300}{0}</Text>
+      <Text>{0}. {1} Típus {2}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ThingTransmissibleTemplate</Key>
