@@ -127,28 +127,32 @@
       <Value>자연식 환풍기</Value>
     </Record>
     <Record>
+      <Key>ThePassiveVentDescription</Key>
+      <Value>프린트 한 구성요소와 지난 튜토리얼에서 배운 것들을 사용하여, {THING:StructureHydraulicPipeBender}를 완성하세요, 그리고 {THING:ItemCableCoil}를 사용하여 전력 네트워크에 연결하여 전원을 켜세요. 그런 다음 {THING:StructureHydraulicPipeBender}를 사용하여 {THING:ItemPassiveVent}를 프린트하세요.</Value>
+    </Record>
+    <Record>
       <Key>ThePassiveVentTask1</Key>
-      <Value>{THING:StructureFrame}을 용접하면 튜토리얼을 완료할 수 있습니다.</Value>
+      <Value>{THING:StructureHydraulicPipeBender}를 완성하세요.</Value>
     </Record>
     <Record>
       <Key>ThePassiveVentTask2</Key>
-      <Value>{THING:StructureBench}에 내려놓으세요.</Value>
+      <Value>{THING:StructureHydraulicPipeBender}의 전원을 켜세요.</Value>
     </Record>
     <Record>
       <Key>ThePassiveVentTask3</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemIronIngot}를 오렌지 상자에서 주우세요.</Value>
     </Record>
     <Record>
       <Key>ThePassiveVentTask4</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:ItemIronIngot}를 {THING:StructureHydraulicPipeBender}의 좌측 삽입 공간에 넣어주세요.</Value>
     </Record>
     <Record>
       <Key>ThePassiveVentTask5</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:StructureHydraulicPipeBender}에서 {THING:ItemPassiveVent}를 선택하세요.</Value>
     </Record>
     <Record>
       <Key>ThePassiveVentTask6</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemPassiveVent}를 프린트하세요.</Value>
     </Record>
   </Interface>
 </Language>

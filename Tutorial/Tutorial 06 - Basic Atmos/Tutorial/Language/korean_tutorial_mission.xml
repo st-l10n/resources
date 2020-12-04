@@ -3,20 +3,85 @@
   <Code>KO</Code>
   <Interface>
     <Record>
+      <Key>06BasicAtmospherics</Key>
+      <Value>대기의 기본</Value>
+    </Record>
+    <Record>
+      <Key>BasicAtmosphericsDescription</Key>
+      <Value>이 강의에서는 어떻게 작은 기지를 숨쉴 수 있는 공간으로 만드는지에 대해 배울 것입니다.</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletAtmo</Key>
+      <Value>고체 산소 추적</Value>
+    </Record>
+    <Record>
       <Key>TheTabletAtmoDescription</Key>
-      <Value>{THING:ItemTablet} 켜기</Value>
+      <Value>추적 카트리지를 {THING:ItemTablet}에 삽입하세요.</Value>
+    </Record>
+    <Record>
+      <Key>BasicAtmosphericsDescription</Key>
+      <Value>이 강의에서는 어떻게 작은 기지를 숨쉴 수 있는 공간으로 만드는지에 대해 배울 것입니다.</Value>
+    </Record>
+    <Record>
+      <Key>Oxyie-Gen</Key>
+      <Value>고체 산소를 얻으세요.</Value>
+    </Record>
+    <Record>
+      <Key>Oxyie-GenTask1</Key>
+      <Value>기지를 가압하려면 80개 정도의 고체 산소를 채굴해야합니다.  추적 비콘 근처에서 찾을 수 있을겁니다.  태블릿에서 스크롤하여 고체 산소의 비콘을 찾으세요.</Value>
+    </Record>
+    <Record>
+      <Key>Oxyie-GenDescription</Key>
+      <Value>고체 산소는 대부분의 행성에서 작은 퇴적물 속에 얼어붙어 있는 기체입니다. 이를 배낭이나 채굴용 벨트에 넣지 않으면 녹을 것입니다.
+
+태블릿을 사용하여, 고체 산소 지점으로 이동하세요.</Value>
     </Record>
     <Record>
       <Key>AtmoAirLock</Key>
-      <Value>에어록 감압</Value>
+      <Value>에어록에 들어가기</Value>
+    </Record>
+    <Record>
+      <Key>AtmoAirLockDescription</Key>
+      <Value>에어락은 기지의 압력 변화와 산소 손실을 최소화하면서 기지를 가압하기도 하며 가압된 기지와 그 주변 사이에 사람과 물체가 통과할 수 있도록 허용하는 장치입니다.
+
+현재 기지는 내부에 산소가 없어 100 kPa로 동작해야하기 때문에 에어락이 제대로 작동하지 않습니다. 이는 에어락의 가압 순환을 취소하여 기지에 진입할 수 있습니다.
+기지에서 산소가 누출되고 있고 순환을 실행하지 않고 기지에 출입해야 할 시 이 점을 기억해두세요.</Value>
+    </Record>
+    <Record>
+      <Key>AtmoAirLockTask1</Key>
+      <Value>에어락으로 들어가 콘솔에서 &apos;내부로 순환&apos; 버튼을 클릭하세요. 외부 문이 닫힐 때까지 기다리면 &apos;가압 취소&apos; 버튼이 나타납니다. 이 버튼을 누르면 내부 문이 열리게 됩니다.</Value>
+    </Record>
+    <Record>
+      <Key>AtmosAnalyser</Key>
+      <Value>공기 분석기</Value>
+    </Record>
+    <Record>
+      <Key>AtmosAnalyserDescription</Key>
+      <Value>공기 분석기는 현재 공기의 구성, 온도 및 압력을 분석하는데 사용합니다.</Value>
     </Record>
     <Record>
       <Key>TheTabletTaskAtmo</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:ItemTablet}에 {THING:CartridgeAtmosAnalyser}를 삽입하세요.</Value>
+    </Record>
+    <Record>
+      <Key>Creating_Atmo</Key>
+      <Value>공기 생성</Value>
+    </Record>
+    <Record>
+      <Key>Creating_AtmoDescription</Key>
+      <Value>인간은 오염물질이나 독극물 없이 최소 20%의 산소를 호흡할 필요가 있습니다. 대기중에 있는 이산화탄소를 섭취하게 될 수도 있지만 10% 이상 권장하지 않습니다. 숨쉴 수 있는 공기로 만드는 가장 간단한 방법은 고체 산소를 채굴한 다음, 그것을 기지에 떨어뜨려 녹이는 것입니다. 고체 산소는 공기 중으로 산소를 방출하고, 공기압을 증가시키게 됩니다. 고체 산소를 녹일 때는 기지를 과도하게 가압하여 벽에 손상을 입힐 수도 있으니 조심하세요.</Value>
     </Record>
     <Record>
       <Key>Creating_AtmoTask1</Key>
-      <Value>{THING:ItemTablet} 켜기</Value>
+      <Value>{THING:ItemTablet}를 켜세요.</Value>
+    </Record>
+    <Record>
+      <Key>Creating_AtmoTask2</Key>
+      <Value>고체 산소를 방에 떨어뜨리고 녹을 때까지 기다리세요, 이는 산소를 생성하면서, 외부 압력을 60 kPa까지 올릴 것입니다.</Value>
+    </Record>
+    <Record>
+      <Key>Creating_AtmoTask3</Key>
+      <Value>압력이 안전한 수준에 도달하면, 헬멧을 열고 숨을 쉬세요.</Value>
     </Record>
   </Interface>
 </Language>

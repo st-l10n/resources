@@ -3,128 +3,278 @@
   <Code>KO</Code>
   <Interface>
     <Record>
+      <Key>Tutorial-BaicSmelting</Key>
+      <Value>제련의 기본</Value>
+    </Record>
+    <Record>
+      <Key>Tutorial-BaicSmeltingDescription</Key>
+      <Value>고급 금속 및 합금 제련</Value>
+    </Record>
+    <Record>
+      <Key>GasSensors</Key>
+      <Value>가스 디스플레이</Value>
+    </Record>
+    <Record>
+      <Key>GasSensorsDescription</Key>
+      <Value>환영합니다, 훈련생님. 제련을 해봅시다!
+
+{THING:StructureFurnace}은 광석을 녹여 주괴를 만들고 이를 새로운 기술을 창출해내기 위한 합금으로 사용합니다.
+
+첫번째 과제는 {THING:CircuitboardGasDisplay}를 설치하여 {THING:StructureFurnace}의 내부 압력과 온도를 표시하도록 하는 것입니다.
+
+</Value>
+    </Record>
+    <Record>
       <Key>GasSensorsTask1</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:CircuitboardGasDisplay}을 빨간 상자에서 주우세요.</Value>
     </Record>
     <Record>
       <Key>GasSensorsTask2</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructureFurnace} 뒤에 있는 벽 위에 있는 빈 {THING:StructureConsole}에 {THING:CircuitboardGasDisplay}를 삽입하세요.</Value>
     </Record>
     <Record>
       <Key>GasSensorsTask3</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemGlassSheets}를 빨간 상자에서 주우세요.</Value>
     </Record>
     <Record>
       <Key>GasSensorsTask4</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemGlassSheets}를 {THING:StructureConsole}에 설치하세요.</Value>
+    </Record>
+    <Record>
+      <Key>ConfigureGasSensor</Key>
+      <Value>가스 디스플레이 설정</Value>
+    </Record>
+    <Record>
+      <Key>ConfigureGasSensorDescription</Key>
+      <Value>이제 {THING:StructureConsole}를 켜고 설정하세요.
+
+왼쪽에 있는 {THING:StructureConsole}은 압력을 표시하므로 새로운 콘솔은 온도를 표시해줘야합니다. 콘솔을 켜고 {THING:ItemDataDisk}를 삽입 후 &apos;압력&apos; 옵션을 클릭하여 모드를 &apos;온도&apos;로 전환하세요.
+
+이제 콘솔의 입력 장치로 {THING:StructureFurnace}를 선택하세요. {THING:StructureFurnace}가 표시될때까지 스크롤하여 선택하면됩니다.</Value>
     </Record>
     <Record>
       <Key>ConfigureGasSensorTask1</Key>
-      <Value>{THING:StructureBench}에 내려놓으세요.</Value>
+      <Value>{THING:StructureConsole}를 켜세요.</Value>
     </Record>
     <Record>
       <Key>ConfigureGasSensorTask2</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:ItemDataDisk}를 상자에서 {THING:StructureConsole}로 삽입하세요.</Value>
+    </Record>
+    <Record>
+      <Key>ConfigureGasSensorTask3</Key>
+      <Value>{THING:StructureConsole}의 입력 장치에서 {THING:StructureFurnace}를 선택하고, 모드를 &apos;온도&apos;로 전환하세요.</Value>
     </Record>
     <Record>
       <Key>ConfigureGasSensorTask4</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:StructureConsole}에서 데이터 디스크를 제거하세요.</Value>
+    </Record>
+    <Record>
+      <Key>HowToMakeSteel</Key>
+      <Value>강철을 어떻게 만드나요?</Value>
+    </Record>
+    <Record>
+      <Key>HowToMakeSteelDescription</Key>
+      <Value>강철의 조합법을 찾으려면, {KEY:Help}키를 눌러 도움말을 여세요. 그 후 {KEY:MouseControl}키를 꾹 눌러 커서를 띄운 후 &apos;아이템&apos; 섹션으로 이동하세요, 그리고 &apos;합금&apos; 링크를 클릭하세요. 마지막으로  &apos;합금&apos; 페이지에서, &apos;주괴 (강철)&apos; 링크를 클릭하시면 됩니다.
+
+보시다싶이, 강철을 제작하려면 3개의 {THING:ItemIronOre}와 1개의 탄소 그리고 {THING:ItemCoalOre}이 필요합니다. 이들을 최소 온도 600K와 최소 압력 100.0kPa에서 결합해야합니다.</Value>
+    </Record>
+    <Record>
+      <Key>HowToMakeSteelTask1</Key>
+      <Value>도움말 열기</Value>
+    </Record>
+    <Record>
+      <Key>HowToMakeSteelTask2</Key>
+      <Value>&apos;주괴 (강철)&apos; 페이지로 이동하세요.</Value>
+    </Record>
+    <Record>
+      <Key>IgnitingTheFurnace</Key>
+      <Value>용광로 점화</Value>
+    </Record>
+    <Record>
+      <Key>IgnitingTheFurnaceDescription</Key>
+      <Value>강철을 제작하려면, {THING:StructureFurnace}가 필요한 최소 온도와 압력에 도달해야합니다. 이는 용광로에 직접 휘발성 물질과 Oxite 얼음을 추가하거나 연료 혼합물을 추가함으로써 이루어질 수 있습니다.
+
+첫번째 방법은 2개의 휘발성 물질과 1개의 Oxite 얼음을 사용합니다. {THING:StructureFurnace}에 과부하가 걸리지 않도록 조심하세요. Oxite 또는 휘발성 물질을 많이 추가할 경우 용광로가 과도하게 가압되어 파괴적인 폭발을 일으킬 수도 있습니다.</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask1</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>빨간 상자에서 {THING:ItemVolatiles}를 주우세요.</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask2</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:StructureFurnace}의 위에 {THING:ItemVolatiles}를 삽입하세요.</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask3</Key>
-      <Value>{THING:StructureBench}에 내려놓으세요.</Value>
+      <Value>{THING:StructureFurnace}에서 빨간색 &apos;활성화&apos; 버튼을 두번 클릭하세요.</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask4</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>빨간 상자에서 {THING:ItemOxite}를 주우세요.</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask5</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:StructureFurnace}에 {THING:ItemOxite}를 삽입하세요.</Value>
     </Record>
     <Record>
       <Key>IgnitingTheFurnaceTask6</Key>
-      <Value>{THING:StructureBench}에 내려놓으세요.</Value>
+      <Value>{THING:StructureFurnace}에서 빨간 &apos;활성화&apos; 버튼을 누르세요.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingIron</Key>
+      <Value>철 제련</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingIronDescription</Key>
+      <Value>{THING:StructureArcFurnace}처럼, {THING:StructureFurnace}안에 광물을 집어넣고 제련하는 방법도 있지만, 결합도 해야합니다. 이들은 금속의 구성을 바꾸기도하며, 새로운 합금을 만들어내기도 합니다. 만약 혼합을 잘못할 시 {THING:ItemReagentMix}가 대신하여 나올 수도 있습니다.</Value>
     </Record>
     <Record>
       <Key>SmeltingIronTask1</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>빨간 상자에서 {THING:ItemIronOre}를 주우세요.</Value>
     </Record>
     <Record>
       <Key>SmeltingIronTask2</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:StructureFurnace}안에 {THING:ItemIronOre}를 집어넣으세요.</Value>
+    </Record>
+    <Record>
+      <Key>MakingAnAlloy</Key>
+      <Value>합금 제작</Value>
+    </Record>
+    <Record>
+      <Key>MakingAnAlloyDescription</Key>
+      <Value>이제 녹은 철을 강철로 바꿀 수 있습니다. 이를 하려면, {THING:ItemCoalOre} 1개를 추가하여 혼합하세요.</Value>
     </Record>
     <Record>
       <Key>MakingAnAlloyTask1</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>빨간 상자에서 {THING:ItemCoalOre}를 주우세요.</Value>
     </Record>
     <Record>
       <Key>MakingAnAlloyTask2</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:StructureFurnace}안에 {THING:ItemCoalOre}를 집어넣으세요.</Value>
+    </Record>
+    <Record>
+      <Key>FromingTheIngot</Key>
+      <Value>주괴 형성</Value>
+    </Record>
+    <Record>
+      <Key>FromingTheIngotDescription</Key>
+      <Value>형판 열기 레버를 이용하여 {THING:StructureFurnace}를 열고 새로 만든 {THING:ItemSteelIngot}를 얻으세요. 이렇게하면 {THING:ItemKitBattery}를 만드는데 필요한 강철의 절반이 제공됩니다.</Value>
     </Record>
     <Record>
       <Key>FromingTheIngotTask1</Key>
-      <Value>{THING:StructureBench}에 내려놓으세요.</Value>
+      <Value>{THING:StructureFurnace}에서 형판 열기 레버를 당기세요.</Value>
     </Record>
     <Record>
       <Key>FromingTheIngotTask2</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemSteelIngot}를 주우세요.</Value>
     </Record>
     <Record>
       <Key>FromingTheIngotTask3</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:StructureElectronicsPrinter}에 {THING:ItemSteelIngot}를 삽입하세요.</Value>
+    </Record>
+    <Record>
+      <Key>VentingTheGases</Key>
+      <Value>가스 배출</Value>
+    </Record>
+    <Record>
+      <Key>VentingTheGasesDescription</Key>
+      <Value>{THING:StructureFurnace}는 현재 독성 가스로 채워져있습니다. 이는 대기중으로 직접 배출할 수 있습니다. 다른 방법으로는 가스를 냉각하고 여과하여 재활용하는 방법이 존재합니다.
+
+연료 혼합물을 통해 {THING:StructureFurnace}의 전원이 켜지기전에 출력 파이프는 가스가 빠져나가지 못하도록하는 {THING:StructureValve}와 {THING:StructureVolumePump} 가 연결되어 환기됩니다.</Value>
     </Record>
     <Record>
       <Key>VentingTheGasesTask1</Key>
-      <Value>{THING:StructureFrame}을 용접하면 튜토리얼을 완료할 수 있습니다.</Value>
+      <Value>{THING:StructureValve} 출구를 열어주세요.</Value>
     </Record>
     <Record>
       <Key>VentingTheGasesTask2</Key>
-      <Value>{THING:StructureBench}에 내려놓으세요.</Value>
+      <Value>{THING:StructureVolumePump}를 켜세요.</Value>
+    </Record>
+    <Record>
+      <Key>VentingTheGasesTask3</Key>
+      <Value>{THING:StructureFurnace}의 내부 압력이 왼쪽 디스플레이 콘솔에서 2 kPa로 떨어질때까지 기다리세요.</Value>
+    </Record>
+    <Record>
+      <Key>VentingTheGasesDescription2</Key>
+      <Value>이제 가스가 배출되었으므로, {THING:StructureValve}를 닫고 {THING:StructureVolumePump}를 끄세요.</Value>
     </Record>
     <Record>
       <Key>VentingTheGasesTask4</Key>
-      <Value>{THING:StructureFrame}을 용접하면 튜토리얼을 완료할 수 있습니다.</Value>
+      <Value>{THING:StructureValve}를 닫으세요.</Value>
     </Record>
     <Record>
       <Key>VentingTheGasesTask5</Key>
-      <Value>{THING:StructureBench}에 내려놓으세요.</Value>
+      <Value>{THING:StructureVolumePump}를 끄세요.</Value>
+    </Record>
+    <Record>
+      <Key>AddingFuelMix</Key>
+      <Value>연료 혼합물 추가</Value>
+    </Record>
+    <Record>
+      <Key>AddingFuelMixDescription</Key>
+      <Value>이제 {THING:StructureFurnace}가 비워져있으므로 미리 준비된 연료 혼합물을 파이프에 채워 다른 방법으로 주입할 수 있습니다.
+
+{THING:StructureFurnace}의 이상적인 연료 혼합은 75%의 휘발성 물질과 25%의 산소입니다.
+
+다시 채우기전에 형판 열기 레버를 닫으세요.</Value>
+    </Record>
+    <Record>
+      <Key>AddingFuelMixTask1</Key>
+      <Value>{THING:StructureFurnace}의 오른쪽에 있는 입력 밸브를 여세요.</Value>
+    </Record>
+    <Record>
+      <Key>AddingFuelMixTask3</Key>
+      <Value>{THING:StructureFurnace}의 내부 압력이 100 kPa가 되기까지 기다리세요.</Value>
+    </Record>
+    <Record>
+      <Key>AddingFuelMixTask4</Key>
+      <Value> 입력 밸브를 빠르게 차단하세요 - 너무 많은 연료 혼합물이 들어갈 시 폭발의 원인이 될 수 있습니다.</Value>
     </Record>
     <Record>
       <Key>AddingFuelMixTask5</Key>
-      <Value>{THING:StructureBench}에 내려놓으세요.</Value>
+      <Value>{THING:StructureFurnace}에서 &apos;활성화&apos; 버튼을 누르세요.</Value>
+    </Record>
+    <Record>
+      <Key>NewAlloy</Key>
+      <Value>새로운 합금</Value>
+    </Record>
+    <Record>
+      <Key>NewAlloyDescription</Key>
+      <Value>강철 한 묶음을 더 만듭시다. 지난번과 마찬가지로 철 3개, 석탄 1개를 추가해야합니다. {THING:ItemIronOre}와 {THING:ItemCoalOre}를 열려있는 주황색 상자에서 찾아주세요</Value>
     </Record>
     <Record>
       <Key>NewAlloyTask1</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemIronOre}를 화로안에 집어넣으세요.</Value>
     </Record>
     <Record>
       <Key>NewAlloyTask2</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemCoalOre}를 화로안에 넣으세요.</Value>
     </Record>
     <Record>
       <Key>NewAlloyTask3</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>형판 열기 레버를 이용하여 {THING:StructureFurnace}를 열고 강철을 제거하세요.</Value>
+    </Record>
+    <Record>
+      <Key>WhatASteel</Key>
+      <Value>강철이 무엇인가요?</Value>
+    </Record>
+    <Record>
+      <Key>WhatASteelDescription</Key>
+      <Value>이제 {THING:ItemKitBattery}를 만들 수 있을 만큼의 강철을 구했습니다. {THING:ItemKitBattery}는 스테이션에 필요한 많은 양의 에너지를 저장할 수 있습니다.
+
+{THING:StructureElectronicsPrinter}를 사용하여 배터리 키트를 프린트하세요.</Value>
     </Record>
     <Record>
       <Key>WhatASteelTask1</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemSteelIngot}를 주우세요.</Value>
     </Record>
     <Record>
       <Key>WhatASteelTask2</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:StructureElectronicsPrinter}에 {THING:ItemSteelIngot}를 넣어주세요.</Value>
     </Record>
     <Record>
       <Key>WhatASteelTask3</Key>
-      <Value>{THING:StructureBench}에 내려놓으세요.</Value>
+      <Value>{THING:StructureElectronicsPrinter}를 켜고, {THING:ItemKitBattery}를 찾아, 프린트하세요.</Value>
     </Record>
   </Interface>
 </Language>

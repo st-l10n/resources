@@ -4,135 +4,280 @@
   <Interface>
     <Record>
       <Key>Tutorial-BasicRocketry</Key>
-      <Value>에어록 감압</Value>
+      <Value>로켓 공학의 기본</Value>
+    </Record>
+    <Record>
+      <Key>Tutorial-BasicRocketryDescription</Key>
+      <Value>로켓을 제작하고 발사 준비를 하는 방법을 알아보겠습니다.</Value>
+    </Record>
+    <Record>
+      <Key>LaunchPlatforms</Key>
+      <Value>로켓 공학을 시작하는 방법</Value>
+    </Record>
+    <Record>
+      <Key>LaunchPlatformsDescription</Key>
+      <Value>로켓을 발사하려면 먼저 발사대를 만들어야합니다.</Value>
+    </Record>
+    <Record>
+      <Key>LaunchPlatformsTask1</Key>
+      <Value>런치 사이트까지의 안내를 따라 흰색 상자에 있는 {THING:ItemKitStructureLaunchPad}를 주우세요.</Value>
     </Record>
     <Record>
       <Key>LaunchPlatformsTask2</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructureLaunchPad}를 강조된 지점에 설치해주세요.</Value>
+    </Record>
+    <Record>
+      <Key>LaunchPlatforms2</Key>
+      <Value>발사 플랫폼 건설하기</Value>
+    </Record>
+    <Record>
+      <Key>LaunchPlatformsDescription2</Key>
+      <Value>{THING:StructureLaunchPad}은 로켓을 충전하는 메인 지점이며 로켓의 모든 모듈에 연결됩니다.</Value>
     </Record>
     <Record>
       <Key>WeildSteelPlatesL</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemSteelSheets}를 {THING:StructureLaunchPad}에 용접하세요.</Value>
     </Record>
     <Record>
       <Key>ElectronicsL</Key>
-      <Value>{THING:StructureBench}에 내려놓으세요.</Value>
+      <Value>{THING:StructureLaunchPad}에 전자 장치를 연결하세요.</Value>
+    </Record>
+    <Record>
+      <Key>RocketEngines</Key>
+      <Value>로켓의 엔진</Value>
+    </Record>
+    <Record>
+      <Key>RocketEnginesDescription</Key>
+      <Value>로켓의 다음 부분은 {THING:StructureModularRocketEngine01}입니다.  이것은 연료를 추진력으로 변환하여 로켓이 이륙할 수 있도록 해줍니다.</Value>
     </Record>
     <Record>
       <Key>RocketEnginesTask1</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>좌측에 있는 상자에서 {THING:ItemKitStructureModularRocketEngine01}를 주우세요.</Value>
     </Record>
     <Record>
       <Key>RocketEnginesTask2</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructureModularRocketEngine01}를 강조 표시된 지점에 설치하세요.</Value>
+    </Record>
+    <Record>
+      <Key>RocketEngines2</Key>
+      <Value>로켓 엔지니어링 101</Value>
+    </Record>
+    <Record>
+      <Key>RocketEngines2Description</Key>
+      <Value>일반적으로 생각하는 것과는 달리 로켓엔진을 제작하는 방법은 1,2,3과 같이 매우 쉽습니다. 강철, 플라스틱, 전자 제품만 있으면 됩니다.</Value>
     </Record>
     <Record>
       <Key>RocketEngines2Task1</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemSteelSheets}를 {THING:StructureModularRocketEngine01}에 용접하세요.</Value>
     </Record>
     <Record>
       <Key>RocketEngines2Task2</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:ItemPlasticSheets}를 {THING:StructureModularRocketEngine01}에 용접하세요.</Value>
     </Record>
     <Record>
       <Key>RocketEngines2Task3</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemElectronicParts}를 {THING:StructureModularRocketEngine01}에 연결하세요.</Value>
+    </Record>
+    <Record>
+      <Key>FuelTanks</Key>
+      <Value>연료 탱크</Value>
+    </Record>
+    <Record>
+      <Key>FuelTanksDescription</Key>
+      <Value>연료 탱크는 로켓의 다음 모듈입니다. 로켓에는 여러개의 연료 탱크 모듈을 장착하여 더 많은 연료를 운반할 수 있는데 이리 하면 더 많은 화물을 가지고 갈 수 있습니다.</Value>
     </Record>
     <Record>
       <Key>FuelTanksTask1</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>좌측에서 {THING:ItemKitStructureModularRocketFueltank01}를 주우세요.</Value>
     </Record>
     <Record>
       <Key>FuelTanksTask2</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructureModularRocketFueltank01}를 강조 표시된 지점에 설치하세요.</Value>
+    </Record>
+    <Record>
+      <Key>FuelTanks2</Key>
+      <Value>연료 탱크</Value>
+    </Record>
+    <Record>
+      <Key>FuelTanks2Description</Key>
+      <Value>스테이셔니어의 로켓은 가스 발전기 또는 용접기에 필요한 가연성 가스를 동일하게 사용합니다. 2:1 비율로 휘발성 물질과 산소를 주입할 시 깔끔하게 점화할 수 있습니다.</Value>
     </Record>
     <Record>
       <Key>FuelTanks2Task1</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:ItemKitTank}를 {THING:StructureModularRocketFueltank01}에 부착하세요.</Value>
     </Record>
     <Record>
       <Key>FuelTanks2Task2</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemSteelSheets}를 {THING:StructureModularRocketFueltank01}에 용접하세요.</Value>
     </Record>
     <Record>
       <Key>FuelTanks2Task3</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemElectronicParts}를 {THING:StructureModularRocketFueltank01}에 연결하세요.</Value>
+    </Record>
+    <Record>
+      <Key>CargoModule</Key>
+      <Value>화물 모듈</Value>
+    </Record>
+    <Record>
+      <Key>CargoModuleDescription</Key>
+      <Value>화물 모듈은 장비와 장치를 다음 목적지로 가지고 갈 수 있게 해줍니다. 더 많은 화물 모듈을 지을 수 있지만, 이는 더 많은 연료 탱크를 필요로합니다.</Value>
     </Record>
     <Record>
       <Key>CargoModuleTask1</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>좌측에 있는 상자에서 {THING:ItemKitStructureModularRocketCargo01}를 주우세요.</Value>
     </Record>
     <Record>
       <Key>CargoModuleTask2</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructureModularRocketCargo01}를 강조 표시된 지점에 설치하세요.</Value>
+    </Record>
+    <Record>
+      <Key>CargoModule2</Key>
+      <Value>화물 모듈 건설</Value>
+    </Record>
+    <Record>
+      <Key>CargoModule2Description</Key>
+      <Value>화물 모듈은 다른 모듈과 유사합니다. 여러개의 모듈을 만들 시 우주선의 무게가 증가하며 이는 더 많은 연료를 필요로합니다.</Value>
     </Record>
     <Record>
       <Key>CargoModule2Task1</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemSteelSheets}를 {THING:StructureModularRocketCargo01}에 용접하세요.</Value>
     </Record>
     <Record>
       <Key>CargoModule2Task2</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemPlasticSheets}를 {THING:StructureModularRocketCargo01}에 용접하세요.</Value>
     </Record>
     <Record>
       <Key>CargoModule2Task3</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemElectronicParts}를 {THING:StructureModularRocketCargo01}에 연결하세요.</Value>
+    </Record>
+    <Record>
+      <Key>CommandMod</Key>
+      <Value>커맨드 모듈</Value>
+    </Record>
+    <Record>
+      <Key>CommandModDescription</Key>
+      <Value>커맨드 모듈은 로켓의 마지막 부품이며 중앙 제어 지점입니다. 이는 로켓의 최종 목적지를 조종하는 장치이기도 합니다. </Value>
     </Record>
     <Record>
       <Key>CommandModTask1</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>좌측에 있는 흰색 상자에서 {THING:ItemKitStructureModularRocketCommand01}를 주우세요.</Value>
     </Record>
     <Record>
       <Key>CommandModTask2</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructureModularRocketCommand01}를 강조 표시된 지점에 설치하세요.</Value>
+    </Record>
+    <Record>
+      <Key>CommandMod2</Key>
+      <Value>커맨드 모듈 건설</Value>
+    </Record>
+    <Record>
+      <Key>CommandMod2Description</Key>
+      <Value>외부열 차단기와 강화 유리를 갖춘 이 모듈은 안전하게 떠나 위험이 없는 행성의 대기로 진입할 수 있게 해줍니다. 활성화 된 에어컨 유닛을 가지고 있으며 탄소로 절연되어 최적의 온도를 가지고 있으며 숨쉬기 쉬운 환경을 만들어냅니다.</Value>
     </Record>
     <Record>
       <Key>CommandMod2Task1</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemSteelSheets}를 {THING:StructureModularRocketCommand01}에 용접하세요.</Value>
     </Record>
     <Record>
       <Key>CommandMod2Task2</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemPlasticSheets}를 {THING:StructureModularRocketCommand01}에 용접하세요.</Value>
     </Record>
     <Record>
       <Key>CommandMod2Task3</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemElectronicParts}를 {THING:StructureModularRocketCommand01}에 연결하세요.</Value>
+    </Record>
+    <Record>
+      <Key>FuelUp</Key>
+      <Value>연료 주입</Value>
+    </Record>
+    <Record>
+      <Key>FuelUpDescription</Key>
+      <Value>이제 로켓에 연료를 주입하도록 하겠습니다. 미리 준비된 연료 혼합물이 대형 연료 탱크에 추가되었습니다. 저희는 이 새로 지은 로켓 연료모듈의 배관을 완성해야합니다.
+커맨드 모듈은 산소를 사용하지만 우주복을 입고 비행할거기때문에 이는 필수적인 요소가 아닙니다.</Value>
     </Record>
     <Record>
       <Key>FuelUpStraight</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructureInsulatedPipeStraight}를 강조 표시된 지점에 설치하세요.</Value>
     </Record>
     <Record>
       <Key>FuelUpCorner</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructureInsulatedPipeCorner}를 강조 표시된 지점에 설치하세요.</Value>
+    </Record>
+    <Record>
+      <Key>NoPower</Key>
+      <Value>동력 없음</Value>
+    </Record>
+    <Record>
+      <Key>NoPowerDescription</Key>
+      <Value>현재 로켓에 동력이 없는 것 같습니다. 엘리베이터 뒤에 있는 {THING:StructureAreaPowerControl}를 확인하세요.</Value>
     </Record>
     <Record>
       <Key>NoPower1</Key>
-      <Value>{THING:StructureBench}에 내려놓으세요.</Value>
+      <Value>{THING:StructureAreaPowerControl}를 켜세요.</Value>
+    </Record>
+    <Record>
+      <Key>SettingTheDestination</Key>
+      <Value>목적지 설정</Value>
+    </Record>
+    <Record>
+      <Key>SettingTheDestinationDescription</Key>
+      <Value>발사 전에, 비행 컴퓨터를 유효한 목적지로 설정하지 않으면 아무것도 없는 곳에 도달 할 수도 있습니다. 이런 경우에는 원하는 행성의 ID를 논리 작성기를 이용해 커맨드 모듈에 입력해주세요.</Value>
+    </Record>
+    <Record>
+      <Key>SettingTheDestination1</Key>
+      <Value>도움말을 여세요.</Value>
+    </Record>
+    <Record>
+      <Key>SettingTheDestination2</Key>
+      <Value>세계 여행 섹션으로 이동하여, &apos;여행&apos; 버튼을 클릭하세요, 그리고 목적지를 설정하는 방법에 대해 읽은 후에 마이마스의 좌표 : -712314497를 복사하세요.</Value>
     </Record>
     <Record>
       <Key>SettingTheDestination3</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>좌측의 상자에서 {THING:ItemLabeller}를 주우세요.</Value>
     </Record>
     <Record>
       <Key>SettingTheDestination4</Key>
-      <Value>{THING:StructureFrame}을 용접하면 튜토리얼을 완료할 수 있습니다.</Value>
+      <Value>{THING:ItemLabeller}를 이용해 {THING:StructureLogicMemory}를 마이마스의 좌표 : -712314497로 설정해주세요.</Value>
     </Record>
     <Record>
       <Key>SettingTheDestination5</Key>
-      <Value>{THING:StructureFrame}을 용접하면 튜토리얼을 완료할 수 있습니다.</Value>
+      <Value>{THING:ItemScrewdriver}를 사용하여 {THING:StructureLogicWriter}의 입력값을 {THING:StructureLogicMemory}로 설정하세요.</Value>
     </Record>
     <Record>
       <Key>SettingTheDestination6</Key>
-      <Value>{THING:StructureFrame}을 용접하면 튜토리얼을 완료할 수 있습니다.</Value>
+      <Value>{THING:ItemScrewdriver}를 사용하여 {THING:StructureLogicWriter}의 출력 값을 {THING:StructureLaunchPad}로 설정하세요.</Value>
     </Record>
     <Record>
       <Key>SettingTheDestination7</Key>
-      <Value>{THING:StructureFrame}을 용접하면 튜토리얼을 완료할 수 있습니다.</Value>
+      <Value>{THING:ItemScrewdriver}를 사용하여 {THING:StructureLogicWriter}의 LogicType 값을 &apos;설정&apos;으로 설정하세요.</Value>
     </Record>
     <Record>
       <Key>SettingTheDestination8</Key>
-      <Value>{THING:StructureBench}에 내려놓으세요.</Value>
+      <Value>마지막으로, {THING:StructureLogicWriter}를 켜주세요. 이전의 모든 단계는 체크가 끝나있어야 합니다.</Value>
+    </Record>
+    <Record>
+      <Key>FuelUpValve</Key>
+      <Value>연료 주입 밸브</Value>
+    </Record>
+    <Record>
+      <Key>FuelUpValveDescription</Key>
+      <Value>로켓을 준비하는 마지막 단계는 연료 밸브를 켜고 연료 탱크를 채우는 것입니다.</Value>
+    </Record>
+    <Record>
+      <Key>FuelUpValveTask1</Key>
+      <Value>논리실 위에 있는 연료 밸브를 열어주세요.</Value>
+    </Record>
+    <Record>
+      <Key>LaunchRocket</Key>
+      <Value>이륙할 시간입니다.</Value>
+    </Record>
+    <Record>
+      <Key>LaunchRocketDescription</Key>
+      <Value>이제 이륙할 시간입니다! 엘리베이터를 타고 꼭대기 층으로 올라가세요, 로켓이 발사되고 준비가 되면 커맨드 모듈로 들어갈 수 있습니다. 그 다음 LAUNCH 버튼을 눌러주세요.</Value>
+    </Record>
+    <Record>
+      <Key>LaunchRocketTask1</Key>
+      <Value>로켓 발사</Value>
     </Record>
   </Interface>
 </Language>

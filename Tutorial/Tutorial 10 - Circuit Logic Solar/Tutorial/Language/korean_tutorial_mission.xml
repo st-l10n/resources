@@ -3,68 +3,231 @@
   <Code>KO</Code>
   <Interface>
     <Record>
+      <Key>Tutorial10-CircuitLogicSolarTracking</Key>
+      <Value>ADV 논리 회로 - 태양열 추적</Value>
+    </Record>
+    <Record>
+      <Key>CircuitLogicSolarTrackingDescription</Key>
+      <Value>논리 회로를 이용해 태양열 패널을 자동화합니다.</Value>
+    </Record>
+    <Record>
+      <Key>MoveToArea</Key>
+      <Value>지점으로 이동</Value>
+    </Record>
+    <Record>
+      <Key>MoveToAreaDescription</Key>
+      <Value>메인 허브까지 엘리베이터를 타고 내려가서 불이 켜진 복도를 따로 훈련 지점으로 이동하세요.</Value>
+    </Record>
+    <Record>
+      <Key>MoveToAreaTask1</Key>
+      <Value>훈련 지점까지 에어락을 순환하세요.</Value>
+    </Record>
+    <Record>
+      <Key>ConsoleManuallControl</Key>
+      <Value>태양열 콘솔 조작</Value>
+    </Record>
+    <Record>
+      <Key>ConsoleManuallControlDescription</Key>
+      <Value>태양열 패널 정렬 작업은 시간이 많이 걸리는 작업일 수 있습니다. 작업 속도를 높이려면 태양열 패널을 함께 연결하고 제어 콘솔에 연결하면 한번에 위치를 수동으로 조절할 수 있습니다. 필요한 것은 전부 상자에 있습니다.</Value>
+    </Record>
+    <Record>
       <Key>ConsoleManuallControl1</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructureCableStraight}를 강조 표시된 지점에 설치하여 네트워크를 완성하세요.</Value>
     </Record>
     <Record>
       <Key>ConsoleManuallControl2</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructureConsole}를 강조 표시된 지점에 설치하세요.</Value>
+    </Record>
+    <Record>
+      <Key>ConsoleManualControlSetup</Key>
+      <Value>콘솔 수동 제어 설정</Value>
+    </Record>
+    <Record>
+      <Key>ConsoleManualControlSetUpDescription</Key>
+      <Value>에어락을 설정하는 것과 마찬가지로, {THING:CircuitboardSolarControl}를 사용하여 태양열 패널의 제어 회로를 프로그래밍 해야합니다.</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask1</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructureConsole}에 {THING:CircuitboardSolarControl}를 삽입하세요.</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask2</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:StructureConsole}에 {THING:ItemGlassSheets}를 부착하세요.</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask3</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:StructureConsole}에 {THING:ItemDataDisk}를 삽입하세요.</Value>
+    </Record>
+    <Record>
+      <Key>ConsoleManualControlSetUpDescription2</Key>
+      <Value>콘솔을 켜고 표시된 4개의 태양열 패널을 선택하세요.
+
+데이더 디스크 제거를 완료하면, 이제 연결된 모든 태양열 패널의 수평 및 수직 각도를 조절할 수 있을 뿐만 아니라 출력도 모니터링 할 수 있습니다.</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask4</Key>
-      <Value>{THING:StructureBench}에 내려놓으세요.</Value>
+      <Value>{THING:StructureConsole}를 켜고 표시된 태양열 패널을 선택하세요.</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask5</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:StructureConsole}에서 {THING:ItemDataDisk}를 제거하세요.</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensors</Key>
+      <Value>센서 설정</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorsDescription</Key>
+      <Value>태양 추적 자동화는 태양열 패널을 통해 생산되는 전력을 최대로 만들어주며 태양열 패널을 수동으로 조작할 필요가 없어집니다.
+
+첫 번째 단계는 햇빛 감지기를 설치하는 것입니다. 하나는 태양의 수평 각도를 측정할 것이며, 다른 하나는 수직 각도를 측정할 것입니다.</Value>
     </Record>
     <Record>
       <Key>PickUpDaylightSensor</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>상자에서 {THING:ItemKitSensor} 유닛을 주우세요.</Value>
     </Record>
     <Record>
       <Key>DaylightSensor1</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructureDaylightSensor}를 강조 표시된 지점에 설치하세요.</Value>
+    </Record>
+    <Record>
+      <Key>SolarMemory</Key>
+      <Value>메모리 모듈</Value>
+    </Record>
+    <Record>
+      <Key>SolarMemoryDescription</Key>
+      <Value>메모리는 데이터를 저장하는데 사용되며, 스크류드라이버로 값을 수동으로 설정할 수 있습니다. 회로에 데이터를 저장하기 위해 5개의 메모리 모듈이 필요합니다.</Value>
     </Record>
     <Record>
       <Key>PickUpMemory</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>근처 상자에서 {THING:ItemKitLogicMemory} 유닛을 주우세요.</Value>
     </Record>
     <Record>
       <Key>StructureLogicMemory</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructureLogicMemory} 유닛을 강조 표시된 지점에 설치하세요.</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory</Key>
+      <Value>메모리 설정</Value>
+    </Record>
+    <Record>
+      <Key>SetMemoryDescription</Key>
+      <Value>이제 {THING:StructureLogicMemory} 유닛을 설치하고, 태양열 추적 시스템을 설정했으므로, {THING:ItemScrewdriver}를 사용하여 {THING:StructureLogicMemory}에 특정 값을 설정해야합니다. 값은 {THING:StructureDaylightSensor} 및 태양열 패널의 위치와 각도에 따라 달라집니다. 
+햇빛 센서에는 3가지의 모드가 존재합니다 : 기본, 수평 그리고 수직. 각 모드는 태양 각도의 출력을 변화시킵니다. 이 경우 센서를 모드 1의 수평 모드로 설정해야 합니다. 이리 하려면 수평 메모리 모듈의 값을 1로 설정하면 논리 기록기가 센서에 해당 값을 기록하게 됩니다.</Value>
+    </Record>
+    <Record>
+      <Key>SetMemoryDescription2</Key>
+      <Value>이제 태양열 패널과 햇빛 센서의 위치와 각도를 보정하기 위해 수평 오프셋을 설정해야합니다. 태양 센서와 태양열 패널과의 각도가 90도일 경우 오프셋은 태양열 패널이 태양을 향하도록 각도 데이터를 조정합니다. 이 값을 수평 연산 단위 1의 출력 값에 추가할 경우 수평 연산 단위 2에 이 값을 적용합니다. </Value>
+    </Record>
+    <Record>
+      <Key>SetMemoryDescription3</Key>
+      <Value>태양 센서는 값을 -로 제공하므로 이를 +로 변환해줘야합니다. 이렇게 하려면 수평 연산 1을 사용하여 메모리 반전 값을 태양 센서 값에 곱해주세요.</Value>
+    </Record>
+    <Record>
+      <Key>SetMemoryDescription4</Key>
+      <Value>마지막으로, 태양열 패널의 수직 위치를 보정하세요.
+이렇게 하려면 수직 연산 1에서 태양 수직 각도의 백분율을 선택하고 수직 연산 2에서 메모리 추가를 사용하여 50%를 추가하세요. 이리 하면 태양광 패널의 수평 영점이 50%(평평하며 위를 바라보게)가 됩니다.
+</Value>
+    </Record>
+    <Record>
+      <Key>SetMemoryDescription5</Key>
+      <Value>태양열 패널의 수직 축은 백분율로 측정되며, 센서는 0 ~ 160도에서 태양 각도 데이터를 출력합니다.
+
+센서와 호환되는 태양열 패널을 만들기 위해 수직 논리 연산 1을 사용해 센서의 데이터를 1.6으로 나눈 뒤 그 정도를 백분율로 환산하세요.</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory0</Key>
+      <Value>수평 모드 메모리의 값을 1로 설정하세요.</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory1</Key>
+      <Value>OffSet 메모리의 값을 -90으로 설정하세요.</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory2</Key>
+      <Value>반전 메모리 값을 -1로 설정하세요.</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory3</Key>
+      <Value>덧셈 메모리 값을 50으로 설정하세요.</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory4</Key>
+      <Value>기울기 메모리 값을 1.6으로 설정하세요.</Value>
+    </Record>
+    <Record>
+      <Key>SetupHorizontalSensor</Key>
+      <Value>수평 센서 설정</Value>
+    </Record>
+    <Record>
+      <Key>SetupHorizontalSensorDescription</Key>
+      <Value>논리 작성기는 장치에서 특정 논리 유형에 주어진 값을 작성할 수 있게합니다.
+\t\t\t
+참고 : 일부 논리 회로 데이터는 특정 방향으로 흐르기 때문에 쓰고 있는 장치에 연결되는 데이터 출력 소켓을 가지고 논리 작성기를 배치해야합니다. 이에 따라 회로를 설계하세요.</Value>
+    </Record>
+    <Record>
+      <Key>SetupLogicWritter</Key>
+      <Value>논리 작성기 설정</Value>
+    </Record>
+    <Record>
+      <Key>SetupLogicWritterDescription</Key>
+      <Value>수평 센서를 수평 모드로 설정해야합니다. 이를 위해 {THING:StructureLogicMemory}에서 값을 읽어 {THING:StructureLogicWriter}로 센서의 모드를 설정하세요.</Value>
     </Record>
     <Record>
       <Key>SetupLogicWritter1</Key>
-      <Value>{THING:StructureBench}에 내려놓으세요.</Value>
+      <Value>{THING:StructureLogicWriter}를 켜세요.</Value>
     </Record>
     <Record>
       <Key>SetupLogicWritter2</Key>
-      <Value>{THING:StructureFrame}을 용접하면 튜토리얼을 완료할 수 있습니다.</Value>
+      <Value>{THING:ItemScrewdriver}를 사용하여 {THING:StructureLogicWriter}의 입력을 수평 모드 메모리로 설정하세요.</Value>
+    </Record>
+    <Record>
+      <Key>SetupLogicWritter3</Key>
+      <Value>{THING:StructureLogicWriter}의 출력을 수평 햇빛 감지기로 설정하세요.</Value>
+    </Record>
+    <Record>
+      <Key>SetupLogicWritter4</Key>
+      <Value>모드라고 하는 센서의 논리 값에 쓰도록 {THING:StructureLogicWriter}를 설정하세요.</Value>
     </Record>
     <Record>
       <Key>PickUpLogicProcessor</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>근처 상자에서 {THING:ItemKitLogicProcessor} 유닛을 주우세요.</Value>
     </Record>
     <Record>
       <Key>LogicWriter1</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructureLogicWriter}를 강조 표시된 지점에 설치하세요.</Value>
+    </Record>
+    <Record>
+      <Key>LogicReadersSetup</Key>
+      <Value>논리 판독기 설정</Value>
+    </Record>
+    <Record>
+      <Key>LogicReaderSetupDescription</Key>
+      <Value>논리 판독기는 논리를 읽어올 수 있게합니다. 이를 각 센서의 태양 각도를 읽을 때 사용할 것 입니다.</Value>
     </Record>
     <Record>
       <Key>LogicReader1</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructureLogicReader}를 강조 표시된 지점에 설치하세요.</Value>
+    </Record>
+    <Record>
+      <Key>LogicReaderLogicSetup</Key>
+      <Value>논리 판독기 설정</Value>
+    </Record>
+    <Record>
+      <Key>LogicReaderLogicSetupDescription</Key>
+      <Value>이제 새로 설치 된 논리 판독기를 설정해야합니다. 논리 판독기와 마찬가지로, 입력값을 설정해야합니다.</Value>
+    </Record>
+    <Record>
+      <Key>LogicReaderLogicSetup1</Key>
+      <Value>수평 논리 판독기 1의 입력을 수평 햇빛 감지기로 설정하세요.</Value>
+    </Record>
+    <Record>
+      <Key>LogicReaderLogicSetup2</Key>
+      <Value>논리 값을 태양 각도로 설정하세요.</Value>
+    </Record>
+    <Record>
+      <Key>LogicReaderLogicSetup3</Key>
+      <Value>수직 논리 판독기 1을 수직 햇빛 감지기로 설정하세요.</Value>
     </Record>
     <Record>
       <Key>PlaceLogicMath</Key>

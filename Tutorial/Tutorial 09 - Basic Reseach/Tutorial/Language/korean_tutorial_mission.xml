@@ -3,68 +3,157 @@
   <Code>KO</Code>
   <Interface>
     <Record>
+      <Key>09BasicResearch</Key>
+      <Value>연구의 기본</Value>
+    </Record>
+    <Record>
+      <Key>BasicResearchDescription</Key>
+      <Value>연구소를 이용하여 새로운 기술을 잠금해제하세요.</Value>
+    </Record>
+    <Record>
+      <Key>TheResearchMachine</Key>
+      <Value>연구소</Value>
+    </Record>
+    <Record>
+      <Key>TheResearchMachineDescription</Key>
+      <Value>세계 설정 메뉴에서 연구가 활성화되면, 연구 캡슐을 가공하여 신기술을 적극적으로 잠금해제해야합니다. 이 작업은 {THING:StructureResearchMachine}를 사용해야합니다.
+
+첫번째 과제는 {THING:StructureResearchMachine}를 건설하는 것입니다. 빨간색 {THING:DynamicCrate}에서 필요한 모든것을 찾을 수 있습니다.</Value>
+    </Record>
+    <Record>
       <Key>TheResearchMachine1</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemKitResearchMachine}를 빨간 {THING:DynamicCrate}에서 주우세요.</Value>
     </Record>
     <Record>
       <Key>TheResearchMachine2</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:ItemKitResearchMachine}를 강조 표시된 지점에 설치하세요.</Value>
+    </Record>
+    <Record>
+      <Key>TheResearchMachineBuild</Key>
+      <Value>연구소 설치</Value>
+    </Record>
+    <Record>
+      <Key>TheResearchMachineBuildeDescription</Key>
+      <Value>다른 시스템들과 마찬가지로, {THING:StructureResearchMachine}는 여러 설치 단계가 존재합니다. {THING:StructureResearchMachine}를 완성하려면 각 단계를 완료하세요.</Value>
     </Record>
     <Record>
       <Key>TheResearchMachineBuild1</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemIronSheets}를 주우세요.</Value>
     </Record>
     <Record>
       <Key>TheResearchMachineBuild2</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>용접기를 이용해 {THING:ItemIronSheets}을 {THING:StructureResearchMachine}에 용접하세요.</Value>
     </Record>
     <Record>
       <Key>TheResearchMachineBuild3</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemElectronicParts}를 주우세요.</Value>
+    </Record>
+    <Record>
+      <Key>TheResearchMachineBuild4</Key>
+      <Value>{THING:ItemScrewdriver}를 사용하여 {THING:ItemElectronicParts}를 {THING:StructureResearchMachine}에 연결하세요.</Value>
     </Record>
     <Record>
       <Key>TheResearchMachineBuild5</Key>
-      <Value>{THING:StructureFrame}을 용접하면 튜토리얼을 완료할 수 있습니다.</Value>
+      <Value>{THING:ItemScrewdriver}로 {THING:StructureResearchMachine}를 완성하세요.</Value>
+    </Record>
+    <Record>
+      <Key>PrintingCapsules</Key>
+      <Value>캡슐 프린팅</Value>
+    </Record>
+    <Record>
+      <Key>PrintingCapsulesDescription</Key>
+      <Value>연구 캡슐은 연구하는 과정에서 필수적인 재료입니다. {THING:StructureElectronicsPrinter}를 사용하여 프린트 한 후 {THING:StructureResearchMachine}에 추가하여 연구 포인트를 흭득하세요. 캡슐은 색깔별로 등급이 나뉘어집니다.
+
+더 발전된 기술들은 더 높은 등급의 캡슐을 필요로합니다.
+
+근처에 있는 {THING:StructureElectronicsPrinter}를 사용하여 캡슐을 프린트하세요.</Value>
     </Record>
     <Record>
       <Key>PrintingCapsules1</Key>
-      <Value>{THING:StructureBench}에 내려놓으세요.</Value>
+      <Value>{THING:StructureElectronicsPrinter}를 켜세요.</Value>
     </Record>
     <Record>
       <Key>PrintingCapsules2</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:StructureElectronicsPrinter}에서 {THING:ItemResearchCapsuleRed}를 선택하세요.</Value>
     </Record>
     <Record>
       <Key>PrintingCapsules3</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemResearchCapsuleRed}를 프린트하세요.</Value>
     </Record>
     <Record>
       <Key>PrintingCapsules4</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:StructureElectronicsPrinter}에서 {THING:ItemResearchCapsule}를 선택하세요.</Value>
     </Record>
     <Record>
       <Key>PrintingCapsules5</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemResearchCapsule}를 프린트하세요.</Value>
+    </Record>
+    <Record>
+      <Key>InsertingCapsules</Key>
+      <Value>캡슐 삽입</Value>
+    </Record>
+    <Record>
+      <Key>InsertingCapsulesDescription</Key>
+      <Value>이제 연구 캡슐이 생겼으니, 이것들을 연구 포인트로 분해하세요.</Value>
     </Record>
     <Record>
       <Key>InsertingCapsules0</Key>
-      <Value>{THING:StructureBench}에 내려놓으세요.</Value>
+      <Value>{THING:StructureResearchMachine}를 켜세요.</Value>
     </Record>
     <Record>
       <Key>InsertingCapsules1</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>새로 프린트된 {THING:ItemResearchCapsuleRed}를 {THING:StructureResearchMachine}의 뒷면에 삽입하세요.</Value>
+    </Record>
+    <Record>
+      <Key>InsertingCapsules2</Key>
+      <Value>{THING:StructureResearchMachine}의 전면에 있는 큰 녹색 버튼을 클릭하여 캡슐 가공을 시작합니다. 버튼 아래의 진행 바가 채워질때까지 기다리세요, 이 바는 가공이 완료되었음을 알려줍니다.</Value>
+    </Record>
+    <Record>
+      <Key>InsertingCapsules3</Key>
+      <Value>첫번째 캡슐이 가공되었으면, {THING:ItemResearchCapsule}을 {THING:StructureResearchMachine}의 후면에 삽입하세요.</Value>
+    </Record>
+    <Record>
+      <Key>CapsuleBreakDown</Key>
+      <Value>캡슐 가공</Value>
+    </Record>
+    <Record>
+      <Key>CapsuleBreakDownDescription</Key>
+      <Value>연구 캡슐은 각 등급별로 가공되는 시간이 다릅니다. 높은 티어일수록 가공하는데 더 많은 시간이 소요됩니다.</Value>
     </Record>
     <Record>
       <Key>CapsuleBreakDown1</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:StructureResearchMachine}를 사용하여 두번째 {THING:ItemResearchCapsule}을 가공하세요.</Value>
+    </Record>
+    <Record>
+      <Key>UnlockingResearch</Key>
+      <Value>연구 잠금해제</Value>
+    </Record>
+    <Record>
+      <Key>UnlockingResearchDescription</Key>
+      <Value>이제 캡슐 가공이 완료되었으며, 새로운 기술에 대해 연구를 시작할 수 있습니다.
+\t연구 메뉴에 접근하려면 {THING:StructureResearchMachine}의 빨간색 원을 클릭하세요. 메뉴 오른쪽 상단에서는 현재 연구 포인트를 확인할 수 있으며 가공된 각 포드에 대해 1점을 흭득합니다.
+
+메뉴의 왼쪽에는 잠금 해제할 특정 기술을 찾는데 도움이 될 수 있는 필터를 켜고 끌 수 있는 기능이 표시됩니다. 패널의 중앙에는 현재 잠긴 카테고리와 각 카테고리의 잠금 해제 가격이 표시됩니다.</Value>
+    </Record>
+    <Record>
+      <Key>UnlockingResearch2</Key>
+      <Value>{THING:StructureResearchMachine}에서 빨간 원을 클릭하고, 기술 카테고리에서 &apos;자동화&apos;를 클릭하세요.  그 후 &apos;기본 논리 조작&apos;을 선택 후, &apos;확인&apos;을 클릭하세요.</Value>
+    </Record>
+    <Record>
+      <Key>ItemsUnlocked</Key>
+      <Value>잠금 해제된 아이템들</Value>
+    </Record>
+    <Record>
+      <Key>ItemsUnlockedDescription</Key>
+      <Value>이제 새로운 연구 노드를 잠금해제 하였으므로, 프린트 기계에서 그 노드와 연결된 새로운 아이템에 접근할 수 있습니다.</Value>
     </Record>
     <Record>
       <Key>ItemsUnlocked1</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:StructureElectronicsPrinter}에서 {THING:CircuitboardAirControl}를 선택하세요.</Value>
     </Record>
     <Record>
       <Key>ItemsUnlocked2</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructureElectronicsPrinter}에서 {THING:CircuitboardAirControl}를 프린트하세요.</Value>
     </Record>
   </Interface>
 </Language>

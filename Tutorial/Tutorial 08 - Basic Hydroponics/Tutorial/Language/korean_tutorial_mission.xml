@@ -3,76 +3,176 @@
   <Code>KO</Code>
   <Interface>
     <Record>
+      <Key>08BasicHydroponics</Key>
+      <Value>수경 재배의 기본</Value>
+    </Record>
+    <Record>
+      <Key>BasicHydroponicsDescription</Key>
+      <Value>수경 재배를 튜토리얼을 통해 감자를 우주에서 길러봅시다.</Value>
+    </Record>
+    <Record>
+      <Key>PortableHydroponics</Key>
+      <Value>휴대용 수경재배기</Value>
+    </Record>
+    <Record>
+      <Key>PortableHydroponicsDescription</Key>
+      <Value>{THING:DynamicHydroponics} 유닛은 임시로 식량을 기르기에 좋습니다. 가벼우면서도 휴대성이 뛰어나지만 무게때문에 조명을 따로 갖추고 있지 않다는 단점을 가지고 있습니다.
+
+이는 식물이 자라기 위해서는 {THING:DynamicHydroponics} 유닛이 햇볕이 잘 드는 장소에 있어야 함을 의미합니다. 또한 제어된 공기또한 필요합니다.
+
+식물 성장의 최상 조건은 8kPa ~ 130 kPa의 압력과 15~50도 사이의 온도로 조절해줘야합니다. 공기의 구성으로는 수소나 오염 물질이 없어야하며 최소한 2%의 이산화탄소를 포함해야합니다</Value>
+    </Record>
+    <Record>
       <Key>PortableHydroponicsTask1</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemPotato}를 집으세요.</Value>
     </Record>
     <Record>
       <Key>PortableHydroponicsTask2</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemGasCanisterWater}를 집으세요.</Value>
     </Record>
     <Record>
       <Key>PortableHydroponicsTask3</Key>
-      <Value>{THING:ItemTablet} 켜기</Value>
+      <Value>{THING:DynamicHydroponics} 베이스의 유닛에 물통을 삽입하세요.</Value>
+    </Record>
+    <Record>
+      <Key>PortableHydroponicsTask4</Key>
+      <Value>{THING:ItemPotato}를 {THING:DynamicHydroponics} 유닛의 심기 슬롯에 심으세요.</Value>
+    </Record>
+    <Record>
+      <Key>PotatosInSpace</Key>
+      <Value>우주속 감자</Value>
     </Record>
     <Record>
       <Key>PotatosInSpaceDescription</Key>
-      <Value>{THING:ItemEvaSuit}슬롯 창 열기</Value>
+      <Value>{THING:ItemPotato}을 길러봅시다.</Value>
+    </Record>
+    <Record>
+      <Key>PotatosInSpaceTask1</Key>
+      <Value>식물이 자랄때까지 기다리세요. 참고 : 이 튜토리얼에 한해서 식물의 성장 속도를 높였습니다.</Value>
     </Record>
     <Record>
       <Key>PotatosInSpaceTask2</Key>
-      <Value>{THING:ItemTablet} 내려놓기</Value>
+      <Value>{THING:ItemPotato}를 수확하세요.</Value>
+    </Record>
+    <Record>
+      <Key>FixedHydroponics</Key>
+      <Value>고정형 수경재배</Value>
+    </Record>
+    <Record>
+      <Key>FixedHydroponicsDescription</Key>
+      <Value>{THING:DynamicHydroponics} 유닛은 처음에 시작하기엔 좋지만, 곧 {THING:StructureHydroponicsStation}로 업그레이드 할겁니다. 여기에는 시스템 자동화에 도움이 되는 UV 조명과 내장된 파이프가 존재합니다.</Value>
     </Record>
     <Record>
       <Key>FixedHydroponicsTask1</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemKitHydroponicStation}를 주우세요.</Value>
     </Record>
     <Record>
       <Key>FixedHydroponicsTask2</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:ItemKitHydroponicStation}를 강조 표시된 지점에 설치하세요.</Value>
+    </Record>
+    <Record>
+      <Key>TankConnectorsWhatAreThey</Key>
+      <Value>탱크 커넥터 - 이게 뭐지?</Value>
+    </Record>
+    <Record>
+      <Key>TankConnectorsWhaAreTheyDescription</Key>
+      <Value>탱크 커넥터는 {THING:DynamicGasCanisterWater}을(를) 파이프 네트워크에 연결하는데 사용됩니다, 이는 가스와 물을 운반하는데 사용할 수 있습니다.</Value>
     </Record>
     <Record>
       <Key>TankConnectorsWhatAreTheyTask1</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemTankConnector}를 주우세요.</Value>
     </Record>
     <Record>
       <Key>TankConnectorsWhatAreTheyTask2</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructureTankConnector}를 강조 표시된 지점에 설치하세요.</Value>
+    </Record>
+    <Record>
+      <Key>WaterTanksAndWrenches</Key>
+      <Value>물 탱크와 렌치</Value>
+    </Record>
+    <Record>
+      <Key>WaterTanksAndWrenchesDescription</Key>
+      <Value>{THING:DynamicGasCanisterWater}를 {THING:ItemTankConnector}위에 설치하고 {THING:ItemWrench}를 사용하여 연결하세요.</Value>
     </Record>
     <Record>
       <Key>WaterTanksAndWrenches1</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:ItemWrench}를 도구 벨트에서 꺼내세요.</Value>
+    </Record>
+    <Record>
+      <Key>WaterTanksAndWrenchesTask2</Key>
+      <Value>{THING:ItemWrench}를 사용하여 {THING:DynamicGasCanisterWater}와 {THING:ItemTankConnector}를 연결하세요.</Value>
+    </Record>
+    <Record>
+      <Key>WaterNetworks</Key>
+      <Value>수로망</Value>
+    </Record>
+    <Record>
+      <Key>WaterNetworksDescription</Key>
+      <Value>파란색 파이프를 이용하여 {THING:ItemTankConnector}와 {THING:StructureHydroponicsStation}를 연결하세요. {THING:DynamicGasCanisterWater}가 비워질 때까지 물이 장치를 통해 흐릅니다.</Value>
     </Record>
     <Record>
       <Key>WaterNetworksTask1</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>파란색 {THING:ItemKitPipe}를 주우세요.</Value>
     </Record>
     <Record>
       <Key>WaterNetworksTask2</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructurePipeStraight}를 강조 표시된 지점에 설치하세요.</Value>
+    </Record>
+    <Record>
+      <Key>KeepingItTidy</Key>
+      <Value>청결 유지</Value>
+    </Record>
+    <Record>
+      <Key>KeepingItTidyDescription</Key>
+      <Value>{THING:ItemKitCompositeFloorGrating}는 바닥에 장착된 파이프와 전선을 숨길 수 있는 훌륭한 방법중 하나입니다. 이는 또한 기지를 수월하게 걸어다닐 수 있게 해줍니다.</Value>
     </Record>
     <Record>
       <Key>KeepingItTidyTask1</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemKitCompositeFloorGrating}를 상자에서 주우세요.</Value>
     </Record>
     <Record>
       <Key>KeepingItTidyTask2</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:StructureCompositeFloorGrating}를 강조 표시된 지점에 설치하세요.</Value>
+    </Record>
+    <Record>
+      <Key>AutomatedHydroponics</Key>
+      <Value>자동화 된 수경재배</Value>
+    </Record>
+    <Record>
+      <Key>AutomatedHydroponicsDescription</Key>
+      <Value>이제 새 {THING:StructureHydroponicsStation}를 켤 수 있으며 {THING:ItemPotato}를 키울 수 있습니다. 이는 햇볕이 잘 들지 않는 환경에서도 식물이 잘 자랄 수 있게하는 조명을 가지고 있습니다.</Value>
     </Record>
     <Record>
       <Key>AutomatedHydroponicsTask1</Key>
-      <Value>{THING:ItemTablet} 켜기</Value>
+      <Value>{THING:StructureHydroponicsStation}를 켜세요.</Value>
     </Record>
     <Record>
       <Key>AutomatedHydroponicsTask2</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>이전에 수확한 {THING:ItemPotato}를 주우세요.</Value>
     </Record>
     <Record>
       <Key>AutomatedHydroponicsTask3</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:StructureHydroponicsStation}에 {THING:ItemPotato}를 심으세요.</Value>
+    </Record>
+    <Record>
+      <Key>AutomatedHydroponicsTask4</Key>
+      <Value>남은 아이템을 손에서 버리세요.</Value>
+    </Record>
+    <Record>
+      <Key>HonestWork</Key>
+      <Value>정직한 작업</Value>
+    </Record>
+    <Record>
+      <Key>HonestWorkDescription</Key>
+      <Value>이제 안정된 식량 재배로 자급자족할 수 있게 되었습니다! {THING:ItemPotato}가 수확 준비가 될때까지 기다리세요.</Value>
+    </Record>
+    <Record>
+      <Key>HonestWorkTask1</Key>
+      <Value>{THING:ItemPotato}가 완전히 성장할때까지 기다리세요.</Value>
     </Record>
     <Record>
       <Key>HonestWorkTask2</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemPotato}를 수확하세요.</Value>
     </Record>
   </Interface>
 </Language>
