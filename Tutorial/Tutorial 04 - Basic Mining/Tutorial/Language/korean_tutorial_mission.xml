@@ -3,40 +3,128 @@
   <Code>KO</Code>
   <Interface>
     <Record>
+      <Key>04BasicMining</Key>
+      <Value>채굴의 기본</Value>
+    </Record>
+    <Record>
+      <Key>BasicMiningDescription</Key>
+      <Value>이 강의에서는, 기본적인 채굴 방법과 채굴한 광석들을 주괴로 만드는법을 알려드리겠습니다.</Value>
+    </Record>
+    <Record>
+      <Key>TheTablet</Key>
+      <Value>태블릿</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletDescription</Key>
+      <Value>환영합니다, 훈련생님! 오늘의 첫번째 과제로는 {THING:ItemTablet}을 장착하는 것입니다. {THING:ItemTablet}은 백과사전이나 비콘 트래커 뿐만 아니라 대기 및 네트워크에 대한 정보를 표시해줍니다.</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletTask1</Key>
+      <Value>{KEY:BackSlot}키를 눌러 {SLOT:Back}을 열고 {THING:ItemTablet}을 찾으세요.</Value>
+    </Record>
+    <Record>
       <Key>TheTabletTask2</Key>
-      <Value>{THING:ItemTablet} 내려놓기</Value>
+      <Value>{THING:ItemTablet}를 장착하세요</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletTask2.5</Key>
+      <Value>{SLOT:Back}에서 {THING:ItemTablet}으로 {THING:CartridgeTracker}의 아이콘을 클릭하여 드래그로 삽입하거나 {THING:ItemTablet}을 클릭하여 자체 UI를 열어주세요.</Value>
+    </Record>
+    <Record>
+      <Key>TheTabletTask3</Key>
+      <Value>{THING:ItemTablet}을 {KEY:ToggleHandPower}키를 눌러 키세요.</Value>
+    </Record>
+    <Record>
+      <Key>TheCoalMines</Key>
+      <Value>석탄 채굴</Value>
+    </Record>
+    <Record>
+      <Key>TheCoalMinesDescription</Key>
+      <Value>이제 저희는 행성의 표면에서 자원을 캘 수 있습니다. 우리는 이를 위해 {SLOT:Back}에서 {THING:ItemMiningBelt}를 장착하고 벨트를 {THING:ItemToolBelt}에서 {THING:ItemMiningBelt}로 교환합니다. 그리고 {THING:ItemMiningDrill}을 {THING:ItemMiningBelt}에서 꺼내서 장착해주세요.</Value>
     </Record>
     <Record>
       <Key>TheCoalMinesTask0</Key>
-      <Value>{THING:ItemWireCutters} 장비하기</Value>
+      <Value>{THING:ItemMiningBelt} 장착하기</Value>
     </Record>
     <Record>
       <Key>TheCoalMinesTask1</Key>
-      <Value>{THING:ItemCableCoil} 장비하기</Value>
+      <Value>{THING:ItemMiningDrill}를 장착하세요.</Value>
+    </Record>
+    <Record>
+      <Key>OnTheBadList</Key>
+      <Value>나쁜 목록</Value>
+    </Record>
+    <Record>
+      <Key>OnTheBadListDescription</Key>
+      <Value>훈련생님, 비컨으로 캐기 좋은 곳을 표시해놨습니다. 태블릿을 사용하여 휠을 돌려 비콘을 선택하세요. 그리고 표시된 지점으로가서 약간의 {THING:ItemCoalOre}을 캐와주세요.</Value>
     </Record>
     <Record>
       <Key>OnTheBadListTask1</Key>
-      <Value>{THING:ItemTablet} 켜기</Value>
+      <Value>{THING:ItemMiningDrill}를 켜세요.</Value>
     </Record>
     <Record>
       <Key>OnTheBadListTask2</Key>
-      <Value>{THING:ItemToolBelt}를 {SLOT:Belt}슬롯에 차기</Value>
+      <Value>{THING:ItemMiningDrill}로 {THING:ItemCoalOre}을 캐주세요.</Value>
+    </Record>
+    <Record>
+      <Key>HardAsIron</Key>
+      <Value>철</Value>
+    </Record>
+    <Record>
+      <Key>HardAsIronDescription</Key>
+      <Value>잘하셨습니다, 훈련생님! {THING:ItemCoalOre}는 발전기를 돌려 전력을 생산하는데 사용됩니다. 다음으로, 철을 찾아야합니다. {THING:ItemIronOre}은 대부분의 아이템에 사용되는 재료로서 필수적인 광석입니다. 태블릿에 위치가 표시되었으니 확인하세요.</Value>
     </Record>
     <Record>
       <Key>HardAsIronTask1</Key>
-      <Value>{THING:ItemMuffin} 만들기</Value>
+      <Value>{THING:ItemIronOre}를 채굴하세요.</Value>
+    </Record>
+    <Record>
+      <Key>ConductiveMetals</Key>
+      <Value>전도성 금속</Value>
+    </Record>
+    <Record>
+      <Key>ConductiveMetalsDescription</Key>
+      <Value>훈련생님, 다음 지역은 언덕 위 높은 지역이기때문에 접근하기 어려울 수 있습니다. {KEY:Jetpack}키를 눌러 제트팩을 활성화 또는 비활성화 하며 태블릿에 표시된 {THING:ItemCopperOre}가 있는 위치로 가주세요.</Value>
+    </Record>
+    <Record>
+      <Key>ConductiveMetalsTask1</Key>
+      <Value>{THING:ItemCopperOre}를 채굴하세요.</Value>
+    </Record>
+    <Record>
+      <Key>GoldRush</Key>
+      <Value>금</Value>
+    </Record>
+    <Record>
+      <Key>GoldRushDescription</Key>
+      <Value>마지막으로, 전기 및 전자 아이템들을 제작하기 위해 {THING:ItemGoldOre}이 필요합니다. {THING:ItemTablet}에 위치가 표시 되었습니다. 힌트 : {KEY:Jetpack}를 눌러 제트팩을 사용해 빠르게 이동할 수 있습니다.</Value>
     </Record>
     <Record>
       <Key>GoldRushTask1</Key>
-      <Value>{THING:ItemTablet} 켜기</Value>
+      <Value>{THING:ItemGoldOre}을 채굴하세요.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDown</Key>
+      <Value>제련</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownDescription</Key>
+      <Value>지금은 이것들만 있으면 충분합니다. 이제 기지로 돌아가 제련을 해보겠습니다. {THING:StructureArcFurnace}는 각종 광석을 제련하여 주괴를 만드는데 사용합니다. {THING:ItemIronOre}을 제련하여 {THING:ItemIronIngot}로 만들어보세요. </Value>
     </Record>
     <Record>
       <Key>SmeltingItDownTask0</Key>
-      <Value>{THING:StructureBench}에 내려놓으세요.</Value>
+      <Value>{THING:StructureArcFurnace}를 켜세요.</Value>
     </Record>
     <Record>
       <Key>SmeltingItDownTask1</Key>
-      <Value>{THING:ItemSpacepack}에서 {THING:ItemWrench}를 꺼내세요.</Value>
+      <Value>{THING:ItemMiningBelt}에서 {THING:ItemIronOre}을 꺼내세요.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownTask2</Key>
+      <Value>{THING:ItemIronOre}를 화로에 넣고 제련하세요.</Value>
+    </Record>
+    <Record>
+      <Key>SmeltingItDownTask3</Key>
+      <Value>새로 제련된 {THING:ItemIronIngot}를 주우세요.</Value>
     </Record>
   </Interface>
 </Language>

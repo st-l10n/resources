@@ -3,60 +3,128 @@
   <Code>KO</Code>
   <Interface>
     <Record>
+      <Key>05BasicFabrication</Key>
+      <Value>생산의 기본</Value>
+    </Record>
+    <Record>
+      <Key>BasicFabricationDescription</Key>
+      <Value>이 강의에서는, 새로운 아이템과 기계를 생산해내는 방법을 배울거에요.</Value>
+    </Record>
+    <Record>
+      <Key>StopLathenAroundDescription</Key>
+      <Value>환영합니다, 훈련생님, 오늘은 , {THING:StructureAutolathe}를 사용하여 만들어낸 주괴들을 사용 할만한 아이템 그리고 재료로 바꿔볼거에요. 첫 번째 작업은 간단합니다.</Value>
+    </Record>
+    <Record>
       <Key>StopLathenAroundTask1</Key>
-      <Value>{THING:StructureBench}에 내려놓으세요.</Value>
+      <Value>{THING:StructureAutolathe}를 켜세요.</Value>
+    </Record>
+    <Record>
+      <Key>StopLathenAroundTask2</Key>
+      <Value>{THING:StructureAutolathe}에서 화살표를 사용해 {THING:ItemCableCoil}를 선택하세요. 또는 검색 버튼을 눌러 스크롤로 {THING:ItemCableCoil}를 찾으세요.</Value>
     </Record>
     <Record>
       <Key>StopLathenAroundTask3</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>주황색 상자에서 {THING:ItemCopperIngot}를 주우세요.</Value>
+    </Record>
+    <Record>
+      <Key>StopLathenAround2Description</Key>
+      <Value>{THING:ItemCableCoil}를 프린트하려면 {THING:StructureAutolathe}에 알맞는 재료를 제공해야합니다.</Value>
     </Record>
     <Record>
       <Key>StopLathenAround2Task1</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:StructureAutolathe}의 좌측 입력 슬롯 안에 {THING:ItemCopperIngot}를 놓으세요.</Value>
+    </Record>
+    <Record>
+      <Key>StopLathenAround2Task2</Key>
+      <Value>{THING:StructureAutolathe}의 큰 초록색 버튼을 눌러 프린팅을 시작합니다. {THING:ItemCableCoil} 4개를 프린트하세요.</Value>
+    </Record>
+    <Record>
+      <Key>ShineyNewPlates</Key>
+      <Value>새로운 판</Value>
+    </Record>
+    <Record>
+      <Key>ShineyNewPlatesDescription</Key>
+      <Value>좋습니다, 훈련생님! {THING:ItemCableCoil}은 나중에 유용하게 사용할 수 있습니다. 이제 {THING:ItemIronSheets}을 제작해야합니다. {THING:ItemIronSheets}은 대부분의 구조물과 시스템을 구축하는데 들어가는 중요한 구성 요소입니다.</Value>
+    </Record>
+    <Record>
+      <Key>ShineyNewPlatesTask1</Key>
+      <Value>이전과 같이, {THING:StructureAutolathe}의 메뉴에서 {THING:ItemIronSheets}을 선택하세요.</Value>
     </Record>
     <Record>
       <Key>ShineyNewPlatesTask2</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemIronIngot}을 주황색 상자에서 집으세요.</Value>
     </Record>
     <Record>
       <Key>ShineyNewPlatesTask3</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:ItemIronIngot}를 {THING:StructureAutolathe}의 좌측에 있는 재료 삽입기에 넣어주세요.</Value>
     </Record>
     <Record>
       <Key>ShineyNewPlatesTask4</Key>
-      <Value>{THING:ItemMuffin} 만들기</Value>
+      <Value>{THING:ItemIronSheets} 2개를 제작하세요.</Value>
+    </Record>
+    <Record>
+      <Key>FakePlastic</Key>
+      <Value>플라스틱은 가짜</Value>
+    </Record>
+    <Record>
+      <Key>FakePlasticDescription</Key>
+      <Value>다음으로 필요한 구성요소는 {THING:ItemPlasticSheets}입니다. 이는 기계를 완성하는데 사용됩니다.</Value>
     </Record>
     <Record>
       <Key>FakePlasticTask1</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:StructureAutolathe}의 메뉴에서 {THING:ItemPlasticSheets}을 골라주세요.</Value>
     </Record>
     <Record>
       <Key>FakePlasticTask2</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemSiliconIngot}을 주황색 상자에서 집으세요.</Value>
     </Record>
     <Record>
       <Key>FakePlasticTask3</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:ItemSiliconIngot}를 {THING:StructureAutolathe}의 좌측에 있는 재료 삽입기에 넣어주세요.</Value>
     </Record>
     <Record>
       <Key>FakePlasticTask4</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemPlasticSheets} 2개를 제작하세요.</Value>
+    </Record>
+    <Record>
+      <Key>BendingMachine</Key>
+      <Value>자판기</Value>
+    </Record>
+    <Record>
+      <Key>BendingMachineDescription</Key>
+      <Value>{THING:StructureHydraulicPipeBender}는 파이프, 환기구 및 기타 대기 구조물을 만드는데 사용됩니다.</Value>
+    </Record>
+    <Record>
+      <Key>BendingMachineTask1</Key>
+      <Value>{THING:StructureAutolathe}의 메뉴에서 {THING:ItemKitHydraulicPipeBender}를 선택하세요.</Value>
     </Record>
     <Record>
       <Key>BendingMachineTask2</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemGoldIngot}를 주황색 상자에서 주워주세요.</Value>
     </Record>
     <Record>
       <Key>BendingMachineTask3</Key>
-      <Value>{THING:ItemTablet}에 {THING:ItemBatteryCellLarge} 끼우기</Value>
+      <Value>{THING:ItemGoldIngot}를 {THING:StructureAutolathe}의 좌측에 있는 재료 삽입기에 넣어주세요.</Value>
     </Record>
     <Record>
       <Key>BendingMachineTask4</Key>
-      <Value>{THING:ItemTablet} 들기</Value>
+      <Value>{THING:ItemKitHydraulicPipeBender}를 프린트하세요.</Value>
+    </Record>
+    <Record>
+      <Key>ThePipeBender</Key>
+      <Value>파이프벤더</Value>
+    </Record>
+    <Record>
+      <Key>ThePipeBenderDescription</Key>
+      <Value>이제 {THING:StructureHydraulicPipeBender}를 설치할 수 있습니다. 새로 만든 {THING:ItemKitHydraulicPipeBender}를 지정된 위치에 설치하세요.</Value>
     </Record>
     <Record>
       <Key>ThePipeBenderTask1</Key>
-      <Value>{THING:StructureFrame}을 용접하면 튜토리얼을 완료할 수 있습니다.</Value>
+      <Value>{THING:ItemKitHydraulicPipeBender}를 설치하세요.</Value>
+    </Record>
+    <Record>
+      <Key>ThePassiveVent</Key>
+      <Value>자연식 환풍기</Value>
     </Record>
     <Record>
       <Key>ThePassiveVentTask1</Key>
