@@ -2258,11 +2258,11 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemCableAnalyser</Key>
-      <Value>Készlet (Kábel elemző)</Value>
+      <Value>Készlet (Kábelelemző)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableAnalysizer</Key>
-      <Value>Kábel elemző</Value>
+      <Value>Kábelelemző</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicDial</Key>
@@ -4691,8 +4691,20 @@
       <Value>Építési készletek</Value>
     </Record>
     <Record>
+      <Key>ChairTableCategory</Key>
+      <Value>Asztalok és székek</Value>
+    </Record>
+    <Record>
       <Key>PersonalSuits</Key>
       <Value>Ruhák</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCategory</Key>
+      <Value>Energiatárolás</Value>
+    </Record>
+    <Record>
+      <Key>CableCategory</Key>
+      <Value>Kábelek és elemzők</Value>
     </Record>
     <Record>
       <Key>LightCategory</Key>
@@ -4701,6 +4713,10 @@
     <Record>
       <Key>PersonalBackpacks</Key>
       <Value>Hátizsákok</Value>
+    </Record>
+    <Record>
+      <Key>FoodCategory</Key>
+      <Value>Elfogyaszthatók</Value>
     </Record>
     <Record>
       <Key>WallFloorCategory</Key>
@@ -5472,6 +5488,14 @@
     <Record>
       <Key>TooltipPlacementSnapFaceNotMountableFallback</Key>
       <Value>Ezen struktúrák egyike nem teszi lehetővé az elhelyezést</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceWrongFaceDynamic</Key>
+      <Value>Nem lehet rögzíteni #VAR1# ezen oldalára, próbáld egy másikon</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceWrongFaceFallback</Key>
+      <Value>Nem lehet erre az oldalra rögzíteni, próbáld egy másikon</Value>
     </Record>
     <Record>
       <Key>GameMenuClearDisconnectedPlayers</Key>
