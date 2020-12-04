@@ -2,10 +2,142 @@
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>KO</Code>
   <Interface>
+    <Record>
+      <Key>01TutorialUIBasics</Key>
+      <Value>기본 UI</Value>
+    </Record>
+    <Record>
+      <Key>UIBasicsDescription</Key>
+      <Value>아카데미에 오신것을 환영합니다, 훈련생님! 스테이셔니어가 되기 위한 기본적인 사항들을 알려드리겠습니다! 첫 번째 강의에서는 기본적인 UI와 조작법을 알려드리겠습니다.</Value>
+    </Record>
     <!-- start the tutorial -->
     <Record>
+      <Key>TutorialMouseControls</Key>
+      <Value>마우스 커서가 어디있나요?</Value>
+    </Record>
+    <Record>
+      <Key>TutorialMouseControlsDescription</Key>
+      <Value>시작하겠습니다. 첫 번째 작업은 도움말을 빠르게 확인하는 것입니다. 완료되면 {KEY:Help} 키를 누르거나 {KEY:MouseControl} 키를 꾹 눌러 마우스 커서를 움직여 창을 닫으세요.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialMouseControlsTask1</Key>
+      <Value>{LINK:Home;Stationpedia}을(를) 닫으세요.</Value>
+    </Record>
+    <Record>
+      <Key>AlertSystem</Key>
+      <Value>경고</Value>
+    </Record>
+    <Record>
+      <Key>AlertSystemDescription</Key>
+      <Value>경고가 뜹니다!!!</Value>
+    </Record>
+    <Record>
+      <Key>DisplayAlert1</Key>
+      <Value>훈련생님, 이번에는 헬멧에 긴급 상황이 발생했을 때를 대비한 헬멧 조작법을 알려드리겠습니다.
+{KEY:Internals} 키를 눌러 헬멧이 열렸을 시 닫을 수 있습니다. 
+{KEY:MouseControl} 키를 꾹 눌러 마우스를 활성화 한 상태에서 이 창을 닫아주세요.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUIControls</Key>
+      <Value>헬멧을 닫으세요.</Value>
+    </Record>
+    <Record>
+      <Key>ALTTask1</Key>
+      <Value>경고를 닫으세요.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUIControlsDescription</Key>
+      <Value>인간은 산소가 없는 공간에서 생존할 수 없습니다. 사고로 인한 사망을 방지하려면 헬멧을 닫고 잠그시길 바랍니다.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUIControlsTask</Key>
+      <Value>헬멧 메뉴를 {KEY:HelmetSlot} 키를 눌러 열거나 {KEY:MouseControl} 키를 꾹 눌러 마우스를 띄운 상태에서 {SLOT:Helmet} 슬롯을 클릭하세요.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUIControlsTask1</Key>
+      <Value>{KEY:Internals}키를 눌러 헬멧을 닫으세요.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUIControlsTask2</Key>
+      <Value>다시는 이런 문제가 발생하지 않도록 헬멧을 잠그세요, {KEY:MouseControl} 키를 꾹 누른 상태로 마우스를 활성화하고 그대로 헬멧 메뉴를 열고 마스크 잠금 버튼을 누르세요.</Value>
+    </Record>
+    <Record>
+      <Key>AlertSystem2</Key>
+      <Value>경고</Value>
+    </Record>
+    <Record>
+      <Key>ALTTask2</Key>
+      <Value>경고를 닫으세요.</Value>
+    </Record>
+    <Record>
+      <Key>AlertSystemDescription2</Key>
+      <Value>경고가 뜹니다!!!</Value>
+    </Record>
+    <Record>
+      <Key>DisplayAlert2</Key>
+      <Value>훈련생님, 이번에는 슈트의 압력 조절 및 온도를 조절하는 방법을 알려드리겠습니다.
+{KEY:MouseControl} 키를 꾹 눌러 마우스를 활성화 한 상태에서 이 창을 닫아주세요.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSuitControls</Key>
+      <Value>여기가 춥나요?</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSuitControlsDescription</Key>
+      <Value>{KEY:SuitSlot} 키를 눌러 슈트 메뉴를 열거나 {KEY:MouseControl} 키를 눌러 커서를 띄워 슈트 아이콘을 클릭하여 슈트 메뉴를 열어주세요. 그 후 슈트 메뉴의 컨트롤을 사용하여 슈트 내부의 압력과 온도를 조절하세요.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSuitControlsTask</Key>
+      <Value>{KEY:SuitSlot} 키를 눌러 슈트 메뉴를 열어주세요.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSuitControlsTask1</Key>
+      <Value>슈트의 온도를 22 도로 맞추세요: {KEY:MouseControl} 키를 꾹 눌러 커서를 띄우고 &apos;온도 상승&apos; 버튼을 클릭하세요.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSuitControlsTask2</Key>
+      <Value>&apos;압력 상승&apos; 버튼을 클릭하여 슈트의 내부 압력을 45 파스칼로 맞춰주세요.</Value>
+    </Record>
+    <Record>
+      <Key>ReplaceingSuititems</Key>
+      <Value>생명 유지 아이템</Value>
+    </Record>
+    <Record>
+      <Key>ReplaceingSuititemsDescription</Key>
+      <Value>현재 당신의 생명유지 장치는 배터리가 부족하며 탄소 필터의 내구도가 0%입니다. 이를 상자에서 찾아 교체하세요. </Value>
+    </Record>
+    <Record>
+      <Key>ReplaceingSuititemsTask1</Key>
+      <Value>생명 유지 장치의 배터리를 교체하세요. 상자에서 슈트 슬롯의 빈 배터리가 들어있는 부분으로 배터리를 드래그 하세요.</Value>
+    </Record>
+    <Record>
+      <Key>ReplaceingSuititemsTask2</Key>
+      <Value>필터를 슈트에 추가하세요. CO2 필터를 드래그하여 손에다 놓고, {KEY:MouseControl} 키를 꾹 눌러 커서를 띄운 상태로 내구도가 다 달은 CO2 필터에 드래그하여 교체하세요 .</Value>
+    </Record>
+    <Record>
+      <Key>DisplayAlert3</Key>
+      <Value>훌륭합니다, 훈련생님!
+{KEY:HideAllWindows} 키를 눌러 모든 창을 닫거나 각 슬롯 키를 눌러 하나씩 닫을 수도 있습니다.</Value>
+    </Record>
+    <Record>
+      <Key>CloseingUIs</Key>
+      <Value>메뉴를 닫아주세요.</Value>
+    </Record>
+    <Record>
+      <Key>CloseingUIsDescription</Key>
+      <Value>이제 마지막 단계입니다. 모든 창을 닫아주세요.</Value>
+    </Record>
+    <Record>
       <Key>ALTTask3</Key>
-      <Value>에어록 감압</Value>
+      <Value>경고를 닫으세요</Value>
+    </Record>
+    <Record>
+      <Key>CloseingUIstask1</Key>
+      <Value>{KEY:HideAllWindows} 키를 눌러 모든 UI를 닫으세요.</Value>
+    </Record>
+    <Record>
+      <Key>CloseingUIstask2</Key>
+      <Value>손에 남아있는 아이템이 있을 경우, {KEY:Drop} 키를 눌러 버리세요. 손 변경은 {KEY:SwapHands} 키를 눌러 할 수 있습니다.</Value>
     </Record>
   </Interface>
 </Language>
