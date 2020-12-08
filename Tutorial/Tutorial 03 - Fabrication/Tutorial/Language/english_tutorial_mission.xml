@@ -6,11 +6,11 @@
 	<Interface>
 		<Record>
 			<Key>TutoiralFabrication</Key>
-			<Value>Fabrication</Value>
+			<Value>Mining + Fabrication</Value>
 		</Record>
 		<Record>
 			<Key>TutoiralFabricationDescription</Key>
-			<Value>Test your knowledge of mining and fabrication.</Value>
+			<Value>Explore the basics of mining and fabrication.</Value>
 		</Record>
 		<Record>
 			<Key>TutoiralFabricationSubTitle</Key>
@@ -18,8 +18,9 @@
 		</Record>
 		<Record>
 			<Key>IntoTutoiralFabricationDescription</Key>
-			<Value>Welcome Cadet. Far from Earth, Stationeers must forge their own resources from local materials.
-It's time to test your knowledge of mining and fabrication.</Value>
+			<Value>Welcome, Cadet.
+As a Stationeer deployed far from Earth, you have a choice: forge your own resources from local materials, or perish.
+Basic knowledge of mining and fabrication is essential. Repair the Lunar Test Base to prove your skills.</Value>
 		</Record>
 		<Record>
 			<Key>3Narration1T</Key>
@@ -27,7 +28,8 @@ It's time to test your knowledge of mining and fabrication.</Value>
 		</Record>
 		<Record>
 			<Key>3Narration1D</Key>
-			<Value>To finish this part of the base, you need a hydraulic pipebender to create components. But first, you need the raw materials - use your tablet to track them down.</Value>
+			<Value>Sometimes, design works backwards: To repair the testing base you need components ... To fabricate those components, you need a hydraulic pipebender ... To create a hydraulic pipebender, you need raw materials ... 
+			So let's track down some ore using your tablet.</Value>
 		</Record>
 		<Record>
 			<Key>3GetTablet</Key>
@@ -39,7 +41,7 @@ It's time to test your knowledge of mining and fabrication.</Value>
 		</Record>
 		<Record>
 			<Key>3Narration2D</Key>
-			<Value>Tablets perform different functions depending on what cartridge is inserted. Add a tracker cartridge</Value>
+			<Value>The Xigo 'Padi' tablet performs a range of different functions. With the 'Tracking' cartridge inserted, it helps you navigate to local beacons.</Value>
 		</Record>
 		<Record>
 			<Key>2PutCartInTablet</Key>
@@ -51,7 +53,8 @@ It's time to test your knowledge of mining and fabrication.</Value>
 		</Record>
 		<Record>
 			<Key>3Narration3D</Key>
-			<Value>Use the tablet to navigate to the beacon we've placed near an ore deposit.</Value>
+			<Value>Finding ore to build your base takes time. To help, we've placed a beacon at a nearby iron deposit.
+Use the tablet to navigate to the beacon, then get mining!</Value>
 		</Record>
 		<Record>
 			<Key>3EnterAreaT1</Key>
@@ -59,7 +62,9 @@ It's time to test your knowledge of mining and fabrication.</Value>
 		</Record>
 		<Record>
 			<Key>3Narration4D</Key>
-			<Value>Use the drill in your mining belt to mine ore. When the mining belt is equipped, the ore will appear directly in it once mined.</Value>
+			<Value>The tri-cone, rotary 'Topo' mining drill lives in your mining belt.
+Functioning equally well in vacuum and atmosphere, its cemented carbide bits increase resilience, bearing life, and reduce spalling.
+Treat it well.</Value>
 		</Record>
 		<Record>
 			<Key>3GetMDrill</Key>
@@ -75,7 +80,8 @@ It's time to test your knowledge of mining and fabrication.</Value>
 		</Record>
 		<Record>
 			<Key>3Narration5D</Key>
-			<Value>Get that ore back to the base and lets get smelting.</Value>
+			<Value>Your mining belt should now have plenty of iron ore in it.
+Carry it back to the base, and let's get smelting!</Value>
 		</Record>
 		<Record>
 			<Key>3EnterAreaT2</Key>
@@ -83,7 +89,8 @@ It's time to test your knowledge of mining and fabrication.</Value>
 		</Record>
 		<Record>
 			<Key>3Narration6D</Key>
-			<Value>Raw ore has to be turned into ingots before it can be used. For that you need an arc furnace. Grab a kit from the crate and place it in the highlighted area.</Value>
+			<Value>Before it can be used for construction, raw ore has to be turned into pure ingots. For that, the simplest solution is an arc furnace.
+Grab a kit from the crate and place it in the highlighted area.</Value>
 		</Record>
 		<Record>
 			<Key>3GetArcFurnaceKit</Key>
@@ -95,11 +102,12 @@ It's time to test your knowledge of mining and fabrication.</Value>
 		</Record>
 		<Record>
 			<Key>3BuildHeavyCableTutorial</Key>
-			<Value>Connect arc furnace to power using cables from your toolbelt.</Value>
+			<Value>Connect arc furnace to power using cables from toolbelt.</Value>
 		</Record>
 		<Record>
 			<Key>3Narration7D</Key>
-			<Value>Now you're ready to smelt iron. Add your iron ore to the arc furnace.</Value>
+			<Value>The arc furnace won't operate at high enough temperatures to create complex alloys, but it smelts iron just fine.
+Add your iron ore to the arc furnace.</Value>
 		</Record>
 		<Record>
 			<Key>3ArcFurnaceOn</Key>
@@ -115,7 +123,8 @@ It's time to test your knowledge of mining and fabrication.</Value>
 		</Record>
 		<Record>
 			<Key>3Narration8D</Key>
-			<Value>Arc furnace produces pure ore ingots, which provide resources for fabrication devices. (Note: We've sped it up for you this time)</Value>
+			<Value>Simple, fast and ... fairly efficient, an arc furnace also creates gas byproducts that can be filtered out and used for other purposes.
+Right now, however, you just need the metal.</Value>
 		</Record>
 		<Record>
 			<Key>2GetIronIngot</Key>
@@ -123,11 +132,12 @@ It's time to test your knowledge of mining and fabrication.</Value>
 		</Record>
 		<Record>
 			<Key>3PutIronIngotInAutoLathe</Key>
-			<Value>Add ingot to autolathe (at side).</Value>
+			<Value>Add ingot to autolathe</Value>
 		</Record>
 		<Record>
 			<Key>3Narration9D</Key>
-			<Value>To make a hydraulic pipebender, you need copper, iron and gold. Grab other ingots from the crate and add them to the autolathe.</Value>
+			<Value>As the name suggests, the hydraulic pipebender makes pipes, as well as atmospheric devices and some portable structures.
+To build one with the autolathe you need iron, copper and gold. The other ingots you need are in the crate.</Value>
 		</Record>
 		<Record>
 			<Key>3GetCopperIngot</Key>
@@ -147,7 +157,8 @@ It's time to test your knowledge of mining and fabrication.</Value>
 		</Record>
 		<Record>
 			<Key>3Narration10D</Key>
-			<Value>Use the autolathe to make a pipebender kit</Value>
+			<Value>The autolathe is multi-axis molecular compositional tool. It fabricates a range of structural and device kits, including the humble hydraulic pipebender.
+Click the search button on the front to search for a recipe.</Value>
 		</Record>
 		<Record>
 			<Key>3AutoLatheOn</Key>
@@ -163,27 +174,29 @@ It's time to test your knowledge of mining and fabrication.</Value>
 		</Record>
 		<Record>
 			<Key>3GetPipeBender</Key>
-			<Value>Pick hydraulic pipebender kit.</Value>
+			<Value>Pick up hydraulic pipebender kit.</Value>
 		</Record>
 		<Record>
 			<Key>3BuildPipebenderTutorial</Key>
-			<Value>Place hydraulic pipebender in highlighted position</Value>
+			<Value>Place hydraulic pipebender in highlighted position.</Value>
 		</Record>
 		<Record>
 			<Key>3Narration11D</Key>
-			<Value>Now that the pipebender's frame is placed, we need to complete it. Just like the autolathe, follow the tooltips to finish construction.</Value>
+			<Value>Things take time: like the autolathe, the hydraulic pipebender has several construction stages.
+Follow the tooltips to finish constructing it.</Value>
 		</Record>
 		<Record>
 			<Key>3FinishPipeBender</Key>
-			<Value>Using resources from the crate, complete pipebender.</Value>
+			<Value>Complete pipebender with resources from crate.</Value>
 		</Record>
 		<Record>
 			<Key>3PipeBenderOn</Key>
-			<Value>Turn on the pipebender.</Value>
+			<Value>Turn on pipebender.</Value>
 		</Record>
 		<Record>
 			<Key>3Narration12D</Key>
-			<Value>If you need ingots in a hurry, you can remove them from a machine. Eject ingots from the autolathe by pulling lever, then add them to the hydraulic pipebender.</Value>
+			<Value>Versatility is a virtue. Need ingots in a hurry? Fabrication devices also provide resource storage.
+Eject them from the autolathe by pulling the lever, then add them to another machine.</Value>
 		</Record>
 		<Record>
 			<Key>3OpenAutoLathe</Key>
@@ -203,7 +216,7 @@ It's time to test your knowledge of mining and fabrication.</Value>
 		</Record>
 		<Record>
 			<Key>3Narration13D</Key>
-			<Value>In the next stage of testing, you will create an airlock. One of the key components is an active vent. Print an active vent on the hydraulic pipebender.</Value>
+			<Value>Active vents are critical airlock components: you can now fabricate one with the hydraulic pipebender!</Value>
 		</Record>
 		<Record>
 			<Key>3ActiveVentHash</Key>
@@ -211,11 +224,11 @@ It's time to test your knowledge of mining and fabrication.</Value>
 		</Record>
 		<Record>
 			<Key>3FabricateActiveVent</Key>
-			<Value>Fabricate active vent using pipeBender.</Value>
+			<Value>Fabricate active vent using pipebender.</Value>
 		</Record>
 		<Record>
 			<Key>3PipeBenderOff</Key>
-			<Value>Turn off pipebender once fabrication is complete.</Value>
+			<Value>Turn off pipebender when fabrication is complete.</Value>
 		</Record>
 		<Record>
 			<Key>3GetItemActiveVent</Key>
@@ -223,27 +236,29 @@ It's time to test your knowledge of mining and fabrication.</Value>
 		</Record>
 		<Record>
 			<Key>3Narration14D</Key>
-			<Value>Good work, Cadet. You've built a fabrication system. That's the last step of Practical Testing, Phase III. Press the 'Complete' button to transmit your results to Stationeer Command.</Value>
+			<Value>Good work, Cadet. You've created a complete fabrication system.
+That's the last step of Practical Testing, Phase III. Press the 'Complete' button to transmit your results to Stationeer Command.</Value>
 		</Record>
 		<Record>
 			<Key>3OnButtonPressTaskT1</Key>
 			<Value>Press transmit button to complete test.</Value>
 		</Record>
-		<Record><!--Equipt Mining belt-->
+		<Record><!--Equip Mining belt-->
 			<Key>3Narration15D</Key>
-			<Value>Your mining belt serves two purposes, one to hold all your mining tools and two, to hold all the ore. Ore is automatically added to the mining belt when it is equipped.</Value>
+			<Value>Your mining belt does two things: It holds your mining tools, and stores the ore you mine.
+When it's equipped in your 'belt' slot, any ores mined are stored there automatically.</Value>
 		</Record>
 		<Record>
 			<Key>2EquiptMiningbelt</Key>
-			<Value>Equipt mining belt.</Value>
+			<Value>Equip mining belt.</Value>
 		</Record>
-			<Record><!--Equipt Tool belt-->
+			<Record><!--Equip Tool belt-->
 			<Key>3Narration16D</Key>
-			<Value>Now that you have finished mining its a good idea to swap back to the tool belt as you will be usin it in an upcoming stage.</Value>
+			<Value>That's it, you're done mining for now, so swap back to the tool belt - you'll be needing it shortly.</Value>
 		</Record>
 		<Record>
 			<Key>2EquiptToolbelt</Key>
-			<Value>Equipt tool belt.</Value>
+			<Value>Equip tool belt.</Value>
 		</Record>
 	
 	</Interface>
