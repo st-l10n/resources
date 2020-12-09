@@ -3,25 +3,12 @@
   <Code>CS</Code>
   <Interface>
     <Record>
-      <Key>TutoiralFabrication</Key>
-      <Value>Výroba</Value>
-    </Record>
-    <Record>
       <Key>TutoiralFabricationSubTitle</Key>
       <Value>Praktický výcvik: Fáze III</Value>
     </Record>
     <Record>
-      <Key>IntoTutoiralFabricationDescription</Key>
-      <Value>Vítejte kadete. Daleko od Země si musí Stationeeři vytvořit své vlastní zdroje z místních materiálů.
-Je tedy čas otestovat vaše znalosti těžby a výroby.</Value>
-    </Record>
-    <Record>
       <Key>3Narration1T</Key>
       <Value>Praktický výcvik: Fáze III</Value>
-    </Record>
-    <Record>
-      <Key>3Narration1D</Key>
-      <Value>Chcete-li dokončit tuto část základny, budete potřebovat hydraulickou ohýbačku trubek pro vytváření komponent. Nejprve ale potřebujete suroviny - pomocí tabletu je lokalizujte.</Value>
     </Record>
     <Record>
       <Key>3GetTablet</Key>
@@ -32,10 +19,6 @@ Je tedy čas otestovat vaše znalosti těžby a výroby.</Value>
       <Value>Praktický výcvik: Fáze III</Value>
     </Record>
     <Record>
-      <Key>3Narration2D</Key>
-      <Value>Tablety plní různé funkce v závislosti na vložené kazetě. Vložte lokalizační kazetu</Value>
-    </Record>
-    <Record>
       <Key>2PutCartInTablet</Key>
       <Value>Vložte lokalizační kazetu z bedny do tabletu.</Value>
     </Record>
@@ -44,16 +27,8 @@ Je tedy čas otestovat vaše znalosti těžby a výroby.</Value>
       <Value>Zapněte tablet.</Value>
     </Record>
     <Record>
-      <Key>3Narration3D</Key>
-      <Value>Pomocí tabletu najděte maják, který jsme umístili poblíž ložiska rudy.</Value>
-    </Record>
-    <Record>
       <Key>3EnterAreaT1</Key>
       <Value>Jděte k majáku</Value>
-    </Record>
-    <Record>
-      <Key>3Narration4D</Key>
-      <Value>Použijte vrták z hornického opasku k těžbě rudy. Pokud je hornický opasek ve slotu pro vybavení, objeví se vytěžená ruda přímo v něm.</Value>
     </Record>
     <Record>
       <Key>3GetMDrill</Key>
@@ -68,16 +43,8 @@ Je tedy čas otestovat vaše znalosti těžby a výroby.</Value>
       <Value>Vytěžte 30 železa.</Value>
     </Record>
     <Record>
-      <Key>3Narration5D</Key>
-      <Value>Dostaňte rudu do základny a nechte ji tavit.</Value>
-    </Record>
-    <Record>
       <Key>3EnterAreaT2</Key>
       <Value>Vraťte se na základnu</Value>
-    </Record>
-    <Record>
-      <Key>3Narration6D</Key>
-      <Value>Surová ruda musí být před použitím přeměněna na ingoty. K tomu potřebujete obloukovou pec. Popadněte soupravu z bedny a umístěte ji do zvýrazněné oblasti.</Value>
     </Record>
     <Record>
       <Key>3GetArcFurnaceKit</Key>
@@ -85,15 +52,7 @@ Je tedy čas otestovat vaše znalosti těžby a výroby.</Value>
     </Record>
     <Record>
       <Key>3BuildArcFurnaceTutorial</Key>
-      <Value>Umístěte obloukovou pec do zvýrazněné oblasti.</Value>
-    </Record>
-    <Record>
-      <Key>3BuildHeavyCableTutorial</Key>
-      <Value>Připojte obloukovou pec k napájení.</Value>
-    </Record>
-    <Record>
-      <Key>3Narration7D</Key>
-      <Value>Nyní jste připraveni tavit železo. Přidejte železnou rudu do obloukové pece.</Value>
+      <Value>Umístěte obloukovou pec na zvýrazněné místo.</Value>
     </Record>
     <Record>
       <Key>3ArcFurnaceOn</Key>
@@ -108,20 +67,8 @@ Je tedy čas otestovat vaše znalosti těžby a výroby.</Value>
       <Value>Aktivujte obloukovou pec</Value>
     </Record>
     <Record>
-      <Key>3Narration8D</Key>
-      <Value>Oblouková pec vyrábí ingoty čisté rudy, které poskytují zdroje pro výrobní zařízení. (Poznámka: Tentokrát jsme to urychlili)</Value>
-    </Record>
-    <Record>
       <Key>2GetIronIngot</Key>
       <Value>Vezměte ingoty za obloukovou pecí</Value>
-    </Record>
-    <Record>
-      <Key>3PutIronIngotInAutoLathe</Key>
-      <Value>Přidejte ingot do autosoustruhu (na boku).</Value>
-    </Record>
-    <Record>
-      <Key>3Narration9D</Key>
-      <Value>K výrobě hydraulické ohýbačce trubek potřebujete měď, železo a zlato. Vezměte z bedny další ingoty a přidejte je do autosoustruhu.</Value>
     </Record>
     <Record>
       <Key>3GetCopperIngot</Key>
@@ -140,44 +87,16 @@ Je tedy čas otestovat vaše znalosti těžby a výroby.</Value>
       <Value>Přidejte zlatý ingot do autosoustruhu</Value>
     </Record>
     <Record>
-      <Key>3Narration10D</Key>
-      <Value>Pomocí autosoustruhu vyrobte soupravu na ohýbání trubek</Value>
-    </Record>
-    <Record>
       <Key>3AutoLatheOn</Key>
       <Value>Zapněte autosoustruh.</Value>
     </Record>
     <Record>
       <Key>3PipebenderHash</Key>
-      <Value>Pomocí vyhledávací funkce vyberte recept na ohýbačku trubek.</Value>
+      <Value>Pomocí vyhledávací funkce vyberte recept na hydraulickou ohýbačku trubek.</Value>
     </Record>
     <Record>
       <Key>3FabricatePipeBender</Key>
       <Value>Vytiskněte soupravu hydraulické ohýbačky trubek.</Value>
-    </Record>
-    <Record>
-      <Key>3GetPipeBender</Key>
-      <Value>Vezměte soupravu hydraulické ohýbačky trubek.</Value>
-    </Record>
-    <Record>
-      <Key>3BuildPipebenderTutorial</Key>
-      <Value>Umístěte hydraulickou ohýbačku trubek na zvýrazněné místo</Value>
-    </Record>
-    <Record>
-      <Key>3Narration11D</Key>
-      <Value>Nyní, když je rám ohýbačky trubek na místě, musíte ji dokončit. Postupujte stejně jako u autosoustruhu a dokončete konstrukci podle pokynů.</Value>
-    </Record>
-    <Record>
-      <Key>3FinishPipeBender</Key>
-      <Value>Pomocí zdrojů z bedny dokončete ohýbačku trubek.</Value>
-    </Record>
-    <Record>
-      <Key>3PipeBenderOn</Key>
-      <Value>Zapněte ohýbačku trubek.</Value>
-    </Record>
-    <Record>
-      <Key>3Narration12D</Key>
-      <Value>Pokud ingoty nutně potřebujete někde jinde, můžete je ze strojů vytáhnout. Vytáhněte ingoty z autosoustruhu zatažením za páku a poté je vložte do hydraulické ohýbačky potrubí.</Value>
     </Record>
     <Record>
       <Key>3OpenAutoLathe</Key>
@@ -185,39 +104,23 @@ Je tedy čas otestovat vaše znalosti těžby a výroby.</Value>
     </Record>
     <Record>
       <Key>3PutIronIngotInPipeBender</Key>
-      <Value>Vložte železný ingot do ohýbačky trubek</Value>
+      <Value>Vložte železný ingot do hydraulické ohýbačky trubek</Value>
     </Record>
     <Record>
       <Key>3PutCopperIngotInPipeBender</Key>
-      <Value>Vložte měděný ingot do ohýbačky trubek</Value>
+      <Value>Vložte měděný ingot do hydraulické ohýbačky trubek</Value>
     </Record>
     <Record>
       <Key>3PutGoldIngotInPipeBender</Key>
-      <Value>Vložte zlatý ingot do ohýbačky trubek</Value>
-    </Record>
-    <Record>
-      <Key>3Narration13D</Key>
-      <Value>V další fázi testování uvidíte vytvoření přechodové komory. Jednou z klíčových součástí je ventilátor, který vytiskněte v hydraulické ohýbačce trubek.</Value>
+      <Value>Vložte zlatý ingot do hydraulické ohýbačky trubek</Value>
     </Record>
     <Record>
       <Key>3ActiveVentHash</Key>
-      <Value>Vyberte aktivní ventilátor v ohýbačce trubek.</Value>
-    </Record>
-    <Record>
-      <Key>3FabricateActiveVent</Key>
-      <Value>Vytvořte aktivní ventilátor pomocí ohýbačky trubek.</Value>
-    </Record>
-    <Record>
-      <Key>3PipeBenderOff</Key>
-      <Value>Po dokončení výroby vypněte ohýbačku trubek.</Value>
+      <Value>Vyberte aktivní ventilaci v hydraulické ohýbačce trubek.</Value>
     </Record>
     <Record>
       <Key>3GetItemActiveVent</Key>
-      <Value>Vezměte aktivní ventilátor.</Value>
-    </Record>
-    <Record>
-      <Key>3Narration14D</Key>
-      <Value>Dobrá práce, kadete. Postavil jste systém výroby. To je poslední krok praktického testování, fáze III. Stisknutím tlačítka &apos;Dokončit&apos; přenesete výsledky do příkazu Stationeer a my půjdeme dál.</Value>
+      <Value>Vezměte aktivní ventilaci.</Value>
     </Record>
     <Record>
       <Key>3OnButtonPressTaskT1</Key>

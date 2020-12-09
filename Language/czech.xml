@@ -760,7 +760,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemActiveVent</Key>
-      <Value>Souprava (Aktivní ventilátor)</Value>
+      <Value>Souprava (Aktivní ventilace)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemAreaPowerControl</Key>
@@ -1120,7 +1120,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemPassiveVent</Key>
-      <Value>Souprava (Pasivní ventilátor)</Value>
+      <Value>Souprava (Pasivní ventilace)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemPickaxe</Key>
@@ -1384,7 +1384,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureActiveVent</Key>
-      <Value>Aktivní ventilátor</Value>
+      <Value>Aktivní ventilace</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirConditioner</Key>
@@ -1640,7 +1640,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructurePassiveVent</Key>
-      <Value>Pasivní ventilátor</Value>
+      <Value>Pasivní ventilace</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeAnalysizer</Key>
@@ -1672,7 +1672,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeMeter</Key>
-      <Value>Měřidlo potrubí</Value>
+      <Value>Měřič potrubí</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeRadiator</Key>
@@ -4364,11 +4364,11 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageActiveVent1</Key>
-      <Value>Vrak aktivního ventilátoru</Value>
+      <Value>Vrak aktivní ventilace</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckagePassiveVent1</Key>
-      <Value>Vrak pasivního ventilátoru</Value>
+      <Value>Vrak pasivní ventilace</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCoalGenerator1</Key>
@@ -8959,12 +8959,20 @@ Program náborů z oblasti stavebnictví, vojenského a leteckého průmyslu, v�
       <Value>Vytěžte rudu</Value>
     </Record>
     <Record>
+      <Key>ToggleChangeLog</Key>
+      <Value>Přepnout seznam změn</Value>
+    </Record>
+    <Record>
+      <Key>ShowPreviousVideoText</Key>
+      <Value>Zobrazit předchozí video</Value>
+    </Record>
+    <Record>
       <Key>HelmetString</Key>
       <Value>Přilba</Value>
     </Record>
     <Record>
       <Key>LightString</Key>
-      <Value>Světla</Value>
+      <Value>Da světlo</Value>
     </Record>
   </Interface>
   <Colors>

@@ -12,11 +12,11 @@
     </Record>
     <Record>
       <Key>TutorialWireCutting</Key>
-      <Value>Řezání kabelů</Value>
+      <Value>Stříhání kabelů</Value>
     </Record>
     <Record>
       <Key>TutorialWireCuttingDescription</Key>
-      <Value>Vítejte zpět, kadete. Vaším prvním úkolem bude vyčistit staré vypálené kabely. K jejich odstranění použijte {THING:ItemWireCutters} z vašeho opasku na nářadí.</Value>
+      <Value>Vítejte zpět, kadete. Vaším prvním úkolem bude vyčistit staré spálené kabely. K jejich odstranění použijte {THING:ItemWireCutters} z opasku na nářadí.</Value>
     </Record>
     <Record>
       <Key>TutorialWireCuttingTask1</Key>
@@ -28,7 +28,7 @@
     </Record>
     <Record>
       <Key>TutorialSolidFuelEnergyDescription</Key>
-      <Value>Nyní, když máte základní platformu a několik strojů na svém místě, musíte jim poskytnout energii. Začněme s {THING:StructureSolidFuelGenerator}. Generátor na tuhá paliva poskytuje energii v nouzových případech nebo malým základnám, které během noci nemají mnoho energie. Jeho nevýhodou je, že k práci vyžaduje tuhé palivo.</Value>
+      <Value>Nyní, když máte základní platformu a několik strojů na svém místě, musíte jim zajistit dostatek energie. Začněte s {THING:StructureSolidFuelGenerator}, který poskytuje energii v případě nouze nebo malým základnám s nedostatečnou zásobou uložené energie během noci. Jeho nevýhodou je, že k práci vyžaduje tuhé palivo.</Value>
     </Record>
     <Record>
       <Key>SolidFuelEnergyTask1</Key>
@@ -44,7 +44,7 @@
     </Record>
     <Record>
       <Key>TutorialGoingSolarDescription</Key>
-      <Value>Skvělá práce, kadete! Naším dalším úkolem je postavit {THING:StructureSolarPanel}. Ten poskytne základně obnovitelnou energii bez potřeby paliva. Bude však fungovat pouze během dne. </Value>
+      <Value>Skvělá práce, kadete! Dalším úkolem je instalace {THING:StructureSolarPanel}. Ten zajistí základně obnovitelný zdroj energie bez potřeby paliv, ale bude fungovat pouze během dne.</Value>
     </Record>
     <Record>
       <Key>GoingSolarTask1</Key>
@@ -76,10 +76,9 @@
     </Record>
     <Record>
       <Key>TutorialLearningToWireDescription</Key>
-      <Value>Nyní musíme naše zařízení připojit pomocí kabelů. Na Zemi budou fungovat normální kabely, ale atomový kyslík a sluneční záření degradují látky vystavené vesmíru. Vyvinuli jsme tedy speciální kabely, které dokážou odolat kosmickým prostředím. Přenášejí data i energii, což vám umožňuje ovládat stroje z ovládacího panelu. Tím se budete zabývat později.
+      <Value>Nyní musíte zařízení propojit pomocí kabelů. Na Zemi budou normální kabely fungovat, ale atomový kyslík a sluneční záření degradují materiál vystavený vesmíru. Proto jsme vyvinuli speciální kabely schopné odolat těmto vlivům a navíc přenášejí data i energii, což vám umožní ovládat stroje a zařízení z ovládacího panelu. To ale bude popsáno až později.
 
-
-Ve vašem {SLOT:Belt} najděte {THING:ItemCableCoil}. Umístěte kabely do zvýrazněné oblasti, pomocí rolovacího kolečka vyberte správný kabel a pomocí klávesy {KEY:QuantityModifier} otočte podle umístění. </Value>
+{THING:ItemCableCoil} najdete v {SLOT:Belt} a kabely umístěte na zvýrazněná místa. Pomocí rolovacího kolečka vyberte vhodný kabel a klávesou {KEY:QuantityModifier} otočte do požadovaného umístění. </Value>
     </Record>
     <Record>
       <Key>LearningToWireTask0.5</Key>
@@ -121,7 +120,7 @@ Za druhé, musíme přidat {THING:ItemBatteryCharger} pro naše vybité baterie.
     </Record>
     <Record>
       <Key>PowerControlersAndbatteryChargesTask2</Key>
-      <Value>Umístěte {THING:ItemAreaPowerControl} do zvýrazněné oblasti.</Value>
+      <Value>Umístěte {THING:ItemAreaPowerControl} na zvýrazněné místo.</Value>
     </Record>
     <Record>
       <Key>PowerControlersAndbatteryChargesTask3</Key>
@@ -129,7 +128,7 @@ Za druhé, musíme přidat {THING:ItemBatteryCharger} pro naše vybité baterie.
     </Record>
     <Record>
       <Key>PowerControlersAndbatteryChargesTask4</Key>
-      <Value>Umístěte {THING:ItemBatteryCharger} do zvýrazněné oblasti.</Value>
+      <Value>Umístěte {THING:ItemBatteryCharger} na zvýrazněné místo.</Value>
     </Record>
     <Record>
       <Key>TutorialFinishingTheCircuit</Key>
