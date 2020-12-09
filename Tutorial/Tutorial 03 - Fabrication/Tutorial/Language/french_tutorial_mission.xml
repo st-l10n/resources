@@ -3,6 +3,10 @@
   <Code>FR</Code>
   <Interface>
     <Record>
+      <Key>TutoiralFabrication</Key>
+      <Value>#5 Base de fabrication</Value>
+    </Record>
+    <Record>
       <Key>TutoiralFabricationSubTitle</Key>
       <Value>Formation pratique : Étape I</Value>
     </Record>
@@ -55,8 +59,29 @@
       <Value>Allumez l&apos;APC.</Value>
     </Record>
     <Record>
+      <Key>3GetPipeBender</Key>
+      <Value>Imprimez un {THING:ItemKitHydraulicPipeBender}.</Value>
+    </Record>
+    <Record>
+      <Key>3BuildPipebenderTutorial</Key>
+      <Value>Placez un {THING:StructurePipeMeter} à l&apos;endroit en surbrillance.</Value>
+    </Record>
+    <Record>
+      <Key>3PipeBenderOn</Key>
+      <Value>Allumez le lecteur logique.</Value>
+    </Record>
+    <Record>
+      <Key>3Narration14D</Key>
+      <Value>Excellent, cadet ! C’est la dernière étape des tests pratiques, phase I. 
+Appuyez sur le bouton orange &apos;Complete&apos; pour transmettre vos résultats au commandement Stationeer.</Value>
+    </Record>
+    <Record>
       <Key>3OnButtonPressTaskT1</Key>
       <Value>Appuyez sur le bouton &apos;Confirmer&apos; pour terminer le test</Value>
+    </Record>
+    <Record>
+      <Key>2EquiptMiningbelt</Key>
+      <Value>Ouvrir la ceinture d’exploitation minière</Value>
     </Record>
   </Interface>
 </Language>
