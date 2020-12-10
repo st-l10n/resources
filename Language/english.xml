@@ -6546,6 +6546,10 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
       <Key>SettingsShadowResolution</Key>
       <Value>Shadow Resolution</Value>
     </Record>
+	<Record>
+      <Key>SettingsWeatherQuality</Key>
+      <Value>Weather Quality</Value>
+    </Record>
     <Record>
       <Key>SettingsShadowDistamce</Key>
       <Value>Shadow Distance</Value>
@@ -9992,8 +9996,8 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
       <Value>Da Light</Value>
     </Record>
     <Record>
-      <Value>Advanced
-</Value>
+      <Key>FixedWeatherEventMissing</Key>
+      <Value>No weather event was found for this world. The default weather event has been applied.</Value>
     </Record>
   </Interface>
   <Colors>
