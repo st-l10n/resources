@@ -4271,6 +4271,14 @@
       <Key>ItemKitWeatherStation</Key>
       <Value>Kit (Estación meteorológica)</Value>
     </RecordThing>
+    <RecordThing>
+      <Key>ItemKitUprightWindTurbine</Key>
+      <Value>Kit (Turbina de viento vertical)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureUprightWindTurbine</Key>
+      <Value>Turbina de viento vertical</Value>
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -5431,7 +5439,7 @@
     </Record>
     <Record>
       <Key>SettingsWeatherQuality</Key>
-      <Value>Calidad de Textura</Value>
+      <Value>Calidad del clima</Value>
     </Record>
     <Record>
       <Key>SettingsShadowDistamce</Key>
@@ -7561,6 +7569,10 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
       <Value>Devuelve la cantidad de objetos extraíbles que AIMEe ha puesto en cola para extraer.</Value>
     </Record>
     <Record>
+      <Key>NextWeatherEventTime</Key>
+      <Value>Vuelve en lo antes posible cuando llegue el próximo evento meteorológico.</Value>
+    </Record>
+    <Record>
       <Key>ResearchFilter</Key>
       <Value>Filtros</Value>
     </Record>
@@ -8496,12 +8508,28 @@ Reclutando personas con experiencia en ingeniería civil, industrias militares y
       <Value>Rueda de desplazamiento + {KEY:InventorySelect}</Value>
     </Record>
     <Record>
+      <Key>ControlQuickMoveDisc</Key>
+      <Value>Mover objeto rápido</Value>
+    </Record>
+    <Record>
       <Key>WeatherEventsField</Key>
       <Value>Tiene eventos meteorológicos</Value>
     </Record>
     <Record>
+      <Key>ControlUseItemDisc</Key>
+      <Value>Usar objeto</Value>
+    </Record>
+    <Record>
       <Key>ControlMineDisc</Key>
       <Value>Mina Mineral</Value>
+    </Record>
+    <Record>
+      <Key>ToggleChangeLog</Key>
+      <Value>Ver Registro de cambios</Value>
+    </Record>
+    <Record>
+      <Key>ShowPreviousVideoText</Key>
+      <Value>Ver video anterior</Value>
     </Record>
     <Record>
       <Key>HelmetString</Key>
@@ -8509,7 +8537,11 @@ Reclutando personas con experiencia en ingeniería civil, industrias militares y
     </Record>
     <Record>
       <Key>LightString</Key>
-      <Value>Luces</Value>
+      <Value>Luz</Value>
+    </Record>
+    <Record>
+      <Key>FixedWeatherEventMissing</Key>
+      <Value>No hay eventos de clima en este mundo. Los eventos por defecto del clima se han aplicado en esta partida.</Value>
     </Record>
   </Interface>
   <Colors>
