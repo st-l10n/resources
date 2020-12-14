@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Name>English</Name>
+<Code>EN</Code>
+<Font>font_english</Font>
+	<Interface>
+		<Record>
+			<Key>TutoiralAirlocks</Key>
+			<Value>Airlocks</Value>
+		</Record>
+		<Record>
+			<Key>TutoiralAirlocksDescription</Key><!--This is the description that appers in the menu-->
+			<Value>Welcome Cadet. To finish this stage of base construction and pressurize your base, you need to build an airlock.</Value>
+		</Record>
+		<Record>
+			<Key>TutoiralAtmosphericsSubTitle</Key>
+			<Value>Practical Training: Stage IV</Value>
+		</Record>
+		<Record>
+			<Key>IntoTutoiralAtmosphericsDescription</Key><!--This is the intro panel at the start of the tutorial-->
+			<Value>Welcome Cadet. To finish this stage of base construction and pressurize your base, you need to build an airlock.</Value>
+		</Record>
+		<Record>
+			<Key>4Narration1T</Key>
+			<Value>Practical Training: Stage IV</Value>
+		</Record>
+		<Record>
+			<Key>4Narration1D</Key>
+			<Value>Before we start, looks like your suit's taken some damage. Use duct tape to fix it.</Value>
+		</Record>
+		<Record>
+			<Key>4GetDucktape</Key>
+			<Value>Equip duct tape in active hand from backpack.</Value>
+		</Record>
+		<Record>
+			<Key>4UseDuctTape</Key>
+			<Value>Repair suit.</Value>
+		</Record>
+		<Record>
+			<Key>4Narration2D</Key>
+			<Value>Let's get started. To build an airlock, start by printing two door kits. You'll need to add ingots from the crate to the autolathe.</Value>
+		</Record>
+		<Record>
+			<Key>4PutCopperIngotInAutoLathe</Key>
+			<Value>Add gold ingot to autolathe</Value>
+		</Record>
+		<Record>
+			<Key>4PutGoldIngotInAutoLathe</Key>
+			<Value>Add gold ingot to autolathe</Value>
+		</Record>
+		<Record>
+			<Key>4Narration3D</Key>
+			<Value>The autolathe now has everything you need to print door kits.</Value>
+		</Record>
+		<Record>
+			<Key>4FabricateDoor</Key>
+			<Value>Print two door kits</Value>
+		</Record>
+		<Record>
+			<Key>4Narration4D</Key>
+			<Value>Before you can construct the replacement doors you need to remove the old ones..</Value>
+		</Record>
+		<Record>
+			<Key>T4Deconstruct1</Key>
+			<Value>Deconstruct Destroyed Door 1.</Value>
+		</Record>
+		<Record>
+			<Key>T4Deconstruct2</Key>
+			<Value>Deconstruct Destroyed Door 2.</Value>
+		</Record>
+		<Record>
+			<Key>4Narration5D</Key>
+			<Value>Now build composite doors in each of the highlighted positions. You'll need to cycle through the kit options.</Value>
+		</Record>
+		<Record>
+			<Key>4BuildPDoor1Tutorial</Key>
+			<Value>Build composite door #1 in highlighted position</Value>
+		</Record>
+		<Record>
+			<Key>4BuildDoor2Tutorial</Key>
+			<Value>Build composite door #2 in highlighted position</Value>
+		</Record>
+		<Record>
+			<Key>4BuildCornerCable1Tutorial</Key>
+			<Value>Connect door #1 to logic and power networks</Value>
+		</Record>
+		<Record>
+			<Key>4BuildCornerCable2Tutorial</Key>
+			<Value>Connect door #2 to logic and power networks</Value>
+		</Record>
+		<Record>
+			<Key>4Narration6D</Key>
+			<Value>Now build a gas a sensor to monitor the pressure in the airlock. Consult the stationpedia to find out how to print it.</Value>
+		</Record>
+		<Record>
+			<Key>OnStationpediaOpen</Key>
+			<Value>Open Stationpedia with F1</Value>
+		</Record>
+		<Record>
+			<Key>4PediaNavigation</Key>
+			<Value>Navigate to 'Kit (sensors)' page to find its printer.</Value>
+		</Record>
+		<Record>
+			<Key>4FabricateSensorKit</Key>
+			<Value>Fabricate sensors kit.</Value>
+		</Record>
+		<Record>
+			<Key>4BuildGasSensorTutorial</Key>
+			<Value>Build gas sensor in highlighted position</Value>
+		</Record>
+		<Record>
+			<Key>4Narration7D</Key>
+			<Value>You will need to connect the vents with a pipe network, in order to pump air from the room into the airlock.</Value>
+		</Record>
+		<Record>
+			<Key>4BuildPipeCorner1Tutorial</Key>
+			<Value>Add pipe #1 to pipe network</Value>
+		</Record>
+		<Record>
+			<Key>4BuildPipeCorner2Tutorial</Key>
+			<Value>Add pipe #2 to pipe network</Value>
+		</Record>
+		<Record>
+			<Key>4Narration8D</Key>
+			<Value>Consoles allow you to control and monitor a variety of systems - in this case, a basic airlock.</Value>
+		</Record>
+		<Record>
+			<Key>4BuildGasSensorTutorial</Key>
+			<Value>Build console in highlighted position</Value>
+		</Record>
+		<Record>
+			<Key>4Narration9D</Key>
+			<Value>Circuitboards provide consoles with a range of different functionality. Here you need an airlock circuitboard, and a datadisk to program it.</Value>
+		</Record>
+		<Record>
+			<Key>4FabricateAirlcokCircuit</Key>
+			<Value>Print circuitboard</Value>
+		</Record>
+		<Record>
+			<Key>4FabricateDataDisk</Key>
+			<Value>Print data disk</Value>
+		</Record>
+		<Record>
+			<Key>4FinsihConsole</Key>
+			<Value>Complete the console with glass sheet</Value>
+		</Record>
+		<Record>
+			<Key>4ConsoleOn</Key>
+			<Value>Turn console on</Value>
+		</Record>
+		<Record>
+			<Key>4Narration10D</Key>
+			<Value>To programme the airlock, select all the items you would like the console to operate. Devices highlight green with red text when selected.</Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		<Record>
+			<Key></Key>
+			<Value></Value>
+		</Record>
+		
+	
+	</Interface>
+</Language>
