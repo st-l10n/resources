@@ -223,18 +223,11 @@ There are some ores that will melt when exposed to sunlight or heat and produce 
  <StationpediaPage>
       <Key>TravelPage</Key>
       <Title>Destination</Title>
-      <Text>Wait! Don't close me yet! The following conditions must be met for launch:
-
-- Fully built rocket: at least 3 core modules
-- Fully fueled {THING:StructureModularRocketFueltank01}
-- Fuel mix ratio correct - a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}.
-- Power supplied to the {THING:StructureLaunchPad}
-- All players seated in {THING:StructureModularRocketCommand01}
-
-Below are the WORLD TRAVEL IDs. You can use them to travel to specific planets, when combined with a completed {LINK:RocketShuttlePage;Rocket Shuttle} and {LINK:LogicUnitPage;Logic Units}.
+      <Text>Wait! Don't close me yet! These are the WORLD TRAVEL IDs. You can use them to travel to specific planets, when combined with a completed {LINK:RocketShuttlePage;Rocket Shuttle} and {LINK:LogicUnitPage;Logic Units}.
        
 Simply write the hash to the setting variable on the {THING:StructureLaunchPad} with a {THING:ItemLabeller}. Note: You can click on a hash to copy it to the clipboard.
       
+You need at least 3 core modules and all players seated in a functional Rocket for launch.
 
       {LIST}
         {WORLD_HASHES}
@@ -250,7 +243,7 @@ The {THING:StructureModularRocketCargo01} has capacity for two ten-slot crates. 
 
 {HEADER:Modular Rocket Command}
 
-The {THING:StructureModularRocketCommand01} must be placed on top of the rocket. It will assess the rocket’s readiness for flight. Once all conditions are met, the rocket can be launched when all players are seated in the module by pressing ‘IGNITION’ on the console.
+The {THING:StructureModularRocketCommand01} must be placed on top of the rocket. It will assess the rocket’s readiness for flight. Once all conditions are met, the rocket can be launched when all players are seated in the module by pressing ‘Launch’ on the console.
 
 The following conditions must be met for launch:
 
