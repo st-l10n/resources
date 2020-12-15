@@ -4156,10 +4156,22 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>StructureModularRocketCargo01</Key>
       <Value>Modular Rocket Cargo</Value>
+      <Description>The cargo module has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketCommand01</Key>
       <Value>Modular Rocket Command</Value>
+      <Description>The command module must be placed on top of the rocket, and will assess the rocket’s readiness for flight. Once all conditions are met, the rocket can be launched when all players are seated in the module by pressing ‘IGNITION’ on the console.
+
+The following conditions must be met for launch:
+
+- Fuel full
+- Fuel mix ratio correct - a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}.
+- All players seated
+- Power supplied to the {THING:StructureLaunchPad}
+- Fully built rocket
+
+The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicModularRocketCommand01</Key>
@@ -4217,10 +4229,12 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>StructureModularRocketEngine01</Key>
       <Value>Modular Rocket Engine</Value>
+      <Description>The modular rocket engine is capable of lifting up to seven modules, including itself.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketFueltank01</Key>
       <Value>Modular Rocket Fueltank</Value>
+      <Description>The rocket fueltank requires a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}. If the mixture exceeds these proportions, or you place other &lt;color=#0080FFFF&gt;{LINK:GasPage;gases}&lt;/color&gt; in the tank, the {THING:StructureModularRocketCommand01} console will display an ‘Invalid’ error.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketCommand01</Key>
@@ -5965,6 +5979,10 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <Record>
       <Key>SlotKey</Key>
       <Value>Slot</Value>
+    </Record>
+    <Record>
+      <Key>SoonTM</Key>
+      <Value>Coming Soon...</Value>
     </Record>
     <Record>
       <Key>MainMenuContinue</Key>
