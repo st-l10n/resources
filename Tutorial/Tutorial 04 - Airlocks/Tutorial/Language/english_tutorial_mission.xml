@@ -17,7 +17,7 @@
 			<Value>Practical Training: Stage IV</Value>
 		</Record>
 		<Record>
-			<Key>IntoTutoiralAtmosphericsDescription</Key><!--This is the intro panel at the start of the tutorial-->
+			<Key>IntoTutoiralAirlocksDescription</Key><!--This is the intro panel at the start of the tutorial-->
 			<Value>Welcome Cadet. To finish this stage of base construction and pressurize your base, you need to build an airlock.</Value>
 		</Record>
 		<Record>
@@ -30,7 +30,7 @@
 		</Record>
 		<Record>
 			<Key>4GetDucktape</Key>
-			<Value>Equip duct tape in active hand from backpack.</Value>
+			<Value>Equip duct tape in active hand from crate.</Value>
 		</Record>
 		<Record>
 			<Key>4UseDuctTape</Key>
@@ -110,6 +110,26 @@
 		</Record>
 		<Record>
 			<Key>4Narration7D</Key>
+			<Value>To pressurize and depressurize the airlock, you will need an active vent to cycle air, and a passive vent to draw atmosphere into the pipe network.</Value>
+		</Record>
+		<Record>
+			<Key>4FabricateItemPassiveVent</Key>
+			<Value>Print passive vent</Value>
+		</Record>
+		<Record>
+			<Key>4GetActiveVent</Key>
+			<Value>Get active vent from crate</Value>
+		</Record>
+		<Record>
+			<Key>4BuildStructureActiveVent</Key>
+			<Value>Build active vent in highlighted position inside of the airlock</Value>
+		</Record>
+		<Record>
+			<Key>4BuildStructurePassiveVent</Key>
+			<Value>Build passive vent in highlighted position outside of the airlock</Value>
+		</Record>
+		<Record>
+			<Key>4Narration8D</Key>
 			<Value>You will need to connect the vents with a pipe network, in order to pump air from the room into the airlock.</Value>
 		</Record>
 		<Record>
@@ -121,20 +141,20 @@
 			<Value>Add pipe #2 to pipe network</Value>
 		</Record>
 		<Record>
-			<Key>4Narration8D</Key>
+			<Key>4Narration9D</Key>
 			<Value>Consoles allow you to control and monitor a variety of systems - in this case, a basic airlock.</Value>
 		</Record>
 		<Record>
-			<Key>4BuildGasSensorTutorial</Key>
+			<Key>4BuildConsoleTutorial</Key>
 			<Value>Build console in highlighted position</Value>
 		</Record>
 		<Record>
-			<Key>4Narration9D</Key>
+			<Key>4Narration10D</Key>
 			<Value>Circuitboards provide consoles with a range of different functionality. Here you need an airlock circuitboard, and a datadisk to program it.</Value>
 		</Record>
 		<Record>
 			<Key>4FabricateAirlcokCircuit</Key>
-			<Value>Print circuitboard</Value>
+			<Value>Print Airlock circuitboard</Value>
 		</Record>
 		<Record>
 			<Key>4FabricateDataDisk</Key>
@@ -149,124 +169,120 @@
 			<Value>Turn console on</Value>
 		</Record>
 		<Record>
-			<Key>4Narration10D</Key>
+			<Key>4Narration11D</Key>
 			<Value>To programme the airlock, select all the items you would like the console to operate. Devices highlight green with red text when selected.</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4PediaOpen</Key>
+			<Value>Open Stationpedia with F1</Value>
+		</Record>
+		<Record>
+			<Key>4Narration12D</Key>
+			<Value>Now select the two airlock doors. Selecting one door as 'Exterior' will cause the other to default to 'Internal'.</Value>
+		</Record>
+		<Record>
+			<Key>4GetpipeKit</Key>
+			<Value>Get Pipes from crate.</Value>
+		</Record>
+		<Record>
+			<Key>4GetConsole</Key>
+			<Value>Get Console from crate</Value>
+		</Record>
+		<Record>
+			<Key>4Narration13D</Key>
+			<Value>When you have successfully completed the airlock set up, the switch on the side of the console will light up green. Remove the data disk from the console to lock it.</Value>
+		</Record>
+		<Record>
+			<Key>4PutCircuitInConsole</Key>
+			<Value>Add circuitboard airlock to console.</Value>
+		</Record>
+		<Record>
+			<Key>4Narration14D</Key>
+			<Value>The airlock's ready, so now you can pressurize the base! Turn on the APC to fill the room with atmosphere. The system will maintain a 100kPa pressure.</Value>
 		</Record>
 		<Record>
 			<Key></Key>
 			<Value></Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4Narration15D</Key>
+			<Value>As the room fills with atmosphere, your suit will register the external pressure and temperature change.</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4TurningOnTheOXygen</Key>
+			<Value>Wait for pressure to reach 90kPa</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4Narration16D</Key>
+			<Value>Now the base is pressurized, you can test the airlock by pressing 'Cycle to Exterior' on the console.</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4OpenAirlock</Key>
+			<Value>Cycle the airlock</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4Narration17D</Key>
+			<Value>Good work, Cadet. You've build an airtight, pressurized base. That's the last step of Practical Testing, Phase IV. Return inside and press the 'Complete' button to transmit your results to Stationeer Command.</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4AirlockProggramGasSensor</Key>
+			<Value>Select gas sensor</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4AirlockProggramActiveVent</Key>
+			<Value>Select active vent</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4AirlockExternalDoor</Key>
+			<Value>Select external door as 'Exterior'</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4AirlockInternalDoor</Key>
+			<Value>Select Internal door as 'Internal'</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4GetDataDisk2</Key>
+			<Value>Remove the data disk</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4FlipSwitch</Key>
+			<Value>Turn on APC to start pressurization.</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4FinishDoor1</Key>
+			<Value>Finish construction of door #1</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4FinishDoor2</Key>
+			<Value>Finish construction of door #2</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4Narration55D</Key>
+			<Value>Using the resource the crate and the on-screen tooltips complete the doors.</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4Narration56D</Key>
+			<Value>Use the labeller to name the interior and exterior door on the data network.</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4GetLabeler</Key>
+			<Value>Equip labeller from the crate</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4LabelerOn</Key>
+			<Value>Turn labeller on</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4CustomName</Key>
+			<Value>Label inner door 'Interior door'</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4CustomName2</Key>
+			<Value>Label the outer door 'Exterior door'</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
-		</Record>
-		<Record>
-			<Key></Key>
-			<Value></Value>
-		</Record>
-		<Record>
-			<Key></Key>
-			<Value></Value>
-		</Record>
-		<Record>
-			<Key></Key>
-			<Value></Value>
-		</Record>
-		<Record>
-			<Key></Key>
-			<Value></Value>
-		</Record>
-		<Record>
-			<Key></Key>
-			<Value></Value>
-		</Record>
-		<Record>
-			<Key></Key>
-			<Value></Value>
-		</Record>
-		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4PutDataDiskInConsole</Key>
+			<Value>Insert Data disk into console</Value>
 		</Record>
 		<Record>
 			<Key></Key>
