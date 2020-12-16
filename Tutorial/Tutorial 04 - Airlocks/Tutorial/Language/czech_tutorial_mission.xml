@@ -18,7 +18,7 @@
     <Record>
       <Key>IntoTutoiralAirlocksDescription</Key>
       <!--This is the intro panel at the start of the tutorial-->
-      <Value>Vítejte kadete. Chcete-li dokončit tuto fázi výstavby a natlakování základny, musíte postavit přechodovou komoru.</Value>
+      <Value>Vítejte kadete. Chcete-li dokončit tuto fázi základní konstrukce a natlakování základny, musíte postavit přechodovou komoru.</Value>
     </Record>
     <Record>
       <Key>4Narration1T</Key>
@@ -30,7 +30,7 @@
     </Record>
     <Record>
       <Key>4GetDucktape</Key>
-      <Value>Vezměte z batohu lepicí páskou aktivní rukou.</Value>
+      <Value>Vezměte z bedny lepicí páskou aktivní rukou.</Value>
     </Record>
     <Record>
       <Key>4UseDuctTape</Key>
@@ -45,12 +45,24 @@
       <Value>Přidejte zlatý ingot do autosoustruhu</Value>
     </Record>
     <Record>
+      <Key>4FabricateDoor</Key>
+      <Value>Vytiskněte dvě soupravy dveří</Value>
+    </Record>
+    <Record>
+      <Key>4Narration4D</Key>
+      <Value>Než budete moci postavit náhradní dveře, musíte odstranit ty staré.</Value>
+    </Record>
+    <Record>
       <Key>T4Deconstruct1</Key>
       <Value>Rozeberte zničené dveře 1.</Value>
     </Record>
     <Record>
       <Key>T4Deconstruct2</Key>
       <Value>Rozeberte zničené dveře 2.</Value>
+    </Record>
+    <Record>
+      <Key>4Narration5D</Key>
+      <Value>Nyní postavte kompozitní dveře v každém zvýrazněném místě. Budete muset procházet možnosti soupravy.</Value>
     </Record>
     <Record>
       <Key>4BuildPDoor1Tutorial</Key>
@@ -70,19 +82,19 @@
     </Record>
     <Record>
       <Key>4FabricateItemPassiveVent</Key>
-      <Value>Pasivní ventilace</Value>
+      <Value>Vytiskněte pasivní ventilaci</Value>
     </Record>
     <Record>
       <Key>4GetActiveVent</Key>
-      <Value>Vezměte tablet z bedny.</Value>
+      <Value>Vezměte aktivní ventilaci z bedny</Value>
     </Record>
     <Record>
       <Key>4BuildStructureActiveVent</Key>
-      <Value>Postavte plynový senzor na zvýrazněné místo</Value>
+      <Value>Postavte aktivní ventilaci na zvýrazněné místo uvnitř přechodové komory</Value>
     </Record>
     <Record>
       <Key>4BuildStructurePassiveVent</Key>
-      <Value>Postavte plynový senzor na zvýrazněné místo</Value>
+      <Value>Postavte pasivní ventilaci na zvýrazněné místo uvnitř přechodové komory</Value>
     </Record>
     <Record>
       <Key>4BuildConsoleTutorial</Key>
@@ -114,15 +126,15 @@
     </Record>
     <Record>
       <Key>4GetpipeKit</Key>
-      <Value>Vezměte tablet z bedny.</Value>
+      <Value>Vezměte potrubí z bedny.</Value>
     </Record>
     <Record>
       <Key>4GetConsole</Key>
-      <Value>Vezměte uhlí z bedny</Value>
+      <Value>Vezměte konzoli z bedny</Value>
     </Record>
     <Record>
       <Key>4TurningOnTheOXygen</Key>
-      <Value>Počkejte, až vnější tlak dosáhne 60kPa.</Value>
+      <Value>Počkejte, až tlak dosáhne 90 kPa</Value>
     </Record>
     <Record>
       <Key>4OpenAirlock</Key>
@@ -130,32 +142,31 @@
     </Record>
     <Record>
       <Key>4Narration17D</Key>
-      <Value>Dobrá práce, kadete. Vytvořili jste kompletní výrobní systém.
-To byl poslední krok praktického výcviku, fáze III. Stisknutím tlačítka &apos;Dokončit&apos; přeneste své výsledky na velitelství Stationeer.</Value>
+      <Value>Dobrá práce, kadete. Postavili jste vzduchotěsnou tlakovou základnu. To byl poslední krok praktického výcviku, fáze IV. Vraťte se dovnitř a stiskněte tlačítko &apos;Dokončit&apos;, aby se vaše výsledky přenesly na velitelství Stationeer.</Value>
     </Record>
     <Record>
       <Key>4AirlockProggramActiveVent</Key>
-      <Value>Vyberte aktivní ventilaci v hydraulické ohýbačce trubek.</Value>
+      <Value>Vyberte aktivní ventilaci</Value>
     </Record>
     <Record>
       <Key>4GetDataDisk2</Key>
-      <Value>Tisk datového disku</Value>
+      <Value>Vyjměte datový disk</Value>
     </Record>
     <Record>
       <Key>4FinishDoor1</Key>
-      <Value>Dokončete konstrukci rámu 1.</Value>
+      <Value>Dokončete konstrukci dveří #1</Value>
     </Record>
     <Record>
       <Key>4FinishDoor2</Key>
-      <Value>Dokončete konstrukci rámu 2.</Value>
+      <Value>Dokončete konstrukci dveří #2</Value>
     </Record>
     <Record>
       <Key>4GetLabeler</Key>
-      <Value>Vezměte {THING:ItemLabeller} z bedny.</Value>
+      <Value>Vezměte si popisovač z bedny</Value>
     </Record>
     <Record>
       <Key>4LabelerOn</Key>
-      <Value>Zapněte tablet.</Value>
+      <Value>Zapněte popisovač</Value>
     </Record>
   </Interface>
 </Language>
