@@ -10,7 +10,7 @@
 		</Record>
 		<Record>
 			<Key>TutoiralAirlocksDescription</Key><!--This is the description that appears in the menu-->
-			<Value>Welcome Cadet. To finish this stage of base construction and pressurize your base, you need to build an airlock.</Value>
+			<Value>Refresh your knowledge of airlock construction.</Value>
 		</Record>
 		<Record>
 			<Key>TutoiralAtmosphericsSubTitle</Key>
@@ -18,7 +18,7 @@
 		</Record>
 		<Record>
 			<Key>IntoTutoiralAirlocksDescription</Key><!--This is the intro panel at the start of the tutorial-->
-			<Value>Welcome Cadet. To finish this stage of base construction and pressurize your base, you need to build an airlock.</Value>
+			<Value>Welcome Cadet. To complete this phase of testing and pressurize your base, we will run you through basic airlock construction.</Value>
 		</Record>
 		<Record>
 			<Key>4Narration1T</Key>
@@ -42,7 +42,7 @@
 		</Record>
 		<Record>
 			<Key>4PutCopperIngotInAutoLathe</Key>
-			<Value>Add gold ingot to autolathe</Value>
+			<Value>Add copper ingot to autolathe</Value>
 		</Record>
 		<Record>
 			<Key>4PutGoldIngotInAutoLathe</Key>
@@ -50,7 +50,7 @@
 		</Record>
 		<Record>
 			<Key>4Narration3D</Key>
-			<Value>The autolathe now has everything you need to print door kits.</Value>
+			<Value>You can now print two door kits using the multi-axis molecular compositional system, a.k.a. the autolathe. And begin isolating yourself from the cold, hard, merciless vacuum of space.</Value>
 		</Record>
 		<Record>
 			<Key>4FabricateDoor</Key>
@@ -58,19 +58,20 @@
 		</Record>
 		<Record>
 			<Key>4Narration4D</Key>
-			<Value>Before you can construct the replacement doors you need to remove the old ones..</Value>
+			<Value>Before you can construct replacement doors, ODA protocol dictates you must remove the destroyed ones.</Value>
 		</Record>
 		<Record>
 			<Key>T4Deconstruct1</Key>
-			<Value>Deconstruct Destroyed Door 1.</Value>
+			<Value>Deconstruct destroyed door 1.</Value>
 		</Record>
 		<Record>
 			<Key>T4Deconstruct2</Key>
-			<Value>Deconstruct Destroyed Door 2.</Value>
+			<Value>Deconstruct destroyed door 2.</Value>
 		</Record>
 		<Record>
 			<Key>4Narration5D</Key>
-			<Value>Now build composite doors in each of the highlighted positions. You'll need to cycle through the kit options.</Value>
+			<Value>Good work. Now build composite doors in the highlighted positions.
+You'll need to cycle through the options to get the correct door variant.</Value>
 		</Record>
 		<Record>
 			<Key>4BuildPDoor1Tutorial</Key>
@@ -90,19 +91,19 @@
 		</Record>
 		<Record>
 			<Key>4Narration6D</Key>
-			<Value>Now build a gas a sensor to monitor the pressure in the airlock. Consult the stationpedia to find out how to print it.</Value>
+			<Value>Build a gas sensor to monitor pressure in the airlock. You'll need to consult the Stationpedia to learn which device fabricates it.</Value>
 		</Record>
 		<Record>
 			<Key>OnStationpediaOpen</Key>
-			<Value>Open Stationpedia with F1</Value>
+			<Value>Open Stationpedia (F1)</Value>
 		</Record>
 		<Record>
 			<Key>4PediaNavigation</Key>
-			<Value>Navigate to 'Kit (sensors)' page to find its printer.</Value>
+			<Value>Navigate to 'Kit (Sensors)' page to find fabricator</Value>
 		</Record>
 		<Record>
 			<Key>4FabricateSensorKit</Key>
-			<Value>Fabricate sensors kit.</Value>
+			<Value>Fabricate sensor kit</Value>
 		</Record>
 		<Record>
 			<Key>4BuildGasSensorTutorial</Key>
@@ -110,11 +111,11 @@
 		</Record>
 		<Record>
 			<Key>4Narration7D</Key>
-			<Value>To pressurize and depressurize the airlock, you will need an active vent to cycle air, and a passive vent to draw atmosphere into the pipe network.</Value>
+			<Value>To pressurize an airlock, you need an active vent to cycle air, and a passive vent to allow atmosphere to pass into the pipe network.</Value>
 		</Record>
 		<Record>
 			<Key>4FabricateItemPassiveVent</Key>
-			<Value>Print passive vent</Value>
+			<Value>Fabricate passive vent</Value>
 		</Record>
 		<Record>
 			<Key>4GetActiveVent</Key>
@@ -122,15 +123,15 @@
 		</Record>
 		<Record>
 			<Key>4BuildStructureActiveVent</Key>
-			<Value>Build active vent in highlighted position inside of the airlock</Value>
+			<Value>Build active vent in highlighted position inside airlock</Value>
 		</Record>
 		<Record>
 			<Key>4BuildStructurePassiveVent</Key>
-			<Value>Build passive vent in highlighted position outside of the airlock</Value>
+			<Value>Build passive vent in highlighted position on base wall</Value>
 		</Record>
 		<Record>
 			<Key>4Narration8D</Key>
-			<Value>You will need to connect the vents with a pipe network, in order to pump air from the room into the airlock.</Value>
+			<Value>Connect the vents with a pipe network, in order to pump air from the room into the airlock.</Value>
 		</Record>
 		<Record>
 			<Key>4BuildPipeCorner1Tutorial</Key>
@@ -142,7 +143,7 @@
 		</Record>
 		<Record>
 			<Key>4Narration9D</Key>
-			<Value>Consoles allow you to control and monitor a variety of systems - in this case, a basic airlock.</Value>
+			<Value>Norsec consoles allow you to control and monitor various systems, depending on their configuration. Think of them as a small, simple brain.</Value>
 		</Record>
 		<Record>
 			<Key>4BuildConsoleTutorial</Key>
@@ -154,11 +155,11 @@
 		</Record>
 		<Record>
 			<Key>4FabricateAirlcokCircuit</Key>
-			<Value>Print Airlock circuitboard</Value>
+			<Value>Fabricate airlock circuitboard</Value>
 		</Record>
 		<Record>
 			<Key>4FabricateDataDisk</Key>
-			<Value>Print data disk</Value>
+			<Value>Fabricate data disk</Value>
 		</Record>
 		<Record>
 			<Key>4FinsihConsole</Key>
@@ -170,7 +171,8 @@
 		</Record>
 		<Record>
 			<Key>4Narration11D</Key>
-			<Value>To programme the airlock, select all the items you would like the console to operate. Devices highlight green with red text when selected.</Value>
+			<Value>To programme the airlock, you'll need a data disk. Then select the items you would like the console to operate.
+Devices highlight GREEN with RED TEXT when selected.</Value>
 		</Record>
 		<Record>
 			<Key>4PediaOpen</Key>
@@ -178,7 +180,7 @@
 		</Record>
 		<Record>
 			<Key>4Narration12D</Key>
-			<Value>Now select the two airlock doors. Selecting one door as 'Exterior' will cause the other to default to 'Internal'.</Value>
+			<Value>Now select the airlock doors: selecting the external door as 'Exterior' will cause the other to default to 'Internal'.</Value>
 		</Record>
 		<Record>
 			<Key>4GetpipeKit</Key>
@@ -210,7 +212,7 @@
 		</Record>
 		<Record>
 			<Key>4TurningOnTheOXygen</Key>
-			<Value>Wait for pressure to reach 90kPa</Value>
+			<Value>Wait for pressure to reach 92kPa</Value>
 		</Record>
 		<Record>
 			<Key>4Narration16D</Key>
@@ -222,7 +224,7 @@
 		</Record>
 		<Record>
 			<Key>4Narration17D</Key>
-			<Value>Good work, Cadet. You've build an airtight, pressurized base. That's the last step of Practical Testing, Phase IV. Return inside and press the 'Complete' button to transmit your results to Stationeer Command.</Value>
+			<Value>Good work, Cadet. You've build an airtight, pressurized base. That's the last step of Practical Testing, Phase IV. Return inside and press the 'Complete' button to transmit your results to ODA Stationeer Command.</Value>
 		</Record>
 		<Record>
 			<Key>4AirlockProggramGasSensor</Key>
@@ -258,11 +260,11 @@
 		</Record>
 		<Record>
 			<Key>4Narration55D</Key>
-			<Value>Using the resource the crate and the on-screen tooltips complete the doors.</Value>
+			<Value>As a Stationeer, you need to finish things: Complete construction of the doors using resources from the crate and your in-built, sub-sentient AI 'tooltip' HUD helper.</Value>
 		</Record>
 		<Record>
 			<Key>4Narration56D</Key>
-			<Value>Use the labeller to name the interior and exterior door on the data network.</Value>
+			<Value>Naming items on networks reduces confusion: Use the labeller to name the interior and exterior door on the data network.</Value>
 		</Record>
 		<Record>
 			<Key>4GetLabeler</Key>
