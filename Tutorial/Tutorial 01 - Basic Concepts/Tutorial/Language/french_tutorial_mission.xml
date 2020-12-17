@@ -510,7 +510,7 @@ Vous aurez besoin du chalumeau dans votre main active, et de plaques de fer dans
     </Record>
     <Record>
       <Key>FinsihFramesT1Disc</Key>
-      <Value>Utilisez le chalumeau et les plaques d&apos;acier de la caisse, pour compléter la base d&apos;entraînement.</Value>
+      <Value>Equipez-vous avec le {THING:ItemWeldingTorch} et les {THING:ItemSteelSheets} dans la caisse, et compléter la base d&apos;entraînement.</Value>
     </Record>
     <Record>
       <Key>FillingWithAirT1Disc</Key>
@@ -518,27 +518,27 @@ Vous aurez besoin du chalumeau dans votre main active, et de plaques de fer dans
     </Record>
     <Record>
       <Key>OpenTheAPCPanel</Key>
-      <Value>Ouvrez l’APC avec pied de biche à partir de la caisse</Value>
+      <Value>Ouvrez le {THING:StructureAreaPowerControl} avec le {THING:ItemCrowbar} trouvé dans la caisse</Value>
     </Record>
     <Record>
       <Key>TurnOnAPC</Key>
-      <Value>Allumez l&apos;APC.</Value>
+      <Value>Allumez le {THING:StructureAreaPowerControl}</Value>
     </Record>
     <Record>
       <Key>TurningOnTheOXygen</Key>
-      <Value>Attendez que la pression externe atteigne 60 kPa.</Value>
+      <Value>Attendez que la pression atmosphérique atteigne 60 kPa.</Value>
     </Record>
     <Record>
       <Key>OpenHelmT1Disc</Key>
-      <Value>Ouvrez le casque de votre combinaison.</Value>
+      <Value>Ouvrez la visière de votre casque.</Value>
     </Record>
     <Record>
       <Key>OpenHelmT1Task</Key>
-      <Value>Déverrouiller le masque</Value>
+      <Value>Déverrouiller le casque</Value>
     </Record>
     <Record>
       <Key>OpenHelmT2Task</Key>
-      <Value>Masque ouvert</Value>
+      <Value>Ouvrer la visière</Value>
     </Record>
     <Record>
       <Key>Narration20T</Key>
@@ -546,12 +546,12 @@ Vous aurez besoin du chalumeau dans votre main active, et de plaques de fer dans
     </Record>
     <Record>
       <Key>FinishFrameT1</Key>
-      <Value>Terminer la construction du cadre avec des plaques de fer et un chalumeau</Value>
+      <Value>Terminer la construction du {THING:StructureFrameIron} avec des {THING:ItemIronSheets} et un {THING:ItemWeldingTorch}</Value>
     </Record>
     <Record>
       <Key>Narration20D</Key>
-      <Value>Vous avez scellé la base, maintenant pour ajouter de l’atmosphère. L’activation du contrôleur de puissance de zone (APC) commencera le flux d’air dans la pièce.
-Surveillez la pression externe sur votre panneau d’état.</Value>
+      <Value>Le bâtiment est étanche, maintenant vous pouvez ajouter une atmosphère. Activer le {THING:StructureAreaPowerControl} (APC) pour alimenter les {THING:StructureActiveVent}. L’air affluera dans la pièce.
+Surveillez la pression atmosphérique sur votre panneau d’état.</Value>
     </Record>
     <Record>
       <Key>Narration21T</Key>
