@@ -368,7 +368,7 @@ Utilisez la molette de la souris pour sélectionner un objet dans un inventaire 
     <Record>
       <Key>Narration12D</Key>
       <Value>L&apos;équipement du Stationeer est conçu pour la durabilité et la facilité de fabrication, pas pour qu&apos;ils soient beaux.
-Bon nombre d’entre eux, comme les outils électriques, contiennent une pile ou une bouteille de gaz.</Value>
+Bon nombre d’entre eux, notament vos outils, contiennent une pile ou une bouteille de gaz.</Value>
     </Record>
     <Record>
       <Key>ChildOnSlotOpenDisc</Key>
@@ -486,11 +486,11 @@ Vous aurez besoin du chalumeau dans votre main active, et de plaques de fer dans
     </Record>
     <Record>
       <Key>PickUpT1 9</Key>
-      <Value>Prendre les {THING:ItemIronFrames} dans la caisse</Value>
+      <Value>Prendre les Kit (Cadres en Fer) dans la caisse</Value>
     </Record>
     <Record>
       <Key>BuildFrameT1Disc</Key>
-      <Value>Compléter le toit en utilisant des {THING:ItemIronFrames} et des {THING:ItemIronSheets}.</Value>
+      <Value>Compléter le toit en utilisant des Kit (Cadres en Fer) et des Plaques de Fer.</Value>
     </Record>
     <Record>
       <Key>IronFrameBuildTaskT1</Key>
@@ -502,7 +502,7 @@ Vous aurez besoin du chalumeau dans votre main active, et de plaques de fer dans
     </Record>
     <Record>
       <Key>PickUpT1 4</Key>
-      <Value>Prendre les {THING:ItemIronSheets} dans la caisse</Value>
+      <Value>Prendre les Plaques de Fer dans la caisse</Value>
     </Record>
     <Record>
       <Key>UsePrimeControlsBuildDisc</Key>
@@ -510,7 +510,7 @@ Vous aurez besoin du chalumeau dans votre main active, et de plaques de fer dans
     </Record>
     <Record>
       <Key>FinsihFramesT1Disc</Key>
-      <Value>Equipez-vous avec le {THING:ItemWeldingTorch} et les {THING:ItemSteelSheets} dans la caisse, et compléter la base d&apos;entraînement.</Value>
+      <Value>Equipez-vous avec le Chalumeau et les Plaques d&apos;acier dans la caisse, et compléter la base d&apos;entraînement.</Value>
     </Record>
     <Record>
       <Key>FillingWithAirT1Disc</Key>
@@ -518,11 +518,11 @@ Vous aurez besoin du chalumeau dans votre main active, et de plaques de fer dans
     </Record>
     <Record>
       <Key>OpenTheAPCPanel</Key>
-      <Value>Ouvrez le {THING:StructureAreaPowerControl} avec le {THING:ItemCrowbar} trouvé dans la caisse</Value>
+      <Value>Ouvrez le Contrôleur d&apos;Alimentation avec le Pieds de biche trouvé dans la caisse</Value>
     </Record>
     <Record>
       <Key>TurnOnAPC</Key>
-      <Value>Allumez le {THING:StructureAreaPowerControl}</Value>
+      <Value>Allumez le Contrôleur d&apos;Alimentation</Value>
     </Record>
     <Record>
       <Key>TurningOnTheOXygen</Key>
@@ -546,11 +546,11 @@ Vous aurez besoin du chalumeau dans votre main active, et de plaques de fer dans
     </Record>
     <Record>
       <Key>FinishFrameT1</Key>
-      <Value>Terminer la construction du {THING:StructureFrameIron} avec des {THING:ItemIronSheets} et un {THING:ItemWeldingTorch}</Value>
+      <Value>Terminer la construction du Cadre en Fer avec des Plaques de Fer et un Chalumeau</Value>
     </Record>
     <Record>
       <Key>Narration20D</Key>
-      <Value>Le bâtiment est étanche, maintenant vous pouvez ajouter une atmosphère. Activer le {THING:StructureAreaPowerControl} (APC) pour alimenter les {THING:StructureActiveVent}. L’air affluera dans la pièce.
+      <Value>Le bâtiment est étanche, maintenant vous pouvez ajouter une atmosphère. Activer le Contrôleur d&apos;Alimentation (APC) pour alimenter les Ventilations Actives. L’air affluera dans la pièce.
 Surveillez la pression atmosphérique sur votre panneau d’état.</Value>
     </Record>
     <Record>
@@ -568,16 +568,17 @@ Si vous avez besoin de revoir ces compétences, consultez la Stationpedia en app
     </Record>
     <Record>
       <Key>Narration22D</Key>
-      <Value>Vous ferez plus de tests bientôt, alors faites-vous à la maison. 
-Enlève ton costume et place-le dans un casier.</Value>
+      <Value>Très bien, Cadet, vous avez presque terminé la phase I des tests pratiques Stationeers.
+Si vous souhaitez en savoir plus, consultez la Stationpedia en appuyant sur F1. Une fois que vous l&apos;aurez lu, fermez la Stationpedia. Vous ferez d’autres tests bientôt, mais pour l’instant, faites comme chez vous. 
+Enlevez votre combinaison et placez-la dans le casier.</Value>
     </Record>
     <Record>
       <Key>GettingHelp</Key>
-      <Value>Ouverture de Stationpedia, navigation pour &quot;démarrer&quot;.</Value>
+      <Value>Ouvrez la Stationpedia, et aller dans la section Personnel.</Value>
     </Record>
     <Record>
       <Key>GettingHelpClose</Key>
-      <Value>Fermez la {LINK:Home;Stationpedia}</Value>
+      <Value>Fermez la Stationpedia</Value>
     </Record>
     <Record>
       <Key>Narration23T</Key>
@@ -585,24 +586,24 @@ Enlève ton costume et place-le dans un casier.</Value>
     </Record>
     <Record>
       <Key>Narration23D</Key>
-      <Value>Excellent, cadet ! C’est la dernière étape des tests pratiques, phase I. 
-Appuyez sur le bouton orange &apos;Complete&apos; pour transmettre vos résultats au commandement Stationeer.</Value>
+      <Value>Excellent, cadet. C’est la dernière étape de la phase I. L’ODA sera soulagée que vous ayez survécu jusqu’ici.
+Appuyez sur le bouton bleu &apos;Complete&apos; pour transmettre vos résultats à Stationeer Command.</Value>
     </Record>
     <Record>
       <Key>HangUpSuitT1Disc</Key>
-      <Value>Faites glisser votre combinaison dans le casier de rangement.</Value>
+      <Value>Déposer votre combinaison dans le Stockage de combinaison.</Value>
     </Record>
     <Record>
       <Key>HangHelm</Key>
-      <Value>Faites glisser le casque spatial sur le stockage de la combinaison</Value>
+      <Value>Déposer votre casque spatial dans le Stockage de combinaison</Value>
     </Record>
     <Record>
       <Key>HangSuit</Key>
-      <Value>Faites glisser la combinaison EVA sur le rangement de la combinaison</Value>
+      <Value>Déposer votre combinaison EVA dans le Stockage de combinaison</Value>
     </Record>
     <Record>
       <Key>HangPack</Key>
-      <Value>Faites glisser le jetpack sur le stockage de la combinaison</Value>
+      <Value>Déposer le jetpack dans le Stockage de combinaison</Value>
     </Record>
     <Record>
       <Key>JetpackOn</Key>
@@ -614,7 +615,7 @@ Appuyez sur le bouton orange &apos;Complete&apos; pour transmettre vos résultat
     </Record>
     <Record>
       <Key>JetpackT1Disc</Key>
-      <Value>Testez vos commandes de jet pack.</Value>
+      <Value>Testez votre contrôle du jetpack.</Value>
     </Record>
     <Record>
       <Key>PickUpT1 6</Key>
@@ -630,7 +631,7 @@ Appuyez sur le bouton orange &apos;Complete&apos; pour transmettre vos résultat
     </Record>
     <Record>
       <Key>UIBasicsEndDescription</Key>
-      <Value>Félicitations. Vos résultats ont été reçus par Le Commandement Stationeer de l’Agence de développement Offworld.</Value>
+      <Value>Félicitations. Vos résultats ont été reçus par le Stationeer Command de l’ODA.</Value>
     </Record>
     <Record>
       <Key>Dropflare</Key>

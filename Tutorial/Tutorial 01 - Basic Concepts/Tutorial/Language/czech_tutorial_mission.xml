@@ -57,8 +57,8 @@ Vstupte do výcvikové základny přes přechodovou komoru před vámi.</Value>
     </Record>
     <Record>
       <Key>Narration2D</Key>
-      <Value>Při práci a stavbě v nebezpečných podmínkách daleko od domova musí Stationeer zvládat mnoho speciálních dovedností.
-Také je potřeba mačkat tlačítka. Vstupte do základny stisknutím tlačítka &apos;Synchronizovat do interiéru&apos;.</Value>
+      <Value>Pracovat a stavět v nebezpečných podmínkách daleko od domova nutí Stationeera zvládat mnoho speciálních dovedností. Také potřebu mačkat tlačítka.
+Pro vstup do základny stiskněte &apos;Synchronizovat do interiéru&apos;.</Value>
     </Record>
     <Record>
       <Key>TrainingBaseDisc</Key>
@@ -70,7 +70,7 @@ Také je potřeba mačkat tlačítka. Vstupte do základny stisknutím tlačítk
     </Record>
     <Record>
       <Key>ExitAreaT1</Key>
-      <Value>Vstupte do testovací oblasti</Value>
+      <Value>Vstupte do výcvikové oblasti</Value>
     </Record>
     <Record>
       <Key>Narration3T</Key>
@@ -106,7 +106,7 @@ Také je potřeba mačkat tlačítka. Vstupte do základny stisknutím tlačítk
     </Record>
     <Record>
       <Key>SwapHandsT1 2</Key>
-      <Value>Vyměňte si ruce ... znova</Value>
+      <Value>Vyměňte si ruce ... znovu</Value>
     </Record>
     <Record>
       <Key>Narration4T</Key>
@@ -123,11 +123,11 @@ Mnoho z nich musí být nejprve aktivováno &apos;Pravým tlačítkem&apos; myš
     </Record>
     <Record>
       <Key>TurnOnControlsDisc</Key>
-      <Value>Zapněte napájení</Value>
+      <Value>Zapnout</Value>
     </Record>
     <Record>
       <Key>TurnOnControlsDisc</Key>
-      <Value>Zapněte napájení</Value>
+      <Value>Zapnout</Value>
     </Record>
     <Record>
       <Key>WeilderOn</Key>
@@ -195,8 +195,13 @@ Stisknutím {KEY:Drop} předměty položíte nebo podržením {KEY:Drop} je hod�
       <Value>Systémy inventáře</Value>
     </Record>
     <Record>
+      <Key>Narration7D</Key>
+      <Value>Nemůžeme vás naučit všechno, ale můžeme zajistit vaše minimální znalosti: přežití v sluneční soustavě je na vás.
+Pro přístup k inventáři podržte {KEY:MouseControl} a pak klikněte na jeho panel.</Value>
+    </Record>
+    <Record>
       <Key>OpenToolControlsDisc</Key>
-      <Value>Povolit kurzor myši</Value>
+      <Value>Zapnout kurzor myši</Value>
     </Record>
     <Record>
       <Key>OpenToolbeltT1Disc</Key>
@@ -216,7 +221,8 @@ Stisknutím {KEY:Drop} předměty položíte nebo podržením {KEY:Drop} je hod�
     </Record>
     <Record>
       <Key>Narration8D</Key>
-      <Value>Jako Stationeer existuje mnoho způsobů, jak dosáhnout cíle: inventář můžete otevřít také pomocí numerických kláves.</Value>
+      <Value>Jako Stationeer, nikdy není jen &apos;jedna cesta&apos; k dosažení cíle: jak vyřešíte problém, je jen na vás.
+To platí i pro váš oblek - zkuste otevřít svůj inventář pomocí číselných kláves.</Value>
     </Record>
     <Record>
       <Key>OpenBackPackDisc</Key>
@@ -232,7 +238,7 @@ Stisknutím {KEY:Drop} předměty položíte nebo podržením {KEY:Drop} je hod�
     </Record>
     <Record>
       <Key>Narration9D</Key>
-      <Value>Vědět, kde něco je a jak to rychle získat, má zásadní rozdíl: Správa zásob zachraňuje životy. Rychlý začátek přetažením položek z inventáře do ruky.</Value>
+      <Value>Vědět, kde něco je a jak to rychle získat, dělá zásadní rozdíl: Správa zásob zachraňuje životy. Začněte přetažením předmětu do ruky z inventáře.</Value>
     </Record>
     <Record>
       <Key>HoldMiningBeltT1Disc</Key>
@@ -248,7 +254,7 @@ Stisknutím {KEY:Drop} předměty položíte nebo podržením {KEY:Drop} je hod�
     </Record>
     <Record>
       <Key>AltDragControlsDisc</Key>
-      <Value>Interagujte s inventářem.</Value>
+      <Value>Interakce s inventářem</Value>
     </Record>
     <Record>
       <Key>DropT1 2</Key>
@@ -257,6 +263,11 @@ Stisknutím {KEY:Drop} předměty položíte nebo podržením {KEY:Drop} je hod�
     <Record>
       <Key>Narration10T</Key>
       <Value>Přetažení v inventáři</Value>
+    </Record>
+    <Record>
+      <Key>Narration10D</Key>
+      <Value>Jako Stationeer budete hodně zvedat věci. V sluneční soustavě je nepořádek. Tak to prostě je.
+Zkuste přetáhnout předměty z okolí přímo do inventáře.</Value>
     </Record>
     <Record>
       <Key>DragFromWorldT1Disc</Key>
@@ -280,7 +291,7 @@ Stisknutím {KEY:Drop} předměty položíte nebo podržením {KEY:Drop} je hod�
     </Record>
     <Record>
       <Key>QucikEquiptControlsDisc</Key>
-      <Value>Vyberte slot inventáře</Value>
+      <Value>Vybere slot inventáře</Value>
     </Record>
     <Record>
       <Key>QuickSelectItemControlsDisc</Key>
@@ -340,7 +351,7 @@ Stisknutím {KEY:Drop} předměty položíte nebo podržením {KEY:Drop} je hod�
     </Record>
     <Record>
       <Key>LightFlare</Key>
-      <Value>Aktivujte světlice na silnici pomocí Sekundární akce</Value>
+      <Value>Aktivujte silniční světlici pomocí Sekundární akce</Value>
     </Record>
     <Record>
       <Key>DropT1 3</Key>
@@ -364,11 +375,11 @@ Stisknutím {KEY:Drop} předměty položíte nebo podržením {KEY:Drop} je hod�
     </Record>
     <Record>
       <Key>ReplaceBattT1Disc</Key>
-      <Value>Přidejte baterii z bedny do těžebního vrtáku.</Value>
+      <Value>Vložte baterii z bedny do těžebního vrtáku</Value>
     </Record>
     <Record>
       <Key>ChangePowerCell</Key>
-      <Value>Přidejte baterii do těžebního vrtáku z bedny</Value>
+      <Value>Vložte baterii z bedny do těžebního vrtáku</Value>
     </Record>
     <Record>
       <Key>Narration14T</Key>
@@ -408,8 +419,8 @@ Stisknutím {KEY:Drop} předměty položíte nebo podržením {KEY:Drop} je hod�
     </Record>
     <Record>
       <Key>Narration16D</Key>
-      <Value>Dobrá práce, kadete. 
-Přesuňte se do další oblasti výcvikové základny a prohlédněte si základy stavby.</Value>
+      <Value>Hodnotící komise ODA je spokojena, že nejste pro sebe bezprostřední hrozbou. Dobrá práce, kadete.
+Přesuňte se do další oblasti výcvikové základny pro část II - přezkoumání základů stavění.</Value>
     </Record>
     <Record>
       <Key>EnterAreaT1Disc</Key>
@@ -437,8 +448,8 @@ Přesuňte se do další oblasti výcvikové základny a prohlédněte si zákla
     </Record>
     <Record>
       <Key>Narration17D</Key>
-      <Value>V této fázi testování buď osvojíte základní stavební dovednosti, nebo vám dojde vzduch.
-Konstrukční plocha je příliš vysoká na to, abyste ji dosáhli, takže budete muset použít jetpack.</Value>
+      <Value>V této fázi výcviku si buď osvojíte základní stavební dovednosti, nebo vám dojde vzduch.
+Konstrukční plocha je příliš vysoko na to, abyste dosáhli, takže vyzkoušejte jetpack.</Value>
     </Record>
     <Record>
       <Key>Narration18T</Key>
@@ -447,7 +458,7 @@ Konstrukční plocha je příliš vysoká na to, abyste ji dosáhli, takže bude
     <Record>
       <Key>Narration18D</Key>
       <Value>Jednoduchá konstrukce a snadné natlakování, železné rámy jsou základem jakékoli struktury Stationeer.
-Vezměte rámy, pak klikněte pravým tlačítkem pro vstup do režimu stavby a levým tlačítkem umístěte.</Value>
+Vezměte rámy, kliknutím pravým tlačítkem přejděte do režimu stavby a levým tlačítkem je umístěte.</Value>
     </Record>
     <Record>
       <Key>BuildTheFrames</Key>
@@ -538,7 +549,7 @@ Sledujte vnější tlak na stavovém panelu.</Value>
     <Record>
       <Key>Narration21D</Key>
       <Value>Dobře, kadete, téměř jste dokončili I. fázi praktického výcviku Stationeers.
-Pokud se chcete dozvědět více, podívejte se do Stationpedie stisknutím F1.</Value>
+Pokud se chcete dozvědět více, podívejte se do Stationpedie stisknutím {KEY:Help}.</Value>
     </Record>
     <Record>
       <Key>Narration22T</Key>
@@ -546,7 +557,8 @@ Pokud se chcete dozvědět více, podívejte se do Stationpedie stisknutím F1.<
     </Record>
     <Record>
       <Key>Narration22D</Key>
-      <Value>Brzy budete dělat další testy, ale prozatím se chovejte jako doma.
+      <Value>Dobře, kadete, už jste skoro dokončil I. fázi praktického výcviku Stationeera.
+Pokud se chcete dozvědět více, podívejte se do Stationpedie stisknutím {KEY:Help}. Brzy budete provádět další výcvik, ale zatím se chovejte jako doma. 
 Sundejte si oblek a vložte ho do úložné skříňky.</Value>
     </Record>
     <Record>

@@ -9,7 +9,7 @@
     <Record>
       <Key>TutoiralAirlocksDescription</Key>
       <!--This is the description that appears in the menu-->
-      <Value>Vítejte kadete. Chcete-li dokončit tuto fázi výstavby a natlakování základny, musíte postavit přechodovou komoru.</Value>
+      <Value>Osvěžte si své znalosti o výstavbě přechodové komory.</Value>
     </Record>
     <Record>
       <Key>TutoiralAtmosphericsSubTitle</Key>
@@ -18,7 +18,7 @@
     <Record>
       <Key>IntoTutoiralAirlocksDescription</Key>
       <!--This is the intro panel at the start of the tutorial-->
-      <Value>Vítejte kadete. Chcete-li dokončit tuto fázi základní konstrukce a natlakování základny, musíte postavit přechodovou komoru.</Value>
+      <Value>Vítejte kadete. K dokončení této fáze testování a natlakování základny vás provedeme základní konstrukcí přechodové komory.</Value>
     </Record>
     <Record>
       <Key>4Narration1T</Key>
@@ -38,7 +38,7 @@
     </Record>
     <Record>
       <Key>4PutCopperIngotInAutoLathe</Key>
-      <Value>Přidejte zlatý ingot do autosoustruhu</Value>
+      <Value>Přidejte měděný ingot do autosoustruhu</Value>
     </Record>
     <Record>
       <Key>4PutGoldIngotInAutoLathe</Key>
@@ -50,7 +50,7 @@
     </Record>
     <Record>
       <Key>4Narration4D</Key>
-      <Value>Než budete moci postavit náhradní dveře, musíte odstranit ty staré.</Value>
+      <Value>Než budete moci postavit náhradní dveře, protokol ODA vyžaduje, že musíte odstranit ty zničené.</Value>
     </Record>
     <Record>
       <Key>T4Deconstruct1</Key>
@@ -62,27 +62,52 @@
     </Record>
     <Record>
       <Key>4Narration5D</Key>
-      <Value>Nyní postavte kompozitní dveře v každém zvýrazněném místě. Budete muset procházet možnosti sady.</Value>
+      <Value>Dobrá práce. Nyní postavte kompozitní dveře na zvýrazněná místa.
+Budete muset procházet jednotlivé možnosti a najít správnou variantu dveří.</Value>
     </Record>
     <Record>
       <Key>4BuildPDoor1Tutorial</Key>
-      <Value>Postavte kompozitní dveře #1 na zvýrazněné místo</Value>
+      <Value>Umístěte kompozitní dveře č. 1 na zvýrazněné místo</Value>
     </Record>
     <Record>
       <Key>4BuildDoor2Tutorial</Key>
-      <Value>Postavte kompozitní dveře #2 na zvýrazněné místo</Value>
+      <Value>Umístěte kompozitní dveře č. 2 na zvýrazněné místo</Value>
+    </Record>
+    <Record>
+      <Key>4BuildCornerCable1Tutorial</Key>
+      <Value>Připojte dveře č. 1 k napěťové síti</Value>
+    </Record>
+    <Record>
+      <Key>4BuildCornerCable2Tutorial</Key>
+      <Value>Připojte dveře č. 2 k napěťové síti</Value>
+    </Record>
+    <Record>
+      <Key>4Narration6D</Key>
+      <Value>Postavte senzor plynu pro monitorování tlaku ve vzduchové komoře. Budete se muset podívat do Stationpedie a zjistit, kde ho vyrobit.</Value>
     </Record>
     <Record>
       <Key>OnStationpediaOpen</Key>
-      <Value>Otevřete Stationpedii pomocí F1</Value>
+      <Value>Otevřete Stationpedii ({KEY:Help})</Value>
+    </Record>
+    <Record>
+      <Key>4PediaNavigation</Key>
+      <Value>Přejděte na stránku &apos;Senzory (Sada)&apos; a vyhledejte konstruktéra</Value>
+    </Record>
+    <Record>
+      <Key>4FabricateSensorKit</Key>
+      <Value>Vyrobte sadu senzorů</Value>
     </Record>
     <Record>
       <Key>4BuildGasSensorTutorial</Key>
-      <Value>Umístěte plynový senzor na zvýrazněné místo</Value>
+      <Value>Postavte senzor plynu na zvýrazněné místo</Value>
+    </Record>
+    <Record>
+      <Key>4Narration7D</Key>
+      <Value>Chcete-li natlakovat přechodovou komoru, potřebujete pro synchronizaci vzduchu aktivní a pasivní ventilaci, která umožní průchod atmosféry přes potrubní síť.</Value>
     </Record>
     <Record>
       <Key>4FabricateItemPassiveVent</Key>
-      <Value>Vytiskněte pasivní ventilaci</Value>
+      <Value>Vytvořte pasivní ventilaci</Value>
     </Record>
     <Record>
       <Key>4GetActiveVent</Key>
@@ -90,23 +115,43 @@
     </Record>
     <Record>
       <Key>4BuildStructureActiveVent</Key>
-      <Value>Umístěte aktivní ventilaci na zvýrazněné místo uvnitř přechodové komory</Value>
+      <Value>Postavte aktivní ventilaci na zvýrazněné místo uvnitř přechodové komory</Value>
     </Record>
     <Record>
       <Key>4BuildStructurePassiveVent</Key>
-      <Value>Umístěte pasivní ventilaci na zvýrazněné místo mimo přechodovou komoru</Value>
+      <Value>Postavte pasivní ventilaci na zvýrazněné místo na stěně základny</Value>
+    </Record>
+    <Record>
+      <Key>4Narration8D</Key>
+      <Value>Propojte ventilaci potrubním systémem, abyste mohli čerpat vzduch z místnosti do přechodové komory.</Value>
+    </Record>
+    <Record>
+      <Key>4BuildPipeCorner1Tutorial</Key>
+      <Value>Přidejte potrubí č. 1 do potrubní sítě</Value>
+    </Record>
+    <Record>
+      <Key>4BuildPipeCorner2Tutorial</Key>
+      <Value>Přidejte potrubí č. 2 do potrubní sítě</Value>
+    </Record>
+    <Record>
+      <Key>4Narration9D</Key>
+      <Value>Konzole Norsec umožňují ovládat a monitorovat různé systémy v závislosti na jejich konfiguraci. Představte si je jako malý, jednoduchý mozek.</Value>
     </Record>
     <Record>
       <Key>4BuildConsoleTutorial</Key>
-      <Value>Umístěte konzoli na zvýrazněné místo</Value>
+      <Value>Postavte konzoli na zvýrazněné místo</Value>
+    </Record>
+    <Record>
+      <Key>4Narration10D</Key>
+      <Value>Obvodové desky poskytují konzolím řadu různých funkcí. Tady potřebujete obvodovou desku přechodové komory a datový disk, abyste ji mohli naprogramovat.</Value>
     </Record>
     <Record>
       <Key>4FabricateAirlcokCircuit</Key>
-      <Value>Vytiskněte obvodovou desku přechodové komory</Value>
+      <Value>Vyrobte obvodovou desku přechodové komory</Value>
     </Record>
     <Record>
       <Key>4FabricateDataDisk</Key>
-      <Value>Vytiskněte datový disk</Value>
+      <Value>Vyrobte datový disk</Value>
     </Record>
     <Record>
       <Key>4FinsihConsole</Key>
@@ -118,11 +163,16 @@
     </Record>
     <Record>
       <Key>4Narration11D</Key>
-      <Value>Chcete-li naprogramovat přechodovou komoru, musíte vybrat všechny položky, které má konzole ovládat. Zařízení jsou při výběru zvýrazněna zeleně s červeným textem.</Value>
+      <Value>K naprogramování přechodové komory potřebujete datový disk. Poté vyberete položky, které má konzole ovládat.
+Vybraná zařízení jsou zvýrazněna ZELENĚ s ČERVENÝM TEXTEM.</Value>
     </Record>
     <Record>
       <Key>4PediaOpen</Key>
       <Value>Otevřete Stationpedii pomocí F1</Value>
+    </Record>
+    <Record>
+      <Key>4Narration12D</Key>
+      <Value>Nyní vyberte dveře přechodové komory: výběr vnějších dveří jako &apos;Vnější&apos; způsobí, že ostatní budou mít výchozí hodnotu &apos;Vnitřní&apos;.</Value>
     </Record>
     <Record>
       <Key>4GetpipeKit</Key>
@@ -133,8 +183,24 @@
       <Value>Vezměte konzoli z bedny</Value>
     </Record>
     <Record>
+      <Key>4Narration13D</Key>
+      <Value>Když jste úspěšně dokončili nastavení přechodové komory, rozsvítí se spínač na straně konzoly zeleně. Vyjměte datový disk z konzoly a tím se uzamkne.</Value>
+    </Record>
+    <Record>
+      <Key>4PutCircuitInConsole</Key>
+      <Value>Přidejte obvodovou desku přechodové komory do konzole.</Value>
+    </Record>
+    <Record>
+      <Key>4Narration14D</Key>
+      <Value>Přechodová komora je připravena, takže nyní můžete natlakovat základnu! Zapněte APC a naplňte místnost atmosférou. Systém bude udržovat tlak 100 kPa.</Value>
+    </Record>
+    <Record>
+      <Key>4Narration15D</Key>
+      <Value>Když se místnost naplní atmosférou, váš oblek zaregistruje změny vnějšího tlaku a teploty.</Value>
+    </Record>
+    <Record>
       <Key>4TurningOnTheOXygen</Key>
-      <Value>Počkejte, až tlak dosáhne 90 kPa</Value>
+      <Value>Počkejte, až tlak dosáhne 92 kPa</Value>
     </Record>
     <Record>
       <Key>4OpenAirlock</Key>
@@ -142,7 +208,11 @@
     </Record>
     <Record>
       <Key>4Narration17D</Key>
-      <Value>Dobrá práce, kadete. Postavili jste vzduchotěsnou tlakovou základnu. To byl poslední krok praktického výcviku, fáze IV. Vraťte se dovnitř a stiskněte tlačítko &apos;Dokončit&apos;, aby se vaše výsledky přenesly na velitelství Stationeer.</Value>
+      <Value>Dobrá práce, kadete. Postavili jste vzduchotěsnou tlakovou základnu. To byl poslední krok praktického výcviku, fáze IV. Vraťte se dovnitř a stisknutím tlačítka &apos;Dokončit&apos; odešlete výsledky na velitelství Stationeer.</Value>
+    </Record>
+    <Record>
+      <Key>4AirlockProggramGasSensor</Key>
+      <Value>Vyberte senzor plynu</Value>
     </Record>
     <Record>
       <Key>4AirlockProggramActiveVent</Key>
@@ -151,6 +221,10 @@
     <Record>
       <Key>4GetDataDisk2</Key>
       <Value>Vyjměte datový disk</Value>
+    </Record>
+    <Record>
+      <Key>4FlipSwitch</Key>
+      <Value>Zapněte APC a spusťte natlakování.</Value>
     </Record>
     <Record>
       <Key>4FinishDoor1</Key>
@@ -167,6 +241,10 @@
     <Record>
       <Key>4LabelerOn</Key>
       <Value>Zapněte popisovač</Value>
+    </Record>
+    <Record>
+      <Key>4PutDataDiskInConsole</Key>
+      <Value>Vložte datový disk do konzole</Value>
     </Record>
   </Interface>
 </Language>

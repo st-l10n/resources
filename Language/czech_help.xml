@@ -147,16 +147,21 @@ Existují některé rudy, které roztají, když jsou vystaveny slunečnímu zá
     <StationpediaPage>
       <Key>TravelPage</Key>
       <Title>Destinace</Title>
-      <Text>Počkejte! Ještě mě nezavírejte! Toto jsou ID SVĚTOVÉHO CESTOVÁNÍ. Můžete je použít k cestování na konkrétní planety v kombinaci s dokončeným {LINK:RocketShuttlePage;raketoplánem} a {LINK:LogicUnitPage;logickými jednotkami}.
-       
+      <Text>Počkejte! Ještě mě nezavírejte! Ke startu rakety musí být splněny následující podmínky:
+
+- Plně postavená raketa: minimálně 3 základní moduly;
+- {THING:StructureModularRocketFueltank01} plná paliva;
+- Správný poměr palivové směsi - {GAS:Volatiles} a {GAS:Oxygen} 2 : 1;
+- Napájení {THING:StructureLaunchPad};
+- Všichni hráči sedící v {THING:StructureModularRocketCommand01}.
+
+Níže jsou uvedena ID VESMÍRNÉHO CESTOVÁNÍ. Můžete je použít k cestování na konkrétní planety v kombinaci s dokončeným {LINK:RocketShuttlePage;raketoplánem} a {LINK:LogicUnitPage;logickými jednotkami}.
+
 Jednoduše napište hash do proměnného nastavení na {THING:StructureLaunchPad} pomocí {THING:ItemLabeller}. Poznámka: Kliknutím na hash jej zkopírujete do schránky.
-      
-K zahájení musíte mít alespoň 3 základní moduly a všechny hráče sedící ve funkční raketě pro start.
 
       {LIST}
         {WORLD_HASHES}
-      {/LIST}
-      </Text>
+      {/LIST}</Text>
     </StationpediaPage>
     <!-- <StationpediaPage>
           <Key>RocketShuttleModulesHelpPage</Key>

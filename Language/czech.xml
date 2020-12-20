@@ -1092,7 +1092,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTurret</Key>
-      <Value>Střelná věž (Sada)</Value>
+      <Value>Střelecká věž (Sada)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWall</Key>
@@ -1416,7 +1416,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureBench</Key>
-      <Value>Lavice</Value>
+      <Value>Ponk</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureBlastDoor</Key>
@@ -1888,7 +1888,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureCableFuse1k</Key>
-      <Value>Pojistka (1kW)</Value>
+      <Value>Pojistka (1 kW)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableFuse5k</Key>
@@ -1900,7 +1900,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureCableFuse100k</Key>
-      <Value>Pojistka (100kW)</Value>
+      <Value>Pojistka (100 kW)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformer</Key>
@@ -3472,7 +3472,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemEmergencyWrench</Key>
-      <Value>Nouzový klíč</Value>
+      <Value>Nouzový francouzský klíč</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemEmergencyWireCutters</Key>
@@ -4556,7 +4556,7 @@
     </RecordThing>
     <RecordThing>
       <Key>Flag_ODA_10m</Key>
-      <Value>Vlajka ODA 10m</Value>
+      <Value>Vlajka ODA 10 m</Value>
     </RecordThing>
     <RecordThing>
       <Key>Flag_ODA_8m</Key>
@@ -4572,7 +4572,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageStructureRTG1</Key>
-      <Value>Struktura vraků RTG</Value>
+      <Value>Vrak konstrukce RTG</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageTurbineGenerator1</Key>
@@ -5542,7 +5542,7 @@
     </Record>
     <Record>
       <Key>StatusWindowInternal</Key>
-      <Value>Interní</Value>
+      <Value>Vnitřní</Value>
     </Record>
     <Record>
       <Key>GameMenuButtonReturn</Key>
@@ -6873,7 +6873,7 @@ Neuložený postup bude ztracen.</Value>
     </Record>
     <Record>
       <Key>LogicTypePressureExternal</Key>
-      <Value>Nastavení pro bezpečnost vnějšího tlaku, v KPa</Value>
+      <Value>Nastavení pro bezpečný vnější tlak, v kPa</Value>
     </Record>
     <Record>
       <Key>LogicTypePressureInternal</Key>
@@ -7664,8 +7664,12 @@ Neuložený postup bude ztracen.</Value>
       <Value>Vlastní svět</Value>
     </Record>
     <Record>
+      <Key>GasItemGasAmount</Key>
+      <Value>100 %</Value>
+    </Record>
+    <Record>
       <Key>GasItemGasMole</Key>
-      <Value>12.09 molů</Value>
+      <Value>12,09 mol</Value>
     </Record>
     <Record>
       <Key>CartridgeAtmosAnalyserPressureTitle</Key>
@@ -7697,7 +7701,7 @@ Neuložený postup bude ztracen.</Value>
     </Record>
     <Record>
       <Key>CartridgeElectronicReaderRecipeOrder</Key>
-      <Value>1 z 2</Value>
+      <Value>1 ze 2</Value>
     </Record>
     <Record>
       <Key>CartridgeElectronicReaderAutoFlashTitle</Key>
@@ -8988,7 +8992,7 @@ Program náborů z oblasti stavebnictví, vojenského a leteckého průmyslu, v�
     </Record>
     <Record>
       <Key>LightString</Key>
-      <Value>Da světlo</Value>
+      <Value>Světlo</Value>
     </Record>
     <Record>
       <Key>FixedWeatherEventMissing</Key>
@@ -9001,6 +9005,10 @@ Program náborů z oblasti stavebnictví, vojenského a leteckého průmyslu, v�
     <Record>
       <Key>BasicButtonTutorial</Key>
       <Value>Základy</Value>
+    </Record>
+    <Record>
+      <Key>NextTutoiralButtonFail</Key>
+      <Value>Nelze načíst další výuku. Vraťte se prosím do menu.</Value>
     </Record>
   </Interface>
   <Colors>

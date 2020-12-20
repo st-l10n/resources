@@ -7,8 +7,17 @@
       <Value>Konstrukce</Value>
     </Record>
     <Record>
+      <Key>TutoiralConstructionDescription</Key>
+      <Value>Budování základen pro ODA začíná pochopením základů výstavby.</Value>
+    </Record>
+    <Record>
       <Key>TutoiralConstructionSubTitle</Key>
       <Value>Praktický výcvik: Fáze II</Value>
+    </Record>
+    <Record>
+      <Key>IntoTutoiralConstructionDescription</Key>
+      <Value>Dobrý den, kadete. Prokázali jste základní dovednosti Stationeerů, nyní je čas dát se do práce.
+Stationeeři jsou stavitelé, nade vše. Otestujme si vaše základní konstrukční schopnosti.</Value>
     </Record>
     <Record>
       <Key>2PutAwayScrewDriver</Key>
@@ -16,19 +25,24 @@
     </Record>
     <Record>
       <Key>2PutAwayAngleGrinder</Key>
-      <Value>Vložte úhlovou brusku do obou rukou.</Value>
+      <Value>Vezměte úhlovou brusku do kterýkoliv ruky.</Value>
     </Record>
     <Record>
       <Key>2PutAwayPowerdrill</Key>
-      <Value>Vezměte vrták a vložte jej do hornického opasku.</Value>
+      <Value>Vezměte vrtačku a vložte ji do opasku na nářadí.</Value>
     </Record>
     <Record>
       <Key>2Narration1T</Key>
       <Value>Praktický výcvik: Fáze II.</Value>
     </Record>
     <Record>
+      <Key>2Narration1D</Key>
+      <Value>Bez nářadí je Stationeer bezbranný proti nepřátelskému vesmíru.
+Jděte do bedny a vezměte si své nářadí, než se stane něco strašného.</Value>
+    </Record>
+    <Record>
       <Key>2Narration2D</Key>
-      <Value>V této simulaci tréninku ODA byly stěny „poškozeny“ meteorickým deštěm.
+      <Value>V této simulaci výuky ODA byly stěny &apos;poškozeny&apos; meteorickým rojem.
 Chcete-li je vyměnit, musíte nejprve pomocí úhlové brusky odstranit poškozené rámy.</Value>
     </Record>
     <Record>
@@ -58,7 +72,7 @@ Začněte železnými rámy.</Value>
     </Record>
     <Record>
       <Key>BuildIronFramesT2</Key>
-      <Value>Dokončete rámy se železnými plechy + svářečkou v aktivní ruce.</Value>
+      <Value>Dokončete rámy pomocí železných plechů + svářečkou v aktivní ruce.</Value>
     </Record>
     <Record>
       <Key>2Narration5T</Key>
@@ -67,7 +81,7 @@ Začněte železnými rámy.</Value>
     <Record>
       <Key>2Narration5D</Key>
       <Value>Přesnost a plánování jsou základními dovednostmi Stationeerů. Poslední kadet byl vyhozen z programu pro stavbu autosoustruhu na špatném místě.
-Rozebírejte jej kousek po kousku a poté jej znovu postavte ve správné poloze.</Value>
+Rozebírejte jej kousek po kousku a poté znovu postavte na zvýrazněném místě.</Value>
     </Record>
     <Record>
       <Key>DeconstructAutolatherT2t1</Key>
@@ -87,11 +101,15 @@ Rozebírejte jej kousek po kousku a poté jej znovu postavte ve správné poloze
     </Record>
     <Record>
       <Key>DeconstructAutolatherT2t5</Key>
-      <Value>Rozeberte 1. stupeň autosoustruhu páčidlem.</Value>
+      <Value>Rozeberte 1. stupeň autosoustruhu francouzským klíčem.</Value>
     </Record>
     <Record>
       <Key>2Narration6T</Key>
       <Value>Konstrukce autosoustruhu.</Value>
+    </Record>
+    <Record>
+      <Key>2Narration6D</Key>
+      <Value>Máte vše, co potřebujete k obnově autosoustruhu ve správném zvýrazněném místě. Takže byste to měli udělat, a to hned.</Value>
     </Record>
     <Record>
       <Key>Tutorial2AutolatePlacement</Key>
@@ -119,7 +137,7 @@ Rozebírejte jej kousek po kousku a poté jej znovu postavte ve správné poloze
     </Record>
     <Record>
       <Key>2Narration7D</Key>
-      <Value>Bez energie toho moc nedosáhnete a chcete-li stanici zapnout, musíte nejprve znovu připojit solární panely k síti. Začněte odstraněním poškozených kabelů.</Value>
+      <Value>Bez energie toho moc nevyrobíte. Chcete-li stanici zapnout, musíte znovu připojit solární panely k síti. Začněte odstraněním poškozených kabelů.</Value>
     </Record>
     <Record>
       <Key>T2Deconstruct3</Key>
@@ -199,7 +217,7 @@ Rozebírejte jej kousek po kousku a poté jej znovu postavte ve správné poloze
     </Record>
     <Record>
       <Key>2Narration14D</Key>
-      <Value>APC také nabíjí baterie, což je dobré: ODA doporučuje mít několik nabitých baterií stále po ruce. V případě výpadku bude baterie také krátce poskytovat záložní napájení.</Value>
+      <Value>APC také nabíjí baterie, což je dobré: ODA doporučuje mít několik nabitých baterií stále po ruce. V případě výpadku bude baterie krátce poskytovat záložní napájení.</Value>
     </Record>
     <Record>
       <Key>2GetBatt</Key>
@@ -231,6 +249,10 @@ Rozebírejte jej kousek po kousku a poté jej znovu postavte ve správné poloze
 Zapněte APC pro aktivaci sítě a nechť je tam SVĚTLO.</Value>
     </Record>
     <Record>
+      <Key>2Narration17D</Key>
+      <Value>Více informací naleznete v Stationpedii, proto stiskněte {KEY:Help} a obnovte si své znalosti o APC.</Value>
+    </Record>
+    <Record>
       <Key>2FlipSwitch</Key>
       <Value>Zapněte APC.</Value>
     </Record>
@@ -240,7 +262,7 @@ Zapněte APC pro aktivaci sítě a nechť je tam SVĚTLO.</Value>
     </Record>
     <Record>
       <Key>2PediaNavigation</Key>
-      <Value>Přejděte na stránku &apos;Ingot (ocel)&apos;</Value>
+      <Value>Přejděte na stránku Regulátoru napěťového okruhu.</Value>
     </Record>
     <Record>
       <Key>2GettingHelpClose</Key>
