@@ -4056,6 +4056,10 @@
       <Value>Electrolisis 2 restos</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemWreckageHydroponicsStation2</Key>
+      <Value>Estación de hidroponia destruida 2</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemWreckageSDBSilo1</Key>
       <Value>Silo de SDB de escombros 1</Value>
     </RecordThing>
@@ -4280,8 +4284,12 @@
       <Value>Turbina de viento vertical</Value>
     </RecordThing>
     <RecordThing>
+      <Key>CrateMkII</Key>
+      <Value>Caja MK II</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemKitCrateMkII</Key>
-      <Value>Kit (Tanque portátil avanzado)</Value>
+      <Value>Kit (Caja Mk II)</Value>
     </RecordThing>
   </Things>
   <Slots>
@@ -4920,6 +4928,10 @@
     <Record>
       <Key>SlotKey</Key>
       <Value>Ranura</Value>
+    </Record>
+    <Record>
+      <Key>SoonTM</Key>
+      <Value>Proximamente...</Value>
     </Record>
     <Record>
       <Key>MainMenuContinue</Key>
@@ -8545,11 +8557,19 @@ Reclutando personas con experiencia en ingeniería civil, industrias militares y
     </Record>
     <Record>
       <Key>FixedWeatherEventMissing</Key>
-      <Value>No hay eventos de clima en este mundo. Los eventos por defecto del clima se han aplicado en esta partida.</Value>
+      <Value>No hay eventos de clima en este mundo. Los eventos por defecto del clima se han aplicado en esta partida.Espera algunas turbulencias.</Value>
     </Record>
     <Record>
       <Key>AdvancedTutorialButton</Key>
       <Value>Avanzado</Value>
+    </Record>
+    <Record>
+      <Key>BasicButtonTutorial</Key>
+      <Value>Basico</Value>
+    </Record>
+    <Record>
+      <Key>NextTutoiralButtonFail</Key>
+      <Value>Imposible cargar el porximo tutorial. Porfavor vuelve al menu Primcipal.</Value>
     </Record>
   </Interface>
   <Colors>
