@@ -4,15 +4,61 @@
   <Interface>
     <Record>
       <Key>TutoiralAirlocks</Key>
-      <Value>Esclusas de aire básicas</Value>
+      <Value>Esclusa de aire</Value>
+    </Record>
+    <Record>
+      <Key>TutoiralAirlocksDescription</Key>
+      <!--This is the description that appears in the menu-->
+      <Value>Actualice sus conocimientos sobre la construcción de esclusas de aire.</Value>
     </Record>
     <Record>
       <Key>TutoiralAtmosphericsSubTitle</Key>
       <Value>Entrenamiento Táctico: Fase 1</Value>
     </Record>
     <Record>
+      <Key>IntoTutoiralAirlocksDescription</Key>
+      <!--This is the intro panel at the start of the tutorial-->
+      <Value>Bienvenido Cadete. Para completar esta fase de prueba y presurizar su base, lo guiaremos a través de la construcción básica de la esclusa de aire.</Value>
+    </Record>
+    <Record>
       <Key>4Narration1T</Key>
       <Value>Entrenamiento Táctico: Fase 1</Value>
+    </Record>
+    <Record>
+      <Key>4Narration1D</Key>
+      <Value>Antes de empezar, parece que tu traje ha sufrido algún daño. Usa cinta adhesiva para arreglarlo.</Value>
+    </Record>
+    <Record>
+      <Key>4GetDucktape</Key>
+      <Value>Equipa la cinta adhesiva de la caja y ponla en la mano activa.</Value>
+    </Record>
+    <Record>
+      <Key>4UseDuctTape</Key>
+      <Value>Repara el traje.</Value>
+    </Record>
+    <Record>
+      <Key>4Narration2D</Key>
+      <Value>Empecemos. Para construir una esclusa de aire, comience imprimiendo dos kits de puertas. Deberá agregar lingotes de la caja al torno automático.</Value>
+    </Record>
+    <Record>
+      <Key>4PutCopperIngotInAutoLathe</Key>
+      <Value>Añade el lingote de cobre a el torno automatico</Value>
+    </Record>
+    <Record>
+      <Key>4PutGoldIngotInAutoLathe</Key>
+      <Value>Añade el lingote de oro a el torno automatico </Value>
+    </Record>
+    <Record>
+      <Key>4Narration3D</Key>
+      <Value>Ahora puede imprimir kits de dos puertas utilizando el sistema de composición molecular multieje, también conocido como torno automatico. Y comienza a aislarte de la soledad y la decepción del espacio.</Value>
+    </Record>
+    <Record>
+      <Key>4FabricateDoor</Key>
+      <Value>Imprime dos kits de puertas</Value>
+    </Record>
+    <Record>
+      <Key>4Narration4D</Key>
+      <Value>Antes de que pueda construir puertas de reemplazo, el protocolo ODA dicta que debe quitar las destruidas.</Value>
     </Record>
     <Record>
       <Key>T4Deconstruct1</Key>
@@ -23,6 +69,11 @@
       <Value>Quitar el marco destruido 2.</Value>
     </Record>
     <Record>
+      <Key>4Narration5D</Key>
+      <Value>Buen trabajo. Ahora construya puertas compuestas en las posiciones resaltadas.
+Deberá recorrer las opciones para obtener la variante de puerta correcta.</Value>
+    </Record>
+    <Record>
       <Key>4BuildPDoor1Tutorial</Key>
       <Value>Construya el marco n. ° 1 en el lugar resaltado arriba.</Value>
     </Record>
@@ -31,12 +82,36 @@
       <Value>Construya el marco n. ° 2 en el lugar resaltado arriba.</Value>
     </Record>
     <Record>
+      <Key>4BuildCornerCable1Tutorial</Key>
+      <Value>Conecta la puerta 1 la logica y la energia a la red</Value>
+    </Record>
+    <Record>
+      <Key>4BuildCornerCable2Tutorial</Key>
+      <Value>Conecta la puerta 2 la logica y la energia a la red</Value>
+    </Record>
+    <Record>
+      <Key>4Narration6D</Key>
+      <Value>Construya un sensor de gas para controlar la presión en la esclusa de aire. Deberá consultar la Stationpedia para saber qué dispositivo lo fabrica.</Value>
+    </Record>
+    <Record>
       <Key>OnStationpediaOpen</Key>
       <Value>Abrir la Stationpedia</Value>
     </Record>
     <Record>
+      <Key>4PediaNavigation</Key>
+      <Value>vete a la pagina de &quot;kit&quot; de sensores para encontrar la impresora electronica </Value>
+    </Record>
+    <Record>
+      <Key>4FabricateSensorKit</Key>
+      <Value>Fabrica el kit de sensores</Value>
+    </Record>
+    <Record>
       <Key>4BuildGasSensorTutorial</Key>
       <Value>Construye el marco en un lugar destacado.</Value>
+    </Record>
+    <Record>
+      <Key>4Narration7D</Key>
+      <Value>Para presurizar una esclusa de aire, necesita una ventilacion activa para ciclar el aire y un respiradero pasivo para permitir que la atmósfera pase a la red de tuberías.</Value>
     </Record>
     <Record>
       <Key>4FabricateItemPassiveVent</Key>
@@ -55,8 +130,36 @@
       <Value>Construye el marco en un lugar destacado.</Value>
     </Record>
     <Record>
+      <Key>4Narration8D</Key>
+      <Value>Conecte las rejillas de ventilación con una red de tuberías para bombear aire de la habitación a la esclusa de aire.</Value>
+    </Record>
+    <Record>
+      <Key>4BuildPipeCorner1Tutorial</Key>
+      <Value>Añade la tuberia 1 a la red de tuberias</Value>
+    </Record>
+    <Record>
+      <Key>4BuildPipeCorner2Tutorial</Key>
+      <Value>Añade la tuberia 2 a la red de tuberias</Value>
+    </Record>
+    <Record>
+      <Key>4Narration9D</Key>
+      <Value>Las consolas Norsec le permiten controlar y monitorear varios sistemas, dependiendo de su configuración. Piense en ellos como un cerebro pequeño y simple.</Value>
+    </Record>
+    <Record>
       <Key>4BuildConsoleTutorial</Key>
       <Value>Construye el marco en un lugar destacado.</Value>
+    </Record>
+    <Record>
+      <Key>4Narration10D</Key>
+      <Value>Las placas de circuito proporcionan a las consolas una variedad de funciones diferentes. Aquí necesita una placa de circuito de esclusa de aire y un disco de datos para programarlo.</Value>
+    </Record>
+    <Record>
+      <Key>4FabricateAirlcokCircuit</Key>
+      <Value>Fabrica una placa de circuito de la esclusa</Value>
+    </Record>
+    <Record>
+      <Key>4FabricateDataDisk</Key>
+      <Value>Fabrica el disco de datos</Value>
     </Record>
     <Record>
       <Key>4FinsihConsole</Key>
@@ -67,8 +170,17 @@
       <Value>Enciende la tablet.</Value>
     </Record>
     <Record>
+      <Key>4Narration11D</Key>
+      <Value>Para programar la esclusa de aire, necesitará un disco de datos. Luego seleccione los elementos que le gustaría que operara la consola.
+Los dispositivos resaltan en VERDE con TEXTO ROJO cuando se seleccionan.</Value>
+    </Record>
+    <Record>
       <Key>4PediaOpen</Key>
       <Value>Abrir la Stationpedia</Value>
+    </Record>
+    <Record>
+      <Key>4Narration12D</Key>
+      <Value>Ahora seleccione las puertas de la esclusa de aire: seleccionar la puerta externa como &apos;Exterior&apos; hará que la otra se establezca por defecto en &apos;Interna&apos;.</Value>
     </Record>
     <Record>
       <Key>4GetpipeKit</Key>
@@ -79,8 +191,28 @@
       <Value>Obtener carbón de la caja</Value>
     </Record>
     <Record>
+      <Key>4Narration13D</Key>
+      <Value>Cuando haya completado con éxito la configuración de la esclusa de aire, el interruptor en el costado de la consola se iluminará en verde. Retire el disco de datos de la consola para bloquearlo.</Value>
+    </Record>
+    <Record>
+      <Key>4PutCircuitInConsole</Key>
+      <Value>Añade la placa de circuito a la consola de la esclusa.</Value>
+    </Record>
+    <Record>
+      <Key>4Narration14D</Key>
+      <Value>La esclusa de aire está lista, ¡así que ahora puedes presurizar la base! Encienda el APC para llenar la habitación de atmósfera. El sistema mantendrá una presión de 100 kPa.</Value>
+    </Record>
+    <Record>
+      <Key>4Narration15D</Key>
+      <Value>A medida que la habitación se llena de atmósfera, su traje registrará la presión externa y el cambio de temperatura.</Value>
+    </Record>
+    <Record>
       <Key>4TurningOnTheOXygen</Key>
       <Value>Espere a que la presión externa alcance los 60 kPa.</Value>
+    </Record>
+    <Record>
+      <Key>4Narration16D</Key>
+      <Value>Ahora que la base está presurizada, puede probar la esclusa de aire presionando &quot;Ciclo al exterior&quot; en la consola.</Value>
     </Record>
     <Record>
       <Key>4OpenAirlock</Key>
@@ -92,6 +224,30 @@
 Ese es el último paso de las pruebas prácticas, Fase III. Presione el botón &quot;Completo&quot; para transmitir sus resultados al Comando de la Estación.</Value>
     </Record>
     <Record>
+      <Key>4AirlockProggramGasSensor</Key>
+      <Value>Selecciona el sensor de gas</Value>
+    </Record>
+    <Record>
+      <Key>4AirlockProggramActiveVent</Key>
+      <Value>Selecciona la ventilacion activa</Value>
+    </Record>
+    <Record>
+      <Key>4AirlockExternalDoor</Key>
+      <Value>Selecciona la puerta exterior como &quot;exterior&quot;</Value>
+    </Record>
+    <Record>
+      <Key>4AirlockInternalDoor</Key>
+      <Value>Selecciona la puerta interior como &quot;interior&quot;</Value>
+    </Record>
+    <Record>
+      <Key>4GetDataDisk2</Key>
+      <Value>Quita el disco de datos</Value>
+    </Record>
+    <Record>
+      <Key>4FlipSwitch</Key>
+      <Value>Enciende el APC para empezar con la presurizacion.</Value>
+    </Record>
+    <Record>
       <Key>4FinishDoor1</Key>
       <Value>Finalizar el marco de soldadura 1.</Value>
     </Record>
@@ -100,12 +256,32 @@ Ese es el último paso de las pruebas prácticas, Fase III. Presione el botón &
       <Value>Finalizar el marco de soldadura 2.</Value>
     </Record>
     <Record>
+      <Key>4Narration55D</Key>
+      <Value>Como Stationeer, debes terminar las cosas: completar la construcción de las puertas usando los recursos de la caja y tu ayudante de HUD de &apos;información sobre herramientas&apos; de inteligencia artificial subconsciente incorporada.</Value>
+    </Record>
+    <Record>
+      <Key>4Narration56D</Key>
+      <Value>Nombrar elementos en las redes reduce la confusión: use la etiquetadora para nombrar la puerta interior y exterior en la red de datos.</Value>
+    </Record>
+    <Record>
       <Key>4GetLabeler</Key>
       <Value>Recoge la {THING:ItemLabeller} de la caja.</Value>
     </Record>
     <Record>
       <Key>4LabelerOn</Key>
       <Value>Enciende la tablet.</Value>
+    </Record>
+    <Record>
+      <Key>4CustomName</Key>
+      <Value>Renombra la puerta interior a: &quot;puerta interior&quot;</Value>
+    </Record>
+    <Record>
+      <Key>4CustomName2</Key>
+      <Value>Renombra la puerta exterior a: &quot;puerta exterior&quot;</Value>
+    </Record>
+    <Record>
+      <Key>4PutDataDiskInConsole</Key>
+      <Value>Inserta el disco de datos en la consola</Value>
     </Record>
   </Interface>
 </Language>

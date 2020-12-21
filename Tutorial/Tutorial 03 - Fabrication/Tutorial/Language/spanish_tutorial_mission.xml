@@ -7,12 +7,27 @@
       <Value>Minería + Fabricación</Value>
     </Record>
     <Record>
+      <Key>TutoiralFabricationDescription</Key>
+      <Value>Explore los fundamentos de la minería y la fabricación.</Value>
+    </Record>
+    <Record>
       <Key>TutoiralFabricationSubTitle</Key>
       <Value>Entrenamiento práctico: Fase III</Value>
     </Record>
     <Record>
+      <Key>IntoTutoiralFabricationDescription</Key>
+      <Value>Bienvenido, cadete.
+Como Stationeer desplegado lejos de la Tierra, tienes una opción: forjar tus propios recursos a partir de materiales locales o morir.
+Los conocimientos básicos de minería y fabricación son esenciales. Repara la base de pruebas lunar para demostrar tus habilidades.</Value>
+    </Record>
+    <Record>
       <Key>3Narration1T</Key>
       <Value>Entrenamiento práctico: Fase III</Value>
+    </Record>
+    <Record>
+      <Key>3Narration1D</Key>
+      <Value>El diseño a menudo funciona al revés: para reparar la base de prueba necesita componentes, para lo cual necesita un doblador de tuberías hidráulico ... que necesita recursos para fabricar.
+Así que busquemos algo de mineral usando su tablet.</Value>
     </Record>
     <Record>
       <Key>3GetTablet</Key>
@@ -23,12 +38,55 @@
       <Value>Entrenamiento práctico: Fase III</Value>
     </Record>
     <Record>
+      <Key>3Narration2D</Key>
+      <Value>La tableta Xigo &apos;Padi&apos; realiza una variedad de funciones diferentes. Con el cartucho de rastreo insertado, le ayuda a viajar hasta las balizas locales.</Value>
+    </Record>
+    <Record>
+      <Key>2PutCartInTablet</Key>
+      <Value>Añade el cartucho de rastreo de la caja a la tablet.</Value>
+    </Record>
+    <Record>
       <Key>3TabletOn</Key>
       <Value>Enciende la tablet.</Value>
     </Record>
     <Record>
+      <Key>3Narration3D</Key>
+      <Value>Encontrar mineral para construir tu base lleva tiempo. Para ayudar, hemos colocado una baliza en un depósito de hierro cercano. Use la tablet para navegar hasta la baliza, luego comience a minar.</Value>
+    </Record>
+    <Record>
+      <Key>3EnterAreaT1</Key>
+      <Value>Viaja a la baliza</Value>
+    </Record>
+    <Record>
+      <Key>3Narration4D</Key>
+      <Value>El taladro minero rotativo de tres conos &apos;Topo&apos; vive en su cinturón minero. Al funcionar igualmente bien en vacío y en atmósfera, sus brocas de carburo cementado aumentan la resiliencia, la vida útil del rodamiento y reducen el desconchado.
+Trátelo bien.</Value>
+    </Record>
+    <Record>
+      <Key>3GetMDrill</Key>
+      <Value>Equipa el taladro de mineria del cinturon de mineria de la mochila.</Value>
+    </Record>
+    <Record>
+      <Key>3MDrillOn</Key>
+      <Value>Enciende el taladro</Value>
+    </Record>
+    <Record>
+      <Key>3GetIronOre</Key>
+      <Value>Mina 30 unidades de hierro.</Value>
+    </Record>
+    <Record>
+      <Key>3Narration5D</Key>
+      <Value>Su cinturón minero ahora debería tener mucho mineral de hierro.
+¡Llévatelo de vuelta a la base y vamos a fundirlo!</Value>
+    </Record>
+    <Record>
       <Key>3EnterAreaT2</Key>
       <Value>Regresa a la base</Value>
+    </Record>
+    <Record>
+      <Key>3Narration6D</Key>
+      <Value>Antes de que pueda usarse para la construcción, el mineral en bruto debe convertirse en lingotes puros. Para eso, la solución más simple es un horno de arco.
+Coge un kit de la caja y colócalo en el área resaltada.</Value>
     </Record>
     <Record>
       <Key>3GetArcFurnaceKit</Key>
@@ -39,24 +97,75 @@
       <Value>Coloca el horno de arco en el área resaltada.</Value>
     </Record>
     <Record>
+      <Key>3BuildHeavyCableTutorial</Key>
+      <Value>Conecta el horno de arco usando cables de el cinturon de herramientas.</Value>
+    </Record>
+    <Record>
+      <Key>3Narration7D</Key>
+      <Value>El horno de arco no funcionará a temperaturas lo suficientemente altas como para crear aleaciones complejas, pero funde bien el hierro.
+Agregue su mineral de hierro al horno de arco.</Value>
+    </Record>
+    <Record>
+      <Key>3ArcFurnaceOn</Key>
+      <Value>Enciende el horno de arco</Value>
+    </Record>
+    <Record>
+      <Key>3PutOreInFurnace</Key>
+      <Value>Añade el mineral de hierro al horno de arco</Value>
+    </Record>
+    <Record>
       <Key>3ArcFurnaceActive</Key>
       <Value>Activar el horno de arco</Value>
+    </Record>
+    <Record>
+      <Key>3Narration8D</Key>
+      <Value>Simple, rápido y bastante eficiente, un horno de arco también crea subproductos de gas que se pueden filtrar y utilizar para otros fines.
+En este momento, sin embargo, solo necesita los lingotes que produce; está casi terminado.</Value>
     </Record>
     <Record>
       <Key>2GetIronIngot</Key>
       <Value>Recoger el lingote detrás del horno de arco</Value>
     </Record>
     <Record>
+      <Key>3PutIronIngotInAutoLathe</Key>
+      <Value>Añade el lingote al torno automatico</Value>
+    </Record>
+    <Record>
+      <Key>3Narration9D</Key>
+      <Value>El doblador de tuberías hidráulico fabrica tuberías, así como dispositivos atmosféricos y algunas estructuras portátiles. Para construir uno con el torno automatico se necesita hierro, cobre y oro.
+Los otros lingotes que necesita están en la caja.</Value>
+    </Record>
+    <Record>
       <Key>3GetCopperIngot</Key>
       <Value>Recoge el lingote de cobre de la caja.</Value>
+    </Record>
+    <Record>
+      <Key>3PutCopperIngotInAutoLathe</Key>
+      <Value>Añade el lingote de cobre a el torno automatico.</Value>
     </Record>
     <Record>
       <Key>3GetGoldIngot</Key>
       <Value>Recoge el lingote de oro de la caja.</Value>
     </Record>
     <Record>
+      <Key>3PutGoldIngotInAutoLathe</Key>
+      <Value>Añade el lingote de oro a el torno automatico</Value>
+    </Record>
+    <Record>
+      <Key>3Narration10D</Key>
+      <Value>El torno automatico es una herramienta de composición molecular de múltiples ejes. Fabrica una gama de kits estructurales y de dispositivos variados, incluido el humilde doblador de tuberías hidráulico. Haga clic en el botón de búsqueda en el frente para buscar y seleccionar recetas.</Value>
+    </Record>
+    <Record>
       <Key>3AutoLatheOn</Key>
       <Value>Enciende el Torno Automático.</Value>
+    </Record>
+    <Record>
+      <Key>3PipebenderHash</Key>
+      <Value>Selecciona la receta de la dobladora de tubos hidraulica usando la funcion busqueda.</Value>
+    </Record>
+    <Record>
+      <Key>3FabricatePipeBender</Key>
+      <Value>Imprime el kit de dobladora de tubos hidraulica.</Value>
     </Record>
     <Record>
       <Key>3GetPipeBender</Key>
@@ -67,8 +176,58 @@
       <Value>Ponga al maestro de tuberías hidráulicas en posición destacada.</Value>
     </Record>
     <Record>
+      <Key>3Narration11D</Key>
+      <Value>Las cosas toman tiempo: como el torno automatico, el doblador de tuberías hidráulico tiene varias etapas de construcción.
+Siga la información sobre herramientas para terminar de construirlo.</Value>
+    </Record>
+    <Record>
+      <Key>3FinishPipeBender</Key>
+      <Value>Completa el doblador de tuberias con los recursos de la caja.</Value>
+    </Record>
+    <Record>
       <Key>3PipeBenderOn</Key>
       <Value>Enciende el doblador de tuberías.</Value>
+    </Record>
+    <Record>
+      <Key>3Narration12D</Key>
+      <Value>La versatilidad es una virtud. ¿Necesitas lingotes con prisa? Los dispositivos de fabricación también proporcionan almacenamiento de recursos.
+Expulsalos del torno automático tirando de la palanca, luego agregarlos a otra máquina.</Value>
+    </Record>
+    <Record>
+      <Key>3OpenAutoLathe</Key>
+      <Value>Tira de la palanca de el torno automatico para expulsar los lingotes</Value>
+    </Record>
+    <Record>
+      <Key>3PutIronIngotInPipeBender</Key>
+      <Value>Pon el lingote de hierro en la dobladora de tubos</Value>
+    </Record>
+    <Record>
+      <Key>3PutCopperIngotInPipeBender</Key>
+      <Value>Pon el lingote de cobre en la dobladora de tubos</Value>
+    </Record>
+    <Record>
+      <Key>3PutGoldIngotInPipeBender</Key>
+      <Value>pon el lingote de oro en la dobladora de tubos</Value>
+    </Record>
+    <Record>
+      <Key>3Narration13D</Key>
+      <Value>Las ventilaciones activas son componentes críticos de la esclusa de aire: ¡ahora puede fabricar uno con el doblador de tuberías hidráulico!</Value>
+    </Record>
+    <Record>
+      <Key>3ActiveVentHash</Key>
+      <Value>Selecciona la receta de la ventilacion activa en la dobladora de tubos</Value>
+    </Record>
+    <Record>
+      <Key>3FabricateActiveVent</Key>
+      <Value>Fabrica la ventilacion activa con la dobladora de tubos.</Value>
+    </Record>
+    <Record>
+      <Key>3PipeBenderOff</Key>
+      <Value>Apaga la dobladora de tubos cuando la fabricacion este finalizada.</Value>
+    </Record>
+    <Record>
+      <Key>3GetItemActiveVent</Key>
+      <Value>Coge la ventilacion activa.</Value>
     </Record>
     <Record>
       <Key>3Narration14D</Key>
@@ -80,8 +239,23 @@ Ese es el último paso de las pruebas prácticas, Fase III. Presione el botón &
       <Value>Presione el botón de transmisión para completar la prueba.</Value>
     </Record>
     <Record>
+      <!--Equip Mining belt-->
+      <Key>3Narration15D</Key>
+      <Value>Su cinturón de minería hace dos cosas: sostiene sus herramientas de minería y almacena el mineral que extrae.
+Cuando está equipado en la ranura de su &apos;cinturón&apos;, los minerales extraídos se almacenan allí automáticamente.</Value>
+    </Record>
+    <Record>
       <Key>2EquiptMiningbelt</Key>
       <Value>Equipar cinturón de minería.</Value>
+    </Record>
+    <Record>
+      <!--Equip Tool belt-->
+      <Key>3Narration16D</Key>
+      <Value>Eso es todo, ha terminado de minar por ahora, así que vuelva a por el cinturón de herramientas, lo necesitará en breve.</Value>
+    </Record>
+    <Record>
+      <Key>2EquiptToolbelt</Key>
+      <Value>Equipa el cinturon de herramientas.</Value>
     </Record>
   </Interface>
 </Language>
