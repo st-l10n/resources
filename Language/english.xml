@@ -1703,14 +1703,13 @@ Note that some &lt;color=#0080FFFF&gt;{LINK:GasPage;gases}&lt;/color&gt; are bet
       <Key>StructureAreaPowerControl</Key>
       <Value>Area Power Control</Value>
       <Description>An Area Power Control (APC) has three main functions. 
-An APC's primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage.</Description>
+it's primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage. Note that an APC requires a battery to stabilize power draw. It also has two variants, each allowing power to flow in one direction only.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAreaPowerControlReversed</Key>
       <Value>Area Power Control</Value>
       <Description>An Area Power Control (APC) has three main functions. 
-Its primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage.
-Note that the APC has two variants, each allowing power to flow.</Description>
+Its primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage. Note that an APC requires a battery to stabilize power draw. It also has two variants, each allowing power to flow in one direction only.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBackPressureRegulator</Key>
