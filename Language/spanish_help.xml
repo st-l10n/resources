@@ -133,15 +133,27 @@ Hay algunos minerales que se funden cuando se exponen a la luz solar o al calor 
     <StationpediaPage>
       <Key>TravelPage</Key>
       <Title>Destino</Title>
-      <Text>¡Espera! ¡No me cierres todavía! Estas son las identificaciones de WORLD TRAVEL IDs. Puedes usarlas para viajar a planetas específicos, cuando se combinan con un completo {LINK:RocketShuttlePage;Rocket Shuttle} y {LINK:LogicUnitPage;Logic Units}.
+      <Text>¡Espera! ¡No me cierres todavía! Las siguientes condiciones son necesarias para poder despegar:
 
-Simplemente escribe el hash a la variable de ajuste en el {THING:StructureLaunchPad} con un {THING:ItemLabeller}. Nota: Puedes hacer clic en un hash para copiarlo al portapapeles.
+- Cohete completamente construido: al menos 3 módulos centrales
+- Completamente cargado {THING:StructureModularRocketFueltank01}
+- Relación de mezcla de combustible correcta: una mezcla 2: 1 de {GAS:Volatiles} y {GAS:Oxygen}.
+- Energía suministrada a {THING:StructureLaunchPad}
+- Todos los jugadores sentados en {THING:StructureModularRocketCommand01}
 
-Necesitas al menos 3 módulos centrales y todos los jugadores sentados en un cohete funcional para el lanzamiento.
+A continuación se muestran los ID de VIAJES MUNDIALES. Puede usarlos para viajar a planetas específicos, cuando se combinan con un {LINK:RocketShuttlePage;Rocket Shuttle} y {LINK:LogicUnitPage;Logic Units} completados.
+       
+Simplemente escriba el hash en la variable de configuración en {THING:StructureLaunchPad} con una {THING:ItemLabeller}. Nota: puede hacer clic en un hash para copiarlo en el portapapeles.
+
+      
+
 
       {LIST}
+
         {WORLD_HASHES}
+
       {/LIST}
+
       </Text>
     </StationpediaPage>
     <!-- <StationpediaPage>
@@ -183,6 +195,14 @@ The {THING:StructureModularRocketFueltank01} requires a 2:1 mixture of {GAS:Vola
 {HEADER:List of Rocket Shuttle Modules}
 {LIST_OF_ROCKET_SHUTTLE}
       </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>WeatherPage</Key>
+      <Title>Clima</Title>
+      <Text>Los planetas del Sistema Solar no están tan tranquilos como parecen. Después de siete días en cualquier mundo con atmósfera, las fuerzas inescrutables de la naturaleza entran en acción y golpean a los incautos Stationeers con ventiscas, tormentas de polvo y eventos volcánicos.
+Como tal, la ODA recomienda que los Stationeers recién desplegados creen una base hermética dentro de los 7 días posteriores al aterrizaje.
+Cualquier objeto dinámico que quede afuera en una tormenta (en Marte, Loulan, Vulcan o Europa) corre el riesgo de ser arrastrado muy, muy lejos, incluido su módulo de aterrizaje.
+Del mismo modo, tenga en cuenta que los paneles solares son frágiles y su vidrio puede romperse, o incluso ser destruido ocasionalmente por una tormenta lo suficientemente feroz. Durante las tormentas, su producción de energia también se reduce drásticamente.</Text>
     </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
