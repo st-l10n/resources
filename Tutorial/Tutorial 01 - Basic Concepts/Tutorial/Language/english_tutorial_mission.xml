@@ -128,7 +128,7 @@ Press 'Cycle to interior' to enter the base.</Value>
     	</Record>
 		<Record>
       		<Key>Narration4D</Key>
-      		<Value>You could have been a juggler. But you signed up as a Stationeer, so you're going to juggle tools instead. Lots of them. Some must be activated first, with 'Right Click'.</Value>
+      		<Value>You could have been a juggler. But you signed up as a Stationeer, so you're going to juggle tools instead. Lots of them. Some must be activated first, with {KEY:SecondaryAction}.</Value>
     	</Record>
 		<Record>
 			<Key>ActiveWilderDisc</Key>
@@ -158,7 +158,7 @@ Press 'Cycle to interior' to enter the base.</Value>
 		<Record>
       		<Key>Narration5D</Key>
       		<Value>So far, your hands are working fine. That's good, you'll need them. So let's try dropping and throwing.
-Press Q to drop items, or hold Q to throw them.</Value>
+Press {KEY:Drop} to drop items, or hold {KEY:Drop} to throw them.</Value>
     	</Record>
 		<Record>
 			<Key>DropItemT1 1</Key>
@@ -186,7 +186,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
 			<Key>PrecisionPLaceT1 1</Key>
-			<Value>Precision place tool on table using 'T'</Value>
+			<Value>Precision place tool on table using {KEY:PrecisionPlace}</Value>
 		</Record>
 		<Record>
       		<Key>Narration6T</Key>
@@ -194,7 +194,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
     	</Record>
 		<Record>
       		<Key>Narration6D</Key>
-      		<Value>Sometimes, you'll need to put items down more carefully. They're ODA property. Try it using 'T', and check your suit joints are working smoothly.</Value>
+      		<Value>Sometimes, you'll need to put items down more carefully. They're ODA property. Try it using {KEY:PrecisionPlace}, and check your suit joints are working smoothly.</Value>
     	</Record>
 		<Record>
       		<Key>PrecisionPlaceControls</Key>
@@ -223,7 +223,7 @@ Press Q to drop items, or hold Q to throw them.</Value>
 		<Record>
       		<Key>Narration7D</Key>
       		<Value>We can't teach you everything, but we can ensure you've got the basics down: surviving in the Solar System is up to you.
-Hold LEFT ALT to access your inventory, then click on a panel to open it.</Value>
+Hold {KEY:MouseControl} to access your inventory, then click on a panel to open it.</Value>
     	</Record>
 		<Record>
 			<Key>OpenToolControls</Key>
@@ -717,6 +717,10 @@ Press the blue 'Complete' button to transmit your results to Stationeer Command.
 		<Record>
 			<Key>Dropflare</Key>
 			<Value>Drop the flare in your right hand</Value>
+		</Record>
+		<Record>
+		<Key>NarrationClose</Key>
+		<Value>Close Narration Panel</Value>
 		</Record>
 	</Interface>
 </Language>
