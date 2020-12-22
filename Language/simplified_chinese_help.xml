@@ -224,24 +224,16 @@ Paintable {POS:300}{2}{3}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ThingSlotItemTemplate</Key>
-      <Text>{0}. {POS:100}{1} {POS:300}类型 {2}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ThingStackTemplate</Key>
-      <Text>堆叠数 {POS:300}{0}</Text>
+      <Text>{0}. {1} 类型 {2}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ThingTransmissibleTemplate</Key>
       <Text>连接到 {POS:300}{THING:StructureLogicTransmitter}</Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>ThingNutritionTemplate</Key>
-      <Text>最大营养 {POS:300}{0}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>IceMeltingTemplate</Key>
-      <Text>熔体温度 {POS:300}{1}
-熔体压力 {POS:300}{0}</Text>
+      <Text>熔体温度 {1}
+熔体压力 {0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>CreatorsHeaderTemplate</Key>
@@ -276,10 +268,6 @@ Paintable {POS:300}{2}{3}{/LIST}</Text>
       </Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>CreatorTemplate</Key>
-      <Text>{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>LogicTypeHeaderTemplate</Key>
       <Text>{HEADER:逻辑}{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
@@ -298,15 +286,11 @@ Paintable {POS:300}{2}{3}{/LIST}</Text>
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>ModeStringItemTemplate</Key>
-      <Text>{0}.{POS:100}{1}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>ReagentPageTemplate</Key>
       <Text>一种 {LINK:ReagentPage;化学原料}, 通常在其变为 {LINK:IngotPage;锭块} 的形式时使用.
 
 {HEADER:常规}
-{LIST}单位 {POS:300}{1}{/LIST}
+{LIST}单位 {1}{/LIST}
 
 {HEADER:产地}
 {LIST}{2}{/LIST}</Text>
@@ -316,14 +300,14 @@ Paintable {POS:300}{2}{3}{/LIST}</Text>
       <Text>一种{LINK:GasPage;气体}, 通常在进行{LINK:SmeltingPage;熔炼}操作时产出.
 
 {HEADER:常规}
-{LIST}比热容 {POS:300}{1}{2}{/LIST}
+{LIST}比热容 {1}{2}{/LIST}
 
 {HEADER:产地}
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageFlamableTemplate</Key>
-      <Text>可燃极限 {POS:300}{0} 到 {1}</Text>
+      <Text>可燃极限 {0} 到 {1}</Text>
     </StationpediaPage>
   </HelpPage>
 </Language>
