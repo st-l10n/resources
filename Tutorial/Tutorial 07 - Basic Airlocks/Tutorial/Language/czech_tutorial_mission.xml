@@ -81,11 +81,11 @@ Začněte se základní přechodovou komorou. Nejprve postavte vnější {THING:
     </Record>
     <Record>
       <Key>CloseTheDoorTask3</Key>
-      <Value>Přejmenujte vnější {THING:StructureCompositeDoor} na &apos;Vnější dveře&apos;.</Value>
+      <Value>Přejmenujte vnější {THING:StructureCompositeDoor} na &apos;Externí dveře&apos;.</Value>
     </Record>
     <Record>
       <Key>CloseTheDoorTask4</Key>
-      <Value>Přejmenujte vnitřní {THING:StructureCompositeDoor} na &apos;Vnitřní dveře&apos;.</Value>
+      <Value>#NA-Přejmenujte vnitřní {THING:StructureCompositeDoor} na &apos;Vnitřní dveře&apos;.</Value>
     </Record>
     <Record>
       <Key>CreatingASeal</Key>
@@ -181,7 +181,7 @@ Poznámka: Při stavbě přechodové komory můžete skladovat plyny v samotném
     </Record>
     <Record>
       <Key>AirLockProgrammingDescription</Key>
-      <Value> Chcete-li naprogramovat přechodovou komoru, zapněte {THING:StructureConsole}. Vyberte {THING:StructureActiveVent} a {THING:StructureGasSensor}. Zařízení se zvýrazní zeleně s červeným textem, když je vybraná volba.
+      <Value>#NA-Chcete-li naprogramovat přechodovou komoru, zapněte {THING:StructureConsole}. Vyberte {THING:StructureActiveVent} a {THING:StructureGasSensor}. Zařízení se zvýrazní zeleně s červeným textem, když je vybraná volba.
 
 Vyberte dvě dveře přechodové komory. Pokud vyberete jedny dveře jako &apos;Exteriér&apos;, budou ostatní automaticky nastaveny na &apos;Interní&apos;. Ujistěte se, že jsou dveře správně přiřazeny.
 
@@ -199,7 +199,7 @@ Po úspěšném dokončení nastavení přechodové komory se přepínač na str
     </Record>
     <Record>
       <Key>ASimpleAirLockDescription</Key>
-      <Value>Nyní k testování nově vybudované přechodové komory. Stisknutím tlačítka „Synchronizovat do interiéru“ zahájíte natlakování. Aby se synchronizace dokončila, musí tlak vzduchu dosáhnout nejméně 101 kPa. Pokud základna není pod tlakem, vzduchová komora nemůže dokončit svojí synchronizaci. Pokud k tomu dojde, stiskněte tlačítko „Zrušit natlakování“.</Value>
+      <Value>#NA-Nyní k testování nově vybudované přechodové komory. Stisknutím tlačítka „Synchronizovat do interiéru“ zahájíte natlakování. Aby se synchronizace dokončila, musí tlak vzduchu dosáhnout nejméně 101 kPa. Pokud základna není pod tlakem, vzduchová komora nemůže dokončit svojí synchronizaci. Pokud k tomu dojde, stiskněte tlačítko „Zrušit natlakování“.</Value>
     </Record>
     <Record>
       <Key>ASimpleAirLockTask1</Key>
@@ -235,7 +235,7 @@ K vytvoření pokročilé přechodové komory musíte uvnitř postavit další {
     </Record>
     <Record>
       <Key>AdvancedPressureDescription</Key>
-      <Value>Nyní, když jsou struktury na místě, musíme vyměnit {THING:CircuitboardAirlockControl} za {THING:CircuitboardAdvAirlockControl}.</Value>
+      <Value>Nyní, když jsou konstrukce na místě, musíte vyměnit {THING:CircuitboardAirlockControl} za {THING:CircuitboardAdvAirlockControl}.</Value>
     </Record>
     <Record>
       <Key>AdvancedPressureTask1</Key>
@@ -259,7 +259,7 @@ K vytvoření pokročilé přechodové komory musíte uvnitř postavit další {
     </Record>
     <Record>
       <Key>AAdvancedAirLockDescription</Key>
-      <Value>Existuje několik rozdílů při programování {THING:CircuitboardAdvAirlockControl}.
+      <Value>#NA-Existuje několik rozdílů při programování {THING:CircuitboardAdvAirlockControl}.
 			
 Nejprve přejmenujte novou ventilaci &apos;Externí ventilace&apos; a starou ventilaci &apos;Vnitřní ventil&apos;, abyste je identifikovali na konzoli. Vyberte každou {THING:StructureActiveVent} a ujistěte se, že je správně přiřadíte.
 
