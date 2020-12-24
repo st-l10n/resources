@@ -1789,7 +1789,7 @@ Be there, even when you're not.</Description>
     <RecordThing>
       <Key>StructureCentrifuge</Key>
       <Value>Centrifuge</Value>
-      <Description>If a {THING:StructureRecycler} or unbalanced{THING:StructureFurnace} outputs &lt;color=#0080FFFF&gt;{LINK:ReagentPage;reagent}&lt;/color&gt; mixture rather than the desired &lt;color=#0080FFFF&gt;{LINK:IngotPage;ingots}&lt;/color&gt;, a centrifuge allows you to reclaim the raw ores.</Description>
+      <Description>If a {THING:StructureRecycler} or unbalanced {THING:StructureFurnace} outputs &lt;color=#0080FFFF&gt;{LINK:ReagentPage;reagent}&lt;/color&gt; mixture rather than the desired &lt;color=#0080FFFF&gt;{LINK:IngotPage;ingots}&lt;/color&gt;, a centrifuge allows you to reclaim the raw ores or generate {THING:ItemOrganicMaterial}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChair</Key>
@@ -2785,6 +2785,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemTomatoSoup</Key>
       <Value>Tomato Soup</Value>
+	  <Description>Made using {THING:ItemTomato} and an {THING:ItemEmptyCan} in a {THING:ApplianceMicrowave}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSoyOil</Key>
@@ -3597,6 +3598,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemMushroom</Key>
       <Value>Mushroom</Value>
+	  <Description>A tasty food item, able to grow without light. Grows from {THING:ItemOrganicMaterial} planted into a {THING:StructureHydroponicsTray}. Unlike normal plants, it consumes {GAS:Oxygen} and outputs {GAS:CarbonDioxide}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPumpkin</Key>
@@ -5335,22 +5337,27 @@ The {THING:StructureModularRocketCommand01} console displays the current state o
     <RecordThing>
       <Key>ItemEmptyCan</Key>
       <Value>Empty Can</Value>
-      <Description />
+	  <Description>Used for making soups when combined with food in the {THING:ApplianceMicrowave}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPumpkinSoup</Key>
       <Value>Pumpkin Soup</Value>
-      <Description />
+	  <Description>Made using {THING:ItemPumpkin} and an {THING:ItemEmptyCan} in a {THING:ApplianceMicrowave}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCornSoup</Key>
       <Value>Corn Soup</Value>
-      <Description />
+	  <Description>Made using {THING:ItemCorn} and an {THING:ItemEmptyCan} in a {THING:ApplianceMicrowave}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBreadLoaf</Key>
       <Value>Bread Loaf</Value>
       <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemOrganicMaterial</Key>
+      <Value>Organic Material</Value>
+	  <Description>Diced organic material that is returned when food is passed through the {THING:StructureCentrifuge}. When planted in a {THING:StructureHydroponicsTray} it can be used for growing a {THING:ItemMushroom}.</Description>
     </RecordThing>
   </Things>
   <Slots>
