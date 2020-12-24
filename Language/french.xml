@@ -7855,6 +7855,10 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>Renvoie la quantité de minerais que AIMEe a prévu de miner.</Value>
     </Record>
     <Record>
+      <Key>NextWeatherEventTime</Key>
+      <Value>Durée en secondes du prochain événement météorologique.</Value>
+    </Record>
+    <Record>
       <Key>ResearchFilter</Key>
       <Value>Filtres</Value>
     </Record>
@@ -8741,10 +8745,6 @@ Il s’agissait d’une expansion apparemment aveugle, centrée non pas sur une 
 Autant dire, il produit presque tout.</Value>
     </Record>
     <Record>
-      <Key>Stationeers</Key>
-      <Value>Quitter Stationeers</Value>
-    </Record>
-    <Record>
       <Key>StationeersDesc</Key>
       <Value>Au début du 22e siècle, la Terre sortait d’un cataclysme. Ses ressources s’érodaient, notre population diminuait, à l&apos;époque l&apos;esprit était à la reconstruction.
 Initié par l’&lt;color=#0080FFFF&gt;{LINK:ODA;Offworld Development Agency}&lt;/color&gt; (ODA) en 2095CE, le Stationeers Program était dédié à un idéal unique : garder l’humanité la tête vers les étoiles.
@@ -8754,16 +8754,32 @@ Réputé pour n’avoir aucun critère d’entrée, il n’existe pas de Station
 Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité, recrute dans les domaines du génie civil, des industries militaires et aérospatiales, du développement de logiciels, des groupes miniers, ainsi que des domaines scientifiques et même des ordres religieux.</Value>
     </Record>
     <Record>
+      <Key>ControlMouseControlDisc</Key>
+      <Value>Activer le contrôle de la souris</Value>
+    </Record>
+    <Record>
       <Key>ControlMouseDrag</Key>
-      <Value>Tenir {KEY:PrimaryAction}</Value>
+      <Value>Maintenez et faites glisser {KEY:PrimaryAction}</Value>
     </Record>
     <Record>
       <Key>ControlMouseDragDisc</Key>
-      <Value>Réflections</Value>
+      <Value>Déplacer la sélection</Value>
     </Record>
     <Record>
       <Key>ControlSecondaryActionBuildModeDisc</Key>
       <Value>Passer en mode de construction</Value>
+    </Record>
+    <Record>
+      <Key>ControlScrollWheelSelectDisc</Key>
+      <Value>Passer en mode de construction</Value>
+    </Record>
+    <Record>
+      <Key>ControlAutoRotateDisc</Key>
+      <Value>Rotation automatique</Value>
+    </Record>
+    <Record>
+      <Key>ControlMouseScroll</Key>
+      <Value>Défilement de souris</Value>
     </Record>
     <Record>
       <Key>ControlMouseScrollDisc</Key>
