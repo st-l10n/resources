@@ -129,6 +129,11 @@
       <Value>Arroz</Value>
       <Unit>g</Unit>
     </RecordReagent>
+    <RecordReagent>
+      <Key>Corn</Key>
+      <Value>Maíz</Value>
+      <Unit>Unidad de maíz</Unit>
+    </RecordReagent>
   </Reagents>
   <Gases>
     <Record>
@@ -4580,12 +4585,20 @@
       <Value>Kit (Caja Mk II)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemEmptyCan</Key>
+      <Value>Lata vacia</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemPumpkinSoup</Key>
-      <Value>Calabaza</Value>
+      <Value>Sopa de Calabaza</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemCornSoup</Key>
-      <Value>Maiz</Value>
+      <Value>Sopa de Maíz</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBreadLoaf</Key>
+      <Value>Hogaza de pan</Value>
     </RecordThing>
   </Things>
   <Slots>
