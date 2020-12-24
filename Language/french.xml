@@ -134,6 +134,11 @@
       <Value>Riz</Value>
       <Unit>g</Unit>
     </RecordReagent>
+    <RecordReagent>
+      <Key>Corn</Key>
+      <Value>Maïs</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
   </Reagents>
   <Gases>
     <Record>
@@ -8765,20 +8770,44 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
       <Value>{KEY:PrimaryAction}</Value>
     </Record>
     <Record>
-      <Key>ControlAutoRotate</Key>
-      <Value>Maintenir {KEY:QuantityModifier} pour l&apos;objet précédent</Value>
-    </Record>
-    <Record>
       <Key>ControlMouseScrollDisc</Key>
-      <Value>Sélection du scénario</Value>
+      <Value>Sélectionnez l’élément</Value>
     </Record>
     <Record>
       <Key>ControlTurnOn</Key>
       <Value>{KEY:PrimaryAction}</Value>
     </Record>
     <Record>
+      <Key>ControlTurnOnDisc</Key>
+      <Value>Allumez</Value>
+    </Record>
+    <Record>
+      <Key>ControlQuickMove</Key>
+      <Value>Roue de défilement + {KEY:InventorySelect}</Value>
+    </Record>
+    <Record>
+      <Key>ControlQuickMoveDisc</Key>
+      <Value>Article de mouvement rapide</Value>
+    </Record>
+    <Record>
+      <Key>WeatherEventsField</Key>
+      <Value>Evénements météorologiques</Value>
+    </Record>
+    <Record>
+      <Key>ControlUseItemDisc</Key>
+      <Value>Utiliser l’objet</Value>
+    </Record>
+    <Record>
       <Key>ControlMineDisc</Key>
-      <Value>MineRite</Value>
+      <Value>Minerai de mine</Value>
+    </Record>
+    <Record>
+      <Key>ToggleChangeLog</Key>
+      <Value>Permuter le journal de changement</Value>
+    </Record>
+    <Record>
+      <Key>ShowPreviousVideoText</Key>
+      <Value>Afficher la vidéo précédente</Value>
     </Record>
     <Record>
       <Key>HelmetString</Key>
@@ -8786,11 +8815,23 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
     </Record>
     <Record>
       <Key>LightString</Key>
-      <Value>Lumières</Value>
+      <Value>Lumière</Value>
+    </Record>
+    <Record>
+      <Key>FixedWeatherEventMissing</Key>
+      <Value>Aucun système météorologique n’a été trouvé pour ce monde. Le système météorologique par défaut a été appliqué. Attendez-vous à des turbulences.</Value>
     </Record>
     <Record>
       <Key>AdvancedTutorialButton</Key>
       <Value>Avancé</Value>
+    </Record>
+    <Record>
+      <Key>BasicButtonTutorial</Key>
+      <Value>De base</Value>
+    </Record>
+    <Record>
+      <Key>NextTutoiralButtonFail</Key>
+      <Value>Impossible de charger le tutoriel suivant. S’il vous plaît revenir au menu.</Value>
     </Record>
   </Interface>
   <Colors>
