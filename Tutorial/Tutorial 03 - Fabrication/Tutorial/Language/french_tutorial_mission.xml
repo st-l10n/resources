@@ -78,15 +78,23 @@ Les autres lingots dont vous avez besoin sont dans la caisse.</Value>
     </Record>
     <Record>
       <Key>3GetCopperIngot</Key>
-      <Value>Prenez un {THING:ItemCopperIngot} dans la caisse orange.</Value>
+      <Value>Ramasser le lingot de cuivre dans la caisse.</Value>
     </Record>
     <Record>
       <Key>3GetGoldIngot</Key>
-      <Value>Prenez un {THING:ItemGoldIngot} dans la caisse orange.</Value>
+      <Value>Ramasser le lingot d’or dans la caisse.</Value>
+    </Record>
+    <Record>
+      <Key>3Narration10D</Key>
+      <Value>L’e tour automatique est un outil de composition moléculaire à axes multiples. Il fabrique une gamme de kits structurels et d’appareils, y compris l’humble cintreuse hydraulique. Cliquez sur le bouton de recherche à l’avant pour rechercher des recettes sélectionnées.</Value>
     </Record>
     <Record>
       <Key>3AutoLatheOn</Key>
       <Value>Allumez le tour automatique.</Value>
+    </Record>
+    <Record>
+      <Key>3PipebenderHash</Key>
+      <Value>Sélectionnez la recette de cintreuse hydraulique en utilisant la fonction de recherche.</Value>
     </Record>
     <Record>
       <Key>3FabricatePipeBender</Key>
@@ -126,9 +134,29 @@ Suivez les outils pour finir de le construire.</Value>
       <Value>Mettre lingot d’or dans la cintreuse hydraulique</Value>
     </Record>
     <Record>
+      <Key>3Narration13D</Key>
+      <Value>Les ventilations actives sont des composants critiques de sas : vous pouvez maintenant en fabriquer un avec la cintreuse hydraulique !</Value>
+    </Record>
+    <Record>
+      <Key>3ActiveVentHash</Key>
+      <Value>Sélectionnez la ventilation active sur la cintreuse hydraulique.</Value>
+    </Record>
+    <Record>
+      <Key>3FabricateActiveVent</Key>
+      <Value>Fabriquer la ventilation active à l’aide de la cintreuse hydraulique.</Value>
+    </Record>
+    <Record>
+      <Key>3PipeBenderOff</Key>
+      <Value>Éteignez la cintreuse hydraulique lorsque la fabrication est terminée.</Value>
+    </Record>
+    <Record>
+      <Key>3GetItemActiveVent</Key>
+      <Value>Prenez une ventilation active.</Value>
+    </Record>
+    <Record>
       <Key>3Narration14D</Key>
-      <Value>Excellent, cadet ! C’est la dernière étape des tests pratiques, phase I. 
-Appuyez sur le bouton orange &apos;Complete&apos; pour transmettre vos résultats au commandement Stationeer.</Value>
+      <Value>Bon travail, Cadet. Vous avez créé un système de fabrication complet.
+C’est la dernière étape des tests pratiques, la phase III. Appuyez sur le bouton &apos;Terminer&apos; pour transmettre vos résultats à Stationeer Command.</Value>
     </Record>
     <Record>
       <Key>3OnButtonPressTaskT1</Key>
