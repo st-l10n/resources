@@ -1000,8 +1000,8 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>ItemDuctTape</Key>
       <Value>Duct Tape</Value>
-      <Description>In the distant past, one of Earth's great champions taught a generation of 'Fix-It People' that duct tape was the answer to any problem. &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; have demonstrated that this is truth holds strong, so long as the problem is a damaged {THING:ItemEvaSuit}, {THING:ItemJetpackBasic} or {THING:ItemSpaceHelmet}.
-To use: put duct tape in your active hand, hold RIGHT MOUSE BUTTON to automatically repair damage.</Description>
+      <Description>In the distant past, one of Earth's great champions taught a generation of 'Fix-It People' that duct tape was the answer to any problem. &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; have demonstrated that this is truth holds strong, so long as the problem is a damaged {THING:ItemEvaSuit}, {THING:ItemJetpackBasic}, {THING:ItemSpaceHelmet}, or even a {THING:StructureSolarPanel}.
+To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON to automatically repair damage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDynamite</Key>
@@ -2153,6 +2153,7 @@ Pipes spread their contents evenly through the entire network, and can be connec
     <RecordThing>
       <Key>StructureSolarPanel</Key>
       <Value>Solar Panel</Value>
+	  <Description>Used for generating power from sunlight. Efficiency is reduced during storms and when damaged. You can repair it using some trusty {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSorter</Key>
@@ -2370,7 +2371,8 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
     <RecordThing>
       <Key>StructureAutolathe</Key>
       <Value>Autolathe</Value>
-      <Description>The foundation of most &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; fabrication systems, the &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt;autolathe is a multi-axis molecular compositional system. Its complexity demands considerable time to assemble, but it remains an indispensible creation tool.</Description>
+      <Description>The foundation of most &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; fabrication systems, the &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt;autolathe is a multi-axis molecular compositional system. Its complexity demands considerable time to assemble, but it remains an indispensible creation tool. Upgrade the device using a {THING:AutolathePrinterMod} for additional recipes and faster processing speeds.
+	  </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFabrication</Key>
@@ -2479,6 +2481,7 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
     <RecordThing>
       <Key>StructureElectronicsPrinter</Key>
       <Value>Electronics Printer</Value>
+	  <Description>Upgrade the device using a {THING:ElectronicPrinterMod} for additional recipes and faster processing speeds.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemVolatiles</Key>
@@ -2563,6 +2566,7 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
     <RecordThing>
       <Key>StructureHydraulicPipeBender</Key>
       <Value>Hydraulic Pipe Bender</Value>
+	  <Description>Upgrade the device using a {THING:PipeBenderMod} for additional recipes and faster processing speeds.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitHydraulicPipeBender</Key>
@@ -2591,6 +2595,7 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
     <RecordThing>
       <Key>StructureToolManufactory</Key>
       <Value>Tool Manufactory</Value>
+	  <Description>Upgrade the device using a {THING:ElectronicPrinterMod} for additional recipes and faster processing speeds.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitToolManufactory</Key>
@@ -2685,6 +2690,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureSolarPanelDual</Key>
       <Value>Solar Panel</Value>
+	  <Description>Used for generating power from sunlight. Efficiency is reduced during storms and when damaged. You can repair it using some trusty {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicBatchWriter</Key>
@@ -3598,7 +3604,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemMushroom</Key>
       <Value>Mushroom</Value>
-	  <Description>A tasty food item, able to grow without light. Grows from {THING:ItemOrganicMaterial} planted into a {THING:StructureHydroponicsTray}. Unlike normal plants, it consumes {GAS:Oxygen} and outputs {GAS:CarbonDioxide}.</Description>
+	  <Description>A tasty food item, able to grow without light. Grows from {THING:ItemOrganicMaterial} planted into a {THING:StructureHydroponicsTray}. Unlike normal plants, it consumes {GAS:Oxygen} and outputs {GAS:CarbonDioxide}. Place in the {THING:ApplianceReagentProcessor} to split into more {THING:ItemOrganicMaterial} for further planting.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPumpkin</Key>
@@ -3809,7 +3815,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAutoMiner</Key>
-      <Value>Kit Auto Miner</Value>
+      <Value>Kit (Auto Miner)</Value>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterNitrousOxide</Key>
@@ -3834,6 +3840,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>StructureSolarPanelFused</Key>
       <Value>Solar Panel</Value>
+	  <Description>Used for generating power from sunlight. Efficiency is reduced during storms and when damaged. You can repair it using some trusty {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCoffeeMug</Key>
@@ -3927,18 +3934,22 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
     <RecordThing>
       <Key>ElectronicPrinterMod</Key>
       <Value>Electronic Printer Mod</Value>
+	  <Description>Apply to an {THING:StructureElectronicsPrinter} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
     </RecordThing>
     <RecordThing>
       <Key>AutolathePrinterMod</Key>
       <Value>Autolathe Printer Mod</Value>
+	  <Description>Apply to an {THING:StructureAutolathe} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
     </RecordThing>
     <RecordThing>
       <Key>PipeBenderMod</Key>
       <Value>Pipe Bender Mod</Value>
+	  <Description>Apply to an {THING:StructureHydraulicPipeBender} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ToolPrinterMod</Key>
       <Value>Tool Printer Mod</Value>
+	  <Description>Apply to an {THING:StructureToolManufactory} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerMedium</Key>
@@ -4412,15 +4423,18 @@ The {THING:StructureModularRocketCommand01} console displays the current state o
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelFlat</Key>
-      <Value>Solar Panel Flat</Value>
+      <Value>Solar Panel Flat</Value>	  
+	  <Description>Used for generating power from sunlight. Efficiency is reduced during storms and when damaged. You can repair it using some trusty {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanel45</Key>
       <Value>Solar Panel45</Value>
+	  <Description>Used for generating power from sunlight. Efficiency is reduced during storms and when damaged. You can repair it using some trusty {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanelBasic</Key>
-      <Value>Kit (Solar Panel Basic)</Value>
+      <Value>Kit (Solar Panel Basic)</Value>	  
+	  <Description>Used for generating power from sunlight. Efficiency is reduced during storms and when damaged. You can repair it using some trusty {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSDBHopperAdvanced</Key>
@@ -5152,17 +5166,16 @@ The {THING:StructureModularRocketCommand01} console displays the current state o
     <RecordThing>
       <Key>ItemKitHarvie</Key>
       <Value>Kit (Harvie)</Value>
-      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureHarvieReversed</Key>
       <Value>Harvie Reversed</Value>
-      <Description />
+      <Description>Use above a {THING:StructureHydroponicsTray} to automatically plant and harvest your crops.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHarvie</Key>
       <Value>Harvie</Value>
-      <Description />
+      <Description>Use above a {THING:StructureHydroponicsTray} to automatically plant and harvest your crops.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SpecialBlocks</Key>
@@ -5171,7 +5184,7 @@ The {THING:StructureModularRocketCommand01} console displays the current state o
     </RecordThing>
     <RecordThing>
       <Key>StructureBlocker</Key>
-      <Value>Structure Blocker</Value>
+      <Value>Blocker</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5201,7 +5214,7 @@ The {THING:StructureModularRocketCommand01} console displays the current state o
     </RecordThing>
     <RecordThing>
       <Key>StructureSpawnPoint</Key>
-      <Value>Structure Spawn Point</Value>
+      <Value>Spawn Point</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5211,37 +5224,37 @@ The {THING:StructureModularRocketCommand01} console displays the current state o
     </RecordThing>
     <RecordThing>
       <Key>RespawnPointWallMounted</Key>
-      <Value>Respawn Point Wall Mounted</Value>
+      <Value>Respawn Point (Mounted)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRespawnPointWallMounted</Key>
-      <Value>Respawn Structure (Kit)</Value>
+      <Value>Kit (Respawn)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFlagODA</Key>
-      <Value>Kit Flag ODA</Value>
+      <Value>Kit (ODA Flag)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>Flag_ODA_10m</Key>
-      <Value>Flag ODA 10m</Value>
+      <Value>Flag (ODA 10m)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>Flag_ODA_8m</Key>
-      <Value>Flag ODA 8m</Value>
+      <Value>Flag (ODA 8m)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>Flag_ODA_6m</Key>
-      <Value>Flag ODA 6m</Value>
+      <Value>Flag (ODA 6m)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>Flag_ODA_4m</Key>
-      <Value>Flag ODA 4m</Value>
+      <Value>Flag (ODA 4m)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5296,12 +5309,12 @@ The {THING:StructureModularRocketCommand01} console displays the current state o
     </RecordThing>
     <RecordThing>
       <Key>StructureGrowLight</Key>
-      <Value>Structure Grow Light</Value>
+      <Value>Grow Light</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGrowLight</Key>
-      <Value>Item Kit Grow Light</Value>
+      <Value>Kit (Grow Light)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
