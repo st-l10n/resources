@@ -4,6 +4,14 @@
   <Code>TW</Code>
   <Font>font_cjk</Font>
   <Interface>
+    <Record>
+      <Key>EscapeFromMarsTitle</Key>
+      <Value>逃離火星 [Beta]</Value>
+    </Record>
+    <Record>
+      <Key>EscapeFromMarsDescription</Key>
+      <Value>給測試者：你只有少量的物資，必須利用你的智慧和精力尋找在火星上生存的方法。 最終你必須計劃建造一臺能夠飛離火星大氣層的火箭。</Value>
+    </Record>
     <!-- Mission Stage: In Case of Emergency -->
     <Record>
       <Key>MarsTitleInCaseOfEmergency</Key>
@@ -20,6 +28,10 @@
     <Record>
       <Key>MarsTaskGetFood</Key>
       <Value>尋找一個 {THING:ItemCerealBar}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage1</Key>
+      <Value>緊急情況指南</Value>
     </Record>
     <!-- Mission Stage: Aquire Raw Materials -->
     <Record>
