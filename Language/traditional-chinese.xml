@@ -159,6 +159,31 @@
       <Value>稻米</Value>
       <Unit>公克(g)</Unit>
     </RecordReagent>
+    <RecordReagent>
+      <Key>Stellite</Key>
+      <Value>史泰勒合金 (Stellite)</Value>
+      <Unit>公克 (g)</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Inconel</Key>
+      <Value>鎳合金 (Inconel)</Value>
+      <Unit>公克 (g)</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Hastelloy</Key>
+      <Value>哈氏合金 (Hastelloy)</Value>
+      <Unit>公克 (g)</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Astroloy</Key>
+      <Value>鎳基沉澱硬化合金 (Astroloy)</Value>
+      <Unit>公克 (g)</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Corn</Key>
+      <Value>玉米 (Corn)</Value>
+      <Unit>公克 (g)</Unit>
+    </RecordReagent>
   </Reagents>
   <Gases>
     <Record>
@@ -4584,8 +4609,60 @@
       <Value>眼鏡</Value>
     </Record>
     <Record>
+      <Key>PersonalClothing</Key>
+      <Value>衣物</Value>
+    </Record>
+    <Record>
+      <Key>OreHeader</Key>
+      <Value>礦石</Value>
+    </Record>
+    <Record>
+      <Key>ReagentsHeader</Key>
+      <Value>原物料</Value>
+    </Record>
+    <Record>
+      <Key>GasesHeader</Key>
+      <Value>氣體</Value>
+    </Record>
+    <Record>
+      <Key>FrozenOreHeader</Key>
+      <Value>冷凍礦石</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeCategory</Key>
+      <Value>記憶卡</Value>
+    </Record>
+    <Record>
       <Key>PersonalHelmets</Key>
       <Value>頭盔</Value>
+    </Record>
+    <Record>
+      <Key>PersonalToolbelt</Key>
+      <Value>工具腰帶</Value>
+    </Record>
+    <Record>
+      <Key>Other</Key>
+      <Value>其它</Value>
+    </Record>
+    <Record>
+      <Key>PowerTool</Key>
+      <Value>電動工具</Value>
+    </Record>
+    <Record>
+      <Key>SlotsTitle</Key>
+      <Value>全部欄位</Value>
+    </Record>
+    <Record>
+      <Key>LogicReadersCategory</Key>
+      <Value>邏輯讀取器</Value>
+    </Record>
+    <Record>
+      <Key>LogicWriterCategory</Key>
+      <Value>邏輯寫入器</Value>
+    </Record>
+    <Record>
+      <Key>MotherboardCategory</Key>
+      <Value>主機板</Value>
     </Record>
     <Record>
       <Key>ControlSystemAtmos</Key>
@@ -4596,16 +4673,40 @@
       <Value>變更角色外觀</Value>
     </Record>
     <Record>
+      <Key>Fabricators</Key>
+      <Value>大型製造機</Value>
+    </Record>
+    <Record>
+      <Key>Edibles</Key>
+      <Value>食品</Value>
+    </Record>
+    <Record>
       <Key>Plants</Key>
       <Value>推進劑</Value>
     </Record>
     <Record>
       <Key>AirContitioningAtmos</Key>
-      <Value>開局狀態</Value>
+      <Value>空調</Value>
     </Record>
     <Record>
       <Key>AtmosDevices</Key>
-      <Value>大氣層</Value>
+      <Value>大氣設備</Value>
+    </Record>
+    <Record>
+      <Key>FireArm</Key>
+      <Value>武器</Value>
+    </Record>
+    <Record>
+      <Key>ManualTools</Key>
+      <Value>手持工具</Value>
+    </Record>
+    <Record>
+      <Key>PowerTools</Key>
+      <Value>電動工具</Value>
+    </Record>
+    <Record>
+      <Key>Picture</Key>
+      <Value>圖片</Value>
     </Record>
     <Record>
       <Key>MainMenuNewWorld</Key>
@@ -5302,6 +5403,10 @@
       <Value>重置</Value>
     </Record>
     <Record>
+      <Key>SteamErrorTitle</Key>
+      <Value>Steam 發生錯誤</Value>
+    </Record>
+    <Record>
       <Key>SteamErrorButton</Key>
       <Value>離開</Value>
     </Record>
@@ -5320,6 +5425,18 @@
     <Record>
       <Key>PromptQuitConfirm</Key>
       <Value>離開</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeTitle</Key>
+      <Value>取消訂閱</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeBody</Key>
+      <Value>您確定要取消訂閱此Workshop項目嗎？</Value>
+    </Record>
+    <Record>
+      <Key>PromptUnsubscribeConfirm</Key>
+      <Value>取消訂閱</Value>
     </Record>
     <Record>
       <Key>PromptOverwriteTitle</Key>
@@ -5376,6 +5493,18 @@
     <Record>
       <Key>PromptRespawnConfirm</Key>
       <Value>重生</Value>
+    </Record>
+    <Record>
+      <Key>PromptGiveUpTitle</Key>
+      <Value>放棄</Value>
+    </Record>
+    <Record>
+      <Key>PromptGiveUpBody</Key>
+      <Value>你失去意識了。要放棄掙扎並重生嗎？</Value>
+    </Record>
+    <Record>
+      <Key>PromptGiveUpConfirm</Key>
+      <Value>放棄</Value>
     </Record>
     <Record>
       <Key>AlertInvalidIP</Key>
@@ -5864,6 +5993,30 @@
     <Record>
       <Key>ScenarioScoreboardHeading</Key>
       <Value>場景完成</Value>
+    </Record>
+    <Record>
+      <Key>ButtonCopy</Key>
+      <Value>複製</Value>
+    </Record>
+    <Record>
+      <Key>ButtonPaste</Key>
+      <Value>貼上</Value>
+    </Record>
+    <Record>
+      <Key>ButtonHelp</Key>
+      <Value>幫助</Value>
+    </Record>
+    <Record>
+      <Key>HeadingHelp</Key>
+      <Value>幫助</Value>
+    </Record>
+    <Record>
+      <Key>ButtonLoad</Key>
+      <Value>加載</Value>
+    </Record>
+    <Record>
+      <Key>HeadingEdit</Key>
+      <Value>編輯</Value>
     </Record>
     <Record>
       <Key>SettingsInterface</Key>
@@ -7415,6 +7568,10 @@
     <Record>
       <Key>Silicon</Key>
       <Value>礦石 (矽 Silicon)</Value>
+    </Record>
+    <Record>
+      <Key>Cobalt</Key>
+      <Value>礦石 (鈷 Cobalt)</Value>
     </Record>
   </Mineables>
   <ScreenSpaceToolTips/>
