@@ -120,6 +120,11 @@
       <Unit/>
     </RecordReagent>
     <RecordReagent>
+      <Key>Tomato</Key>
+      <Value>番茄</Value>
+      <Unit>公克 (g)</Unit>
+    </RecordReagent>
+    <RecordReagent>
       <Key>Fenoxitone</Key>
       <Value>苯氧酮</Value>
       <Unit>公克(g)</Unit>
@@ -152,12 +157,17 @@
     <RecordReagent>
       <Key>Pumpkin</Key>
       <Value>南瓜</Value>
-      <Unit/>
+      <Unit>公克 (g)</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Rice</Key>
       <Value>稻米</Value>
       <Unit>公克(g)</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Waspaloy</Key>
+      <Value>沃斯帕洛伊合金 (Waspaloy)</Value>
+      <Unit>公克 (g)</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Stellite</Key>
@@ -177,6 +187,11 @@
     <RecordReagent>
       <Key>Astroloy</Key>
       <Value>鎳基沉澱硬化合金 (Astroloy)</Value>
+      <Unit>公克 (g)</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Cobalt</Key>
+      <Value>鈷 (Cobalt)</Value>
       <Unit>公克 (g)</Unit>
     </RecordReagent>
     <RecordReagent>
@@ -3215,6 +3230,10 @@
       <Value>可攜式壓力罐 (氫氣 Hydrogen)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemRemoteDetonator</Key>
+      <Value>遙控引爆器</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureSolarPanelFused</Key>
       <Value>太陽能板</Value>
     </RecordThing>
@@ -3912,39 +3931,235 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageShuttleLandingPad1</Key>
-      <Value>自動販賣機</Value>
+      <Value>殘骸</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageShuttleLandingPad2</Key>
-      <Value>自動販賣機</Value>
+      <Value>殘骸</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageShuttleLandingPad3</Key>
-      <Value>自動販賣機</Value>
+      <Value>殘骸</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageShuttleLandingPad4</Key>
-      <Value>自動販賣機</Value>
+      <Value>殘骸</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageShuttleLandingPad5</Key>
-      <Value>自動販賣機</Value>
+      <Value>殘骸</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageBlastDoor1</Key>
+      <Value>殘骸</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageBlastDoor2</Key>
+      <Value>殘骸</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCompositeDoor1</Key>
+      <Value>殘骸</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCompositeDoor2</Key>
+      <Value>殘骸</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCompositeDoor3</Key>
+      <Value>殘骸</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAirlock1</Key>
+      <Value>殘骸</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageAirlock2</Key>
-      <Value>電弧爐</Value>
+      <Value>殘骸</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCompositeDoorGlass1</Key>
-      <Value>複合門</Value>
+      <Value>殘骸</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCompositeDoorGlass2</Key>
-      <Value>複合門</Value>
+      <Value>殘骸</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageElevatorShaftIndustrial1</Key>
+      <Value>殘骸</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageElevatorShaftIndustrial2</Key>
+      <Value>殘骸</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageElevatorShaftIndustrial3</Key>
+      <Value>殘骸</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageElevatorLevelFront1</Key>
       <Value>電梯樓層</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageElevatorLevelFront2</Key>
+      <Value>殘骸</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitHarvie</Key>
+      <Value>套件 收割機</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureHarvie</Key>
+      <Value>收割作物</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageHydroponicsTray1</Key>
+      <Value>殘骸</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGasTankAdvanced</Key>
+      <Value>儲氣罐 (空氣)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicGasTankAdvanced</Key>
+      <Value>套件 可攜式高級壓力罐</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePlinth</Key>
+      <Value>底座</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>Rover_MkI</Key>
+      <Value>陸行載具 MK1</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSpawnPoint</Key>
+      <Value>重生點</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>RespawnPoint</Key>
+      <Value>重生點</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>RespawnPointWallMounted</Key>
+      <Value>重生點 (已安裝)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitRespawnPointWallMounted</Key>
+      <Value>套件 重生點</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFlagODA</Key>
+      <Value>套件 ODA旗幟</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>Flag_ODA_10m</Key>
+      <Value>旗幟 (ODA 10m)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>Flag_ODA_8m</Key>
+      <Value>旗幟 (ODA 8m)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>Flag_ODA_6m</Key>
+      <Value>旗幟 (ODA 6m)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>Flag_ODA_4m</Key>
+      <Value>旗幟 (ODA 4m)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageStructureRTG1</Key>
+      <Value>殘骸</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageTurbineGenerator1</Key>
+      <Value>殘骸</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageTurbineGenerator2</Key>
+      <Value>殘骸</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageTurbineGenerator3</Key>
+      <Value>殘骸</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAirConditioner1</Key>
+      <Value>殘骸</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAirConditioner2</Key>
+      <Value>殘骸</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageWallCooler1</Key>
+      <Value>殘骸</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageWallCooler2</Key>
+      <Value>殘骸</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitRoverMKI</Key>
+      <Value>套件 陸行載具MK1</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>Rover_MkI_build_states</Key>
+      <Value>陸行載具 MK1</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureGrowLight</Key>
+      <Value>種植燈</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitGrowLight</Key>
+      <Value>套件 種植燈</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureWeatherStation</Key>
+      <Value>氣象站</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitWeatherStation</Key>
+      <Value>套件 氣象站</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitUprightWindTurbine</Key>
+      <Value>套件 立式風力發電機</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureUprightWindTurbine</Key>
+      <Value>立式風力發電機</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>CrateMkII</Key>
+      <Value>集裝箱 Mk II</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrateMkII</Key>
+      <Value>套件 集裝箱 Mk II</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemEmptyCan</Key>
+      <Value>空罐頭</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPumpkinSoup</Key>
+      <Value>南瓜湯</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCornSoup</Key>
+      <Value>玉米濃湯</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBreadLoaf</Key>
+      <Value>麵包</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemOrganicMaterial</Key>
+      <Value>有機物質</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureHydroponicsTrayData</Key>
@@ -3991,6 +4206,10 @@
     <Record>
       <Key>Lungs</Key>
       <Value>肺部</Value>
+    </Record>
+    <Record>
+      <Key>Glasses</Key>
+      <Value>眼鏡</Value>
     </Record>
     <Record>
       <Key>Belt</Key>
