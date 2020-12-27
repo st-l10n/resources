@@ -6364,11 +6364,11 @@
     </Record>
     <Record>
       <Key>LogicNoSlot</Key>
-      <Value>&lt;color=red&gt;需要更多 {0}&lt;/color&gt;.</Value>
+      <Value>&lt;color=red&gt;無插槽&lt;/color&gt;.</Value>
     </Record>
     <Record>
       <Key>LogicNoAvailableSlots</Key>
-      <Value>&lt;color=red&gt;無法建造&lt;/color&gt;.</Value>
+      <Value>&lt;color=red&gt;沒有可用的插槽&lt;/color&gt;.</Value>
     </Record>
     <Record>
       <Key>RequiresScrewdriver</Key>
@@ -6387,36 +6387,8 @@
       <Value>網絡上沒有其他可讀設備</Value>
     </Record>
     <Record>
-      <Key>ChangeSettingTo</Key>
-      <Value>改為 {0}</Value>
-    </Record>
-    <Record>
-      <Key>ChangeSettingToAll</Key>
-      <Value>改為 {0}</Value>
-    </Record>
-    <Record>
       <Key>HoldForPreviousObject</Key>
       <Value>按住 {KEY:QuantityModifier} for previous object</Value>
-    </Record>
-    <Record>
-      <Key>ChangeSettingToFor</Key>
-      <Value>改為 &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
-    </Record>
-    <Record>
-      <Key>ChangeSettingToForIn</Key>
-      <Value>改為 &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
-    </Record>
-    <Record>
-      <Key>ChangeReagentSettingTo</Key>
-      <Value>改為 &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
-    </Record>
-    <Record>
-      <Key>ChangeSlotSettingToFor</Key>
-      <Value>改為 &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
-    </Record>
-    <Record>
-      <Key>ChangeSettingToForAll</Key>
-      <Value>改為 &lt;color=yellow&gt;{0}&lt;/color&gt; for {1}</Value>
     </Record>
     <Record>
       <Key>SettingsAtmosphericScattering</Key>
@@ -6528,15 +6500,15 @@
     </Record>
     <Record>
       <Key>SettingsInterface</Key>
-      <Value>內部</Value>
+      <Value>介面</Value>
     </Record>
     <Record>
       <Key>SettingsEnableClouds</Key>
-      <Value>啟用自動存檔</Value>
+      <Value>啟用雲端存檔</Value>
     </Record>
     <Record>
       <Key>SettingsClouds</Key>
-      <Value>啟用自動存檔</Value>
+      <Value>啟用雲端存檔</Value>
     </Record>
     <Record>
       <Key>SettingsSoundFX</Key>
@@ -6544,27 +6516,27 @@
     </Record>
     <Record>
       <Key>WarningControlConflict</Key>
-      <Value>控制</Value>
+      <Value>控制項衝突</Value>
     </Record>
     <Record>
       <Key>NewWorldGameMode</Key>
-      <Value>遊戲連接埠</Value>
+      <Value>遊戲模式</Value>
     </Record>
     <Record>
       <Key>NewWorldPressure</Key>
-      <Value>預設</Value>
+      <Value>壓力</Value>
     </Record>
     <Record>
       <Key>SettingsMenuAppearance</Key>
-      <Value>變更角色外觀</Value>
+      <Value>外觀</Value>
     </Record>
     <Record>
       <Key>SettingsUserSpeakerMode</Key>
-      <Value>螢幕模式</Value>
+      <Value>揚聲器模式:</Value>
     </Record>
     <Record>
       <Key>LogicTypeNone</Key>
-      <Value>描述</Value>
+      <Value>無描述</Value>
     </Record>
     <Record>
       <Key>LogicTypePowerRequired</Key>
@@ -6572,27 +6544,27 @@
     </Record>
     <Record>
       <Key>LogicSlotTypeNone</Key>
-      <Value>描述</Value>
+      <Value>無描述</Value>
     </Record>
     <Record>
       <Key>SettingsP2PHostEnabled</Key>
-      <Value>啟用自動存檔</Value>
+      <Value>啟用P2P Host</Value>
     </Record>
     <Record>
       <Key>ContactsTrading</Key>
-      <Value>控制</Value>
+      <Value>聯絡</Value>
     </Record>
     <Record>
       <Key>ButtonContact</Key>
-      <Value>控制</Value>
+      <Value>聯絡</Value>
     </Record>
     <Record>
       <Key>BackupMenuFileListTitle</Key>
-      <Value>返回</Value>
+      <Value>備份</Value>
     </Record>
     <Record>
       <Key>SettingsWorldOrigin</Key>
-      <Value>世界設置</Value>
+      <Value>世界初始中心</Value>
     </Record>
     <Record>
       <Key>PromptButtonLeave</Key>
@@ -6600,31 +6572,31 @@
     </Record>
     <Record>
       <Key>TravelMenuTitle</Key>
-      <Value>儲存世界</Value>
+      <Value>旅行世界</Value>
     </Record>
     <Record>
       <Key>TravelMenuListTitle</Key>
-      <Value>目前的存檔</Value>
+      <Value>可用的世界</Value>
     </Record>
     <Record>
       <Key>TravelMenuButtonTravel</Key>
-      <Value>儲存世界</Value>
+      <Value>旅行世界</Value>
     </Record>
     <Record>
       <Key>GameMenuButtonTravel</Key>
-      <Value>儲存世界</Value>
+      <Value>旅行世界</Value>
     </Record>
     <Record>
       <Key>PromptTravelBody</Key>
-      <Value>您確定要離開遊戲嗎?</Value>
+      <Value>您確定要旅行該地圖嗎?</Value>
     </Record>
     <Record>
       <Key>TravelMenuNamePlaceholder</Key>
-      <Value>儲存世界</Value>
+      <Value>旅行世界名稱</Value>
     </Record>
     <Record>
       <Key>PromptTravelConfirm</Key>
-      <Value>儲存世界</Value>
+      <Value>旅行</Value>
     </Record>
     <Record>
       <Key>TravelMenuButtonTravelNew</Key>
