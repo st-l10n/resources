@@ -6435,8 +6435,16 @@
       <Value>編輯</Value>
     </Record>
     <Record>
+      <Key>SettingsDisableWaterVisualizer</Key>
+      <Value>禁用水體可視化</Value>
+    </Record>
+    <Record>
       <Key>SettingsInterface</Key>
       <Value>介面</Value>
+    </Record>
+    <Record>
+      <Key>SettingsUPNPEnabled</Key>
+      <Value>啟用 UPNP</Value>
     </Record>
     <Record>
       <Key>SettingsEnableClouds</Key>
@@ -6499,12 +6507,28 @@
       <Value>備份</Value>
     </Record>
     <Record>
+      <Key>OcclusionTickSpeed</Key>
+      <Value>物理幀數</Value>
+    </Record>
+    <Record>
       <Key>SettingsWorldOrigin</Key>
       <Value>世界初始中心</Value>
     </Record>
     <Record>
       <Key>PromptButtonLeave</Key>
-      <Value>離開連線</Value>
+      <Value>中斷連線</Value>
+    </Record>
+    <Record>
+      <Key>TierThree</Key>
+      <Value>級別 3</Value>
+    </Record>
+    <Record>
+      <Key>TierOne</Key>
+      <Value>級別 1</Value>
+    </Record>
+    <Record>
+      <Key>TierTwo</Key>
+      <Value>級別 2</Value>
     </Record>
     <Record>
       <Key>TravelMenuTitle</Key>
@@ -6575,6 +6599,22 @@
       <Value>難度</Value>
     </Record>
     <Record>
+      <Key>DawnTemperatureField</Key>
+      <Value>黎明溫度</Value>
+    </Record>
+    <Record>
+      <Key>NoonTemperatureField</Key>
+      <Value>中午溫度</Value>
+    </Record>
+    <Record>
+      <Key>DuskTemperatureField</Key>
+      <Value>黃昏溫度</Value>
+    </Record>
+    <Record>
+      <Key>MidnightTemperatureField</Key>
+      <Value>半夜溫度</Value>
+    </Record>
+    <Record>
       <Key>PreviewAtmosphereField</Key>
       <Value>預覽大氣</Value>
     </Record>
@@ -6591,12 +6631,20 @@
       <Value>自訂世界</Value>
     </Record>
     <Record>
+      <Key>CartridgeAtmosAnalyserTemperatureTitle</Key>
+      <Value>溫度</Value>
+    </Record>
+    <Record>
       <Key>GameMenuButtonCancel</Key>
       <Value>取消</Value>
     </Record>
     <Record>
       <Key>CartridgeElectronicReaderAutoITitle</Key>
       <Value>燃點</Value>
+    </Record>
+    <Record>
+      <Key>ElectronicReaderInvar</Key>
+      <Value>殷瓦鋼 (Invar)</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderColorRed</Key>
@@ -6832,7 +6880,7 @@
   <Keys>
     <Record>
       <Key>None</Key>
-      <Value/>
+      <Value>無</Value>
     </Record>
     <Record>
       <Key>Return</Key>
@@ -6857,6 +6905,10 @@
     <Record>
       <Key>Dollar</Key>
       <Value>$</Value>
+    </Record>
+    <Record>
+      <Key>Percent</Key>
+      <Value>%</Value>
     </Record>
     <Record>
       <Key>Ampersand</Key>
@@ -6983,58 +7035,16 @@
       <Value>[</Value>
     </Record>
     <Record>
+      <Key>Pipe</Key>
+      <Value>|</Value>
+    </Record>
+    <Record>
       <Key>RightCurlyBracket</Key>
       <Value>]</Value>
     </Record>
     <Record>
-      <Key>Keypad0</Key>
-      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
-0</Value>
-    </Record>
-    <Record>
-      <Key>Keypad1</Key>
-      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
-1</Value>
-    </Record>
-    <Record>
-      <Key>Keypad2</Key>
-      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
-2</Value>
-    </Record>
-    <Record>
-      <Key>Keypad3</Key>
-      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
-3</Value>
-    </Record>
-    <Record>
-      <Key>Keypad4</Key>
-      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
-4</Value>
-    </Record>
-    <Record>
-      <Key>Keypad5</Key>
-      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
-5</Value>
-    </Record>
-    <Record>
-      <Key>Keypad6</Key>
-      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
-6</Value>
-    </Record>
-    <Record>
-      <Key>Keypad7</Key>
-      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
-7</Value>
-    </Record>
-    <Record>
-      <Key>Keypad8</Key>
-      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
-8</Value>
-    </Record>
-    <Record>
-      <Key>Keypad9</Key>
-      <Value>&lt;size=40%&gt;Keypad&lt;/size&gt;
-9</Value>
+      <Key>Tilde</Key>
+      <Value>~</Value>
     </Record>
     <Record>
       <Key>KeypadPeriod</Key>
@@ -7161,15 +7171,19 @@
     </Record>
     <Record>
       <Key>Mouse0</Key>
-      <Value>Left Mouse</Value>
+      <Value>滑鼠左鍵</Value>
     </Record>
     <Record>
       <Key>Mouse1</Key>
-      <Value>Right Mouse</Value>
+      <Value>滑鼠右鍵</Value>
     </Record>
     <Record>
       <Key>Mouse2</Key>
-      <Value>Middle Mouse</Value>
+      <Value>滑鼠中鍵</Value>
+    </Record>
+    <Record>
+      <Key>Mouse3</Key>
+      <Value>滑鼠輸入 3</Value>
     </Record>
     <Record>
       <Key>Mouse6</Key>
@@ -7921,7 +7935,7 @@
     </Record>
     <Record>
       <Key>Joystick8Button16</Key>
-      <Value>Joystick8 Button16</Value>
+      <Value>搖桿 8 輸入 16</Value>
     </Record>
     <Record>
       <Key>Joystick8Button17</Key>
@@ -7929,11 +7943,11 @@
     </Record>
     <Record>
       <Key>Joystick8Button18</Key>
-      <Value>Joystick8 Button18</Value>
+      <Value>搖桿 8 輸入 18</Value>
     </Record>
     <Record>
       <Key>Joystick8Button19</Key>
-      <Value>Joystick8 Button19</Value>
+      <Value>搖桿 8 輸入 19</Value>
     </Record>
   </Keys>
   <Mineables>
