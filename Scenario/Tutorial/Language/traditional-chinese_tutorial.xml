@@ -21,20 +21,16 @@
       <Value>穿上 {THING:ItemSpacepack}</Value>
     </Record>
     <Record>
-      <Key>TutorialDescPickupHelmet</Key>
-      <Value>找到 {THING:ItemSpaceHelmet} 並且使用 {SLOT:LeftHand} 或 {SLOT:RightHand} 拾取物品，當物品呈現綠色可互動狀態時，您可以使用 &lt;color=red&gt;滑鼠左鍵&lt;/color&gt; 點選它以拾取物品</Value>
-    </Record>
-    <Record>
       <Key>TutorialDescWearHelmet</Key>
-      <Value>持續按住 {KEY:HelmetSlot} 直到 {THING:ItemSpaceHelmet} 裝備至您的 {SLOT:Helmet} 欄位</Value>
+      <Value>You have two ways to interact with your {LINK:InventoryPage;inventory}: hotkeys and mouse control. Both have their advantages and disadvantages.
+      
+Press and hold {KEY:MouseControl} to bring up the mouse cursor to drag and drop the {THING:ItemSpaceHelmet} into your {SLOT:Helmet} slot. Or press and hold {KEY:HelmetSlot} until your {THING:ItemSpaceHelmet} moves to your {SLOT:Helmet} slot.
+
+</Value>
     </Record>
     <Record>
       <Key>TutorialDescWearSuit</Key>
       <Value>持續按住 {KEY:SuitSlot} 直到 {THING:ItemEvaSuit} 裝備至您的 {SLOT:Suit} 欄位</Value>
-    </Record>
-    <Record>
-      <Key>TutorialDescPickupJetpack</Key>
-      <Value>找到 {THING:ItemSpacepack} 並且使用 {SLOT:LeftHand} 或 {SLOT:RightHand} 拾取物品，當物品呈現綠色可互動狀態時，您可以使用 &lt;color=red&gt;滑鼠左鍵&lt;/color&gt; 點選它以拾取物品</Value>
     </Record>
     <Record>
       <Key>TutorialDescWearJetpack</Key>
@@ -43,14 +39,6 @@
     <Record>
       <Key>TutorialTitlePowerSuit</Key>
       <Value>啟動太空裝</Value>
-    </Record>
-    <Record>
-      <Key>TutorialDescPowerSuit</Key>
-      <Value>找到 {THING:ItemBatteryCellLarge} 並且使用 {SLOT:LeftHand} 或 {SLOT:RightHand} 拾取物品，您可以使用 &lt;color=red&gt;滑鼠左鍵&lt;/color&gt; 點選它以拾取物品</Value>
-    </Record>
-    <Record>
-      <Key>TutorialDescPowerSuit2</Key>
-      <Value>您可以多次點擊 {KEY:SuitSlot} 鍵來開啟並切換 {SLOT:Suit} 的互動介面， 這個動作將會在 &lt;color=yellow&gt;欄位格&lt;/color&gt; 與 &lt;color=yellow&gt;功能選項&lt;/color&gt; 中切換.現在將您的介面切換至 欄位格.</Value>
     </Record>
     <Record>
       <Key>TutorialTaskLifesupportSuit1</Key>
@@ -69,20 +57,12 @@
       <Value>您可以多次點擊 {KEY:SuitSlot} 鍵來開啟並切換 {SLOT:Suit} 的互動介面， 這個動作將會在 &lt;color=yellow&gt;欄位格&lt;/color&gt; 與 &lt;color=yellow&gt;功能選項&lt;/color&gt; 中切換.現在將您的介面切換至 欄位格.</Value>
     </Record>
     <Record>
-      <Key>TutorialDescLifesupport2</Key>
-      <Value>&lt;color=red&gt;您必須穿上 {THING:ItemEvaSuit} 才能繼續，請穿回.&lt;/color&gt;</Value>
-    </Record>
-    <Record>
       <Key>TutorialDescLifesupport4</Key>
       <Value>您可以使用 {KEY:SwapHands} 來切換 {SLOT:LeftHand} 或 {SLOT:RightHand} 的欄位格為當前手持物品， 現在將手持物品切換至 {THING:ItemBatteryCellLarge} ，接著使用 {KEY:InventorySelect} 鍵 安裝至 {SLOT:LifeSupport} 的欄位上</Value>
     </Record>
     <Record>
       <Key>TutorialTitleSuitFilter</Key>
       <Value>裝備濾心</Value>
-    </Record>
-    <Record>
-      <Key>TutorialDescFilter1</Key>
-      <Value>找到 {THING:ItemGasFilterCarbonDioxide} ，並點擊 &lt;color=red&gt;滑鼠左鍵&lt;/color&gt; 撿起至 {SLOT:LeftHand} 或 {SLOT:RightHand} 欄位格</Value>
     </Record>
     <Record>
       <Key>TutorialTaskFilter1</Key>
@@ -114,11 +94,16 @@
     </Record>
     <Record>
       <Key>TutorialDescGetTools1</Key>
-      <Value>現在我們需要前往太空站外部修理一些壞掉的東西。使用 {KEY:Drop} 鍵來放下手上的 {THING:ItemTablet} ，使雙手無裝備才能撿起其它物品。別忘了先關閉手上裝置.</Value>
+      <Value>Now we need to head outside the station to do some repairs. Drop the anything in our hands using the {KEY:Drop} key so we can pick other things up. Remember you can use {KEY:MouseControl} to enable mouse for {LINK:InventoryPage;inventory} management, and you can change the {COLORYELLOW:Active Hand} bu pressing the {KEYS:SwapHands} key.
+
+Managing your {LINK:InventoryPage;inventory} well takes skill and practice; thinking carefully about what you are taking out with you well in advance and planning ahead. Forgetting to have a filled {THING:ItemGasCanisterOxygen} or {THING:ItemBatteryCellLarge} can be disasterous. It&apos;s also easy to get lost. Be careful!</Value>
     </Record>
     <Record>
       <Key>TutorialDescGetTools2</Key>
-      <Value>撿起 {THING:ItemToolBelt} 並且按住 {KEY:ToolBeltSlot} 鍵 以安裝至 {SLOT:Belt} 欄位。等您裝備好 {THING:ItemToolBelt} 以及撿起房間內的 {THING:ItemSteelSheets} 時候，我們將會繼續這個教程.</Value>
+      <Value>NEXTPREVIOUS
+Collect the {THING:ItemToolBelt} and assign it to the {SLOT:Belt} slot by holding the {KEY:ToolBeltSlot} key, or dragging it into the slot while pressing and holding {KEY:MouseControl}. Your {SLOT:Belt} slot allows you to have belts that can containing mining and other tools.
+      
+The {THING:ItemMiningBelt} has specialized {LINK:OrePage;Ore} slots that automatically fill themselves with ore as you use a {THING:ItemMiningDrill}, for example. Read more about {LINK:MiningPage;Mining}.</Value>
     </Record>
     <Record>
       <Key>TutorialTaskGetTools1</Key>
@@ -165,10 +150,6 @@
     <Record>
       <Key>TutorialTitleRepairCable</Key>
       <Value>修復損毀的纜線</Value>
-    </Record>
-    <Record>
-      <Key>TutorialDescRepairCable1</Key>
-      <Value>有一條損壞的 {THING:StructureCableJunction}，把它找出來，使用您 {THING:ItemToolBelt} 中的 {THING:ItemWireCutters} 移除。按下 {KEY:ToolBeltSlot} 以打開 {SLOT:Belt} 欄位。按下 {KEY:InventorySelect} 將會取出目前所選擇的工具至您的手上.</Value>
     </Record>
     <Record>
       <Key>TutorialTaskRepairCable1</Key>
