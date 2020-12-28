@@ -2271,6 +2271,7 @@ Pipes spread their contents evenly through the entire network, and can be connec
     <RecordThing>
       <Key>StructureSolidFuelGenerator</Key>
       <Value>Generator (Solid Fuel)</Value>
+      <Description>The mainstay of power generation for Stationeers, this device provides 20kW of power. Multiple solid resources can be loaded. While operating, the device will output it's maximum power regardless of whether you have captured it or not. Watch for blown wires! It will output much more power than your regular {THING:StructureCableCoil} can handle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGenerator</Key>
@@ -5377,6 +5378,11 @@ The {THING:StructureModularRocketCommand01} console displays the current state o
       <Value>Hydroponics Device</Value>
       <Description>The {&lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero}&lt;/color&gt; hydroponics device is the ideal vessel for growing a range of &lt;color=#0080FFFF&gt;{LINK:OrganicPage;plantlife}&lt;/color&gt;. It must be supplied with water using a pipe network, and sufficient light to generate photosynthesis. 
 It can be automated using the {THING:StructureHarvie}. Note that unlike the {THING:StructureHydroponicsTray}, these cannot be placed consecutively as they are considered devices rather than pure pipes. They do, however, allow data interrogation for logic systems.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCharcoal</Key>
+      <Value>Charcoal</Value>
+      <Description>A basic fuel.</Description>
     </RecordThing>
   </Things>
   <Slots>
