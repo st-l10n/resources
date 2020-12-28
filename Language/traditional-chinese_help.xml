@@ -44,6 +44,14 @@ The {THING:StructureModularRocketFueltank01} requires a 2:1 mixture of {GAS:Vola
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
+      <Key>ThingSlotItemTemplate</Key>
+      <Text>{0}. {1} 類型 {2}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingTransmissibleTemplate</Key>
+      <Text>連接至 {POS:300}{THING:StructureLogicTransmitter}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>IceMeltingTemplate</Key>
       <Text>熔點 {1}
 熔化壓力 {0}</Text>
