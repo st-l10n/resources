@@ -199,6 +199,21 @@
       <Value>Corn</Value>
       <Unit />
     </RecordReagent>
+    <RecordReagent>
+      <Key>Wheat</Key>
+      <Value>Wheat</Value>
+      <Unit />
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Biomass</Key>
+      <Value>Biomass</Value>
+      <Unit />
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Soy</Key>
+      <Value>Soy</Value>
+      <Unit />
+    </RecordReagent>
   </Reagents>
   <Gases>
     <Record>
@@ -1789,7 +1804,7 @@ Be there, even when you're not.</Description>
     <RecordThing>
       <Key>StructureCentrifuge</Key>
       <Value>Centrifuge</Value>
-      <Description>If a {THING:StructureRecycler} or unbalanced {THING:StructureFurnace} outputs &lt;color=#0080FFFF&gt;{LINK:ReagentPage;reagent}&lt;/color&gt; mixture rather than the desired &lt;color=#0080FFFF&gt;{LINK:IngotPage;ingots}&lt;/color&gt;, a centrifuge allows you to reclaim the raw ores or generate {THING:ItemOrganicMaterial}.</Description>
+      <Description>If a {THING:StructureRecycler} or unbalanced {THING:StructureFurnace} outputs &lt;color=#0080FFFF&gt;{LINK:ReagentPage;reagent}&lt;/color&gt; mixture rather than the desired &lt;color=#0080FFFF&gt;{LINK:IngotPage;ingots}&lt;/color&gt;, a centrifuge allows you to reclaim the raw ore.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChair</Key>
@@ -2712,6 +2727,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureRecycler</Key>
       <Value>Recycler</Value>
+	  <Description>A device for collecting the raw resources while destroying an item. Produces {THING:ItemReagentMix} containing packages of reagents. Pass these through the {THING:StructureCentrifuge} to gain back the source ores. Plants and organic matter passed through will create Biomass, which when passed through the {THING:StructureCentrifuge} will produce {THING:ItemBiomass}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRecycler</Key>
@@ -3605,7 +3621,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemMushroom</Key>
       <Value>Mushroom</Value>
-      <Description>A tasty food item, able to grow without light. Grows from {THING:ItemOrganicMaterial} planted into a {THING:StructureHydroponicsTray}. Unlike normal plants, it consumes {GAS:Oxygen} and outputs {GAS:CarbonDioxide}. Place in the {THING:ApplianceReagentProcessor} to split into more {THING:ItemOrganicMaterial} for further planting.</Description>
+      <Description>A tasty food item. Unlike normal plants, it consumes {GAS:Oxygen} and outputs {GAS:CarbonDioxide} and will only grow when not in sunlight.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPumpkin</Key>
@@ -3721,6 +3737,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>StructureShuttleLandingPad</Key>
       <Value>Landing Pad</Value>
+	  <Description>Landing pad capable to handling a small trade shuttle. When connected to a {THING:StructureComputer} containing a {THING:MotherboardComms}, a {THING:StructureSatelliteDish}, and a {THING:StructureVendingMachine} enables the ability to trade with suppliers. Adjust the horizontal and vertical attributes either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLandingPad</Key>
@@ -3729,6 +3746,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>StructureSatelliteDish</Key>
       <Value>Satellite Dish</Value>
+	  <Description>Giant communications array that can be used to communicate with nearby trade vessels. When connected to a {THING:StructureComputer} containing a {THING:MotherboardComms}, a {THING:StructureShuttleLandingPad}, and a {THING:StructureVendingMachine} enables the ability to trade with suppliers. Adjust the horizontal and vertical attributes either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSatelliteDish</Key>
@@ -3745,6 +3763,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>MotherboardComms</Key>
       <Value>Communications</Value>
+	  <Description>When placed in a {THING:StructureComputer} and connected to a {THING:StructureShuttleLandingPad}, a {THING:StructureSatelliteDish}, and a {THING:StructureVendingMachine} enables the ability to trade with suppliers. Adjust the horizontal and vertical attributes of the {THING:StructureShuttleLandingPad} either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMarineBodyArmor</Key>
@@ -4145,7 +4164,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAIMeE</Key>
-      <Value>Kit AIMeE</Value>
+      <Value>Kit (AIMeE)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureAutoMinerSmall</Key>
@@ -5369,9 +5388,9 @@ The {THING:StructureModularRocketCommand01} console displays the current state o
       <Description />
     </RecordThing>
     <RecordThing>
-      <Key>ItemOrganicMaterial</Key>
-      <Value>Organic Material</Value>
-      <Description>Diced organic material that is returned when food is passed through the {THING:StructureCentrifuge}. When planted in a {THING:StructureHydroponicsTray} it can be used for growing a {THING:ItemMushroom}.</Description>
+      <Key>ItemBiomass</Key>
+      <Value>Biomass</Value>
+      <Description>Diced organic material that is returned when food and organic matter is passed through the {THING:StructureRecycler} and {THING:StructureCentrifuge}. Can be burned in a {THING:StructureFurnace} into {THING:ItemCharcoal} for use in the {THING:StructureSolidFuelGenerator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHydroponicsTrayData</Key>
