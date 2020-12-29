@@ -7002,7 +7002,7 @@ Rolovat &lt;color=red&gt;kolečkem myši&lt;/color&gt; pro další volbu.</Value
     </Record>
     <Record>
       <Key>LogicTypeCombustion</Key>
-      <Value>Vyhodnocená atmosféra hoří. Vrátí 1, pokud atmosféra hoří, 0, pokud ne.</Value>
+      <Value>Vyhodnotí, jestli atmosféra hoří. Vrací 1, pokud atmosféra hoří a 0, pokud ne.</Value>
     </Record>
     <Record>
       <Key>LogicTypeHorizontal</Key>
@@ -7286,7 +7286,7 @@ Rolovat &lt;color=red&gt;kolečkem myši&lt;/color&gt; pro další volbu.</Value
     </Record>
     <Record>
       <Key>LogicSlotTypeQuantity</Key>
-      <Value>vrátí aktuální množství, například velikost hromádky, položky ve slotu</Value>
+      <Value>vrací aktuální množství, jako je velikost zásobníku, položky na pozici</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeDamage</Key>
@@ -7338,7 +7338,7 @@ Rolovat &lt;color=red&gt;kolečkem myši&lt;/color&gt; pro další volbu.</Value
     </Record>
     <Record>
       <Key>LogicSlotTypeMaxQuantity</Key>
-      <Value>vrátí maximální velikost hromádky položky ve slotu</Value>
+      <Value>vrací maximální velikost zásobníku položky na pozici</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypePrefabHash</Key>
