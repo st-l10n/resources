@@ -17,11 +17,11 @@
     <Record>
       <Key>IntoTutoiralConstructionDescription</Key>
       <Value>Dobrý den, kadete. Prokázali jste základní dovednosti Stationeerů, nyní je čas dát se do práce.
-Stationeeři jsou stavitelé, nade vše. Otestujme si vaše základní konstrukční schopnosti.</Value>
+Stationeeři jsou stavitelé, nadevšechno. Otestujme vaše základní konstrukční schopnosti.</Value>
     </Record>
     <Record>
       <Key>2PutAwayScrewDriver</Key>
-      <Value>Seberte šroubovák a vložte jej do opasku s nářadím.</Value>
+      <Value>Seberte šroubovák a vložte jej do opasku na nářadí.</Value>
     </Record>
     <Record>
       <Key>2PutAwayAngleGrinder</Key>
@@ -38,11 +38,11 @@ Stationeeři jsou stavitelé, nade vše. Otestujme si vaše základní konstruk�
     <Record>
       <Key>2Narration1D</Key>
       <Value>Bez nářadí je Stationeer bezbranný proti nepřátelskému vesmíru.
-Jděte do bedny a vezměte si své nářadí, než se stane něco strašného.</Value>
+Jděte k bedně a vezměte si nářadí, než se stane něco strašného.</Value>
     </Record>
     <Record>
       <Key>2Narration2D</Key>
-      <Value>V této simulaci výuky ODA byly stěny &apos;poškozeny&apos; meteorickým rojem.
+      <Value>V této simulaci výuky ODA byly stěny &apos;poškozeny&apos; meteorickým deštěm.
 Chcete-li je vyměnit, musíte nejprve pomocí úhlové brusky odstranit poškozené rámy.</Value>
     </Record>
     <Record>
@@ -51,11 +51,11 @@ Chcete-li je vyměnit, musíte nejprve pomocí úhlové brusky odstranit poškoz
     </Record>
     <Record>
       <Key>T2Deconstruct1</Key>
-      <Value>Odstraňte zničený rám 1.</Value>
+      <Value>Odstraňte zničený rám č. 1.</Value>
     </Record>
     <Record>
       <Key>T2Deconstruct2</Key>
-      <Value>Odstraňte zničený rám 2.</Value>
+      <Value>Odstraňte zničený rám č. 2.</Value>
     </Record>
     <Record>
       <Key>2Narration3T</Key>
@@ -121,7 +121,7 @@ Rozebírejte jej kousek po kousku a poté znovu postavte na zvýrazněném míst
     </Record>
     <Record>
       <Key>Tutorial2AutolateConstruct2</Key>
-      <Value>Sestavte 3. stupeň autosoustruhu s kabelovou cívkou</Value>
+      <Value>Sestavte 3. stupeň autosoustruhu pomocí kabelové cívky</Value>
     </Record>
     <Record>
       <Key>Tutorial2AutolateConstruct3</Key>
@@ -162,7 +162,7 @@ Připojte solární panely k elektrické síti pomocí kabelů z bedny. Stejně 
     </Record>
     <Record>
       <Key>Tutorial2HCablePlacement</Key>
-      <Value>Vyměňte chybějící silný rovný kabel.</Value>
+      <Value>Vyměňte chybějící silný rovný kabel č. 1.</Value>
     </Record>
     <Record>
       <Key>Tutorial2HCablePlacement2</Key>
@@ -209,12 +209,16 @@ Připojte solární panely k elektrické síti pomocí kabelů z bedny. Stejně 
       <Value>Zapnutí</Value>
     </Record>
     <Record>
+      <Key>2Narration12D</Key>
+      <Value>Regulátory napěťového okruhu oddělují energii a data do podsítí, stabilizují elektrický tok a poskytují záložní energii. Jen buďte opatrní, jakým způsobem je instalujete.</Value>
+    </Record>
+    <Record>
       <Key>2GetAPC</Key>
-      <Value>Vezměte oblastní ovladač napájení (APC) z bedny.</Value>
+      <Value>Vezměte regulátor napěťového okruhu (RNO) z bedny.</Value>
     </Record>
     <Record>
       <Key>2PlaceAPC</Key>
-      <Value>Umístěte APC na zvýrazněnou pozici se správnou orientací.</Value>
+      <Value>Umístěte RNO na zvýrazněné místo se správnou orientací.</Value>
     </Record>
     <Record>
       <Key>2Narration13D</Key>
@@ -279,8 +283,7 @@ Zapněte APC pro aktivaci sítě a nechť je tam SVĚTLO.</Value>
     </Record>
     <Record>
       <Key>2Narration16D</Key>
-      <Value>Dobrá práce, kadete. Opravili jste zdi a dokončili energetický systém. To je poslední krok Fáze II.
-Stisknutím tlačítka „Dokončit“ přenesete výsledky do příkazu Stationeer a my půjdeme dál.</Value>
+      <Value>Dobrá práce, kadete. Opravili jste stěny a dokončili napájecí systém. To byl poslední krok fáze II. Stisknutím tlačítka &apos;Dokončit&apos; přenesete výsledky na velitelství Stationeer a my půjdeme dál.</Value>
     </Record>
     <Record>
       <Key>2OnButtonPressTaskT1</Key>
@@ -288,7 +291,7 @@ Stisknutím tlačítka „Dokončit“ přenesete výsledky do příkazu Station
     </Record>
     <Record>
       <Key>2GetCableHCoil</Key>
-      <Value>Vezměte silný kabel z bedny.</Value>
+      <Value>Vezměte silné kabely z bedny.</Value>
     </Record>
     <Record>
       <Key>2GetFrames</Key>
