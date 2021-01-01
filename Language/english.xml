@@ -9039,6 +9039,10 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
       <Value>Stores register value to var on device.</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandSB</Key>
+      <Value>Stores register value to var on all output network devices with provided type hash.</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandLS</Key>
       <Value>Loads slot var on device to register.</Value>
     </Record>
