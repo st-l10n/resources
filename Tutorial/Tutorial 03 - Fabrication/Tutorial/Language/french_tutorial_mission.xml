@@ -84,6 +84,10 @@ Donc, nous allons traquer un peu de minerai à l’aide de votre tablette.</Valu
       <Value>Ramasser le lingot derrière le four à arc</Value>
     </Record>
     <Record>
+      <Key>3PutIronIngotInAutoLathe</Key>
+      <Value>Ajouter du lingot au tour automatique</Value>
+    </Record>
+    <Record>
       <Key>3Narration9D</Key>
       <Value>Le cintreuse hydraulique fabrique des tuyaux, ainsi que des dispositifs atmosphériques et quelques structures portatives. Pour en construire un avec le tour automatique vous avez besoin de fer, de cuivre et d’or.
 Les autres lingots dont vous avez besoin sont dans la caisse.</Value>
@@ -93,8 +97,16 @@ Les autres lingots dont vous avez besoin sont dans la caisse.</Value>
       <Value>Ramasser le lingot de cuivre dans la caisse.</Value>
     </Record>
     <Record>
+      <Key>3PutCopperIngotInAutoLathe</Key>
+      <Value>Ajouter le lingot de cuivre à la tour automatique.</Value>
+    </Record>
+    <Record>
       <Key>3GetGoldIngot</Key>
       <Value>Ramasser le lingot d’or dans la caisse.</Value>
+    </Record>
+    <Record>
+      <Key>3PutGoldIngotInAutoLathe</Key>
+      <Value>Ajouter du lingot d’or à la tour automatique</Value>
     </Record>
     <Record>
       <Key>3Narration10D</Key>
@@ -132,6 +144,15 @@ Suivez les outils pour finir de le construire.</Value>
     <Record>
       <Key>3PipeBenderOn</Key>
       <Value>Allumez la cintreuse hydraulique.</Value>
+    </Record>
+    <Record>
+      <Key>3Narration12D</Key>
+      <Value>La polyvalence est une vertu. Besoin de lingots à la hâte? Les dispositifs de fabrication fournissent également le stockage des ressources.
+Éjectez-les de la tour automatique en tirant sur le levier, puis ajoutez-les à une autre machine.</Value>
+    </Record>
+    <Record>
+      <Key>3OpenAutoLathe</Key>
+      <Value>Tirez le levier du tour automatique pour éjecter les lingots</Value>
     </Record>
     <Record>
       <Key>3PutIronIngotInPipeBender</Key>
@@ -173,6 +194,12 @@ C’est la dernière étape des tests pratiques, la phase III. Appuyez sur le bo
     <Record>
       <Key>3OnButtonPressTaskT1</Key>
       <Value>Appuyez sur le bouton de transmission pour terminer le test.</Value>
+    </Record>
+    <Record>
+      <!--Equip Mining belt-->
+      <Key>3Narration15D</Key>
+      <Value>Votre ceinture minière fait deux choses : elle détient vos outils miniers et stocke le minerai que vous minez.
+Lorsqu’il est équipé dans votre fente « ceinture », tous les minerais exploités y sont stockés automatiquement.</Value>
     </Record>
     <Record>
       <Key>2EquiptMiningbelt</Key>
