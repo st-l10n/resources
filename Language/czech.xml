@@ -7197,7 +7197,7 @@ Rolovat &lt;color=red&gt;kolečkem myši&lt;/color&gt; pro další volbu.</Value
     </Record>
     <Record>
       <Key>LogicTypeRequestHash</Key>
-      <Value>Pokud je nastaven na jedinečný identifikátor, požaduje od zařízení položku poskytovaného typu</Value>
+      <Value>Pokud je nastaven na jedinečný identifikátor, znovu vyhledá položku zadaného typu ze zařízení</Value>
     </Record>
     <Record>
       <Key>LogicTypeCompletionRatio</Key>
@@ -8149,7 +8149,7 @@ Rolovat &lt;color=red&gt;kolečkem myši&lt;/color&gt; pro další volbu.</Value
     </Record>
     <Record>
       <Key>ScriptCommandSB</Key>
-      <Value>Uloží hodnotu registru do var na zařízení.</Value>
+      <Value>Ukládá hodnotu registru do var na všech výstupních síťových zařízeních s typem hash.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandLS</Key>
@@ -8161,11 +8161,11 @@ Rolovat &lt;color=red&gt;kolečkem myši&lt;/color&gt; pro další volbu.</Value
     </Record>
     <Record>
       <Key>ScriptCommandDefine</Key>
-      <Value>Vytvoří štítek, který bude v programu nahrazen poskytnutou hodnotou.</Value>
+      <Value>Vytvoří štítek, který bude v programu nahrazen zadanou hodnotou.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandMove</Key>
-      <Value>Registr = číslo poskytovatele nebo hodnota registru.</Value>
+      <Value>Registr = pokud je číslo nebo hodnota registru.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandAdd</Key>
