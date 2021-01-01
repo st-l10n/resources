@@ -32,11 +32,11 @@
     </Record>
     <Record>
       <Key>ConsoleManuallControl1</Key>
-      <Value>Placez un autre {THING:StructureActiveVent} à l&apos;endroit en surbrillance.</Value>
+      <Value>Terminez le réseau en plaçant un {THING:StructureCableStraight} dans la zone en surbrillance.</Value>
     </Record>
     <Record>
       <Key>ConsoleManuallControl2</Key>
-      <Value>Construisez un {THING:StructureGasSensor} à l&apos;endroit mis en surbrillance</Value>
+      <Value>Placez une {THING:StructureConsole} dans la zone en surbrillance.</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetup</Key>
@@ -48,15 +48,15 @@
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask1</Key>
-      <Value>Insérez la {THING:CircuitboardAirlockControl} dans la {THING:StructureConsole}.</Value>
+      <Value>Insérez le {THING:CircuitboardSolarControl} dans le {THING:StructureConsole}.</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask2</Key>
-      <Value>Ramasser les {THING:ItemGlassSheets}.</Value>
+      <Value>Attachez les {THING:ItemGlassSheets} à la {THING:StructureConsole}.</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask3</Key>
-      <Value>Insérez le {THING:ItemDataDisk} dans la {THING:StructureConsole}.</Value>
+      <Value>Insérez le {THING:ItemDataDisk} dans le {THING:StructureConsole}.</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetUpDescription2</Key>
@@ -66,11 +66,11 @@ Une fois terminé retirer le disque de données. Vous pouvez maintenant ajuster 
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask4</Key>
-      <Value>Allumez le {THING:StructureArcFurnace}.</Value>
+      <Value>Allumez le {THING:StructureConsole} et sélectionnez les panneaux solaires affichés.</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask5</Key>
-      <Value>Insérez le {THING:ItemDataDisk} dans la {THING:StructureConsole}.</Value>
+      <Value>Supprimez le {THING:ItemDataDisk} frome the {THING:StructureConsole}.</Value>
     </Record>
     <Record>
       <Key>DaylightSensors</Key>
@@ -84,11 +84,11 @@ La première étape consiste à placer des capteurs de lumière du jour. L’un 
     </Record>
     <Record>
       <Key>PickUpDaylightSensor</Key>
-      <Value>Prenez un {THING:ItemCopperIngot} dans la caisse orange.</Value>
+      <Value>Prenez les unités {THING:ItemKitSensor} dans la caisse</Value>
     </Record>
     <Record>
       <Key>DaylightSensor1</Key>
-      <Value>Placez un autre {THING:StructureActiveVent} à l&apos;endroit en surbrillance.</Value>
+      <Value>Placez un {THING:StructureDaylightSensor} dans la zone en surbrillance.</Value>
     </Record>
     <Record>
       <Key>SolarMemory</Key>
@@ -100,11 +100,11 @@ La première étape consiste à placer des capteurs de lumière du jour. L’un 
     </Record>
     <Record>
       <Key>PickUpMemory</Key>
-      <Value>Prenez un {THING:ItemSiliconIngot} dans la caisse orange.</Value>
+      <Value>Prenez les unités {THING:ItemKitLogicMemory} dans la caisse.</Value>
     </Record>
     <Record>
       <Key>StructureLogicMemory</Key>
-      <Value>Placez un autre {THING:StructureActiveVent} à l&apos;endroit en surbrillance.</Value>
+      <Value>Placez les unités {THING:StructureLogicMemory} dans les zones en surbrillance.</Value>
     </Record>
     <Record>
       <Key>SetMemory</Key>
@@ -247,11 +247,11 @@ Le prochain {THING:StructureLogicMath} lira l’entrée de notre premier {THING:
     </Record>
     <Record>
       <Key>PlaceLogicMath</Key>
-      <Value>Placez un autre {THING:StructureActiveVent} à l&apos;endroit en surbrillance.</Value>
+      <Value>Placez le premier {THING:StructureLogicMath} dans la zone en surbrillance.</Value>
     </Record>
     <Record>
       <Key>PlaceLogicMath1</Key>
-      <Value>Placez un autre {THING:StructureActiveVent} à l&apos;endroit en surbrillance.</Value>
+      <Value>Placez le suivant {THING:StructureLogicMath} dans la zone en surbrillance.</Value>
     </Record>
     <Record>
       <Key>LogicMathVertical</Key>
