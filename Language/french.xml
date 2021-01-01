@@ -139,6 +139,21 @@
       <Value>Maïs</Value>
       <Unit>g</Unit>
     </RecordReagent>
+    <RecordReagent>
+      <Key>Wheat</Key>
+      <Value>Blé</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Biomass</Key>
+      <Value>Biomasse</Value>
+      <Unit/>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Soy</Key>
+      <Value>Soja</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
   </Reagents>
   <Gases>
     <Record>
@@ -1364,6 +1379,10 @@
     <RecordThing>
       <Key>StructureBatteryCharger</Key>
       <Value>Chargeur de Batterie</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBench</Key>
+      <Value>Banc alimenté</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureBlastDoor</Key>
@@ -4578,8 +4597,16 @@
       <Value>Miche de pain</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemBiomass</Key>
+      <Value>Biomasse</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureHydroponicsTrayData</Key>
       <Value>Bac Hydroponique</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCharcoal</Key>
+      <Value>Charbon</Value>
     </RecordThing>
   </Things>
   <Slots>
@@ -6955,6 +6982,10 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>Le ratio de protoxyde d&apos;azote dans l&apos;atmosphère du dispositif</Value>
     </Record>
     <Record>
+      <Key>LogicTypeCombustion</Key>
+      <Value>L’atmosphère d’évaluation est en feu. Retours 1 si l’atmosphère est en feu, 0 sinon.</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeHorizontal</Key>
       <Value>Réglage horizontal de l&apos;appareil</Value>
     </Record>
@@ -7871,6 +7902,10 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>Charge la variable du dispositif et la stocke dans le registre</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandLB</Key>
+      <Value>Charge var de tous les périphériques réseau de sortie avec hachage de type fourni en utilisant le mode de lot de fournir. Moyenne (0), Somme (1), Minimum (2), Maximum (3). Peut utiliser soit le mot, ou le nombre.</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandS</Key>
       <Value>Applique la valeur du registre à la variable du dispositif</Value>
     </Record>
@@ -7881,6 +7916,10 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
     <Record>
       <Key>ScriptCommandLS</Key>
       <Value>Chargement de l&apos;emplacement var pour s&apos;enregistrer.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandLR</Key>
+      <Value>Charge le réactif du mode réactif de l&apos;appareil à enregistrer. Contenu (0), obligatoire (1), recette (2). Peut utiliser le mot ou le nombre.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandAlias</Key>
