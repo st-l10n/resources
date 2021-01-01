@@ -9035,6 +9035,10 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
       <Value>Loads device var to register.</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandLB</Key>
+      <Value>Loads var from all output network devices with provided type hash using the provide batch mode. Average (0), Sum (1), Minimum (2), Maximum (3). Can use either the word, or the number.</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandS</Key>
       <Value>Stores register value to var on device.</Value>
     </Record>
@@ -9048,7 +9052,7 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
     </Record>
     <Record>
       <Key>ScriptCommandLR</Key>
-      <Value>Loads reagent of device's reagentMode to register.</Value>
+      <Value>Loads reagent of device's reagentMode to register. Contents (0), Required (1), Recipe (2). Can use either the word, or the number.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandAlias</Key>
