@@ -4930,7 +4930,7 @@
     </Record>
     <Record>
       <Key>SensorProcessingUnit</Key>
-      <Value>Procesorová jednotka senzoru</Value>
+      <Value>Procesor senzoru</Value>
     </Record>
     <Record>
       <Key>HandSlot</Key>
@@ -6600,11 +6600,11 @@ Rolovat &lt;color=red&gt;kolečkem myši&lt;/color&gt; pro další volbu.</Value
     </Record>
     <Record>
       <Key>SomethingWentWrongTrading</Key>
-      <Value>Něco se pokazilo při zpracovávání obchodu, opustil si prodejce!</Value>
+      <Value>Něco se pokazilo při zpracování obchodu, opustili jste prodejce!</Value>
     </Record>
     <Record>
       <Key>SomethingWentWrongTrading2</Key>
-      <Value>Něco se pokazilo při zpracovávání obchodu, nemáš kreditní kartu!</Value>
+      <Value>Něco se pokazilo při zpracování obchodu, nemáte kreditní kartu!</Value>
     </Record>
     <Record>
       <Key>GameMenuRespawn</Key>
@@ -8144,16 +8144,24 @@ Rolovat &lt;color=red&gt;kolečkem myši&lt;/color&gt; pro další volbu.</Value
       <Value>Načte zařízení var pro registraci.</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandLB</Key>
+      <Value>Načte var ze všech zařízení výstupní sítě s dodaným typem hash pomocí dávkového režimu. Průměr (0), součet (1), minimum (2), maximum (3). Můžete použít buď slovo, nebo číslo.</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandS</Key>
       <Value>Uloží hodnotu registru do var na zařízení.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSB</Key>
-      <Value>Ukládá hodnotu registru do var na všech výstupních síťových zařízeních s typem hash.</Value>
+      <Value>Ukládá hodnotu registru do var na všechny zařízení výstupní sítě s typem hash.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandLS</Key>
       <Value>Načte slot var na zařízení k registraci.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandLR</Key>
+      <Value>Načte činidlo reagentMode ze zařízení do registru. Obsah (0), požadované (1), recept (2). Můžete použít buď slovo, nebo číslo.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandAlias</Key>
