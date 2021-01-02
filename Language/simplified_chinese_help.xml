@@ -52,9 +52,9 @@
     <StationpediaPage>
       <Key>ReagentPage</Key>
       <Title>化学原料</Title>
-      <Text>These are chemical quantities of certain types.
+      <Text>某些类型化学原料量.
       
-{HEADER:化学原料列表}
+{HEADER:化学原料列表} 
 {LIST_OF_REAGENTS}
       </Text>
     </StationpediaPage>
@@ -63,7 +63,7 @@
       <Title>气体</Title>
       <Text>这些是某些化工气体。
       
-{HEADER:气体列表}
+{HEADER:气体}
 {LIST_OF_GASES}
       </Text>
     </StationpediaPage>
@@ -84,7 +84,13 @@
       <Title>锭</Title>
       <Text>这物品通常是通过 {LINK:SmeltingPage;熔炼} {LINK:OrePage;矿石} 得到的.
       
-{HEADER:锭块列表}
+{HEADER:锭块}
+{LIST_OF_INGOTS}
+
+{HEADER:合金}
+{LIST_OF_INGOTS}
+
+{HEADER:超级合金}
 {LIST_OF_INGOTS}
       </Text>
     </StationpediaPage>
@@ -92,7 +98,6 @@
       <Key>ToolPage</Key>
       <Title>工具</Title>
       <Text>这些物品放在在专门工具槽位中，用于{LINK:ConstructionPage;建造}或是其他任务。
-      
 {HEADER:工具列表}
 {LIST_OF_TOOLS}
       </Text>
@@ -101,7 +106,6 @@
       <Key>ResourcePage</Key>
       <Title>资源</Title>
       <Text>这些是在{LINK:ConstructionPage;建造}或其他任务要用到的物品
-      
 {HEADER:资源列表}
 {LIST_OF_RESOURCES}
       </Text>
@@ -140,22 +144,6 @@
       
 {HEADER:小型设备列表}
 {LIST_OF_APPLIANCES}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>TravelPage</Key>
-      <Title>目的地</Title>
-      <Text>等等! 先别急着关掉我! 以下是一些星球的哈希值你也可以称为ID. 你可以输入这些ID来发射到特定的星球, 当然你得要有一个完整的 {LINK:RocketShuttlePage;火箭} 和一些必要的 {LINK:LogicUnitPage;逻辑单元}.
-       
-只要在{THING:StructureLaunchPad} 的设置值上简单的输入这些哈希值就行啦. 
-提示: 单击哈希值即可复制到剪贴板。
-      
-你需要至少3个核心模块并且所有玩家都坐在有此功能的火箭来发射。
-
-更多关于火箭模块的信息请点击 {LINK:RocketShuttleModulesHelpPage;这里}
-      {LIST}
-        {WORLD_HASHES}
-      {/LIST}
       </Text>
     </StationpediaPage>
     <!-- <StationpediaPage>
