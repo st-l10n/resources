@@ -2705,7 +2705,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelDual</Key>
-      <Value>Solar Panel</Value>
+      <Value>Solar Panel (Dual)</Value>
       <Description>Used for generating power from sunlight. Efficiency is reduced during storms and when damaged. You can repair it using some trusty {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
@@ -2727,7 +2727,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureRecycler</Key>
       <Value>Recycler</Value>
-	  <Description>A device for collecting the raw resources while destroying an item. Produces {THING:ItemReagentMix} containing packages of reagents. Pass these through the {THING:StructureCentrifuge} to gain back the source ores. Plants and organic matter passed through will create Biomass, which when passed through the {THING:StructureCentrifuge} will produce {THING:ItemBiomass}.</Description>
+      <Description>A device for collecting the raw resources while destroying an item. Produces {THING:ItemReagentMix} containing packages of reagents. Pass these through the {THING:StructureCentrifuge} to gain back the source ores. Plants and organic matter passed through will create Biomass, which when passed through the {THING:StructureCentrifuge} will produce {THING:ItemBiomass}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRecycler</Key>
@@ -3737,7 +3737,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>StructureShuttleLandingPad</Key>
       <Value>Landing Pad</Value>
-	  <Description>Landing pad capable to handling a small trade shuttle. When connected to a {THING:StructureComputer} containing a {THING:MotherboardComms}, a {THING:StructureSatelliteDish}, and a {THING:StructureVendingMachine} enables the ability to trade with suppliers. Adjust the horizontal and vertical attributes either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader.</Description>
+      <Description>Landing pad capable to handling a small trade shuttle. When connected to a {THING:StructureComputer} containing a {THING:MotherboardComms}, a {THING:StructureSatelliteDish}, and a {THING:StructureVendingMachine} enables the ability to trade with suppliers. Adjust the horizontal and vertical attributes either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLandingPad</Key>
@@ -3746,7 +3746,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>StructureSatelliteDish</Key>
       <Value>Satellite Dish</Value>
-	  <Description>Giant communications array that can be used to communicate with nearby trade vessels. When connected to a {THING:StructureComputer} containing a {THING:MotherboardComms}, a {THING:StructureShuttleLandingPad}, and a {THING:StructureVendingMachine} enables the ability to trade with suppliers. Adjust the horizontal and vertical attributes either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader.</Description>
+      <Description>Giant communications array that can be used to communicate with nearby trade vessels. When connected to a {THING:StructureComputer} containing a {THING:MotherboardComms}, a {THING:StructureShuttleLandingPad}, and a {THING:StructureVendingMachine} enables the ability to trade with suppliers. Adjust the horizontal and vertical attributes either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSatelliteDish</Key>
@@ -3763,7 +3763,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>MotherboardComms</Key>
       <Value>Communications</Value>
-	  <Description>When placed in a {THING:StructureComputer} and connected to a {THING:StructureShuttleLandingPad}, a {THING:StructureSatelliteDish}, and a {THING:StructureVendingMachine} enables the ability to trade with suppliers. Adjust the horizontal and vertical attributes of the {THING:StructureShuttleLandingPad} either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader.</Description>
+      <Description>When placed in a {THING:StructureComputer} and connected to a {THING:StructureShuttleLandingPad}, a {THING:StructureSatelliteDish}, and a {THING:StructureVendingMachine} enables the ability to trade with suppliers. Adjust the horizontal and vertical attributes of the {THING:StructureShuttleLandingPad} either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMarineBodyArmor</Key>
@@ -4443,12 +4443,12 @@ The {THING:StructureModularRocketCommand01} console displays the current state o
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelFlat</Key>
-      <Value>Solar Panel Flat</Value>
+      <Value>Solar Panel (Flat)</Value>
       <Description>Used for generating power from sunlight. Efficiency is reduced during storms and when damaged. You can repair it using some trusty {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanel45</Key>
-      <Value>Solar Panel45</Value>
+      <Value>Solar Panel (Angled)</Value>
       <Description>Used for generating power from sunlight. Efficiency is reduced during storms and when damaged. You can repair it using some trusty {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
@@ -5382,6 +5382,41 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
       <Value>Charcoal</Value>
       <Description>A basic fuel.</Description>
     </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSolarPanelReinforced</Key>
+      <Value>Kit (Solar Panel Heavy)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSolarPanelBasicReinforced</Key>
+      <Value>Kit (Solar Panel Basic Heavy)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel45Reinforced</Key>
+      <Value>Solar Panel (Heavy Angled)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanelDualReinforced</Key>
+      <Value>Solar Panel (Heavy Dual)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanelFlatReinforced</Key>
+      <Value>Solar Panel (Heavy Flat)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanelReinforced</Key>
+      <Value>Solar Panel (Heavy)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemAstroloySheets</Key>
+      <Value>Item Astroloy Sheets</Value>
+      <Description />
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -5615,8 +5650,8 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
     <Record>
       <Key>SensorProcessingUnit</Key>
       <Value>Sensor Processing Unit</Value>
-    </Record>    
-	<Record>
+    </Record>
+    <Record>
       <Key>HandSlot</Key>
       <Value>Hand</Value>
     </Record>
