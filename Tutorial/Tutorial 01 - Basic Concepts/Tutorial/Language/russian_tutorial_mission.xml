@@ -32,12 +32,20 @@
       <Value>Пройдите на тренировочную базу.</Value>
     </Record>
     <Record>
+      <Key>ControlMovementDisc</Key>
+      <Value>Передвижение</Value>
+    </Record>
+    <Record>
       <Key>Narration1T</Key>
       <Value>Добро пожаловать, Кадет</Value>
     </Record>
     <Record>
       <Key>EnterAreaT1</Key>
       <Value>Войдите в шлюз</Value>
+    </Record>
+    <Record>
+      <Key>ControlLeftClickDisc</Key>
+      <Value>Взаимодействовать</Value>
     </Record>
     <Record>
       <Key>Narration2T</Key>
@@ -67,6 +75,10 @@
     <Record>
       <Key>Narration3D</Key>
       <Value>Прежде чем оригинальный Справочник Станционеров схлопнулся в сингулярность, он установил главный протокол Станционеров: у Кадетов ДВЕ руки, но можно делать только ОДНО действие за раз.</Value>
+    </Record>
+    <Record>
+      <Key>PickUpControlsDisc</Key>
+      <Value>Взаимодействовать</Value>
     </Record>
     <Record>
       <Key>SwapControlsDisc</Key>
@@ -187,8 +199,17 @@
       <Value>Открыть экипированные слоты</Value>
     </Record>
     <Record>
+      <Key>GettingTheBelt</Key>
+      <Value>Откройте ваш пояс инструментов</Value>
+    </Record>
+    <Record>
       <Key>Narration8T</Key>
       <Value>Окна пользовательского интерфейса</Value>
+    </Record>
+    <Record>
+      <Key>Narration8D</Key>
+      <Value>У станционера не существует &apos;только одного&apos; способа достичь цели: как решить проблему - зависит только от вас. 
+То же относится и к вашему снаряжению, попробуйте открыть ваш инвентарь с помощью цифровых клавиш.</Value>
     </Record>
     <Record>
       <Key>OpenBackPackDisc</Key>
@@ -203,12 +224,40 @@
       <Value>Навигация по инвентарю.</Value>
     </Record>
     <Record>
+      <Key>Narration9D</Key>
+      <Value>Знание, где что-то находится, и как это быстро получить, имеет решающее значение: управление инвентарём спасает жизни. Начните с перетаскивания предметов из инвентаря в руку.</Value>
+    </Record>
+    <Record>
+      <Key>HoldMiningBeltT1Disc</Key>
+      <Value>Перетащите пояс шахтёра из рюкзака в левую руку</Value>
+    </Record>
+    <Record>
       <Key>PickUpT1 2</Key>
       <Value>Перетащите пояс шахтёра из рюкзака в левую руку</Value>
     </Record>
     <Record>
+      <Key>AltDragControls</Key>
+      <Value>{KEY:MouseControl} + Перетаскивание</Value>
+    </Record>
+    <Record>
+      <Key>AltDragControlsDisc</Key>
+      <Value>Взаимодействовать с инвентарём.</Value>
+    </Record>
+    <Record>
+      <Key>DropT1 2</Key>
+      <Value>Выложите или киньте пояс шахтёра</Value>
+    </Record>
+    <Record>
       <Key>Narration10T</Key>
       <Value>Перетаскивание инвентаря</Value>
+    </Record>
+    <Record>
+      <Key>DragFromWorldT1Disc</Key>
+      <Value>Перетащите пояс шахтёра с земли в рюкзак</Value>
+    </Record>
+    <Record>
+      <Key>AltClickControlsDisc</Key>
+      <Value>Взаимодействие мышкой</Value>
     </Record>
     <Record>
       <Key>OpenMaskControlsDisc</Key>
@@ -217,6 +266,10 @@
     <Record>
       <Key>StationpediaToggleControlsDisc</Key>
       <Value>Открыть/закрыть Stationpedia</Value>
+    </Record>
+    <Record>
+      <Key>QucikEquiptControls</Key>
+      <Value>Колесо прокрутки</Value>
     </Record>
     <Record>
       <Key>QucikEquiptControlsDisc</Key>
