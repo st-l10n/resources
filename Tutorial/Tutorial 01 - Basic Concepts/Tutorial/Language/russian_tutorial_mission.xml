@@ -53,12 +53,52 @@
       <Value>Войдите на тренировочную базу.</Value>
     </Record>
     <Record>
+      <Key>OpenAirlock</Key>
+      <Value>Начните цикл шлюзования используя консоль</Value>
+    </Record>
+    <Record>
+      <Key>ExitAreaT1</Key>
+      <Value>Войдите в Тестовую Зону</Value>
+    </Record>
+    <Record>
       <Key>Narration3T</Key>
       <Value>Протоколы</Value>
     </Record>
     <Record>
+      <Key>Narration3D</Key>
+      <Value>Прежде чем оригинальный Справочник Станционеров схлопнулся в сингулярность, он установил главный протокол Станционеров: у Кадетов ДВЕ руки, но можно делать только ОДНО действие за раз.</Value>
+    </Record>
+    <Record>
+      <Key>SwapControlsDisc</Key>
+      <Value>Сменить руку</Value>
+    </Record>
+    <Record>
       <Key>PickUpT1</Key>
       <Value>Возьмите сварочный инструмент из ящика</Value>
+    </Record>
+    <Record>
+      <Key>SwapHandsT1</Key>
+      <Value>Смените руку</Value>
+    </Record>
+    <Record>
+      <Key>PickUpT1 1</Key>
+      <Value>Возьмите кусачки из ящика.</Value>
+    </Record>
+    <Record>
+      <Key>SwapHandsT1 2</Key>
+      <Value>Смените руку ... ещё разок</Value>
+    </Record>
+    <Record>
+      <Key>Narration4T</Key>
+      <Value>Сварочный аппарат.</Value>
+    </Record>
+    <Record>
+      <Key>Narration4D</Key>
+      <Value>Вы могли бы стать жонглёром. Но вы записались в Станционеры, так что вам придётся жонглировать инструментами. Многими из них. Некоторые нужно сначала активировать с помощью {KEY:SecondaryAction}.</Value>
+    </Record>
+    <Record>
+      <Key>ActiveWilderDisc</Key>
+      <Value>Включить сварочный аппарат</Value>
     </Record>
     <Record>
       <Key>TurnOnControlsDisc</Key>
@@ -98,6 +138,14 @@
       <Value>Кинуть предмет</Value>
     </Record>
     <Record>
+      <Key>DropControlsDisc</Key>
+      <Value>Выложить предмет</Value>
+    </Record>
+    <Record>
+      <Key>PrecisionPLaceT1 1</Key>
+      <Value>Разместите инструмент прямо на столе, используя {KEY:PrecisionPlace}</Value>
+    </Record>
+    <Record>
       <Key>Narration6T</Key>
       <Value>Сварочный аппарат</Value>
     </Record>
@@ -114,12 +162,29 @@
       <Value>Разместить предмет</Value>
     </Record>
     <Record>
+      <Key>PrecisionPlace</Key>
+      <Value>Разместите газовую горелку прямо на столе, используя &apos;Точное размещение&apos;</Value>
+    </Record>
+    <Record>
       <Key>Narration7T</Key>
       <Value>Система инвентаря</Value>
     </Record>
     <Record>
+      <Key>Narration7D</Key>
+      <Value>Мы не можем научить вас всему, но мы можем гарантировать, что вы усвоили основы: выживание в Солнечной системе зависит от вас.
+Чтобы получить доступ к вашему инвентарю, удерживайте {KEY:MouseControl} и кликните по нему на панели.</Value>
+    </Record>
+    <Record>
       <Key>OpenToolControlsDisc</Key>
       <Value>Показать Курсор Мыши</Value>
+    </Record>
+    <Record>
+      <Key>OpenToolbeltT1Disc</Key>
+      <Value>Откройте ваш пояс инструментов для доступа к инструментам.</Value>
+    </Record>
+    <Record>
+      <Key>OpenBackControlsDisc</Key>
+      <Value>Открыть экипированные слоты</Value>
     </Record>
     <Record>
       <Key>Narration8T</Key>
