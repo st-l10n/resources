@@ -134,8 +134,6 @@ Existují některé rudy, které roztají, když jsou vystaveny slunečnímu zá
       <Key>ClothingPage</Key>
       <Title>Oblečení</Title>
       <Text>Tohle jsou položky, které mohou být nošeny entitami ve slotech.
-      
-{HEADER:Seznam oblečení}
 {LIST_OF_CLOTHING}
       </Text>
     </StationpediaPage>
@@ -234,10 +232,6 @@ Bod vzplanutí {POS:300}{1}
 Samovznícení {POS:300}{2}{3}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>ThingSlotHeaderTemplate</Key>
-      <Text>{HEADER:Sloty}{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>ThingSlotItemTemplate</Key>
       <Text>{0}. {1} Typ {2}</Text>
     </StationpediaPage>
@@ -251,52 +245,16 @@ Samovznícení {POS:300}{2}{3}{/LIST}</Text>
 Tlak taveniny {0}</Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>CreatorsHeaderTemplate</Key>
-      <Text>{HEADER:Vyrobeno uživatelem}{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>ConstructedByHeaderTemplate</Key>
-      <Text>{HEADER:Zkonstruováno z}
-{LIST}{0}{/LIST}</Text>
+      <Text>{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>CreatedHeaderTemplate</Key>
-      <Text>{HEADER:Může vyrábět}
-{LIST}{0}{/LIST}</Text>
+      <Text>{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ConstructedHeaderTemplate</Key>
-      <Text>{HEADER:Lze skonstruovat}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>LogicTransmitHeaderTemplate</Key>
-      <Text>
-        {HEADER:Připojuje se k}
-        {LIST}{0}{/LIST}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>TierListHeaderTemplate</Key>
-      <Text/>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>LogicTypeHeaderTemplate</Key>
-      <Text>{HEADER:Logika}{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ModeStringHeaderTemplate</Key>
-      <Text>{HEADER:Režimy} {LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>CreatedGasesTemplate</Key>
-      <Text>{HEADER:Plyny}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>CreatedReagentTemplate</Key>
-      <Text>{HEADER:Činidla}
-{LIST}{0}{/LIST}</Text>
+      <Text>{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ReagentPageTemplate</Key>
