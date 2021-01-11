@@ -7,27 +7,17 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
-      <Key>OrganicPage</Key>
-      <Title>Orgánico</Title>
-      <Text>{LIST_OF_FOOD} {LIST_OF_ORGANICS}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>FabricatorPage</Key>
       <Title>Impresora Informatizada</Title>
-      <Text>Se trata de estructuras motorizadas que se pueden utilizar para fabricar las cosas que necesitas en el juego. Usualmente toman {LINK:IngotPage;Ingots} para proporcionar {LINK:ReagentPage;Reagents} que necesitan para hacer las cosas.
-      
-{HEADER:List of Fabricators}
-{LIST_OF_FABRICATORS}
+      <Text>Estas son Estructuras potenciadas que pueden ser usadas para fabricar cosas que necesitas en el juego. Normalmente toman {LINK:IngotPage;Ingots} para proporcionar la {LINK:ReagentPage;Reagents} que necesitan para hacer las cosas.
+        {LIST_OF_FABRICATORS}
       </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>DevicePage</Key>
       <Title>Dispositivos</Title>
-      <Text>Estas son Estructuras, típicamente potenciadas, que tienen funciones especializadas incluyendo Lógica, Atmosférica y más. Se construyen de la misma manera que otras estructuras.
-      
-{HEADER:List of Devices}
-{LIST_OF_DEVICES}
-      </Text>
+      <Text>Estas son estructuras, típicamente alimentadas, que tienen funciones especializadas incluyendo la lógica, la atmósfera y más. Están construidas de la misma manera que otras estructuras.
+        {LIST_OF_DEVICES}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>SmeltingPage</Key>
@@ -58,11 +48,7 @@ Si observa directamente una estructura que está incompleta, obtendrá informaci
     <StationpediaPage>
       <Key>ReagentPage</Key>
       <Title>Reactivos</Title>
-      <Text>Estas son las cantidades químicas de ciertos tipos.
-      
-{HEADER:List of Reagents}
-{LIST_OF_REAGENTS}
-      </Text>
+      <Text>Se trata de cantidades químicas de ciertos tipos. {LIST_OF_REAGENTS}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>OrePage</Key>
@@ -230,10 +216,6 @@ Punto de inflamación {POS:300}{1}
 Autoencendido {POS:300}{2}{3}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>ThingSlotHeaderTemplate</Key>
-      <Text>{HEADER:Slots}{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>ThingSlotItemTemplate</Key>
       <Text>{0}. {1} Tipo {2}</Text>
     </StationpediaPage>
@@ -245,52 +227,6 @@ Autoencendido {POS:300}{2}{3}{/LIST}</Text>
       <Key>IceMeltingTemplate</Key>
       <Text>Temperatura de fusión {1}
 Presión de la masa fundida {0}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>CreatorsHeaderTemplate</Key>
-      <Text>{HEADER:Manufactured By}{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ConstructedByHeaderTemplate</Key>
-      <Text>{HEADER:Constructed From}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>CreatedHeaderTemplate</Key>
-      <Text>{HEADER:Can Manufacture}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ConstructedHeaderTemplate</Key>
-      <Text>{HEADER:Can Construct}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>LogicTransmitHeaderTemplate</Key>
-      <Text>{HEADER:Constructed From}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>TierListHeaderTemplate</Key>
-      <Text/>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>LogicTypeHeaderTemplate</Key>
-      <Text>{HEADER:Logic}{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ModeStringHeaderTemplate</Key>
-      <Text>{HEADER:Modes}{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>CreatedGasesTemplate</Key>
-      <Text>{HEADER:Gases}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>CreatedReagentTemplate</Key>
-      <Text>{HEADER:Reagents}
-{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ReagentPageTemplate</Key>
