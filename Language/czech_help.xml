@@ -7,25 +7,17 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
-      <Key>OrganicPage</Key>
-      <Title>Organika</Title>
-      <Text>{LIST_OF_FOOD} {LIST_OF_ORGANICS}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>FabricatorPage</Key>
       <Title>Konstruktéři</Title>
       <Text>Jedná se o výrobní napájené struktury, které budete potřebovat k výrobě potřebných věcí. Obvykle vyžadují {LINK:IngotPage;ingoty} k přípravě {LINK:ReagentPage;činidel}, které potřebují k výrobě.
-
-{HEADER:Seznam konstruktérů}
-{LIST_OF_FABRICATORS}</Text>
+        {LIST_OF_FABRICATORS}
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>DevicePage</Key>
       <Title>Zařízení</Title>
       <Text>Tohle jsou struktury, obvykle napájené, které mají specializované funkce, včetně logiky, atmosféry a další. Jsou konstruovány stejným způsobem jako ostatní struktury.
-      
-{HEADER:Seznam zařízení}
-{LIST_OF_DEVICES}
+        {LIST_OF_DEVICES}
       </Text>
     </StationpediaPage>
     <StationpediaPage>
@@ -121,9 +113,8 @@ Pohledem na neúplnou konstrukci získáte informace o tom, co všechno musíte 
       <Key>AppliancePage</Key>
       <Title>Spotřebiče</Title>
       <Text>Jedná se o předměty, které mohou být umístěny na pracovní stůl pomocí hasáku.
-
-{HEADER:Seznam spotřebičů}
-{LIST_OF_APPLIANCES}</Text>
+{LIST_OF_APPLIANCES}
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>TravelPage</Key>
@@ -240,20 +231,20 @@ Tlak taveniny {0}</Text>
       <Key>ReagentPageTemplate</Key>
       <Text>{LINK:ReagentPage;Činidlo}, často použitelné, když je ve formě {LINK:IngotPage;ingotů}.
 
-{HEADER:Všeobecné}
-{LIST}Jednotka {1}{/LIST}
 
-{HEADER:Nalezeno v}
+{LIST}Unit {1}{/LIST}
+
+
 {LIST}{2}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageTemplate</Key>
       <Text>{LINK:GasPage;Plyn}, který se často vytváří při {LINK:SmeltingPage;tavení}.
 
-{HEADER:Všeobecné}
+
 {LIST}Specifické teplo {1}{2}{/LIST}
 
-{HEADER:Nalezeno v}
+
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
