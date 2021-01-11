@@ -434,7 +434,6 @@
       <Key>ForceFeed</Key>
       <Value>Force Feed</Value>
     </Record>
-
   </Actions>
   <Things>
     <RecordThing>
@@ -1647,7 +1646,7 @@ An upgraded version of the classic 'Zairo' model first manufactured by &lt;color
     <RecordThing>
       <Key>ItemWheat</Key>
       <Value>Wheat</Value>
-      <Description>A classical symbol of growth and new life, wheat is grown in various &lt;color=#0080FFFF&gt;{LINK:OrganicPage;hydroponics}&lt;/color&gt; devices. Once harvested, it can be turned into a &lt;color=#0080FFFF&gt;{LINK:ReagentPage;reagent}&lt;/color&gt; using the {THING:ApplianceReagentProcessor}, then turned into sustainance such as a {THING:ItemCerealBar} using the {THING:ApplianceMicrowave}.</Description>
+      <Description>A classical symbol of growth and new life, wheat is grown in various &lt;color=#0080FFFF&gt;{LINK:OrganicPage;hydroponics}&lt;/color&gt; devices. Once harvested, it can be turned into a &lt;color=#0080FFFF&gt;{LINK:ReagentPage;reagent}&lt;/color&gt; using the {THING:ApplianceReagentProcessor}, then turned into sustenance such as a {THING:ItemCerealBar} using the {THING:ApplianceMicrowave}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWireCutters</Key>
@@ -2173,7 +2172,7 @@ Pipes spread their contents evenly through the entire network, and can be connec
     <RecordThing>
       <Key>StructureSolarPanel</Key>
       <Value>Solar Panel</Value>
-      <Description>Used for generating power from sunlight. Efficiency is reduced during storms and when damaged. You can repair it using some trusty {THING:ItemDuctTape}.</Description>
+      <Description>{&lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai's}&lt;/color&gt; standard solar panels are used for generating power from sunlight. They can be connected to {&lt;color=#0080FFFF&gt;{LINK:LogicPage;logic}&lt;/color&gt; systems, in order to track sunlight, but their efficiency is reduced during storms and when damaged. You can repair these using some trusty {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSorter</Key>
@@ -2711,7 +2710,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureSolarPanelDual</Key>
       <Value>Solar Panel (Dual)</Value>
-      <Description>Used for generating power from sunlight. Efficiency is reduced during storms and when damaged. You can repair it using some trusty {THING:ItemDuctTape}.</Description>
+      <Description>{&lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai's}&lt;/color&gt; dual solar panels are used for generating power from sunlight, with dedicated data and power ports. They can be connected to {&lt;color=#0080FFFF&gt;{LINK:LogicPage;logic}&lt;/color&gt; systems, in order to track sunlight, but their efficiency is reduced during storms and when damaged. You can repair these using some trusty {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicBatchWriter</Key>
@@ -2838,6 +2837,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>PortableSolarPanel</Key>
       <Value>Portable Solar Panel</Value>
+      {&lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai's}&lt;/color&gt; portable solar panel allows you to charge a single battery.
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction5</Key>
@@ -4449,17 +4449,17 @@ The {THING:StructureModularRocketCommand01} console displays the current state o
     <RecordThing>
       <Key>StructureSolarPanelFlat</Key>
       <Value>Solar Panel (Flat)</Value>
-      <Description>Used for generating power from sunlight. Efficiency is reduced during storms and when damaged. You can repair it using some trusty {THING:ItemDuctTape}.</Description>
+      <Description>{&lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai's}&lt;/color&gt; basic solar panels generate power from sunlight. They lie flat to the ground, and their efficiency is reduced during storms and when damaged. You can repair these using some trusty {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanel45</Key>
       <Value>Solar Panel (Angled)</Value>
-      <Description>Used for generating power from sunlight. Efficiency is reduced during storms and when damaged. You can repair it using some trusty {THING:ItemDuctTape}.</Description>
+      <Description>{&lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai's}&lt;/color&gt; basic solar panels generate power from sunlight, sitting at 45 degrees to the ground. Their efficiency is reduced during storms and when damaged. You can repair these using some trusty {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanelBasic</Key>
       <Value>Kit (Solar Panel Basic)</Value>
-      <Description>Used for generating power from sunlight. Efficiency is reduced during storms and when damaged. You can repair it using some trusty {THING:ItemDuctTape}.</Description>
+      <Description>This kit creates a standing solar panel.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSDBHopperAdvanced</Key>
@@ -4710,12 +4710,10 @@ The {THING:StructureModularRocketCommand01} console displays the current state o
     <RecordThing>
       <Key>ItemWreckageSolarPanel1</Key>
       <Value>Wreckage Solar Panel</Value>
-      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSolarPanel2</Key>
       <Value>Wreckage Solar Panel</Value>
-      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSolarPanel3</Key>
@@ -5390,42 +5388,42 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
     <RecordThing>
       <Key>ItemKitSolarPanelReinforced</Key>
       <Value>Kit (Solar Panel Heavy)</Value>
-      <Description />
+      <Description>This kit produces heavy duty solar panels that are resistant to storm damage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanelBasicReinforced</Key>
       <Value>Kit (Solar Panel Basic Heavy)</Value>
-      <Description />
+      <Description>This solar panel is resistant to storm damage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanel45Reinforced</Key>
       <Value>Solar Panel (Heavy Angled)</Value>
-      <Description />
+      <Description>This solar panel is resistant to storm damage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelDualReinforced</Key>
       <Value>Solar Panel (Heavy Dual)</Value>
-      <Description />
+      <Description>This solar panel is resistant to storm damage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelFlatReinforced</Key>
       <Value>Solar Panel (Heavy Flat)</Value>
-      <Description />
+      <Description>This solar panel is resistant to storm damage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelReinforced</Key>
       <Value>Solar Panel (Heavy)</Value>
-      <Description />
+      <Description>This solar panel is resistant to storm damage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemAstroloySheets</Key>
       <Value>Item Astroloy Sheets</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningBeltAdvanced</Key>
       <Value>Mining Belt (Advanced)</Value>
-      <Description />
+      <Description>A mining belt with 12 slots for ore and three slots for tools.</Description>
     </RecordThing>
   </Things>
   <Slots>
@@ -10157,6 +10155,86 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     <Record>
       <Key>NextTutoiralButtonFail</Key>
       <Value>Unable to load Next Tutorial. Please return to menu.</Value>
+    </Record>
+    <Record>
+      <Key>ImportExportCategoryKey</Key>
+      <Value>Import/Export</Value>
+    </Record>
+    <Record>
+      <Key>TravelCategoryKey</Key>
+      <Value>Travel</Value>
+    </Record>
+    <Record>
+      <Key>FurnitureCategoryKey</Key>
+      <Value>Furniture</Value>
+    </Record>
+    <Record>
+      <Key>CartidgeCategoryKey</Key>
+      <Value>Cartridges</Value>
+    </Record>
+    <Record>
+      <Key>WeatherCategoryKey</Key>
+      <Value>Weather</Value>
+    </Record>
+    <Record>
+      <Key>HandToolsCategoryKey</Key>
+      <Value>Hand Tools</Value>
+    </Record>
+    <Record>
+      <Key>OrganicsCategoryKey</Key>
+      <Value>Organics</Value>
+    </Record>
+    <Record>
+      <Key>StructureCategoryKey</Key>
+      <Value>Structures</Value>
+    </Record>
+    <Record>
+      <Key>LogicCategoryKey</Key>
+      <Value>Logic Devices</Value>
+    </Record>
+    <Record>
+      <Key>PowerCategoryKey</Key>
+      <Value>Electronics</Value>
+    </Record>
+    <Record>
+      <Key>AppliancesCategoryKey</Key>
+      <Value>Appliances</Value>
+    </Record>
+    <Record>
+      <Key>AtmopshericsCategoryKey</Key>
+      <Value>Atmospherics</Value>
+    </Record>
+    <Record>
+      <Key>ReagentsCategoryKey</Key>
+      <Value>Reagents</Value>
+    </Record>
+    <Record>
+      <Key>GasesCategoryKey</Key>
+      <Value>Gases</Value>
+    </Record>
+    <Record>
+      <Key>ConstructionKitsCategoryKey</Key>
+      <Value>Structure Kits</Value>
+    </Record>
+    <Record>
+      <Key>FabricatorCategoryKey</Key>
+      <Value>Fabricators</Value>
+    </Record>
+    <Record>
+      <Key>IngotsCategoryKey</Key>
+      <Value>Ingots</Value>
+    </Record>
+    <Record>
+      <Key>OreCategoryKey</Key>
+      <Value>Ores</Value>
+    </Record>
+    <Record>
+      <Key>OreCategoryKey </Key>
+      <Value>Ores</Value>
+    </Record>
+    <Record>
+      <Key>PersonalCategoryKey</Key>
+      <Value>Personal</Value>
     </Record>
   </Interface>
   <Colors>

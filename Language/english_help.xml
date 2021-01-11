@@ -48,7 +48,7 @@
     <StationpediaPage>
       <Key>OrganicPage</Key>
       <Title>Organics</Title>
-      <Text>{LIST_OF_FOOD} {LIST_OF_ORGANICS}</Text>
+      <Text>{LIST_OF_FOOD}{LIST_OF_ORGANICS}</Text>
     </StationpediaPage>
         <StationpediaPage>
       <Key>AtmosphericPage</Key>
@@ -69,9 +69,7 @@
       <Key>FabricatorPage</Key>
       <Title>Fabricators</Title>
       <Text>These are powered Structures that can be used to Manufacture things you need in the game. They usually take {LINK:IngotPage;Ingots} to provide the {LINK:ReagentPage;Reagents} they need to make things.
-      
-{HEADER:List of Fabricators}
-{LIST_OF_FABRICATORS}
+        {LIST_OF_FABRICATORS}
       </Text>
     </StationpediaPage>
     
@@ -79,9 +77,7 @@
       <Key>DevicePage</Key>
       <Title>Devices</Title>
       <Text>These are Structures, typically powered, that have specialist functions including Logic, Atmospherics, and more. They are constructed in the same way as other structures.
-      
-{HEADER:List of Devices}
-{LIST_OF_DEVICES}
+        {LIST_OF_DEVICES}
       </Text>
     </StationpediaPage>
     
@@ -116,20 +112,14 @@ If you look directly at a structure that is incomplete you will get information 
     <StationpediaPage>
       <Key>ReagentPage</Key>
       <Title>Reagents</Title>
-      <Text>These are chemical quantities of certain types.
-      
-{HEADER:List of Reagents} 
-{LIST_OF_REAGENTS}
+      <Text>These are chemical quantities of certain types. {LIST_OF_REAGENTS}
       </Text>
     </StationpediaPage>
 
     <StationpediaPage>
       <Key>GasPage</Key>
       <Title>Gases</Title>
-      <Text>These are chemical gases of certain types.
-      
-{HEADER:List of Gases}
-{LIST_OF_GASES}
+      <Text>These are chemical gases of certain types.{LIST_OF_GASES}
       </Text>
     </StationpediaPage>
 
@@ -137,12 +127,7 @@ If you look directly at a structure that is incomplete you will get information 
       <Key>OrePage</Key>
       <Title>Ores</Title>
       <Text>These are Items that are {LINK:MiningPage;mined} and can often be {LINK:SmeltingPage;smelted}. You can also get mixed ore by recycling items in the {THING:StructureRecycler} and then passing it through the {THING:StructureCentrifuge} which will break it into {LINK:OrePage;ore} for {LINK:SmeltingPage;smelting}.
-      
-{HEADER:Melting Ices}
-There are some ores that will melt when exposed to sunlight or heat and produce {LINK:GasPage;gases}. For example {THING:ItemIce} melts into {GAS:Water} and {GAS:Oxygen}. Be careful to keep these out of heat or sunlight until you actually want them to melt.
-      
-{HEADER:List of Ores}
-{LIST_OF_ORES}
+        There are some ores that will melt when exposed to sunlight or heat and produce {LINK:GasPage;gases}. For example {THING:ItemIce} melts into {GAS:Water} and {GAS:Oxygen}. Be careful to keep these out of heat or sunlight until you actually want them to melt.{LIST_OF_ORES}
       </Text>
     </StationpediaPage>
     
@@ -150,14 +135,7 @@ There are some ores that will melt when exposed to sunlight or heat and produce 
       <Key>IngotPage</Key>
       <Title>Ingots</Title>
       <Text>These are Items that are typically made from {LINK:SmeltingPage;Smelting} {LINK:OrePage;ores}.
-      
-{HEADER:List of Ingots}
-{LIST_OF_INGOTS}
 
-{HEADER:List of Alloys}
-{LIST_OF_INGOTS}
-
-{HEADER:List of Super-Alloys}
 {LIST_OF_INGOTS}
       </Text>
     </StationpediaPage>
@@ -166,7 +144,7 @@ There are some ores that will melt when exposed to sunlight or heat and produce 
       <Key>ToolPage</Key>
       <Title>Tools</Title>
       <Text>These are Items that can fit in a specialist tool slot, and are used for {LINK:ConstructionPage;Construction} and other tasks.
-{HEADER:List of Tools}
+
 {LIST_OF_TOOLS}
       </Text>
     </StationpediaPage>
@@ -175,7 +153,6 @@ There are some ores that will melt when exposed to sunlight or heat and produce 
       <Key>ResourcePage</Key>
       <Title>Resources</Title>
       <Text>These are Items that are consumed during {LINK:ConstructionPage;Construction} and other tasks.
-{HEADER:List of Resources}
 {LIST_OF_RESOURCES}
       </Text>
     </StationpediaPage>
@@ -184,8 +161,6 @@ There are some ores that will melt when exposed to sunlight or heat and produce 
       <Key>KitPage</Key>
       <Title>Kits</Title>
       <Text>These are Items that are consumed during {LINK:ConstructionPage;Construction} and other tasks.
-      
-{HEADER:List of Kits}
 {LIST_OF_KITS}
       </Text>
     </StationpediaPage>
@@ -194,9 +169,7 @@ There are some ores that will melt when exposed to sunlight or heat and produce 
       <Key>FoodPage</Key>
       <Title>Food</Title>
       <Text>These are Items that are consumed to provide nutrition.
-      
-{HEADER:List of Food}
-{LIST_OF_FOOD}
+        {LIST_OF_FOOD}
       </Text>
     </StationpediaPage>
         
@@ -204,8 +177,6 @@ There are some ores that will melt when exposed to sunlight or heat and produce 
       <Key>ClothingPage</Key>
       <Title>Clothing</Title>
       <Text>These are Items that can be worn by entities in slots.
-      
-{HEADER:List of Clothing}
 {LIST_OF_CLOTHING}
       </Text>
     </StationpediaPage>
@@ -214,8 +185,6 @@ There are some ores that will melt when exposed to sunlight or heat and produce 
       <Key>AppliancePage</Key>
       <Title>Appliances</Title>
       <Text>These are Items that can be placed on Benches. You have to place them on a Bench by sitting them on a Bench and using a Wrench.
-      
-{HEADER:List of Appliances}
 {LIST_OF_APPLIANCES}
       </Text>
     </StationpediaPage>
@@ -324,7 +293,7 @@ Autoignition{POS:300}{2}{3}{/LIST}</Text>
     
     <StationpediaPage>
       <Key>ThingSlotHeaderTemplate</Key>
-      <Text>{HEADER:Slots}{LIST}{0}{/LIST}</Text>
+      <Text>{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     
     <StationpediaPage>
@@ -355,31 +324,31 @@ Melt Pressure {0}</Text>
     
     <StationpediaPage>
       <Key>CreatorsHeaderTemplate</Key>
-      <Text>{HEADER:Manufactured By}{LIST}{0}{/LIST}</Text>
+      <Text>{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     
     <StationpediaPage>
       <Key>ConstructedByHeaderTemplate</Key>
-      <Text>{HEADER:Constructed From}
+      <Text>
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     
     <StationpediaPage>
       <Key>CreatedHeaderTemplate</Key>
-      <Text>{HEADER:Can Manufacture}
+      <Text>
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     
     <StationpediaPage>
       <Key>ConstructedHeaderTemplate</Key>
-      <Text>{HEADER:Can Construct}
+      <Text>
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
 
     <StationpediaPage>
       <Key>LogicTransmitHeaderTemplate</Key>
       <Text>
-        {HEADER:Connects to}
+        
         {LIST}{0}{/LIST}
       </Text>
     </StationpediaPage>
@@ -387,7 +356,7 @@ Melt Pressure {0}</Text>
     <StationpediaPage>
       <Key>TierListHeaderTemplate</Key>
       <Text>
-        {HEADER:Structures Tier List}
+        
       </Text>
     </StationpediaPage>
 
@@ -398,7 +367,7 @@ Melt Pressure {0}</Text>
     
     <StationpediaPage>
       <Key>LogicTypeHeaderTemplate</Key>
-      <Text>{HEADER:Logic}{LIST}{0}{/LIST}</Text>
+      <Text>{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     
     <StationpediaPage>
@@ -408,18 +377,18 @@ Melt Pressure {0}</Text>
     
     <StationpediaPage>
       <Key>ModeStringHeaderTemplate</Key>
-      <Text>{HEADER:Modes}{LIST}{0}{/LIST}</Text>
+      <Text>{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
         
     <StationpediaPage>
       <Key>CreatedGasesTemplate</Key>
-      <Text>{HEADER:Gases}
+      <Text>
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     
     <StationpediaPage>
       <Key>CreatedReagentTemplate</Key>
-      <Text>{HEADER:Reagents}
+      <Text>
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     
@@ -433,10 +402,10 @@ Melt Pressure {0}</Text>
       <Key>ReagentPageTemplate</Key>
       <Text>A {LINK:ReagentPage;reagent}, often usable when in {LINK:IngotPage;Ingots} form.
 
-{HEADER:General}
+
 {LIST}Unit {1}{/LIST}
 
-{HEADER:Found In}
+
 {LIST}{2}{/LIST}</Text>
     </StationpediaPage>
     
@@ -444,10 +413,10 @@ Melt Pressure {0}</Text>
       <Key>GasPageTemplate</Key>
       <Text>A {LINK:GasPage;gas}, often produced when {LINK:SmeltingPage;smelting}.
 
-{HEADER:General}
+
 {LIST}Specific Heat {1}{2}{/LIST}
 
-{HEADER:Found In}
+
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>    
     
