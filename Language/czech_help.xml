@@ -55,30 +55,21 @@ Pohledem na neúplnou konstrukci získáte informace o tom, co všechno musíte 
     <StationpediaPage>
       <Key>ReagentPage</Key>
       <Title>Činidla</Title>
-      <Text>Tohle jsou chemická množství určitých typů.
-      
-{HEADER:Seznam činidel}
-{LIST_OF_REAGENTS}
+      <Text>Tohle jsou chemická množství určitých typů. {LIST_OF_REAGENTS}
       </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPage</Key>
       <Title>Plyny</Title>
-      <Text>Tohle jsou chemické plyny určitých typů.
+      <Text>Tohle jsou chemické plyny určitých typů.{LIST_OF_GASES}
       
-{HEADER:Seznam plynů}
-{LIST_OF_GASES}
       </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>OrePage</Key>
       <Title>Rudy</Title>
       <Text>Jedná se o položky, které jsou {LINK:MiningPage;vytěžené} a často mohou být {LINK:SmeltingPage;taveny}. Můžete také získat smíšené rudy recyklací položek v {THING:StructureRecycler} a předáním přes {THING:StructureCentrifuge}, který ji rozdělí na {LINK:OrePage;rudy} pro {LINK:SmeltingPage;tavení}.
-      
-{HEADER:Tání ledu}
-Existují některé rudy, které roztají, když jsou vystaveny slunečnímu záření nebo teplu a produkují {LINK:GasPage;plyny}. Například {THING:ItemIce} se roztaje na {GAS:Water} a {GAS:Oxygen}. Dávejte pozor, abyste je chránili před teplem nebo slunečním zářením, dokud je opravdu nechcete roztát.
-      
-{HEADER:Seznam rud}
+        Existují některé rudy, které roztají, když jsou vystaveny slunečnímu záření nebo teplu a produkují {LINK:GasPage;plyny}. Například {THING:ItemIce} se roztaje na {GAS:Water} a {GAS:Oxygen}. Dávejte pozor, abyste je chránili před teplem nebo slunečním zářením, dokud je opravdu nechcete roztát.
 {LIST_OF_ORES}
       </Text>
     </StationpediaPage>
@@ -86,14 +77,7 @@ Existují některé rudy, které roztají, když jsou vystaveny slunečnímu zá
       <Key>IngotPage</Key>
       <Title>Ingoty</Title>
       <Text>Jedná se o položky, které jsou obvykle vyrobeny z {LINK:SmeltingPage;tavení} {LINK:OrePage;rud}.
-           
-{HEADER:Seznam ingotů}
-{LIST_OF_INGOTS}
 
-{HEADER:Seznam slitin}
-{LIST_OF_INGOTS}
-
-{HEADER:Seznam super slitin}
 {LIST_OF_INGOTS}
       </Text>
     </StationpediaPage>
@@ -101,7 +85,7 @@ Existují některé rudy, které roztají, když jsou vystaveny slunečnímu zá
       <Key>ToolPage</Key>
       <Title>Nástroje</Title>
       <Text>Toto jsou položky, které se vejdou do speciálního slotu a používají se pro {LINK:ConstructionPage;konstrukce} a další úkoly.
-{HEADER:Seznam nástrojů}
+
 {LIST_OF_TOOLS}
       </Text>
     </StationpediaPage>
@@ -109,31 +93,27 @@ Existují některé rudy, které roztají, když jsou vystaveny slunečnímu zá
       <Key>ResourcePage</Key>
       <Title>Zdroje</Title>
       <Text>Jedná se o položky, které jsou spotřebovány během {LINK:ConstructionPage;konstrukce} a dalších úkolu.
-{HEADER:Seznam zdrojů}
 {LIST_OF_RESOURCES}
       </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>KitPage</Key>
       <Title>Sady</Title>
-      <Text>Tohle jsou položky, které jsou spotřebovány během {LINK:ConstructionPage;konstrukce} a dalších úkolu.
-      
-{HEADER:Seznam sad}
+      <Text>Jedná se o položky, které jsou spotřebovány během {LINK:ConstructionPage;konstrukce} a dalších úkolu.
 {LIST_OF_KITS}
       </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>FoodPage</Key>
       <Title>Jídlo</Title>
-      <Text>Jedná se o předměty, které se konzumují k zajištění výživy.
-
-{HEADER:Seznam potravin}
-{LIST_OF_FOOD}</Text>
+      <Text>Jedná se o položky, které se konzumují k zajištění výživy.
+        {LIST_OF_FOOD}
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ClothingPage</Key>
       <Title>Oblečení</Title>
-      <Text>Tohle jsou položky, které mohou být nošeny entitami ve slotech.
+      <Text>Jedná se o položky, které mohou být nošeny entitami ve slotech.
 {LIST_OF_CLOTHING}
       </Text>
     </StationpediaPage>
