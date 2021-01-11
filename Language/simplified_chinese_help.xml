@@ -7,6 +7,11 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
+      <Key>OrganicPage</Key>
+      <Title>有机物</Title>
+      <Text>{LIST_OF_FOOD} {LIST_OF_ORGANICS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>FabricatorPage</Key>
       <Title>装配机器</Title>
       <Text>这些是需要通电来加工制造你需要的物品的设备。 他们通常用{LINK:IngotPage;锭块}来提供制造东西所需的{LINK:ReagentPage;化学原料}。
@@ -251,9 +256,7 @@ Paintable {POS:300}{2}{3}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>TierListHeaderTemplate</Key>
-      <Text>
-        {HEADER:结构等级}
-      </Text>
+      <Text/>
     </StationpediaPage>
     <StationpediaPage>
       <Key>LogicTypeHeaderTemplate</Key>

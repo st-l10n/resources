@@ -227,12 +227,6 @@ Pressão de Derretimento {POS:300}{0}</Text>
       </Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>TierListHeaderTemplate</Key>
-      <Text>
-        {HEADER:Lista de Niveis de Estruturas}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>CreatorTemplate</Key>
       <Text>{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}</Text>
     </StationpediaPage>
@@ -247,6 +241,11 @@ Pressão de Derretimento {POS:300}{0}</Text>
     <StationpediaPage>
       <Key>ModeStringHeaderTemplate</Key>
       <Text>{HEADER:Modos}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedGasesTemplate</Key>
+      <Text>{HEADER:Gases}
+{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>CreatedReagentTemplate</Key>

@@ -7,6 +7,11 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
+      <Key>OrganicPage</Key>
+      <Title>Organikus</Title>
+      <Text>{LIST_OF_FOOD} {LIST_OF_ORGANICS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>FabricatorPage</Key>
       <Title>Gyártógépek</Title>
       <Text>Ezek az árammal ellátott masinák gyártják le az összes játékbeli tárgyat. Legtöbb esetben {LINK:IngotPage;öntött fémrudak} kellenek, hogy a gépeket a gyártáshoz elegendő {LINK:ReagentPage;reagenssel}  lásd el.
@@ -237,9 +242,7 @@ Olvadási nyomás {0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>TierListHeaderTemplate</Key>
-      <Text>
-        {HEADER:Struktúrák tier szerinti listája}
-      </Text>
+      <Text/>
     </StationpediaPage>
     <StationpediaPage>
       <Key>LogicTypeHeaderTemplate</Key>

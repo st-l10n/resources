@@ -6,6 +6,11 @@
     |                 MASTER PAGES            |
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
+    <StationpediaPage>
+      <Key>OrganicPage</Key>
+      <Title>有機物</Title>
+      <Text>{LIST_OF_FOOD} {LIST_OF_ORGANICS}</Text>
+    </StationpediaPage>
     <!-- <StationpediaPage>
           <Key>RocketShuttleModulesHelpPage</Key>
           <Title>Rocket Shuttle Modules</Title>
@@ -44,6 +49,10 @@ The {THING:StructureModularRocketFueltank01} requires a 2:1 mixture of {GAS:Vola
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
+      <Key>ThingSlotHeaderTemplate</Key>
+      <Text>{HEADER:Slots}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>ThingSlotItemTemplate</Key>
       <Text>{0}. {1} 類型 {2}</Text>
     </StationpediaPage>
@@ -55,6 +64,74 @@ The {THING:StructureModularRocketFueltank01} requires a 2:1 mixture of {GAS:Vola
       <Key>IceMeltingTemplate</Key>
       <Text>熔點 {1}
 熔化壓力 {0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatorsHeaderTemplate</Key>
+      <Text>{HEADER:Manufactured By}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructedByHeaderTemplate</Key>
+      <Text>{HEADER:Constructed From}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedHeaderTemplate</Key>
+      <Text>{HEADER:Can Manufacture}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructedHeaderTemplate</Key>
+      <Text>{HEADER:Can Construct}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicTransmitHeaderTemplate</Key>
+      <Text>
+        {HEADER:Connects to}
+        {LIST}{0}{/LIST}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>TierListHeaderTemplate</Key>
+      <Text/>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicTypeHeaderTemplate</Key>
+      <Text>{HEADER:Logic}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ModeStringHeaderTemplate</Key>
+      <Text>{HEADER:Modes}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedGasesTemplate</Key>
+      <Text>{HEADER:Gases}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedReagentTemplate</Key>
+      <Text>{HEADER:Reagents}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPageTemplate</Key>
+      <Text>A {LINK:ReagentPage;reagent}, often usable when in {LINK:IngotPage;Ingots} form.
+
+{HEADER:General}
+{LIST}Unit {1}{/LIST}
+
+{HEADER:Found In}
+{LIST}{2}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageTemplate</Key>
+      <Text>A {LINK:GasPage;gas}, often produced when {LINK:SmeltingPage;smelting}.
+
+{HEADER:General}
+{LIST}Specific Heat {1}{2}{/LIST}
+
+{HEADER:Found In}
+{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageFlamableTemplate</Key>

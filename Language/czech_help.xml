@@ -7,6 +7,11 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
+      <Key>OrganicPage</Key>
+      <Title>Organika</Title>
+      <Text>{LIST_OF_FOOD} {LIST_OF_ORGANICS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>FabricatorPage</Key>
       <Title>Konstruktéři</Title>
       <Text>Jedná se o výrobní napájené struktury, které budete potřebovat k výrobě potřebných věcí. Obvykle vyžadují {LINK:IngotPage;ingoty} k přípravě {LINK:ReagentPage;činidel}, které potřebují k výrobě.
@@ -273,9 +278,7 @@ Tlak taveniny {0}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>TierListHeaderTemplate</Key>
-      <Text>
-        {HEADER:Seznam úrovní struktur}
-      </Text>
+      <Text/>
     </StationpediaPage>
     <StationpediaPage>
       <Key>LogicTypeHeaderTemplate</Key>

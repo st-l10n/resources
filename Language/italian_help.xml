@@ -183,6 +183,10 @@ Punto di infiammabilità{POS:300}{1}
 Autoaccensione{POS:300}{2}{3}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>ThingSlotHeaderTemplate</Key>
+      <Text>{HEADER:Slots}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>ThingSlotItemTemplate</Key>
       <Text>{0}. {POS:100}{1} {POS:300}Tipo {2}</Text>
     </StationpediaPage>
@@ -208,6 +212,21 @@ Pressione di fusione {POS:300}{0}</Text>
       <Text>{HEADER:Creato da}{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>ConstructedByHeaderTemplate</Key>
+      <Text>{HEADER:Constructed From}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CreatedHeaderTemplate</Key>
+      <Text>{HEADER:Can Manufacture}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructedHeaderTemplate</Key>
+      <Text>{HEADER:Can Construct}
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>LogicTransmitHeaderTemplate</Key>
       <Text>{HEADER:Constructed From}
 {LIST}{0}{/LIST}</Text>
@@ -215,6 +234,14 @@ Pressione di fusione {POS:300}{0}</Text>
     <StationpediaPage>
       <Key>CreatorTemplate</Key>
       <Text>{LIST}{0}{LIST:300}{1}{/LIST}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicTypeHeaderTemplate</Key>
+      <Text>{HEADER:Logic}{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ModeStringHeaderTemplate</Key>
+      <Text>{HEADER:Modes}{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>CreatedGasesTemplate</Key>
