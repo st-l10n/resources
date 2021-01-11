@@ -53,15 +53,8 @@ Si observa directamente una estructura que está incompleta, obtendrá informaci
     <StationpediaPage>
       <Key>OrePage</Key>
       <Title>Minerales</Title>
-      <Text>Estos son artículos que son {LINK:MiningPage;mined} y a menudo pueden ser {LINK:SmeltingPage;smelted}. También puede obtener mineral mezclado reciclando artículos en el {THING:StructureRecycler} y luego pasándolo a través del {THING:StructureCentrifuge} que lo dividirá en {LINK:OrePage;ore} para {LINK:SmeltingPage;smelting}.
-      
-{HEADER:Melting Ices}
-Hay algunos minerales que se funden cuando se exponen a la luz solar o al calor y producen {LINK:GasPage;gases}. Por ejemplo {THING:ItemIce} se funde en {GAS:Water} y {GAS:Oxygen}. Tenga cuidado de mantenerlos fuera del calor o de la luz del sol hasta que realmente quiera que se derritan.
-      
-{HEADER:List of Ores}
-{LIST_OF_ORES}
-      
-      </Text>
+      <Text>Estos son artículos que son {LINK:MiningPage;mined} y a menudo pueden ser {LINK:SmeltingPage;smelted}. También puedes obtener mineral mezclado reciclando elementos en la {THING:StructureRecycler} y luego pasándolo a través de la {THING:StructureCentrifuge} que lo romperá en {LINK:OrePage;ore} para {LINK:SmeltingPage;smelting}.
+        Hay algunos minerales que se fundirán cuando se expongan a la luz solar o al calor y producirán {LINK:GasPage;gases}. Por ejemplo, {THING:ItemIce} se funde en {GAS:Water} y {GAS:Oxygen}. Ten cuidado de mantenerlos fuera del calor o la luz del sol hasta que realmente quieras que se derritan.{LIST_OF_ORES}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>IngotPage</Key>
