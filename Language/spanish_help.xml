@@ -68,21 +68,13 @@ Hay algunos minerales que se funden cuando se exponen a la luz solar o al calor 
       <Title>Lingotes</Title>
       <Text>Estos son artículos que están típicamente hechos de {LINK:SmeltingPage;Smelting} {LINK:OrePage;ores}.
       
-{HEADER:List of Ingots}
-{LIST_OF_INGOTS}
-
-{HEADER:List of Alloys}
-{LIST_OF_INGOTS}
-
-{HEADER:List of Super-Alloys}
-{LIST_OF_INGOTS}
-      </Text>
+{LIST_OF_INGOTS}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ToolPage</Key>
       <Title>Herramientas</Title>
       <Text>Estos son artículos que pueden caber en una ranura de herramientas especializadas, y se utilizan para {LINK:ConstructionPage;Construction} y otras tareas.
-{HEADER:List of Tools}
+
 {LIST_OF_TOOLS}
       </Text>
     </StationpediaPage>
@@ -90,7 +82,6 @@ Hay algunos minerales que se funden cuando se exponen a la luz solar o al calor 
       <Key>ResourcePage</Key>
       <Title>Recursos</Title>
       <Text>Estos son artículos que se consumen durante {LINK:ConstructionPage;Construction} y otras tareas.
-{HEADER:List of Resources}
 {LIST_OF_RESOURCES}
       </Text>
     </StationpediaPage>
@@ -98,8 +89,6 @@ Hay algunos minerales que se funden cuando se exponen a la luz solar o al calor 
       <Key>FoodPage</Key>
       <Title>Comida</Title>
       <Text>Estos son artículos que se consumen para proporcionar nutrición.
-      
-{HEADER:List of Food}
 {LIST_OF_FOOD}
       </Text>
     </StationpediaPage>
@@ -107,8 +96,6 @@ Hay algunos minerales que se funden cuando se exponen a la luz solar o al calor 
       <Key>ClothingPage</Key>
       <Title>Ropa</Title>
       <Text>Estos son elementos que pueden ser usados por las entidades en las ranuras.
-      
-{HEADER:List of Clothing}
 {LIST_OF_CLOTHING}
       </Text>
     </StationpediaPage>
@@ -116,8 +103,6 @@ Hay algunos minerales que se funden cuando se exponen a la luz solar o al calor 
       <Key>AppliancePage</Key>
       <Title>Accesorios</Title>
       <Text>Estos son artículos que pueden ser colocados en mesas. Hay que colocarlos en una mesa colocándolos en una mesa y usando una llave inglesa.
-      
-{HEADER:List of Appliances}
 {LIST_OF_APPLIANCES}
       </Text>
     </StationpediaPage>
@@ -232,20 +217,16 @@ Presión de la masa fundida {0}</Text>
       <Key>ReagentPageTemplate</Key>
       <Text>Un {LINK:ReagentPage;reagent}, a menudo utilizado cuando está en forma de {LINK:IngotPage;Ingots}.
 
-{HEADER:General}
 {LIST}Unit {1}{/LIST}
 
-{HEADER:Found In}
 {LIST}{2}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageTemplate</Key>
       <Text>Un {LINK:GasPage;gas}, a menudo producido cuando {LINK:SmeltingPage;smelting}.
 
-{HEADER:General}
 {LIST}Specific Heat {1}{2}{/LIST}
 
-{HEADER:Found In}
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
