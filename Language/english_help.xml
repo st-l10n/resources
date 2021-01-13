@@ -72,7 +72,6 @@
         {LIST_OF_FABRICATORS}
       </Text>
     </StationpediaPage>
-    
     <StationpediaPage>
       <Key>DevicePage</Key>
       <Title>Devices</Title>
@@ -80,21 +79,25 @@
         {LIST_OF_DEVICES}
       </Text>
     </StationpediaPage>
-    
+    <StationpediaPage>
+      <Key>ImportExportPage</Key>
+      <Title>Import/Export and Chutes</Title>
+      <Text>These are Structures, typically powered, that have specialist functions including Logic, Atmospherics, and more. They are constructed in the same way as other structures.
+        {LIST_OF_DEVICES}
+      </Text>
+    </StationpediaPage>
     <StationpediaPage>
       <Key>SmeltingPage</Key>
       <Title>Smelting</Title>
       <Text>Once you have {LINK:OrePage;ore}, you need to turn it into {LINK:IngotPage;ingots} so you can use their {LINK:ReagentPage;reagents}. Smelting will often produce {LINK:GasPage;gases}. This occurs in either the {THING:StructureArcFurnace} (for simple recipes) and the {THING:StructureFurnace} for more complicated {LINK:AlloyPage;Alloys}, and finally the {THING:StructureAdvancedFurnace} for very complicated {LINK:SuperAlloyPage;Superalloys}. For the complex alloys, you will need to achieve mixtures at perfect ratios, {LINK:TemperaturePage;Temperature}, and {LINK:PressurePage;Pressure}. 
       </Text>
     </StationpediaPage>
-    
     <StationpediaPage>
       <Key>MiningPage</Key>
       <Title>Mining</Title>
       <Text>You can mine {LINK:OrePage;ore} using a {THING:ItemMiningDrill}. If you wear a {THING:ItemMiningBelt} the {LINK:OrePage;ore} will automatically be placed within it.
       </Text>
     </StationpediaPage>
-   
     <StationpediaPage>
       <Key>ConstructionPage</Key>
       <Title>Construction</Title>
