@@ -20,6 +20,12 @@
         {LIST_OF_DEVICES}</Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>ImportExportPage</Key>
+      <Title>Importación/Exportación y tolva</Title>
+      <Text>Estas son estructuras, típicamente alimentadas, que tienen funciones especializadas incluyendo la lógica, la atmósfera y más. Están construidas de la misma manera que otras estructuras.
+        {LIST_OF_DEVICES}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>SmeltingPage</Key>
       <Title>Fundición</Title>
       <Text>Una vez que tenga {LINK:OrePage;ore}, deberá convertirlo en  {LINK:IngotPage;ingots} para poder utilizar sus {LINK:ReagentPage;reagents}. La fundición a menudo produce {LINK:GasPage;gases}. Esto ocurre en el {THING:StructureArcFurnace} (for simple recipes) y el {THING:StructureFurnace} para los más complicados {LINK:AlloyPage;Alloys}. Para las aleaciones complejas, usted necesitará lograr mezclas en proporciones perfectas, {LINK:TemperaturePage;Temperature}, y {LINK:PressurePage;Pressure}. 
