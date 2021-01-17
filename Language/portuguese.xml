@@ -6829,6 +6829,7 @@
       <Value>Trancado</Value>
     </Record>
     <Record>
+      <!--Trading/Contact Begin -->
       <Key>ContactEventDefault</Key>
       <Value>Não houve resposta.</Value>
     </Record>
@@ -6849,6 +6850,10 @@
       <Value>Comerciante solicitando pouso seguro. Verifique se o espaço de pouso está limpo e conectado. Uma máquina de venda automática também é necessária para processar uma negociação.</Value>
     </Record>
     <Record>
+      <Key>ContactTradeRequestFailInUse</Key>
+      <Value>Este contacto já está interagindo com alguém, tente novamente em breve.</Value>
+    </Record>
+    <Record>
       <Key>InputTextTradingTitle</Key>
       <Value>Terminal de Comércio</Value>
     </Record>
@@ -6860,6 +6865,7 @@
       <Key>ButtonContact</Key>
       <Value>Contactar</Value>
     </Record>
+    <!--Trading/Contact End -->
     <Record>
       <Key>LoadBackupsTitle</Key>
       <Value>Carregar cópia de segurança</Value>

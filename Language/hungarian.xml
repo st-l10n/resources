@@ -6813,6 +6813,7 @@
       <Value>Zárolva</Value>
     </Record>
     <Record>
+      <!--Trading/Contact Begin -->
       <Key>ContactEventDefault</Key>
       <Value>Nem volt válasz.</Value>
     </Record>
@@ -6833,6 +6834,10 @@
       <Value>A kereskedő biztonságosan szeretne leszállni. Biztosítsd számára, hogy a leszállásra kijelölt hely akadálymentes és hálózathoz csatlakoztatott. Az üzlet lebonyolításához kereskedő automata szükséges.</Value>
     </Record>
     <Record>
+      <Key>ContactTradeRequestFailInUse</Key>
+      <Value>Ez az ügyfél már valakivel kapcsolatba lépett, próbálkozz újra később.</Value>
+    </Record>
+    <Record>
       <Key>InputTextTradingTitle</Key>
       <Value>Kereskedő terminál</Value>
     </Record>
@@ -6840,6 +6845,7 @@
       <Key>ButtonContact</Key>
       <Value>Ügyfél</Value>
     </Record>
+    <!--Trading/Contact End -->
     <Record>
       <Key>LoadBackupsTitle</Key>
       <Value>Biztonsági mentés betöltése</Value>

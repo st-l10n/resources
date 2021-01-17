@@ -7447,6 +7447,7 @@
       <Value>Заблокировано</Value>
     </Record>
     <Record>
+      <!--Trading/Contact Begin -->
       <Key>ContactEventDefault</Key>
       <Value>Ответа не было.</Value>
     </Record>
@@ -7465,6 +7466,10 @@
     <Record>
       <Key>ContactTradeRequestFail</Key>
       <Value>Торговец запрашивает безопасную посадку. Убедитесь, что место посадки свободное и подключено к сети, так же потребуется склад.</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradeRequestFailInUse</Key>
+      <Value>Этот контакт уже взаимодействует с кем-то, попробуйте чуть позже.</Value>
     </Record>
     <Record>
       <Key>InputTextTradingTitle</Key>
@@ -7530,6 +7535,7 @@
       <Key>ButtonContact</Key>
       <Value>Конктакт</Value>
     </Record>
+    <!--Trading/Contact End -->
     <Record>
       <Key>LoadBackupsTitle</Key>
       <Value>Загрузить резервную копию</Value>
