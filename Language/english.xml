@@ -6394,6 +6394,10 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
       <Key>LoulanShortDesc</Key>
       <Value>Loulan, upon arrival you will notice a breathable atmosphere, high enough pressure to sustain life - but a severe lack of it. This sandy giant is situated in the Gargantuan System, moving closer to the black hole situated in the centre each day. While abandoned and no longer green and full of water, this planet still has a functioning atmosphere and you are tasked with scouring the wasteland to acquire the materials and resources needed to survive on this everlasting desert.</Value>
     </Record>
+	 <Record>
+      <Key>NewWorldAreaVenus</Key>
+      <Value>Venus</Value>
+    </Record>
     <Record>
       <Key>NewWorldAreaMars</Key>
       <Value>Mars</Value>
@@ -7636,6 +7640,10 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
       <Key>NewWorldSpaceShortDesc</Key>
       <Value>While there's no gravity or atmosphere, at least there's a lot of space to build!  You'll find yourself amongst several asteroids that may contain various ores and ices you can use to survive out here.</Value>
     </Record>
+	  <Record>
+      <Key>NewWorldVenusShortDesc</Key>
+      <Value>Venus planet!</Value>
+    </Record>
     <Record>
       <Key>NewWorldEuropaShortDesc</Key>
       <Value>Melting some of the ice on this cold world has finally given it an atmosphere, but it's extremely frigid environment presents a serious challenge for the stationeers.The extreme cold will cause batteries to rapidly lose power, so getting a steady power source and warm location are your priorities.</Value>
@@ -8307,8 +8315,8 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
     <Record>
       <Key>Locked</Key>
       <Value>Locked</Value>
-    </Record>
-    <Record>
+    </Record> 
+    <Record><!--Trading/Contact Begin -->
       <Key>ContactEventDefault</Key>
       <Value>There was no response.</Value>
     </Record>
@@ -8326,7 +8334,23 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
     </Record>
     <Record>
       <Key>ContactTradeRequestFail</Key>
-      <Value>Trader requesting safe landing. Please ensure landing space is clear and connected. A vending machine is also required to process a trade.</Value>
+      <Value>Trader requesting safe landing. A powered landing pad is required to continue.</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradeRequestFailInUse</Key>
+      <Value>Somebody is already interacting with this Trader, try again soon.</Value>
+    </Record>
+      <Record>
+      <Key>ContactLandingRequestFailVendingMachine</Key>
+      <Value>You need a powered Vending Machine on the network to interact with this trader.</Value>
+    </Record>
+    <Record>
+      <Key>ContactLandingRequestFailSatellite</Key>
+      <Value>There is an issue with your Satellite. Check it's connected to the network and powered.</Value>
+    </Record>
+      <Record>
+      <Key>ContactLandingRequestFailStorm</Key>
+      <Value>Trader is unable to travel in this storm.</Value>
     </Record>
     <Record>
       <Key>InputTextTradingTitle</Key>
@@ -8391,7 +8415,7 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
     <Record>
       <Key>ButtonContact</Key>
       <Value>Contact</Value>
-    </Record>
+    </Record> <!--Trading/Contact End -->
     <Record>
       <Key>LoadBackupsTitle</Key>
       <Value>Load Backup</Value>
