@@ -5424,6 +5424,11 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
       <Value>Mining Belt (Advanced)</Value>
       <Description>A mining belt with 12 slots for ore and three slots for tools.</Description>
     </RecordThing>
+    <RecordThing>
+      <Key>StructureWindTurbine</Key>
+      <Value>Wind Turbine</Value>
+      <Description />
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -6394,7 +6399,7 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
       <Key>LoulanShortDesc</Key>
       <Value>Loulan, upon arrival you will notice a breathable atmosphere, high enough pressure to sustain life - but a severe lack of it. This sandy giant is situated in the Gargantuan System, moving closer to the black hole situated in the centre each day. While abandoned and no longer green and full of water, this planet still has a functioning atmosphere and you are tasked with scouring the wasteland to acquire the materials and resources needed to survive on this everlasting desert.</Value>
     </Record>
-	 <Record>
+    <Record>
       <Key>NewWorldAreaVenus</Key>
       <Value>Venus</Value>
     </Record>
@@ -7640,7 +7645,7 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
       <Key>NewWorldSpaceShortDesc</Key>
       <Value>While there's no gravity or atmosphere, at least there's a lot of space to build!  You'll find yourself amongst several asteroids that may contain various ores and ices you can use to survive out here.</Value>
     </Record>
-	  <Record>
+    <Record>
       <Key>NewWorldVenusShortDesc</Key>
       <Value>Venus planet!</Value>
     </Record>
@@ -8315,8 +8320,8 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
     <Record>
       <Key>Locked</Key>
       <Value>Locked</Value>
-    </Record> 
-    <Record><!--Trading/Contact Begin -->
+    </Record>
+    <Record>
       <Key>ContactEventDefault</Key>
       <Value>There was no response.</Value>
     </Record>
@@ -8340,7 +8345,7 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
       <Key>ContactTradeRequestFailInUse</Key>
       <Value>Somebody is already interacting with this Trader, try again soon.</Value>
     </Record>
-      <Record>
+    <Record>
       <Key>ContactLandingRequestFailVendingMachine</Key>
       <Value>You need a powered Vending Machine on the network to interact with this trader.</Value>
     </Record>
@@ -8348,7 +8353,7 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
       <Key>ContactLandingRequestFailSatellite</Key>
       <Value>There is an issue with your Satellite. Check it's connected to the network and powered.</Value>
     </Record>
-      <Record>
+    <Record>
       <Key>ContactLandingRequestFailStorm</Key>
       <Value>Trader is unable to travel in this storm.</Value>
     </Record>
@@ -8415,7 +8420,7 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
     <Record>
       <Key>ButtonContact</Key>
       <Value>Contact</Value>
-    </Record> <!--Trading/Contact End -->
+    </Record>
     <Record>
       <Key>LoadBackupsTitle</Key>
       <Value>Load Backup</Value>
