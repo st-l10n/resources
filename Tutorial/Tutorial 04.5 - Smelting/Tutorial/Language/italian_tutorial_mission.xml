@@ -1,5 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>IT</Code>
-  <Interface/>
+  <Interface>
+    <Record>
+      <Key>4.5GetFurnace</Key>
+      <Value>Raccogli un {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildFurnace</Key>
+      <Value>Indossa la {THING:ItemToolBelt} nello slot {SLOT:Belt} </Value>
+    </Record>
+    <Record>
+      <Key>4.5FinishFurnace</Key>
+      <Value>Finisci la costruzione del telaio</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildPipe</Key>
+      <Value>Indossa la {THING:ItemToolBelt} nello slot {SLOT:Belt} </Value>
+    </Record>
+    <Record>
+      <Key>4.5PickUpPassiveVent</Key>
+      <Value>Raccogli un {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildPassiveVent</Key>
+      <Value>Indossa la {THING:ItemToolBelt} nello slot {SLOT:Belt} </Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildPump</Key>
+      <Value>Indossa la {THING:ItemToolBelt} nello slot {SLOT:Belt} </Value>
+    </Record>
+    <Record>
+      <Key>4.5PlaceConsole</Key>
+      <Value>Indossa la {THING:ItemToolBelt} nello slot {SLOT:Belt} </Value>
+    </Record>
+    <Record>
+      <Key>4.5ConsoleOn</Key>
+      <Value>Accendi il {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>4.5PickUpMiningBelt</Key>
+      <Value>Raccogli un {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>4.5EquiptMiningbelt</Key>
+      <Value>Equipaggia la {THING:ItemWireCutters}</Value>
+    </Record>
+    <Record>
+      <Key>4.5AddGoldtoFurnace</Key>
+      <Value>Raccogli un {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>4.5HowToMakeSteel</Key>
+      <Value>Salda il {THING:StructureFrame}</Value>
+    </Record>
+    <Record>
+      <Key>4.5PickUpSteel</Key>
+      <Value>Raccogli un {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildStationBattery</Key>
+      <Value>Indossa la {THING:ItemToolBelt} nello slot {SLOT:Belt} </Value>
+    </Record>
+    <Record>
+      <Key>4.5TurnBattery</Key>
+      <Value>Accendi il {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>4.5TurnOffVolPump</Key>
+      <Value>Lascialo sulla {THING:StructureBench}</Value>
+    </Record>
+  </Interface>
 </Language>

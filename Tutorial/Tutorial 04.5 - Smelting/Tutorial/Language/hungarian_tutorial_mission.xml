@@ -1,5 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>HU</Code>
-  <Interface/>
+  <Interface>
+    <Record>
+      <Key>4.5GetFurnace</Key>
+      <Value>Készíts egy {THING:ItemMuffin}t</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildFurnace</Key>
+      <Value>Hegeszd meg: {THING:StructureFrame}</Value>
+    </Record>
+    <Record>
+      <Key>4.5FinishFurnace</Key>
+      <Value>Fejezd be a váz hegesztését!</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildPipe</Key>
+      <Value>Hegeszd meg: {THING:StructureFrame}</Value>
+    </Record>
+    <Record>
+      <Key>4.5PickUpPassiveVent</Key>
+      <Value>Készíts egy {THING:ItemMuffin}t</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildPassiveVent</Key>
+      <Value>Hegeszd meg: {THING:StructureFrame}</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildPump</Key>
+      <Value>Hegeszd meg: {THING:StructureFrame}</Value>
+    </Record>
+    <Record>
+      <Key>4.5PlaceConsole</Key>
+      <Value>Hegeszd meg: {THING:StructureFrame}</Value>
+    </Record>
+    <Record>
+      <Key>4.5ConsoleOn</Key>
+      <Value>Vedd fel a {THING:ApplianceMicrowave}t</Value>
+    </Record>
+    <Record>
+      <Key>4.5PickUpMiningBelt</Key>
+      <Value>Vedd fel a {THING:ApplianceMicrowave}t</Value>
+    </Record>
+    <Record>
+      <Key>4.5EquiptMiningbelt</Key>
+      <Value>Süss egy {THING:ItemMuffin}t!</Value>
+    </Record>
+    <Record>
+      <Key>4.5AddGoldtoFurnace</Key>
+      <Value>Vedd fel a {THING:ApplianceMicrowave}t</Value>
+    </Record>
+    <Record>
+      <Key>4.5HowToMakeSteel</Key>
+      <Value>Hegeszd meg: {THING:StructureFrame}</Value>
+    </Record>
+    <Record>
+      <Key>4.5PickUpSteel</Key>
+      <Value>Vedd fel a {THING:ApplianceMicrowave}t</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildStationBattery</Key>
+      <Value>Hegeszd meg: {THING:StructureFrame}</Value>
+    </Record>
+    <Record>
+      <Key>4.5TurnBattery</Key>
+      <Value>Vedd fel a {THING:ApplianceMicrowave}t</Value>
+    </Record>
+    <Record>
+      <Key>4.5TurnOffVolPump</Key>
+      <Value>Tedd le a {THING:StructureBench}ra</Value>
+    </Record>
+  </Interface>
 </Language>

@@ -1,5 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>FI</Code>
-  <Interface/>
+  <Interface>
+    <Record>
+      <Key>4.5GetFurnace</Key>
+      <Value>Poimi {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildFurnace</Key>
+      <Value>Laita {THING:ItemToolBelt} {SLOT:Belt} lokeroon</Value>
+    </Record>
+    <Record>
+      <Key>4.5FinishFurnace</Key>
+      <Value>Hitsaa Runko Loppuun</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildPipe</Key>
+      <Value>Laita {THING:ItemToolBelt} {SLOT:Belt} lokeroon</Value>
+    </Record>
+    <Record>
+      <Key>4.5PickUpPassiveVent</Key>
+      <Value>Poimi {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildPassiveVent</Key>
+      <Value>Laita {THING:ItemToolBelt} {SLOT:Belt} lokeroon</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildPump</Key>
+      <Value>Laita {THING:ItemToolBelt} {SLOT:Belt} lokeroon</Value>
+    </Record>
+    <Record>
+      <Key>4.5PlaceConsole</Key>
+      <Value>Laita {THING:ItemToolBelt} {SLOT:Belt} lokeroon</Value>
+    </Record>
+    <Record>
+      <Key>4.5ConsoleOn</Key>
+      <Value>Käynnistä {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>4.5PickUpMiningBelt</Key>
+      <Value>Poimi {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>4.5EquiptMiningbelt</Key>
+      <Value>Ota {COLORGREEN:Kaapelileikkurit} käteen</Value>
+    </Record>
+    <Record>
+      <Key>4.5AddGoldtoFurnace</Key>
+      <Value>Poimi {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>4.5HowToMakeSteel</Key>
+      <Value>Hitsaa {THING:StructureFrame}</Value>
+    </Record>
+    <Record>
+      <Key>4.5PickUpSteel</Key>
+      <Value>Poimi {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildStationBattery</Key>
+      <Value>Laita {THING:ItemToolBelt} {SLOT:Belt} lokeroon</Value>
+    </Record>
+    <Record>
+      <Key>4.5TurnBattery</Key>
+      <Value>Käynnistä {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>4.5TurnOffVolPump</Key>
+      <Value>Pudota uuni {COLORGREEN:Tasolle}</Value>
+    </Record>
+  </Interface>
 </Language>

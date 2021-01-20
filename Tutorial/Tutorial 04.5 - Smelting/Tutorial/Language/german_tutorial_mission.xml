@@ -1,5 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>DE</Code>
-  <Interface/>
+  <Interface>
+    <Record>
+      <Key>4.5GetFurnace</Key>
+      <Value>{THING:ItemTablet} aufnehmen</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildFurnace</Key>
+      <Value>{THING:ItemAreaPowerControl} im hervorgehobenen Bereich platzieren.</Value>
+    </Record>
+    <Record>
+      <Key>4.5FinishFurnace</Key>
+      <Value>Schweißarbeiten am Gerüst beenden</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildPipe</Key>
+      <Value>{THING:ItemAreaPowerControl} im hervorgehobenen Bereich platzieren.</Value>
+    </Record>
+    <Record>
+      <Key>4.5PickUpPassiveVent</Key>
+      <Value>{THING:ItemTablet} aufnehmen</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildPassiveVent</Key>
+      <Value>{THING:ItemAreaPowerControl} im hervorgehobenen Bereich platzieren.</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildPump</Key>
+      <Value>{THING:ItemAreaPowerControl} im hervorgehobenen Bereich platzieren.</Value>
+    </Record>
+    <Record>
+      <Key>4.5PlaceConsole</Key>
+      <Value>{THING:ItemAreaPowerControl} im hervorgehobenen Bereich platzieren.</Value>
+    </Record>
+    <Record>
+      <Key>4.5ConsoleOn</Key>
+      <Value>{THING:ItemTablet} einschalten</Value>
+    </Record>
+    <Record>
+      <Key>4.5PickUpMiningBelt</Key>
+      <Value>{THING:ItemGoldIngot} aus der orangenen Kiste nehmen.</Value>
+    </Record>
+    <Record>
+      <Key>4.5EquiptMiningbelt</Key>
+      <Value>{THING:ItemMiningBelt} anlegen</Value>
+    </Record>
+    <Record>
+      <Key>4.5AddGoldtoFurnace</Key>
+      <Value>{THING:ItemCopperIngot} aus der orangenen Kiste nehmen.</Value>
+    </Record>
+    <Record>
+      <Key>4.5HowToMakeSteel</Key>
+      <Value>Verschweiße das {THING:StructureFrame} um das Tutorial ab zu schließen</Value>
+    </Record>
+    <Record>
+      <Key>4.5PickUpSteel</Key>
+      <Value>{THING:ItemGoldIngot} aus der orangenen Kiste nehmen.</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildStationBattery</Key>
+      <Value>{THING:ItemAreaPowerControl} im hervorgehobenen Bereich platzieren.</Value>
+    </Record>
+    <Record>
+      <Key>4.5TurnBattery</Key>
+      <Value>{THING:ItemTablet} einschalten</Value>
+    </Record>
+    <Record>
+      <Key>4.5TurnOffVolPump</Key>
+      <Value>Die {THING:StructureAutolathe} einschalten.</Value>
+    </Record>
+  </Interface>
 </Language>

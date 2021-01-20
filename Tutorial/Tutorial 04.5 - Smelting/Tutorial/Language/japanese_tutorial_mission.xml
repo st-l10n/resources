@@ -1,5 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>KN</Code>
-  <Interface/>
+  <Interface>
+    <Record>
+      <Key>4.5GetFurnace</Key>
+      <Value>{THING:ItemIronSheets} を拾う。</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildFurnace</Key>
+      <Value>ハイライトされた位置に {THING:StructureGasSensor} を建てる。</Value>
+    </Record>
+    <Record>
+      <Key>4.5FinishFurnace</Key>
+      <Value>フレームの溶接を完了させる</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildPipe</Key>
+      <Value>ハイライトされた位置に {THING:StructureGasSensor} を建てる。</Value>
+    </Record>
+    <Record>
+      <Key>4.5PickUpPassiveVent</Key>
+      <Value>{THING:ItemIronSheets} を拾う。</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildPassiveVent</Key>
+      <Value>ハイライトされた位置に {THING:StructureGasSensor} を建てる。</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildPump</Key>
+      <Value>ハイライトされた位置に {THING:StructureGasSensor} を建てる。</Value>
+    </Record>
+    <Record>
+      <Key>4.5PlaceConsole</Key>
+      <Value>ハイライトされた位置に {THING:StructureGasSensor} を建てる。</Value>
+    </Record>
+    <Record>
+      <Key>4.5ConsoleOn</Key>
+      <Value>{THING:ItemTablet} の電源を入れる。</Value>
+    </Record>
+    <Record>
+      <Key>4.5PickUpMiningBelt</Key>
+      <Value>オレンジ色のクレートから {THING:ItemGoldIngot} を取り出す。</Value>
+    </Record>
+    <Record>
+      <Key>4.5EquiptMiningbelt</Key>
+      <Value>{THING:ItemMiningBelt}  を装備する。</Value>
+    </Record>
+    <Record>
+      <Key>4.5AddGoldtoFurnace</Key>
+      <Value>クレートから {THING:ItemKitSensor} を取り出す。</Value>
+    </Record>
+    <Record>
+      <Key>4.5HowToMakeSteel</Key>
+      <Value>{THING:StructureFrame}を溶接する</Value>
+    </Record>
+    <Record>
+      <Key>4.5PickUpSteel</Key>
+      <Value>オレンジ色のクレートから {THING:ItemGoldIngot} を取り出す。</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildStationBattery</Key>
+      <Value>ハイライトされた位置に {THING:StructureGasSensor} を建てる。</Value>
+    </Record>
+    <Record>
+      <Key>4.5TurnBattery</Key>
+      <Value>{THING:ItemLabeller} の電源を入れる。</Value>
+    </Record>
+    <Record>
+      <Key>4.5TurnOffVolPump</Key>
+      <Value>{THING:StructureAutolathe} を起動する。</Value>
+    </Record>
+  </Interface>
 </Language>
