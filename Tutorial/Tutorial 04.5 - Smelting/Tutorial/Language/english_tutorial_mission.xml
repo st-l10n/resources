@@ -6,7 +6,7 @@
 	<Interface>
 		<Record>
 			<Key>TutoiralSmelting</Key>
-			<Value>Smelting</Value>
+			<Value>Alloy Smelting</Value>
 		</Record>
 		<Record>
 			<Key>TutoiralSmeltingDescription</Key><!--This is the description that appers in the menu-->
@@ -17,170 +17,301 @@
 			<Value>Practical Training: Stage V</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>TutoiralSmleting</Key>
+			<Value>Smelting</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>TutoiralSmletingSubTitle</Key>
+			<Value>Practical Training: Stage V</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>TutoiralSmletingDescription</Key>
+			<Value>Welcome Cadet. Stationeer Command is pleased with your progress. They have authorized you to progress to smelting alloys, for more advanced devices.</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5Narration1T</Key>
+			<Value>Smelting</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5Narration1D</Key>
+			<Value>Your base is low on power, so it needs a battery to store power at night. Station batteries require steel, so first you must build a furnace for smelting alloys.</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5GetFurnace</Key>
+			<Value>Get furnace kit from crate</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5BuildFurnace</Key>
+			<Value>Build furnace in highlighted position</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5FinishFurnace</Key>
+			<Value>Finish building furnace</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5Narration2D</Key>
+			<Value>Furnaces produce usable waste gas, but you're not set up for that yet. So you will have to pump it outside. This will let you vent excess pressure later, too.</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5BuildPipe</Key>
+			<Value>Place pipe in highlighted area</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5PickUpPassiveVent</Key>
+			<Value>Get the passive vent from the crate</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5BuildPassiveVent</Key>
+			<Value>Place vent outside in highlighted position</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5Narration3D</Key>
+			<Value>The volume pump will let you remove waste gas from the furnace when you're done smelting. It will also act as a valve to maintain pressure.</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5BuildPump</Key>
+			<Value>Place volume pump in highlighted area</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5Narration4D</Key>
+			<Value>To run a furnace, you need to monitor its pressure and temperature. Set up consoles to display this information for you.</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5PlaceConsole</Key>
+			<Value>Place console In highlighted Postion</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5PutGasCircuitInConsole</Key>
+			<Value>Add circuitboard to unfinished console</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5Finishconsole</Key>
+			<Value>Complete console with glass sheets</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5PutDataDiskInConsole</Key>
+			<Value>Insert data disk to console</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5ConsoleOn</Key>
+			<Value>Turn on console</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5Narration5D</Key>
+			<Value>You must program the console to show the furnace temperature. Toggle the mode to 'Temperature' by clicking on the setting currently assigned to 'Pressure'.</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5ConfigureGasSensorTask</Key>
+			<Value>Set console to 'Temperature' mode</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4,5ConfigureGasSensorTask1</Key>
+			<Value>Select furnace from list of devices</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4,5ConfigureGasSensorTask2</Key>
+			<Value>Configure second console for 'Pressure'</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5Narration6D</Key>
+			<Value>Consult the Stationpedia to find out what resources are required for creating a station battery.</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5HowToMakeBattery</Key>
+			<Value>Consult the station battery page of Stationpedia</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5Narration7D</Key>
+			<Value>While furnaces work best with a steady gas supply, you can power one with a fuel mixture of oxite and volatiles. You must be very careful to add precisely the right quantites. Find the exact fuel ratio in Stationpedia.</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5PediaNavigation1</Key>
+			<Value>Check Stationpedia for furnace fuel proportions</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5Narration8D</Key>
+			<Value>We've left you a supply of oxite and volatiles in the mining belt in the crate.</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5PickUpMiningBelt</Key>
+			<Value>Pick up mining belt from crate</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5EquiptMiningbelt</Key>
+			<Value>Equip mining belt</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5Narration10D</Key>
+			<Value>Don't always come in the exact quantity you need, so you need to split them. Try it now.</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>OpenOxiteMenu</Key>
+			<Value>Click on oxite ore</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5SplitStack</Key>
+			<Value>Split oxite ore into two stacks of 4</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5Narration11D</Key>
+			<Value>Okay, let's fire this thing up. You will eventually need a gas supply network, but adding ore directly to the furnace will work for now.</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5AddOxitetoFurnace</Key>
+			<Value>Add 6 oxite to furnace</Value><!--Change to match tutorial-->
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5IgnitingTheFurnace</Key>
+			<Value>Press activate button until lid opens again</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5AddVolatilestoFurnace</Key>
+			<Value>Add 12 volatiles to furnace</Value><!--Change to match tutorial-->
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5IgnitingTheFurnace</Key>
+			<Value>Press activate button until lid opens again</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>4.5Narration12D</Key>
+			<Value>Before you make steel, prepare your other ingredients. The furnace smelts ordinary ingots much faster than the arc furnace. We've left you ores in the crate.</Value>
 		</Record>
 		<Record>
-			<Key></Key>
-			<Value></Value>
+			<Key>5AddCoppertoFurnace</Key>
+			<Value>Add copper ore to furnace</Value>
 		</Record>
-		
-	
+		<Record>
+			<Key>4.5OpenFurnace</Key>
+			<Value>Pull furnace lever when smelting complete</Value>
+		</Record>
+		<Record>
+			<Key>4.5SmeltCopper</Key>
+			<Value>Complete copper ingot</Value>
+		</Record>
+		<Record>
+			<Key>4.5Narration13D</Key>
+			<Value>Excellent, now let's get alchemical and smelt a gold ingot.</Value>
+		</Record>
+		<Record>
+			<Key>4.5AddGoldtoFurnace</Key>
+			<Value>Insert gold ore into the furnace</Value>
+		</Record>
+		<Record>
+			<Key>4.5OpenFurnace</Key>
+			<Value>Wait for gold to finish smelting then open furnace</Value>
+		</Record>
+		<Record>
+			<Key>4.5SmeltGold</Key>
+			<Value>Complete Gold Ingot</Value>
+		</Record>
+		<Record>
+			<Key>4.5Narration14D</Key>
+			<Value>The furnace maintains pressure, even when it cools. So unless you want to go 'bang', vent the furnace.
+Clear out the gas and reset the pressure.</Value>
+		</Record>
+		<Record>
+			<Key>4.5TurnOnVolPump</Key>
+			<Value>Turn on volume pump to vent gas</Value>
+		</Record>
+		<Record>
+			<Key>4.5VentingTheGases</Key>
+			<Value>Let pressure reduce to less than 99kPa</Value>
+		</Record>
+		<Record>
+			<Key>4.5Narration15D</Key>
+			<Value>Now that the furnace pressure has reduced to safe levels, shut down the volume pump and get the furnace going again.</Value>
+		</Record>
+		<Record>
+			<Key>4.5VentingTheGases2</Key>
+			<Value>Get furnace going again.</Value>
+		</Record>
+		<Record>
+			<Key>4.5Narration16D</Key>
+			<Value>Correct ingredient proportions are also critical for creating alloys. Use the Stationpedia to find the best ratio of iron and carbon to make steel, as well as the appropriate pressure and temperature.</Value>
+		</Record>
+		<Record>
+			<Key>4.5HowToMakeSteel</Key>
+			<Value>Consult steel page in Stationpedia</Value>
+		</Record>
+		<Record>
+			<Key>4.5Narration17D</Key>
+			<Value>Add carbon (coal) and iron from the cabinet to the furnace. The furnace will automatically start smelting the alloy.</Value>
+		</Record>
+		<Record>
+			<Key>4.5AddIrontoFurnace</Key>
+			<Value>Add 30 iron</Value>
+		</Record>
+		<Record>
+			<Key>4.5AddCoaltoFurnace</Key>
+			<Value>Add 10 coal</Value>
+		</Record>
+		<Record>
+			<Key>4.5SmeltSteel</Key>
+			<Value>Complete a steel ingot</Value>
+		</Record>
+		<Record>
+			<Key>4.5PickUpSteel</Key>
+			<Value>Pick up steel ingot</Value>
+		</Record>
+		<Record>
+			<Key>4.5Narration18D</Key>
+			<Value>Now you have everything you need to make a station battery, and complete your power system. Print its kit using the electronics printer.</Value>
+		</Record>
+		<Record>
+			<Key>4.5MakeStationBattery</Key>
+			<Value>Print a station battery</Value>
+		</Record>
+		<Record>
+			<Key>4.5Narration19D</Key>
+			<Value>The station battery provides you with a way to store power to use at night or times of high drain, so you don't need to always be generating it. </Value>
+		</Record>
+		<Record>
+			<Key>4.5BuildStationBattery</Key>
+			<Value>Build station battery in highlighted position</Value>
+		</Record>
+		<Record>
+			<Key>4.5Narration20D</Key>
+			<Value>Battries need to be turned on to start reciving power.</Value>
+		</Record>
+		<Record>
+			<Key>4.5TurnBattery</Key>
+			<Value>Turn on battery</Value>
+		</Record>
+		<Record>
+			<Key>4.5Narration21D</Key>
+			<Value>Now turn on the area power controllers (APCs) to activate the new battery system and main power system.</Value>
+		</Record>
+		<Record>
+			<Key>4.5TurnAPC1</Key>
+			<Value>Turn on battery APC</Value>
+		</Record>
+		<Record>
+			<Key>4.5TurnAPC</Key>
+			<Value>Turn on main power APC</Value>
+		</Record>
+		<Record>
+			<Key>4.5Narration22D</Key>
+			<Value>Congratulations - your base's power system is finished! That's the last step of Practical Testing, Phase V. Press the 'Complete' button to transmit your results to Stationeer Command.</Value>
+		</Record>
+		<Record>
+			<Key>4.5OnButtonPressTaskT1</Key>
+			<Value>Press button to complete test</Value>
+		</Record>
+		<Record>
+			<Key>4.5AddCoppertoFurnace</Key>
+			<Value>Inset copper ore into furnace</Value>
+		</Record>
+		<Record>
+			<Key>4.5TurnOffVolPump</Key>
+			<Value>Turn off the volume pump</Value>
+		</Record>
+		<Record>
+			<Key>4.5CloseFurnace</Key>
+			<Value>Close the furnace by using the release lever</Value>
+		</Record>
+		<Record>
+			<Key>TutoiralSmeltingEndDescription</Key>
+			<Value>Excellent work, Cadet - you have mastered basic steel smelting.</Value>
+		</Record>
 	</Interface>
 </Language>
