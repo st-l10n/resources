@@ -2076,31 +2076,31 @@ Displaying the internal pressure of pipe networks, it  also reads out temperatur
       <Key>StructurePipeCorner</Key>
       <Value>Pipe (Corner)</Value>
       <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
-Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60mPa. Beyond that, things get 'interesting'.</Description>
+Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60MPa. Beyond that, things get 'interesting'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction</Key>
       <Value>Pipe (Junction)</Value>
       <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
-Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60mPa. Beyond that, things get 'interesting'.</Description>
+Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60MPa. Beyond that, things get 'interesting'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction3</Key>
       <Value>Pipe (3-Way Corner)</Value>
       <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
-Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60mPa. Beyond that, things get 'interesting'.</Description>
+Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60MPa. Beyond that, things get 'interesting'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction5</Key>
       <Value>Pipe (5-Way Junction)</Value>
       <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
-Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60mPa. Beyond that, things get 'interesting'.</Description>
+Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60MPa. Beyond that, things get 'interesting'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction6</Key>
       <Value>Pipe (6-Way Junction)</Value>
       <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
-Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60mPa. Beyond that, things get 'interesting'.</Description>
+Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60MPa. Beyond that, things get 'interesting'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLabel</Key>
@@ -2125,13 +2125,13 @@ The speed of heat gain or loss will depend on the gas in question. Adding multip
       <Key>StructurePipeStraight</Key>
       <Value>Pipe (Straight)</Value>
       <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
-Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60mPa. Beyond that, things get 'interesting'.</Description>
+Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60MPa. Beyond that, things get 'interesting'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeTJunction</Key>
       <Value>Pipe (T Junction)</Value>
       <Description>The first thing a Stationeer learns, is that they are alone. The second is that pipes store gas.
-Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60mPa. Beyond that, things get 'interesting'.</Description>
+Pipes spread their contents evenly through the entire network, and can be connected to a huge range of devices and structures. Basic pipes can withstand pressures of up to 60MPa. Beyond that, things get 'interesting'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerConnector</Key>
@@ -5479,6 +5479,31 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
       <Value>Liquid Pipe T Junction</Value>
       <Description />
     </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageWindTurbine001</Key>
+      <Value>Wreckage Wind Turbine</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageWindTurbine002</Key>
+      <Value>Wreckage Wind Turbine</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageWindTurbine003</Key>
+      <Value>Wreckage Wind Turbine</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageWindTurbine004</Key>
+      <Value>Wreckage Wind Turbine</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageWindTurbine005</Key>
+      <Value>Wreckage Wind Turbine</Value>
+      <Description />
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -7740,8 +7765,16 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
       <Value>Input</Value>
     </Record>
     <Record>
+      <Key>ConnectionInput2</Key>
+      <Value>Input 2</Value>
+    </Record>
+    <Record>
       <Key>ConnectionOutput</Key>
       <Value>Output</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionOutput2</Key>
+      <Value>Output 2</Value>
     </Record>
     <Record>
       <Key>ConnectionWaste</Key>
@@ -10388,7 +10421,7 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     </Record>
     <Record>
       <Key>StationpediaHowToManufacture</Key>
-      <Value>How to Manufacure</Value>
+      <Value>How to Manufacture</Value>
     </Record>
     <Record>
       <Key>StationpediaBuildStates</Key>
