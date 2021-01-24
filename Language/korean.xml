@@ -642,6 +642,10 @@
       <Value>운반용 탱크 (물)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>DynamicLiquidCanisterEmpty</Key>
+      <Value>운반용 탱크</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>DynamicGenerator</Key>
       <Value>휴대용 발전기</Value>
     </RecordThing>
@@ -848,6 +852,10 @@
     <RecordThing>
       <Key>ItemGasCanisterWater</Key>
       <Value>케니스터 (물)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLiquidCanisterEmpty</Key>
+      <Value>케니스터</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterPollutants</Key>
@@ -2454,6 +2462,10 @@
       <Value>Circuitboard (Graph Display)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitDynamicLiquidCanister</Key>
+      <Value>운반용 탱크</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemGlasses</Key>
       <Value>유리판</Value>
     </RecordThing>
@@ -3125,26 +3137,6 @@
       <Key>ItemWreckageCompositeDoorGlass2</Key>
       <Value>합성 문</Value>
     </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine001</Key>
-      <Value>전기 용광로</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine002</Key>
-      <Value>전기 용광로</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine003</Key>
-      <Value>전기 용광로</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine004</Key>
-      <Value>전기 용광로</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine005</Key>
-      <Value>전기 용광로</Value>
-    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -3326,6 +3318,10 @@
     <Record>
       <Key>SensorProcessingUnit</Key>
       <Value>처리</Value>
+    </Record>
+    <Record>
+      <Key>LiquidCanister</Key>
+      <Value>가스 케니스터</Value>
     </Record>
     <Record>
       <Key>HandSlot</Key>

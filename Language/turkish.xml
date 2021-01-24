@@ -720,6 +720,10 @@
       <Value>Taşınabilir Tank (Su)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>DynamicLiquidCanisterEmpty</Key>
+      <Value>Taşınabilir Tank</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>DynamicGenerator</Key>
       <Value>Taşınabilir Jeneratör</Value>
     </RecordThing>
@@ -926,6 +930,10 @@
     <RecordThing>
       <Key>ItemGasCanisterWater</Key>
       <Value>Kapsül (Su)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLiquidCanisterEmpty</Key>
+      <Value>Toprak Kapsülü</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxide</Key>
@@ -3060,6 +3068,10 @@
       <Value>Donanım (Taşınabilir Tank)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitDynamicLiquidCanister</Key>
+      <Value>Donanım (Taşınabilir Tank)</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemFlowerBlue</Key>
       <Value>Çiçek (Mavi)</Value>
     </RecordThing>
@@ -4471,26 +4483,6 @@
       <Key>ItemMiningBeltAdvanced</Key>
       <Value>Madencilik Kemeri (Gelişmiş)</Value>
     </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine001</Key>
-      <Value>Ark Fırını</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine002</Key>
-      <Value>Ark Fırını</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine003</Key>
-      <Value>Ark Fırını</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine004</Key>
-      <Value>Ark Fırını</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine005</Key>
-      <Value>Ark Fırını</Value>
-    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -4724,6 +4716,10 @@
     <Record>
       <Key>SensorProcessingUnit</Key>
       <Value>Sensör İşleme Birimi</Value>
+    </Record>
+    <Record>
+      <Key>LiquidCanister</Key>
+      <Value>Toprak Kartuşu</Value>
     </Record>
     <Record>
       <Key>HandSlot</Key>

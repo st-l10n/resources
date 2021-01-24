@@ -745,6 +745,10 @@
       <Value>携帯タンク (水)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>DynamicLiquidCanisterEmpty</Key>
+      <Value>携帯タンク</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>DynamicGenerator</Key>
       <Value>携帯発電機</Value>
     </RecordThing>
@@ -951,6 +955,10 @@
     <RecordThing>
       <Key>ItemGasCanisterWater</Key>
       <Value>キャニスター(水)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLiquidCanisterEmpty</Key>
+      <Value>ダートキャニスター</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxide</Key>
@@ -3081,6 +3089,10 @@
       <Value>キット (携帯タンク)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitDynamicLiquidCanister</Key>
+      <Value>キット (携帯タンク)</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemFlowerBlue</Key>
       <Value>花 (青)</Value>
     </RecordThing>
@@ -4216,26 +4228,6 @@
       <Key>ItemWreckageCompositeDoorGlass2</Key>
       <Value>複合材ドア</Value>
     </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine001</Key>
-      <Value>アーク炉</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine002</Key>
-      <Value>アーク炉</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine003</Key>
-      <Value>アーク炉</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine004</Key>
-      <Value>アーク炉</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine005</Key>
-      <Value>アーク炉</Value>
-    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -4465,6 +4457,10 @@
     <Record>
       <Key>SensorProcessingUnit</Key>
       <Value>処理中</Value>
+    </Record>
+    <Record>
+      <Key>LiquidCanister</Key>
+      <Value>ダートキャニスター</Value>
     </Record>
     <Record>
       <Key>HandSlot</Key>

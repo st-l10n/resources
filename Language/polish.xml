@@ -513,6 +513,10 @@
       <Value>Przenosny Zbiornik (Woda)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>DynamicLiquidCanisterEmpty</Key>
+      <Value>Przenosny Zbiornik (Pusty)</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>DynamicGenerator</Key>
       <Value>Przenosny Generator</Value>
     </RecordThing>
@@ -687,6 +691,10 @@
     <RecordThing>
       <Key>ItemGasCanisterWater</Key>
       <Value>Butla na Wode (H20)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLiquidCanisterEmpty</Key>
+      <Value>Butla na gaz (Pusta)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterPollutants</Key>
@@ -2753,6 +2761,10 @@
       <Value>Zestaw (Przenośny zbiornik)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitDynamicLiquidCanister</Key>
+      <Value>Zestaw (Przenośny zbiornik)</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemFlowerBlue</Key>
       <Value>Kwiat (Niebieski)</Value>
     </RecordThing>
@@ -3756,26 +3768,6 @@
       <Key>ItemWreckageCompositeDoorGlass2</Key>
       <Value>Drzwi Kompzytowe</Value>
     </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine001</Key>
-      <Value>Piec Lukowy</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine002</Key>
-      <Value>Piec Lukowy</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine003</Key>
-      <Value>Piec Lukowy</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine004</Key>
-      <Value>Piec Lukowy</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine005</Key>
-      <Value>Piec Lukowy</Value>
-    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -3981,6 +3973,10 @@
     <Record>
       <Key>SensorProcessingUnit</Key>
       <Value>Przetwarzanie</Value>
+    </Record>
+    <Record>
+      <Key>LiquidCanister</Key>
+      <Value>Butla z gazem</Value>
     </Record>
     <Record>
       <Key>HandSlot</Key>

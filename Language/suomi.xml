@@ -574,6 +574,10 @@
       <Value>Kannettava säiliö (vesi)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>DynamicLiquidCanisterEmpty</Key>
+      <Value>Kannettava säiliö</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>DynamicGenerator</Key>
       <Value>Kannettava generaattori</Value>
     </RecordThing>
@@ -780,6 +784,10 @@
     <RecordThing>
       <Key>ItemGasCanisterWater</Key>
       <Value>Kanisteri (vesi)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLiquidCanisterEmpty</Key>
+      <Value>Kanisteri</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterPollutants</Key>
@@ -2890,6 +2898,10 @@
       <Value>Varustepakkaus (kannettava säiliö)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitDynamicLiquidCanister</Key>
+      <Value>Varustepakkaus (kannettava säiliö)</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemFlowerBlue</Key>
       <Value>Kukka (sininen)</Value>
     </RecordThing>
@@ -3881,26 +3893,6 @@
       <Key>ItemWreckageCompositeDoorGlass2</Key>
       <Value>Komposiittiovi</Value>
     </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine001</Key>
-      <Value>Valokaariuuni</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine002</Key>
-      <Value>Valokaariuuni</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine003</Key>
-      <Value>Valokaariuuni</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine004</Key>
-      <Value>Valokaariuuni</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine005</Key>
-      <Value>Valokaariuuni</Value>
-    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -4110,6 +4102,10 @@
     <Record>
       <Key>SensorProcessingUnit</Key>
       <Value>Käsittely</Value>
+    </Record>
+    <Record>
+      <Key>LiquidCanister</Key>
+      <Value>Kaasukanisteri</Value>
     </Record>
     <Record>
       <Key>HandSlot</Key>

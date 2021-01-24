@@ -725,6 +725,10 @@
       <Value>Hordozható tartály (Víz)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>DynamicLiquidCanisterEmpty</Key>
+      <Value>Hordozható tartály</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>DynamicGenerator</Key>
       <Value>Hordozható generátor</Value>
     </RecordThing>
@@ -931,6 +935,10 @@
     <RecordThing>
       <Key>ItemGasCanisterWater</Key>
       <Value>Gázpalack (Víz)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLiquidCanisterEmpty</Key>
+      <Value>Gázpalack</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxide</Key>
@@ -3041,6 +3049,10 @@
       <Value>Készlet (Hordozható tartály)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitDynamicLiquidCanister</Key>
+      <Value>Készlet (Hordozható tartály)</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemFlowerBlue</Key>
       <Value>Virág (Kék)</Value>
     </RecordThing>
@@ -4140,26 +4152,6 @@
       <Key>ItemWreckageCompositeDoorGlass2</Key>
       <Value>Kompozit ajtó</Value>
     </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine001</Key>
-      <Value>Elektromos kohó</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine002</Key>
-      <Value>Elektromos kohó</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine003</Key>
-      <Value>Elektromos kohó</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine004</Key>
-      <Value>Elektromos kohó</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine005</Key>
-      <Value>Elektromos kohó</Value>
-    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -4385,6 +4377,10 @@
     <Record>
       <Key>SensorProcessingUnit</Key>
       <Value>Feldolgozás</Value>
+    </Record>
+    <Record>
+      <Key>LiquidCanister</Key>
+      <Value>Salakanyag-tartály</Value>
     </Record>
     <Record>
       <Key>HandSlot</Key>
