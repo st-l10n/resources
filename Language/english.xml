@@ -853,6 +853,11 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
       <Description>Portable tanks store stuff. You can bolt one to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network to refill it. But try to keep pressure under 100 atmospheres, or you'll end up wet, hurt and sorry, without any of the fun. You can refill a {THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach to a rocket and take it somewhere distant and dry, then feel good about yourself.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>DynamicLiquidCanisterEmpty</Key>
+      <Value>Portable Liquid Tank</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
       <Key>DynamicGenerator</Key>
       <Value>Portable Generator</Value>
       <Description>Every &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer's}&lt;/color&gt; best friend, the portable generator gets you up and running, fast. Fill it with a {THING:ItemGasCanisterFuel} to power up and charge a {THING:ItemBatteryCell}, or attach it to a {THING:StructurePowerConnector} to link it into your electrical network. It's pressure driven, so functions more efficiently at lower temperatures, and REALLY efficiently if supercooled. Perfecting your fuel mix also makes a big difference.</Description>
@@ -1111,6 +1116,11 @@ If an egg has been fertilized, and is kept between 20C-30C, an {THING:EntityChic
       <Key>ItemGasCanisterWater</Key>
       <Value>Canister (Water)</Value>
       <Description>The blue portable &lt;color=#0080FFFF&gt;{LINK:GasPage;H20}&lt;/color&gt; canister has a 64L capacity, supplying water to items like the {THING:DynamicHydroponics} unit, or any other connected system. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill. Careful not to pressurize beyond 100kPA, or it may go 'bang'.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLiquidCanisterEmpty</Key>
+      <Value>Liquid Canister</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxide</Key>
@@ -3527,6 +3537,11 @@ Note that transformers operate as data isolators, preventing data flowing into a
       <Value>Kit (Portable Tank)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitDynamicLiquidCanister</Key>
+      <Value>Kit (Portable Liquid Tank)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
       <Key>ItemFlowerBlue</Key>
       <Value>Flower (Blue)</Value>
     </RecordThing>
@@ -5737,6 +5752,10 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
     <Record>
       <Key>SensorProcessingUnit</Key>
       <Value>Sensor Processing Unit</Value>
+    </Record>
+    <Record>
+      <Key>LiquidCanister</Key>
+      <Value>Liquid Canister</Value>
     </Record>
     <Record>
       <Key>HandSlot</Key>
