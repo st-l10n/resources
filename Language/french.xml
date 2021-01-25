@@ -6832,6 +6832,10 @@ Un endroit idéal pour le joueur débutant, avec moins de dangers et de complexi
       <Value>Bien qu&apos;il n&apos;y ait pas de gravité ou d&apos;atmosphère, au moins il y a beaucoup d&apos;espace à construire !  Vous vous retrouverez parmi plusieurs astéroïdes qui peuvent contenir divers minerais et glaces que vous pouvez utiliser pour survivre ici.</Value>
     </Record>
     <Record>
+      <Key>NewWorldVenusShortDesc</Key>
+      <Value>Des températures extrêmes et des pressions ultra-élevées font de Vénus un endroit où il n’y a pas de place pour les timides. Seuls les Stationeers les plus accomplis survivront sur cette planète autrefois sœur de la terre. Devenue, aujourd’hui un rocher stérile. Creusez profondément, ou rentrez chez vous.</Value>
+    </Record>
+    <Record>
       <Key>NewWorldEuropaShortDesc</Key>
       <Value>La fonte d&apos;une partie de la glace sur ce monde froid lui a finalement donné une atmosphère, mais son environnement extrêmement glacial représente un sérieux défi pour les stationautes. Le froid extrême fera rapidement perdre de l&apos;énergie aux batteries, donc obtenir une source d&apos;énergie stable et un endroit chaud sont vos priorités.</Value>
     </Record>
@@ -7428,6 +7432,14 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
     <Record>
       <Key>ContactTradeRequestFailInUse</Key>
       <Value>Ce contact est déjà en interaction avec quelqu&apos;un, essayez plus tard.</Value>
+    </Record>
+    <Record>
+      <Key>ContactLandingRequestFailVendingMachine</Key>
+      <Value>Vous avez besoin d’un distributeur automatique connecté au réseau pour interagir avec ce marchant.</Value>
+    </Record>
+    <Record>
+      <Key>ContactLandingRequestFailSatellite</Key>
+      <Value>Il y a un problème avec votre satellite. Vérifiez s’il est connecté au réseau et alimenté en énergie.</Value>
     </Record>
     <Record>
       <Key>ContactLandingRequestFailStorm</Key>
@@ -9078,15 +9090,11 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
     </Record>
     <Record>
       <Key>PressureKeySPDA</Key>
-      <Value>Pression du réservoir</Value>
+      <Value>Pression maximale:</Value>
     </Record>
     <Record>
       <Key>CableMaxPowerSPDA</Key>
       <Value>Puissance maximale :</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaTitle</Key>
-      <Value>Stationeers</Value>
     </Record>
     <Record>
       <Key>StationpediaSearch</Key>
@@ -9162,7 +9170,7 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
     </Record>
     <Record>
       <Key>StationpediaFoundIn</Key>
-      <Value>Son</Value>
+      <Value>Trouvé dans</Value>
     </Record>
     <Record>
       <Key>StationpediaConstructionOptions</Key>
