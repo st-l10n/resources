@@ -36,6 +36,14 @@
 </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>ImportExportPage</Key>
+      <Title>Importation/Exportation et Gaines de transport</Title>
+      <Text>Il s’agit de structures, généralement électriquement alimentées, dotées de fonctions spécialisées, notamment logiques, atmosphériques, etc. Ils sont construits de la même manière que les autres structures.
+      
+{LIST_OF_DEVICES}
+</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>SmeltingPage</Key>
       <Title>Fonte</Title>
       <Text>Une fois que vous avez {LINK: OrePage;ore}, vous devez le convertir en {LINK: IngotPage;lingots} pour pouvoir utiliser leur {LINK: ReagentPage;réactifs}. La fusion produit souvent {LINK: GasPage;gas}. Cela se produit soit dans le {THING: StructureArcFurnace} (pour des recettes simples) et dans le {THING: StructureFurnace} pour un {LINK: AlloyPage;Alliages} plus compliqué, et enfin un {THING:StructureAdvancedFurnace} pour un {LINK: SuperAlloyPage;Super alliages}. Pour les alliages complexes, vous devrez réaliser des mélanges avec des rapports parfaits, {LINK: TemperaturePage;Temperature} et {LINK: PressurePage;Pression}.</Text>
@@ -191,10 +199,6 @@ Point de rupture{POS:300}{1}
 Auto-allumage{POS:300}{2}{3}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>ThingSlotHeaderTemplate</Key>
-      <Text>{HEADER:Slots}{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>ThingSlotItemTemplate</Key>
       <Text>{0}. {1} type {2}</Text>
     </StationpediaPage>
@@ -208,61 +212,25 @@ Auto-allumage{POS:300}{2}{3}{/LIST}</Text>
 Pression de fusion {0}</Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>CreatorsHeaderTemplate</Key>
-      <Text>{HEADER:Fabrique par}{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ConstructedByHeaderTemplate</Key>
-      <Text>{HEADER:Construit a partir de}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>CreatedHeaderTemplate</Key>
-      <Text>{HEADER:Peut fabrique}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ConstructedHeaderTemplate</Key>
-      <Text>{HEADER:Peut construire}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>LogicTransmitHeaderTemplate</Key>
-      <Text>{HEADER:Construit a partir de}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ModeStringHeaderTemplate</Key>
-      <Text>{HEADER:Modes}{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>CreatedGasesTemplate</Key>
-      <Text>{HEADER:Gaz}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>CreatedReagentTemplate</Key>
-      <Text>{HEADER:Reactifs}
-{LIST}{0}{/LIST}</Text>
+      <Text>{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ReagentPageTemplate</Key>
       <Text>A {LINK:ReagentPage;réactif}, souvent utilisable sous forme de {LINK:IngotPage;lingots}.
 
-{HEADER:Général}
 {LIST}Unit {1}{/LIST}
 
-{HEADER:Se trouve dans}
 {LIST}{2}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageTemplate</Key>
-      <Text>Du {LINK:GasPage;gas}, est généralement produit lors de la fusion {LINK:SmeltingPage;smelting}.
+      <Text>Du {LINK:GasPage;gas}, est généralement produit lors de la fusion d&apos;{LINK:SmeltingPage;alliage}.
 
-{HEADER:General}
+
 {LIST}Specific Heat {1}{2}{/LIST}
 
-{HEADER:Se trouve dans}
+
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
