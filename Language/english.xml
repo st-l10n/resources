@@ -1158,6 +1158,11 @@ If an egg has been fertilized, and is kept between 20C-30C, an {THING:EntityChic
       <Description>This kit produces a {THING:ItemGasTankStorage} for refilling a {THING:ItemGasCanisterEmpty}.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemLiquidTankStorage</Key>
+      <Value>Kit (Liquid Canister Storage)</Value>
+      <Description>This kit produces a {THING:ItemLiquidTankStorage} for refilling a {THING:ItemLiquidCanisterEmpty}.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemGlassSheets</Key>
       <Value>Glass Sheets</Value>
       <Description>A fundamental construction component, glass sheets are created from &lt;color=#0080FFFF&gt;{LINK:IngotPage;silicon ingot}&lt;/color&gt;. Fabricated on the {THING:StructureAutolathe}, they are used to make {THING:StructureSolarPanel}s, {THING:StructureAirlock}s and many other structures.</Description>
@@ -1622,6 +1627,11 @@ It may not be elegant, but {THING:ItemOxite} and {THING:ItemVolatiles} can be co
       <Description>This kit creates a {THING:StructureTankConnector}.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemTankConnectorLiquid</Key>
+      <Value>Kit (Liquid Tank Connector)</Value>
+      <Description>This kit creates a {THING:StructureTankConnectorLiquid}.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemToolBelt</Key>
       <Value>Tool Belt</Value>
       <Description>If there's one piece of equipment that embodies &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; life above all else, it's the humble toolbelt (Editor's note: a recent &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; survey of iconic Stationeer equipment also rated the smoking, toxic ruins of an over-pressurized {THING:StructureFurnace} lying amid the charred remains of your latest base very highly).
@@ -2036,6 +2046,11 @@ A basic gas mixture can be achieved by adding {THING:ItemOxite} and {THING:ItemV
       <Description>When connected to a pipe network, the tank storage unit allows you to refill a {THING:ItemGasCanisterEmpty}, as well as read various atmospheric data from the canister.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>StructureLiquidTankStorage</Key>
+      <Value>Liquid Tank Storage</Value>
+      <Description>When connected to a liquid pipe network, the tank storage unit allows you to refill a {THING:ItemLiquidCanisterEmpty}, as well as read various atmospheric data from the canister.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureGlassDoor</Key>
       <Value>Glass Door</Value>
       <Description>A highly regarded professional review site.</Description>
@@ -2212,6 +2227,11 @@ Pipes spread their contents evenly through the entire network, and can be connec
       <Key>StructureTankConnector</Key>
       <Value>Tank Connector</Value>
       <Description>Tank connectors are basic mounting devices that allow you to attach a {THING:DynamicGasCanisterEmpty} to a pipe network.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTankConnectorLiquid</Key>
+      <Value>Liquid Tank Connector</Value>
+      <Description>Tank connectors are basic mounting devices that allow you to attach a {THING:DynamicLiquidCanisterEmpty} to a liquid pipe network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankSmall</Key>
@@ -2975,6 +2995,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureOrganicsPrinter</Key>
       <Value>Organics Printer</Value>
+      <Description>Please note, the organics printer has been deprecated - it is now only spawnable in Creative mode.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWindowIron</Key>
@@ -7006,6 +7027,10 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
     <Record>
       <Key>UnableToConstruct</Key>
       <Value>&lt;color=red&gt;Unable to Construct&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>PortableConnectionFailure</Key>
+      <Value>Content type does not match.</Value>
     </Record>
     <Record>
       <Key>TooltipRotateLeftRight</Key>
