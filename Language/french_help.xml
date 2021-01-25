@@ -25,18 +25,14 @@
       <Key>FabricatorPage</Key>
       <Title>Machines</Title>
       <Text>Ce sont des structures motorisées qui peuvent être utilisées pour fabriquer ce dont vous avez besoin dans le jeu. Ils utilisent généralement des {LINK:IngotPage;lingots} pour extraire les {LINK:ReagentPage;reactifs} dont ils ont besoin pour fabriquer des objets.
-      
-{HEADER:Liste des machines}
-{LIST_OF_FABRICATORS}
+      {LIST_OF_FABRICATORS}
 </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>DevicePage</Key>
       <Title>Dispositifs</Title>
-      <Text>Il s’agit de structures, généralement alimentées, dotées de fonctions spécialisées, notamment logiques, atmosphériques, etc. Ils sont construits de la même manière que les autres structures.
-      
-{HEADER:Liste des dispositifs}
-{LIST_OF_DEVICES}
+      <Text>Il s’agit de structures, généralement électriquement alimentées, dotées de fonctions spécialisées, notamment logiques, atmosphériques, etc. Ils sont construits de la même manière que les autres structures.
+      {LIST_OF_DEVICES}
 </Text>
     </StationpediaPage>
     <StationpediaPage>
@@ -52,17 +48,13 @@
     <StationpediaPage>
       <Key>ReagentPage</Key>
       <Title>Réactifs</Title>
-      <Text>Ce sont des quantités chimiques de certains types.
-{HEADER:Liste des reactifs}
-{LIST_OF_REAGENTS}
+      <Text>Ce sont des quantités chimiques de certains types.{LIST_OF_REAGENTS}
 </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPage</Key>
       <Title>Gaz</Title>
-      <Text>Ce sont des gaz chimiques de certains types.
-{HEADER:Liste des gaz}
-{LIST_OF_GASES}
+      <Text>Ce sont des gaz chimiques de certains types.{LIST_OF_GASES}
 </Text>
     </StationpediaPage>
     <StationpediaPage>
@@ -238,14 +230,6 @@ Pression de fusion {0}</Text>
       <Key>LogicTransmitHeaderTemplate</Key>
       <Text>{HEADER:Construit a partir de}
 {LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>TierListHeaderTemplate</Key>
-      <Text/>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>LogicTypeHeaderTemplate</Key>
-      <Text>{HEADER:Logic}{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ModeStringHeaderTemplate</Key>
