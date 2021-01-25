@@ -783,7 +783,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidTankStorage</Key>
-      <Value>Recargador de Bombonas</Value>
+      <Value>Este kit produce una {THING:ItemGasTankStorage} para rellenar una {THING:ItemGasCanisterEmpty}.</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGlassSheets</Key>
@@ -8577,6 +8577,10 @@ Tenga mucho cuidado al caminar o saltar, ya que puede desplazarse muy lejos y ga
     <Record>
       <Key>Liquid</Key>
       <Value>Líquido</Value>
+    </Record>
+    <Record>
+      <Key>Gas</Key>
+      <Value>Gases</Value>
     </Record>
     <Record>
       <Key>Empty</Key>

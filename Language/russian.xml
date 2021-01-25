@@ -1010,7 +1010,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidTankStorage</Key>
-      <Value>Стойка для баллона</Value>
+      <Value>Этот комплект производит {THING:ItemGasTankStorage} для пополнения {THING:ItemGasCanisterEmpty}.</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGlassSheets</Key>
@@ -8577,6 +8577,10 @@
     <Record>
       <Key>Liquid</Key>
       <Value>Жидкость</Value>
+    </Record>
+    <Record>
+      <Key>Gas</Key>
+      <Value>Газы</Value>
     </Record>
     <Record>
       <Key>Empty</Key>

@@ -938,7 +938,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidTankStorage</Key>
-      <Value>Kit (Connecteur pour Bouteille)</Value>
+      <Value>Ce kit produit un {THING:ItemGasTankStorage} pour le remplissage d’une {THING:ItemGasCanisterEmpty}.</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGlassSheets</Key>
@@ -8670,6 +8670,10 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>Liquide</Value>
     </Record>
     <Record>
+      <Key>Gas</Key>
+      <Value>Gaz</Value>
+    </Record>
+    <Record>
       <Key>Empty</Key>
       <Value>Vide</Value>
     </Record>
@@ -9106,7 +9110,7 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
     </Record>
     <Record>
       <Key>StationpediaAdvancedGuides</Key>
-      <Value>Avancé</Value>
+      <Value>Guides avancés</Value>
     </Record>
     <Record>
       <Key>StationpediaConstructWith</Key>
@@ -9123,6 +9127,14 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
     <Record>
       <Key>StationpediaReagentsHeader</Key>
       <Value>Réactifs</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaHeatHeader</Key>
+      <Value>Chaleur spécifique:</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaShatterHeader</Key>
+      <Value>Rupture:</Value>
     </Record>
     <Record>
       <Key>StationpediaFlashpointHeader</Key>
