@@ -1478,6 +1478,11 @@ If an egg has been fertilized, and is kept between 20C-30C, an {THING:EntityChic
       <Description>This kit creates a {THING:StructureVolumePump}.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemLiquidPipeValve</Key>
+      <Value>Kit (Liquid Pipe Valve)</Value>
+      <Description>This kit creates a {THING:StructureLiquidValve}.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemPowerConnector</Key>
       <Value>Kit (Power Connector)</Value>
       <Description>This kit creates a {THING:StructurePowerConnector}.</Description>
@@ -2260,6 +2265,10 @@ Pipes spread their contents evenly through the entire network, and can be connec
     <RecordThing>
       <Key>StructureVolumePump</Key>
       <Value>Volume Pump</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidValve</Key>
+      <Value>Liquid Valve</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallCooler</Key>
