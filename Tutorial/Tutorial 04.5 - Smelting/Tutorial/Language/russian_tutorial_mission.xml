@@ -133,8 +133,12 @@
       <Value>Выключите {THING:StructureVolumePump}</Value>
     </Record>
     <Record>
-      <Key>4.5EquiptMiningbelt</Key>
+      <Key>4.5OpenMiningbelt</Key>
       <Value>Наденьте {THING:ItemMiningBelt}</Value>
+    </Record>
+    <Record>
+      <Key>4.5RemoveDataDisk</Key>
+      <Value>Заберите диск из {THING:StructureConsole}.</Value>
     </Record>
   </Interface>
 </Language>

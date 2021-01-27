@@ -71,8 +71,12 @@
       <Value>Die {THING:StructureAutolathe} einschalten.</Value>
     </Record>
     <Record>
-      <Key>4.5EquiptMiningbelt</Key>
+      <Key>4.5OpenMiningbelt</Key>
       <Value>{THING:ItemMiningBelt} anlegen</Value>
+    </Record>
+    <Record>
+      <Key>4.5RemoveDataDisk</Key>
+      <Value>{THING:StructureAreaPowerControl} mit einer {THING:ItemBatteryCellLarge} ausrüsten.</Value>
     </Record>
   </Interface>
 </Language>

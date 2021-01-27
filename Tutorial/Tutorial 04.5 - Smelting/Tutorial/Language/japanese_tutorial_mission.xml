@@ -71,8 +71,12 @@
       <Value>{THING:StructureAutolathe} を起動する。</Value>
     </Record>
     <Record>
-      <Key>4.5EquiptMiningbelt</Key>
+      <Key>4.5OpenMiningbelt</Key>
       <Value>{THING:ItemMiningBelt}  を装備する。</Value>
+    </Record>
+    <Record>
+      <Key>4.5RemoveDataDisk</Key>
+      <Value>{THING:StructureConsole} から {THING:ItemDataDisk} を取り出す。</Value>
     </Record>
   </Interface>
 </Language>
