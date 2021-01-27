@@ -68,27 +68,17 @@
     <StationpediaPage>
       <Key>OrePage</Key>
       <Title>Minerais</Title>
-      <Text>Il s’agit d’éléments issu de l&apos;{LINK:MiningPage;exploitation miniere} et pouvant souvent être {LINK:SmeltingPage;fondu}. Vous pouvez également obtenir du minerai mélangé en recyclant des éléments dans le {THING:StructureRecycler}, puis en le passant à travers le {THING:StructureCentrifuge} qui le divisera en {LINK:OrePage;minerai} pour la {LINK:SmeltingPage;fonte}.
-      
-{HEADER:Fondre de la glace}
-Certains minerais fondent lorsqu&apos;ils sont exposés au soleil ou à la chaleur et produisent des {LINK:GasPage;gaz}. Par exemple, la {THING:ItemIce} fond en {GAS:Water} et {GAS:Oxygen}. Veillez à les garder à l&apos;abri de la chaleur ou de la lumière du soleil jusqu&apos;à ce que vous souhaitiez réellement les faire fondre.
-      
-{HEADER:Liste des minerais}
-{LIST_OF_ORES}
+      <Text>Il s’agit d’éléments issu de l&apos;{LINK:MiningPage;exploitation miniere} et pouvant souvent être {LINK:SmeltingPage;fondu}. Vous pouvez également obtenir du minerai mélangé en recyclant des éléments dans le {THING:StructureRecycler}, puis en le passant à travers le {THING:StructureCentrifuge} qui le divisera en {LINK:OrePage;minerai} pour la {LINK:SmeltingPage;fonte}.      
+Certains minerais fondent lorsqu&apos;ils sont exposés au soleil ou à la chaleur et produisent des {LINK:GasPage;gaz}. Par exemple, la {THING:ItemIce} fond en {GAS:Water} et {GAS:Oxygen}. Veillez à les garder à l&apos;abri de la chaleur ou de la lumière du soleil jusqu&apos;à ce que vous souhaitiez réellement les faire fondre.{LIST_OF_ORES}
 </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>IngotPage</Key>
       <Title>Lingots</Title>
       <Text>Ce sont des éléments généralement fabriqués à partir de {LINK:SmeltingPage;fonte} et de {LINK:OrePage;minerais}.
-{HEADER:Liste des lingots}
+
 {LIST_OF_INGOTS}
 
-{HEADER:Liste des alliages}
-{LIST_OF_INGOTS}
-
-{HEADER:Liste des super alliages}
-{LIST_OF_INGOTS}
 
       
 </Text>
@@ -97,14 +87,14 @@ Certains minerais fondent lorsqu&apos;ils sont exposés au soleil ou à la chale
       <Key>ToolPage</Key>
       <Title>Outils</Title>
       <Text>Ce sont des éléments pouvant tenir dans un emplacement d’outil spécialisé et utilisés pour la {LINK:ConstructionPage;construction} et d’autres tâches.
-{HEADER:Liste des outils}
+
 {LIST_OF_TOOLS}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ResourcePage</Key>
       <Title>Ressources</Title>
-      <Text>Il s’agit d’éléments consommés lors de la {LINK:ConstructionPage;construction} et d’autres tâches.
-{HEADER:Liste des ressources}
+      <Text>Il s’agit d’éléments utilisés lors de {LINK:ConstructionPage;construction} et par d’autres tâches.
+
 {LIST_OF_RESOURCES}
 </Text>
     </StationpediaPage>
