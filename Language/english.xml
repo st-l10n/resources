@@ -850,12 +850,12 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>DynamicGasCanisterWater</Key>
       <Value>Portable Tank (Water)</Value>
-      <Description>Portable tanks store stuff. You can bolt one to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network to refill it. But try to keep pressure under 100 atmospheres, or you'll end up wet, hurt and sorry, without any of the fun. You can refill a {THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach to a rocket and take it somewhere distant and dry, then feel good about yourself.</Description>
+      <Description>This portable tank stores liquid, and liquid only. You can bolt one to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to {THING:StructurePipeLiquidStraight} to supply liquid to a network. But try to keep pressure under 100 atmospheres, or you'll end up wet, hurt and sorry, without any of the fun. You can refill a {THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rocket and take it somewhere distant and dry, then feel good about yourself.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicLiquidCanisterEmpty</Key>
       <Value>Portable Liquid Tank</Value>
-      <Description />
+      <Description>This portable tank stores liquid, and liquid only. You can bolt one to a {THING:ItemTankConnectorLiquid} using a {THING:ItemWrench}, then connect it to a pipe network to refill it. You can refill a {THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rocket and take it somewhere distant and dry, then feel good about yourself.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGenerator</Key>
@@ -2033,7 +2033,8 @@ The tilted side frame allows for an almost infinite variety of architectural ere
       <Key>StructureFurnace</Key>
       <Value>Furnace</Value>
       <Description>The Zhurong furnace employs a high-temperature gas mixture of &lt;color=#0080FFFF&gt;{LINK:GasPage;oxygen}&lt;/color&gt; and &lt;color=#0080FFFF&gt;{LINK:GasPage;volatiles}&lt;/color&gt; to smelt &lt;color=#0080FFFF&gt;{LINK:IngotPage;ingots}&lt;/color&gt; and a range of &lt;color=#0080FFFF&gt;{LINK:IngotPage;alloys}&lt;/color&gt; as raw materials for &lt;color=#0080FFFF&gt;{LINK:FabricatorPage;fabricators}&lt;/color&gt;.
-A basic gas mixture can be achieved by adding {THING:ItemOxite} and {THING:ItemVolatiles} in a 1:2 ratio directly to the furnace, but more complex alloys will require careful management of a dedicated gas mixing network. Exact ingredient ratios must be observed. Likewise, smelting ores at insufficient temperatures will produce &lt;color=#0080FFFF&gt;{LINK:ReagentPage;reagents}&lt;/color&gt;, which must be recycled.</Description>
+A basic gas mixture can be achieved by adding {THING:ItemOxite} and {THING:ItemVolatiles} in a 1:2 ratio directly to the furnace, but more complex alloys will require careful management of a dedicated gas mixing network. Exact ingredient ratios must be observed. Likewise, smelting ores at insufficient temperatures will produce &lt;color=#0080FFFF&gt;{LINK:ReagentPage;reagents}&lt;/color&gt;, which must be recycled.
+If water is present in the furnace, it will gather there until the furnace is connected to a liquid pipe network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGasMixer</Key>
@@ -2053,7 +2054,7 @@ A basic gas mixture can be achieved by adding {THING:ItemOxite} and {THING:ItemV
     <RecordThing>
       <Key>StructureLiquidTankStorage</Key>
       <Value>Liquid Tank Storage</Value>
-      <Description>When connected to a liquid pipe network, the tank storage unit allows you to refill a {THING:ItemLiquidCanisterEmpty}, as well as read various atmospheric data from the canister.</Description>
+      <Description>When connected to a liquid pipe network, the tank storage unit allows you to refill a {THING:ItemLiquidCanisterEmpty}, as well as read various atmospheric data from the canister. It will not accept gas canisters.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGlassDoor</Key>
@@ -2236,7 +2237,7 @@ Pipes spread their contents evenly through the entire network, and can be connec
     <RecordThing>
       <Key>StructureTankConnectorLiquid</Key>
       <Value>Liquid Tank Connector</Value>
-      <Description>Tank connectors are basic mounting devices that allow you to attach a {THING:DynamicLiquidCanisterEmpty} to a liquid pipe network.</Description>
+      <Description>These basic mounting devices allow you to attach a {THING:DynamicLiquidCanisterEmpty} to a liquid pipe network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankSmall</Key>
@@ -3569,7 +3570,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemKitDynamicLiquidCanister</Key>
       <Value>Kit (Portable Liquid Tank)</Value>
-      <Description />
+      <Description>This kit produces a {THING:DynamicLiquidCanisterEmpty}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemFlowerBlue</Key>
@@ -3943,6 +3944,7 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
     <RecordThing>
       <Key>StructureAdvancedFurnace</Key>
       <Value>Advanced Furnace</Value>
+<Description>The advanced furnace comes with </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAdvancedFurnace</Key>
@@ -5226,17 +5228,17 @@ The {THING:StructureModularRocketCommand01} console displays the current state o
     <RecordThing>
       <Key>SpecialBlocks</Key>
       <Value>Special Blocks</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBlocker</Key>
       <Value>Blocker</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageHydroponicsTray1</Key>
       <Value>Wreckage Hydroponics Tray</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasTankAdvanced</Key>
@@ -5346,7 +5348,7 @@ The {THING:StructureModularRocketCommand01} console displays the current state o
     <RecordThing>
       <Key>ItemKitRoverMKI</Key>
       <Value>Kit (Rover MKI)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>Rover_MkI_build_states</Key>
@@ -5356,12 +5358,12 @@ The {THING:StructureModularRocketCommand01} console displays the current state o
     <RecordThing>
       <Key>StructureGrowLight</Key>
       <Value>Grow Light</Value>
-      <Description />
+      <Description>&lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero's}&lt;/color&gt; leading hydroponic lighting system, the GrowUp UV light supplements sunshine in low light or sun-distant conditions. The unit adds growability over the space of a grid, so requires proximate placement to work. </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGrowLight</Key>
       <Value>Kit (Grow Light)</Value>
-      <Description />
+      <Description>This kit produces an &lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero}&lt;/color&gt; {THING:StructureGrowLight}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWeatherStation</Key>
@@ -5482,47 +5484,47 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
     <RecordThing>
       <Key>ItemKitPipeLiquid</Key>
       <Value>Kit (Liquid Pipe)</Value>
-      <Description />
+      <Description>This kit produces a range of liquid pipes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction</Key>
       <Value>Liquid Pipe Cross Junction</Value>
-      <Description />
+      <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidStraight</Key>
       <Value>Liquid Pipe Straight</Value>
-      <Description />
+      <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCorner</Key>
       <Value>Liquid Pipe Corner</Value>
-      <Description />
+     <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction3</Key>
       <Value>Liquid Pipe Cross Junction3</Value>
-      <Description />
+      <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction4</Key>
       <Value>Liquid Pipe Cross Junction4</Value>
-      <Description />
+      <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction5</Key>
       <Value>Liquid Pipe Cross Junction5</Value>
-      <Description />
+      <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction6</Key>
       <Value>Liquid Pipe Cross Junction6</Value>
-      <Description />
+      <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidTJunction</Key>
       <Value>Liquid Pipe T Junction</Value>
-      <Description />
+      <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageWindTurbine001</Key>
@@ -5841,6 +5843,7 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
     <Record>
       <Key>LiquidCanister</Key>
       <Value>Liquid Canister</Value>
+<Description>This canister stores liquid, and nothing but liquid. It can be attached to a {THING:ItemLiquidTankStorage} for refilling.</Description>
     </Record>
     <Record>
       <Key>HandSlot</Key>
