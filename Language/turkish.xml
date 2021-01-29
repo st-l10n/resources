@@ -169,6 +169,26 @@
       <Value>Kobalt</Value>
       <Unit>g</Unit>
     </RecordReagent>
+    <RecordReagent>
+      <Key>Corn</Key>
+      <Value>Mısır</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Wheat</Key>
+      <Value>Buğday</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Biomass</Key>
+      <Value>Biyokütle</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Soy</Key>
+      <Value>Soya</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
   </Reagents>
   <Gases>
     <Record>
@@ -8291,6 +8311,10 @@
       <Value>Sökmek için {0} gerekli</Value>
     </Record>
     <Record>
+      <Key>SettingsDoubleClickDelay</Key>
+      <Value>Çift Tıklama Gecikmesi</Value>
+    </Record>
+    <Record>
       <Key>SettingsServerAdminPassword</Key>
       <Value>Sunucu Yönetici Şifresi</Value>
     </Record>
@@ -8301,6 +8325,10 @@
     <Record>
       <Key>ScoreboardTime</Key>
       <Value>Oyun Süresi</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompleteDateOfCompletion</Key>
+      <Value>Tamamlanma Tarihi:</Value>
     </Record>
     <Record>
       <Key>TutorialCompleteNextTutorial</Key>
@@ -8315,6 +8343,10 @@
       <Value>Etkileş</Value>
     </Record>
     <Record>
+      <Key>ControlHoldPrimaryClick</Key>
+      <Value>Basılı Tut {KEY:PrimaryAction}</Value>
+    </Record>
+    <Record>
       <Key>ControlHoldPrimaryClickConstructDisc</Key>
       <Value>İnşaat Et</Value>
     </Record>
@@ -8323,12 +8355,28 @@
       <Value>Sök</Value>
     </Record>
     <Record>
+      <Key>ControlHoldPrimaryClickPlaceDisc</Key>
+      <Value>Yerleştir</Value>
+    </Record>
+    <Record>
       <Key>ControlHoldPrimaryClickPlantDisc</Key>
       <Value>Bitki</Value>
     </Record>
     <Record>
+      <Key>ControlPlayerMovementDisc</Key>
+      <Value>Hareket</Value>
+    </Record>
+    <Record>
       <Key>TK</Key>
       <Value>TK Sistemleri</Value>
+    </Record>
+    <Record>
+      <Key>ControlMouseControlDisc</Key>
+      <Value>Fare Kontrolünü Etkinleştir</Value>
+    </Record>
+    <Record>
+      <Key>ControlMouseDrag</Key>
+      <Value>Tut ve Sürükle {KEY:PrimaryAction}</Value>
     </Record>
     <Record>
       <Key>ControlMouseDragDisc</Key>
@@ -8337,6 +8385,18 @@
     <Record>
       <Key>ControlMouseScrollDisc</Key>
       <Value>Öğe Seçimi</Value>
+    </Record>
+    <Record>
+      <Key>ControlTurnOnDisc</Key>
+      <Value>Aç</Value>
+    </Record>
+    <Record>
+      <Key>ControlQuickMove</Key>
+      <Value>Fare tekerleği + {KEY:InventorySelect}</Value>
+    </Record>
+    <Record>
+      <Key>ControlUseItemDisc</Key>
+      <Value>Eşyayı Kullan</Value>
     </Record>
     <Record>
       <Key>HelmetString</Key>
@@ -8349,6 +8409,10 @@
     <Record>
       <Key>AdvancedTutorialButton</Key>
       <Value>Kalıt/Gelişmiş</Value>
+    </Record>
+    <Record>
+      <Key>ImportExportCategoryKey</Key>
+      <Value>İçe Aktar / Dışa Aktar</Value>
     </Record>
     <Record>
       <Key>TravelCategoryKey</Key>
