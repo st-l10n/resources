@@ -3944,7 +3944,7 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
     <RecordThing>
       <Key>StructureAdvancedFurnace</Key>
       <Value>Advanced Furnace</Value>
-<Description>The advanced furnace comes with </Description>
+      <Description>The advanced furnace comes with </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAdvancedFurnace</Key>
@@ -5228,17 +5228,17 @@ The {THING:StructureModularRocketCommand01} console displays the current state o
     <RecordThing>
       <Key>SpecialBlocks</Key>
       <Value>Special Blocks</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureBlocker</Key>
       <Value>Blocker</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageHydroponicsTray1</Key>
       <Value>Wreckage Hydroponics Tray</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasTankAdvanced</Key>
@@ -5348,7 +5348,7 @@ The {THING:StructureModularRocketCommand01} console displays the current state o
     <RecordThing>
       <Key>ItemKitRoverMKI</Key>
       <Value>Kit (Rover MKI)</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>Rover_MkI_build_states</Key>
@@ -5499,7 +5499,7 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
     <RecordThing>
       <Key>StructurePipeLiquidCorner</Key>
       <Value>Liquid Pipe Corner</Value>
-     <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
+      <Description>It's all in the title - liquid pipes create pipe networks for the storage and transport of matter's second state: liquid.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction3</Key>
@@ -5605,6 +5605,17 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
       <Key>StructureWaterBottleFiller</Key>
       <Value>Structure Water Bottle Filler</Value>
       <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureIceCrusher</Key>
+      <Value>Ice Crusher</Value>
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; KoolAuger converts various ices into their respective &lt;color=#0080FFFF&gt;{LINK:GasPage;gases}&lt;/color&gt; and liquids.
+A remarkably smart and compact sublimator-cum-melting unit, it produces gas or liquid depending on the ice being processed. If the KoolAuger is full, it will not accept any further ice until the gas or liquid contents is drained.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitIceCrusher</Key>
+      <Value>Kit (Ice Crusher)</Value>
+      <Description>This kit creates a {THING:StructureIceCrusher}.</Description>
     </RecordThing>
   </Things>
   <Slots>
@@ -10588,6 +10599,10 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     <Record>
       <Key>StationpediaTutorialListHeader</Key>
       <Value>Tutorials</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaNoResults</Key>
+      <Value>No results found...</Value>
     </Record>
   </Interface>
   <Colors>
