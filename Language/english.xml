@@ -2073,7 +2073,7 @@ If water is present in the furnace, it will gather there until the furnace is co
     <RecordThing>
       <Key>StructureHydroponicsTray</Key>
       <Value>Hydroponics Tray</Value>
-      <Description>The {&lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero}&lt;/color&gt; hydroponics tray is the ideal vessel for growing a range of &lt;color=#0080FFFF&gt;{LINK:OrganicPage;plantlife}&lt;/color&gt;. It must be supplied with water using a pipe network, and sufficient light to generate photosynthesis. 
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero}&lt;/color&gt; hydroponics tray is the ideal vessel for growing a range of &lt;color=#0080FFFF&gt;{LINK:OrganicPage;plantlife}&lt;/color&gt;. It must be supplied with water using a pipe network, and sufficient light to generate photosynthesis. 
 It can be automated using the {THING:StructureHarvie}.</Description>
     </RecordThing>
     <RecordThing>
@@ -2194,7 +2194,7 @@ Pipes spread their contents evenly through the entire network, and can be connec
     <RecordThing>
       <Key>StructureRTG</Key>
       <Value>Creative RTG</Value>
-      <Description>The {&lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt;RTG (radioisotope thermoelectric generator) uses the heat output of radioactive decay to generate voltage via a temperature differential across a thermocouple. Normally restricted to low energy devices, the RTG is rumored to exploit Zrillian engineering to achieve its improbably high power output.</Description>
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt;RTG (radioisotope thermoelectric generator) uses the heat output of radioactive decay to generate voltage via a temperature differential across a thermocouple. Normally restricted to low energy devices, the RTG is rumored to exploit Zrillian engineering to achieve its improbably high power output.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSleeper</Key>
@@ -2203,7 +2203,7 @@ Pipes spread their contents evenly through the entire network, and can be connec
     <RecordThing>
       <Key>StructureSolarPanel</Key>
       <Value>Solar Panel</Value>
-      <Description>{&lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai's}&lt;/color&gt; standard solar panels are used for generating power from sunlight. They can be connected to {&lt;color=#0080FFFF&gt;{LINK:LogicPage;logic}&lt;/color&gt; systems, in order to track sunlight, but their efficiency is reduced during storms and when damaged. You can repair these using some trusty {THING:ItemDuctTape}.</Description>
+      <Description>&lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai's}&lt;/color&gt; standard solar panels are used for generating power from sunlight. They can be connected to &lt;color=#0080FFFF&gt;{LINK:LogicPage;logic}&lt;/color&gt; systems, in order to track sunlight, but their reduced during storms and when damaged. You can repair these using some trusty {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSorter</Key>
@@ -5378,22 +5378,23 @@ The {THING:StructureModularRocketCommand01} console displays the current state o
     <RecordThing>
       <Key>ItemKitUprightWindTurbine</Key>
       <Value>Kit (Upright Wind Turbine)</Value>
-      <Description />
+      <Description>This kit produces a {THING:StructureUprightWindTurbine}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureUprightWindTurbine</Key>
       <Value>Upright Wind Turbine</Value>
-      <Description />
+      <Description>Norsec's basic wind turbine is an easily fabricated, rapidly deployed design that is strong enough to withstand the worst that environments can throw at it. 
+While the wind turbine is optimized to produce power even on low atmosphere worlds (up to 200W), it performs best in denser environments. Output varies with wind speed, and during storms, may increase dramatically, so be careful to design your power networks with that in mind.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CrateMkII</Key>
       <Value>Crate Mk II</Value>
-      <Description />
+      <Description>A more heavily reinforced version of the iconic {THING:DynamicCrate}, the Crate Mk II is resistant to incredibly high pressures and temperatures. Short of disposing of it in a black hole, the Mk II is about as safe as luggage gets.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCrateMkII</Key>
       <Value>Kit (Crate Mk II)</Value>
-      <Description />
+      <Description>This kit produces a {THING:CrateMkII}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemEmptyCan</Key>
@@ -5474,12 +5475,13 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
     <RecordThing>
       <Key>StructureWindTurbine</Key>
       <Value>Wind Turbine</Value>
-      <Description />
+      <Description>The Stationeers wind turbine was first designed by Norsec atmospheric engineers, looking to create a wind-driven power generation system that would operate even on exceedingly low atmosphere worlds. The ultra-light blades respond to exceeedingly low atmospheric densities, while being strong enough to function even under huge strain in much more demanding environments.
+While the wind turbine is optimized to produce power (up to 500W) even on low atmosphere worlds, it performs best in denser environments. Output varies with wind speed and, during storms, may increase dramatically (up to 10,000W), so be careful to design your power networks with that in mind.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWindTurbine</Key>
       <Value>Kit (Wind Turbine)</Value>
-      <Description />
+      <Description>This kit produces a {THING:StructureWindTurbine}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeLiquid</Key>
@@ -5610,7 +5612,7 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
       <Key>StructureIceCrusher</Key>
       <Value>Ice Crusher</Value>
       <Description>The &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; KoolAuger converts various ices into their respective &lt;color=#0080FFFF&gt;{LINK:GasPage;gases}&lt;/color&gt; and liquids.
-A remarkably smart and compact sublimator-cum-melting unit, it produces gas or liquid depending on the ice being processed. If the KoolAuger is full, it will not accept any further ice until the gas or liquid contents is drained.</Description>
+A remarkably smart and compact sublimation-melting unit, it produces gas or liquid depending on the ice being processed. If the KoolAuger is full, it will not accept any further ice until the gas or liquid contents is drained. In this state, it will flash a yellow error state on the activation switch.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitIceCrusher</Key>
@@ -5625,6 +5627,19 @@ A remarkably smart and compact sublimator-cum-melting unit, it produces gas or l
     <RecordThing>
       <Key>DynamicGasTankAdvancedWater</Key>
       <Value>Water Gas Tank (Advanced)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidPipeRadiator</Key>
+      <Value>Liquid Pipe Radiator</Value>
+      <Description>A simple heat exchanger, pipe radiators can be placed on pipes to shed or gain heat, depending on the temperature of the surrounding atmosphere. If the atmosphere is hotter, heat will be added the gas within the pipe network, and visa versa if colder. In a vacuum, heat will be radiated. 
+The speed of heat gain or loss will depend on the liquid in question. Adding multiple radiators will sped up heat transfer.</Description>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPipeLiquidRadiator</Key>
+      <Value>Kit (Liquid Radiator)</Value>
+      <Description>This kit creates a {THING:StructureLiquidPipeRadiator}.</Description>
       <Description />
     </RecordThing>
   </Things>

@@ -35,7 +35,7 @@
 		</Record>
 		<Record>
 			<Key>4.5Narration1D</Key>
-			<Value>Your base is low on power. It needs a station battery to store electricity at night. These require steel, so you must build a furnace for smelting alloys first.</Value>
+			<Value>Your base is low on power. It needs a station battery to store electricity at night. These require steel, so you must build a furnace for smelting alloys.</Value>
 		</Record>
 		<Record>
 			<Key>4.5GetFurnace</Key>
@@ -58,6 +58,10 @@
 			<Value>Place pipe in highlighted area</Value>
 		</Record>
 		<Record>
+			<Key>4.5PickUpPipe</Key>
+			<Value>Get the Pipe from the crate</Value>
+		</Record>
+		<Record>
 			<Key>4.5PickUpPassiveVent</Key>
 			<Value>Get the passive vent from the crate</Value>
 		</Record>
@@ -67,7 +71,7 @@
 		</Record>
 		<Record>
 			<Key>4.5Narration3D</Key>
-			<Value>The volume pump will let you remove waste gas from the furnace when you're done smelting. It will also act as a valve to maintain pressure.</Value>
+			<Value>The volume pump will let you remove waste gas from the furnace when you're done smelting. It will also act as a valve to maintain pressure. Add one to the pipe network.</Value>
 		</Record>
 		<Record>
 			<Key>4.5BuildPump</Key>
@@ -75,7 +79,7 @@
 		</Record>
 		<Record>
 			<Key>4.5Narration4D</Key>
-			<Value>To run a furnace, you need to monitor its pressure and temperature. Set up consoles to display this information for you.</Value>
+			<Value>To run a furnace, you need to monitor its pressure and temperature. Set up consoles to display this information for you, near the furnace.</Value>
 		</Record>
 		<Record>
 			<Key>4.5PlaceConsole</Key>
@@ -151,7 +155,7 @@
 		</Record>
 		<Record>
 			<Key>4.5SplitStack</Key>
-			<Value>Split oxite ore into two stacks of 6</Value>
+			<Value>Split oxite ore in half (6)</Value>
 		</Record>
 		<Record>
 			<Key>4.5Narration11D</Key>
@@ -175,8 +179,8 @@
 		</Record>
 		<Record>
 			<Key>4.5Narration12D</Key>
-			<Value>Before you make steel, prepare your other ingredients.
-The furnace smelts ordinary ingots much faster than the arc furnace. We've left you ores in the crate.</Value>
+			<Value>Before you make steel, prepare your other ingredients. The station battery also requires copper and gold.
+The furnace smelts ordinary ingots much faster than the arc furnace. We've left you ores in the locker.</Value>
 		</Record>
 		<Record>
 			<Key>5AddCoppertoFurnace</Key>
@@ -329,7 +333,7 @@ Clear out the gas and reset the pressure.</Value>
 		</Record>
 		<Record>
 			<Key>4.5NarrationInsert1D</Key>
-			<Value>Copper ingot is now complete you can now pull the lever to remove the completed ingot.</Value>
+			<Value>Your copper ingot is complete. Pull the lever to remove the completed ingot.</Value>
 		</Record>
 	</Interface>
 </Language>
