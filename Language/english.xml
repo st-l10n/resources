@@ -3378,6 +3378,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureElectrolyzer</Key>
       <Value>Electrolyzer</Value>
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec-designed}&lt;/color&gt;-designed Electrolyzer splits water into hydrogen and oxygen. Employing unknown proprietary technology, the device uses water's latent heat as the energy to drive the electrosis process. If there is a downside to this near-miraculous fission, it's that the device is limited by the quantity of power available, which is used to maintain the temperature output. In other words, the machine works best with hot gas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureElevatorShaft</Key>
@@ -3707,6 +3708,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>StructureKlaxon</Key>
       <Value>Klaxon Speaker</Value>
+      <Description>Klaxons allow you to play over 50 announcemets and sounds, depending on your &lt;color=#0080FFFF&gt;{LINK:LogicPage;logic}&lt;/color&gt; set-up. Set the mode to select the output.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSpeaker</Key>
@@ -4244,7 +4246,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>StructureModularRocketCargo01</Key>
       <Value>Modular Rocket Cargo</Value>
-      <Description>The cargo module has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total.</Description>
+      <Description>The cargo module has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total. This cargo will be released in orbit and descend the surface of your destination. Unless that happens to be the asteroid belt, in which case it will be left floating serenely in the void.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketCommand01</Key>
@@ -4259,7 +4261,8 @@ The following conditions must be met for launch:
 - Power supplied to the {THING:StructureLaunchPad}
 - Fully built rocket
 
-The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient.</Description>
+The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient.
+When landing, the rocket will deploy a lander, and any cargo contained in the {THING:StructureModularRocketCargo01} module.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicModularRocketCommand01</Key>
@@ -4272,38 +4275,47 @@ The {THING:StructureModularRocketCommand01} console displays the current state o
     <RecordThing>
       <Key>H2Combustor</Key>
       <Value>H2 Combustor</Value>
+      <Description>Adapted slightly from its original &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; design, the H2 Combustor does exactly what its name suggests - it burns a mixture of hydrogen and oxygen to create water. Extremely useful in hot or arid environments, users need to be aware that the Combustor outputs considerable waste heat.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeStraight</Key>
       <Value>Insulated Pipe Straight</Value>
+      <Description>Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCorner</Key>
       <Value>Insulated Pipe Corner</Value>
+      <Description>Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCrossJunction</Key>
       <Value>Insulated Pipe Cross Junction</Value>
+      <Description>Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCrossJunction3</Key>
       <Value>Insulated Pipe Cross (3-Way Corner)</Value>
+      <Description>Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCrossJunction4</Key>
       <Value>Insulated Pipe Cross (4-Way Corner)</Value>
+      <Description>Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCrossJunction5</Key>
       <Value>Insulated Pipe Cross (5-Way Junction)</Value>
+      <Description>Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCrossJunction6</Key>
       <Value>Insulated Pipe Cross (6-Way Junction)</Value>
+      <Description>Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeTJunction</Key>
       <Value>Insulated Pipe T Junction</Value>
+      <Description>Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemAdvancedTablet</Key>
@@ -4313,6 +4325,7 @@ The {THING:StructureModularRocketCommand01} console displays the current state o
     <RecordThing>
       <Key>ItemKitInsulatedPipe</Key>
       <Value>Kit (Insulated Pipe)</Value>
+      <Description>This kit produces varieties of {THING:StructureInsulatedPipeStraight}, which greatly reduce heat loss from gases stored in them.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketEngine01</Key>
@@ -4327,22 +4340,27 @@ The {THING:StructureModularRocketCommand01} console displays the current state o
     <RecordThing>
       <Key>ItemKitStructureModularRocketCommand01</Key>
       <Value>Kit (Modular Rocket Command)</Value>
+      <Description>This kit creates a {THING:StructureModularRocketCommand01}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketCargo01</Key>
       <Value>Kit (Modular Rocket Cargo)</Value>
+      <Description>This kit creates a {THING:StructureModularRocketCargo01}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureLaunchPad</Key>
       <Value>Kit (Launch Pad)</Value>
+      <Description>This kit creates a {THING:StructureLaunchPad}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketEngine01</Key>
       <Value>Kit (Modular Rocket Engine)</Value>
+      <Description>This kit creates a {THING:StructureModularRocketEngine01}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketFueltank01</Key>
       <Value>Kit (Modular Rocket Fueltank)</Value>
+      <Description>This kit creates a {THING:StructureModularRocketFueltank01}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallIron02</Key>
@@ -4522,10 +4540,12 @@ The {THING:StructureModularRocketCommand01} console displays the current state o
     <RecordThing>
       <Key>StructureSDBSilo</Key>
       <Value>SDB Silo</Value>
+      <Description>The majestic silo holds large quantities of almost anything. While it is doing that, it cannot be deconstructed.</Description>
     </RecordThing>
     <RecordThing>
       <Key>KitSDBSilo</Key>
       <Value>Kit (SDB Silo)</Value>
+      <Description>This kit creates a {THING:StructureSDBSilo}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankSmallInsulated</Key>
@@ -5634,12 +5654,35 @@ A remarkably smart and compact sublimation-melting unit, it produces gas or liqu
       <Value>Liquid Pipe Radiator</Value>
       <Description>A simple heat exchanger, pipe radiators can be placed on pipes to shed or gain heat, depending on the temperature of the surrounding atmosphere. If the atmosphere is hotter, heat will be added the gas within the pipe network, and visa versa if colder. In a vacuum, heat will be radiated. 
 The speed of heat gain or loss will depend on the liquid in question. Adding multiple radiators will sped up heat transfer.</Description>
-      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeLiquidRadiator</Key>
       <Value>Kit (Liquid Radiator)</Value>
       <Description>This kit creates a {THING:StructureLiquidPipeRadiator}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicMKIILiquidCanisterEmpty</Key>
+      <Value>Portable Liquid Tank MKII (Empty)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicMKIILiquidCanister</Key>
+      <Value>Kit (MKII Liquid Tank)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicMKIILiquidCanisterWater</Key>
+      <Value>Portable Liquid Tank MKII (Water)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidVolumePump</Key>
+      <Value>Liquid Volume Pump</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLiquidPipeVolumePump</Key>
+      <Value>Kit (Liquid Volume Pump)</Value>
       <Description />
     </RecordThing>
   </Things>
