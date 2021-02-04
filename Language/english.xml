@@ -439,7 +439,8 @@
     <RecordThing>
       <Key>ApplianceMicrowave</Key>
       <Value>Microwave</Value>
-      <Description>While countless 'better' ways of cooking &lt;color=#0080FFFF&gt;{LINK:FoodPage;Food}&lt;/color&gt; have been invented in the last few hundred years, few are as durable or easy to fabricate as the OK-Zoomer microwave. Licensed from &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt;, the plans are based on a classic model from the mid-21st century, giving it a charmingly retro feel. But don't worry, it oscillates water molecules more than adequately. Just bolt it to a {THING:StructureBench}, follow the recipe, and you're cooking.</Description>
+      <Description>While countless 'better' ways of cooking &lt;color=#0080FFFF&gt;{LINK:FoodPage;Food}&lt;/color&gt; have been invented in the last few hundred years, few are as durable or easy to fabricate as the OK-Zoomer microwave. Licensed from &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt;, the plans are based on a classic model from the mid-21st century, giving it a charmingly retro feel. But don't worry, it oscillates water molecules more than adequately. 
+      Just bolt it to a {THING:StructureBench} using a {THING;ItemWrench} to power it, follow the recipe, and you're cooking.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ApplianceReagentProcessor</Key>
@@ -1056,7 +1057,7 @@ If an egg has been fertilized, and is kept between 20C-30C, an {THING:EntityChic
     <RecordThing>
       <Key>ItemEvaSuit</Key>
       <Value>Eva Suit</Value>
-      <Description />
+      <Description></Description>/>
     </RecordThing>
     <RecordThing>
       <Key>ItemFertilizedEgg</Key>
@@ -2228,6 +2229,9 @@ Pipes spread their contents evenly through the entire network, and can be connec
     <RecordThing>
       <Key>StructureSuitStorage</Key>
       <Value>Suit Storage</Value>
+      <Description>As tidy as it is useful, the suit storage rack holds an {THING:ItemEvaSuit}, {THING:ItemSpaceHelmet} and a {THING:ItemJetpackBasic}.
+When powered and connected to {THING:Oxygen} and {THING:Propellant}, it will recharge the suit's batteries, refill the {THING:ItemGasCanisterOxygen} and your {THING:ItemGasFilterNitrogen} canister. The wastetank will be pumped out to the pipe connected to the waste outlet.
+All the rack's pipes must be connected or the unit will show an error state, but it will still charge the battery.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankConnector</Key>
@@ -5616,12 +5620,12 @@ While the wind turbine is optimized to produce power (up to 500W) even on low at
     <RecordThing>
       <Key>ItemWaterBottle</Key>
       <Value>Item Water Bottle</Value>
-      <Description />
+      <Description>Delicious and pure H20, refined from local sources as varied as Venusian ice and trans-Solar comets. Empty bottles can be refilled using the {THING:StructureWaterBottleFiller}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterBottleFiller</Key>
       <Value>Item Water Bottle Filler</Value>
-      <Description />
+      <Description>As its somewhat uninspired name suggests, this device refills a {THING:ItemWaterBottle}, when connected to a liquid pipe network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterBottleFiller</Key>
@@ -5683,6 +5687,71 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>ItemLiquidPipeVolumePump</Key>
       <Value>Kit (Liquid Volume Pump)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLiquidRegulator</Key>
+      <Value>Kit (Liquid Regulator)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBackLiquidPressureRegulator</Key>
+      <Value>Back Liquid Pressure Regulator</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidPressureRegulator</Key>
+      <Value>Liquid Pressure Regulator</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLiquidCanisterSmart</Key>
+      <Value>Liquid Canister (Smart)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemMKIIScrewdriver</Key>
+      <Value>MKII Screwdriver</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemMKIIAngleGrinder</Key>
+      <Value>MKII Angle Grinder</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemMKIICrowbar</Key>
+      <Value>MKII Crowbar</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemMKIIArcWelder</Key>
+      <Value>MKII Arc Welder</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemMKIIDrill</Key>
+      <Value>MKII Drill</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemMKIIMiningDrill</Key>
+      <Value>MKII Mining Drill</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemMKIIWireCutters</Key>
+      <Value>MKII Wire Cutters</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemMKIIWrench</Key>
+      <Value>MKII Wrench</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemMKIIDuctTape</Key>
+      <Value>MKII Duct Tape</Value>
       <Description />
     </RecordThing>
   </Things>
