@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>PL</Code>
-  <Interface/>
+  <Interface>
+    <Record>
+      <Key>6BuildTankConnecter</Key>
+      <Value>Usuń {THING:StructureCableJunctionBurnt}</Value>
+    </Record>
+    <Record>
+      <Key>6GetPipe</Key>
+      <Value>Podnieś {THING:ItemBatteryCellLarge}</Value>
+    </Record>
+    <Record>
+      <Key>6GetGrowLight</Key>
+      <Value>Podnieś {THING:ItemBatteryCellLarge}</Value>
+    </Record>
+    <Record>
+      <Key>6BuildGrowLight</Key>
+      <Value>Usuń {THING:StructureCableJunctionBurnt}</Value>
+    </Record>
+    <Record>
+      <Key>6GrowLightOn</Key>
+      <Value>Upuść {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>6GetWheat</Key>
+      <Value>Podnieś {THING:ItemBatteryCellLarge}</Value>
+    </Record>
+  </Interface>
 </Language>

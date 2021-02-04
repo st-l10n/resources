@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>HU</Code>
-  <Interface/>
+  <Interface>
+    <Record>
+      <Key>6BuildTankConnecter</Key>
+      <Value>Hegeszd meg: {THING:StructureFrame}</Value>
+    </Record>
+    <Record>
+      <Key>6GetPipe</Key>
+      <Value>Készíts egy {THING:ItemMuffin}t</Value>
+    </Record>
+    <Record>
+      <Key>6GetGrowLight</Key>
+      <Value>Készíts egy {THING:ItemMuffin}t</Value>
+    </Record>
+    <Record>
+      <Key>6BuildGrowLight</Key>
+      <Value>Hegeszd meg: {THING:StructureFrame}</Value>
+    </Record>
+    <Record>
+      <Key>6GrowLightOn</Key>
+      <Value>Vedd fel a {THING:ApplianceMicrowave}t</Value>
+    </Record>
+    <Record>
+      <Key>6GetWheat</Key>
+      <Value>Készíts egy {THING:ItemMuffin}t</Value>
+    </Record>
+    <Record>
+      <Key>6BakeMuffin</Key>
+      <Value>Süss egy {THING:ItemMuffin}t!</Value>
+    </Record>
+  </Interface>
 </Language>

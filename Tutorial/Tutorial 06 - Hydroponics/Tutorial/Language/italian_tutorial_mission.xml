@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>IT</Code>
-  <Interface/>
+  <Interface>
+    <Record>
+      <Key>6BuildTankConnecter</Key>
+      <Value>Indossa la {THING:ItemToolBelt} nello slot {SLOT:Belt} </Value>
+    </Record>
+    <Record>
+      <Key>6GetPipe</Key>
+      <Value>Raccogli un {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>6GetGrowLight</Key>
+      <Value>Raccogli un {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>6BuildGrowLight</Key>
+      <Value>Indossa la {THING:ItemToolBelt} nello slot {SLOT:Belt} </Value>
+    </Record>
+    <Record>
+      <Key>6GrowLightOn</Key>
+      <Value>Accendi il {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>6GetWheat</Key>
+      <Value>Raccogli un {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>6BakeMuffin</Key>
+      <Value>Inforna un {THING:ItemMuffin}</Value>
+    </Record>
+  </Interface>
 </Language>
