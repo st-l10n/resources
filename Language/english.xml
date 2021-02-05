@@ -850,7 +850,7 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterWater</Key>
-      <Value>Portable Tank (Water)</Value>
+      <Value>Portable Liquid Tank (Water)</Value>
       <Description>This portable tank stores liquid, and liquid only. You can bolt one to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to {THING:StructurePipeLiquidStraight} to supply liquid to a network. But try to keep pressure under 100 atmospheres, or you'll end up wet, hurt and sorry, without any of the fun. You can refill a {THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rocket and take it somewhere distant and dry, then feel good about yourself.</Description>
     </RecordThing>
     <RecordThing>
@@ -915,7 +915,7 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>GasTankAir</Key>
       <Value>Gas Tank (Air)</Value>
-      <Description>Portable tanks store gas. To refill one, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Try to avoid pushing it above 100 atmospheres, or you'll taste the delicate flavor of regret. Use tanks to fill a {THING:ItemGasCanisterEmpty} by attaching it to the tank's striped section. Or you could vent it into a sealed room to create an atmosphere, attach it to a rover and take it for a drive, or just use it for loud, expensive target practice.</Description>
+      <Description>Portable gas tanks store gas, and gas only. To refill one, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Try to avoid pushing it above 100 atmospheres, or you'll taste the delicate flavor of regret. Use tanks to fill a {THING:ItemGasCanisterEmpty} by attaching it to the tank's striped section. Or you could vent it into a sealed room to create an atmosphere, attach it to a rover and take it for a drive, or just use it for loud, expensive target practice.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemActiveVent</Key>
@@ -1057,7 +1057,7 @@ If an egg has been fertilized, and is kept between 20C-30C, an {THING:EntityChic
     <RecordThing>
       <Key>ItemEvaSuit</Key>
       <Value>Eva Suit</Value>
-      <Description></Description>/>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemFertilizedEgg</Key>
@@ -1115,8 +1115,8 @@ If an egg has been fertilized, and is kept between 20C-30C, an {THING:EntityChic
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterWater</Key>
-      <Value>Canister (Water)</Value>
-      <Description>The blue portable &lt;color=#0080FFFF&gt;{LINK:GasPage;H20}&lt;/color&gt; canister has a 64L capacity, supplying water to items like the {THING:DynamicHydroponics} unit, or any other connected system. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill. Careful not to pressurize beyond 100kPA, or it may go 'bang'.</Description>
+      <Value>Liquid Canister (Water)</Value>
+      <Description>The blue portable &lt;color=#0080FFFF&gt;{LINK:GasPage;H20}&lt;/color&gt; canister has a 64L capacity, supplying water to items like the {THING:DynamicHydroponics} unit, or any other connected system. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureLiquidTankStorage} for refill.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidCanisterEmpty</Key>
@@ -2236,7 +2236,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <RecordThing>
       <Key>StructureTankConnector</Key>
       <Value>Tank Connector</Value>
-      <Description>Tank connectors are basic mounting devices that allow you to attach a {THING:DynamicGasCanisterEmpty} to a pipe network.</Description>
+      <Description>Tank connectors are basic mounting devices that allow you to attach a {THING:DynamicGasCanisterEmpty} to a gas pipe network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankConnectorLiquid</Key>
@@ -4279,7 +4279,7 @@ When landing, the rocket will deploy a lander, and any cargo contained in the {T
     <RecordThing>
       <Key>H2Combustor</Key>
       <Value>H2 Combustor</Value>
-      <Description>Adapted slightly from its original &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; design, the H2 Combustor does exactly what its name suggests - it burns a mixture of hydrogen and oxygen to create water. Extremely useful in hot or arid environments, users need to be aware that the Combustor outputs considerable waste heat.</Description>
+      <Description>Adapted slightly from its original &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; design, the H2 Combustor does exactly what its name suggests - it burns a mixture of hydrogen and oxygen to create water. Extremely useful in hot or arid environments, users need to be aware that the combustor outputs considerable waste heat.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeStraight</Key>
@@ -5266,8 +5266,8 @@ When landing, the rocket will deploy a lander, and any cargo contained in the {T
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasTankAdvanced</Key>
-      <Value>Gas Tank (Advanced)</Value>
-      <Description />
+      <Value>Gas Tank Mk II</Value>
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicGasTankAdvanced</Key>
@@ -5636,7 +5636,8 @@ While the wind turbine is optimized to produce power (up to 500W) even on low at
       <Key>StructureIceCrusher</Key>
       <Value>Ice Crusher</Value>
       <Description>The &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; KoolAuger converts various ices into their respective &lt;color=#0080FFFF&gt;{LINK:GasPage;gases}&lt;/color&gt; and liquids.
-A remarkably smart and compact sublimation-melting unit, it produces gas or liquid depending on the ice being processed. If the KoolAuger is full, it will not accept any further ice until the gas or liquid contents is drained. In this state, it will flash a yellow error state on the activation switch.</Description>
+A remarkably smart and compact sublimation-melting unit, it produces gas or liquid depending on the ice being processed. The upper outlet is gas, the lower for liquid, and while you can attach any pipe you like to either oulet, it will only function if the correct network is attached. 
+If the KoolAuger is full, it will not accept any further ice until the gas or liquid contents is drained. In this state, it will flash a yellow error state on the activation switch.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitIceCrusher</Key>
@@ -5645,12 +5646,12 @@ A remarkably smart and compact sublimation-melting unit, it produces gas or liqu
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasTankAdvancedOxygen</Key>
-      <Value>Oxygen Gas Tank (Advanced)</Value>
+      <Value>Portable Gas Tank Mk II (Oxygen)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasTankAdvancedWater</Key>
-      <Value>Water Gas Tank (Advanced)</Value>
+      <Value>Portable Liquid Tank Mk II (Water)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5752,6 +5753,11 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>ItemMKIIDuctTape</Key>
       <Value>MKII Duct Tape</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitWaterBottleFiller</Key>
+      <Value>Item Kit Water Bottle Filler</Value>
       <Description />
     </RecordThing>
   </Things>
@@ -10739,6 +10745,18 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     <Record>
       <Key>StationpediaNoResults</Key>
       <Value>No results found...</Value>
+    </Record>
+    <Record>
+      <Key>HydrationSPDAKey</Key>
+      <Value>Hydration</Value>
+    </Record>
+    <Record>
+      <Key>EvaSPDAKey</Key>
+      <Value>EVA</Value>
+    </Record>
+    <Record>
+      <Key>NutritionSPDAKey</Key>
+      <Value>Nutrition</Value>
     </Record>
   </Interface>
   <Colors>
