@@ -896,7 +896,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemEvaSuit</Key>
-      <Value>Skafandr</Value>/&gt;
+      <Value>Skafandr</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemFertilizedEgg</Key>
@@ -4880,11 +4880,11 @@
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasTankAdvancedOxygen</Key>
-      <Value>Nádrž na kyslík (pokročilá)</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasTankAdvancedWater</Key>
-      <Value>Nádrž na vodu (pokročilá)</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidPipeRadiator</Key>
@@ -4920,51 +4920,55 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureBackLiquidPressureRegulator</Key>
-      <Value>Regulátor zpětného tlaku</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidPressureRegulator</Key>
-      <Value>Regulátor tlaku</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidCanisterSmart</Key>
-      <Value>Kanystr na plyn (chytrý)</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIScrewdriver</Key>
-      <Value>Šroubovák</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIAngleGrinder</Key>
-      <Value>Úhlová bruska</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIICrowbar</Key>
-      <Value>Páčidlo</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIArcWelder</Key>
-      <Value>Oblouková svářečka</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIDrill</Key>
-      <Value>Težební vrták</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIMiningDrill</Key>
-      <Value>Težební vrták</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIWireCutters</Key>
-      <Value>Kleště</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIWrench</Key>
-      <Value>Hasák</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIDuctTape</Key>
-      <Value>Lepící páska</Value>
+      <Value/>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitWaterBottleFiller</Key>
+      <Value>Struktura plnička lahví na vodu</Value>
     </RecordThing>
   </Things>
   <Slots>
@@ -9613,6 +9617,14 @@ Program náborů z oblasti stavebnictví, vojenského a leteckého průmyslu, v�
     <Record>
       <Key>StationpediaTutorialListHeader</Key>
       <Value>Výuka</Value>
+    </Record>
+    <Record>
+      <Key>HydrationSPDAKey</Key>
+      <Value>Uhlovodík</Value>
+    </Record>
+    <Record>
+      <Key>NutritionSPDAKey</Key>
+      <Value>Autozapalování:</Value>
     </Record>
   </Interface>
   <Colors>
