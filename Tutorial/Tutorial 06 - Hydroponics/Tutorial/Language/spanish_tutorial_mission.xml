@@ -16,8 +16,32 @@
       <Value>Entrenamiento Práctico: Fase 4</Value>
     </Record>
     <Record>
+      <Key>TutoiralHydroponicsAndFoodSubTitle</Key>
+      <Value>¿Empezando a sentir hambre? Pon a prueba tu capacidad para proporcionarte comida.</Value>
+    </Record>
+    <Record>
+      <Key>TutoiralHydroponicsAndFoodDescription</Key>
+      <Value>Bienvenido Cadete. Es hora de poner a prueba tu capacidad para mantenerte lejos, lejos de casa.</Value>
+    </Record>
+    <Record>
+      <Key>6Narration1D</Key>
+      <Value>En esta fase de prueba, analizaremos su capacidad para cultivar alimentos y luego los cocinaremos para convertirlos en algo útil. El primer paso es crear una red de agua. Comience construyendo un conector para tanque de agua.</Value>
+    </Record>
+    <Record>
       <Key>6BuildTankConnecter</Key>
       <Value>Construya la batería de la estación en la posición resaltada</Value>
+    </Record>
+    <Record>
+      <Key>6MoveThingArea</Key>
+      <Value>Coloque el tanque de agua en el conector del tanque.</Value>
+    </Record>
+    <Record>
+      <Key>ConnectTankToConnecter</Key>
+      <Value>Use una llave para conectar el tanque de agua al conector del tanque.</Value>
+    </Record>
+    <Record>
+      <Key>6Narration3D</Key>
+      <Value>Los conectores de tanques le permiten conectar tanques a redes de tuberías, una red líquida, en este caso. Termine la red de tuberías de líquido conectando las tuberías a la matriz de la bandeja hidropónica.</Value>
     </Record>
     <Record>
       <Key>6GetPipe</Key>
@@ -26,6 +50,14 @@
     <Record>
       <Key>6BuildPipe</Key>
       <Value>Colocar artículo</Value>
+    </Record>
+    <Record>
+      <Key>6BuildPipept2</Key>
+      <Value>Coloque la última tubería y termine el sistema de tuberías</Value>
+    </Record>
+    <Record>
+      <Key>6Narration4D</Key>
+      <Value>Antes de plantar cualquier cosa, instale una luz de crecimiento, para que usted también pueda crecer durante toda la noche, hermano.</Value>
     </Record>
     <Record>
       <Key>6GetGrowLight</Key>
@@ -40,12 +72,60 @@
       <Value>Enciende el soldador</Value>
     </Record>
     <Record>
+      <Key>6Narration5D</Key>
+      <Value>Puede cultivar una variedad de plantas utilizando una variedad de sistemas hidropónicos y combinaciones atmosféricas. Pero hoy, solo estamos probando lo básico: tienes agua y luz, así que es hora de plantar trigo en cada una de las bandejas hidropónicas.</Value>
+    </Record>
+    <Record>
       <Key>6GetWheat</Key>
       <Value>Obtener carbón de la caja</Value>
     </Record>
     <Record>
+      <Key>6PlantWheat</Key>
+      <Value>Plante trigo en las bandejas hidropónicas.</Value>
+    </Record>
+    <Record>
+      <Key>6Narration6D</Key>
+      <Value>Las plantas requieren proporciones específicas de gases para crecer. Probaremos sus habilidades con los sistemas de gas en la próxima fase, pero por ahora, espere a que crezca el trigo. Agregamos un poco de súper fertilizante para acelerar las cosas.</Value>
+    </Record>
+    <Record>
+      <Key>6WaitForWheatToGrow</Key>
+      <Value>Espere a que crezca el trigo.</Value>
+    </Record>
+    <Record>
+      <Key>6Narration6D</Key>
+      <Value>Las plantas requieren proporciones específicas de gases para crecer. Probaremos sus habilidades con los sistemas de gas en la próxima fase, pero por ahora, espere a que crezca el trigo. Agregamos un poco de súper fertilizante para acelerar las cosas.</Value>
+    </Record>
+    <Record>
+      <Key>6HarvestWheat</Key>
+      <Value>Cosecha de trigo</Value>
+    </Record>
+    <Record>
+      <Key>6PutWheatInProcessor</Key>
+      <Value>Agregue trigo al embudo del procesador de reactivos</Value>
+    </Record>
+    <Record>
       <Key>6BenchOn</Key>
       <Value>Enciende el APC</Value>
+    </Record>
+    <Record>
+      <Key>6ReagentProcessorOn</Key>
+      <Value>Encienda el procesador de reactivos</Value>
+    </Record>
+    <Record>
+      <Key>6Narration8D</Key>
+      <Value>Ahora que tienes harina, vamos a hornear. Puede cocinar una variedad de alimentos en el microondas, incluidos muffins. ¿Suena delicioso?</Value>
+    </Record>
+    <Record>
+      <Key>6PutEggInMicrowave</Key>
+      <Value>Agrega el huevo al microondas</Value>
+    </Record>
+    <Record>
+      <Key>6PutMilkInMicrowave</Key>
+      <Value>Agrega 10 ml de leche al microondas.</Value>
+    </Record>
+    <Record>
+      <Key>6PutFlourInMicrowave</Key>
+      <Value>Agrega 50 g de harina al microondas</Value>
     </Record>
     <Record>
       <Key>6MicrowaveOn</Key>
@@ -56,8 +136,24 @@
       <Value>Hornear un {THING:ItemMuffin}</Value>
     </Record>
     <Record>
+      <Key>6Narration9D</Key>
+      <Value>Estás a punto de recibir uno de los mejores muffins de Agrizero. Disfrútala y desterra ese hambre, Cadete.</Value>
+    </Record>
+    <Record>
+      <Key>6EatMuffin</Key>
+      <Value>Come el muffin</Value>
+    </Record>
+    <Record>
+      <Key>6Narration10D</Key>
+      <Value>Bien hecho, Cadete. Ha demostrado un alto grado de autosuficiencia y un talento culinario aceptable. El Stationeer Command estará orgulloso de ti. Presione el botón azul importante para transmitir sus resultados.</Value>
+    </Record>
+    <Record>
       <Key>6OnButtonPressTask</Key>
       <Value>Presione el botón de activación hasta que la tapa se abra de nuevo</Value>
+    </Record>
+    <Record>
+      <Key>6FlourCreated</Key>
+      <Value>Crear harina</Value>
     </Record>
   </Interface>
 </Language>
