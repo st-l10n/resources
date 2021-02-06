@@ -232,5 +232,53 @@ Presión de la masa fundida {0}</Text>
       <Key>GasPageFlamableTemplate</Key>
       <Text>Límite inflamable {0} a {1}</Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>NutritionPage</Key>
+      <Title>Comiendo</Title>
+      <Text>Los Stationeers eventualmente tienen hambre, pero no todos los alimentos son iguales. Además, su tasa de hambre varía según la configuración y la dificultad. Comer solo consumirá esa parte de un artículo adecuada para restaurar su hambre al 100%.
+
+Todos los Stationeers reciben un suministro de &lt;color = # 0080FFFF&gt;{LINK:Agrizero;Agrizero}&lt;/color&gt;{THING:ItemCerealBar} en sus suministros de aterrizaje al comienzo de un nuevo mundo. Cuando estos se agotan, debe encontrar nuevas fuentes de sustento.
+
+Comer ingredientes crudos satisfará menos el hambre que las comidas, es decir, reemplazará una proporción menor de su hambre. Los elementos básicos de los alimentos se crean utilizando sistemas &lt;color=#0080FFFF&gt;{LINK:OrganicsPage;hydroponics}&lt;/color&gt;. Estos se pueden procesar en ingredientes de recetas usando el {THING:ApplianceReagentProcessor), y luego convertirse en comidas usando un {THING:ApplianceMicrowave}.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>HydrationPage</Key>
+      <Title>Hidratate</Title>
+      <Text>El Stationeer medio necesita beber agua con regularidad. Sin embargo, las normas de salud y seguridad arcanas y posiblemente erróneas &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; han negado durante mucho tiempo a los Stationeers el derecho a los mecanismos de hidratación dentro del traje. En cambio, deben tomar descansos regulares para beber para abrir su casco y beber agua. No se recomienda hacerlo en un entorno sin presión.
+
+¿Con qué frecuencia beber? Esto está determinado por tu nivel de dificultad, el calor del planeta y cuánto te gusta mover tu cuerpo.
+
+El agua se presenta de muchas formas. Al menos una {THING:ItemWaterBottle} se les proporciona a los Stationeers como parte de sus raciones cuando aterrizan en nuevos planetas. Estos se pueden rellenar con un {THING:ItemWaterBottleFiller}, que debe estar conectado a una red de tuberías de líquido. La red en sí se puede llenar usando un {THING:StructureIceCrusher} con un suministro adecuado de hielo.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>EVAPage</Key>
+      <Title>Traje EVA</Title>
+      <Text>Su traje espacial le proporciona una atmósfera portátil, con ajustes de presión y aire acondicionado (temperatura) ajustables, así como un sistema de advertencia que lo alertará si la atmósfera dentro del traje se vuelve peligrosa. Funciona en conjunto con un casco adecuado para que funcione correctamente, así como cartuchos de gas y filtros adecuados en las distintas ranuras del traje. Estos deberán cambiarse con regularidad y también se pueden recargar (o drenar) usando un {THING:StructureSuitStorage}.
+
+Hay varios trajes, incluido el {THING:ItemEvaSuit} y el {THING:ItemHardSuit} más resistente a la presión y la temperatura.
+
+Las distintas lecturas de su traje se encuentran en la parte inferior derecha de la pantalla. Al presionar la tecla numérica correspondiente (2 aparecerá un panel que muestra sus ranuras y configuraciones. Estos incluyen:
+
+- A / C encendido / apagado (es decir, control de temperatura encendido / apagado)
+- Filtros de encendido / apagado
+- Aire encendido / apagado
+- Presión arriba / abajo (con un rango de 0kPA a 202kPa, o 0-2 atmósferas terrestres)
+- Temperatura arriba / abajo (con un rango de 0 ° C a 60 ° C)
+
+Los trajes contienen 6-8 ranuras:
+- Tanque de aire (x1): inserte un bote o un bote inteligente que contenga una mezcla de gas respirable, p. Ej. O2 o nitrógeno / oxígeno 35/65.
+- Tanque de residuos (x1): recoge los gases eliminados por los filtros
+- Soporte vital (x1): contiene una batería, que alimenta su A / C, luces, etc.
+- Filtros (x3): requiere al menos un filtro de CO2 (si es humano), dependiendo de su mezcla de gases respirables. Tenga en cuenta que una {THING:ItemHardSuit} tiene 4 ranuras de filtro.
+- IC - {THING:ItemHardSuit} solamente.
+
+Presión: debe establecerse en 50-100 KPa (0,5 a 1 atmósferas terrestres). Los humanos en el juego toleran hasta ~ 250kPa y pueden sobrevivir hasta ~ 300kPA.
+
+Temperatura: normalmente se establece en 18-21 ° C, y los humanos en el juego prefieren 10-29 ° C, toleran 0-39 ° C y sobreviven hasta 49 ° C. En temperaturas más altas, su A / C consumirá más energía de la batería para mantener la temperatura interna.
+
+Filtros: el filtro predeterminado es el filtro de CO2, que captura el gas generado por los humanos al exhalar. Si no está usando oxígeno al 100% en su gas de respiración, agregue filtros adicionales, por ejemplo, si mezcla 25% de oxígeno + 75% de nitrógeno, el nitrógeno se acumulará en su traje con el tiempo y lo asfixiará, a menos que tenga un filtro de nitrógeno. Si tiene los filtros correctos y el gas respirable, pero aún tiene problemas, use la función &apos;Flush&apos; en su Space Helmet. Las advertencias de oxígeno bajo / crítico sonarán cuando sus filtros dejen de funcionar.
+
+Si está dañado, puede reparar su traje sosteniendo cinta adhesiva en la mano y usando el botón &quot;activar&quot;.</Text>
+    </StationpediaPage>
   </HelpPage>
 </Language>
