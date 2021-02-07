@@ -227,6 +227,15 @@ Pression de fusion {0}</Text>
       <Text>Limite d&apos;embrassement {0} à {1}</Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>NutritionPage</Key>
+      <Title>Mangez</Title>
+      <Text>Les stationnaires finissent par avoir faim, mais tous les aliments ne sont pas égaux. Votre taux de faim varie en fonction des paramètres de difficulté. Manger ne consommera que la quantité adéquate pour restaurer votre faim à 100%.
+
+Tous les Stationeers reçoivent un approvisionnement de {THING:ItemCerealBar} &lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero}&lt;/color&gt;, dans leurs approvisionnements d’atterrisseur au début d’un nouveau monde. Quand ils sont épuisés, vous devez trouver de nouvelles sources de subsistance.
+
+Manger des ingrédients crus satisfera la faim moins que les repas, c’est-à-dire remplacera une plus petite proportion de votre faim. Les éléments de base des aliments sont créés à l’aide des systèmes &lt;color=#0080FFFF&gt;{LINK:OrganicsPage;hydroponics}&lt;/color&gt;. Ceux-ci peuvent être transformés en ingrédients de recettes à l’aide du {THING:ApplianceReagentProcessor), puis transformés en repas à l’aide d’un {THING:ApplianceMicrowave}.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>EVAPage</Key>
       <Title>Combinaison EVA</Title>
       <Text>Votre combinaison vous offre une atmosphère portable, avec des réglages de pression et de température, ainsi qu’un système d’avertissement qui vous avertira si l’atmosphère à l’intérieur de la combinaison devient dangereux. Elle fonctionne en conjonction avec un casque approprié, ainsi que des cartouches de gaz et des filtres dans les différents emplacements de la combinaison. Ceux-ci devront être changés régulièrement, et peuvent également être rechargés (ou vidés) en utilisant déposant la combinaison dans un {THING:StructureSuitStorage}.
