@@ -226,5 +226,30 @@ Pression de fusion {0}</Text>
       <Key>GasPageFlamableTemplate</Key>
       <Text>Limite d&apos;embrassement {0} à {1}</Text>
     </StationpediaPage>
+    <StationpediaPage>
+      <Key>EVAPage</Key>
+      <Title>Combinaison EVA</Title>
+      <Text>Votre combinaison vous offre une atmosphère portable, avec des réglages de pression et de température, ainsi qu’un système d’avertissement qui vous avertira si l’atmosphère à l’intérieur de la combinaison devient dangereux. Elle fonctionne en conjonction avec un casque approprié, ainsi que des cartouches de gaz et des filtres dans les différents emplacements de la combinaison. Ceux-ci devront être changés régulièrement, et peuvent également être rechargés (ou vidés) en utilisant déposant la combinaison dans un {THING:StructureSuitStorage}.
+
+Il existe plusieurs combinaisons, y compris la {THING:ItemEvaSuit} et le modèle le plus résistant à la pression et à la température la {THING:ItemHardSuit}.
+
+Différentes données de votre combinaison sont en bas à droite de l’écran. Appuyer sur la touche numérique 2, cela fera apparaître un panneau montrant ses emplacements et ses paramètres. Ceux-ci comprennent :
+
+- A/C Marche/Arrêt (Climatisation marche/arrêt)
+- Filtres activés/désactivés
+- Air On / Off
+- Pression Monter/Descendre (avec une plage de 0kPA à 202kPa, ou de 0 à 2 atmosphères terrestres)
+- Température Monter/Descendre (avec une plage de 0 °C à 60 °C)
+
+Les combinaisons contiennent de 6 à 8 emplacements :
+- Réservoir d’air (x1) - insérer une Bouteille de Gaz ou une Bouteille de Gaz (Evoluée) contenant un mélange de gaz respirable, par exemple de l&apos;oxygène ou azote/oxygène 35/65.
+- Réservoir à déchets (x1) - collecte les gaz évacués par les filtres.
+- Système de survie (x1) - contient une pile qui alimente votre combinaison : la lumière, le chauffage, etc.
+- Filtres (x3) - nécessite au moins un filtre de CO2 (si vous êtes humain), en fonction de votre mélange de gaz respirable. Notez qu’une {THING:ItemHardSuit} a 4 emplacements de filtre.
+- IC - {THING:ItemHardSuit} uniquement.
+
+Pression : doit être réglée à 50-100 KPa (0,5 à 1 atmosphère terrestre). Les humains dans le jeu tolèrent jusqu’à ~250 kPa et peuvent survivre jusqu’à ~300 kPA.
+</Text>
+    </StationpediaPage>
   </HelpPage>
 </Language>
