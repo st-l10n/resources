@@ -13,12 +13,12 @@
 			<Value>Hydroponics + Food</Value>
 		</Record>
 		<Record>
-			<Key>TutoiralAtmosphericsSubTitle</Key>
-			<Value>Practical Training: Stage IV</Value>
-		</Record>
-		<Record>
 			<Key>TutoiralHydroponicsAndFoodSubTitle</Key>
 			<Value>Getting hungry? Test your ability to feed yourself offworld.</Value>
+		</Record>
+		<Record>
+			<Key>TutoiralHydroponicsAndFoodSubTitle2</Key>
+			<Value>Practical Training: Stage VI.</Value>
 		</Record>
 		<Record>
 			<Key>TutoiralHydroponicsAndFoodDescription</Key>
@@ -26,15 +26,15 @@
 		</Record>
 		<Record>
 			<Key>6Narration1D</Key>
-			<Value>In this phase of testing, we'll look at your ability to grow food, then cook it up into something useful. The first step is to create a water network. Start by building a water tank connector. </Value>
+			<Value>In this phase of testing, we'll look at your ability to grow food, then cook it up into something useful. The first step is to create a water network. Start by building a liquid tank connector. </Value>
 		</Record>
 		<Record>
 			<Key>6BuildTankConnecter</Key>
-			<Value>Build the tank connecter in the highlighted position</Value>
+			<Value>Build tank connector in the highlighted position</Value>
 		</Record>
 		<Record>
 			<Key>6MoveThingArea</Key>
-			<Value>Wrestle water tank onto tank connecter</Value>
+			<Value>Wrestle water tank onto tank connector</Value>
 		</Record>
 		<Record>
 			<Key>ConnectTankToConnecter</Key>
@@ -42,7 +42,7 @@
 		</Record>
 		<Record>
 			<Key>6Narration3D</Key>
-			<Value>Tank connectors let you attach tanks to pipe networks - a liquid network, in this case. Finish the liquid pipe network by connecting the pipes to the hydroponic tray array.</Value>
+			<Value>Tank connectors let you attach tanks to pipe networks. Finish the liquid pipe network by connecting the liquid pipes to the hydroponic tray array.</Value>
 		</Record>
 		<Record>
 			<Key>6GetPipe</Key>
@@ -58,7 +58,7 @@
 		</Record>
 		<Record>
 			<Key>6Narration4D</Key>
-			<Value>Before you plant anything, set up a grow light, so you can grow all through the night, too, bruh.</Value>
+			<Value>Before you plant anything, set up a grow light so you can grow all through the night, too, bruh.</Value>
 		</Record>
 		<Record>
 			<Key>6GetGrowLight</Key>
@@ -74,7 +74,7 @@
 		</Record>
 		<Record>
 			<Key>6Narration5D</Key>
-			<Value>You can grow a range of plants using various hydroponic systems and atmospheric ratios. But today, we're just testing the basics: you've got water and light, so it's time to plant wheat in each of the hydroponic trays.</Value>
+			<Value>Different plants require different atmospheric ratios. But today, we're just testing the basics: you've got water, light, and the correct gas mix, so it's time to plant wheat in each of the hydroponic trays.</Value>
 		</Record>
 		<Record>
 			<Key>6GetWheat</Key>
@@ -86,7 +86,7 @@
 		</Record>
 		<Record>
 			<Key>6Narration6D</Key>
-			<Value>Plants require specific proportions of gases to grow. We'll be testing your skills with gas systems in the next phase, but for now, just wait for the wheat to grow. We've added a little super fertilizer to speed things up.</Value>
+			<Value>We'll be testing your skills with gas systems in the next phase, but for now, just wait for the wheat to grow. We've added a little super fertilizer to speed things up.</Value>
 		</Record>
 		<Record>
 			<Key>6WaitForWheatToGrow</Key>
@@ -94,11 +94,11 @@
 		</Record>
 		<Record>
 			<Key>6Narration6D</Key>
-			<Value>It's harvest time! You can eat raw wheat - if you like - but it will provide more nourishment if you process and cook it. Use the reagent processor to turn the wheat into flour.</Value>
+			<Value>It's harvest time! You can eat raw wheat - if you like - but it will provide more nourishment if you cook it. Harvest 20 wheat, then use the reagent processor to turn it into flour.</Value>
 		</Record>
 		<Record>
 			<Key>6HarvestWheat</Key>
-			<Value>Harvest Wheat</Value>
+			<Value>Harvest 20 wheat</Value>
 		</Record>
 		<Record>
 			<Key>6PutWheatInProcessor</Key>
@@ -114,7 +114,7 @@
 		</Record>
 		<Record>
 			<Key>6Narration8D</Key>
-			<Value>Now you have flour, let's get baking. You can cook a variety of foods in the microwave - including muffins. Sound delicious?</Value>
+			<Value>In a moment, you'll have flour, so you can get baking. You can cook a variety of foods in the microwave, including muffins. Sound delicious? Make sure to follow the recipe exactly, because baking is a science.</Value>
 		</Record>
 		<Record>
 			<Key>6PutEggInMicrowave</Key>
@@ -130,7 +130,7 @@
 		</Record>
 		<Record>
 			<Key>6MicrowaveOn</Key>
-			<Value>Turn On the microwave</Value>
+			<Value>Turn on the microwave</Value>
 		</Record>
 		<Record>
 			<Key>6BakeMuffin</Key>
@@ -146,7 +146,7 @@
 		</Record>
 		<Record>
 			<Key>6Narration10D</Key>
-			<Value>Well done, Cadet. You've demonstrated a high degree of self-sufficiency, and a acceptable culinary talent. The Stationeer Command will be proud of you. Press the important blue button to transmit your results.</Value>
+			<Value>Well done, Cadet. You've demonstrated a high degree of self-sufficiency, and acceptable culinary talents. Stationeer Command will be proud of you. Press the important blue button to transmit your results.</Value>
 		</Record>
 		<Record>
 			<Key>6OnButtonPressTask</Key>
@@ -154,41 +154,52 @@
 		</Record>
 		<Record>
 			<Key>6FlourCreated</Key>
-			<Value>Create Flour</Value>
+			<Value>Create flour</Value>
 		</Record>
 		<Record>
 			<Key>6NarrationInsert1D</Key>
-			<Value>including narrative panel that says: 'Hydroponic trays are a simple, effective way to grow plants of all sorts'</Value>
+			<Value>Hydroponic trays are a simple, effective way to grow plants of all sorts. Finish the system by adding another tray to the array.</Value>
 		</Record>
 		<Record>
 			<Key>6MicrowaveClosed</Key>
-			<Value>Close the Microwave</Value>
+			<Value>Close the microwave</Value>
 		</Record>
 		<Record>
 			<Key>6MicrowaveOpened</Key>
-			<Value>Open the Microwave</Value>
+			<Value>Open the microwave</Value>
 		</Record>
 		<Record>
 			<Key>6HydroponicTray</Key>
-			<Value>Build Hydroponics tray</Value>
+			<Value>Build hydroponics tray</Value>
 		</Record>
 		<Record>
 			<Key>6BuildCables</Key>
-			<Value>Build Cable in the highlighted position</Value>
+			<Value>Build cable in the highlighted position</Value>
 		</Record>
 		<Record>
 			<Key>6PickUpCable</Key>
-			<Value>Pick  up cable</Value>
+			<Value>Pick up cable</Value>
 		</Record>
 		<Record>
 			<Key>6PickUpCable</Key>
-			<Value>Pick  up cable</Value>
+			<Value>Pick up cable</Value>
 		</Record>
 		<Record>
 			<Key>6PickUpItemHydroponicTray</Key>
-			<Value>Pick Up Hydroponic Tray</Value>
+			<Value>Pick up hydroponic tray</Value>
 		</Record>
-		
+		<Record>
+			<Key>6GetFlour</Key>
+			<Value>Get Flour from the reagent processor</Value>
+		</Record>
+		<Record>
+			<Key>6EndScreenText</Key>
+			<Value>Good work, Cadet, you have demonstrated acceptable hydroponic skills</Value>
+		</Record>
+		<Record>
+			<Key>6WaitForGrow</Key>
+			<Value>Wait for wheat to grow</Value>
+		</Record>
 	
 	</Interface>
 </Language>
