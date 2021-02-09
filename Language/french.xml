@@ -4589,6 +4589,10 @@
       <Value>Ventilateur de {THING:StructureWallCooler}</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitRoverMKI</Key>
+      <Value>Kit (Rover MKI)</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureGrowLight</Key>
       <Value>Lampe horticole</Value>
     </RecordThing>
@@ -4798,15 +4802,15 @@
     </RecordThing>
     <RecordThing>
       <Key>DynamicMKIILiquidCanisterEmpty</Key>
-      <Value>Citerne portable MKII (vide)</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicMKIILiquidCanister</Key>
-      <Value>Kit (Citerne portable MKII)</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>DynamicMKIILiquidCanisterWater</Key>
-      <Value>Citerne portable MKII (Eau)</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidVolumePump</Key>
@@ -4834,43 +4838,55 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIScrewdriver</Key>
-      <Value>Tournevis MKII</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIAngleGrinder</Key>
-      <Value>Meuleuse MKII</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIICrowbar</Key>
-      <Value>Pied de biche MKII</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIArcWelder</Key>
-      <Value>Soudeur à arc MKII</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIDrill</Key>
-      <Value>Foreuse MKII (MK2drill?)</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIMiningDrill</Key>
-      <Value>Foreuse MKII</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIWireCutters</Key>
-      <Value>Pince coupante MKII</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIWrench</Key>
-      <Value>Clé à molette MKII</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIDuctTape</Key>
-      <Value>Ruban adhésif MKII</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWaterBottleFiller</Key>
       <Value>Kit (Remplisseur de bouteille d’eau)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidTankBig</Key>
+      <Value>Connecteur de Bouteille de Gaz</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidTankSmall</Key>
+      <Value>Connecteur de Bouteille de Gaz</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLiquidTank</Key>
+      <Value>Kit (Citerne portable MKII)</Value>
     </RecordThing>
   </Things>
   <Slots>
@@ -5105,6 +5121,10 @@
     <Record>
       <Key>HandSlot</Key>
       <Value>Main</Value>
+    </Record>
+    <Record>
+      <Key>BottleSlot</Key>
+      <Value>Emplacement portable</Value>
     </Record>
   </Slots>
   <Interactables>

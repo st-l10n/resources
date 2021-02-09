@@ -4446,6 +4446,10 @@
       <Value>Restos enfriador de pared</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitRoverMKI</Key>
+      <Value>Kit (Rover MKI)</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>Rover_MkI_build_states</Key>
       <Value>Rover MK1 estado de construcción</Value>
     </RecordThing>
@@ -4675,15 +4679,15 @@
     </RecordThing>
     <RecordThing>
       <Key>DynamicMKIILiquidCanisterEmpty</Key>
-      <Value>Tanque de líquido portátil MKII (vacío)</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicMKIILiquidCanister</Key>
-      <Value>Kit (tanque de líquido MKII)</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>DynamicMKIILiquidCanisterWater</Key>
-      <Value>Tanque de líquido portátil MKII (agua)</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidVolumePump</Key>
@@ -4711,19 +4715,19 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIScrewdriver</Key>
-      <Value>Destornillador MKII</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIAngleGrinder</Key>
-      <Value>Radial MKII</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIICrowbar</Key>
-      <Value>Palanca MKII</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIArcWelder</Key>
-      <Value>Soldador MKII</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIDrill</Key>
@@ -4748,6 +4752,18 @@
     <RecordThing>
       <Key>ItemKitWaterBottleFiller</Key>
       <Value>Kit de llenado de botellas de agua</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidTankBig</Key>
+      <Value>Almacenamiento de tanque de líquido</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidTankSmall</Key>
+      <Value>Almacenamiento de tanque de líquido</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLiquidTank</Key>
+      <Value>Kit (tanque de líquido MKII)</Value>
     </RecordThing>
   </Things>
   <Slots>
@@ -4982,6 +4998,10 @@
     <Record>
       <Key>HandSlot</Key>
       <Value>Mano</Value>
+    </Record>
+    <Record>
+      <Key>BottleSlot</Key>
+      <Value>Ranura Portátil</Value>
     </Record>
   </Slots>
   <Interactables>
