@@ -5267,11 +5267,11 @@ When landing, the rocket will deploy a lander, and any cargo contained in the {T
     <RecordThing>
       <Key>DynamicGasTankAdvanced</Key>
       <Value>Gas Tank Mk II</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicGasTankAdvanced</Key>
-      <Value>Kit (Portable Tank Advanced)</Value>
+      <Value>Kit (Portable Tank Mk II)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5371,7 +5371,7 @@ When landing, the rocket will deploy a lander, and any cargo contained in the {T
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRoverMKI</Key>
-      <Value>Kit (Rover MKI)</Value>
+      <Value>Kit (Rover Mk I)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5667,17 +5667,17 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     </RecordThing>
     <RecordThing>
       <Key>DynamicMKIILiquidCanisterEmpty</Key>
-      <Value>Portable Liquid Tank MKII (Empty)</Value>
+      <Value>Portable Liquid Tank Mk II</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicMKIILiquidCanister</Key>
-      <Value>Kit (MKII Liquid Tank)</Value>
+      <Value>Kit (Portable Liquid Tank Mk II)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>DynamicMKIILiquidCanisterWater</Key>
-      <Value>Portable Liquid Tank MKII (Water)</Value>
+      <Value>Portable Liquid Tank Mk II (Water)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5712,52 +5712,67 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIScrewdriver</Key>
-      <Value>MKII Screwdriver</Value>
+      <Value>Mk II Screwdriver</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIAngleGrinder</Key>
-      <Value>MKII Angle Grinder</Value>
+      <Value>Mk II Angle Grinder</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIICrowbar</Key>
-      <Value>MKII Crowbar</Value>
+      <Value>Mk II Crowbar</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIArcWelder</Key>
-      <Value>MKII Arc Welder</Value>
+      <Value>Mk II Arc Welder</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIDrill</Key>
-      <Value>MKII Drill</Value>
+      <Value>Mk II Drill</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIMiningDrill</Key>
-      <Value>MKII Mining Drill</Value>
+      <Value>Mk II Mining Drill</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIWireCutters</Key>
-      <Value>MKII Wire Cutters</Value>
+      <Value>Mk II Wire Cutters</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIWrench</Key>
-      <Value>MKII Wrench</Value>
+      <Value>Mk II Wrench</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIDuctTape</Key>
-      <Value>MKII Duct Tape</Value>
+      <Value>Mk II Duct Tape</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWaterBottleFiller</Key>
       <Value>Item Kit Water Bottle Filler</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidTankBig</Key>
+      <Value>Liquid Tank Big</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidTankSmall</Key>
+      <Value>Liquid Tank Small</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLiquidTank</Key>
+      <Value>Kit (Liquid Tank)</Value>
       <Description />
     </RecordThing>
   </Things>
@@ -6001,6 +6016,10 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <Record>
       <Key>HandSlot</Key>
       <Value>Hand</Value>
+    </Record>
+    <Record>
+      <Key>BottleSlot</Key>
+      <Value>Bottle Slot</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -7651,7 +7670,7 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     </Record>
     <Record>
       <Key>SettingsHungerRate</Key>
-      <Value>Hunger Rate</Value>
+      <Value>Hunger/Hydration Rate</Value>
     </Record>
     <Record>
       <Key>JoinWorldSortBy</Key>
@@ -10219,6 +10238,10 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <Record>
       <Key>TutorialCompleteDateOfCompletion</Key>
       <Value>Date of Completion:</Value>
+    </Record>
+    <Record>
+      <Key>BottleSlot</Key>
+      <Value>Bottle Slot</Value>
     </Record>
     <Record>
       <Key>TutorialCompleteDeanHall</Key>
