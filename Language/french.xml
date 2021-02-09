@@ -4766,11 +4766,11 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterBottle</Key>
-      <Value>Bouteille d’eau</Value>
+      <Value>Délicieuse et pure H20, raffiné à partir de sources locales aussi variées que la glace vénusienne et les comètes trans-solaires. Les bouteilles vides peuvent être remplies à l’aide du {THING:StructureWaterBottleFiller}.</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterBottleFiller</Key>
-      <Value>Remplisseur de bouteille d’eau</Value>
+      <Value>Comme son nom l’indique, cet appareil remplit une {THING:ItemWaterBottle}, lorsqu’il est connecté à un réseau de tube de liquide.</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterBottleFiller</Key>
@@ -4802,7 +4802,7 @@
     </RecordThing>
     <RecordThing>
       <Key>DynamicMKIILiquidCanisterEmpty</Key>
-      <Value>Citerne portable MKII (vide)</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicMKIILiquidCanister</Key>
@@ -4810,7 +4810,7 @@
     </RecordThing>
     <RecordThing>
       <Key>DynamicMKIILiquidCanisterWater</Key>
-      <Value>Citerne portable MKII (Eau)</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidVolumePump</Key>
@@ -4875,6 +4875,18 @@
     <RecordThing>
       <Key>ItemKitWaterBottleFiller</Key>
       <Value>Kit (Remplisseur de bouteille d’eau)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidTankBig</Key>
+      <Value>Connecteur de Bouteille de Gaz</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidTankSmall</Key>
+      <Value>Connecteur de Bouteille de Gaz</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLiquidTank</Key>
+      <Value/>
     </RecordThing>
   </Things>
   <Slots>
@@ -5109,6 +5121,10 @@
     <Record>
       <Key>HandSlot</Key>
       <Value>Main</Value>
+    </Record>
+    <Record>
+      <Key>BottleSlot</Key>
+      <Value>Emplacement portable</Value>
     </Record>
   </Slots>
   <Interactables>

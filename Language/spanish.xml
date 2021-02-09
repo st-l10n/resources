@@ -4643,11 +4643,11 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterBottle</Key>
-      <Value>Botella de agua</Value>
+      <Value>H20 delicioso y puro, refinado de fuentes locales tan variadas como el hielo venusino y los cometas transsolares. Las botellas vacías se pueden rellenar con {THING:StructureWaterBottleFiller}.</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterBottleFiller</Key>
-      <Value>Rellenador de botellas de agua</Value>
+      <Value>Como sugiere su nombre poco inspirado, este dispositivo recarga una {THING:ItemWaterBottle} cuando se conecta a una red de tuberías de líquido.</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterBottleFiller</Key>
@@ -4679,7 +4679,7 @@
     </RecordThing>
     <RecordThing>
       <Key>DynamicMKIILiquidCanisterEmpty</Key>
-      <Value>Tanque de líquido portátil MKII (vacío)</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicMKIILiquidCanister</Key>
@@ -4687,7 +4687,7 @@
     </RecordThing>
     <RecordThing>
       <Key>DynamicMKIILiquidCanisterWater</Key>
-      <Value>Tanque de líquido portátil MKII (agua)</Value>
+      <Value/>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidVolumePump</Key>
@@ -4752,6 +4752,18 @@
     <RecordThing>
       <Key>ItemKitWaterBottleFiller</Key>
       <Value>Kit de llenado de botellas de agua</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidTankBig</Key>
+      <Value>Almacenamiento de tanque de líquido</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidTankSmall</Key>
+      <Value>Almacenamiento de tanque de líquido</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLiquidTank</Key>
+      <Value/>
     </RecordThing>
   </Things>
   <Slots>
@@ -4986,6 +4998,10 @@
     <Record>
       <Key>HandSlot</Key>
       <Value>Mano</Value>
+    </Record>
+    <Record>
+      <Key>BottleSlot</Key>
+      <Value>Ranura Portátil</Value>
     </Record>
   </Slots>
   <Interactables>

@@ -2231,6 +2231,18 @@
       <Key>ItemWreckageCompositeDoorGlass2</Key>
       <Value>Kompozitné dvere</Value>
     </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidTankBig</Key>
+      <Value>Gas Tank Storage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidTankSmall</Key>
+      <Value>Gas Tank Storage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLiquidTank</Key>
+      <Value>Kit (Portable Tank)</Value>
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -2268,6 +2280,10 @@
     <Record>
       <Key>HandSlot</Key>
       <Value>Left Hand</Value>
+    </Record>
+    <Record>
+      <Key>BottleSlot</Key>
+      <Value>Portable Slot</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -3051,6 +3067,10 @@ Scroll &lt;color=red&gt;Mouse Wheel&lt;/color&gt; for more options.</Value>
       <Key>AlertNoResponse</Key>
       <Value>There is no response from the Game Server.
 Please try again.</Value>
+    </Record>
+    <Record>
+      <Key>SettingsHungerRate</Key>
+      <Value>Hunger Rate</Value>
     </Record>
     <Record>
       <Key>NewWorldMoonDesc</Key>
