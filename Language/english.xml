@@ -5636,7 +5636,7 @@ While the wind turbine is optimized to produce power (up to 500W) even on low at
       <Key>StructureIceCrusher</Key>
       <Value>Ice Crusher</Value>
       <Description>The &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; KoolAuger converts various ices into their respective &lt;color=#0080FFFF&gt;{LINK:GasPage;gases}&lt;/color&gt; and liquids.
-A remarkably smart and compact sublimation-melting unit, it produces gas or liquid depending on the ice being processed. The upper outlet is gas, the lower for liquid, and while you can attach any pipe you like to either oulet, it will only function if the correct network is attached. 
+A remarkably smart and compact sublimation-melting unit, it produces gas or liquid depending on the ice being processed. The upper outlet is gas, the lower for liquid, and while you can attach any pipe you like to either oulet, it will only function if the correct network is attached. It will also only pass gas or liquid into a network if it is powered and turned on.
 If the KoolAuger is full, it will not accept any further ice until the gas or liquid contents is drained. In this state, it will flash a yellow error state on the activation switch.</Description>
     </RecordThing>
     <RecordThing>
@@ -10784,6 +10784,22 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     <Record>
       <Key>NutritionSPDAKey</Key>
       <Value>Nutrition</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHydrationDesc</Key>
+      <Value>Hydration is running low</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHydrationKey</Key>
+      <Value>Hydration Low</Value>
+    </Record>
+    <Record>
+      <Key>HydrationCaution</Key>
+      <Value>Hydration Caution</Value>
+    </Record>
+    <Record>
+      <Key>HydrationCritical</Key>
+      <Value>Hydration Critical</Value>
     </Record>
   </Interface>
   <Colors>
