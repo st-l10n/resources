@@ -430,23 +430,27 @@ Melt Pressure {0}</Text>
 
     <StationpediaPage>
       <Key>NutritionPage</Key>
-      <Title>Eating</Title>
+      <Title>Hunger + nutrition</Title>
       <Text>Stationeers get hungry eventually, but not all food is created equal. Also, your hunger rate varies depending on settings and difficulty. Eating will only consume that part of an item adequate to restoring your hunger to 100%.
 
 All Stationeers receive a supply of &lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero}&lt;/color&gt; {THING:ItemCerealBar} in their lander supplies at the outset of a new world. When these are exhausted, you must find new sources of sustenance.
 
 Eating raw ingredients will satisfy hunger less than meals, ie will replace a smaller proportion of your hunger. The basic elements of food are created using &lt;color=#0080FFFF&gt;{LINK:OrganicsPage;hydroponics}&lt;/color&gt; systems. These can be processed into recipe ingredients using the {THING:ApplianceReagentProcessor), then turned into meals using a {THING:ApplianceMicrowave}.
+
+Your hunger rate can be adjusted set in the main settings menu by adjusting the Hunger/Hydration rate slider.
 </Text>
     </StationpediaPage>
 
     <StationpediaPage>
       <Key>HydrationPage</Key>
-      <Title>Hydrate Yourself</Title>
+      <Title>Hydrate yourself</Title>
       <Text>Your average Stationeer needs to drink water regularly. However, arcane and possibly misguided &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; health and safety regulations have long denied Stationeers the right to in-suit hydration mechanisms. Instead, they must take regular drink breaks to open their helmet, and imbibe water. Doing so in an unpressurized environment is unadvised.
 
 How often to drink? This is determined by your difficulty level, the heat of the planet and how much you like to move your body.
 
-Water comes in many forms. At least one {THING:ItemWaterBottle} is supplied to Stationeers as part of their rations when landing on new planets. These can be refilled using a {THING:ItemWaterBottleFiller}, which must itself be connected to a liquid pipe network. The network itself can be filled using a {THING:StructureIceCrusher} with a suitable supply of ice.
+Water comes in many forms. At least one {THING:ItemWaterBottle} is supplied to Stationeers as part of their rations when landing on new planets, with more in your lander crates. These can be refilled using a {THING:ItemWaterBottleFiller}, which must itself be connected to a liquid pipe network. The network itself can be filled using a {THING:StructureIceCrusher} with a suitable supply of ice.
+
+Your thirst rate can be adjusted set on the main settings menu by adjusting your Hunger/Hydration rate slider.
 </Text>
     </StationpediaPage>
 

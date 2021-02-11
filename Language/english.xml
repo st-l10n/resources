@@ -955,7 +955,8 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>ItemCableCoil</Key>
       <Value>Cable Coil</Value>
-      <Description>Bodily metaphors are tired and humancentric, but it was Frida Stuppen, the first &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; Administrator, who said, 'Let the cabling be as the nerve and the vessel, transmitting power and data alike through systems we forge among the stars.' Later commentators suggested that she was simply putting a romantic gloss on a piece of dubious economy. Whatever the case, standard cabling is where any &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer's}&lt;/color&gt; network begins.</Description>
+      <Description>Bodily metaphors are tired and humancentric, but it was Frida Stuppen, the first &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; Administrator, who said, 'Let the cabling be as the nerve and the vessel, transmitting power and data alike through systems we forge among the stars.' Later commentators suggested that she was simply putting a romantic gloss on a piece of dubious economy. Whatever the case, standard cabling is where any &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer's}&lt;/color&gt; network begins. 
+Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemChemLightBlue</Key>
@@ -2453,6 +2454,7 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
     <RecordThing>
       <Key>ItemCableCoilHeavy</Key>
       <Value>Cable Coil (Heavy)</Value>
+<Description>Use heavy cable coil for power systems with large draws. Unlike {THING:StructureCableCoil}, which can only safely conduct 5kW, heavy cables can transmit up to 100kW.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFrameIron</Key>
