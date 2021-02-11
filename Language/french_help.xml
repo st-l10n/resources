@@ -227,6 +227,17 @@ Pression de fusion {0}</Text>
       <Text>Limite d&apos;embrassement {0} à {1}</Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>NutritionPage</Key>
+      <Title>Faim + nutrition</Title>
+      <Text>Les stationnaires finissent par avoir faim, mais tous les aliments ne sont pas égaux. Votre taux de faim varie en fonction des paramètres de difficulté. Manger ne consommera que la quantité adéquate pour restaurer votre faim à 100%.
+
+Tous les Stationeers reçoivent un approvisionnement de {THING:ItemCerealBar} &lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero}&lt;/color&gt;, dans leurs approvisionnements d’atterrisseur au début d’un nouveau monde. Quand ils sont épuisés, vous devez trouver de nouvelles sources de subsistance.
+
+Manger des ingrédients crus satisfera la faim moins que les repas, c’est-à-dire remplacera une plus petite proportion de votre faim. Les aliments de base sont créés à l’aide de système &lt;color=#0080FFFF&gt;{LINK:OrganicsPage;hydroponics}&lt;/color&gt;. Ceux-ci peuvent être transformés en ingrédients pour vos recettes à l’aide du {THING:ApplianceReagentProcessor), puis transformés en repas à l’aide d’un {THING:ApplianceMicrowave}.
+
+Votre taux de faim peut être réglé dans les paramètres du jeu, en ajustant le curseur du taux de faim / soif.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>HydrationPage</Key>
       <Title>Hydratez-vous</Title>
       <Text>Le Stationeer moyen a besoin de boire de l’eau régulièrement. Cependant, les règlements de santé et de sécurité, obscur et peut-être mal orienté de l&apos;&lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; ont longtemps refusé aux Stationeers le droit à des mécanismes d’hydratation intra-combinaison. Au lieu de cela, ils doivent prendre régulièrement des pauses pour ouvrir leur casque et boire de l’eau. Le faire dans un environnement non pressurisé n’est pas déconseillé.
