@@ -694,7 +694,7 @@
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterWater</Key>
-      <Value>Réservoir portable (Eau)</Value>
+      <Value>Citerne portable (Eau)</Value>
     </RecordThing>
     <RecordThing>
       <Key>DynamicLiquidCanisterEmpty</Key>
@@ -902,7 +902,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterWater</Key>
-      <Value>Bouteille de Gaz (Eau)</Value>
+      <Value>Bonbonne (Eau)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidCanisterEmpty</Key>
@@ -4510,7 +4510,7 @@
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasTankAdvanced</Key>
-      <Value>Réservoir portable calfeutré</Value>
+      <Value>Réservoir MKII</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicGasTankAdvanced</Key>
@@ -4770,7 +4770,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterBottleFiller</Key>
-      <Value>Comme son nom l’indique, cet appareil remplit une {THING:ItemWaterBottle}, lorsqu’il est connecté à un réseau de tube de liquide.</Value>
+      <Value>Remplisseur de bouteille d’eau</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterBottleFiller</Key>
@@ -4790,7 +4790,7 @@
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasTankAdvancedWater</Key>
-      <Value/>
+      <Value>Citerne portable MKII (Eau)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidPipeRadiator</Key>
@@ -4802,15 +4802,15 @@
     </RecordThing>
     <RecordThing>
       <Key>DynamicMKIILiquidCanisterEmpty</Key>
-      <Value/>
+      <Value>Citerne portable MKII</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicMKIILiquidCanister</Key>
-      <Value/>
+      <Value>Kit (Citerne portable MKII)</Value>
     </RecordThing>
     <RecordThing>
       <Key>DynamicMKIILiquidCanisterWater</Key>
-      <Value/>
+      <Value>Citerne portable MKII (Eau)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidVolumePump</Key>
@@ -4838,39 +4838,39 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIScrewdriver</Key>
-      <Value/>
+      <Value>Tournevis MKII</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIAngleGrinder</Key>
-      <Value/>
+      <Value>Meuleuse MKII</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIICrowbar</Key>
-      <Value/>
+      <Value>Pied de biche MKII</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIArcWelder</Key>
-      <Value/>
+      <Value>Soudeur à arc MKII</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIDrill</Key>
-      <Value/>
+      <Value>Perceuse MKII</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIMiningDrill</Key>
-      <Value/>
+      <Value>Foreuse MKII</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIWireCutters</Key>
-      <Value/>
+      <Value>Pince coupante MKII</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIWrench</Key>
-      <Value/>
+      <Value>Clé à molette MKII</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIDuctTape</Key>
-      <Value/>
+      <Value>Ruban adhésif MKII</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWaterBottleFiller</Key>
@@ -4878,15 +4878,15 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankBig</Key>
-      <Value/>
+      <Value>Grande Citerne</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankSmall</Key>
-      <Value/>
+      <Value>Citerne</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLiquidTank</Key>
-      <Value/>
+      <Value>Kit (Citerne)</Value>
     </RecordThing>
   </Things>
   <Slots>
@@ -5124,7 +5124,7 @@
     </Record>
     <Record>
       <Key>BottleSlot</Key>
-      <Value>Emplacement portable</Value>
+      <Value>Emplacement bouteille d&apos;eau</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -6703,7 +6703,7 @@ Veuillez réessayer.</Value>
     </Record>
     <Record>
       <Key>SettingsHungerRate</Key>
-      <Value>Taux de faim</Value>
+      <Value>Taux de faim/soif</Value>
     </Record>
     <Record>
       <Key>JoinWorldSortBy</Key>
@@ -8974,6 +8974,10 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>Date d’achèvement :</Value>
     </Record>
     <Record>
+      <Key>BottleSlot</Key>
+      <Value>Emplacement bouteille d&apos;eau</Value>
+    </Record>
+    <Record>
       <Key>TutorialCompleteDeanHall</Key>
       <Value>Doyen du Hall</Value>
     </Record>
@@ -9174,7 +9178,7 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
     </Record>
     <Record>
       <Key>ControlSecondaryEatDisc</Key>
-      <Value>Terre</Value>
+      <Value>Manger</Value>
     </Record>
     <Record>
       <Key>ToggleChangeLog</Key>
@@ -9401,16 +9405,20 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
       <Value>Hydratation</Value>
     </Record>
     <Record>
+      <Key>StatusIconHydrationDesc</Key>
+      <Value>L&apos;hydratation diminue</Value>
+    </Record>
+    <Record>
       <Key>StatusIconHydrationKey</Key>
-      <Value>Hydratation</Value>
+      <Value>Hydratation basse</Value>
     </Record>
     <Record>
       <Key>HydrationCaution</Key>
-      <Value>Hydratation</Value>
+      <Value>Hydratation Attention</Value>
     </Record>
     <Record>
       <Key>HydrationCritical</Key>
-      <Value>Hydratation</Value>
+      <Value>Hydratation Critique</Value>
     </Record>
   </Interface>
   <Colors>
