@@ -224,50 +224,6 @@ The {THING:StructureModularRocketFueltank01} requires a 2:1 mixture of {GAS:Vola
 Давление плавления {0}</Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>CreatorsHeaderTemplate</Key>
-      <Text>{HEADER:Изготовлено}{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ConstructedByHeaderTemplate</Key>
-      <Text>{HEADER:Построен из набора}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>CreatedHeaderTemplate</Key>
-      <Text>{HEADER:Можно изготовить}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ConstructedHeaderTemplate</Key>
-      <Text>{HEADER:Можно построить}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>LogicTransmitHeaderTemplate</Key>
-      <Text>
-        {HEADER:Подключается к}
-        {LIST}{0}{/LIST}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>LogicTypeHeaderTemplate</Key>
-      <Text>{HEADER:Логика}{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ModeStringHeaderTemplate</Key>
-      <Text>{HEADER:Режимы}{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>CreatedGasesTemplate</Key>
-      <Text>{HEADER:Газы}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>CreatedReagentTemplate</Key>
-      <Text>{HEADER:Реагенты}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>ReagentPageTemplate</Key>
       <Text>{LINK:ReagentPage;Реагенты}, часто используются в форме {LINK:IngotPage;Слитков}.
 
