@@ -133,11 +133,15 @@
     </Record>
     <Record>
       <Key>6BakeMuffin</Key>
-      <Value>Faire cuire un {THING:ItemMuffin}</Value>
+      <Value>Cuire un Muffin</Value>
     </Record>
     <Record>
       <Key>6Narration9D</Key>
-      <Value>Vous êtes sur le point de cuisiner l’un des meilleurs muffins d’Agrizero. Profitez-en et bannissez cette faim, Cadet.</Value>
+      <Value>Vous avez cuit l’un des meilleurs muffins d’Agrizero. Profitez-en et bannissez cette faim, Cadet.</Value>
+    </Record>
+    <Record>
+      <Key>6EatMuffin</Key>
+      <Value>Manger le Muffin</Value>
     </Record>
     <Record>
       <Key>6Narration10D</Key>
@@ -145,7 +149,7 @@
     </Record>
     <Record>
       <Key>6OnButtonPressTask</Key>
-      <Value>Terminez la programmation, retirez le {THING:ItemDataDisk}, et appuyer sur le bouton &quot;CYCLE TO INTERIOR&quot;.</Value>
+      <Value>Appuyer sur le Gros Bouton  Bleu</Value>
     </Record>
     <Record>
       <Key>6FlourCreated</Key>
@@ -186,6 +190,10 @@
     <Record>
       <Key>6GetFlour</Key>
       <Value>Ramassez la farine dans le mixeur</Value>
+    </Record>
+    <Record>
+      <Key>6EndScreenText</Key>
+      <Value>Bon travail, cadet, vous avez démontré des compétences acceptables en culture hydroponique</Value>
     </Record>
     <Record>
       <Key>6WaitForGrow</Key>
