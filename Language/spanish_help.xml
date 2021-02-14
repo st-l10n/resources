@@ -233,6 +233,15 @@ Presión de la masa fundida {0}</Text>
       <Text>Límite inflamable {0} a {1}</Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>NutritionPage</Key>
+      <Title>Hambre + nutrición</Title>
+      <Text>Los Stationeers eventualmente tienen hambre, pero no todos los alimentos son iguales. Además, su tasa de hambre varía según la configuración y la dificultad. Comer solo consumirá esa parte de un artículo adecuada para restaurar su hambre al 100%.
+
+Todos los Stationeers reciben un suministro de &lt;color = # 0080FFFF&gt;{LINK:Agrizero;Agrizero}&lt;/color&gt;{THING:ItemCerealBar} en sus suministros de aterrizaje al comienzo de un nuevo mundo. Cuando estos se agotan, debe encontrar nuevas fuentes de sustento.
+
+Comer ingredientes crudos satisfará menos el hambre que las comidas, es decir, reemplazará una proporción menor de su hambre. Los elementos básicos de los alimentos se crean utilizando sistemas &lt;color=#0080FFFF&gt;{LINK:OrganicsPage;hydroponics}&lt;/color&gt;. Estos se pueden procesar en ingredientes de recetas usando el {THING:ApplianceReagentProcessor), y luego convertirse en comidas usando un {THING:ApplianceMicrowave}.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>HydrationPage</Key>
       <Title>El Stationeer medio necesita beber agua con regularidad. Sin embargo, las normas de salud y seguridad arcanas y posiblemente erróneas &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; han negado durante mucho tiempo a los Stationeers el derecho a los mecanismos de hidratación dentro del traje. En cambio, deben tomar descansos regulares para beber para abrir su casco y beber agua. No se recomienda hacerlo en un entorno sin presión.
 
