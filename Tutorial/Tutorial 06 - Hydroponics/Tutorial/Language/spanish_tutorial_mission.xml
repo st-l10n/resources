@@ -4,12 +4,12 @@
   <Interface>
     <Record>
       <Key>TutoiralHydroponicsAndFood</Key>
-      <Value>Hidropónia y Cocina</Value>
+      <Value>Hidropónia + Cocina</Value>
     </Record>
     <Record>
       <Key>TutoiralHydroponicsAndFood</Key>
       <!--This is the description that appers in the menu-->
-      <Value>Hidropónia y Cocina</Value>
+      <Value>Hidropónia + Cocina</Value>
     </Record>
     <Record>
       <Key>TutoiralHydroponicsAndFoodSubTitle</Key>
@@ -17,7 +17,7 @@
     </Record>
     <Record>
       <Key>TutoiralHydroponicsAndFoodSubTitle2</Key>
-      <Value>Entrenamiento Táctico: Fase 1</Value>
+      <Value>Entrenamiento Práctico: Fase VI.</Value>
     </Record>
     <Record>
       <Key>TutoiralHydroponicsAndFoodDescription</Key>
@@ -25,7 +25,7 @@
     </Record>
     <Record>
       <Key>6Narration1D</Key>
-      <Value>En esta fase de prueba, analizaremos su capacidad para cultivar alimentos y luego los cocinaremos para convertirlos en algo útil. El primer paso es crear una red de agua. Comience construyendo un conector para tanque de agua.</Value>
+      <Value>En esta fase de prueba, analizaremos su capacidad para cultivar alimentos y luego los cocinaremos para convertirlos en algo útil. El primer paso es crear una red de agua. Comience construyendo un conector para tanque de liquidos.</Value>
     </Record>
     <Record>
       <Key>6BuildTankConnecter</Key>
@@ -41,7 +41,7 @@
     </Record>
     <Record>
       <Key>6Narration3D</Key>
-      <Value>Los conectores de tanques le permiten conectar tanques a redes de tuberías, una red líquida, en este caso. Termine la red de tuberías de líquido conectando las tuberías a la matriz de la bandeja hidropónica.</Value>
+      <Value>Los conectores de tanques le permiten conectar tanques a redes de tuberías. Termine la red de tuberías de líquido conectando las tuberías de líquido a la matriz de la bandeja hidropónica.</Value>
     </Record>
     <Record>
       <Key>6GetPipe</Key>
@@ -57,7 +57,7 @@
     </Record>
     <Record>
       <Key>6Narration4D</Key>
-      <Value>Antes de plantar cualquier cosa, instale una luz de crecimiento, para que usted también pueda crecer durante toda la noche, hermano.</Value>
+      <Value>Antes de plantar algo, instale una luz de crecimiento para que usted también pueda crecer durante toda la noche, hermano.</Value>
     </Record>
     <Record>
       <Key>6GetGrowLight</Key>
@@ -73,7 +73,7 @@
     </Record>
     <Record>
       <Key>6Narration5D</Key>
-      <Value>Puede cultivar una variedad de plantas utilizando una variedad de sistemas hidropónicos y combinaciones atmosféricas. Pero hoy, solo estamos probando lo básico: tienes agua y luz, así que es hora de plantar trigo en cada una de las bandejas hidropónicas.</Value>
+      <Value>Las diferentes plantas requieren diferentes proporciones atmosféricas. Pero hoy, solo estamos probando lo básico: tienes agua, luz y la mezcla de gas correcta, así que es hora de plantar trigo en cada una de las bandejas hidropónicas.</Value>
     </Record>
     <Record>
       <Key>6GetWheat</Key>
@@ -85,7 +85,7 @@
     </Record>
     <Record>
       <Key>6Narration6D</Key>
-      <Value>¡Es tiempo de cosecha! Puede comer trigo crudo, si lo desea, pero le proporcionará más nutrientes si lo procesa y cocina. Utilice el procesador de reactivos para convertir el trigo en harina.</Value>
+      <Value>Probaremos sus habilidades con los sistemas de gas en la próxima fase, pero por ahora, espere a que crezca el trigo. Agregamos un poco de súper fertilizante para acelerar las cosas.</Value>
     </Record>
     <Record>
       <Key>6WaitForWheatToGrow</Key>
@@ -93,11 +93,11 @@
     </Record>
     <Record>
       <Key>6Narration6D</Key>
-      <Value>¡Es tiempo de cosecha! Puede comer trigo crudo, si lo desea, pero le proporcionará más nutrientes si lo procesa y cocina. Utilice el procesador de reactivos para convertir el trigo en harina.</Value>
+      <Value>Probaremos sus habilidades con los sistemas de gas en la próxima fase, pero por ahora, espere a que crezca el trigo. Agregamos un poco de súper fertilizante para acelerar las cosas.</Value>
     </Record>
     <Record>
       <Key>6HarvestWheat</Key>
-      <Value>Cosecha de trigo</Value>
+      <Value>Cosecha 20 unidades de trigo</Value>
     </Record>
     <Record>
       <Key>6PutWheatInProcessor</Key>
@@ -113,7 +113,7 @@
     </Record>
     <Record>
       <Key>6Narration8D</Key>
-      <Value>Ahora que tienes harina, vamos a hornear. Puede cocinar una variedad de alimentos en el microondas, incluidos muffins. ¿Suena delicioso?</Value>
+      <Value>En un momento, tendrás harina, para que puedas hornear. Puede cocinar una variedad de alimentos en el microondas, incluidos muffins. ¿Suena delicioso a que si? Asegúrese de seguir la receta exactamente, porque hornear es una ciencia.</Value>
     </Record>
     <Record>
       <Key>6PutEggInMicrowave</Key>
@@ -169,11 +169,11 @@
     </Record>
     <Record>
       <Key>6HydroponicTray</Key>
-      <Value>Hidroponía fija</Value>
+      <Value>Construye la bandeja de la hidroponia</Value>
     </Record>
     <Record>
       <Key>6BuildCables</Key>
-      <Value>Construye la consola en la posicion resaltada</Value>
+      <Value>Construye la consola en la posición resaltada</Value>
     </Record>
     <Record>
       <Key>6PickUpCable</Key>
@@ -189,7 +189,7 @@
     </Record>
     <Record>
       <Key>6GetFlour</Key>
-      <Value>Encienda el procesador de reactivos</Value>
+      <Value>coge la harina del procesador de reactivos</Value>
     </Record>
     <Record>
       <Key>6EndScreenText</Key>
@@ -197,7 +197,7 @@
     </Record>
     <Record>
       <Key>6WaitForGrow</Key>
-      <Value>Espere a que crezca el trigo.</Value>
+      <Value>Espere a que crezca el trigo</Value>
     </Record>
   </Interface>
 </Language>
