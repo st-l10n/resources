@@ -59,9 +59,10 @@
       <Key>FurniturePage</Key>
       <Title>Furniture</Title>
       <Text>{LIST_OF_FURNITURES}</Text>
-    </StationpediaPage>
+    </StationpediaPage> 
         <StationpediaPage>
       <Key>LorePage</Key>
+      <DisplayFilter>Lore</DisplayFilter>
       <Title>Factions of the Universe</Title>
       <Text>{LIST_OF_FACTIONS}</Text>
     </StationpediaPage>
@@ -71,6 +72,7 @@
       <Text>These are powered Structures that can be used to Manufacture things you need in the game. They usually take {LINK:IngotPage;Ingots} to provide the {LINK:ReagentPage;Reagents} they need to make things.
         {LIST_OF_FABRICATORS}
       </Text>
+
     </StationpediaPage>
     <StationpediaPage>
       <Key>DevicePage</Key>
@@ -101,6 +103,7 @@
     <StationpediaPage>
       <Key>ConstructionPage</Key>
       <Title>Construction</Title>
+      <DisplayFilter>Guides</DisplayFilter>
       <Text>{HEADER:Getting Started}
 Typically you will use {LINK:KitPage;kits} to initiate construction and then a variety of {LINK:ToolPage;tools} and {LINK:ResourcePage;resources} to complete. Pay close attention to how many of your kit are required to construct what you have selected, as some structures require more than one of the stack to be consumed. For some kits you will have multiple options, use the {COLORRED:Scroll Wheel} to change the current option you are looking to build.
 
@@ -195,6 +198,7 @@ If you look directly at a structure that is incomplete you will get information 
  <StationpediaPage>
       <Key>TravelPage</Key>
       <Title>Destination</Title>
+      <DisplayFilter>Guides</DisplayFilter>
       <Text>Wait! Don't close me yet! The following conditions must be met for launch:
 
 - Fully built rocket: at least 3 core modules
@@ -205,7 +209,7 @@ If you look directly at a structure that is incomplete you will get information 
 
 Below are the WORLD TRAVEL IDs. You can use them to travel to specific planets, when combined with a completed {LINK:RocketShuttlePage;Rocket Shuttle} and {LINK:LogicUnitPage;Logic Units}.
        
-Simply write the hash to the setting variable on the {THING:StructureLaunchPad} with a {THING:ItemLabeller}. Note: You can click on a hash to copy it to the clipboard.
+Simply write the hash to the setting variable on {THING:StructureLaunchPad} with a {THING:StructureLogicWriter} and a {THING:StructureLogicMemory}. Note: You can click on a hash to copy it to the clipboard.
       
 
       {LIST}
@@ -213,9 +217,10 @@ Simply write the hash to the setting variable on the {THING:StructureLaunchPad} 
       {/LIST}
       </Text>
     </StationpediaPage>
-   <!-- <StationpediaPage>
+<StationpediaPage>
           <Key>RocketShuttleModulesHelpPage</Key>
           <Title>Rocket Shuttle Modules</Title>
+          <DisplayFilter>Guides</DisplayFilter>
           <Text>{HEADER:Modular Rocket Cargo}
 
 The {THING:StructureModularRocketCargo01} has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total.
@@ -244,7 +249,6 @@ The {THING:StructureModularRocketFueltank01} requires a 2:1 mixture of {GAS:Vola
 
           </Text>
         </StationpediaPage>
-        -->
         <StationpediaPage>
       <Key>RocketShuttlePage</Key>
       <Title>Rocket Shuttle</Title>
@@ -257,6 +261,7 @@ The {THING:StructureModularRocketFueltank01} requires a 2:1 mixture of {GAS:Vola
     <StationpediaPage>
       <Key>WeatherPage</Key>
       <Title>Weather</Title>
+      <DisplayFilter>Guides</DisplayFilter>
       <Text>The Solar System's planets are not as calm as they may seem. After seven days on any world with an atmosphere, the inscrutable forces of nature swing into action – hitting unwary Stationeers with blizzards, dust storms and volcanic events.
 As such, the ODA recommends that freshly deployed Stationeers create an airtight base within 7 days of landing.
 Any dynamic objects left outside in a storm – on Mars, Loulan, Vulcan or Europa – risks being blown far, far away, including your lander.
@@ -390,6 +395,16 @@ Melt Pressure {0}</Text>
     </StationpediaPage>
     
     <StationpediaPage>
+      <Key>Lore</Key>
+      <Text></Text>
+    </StationpediaPage>
+
+        <StationpediaPage>
+      <Key>Guides</Key>
+      <Text></Text>
+    </StationpediaPage>
+
+        <StationpediaPage>
       <Key>CreatedReagentTemplate</Key>
       <Text>
 {LIST}{0}{/LIST}</Text>
@@ -431,6 +446,7 @@ Melt Pressure {0}</Text>
     <StationpediaPage>
       <Key>NutritionPage</Key>
       <Title>Hunger + nutrition</Title>
+      <DisplayFilter>Guides</DisplayFilter>
       <Text>Stationeers get hungry eventually, but not all food is created equal. Also, your hunger rate varies depending on settings and difficulty. Eating will only consume that part of an item adequate to restoring your hunger to 100%.
 
 All Stationeers receive a supply of &lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero}&lt;/color&gt; {THING:ItemCerealBar} in their lander supplies at the outset of a new world. When these are exhausted, you must find new sources of sustenance.
@@ -444,6 +460,7 @@ Your hunger rate can be adjusted set in the main settings menu by adjusting the 
     <StationpediaPage>
       <Key>HydrationPage</Key>
       <Title>Hydrate yourself</Title>
+      <DisplayFilter>Guides</DisplayFilter>
       <Text>Your average Stationeer needs to drink water regularly. However, arcane and possibly misguided &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; health and safety regulations have long denied Stationeers the right to in-suit hydration mechanisms. Instead, they must take regular drink breaks to open their helmet, and imbibe water. Doing so in an unpressurized environment is unadvised.
 
 How often to drink? This is determined by your difficulty level, the heat of the planet and how much you like to move your body.
@@ -457,6 +474,7 @@ Your thirst rate can be adjusted set on the main settings menu by adjusting your
     <StationpediaPage>
       <Key>EVAPage</Key>
       <Title>EVA Suits</Title>
+      <DisplayFilter>Guides</DisplayFilter>
       <Text>Your spacesuit provides you with a portable atmosphere, with adjustable pressure and air conditioning (temperature) settings, as well as an warning system that will alert you should the atmosphere inside the suit become hazardous. It functions in conjunction with a suitable helmet to function properly, as well as suitable gas canisters and filters in the suit's various slots. These will need to be changed regularly, and can also be recharged (or drained) using a {THING:StructureSuitStorage}.
 
 There are several suits, including the {THING:ItemEvaSuit} and the more pressure- and temperature-resistant {THING:ItemHardSuit}.

@@ -2454,7 +2454,7 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
     <RecordThing>
       <Key>ItemCableCoilHeavy</Key>
       <Value>Cable Coil (Heavy)</Value>
-<Description>Use heavy cable coil for power systems with large draws. Unlike {THING:StructureCableCoil}, which can only safely conduct 5kW, heavy cables can transmit up to 100kW.</Description>
+      <Description>Use heavy cable coil for power systems with large draws. Unlike {THING:StructureCableCoil}, which can only safely conduct 5kW, heavy cables can transmit up to 100kW.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFrameIron</Key>
@@ -4036,6 +4036,10 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerMediumReversed</Key>
+      <Value>Transformer Reversed (Medium)</Value>
+    </RecordThing>
+	<RecordThing>
+      <Key>StructureTransformerMedium(Reversed)</Key>
       <Value>Transformer Reversed (Medium)</Value>
     </RecordThing>
     <RecordThing>
@@ -10666,11 +10670,11 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     </Record>
     <Record>
       <Key>StationpediaBeginnerGuides</Key>
-      <Value>Beginner Guides</Value>
+      <Value>Guides</Value>
     </Record>
     <Record>
       <Key>StationpediaAdvancedGuides</Key>
-      <Value>Advanced Guides</Value>
+      <Value>Universe</Value>
     </Record>
     <Record>
       <Key>StationpediaConstructWith</Key>
@@ -10806,6 +10810,14 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     <Record>
       <Key>HydrationCritical</Key>
       <Value>Hydration Critical</Value>
+    </Record>
+    <Record>
+      <Key>Guides</Key>
+      <Value>Guides</Value>
+    </Record>
+    <Record>
+      <Key>Lore</Key>
+      <Value>Lore</Value>
     </Record>
   </Interface>
   <Colors>
