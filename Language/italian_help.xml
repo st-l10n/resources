@@ -35,18 +35,6 @@
       <Text>Puoi minare {LINK:OrePage;minerali} usando un {THING:ItemMiningDrill}. Se indossi una {THING:ItemMiningBelt} i {LINK:OrePage;minerali} verranno automaticamente piazzati al suo interno.</Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>ConstructionPage</Key>
-      <Title>Costruzione</Title>
-      <Text>{HEADER:Inizio}
-Tipicamente userai dei {LINK:KitPage;kit} per iniziare a costruire e una varietà di {LINK:ToolPage;utensili} e {LINK:ResourcePage;risorse} per completare la costruzione. Presta attenzione a quanti kit sono necessari per costruire ciò che hai scelto, in quanto alcune strutture consumeranno più di un kit. Per alcuni kit avrai una scelta multipla, usa la {COLORRED:Rotella del Mouse} per selezionare l&apos;opzione che hai intenzione di costruire. 
-
-{HEADER:Costruzione a stati}
-Alcune strutture hanno multipli stati di costruzione, che richiedono diverse combinazioni per completarle. La finestra di suggerimento ti avviserà su quale combinazione ti servirà per completare la struttura. A volte dovrai utilizzare due oggetti, ciascuno per mano, per completarne lo stato di costruzione. Alcuni utensili dovranno prima essere accesi, premendo il tasto {KEY:ToggleHandPower} mentre li tieni nella tua mano attiva. 
-
-{HEADER:Finestra di suggerimento}
-Se guardi direttamente una struttura incompleta otterrai informazioni su cosa necessiti per completarla. Se hai un {LINK:ToolPage;utensile} in mano e non è quello corretto, una finestra di suggerimento apparirà per dirti di cosa hai bisogno per demolirlo. </Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>ReagentPage</Key>
       <Title>Reagenti</Title>
       <Text>Queste sono le quantità chimiche di determinati tipi.
@@ -130,38 +118,6 @@ Questi sono minerali che possono essere esposti alla luce del sole o al calore e
 {HEADER:Lista di Apparecchi}
 {LIST_OF_APPLIANCES}</Text>
     </StationpediaPage>
-    <!-- <StationpediaPage>
-          <Key>RocketShuttleModulesHelpPage</Key>
-          <Title>Rocket Shuttle Modules</Title>
-          <Text>{HEADER:Modular Rocket Cargo}
-
-The {THING:StructureModularRocketCargo01} has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total.
-
-{HEADER:Modular Rocket Command}
-
-The {THING:StructureModularRocketCommand01} must be placed on top of the rocket. It will assess the rocket’s readiness for flight. Once all conditions are met, the rocket can be launched when all players are seated in the module by pressing ‘IGNITION’ on the console.
-
-The following conditions must be met for launch:
-
-Fuel full
-Fuel mix ratio correct
-All players seated
-Power supplied to the launch pad
-Fully built rocket
-
-The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient.
-
-{HEADER:Modular Rocket Engine}
-
-The {THING:StructureModularRocketEngine01} is capable of lifting up to seven modules (including itself).
-
-{HEADER:Modular Rocket Fuel Tank}
-
-The {THING:StructureModularRocketFueltank01} requires a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}. If the mixture exceeds these proportions, or you place other gases in the tank, the {THING:StructureModularRocketCommand01} console will display an ‘Invalid’ error.
-
-          </Text>
-        </StationpediaPage>
-        -->
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |

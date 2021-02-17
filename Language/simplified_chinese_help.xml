@@ -42,19 +42,6 @@
       </Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>ConstructionPage</Key>
-      <Title>搭建</Title>
-      <Text>{HEADER:开始}
-通常，您可以使用 {LINK:KitPage;套件} 来开始初始化蓝图，然后使用各种{LINK:ToolPage;工具}和{LINK:ResourcePage;资源}来完成建造。 请密切注意需要多少套件来构造所选设备，因为某些设备需要使用多个数量的资源。 对于某些套件，您将有多种选择来建造想要的类型，使用{COLORRED:Scroll Wheel}来切换当前的类型。
-
-{HEADER:建造状态}
-某些结构将有多个建造状态，需要多次建造才能完成。 工具提示会告诉你需要什么材料和工具能完成建造。有时，您需要同时拥有两个物品，每只手一个，才能完成当前建造状态。有些工具需要先打开开关，可以按{KEY:ToggleHandPower}打开。
-
-{HEADER:工具提示}
-如果你直接移向一个不完整的结构，你得到要完成建造该结构的材料和工具需求的提示。如果你使用的是错误的{LINK:ToolPage;工具}，将会出现一个提示，告诉你需要使用什么来拆卸它。
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>ReagentPage</Key>
       <Title>化学原料</Title>
       <Text>某些类型化学原料量.
@@ -151,38 +138,6 @@
 {LIST_OF_APPLIANCES}
       </Text>
     </StationpediaPage>
-    <!-- <StationpediaPage>
-          <Key>RocketShuttleModulesHelpPage</Key>
-          <Title>Rocket Shuttle Modules</Title>
-          <Text>{HEADER:Modular Rocket Cargo}
-
-The {THING:StructureModularRocketCargo01} has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total.
-
-{HEADER:Modular Rocket Command}
-
-The {THING:StructureModularRocketCommand01} must be placed on top of the rocket. It will assess the rocket’s readiness for flight. Once all conditions are met, the rocket can be launched when all players are seated in the module by pressing ‘IGNITION’ on the console.
-
-The following conditions must be met for launch:
-
-Fuel full
-Fuel mix ratio correct
-All players seated
-Power supplied to the launch pad
-Fully built rocket
-
-The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient.
-
-{HEADER:Modular Rocket Engine}
-
-The {THING:StructureModularRocketEngine01} is capable of lifting up to seven modules (including itself).
-
-{HEADER:Modular Rocket Fuel Tank}
-
-The {THING:StructureModularRocketFueltank01} requires a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}. If the mixture exceeds these proportions, or you place other gases in the tank, the {THING:StructureModularRocketCommand01} console will display an ‘Invalid’ error.
-
-          </Text>
-        </StationpediaPage>
-        -->
     <StationpediaPage>
       <Key>RocketShuttlePage</Key>
       <Title>火箭</Title>

@@ -33,18 +33,6 @@
       </Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>ConstructionPage</Key>
-      <Title>Konstrukce</Title>
-      <Text>{HEADER:Začínáme}
-Obvykle budete používat {LINK:KitPage;sady} k zahájení konstrukcí a poté dokončovat pomocí {LINK:ToolPage;nástrojů} a {LINK:ResourcePage;zdrojů}. Věnujte zvýšenou pozornost tomu, kolik sad je zapotřebí k vytvoření vybrané konstrukce, protože některé mohou vyžadovat více než jednu. U některých sad budete mít více druhů konstrukcí, které lze měnit pomocí {COLORRED:kolečka myši} na požadovanou variantu.
-
-{HEADER:Fáze konstrukce}
-Některé konstrukce mají více stupňů výstavby, a proto budou vyžadovat postupné dokončování. Popis vám poradí, co zrovna potřebujete k dokončení daného stupně. Někdy budete muset použít k dokončení stupně dva předměty, každý v jedné ruce. Některé nástroje bude nutné nejprve zapnout, což provedete držením v aktivní ruce a stisknutím klávesy {KEY:ToggleHandPower}.
-
-{HEADER:Tipy}
-Pohledem na neúplnou konstrukci získáte informace o tom, co všechno musíte udělat pro její dokončení. Pokud naopak chcete nějakou konstrukci rozebrat a držíte v ruce nesprávný {LINK:ToolPage;nástroj}, zobrazí se popisek se správným nástrojem.</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>ReagentPage</Key>
       <Title>Činidla</Title>
       <Text>Tohle jsou chemická množství určitých typů. {LIST_OF_REAGENTS}
@@ -116,70 +104,11 @@ Pohledem na neúplnou konstrukci získáte informace o tom, co všechno musíte 
 {LIST_OF_APPLIANCES}</Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>TravelPage</Key>
-      <Title>Destinace</Title>
-      <Text>Počkejte! Ještě mě nezavírejte! Ke startu musí být splněny následující podmínky:
-
-- Plně postavená raketa: minimálně 3 základní moduly;
-- {THING:StructureModularRocketFueltank01} plná paliva;
-- Správný poměr palivové směsi - {GAS:Volatiles} a {GAS:Oxygen} 2 : 1;
-- Napájení {THING:StructureLaunchPad};
-- Všichni hráči usazeni v {THING:StructureModularRocketCommand01}.
-
-Níže jsou uvedena ID VESMÍRNÉHO CESTOVÁNÍ. Můžete je použít k cestování na konkrétní planety v kombinaci s dokončeným {LINK:RocketShuttlePage;raketoplánem} a {LINK:LogicUnitPage;logickými jednotkami}.
-
-Jednoduše napište hash do proměnného nastavení na {THING:StructureLaunchPad} pomocí {THING:ItemLabeller}. Poznámka: Kliknutím na hash jej zkopírujete do schránky.
-
-      {LIST}
-        {WORLD_HASHES}
-      {/LIST}</Text>
-    </StationpediaPage>
-    <!-- <StationpediaPage>
-          <Key>RocketShuttleModulesHelpPage</Key>
-          <Title>Rocket Shuttle Modules</Title>
-          <Text>{HEADER:Modular Rocket Cargo}
-
-The {THING:StructureModularRocketCargo01} has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total.
-
-{HEADER:Modular Rocket Command}
-
-The {THING:StructureModularRocketCommand01} must be placed on top of the rocket. It will assess the rocket’s readiness for flight. Once all conditions are met, the rocket can be launched when all players are seated in the module by pressing ‘IGNITION’ on the console.
-
-The following conditions must be met for launch:
-
-Fuel full
-Fuel mix ratio correct
-All players seated
-Power supplied to the launch pad
-Fully built rocket
-
-The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient.
-
-{HEADER:Modular Rocket Engine}
-
-The {THING:StructureModularRocketEngine01} is capable of lifting up to seven modules (including itself).
-
-{HEADER:Modular Rocket Fuel Tank}
-
-The {THING:StructureModularRocketFueltank01} requires a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}. If the mixture exceeds these proportions, or you place other gases in the tank, the {THING:StructureModularRocketCommand01} console will display an ‘Invalid’ error.
-
-          </Text>
-        </StationpediaPage>
-        -->
-    <StationpediaPage>
       <Key>RocketShuttlePage</Key>
       <Title>Raketoplán</Title>
       <Text>Tyto raketové moduly se používají k cestování mezi světy a vyžadují {THING:StructureLaunchPad}.
 {HEADER:Seznam raketových modulů}
 {LIST_OF_ROCKET_SHUTTLE}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>WeatherPage</Key>
-      <Title>Počasí</Title>
-      <Text>Planety sluneční soustavy nejsou tak klidné, jak se může zdát. Po sedmi dnech v jakémkoli světě s atmosférou se nevyzpytatelné síly přírody dostanou do akce - zasáhnou neopatrné Stationeery vánicemi, prachovými bouřkami a sopečnou činností.
-ODA proto doporučuje, aby čerstvě nasazení Stationeerové vytvořili vzduchotěsnou základnu do 7 dnů od přistání.
-Jakékoliv pohyblivé předměty ponechané venku v bouři - na Marsu, Loulanu, Vulkánu nebo Evropě - riskují, že budou odváty daleko, daleko, včetně vašeho přistávacího modulu.
-Stejně tak si pamatujte, že solární panely jsou křehké a může se rozbít jejich sklo nebo občas dokonce zničit dostatečně zuřivou bouří. Během bouří se také drasticky snižuje jejich výkon.</Text>
     </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~

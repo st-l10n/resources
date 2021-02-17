@@ -38,18 +38,6 @@
       <Text>{THING:ItemMiningDrill} használatával {LINK:OrePage;érceket} szerezhetsz. A {THING:ItemMiningBelt} viselésénél az {LINK:OrePage;ércek} atomatikusan abba helyeződnek át.</Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>ConstructionPage</Key>
-      <Title>Építkezés</Title>
-      <Text>{HEADER:Első lépések}
-A legtöbb dolog megépítéséhez {LINK:KitPage;készleteket} fogsz használni. {LINK:ToolPage;Eszközök} ls {LINK:ResourcePage;nyersanyagok} használatával tudod befejezni őket. Figyelj arra, hogy hány készletet használsz el, mert néhány dolog megépítéséhez nem csak egyre lesz szükséged. Néhány készlet többféleképpen is elkészíthető, az opciókhoz használd a {COLORRED:Scroll Wheel} gombot.
-
-{HEADER:Építési fázisok}
-Néhány dolog különböző építési fázisokkal rendelkezik. A képernyő megjelenő szöveg segíteni fog, hogy éppen melyik eszköz és melyik nyersanyagot használd. Néha mindkét kezedben kell lennie adott tárgyaknak, hogy a konstrukciót sikeresen végrehajtsd. A használt eszközök közül van, amit be kell kapcsolni, ezt a {KEY:ToggleHandPower} gomb használatával teheted meg.
-
-{HEADER:Tippek}
-Ha közvetlenül ránézel az építés alatt levő tárgyra, a befejezéshez szükséges információk meg fognak jelenni. Ha nem a szükséges {LINK:ToolPage;eszköz} van a kezedben, tanácsot fogsz kapni, milyen eszközzel bonthatod le.</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>ReagentPage</Key>
       <Title>Reagensek</Title>
       <Text>Ezek bizonyos típusú kémiai mennyiségek
@@ -125,52 +113,6 @@ Néhány érc napfény és más hő hatására elolvad ezzel {LINK:GasPage;gázo
 {HEADER:Készülékek listája}
 {LIST_OF_APPLIANCES}</Text>
     </StationpediaPage>
-    <StationpediaPage>
-      <Key>TravelPage</Key>
-      <Title>Úticél</Title>
-      <Text>Várj! Még ne zárj be! Ezek itt a VILÁGUTAZÓ-AZONOSÍTÓK. Használhatod őket bizonyos bolygók közti utazásra, ha együtt használod egy már kész {LINK:RocketShuttlePage;űrhajóval} és {LINK:LogicUnitPage;logikai egységekkel}.
-       
-Csak írd be a hash értékeket a {THING:StructureLaunchPad} Beállítás változójábaegy {THING:ItemLabeller} segítségével. Megjegyzés: Ha a hash értékre kattintasz, akkor bemásolódik a vágólapra.
-      
-Az induláshoz legalább 3 központi modulra lesz szükséged és arra, hogy minden játékos a rakétában üljön.
-
-      {LIST}
-        {WORLD_HASHES}
-      {/LIST}
-      </Text>
-    </StationpediaPage>
-    <!-- <StationpediaPage>
-          <Key>RocketShuttleModulesHelpPage</Key>
-          <Title>Rocket Shuttle Modules</Title>
-          <Text>{HEADER:Modular Rocket Cargo}
-
-The {THING:StructureModularRocketCargo01} has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total.
-
-{HEADER:Modular Rocket Command}
-
-The {THING:StructureModularRocketCommand01} must be placed on top of the rocket. It will assess the rocket’s readiness for flight. Once all conditions are met, the rocket can be launched when all players are seated in the module by pressing ‘IGNITION’ on the console.
-
-The following conditions must be met for launch:
-
-Fuel full
-Fuel mix ratio correct
-All players seated
-Power supplied to the launch pad
-Fully built rocket
-
-The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient.
-
-{HEADER:Modular Rocket Engine}
-
-The {THING:StructureModularRocketEngine01} is capable of lifting up to seven modules (including itself).
-
-{HEADER:Modular Rocket Fuel Tank}
-
-The {THING:StructureModularRocketFueltank01} requires a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}. If the mixture exceeds these proportions, or you place other gases in the tank, the {THING:StructureModularRocketCommand01} console will display an ‘Invalid’ error.
-
-          </Text>
-        </StationpediaPage>
-        -->
     <StationpediaPage>
       <Key>RocketShuttlePage</Key>
       <Title>Űrsikló</Title>

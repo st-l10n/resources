@@ -37,19 +37,6 @@
 </Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>ConstructionPage</Key>
-      <Title>Строительство</Title>
-      <Text>{HEADER:Начало работы}
-Как правило, вы будете использовать {LINK:KitPage;kits} для начала постройки, а затем множество {LINK:ToolPage;инструментов} и {LINK:ResourcePage;ресурсов} для завершения. Обратите особое внимание на то, сколько потребуется наборов для построения того, что вы выбрали, так как для некоторых структур требуется более одной штуки. Для некоторых наборов у вас будет несколько вариантов постройки, используйте {COLORRED:Scroll Wheel}, чтобы изменить текущий вариант, который вы хотите построить.
-
-{HEADER:Build States}
-Некоторые структуры будут иметь несколько стадий сборки, которые требуют различных комбинаций для завершения. Всплывающая подсказка сообщит вам о том, какая комбинация вам нужна для завершения структуры. Иногда вам нужно иметь два объекта, по одному в каждой руке, для завершения стадии сборки. Сначала нужно будет включить некоторые инструменты, нажав {KEY:ToggleHandPower}, когда он находятся в активной руке.
-
-{HEADER:Всплывающие подсказки}
-Если вы посмотрите на структуру, которая недостроена, вы получите информацию о том, что нужно сделать, чтобы завершить ее. Если у вас в руке {LINK:ToolPage;инструмент} и он не подходит, появится всплывающая подсказка, сообщающая, что необходимо использовать.
-</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>ReagentPage</Key>
       <Title>Реагенты</Title>
       <Text>Это определенное количество химических элементов.
@@ -146,38 +133,6 @@
 {LIST_OF_APPLIANCES}
 </Text>
     </StationpediaPage>
-    <!-- <StationpediaPage>
-          <Key>RocketShuttleModulesHelpPage</Key>
-          <Title>Rocket Shuttle Modules</Title>
-          <Text>{HEADER:Modular Rocket Cargo}
-
-The {THING:StructureModularRocketCargo01} has capacity for two ten-slot crates. You can have multiple cargo modules on your rocket. The rocket can lift up to seven modules in total.
-
-{HEADER:Modular Rocket Command}
-
-The {THING:StructureModularRocketCommand01} must be placed on top of the rocket. It will assess the rocket’s readiness for flight. Once all conditions are met, the rocket can be launched when all players are seated in the module by pressing ‘IGNITION’ on the console.
-
-The following conditions must be met for launch:
-
-Fuel full
-Fuel mix ratio correct
-All players seated
-Power supplied to the launch pad
-Fully built rocket
-
-The {THING:StructureModularRocketCommand01} console displays the current state of these conditions. It does not require an atmosphere for lift off - your suit’s atmosphere is sufficient.
-
-{HEADER:Modular Rocket Engine}
-
-The {THING:StructureModularRocketEngine01} is capable of lifting up to seven modules (including itself).
-
-{HEADER:Modular Rocket Fuel Tank}
-
-The {THING:StructureModularRocketFueltank01} requires a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}. If the mixture exceeds these proportions, or you place other gases in the tank, the {THING:StructureModularRocketCommand01} console will display an ‘Invalid’ error.
-
-          </Text>
-        </StationpediaPage>
-        -->
     <StationpediaPage>
       <Key>RocketShuttlePage</Key>
       <Title>Ракетный Шаттл</Title>
