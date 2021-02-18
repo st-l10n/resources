@@ -2007,7 +2007,7 @@ While the original Stationeer handbook collapsed under its own weight into an in
       <Key>StructureFiltration</Key>
       <Value>Filtration</Value>
       <Description>The Zyklon Filtration Unit is based on a long-standing &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; system, itself based on older designs of uncertain provenance. It is available in the {THING:ItemKitAtmospherics}.
-Perhaps ill-named, the device has nonetheless proven indispensible for &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; atmospherics systems, as it can filter two &lt;color=#0080FFFF&gt;{LINK:GasPage;gases}&lt;/color&gt; simultaneously from of a single pipe network using a dual filter array. The unit has two 'filtered' outlets, as well as an 'unfiltered' outlet for any residual gases.</Description>
+Perhaps ill-named, the device has nonetheless proven indispensible for &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; atmospherics systems, as it can filter two &lt;color=#0080FFFF&gt;{LINK:GasPage;gases}&lt;/color&gt; simultaneously from  a single pipe network using a dual filter array. The unit has an input, and a filter output as well as an unfiltered outlet for any residual gases.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFlashingLight</Key>
@@ -4038,7 +4038,7 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
       <Key>StructureTransformerMediumReversed</Key>
       <Value>Transformer Reversed (Medium)</Value>
     </RecordThing>
-	<RecordThing>
+    <RecordThing>
       <Key>StructureTransformerMedium(Reversed)</Key>
       <Value>Transformer Reversed (Medium)</Value>
     </RecordThing>
@@ -5779,6 +5779,21 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>ItemKitLiquidTank</Key>
       <Value>Kit (Liquid Tank)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureModularRocketLiquidTank</Key>
+      <Value>Structure Modular Rocket Liquid Tank</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRocketModuleSilo</Key>
+      <Value>Structure Rocket Module Silo</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRocketModuleBattery</Key>
+      <Value>Structure Rocket Module Battery</Value>
       <Description />
     </RecordThing>
   </Things>
