@@ -38,6 +38,21 @@
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>ConstructionPage</Key>
+      <Title>Construcción</Title>
+      <DisplayFilter>Guias</DisplayFilter>
+      <Text>{HEADER:Getting Started}
+Normalmente usted usará {LINK:KitPage;kits} para iniciar la construcción y luego una variedad de {LINK:ToolPage;tools} y {LINK:ResourcePage;resources} para completar. Preste mucha atención a cuántos de su kit son necesarios para construir lo que ha seleccionado, ya que algunas estructuras requieren más de una de las pilas para ser consumidas. Para algunos kits tendrá múltiples opciones, utilice la {COLORRED:Scroll Wheel} para cambiar la opción actual que desea construir.
+
+{HEADER:Build States}
+Algunas estructuras tendrán múltiples estados de construcción que requieren diferentes combinaciones para completarse. Su mensaje le aconsejará sobre la combinación que necesita para completar la estructura. A veces necesitará tener dos objetos, uno en cada mano, para completar un estado de construcción. Algunas herramientas deberán encenderse primero, lo que puede hacerse pulsando {KEY:ToggleHandPower} mientras está en su mano activa.
+
+{HEADER:Tooltips}
+Si observa directamente una estructura que está incompleta, obtendrá información sobre lo que necesita hacer para completarla. Si tiene una {LINK:ToolPage;tool} en su mano y no es la {LINK:ToolPage;tool} correcta, aparecerá un mensaje que le indicará lo que necesita usar para desmontarla.
+      
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>ReagentPage</Key>
       <Title>Reactivos</Title>
       <Text>Se trata de cantidades químicas de ciertos tipos. {LIST_OF_REAGENTS}</Text>
@@ -92,12 +107,78 @@
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>TravelPage</Key>
+      <Title>Destino</Title>
+      <DisplayFilter>Guias</DisplayFilter>
+      <Text>¡Espera! ¡No me cierres todavía! Las siguientes condiciones son necesarias para poder despegar:
+
+- Cohete completamente construido: al menos 3 módulos centrales
+- Completamente cargado {THING:StructureModularRocketFueltank01}
+- Relación de mezcla de combustible correcta: una mezcla 2: 1 de {GAS:Volatiles} y {GAS:Oxygen}.
+- Energía suministrada a {THING:StructureLaunchPad}
+- Todos los jugadores sentados en {THING:StructureModularRocketCommand01}
+
+A continuación se muestran los ID de VIAJES MUNDIALES. Puede usarlos para viajar a planetas específicos, cuando se combinan con un {LINK:RocketShuttlePage;Rocket Shuttle} y {LINK:LogicUnitPage;Logic Units} completados.
+       
+Simplemente escriba el hash en la variable de configuración en {THING:StructureLaunchPad} con una {THING:ItemLabeller} y una {THING:StructureLogicMemory}. Nota: puede hacer clic en un hash para copiarlo en el portapapeles.
+
+      
+
+
+      {LIST}
+        {WORLD_HASHES}
+      {/LIST}
+
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>RocketShuttleModulesHelpPage</Key>
+      <Title>Módulos del transbordador de cohetes</Title>
+      <DisplayFilter>Guias</DisplayFilter>
+      <Text>{HEADER:Modular Rocket Cargo}
+
+La {THING:StructureModularRocketCargo01} tiene capacidad para dos cajas de diez ranuras. Puede tener múltiples módulos de carga en su cohete. El cohete puede levantar hasta siete módulos en total.
+
+{HEADER:Modular Rocket Command}
+
+La {THING:StructureModularRocketCommand01} debe ser colocada en la parte superior del cohete. Evaluará la preparación del cohete para el vuelo. Una vez que se cumplan todas las condiciones, el cohete puede ser lanzado cuando todos los jugadores estén sentados en el módulo, presionando &apos;Lanzamiento&apos; (Launch) en la consola.
+
+Para el lanzamiento deben cumplirse las siguientes condiciones:
+
+Combustible lleno
+La proporción de la mezcla de combustible es correcta
+Todos los jugadores sentados
+La energía suministrada a la plataforma de lanzamiento
+Un cohete completamente construido
+
+La consola {THING:StructureModularRocketCommand01} muestra el estado actual de estas condiciones. No requiere una atmósfera para el despegue, la atmósfera de tu traje es suficiente.
+
+{HEADER:Modular Rocket Engine}
+
+La {THING:StructureModularRocketEngine01} es capaz de levantar hasta siete módulos (incluyéndose a sí misma).
+
+{HEADER:Modular Rocket Fuel Tank}
+
+La {THING:StructureModularRocketFueltank01} requiere una mezcla 2:1 de {GAS:Volatiles} y {GAS:Oxygen}. Si la mezcla excede estas proporciones, o se colocan otros gases en el tanque, la consola de {THING:StructureModularRocketCommand01} mostrará un error de &apos;Invalid&apos;.
+
+</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>RocketShuttlePage</Key>
       <Title>Lanzador del cohete</Title>
       <Text>Estos son los módulos del transbordador de cohetes, que se utilizan para viajar entre los mundos. {THING:StructureLaunchPad} es requerido.
 {HEADER:List of Rocket Shuttle Modules}
 {LIST_OF_ROCKET_SHUTTLE}
       </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>WeatherPage</Key>
+      <Title>Clima</Title>
+      <DisplayFilter>Guias</DisplayFilter>
+      <Text>Los planetas del Sistema Solar no están tan tranquilos como parecen. Después de siete días en cualquier mundo con atmósfera, las fuerzas inescrutables de la naturaleza entran en acción y golpean a los incautos Stationeers con ventiscas, tormentas de polvo y eventos volcánicos.
+Como tal, la ODA recomienda que los Stationeers recién desplegados creen una base hermética dentro de los 7 días posteriores al aterrizaje.
+Cualquier objeto dinámico que quede afuera en una tormenta (en Marte, Loulan, Vulcan o Europa) corre el riesgo de ser arrastrado muy, muy lejos, incluido su módulo de aterrizaje.
+Del mismo modo, tenga en cuenta que los paneles solares son frágiles y su vidrio puede romperse, o incluso ser destruido ocasionalmente por una tormenta lo suficientemente feroz. Durante las tormentas, su producción de energia también se reduce drásticamente.</Text>
     </StationpediaPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -151,6 +232,61 @@ Presión de la masa fundida {0}</Text>
     <StationpediaPage>
       <Key>GasPageFlamableTemplate</Key>
       <Text>Límite inflamable {0} a {1}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>NutritionPage</Key>
+      <Title>Hambre + nutrición</Title>
+      <DisplayFilter>Guias</DisplayFilter>
+      <Text>Los Stationeers eventualmente tienen hambre, pero no todos los alimentos son iguales. Además, su tasa de hambre varía según la configuración y la dificultad. Comer solo consumirá esa parte de un artículo adecuada para restaurar su hambre al 100%.
+
+Todos los Stationeers reciben un suministro de &lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero}&lt;/color&gt;{THING:ItemCerealBar} en sus suministros de aterrizaje al comienzo de un nuevo mundo. Cuando estos se agotan, debe encontrar nuevas fuentes de sustento.
+
+Comer ingredientes crudos satisfará menos el hambre que las comidas, es decir, reemplazará una proporción menor de su hambre. Los elementos básicos de los alimentos se crean utilizando sistemas &lt;color=#0080FFFF&gt;{LINK:OrganicsPage;hydroponics}&lt;/color&gt;. Estos se pueden procesar en ingredientes de recetas usando el {THING:ApplianceReagentProcessor) y luego convertirse en comidas usando un {THING:ApplianceMicrowave}.
+
+Su tasa de hambre se puede configurar en el menú de configuración principal ajustando el control deslizante Tasa de hambre / hidratación.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>HydrationPage</Key>
+      <Title>Hidratarte</Title>
+      <DisplayFilter>Guias</DisplayFilter>
+      <Text>El Stationeer medio necesita beber agua con regularidad. Sin embargo, las normas de salud y seguridad arcanas y posiblemente erróneas &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; han negado durante mucho tiempo a los Stationeers el derecho a los mecanismos de hidratación dentro del traje. En cambio, deben tomar descansos regulares para beber para abrir su casco y beber agua. No se recomienda hacerlo en un entorno sin presión.
+
+¿Con qué frecuencia beber? Esto está determinado por tu nivel de dificultad, el calor del planeta y cuánto te gusta mover tu cuerpo.
+
+El agua se presenta de muchas formas. Al menos una {THING:ItemWaterBottle} se proporciona a Stationeers como parte de sus raciones cuando aterrizan en nuevos planetas, con más en sus cajas de aterrizaje. Estos se pueden rellenar con un {THING:ItemWaterBottleFiller}, que debe estar conectado a una red de tuberías de líquido. La red en sí se puede llenar usando un {THING:StructureIceCrusher} con un suministro adecuado de hielo.
+
+Su tasa de sed se puede ajustar en el menú de configuración principal ajustando el control deslizante de tasa de hambre / hidratación.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>EVAPage</Key>
+      <Title>Traje EVA</Title>
+      <DisplayFilter>Guias</DisplayFilter>
+      <Text>Su traje espacial le proporciona una atmósfera portátil, con ajustes de presión y aire acondicionado (temperatura) ajustables, así como un sistema de advertencia que lo alertará si la atmósfera dentro del traje se vuelve peligrosa. Funciona en conjunto con un casco adecuado para que funcione correctamente, así como cartuchos de gas y filtros adecuados en las distintas ranuras del traje. Estos deberán cambiarse con regularidad y también se pueden recargar (o drenar) usando un {THING:StructureSuitStorage}.
+
+Hay varios trajes, incluido el {THING:ItemEvaSuit} y el {THING:ItemHardSuit} más resistente a la presión y la temperatura.
+
+Las distintas lecturas de su traje se encuentran en la parte inferior derecha de la pantalla. Al presionar la tecla numérica correspondiente (2 aparecerá un panel que muestra sus ranuras y configuraciones. Estos incluyen:
+
+- A / C encendido / apagado (es decir, control de temperatura encendido / apagado)
+- Filtros de encendido / apagado
+- Aire encendido / apagado
+- Presión arriba / abajo (con un rango de 0kPA a 202kPa, o 0-2 atmósferas terrestres)
+- Temperatura arriba / abajo (con un rango de 0 ° C a 60 ° C)
+
+Los trajes contienen 6-8 ranuras:
+- Tanque de aire (x1): inserte un bote o un bote inteligente que contenga una mezcla de gas respirable, p. Ej. O2 o nitrógeno / oxígeno 35/65.
+- Tanque de residuos (x1): recoge los gases eliminados por los filtros
+- Soporte vital (x1): contiene una batería, que alimenta su A / C, luces, etc.
+- Filtros (x3): requiere al menos un filtro de CO2 (si es humano), dependiendo de su mezcla de gases respirables. Tenga en cuenta que una {THING:ItemHardSuit} tiene 4 ranuras de filtro.
+- IC - {THING:ItemHardSuit} solamente.
+
+Presión: debe establecerse en 50-100 KPa (0,5 a 1 atmósferas terrestres). Los humanos en el juego toleran hasta ~ 250kPa y pueden sobrevivir hasta ~ 300kPA.
+
+Temperatura: normalmente se establece en 18-21 ° C, y los humanos en el juego prefieren 10-29 ° C, toleran 0-39 ° C y sobreviven hasta 49 ° C. En temperaturas más altas, su A / C consumirá más energía de la batería para mantener la temperatura interna.
+
+Filtros: el filtro predeterminado es el filtro de CO2, que captura el gas generado por los humanos al exhalar. Si no está usando oxígeno al 100% en su gas de respiración, agregue filtros adicionales, por ejemplo, si mezcla 25% de oxígeno + 75% de nitrógeno, el nitrógeno se acumulará en su traje con el tiempo y lo asfixiará, a menos que tenga un filtro de nitrógeno. Si tiene los filtros correctos y el gas respirable, pero aún tiene problemas, use la función &apos;Flush&apos; en su Space Helmet. Las advertencias de oxígeno bajo / crítico sonarán cuando sus filtros dejen de funcionar.
+
+Si está dañado, puede reparar su traje sosteniendo cinta adhesiva en la mano y usando el botón &quot;activar&quot;.</Text>
     </StationpediaPage>
   </HelpPage>
 </Language>
