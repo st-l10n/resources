@@ -1,5 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>FI</Code>
-  <Interface/>
+  <Interface>
+    <Record>
+      <Key>7GetActiveVent</Key>
+      <Value>Poimi {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>7GetAtmospherics</Key>
+      <Value>Poimi {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>7BuildAtmospherics</Key>
+      <Value>Laita {THING:ItemToolBelt} {SLOT:Belt} lokeroon</Value>
+    </Record>
+    <Record>
+      <Key>7GetPipeKit</Key>
+      <Value>Poimi {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>7GetPipeKit</Key>
+      <Value>Poimi {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>7GetFilter</Key>
+      <Value>Poimi {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>7GetPipeRadiator</Key>
+      <Value>Poimi {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>7BuildPipeRadiator</Key>
+      <Value>Laita {THING:ItemToolBelt} {SLOT:Belt} lokeroon</Value>
+    </Record>
+    <Record>
+      <Key>7GetIceCrusher</Key>
+      <Value>Poimi {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>7BuildIceCrusher</Key>
+      <Value>Laita {THING:ItemToolBelt} {SLOT:Belt} lokeroon</Value>
+    </Record>
+    <Record>
+      <Key>7GetMiningBelt</Key>
+      <Value>Poimi {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>7GetGasMixer</Key>
+      <Value>Poimi {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>7BuildGasMixer</Key>
+      <Value>Laita {THING:ItemToolBelt} {SLOT:Belt} lokeroon</Value>
+    </Record>
+    <Record>
+      <Key>7GetRegulator</Key>
+      <Value>Poimi {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>7BuildRegulator</Key>
+      <Value>Laita {THING:ItemToolBelt} {SLOT:Belt} lokeroon</Value>
+    </Record>
+    <Record>
+      <Key>7GetValve</Key>
+      <Value>Poimi {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>7BuildValve</Key>
+      <Value>Laita {THING:ItemToolBelt} {SLOT:Belt} lokeroon</Value>
+    </Record>
+    <Record>
+      <Key>7GetTankConnector</Key>
+      <Value>Poimi {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>7BuildTankConnector</Key>
+      <Value>Laita {THING:ItemToolBelt} {SLOT:Belt} lokeroon</Value>
+    </Record>
+    <Record>
+      <Key>7GetEmptyTank</Key>
+      <Value>Poimi {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>7PediaNavigation</Key>
+      <Value>Hitsaa {THING:StructureFrame}</Value>
+    </Record>
+    <Record>
+      <Key>7PressureReg</Key>
+      <Value>Pudota uuni {COLORGREEN:Tasolle}</Value>
+    </Record>
+    <Record>
+      <Key>7IceCrusherOn</Key>
+      <Value>Pudota uuni {COLORGREEN:Tasolle}</Value>
+    </Record>
+    <Record>
+      <Key>7FilterOn</Key>
+      <Value>Pudota uuni {COLORGREEN:Tasolle}</Value>
+    </Record>
+  </Interface>
 </Language>
