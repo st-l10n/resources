@@ -14,15 +14,15 @@
 		</Record>
 		<Record>
 			<Key>GasMixingDescription</Key>
-			<Value>Lean to mix gass</Value>
+			<Value>Flex your skills in the realm of gas filtration and mixing to create atmospheres, fuels and more.</Value>
 		</Record>
 		<Record>
 			<Key>IntoTutoiralGasMixingDescription</Key>
-			<Value>Welcome Cadet. Stationeer Command wants to test your knowledge of gas filtering and mixing, to ensure you can provide liveable fuels and liveable atmospheres for the bases you build for the ODA.</Value>
+			<Value>Welcome Cadet. Stationeer Command wants to test your knowledge of gas filtering and mixing, to ensure you can provide fuels and liveable atmospheres when building ODA bases.</Value>
 		</Record>
 		<Record>
 			<Key>7Narration0D</Key>
-			<Value>Your welder is out of gas, which means its time to demonstrate your skills in gas filtering and mixing, to create more fuel. Let's start at the beginning. Your waste tank is full of carbon dioxide you've breathed out. Plants will turn that into oxygen, if you open it in the hydroponics room.</Value>
+			<Value>Your welder is out of gas, which means its time to create more fuel. You'll need a source of oxygen. Plants can turn the waste CO2 from your tank into oxygen: just vent your waste tank in the hydroponics room.</Value>
 		</Record>
 		<Record>
 			<Key>7WasteTankOpened</Key>
@@ -34,19 +34,19 @@
 		</Record>
 		<Record>
 			<Key>7Narration1D</Key>
-			<Value>Plants breath out oxygen. You need this for your fuel mix. Build a passive vent in the highlighted position. We'll use this to collect oxygen from the room.</Value>
+			<Value>To collect the oxygen, build an active vent in the highlighted position. We'll use this to pump oxygen from the rom.</Value>
 		</Record>
 		<Record>
 			<Key>7GetActiveVent</Key>
-			<Value>Get active vent.</Value>
+			<Value>Get active vent</Value>
 		</Record>
 		<Record>
 			<Key>7BuildActiveVent</Key>
-			<Value>Build active vent.</Value>
+			<Value>Build active vent from crate</Value>
 		</Record>
 		<Record>
 			<Key>7Narration2D</Key>
-			<Value>Go through the airlock to the gas room to build your mixing apparatus.</Value>
+			<Value>Now, move through the airlock to the atmospherics room to build your gas mixing system.</Value>
 		</Record>
 		<Record>
 			<Key>7MoveToArea</Key>
@@ -54,7 +54,7 @@
 		</Record>
 		<Record>
 			<Key>7Narration3D</Key>
-			<Value>You can use a filtration unit to separate out oxygen from the other gases in the hydroponic room atmosphere. Build a filtration unit in the highlighted position.</Value>
+			<Value>You can use a filtration unit to separate out oxygen from the hydroponic room atmosphere. Build a filtration unit in the highlighted position.</Value>
 		</Record>
 		<Record>
 			<Key>7GetAtmospherics</Key>
@@ -62,23 +62,23 @@
 		</Record>
 		<Record>
 			<Key>7BuildAtmospherics</Key>
-			<Value>Build filtration unit in highlighted position.</Value>
+			<Value>Build filtration unit in highlighted position</Value>
 		</Record>
 		<Record>
 			<Key>7Narration4D</Key>
-			<Value>The filtration unit outputs both filtered and waste gas. Connect the device to the hydroponic room pipe network</Value>
+			<Value>Complete the green oxygen pipe network. This will connect the hydroponic room's atmospheric pipe network to the filtration unit's input.</Value>
 		</Record>
 		<Record>
 			<Key>7GetPipeKit</Key>
-			<Value>Get the pipes from the crate</Value>
+			<Value>Get pipes from crate</Value>
 		</Record>
 		<Record>
 			<Key>7BuildPipe</Key>
-			<Value>Connect the hydroponic gas network with pipes</Value>
+			<Value>Complete oxygen pipe network</Value>
 		</Record>
 		<Record>
 			<Key>7Narration5D</Key>
-			<Value>You'll also be creating waste gas, so connect the filtration unit to the waste gas network, which expells outside.</Value>
+			<Value>The filtration unit also creates waste gas. So connect the unit to the waste gas network, which expells outside.</Value>
 		</Record>
 		<Record>
 			<Key>7GetPipeKit</Key>
@@ -90,7 +90,7 @@
 		</Record>
 		<Record>
 			<Key>7Narration6D</Key>
-			<Value>A filtration unit can filter out two gases simultaneously, but you need oxygen right now - so put an oxygen filter in the unit.</Value>
+			<Value>A filtration unit can filter out two gases simultaneously, but right now you need oxygen - so add an oxygen filter in the unit.</Value>
 		</Record>
 		<Record>
 			<Key>7GetFilter</Key>
@@ -98,7 +98,7 @@
 		</Record>
 		<Record>
 			<Key>7AddFilterToFilitration</Key>
-			<Value>Add oxygen filter to filtration unit</Value>
+			<Value>Insert oxygen filter in filtration unit</Value>
 		</Record>
 		<Record>
 			<Key>7Narration7D</Key>
@@ -106,7 +106,7 @@
 		</Record>
 		<Record>
 			<Key>7GetPipeRadiator</Key>
-			<Value>Get Pipe Radiator from crate</Value>
+			<Value>Get pipe radiator from crate</Value>
 		</Record>
 		<Record>
 			<Key>7BuildPipeRadiator</Key>
@@ -134,15 +134,15 @@
 		</Record>
 		<Record>
 			<Key>7Narration9D</Key>
-			<Value>We'll use the ice crusher to produce volatile gas. Get the mining belt from the crate, then add the volatiles within to the ice crusher. You will have to move quickly, as the volatiles will being to melt as soon as they leave the ore belt (but will not melt in the ice crusher).</Value>
+			<Value>The other component to fuel is volatile gas. Get the mining belt from the crate, then add the volatiles to the ice crusher. Note that you will have to move quickly, as volatiles melt rapidlp.</Value>
 		</Record>
 		<Record>
 			<Key>7GetMiningBelt</Key>
-			<Value>Get the Mining belt from the crate</Value>
+			<Value>Get mining belt from crate</Value>
 		</Record>
 		<Record>
-			<Key>7AddIceToCrusher</Key>
-			<Value>Add stack of volatiles to ice crusher from the mining belt</Value>
+			<Key>7AddIceToCrusper</Key>
+			<Value>Add stack of volatiles to ice crusher</Value>
 		</Record>
 		<Record>
 			<Key>7Narration10D</Key>
@@ -162,7 +162,7 @@
 		</Record>
 		<Record>
 			<Key>7GetRegulator</Key>
-			<Value>Get the Pressure regulator from the Crate</Value>
+			<Value>Get pressure regulator from crate</Value>
 		</Record>
 		<Record>
 			<Key>7BuildRegulator</Key>
@@ -170,31 +170,31 @@
 		</Record>
 		<Record>
 			<Key>7Narration12D</Key>
-			<Value>Valves allow us to control the flow of gas's or liquids inside pipe because of this its a good</Value>
+			<Value>Valves allow us to control the flow of gases or liquids inside pipes. Because losing control is dangerous.</Value>
 		</Record>
 		<Record>
 			<Key>7GetValve</Key>
-			<Value>Get the Pipe Vavle from the crate</Value>
+			<Value>Get the pipe valve from the crate</Value>
 		</Record>
 		<Record>
 			<Key>7BuildValve</Key>
-			<Value>Place Valve in highlited position</Value>
+			<Value>Place valve in highlighted position</Value>
 		</Record>
 		<Record>
 			<Key>7Narration13D</Key>
-			<Value>You'll need a tank to store fuel, and recharge your cannister from. So attach a tank to the pipe network using a tank connector.</Value>
+			<Value>You need a tank storage unit, so you can recharge your cannister. Tank storage units attach directly to pipe networks.</Value>
 		</Record>
 		<Record>
 			<Key>7GetTankConnector</Key>
-			<Value>Get tank Connector from the crate</Value>
+			<Value>Get tank storage unit from crate</Value>
 		</Record>
 		<Record>
 			<Key>7BuildTankConnector</Key>
-			<Value>Build Tank Connector In highlighted position</Value>
+			<Value>Build tank storage unit in highlighted position</Value>
 		</Record>
 		<Record>
 			<Key>7Narration14D</Key>
-			<Value>The Gas Network is now set up Inset the empty tank and charge it up with new fuel</Value>
+			<Value>Excellent! Your gas network is now set up. Insert the empty tank from your welder into the storage unit, so it's ready to be charged up.</Value>
 		</Record>
 		<Record>
 			<Key>7GetEmptyTank</Key>
@@ -206,7 +206,7 @@
 		</Record>
 		<Record>
 			<Key>7Narration15D</Key>
-			<Value>To determine correct fuel ratio to fill your tank with. Consult Stationpedia to find correct fuel mix ratio.</Value>
+			<Value>To determine correct fuel ratio for your tank, consult the Stationpedia Canister (Fuel) page.</Value>
 		</Record>
 		<Record>
 			<Key>7SetGasMix</Key>
@@ -218,7 +218,7 @@
 		</Record>
 		<Record>
 			<Key>7PediaNavigationClose</Key>
-			<Value>Close Stationpedia Once you finish reading</Value>
+			<Value>Close Stationpedia</Value>
 		</Record>
 		<Record>
 			<Key>7Narration16D</Key>
@@ -230,47 +230,47 @@
 		</Record>
 		<Record>
 			<Key>7Narration17D</Key>
-			<Value>Great work Cadet! Now that everythings set up we can safely begin turnnig on our equitment and start producing fuel.</Value>
+			<Value>Great work Cadet! Now that everything's set up we can safely begin turnnig on our equitment and start producing fuel.</Value>
 		</Record>
 		<Record>
 			<Key>7ActiveVentOn</Key>
-			<Value>Go back to grow room and turn on the active vent</Value>
+			<Value>Turn on active vent in hydroponics room</Value>
 		</Record>
-		<Record>
-			<Key>7GasMixerOn</Key>
-			<Value>Return to the atmsopherics room and turn on the Gas mixer</Value>
-		</Record>
-		<Record>
-			<Key>7PressureReg</Key>
-			<Value>Turn on the pressuie regulator</Value>
-		</Record>
-		<Record>
+				<Record>
 			<Key>7IceCrusherOn</Key>
-			<Value>Turn on the Ice Crusher</Value>
+			<Value>Turn on ice crusher</Value>
 		</Record>
 		<Record>
 			<Key>7FilterOn</Key>
-			<Value>Turn on the filter</Value>
+			<Value>Turn on filtration unit</Value>
+		</Record>
+		<Record>
+			<Key>7GasMixerOn</Key>
+			<Value>Turn on gas mixer</Value>
+		</Record>
+		<Record>
+			<Key>7PressureReg</Key>
+			<Value>Turn on pressure regulator</Value>
 		</Record>
 		<Record>
 			<Key>7Narration17D</Key>
-			<Value>The Volitiles and oxygen are currently waiting in the pipe so now its time to open the valves and let the gas flow into the gas mixer</Value>
+			<Value>The volatiles and oxygen are currently waiting in the pipe. Open the valves to let the gas flow into the gas mixer.</Value>
 		</Record>
 		<Record>
 			<Key>7VolatilesValveOn</Key>
-			<Value>Open the volitiles pipe valve</Value>
+			<Value>Open volatiles pipe valve</Value>
 		</Record>
 		<Record>
 			<Key>7OxideValveOn</Key>
-			<Value>Open the Oxygen pipe valve</Value>
+			<Value>Open oxygen pipe valve</Value>
 		</Record>
 		<Record>
 			<Key>7Narration18D</Key>
-			<Value>Now your canister is refilled, you can insert it into your welder</Value>
+			<Value>Your fuel canister is now refilled! Insert it into your welder.</Value>
 		</Record>
 		<Record>
 			<Key>7AddTankToWeilder</Key>
-			<Value>Put the fuel canister back into the weidler</Value>
+			<Value>Return fuel canister to welder</Value>
 		</Record>
 			<Record>
 			<Key>7Narration19D</Key>
