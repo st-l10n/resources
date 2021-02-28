@@ -111,16 +111,16 @@
       <Value>在 {THING:StructurePressureRegulator} 设置压力为1950kpa</Value>
     </Record>
     <Record>
-      <Key>7PressureReg</Key>
-      <Value>压力调节器</Value>
-    </Record>
-    <Record>
       <Key>7IceCrusherOn</Key>
       <Value>打开这个逻辑读取的开关。</Value>
     </Record>
     <Record>
       <Key>7FilterOn</Key>
       <Value>按 {KEY:ToggleHandPower} 键打开 {THING:ItemTablet}。</Value>
+    </Record>
+    <Record>
+      <Key>7PressureReg</Key>
+      <Value>压力调节器</Value>
     </Record>
   </Interface>
 </Language>
