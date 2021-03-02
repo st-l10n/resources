@@ -25,8 +25,12 @@
 			<Value>Welcome Cadet. It's time to test your ability to provide sustenance for yourself far, far from home.</Value>
 		</Record>
 		<Record>
+			<Key>6Narration1D2</Key>
+			<Value>In this phase, we'll test your ability to keep yourself hydrated and grow food, then cook it up into something useful. Start by setting up a water bottle refill station.</Value>
+		</Record>
+		<Record>
 			<Key>6Narration1D</Key>
-			<Value>In this phase of testing, we'll look at your ability to keep yourself hydrated and grow food, then cook it up into something useful. The first step for both is to create a water network. Start by setting up a water bottle refill station. </Value>
+			<Value>When setting up a hydration system, you need a place to store the water. Build a water tank and a water tank connector, so you can link it to the pipe network. </Value>
 		</Record>
 		<Record>
 			<Key>6BuildTankConnecter</Key>
@@ -42,7 +46,7 @@
 		</Record>
 		<Record>
 			<Key>6Narration3D</Key>
-			<Value>Tank connectors let you attach tanks to pipe networks. Finish the liquid pipe network by connecting the liquid pipes to the hydroponic tray array.</Value>
+			<Value>Finish the liquid pipe network by connecting the liquid pipes to the tank connector.</Value>
 		</Record>
 		<Record>
 			<Key>6GetPipe</Key>
@@ -50,15 +54,15 @@
 		</Record>
 		<Record>
 			<Key>6BuildPipe</Key>
-			<Value>Place a T Junction pipe</Value>
+			<Value>Place T-junction pipe in highlighted position</Value>
 		</Record>
 		<Record>
 			<Key>6BuildPipept2</Key>
-			<Value>Place Missing pipe in highlighted location</Value>
+			<Value>Place pipe in highlighted position</Value>
 		</Record>
 		<Record>
 			<Key>6BuildPipept3</Key>
-			<Value>Place the last pipe and Finish pipe system</Value>
+			<Value>Place T-junction pipe in highlighted position</Value>
 		</Record>
 		<Record>
 			<Key>6Narration4D</Key>
@@ -206,27 +210,27 @@
 		</Record>
 		<Record>
 			<Key>6GetWaterBottleFiller</Key>
-			<Value>Get water filler kit from crate</Value>
+			<Value>Get water bottle filler kit from crate</Value>
 		</Record>
 		<Record>
 			<Key>6BuildWaterBottleFiller</Key>
-			<Value>Build water bottle filler in highlighted position</Value>
+			<Value>Place water bottle filler in highlighted position</Value>
 		</Record>
 		<Record>
 			<Key>6NarrationExtra1</Key>
-			<Value>Now you can  luckily you can use the water bottle filler to do this.</Value>
+			<Value>You're almost ready to fill your water bottle. Grab en empty bottle from the crate and insert it into the bottle filler.</Value>
 		</Record>
 		<Record>
 			<Key>6GetWaterBottle</Key>
-			<Value>Get the empty water bottle from the crate</Value>
+			<Value>Get empty water bottle from crate</Value>
 		</Record>
 		<Record>
 			<Key>6AddWaterbottletofiller</Key>
-			<Value>Add empty water bottle to bottle filler</Value>
+			<Value>Add water bottle to filler</Value>
 		</Record>
 		<Record>
 			<Key>6NarrationExtra2</Key>
-			<Value>To get the water out of the ice you will need to crush and melt it down. Luckily this is all automated with the use of the Ice Crusher.</Value>
+			<Value>Excellent. To add water to your liquid network, use the ice crusher to process ice ore.</Value>
 		</Record>
 		<Record>
 			<Key>6GetMingBelt</Key>
@@ -234,11 +238,11 @@
 		</Record>
 		<Record>
 			<Key>6AddIceToCrusher</Key>
-			<Value>Take the ice out of the mining belt and put it in the Ice crusher</Value>
+			<Value>Take the ice out of the mining belt and add to ice crusher</Value>
 		</Record>
 		<Record>
 			<Key>6MIceCrusherOn</Key>
-			<Value>Turn on the Ice crusher</Value>
+			<Value>Turn on the ice crusher</Value>
 		</Record>
 	</Interface>
 </Language>
