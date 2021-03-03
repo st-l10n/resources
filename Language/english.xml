@@ -434,6 +434,10 @@
       <Key>ForceFeed</Key>
       <Value>Force Feed</Value>
     </Record>
+    <Record>
+      <Key>FlipRover</Key>
+      <Value>Flip Rover</Value>
+    </Record>
   </Actions>
   <Things>
     <RecordThing>
@@ -5790,62 +5794,87 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketLiquidTank</Key>
-      <Value>Structure Modular Rocket Liquid Tank</Value>
+      <Value>Modular Rocket Liquid Tank</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleSilo</Key>
-      <Value>Structure Rocket Module Silo</Value>
+      <Value>Rocket Module Silo</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleBattery</Key>
-      <Value>Structure Rocket Module Battery</Value>
+      <Value>Rocket Module Battery</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleGasCollector</Key>
-      <Value>Structure Rocket Module Gas Collector</Value>
+      <Value>Rocket Module Gas Collector</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleEnergyGenerator</Key>
-      <Value>Structure Rocket Module Energy Generator</Value>
+      <Value>Rocket Module Energy Generator</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleMiningJunk</Key>
-      <Value>Structure Rocket Module Mining Junk</Value>
+      <Value>Rocket Module Mining Junk</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleMiningOre</Key>
-      <Value>Structure Rocket Module Mining Ore</Value>
+      <Value>Rocket Module Mining Ore</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketAutonomous</Key>
-      <Value>Structure Modular Rocket Autonomous</Value>
+      <Value>Rocket Modular Autonomous</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleCollectorLiquid</Key>
-      <Value>Structure Rocket Module Collector Liquid</Value>
+      <Value>Rocket Module Collector Liquid</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleMiningIce</Key>
-      <Value>Structure Rocket Module Mining Ice</Value>
+      <Value>Rocket Module Mining Ice</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketAutomation</Key>
-      <Value>Structure Modular Rocket Automation</Value>
+      <Value>Rocket Modular Automation</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketCouplingDown</Key>
-      <Value>Structure Modular Rocket Coupling Down</Value>
+      <Value>Rocket Modular Coupling Down</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureModularRocketCouplingUp</Key>
+      <Value>Rocket Modular Coupling Up</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitModularRocketOreStorage</Key>
+      <Value>Kit (Modular Rocket Ore Storage)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitModularRocketCoupling</Key>
+      <Value>Kit (Modular Rocket Coupling)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitModularRocketAutomation</Key>
+      <Value>Kit (Modular Rocket Automation)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitModularRocketOreMining</Key>
+      <Value>Kit (Modular Rocket Ore Mining)</Value>
       <Description />
     </RecordThing>
   </Things>
@@ -10904,6 +10933,10 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     <Record>
       <Key>SettingsLightShadowDistance</Key>
       <Value>Light Shadow Distance</Value>
+    </Record>
+    <Record>
+      <Key>CrowbarToFlip</Key>
+      <Value>Flip using crowbar.</Value>
     </Record>
   </Interface>
   <Colors>

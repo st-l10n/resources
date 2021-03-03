@@ -22,15 +22,16 @@
 		</Record>
 		<Record>
 			<Key>7Narration0D</Key>
-			<Value>Your welder is out of gas, which means its time to create more fuel. You'll need a source of oxygen. Plants can turn the waste CO2 from your tank into oxygen: just vent your waste tank in the hydroponics room.</Value>
+			<Value>Your welder is out of gas, and you need to create more fuel. First, you need a source of oxygen.
+Luckily, plants create oxygen from CO2, which you have in your suit's waste tank. So vent your suit's waste tank in the hydroponics room.</Value>
 		</Record>
 		<Record>
 			<Key>7WasteTankOpened</Key>
-			<Value>Open your waste tank</Value>
+			<Value>Open suit waste tank</Value>
 		</Record>
 		<Record>
 			<Key>7WasteTankClosed</Key>
-			<Value>Shut your waste tank</Value>
+			<Value>Close suit waste tank</Value>
 		</Record>
 		<Record>
 			<Key>7Narration1D</Key>
@@ -38,11 +39,11 @@
 		</Record>
 		<Record>
 			<Key>7GetActiveVent</Key>
-			<Value>Get active vent</Value>
+			<Value>Get active vent from crate</Value>
 		</Record>
 		<Record>
 			<Key>7BuildActiveVent</Key>
-			<Value>Build active vent from crate</Value>
+			<Value>Build active vent in highlighted position</Value>
 		</Record>
 		<Record>
 			<Key>7Narration2D</Key>
@@ -134,7 +135,7 @@
 		</Record>
 		<Record>
 			<Key>7Narration9D</Key>
-			<Value>The other component to fuel is volatile gas. Get the mining belt from the crate, then add the volatiles to the ice crusher. Note that you will have to move quickly, as volatiles melt rapidlp.</Value>
+			<Value>The other component of fuel is volatile gas. Get the mining belt from the crate, then add the volatiles to the ice crusher. Note that volatiles sublime rapidly, but not inside the ice crusher (or ore belt).</Value>
 		</Record>
 		<Record>
 			<Key>7GetMiningBelt</Key>
@@ -150,7 +151,7 @@
 		</Record>
 		<Record>
 			<Key>7GetGasMixer</Key>
-			<Value>Get the Gas mixer from crate</Value>
+			<Value>Get the gas mixer from crate</Value>
 		</Record>
 		<Record>
 			<Key>7BuildGasMixer</Key>
@@ -202,7 +203,7 @@
 		</Record>
 		<Record>
 			<Key>7AddCanisterToTankConnector</Key>
-			<Value>Insert canister into tank</Value>
+			<Value>Insert welder fuel canister into tank</Value>
 		</Record>
 		<Record>
 			<Key>7Narration15D</Key>
@@ -222,7 +223,7 @@
 		</Record>
 		<Record>
 			<Key>7Narration16D</Key>
-			<Value>Now set the pressure on the regulator. A safe pressure for canisters is to 5000kPa (5mPa)</Value>
+			<Value>Now set the pressure on the regulator. A safe pressure for canisters is 1950kPa, although they can tolerate up to almost 10MPa.</Value>
 		</Record>
 		<Record>
 			<Key>7LimitRegulator</Key>
