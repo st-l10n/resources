@@ -25,7 +25,11 @@
     </Record>
     <Record>
       <Key>6Narration1D2</Key>
-      <Value>En esta fase de la prueba, veremos su capacidad para mantenerse hidratado y cultivar alimentos, luego cocinaremos para convertirlos en algo útil. El primer paso para ambos es crear una red de agua. Comience configurando una estación de recarga de botellas de agua. </Value>
+      <Value>En esta fase, probaremos tu capacidad para mantenerte hidratado y cultivar alimentos, y luego cocinaremos para convertirlos en algo útil. Comience configurando una estación de recarga de botellas de agua.</Value>
+    </Record>
+    <Record>
+      <Key>6Narration1D</Key>
+      <Value>Al configurar un sistema de hidratación, necesita un lugar para almacenar el agua. Construya un tanque de agua y un conector de tanque de agua, para que pueda conectarlo a la red de tuberías. </Value>
     </Record>
     <Record>
       <Key>6BuildTankConnecter</Key>
@@ -41,7 +45,7 @@
     </Record>
     <Record>
       <Key>6Narration3D</Key>
-      <Value>Los conectores de tanques le permiten conectar tanques a redes de tuberías. Termine la red de tuberías de líquido conectando las tuberías de líquido a la matriz de la bandeja hidropónica.</Value>
+      <Value>Termine la red de tuberías de líquido conectando las tuberías de líquido al conector del tanque.</Value>
     </Record>
     <Record>
       <Key>6GetPipe</Key>
@@ -49,15 +53,15 @@
     </Record>
     <Record>
       <Key>6BuildPipe</Key>
-      <Value>Coloque una tubería de unión en T</Value>
+      <Value>Coloque una tubería de unión en T en la posición resaltada</Value>
     </Record>
     <Record>
       <Key>6BuildPipept2</Key>
-      <Value>Coloque la tubería que falta en la ubicación resaltada</Value>
+      <Value>Coloque la tubería en la posición resaltada</Value>
     </Record>
     <Record>
       <Key>6BuildPipept3</Key>
-      <Value>Coloque la última tubería y termine el sistema de tuberías</Value>
+      <Value>Coloque la tuberia de unión en T en la posición resaltada</Value>
     </Record>
     <Record>
       <Key>6Narration4D</Key>
@@ -205,11 +209,15 @@
     </Record>
     <Record>
       <Key>6GetWaterBottleFiller</Key>
-      <Value>Obtenga el kit de llenado de agua de la caja</Value>
+      <Value>Obtenga el rellenador de botellas de agua de la caja</Value>
     </Record>
     <Record>
       <Key>6BuildWaterBottleFiller</Key>
-      <Value>Construye el rellenador de botellas de agua en la ubicación resaltada</Value>
+      <Value>Coloca el rellenador de botellas de agua en la posición resaltada</Value>
+    </Record>
+    <Record>
+      <Key>6NarrationExtra1</Key>
+      <Value>Estás casi listo para llenar tu botella de agua. Coge una botella vacía de la caja e insértela en el llenador de botellas.</Value>
     </Record>
     <Record>
       <Key>6GetWaterBottle</Key>
@@ -217,7 +225,11 @@
     </Record>
     <Record>
       <Key>6AddWaterbottletofiller</Key>
-      <Value>Añade la botella de agua vacía al rellenador de botellas de agua</Value>
+      <Value>Añade la botella de agua vacía al rellenador de botellas</Value>
+    </Record>
+    <Record>
+      <Key>6NarrationExtra2</Key>
+      <Value>Excelente. Para agregar agua a su red líquida, use la trituradora de hielo para procesar el mineral de hielo.</Value>
     </Record>
     <Record>
       <Key>6GetMingBelt</Key>
@@ -225,7 +237,7 @@
     </Record>
     <Record>
       <Key>6AddIceToCrusher</Key>
-      <Value>Saque el hielo del cinturón minero y colóquelo en la trituradora de hielo.</Value>
+      <Value>Saque el hielo del cinturón minero y colóquelo en la trituradora de hielo</Value>
     </Record>
     <Record>
       <Key>6MIceCrusherOn</Key>
