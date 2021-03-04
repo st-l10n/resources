@@ -14,11 +14,11 @@
 		</Record>
 		<Record>
 			<Key>GasMixingDescription</Key>
-			<Value>Flex your skills in the realm of gas filtration and mixing to create atmospheres, fuels and more.</Value>
+			<Value>Extend your skills in the realm of gas mixing and filtration to create atmospheres, fuels and more.</Value>
 		</Record>
 		<Record>
 			<Key>IntoTutoiralGasMixingDescription</Key>
-			<Value>Welcome Cadet. Stationeer Command wants to test your knowledge of gas filtering and mixing, to ensure you can provide fuels and liveable atmospheres when building ODA bases.</Value>
+			<Value>Welcome Cadet! Stationeer Command wants to make sure you're able to provide fuels and liveable atmospheres for ODA bases. So lets explore your knowledge of gas filtering and mixing.</Value>
 		</Record>
 		<Record>
 			<Key>7Narration0D</Key>
@@ -35,7 +35,7 @@ Luckily, plants create oxygen from CO2, which you have in your suit's waste tank
 		</Record>
 		<Record>
 			<Key>7Narration1D</Key>
-			<Value>To collect the oxygen, build an active vent in the highlighted position. We'll use this to pump oxygen from the rom.</Value>
+			<Value>In order to collect oxygen from the air in this room, build an active vent in the highlighted position. Use this to pump the atmosphere to your filtration system.</Value>
 		</Record>
 		<Record>
 			<Key>7GetActiveVent</Key>
@@ -51,11 +51,11 @@ Luckily, plants create oxygen from CO2, which you have in your suit's waste tank
 		</Record>
 		<Record>
 			<Key>7MoveToArea</Key>
-			<Value>Go to gas room</Value>
+			<Value>Enter atmospherics room</Value>
 		</Record>
 		<Record>
 			<Key>7Narration3D</Key>
-			<Value>You can use a filtration unit to separate out oxygen from the hydroponic room atmosphere. Build a filtration unit in the highlighted position.</Value>
+			<Value>Filtration units separate out gases. To extract the oxygen from the hydroponic room atmosphere, build a filtration unit in the highlighted position.</Value>
 		</Record>
 		<Record>
 			<Key>7GetAtmospherics</Key>
@@ -67,7 +67,7 @@ Luckily, plants create oxygen from CO2, which you have in your suit's waste tank
 		</Record>
 		<Record>
 			<Key>7Narration4D</Key>
-			<Value>Complete the green oxygen pipe network. This will connect the hydroponic room's atmospheric pipe network to the filtration unit's input.</Value>
+			<Value>Complete the green oxygen pipe network to pump the hydroponic room's atmosphere into the filtration unit.</Value>
 		</Record>
 		<Record>
 			<Key>7GetPipeKit</Key>
@@ -79,19 +79,19 @@ Luckily, plants create oxygen from CO2, which you have in your suit's waste tank
 		</Record>
 		<Record>
 			<Key>7Narration5D</Key>
-			<Value>The filtration unit also creates waste gas. So connect the unit to the waste gas network, which expells outside.</Value>
+			<Value>The filtration unit creates usable gas and waste gas. You need to take care of your waste gas or bad, loud things happen. Connect the filtration unit to the waste network to ensure any unneeded gas is expelled into the infinite void.</Value>
 		</Record>
 		<Record>
 			<Key>7GetPipeKit</Key>
-			<Value>Get the other Pipe kit from the crate</Value>
+			<Value>Get second pipe kit from crate</Value>
 		</Record>
 		<Record>
 			<Key>7BuildPipe</Key>
-			<Value>Connect the waste network with pipes from the crate</Value>
+			<Value>Complete the waste network</Value>
 		</Record>
 		<Record>
 			<Key>7Narration6D</Key>
-			<Value>A filtration unit can filter out two gases simultaneously, but right now you need oxygen - so add an oxygen filter in the unit.</Value>
+			<Value>A filtration unit can filter out two gases simultaneously, but right now you just need oxygen - so add an oxygen filter in the unit.</Value>
 		</Record>
 		<Record>
 			<Key>7GetFilter</Key>
@@ -103,7 +103,7 @@ Luckily, plants create oxygen from CO2, which you have in your suit's waste tank
 		</Record>
 		<Record>
 			<Key>7Narration7D</Key>
-			<Value>In order to reduce the chance of your fuel accidentally igniting, it's a good idea to cool your gas. Passing your pipes outside, and adding radiators is a good way to do this.</Value>
+			<Value>To reduce the chance of your fuel accidentally igniting, it's a good idea to chill your gas. Passing your pipes outside and adding pipe radiators is a good way to cool them.</Value>
 		</Record>
 		<Record>
 			<Key>7GetPipeRadiator</Key>
@@ -135,19 +135,21 @@ Luckily, plants create oxygen from CO2, which you have in your suit's waste tank
 		</Record>
 		<Record>
 			<Key>7Narration9D</Key>
-			<Value>The other component of fuel is volatile gas. Get the mining belt from the crate, then add the volatiles to the ice crusher. Note that volatiles sublime rapidly, but not inside the ice crusher (or ore belt).</Value>
+			<Value>Fuel has two components: oxygen, and volatile gas.
+			
+Get volatile ice from the mining belt in the crate, then add some to the ice crusher for processing. Note: volatiles sublime rapidly, but not inside the ore belt or crusher.</Value>
 		</Record>
 		<Record>
 			<Key>7GetMiningBelt</Key>
 			<Value>Get mining belt from crate</Value>
 		</Record>
 		<Record>
-			<Key>7AddIceToCrusper</Key>
-			<Value>Add stack of volatiles to ice crusher</Value>
+			<Key>7AddIceToCrusher</Key>
+			<Value>Add volatiles to ice crusher</Value>
 		</Record>
 		<Record>
 			<Key>7Narration10D</Key>
-			<Value>Now build a gas mixer in the highlighted position - this will allow you to connect your two pipe networks and blend your fuel mix at the correct ratio.</Value>
+			<Value>Now build a gas mixer to connect your two gas systems, and blend your fuel mix at the correct ratio.</Value>
 		</Record>
 		<Record>
 			<Key>7GetGasMixer</Key>
@@ -155,7 +157,7 @@ Luckily, plants create oxygen from CO2, which you have in your suit's waste tank
 		</Record>
 		<Record>
 			<Key>7BuildGasMixer</Key>
-			<Value>Build gas mixer at highlighted position</Value>
+			<Value>Build gas mixer in highlighted position</Value>
 		</Record>
 		<Record>
 			<Key>7Narration11D</Key>
@@ -171,7 +173,7 @@ Luckily, plants create oxygen from CO2, which you have in your suit's waste tank
 		</Record>
 		<Record>
 			<Key>7Narration12D</Key>
-			<Value>Valves allow us to control the flow of gases or liquids inside pipes. Because losing control is dangerous.</Value>
+			<Value>Valves let you open and close pipes, to control the flow of gas and liquids. Losing control is bad in space. Valves are your friend.</Value>
 		</Record>
 		<Record>
 			<Key>7GetValve</Key>
@@ -183,7 +185,7 @@ Luckily, plants create oxygen from CO2, which you have in your suit's waste tank
 		</Record>
 		<Record>
 			<Key>7Narration13D</Key>
-			<Value>You need a tank storage unit, so you can recharge your cannister. Tank storage units attach directly to pipe networks.</Value>
+			<Value>Cannisters are recharged by being put in tank storage units. Tank storage units attach directly to pipe networks.</Value>
 		</Record>
 		<Record>
 			<Key>7GetTankConnector</Key>
@@ -207,7 +209,7 @@ Luckily, plants create oxygen from CO2, which you have in your suit's waste tank
 		</Record>
 		<Record>
 			<Key>7Narration15D</Key>
-			<Value>To determine correct fuel ratio for your tank, consult the Stationpedia Canister (Fuel) page.</Value>
+			<Value>To find the correct fuel ratio for filling your tank, consult the Stationpedia Canister (Fuel) page.</Value>
 		</Record>
 		<Record>
 			<Key>7SetGasMix</Key>
@@ -231,11 +233,11 @@ Luckily, plants create oxygen from CO2, which you have in your suit's waste tank
 		</Record>
 		<Record>
 			<Key>7Narration17D</Key>
-			<Value>Great work Cadet! Now that everything's set up we can safely begin turnnig on our equitment and start producing fuel.</Value>
+			<Value>Great work Cadet! Now that everything's set up you can safely begin turning on your equipment to start producing fuel.</Value>
 		</Record>
 		<Record>
 			<Key>7ActiveVentOn</Key>
-			<Value>Turn on active vent in hydroponics room</Value>
+			<Value>Hydroponics room: Turn on active vent</Value>
 		</Record>
 				<Record>
 			<Key>7IceCrusherOn</Key>
@@ -255,7 +257,7 @@ Luckily, plants create oxygen from CO2, which you have in your suit's waste tank
 		</Record>
 		<Record>
 			<Key>7Narration17DB</Key>
-			<Value>The volatiles and oxygen are currently waiting in the pipe. Open the valves to let the gas flow into the gas mixer.</Value>
+			<Value>The volatiles and oxygen are currently waiting paitently in the pipes. Open the valves to let them flow into through the gas mixer into your welder canister.</Value>
 		</Record>
 		<Record>
 			<Key>7VolatilesValveOn</Key>
@@ -275,7 +277,43 @@ Luckily, plants create oxygen from CO2, which you have in your suit's waste tank
 		</Record>
 			<Record>
 			<Key>7Narration19D</Key>
-			<Value>Done! Good job! Press the button!</Value>
+			<Value>The ODA is impressed, Cadet. You can be trusted to filter and mix combustible fuels. Excellent progress. Press the mysterious blue button to transmit your results.</Value>
+		</Record>
+		<Record>
+			<Key>7OpenSuit</Key>
+			<Value>Open suit UI</Value>
+		</Record>
+		<Record>
+			<Key>7OpenWasteTankMenu</Key>
+			<Value>Select waste tank</Value>
+		</Record>
+		<Record>
+			<Key>7FinishDoor</Key>
+			<Value>Complete the airlock</Value>
+		</Record>
+		<Record>
+			<Key>7Narration19AD</Key>
+			<Value>Good work, Cadet. Your welder is now fully refueled. Now you can finish the airlock in this room, and move on.</Value>
+		</Record>
+		<Record>
+			<Key>7GetTablet</Key>
+			<Value>Get tablet from backpack</Value>
+		</Record>
+		<Record>
+			<Key>7InsertCart</Key>
+			<Value>Insert Atmos Analyzer into tablet</Value>
+		</Record>
+		<Record>
+			<Key>7TabletOn</Key>
+			<Value>Turn on tablet to scan gas pipes</Value>
+		</Record>
+		<Record>
+			<Key>7TabletOff</Key>
+			<Value>Turn off tablet after scanning</Value>
+		</Record>
+		<Record>
+			<Key>7Narration18DTablet</Key>
+			<Value>Excellent. Use your tablet to check that oxygen is entering the pipe.</Value>
 		</Record>
 		
 	

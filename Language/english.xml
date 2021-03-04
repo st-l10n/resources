@@ -5299,7 +5299,8 @@ When landing, the rocket will deploy a lander, and any cargo contained in the {T
     <RecordThing>
       <Key>Rover_MkI</Key>
       <Value>Rover MkI</Value>
-      <Description />
+      <Description>A distant cousin of the jeep, the Mk I {&lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; electric rover is one of the most simple and durable light vehicles in the known universe. Able to carry two passengers and cargo such as the {THING:DynamicGasCanisterAir} or {THING:Crate}, it is powered by up to three batteries, accepting everything including {THING:ItemBatteryCellNuclear}.
+A quad-array of hub-mounted electric engines propels the reinforced aluminium frame over most terrain and modest obstacles. While the Mk I is designed for stability in low-horizontality circumstances, if it rolls, try using your {THING:ItemCrowbar} to put it right way up.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSpawnPoint</Key>
@@ -10431,6 +10432,118 @@ It is an unwavering universal law that anything higher than 11 will be purple. T
     <Record>
       <Key>ControlSwapHandsDisc</Key>
       <Value>Swap Hands</Value>
+    </Record>
+    <Record>
+      <Key>CommandSave</Key>
+      <Value>Saves the game and names it as a given parameter. usage: "/save nameofsave"</Value>
+    </Record>
+    <Record>
+      <Key>CommandShutdown</Key>
+      <Value>Shutsdown the game server and returns player to the lobby can append a timer and message. usage: "/shutdown"</Value>
+    </Record>
+    <Record>
+      <Key>CommandNotice</Key>
+      <Value>Send a message to the players of a server. usage: "/notice the message you want to send"</Value>
+    </Record>
+    <Record>
+      <Key>CommandStatus</Key>
+      <Value>Displays the current status of the server and who's currently in the server: "/status"</Value>
+    </Record>
+    <Record>
+      <Key>CommandBan</Key>
+      <Value>Ban a given steam ID from the server: "/ban 102039237390"</Value>
+    </Record>
+     <Record>
+      <Key>CommandUnBan</Key>
+      <Value>Revoke a ban from a given steam ID from the server: "/unban 102039237390"</Value>
+    </Record>
+    <Record>
+      <Key>CommandKick</Key>
+      <Value>Kicks a player from a given steam ID from the server: "/kick 102039237390"</Value>
+    </Record>
+    <Record>
+      <Key>CommandClearAll</Key>
+      <Value>Clears all disconnect players from the server: "/clearall"</Value>
+    </Record>
+    <Record>
+      <Key>CommandThreadStatus</Key>
+      <Value>Shows the current status of the game's threads.: "/threadstatus"</Value>
+    </Record>
+     <Record>
+      <Key>CommandResetThread</Key>
+      <Value>Resets a given thread. : "/resetthread atmospherics"</Value>
+    </Record>
+    <Record>
+      <Key>CommandSetHunger</Key>
+      <Value>Sets the hunger rate. : "/hungerrate 0.25"</Value>
+    </Record>
+    <Record>
+      <Key>CommandPause</Key>
+      <Value>Pauses the game for all connected players. : "/pause"</Value>
+    </Record>
+    <Record>
+      <Key>CommandResume</Key>
+      <Value>Resumes the game for all connected players. : "/resume"</Value>
+    </Record>
+    <Record>
+      <Key>CommandToggleGod</Key>
+      <Value>Toggles Player invinciablity including suit. : "/tg"</Value>
+    </Record>
+    <Record>
+      <Key>CommandToggleInfinitePower</Key>
+      <Value>Toggles Infinite power on a player or serverwide. : "/tgp"</Value>
+    </Record>
+    <Record>
+      <Key>CommandToggleGameMode</Key>
+      <Value>Toggles Gamemode between Survival and Creative. : "/tgm"</Value>
+    </Record>
+    <Record>
+      <Key>CommandSetTime</Key>
+      <Value>Sets the sun offset affectivley changing the time of day. : "/settime 0.25"</Value>
+    </Record>
+     <Record>
+      <Key>CommandToggleInstaGrow</Key>
+      <Value>Toggles Instant plant growth on a server or game. : "/tgrow"</Value>
+    </Record>
+    <Record>
+      <Key>CommandStopWeather</Key>
+      <Value>Stops a Storm Instantly. : "/stopweather"</Value>
+    </Record>
+     <Record>
+      <Key>CommandStartWeather</Key>
+      <Value>Starts a new Storm Instantly. : "/startweather"</Value>
+    </Record>
+    <Record>
+      <Key>CommandToggleNoClip</Key>
+      <Value>Toggles player collisions. : "/tnc"</Value>
+    </Record>
+    <Record>
+      <Key>CommandSkipStage</Key>
+      <Value>Skips the current mission Stage. : "/skipstage"</Value>
+    </Record>
+    <Record>
+      <Key>CommandSetStage</Key>
+      <Value>Sets the current mission Stage. : "/setstage"</Value>
+    </Record>
+    <Record>
+      <Key>CommandShowStage</Key>
+      <Value>Displays the current mission Stage and how many stages are in the mission. : "/showstage"</Value>
+    </Record>
+    <Record>
+      <Key>CommandFillNeeds</Key>
+      <Value>Fills a players hunger and hydration. : "/fillneeds"</Value>
+    </Record>
+      <Record>
+      <Key>CommandFillHealth</Key>
+      <Value>heals a player. : "/fillhealth"</Value>
+    </Record>
+    <Record>
+      <Key>CommandAddGas</Key>
+      <Value>Adds gas's or liquids to a given tank or pipenetwork. : "/addgas [refID] [gasType 1-8] [molecount]"</Value>
+    </Record>
+    <Record>
+      <Key>CommandHelp</Key>
+      <Value>Displays help menu. : "/help"</Value>
     </Record>
     <Record>
       <Key>Agrizero</Key>
