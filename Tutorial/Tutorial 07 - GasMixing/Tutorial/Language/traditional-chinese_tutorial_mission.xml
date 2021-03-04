@@ -35,6 +35,10 @@
       <Value>Get the Gas mixer from crate</Value>
     </Record>
     <Record>
+      <Key>7BuildGasMixer</Key>
+      <Value>Build gas mixer at highlighted position</Value>
+    </Record>
+    <Record>
       <Key>7GetRegulator</Key>
       <Value>Get the Pressure regulator from the Crate</Value>
     </Record>
@@ -65,6 +69,18 @@
     <Record>
       <Key>7PressureReg</Key>
       <Value>Turn on the pressuie regulator</Value>
+    </Record>
+    <Record>
+      <Key>7FinishDoor</Key>
+      <Value>氣閘門循環</Value>
+    </Record>
+    <Record>
+      <Key>7GetTablet</Key>
+      <Value>Get tablet from crate.</Value>
+    </Record>
+    <Record>
+      <Key>7InsertCart</Key>
+      <Value>Insert the {THING:CartridgeAtmosAnalyser} into the {THING:ItemTablet}</Value>
     </Record>
   </Interface>
 </Language>

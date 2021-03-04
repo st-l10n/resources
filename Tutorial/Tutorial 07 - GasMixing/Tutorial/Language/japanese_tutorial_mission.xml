@@ -98,5 +98,17 @@
       <Key>7PressureReg</Key>
       <Value>{THING:StructurePressureRegulator} を起動する。</Value>
     </Record>
+    <Record>
+      <Key>7FinishDoor</Key>
+      <Value>エアロックを循環させる</Value>
+    </Record>
+    <Record>
+      <Key>7GetTablet</Key>
+      <Value>{THING:ItemIronSheets} を拾う。</Value>
+    </Record>
+    <Record>
+      <Key>7InsertCart</Key>
+      <Value>{THING:CartridgeAtmosAnalyser} を {THING:ItemTablet} に入れる。</Value>
+    </Record>
   </Interface>
 </Language>
