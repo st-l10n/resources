@@ -12,35 +12,36 @@
     </Record>
     <Record>
       <Key>GasMixingDescription</Key>
-      <Value>Flexione sus habilidades en el ámbito de la filtración y mezcla de gases para crear atmósferas, combustibles y más.</Value>
+      <Value>Amplie sus habilidades en el ámbito de la filtración y mezcla de gases para crear atmósferas, combustibles y más.</Value>
     </Record>
     <Record>
       <Key>IntoTutoiralGasMixingDescription</Key>
-      <Value>Bienvenido Cadete. el centro de comando Stationeers quiere poner a prueba sus conocimientos sobre filtrado y mezcla de gas para asegurarse de que pueda proporcionar combustibles y atmósferas habitables al construir bases de ODA.</Value>
+      <Value>¡Bienvenido Cadete! El Comando Stationeer quiere asegurarse de que pueda proporcionar combustibles y atmósferas habitables para las bases de ODA. Por lo tanto, exploremos sus conocimientos sobre el filtrado y la mezcla de gases.</Value>
     </Record>
     <Record>
       <Key>7Narration0D</Key>
-      <Value>Su soldador no tiene gas, lo que significa que es hora de generar más combustible. Necesitará una fuente de oxígeno. Las plantas pueden convertir el CO2 residual de su tanque en oxígeno: simplemente ventile su tanque de residuos en la sala de hidroponía.</Value>
+      <Value>Su soldador se ha quedado sin combustible y necesita generar más. Primero, necesita una fuente de oxígeno.
+Afortunadamente, las plantas crean oxígeno a partir del CO2 que tienes en el tanque de desechos de tu traje. Así que ventile el tanque de desechos de su traje en la sala de hidroponía.</Value>
     </Record>
     <Record>
       <Key>7WasteTankOpened</Key>
-      <Value>Abre tu tanque de desechos</Value>
+      <Value>Abre el tanque de desechos del traje</Value>
     </Record>
     <Record>
       <Key>7WasteTankClosed</Key>
-      <Value>Cierre su tanque de residuos</Value>
+      <Value>Cierra el tanque de residuos del traje</Value>
     </Record>
     <Record>
       <Key>7Narration1D</Key>
-      <Value>Para recolectar el oxígeno, construya un respiradero activo en la posición resaltada. Usaremos esto para bombear oxígeno desde la sala.</Value>
+      <Value>Para recolectar el oxígeno, construya un respiradero activo en la posición resaltada. Usaremos esto para bombear oxígeno desde la sala a el sistema de filtración.</Value>
     </Record>
     <Record>
       <Key>7GetActiveVent</Key>
-      <Value>Coge la ventilacion activa</Value>
+      <Value>Coge la ventilacion activa de la caja</Value>
     </Record>
     <Record>
       <Key>7BuildActiveVent</Key>
-      <Value>Construye la ventilacion activa denla caja</Value>
+      <Value>Construye la ventilacion activa en la posición resaltada</Value>
     </Record>
     <Record>
       <Key>7Narration2D</Key>
@@ -48,11 +49,11 @@
     </Record>
     <Record>
       <Key>7MoveToArea</Key>
-      <Value>Vete a la sala de gases</Value>
+      <Value>Entra en la sala de gases</Value>
     </Record>
     <Record>
       <Key>7Narration3D</Key>
-      <Value>Puede utilizar una unidad de filtración para separar el oxígeno de la atmósfera de la habitación hidropónica. Construya una unidad de filtración en la posición resaltada.</Value>
+      <Value>Las unidades de filtración separan los gases. Para extraer el oxígeno de la atmósfera de la habitación hidropónica, construya una unidad de filtración en la posición resaltada.</Value>
     </Record>
     <Record>
       <Key>7GetAtmospherics</Key>
@@ -64,7 +65,7 @@
     </Record>
     <Record>
       <Key>7Narration4D</Key>
-      <Value>Completa la red de tuberías verde de oxígeno. Esto conectará la red de tuberías atmosféricas de la sala hidropónica a la entrada de la unidad de filtración.</Value>
+      <Value>Complete la red de tuberías de oxígeno verde para bombear la atmósfera de la habitación hidropónica a la unidad de filtración.</Value>
     </Record>
     <Record>
       <Key>7GetPipeKit</Key>
@@ -84,7 +85,7 @@
     </Record>
     <Record>
       <Key>7Narration6D</Key>
-      <Value>Una unidad de filtración puede filtrar dos gases simultáneamente, pero ahora mismo necesita oxígeno, así que agregue un filtro de oxígeno en la unidad.</Value>
+      <Value>Una unidad de filtración puede filtrar dos gases simultáneamente, pero ahora mismo solo necesita oxígeno, así que añade un filtro de oxígeno en la unidad.</Value>
     </Record>
     <Record>
       <Key>7GetFilter</Key>
@@ -96,7 +97,7 @@
     </Record>
     <Record>
       <Key>7Narration7D</Key>
-      <Value>Para reducir la posibilidad de que el combustible se encienda accidentalmente, es una buena idea enfriar el gas. Pasar las tuberías al exterior y agregar radiadores es una buena manera de hacerlo.</Value>
+      <Value>Para reducir la posibilidad de que el combustible se autoinflame accidentalmente, es una buena idea enfriar el gas. Pasar las tuberías al exterior y agregar radiadores es una buena manera de refrigerarlas.</Value>
     </Record>
     <Record>
       <Key>7GetPipeRadiator</Key>
@@ -128,7 +129,9 @@
     </Record>
     <Record>
       <Key>7Narration9D</Key>
-      <Value>El otro componente del combustible es el gas volátil. Saque el cinturón de minería de la caja, luego agregue los trozos de volátiles a la trituradora de hielo. Tenga en cuenta que tendrá que moverse rápidamente, ya que los volátiles se derriten.</Value>
+      <Value>El combustible tiene dos componentes: oxígeno y gas volátil.
+\t \t \t
+Obtenga volatiles en forma de hielo del cinturón de minería en la caja, luego agregue un poco a la trituradora de hielo para procesarlo. Nota: los volátiles se derriten rápidamente, pero no dentro del cinturón de mineral o la trituradora.</Value>
     </Record>
     <Record>
       <Key>7GetMiningBelt</Key>
@@ -136,11 +139,11 @@
     </Record>
     <Record>
       <Key>7AddIceToCrusher</Key>
-      <Value>Añade la pila de volatiles a el rompehielos</Value>
+      <Value>Añade volátiles a la trituradora de hielo</Value>
     </Record>
     <Record>
       <Key>7Narration10D</Key>
-      <Value>Ahora construya un mezclador de gas en la posición resaltada; esto le permitirá conectar sus dos redes de tuberías y mezclar sus dos gases diferentes en la proporción correcta.</Value>
+      <Value>Ahora construya un mezclador de gas para conectar sus dos sistemas de gas y mezcle su mezcla de combustible en la proporción correcta.</Value>
     </Record>
     <Record>
       <Key>7GetGasMixer</Key>
@@ -164,7 +167,7 @@
     </Record>
     <Record>
       <Key>7Narration12D</Key>
-      <Value>Las válvulas nos permiten controlar el flujo de gases o líquidos dentro de las tuberías. Porque perder el control es muy peligroso.</Value>
+      <Value>Las válvulas nos permiten controlar el flujo de gases o líquidos dentro de las tuberías. Porque perder el control es muy peligroso. Las válvulas son tu amigas.</Value>
     </Record>
     <Record>
       <Key>7GetValve</Key>
@@ -176,7 +179,7 @@
     </Record>
     <Record>
       <Key>7Narration13D</Key>
-      <Value>Necesita una unidad de almacenamiento de tanque, para que pueda recargar su botella. Las unidades de almacenamiento de tanques se conectan directamente a las redes de tuberías.</Value>
+      <Value>Los botes se recargan colocándolos en unidades de almacenamiento de tanque. Las unidades de almacenamiento de tanques se conectan directamente a las redes de tuberías.</Value>
     </Record>
     <Record>
       <Key>7GetTankConnector</Key>
@@ -196,7 +199,7 @@
     </Record>
     <Record>
       <Key>7AddCanisterToTankConnector</Key>
-      <Value>Inserta la botella en el tanque</Value>
+      <Value>Inserta la botella de combustible del soldador en el tanque</Value>
     </Record>
     <Record>
       <Key>7Narration15D</Key>
