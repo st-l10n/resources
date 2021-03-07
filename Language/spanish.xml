@@ -203,6 +203,10 @@
       <Key>ForceFeed</Key>
       <Value>Alimentación forzada</Value>
     </Record>
+    <Record>
+      <Key>FlipRover</Key>
+      <Value>Dar la vuelta al rover</Value>
+    </Record>
   </Actions>
   <Things>
     <RecordThing>
@@ -9018,6 +9022,118 @@ Es una ley universal inquebrantable que cualquier cosa superior a 11 será púrp
       <Value>Cambiar Manos</Value>
     </Record>
     <Record>
+      <Key>CommandSave</Key>
+      <Value>Guarda el juego y lo nombra como un parámetro dado: &quot;/save y nombre del guardado&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandShutdown</Key>
+      <Value>Apaga el servidor del juego y devuelve al jugador al lobby puede agregar un temporizador y un mensaje: &quot;/shutdown&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandNotice</Key>
+      <Value>Enviar un mensaje a los jugadores del servidor usando: &quot;/notice y el mensaje que quieres enviar&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandStatus</Key>
+      <Value>Muestra el estado actual del servidor y quien está actualmente en él: &quot;/status&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandBan</Key>
+      <Value>Banear a un ID de steam desde el servidor: &quot;/ban 102039237390&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandUnBan</Key>
+      <Value>Revocar un baneo de un ID de Steam determinado desde el servidor: &quot;/unban 102039237390&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandKick</Key>
+      <Value>Expulsa a un jugador de un ID de Steam determinado del servidor: &quot;/kick 102039237390&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandClearAll</Key>
+      <Value>Elimina todos los jugadores desconectados del servidor: &quot;/clearall&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandThreadStatus</Key>
+      <Value>Muestra el estado actual de los hilos del juego: &quot;/threadstatus&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandResetThread</Key>
+      <Value>Restablece un hilo dado: &quot;/resetthread atmospherics&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandSetHunger</Key>
+      <Value>Ajusta el ratio de hambre: &quot;/hungerrate 0.25&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandPause</Key>
+      <Value>Pausa el juego para todos los jugadores conectados: &quot;/pause&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandResume</Key>
+      <Value>Reanuda el juego para todos los jugadores conectados: &quot;/resume&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandToggleGod</Key>
+      <Value>Activa o Desactiva la invencibilidad del jugador incluyendo el traje: &quot;/tg&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandToggleInfinitePower</Key>
+      <Value>Activa o Desactiva la energia infinita en un jugador o servidor: &quot;/tgp&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandToggleGameMode</Key>
+      <Value>Cambia el modo de juego entre survival y creativo: &quot;/tgm&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandSetTime</Key>
+      <Value>Establece la compensación del sol cambiando la hora del día: &quot;/settime 0.25&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandToggleInstaGrow</Key>
+      <Value>Alterna el crecimiento instantáneo de la planta en un servidor o juego: &quot;/tgrow&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandStopWeather</Key>
+      <Value>Parar la tormenta actual: &quot;/stopweather&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandStartWeather</Key>
+      <Value>Empieza una nueva tormenta immediatamente: &quot;/startweather&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandToggleNoClip</Key>
+      <Value>Activa o Desactiva las colisiones del jugador: &quot;/tnc&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandSkipStage</Key>
+      <Value>Salta la etapa de la misión actual: &quot;/skipstage&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandSetStage</Key>
+      <Value>Fija la etapa de la misión: &quot;/setstage&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandShowStage</Key>
+      <Value>Muestra la etapa de la misión actual y cuantas etapas hay en total: &quot;/showstage&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandFillNeeds</Key>
+      <Value>Rellena el hambre y la hidratación del jugador: &quot;/fillneeds&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandFillHealth</Key>
+      <Value>Cura al jugador: &quot;/fillhealth&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandAddGas</Key>
+      <Value>Agrega gases o líquidos a un tanque o red de tuberías determinada: &quot;/addgas [refID] [gasType 1-8] [molecount]&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandHelp</Key>
+      <Value>Mostrar Menu de Ayuda: &quot;/help&quot;</Value>
+    </Record>
+    <Record>
       <Key>AgrizeroDesc</Key>
       <Value>Agrizero es una empresa de biotecnología agrícola centrada en la investigación y el despliegue de tecnología agrícola fuera del mundo. El objetivo de la compañía es proporcionar una red de &apos;bio-fábricas&apos; autosuficientes y autónomas que, en última instancia, alimentarán a un millón de seres humanos en el espacio.
 Tras emerger de los desastres medioambientales de finales del siglo XXI, la empresa tiene sus raíces en las iniciativas de agricultura artificial que salvan al mundo de China y ahora se ha extendido a instalaciones en el Cinturón de Asteroides, donde el suministro de asteroides de hielo hace que la agricultura vertical y la agricultura de ambiente controlado sean extremadamente prometedoras.
@@ -9419,6 +9535,10 @@ Reclutando personas con experiencia en ingeniería civil, industrias militares y
     <Record>
       <Key>SettingsLightShadowDistance</Key>
       <Value>Distancia de Sombras de las luces</Value>
+    </Record>
+    <Record>
+      <Key>CrowbarToFlip</Key>
+      <Value>Dar la vuelta usando la Palanca.</Value>
     </Record>
   </Interface>
   <Colors>

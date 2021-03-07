@@ -76,6 +76,10 @@ Afortunadamente, las plantas crean oxígeno a partir del CO2 que tienes en el ta
       <Value>Completa la red de tuberias de oxígeno</Value>
     </Record>
     <Record>
+      <Key>7Narration5D</Key>
+      <Value>La unidad de filtración crea gas utilizable y gas residual. Necesita cuidar su gas residual o sucederán cosas malas y ruidosas. Conecte la unidad de filtración a la red de desechos para asegurarse de que cualquier gas innecesario se expulse al vacío infinito.</Value>
+    </Record>
+    <Record>
       <Key>7GetPipeKit</Key>
       <Value>Coge las tuberias de la caja</Value>
     </Record>
@@ -230,6 +234,10 @@ Obtenga volatiles en forma de hielo del cinturón de minería en la caja, luego 
       <Value>¡Gran trabajo Cadete! Ahora que todo está configurado podemos comenzar a encender su equipo de manera segura y comenzar a producir combustible.</Value>
     </Record>
     <Record>
+      <Key>7ActiveVentOn</Key>
+      <Value>Sala de Hidroponia: Enciende la ventilación activa</Value>
+    </Record>
+    <Record>
       <Key>7IceCrusherOn</Key>
       <Value>Enciende el triturador de hielo</Value>
     </Record>
@@ -266,28 +274,44 @@ Obtenga volatiles en forma de hielo del cinturón de minería en la caja, luego 
       <Value>Devolver el bote de combustible al soldador</Value>
     </Record>
     <Record>
+      <Key>7Narration19D</Key>
+      <Value>La ODA está impresionada, Cadete. Puede confiar en usted para filtrar y mezclar combustibles. Excelente progreso. Pulsa el misterioso botón azul para transmitir tus resultados.</Value>
+    </Record>
+    <Record>
       <Key>7OpenSuit</Key>
       <Value>Abre la UI del traje</Value>
     </Record>
     <Record>
       <Key>7OpenWasteTankMenu</Key>
-      <Value>Cierre su tanque de residuos</Value>
+      <Value>Selecciona el tanque de residuos</Value>
     </Record>
     <Record>
       <Key>7FinishDoor</Key>
-      <Value>Regulacion de la esclusa</Value>
+      <Value>Completa la esclusa</Value>
+    </Record>
+    <Record>
+      <Key>7Narration19AD</Key>
+      <Value>Buen trabajo, Cadete. Su soldador ahora está completamente repostado. Ahora puedes terminar la esclusa de aire en esta habitación y seguir adelante.</Value>
     </Record>
     <Record>
       <Key>7GetTablet</Key>
-      <Value>Consigue la tableta de la caja.</Value>
+      <Value>Coge la tablet de la mochila</Value>
     </Record>
     <Record>
       <Key>7InsertCart</Key>
-      <Value>Inserte el {THING:CartridgeAtmosAnalyser} en la {THING:ItemTablet}</Value>
+      <Value>Inserte el Analizador de atmósfera en la tablet</Value>
     </Record>
     <Record>
       <Key>7TabletOn</Key>
-      <Value>Encienda la bomba de volumen para ventilar el gas</Value>
+      <Value>Enciende la tablet para escanear las tuberias de gases</Value>
+    </Record>
+    <Record>
+      <Key>7TabletOff</Key>
+      <Value>Apaga la tablet después de hacer el escaneo</Value>
+    </Record>
+    <Record>
+      <Key>7Narration18DTablet</Key>
+      <Value>Excelente. Use su tableta para verificar que el oxígeno entre a la tubería.</Value>
     </Record>
   </Interface>
 </Language>
