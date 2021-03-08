@@ -5839,11 +5839,6 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
       <Description />
     </RecordThing>
     <RecordThing>
-      <Key>StructureRocketModuleMiningIce</Key>
-      <Value>Rocket Module Mining Ice</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
       <Key>StructureModularRocketAutomation</Key>
       <Value>Rocket Modular Automation</Value>
       <Description />
@@ -5876,6 +5871,26 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>ItemKitModularRocketOreMining</Key>
       <Value>Kit (Modular Rocket Ore Mining)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureModularRocketIceMining</Key>
+      <Value>Rocket Modular Mining Ice</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitModularRocketIceMining</Key>
+      <Value>Kit (Modular Rocket Mining Ice)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureModularRocketScrapMining</Key>
+      <Value>Modular Rocket Mining Scrap</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitModularRocketScrapMining</Key>
+      <Value>Kit (Modular Rocket Mining Scrap)</Value>
       <Description />
     </RecordThing>
   </Things>
@@ -10453,7 +10468,7 @@ It is an unwavering universal law that anything higher than 11 will be purple. T
       <Key>CommandBan</Key>
       <Value>Ban a given steam ID from the server: "/ban 102039237390"</Value>
     </Record>
-     <Record>
+    <Record>
       <Key>CommandUnBan</Key>
       <Value>Revoke a ban from a given steam ID from the server: "/unban 102039237390"</Value>
     </Record>
@@ -10469,7 +10484,7 @@ It is an unwavering universal law that anything higher than 11 will be purple. T
       <Key>CommandThreadStatus</Key>
       <Value>Shows the current status of the game's threads.: "/threadstatus"</Value>
     </Record>
-     <Record>
+    <Record>
       <Key>CommandResetThread</Key>
       <Value>Resets a given thread. : "/resetthread atmospherics"</Value>
     </Record>
@@ -10501,7 +10516,7 @@ It is an unwavering universal law that anything higher than 11 will be purple. T
       <Key>CommandSetTime</Key>
       <Value>Sets the sun offset affectivley changing the time of day. : "/settime 0.25"</Value>
     </Record>
-     <Record>
+    <Record>
       <Key>CommandToggleInstaGrow</Key>
       <Value>Toggles Instant plant growth on a server or game. : "/tgrow"</Value>
     </Record>
@@ -10509,7 +10524,7 @@ It is an unwavering universal law that anything higher than 11 will be purple. T
       <Key>CommandStopWeather</Key>
       <Value>Stops a Storm Instantly. : "/stopweather"</Value>
     </Record>
-     <Record>
+    <Record>
       <Key>CommandStartWeather</Key>
       <Value>Starts a new Storm Instantly. : "/startweather"</Value>
     </Record>
@@ -10533,7 +10548,7 @@ It is an unwavering universal law that anything higher than 11 will be purple. T
       <Key>CommandFillNeeds</Key>
       <Value>Fills a players hunger and hydration. : "/fillneeds"</Value>
     </Record>
-      <Record>
+    <Record>
       <Key>CommandFillHealth</Key>
       <Value>heals a player. : "/fillhealth"</Value>
     </Record>
@@ -11050,6 +11065,10 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     <Record>
       <Key>CrowbarToFlip</Key>
       <Value>Flip using crowbar.</Value>
+    </Record>
+    <Record>
+      <Key>TimerPanel</Key>
+      <Value>Timer</Value>
     </Record>
   </Interface>
   <Colors>

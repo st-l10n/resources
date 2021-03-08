@@ -22,15 +22,15 @@
 		</Record>
 		<Record>
 			<Key>TutoiralHydroponicsAndFoodDescription</Key>
-			<Value>Welcome Cadet. It's time to test your ability to provide sustenance for yourself far, far from home.</Value>
+			<Value>Welcome Cadet. It's time to test your ability to sustain yourself far, far from home.</Value>
 		</Record>
 		<Record>
 			<Key>6Narration1D2</Key>
-			<Value>In this phase, we'll test your ability to keep yourself hydrated and grow food, then cook it up into something useful. Start by setting up a water bottle refill station.</Value>
+			<Value>In this phase, we'll look at keeping yourself hydrated, growing food, and cooking it up into something useful. Start by setting up a water bottle refill station.</Value>
 		</Record>
 		<Record>
 			<Key>6Narration1D</Key>
-			<Value>When setting up a hydration system, you need a place to store the water. Build a water tank and a water tank connector, so you can link it to the pipe network. </Value>
+			<Value>In any hydration system, you need a place to store water. Build a water tank and a water tank connector, so you can link it to the pipe network. </Value>
 		</Record>
 		<Record>
 			<Key>6BuildTankConnecter</Key>
@@ -82,11 +82,12 @@
 		</Record>
 		<Record>
 			<Key>6Narration5D</Key>
-			<Value>Different plants require different atmospheric ratios. But today, we're just testing the basics: you've got water, light, and the correct gas mix, so it's time to plant wheat in each of the hydroponic trays.</Value>
+			<Value>Different plants require different atmospheric ratios.
+But today, we're just testing the basics: you've got water, light, and the correct gas mix, so it's time to plant wheat in each of the hydroponic trays.</Value>
 		</Record>
 		<Record>
 			<Key>6GetWheat</Key>
-			<Value>Get wheat from crate</Value>
+			<Value>Get wheat seeds from crate</Value>
 		</Record>
 		<Record>
 			<Key>6PlantWheat</Key>
@@ -122,7 +123,7 @@
 		</Record>
 		<Record>
 			<Key>6Narration8D</Key>
-			<Value>In a moment, you'll have flour, so you can get baking. You can cook a variety of foods in the microwave, including muffins. Sound delicious? Make sure to follow the recipe exactly, because baking is a science.</Value>
+			<Value>In a moment, you'll have flour, so you can get baking. You can cook a variety of foods in the microwave, including delicious muffins. Make sure to follow the recipe exactly, because baking is a science.</Value>
 		</Record>
 		<Record>
 			<Key>6PutEggInMicrowave</Key>
@@ -146,7 +147,7 @@
 		</Record>
 		<Record>
 			<Key>6Narration9D</Key>
-			<Value>You're about to recieve one of Agrizero's finest muffins. Enjoy it, and banish that hunger, Cadet.</Value>
+			<Value>You're about to recieve one of Agrizero's finest muffins. Enjoy it - and banish that hunger, Cadet.</Value>
 		</Record>
 		<Record>
 			<Key>6EatMuffin</Key>
@@ -166,7 +167,7 @@
 		</Record>
 		<Record>
 			<Key>6NarrationInsert1D</Key>
-			<Value>Hydroponic trays are a simple, effective way to grow plants of all sorts. Finish the system by adding another tray to the array.</Value>
+			<Value>Now you have a water supply, let's get growing. Hydroponic trays provide a simple and effective system from growing plants of all sorts. Finish the network by adding another tray to the array.</Value>
 		</Record>
 		<Record>
 			<Key>6MicrowaveClosed</Key>
@@ -182,7 +183,7 @@
 		</Record>
 		<Record>
 			<Key>6BuildCables</Key>
-			<Value>Build cable in the highlighted position</Value>
+			<Value>Build cable in highlighted position</Value>
 		</Record>
 		<Record>
 			<Key>6PickUpCable</Key>
@@ -202,7 +203,7 @@
 		</Record>
 		<Record>
 			<Key>6EndScreenText</Key>
-			<Value>Good work, Cadet. You have demonstrated acceptable hydroponic skills</Value>
+			<Value>Good work, Cadet. You have demonstrated acceptable hydration and hydroponic skills.</Value>
 		</Record>
 		<Record>
 			<Key>6WaitForGrow</Key>
@@ -218,7 +219,7 @@
 		</Record>
 		<Record>
 			<Key>6NarrationExtra1</Key>
-			<Value>You're almost ready to fill your water bottle. Grab en empty bottle from the crate and insert it into the bottle filler.</Value>
+			<Value>You're almost ready to fill your water bottle. Grab an empty bottle from the crate, then insert it into the bottle filler.</Value>
 		</Record>
 		<Record>
 			<Key>6GetWaterBottle</Key>
@@ -230,7 +231,7 @@
 		</Record>
 		<Record>
 			<Key>6NarrationExtra2</Key>
-			<Value>Excellent. To add water to your liquid network, use the ice crusher to process ice ore.</Value>
+			<Value>Excellent. Now it's time to add water to your liquid network. Grab the ore belt from the crate. Then use the ice crusher to process ice into water.</Value>
 		</Record>
 		<Record>
 			<Key>6GetMingBelt</Key>
@@ -238,11 +239,11 @@
 		</Record>
 		<Record>
 			<Key>6AddIceToCrusher</Key>
-			<Value>Take the ice out of the mining belt and add to ice crusher</Value>
+			<Value>Take ice from mining belt and add to ice crusher</Value>
 		</Record>
 		<Record>
 			<Key>6MIceCrusherOn</Key>
-			<Value>Turn on the ice crusher</Value>
+			<Value>Turn on ice crusher to fill bottle</Value>
 		</Record>
 	</Interface>
 </Language>
