@@ -80,12 +80,12 @@ Afortunadamente, las plantas crean oxígeno a partir del CO2 que tienes en el ta
       <Value>La unidad de filtración crea gas utilizable y gas residual. Necesita cuidar su gas residual o sucederán cosas malas y ruidosas. Conecte la unidad de filtración a la red de desechos para asegurarse de que cualquier gas innecesario se expulse al vacío infinito.</Value>
     </Record>
     <Record>
-      <Key>7GetPipeKit</Key>
-      <Value>Coge las tuberias de la caja</Value>
+      <Key>7GetPipeKitW</Key>
+      <Value>Coge el segundo kit de tuberias de la caja</Value>
     </Record>
     <Record>
-      <Key>7BuildPipe</Key>
-      <Value>Completa la red de tuberias de oxígeno</Value>
+      <Key>7BuildPipeW</Key>
+      <Value>Completa la red de residuos</Value>
     </Record>
     <Record>
       <Key>7Narration6D</Key>
@@ -144,10 +144,6 @@ Obtenga volatiles en forma de hielo del cinturón de minería en la caja, luego 
     <Record>
       <Key>7AddIceToCrusher</Key>
       <Value>Añade volátiles a la trituradora de hielo</Value>
-    </Record>
-    <Record>
-      <Key>7Narration10D</Key>
-      <Value>Ahora construya un mezclador de gas para conectar sus dos sistemas de gas y mezcle su mezcla de combustible en la proporción correcta.</Value>
     </Record>
     <Record>
       <Key>7GetGasMixer</Key>
@@ -290,10 +286,6 @@ Obtenga volatiles en forma de hielo del cinturón de minería en la caja, luego 
       <Value>Completa la esclusa</Value>
     </Record>
     <Record>
-      <Key>7Narration19AD</Key>
-      <Value>Buen trabajo, Cadete. Su soldador ahora está completamente repostado. Ahora puedes terminar la esclusa de aire en esta habitación y seguir adelante.</Value>
-    </Record>
-    <Record>
       <Key>7GetTablet</Key>
       <Value>Coge la tablet de la mochila</Value>
     </Record>
@@ -312,6 +304,10 @@ Obtenga volatiles en forma de hielo del cinturón de minería en la caja, luego 
     <Record>
       <Key>7Narration18DTablet</Key>
       <Value>Excelente. Use su tableta para verificar que el oxígeno entre a la tubería.</Value>
+    </Record>
+    <Record>
+      <Key>7ActiveVentInward</Key>
+      <Value>Sala de Hidroponia: Enciende la ventilación activa</Value>
     </Record>
   </Interface>
 </Language>
