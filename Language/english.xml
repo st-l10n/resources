@@ -1041,8 +1041,9 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemEgg</Key>
       <Value>Egg</Value>
-      <Description>Resolving, finally, the question of which came first: it was the egg.
-If an egg has been fertilized, and is kept between 20C-30C, an {THING:EntityChick} will emerge. For the rest, there is the {THING:ApplianceMicrowave}.</Description>
+      <Description>Resolving, finally, the question of which came first: it was the egg. 
+Eggs are deposited every 60-90 seconds by your average chicken.
+If an egg has been fertilized, and is kept between 20C-30C, an {THING:EntityChick} will emerge. For the rest, there is the {THING:ApplianceMicrowave} and all manner of &lt;color=#0080FFFF&gt;{LINK:FoodPage;gustatory}&lt;/color&gt; consolations.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemEggBottom</Key>
@@ -1378,7 +1379,7 @@ Careful not to pressurize beyond 100kPA, or it may go 'bang'.</Descrip
     <RecordThing>
       <Key>ItemMilk</Key>
       <Value>Milk</Value>
-      <Description>Full disclosure, it's not actually 'milk', but an &lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero-invented}&lt;/color&gt; synthesis of {THING:ItemSoyOil} and {THING:ReagentFenoxitone}, delicately blended in the {THING:ApplianceChemistryStation}. Surprisingly filling, it can be used as an ingredient to cook other &lt;color=#0080FFFF&gt;{LINK:FoodPage;food}&lt;/color&gt; in the {THING:ApplianceMicrowave}.</Description>
+      <Description>Full disclosure, it's not actually 'milk', but an &lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero-invented}&lt;/color&gt; synthesis of 5ml {THING:ItemSoyOil} and 5g {THING:ItemFern}, delicately blended in the {THING:ApplianceChemistryStation}. Surprisingly filling, it can be used as an ingredient to cook other &lt;color=#0080FFFF&gt;{LINK:FoodPage;food}&lt;/color&gt; in the {THING:ApplianceMicrowave}. Think, {THING:ItemMuffin}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningBelt</Key>
@@ -1393,7 +1394,7 @@ Careful not to pressurize beyond 100kPA, or it may go 'bang'.</Descrip
     <RecordThing>
       <Key>ItemMuffin</Key>
       <Value>Muffin</Value>
-      <Description>A delicious, semi-healthful snack, nothing comforts a &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; 800 million kilometers from home like a hand-made muffin.  </Description>
+      <Description>A delicious, semi-healthful snack, nothing comforts a &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; 800 million kilometers from home like a hand-made muffin.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPassiveVent</Key>
@@ -1684,7 +1685,7 @@ An upgraded version of the classic 'Zairo' model first manufactured by &lt;color
     <RecordThing>
       <Key>ItemWheat</Key>
       <Value>Wheat</Value>
-      <Description>A classical symbol of growth and new life, wheat is grown in various &lt;color=#0080FFFF&gt;{LINK:OrganicPage;hydroponics}&lt;/color&gt; devices. Once harvested, it can be turned into a &lt;color=#0080FFFF&gt;{LINK:ReagentPage;reagent}&lt;/color&gt; using the {THING:ApplianceReagentProcessor}, then turned into sustenance such as a {THING:ItemCerealBar} using the {THING:ApplianceMicrowave}.</Description>
+      <Description>A classical symbol of growth and new life, wheat is grown in various &lt;color=#0080FFFF&gt;{LINK:OrganicPage;hydroponics}&lt;/color&gt; devices. Once harvested, it produces two wheat, and can be turned into a &lt;color=#0080FFFF&gt;{LINK:ReagentPage;flour}&lt;/color&gt; using the {THING:ApplianceReagentProcessor}, thence transmuted into sustenance like a {THING:ItemCerealBar} or {THING:ItemMuffin} using the {THING:ApplianceMicrowave}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWireCutters</Key>
@@ -2550,6 +2551,7 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
     <RecordThing>
       <Key>ItemFern</Key>
       <Value>Fern</Value>
+      <Description>There was a time, when Stationeers had to make {THING:ReagentFenoxitone} using the {THING:ApplianceReagentProcessor}. Recent advances in technology allow you to use ferns directly in recipes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCerealBar</Key>
@@ -3544,6 +3546,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ReagentFenoxitone</Key>
       <Value>Fenoxitone Powder</Value>
+      <Description>Effectively deprecated. Use {THING:ItemFern} directly.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePlatformLadderOpen</Key>
@@ -5891,6 +5894,41 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>ItemKitModularRocketScrapMining</Key>
       <Value>Kit (Modular Rocket Mining Scrap)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWaterPipeMeter</Key>
+      <Value>Kit (Liquid Pipe Meter)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureWaterPipeMeter</Key>
+      <Value>Liquid Pipe Meter</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWaterPipeDigitalValve</Key>
+      <Value>Kit (Liquid Digital Valve)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureWaterDigitalValve</Key>
+      <Value>Liquid Digital Valve</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWaterWallCooler</Key>
+      <Value>Kit (Liquid Wall Cooler)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureWaterWallCooler</Key>
+      <Value>Liquid Wall Cooler</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureWaterBottleFillerBottom</Key>
+      <Value>Water Bottle Filler Bottom</Value>
       <Description />
     </RecordThing>
   </Things>
