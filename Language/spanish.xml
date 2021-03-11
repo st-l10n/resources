@@ -4770,6 +4770,14 @@
       <Value>Kit (Tanque Liquido)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>StructureModularRocketLiquidTank</Key>
+      <Value>Módulo de almacenamiento de líquidos del cohete automatizado</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRocketModuleSilo</Key>
+      <Value>Módulo de silo del cohete automatizado</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureRocketModuleEnergyGenerator</Key>
       <Value>Generador de energía automatizado del cohete</Value>
     </RecordThing>
@@ -4807,7 +4815,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketIceMining</Key>
-      <Value/>
+      <Value>Kit (módulo de minería de hielo del cohete automatizado)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterPipeMeter</Key>
@@ -7507,6 +7515,22 @@ Es una ley universal inquebrantable que cualquier cosa superior a 11 será púrp
     <Record>
       <Key>LogicSlotTypeMaxQuantity</Key>
       <Value>devuelve el tamaño máximo de la pila del artículo en la ranura</Value>
+    </Record>
+    <Record>
+      <Key>FuelInTankRemaining</Key>
+      <Value>Obtiene el combustible restante dentro de su tanque de combustible del cohete.</Value>
+    </Record>
+    <Record>
+      <Key>FuelReturnCost</Key>
+      <Value>Obtiene el coste de combustible para volver.</Value>
+    </Record>
+    <Record>
+      <Key>RocketMode</Key>
+      <Value>Obtiene el valor actual de RocketMode.</Value>
+    </Record>
+    <Record>
+      <Key>CollectableGoods</Key>
+      <Value>Obtiene los bienes coleccionables que la red del cohete puede recolectar.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRequestHash</Key>
