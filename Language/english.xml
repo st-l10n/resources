@@ -5809,7 +5809,7 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleBattery</Key>
-      <Value>Automated Rocket Storage Battery Module</Value>
+      <Value>Automated Rocket Energy Storage Module</Value>
       <Description>Stores power collected by the {THING:StructureRocketModuleEnergyGenerator}.</Description>
     </RecordThing>
     <RecordThing>
@@ -5819,12 +5819,12 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleEnergyGenerator</Key>
-      <Value>Automated Rocket Energy Generator</Value>
+      <Value>Automated Rocket Energy Collection Module</Value>
       <Description>Collects energy by electromagnetically capturing the solar wind. Stores it in the {THING:StructureRocketModuleBattery}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleMiningJunk</Key>
-      <Value>Automated Rocket Salvage Unit</Value>
+      <Value>Automated Rocket Salvage Module</Value>
       <Description>The so-called &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt;'space junk' collector module is really a high-end automated salvaging unit, purpose designed to interface with the &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; autonomous rocket. It sweeps the local region of space for wrecks, abandoned space shipments, and other detritus. As such, it returns a fairly random assortment of items. 
 The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for ore to pass from the collector unit into the silo.</Description>
     </RecordThing>
@@ -5861,7 +5861,7 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketOreStorage</Key>
-      <Value>Kit (Automated Rocket Ore Storage Module)</Value>
+      <Value>Kit (Automated Rocket Silo Module)</Value>
       <Description>Creates a {THING:StructureRocketModuleSilo}.</Description>
     </RecordThing>
     <RecordThing>
@@ -5898,7 +5898,7 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketScrapMining</Key>
-      <Value>Kit (Automated Rocket Scrap Salvage Module)</Value>
+      <Value>Kit (Automated Rocket Salvage Module)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
