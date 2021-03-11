@@ -4773,23 +4773,7 @@
       <Value>Набор (Жидкостной резервуар)</Value>
     </RecordThing>
     <RecordThing>
-      <Key>StructureRocketModuleEnergyGenerator</Key>
-      <Value/>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureRocketModuleMiningOre</Key>
-      <Value/>
-    </RecordThing>
-    <RecordThing>
       <Key>StructureModularRocketAutonomous</Key>
-      <Value/>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureModularRocketAutomation</Key>
-      <Value/>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureModularRocketCouplingUp</Key>
       <Value/>
     </RecordThing>
     <RecordThing>
@@ -7629,6 +7613,10 @@
     <Record>
       <Key>LogicSlotTypeMaxQuantity</Key>
       <Value>возвращает максимальный размер пачки предмета в слот</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRequestHash</Key>
+      <Value>Если задан уникальный идентификатор, запрашивает элемент указанного типа из устройства</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypePrefabHash</Key>

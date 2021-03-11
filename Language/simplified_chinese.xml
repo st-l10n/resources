@@ -4125,23 +4125,7 @@
       <Value/>
     </RecordThing>
     <RecordThing>
-      <Key>StructureRocketModuleEnergyGenerator</Key>
-      <Value/>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureRocketModuleMiningOre</Key>
-      <Value/>
-    </RecordThing>
-    <RecordThing>
       <Key>StructureModularRocketAutonomous</Key>
-      <Value/>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureModularRocketAutomation</Key>
-      <Value/>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureModularRocketCouplingUp</Key>
       <Value/>
     </RecordThing>
     <RecordThing>
@@ -6979,6 +6963,10 @@
     <Record>
       <Key>LogicSlotTypeMaxQuantity</Key>
       <Value>返回插槽中项目的最大堆栈大小</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRequestHash</Key>
+      <Value>当设置为唯一标识符时, 从设备请求一个该类型的物品</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypePrefabHash</Key>

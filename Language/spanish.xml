@@ -4770,24 +4770,8 @@
       <Value>Kit (Tanque Liquido)</Value>
     </RecordThing>
     <RecordThing>
-      <Key>StructureRocketModuleEnergyGenerator</Key>
-      <Value/>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureRocketModuleMiningOre</Key>
-      <Value/>
-    </RecordThing>
-    <RecordThing>
       <Key>StructureModularRocketAutonomous</Key>
       <Value>Módulo Autónomo del cohete</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureModularRocketAutomation</Key>
-      <Value/>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureModularRocketCouplingUp</Key>
-      <Value>SIN TRADUCIR</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketOreStorage</Key>
@@ -7503,6 +7487,10 @@ Es una ley universal inquebrantable que cualquier cosa superior a 11 será púrp
     <Record>
       <Key>LogicSlotTypeMaxQuantity</Key>
       <Value>devuelve el tamaño máximo de la pila del artículo en la ranura</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRequestHash</Key>
+      <Value>Cuando se establece en el identificador único, vuelve a buscar un elemento del tipo proporcionado desde el dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypePrefabHash</Key>

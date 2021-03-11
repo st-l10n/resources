@@ -4913,23 +4913,7 @@
       <Value>Kit (Citerne)</Value>
     </RecordThing>
     <RecordThing>
-      <Key>StructureRocketModuleEnergyGenerator</Key>
-      <Value/>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureRocketModuleMiningOre</Key>
-      <Value/>
-    </RecordThing>
-    <RecordThing>
       <Key>StructureModularRocketAutonomous</Key>
-      <Value/>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureModularRocketAutomation</Key>
-      <Value/>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureModularRocketCouplingUp</Key>
       <Value/>
     </RecordThing>
     <RecordThing>
@@ -7655,6 +7639,10 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
     <Record>
       <Key>LogicSlotTypeMaxQuantity</Key>
       <Value>Indique la taille de pile maximale de l&apos;objet dans l&apos;emplacement</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRequestHash</Key>
+      <Value>Lorsqu&apos;il est défini sur identification unique, recherche à nouveau un élément du même type fourni à partir du périphérique</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypePrefabHash</Key>
