@@ -8804,6 +8804,26 @@ It is an unwavering universal law that anything higher than 11 will be purple. T
       <Value>returns the max stack size of the item in the slot</Value>
     </Record>
     <Record>
+      <Key>FuelInTankRemaining</Key>
+      <Value>Gets the fuel remaining inside of your rocketfuel tank.</Value>
+    </Record>
+    <Record>
+      <Key>FuelReturnCost</Key>
+      <Value>Gets the cost of fuel to return.</Value>
+    </Record>
+    <Record>
+      <Key>RocketMode</Key>
+      <Value>Gets the current RocketMode value.</Value>
+    </Record>
+    <Record>
+      <Key>CollectableGoods</Key>
+      <Value>Gets the collectable goods that the rocket network can collect.</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRequestHash</Key>
+      <Value>When set to the unique identifier, re quests an item of the provided type from the device</Value>
+    </Record>
+    <Record>
       <Key>LogicSlotTypePrefabHash</Key>
       <Value>returns the hash of the structure in the slot</Value>
     </Record>
