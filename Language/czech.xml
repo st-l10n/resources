@@ -9332,12 +9332,40 @@ Rolovat &lt;color=red&gt;kolečkem myši&lt;/color&gt; pro další volbu.</Value
       <Value>Vyměnit ruce</Value>
     </Record>
     <Record>
+      <Key>CommandShutdown</Key>
+      <Value>Vypne herní server a vrátí hráče do lobby, můžete přidat časovač a zprávu. Použití: &quot;/shutdown&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandNotice</Key>
+      <Value>Odešle zprávu hráčům na serveru. Použití: &quot;/notice zpráva, kterou chcete odeslat&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandStatus</Key>
+      <Value>Zobrazí aktuální stav serveru a seznam kdo je aktuálně na serveru: &quot;/status&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandBan</Key>
+      <Value>Zakáže zadané Steam ID na serveru: &quot;/ban 102039237390&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandUnBan</Key>
+      <Value>Zrušit zákaz zadaného Steam ID na serveru: &quot;/unban 102039237390&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandKick</Key>
+      <Value>Vykopne hráče pomocí zadaného Steam ID ze serveru: &quot;/kick 102039237390&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandClearAll</Key>
+      <Value>Vymaže všechny odpojené hráče ze serveru: &quot;/clearall&quot;</Value>
+    </Record>
+    <Record>
       <Key>CommandThreadStatus</Key>
       <Value>Zobrazuje aktuální stav vláken hry: &quot;/threadstatus&quot;</Value>
     </Record>
     <Record>
       <Key>CommandResetThread</Key>
-      <Value>Resetujte daný řetězec. : &quot;/resetthread atmospherics&quot;</Value>
+      <Value>Resetujte dané vlákno. : &quot;/resetthread atmospherics&quot;</Value>
     </Record>
     <Record>
       <Key>CommandSetHunger</Key>
