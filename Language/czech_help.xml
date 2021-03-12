@@ -21,6 +21,13 @@
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>ImportExportPage</Key>
+      <Title>Import / Export a dopravníky</Title>
+      <Text>Tohle jsou struktury, obvykle napájené, které mají specializované funkce včetně logiky, atmosféry a další. Jsou konstruovány stejným způsobem jako ostatní struktury.
+        {LIST_OF_DEVICES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>SmeltingPage</Key>
       <Title>Tavení</Title>
       <Text>Jakmile budete mít {LINK:OrePage;rudy}, musíte je přeměnit na {LINK:IngotPage;ingoty}, aby jste mohli použít jejich {LINK:ReagentPage;činidla}. Tavením často vznikají {LINK:GasPage;plyny}. K tomu dochází buď v {THING:StructureArcFurnace} (pro jednoduché recepty) a v {THING:StructureFurnace} pro složitější {LINK:AlloyPage;slitiny}, a nakonec v {THING:StructureAdvancedFurnace} pro velmi složité {LINK:SuperAlloyPage;Superslitiny}. U složitých slitin budete muset dosáhnout směsí v perfektních poměrech, {LINK:TemperaturePage;teplota} a {LINK:PressurePage;tlak}.
