@@ -7677,7 +7677,7 @@ Rolovat &lt;color=red&gt;kolečkem myši&lt;/color&gt; pro další volbu.</Value
     </Record>
     <Record>
       <Key>LogicSlotTypeQuantity</Key>
-      <Value>vrací aktuální množství, jako je velikost zásobníku, položky na pozici</Value>
+      <Value>vrací aktuální množství, jako je velikost stohu, položky na pozici</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeDamage</Key>
@@ -7729,7 +7729,7 @@ Rolovat &lt;color=red&gt;kolečkem myši&lt;/color&gt; pro další volbu.</Value
     </Record>
     <Record>
       <Key>LogicSlotTypeMaxQuantity</Key>
-      <Value>vrací maximální velikost zásobníku položky na pozici</Value>
+      <Value>vrací maximální velikost stohu položky na pozici</Value>
     </Record>
     <Record>
       <Key>LogicTypeRequestHash</Key>
@@ -8941,15 +8941,15 @@ Rolovat &lt;color=red&gt;kolečkem myši&lt;/color&gt; pro další volbu.</Value
     </Record>
     <Record>
       <Key>ScriptCommandPeek</Key>
-      <Value>Registr = hodnota v horní části zásobníku</Value>
+      <Value>Registr = hodnota v horní části stohu</Value>
     </Record>
     <Record>
       <Key>ScriptCommandPush</Key>
-      <Value>Posune hodnotu A do zásobníku na sp a zvyšuje sp</Value>
+      <Value>Posune hodnotu A do stohu na sp a zvyšuje sp</Value>
     </Record>
     <Record>
       <Key>ScriptCommandPop</Key>
-      <Value>Registr = hodnota v horní části zásobníku a snižuje sp</Value>
+      <Value>Registr = hodnota v horní části zstohu a snižuje sp</Value>
     </Record>
     <Record>
       <Key>ScriptCommandHcf</Key>
@@ -9607,12 +9607,24 @@ Program náborů z oblasti stavebnictví, vojenského a leteckého průmyslu, v�
       <Value>Vyhledat</Value>
     </Record>
     <Record>
+      <Key>StationpediaAdvancedGuides</Key>
+      <Value>Vesmír</Value>
+    </Record>
+    <Record>
       <Key>StationpediaConstructWith</Key>
       <Value>Konstruujte pomocí:</Value>
     </Record>
     <Record>
+      <Key>StationpediaPrefabHash</Key>
+      <Value>Hotový hash:</Value>
+    </Record>
+    <Record>
       <Key>StationpediaPaintable</Key>
       <Value>Natíratelné:</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaStackSize</Key>
+      <Value>Velikost stohu:</Value>
     </Record>
     <Record>
       <Key>StationpediaThingUnit</Key>
