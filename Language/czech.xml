@@ -7732,6 +7732,22 @@ Rolovat &lt;color=red&gt;kolečkem myši&lt;/color&gt; pro další volbu.</Value
       <Value>vrací maximální velikost stohu položky na pozici</Value>
     </Record>
     <Record>
+      <Key>FuelInTankRemaining</Key>
+      <Value>Získá zbývající palivo uvnitř vaší raketové nádrže.</Value>
+    </Record>
+    <Record>
+      <Key>FuelReturnCost</Key>
+      <Value>Vrátí náklady za palivo.</Value>
+    </Record>
+    <Record>
+      <Key>RocketMode</Key>
+      <Value>Získá aktuální hodnotu RocketMode.</Value>
+    </Record>
+    <Record>
+      <Key>CollectableGoods</Key>
+      <Value>Získáte sběratelské předměty, které může sbírat raketová síť.</Value>
+    </Record>
+    <Record>
       <Key>LogicTypeRequestHash</Key>
       <Value>Pokud je nastaven na jedinečný identifikátor, znovu vyhledá položku zadaného typu ze zařízení</Value>
     </Record>
@@ -7818,6 +7834,14 @@ Rolovat &lt;color=red&gt;kolečkem myši&lt;/color&gt; pro další volbu.</Value
     <Record>
       <Key>ContactLandingRequestFailVendingMachine</Key>
       <Value>Pro komunikaci s tímto obchodníkem potřebujete v síti poháněný prodejní automat.</Value>
+    </Record>
+    <Record>
+      <Key>ContactLandingRequestFailSatellite</Key>
+      <Value>Vyskytl se problém se satelitem. Zkontrolujte, zda je připojen k síti a napájen.</Value>
+    </Record>
+    <Record>
+      <Key>ContactLandingRequestFailStorm</Key>
+      <Value>Obchodník není schopen cestovat v této bouři.</Value>
     </Record>
     <Record>
       <Key>InputTextTradingTitle</Key>
@@ -9276,6 +9300,10 @@ Rolovat &lt;color=red&gt;kolečkem myši&lt;/color&gt; pro další volbu.</Value
       <Value>Datum dokončení:</Value>
     </Record>
     <Record>
+      <Key>BottleSlot</Key>
+      <Value>Slot na láhev</Value>
+    </Record>
+    <Record>
       <Key>TutorialCompleteTruly</Key>
       <Value>Komodor ODA</Value>
     </Record>
@@ -9330,6 +9358,10 @@ Rolovat &lt;color=red&gt;kolečkem myši&lt;/color&gt; pro další volbu.</Value
     <Record>
       <Key>ControlSwapHandsDisc</Key>
       <Value>Vyměnit ruce</Value>
+    </Record>
+    <Record>
+      <Key>CommandSave</Key>
+      <Value>Uloží hru a pojmenuje ji jako daný parametr. Použití: &quot;/save jménouložení&quot;</Value>
     </Record>
     <Record>
       <Key>CommandShutdown</Key>
