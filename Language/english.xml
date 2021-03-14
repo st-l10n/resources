@@ -5804,8 +5804,9 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>StructureRocketModuleSilo</Key>
       <Value>Automated Rocket Silo Module</Value>
-      <Description>The &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; autononmous silo module provides storage for &lt;color=#0080FFFF&gt;{LINK:OrePage;ores}&lt;/color&gt; collected by the {THING:StructureRocketModuleMiningOre}, &lt;color=#0080FFFF&gt;{LINK:OrePage;ices}&lt;/color&gt; collected by the {THING:StructureModularRocketIceMining} and 'space junk' collected by the {THING:StructureRocketModuleMiningJunk}. It must be connected to the unit by a properly placed {THING:StructureMOdularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for ore to pass from the mining unit into the silo. Each mining unit must have its own silo and coupling unit.
-      The silo module must also be powered when on the launch pad, and is on be default, but can be turned off with logic if needed. Connects to chute networks.</Description>
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; autononmous silo module provides storage for &lt;color=#0080FFFF&gt;{LINK:OrePage;ores}&lt;/color&gt; collected by the {THING:StructureRocketModuleMiningOre}, &lt;color=#0080FFFF&gt;{LINK:OrePage;ices}&lt;/color&gt; collected by the {THING:StructureModularRocketIceMining} and 'space junk' salvaged by the {THING:StructureRocketModuleMiningJunk}.
+It must be connected to the unit by a properly placed {THING:StructureMOdularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for ore to pass from the mining unit into the silo.
+The silo module must also be powered when on the launch pad, It is 'on' by default, but can be turned off with logic if needed. Resources can be extracted from the silo module using {THING:StructureChuteOpening} networks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleBattery</Key>
@@ -5825,7 +5826,7 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>StructureRocketModuleMiningJunk</Key>
       <Value>Automated Rocket Salvage Module</Value>
-      <Description>The so-called &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt;'space junk' collector module is really a high-end automated salvaging unit, purpose designed to interface with the &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; autonomous rocket. It sweeps the local region of space for wrecks, abandoned space shipments, and other detritus. As such, it returns a fairly random assortment of items. 
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; SJ collector module is a high-end automated salvaging unit, purpose-designed to interface with the &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; ARM system. It sweeps the local region of space for wrecks, abandoned space shipments, and other detritus. As such, it returns a fairly random assortment of items. 
 The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for ore to pass from the collector unit into the silo.</Description>
     </RecordThing>
     <RecordThing>
@@ -5852,12 +5853,14 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
     <RecordThing>
       <Key>StructureModularRocketCouplingDown</Key>
       <Value>Automated Rocket Coupling Module (Down)</Value>
-      <Description>A uni-directional, multi-state conveyance solution, the coupling module is designed to interface between mining and storage modules. The 'down' unit passes mined or harvested material (solid, liquid or gas) from the collection module to its respective storage unit, when the unit is placed BELOW the collection unit. Without such a coupler, the collection module would rapidly fill up and stop harvesting.</Description>
+      <Description>A uni-directional, multi-state conveyance solution, the coupling module is designed to interface between various mining and storage modules. It is essential for the function of the mining unit.
+When placed BELOW a mining module (eg {THING:StructureRocketModuleMiningOre}), the DOWN coupler passes mined or harvested material (solid, liquid or gas) into the respective storage unit (eg {THING:StructureRocketModuleSilo}).</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketCouplingUp</Key>
       <Value>Automated Rocket Coupling Module (Up)</Value>
-      <Description>A uni-directional, multi-state conveyance solution, the coupling module is designed to interface between mining and storage modules. The 'up' unit passes mined or harvested material (solid, liquid or gas) from the collection module to its respective storage unit, when the unit is placed ABOVE the collector. Without such a coupler, the collection module would rapidly fill up and stop harvesting.</Description>
+      <Description>A uni-directional, multi-state conveyance solution, the coupling module is designed to interface between various mining and storage modules. It is essential for the function of the mining unit.
+When placed ABOVE a mining module (eg {THING:StructureRocketModuleMiningOre}), the UP coupler passes mined or harvested material (solid, liquid or gas) into the respective storage unit (eg {THING:StructureRocketModuleSilo}).</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketOreStorage</Key>
@@ -5934,6 +5937,16 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
     <RecordThing>
       <Key>StructureWaterBottleFillerBottom</Key>
       <Value>Water Bottle Filler Bottom</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLiquidDrain</Key>
+      <Value>Kit (Liquid Drain)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidDrain</Key>
+      <Value>Liquid Drain</Value>
       <Description />
     </RecordThing>
   </Things>
