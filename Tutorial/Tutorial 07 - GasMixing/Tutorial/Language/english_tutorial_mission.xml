@@ -18,12 +18,12 @@
 		</Record>
 		<Record>
 			<Key>IntoTutoiralGasMixingDescription</Key>
-			<Value>Welcome Cadet! Deployed as a Stationeer, you'll need to create fuels and atmospheres for far-flung ODA bases. So let's explore your knowledge of gas filtering and mixing.</Value>
+			<Value>Welcome Cadet! Deployed as a Stationeer, you'll need to create all manner of fuels and atmospheres for far-flung ODA bases. So let's explore your knowledge of gas filtering and mixing.</Value>
 		</Record>
 		<Record>
 			<Key>7Narration0D</Key>
-			<Value>Your base needs work, but your welder's out of gas, so you have to create more fuel.
-First, you need a source of oxygen. Luckily, plants create O2 from CO2. There's CO2 in your suit waste tank. So vent it in the hydroponics room.</Value>
+			<Value>A Stationeer's work is never done, but your welder's out of gas! Time to create more fuel. First, you need a source of oxygen.
+Your plants make oxygen from CO2, and there's plenty of that in your suit waste tank. Just vent it in the hydroponics room.</Value>
 		</Record>
 		<Record>
 			<Key>7WasteTankOpened</Key>
@@ -35,7 +35,7 @@ First, you need a source of oxygen. Luckily, plants create O2 from CO2. There's 
 		</Record>
 		<Record>
 			<Key>7Narration1D</Key>
-			<Value>In order to collect oxygen from the air in this room, build an active vent in the highlighted position. Use this to pump the atmosphere to your filtration system.</Value>
+			<Value>In order to extract oxygen from the atmosphere in this room, build an active vent in the highlighted position. Use it to pump atmosphere to your filtration system.</Value>
 		</Record>
 		<Record>
 			<Key>7GetActiveVent</Key>
@@ -47,7 +47,7 @@ First, you need a source of oxygen. Luckily, plants create O2 from CO2. There's 
 		</Record>
 		<Record>
 			<Key>7Narration2D</Key>
-			<Value>Now, move through the airlock to the atmospherics room to build your gas mixing system.</Value>
+			<Value>Now, leave your greenery alone for a moment. Move through the airlock to the atmospherics room to construct your gas mixing system.</Value>
 		</Record>
 		<Record>
 			<Key>7MoveToArea</Key>
@@ -55,7 +55,7 @@ First, you need a source of oxygen. Luckily, plants create O2 from CO2. There's 
 		</Record>
 		<Record>
 			<Key>7Narration3D</Key>
-			<Value>To extract oxygen from the hydroponic room atmosphere, build a filtration unit in the highlighted position.</Value>
+			<Value>To extract oxygen from the hydroponic room atmosphere, you need to reverse entropy. That's why the next step is building a filtration unit.</Value>
 		</Record>
 		<Record>
 			<Key>7GetAtmospherics</Key>
@@ -67,7 +67,7 @@ First, you need a source of oxygen. Luckily, plants create O2 from CO2. There's 
 		</Record>
 		<Record>
 			<Key>7Narration4D</Key>
-			<Value>To pump the hydroponic room's atmosphere into the filtration unit, complete the green oxygen pipe network.</Value>
+			<Value>To pass the hydroponic room's atmosphere into your filtration unit, complete the green oxygen pipe network.</Value>
 		</Record>
 		<Record>
 			<Key>7GetPipeKit</Key>
@@ -79,7 +79,7 @@ First, you need a source of oxygen. Luckily, plants create O2 from CO2. There's 
 		</Record>
 		<Record>
 			<Key>7Narration5D</Key>
-			<Value>The filtration unit separates usable gas from waste gas. You must dispose of your waste gas or loud, unpleasant things can happen. Connect the filtration unit to the waste network, to ensure any unneeded gas is expelled into the infinite void.</Value>
+			<Value>The filtration unit produces two things: usable gas and waste gas, which you should dispose of or loud, unpleasant things may happen. Connect the filtration unit's waste outlet to the waste network, so you can expel unwanted gas into the infinite void.</Value>
 		</Record>
 		<Record>
 			<Key>7GetPipeKitW</Key>
@@ -91,7 +91,7 @@ First, you need a source of oxygen. Luckily, plants create O2 from CO2. There's 
 		</Record>
 		<Record>
 			<Key>7Narration6D</Key>
-			<Value>A filtration unit can filter out two gases simultaneously, but right now you just need oxygen - so add an oxygen filter in the unit.</Value>
+			<Value>A filtration unit can filter out two gases simultaneously, but right now you just need oxygen to mix welder fuel. So add an oxygen filter in the unit.</Value>
 		</Record>
 		<Record>
 			<Key>7GetFilter</Key>
@@ -103,7 +103,7 @@ First, you need a source of oxygen. Luckily, plants create O2 from CO2. There's 
 		</Record>
 		<Record>
 			<Key>7Narration7D</Key>
-			<Value>To reduce the chance of your fuel accidentally igniting, it's a good idea to chill your gas. Passing your pipes outside and adding pipe radiators is a good way to cool them.</Value>
+			<Value>To reduce the chance of your fuel accidentally igniting, it's a good idea to chill your gas. Many Stationeers learned this the messy way. To cool your pipes, run them outside and add pipe radiators, which disperse heat.</Value>
 		</Record>
 		<Record>
 			<Key>7GetPipeRadiator</Key>
@@ -115,15 +115,15 @@ First, you need a source of oxygen. Luckily, plants create O2 from CO2. There's 
 		</Record>
 		<Record>
 			<Key>7Narration8D</Key>
-			<Value>The ice crusher is also a good way to obtain gases from ice ores. Connect the ice crusher's gas output to the 'volatile' gas network. </Value>
+			<Value>The ice crusher is a good way to obtain gases from ice ores. Connect the ice crusher's gas output to the 'volatile' gas network. </Value>
 		</Record>
 		<Record>
 			<Key>7GetIceCrusher</Key>
-			<Value>Get Ice Crusher from crate</Value>
+			<Value>Get ice crusher from crate</Value>
 		</Record>
 		<Record>
 			<Key>7BuildIceCrusher</Key>
-			<Value>Build Ice Crusher in highlighted position</Value>
+			<Value>Build ice crusher in highlighted position</Value>
 		</Record>
 		<Record>
 			<Key>7ConstructIceCruhser</Key>
@@ -135,8 +135,8 @@ First, you need a source of oxygen. Luckily, plants create O2 from CO2. There's 
 		</Record>
 		<Record>
 			<Key>7Narration9D</Key>
-			<Value>Fuel has two components: oxygen and volatile gas.			
-Get volatile ice from the mining belt in the crate, then add some to the ice crusher for processing. Note: volatiles sublime rapidly, but not inside the ore belt or crusher.</Value>
+			<Value>The most commonly used Stationeer fuel has two components: oxygen and volatile gas.		
+There's volatile ices in the mining belt in the crate. Add some to the ice crusher for processing. Note: volatiles sublime rapidly, but not inside the ore belt or crusher.</Value>
 		</Record>
 		<Record>
 			<Key>7GetMiningBelt</Key>
@@ -148,7 +148,7 @@ Get volatile ice from the mining belt in the crate, then add some to the ice cru
 		</Record>
 		<Record>
 			<Key>7Narration10D</Key>
-			<Value>Now you need to connect your oxygen and volatile networks using a gas mixer. This will let you blend your fuel mix at the correct ratio, avoiding the disappointment of a bad mix.</Value>
+			<Value>To blend your fuel, you need to connect your oxygen and volatile networks using a gas mixer. Mixers let you set the correct ratio, avoiding the uselessness and disappointment of a bad mix.</Value>
 		</Record>
 		<Record>
 			<Key>7GetGasMixer</Key>
@@ -160,7 +160,7 @@ Get volatile ice from the mining belt in the crate, then add some to the ice cru
 		</Record>
 		<Record>
 			<Key>7Narration11D</Key>
-			<Value>To make sure you don't overpressure your canister, add a pressure regulator. It's an important lesson for Stationeers who want to keep existing.</Value>
+			<Value>To make sure you don't overpressure your canister, add a pressure regulator - another important lesson for Stationeers who want to keep existing.</Value>
 		</Record>
 		<Record>
 			<Key>7GetRegulator</Key>
@@ -172,7 +172,7 @@ Get volatile ice from the mining belt in the crate, then add some to the ice cru
 		</Record>
 		<Record>
 			<Key>7Narration12D</Key>
-			<Value>Valves let you open and close pipes, to control the flow of gas and liquids. We've already placed one for you. Add the other one to your oxygen network.</Value>
+			<Value>You don't want gases mixing until you're ready. So you need to open and close pipes using valves. We've placed one for you. Add another to your oxygen network.</Value>
 		</Record>
 		<Record>
 			<Key>7GetValve</Key>
@@ -184,7 +184,7 @@ Get volatile ice from the mining belt in the crate, then add some to the ice cru
 		</Record>
 		<Record>
 			<Key>7Narration13D</Key>
-			<Value>Cannisters are recharged by being put in tank storage units. Tank storage units attach directly to pipe networks. Build one in the indicated spot.</Value>
+			<Value>To recharge a fuel cannister, put it in tank storage unit. These attach directly to pipe networks. Build one in the indicated spot.</Value>
 		</Record>
 		<Record>
 			<Key>7GetTankConnector</Key>
@@ -196,7 +196,7 @@ Get volatile ice from the mining belt in the crate, then add some to the ice cru
 		</Record>
 		<Record>
 			<Key>7Narration14D</Key>
-			<Value>Excellent! Your gas network is now set up. Insert the empty tank from your welder into the storage unit, so it's ready to be charged up.</Value>
+			<Value>Excellent! Your gas network is now set up. Insert your welder's empty fuel canister into the storage unit, so it's ready fo refilling.</Value>
 		</Record>
 		<Record>
 			<Key>7GetEmptyTank</Key>
@@ -204,11 +204,11 @@ Get volatile ice from the mining belt in the crate, then add some to the ice cru
 		</Record>
 		<Record>
 			<Key>7AddCanisterToTankConnector</Key>
-			<Value>Insert fuel canister from welder into tank storage unit</Value>
+			<Value>Insert welder fuel canister into tank storage unit</Value>
 		</Record>
 		<Record>
 			<Key>7Narration15D</Key>
-			<Value>To find the correct fuel ratio for filling your tank, consult the Stationpedia Canister (Fuel) page.</Value>
+			<Value>To find the correct gas mix ratio for fuel, consult the Stationpedia Canister (Fuel) page.</Value>
 		</Record>
 		<Record>
 			<Key>7SetGasMix</Key>
@@ -224,7 +224,7 @@ Get volatile ice from the mining belt in the crate, then add some to the ice cru
 		</Record>
 		<Record>
 			<Key>7Narration16D</Key>
-			<Value>Good, now set the pressure on the regulator. A safe pressure for canisters is 1950kPa, although they can tolerate up to almost 10MPa.</Value>
+			<Value>Good, now set the pressure on the regulator. This will stop your canister from over-pressurizing and exploding. A safe pressure for canisters is 1950kPa, although they can tolerate up to almost 10MPa.</Value>
 		</Record>
 		<Record>
 			<Key>7LimitRegulator</Key>
@@ -268,7 +268,7 @@ Get volatile ice from the mining belt in the crate, then add some to the ice cru
 		</Record>
 		<Record>
 			<Key>7Narration18D</Key>
-			<Value>Stirling work, Cadet. Your fuel canister is now refilled. You can insert it into your welder.</Value>
+			<Value>Stirling work, Cadet. Your fuel canister is now refilled. The ODA is relieved and impressed with your self-sufficiency. Insert the canister into your welder.</Value>
 		</Record>
 		<Record>
 			<Key>7AddTankToWeilder</Key>
@@ -276,7 +276,7 @@ Get volatile ice from the mining belt in the crate, then add some to the ice cru
 		</Record>
 			<Record>
 			<Key>7Narration19D</Key>
-			<Value>The ODA is impressed, Cadet. You can be trusted to filter and mix combustible fuels. Excellent progress. Press the mysterious blue button to transmit your results.</Value>
+			<Value>Very promising, Cadet. The ODA will be gald to hear that you can be trusted to filter and mix combustible fuels. Excellent progress. Press the mysterious blue button to transmit your results.</Value>
 		</Record>
 		<Record>
 			<Key>7OpenSuit</Key>
@@ -292,7 +292,7 @@ Get volatile ice from the mining belt in the crate, then add some to the ice cru
 		</Record>
 		<Record>
 			<Key>7Narration19AD</Key>
-			<Value>Good work, Cadet. You can now finish this room by completing the airlock with your fully refueled welder.</Value>
+			<Value>You can now finish this room by completing the airlock with your fully refueled welder. Let's build!</Value>
 		</Record>
 		<Record>
 			<Key>7GetTablet</Key>
@@ -312,7 +312,7 @@ Get volatile ice from the mining belt in the crate, then add some to the ice cru
 		</Record>
 		<Record>
 			<Key>7Narration18DTablet</Key>
-			<Value>Excellent. Use your tablet to check that oxygen is entering the pipe.</Value>
+			<Value>Excellent. While the canister is filling, use your tablet to check that oxygen is entering the pipe. You'll need to insert the Atmos Analyzer, then hold the tablet over the pipe.</Value>
 		</Record>
 		<Record>
 			<Key>7ActiveVentInward</Key>
