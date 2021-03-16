@@ -5804,30 +5804,31 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>StructureRocketModuleSilo</Key>
       <Value>Automated Rocket Silo Module</Value>
-      <Description>The &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; autononmous silo module provides storage for &lt;color=#0080FFFF&gt;{LINK:OrePage;ores}&lt;/color&gt; collected by the {THING:StructureRocketModuleMiningOre}, &lt;color=#0080FFFF&gt;{LINK:OrePage;ices}&lt;/color&gt; collected by the {THING:StructureModularRocketIceMining} and 'space junk' salvaged by the {THING:StructureRocketModuleMiningJunk}.
-It must be connected to the unit by a properly placed {THING:StructureMOdularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for ore to pass from the mining unit into the silo.
-The silo module must also be powered when on the launch pad, It is 'on' by default, but can be turned off with logic if needed. Resources can be extracted from the silo module using {THING:StructureChuteOpening} networks.</Description>
+       <Description>The &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; autononmous silo module provides storage for &lt;color=#0080FFFF&gt;{LINK:OrePage;ores}&lt;/color&gt; collected by the {THING:StructureRocketModuleMiningOre}, &lt;color=#0080FFFF&gt;{LINK:OrePage;ices}&lt;/color&gt; collected by the {THING:StructureModularRocketIceMining} and 'space junk' salvaged by the {THING:StructureRocketModuleMiningJunk}. In other words, it holds 'medium-sized dry goods'.
+The silo module must be connected to a mining or salvage module by a correctly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for material to pass into the silo.
+The silo module must also be powered when on the launch pad. It is 'on' by default, but can be turned off with logic if needed. 
+The module can also be attached to a {THING:StructureChuteInlet} in order to connect it to &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;import/export}&lt;/color&gt; networks.
+To extract resources from the silo module, you must set its state to 'OPEN' using logic.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleBattery</Key>
       <Value>Automated Rocket Energy Storage Module</Value>
-      <Description>Stores power collected by the {THING:StructureRocketModuleEnergyGenerator}.</Description>
+      <Description>Coming soon</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleGasCollector</Key>
       <Value>Automated Rocket Gas Collection Module</Value>
-      <Description />
+      <Description>Coming soon</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleEnergyGenerator</Key>
       <Value>Automated Rocket Energy Collection Module</Value>
-      <Description>Collects energy by electromagnetically capturing the solar wind. Stores it in the {THING:StructureRocketModuleBattery}.</Description>
+      <Description>Collects energy by electromagnetically capturing the solar wind. Stores it in the {THING:StructureRocketModuleBattery}.
+Coming soon</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleMiningJunk</Key>
-      <Value>Automated Rocket Salvage Module</Value>
-      <Description>The &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; SJ collector module is a high-end automated salvaging unit, purpose-designed to interface with the &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; ARM system. It sweeps the local region of space for wrecks, abandoned space shipments, and other detritus. As such, it returns a fairly random assortment of items. 
-The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for ore to pass from the collector unit into the silo.</Description>
+<Description>The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for ore to pass from the collector unit into the silo.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleMiningOre</Key>
@@ -5838,17 +5839,17 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
     <RecordThing>
       <Key>StructureModularRocketAutonomous</Key>
       <Value>Rocket Modular Autonomous</Value>
-      <Description />
+      <Description/>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleCollectorLiquid</Key>
       <Value>Automated Rocket Liquid Harvesting Module</Value>
-      <Description />
+      <Description>Coming soon</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketAutomation</Key>
       <Value>Automated Rocket Automation Module</Value>
-      <Description>The &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; rocket automation module is a programmable guidance system for a range of resource-collection applications. It must be placed on top of any automated rocket system, and powered, then programmed using &lt;color=#0080FFFF&gt;{LINK:LogicPage;IC logic}&lt;/color&gt; systems.</Description>
+      <Description>The automation module completes the rocket. It passes logic to its respective components.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketCouplingDown</Key>
@@ -5947,7 +5948,7 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
     <RecordThing>
       <Key>StructureLiquidDrain</Key>
       <Value>Liquid Drain</Value>
-      <Description />
+      <Description>The drain is a simple device, although not without a touch of mystery. When connected to power and activated, it drains liquid from a liquid network at a rate of 1 mol per tick. Handy if there's liquid you need ... gone.</Description>
     </RecordThing>
   </Things>
   <Slots>
@@ -8818,23 +8819,25 @@ It is an unwavering universal law that anything higher than 11 will be purple. T
     </Record>
     <Record>
       <Key>FuelInTankRemaining</Key>
-      <Value>Gets the fuel remaining inside of your rocketfuel tank.</Value>
+      <Value>Gets the fuel remaining in your rocket's fuel tank.</Value>
     </Record>
     <Record>
       <Key>FuelReturnCost</Key>
-      <Value>Gets the cost of fuel to return.</Value>
+      <Value>Gets the cost of fuel to return the rocket to your current world.</Value>
     </Record>
     <Record>
       <Key>RocketMode</Key>
-      <Value>Gets the current RocketMode value.</Value>
+      <Value> Depricated</Value>
     </Record>
     <Record>
       <Key>CollectableGoods</Key>
-      <Value>Returns 0 or 1 based on if the current rocket network has the ability to collect resources on the planet.</Value>
+
+      <Value>Returns 0 or 1 based on whether or not the current rocket system has the ability to collect resources on the planet.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRequestHash</Key>
-      <Value>When set to the unique identifier, re quests an item of the provided type from the device</Value>
+
+      <Value>When set to the unique identifier, requests an item of the provided type from the device</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypePrefabHash</Key>

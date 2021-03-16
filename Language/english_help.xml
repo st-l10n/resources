@@ -174,9 +174,42 @@ If you look directly at a structure that is incomplete you will get information 
 
     <StationpediaPage>
       <Key>AutomatedRocketPage</Key>
-      <Title>Automated Rocket</Title>
+      <Title>Automated Rocket Modules (A.R.M.)</Title>
       <DisplayFilter>Guides</DisplayFilter>
-      <Text>Hello, are you ready to launch a rocket? Probably not. Here is some information to help you get on your way.</Text>
+      <Text>Automated rockets are &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic-controlled}&lt;/color&gt; devices that can be dispatched to space to retrieve a range of resources. They require understanding of the logic system to operate effectively.
+      
+Once launched, automated rockets follow their programming, mining all available resources on each successive asteroid, planetoid and planet they visit, then return to your current planet. If they run out of fuel, however, they are lost to the void forever.
+      
+{HEADER:MODULES}
+An automated rocket system is composed of four fundamental modules:
+* AUTOMATION MODULE - the {THING:StructureModularRocketAutomation} is the ‘brains’ of the system
+* MINING MODULE - this performs the mining operation. It currently includes {THING:StructureRocketModuleMiningOre}, and {THING:StructureRocketModuleMiningJunk}.
+* COUPLER - this connects a mining module to storage modules, by passing material from one to the other. Specifically, the {THING:StructureModularRocketCouplingDown} passes resources to a storage module BENEATH it. The {THING:StructureModularRocketCouplingUp} passes resources to a storage module ABOVE it.
+* STORAGE MODULE - this module receives resources from a mining module via a coupler and stores them until the rocket returns. This currently only includes {THING:StructureRocketModuleSilo}. Storage modules can be connected to an &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;chute network}&lt;/color&gt;, but are closed by default. Use &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic}&lt;/color&gt; to set it to 'open'.
+
+{HEADER:LAUNCH CONDITIONS}
+* POWER - all modules of the rocket must be powered. Note that modules are created ‘On’ by default, but can be turned off and on using &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic}&lt;/color&gt; connections.
+* FUEL - the rocket must have at least one fuel tank and sufficient fuel for takeoff (at least 500 mols). Note that the rocket also requires 500mols to land AND consumes 5 mols per tick during travel phase of operation.
+* CONSTRUCTION - The rocket must be correctly assembled (see MODULES above)
+* PROGRAMMING - The rocket is controlled by the &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;IC system}&lt;/color&gt; (see below)
+
+{HEADER:ROCKET MODES}
+The rocket's mode is set via the device's 'activate' value. The mode determines the current behaviour.
+0: At base - idle on launchpad
+1: Launching
+2: Traveling
+3: Arrived
+4: Idle - in this state you can activate your rocket's individual devices, ie mining and/or harvesting modules, to collect resources.
+5: Returning home
+
+{HEADER:UNIQUE ROCKET COMMANDS}
+* FUEL IN TANK REMAINING - Gets the fuel remaining in your rocket's fuel tank.
+* FUEL RETURN COST - Gets the cost of fuel to return the rocket to your current world.
+* ROCKET MODE - Gets the current RocketMode value.
+* COLLECTABLE GOODS - Returns 0 or 1 based on whether or not the current rocket system has the ability to collect resources on the planet.
+
+
+      </Text>
     </StationpediaPage>
 
 
