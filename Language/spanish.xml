@@ -4787,12 +4787,11 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleEnergyGenerator</Key>
-      <Value>Recoge energía capturando electromagnéticamente el viento solar. Lo almacena en el {THING:StructureRocketModuleBattery}.</Value>
+      <Value>Módulo automatizado de recolección de energia del cohete</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleMiningJunk</Key>
-      <Value>El llamado módulo recolector &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; &apos;basura espacial&apos; es realmente una unidad de recuperación automatizada de alta gama, diseñada para interactuar con el &lt;color=#0080FFFF&gt;{ LINK:ExMin;ExMin}&lt;/color&gt; cohete autónomo. Barre la región local del espacio en busca de restos de naves dañadas, envíos espaciales abandonados y otros detritos. Como tal, devuelve una variedad bastante aleatoria de elementos.
-El módulo debe estar conectado a un {THING:StructureRocketModuleSilo} mediante un {THING:StructureModularRocketCouplingDown} o {THING:StructureModularRocketCouplingUp} correctamente colocado, para que el mineral pase de la unidad recolectora al silo.</Value>
+      <Value>Módulo de recolección de chatarra del cohete</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleMiningOre</Key>
@@ -4820,7 +4819,7 @@ El módulo debe estar conectado a un {THING:StructureRocketModuleSilo} mediante 
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketOreStorage</Key>
-      <Value>Crea un {THING:StructureRocketModuleSilo}.</Value>
+      <Value>Kit (Módulo automatizado del silo del cohete)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketCoupling</Key>
@@ -4848,7 +4847,7 @@ El módulo debe estar conectado a un {THING:StructureRocketModuleSilo} mediante 
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketScrapMining</Key>
-      <Value/>
+      <Value>Kit (Módulo automatizado de recolección de chatarra del cohete)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterPipeMeter</Key>
