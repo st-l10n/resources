@@ -1939,7 +1939,14 @@ Chutes are fundamental components of chute networks, which allow the transport o
       <Key>StructureComputer</Key>
       <Value>Computer</Value>
       <Description>In some ways a relic, the 'Chonk R1' was designed by severely conflicted &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; technicians, who needed a unit that could operate with a wide range of &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;motherboards}&lt;/color&gt;, while also enduring the worst a new Cadet could throw at it.
-The result is a machine described by some as 'the only PC likely to survive our collision with a blackhole', while other, less appreciative users regard it as sharing most of its technological DNA with a cheese grater.</Description>
+The result is a machine described by some as 'the only PC likely to survive our collision with a blackhole', while other, less appreciative users regard it as sharing most of its technological DNA with a cheese grater.
+Compatible motherboards:
+- {THING:MotherboardLogic}
+- {THING:MotherboardManufacturing}
+- {THING:MotherboardSorter}
+- {THING:MotherboardComms}
+- {THING:MotherboardProgrammableChip}
+-</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsole</Key>
@@ -3745,6 +3752,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>MotherboardProgrammableChip</Key>
       <Value>IC Editor</Value>
+      <Description>When placed in a {THING:StructureComputer}, the IC Editor allows players to write and edit IC code, which can then be uploaded to a {THING:ProgrammableChip} if housed in an {THING:StructureCircuitHousing}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLogicCircuit</Key>
@@ -5834,7 +5842,8 @@ Coming soon</Description>
       <Key>StructureRocketModuleMiningOre</Key>
       <Value>Automated Rocket Ore Mining Module</Value>
       <Description>The &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; autonomous ore miner harvests metallic ores from asteroids and planets in the local region of space. Its range - and therefore how much ore it collects - is strictly determined by the rocket's fuel quantity.
-The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for ore to pass from the collector unit into the silo.</Description>
+The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for ore to pass from the collector unit into the silo.
+It has two modes - active (1), and inactive (0), which should only be triggered when the rocket has arrived on the planet and is idle (mode 4).</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketAutonomous</Key>
@@ -5887,7 +5896,8 @@ When placed ABOVE a mining module (eg {THING:StructureRocketModuleMiningOre}), t
       <Key>StructureModularRocketIceMining</Key>
       <Value>Automated Rocket Ice Mining Module</Value>
       <Description>The &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; autonomous ice miner is a purpose-built, robotic ice harvester, able to mine ice ores from asteroids and planets in the local region of space. Its range - and therefore how much ice ore it collects - is strictly determined by the rocket's fuel quantity.
-The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for ore to pass from the collector unit into the silo.</Description>
+The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for ore to pass from the collector unit into the silo.
+It has two modes - active (1), and inactive (0), which should only be triggered when the rocket has arrived on the planet and is idle (mode 4).</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketIceMining</Key>
@@ -6091,6 +6101,7 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
     <Record>
       <Key>Motherboard</Key>
       <Value>Motherboard</Value>
+      <Description></Description>
     </Record>
     <Record>
       <Key>Entity</Key>
@@ -6151,6 +6162,7 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
     <Record>
       <Key>ProgrammableChip</Key>
       <Value>IC Chip</Value>
+      <Description>The IC Chip must be place in a {THING:StructureCircuitHousing}, in order to be programmed by a {THING:StructureComputer} containing a {THING:MotherboardProgrammableChip}. Once programmed, the chip can be placed in various devices to control their behaviour.</Description>
     </Record>
     <Record>
       <Key>CreditCard</Key>
@@ -8180,7 +8192,7 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
     </Record>
     <Record>
       <Key>NewWorldVenusShortDesc</Key>
-      <Value>Extreme temperatures and ultra-high pressures make Venus no place for the faint-hearted. Only the most accomplished Stationeers will survive on our once-sister planet, now a barren rock. Dig deep, or go home.</Value>
+      <Value>Unvarying extreme temperatures and ultra-high pressures make Venus no place for the faint-hearted. Only the most accomplished Stationeers will survive on our once-sister planet, now a barren rock. Dig deep, or go home.</Value>
     </Record>
     <Record>
       <Key>NewWorldEuropaShortDesc</Key>
