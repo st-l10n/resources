@@ -5011,6 +5011,9 @@
       <Value>Nádrž na kapalinu (sada)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>StructureRocketModuleMiningJunk</Key>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureRocketModuleMiningOre</Key>
       <Value>Automatický raketový modul na těžbu rud</Value>
     </RecordThing>
@@ -5032,7 +5035,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketCoupling</Key>
-      <Value>Automatický raketový spojovací modul (sada)</Value>
+      <Value>Automatizovaný raketový spojovací modul (sada)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketAutomation</Key>
@@ -7168,10 +7171,6 @@ Rolovat &lt;color=red&gt;kolečkem myši&lt;/color&gt; pro další volbu.</Value
       <Value>I když tu není žádná gravitace nebo atmosféra, alespoň je tu hodně prostoru k budování!  Ocitnete se mezi několika asteroidy, které mohou obsahovat různé rudy a ledy, které můžete použít k přežití.</Value>
     </Record>
     <Record>
-      <Key>NewWorldVenusShortDesc</Key>
-      <Value>Díky extrémním teplotám a ultravysokým tlakům není Venuše místem pro slabé povahy. Na naší kdysi sesterské planetě, nyní pusté skále, přežijí jen ti nejuznávanější Stationeerové. Kopejte hluboko nebo jděte domů.</Value>
-    </Record>
-    <Record>
       <Key>NewWorldEuropaShortDesc</Key>
       <Value>Tání části ledu v tomto chladném světě mu konečně dodalo atmosféru, ale extrémně chladné prostředí představuje pro stationeery vážnou výzvu. Extrémní chlad způsobí, že baterie rychle ztratí energii, takže získání stálého zdroje energie a teplých poloh jsou vaše priority.</Value>
     </Record>
@@ -7793,18 +7792,6 @@ Je neochvějným univerzálním zákonem, že vše vyšší než 11 bude fialov�
     <Record>
       <Key>LogicSlotTypeMaxQuantity</Key>
       <Value>vrací maximální velikost stohu položky na pozici</Value>
-    </Record>
-    <Record>
-      <Key>FuelInTankRemaining</Key>
-      <Value>Získá zbývající palivo uvnitř vaší raketové nádrže.</Value>
-    </Record>
-    <Record>
-      <Key>FuelReturnCost</Key>
-      <Value>Vrátí náklady za palivo.</Value>
-    </Record>
-    <Record>
-      <Key>RocketMode</Key>
-      <Value>Získá aktuální hodnotu RocketMode.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRequestHash</Key>
