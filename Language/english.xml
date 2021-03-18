@@ -5788,7 +5788,7 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>ItemKitWaterBottleFiller</Key>
       <Value>Item Kit Water Bottle Filler</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankBig</Key>
@@ -5813,7 +5813,7 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>StructureRocketModuleSilo</Key>
       <Value>Automated Rocket Silo Module</Value>
-       <Description>The &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; autononmous silo module provides storage for &lt;color=#0080FFFF&gt;{LINK:OrePage;ores}&lt;/color&gt; collected by the {THING:StructureRocketModuleMiningOre}, &lt;color=#0080FFFF&gt;{LINK:OrePage;ices}&lt;/color&gt; collected by the {THING:StructureModularRocketIceMining} and 'space junk' salvaged by the {THING:StructureRocketModuleMiningJunk}. In other words, it holds 'medium-sized dry goods'.
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; autononmous silo module provides storage for &lt;color=#0080FFFF&gt;{LINK:OrePage;ores}&lt;/color&gt; collected by the {THING:StructureRocketModuleMiningOre}, &lt;color=#0080FFFF&gt;{LINK:OrePage;ices}&lt;/color&gt; collected by the {THING:StructureModularRocketIceMining} and 'space junk' salvaged by the {THING:StructureRocketModuleMiningJunk}. In other words, it holds 'medium-sized dry goods'.
 The silo module must be connected to a mining or salvage module by a correctly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for material to pass into the silo.
 The silo module must also be powered when on the launch pad. It is 'on' by default, but can be turned off with logic if needed. 
 The module can also be attached to a {THING:StructureChuteInlet} in order to connect it to &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;import/export}&lt;/color&gt; networks.
@@ -5837,7 +5837,7 @@ Coming soon</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleMiningJunk</Key>
-<Description>The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for ore to pass from the collector unit into the silo.</Description>
+      <Description>The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for ore to pass from the collector unit into the silo.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleMiningOre</Key>
@@ -5849,7 +5849,7 @@ It has two modes - active (1), and inactive (0), which should only be triggered 
     <RecordThing>
       <Key>StructureModularRocketAutonomous</Key>
       <Value>Rocket Modular Autonomous</Value>
-      <Description/>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleCollectorLiquid</Key>
@@ -5881,12 +5881,12 @@ When placed ABOVE a mining module (eg {THING:StructureRocketModuleMiningOre}), t
     <RecordThing>
       <Key>ItemKitModularRocketCoupling</Key>
       <Value>Kit (Automated Rocket Coupling Module)</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketAutomation</Key>
       <Value>Kit (Automated Rocket Automation Module)</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketOreMining</Key>
@@ -5960,6 +5960,16 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
       <Key>StructureLiquidDrain</Key>
       <Value>Liquid Drain</Value>
       <Description>The drain is a simple device, although not without a touch of mystery. When connected to power and activated, it drains liquid from a liquid network at a rate of 1 mol per tick. Handy if there's liquid you need ... gone.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLiquidPipeAnalyzer</Key>
+      <Value>Kit (Liquid Pipe Analyzer)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidPipeAnalyzer</Key>
+      <Value>Liquid Pipe Analyzer</Value>
+      <Description />
     </RecordThing>
   </Things>
   <Slots>
@@ -6102,7 +6112,6 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
     <Record>
       <Key>Motherboard</Key>
       <Value>Motherboard</Value>
-      <Description></Description>
     </Record>
     <Record>
       <Key>Entity</Key>
@@ -6163,7 +6172,6 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
     <Record>
       <Key>ProgrammableChip</Key>
       <Value>IC Chip</Value>
-      <Description>The IC Chip must be place in a {THING:StructureCircuitHousing}, in order to be programmed by a {THING:StructureComputer} containing a {THING:MotherboardProgrammableChip}. Once programmed, the chip can be placed in various devices to control their behaviour.</Description>
     </Record>
     <Record>
       <Key>CreditCard</Key>
@@ -8844,12 +8852,10 @@ It is an unwavering universal law that anything higher than 11 will be purple. T
     </Record>
     <Record>
       <Key>CollectableGoods</Key>
-
       <Value>Returns 0 or 1 based on whether or not the current rocket system has the ability to collect resources on the planet.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRequestHash</Key>
-
       <Value>When set to the unique identifier, requests an item of the provided type from the device</Value>
     </Record>
     <Record>
