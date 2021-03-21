@@ -1685,10 +1685,6 @@
       <Value>Стойка для баллона</Value>
     </RecordThing>
     <RecordThing>
-      <Key>StructureLiquidTankStorage</Key>
-      <Value>Стойка для баллона</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>StructureGlassDoor</Key>
       <Value>Стеклянная дверь</Value>
     </RecordThing>
@@ -1829,10 +1825,6 @@
       <Value>Коннектор (Большой баллон)</Value>
     </RecordThing>
     <RecordThing>
-      <Key>StructureTankConnectorLiquid</Key>
-      <Value>Коннектор (Большой баллон)</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>StructureTankSmall</Key>
       <Value>Малый резервуар</Value>
     </RecordThing>
@@ -1859,10 +1851,6 @@
     <RecordThing>
       <Key>StructureVolumePump</Key>
       <Value>Насос</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureLiquidValve</Key>
-      <Value>Канистра с грунтом</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallCooler</Key>
@@ -3138,7 +3126,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicCanister</Key>
-      <Value>Набор (Переносной резервуар)</Value>
+      <Value>Набор (Переносной газовый резервуар)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicLiquidCanister</Key>
@@ -4289,30 +4277,6 @@
       <Value>Обломки Автолата</Value>
     </RecordThing>
     <RecordThing>
-      <Key>ItemWreckageElectronicsPrinter1</Key>
-      <Value>Принтер электроники</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElectronicsPrinter2</Key>
-      <Value>Принтер электроники</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElectronicsPrinter3</Key>
-      <Value>Принтер электроники</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElectronicsPrinter4</Key>
-      <Value>Принтер электроники</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElectronicsPrinter5</Key>
-      <Value>Принтер электроники</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElectronicsPrinter6</Key>
-      <Value>Принтер электроники</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>ItemWreckageCentrifuge1</Key>
       <Value>Обломки Центрифуги</Value>
     </RecordThing>
@@ -4510,7 +4474,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicGasTankAdvanced</Key>
-      <Value>Набор (Переносной резервуар MK2)</Value>
+      <Value>Набор (Переносной газовый резервуар MK2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>Rover_MkI</Key>
@@ -4809,43 +4773,19 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketAutomation</Key>
-      <Value/>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitModularRocketOreMining</Key>
-      <Value/>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitModularRocketIceMining</Key>
-      <Value/>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitModularRocketScrapMining</Key>
-      <Value/>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWaterPipeMeter</Key>
-      <Value/>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureWaterPipeMeter</Key>
-      <Value/>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWaterPipeDigitalValve</Key>
-      <Value/>
+      <Value>Набор (Управляющий модуль автоматической ракеты)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterDigitalValve</Key>
-      <Value/>
+      <Value>Жидкостный Электровентиль</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterWallCooler</Key>
-      <Value/>
+      <Value>Набор (Жидкостный Настенный Охладитель)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterWallCooler</Key>
-      <Value/>
+      <Value>Жидкостный Настенный Охладитель</Value>
     </RecordThing>
   </Things>
   <Slots>
@@ -7739,7 +7679,7 @@
     </Record>
     <Record>
       <Key>ContactTradeRequestFailInUse</Key>
-      <Value>Этот контакт уже взаимодействует с кем-то, попробуйте чуть позже.</Value>
+      <Value>Этот торговец уже взаимодействует с кем-то, попробуйте чуть позже.</Value>
     </Record>
     <Record>
       <Key>InputTextTradingTitle</Key>
@@ -8727,7 +8667,7 @@
     </Record>
     <Record>
       <Key>FramerateLock</Key>
-      <Value>Заданная частота кадров</Value>
+      <Value>Целевая частота кадров</Value>
     </Record>
     <Record>
       <Key>SaveBeforeTravel</Key>
@@ -8811,7 +8751,7 @@
     </Record>
     <Record>
       <Key>Gas</Key>
-      <Value>Газы</Value>
+      <Value>Газ</Value>
     </Record>
     <Record>
       <Key>Empty</Key>
@@ -9002,20 +8942,12 @@
       <Value>Добыча Руды</Value>
     </Record>
     <Record>
-      <Key>ControlSecondaryEatDisc</Key>
-      <Value>Земля</Value>
-    </Record>
-    <Record>
       <Key>ToggleChangeLog</Key>
       <Value>Список изменений</Value>
     </Record>
     <Record>
       <Key>HelmetString</Key>
       <Value>Шлем</Value>
-    </Record>
-    <Record>
-      <Key>AdvancedTutorialButton</Key>
-      <Value>Расширенные</Value>
     </Record>
     <Record>
       <Key>BasicButtonTutorial</Key>
@@ -9043,7 +8975,7 @@
     </Record>
     <Record>
       <Key>WeatherCategoryKey</Key>
-      <Value>Прочее</Value>
+      <Value>Погода</Value>
     </Record>
     <Record>
       <Key>HandToolsCategoryKey</Key>
@@ -9051,7 +8983,7 @@
     </Record>
     <Record>
       <Key>OrganicsCategoryKey</Key>
-      <Value>Органика</Value>
+      <Value>Органика и Пища</Value>
     </Record>
     <Record>
       <Key>StructureCategoryKey</Key>
@@ -9064,10 +8996,6 @@
     <Record>
       <Key>PowerCategoryKey</Key>
       <Value>Электроника</Value>
-    </Record>
-    <Record>
-      <Key>AppliancesCategoryKey</Key>
-      <Value>Внешний вид</Value>
     </Record>
     <Record>
       <Key>AtmopshericsCategoryKey</Key>
@@ -9102,10 +9030,6 @@
       <Value>Руды</Value>
     </Record>
     <Record>
-      <Key>PressureKeySPDA</Key>
-      <Value>Давление в балоне</Value>
-    </Record>
-    <Record>
       <Key>StationpediaTitle</Key>
       <Value>Станциопедия</Value>
     </Record>
@@ -9122,24 +9046,12 @@
       <Value>Вселенная</Value>
     </Record>
     <Record>
-      <Key>StationpediaConstructWith</Key>
-      <Value>Строительные Наборы</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaPaintable</Key>
-      <Value>Ресурсы</Value>
-    </Record>
-    <Record>
       <Key>StationpediaReagentsHeader</Key>
-      <Value>Реагенты</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaFlashpointHeader</Key>
-      <Value>Точка возгорания:</Value>
+      <Value>Реагенты:</Value>
     </Record>
     <Record>
       <Key>StationpediaAutoIgniteHeader</Key>
-      <Value>Автовозгорание:</Value>
+      <Value>Автозажигание:</Value>
     </Record>
     <Record>
       <Key>StationpediaConstructedFrom</Key>
@@ -9147,7 +9059,7 @@
     </Record>
     <Record>
       <Key>StationpediaSlotsHeader</Key>
-      <Value>Слот</Value>
+      <Value>Слоты</Value>
     </Record>
     <Record>
       <Key>StationpediaHowToManufacture</Key>
@@ -9191,7 +9103,8 @@
     </Record>
     <Record>
       <Key>StationpediaLogicSlotHeader</Key>
-      <Value>Чипы записи</Value>
+      <Value>Логические Слоты
+</Value>
     </Record>
     <Record>
       <Key>StationpediaTutorialListHeader</Key>
