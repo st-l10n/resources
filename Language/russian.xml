@@ -6899,7 +6899,7 @@
     </Record>
     <Record>
       <Key>FurnaceChamber</Key>
-      <Value>Комната</Value>
+      <Value>Печная камера</Value>
     </Record>
     <Record>
       <Key>FurnaceChamberText</Key>
@@ -8922,6 +8922,10 @@
       <Value>Следующее Обучение</Value>
     </Record>
     <Record>
+      <Key>SettingsMineableRenderDistance</Key>
+      <Value>Дальность отрисовки руды</Value>
+    </Record>
+    <Record>
       <Key>SetSpawnMessage</Key>
       <Value>Использовать что бы поставить Точку Появления</Value>
     </Record>
@@ -8962,6 +8966,14 @@
       <Value>Сменить Руку</Value>
     </Record>
     <Record>
+      <Key>CommandBan</Key>
+      <Value>Заблокировать игрока по данному SteamID на сервере: &quot;/ban 102039237390&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandFillNeeds</Key>
+      <Value>Заполнить шкалу голода и гидратации. : &quot;/fillneeds&quot;</Value>
+    </Record>
+    <Record>
       <Key>ControlTurnOnDisc</Key>
       <Value>Включить</Value>
     </Record>
@@ -8998,12 +9010,16 @@
       <Value>Невозможно загрузить следующее обучение. Пожалуйста, вернитесь в меню.</Value>
     </Record>
     <Record>
+      <Key>ImportExportCategoryKey</Key>
+      <Value>Импорт/Экспорт</Value>
+    </Record>
+    <Record>
       <Key>TravelCategoryKey</Key>
       <Value>Путешествие</Value>
     </Record>
     <Record>
       <Key>FurnitureCategoryKey</Key>
-      <Value>Рисунок</Value>
+      <Value>Мебель</Value>
     </Record>
     <Record>
       <Key>CartidgeCategoryKey</Key>
@@ -9022,12 +9038,16 @@
       <Value>Органика</Value>
     </Record>
     <Record>
+      <Key>StructureCategoryKey</Key>
+      <Value>Конструкции</Value>
+    </Record>
+    <Record>
       <Key>LogicCategoryKey</Key>
-      <Value>Нет устройств</Value>
+      <Value>Логические Устройства</Value>
     </Record>
     <Record>
       <Key>PowerCategoryKey</Key>
-      <Value>Отражения</Value>
+      <Value>Электроника</Value>
     </Record>
     <Record>
       <Key>AppliancesCategoryKey</Key>
@@ -9052,6 +9072,10 @@
     <Record>
       <Key>FabricatorCategoryKey</Key>
       <Value>Фабрикаторы</Value>
+    </Record>
+    <Record>
+      <Key>IngotsCategoryKey</Key>
+      <Value>Слитки</Value>
     </Record>
     <Record>
       <Key>OreCategoryKey</Key>
