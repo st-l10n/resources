@@ -5635,7 +5635,7 @@
     </Record>
     <Record>
       <Key>AtmosDevices</Key>
-      <Value>Атмосфера</Value>
+      <Value>Устройства для контроля атмосферы</Value>
     </Record>
     <Record>
       <Key>FireArm</Key>
@@ -6304,6 +6304,10 @@
       <Value>&lt;color=red&gt;Невозможно построить&lt;/color&gt;.</Value>
     </Record>
     <Record>
+      <Key>PortableConnectionFailure</Key>
+      <Value>К {1} можно присоединить только {0}</Value>
+    </Record>
+    <Record>
       <Key>TooltipRotateLeftRight</Key>
       <Value>Повернуть влево или вправо = {KEY:RotateLeft} и {KEY:RotateRight}.</Value>
     </Record>
@@ -6702,7 +6706,7 @@
     </Record>
     <Record>
       <Key>SettingsHungerRate</Key>
-      <Value>Коэффициент голода</Value>
+      <Value>Коэффициент Голода/Гидратации</Value>
     </Record>
     <Record>
       <Key>JoinWorldSortBy</Key>
@@ -9063,11 +9067,19 @@
     </Record>
     <Record>
       <Key>StationpediaTitle</Key>
-      <Value>Насыщенность:</Value>
+      <Value>Станциопедия</Value>
     </Record>
     <Record>
       <Key>StationpediaSearch</Key>
-      <Value>Исследование</Value>
+      <Value>Поиск</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaBeginnerGuides</Key>
+      <Value>Руководства</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaAdvancedGuides</Key>
+      <Value>Вселенная</Value>
     </Record>
     <Record>
       <Key>StationpediaConstructWith</Key>
@@ -9098,8 +9110,12 @@
       <Value>Слот</Value>
     </Record>
     <Record>
+      <Key>StationpediaHowToManufacture</Key>
+      <Value>Как Произвести</Value>
+    </Record>
+    <Record>
       <Key>StationpediaBuildStates</Key>
-      <Value>Выйти из игры</Value>
+      <Value>Этапы Строительства</Value>
     </Record>
     <Record>
       <Key>StationpediaMachineVersion</Key>
@@ -9110,8 +9126,16 @@
       <Value>Газы</Value>
     </Record>
     <Record>
+      <Key>StationpediaResoucesHeader</Key>
+      <Value>Используемые Ресурсы</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaUsedIn</Key>
+      <Value>Используется в</Value>
+    </Record>
+    <Record>
       <Key>StationpediaFoundIn</Key>
-      <Value>Звук</Value>
+      <Value>Можно найти в</Value>
     </Record>
     <Record>
       <Key>StationpediaConstructionOptions</Key>
@@ -9135,23 +9159,27 @@
     </Record>
     <Record>
       <Key>HydrationSPDAKey</Key>
-      <Value>Углеводород</Value>
+      <Value>Гидратация</Value>
     </Record>
     <Record>
       <Key>NutritionSPDAKey</Key>
       <Value>Автовозгорание:</Value>
     </Record>
     <Record>
+      <Key>StatusIconHydrationDesc</Key>
+      <Value>Уровень гидратации падает</Value>
+    </Record>
+    <Record>
       <Key>StatusIconHydrationKey</Key>
-      <Value>Углеводород</Value>
+      <Value>Уровень гидратации низкий</Value>
     </Record>
     <Record>
       <Key>HydrationCaution</Key>
-      <Value>Углеводород</Value>
+      <Value>Предупреждение о гидратации</Value>
     </Record>
     <Record>
       <Key>HydrationCritical</Key>
-      <Value>Углеводород</Value>
+      <Value>Уровень гидратации критический</Value>
     </Record>
     <Record>
       <Key>Guides</Key>
@@ -9163,7 +9191,7 @@
     </Record>
     <Record>
       <Key>SettingsLightShadowDistance</Key>
-      <Value>Дальность прорисовки теней</Value>
+      <Value>Дальность прорисовки теней искусственного освещения</Value>
     </Record>
     <Record>
       <Key>CrowbarToFlip</Key>
