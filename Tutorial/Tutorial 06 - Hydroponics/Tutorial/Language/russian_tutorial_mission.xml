@@ -17,7 +17,11 @@
     </Record>
     <Record>
       <Key>6BuildTankConnecter</Key>
-      <Value>Постройте консоль в выделенном месте</Value>
+      <Value>Постройте соединитель резервуара в выделенном месте</Value>
+    </Record>
+    <Record>
+      <Key>6MoveThingArea</Key>
+      <Value>Перетащите водный резервуар на соединитель резервуаров</Value>
     </Record>
     <Record>
       <Key>6GetPipe</Key>
@@ -29,23 +33,23 @@
     </Record>
     <Record>
       <Key>6GetGrowLight</Key>
-      <Value>Достаньте из ящика набор для изготовления дуговой печи</Value>
+      <Value>Достаньте набор освещения для растений из контейнера</Value>
     </Record>
     <Record>
       <Key>6BuildGrowLight</Key>
-      <Value>Разместите композитную дверь #1 в подсвеченной области</Value>
+      <Value>Разместите освещение для растений в подсвеченной области</Value>
     </Record>
     <Record>
       <Key>6GrowLightOn</Key>
-      <Value>Включите сварочный аппарат</Value>
+      <Value>Включите освещение для растений</Value>
     </Record>
     <Record>
       <Key>6GetWheat</Key>
-      <Value>Возьмите уголь из ящика</Value>
+      <Value>Возьмите семена пшеницы из контейнера</Value>
     </Record>
     <Record>
       <Key>6BenchOn</Key>
-      <Value>Включите ИБП</Value>
+      <Value>Включите верстак</Value>
     </Record>
     <Record>
       <Key>6MicrowaveOn</Key>
@@ -57,7 +61,11 @@
     </Record>
     <Record>
       <Key>6OnButtonPressTask</Key>
-      <Value>Нажмите кнопку цикл входа “Cycle to Interior”.</Value>
+      <Value>Нажмите важную кнопку</Value>
+    </Record>
+    <Record>
+      <Key>6FlourCreated</Key>
+      <Value>Создайте муку</Value>
     </Record>
     <Record>
       <Key>6MicrowaveClosed</Key>
@@ -69,39 +77,67 @@
     </Record>
     <Record>
       <Key>6HydroponicTray</Key>
-      <Value>Стационарная Гидропоника</Value>
+      <Value>Постройте гидропонный лоток</Value>
     </Record>
     <Record>
       <Key>6BuildCables</Key>
-      <Value>Постройте консоль в выделенном месте</Value>
+      <Value>Установите кабель в выделенной области</Value>
     </Record>
     <Record>
       <Key>6PickUpCable</Key>
-      <Value>Поднимите горелку со стола</Value>
+      <Value>Подберите кабель</Value>
     </Record>
     <Record>
       <Key>6PickUpCable</Key>
-      <Value>Поднимите горелку со стола</Value>
+      <Value>Подберите кабель</Value>
+    </Record>
+    <Record>
+      <Key>6PickUpItemHydroponicTray</Key>
+      <Value>Возьмите гидропонный лоток</Value>
+    </Record>
+    <Record>
+      <Key>6GetFlour</Key>
+      <Value>Заберите муку из процессора реагентов</Value>
+    </Record>
+    <Record>
+      <Key>6EndScreenText</Key>
+      <Value>Хорошая работа, Кадет. Ты показал приемлемый уровень навыков гидратации и гидропоники.</Value>
     </Record>
     <Record>
       <Key>6GetWaterBottleFiller</Key>
-      <Value>Возьмите активную вентиляцию из ящика</Value>
+      <Value>Возьмите набор разливочной машины воды из контейнера</Value>
     </Record>
     <Record>
       <Key>6BuildWaterBottleFiller</Key>
-      <Value>Установите {THING:StructureGasMixer} в выделенном месте.</Value>
+      <Value>Установите разливочную машину воды в выделенном месте</Value>
+    </Record>
+    <Record>
+      <Key>6NarrationExtra1</Key>
+      <Value>Ты почти готов заполнить свою бутылку с водой. Возьми пустую бутылку из контейнера, потом вставь ее в разливочную машину.</Value>
     </Record>
     <Record>
       <Key>6GetWaterBottle</Key>
-      <Value>Возьмите активную вентиляцию из ящика</Value>
+      <Value>Возьмите пустую бутылку для воды из контейнера</Value>
+    </Record>
+    <Record>
+      <Key>6AddWaterbottletofiller</Key>
+      <Value>Вставьте бутылку для воды в разливочную машину</Value>
+    </Record>
+    <Record>
+      <Key>6NarrationExtra2</Key>
+      <Value>Превосходно. Теперь настало время пустить воду в водопровод. Возьми шахтерский пояс из контейнера. Потом используй дробилку льда чтобы переработать лёд в воду.</Value>
     </Record>
     <Record>
       <Key>6GetMingBelt</Key>
       <Value>Возьмите слиток золота из ящика.</Value>
     </Record>
     <Record>
+      <Key>6AddIceToCrusher</Key>
+      <Value>Возьмите лёд из шахтерского пояса и положите его в дробилку льда</Value>
+    </Record>
+    <Record>
       <Key>6MIceCrusherOn</Key>
-      <Value>Включите микроволновку</Value>
+      <Value>Включите дробилку льда чтобы заполнить бутылку</Value>
     </Record>
   </Interface>
 </Language>
