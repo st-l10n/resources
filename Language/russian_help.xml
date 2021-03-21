@@ -153,6 +153,60 @@
 </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>TravelPage</Key>
+      <Title>Пункт назначения</Title>
+      <DisplayFilter>Руководства</DisplayFilter>
+      <Text>Погоди! Не закрывай меня! Следующие условия должны быть выполнены для запуска:
+
+- Полностью построенная ракета: как минимум 3 основных модуля
+- Полностью заправленный {THING:StructureModularRocketFueltank01}
+- Правильные пропорции смеси топлива - смесь 2:1 из {GAS:Volatiles} и {GAS:Oxygen}.
+- Проведено электричество к {THING:StructureLaunchPad}
+- Все игроки пристегнуты к {THING:StructureModularRocketCommand01}
+
+Ниже указаны ID-координаты МИРОВ ДЛЯ ПУТЕШЕСТВИЙ. Ты можешь использовать их для путешествия к определенным планетам, вместе с построенным {LINK:RocketShuttlePage;Rocket Shuttle} и {LINK:LogicUnitPage;Logic Units}.
+       
+Просто запиши ID в переменную настроек в {THING:StructureLaunchPad} с помощью {THING:StructureLogicWriter} и {THING:StructureLogicMemory}. Заметка: Ты можешь нажать на ID чтобы скопировать его в буфер обмена клавиатуры.
+      
+
+      {LIST}
+        {WORLD_HASHES}
+      {/LIST}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>RocketShuttleModulesHelpPage</Key>
+      <Title>Модули Ракетного Шаттла</Title>
+      <DisplayFilter>Руководства</DisplayFilter>
+      <Text>{HEADER:Modular Rocket Cargo}
+
+Емкость {THING:StructureModularRocketCargo01} позволяет хранить два десяти-слотовых ящиков. Вы можете иметь несколько грузовых модулей на ракете. Ракета может поднять до семи модулей в общей сложности.
+
+{HEADER:Modular Rocket Command}
+
+{THING:StructureModularRocketCommand01} должен быть помещен на самом верху ракеты. Он оценит готовность ракеты к полету. Как только все условия будут выполнены, ракета может быть запущена, когда все игроки сидят в модуле, нажав &apos;Запуск&apos; на консоли.
+
+Для запуска необходимо выполнить следующие условия:
+
+Топливо полное
+Соотношение топливных смесей правильное
+Все игроки сидят
+Питание подключено к стартовой площадке
+Ракета полностью построена
+
+Консоль в {THING:StructureModularRocketCommand01} отображает текущее состояние этих условий. Для старта не требуется атмосфера - атмосферы вашего костюма достаточно.
+
+{HEADER:Modular Rocket Engine}
+
+{THING:StructureModularRocketEngine01} способен поднимать до семи модулей (включая себя).
+
+{HEADER:Modular Rocket Fuel Tank}
+
+{THING:StructureModularRocketFueltank01} требует смеси {GAS:Volatiles} и {GAS:Oxygen} в отношении 2:1. Если смесь не удовлетворяет этим пропорциям, или вы поместите другие газы в бак, консоль {THING:StructureModularRocketCommand01} будет отображать ошибку &apos;Недействительно&apos;. 
+
+             </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>RocketShuttlePage</Key>
       <Title>Ракетный Шаттл</Title>
       <Text>Это модули ракетного шаттла, используемые для путешествий между мирами. Требуется {THING:StructureLaunchPad}.
