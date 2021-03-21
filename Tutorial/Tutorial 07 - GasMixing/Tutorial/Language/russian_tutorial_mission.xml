@@ -64,35 +64,35 @@
     </Record>
     <Record>
       <Key>7GetMiningBelt</Key>
-      <Value>Возьмите слиток золота из ящика.</Value>
+      <Value>Возьмите пояс шахтёра из ящика</Value>
     </Record>
     <Record>
       <Key>7AddIceToCrusher</Key>
-      <Value>Добавьте железную руду в дуговую печь</Value>
+      <Value>Добавьте летучие вещества в дробилку льда</Value>
     </Record>
     <Record>
       <Key>7GetGasMixer</Key>
-      <Value>Возьмите активную вентиляцию из ящика</Value>
+      <Value>Возьмите газовый смеситель из ящика</Value>
     </Record>
     <Record>
       <Key>7BuildGasMixer</Key>
-      <Value>Постройте {THING:StructureGasSensor} в подсвеченной области</Value>
+      <Value>Постройте газовый смеситель в подсвеченной области</Value>
     </Record>
     <Record>
       <Key>7GetRegulator</Key>
-      <Value>Возьмите активную вентиляцию из ящика</Value>
+      <Value>Возьмите регулятор давления из ящика</Value>
     </Record>
     <Record>
       <Key>7BuildRegulator</Key>
-      <Value>Постройте {THING:StructureGasSensor} в подсвеченной области</Value>
+      <Value>Постройте регулятор давления в подсвеченной области.</Value>
     </Record>
     <Record>
       <Key>7GetValve</Key>
-      <Value>Возьмите активную вентиляцию из ящика</Value>
+      <Value>Возьмите вентиль из ящика</Value>
     </Record>
     <Record>
       <Key>7BuildValve</Key>
-      <Value>Постройте консоль в выделенном месте</Value>
+      <Value>Разместите вентиль в выделенном месте</Value>
     </Record>
     <Record>
       <Key>7GetTankConnector</Key>
@@ -104,7 +104,7 @@
     </Record>
     <Record>
       <Key>7GetEmptyTank</Key>
-      <Value>Возьмите батарейку из ящика</Value>
+      <Value>Извлеките баллон из стойки для баллона</Value>
     </Record>
     <Record>
       <Key>7PediaNavigation</Key>
@@ -145,6 +145,14 @@
     <Record>
       <Key>7InsertCart</Key>
       <Value>Вставьте {THING:CartridgeAtmosAnalyser} в {THING:ItemTablet}</Value>
+    </Record>
+    <Record>
+      <Key>7TabletOn</Key>
+      <Value>Включите планшет для сканирования газовых труб</Value>
+    </Record>
+    <Record>
+      <Key>7TabletOff</Key>
+      <Value>Выключите планшет после сканирования</Value>
     </Record>
   </Interface>
 </Language>
