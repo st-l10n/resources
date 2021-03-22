@@ -35,99 +35,36 @@
     <StationpediaPage>
       <Key>ReagentPage</Key>
       <Title>Реагенты</Title>
-      <Text>Это определенное количество химических элементов.
-
-{HEADER:Список реагентов}
-{LIST_OF_REAGENTS}
-</Text>
+      <Text>Это количество химических элементов определенных типов. 
+      {LIST_OF_REAGENTS}
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPage</Key>
       <Title>Газы</Title>
-      <Text>Это химические газы определённых типов.
-      
-{HEADER:Список Газов}
-{LIST_OF_GASES}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>OrePage</Key>
-      <Title>Руды</Title>
-      <Text>Это элементы {LINK:MiningPage;минералов}, которые могут быть {LINK:SmeltingPage;расплавлены}. Вы также можете получить смешанную руду, переработав предметы в {THING:StructureRecycler} и затем пропустив ее через {THING:StructureCentrifuge}, которая разделит ее на отдельные {LINK:OrePage;руды} для {LINK:SmeltingPage;выплавки}.
-
-{HEADER:Melting Ices}
-Есть некоторые руды, которые плавятся под воздействием солнечного света или тепла и производят {LINK:GasPage;газы}. Например, {THING:ItemIce} плавится в {GAS:Water} и {GAS:Oxygen}. Будьте осторожны, чтобы они не попали под солнечный свет или не нагрелись, пока вам это не потребуется.
-
-{HEADER:Список руд}
-{LIST_OF_ORES}
-</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>IngotPage</Key>
-      <Title>Слитки</Title>
-      <Text>Это предметы, которые обычно изготавливаются из {LINK:SmeltingPage;Переплавка} {LINK:OrePage;Руды}.
-      
-{HEADER:Список слитков}
-{LIST_OF_INGOTS}
-
-{HEADER:Список Сплавов}
-{LIST_OF_INGOTS}
-
-{HEADER:Список Супер-Сплавов}
-{LIST_OF_INGOTS}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ToolPage</Key>
-      <Title>Инструменты</Title>
-      <Text>Это предметы, которые могут поместиться в специальном слоте для инструментов и используются для {LINK:ConstructionPage;Строительства} и других задач.
-{HEADER:Список инструментов}
-{LIST_OF_TOOLS}
+      <Text>Это химические газы определённых типов.{LIST_OF_GASES}
       </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ResourcePage</Key>
       <Title>Ресурсы</Title>
       <Text>Это предметы, которые расходуются во время {LINK:ConstructionPage;Строительства} и в других задачах.
-{HEADER:Список ресурсов}
 {LIST_OF_RESOURCES}
       </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>KitPage</Key>
-      <Title>Наборы</Title>
-      <Text>Это предметы, необходимые для {LINK:ConstructionPage;строительства}.
-
-{HEADER:Список наборов}
-{LIST_OF_KITS}
-</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>FoodPage</Key>
       <Title>Еда</Title>
       <Text>Это предметы, необходимые для поддержания сытости.
-
-{HEADER:Список еды}
-{LIST_OF_FOOD}
-</Text>
+        {LIST_OF_FOOD}
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ClothingPage</Key>
       <Title>Экипировка</Title>
-      <Text>Это предметы, которые можно носить в слотах одежды.
-
-{HEADER:Список экипировки}
+      <Text>Это предметы, которые можно носить в слотах экипировки.
 {LIST_OF_CLOTHING}
-</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>AppliancePage</Key>
-      <Title>Бытовая техника</Title>
-      <Text>Это предметы, которые можно разместить на столе. Сперва вы должны поместить их на стол, и затем используя гаечный ключ закрепить.
-
-{HEADER:Список бытовой техники}
-{LIST_OF_APPLIANCES}
-</Text>
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>TravelPage</Key>
@@ -150,38 +87,6 @@
         {WORLD_HASHES}
       {/LIST}
       </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>RocketShuttleModulesHelpPage</Key>
-      <Title>Модули Ракетного Шаттла</Title>
-      <DisplayFilter>Руководства</DisplayFilter>
-      <Text>{HEADER:Modular Rocket Cargo}
-
-Емкость {THING:StructureModularRocketCargo01} позволяет хранить два десяти-слотовых ящиков. Вы можете иметь несколько грузовых модулей на ракете. Ракета может поднять до семи модулей в общей сложности.
-
-{HEADER:Modular Rocket Command}
-
-{THING:StructureModularRocketCommand01} должен быть помещен на самом верху ракеты. Он оценит готовность ракеты к полету. Как только все условия будут выполнены, ракета может быть запущена, когда все игроки сидят в модуле, нажав &apos;Запуск&apos; на консоли.
-
-Для запуска необходимо выполнить следующие условия:
-
-Топливо полное
-Соотношение топливных смесей правильное
-Все игроки сидят
-Питание подключено к стартовой площадке
-Ракета полностью построена
-
-Консоль в {THING:StructureModularRocketCommand01} отображает текущее состояние этих условий. Для старта не требуется атмосфера - атмосферы вашего костюма достаточно.
-
-{HEADER:Modular Rocket Engine}
-
-{THING:StructureModularRocketEngine01} способен поднимать до семи модулей (включая себя).
-
-{HEADER:Modular Rocket Fuel Tank}
-
-{THING:StructureModularRocketFueltank01} требует смеси {GAS:Volatiles} и {GAS:Oxygen} в отношении 2:1. Если смесь не удовлетворяет этим пропорциям, или вы поместите другие газы в бак, консоль {THING:StructureModularRocketCommand01} будет отображать ошибку &apos;Недействительно&apos;. 
-
-             </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>RocketShuttlePage</Key>
@@ -223,26 +128,6 @@
       <Key>IceMeltingTemplate</Key>
       <Text>Температура плавления {1}
 Давление плавления {0}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ReagentPageTemplate</Key>
-      <Text>{LINK:ReagentPage;Реагенты}, часто используются в форме {LINK:IngotPage;Слитков}.
-
-{HEADER:Общая}
-{LIST}шт. {1}{/LIST}
-
-{HEADER:Найти в}
-{LIST}{2}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>GasPageTemplate</Key>
-      <Text>{LINK:GasPage;Газ}, часто вырабатывается в процессе {LINK:SmeltingPage;Плавки руд}.
-
-{HEADER:Общая}
-{LIST}Удельная теплоемкость {1}{2}{/LIST}
-
-{HEADER:Найти в}
-{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageFlamableTemplate</Key>
