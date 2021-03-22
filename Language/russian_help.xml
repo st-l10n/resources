@@ -7,24 +7,6 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
-      <Key>FabricatorPage</Key>
-      <Title>Фабрикаторы</Title>
-      <Text>Это мощные структуры, которые можно использовать для изготовления вещей, нужных вам в игре. Обычно они используют {LINK:IngotPage;слитки} как {LINK:ReagentPage;реагенты}, необходимые им для создания вещей.
-
-{HEADER:Список фабрикаторов}
-{LIST_OF_FABRICATORS}
-</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>DevicePage</Key>
-      <Title>Устройства</Title>
-      <Text>Это структуры с обычным электропитанием, которые выполняют специальные функции, в том числе логические, атмосферные и другие. Они создаются также как и другие конструкции.
-
-{HEADER:Список устройств}
-{LIST_OF_DEVICES}
-</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>SmeltingPage</Key>
       <Title>Выплавка</Title>
       <Text>Когда у вас есть {LINK:OrePage;руда}, вам нужно превратить её в {LINK:IngotPage;слитки}, чтобы можно было использовать их как {LINK:ReagentPage;реагенты}. При плавке часто образуются побочные {LINK:GasPage;газы}. Это происходит в {THING:StructureArcFurnace} (для простых рецептов) и в {THING:StructureFurnace} для сложных {LINK:AlloyPage;сплавов}, и наконец {THING:StructureAdvancedFurnace} для {LINK:SuperAlloyPage;суперсплавов}. Для сложных сплавов вам нужно будет подготовить идеальные соотношения: {LINK:TemperaturePage;температуры} и {LINK:PressurePage;давления}.
