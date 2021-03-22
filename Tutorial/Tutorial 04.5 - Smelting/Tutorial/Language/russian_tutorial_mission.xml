@@ -4,7 +4,7 @@
   <Interface>
     <Record>
       <Key>TutoiralSmelting</Key>
-      <Value>Выплавка</Value>
+      <Value>Выплавка Сплавов</Value>
     </Record>
     <Record>
       <Key>TutoiralAtmosphericsSubTitle</Key>
@@ -24,7 +24,7 @@
     </Record>
     <Record>
       <Key>4.5GetFurnace</Key>
-      <Value>Достаньте из ящика набор для изготовления дуговой печи</Value>
+      <Value>Достаньте из ящика набор для изготовления печи</Value>
     </Record>
     <Record>
       <Key>4.5BuildFurnace</Key>
@@ -36,31 +36,27 @@
     </Record>
     <Record>
       <Key>4.5BuildPipe</Key>
-      <Value>Разместите дуговую печь в подсвеченной области</Value>
+      <Value>Разместите трубу в подсвеченной области</Value>
     </Record>
     <Record>
       <Key>4.5PickUpPipe</Key>
-      <Value>Возьмите активную вентиляцию из ящика</Value>
+      <Value>Возьмите трубу из ящика</Value>
     </Record>
     <Record>
       <Key>4.5PickUpPassiveVent</Key>
-      <Value>Возьмите активную вентиляцию из ящика</Value>
+      <Value>Возьмите пассивную вентиляцию из ящика</Value>
     </Record>
     <Record>
       <Key>4.5BuildPassiveVent</Key>
-      <Value>Разместите композитную дверь #1 в подсвеченной области</Value>
+      <Value>Разместите вентиляцию снаружи в подсвеченной области</Value>
     </Record>
     <Record>
       <Key>4.5BuildPump</Key>
-      <Value>Разместите дуговую печь в подсвеченной области</Value>
+      <Value>Разместите помпу в подсвеченной области</Value>
     </Record>
     <Record>
       <Key>4.5PlaceConsole</Key>
-      <Value>Постройте консоль в выделенном месте</Value>
-    </Record>
-    <Record>
-      <Key>4.5Finishconsole</Key>
-      <Value>Завершите сборку стеклянной двери.</Value>
+      <Value>Разместите консоль в выделенном месте</Value>
     </Record>
     <Record>
       <Key>4.5ConsoleOn</Key>
@@ -68,73 +64,70 @@
     </Record>
     <Record>
       <Key>4.5PickUpMiningBelt</Key>
-      <Value>Возьмите слиток золота из ящика.</Value>
+      <Value>Возьмите пояс шахтера из ящика</Value>
     </Record>
     <Record>
       <Key>4.5EquiptMiningbelt</Key>
-      <Value>Наденьте {THING:ItemMiningBelt}</Value>
+      <Value>Наденьте пояс шахтера</Value>
     </Record>
     <Record>
       <Key>4.5AddOxitetoFurnace</Key>
-      <Value>Добавьте железную руду в дуговую печь</Value>
+      <Value>Добавьте 6 окситов в печь</Value>
       <!--Change to match tutorial-->
     </Record>
     <Record>
       <Key>4.5AddVolatilestoFurnace</Key>
-      <Value>Добавьте железную руду в дуговую печь</Value>
+      <Value>Добавьте 12 летучих газов в печь</Value>
       <!--Change to match tutorial-->
     </Record>
     <Record>
       <Key>5AddCoppertoFurnace</Key>
-      <Value>Добавьте железную руду в дуговую печь</Value>
+      <Value>Добавьте 50 медной руды в печь</Value>
     </Record>
     <Record>
       <Key>4.5AddGoldtoFurnace</Key>
-      <Value>Поместите {THING:ItemIronOre} в печку</Value>
+      <Value>Вставьте 50 золотой руды в печь</Value>
     </Record>
     <Record>
       <Key>4.5HowToMakeSteel</Key>
-      <Value>Закройте Stationpedia</Value>
+      <Value>Посмотрите страницу слитка (Стали) в Станциопедии</Value>
     </Record>
     <Record>
       <Key>4.5AddIrontoFurnace</Key>
-      <Value>Добудьте 30 кусков железной руды</Value>
+      <Value>Добавьте 24 железа</Value>
     </Record>
     <Record>
       <Key>4.5PickUpSteel</Key>
-      <Value>Поднимите активную вентиляцию</Value>
+      <Value>Извлеките и подберите стальной слиток</Value>
     </Record>
     <Record>
       <Key>4.5BuildStationBattery</Key>
-      <Value>Постройте консоль в выделенном месте</Value>
-    </Record>
-    <Record>
-      <Key>4.5TurnAPC1</Key>
-      <Value>Включите ИБП</Value>
+      <Value>Установи Набор (Батарея) в подсвеченном месте</Value>
     </Record>
     <Record>
       <Key>4.5TurnAPC</Key>
-      <Value>Включите ИБП</Value>
+      <Value>Включите ИБП основного питания</Value>
     </Record>
     <Record>
       <Key>4.5Narration22D</Key>
-      <Value>Хорошая работа, Кадет. Вы отремонтировали стены и достроили энергосистему. Это последний шаг Фазы II. Нажмите кнопку &apos;Завершить&apos;, чтобы передать результаты Руководству Станционеров, и мы продолжим.</Value>
+      <Value>Поздравляю - энергетическая система твоей базы завершена! Это последний этап Практического Тестирования, Фаза V.
+Нажми на важную &apos;завершающую&apos; кнопку чтобы отправить твои результаты в Командование Станционеров.</Value>
     </Record>
     <Record>
       <Key>4.5OnButtonPressTaskT1</Key>
-      <Value>Нажмите кнопку чтобы завершить испытание.</Value>
+      <Value>Нажмите важную кнопку чтобы завершить испытание</Value>
     </Record>
     <Record>
       <Key>4.5AddCoppertoFurnace</Key>
-      <Value>Добавьте железную руду в дуговую печь</Value>
+      <Value>Добавьте 50 медной руды в печь</Value>
     </Record>
     <Record>
       <Key>4.5TurnOffVolPump</Key>
-      <Value>Выключите {THING:StructureVolumePump}</Value>
+      <Value>Выключите помпу</Value>
     </Record>
     <Record>
       <Key>4.5OpenMiningbelt</Key>
-      <Value>Наденьте {THING:ItemMiningBelt}</Value>
+      <Value>Откройте Шахтёрский пояс</Value>
     </Record>
     <Record>
       <Key>4.5RemoveDataDisk</Key>
