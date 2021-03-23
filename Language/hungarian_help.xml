@@ -7,25 +7,18 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
     <StationpediaPage>
-      <Key>OrganicPage</Key>
-      <Title>Organikus</Title>
-      <Text>{LIST_OF_FOOD} {LIST_OF_ORGANICS}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>FabricatorPage</Key>
       <Title>Gyártógépek</Title>
       <Text>Ezek az árammal ellátott masinák gyártják le az összes játékbeli tárgyat. Legtöbb esetben {LINK:IngotPage;öntött fémrudak} kellenek, hogy a gépeket a gyártáshoz elegendő {LINK:ReagentPage;reagenssel}  lásd el.
-
-{HEADER:Gyártógépek listája}
-{LIST_OF_FABRICATORS}</Text>
+        {LIST_OF_FABRICATORS}
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>DevicePage</Key>
       <Title>Berendezések</Title>
       <Text>Olyan árammal ellátott szerkezetek, melyek speciális funkciókkal rendelkeznek, mint például logika, atmoszferika kezelése stb. Ugyanúgy kell építeni őket, mint a többi építhető tárgyat.
-
-{HEADER:Berendezések listája}
-{LIST_OF_DEVICES}</Text>
+        {LIST_OF_DEVICES}
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>SmeltingPage</Key>
