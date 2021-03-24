@@ -8661,6 +8661,58 @@
       <Value>Переход на строку А относительно текущей</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBrapz</Key>
+      <Value>Относительный переход на строку c, если abs(a) &lt;= float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrnaz</Key>
+      <Value>Относительный переход на строку c, если abs(a) &gt; float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJal</Key>
+      <Value>Переход на строку a и сохранение номера следующей строки в ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBdseal</Key>
+      <Value>Переход на строку a и сохранение номера следующей строки, если устройство установлено</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBdnsal</Key>
+      <Value>Переход на строку a и сохранение номера следующей строки, если устройство не установлено</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBltal</Key>
+      <Value>Ответвление на строку c, если a &lt; b, и сохранение номера следующей строки в ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgtal</Key>
+      <Value>Ответвление на строку c, если a &gt; b, и сохранение номера следующей строки в ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBleal</Key>
+      <Value>Ответвление на строку c, если a &lt;= b, и сохранение номера следующей строки в ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgeal</Key>
+      <Value>Ответвление на строку c, если a &gt;= b, и сохранение номера следующей строки в ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBeqal</Key>
+      <Value>Ответвление на строку c, если a == b, и сохранение номера следующей строки в ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBneal</Key>
+      <Value>Ответвление на строку c, если a != b, и сохранение номера следующей строки в ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBapal</Key>
+      <Value>Ответвление на строку d, если abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8), и сохранение номера следующей строки в ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnaal</Key>
+      <Value>Ответвление на строку d, если abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8), и сохранение номера следующей строки в ra</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBltzal</Key>
       <Value>Ответвление на строку b, если a &lt; 0, и сохранение номера следующей строки в ra</Value>
     </Record>
