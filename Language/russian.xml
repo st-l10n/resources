@@ -8629,6 +8629,22 @@
       <Value>Регистр = a / b</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandMod</Key>
+      <Value>Регистр = a mod b (примечание: НЕ a % b)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandJ</Key>
+      <Value>Переход на строку a</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBdse</Key>
+      <Value>Ответвление на строку a, если устройство d установлено</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBdns</Key>
+      <Value>Ответвление на строку a, если устройство d не установлено</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBeqz</Key>
       <Value>Ответвление на строку b, если a == 0</Value>
     </Record>
