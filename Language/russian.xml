@@ -4109,6 +4109,18 @@
       <Value>Набор (Кровать)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>StructureLightRoundAngled</Key>
+      <Value>Круглый Светильник (Наклонный)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLightRound</Key>
+      <Value>Круглый Светильник</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLightRoundSmall</Key>
+      <Value>Круглый Светильник (Маленький)</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureSingleBed</Key>
       <Value>Односпальная кровать</Value>
     </RecordThing>
@@ -8627,6 +8639,46 @@
     <Record>
       <Key>ScriptCommandJr</Key>
       <Value>Переход на строку А относительно текущей</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBapzal</Key>
+      <Value>Ответвление на строку c, если abs(a) &lt;= float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnazal</Key>
+      <Value>Ответвление на строку c, если abs(a) &gt; float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSqrt</Key>
+      <Value>Регистр = квадратный корень из a</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandRound</Key>
+      <Value>Регистр = a, округлённое до ближайшего целого числа</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandTrunc</Key>
+      <Value>Регистр = a с удалённой дробной частью</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandCeil</Key>
+      <Value>Регистр = наименьшее целое число больше a</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandFloor</Key>
+      <Value>Регистр = наибольше целое число меньше чем a</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandMax</Key>
+      <Value>Регистр = максимум из a или b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandMin</Key>
+      <Value>Регистр = минимум из a или b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandAbs</Key>
+      <Value>Регистр = абсолютное значение a</Value>
     </Record>
     <Record>
       <Key>ScriptCommandLog</Key>
