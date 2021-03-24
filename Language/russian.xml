@@ -4848,6 +4848,18 @@
       <Value>Собирающий модуль автоматической ракеты</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemWaterPipeMeter</Key>
+      <Value>Набор (Жидкостный манометр)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureWaterPipeMeter</Key>
+      <Value>Жидкостный манометр</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWaterPipeDigitalValve</Key>
+      <Value>Набор (Жидкостный Электровентиль)</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureWaterDigitalValve</Key>
       <Value>Жидкостный Электровентиль</Value>
     </RecordThing>
@@ -8469,6 +8481,10 @@
       <Value>Возвращает количество предметов помеченных к добыче в очереди AIMEe.</Value>
     </Record>
     <Record>
+      <Key>NextWeatherEventTime</Key>
+      <Value>Возвращает в секундах, когда наступит следующее погодное событие.</Value>
+    </Record>
+    <Record>
       <Key>ResearchFilter</Key>
       <Value>Фильтр</Value>
     </Record>
@@ -8483,6 +8499,30 @@
     <Record>
       <Key>ResearchCancel</Key>
       <Value>Отменить</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandL</Key>
+      <Value>Загружает var устройства в регистр.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandS</Key>
+      <Value>Записывает значение регистра в var на устройстве.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSB</Key>
+      <Value>Записывает значение регистра в var на всех выходных сетевых устройствах с предоставленным типом хеша.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandLS</Key>
+      <Value>Загружает слот переменной устройства в регистр.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandAlias</Key>
+      <Value>Метки регистра или ссылка на устройство с именем, ссылки на устройства также влияют на то, что показано на винтах на основании IC.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandDefine</Key>
+      <Value>Создает метку, которая будет заменена на протяжении всей программы указанным значением.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandMove</Key>
