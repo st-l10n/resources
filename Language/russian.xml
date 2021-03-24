@@ -1034,7 +1034,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemHydroponicTray</Key>
-      <Value>Гидропонная установка</Value>
+      <Value>Набор (Гидропонный Лоток)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemIce</Key>
@@ -4742,7 +4742,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureIceCrusher</Key>
-      <Value>Дробилка льда</Value>
+      <Value>Измельчитель льда</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitIceCrusher</Key>
@@ -8585,6 +8585,14 @@
       <Value>Регистр = 1, если a != b, иначе 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandSap</Key>
+      <Value>Регистр = 1, если abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8), иначе 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSna</Key>
+      <Value>Регистр = 1, если abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8), иначе 0</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandSltz</Key>
       <Value>Регистр = 1, если a &lt; 0, иначе 0</Value>
     </Record>
@@ -8607,6 +8615,14 @@
     <Record>
       <Key>ScriptCommandSnez</Key>
       <Value>Регистр = 1, если a != 0, иначе 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSapz</Key>
+      <Value>Регистр = 1, если |a| &lt;= float.epsilon * 8, иначе 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSnaz</Key>
+      <Value>Регистр = 1, если |a| &gt; float.epsilon, иначе 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandAnd</Key>
@@ -8649,16 +8665,140 @@
       <Value>Ответвление на строку a, если устройство d не установлено</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBlt</Key>
+      <Value>Ответвление на строку c, если a &lt; b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgt</Key>
+      <Value>Ответвление на строку c, если a &gt; b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBle</Key>
+      <Value>Ответвление на строку c, если a &lt;= b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBge</Key>
+      <Value>Ответвление на строку c, если a &gt;= b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBeq</Key>
+      <Value>Ответвление на строку c, если a == b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBne</Key>
+      <Value>Ответвление на строку c, если a != b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBap</Key>
+      <Value>Ответвление на строку d, если abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBna</Key>
+      <Value>Ответвление на строку d, если abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBltz</Key>
+      <Value>Ответвление на строку b, если a &lt; 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgez</Key>
+      <Value>Ответвление на строку b, если a &gt;= 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBlez</Key>
+      <Value>Ответвление на строку b, если a &lt;= 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgtz</Key>
+      <Value>Ответвление на строку b, если a &gt; 0</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBeqz</Key>
       <Value>Ответвление на строку b, если a == 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBnez</Key>
+      <Value>ответвление на строку b, если a != 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBapz</Key>
+      <Value>Ответвление на строку c, если abs(a) &lt;= float.epsilon * 8</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnaz</Key>
+      <Value>Ответвление на строку c, если abs(a) &gt; float.epsilon * 8</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandJr</Key>
       <Value>Переход на строку А относительно текущей</Value>
     </Record>
     <Record>
       <Key>ScriptCommandJr</Key>
       <Value>Переход на строку А относительно текущей</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrdse</Key>
+      <Value>Относительный переход на строку a, если устройство не установлено</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrdns</Key>
+      <Value>Относительный переход на строку a, если устройство не установлено</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrlt</Key>
+      <Value>Относительный переход на строку c, если a &lt; b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrgt</Key>
+      <Value>относительный переход на строку c, если a &gt; b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrle</Key>
+      <Value>Относительный переход на строку c, если a &lt;= b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrge</Key>
+      <Value>Относительный переход на строку c, если a &gt;= b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBreq</Key>
+      <Value>Относительный переход на строку c, если a == b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrne</Key>
+      <Value>Относительный переход на строку c, если a != b</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrap</Key>
+      <Value>Относительный переход на строку d, если abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrna</Key>
+      <Value>Относительный переход на строку d, если abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrltz</Key>
+      <Value>Относительный переход на строку b, если a &lt; 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrgez</Key>
+      <Value>Относительный переход на строку b, если a &gt;= 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrlez</Key>
+      <Value>Относительный переход на строку b, если a &lt;= 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrgtz</Key>
+      <Value>Относительный переход на строку b, если a &gt; 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBreqz</Key>
+      <Value>Относительный переход на строку b, если a == 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBrnez</Key>
+      <Value>Относительный переход на строку b, если a != 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrapz</Key>
