@@ -8657,6 +8657,30 @@
       <Value>Переход на строку А относительно текущей</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandBltzal</Key>
+      <Value>Ответвление на строку b, если a &lt; 0, и сохранение номера следующей строки в ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgezal</Key>
+      <Value>Ответвление на строку b, если a &gt;= 0, и сохранение номера следующей строки в ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBlezal</Key>
+      <Value>Ответвление на строку b, если a &lt;= 0, и сохранение номера следующей строки в ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBgtzal</Key>
+      <Value>Ответвление на строку b, если a &gt; 0, и сохранение номера следующей строки в ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBeqzal</Key>
+      <Value>Ответвление на строку b, если a == 0, и сохранение номера следующей строки в ra</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandBnezal</Key>
+      <Value>Ответвление на строку b, если a != 0, и сохранение номера следующей строки в ra</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandBapzal</Key>
       <Value>Ответвление на строку c, если abs(a) &lt;= float.epsilon * 8</Value>
     </Record>
