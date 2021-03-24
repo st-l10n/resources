@@ -3405,7 +3405,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureElectrolyzer</Key>
       <Value>Electrolyzer</Value>
-      <Description>The &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec-designed}&lt;/color&gt;-designed Electrolyzer splits water into hydrogen and oxygen. Employing unknown proprietary technology, the device uses water's latent heat as the energy to drive the electrosis process. If there is a downside to this near-miraculous fission, it's that the device is limited by the quantity of power available, which is used to maintain the temperature output. In other words, the machine works best with hot gas.</Description>
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec-designed}&lt;/color&gt; Electrolyzer splits water into hydrogen and oxygen. Employing unknown proprietary technology, the device uses water's latent heat as the energy to drive the electrosis process. If there is a downside to this near-miraculous fission, it's that the device is limited by the quantity of power available, which is used to maintain the temperature output. In other words, the machine works best with hot gas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureElevatorShaft</Key>
@@ -3975,7 +3975,7 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
     <RecordThing>
       <Key>StructureAdvancedFurnace</Key>
       <Value>Advanced Furnace</Value>
-      <Description>The advanced furnace comes with </Description>
+      <Description>The advanced furnace comes with integrated inlet and outlet pumps for controlling the unit's internal pressure.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAdvancedFurnace</Key>
@@ -5687,7 +5687,7 @@ If the KoolAuger is full, it will not accept any further ice until the gas or li
     <RecordThing>
       <Key>StructureLiquidPipeRadiator</Key>
       <Value>Liquid Pipe Radiator</Value>
-      <Description>A simple heat exchanger, pipe radiators can be placed on pipes to shed or gain heat, depending on the temperature of the surrounding atmosphere. If the atmosphere is hotter, heat will be added the gas within the pipe network, and visa versa if colder. In a vacuum, heat will be radiated. 
+      <Description>A simple heat exchanger, pipe radiators can be placed on pipes to shed or gain heat, depending on the temperature of the surrounding atmosphere. If the atmosphere is hotter, heat will be added to the liquid within the pipe network, and visa versa if colder. In a vacuum, heat will be radiated. 
 The speed of heat gain or loss will depend on the liquid in question. Adding multiple radiators will speed up heat transfer.</Description>
     </RecordThing>
     <RecordThing>
@@ -5813,7 +5813,7 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>StructureRocketModuleSilo</Key>
       <Value>Automated Rocket Silo Module</Value>
-      <Description>The &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; autononmous silo module provides storage for &lt;color=#0080FFFF&gt;{LINK:OrePage;ores}&lt;/color&gt; collected by the {THING:StructureRocketModuleMiningOre}, &lt;color=#0080FFFF&gt;{LINK:OrePage;ices}&lt;/color&gt; collected by the {THING:StructureModularRocketIceMining} and 'space junk' salvaged by the {THING:StructureRocketModuleMiningJunk}. In other words, it holds 'medium-sized dry goods'.
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; autononmous silo module provides storage for &lt;color=#0080FFFF&gt;{LINK:OrePage;ores}&lt;/color&gt; collected by the {THING:StructureRocketModuleMiningOre}, &lt;color=#0080FFFF&gt;{LINK:OrePage;ices}&lt;/color&gt; collected by the {THING:StructureModularRocketIceMining} and 'space junk' salvaged by the {THING:StructureModularRocketScrapMining} . In other words, it holds 'medium-sized dry goods'.
 The silo module must be connected to a mining or salvage module by a correctly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for material to pass into the silo.
 The silo module must also be powered when on the launch pad. It is 'on' by default, but can be turned off with logic if needed. 
 The module can also be attached to a {THING:StructureChuteInlet} in order to connect it to &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;import/export}&lt;/color&gt; networks.
@@ -5908,7 +5908,7 @@ It has two modes - active (1), and inactive (0), which should only be triggered 
     <RecordThing>
       <Key>StructureModularRocketScrapMining</Key>
       <Value>Automated Rocket Salvage Module</Value>
-      <Description>The so-called &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt;'space junk' collector module is really a high-end automated salvaging unit, purpose designed to interface with the &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; autonomous rocket. It sweeps the local region of space for wrecks, abandoned space shipments, and other detritus. As such, it returns a fairly random assortment of items. 
+      <Description>The so-called &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; 'space junk' collector module is really a high-end automated salvaging unit, purpose designed to interface with the &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; autonomous rocket. It sweeps the local region of space for wrecks, abandoned space shipments, and other detritus. As such, it returns a fairly random assortment of items. 
 The module must be connected to a {THING:StructureRocketModuleSilo} by a properly placed {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}, in order for ore to pass from the collector unit into the silo.</Description>
     </RecordThing>
     <RecordThing>
