@@ -5971,6 +5971,16 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
       <Value>Liquid Pipe Analyzer</Value>
       <Description />
     </RecordThing>
+    <RecordThing>
+      <Key>ItemKitModularRocketGasMining</Key>
+      <Value>Kit (Automated Rocket Gas Mining Module)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureModularRocketGasMining</Key>
+      <Value>Automated Rocket Gas Mining Module</Value>
+      <Description />
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -9697,6 +9707,10 @@ It is an unwavering universal law that anything higher than 11 will be purple. T
     <Record>
       <Key>ResearchCancel</Key>
       <Value>Cancel</Value>
+    </Record>
+     <Record>
+      <Key>ServerReadyString</Key>
+      <Value>Server can now be started.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandL</Key>
