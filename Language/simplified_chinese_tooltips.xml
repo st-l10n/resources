@@ -14,12 +14,32 @@
       <Value>需要注意</Value>
     </Record>
     <Record>
+      <Key>StatusIconHydrationDesc</Key>
+      <Value>水分正在下降</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHydrationKey</Key>
+      <Value>水分不足</Value>
+    </Record>
+    <Record>
+      <Key>HydrationCaution</Key>
+      <Value>注意水分</Value>
+    </Record>
+    <Record>
+      <Key>HydrationCritical</Key>
+      <Value>水分极低</Value>
+    </Record>
+    <Record>
       <Key>StatusIconToxinCritical</Key>
       <Value>处于紧急状态</Value>
     </Record>
     <Record>
       <Key>StatusIconOxygenName</Key>
       <Value>氧气供应</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconOxygenDesc</Key>
+      <Value>你所呼吸的气体正在对你的肺部造成损伤。</Value>
     </Record>
     <Record>
       <Key>StatusIconOxygenWarning</Key>
@@ -127,11 +147,15 @@
     </Record>
     <Record>
       <Key>StatusIconHydrationName</Key>
-      <Value>当前水合物</Value>
+      <Value>当前口渴值</Value>
     </Record>
     <Record>
       <Key>StatusIconUnconsciousName</Key>
       <Value>失去意识</Value>
+    </Record>
+    <Record>
+      <Key>DeconstructCanisterFull</Key>
+      <Value>无法拆除。容器必须是空的</Value>
     </Record>
   </ScreenSpaceToolTips>
 </Language>

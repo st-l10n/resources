@@ -194,6 +194,21 @@
       <Value>钴</Value>
       <Unit>g</Unit>
     </RecordReagent>
+    <RecordReagent>
+      <Key>Corn</Key>
+      <Value>玉米</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Biomass</Key>
+      <Value>生物质</Value>
+      <Unit/>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Soy</Key>
+      <Value>大豆</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
   </Reagents>
   <Gases>
     <Record>
@@ -3977,6 +3992,22 @@
       <Value>套件(气象站)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemBiomass</Key>
+      <Value>生物质</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureHydroponicsTrayData</Key>
+      <Value>水培装置</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCharcoal</Key>
+      <Value>木炭</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitSolarPanelReinforced</Key>
+      <Value>套件 (重型太阳能电池板)</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemAstroloySheets</Key>
       <Value/>
     </RecordThing>
@@ -4411,7 +4442,7 @@
     </Record>
     <Record>
       <Key>LiquidCanister</Key>
-      <Value>泥土罐</Value>
+      <Value>液体罐</Value>
     </Record>
     <Record>
       <Key>HandSlot</Key>
@@ -4850,6 +4881,10 @@
       <Value>继续</Value>
     </Record>
     <Record>
+      <Key>KitCategory</Key>
+      <Value>施工套件</Value>
+    </Record>
+    <Record>
       <Key>DoorCategory</Key>
       <Value>门和舱门</Value>
     </Record>
@@ -4971,7 +5006,7 @@
     </Record>
     <Record>
       <Key>Plants</Key>
-      <Value>推进剂</Value>
+      <Value>植物</Value>
     </Record>
     <Record>
       <Key>AirContitioningAtmos</Key>
@@ -5140,6 +5175,10 @@
     <Record>
       <Key>LoulanShortDesc</Key>
       <Value>楼兰，在到达这颗星球后你会发现它拥有可呼吸的大气层，也有足够的气压来维持生命——但却鲜有生命存在。这个被沙子覆盖的巨型行星位于卡冈图雅星系中，每天都在越来越接近星系中心的黑洞。虽然被抛弃了，也不再覆盖绿色或充满水资源，这颗星球仍然有一个可用的大气层。你的任务就是搜刮这片荒地，以获得所需的材料和资源，从而生存在这个永恒的沙漠中。</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaVenus</Key>
+      <Value>金星</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaMars</Key>
@@ -8491,12 +8530,24 @@ abs()--绝对值运算函数 max()--最大值函数</Value>
       <Value>下一教程</Value>
     </Record>
     <Record>
+      <Key>SettingsMineableRenderDistance</Key>
+      <Value>矿物渲染距离</Value>
+    </Record>
+    <Record>
       <Key>ControlMouseScrollDisc</Key>
       <Value>物品选择</Value>
     </Record>
     <Record>
+      <Key>ControlUseItemDisc</Key>
+      <Value>使用物品</Value>
+    </Record>
+    <Record>
+      <Key>ControlMineDisc</Key>
+      <Value>开采矿石</Value>
+    </Record>
+    <Record>
       <Key>ControlSecondaryEatDisc</Key>
-      <Value>地球</Value>
+      <Value>食用</Value>
     </Record>
     <Record>
       <Key>ShowPreviousVideoText</Key>
@@ -8512,7 +8563,15 @@ abs()--绝对值运算函数 max()--最大值函数</Value>
     </Record>
     <Record>
       <Key>AdvancedTutorialButton</Key>
-      <Value>高级</Value>
+      <Value>旧版/进阶</Value>
+    </Record>
+    <Record>
+      <Key>BasicButtonTutorial</Key>
+      <Value>基础</Value>
+    </Record>
+    <Record>
+      <Key>NextTutoiralButtonFail</Key>
+      <Value>无法加载下一个教程。请返回菜单。</Value>
     </Record>
     <Record>
       <Key>TravelCategoryKey</Key>
@@ -8520,7 +8579,7 @@ abs()--绝对值运算函数 max()--最大值函数</Value>
     </Record>
     <Record>
       <Key>FurnitureCategoryKey</Key>
-      <Value>图片</Value>
+      <Value>家具</Value>
     </Record>
     <Record>
       <Key>CartidgeCategoryKey</Key>
@@ -8528,7 +8587,7 @@ abs()--绝对值运算函数 max()--最大值函数</Value>
     </Record>
     <Record>
       <Key>WeatherCategoryKey</Key>
-      <Value>其他</Value>
+      <Value>天气</Value>
     </Record>
     <Record>
       <Key>HandToolsCategoryKey</Key>
@@ -8565,6 +8624,10 @@ abs()--绝对值运算函数 max()--最大值函数</Value>
     <Record>
       <Key>FabricatorCategoryKey</Key>
       <Value>装配机器</Value>
+    </Record>
+    <Record>
+      <Key>IngotsCategoryKey</Key>
+      <Value>铸锭</Value>
     </Record>
     <Record>
       <Key>OreCategoryKey</Key>
@@ -9913,7 +9976,7 @@ abs()--绝对值运算函数 max()--最大值函数</Value>
     </Record>
     <Record>
       <Key>Lead</Key>
-      <Value>铅Lead</Value>
+      <Value>铅</Value>
     </Record>
     <Record>
       <Key>Silicon</Key>
