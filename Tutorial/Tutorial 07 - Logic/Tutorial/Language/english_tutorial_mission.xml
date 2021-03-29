@@ -10,31 +10,32 @@
 		</Record>
 		<Record>
 			<Key>TutoiralLogicDescription</Key><!--This is the description that appers in the menu-->
-			<Value>Logic is a game of chess every move must be calculated. This desricption shows the oppisit of this.</Value>
+			<Value>Enhance your skills with basic logic systems.</Value>
 		</Record>
 		<Record>
 			<Key>TutoiralAtmosphericsSubTitle</Key>
-			<Value>Practical Training: Stage IV</Value>
+			<Value>Practical Training: S circuitstage IV</Value>
 		</Record>
 		<Record>
 			<Key>IntoTutoiralLogicDescription</Key>
-			<Value>Welcome Cadet. Stationeer Command wants to test your knowledge of simple logic. Let's use logic to control lights</Value>
+			<Value>Welcome Cadet. Stationeer Command wants to confirm that you understand basic logic circuit design.
+We'll start with controlling lighting.</Value>
 		</Record>
 		<Record>
 			<Key>8Narration0D</Key>
-			<Value>All logic systems uses two values: 0 and 1. Settings include on/off, open/close and lock/unlock. You'll use the switch to set on/off values.</Value>
+			<Value>Logic systems are based around two values: 0 and 1. These can be used to set states on devices like 'on/off', 'open/close' and 'lock/unlock'. Your first goal is to use a switch to set 'on/off' values on a light.</Value>
 		</Record>
 		<Record>
 			<Key>8ConstructLever</Key>
-			<Value>Place logic switch in highlighted position</Value>
+			<Value>Place lever in highlighted position</Value>
 		</Record>
 		<Record>
 			<Key>8Narration1D</Key>
-			<Value>Devices have power and data ports - data ports transmit info about their states. Data and power travel on the same cable network</Value>
+			<Value>Most ODA devices have two ports: power and data. Data ports transmit information about a device's current state, using the same network as power. So the next step is to connect your switch to the cable network.</Value>
 		</Record>
 		<Record>
 			<Key>8ConstructCable</Key>
-			<Value>Place Cable in highlighted position.</Value>
+			<Value>Place cable in highlighted position.</Value>
 		</Record>
 		<Record>
 			<Key>8ConstructCable2</Key>
@@ -42,7 +43,7 @@
 		</Record>
 		<Record>
 			<Key>8Narration2D</Key>
-			<Value>Like it's name suggests, a logic reader reads logic values from a given device.</Value>
+			<Value>Like its name suggests, a logic reader reads logic values from a given device. Place one in the highlighted position to read data from the switch. Note that logic flows in one direction only.</Value>
 		</Record>
 		<Record>
 			<Key>8ConstructReader</Key>
@@ -58,7 +59,7 @@
 		</Record>
 		<Record>
 			<Key>8Narration4D</Key>
-			<Value>Everything's connected. Now it's time to program your logic devices. Start with the reader. You'll need a screw driver to adjust it. Set the device it reads to 'Logic switch'. Set  the value it's reading to 'On/Off'.</Value>
+			<Value>Everything's connected. Now it's time to program your logic devices. Start with the logic reader - and set it to . You'll need a screw driver to adjust it. Set the input to 'Logic switch'. Then set its variable to 'Open'.</Value>
 		</Record>
 		<Record>
 			<Key>8LogicReaderLogicInput1</Key>
@@ -66,11 +67,11 @@
 		</Record>
 		<Record>
 			<Key>8LogicReaderLogic1</Key>
-			<Value>Set logic reader value to 'open/closed'</Value>
+			<Value>Set logic reader variable to 'Open'</Value>
 		</Record>
 		<Record>
 			<Key>8Narration5D</Key>
-			<Value>Now program your logic writer. You'll need to set its input to 'Logic reader', so it knows what device to read. Set the output to 'Light' and the variable to 'On/off', so it knows what it's controlling.</Value>
+			<Value>Now program your logic writer. You'll need to set its input to 'Logic reader', so it knows what device to read. Set the output to 'Light' and the variable to 'On', so it knows what it's ... doing.</Value>
 		</Record>
 		<Record>
 			<Key>8LogicWritterInput1</Key>
@@ -86,7 +87,7 @@
 		</Record>
 		<Record>
 			<Key>8LogicWritterLogic1</Key>
-			<Value>Set logic writer variable to 'On/off'</Value>
+			<Value>Set logic writer variable to 'On'</Value>
 		</Record>
 		<Record>
 			<Key>8Narration6D</Key>
@@ -130,7 +131,7 @@
 		</Record>
 		<Record>
 			<Key>8Narration10D</Key>
-			<Value>As you've turned off the writer, you can turn reset the logic switch without turning off your lights.</Value>
+			<Value>As you've turned off the writer, you can now reset the logic switch without turning off your lights.</Value>
 		</Record>
 		<Record>
 			<Key>8Closelever</Key>
@@ -150,19 +151,19 @@
 		</Record>
 		<Record>
 			<Key>8BatchWriterOutput</Key>
-			<Value>Set 'Wall Light' as prefab hash on batch writer</Value>
+			<Value>Set batch writer output to 'Wall Light'</Value>
 		</Record>
 		<Record>
 			<Key>8Narration13D</Key>
-			<Value>Now you can set 'logic reader' as the input device on the batch writer. You've already set the prefab hash for the light, so now jsut set 'on/off' as the variable.</Value>
+			<Value>Now set the batch writer's input to 'logic reader', and the variable it sets as 'On'.</Value>
 		</Record>
 		<Record>
 			<Key>8BatchWriterInput</Key>
-			<Value>Set batch writer input device as 'Logic reader'</Value>
+			<Value>Set batch writer input to 'Logic reader'</Value>
 		</Record>
 		<Record>
 			<Key>8BatchWriterLogicType</Key>
-			<Value>Set batch writer output variable as 'On/Off'</Value>
+			<Value>Set batch writer variable as 'On'Let's use logic to fix that. </Value>
 		</Record>
 		<Record>
 			<Key>8Narration14D</Key>
@@ -186,7 +187,7 @@
 		</Record>
 		<Record>
 			<Key>8Narration16D</Key>
-			<Value>Great work, Cadet - you've mastered basic logic. But to transmit your results, you're going to need to get out of this room, and the doors are locked. First, turn off the logic units.</Value>
+			<Value>Great work, Cadet - you've mastered basic logic. But to transmit your results, you're going to need to get out of this room, and the doors are locked. Let's use logic to fix that. First, turn off the logic units.</Value>
 		</Record>
 		<Record>
 			<Key>8TurnOffBatchWriter</Key>
@@ -202,7 +203,7 @@
 		</Record>
 		<Record>
 			<Key>8Narration18D</Key>
-			<Value>Program your original logic writer to write to the door's 'open/closed' variable</Value>
+			<Value>Program your original logic writer to wrsite to the door's 'open/closed' variable</Value>
 		</Record>
 		<Record>
 			<Key>8BatchWriterOutput2</Key>
