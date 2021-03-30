@@ -131,6 +131,76 @@ If you look directly at a structure that is incomplete you will get information 
     </StationpediaPage>
 
     <StationpediaPage>
+      <Key>TemperatureControlPage</Key>
+      <Title>Temperature Control</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+<Text>In order to control the temperature of a system, we have to either add heat to it thus increasing its temperature or remove heat from it thus cooling it down, that's the basic idea of temperature control. Devices that achieve this goal for you are {THING:ItemWallHeater}, {THING:ItemWallCooler}, {THING:StructurePipeRadiator}, and {THING:StructureAirConditioner}.
+
+NOTE: There are many methods of temperature control. Some involve none of the devices mentioned. Here, we are covering the basics.
+
+It is important to understand your environment before you install any type of temperature control. The gas or liquid volume is an important factor to when choosing your method of temperature control. A {THING:StructureTankSmall} can hold up to 6000L, while a {THING:StructureTankBig} can hold up to 50,000L, which means that if both are full, the small tank will react faster to temperature changes. A room is a space that can hold a certain amount of gas. The bigger it is the more volume it will be able to hold, so the same rules generally apply to tanks and rooms.
+
+{HEADER:PIPE NETWORKS}
+A pipe network is one or more pipe segments connected to each other with no separation at any point. A pipe network shares the same atmosphere everywhere along the pipe, no matter how large it is. If you change the temperature at one end of the network, the furthest end will experience the same change immediately with no delay.
+
+Adding devices to a network may split it into two different networks. For instance, adding a {THING:StructureVolumePump} to a pipe network will split the network into two networks: one before the pump, and one after it.
+
+Use the {THING:ItemTablet} with the {THING:CartridgeAtmosAnalyser} installed to see information about the contents of any pipe network.
+
+{HEADER:RADIATORS}
+Manufactured in the pipe bender, a {THING:StructurePipeRadiator} will help you exchange heat between pipes and their surrounding environment. They work on both insulated pipes and pipes, as well as having liquid variants. 
+
+In normal conditions a pipe segment will exchange heat with its surrounding environment, but adding a radiator to that pipe segment will speed up the process greatly. A pipe segment will keep exchanging heat with the surrounding atmosphere until both equalize in temperature.
+
+{HEADER:PASSIVE COOLING}
+You can cool or heat any environment by using a {THING:StructurePipeRadiator} to exchange heat between two atmospheres. An example of this would be to place a pipe on the wall, fill it with gas, and place radiators on either side of the pipe. Now the two atmospheres will start exchanging temperature.
+
+{HEADER:WALL HEATER}
+The {THING:ItemWallHeater} is a simple device that can be installed on a wall or a frame and connected to power. When switched on, it will start heating the surrounding environment. It consumes 1010W of power and can be controlled by logic chips to run when the temperature hits a certain level.
+
+{HEADER:WALL COOLER}
+The {THING:ItemWallCooler} complements the wall heater, which can only raise the temperature. The wall cooler functions by drawing heat from the surrounding atmosphere and adding that heat into its pipe network. In order to run the wall cooler properly, you will need to connect pipes to the wall cooler and fill the connected pipe network with any type of gas. The gas's heat capacity and volume will determine how fast it reacts to temperature changes. 
+
+The higher the difference in temperature between the gas stored in the pipes and the room, the less efficient the wall cooler will be. So to keep the wall cooler running at an acceptable efficiency you will need to get rid of the heat that accumulates in the pipes connected to it. A common practice would be to run the pipes to the outside and use radiators on the outside section of the pipes to get rid of the heat.
+
+The less efficient the wall cooler, the less power it consumes. It will consume 1010W at max efficiency. The wall cooler can be controlled by logic chips to run when the temperature hits a certain degree.
+
+If the wall cooler is flashing an error then it is missing one of the following:
+- Pipe connection to the wall cooler.
+- Gas in the connected pipes, or pressure is too low.
+- Atmosphere in the surrounding environment or pressure is too low.
+
+{HEADER:AIR CONDITIONER}
+The {THING:StructureAirConditioner} in its basic form works just like the wall cooler and can benefit from the same designs. However it is more powerful. It cools faster and uses considerably more power depending on the situation, thus making it more suitable to deal with large volumes and large areas. It can heat or cool depending on the setting.
+
+AIR CONDITIONER: HOW IT WORKS
+The air conditioner has 3 pipe connections (Input, Output, Waste). Gas goes in through the input side, then, depending on the setting, heat is added or removed from the incoming gas, and added to the waste pipe. The output gas will then exit through the output connection, cooler or hotter depending on the setting.
+You can connect the input pipe to the output pipes (you can see if they are connected if they both have the same network number): this will give you more control over the temperature, since the gas won't reach the target temperature after the first pass. It will take time and energy to remove or add heat from any gas.
+
+The way you install and set up your air conditioner depends on what you are trying to cool or heat up. For a room, you will need a passive vent inside the room connected to the air conditioner's input and output, while the waste pipe has to be filled with a coolant gas. 
+
+The air conditioner does not have to be inside the room. The only part of this setup that has to be in the room is the passive vent which will circle the room's atmosphere through to the air conditioner to be cooled or heated. 
+
+You can use a single air conditioner to do both heating and cooling. You just need to change the target temperature setting on the panel. However, if you want to automate cooling and heating at the same time you will need one air conditioner for cooling and another one for heating, because the setting on the panel can only be changed manually.
+
+Setting up more than one air conditioner on the same pipe network can be useful if you need things to go faster or if you need to use some for heating and others for cooling. Do this by connecting the inputs and the outputs of the air conditioners together and having them all share the same pipe network for their inputs and outputs. The waste pipe network can also be shared between them, but it has to be separate from the input/output pipe network. The same idea applies when using the air conditioner to control the temperature of tanks. However, instead of using a passive vent, you will need to connect the tank to the air conditioner directly.
+
+AIR CONDITIONER: KEEP IN MIND
+- The greater the difference in temperature between the input pipe and the waste pipe, the more power the air conditioner will use
+- The power consumed by the air conditioner can exceed 5kW, therefore using heavy cables to power up air conditioners is recommended.
+- Running the waste pipe outside and equalizing it with the outside atmosphere isn't always the best option: the gas you put inside of it can be applied somewhere else in your base.
+
+AIR CONDITIONER: BASE TEMPERATURE CONTROL
+There are many ways to control the temperature of your base using air conditioners - this is one way of achieving this goal:
+Step 1: Run a single pipe network around your base, and install passive vents connected to this pipe in every room you wish to be controlled by this setup. This is 'Network A'
+Step 2: Connect 'Network A' to an air conditioner's input and output.
+Step 3: Connect the waste pipe to a different network, and run it to the outside. Install radiators on this network.
+This is the basic setup. To automate it you will need a pipe analyzer on Network A, then read the temperature and run your air conditioner(s) accordingly.
+Good luck, Cadet!
+      </Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
       <Key>GasPage</Key>
       <Title>Gases</Title>
       <Text>These are chemical gases of certain types.{LIST_OF_GASES}
