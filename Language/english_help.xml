@@ -35,7 +35,8 @@
         <StationpediaPage>
       <Key>CartridgePage</Key>
       <Title>Cartridges</Title>
-      <Text>{LIST_OF_CARTRIDGES}</Text>
+      <Text>These can be added to {THING:ItemTablet} or {THING:ItemAdvancedTablet} to perform different diagnostic functions.
+{LIST_OF_CARTRIDGES}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>StructurePage</Key>
@@ -91,7 +92,7 @@
     <StationpediaPage>
       <Key>ImportExportPage</Key>
       <Title>Import/Export and Chutes</Title>
-      <Text>These are Structures, typically powered, that have specialist functions including Logic, Atmospherics, and more. They are constructed in the same way as other structures.
+      <Text>These are structures, typically powered, that are able to receive and output other items, or assist this. Most have specialist functions including {LINK:LogicUnitPage;logic}, {LINK:AtmosphericPage;atmospherics}, and more. They are constructed in the same way as other structures.
         {LIST_OF_IMPORTEXPORT}
       </Text>
     </StationpediaPage>
@@ -141,7 +142,7 @@ NOTE: There are many methods of temperature control. Some involve none of the de
 It is important to understand your environment before you install any type of temperature control. The gas or liquid volume is an important factor to when choosing your method of temperature control. A {THING:StructureTankSmall} can hold up to 6000L, while a {THING:StructureTankBig} can hold up to 50,000L, which means that if both are full, the small tank will react faster to temperature changes. A room is a space that can hold a certain amount of gas. The bigger it is the more volume it will be able to hold, so the same rules generally apply to tanks and rooms.
 
 {HEADER:PIPE NETWORKS}
-A pipe network is one or more pipe segments connected to each other with no separation at any point. A pipe network shares the same atmosphere everywhere along the pipe, no matter how large it is. If you change the temperature at one end of the network, the furthest end will experience the same change immediately with no delay.
+A pipe network is one or more pipe segments connected to each other with no separation at any point. A pipe network shares the same atmosphere everywhere along the pipe, no matter how large it is. If you change the temperature or pressure at one end of the network, the furthest end will experience the same change immediately with no delay.
 
 Adding devices to a network may split it into two different networks. For instance, adding a {THING:StructureVolumePump} to a pipe network will split the network into two networks: one before the pump, and one after it.
 
@@ -153,7 +154,7 @@ Manufactured in the pipe bender, a {THING:StructurePipeRadiator} will help you e
 In normal conditions a pipe segment will exchange heat with its surrounding environment, but adding a radiator to that pipe segment will speed up the process greatly. A pipe segment will keep exchanging heat with the surrounding atmosphere until both equalize in temperature.
 
 {HEADER:PASSIVE COOLING}
-You can cool or heat any environment by using a {THING:StructurePipeRadiator} to exchange heat between two atmospheres. An example of this would be to place a pipe on the wall, fill it with gas, and place radiators on either side of the pipe. Now the two atmospheres will start exchanging temperature.
+You can cool or heat any environment by using a {THING:StructurePipeRadiator} to exchange heat between two atmospheres. An example of this would be to place a pipe on the wall, fill it with gas, and place radiators on the pipe. Now the two atmospheres of the pipe and the room will exchange temperature until their environments equalize.
 
 {HEADER:WALL HEATER}
 The {THING:ItemWallHeater} is a simple device that can be installed on a wall or a frame and connected to power. When switched on, it will start heating the surrounding environment. It consumes 1010W of power and can be controlled by logic chips to run when the temperature hits a certain level.
@@ -210,7 +211,7 @@ Good luck, Cadet!
     <StationpediaPage>
       <Key>OrePage</Key>
       <Title>Ores</Title>
-      <Text>These are Items that are {LINK:MiningPage;mined} and can often be {LINK:SmeltingPage;smelted}. You can also get mixed ore by recycling items in the {THING:StructureRecycler} and then passing it through the {THING:StructureCentrifuge} which will break it into {LINK:OrePage;ore} for {LINK:SmeltingPage;smelting}.
+      <Text>These are items that are {LINK:MiningPage;mined} and can often be {LINK:SmeltingPage;smelted}. You can also get mixed ore by recycling items in the {THING:StructureRecycler} and then passing it through the {THING:StructureCentrifuge} which will break it into {LINK:OrePage;ore} for {LINK:SmeltingPage;smelting}.
         There are some ores that will melt when exposed to sunlight or heat and produce {LINK:GasPage;gases}. For example {THING:ItemIce} melts into {GAS:Water} and {GAS:Oxygen}. Be careful to keep these out of heat or sunlight until you actually want them to melt.{LIST_OF_ORES}
       </Text>
     </StationpediaPage>
@@ -218,7 +219,7 @@ Good luck, Cadet!
     <StationpediaPage>
       <Key>IngotPage</Key>
       <Title>Ingots</Title>
-      <Text>These are Items that are typically made from {LINK:SmeltingPage;Smelting} {LINK:OrePage;ores}.
+      <Text>These are items that are typically made from {LINK:SmeltingPage;Smelting} {LINK:OrePage;ores} for use in {LINK:FabricatorPage;fabricators}.
 
 {LIST_OF_INGOTS}
       </Text>
@@ -227,7 +228,7 @@ Good luck, Cadet!
     <StationpediaPage>
       <Key>ToolPage</Key>
       <Title>Tools</Title>
-      <Text>These are Items that can fit in a specialist tool slot, and are used for {LINK:ConstructionPage;Construction} and other tasks.
+      <Text>These are items that can fit in a specialist tool slot, and are used for {LINK:ConstructionPage;Construction} and other tasks.
 
 {LIST_OF_TOOLS}
       </Text>

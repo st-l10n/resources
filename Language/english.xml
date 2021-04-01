@@ -1765,14 +1765,18 @@ Note that some &lt;color=#0080FFFF&gt;{LINK:GasPage;gases}&lt;/color&gt; are bet
     <RecordThing>
       <Key>StructureAreaPowerControl</Key>
       <Value>Area Power Control</Value>
-      <Description>An Area Power Control (APC) has three main functions. 
-it's primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage. Note that an APC requires a battery to stabilize power draw. It also has two variants, each allowing power to flow in one direction only.</Description>
+      <Description>An Area Power Control (APC) has three main functions: 
+Its primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. 
+APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network.
+Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage. Note that an APC requires a battery to stabilize power draw. It also has two variants, each allowing power to flow in one direction only.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAreaPowerControlReversed</Key>
       <Value>Area Power Control</Value>
       <Description>An Area Power Control (APC) has three main functions. 
-Its primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage. Note that an APC requires a battery to stabilize power draw. It also has two variants, each allowing power to flow in one direction only.</Description>
+Its primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. 
+APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. 
+Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage. Note that an APC requires a battery to stabilize power draw. It also has two variants, each allowing power to flow in one direction only.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBackPressureRegulator</Key>
@@ -5849,7 +5853,6 @@ It has two modes - active (1), and inactive (0), which should only be triggered 
     <RecordThing>
       <Key>StructureModularRocketAutonomous</Key>
       <Value>Rocket Modular Autonomous</Value>
-      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleCollectorLiquid</Key>
@@ -5881,17 +5884,17 @@ When placed ABOVE a mining module (eg {THING:StructureRocketModuleMiningOre}), t
     <RecordThing>
       <Key>ItemKitModularRocketCoupling</Key>
       <Value>Kit (Automated Rocket Coupling Module)</Value>
-      <Description />
+      <Description>Creates a {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketAutomation</Key>
       <Value>Kit (Automated Rocket Automation Module)</Value>
-      <Description />
+      <Description>Creates a {THING:StructureModularRocketAutomation}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitModularRocketOreMining</Key>
       <Value>Kit (Automated Rocket Ore Mining Module)</Value>
-      <Description />
+      <Description>Creates a {THING:StructureRocketModuleMiningOre}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketIceMining</Key>
@@ -5903,7 +5906,7 @@ It has two modes - active (1), and inactive (0), which should only be triggered 
     <RecordThing>
       <Key>ItemKitModularRocketIceMining</Key>
       <Value>Kit (Automated Rocket Ice Mining Module)</Value>
-      <Description />
+      <Description>Creates a {THING:StructureModularRocketIceMining}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketScrapMining</Key>
@@ -5914,7 +5917,7 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
     <RecordThing>
       <Key>ItemKitModularRocketScrapMining</Key>
       <Value>Kit (Automated Rocket Salvage Module)</Value>
-      <Description />
+      <Description>Creates a {THING:StructureModularRocketScrapMining}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterPipeMeter</Key>
@@ -5979,6 +5982,36 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
     <RecordThing>
       <Key>StructureModularRocketGasMining</Key>
       <Value>Automated Rocket Gas Mining Module</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitHeatExchanger</Key>
+      <Value>Kit Heat Exchanger</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureHeatExchangerLiquidtoLiquid</Key>
+      <Value>Heat Exchanger Liquid And Liquid</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureHeatExchangerGastoGas</Key>
+      <Value>Heat Exchanger Gas And Gas</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureHeatExchangeLiquidtoGas</Key>
+      <Value>Heat Exchange Liquid And Gas</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureHeatExchangeLiquidAndGas</Key>
+      <Value>Heat Exchange Liquid And Gas</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitHangerDoor</Key>
+      <Value>Kit Hanger Door</Value>
       <Description />
     </RecordThing>
   </Things>
@@ -6673,7 +6706,7 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
     </Record>
     <Record>
       <Key>ChairTableCategory</Key>
-      <Value>Tables and Chairs</Value>
+      <Value>Chairs</Value>
     </Record>
     <Record>
       <Key>PersonalSuits</Key>
@@ -9708,7 +9741,7 @@ It is an unwavering universal law that anything higher than 11 will be purple. T
       <Key>ResearchCancel</Key>
       <Value>Cancel</Value>
     </Record>
-     <Record>
+    <Record>
       <Key>ServerReadyString</Key>
       <Value>Server can now be started.</Value>
     </Record>
@@ -12595,5 +12628,7 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
   </Mineables>
   <ScreenSpaceToolTips />
   <HelpPage />
+  <ThingPageOverride />
+  <HomePageButtonsOverride />
   <GameTip />
 </Language>
