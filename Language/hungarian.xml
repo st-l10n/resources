@@ -75,11 +75,6 @@
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
-      <Key>Invar</Key>
-      <Value>Vas-nikkel</Value>
-      <Unit>g</Unit>
-    </RecordReagent>
-    <RecordReagent>
       <Key>Constantan</Key>
       <Value>Konstantán</Value>
       <Unit>g</Unit>
@@ -646,7 +641,7 @@
     </RecordThing>
     <RecordThing>
       <Key>CartridgeAtmosAnalyser</Key>
-      <Value>Kártya (Atmoszféra diagnosztika)</Value>
+      <Value>Atmoszféraelemző</Value>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeMedicalAnalyser</Key>
@@ -993,6 +988,10 @@
       <Value>Készlet (Gázpalack tároló)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemLiquidTankStorage</Key>
+      <Value>Készlet (Folyadékpalack tároló)</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemGlassSheets</Key>
       <Value>Üveglap</Value>
     </RecordThing>
@@ -1018,7 +1017,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemHydroponicTray</Key>
-      <Value>Készlet (Hidroponikus tálca)</Value>
+      <Value>Készlet (Hidroponikus növényláda)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemIce</Key>
@@ -1674,7 +1673,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureHydroponicsTray</Key>
-      <Value>Hidroponikus tálca</Value>
+      <Value>Hidroponikus növényláda</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureIgniter</Key>
@@ -2038,7 +2037,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemInvarIngot</Key>
-      <Value>Öntvény (Vas-nikkel)</Value>
+      <Value>Öntvény (Invar)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemConstantanIngot</Key>
@@ -3034,7 +3033,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ReagentInvar</Key>
-      <Value>Vas-nikkel por</Value>
+      <Value>Invarpor</Value>
     </RecordThing>
     <RecordThing>
       <Key>ReagentElectrum</Key>
@@ -3322,7 +3321,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemAlienMushroom</Key>
-      <Value>Űrlény gomba</Value>
+      <Value>Űrgomba</Value>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardComms</Key>
@@ -3430,7 +3429,7 @@
     </RecordThing>
     <RecordThing>
       <Key>Robot</Key>
-      <Value>Robot</Value>
+      <Value>RoBI Robot</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicTransmitter</Key>
@@ -3609,6 +3608,10 @@
       <Value>Tárgy ellenőrző eszköz</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitAIMeE</Key>
+      <Value>Készlet (RoBI)</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemKitAutoMinerSmall</Key>
       <Value>(Készlet) Automata bányagép</Value>
     </RecordThing>
@@ -3618,15 +3621,19 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureLaunchPad</Key>
-      <Value>Leszállóplatform</Value>
+      <Value>Moduláris rakéta indítóplatform</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureModularRocketCargo01</Key>
+      <Value>Moduláris rakéta tehermodul</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketCommand01</Key>
-      <Value>Rakéta hajtómű</Value>
+      <Value>Moduláris rakétavezérlő</Value>
     </RecordThing>
     <RecordThing>
       <Key>DynamicModularRocketCommand01</Key>
-      <Value>Rakéta hajtómű</Value>
+      <Value>Moduláris rakétavezérlő</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureReverseElectrolyzer</Key>
@@ -3666,27 +3673,31 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketEngine01</Key>
-      <Value>Rakéta hajtómű</Value>
+      <Value>Moduláris rakéta hajtómű</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketFueltank01</Key>
-      <Value>Rakéta hajtómű</Value>
+      <Value>Moduláris rakéta üzemanyagtartály</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketCommand01</Key>
-      <Value>Rakéta hajtómű</Value>
+      <Value>Készlet (Moduláris rakétavezérlő)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketCargo01</Key>
-      <Value>Rakéta hajtómű</Value>
+      <Value>Készlet (Moduláris rakéta tehermodul)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitStructureLaunchPad</Key>
+      <Value>Készlet (Indítóplatform)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketEngine01</Key>
-      <Value>Rakéta hajtómű</Value>
+      <Value>Készlet (Moduláris rakéta hajtómű)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketFueltank01</Key>
-      <Value>Rakéta hajtómű</Value>
+      <Value>Készlet (Moduláris rakéta üzemanyagtartály)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWall02</Key>
@@ -3782,11 +3793,11 @@
     </RecordThing>
     <RecordThing>
       <Key>ModularRocketCommand01Lander</Key>
-      <Value>Rakéta hajtómű</Value>
+      <Value>Rakéta leszállóegység</Value>
     </RecordThing>
     <RecordThing>
       <Key>ModularRocketCargo01</Key>
-      <Value>Rakéta hajtómű</Value>
+      <Value>Rakéta tehermodul</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemSensorProcessingUnitOreScanner</Key>
@@ -3859,6 +3870,30 @@
     <RecordThing>
       <Key>ItemKitBeds</Key>
       <Value>Készlet (Jeladó)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLightRoundAngled</Key>
+      <Value>Kerek fény (döntött)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLightRound</Key>
+      <Value>Kerek fény</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLightRoundSmall</Key>
+      <Value>Kerek fény (Kicsi)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureAirlockGate</Key>
+      <Value>Légzsilip kapu</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBatteryLarge</Key>
+      <Value>Akkumulátor (Nagy)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitBatteryLarge</Key>
+      <Value>Készlet (Akkumulátor (Nagy))</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageVendingMachine1</Key>
@@ -4145,12 +4180,28 @@
       <Value>Hibakereső roncs építő</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemWreckageH2Combustor1</Key>
+      <Value>Roncs H2-égető</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemWreckageHydroponicsAutomatic1</Key>
       <Value>Hidroponikus állomás</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageHydroponicsAutomatic2</Key>
       <Value>Hidroponikus állomás</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageHydroponicsAutomatic3</Key>
+      <Value>Roncs Hidroponikus állomás</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageHydroponicsStation1</Key>
+      <Value>Roncs Hidroponikus állomás</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageHydroponicsStation2</Key>
+      <Value>Roncs Hidroponikus állomás</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageSDBSilo1</Key>
@@ -4167,6 +4218,10 @@
     <RecordThing>
       <Key>ItemWreckageSDBSilo4</Key>
       <Value>Hordozható napelem</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSDBSilo5</Key>
+      <Value>Roncs SDB siló</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageShuttleLandingPad1</Key>
@@ -4189,12 +4244,140 @@
       <Value>Automata</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemWreckageBlastDoor1</Key>
+      <Value>Roncs Páncélajtó</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageBlastDoor2</Key>
+      <Value>Roncs Páncélajtó</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCompositeDoor1</Key>
+      <Value>Roncs Kompozit ajtó</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCompositeDoor2</Key>
+      <Value>Roncs Kompozit ajtó</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCompositeDoor3</Key>
+      <Value>Roncs Kompozit ajtó</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAirlock1</Key>
+      <Value>Roncs Légzsilip</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemWreckageAirlock2</Key>
-      <Value>Elektromos kohó</Value>
+      <Value>Roncs Légzsilip</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCompositeDoorGlass1</Key>
+      <Value>Roncs Kompozit ajtó (üveg)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageCompositeDoorGlass2</Key>
-      <Value>Kompozit ajtó</Value>
+      <Value>Roncs Kompozit ajtó (üveg)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageElevatorLevelFront1</Key>
+      <Value>Roncs Felvonó (emelet, homlokzat)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageElevatorLevelFront2</Key>
+      <Value>Roncs Felvonó (emelet, homlokzat)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitHarvie</Key>
+      <Value>Készlet (KaszaTibi)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureHarvieReversed</Key>
+      <Value>KaszaTibi</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureHarvie</Key>
+      <Value>KaszaTibi</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageHydroponicsTray1</Key>
+      <Value>Roncs Hidroponikus növényláda</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>RespawnPoint</Key>
+      <Value>Újraéledés helye</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFlagODA</Key>
+      <Value>Készlet (FFÜ zászló)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>Flag_ODA_10m</Key>
+      <Value>Zászló (FFÜ 10m)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>Flag_ODA_8m</Key>
+      <Value>Zászló (FFÜ 8m)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>Flag_ODA_6m</Key>
+      <Value>Zászló (FFÜ 6m)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>Flag_ODA_4m</Key>
+      <Value>Zászló (FFÜ 4m)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageStructureRTG1</Key>
+      <Value>Roncs Struktúra RTG</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageTurbineGenerator1</Key>
+      <Value>Roncs turbinagenerátor</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageTurbineGenerator2</Key>
+      <Value>Roncs turbinagenerátor</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageTurbineGenerator3</Key>
+      <Value>Roncs turbinagenerátor</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAirConditioner1</Key>
+      <Value>Roncs légkondicionáló</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAirConditioner2</Key>
+      <Value>Roncs légkondicionáló</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageWallCooler1</Key>
+      <Value>Roncs falhűtő</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageWallCooler2</Key>
+      <Value>Roncs falhűtő</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureWeatherStation</Key>
+      <Value>Időjárásállomás</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitWeatherStation</Key>
+      <Value>Készlet (Időjárásállomás)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrateMkII</Key>
+      <Value>Készlet (Láda II)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPumpkinSoup</Key>
+      <Value>Tökleves</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCornSoup</Key>
+      <Value>Kukoricaleves</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemBreadLoaf</Key>
@@ -4389,7 +4572,115 @@
       <Value>Folyadékpumpa</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemLiquidPipeVolumePump</Key>
+      <Value>Készlet (Folyadékpumpa)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLiquidRegulator</Key>
+      <Value>Készlet (Folyadékszabályozó)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBackLiquidPressureRegulator</Key>
+      <Value>Fordított folyadéknyomás-szabályozó</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidPressureRegulator</Key>
+      <Value>Folyadéknyomás-szabályozó</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLiquidCanisterSmart</Key>
+      <Value>Folyadékpalack (Okos)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidTankBig</Key>
+      <Value>Folyadéktartály (Nagy)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidTankSmall</Key>
+      <Value>Folyadéktartály (Kicsi)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLiquidTank</Key>
+      <Value>Készlet (Folyadéktartály)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureModularRocketLiquidTank</Key>
+      <Value>Automatizált rakéta folyadéktároló modul</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureRocketModuleMiningJunk</Key>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureModularRocketAutonomous</Key>
+      <Value>Autonóm moduláris rakéta</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureModularRocketAutomation</Key>
+      <Value>Automatizált rakétaautomatizálási modul</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureModularRocketCouplingDown</Key>
+      <Value>Automatizált rakétacsatoló modul (Alsó)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureModularRocketCouplingUp</Key>
+      <Value>Automatizált rakétacsatoló modul (Felső)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitModularRocketOreStorage</Key>
+      <Value>Készlet (Automatizált rakétasiló modul)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitModularRocketCoupling</Key>
+      <Value>Készlet (Automatizált rakétacsatoló modul)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitModularRocketAutomation</Key>
+      <Value>Készlet (Automatizált rakétaautomatizálási modul)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitModularRocketOreMining</Key>
+      <Value>Készlet (Automatizált rakéta-ércbányászati modul)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureModularRocketIceMining</Key>
+      <Value>Automatizált rakéta-ércbányászati modul</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitModularRocketIceMining</Key>
+      <Value>Készlet (Automatizált rakéta-jégbányászati modul)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureModularRocketScrapMining</Key>
+      <Value>Automatizált rakétamentő modul</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitModularRocketScrapMining</Key>
+      <Value>Készlet (Automatizált rakétamentő modul)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWaterPipeMeter</Key>
+      <Value>Készlet (Folyadékcsőmérő)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureWaterPipeMeter</Key>
+      <Value>Folyadékcsőmérő</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWaterPipeDigitalValve</Key>
+      <Value>Készlet (Digitális folyadék csap)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureWaterDigitalValve</Key>
+      <Value>Digitális folyadék csap</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWaterWallCooler</Key>
+      <Value>Készlet (Folyadékos falhűtő)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureWaterWallCooler</Key>
+      <Value>Folyadékos falhűtő</Value>
     </RecordThing>
   </Things>
   <Slots>
@@ -4922,6 +5213,10 @@
   </Interactables>
   <Interface>
     <Record>
+      <Key>SoonTM</Key>
+      <Value>Hamarosan...</Value>
+    </Record>
+    <Record>
       <Key>MainMenuContinue</Key>
       <Value>Folytatás</Value>
     </Record>
@@ -4930,8 +5225,8 @@
       <Value>Építési készletek</Value>
     </Record>
     <Record>
-      <Key>ChairTableCategory</Key>
-      <Value>Asztalok és székek</Value>
+      <Key>DoorCategory</Key>
+      <Value>Ajtók és nyílások</Value>
     </Record>
     <Record>
       <Key>PersonalSuits</Key>
@@ -5047,7 +5342,7 @@
     </Record>
     <Record>
       <Key>Plants</Key>
-      <Value>Ültetés</Value>
+      <Value>Növények</Value>
     </Record>
     <Record>
       <Key>AirContitioningAtmos</Key>
@@ -5212,6 +5507,10 @@
     <Record>
       <Key>LoulanShortDesc</Key>
       <Value>Á, a Loulan. Amikor megérkezel tapasztalni fogod a belélegezhető atmoszféráját, mely nyomása elegendő az életfenntartáshoz - de számos hiányossággal. Ez a sivatagos óriás a Gargantua rendszerben kering, naponta egyre közelebb a központban levő fekete lyukhoz. Bár a bolygó már kihalt és többé nem borítja felszínét víz és növényzet, mégis van egy működő atmoszférája, a te feladatod pedig, hogy kiaknázd a megmaradt kopár vidék maradék erőforrásait a végtelen sivatagban való túléléshez.</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaVenus</Key>
+      <Value>Vénusz</Value>
     </Record>
     <Record>
       <Key>Moon</Key>
@@ -5391,7 +5690,7 @@
     </Record>
     <Record>
       <Key>SettingsTitleAdvScreen</Key>
-      <Value>További beállítások</Value>
+      <Value>Haladó beállítások</Value>
     </Record>
     <Record>
       <Key>SettingsResolution</Key>
@@ -5451,7 +5750,7 @@
     </Record>
     <Record>
       <Key>SettingsWeatherQuality</Key>
-      <Value>Textúra minősége</Value>
+      <Value>Időjárás minősége</Value>
     </Record>
     <Record>
       <Key>SettingsShadowDistamce</Key>
@@ -5673,6 +5972,10 @@
       <Value>&lt;color=red&gt;Nem lehet megépíteni&lt;/color&gt;.</Value>
     </Record>
     <Record>
+      <Key>PortableConnectionFailure</Key>
+      <Value>Csak {0} csatlakoztatható ehhez: {1}</Value>
+    </Record>
+    <Record>
       <Key>TooltipRotateLeftRight</Key>
       <Value>Fordítás balra és jobbra: {KEY:RotateLeft} és {KEY:RotateRight}</Value>
     </Record>
@@ -5754,11 +6057,11 @@
     </Record>
     <Record>
       <Key>SettingsTitleMultiplayerAdvanced</Key>
-      <Value>További beállítások</Value>
+      <Value>Haladó beállítások</Value>
     </Record>
     <Record>
       <Key>SettingsUPNPNote</Key>
-      <Value>Ha az Universal Plug and Play (UPNP) engedélyezve van itt és a routereden, a portok automatikusan továbbításra kerülnek egy új játék elindításakor.</Value>
+      <Value>Ha az Universal Plug and Play (UPNP) engedélyezve van itt, és a routereden, a portok automatikusan továbbításra kerülnek egy új játék elindításakor.</Value>
     </Record>
     <Record>
       <Key>SettingsTooltipOpacity</Key>
@@ -6071,7 +6374,7 @@
     </Record>
     <Record>
       <Key>SettingsHungerRate</Key>
-      <Value>Éhség mértéke</Value>
+      <Value>Éhség/szomjúság mértéke</Value>
     </Record>
     <Record>
       <Key>JoinWorldSortBy</Key>
@@ -6433,7 +6736,7 @@
     </Record>
     <Record>
       <Key>ConnectionInput2</Key>
-      <Value>Bemenet</Value>
+      <Value>Bemenet 2</Value>
     </Record>
     <Record>
       <Key>ConnectionOutput</Key>
@@ -6441,7 +6744,7 @@
     </Record>
     <Record>
       <Key>ConnectionOutput2</Key>
-      <Value>Kimenet</Value>
+      <Value>Kimenet 2</Value>
     </Record>
     <Record>
       <Key>ConnectionWaste</Key>
@@ -6497,11 +6800,11 @@
     </Record>
     <Record>
       <Key>SettingsMenuAdvanced</Key>
-      <Value>További</Value>
+      <Value>Haladó</Value>
     </Record>
     <Record>
       <Key>SettingsLegacyInventory</Key>
-      <Value>Régi tárhely</Value>
+      <Value>Régi leltár</Value>
     </Record>
     <Record>
       <Key>SettingsDisableWaterVisualizer</Key>
@@ -7065,11 +7368,15 @@
     </Record>
     <Record>
       <Key>ContactTradeRequestFail</Key>
-      <Value>A kereskedő biztonságosan szeretne leszállni. Biztosítsd számára, hogy a leszállásra kijelölt hely akadálymentes és hálózathoz csatlakoztatott. Az üzlet lebonyolításához kereskedő automata szükséges.</Value>
+      <Value>A kereskedő biztonságosan szeretne leszállni. Hálózatra kötött leszállóplatform szükséges.</Value>
     </Record>
     <Record>
       <Key>ContactTradeRequestFailInUse</Key>
-      <Value>Ez az ügyfél már valakivel kapcsolatba lépett, próbálkozz újra később.</Value>
+      <Value>Valaki éppen kereskedik ezzel a kereskedővel, próbáld később.</Value>
+    </Record>
+    <Record>
+      <Key>ContactLandingRequestFailVendingMachine</Key>
+      <Value>Egy árammal ellátott, hálozatra kötött automatára van szükséged ahhoz, hogy kapcsolatba léphess ezzel a kereskedővel.</Value>
     </Record>
     <Record>
       <Key>InputTextTradingTitle</Key>
@@ -7385,7 +7692,7 @@
     </Record>
     <Record>
       <Key>CartridgeElectronicReaderAutoFlashTitle</Key>
-      <Value>Lobbanáspont:</Value>
+      <Value>Gyulladáspont:</Value>
     </Record>
     <Record>
       <Key>CartridgeElectronicReaderAutoITitle</Key>
@@ -7474,10 +7781,6 @@
     <Record>
       <Key>ElectronicReaderElectrum</Key>
       <Value>Elektrum</Value>
-    </Record>
-    <Record>
-      <Key>ElectronicReaderInvar</Key>
-      <Value>Vas-nikkel</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderConstantan</Key>
@@ -7629,11 +7932,11 @@
     </Record>
     <Record>
       <Key>MineablesInVicinity</Key>
-      <Value>Visszatér a potenciális bányászhatók mennyiségével AIMe széles környezetében.</Value>
+      <Value>Visszatér a potenciális bányászhatók mennyiségével RoBI széles környezetében.</Value>
     </Record>
     <Record>
       <Key>MineablesInQueue</Key>
-      <Value>Visszatér a bányászhatók mennyiségével, amit AIMe állított sorba a bányászáshoz.</Value>
+      <Value>Visszatér a bányászhatók mennyiségével, amit RoBI állított sorba a bányászáshoz.</Value>
     </Record>
     <Record>
       <Key>NextWeatherEventTime</Key>
@@ -7752,6 +8055,10 @@
       <Value>Zárolt mutatása</Value>
     </Record>
     <Record>
+      <Key>StatusWindowVitals</Key>
+      <Value>Szükségletek</Value>
+    </Record>
+    <Record>
       <Key>CompletedKey</Key>
       <Value>Teljesítve</Value>
     </Record>
@@ -7801,7 +8108,7 @@
     </Record>
     <Record>
       <Key>Gas</Key>
-      <Value>Gázok</Value>
+      <Value>Gáz</Value>
     </Record>
     <Record>
       <Key>PlantToxic</Key>
@@ -7824,12 +8131,40 @@
       <Value>Játékidő</Value>
     </Record>
     <Record>
+      <Key>PressEnterToContinue</Key>
+      <Value>Nyomd meg a &lt;color=#FBB03B&gt;szóközt&lt;/color&gt;folytatáshoz!</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompleteDateOfCompletion</Key>
+      <Value>Teljesítés ideje:</Value>
+    </Record>
+    <Record>
+      <Key>BottleSlot</Key>
+      <Value>Palack slot</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompleteDeanHall</Key>
+      <Value>Dékánterem</Value>
+    </Record>
+    <Record>
+      <Key>TutorialCompleteTruly</Key>
+      <Value>Sorhajókapitány FFÜ</Value>
+    </Record>
+    <Record>
       <Key>TutorialCompleteNextTutorial</Key>
       <Value>Következő anyag</Value>
     </Record>
     <Record>
       <Key>SettingsMineableRenderDistance</Key>
       <Value>Bányászhatók rendertávolsága</Value>
+    </Record>
+    <Record>
+      <Key>SetSpawnMessage</Key>
+      <Value>Szüetési pont állításához</Value>
+    </Record>
+    <Record>
+      <Key>SetSpawnTitle</Key>
+      <Value>Születési pont</Value>
     </Record>
     <Record>
       <Key>ControlPrimaryClickDisc</Key>
@@ -7848,20 +8183,94 @@
       <Value>Ültetés</Value>
     </Record>
     <Record>
-      <Key>TK</Key>
-      <Value>TK Rendszerek</Value>
+      <Key>CommandFillHealth</Key>
+      <Value>gyógyítja a játékost: &quot;/fillhealth&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandHelp</Key>
+      <Value>Mutatja a segítség menüt: &quot;/help&quot;</Value>
+    </Record>
+    <Record>
+      <Key>ODA</Key>
+      <Value>FFÜ</Value>
+    </Record>
+    <Record>
+      <Key>StationeersDesc</Key>
+      <Value>A 22. század elején kezdett el a Föld népessége kilábalni a válságból. Az erőforrások kifogytak, és a népességszám lecsökkent. A kor meghatározó gondolata az újjáépítés lett.
+A &lt;color=#0080FFFF&gt;{LINK:ODA;Földönkívüli Fejlesztési Ügynökség}&lt;/color&gt; (FFÜ) i. sz. 2095-ben kezdeményezte a Stationeers Programot, melynek egyetlen célja volt: az emberiség eljuttatása a csillagokba.
+A stationeerek mindenre ki lettek képezve: űrhajósok, mérnökök és felfedezők, akiket csekély eszközzel látnak el. Őket arra képezték, hogy kevéssel sokat érjenek el. A környezetet a saját előnyükre formálják, infrastruktúrát építenek ki emberek számára az űrben, a megszokott űrprogramoknál jóval olcsóbban.
+Képesek bázist építeni és karbantartani a Holdtól kezdve a Mimasig, és tovább... a Stationeerek a kozmosz úttörői. Tanultak földöntúli túlélést, bányászatot, elektronikát, építészetet, kohászatot, rakétatechnikát, hidroponikát és más &quot;misztikus&quot; tudományokat, a Stationeerek mindent megtesznek a túléléshez.
+A belépéshez nincs külön kritérium, nem létezik &quot;tipikus&quot; Stationeer. A megatott pszichológia profil szerint egy sikeres jelöltnek rendelkeznie kell &quot;alapvető&quot; pragmatizmussal és céltudatossággal, de a gyakorlatban ez nem feltétlen szükséges, a leghíresebb Stationeerek közül sem ilyenek sokan.
+Leginkább mérnöki, katonai vagy űripari, szoftverfejlesztői vagy bányászati háttérrel rendelkezőket vesznek fel, de akár vallási területről érkezőket is szívesen fogadnak. A Stationeers Program minden egyes ember számára nyitva áll!
+</Value>
+    </Record>
+    <Record>
+      <Key>ControlMouseControlDisc</Key>
+      <Value>Kurzorral való navigáció aktiválása</Value>
+    </Record>
+    <Record>
+      <Key>ControlMouseDrag</Key>
+      <Value>Tartsd lenyomva és húzd {KEY:PrimaryAction}</Value>
     </Record>
     <Record>
       <Key>ControlMouseDragDisc</Key>
       <Value>Kiválasztás mozgatása</Value>
     </Record>
     <Record>
+      <Key>ControlSecondaryActionBuildModeDisc</Key>
+      <Value>Építőmód bekapcsolása</Value>
+    </Record>
+    <Record>
+      <Key>ControlScrollWheelSelectDisc</Key>
+      <Value>Építőmód bekapcsolása</Value>
+    </Record>
+    <Record>
+      <Key>ControlAutoRotateDisc</Key>
+      <Value>Automatikus forgatás</Value>
+    </Record>
+    <Record>
+      <Key>ControlMouseScroll</Key>
+      <Value>Görgetés</Value>
+    </Record>
+    <Record>
       <Key>ControlMouseScrollDisc</Key>
       <Value>Tárgy kiválasztása</Value>
     </Record>
     <Record>
+      <Key>ControlTurnOnDisc</Key>
+      <Value>Bekapcsolás</Value>
+    </Record>
+    <Record>
+      <Key>ControlQuickMove</Key>
+      <Value>Egérgörgő + {KEY:InventorySelect}</Value>
+    </Record>
+    <Record>
+      <Key>ControlQuickMoveDisc</Key>
+      <Value>Tárgy gyors mozgatása</Value>
+    </Record>
+    <Record>
+      <Key>WeatherEventsField</Key>
+      <Value>Van időjárás</Value>
+    </Record>
+    <Record>
+      <Key>ControlUseItemDisc</Key>
+      <Value>Tárgyhasználat</Value>
+    </Record>
+    <Record>
+      <Key>ControlMineDisc</Key>
+      <Value>Ércbányászat</Value>
+    </Record>
+    <Record>
       <Key>ControlSecondaryEatDisc</Key>
-      <Value>Föld</Value>
+      <Value>Evés</Value>
+    </Record>
+    <Record>
+      <Key>ToggleChangeLog</Key>
+      <Value>Frissítési jegyzék megjelenítése</Value>
+    </Record>
+    <Record>
+      <Key>ShowPreviousVideoText</Key>
+      <Value>Előző videó mutatása</Value>
     </Record>
     <Record>
       <Key>HelmetString</Key>
@@ -7869,11 +8278,27 @@
     </Record>
     <Record>
       <Key>LightString</Key>
-      <Value>Világítás</Value>
+      <Value>Fény</Value>
+    </Record>
+    <Record>
+      <Key>FixedWeatherEventMissing</Key>
+      <Value>Ezen a világon nincs időjárás beállítva, ezért az alapértelmezett lesz beállítva. Számíts egy kis szélre!</Value>
     </Record>
     <Record>
       <Key>AdvancedTutorialButton</Key>
-      <Value>További</Value>
+      <Value>Régi/Haladó</Value>
+    </Record>
+    <Record>
+      <Key>BasicButtonTutorial</Key>
+      <Value>Alap</Value>
+    </Record>
+    <Record>
+      <Key>NextTutoiralButtonFail</Key>
+      <Value>Nem lehet betöltetni a következő útmutatót. Kérlek, lépj ki a menübe!</Value>
+    </Record>
+    <Record>
+      <Key>ImportExportCategoryKey</Key>
+      <Value>Import/export</Value>
     </Record>
     <Record>
       <Key>TravelCategoryKey</Key>
@@ -7881,7 +8306,7 @@
     </Record>
     <Record>
       <Key>FurnitureCategoryKey</Key>
-      <Value>Kép</Value>
+      <Value>Bútorzat</Value>
     </Record>
     <Record>
       <Key>CartidgeCategoryKey</Key>
@@ -7889,7 +8314,7 @@
     </Record>
     <Record>
       <Key>WeatherCategoryKey</Key>
-      <Value>Egyéb</Value>
+      <Value>Időjárás</Value>
     </Record>
     <Record>
       <Key>HandToolsCategoryKey</Key>
@@ -7897,15 +8322,19 @@
     </Record>
     <Record>
       <Key>OrganicsCategoryKey</Key>
-      <Value>Organikus</Value>
+      <Value>Organikus és élelem</Value>
+    </Record>
+    <Record>
+      <Key>StructureCategoryKey</Key>
+      <Value>Struktúrák</Value>
     </Record>
     <Record>
       <Key>LogicCategoryKey</Key>
-      <Value>Nincs eszköz</Value>
+      <Value>Logikai eszközök</Value>
     </Record>
     <Record>
       <Key>PowerCategoryKey</Key>
-      <Value>Tükröződések</Value>
+      <Value>Elektronika</Value>
     </Record>
     <Record>
       <Key>AppliancesCategoryKey</Key>
@@ -7913,7 +8342,7 @@
     </Record>
     <Record>
       <Key>AtmopshericsCategoryKey</Key>
-      <Value>Atmoszféra</Value>
+      <Value>Atmoszferika</Value>
     </Record>
     <Record>
       <Key>ReagentsCategoryKey</Key>
@@ -7925,11 +8354,15 @@
     </Record>
     <Record>
       <Key>ConstructionKitsCategoryKey</Key>
-      <Value>Építési készletek</Value>
+      <Value>Struktúrakészletek</Value>
     </Record>
     <Record>
       <Key>FabricatorCategoryKey</Key>
       <Value>Gyártógépek</Value>
+    </Record>
+    <Record>
+      <Key>IngotsCategoryKey</Key>
+      <Value>Öntvények</Value>
     </Record>
     <Record>
       <Key>OreCategoryKey</Key>
@@ -7940,32 +8373,60 @@
       <Value>Ércek</Value>
     </Record>
     <Record>
-      <Key>PressureKeySPDA</Key>
-      <Value>Tartálynyomás</Value>
+      <Key>PersonalCategoryKey</Key>
+      <Value>Személyes</Value>
     </Record>
     <Record>
-      <Key>StationpediaTitle</Key>
-      <Value>Stationeers</Value>
+      <Key>PressureKeySPDA</Key>
+      <Value>Maximális nyomás:</Value>
+    </Record>
+    <Record>
+      <Key>CableMaxPowerSPDA</Key>
+      <Value>Legnagyobb feszültség:</Value>
     </Record>
     <Record>
       <Key>StationpediaSearch</Key>
-      <Value>Fejlesztés</Value>
+      <Value>Keresés</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaBeginnerGuides</Key>
+      <Value>Útmutatók</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaAdvancedGuides</Key>
+      <Value>Világegyetem</Value>
     </Record>
     <Record>
       <Key>StationpediaConstructWith</Key>
-      <Value>Építési készletek</Value>
+      <Value>Építhető ezzel:</Value>
     </Record>
     <Record>
       <Key>StationpediaPaintable</Key>
-      <Value>Bányászhatók</Value>
+      <Value>Festhető:</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaStackSize</Key>
+      <Value>Stackméret:</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaThingUnit</Key>
+      <Value>Mértékegység:</Value>
     </Record>
     <Record>
       <Key>StationpediaReagentsHeader</Key>
-      <Value>Reagensek</Value>
+      <Value>Reagensek:</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaHeatHeader</Key>
+      <Value>Fajlagos hőkapacitás:</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaShatterHeader</Key>
+      <Value>Töréspont:</Value>
     </Record>
     <Record>
       <Key>StationpediaFlashpointHeader</Key>
-      <Value>Lobbanáspont:</Value>
+      <Value>Gyulladáspont:</Value>
     </Record>
     <Record>
       <Key>StationpediaAutoIgniteHeader</Key>
@@ -7973,71 +8434,111 @@
     </Record>
     <Record>
       <Key>StationpediaConstructedFrom</Key>
-      <Value>Készítés</Value>
+      <Value>Elkészíthető ebből</Value>
     </Record>
     <Record>
       <Key>StationpediaSlotsHeader</Key>
       <Value>Bővítőhelyek (slot)</Value>
     </Record>
     <Record>
+      <Key>StationpediaHowToManufacture</Key>
+      <Value>Hogyan készül</Value>
+    </Record>
+    <Record>
       <Key>StationpediaBuildStates</Key>
-      <Value>Kilépés a Stationeersből</Value>
+      <Value>Építési állapotok</Value>
     </Record>
     <Record>
       <Key>StationpediaMachineVersion</Key>
-      <Value>Verzió</Value>
+      <Value>Verziók</Value>
     </Record>
     <Record>
       <Key>StationpediaGasHeader</Key>
       <Value>Gázok</Value>
     </Record>
     <Record>
+      <Key>StationpediaResoucesHeader</Key>
+      <Value>Felhasznált nyersanyagok</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaUsedIn</Key>
+      <Value>Használva itt</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaManufactures</Key>
+      <Value>Gyártja</Value>
+    </Record>
+    <Record>
       <Key>StationpediaFoundIn</Key>
-      <Value>Effektek</Value>
+      <Value>Megtalálható</Value>
     </Record>
     <Record>
       <Key>StationpediaConstructionOptions</Key>
-      <Value>Építési készletek</Value>
+      <Value>Építési lehetőségek</Value>
     </Record>
     <Record>
       <Key>StationpediaModeHeader</Key>
-      <Value>Játékmód</Value>
+      <Value>Mód</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaLogicHeader</Key>
+      <Value>Logika</Value>
     </Record>
     <Record>
       <Key>StationpediaLogicSlotHeader</Key>
-      <Value>Logikai írók</Value>
+      <Value>Logikai slotok</Value>
     </Record>
     <Record>
       <Key>StationpediaTutorialListHeader</Key>
       <Value>Oktatóanyagok</Value>
     </Record>
     <Record>
+      <Key>StationpediaNoResults</Key>
+      <Value>Nincs találat...</Value>
+    </Record>
+    <Record>
       <Key>HydrationSPDAKey</Key>
-      <Value>Szénhidrogén</Value>
+      <Value>Hidratáltság</Value>
     </Record>
     <Record>
       <Key>NutritionSPDAKey</Key>
-      <Value>Öngyulladás:</Value>
+      <Value>Tápláltság</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHydrationDesc</Key>
+      <Value>Alacsony hidratáció</Value>
     </Record>
     <Record>
       <Key>StatusIconHydrationKey</Key>
-      <Value>Szénhidrogén</Value>
+      <Value>Hidratáltság alacsony</Value>
     </Record>
     <Record>
       <Key>HydrationCaution</Key>
-      <Value>Szénhidrogén</Value>
+      <Value>Hidratáltság veszélyes</Value>
     </Record>
     <Record>
       <Key>HydrationCritical</Key>
-      <Value>Szénhidrogén</Value>
+      <Value>Hidratáltság kritikus</Value>
+    </Record>
+    <Record>
+      <Key>Guides</Key>
+      <Value>Útmutatók</Value>
+    </Record>
+    <Record>
+      <Key>Lore</Key>
+      <Value>Történet</Value>
     </Record>
     <Record>
       <Key>SettingsLightShadowDistance</Key>
-      <Value>Árnyék távolsága</Value>
+      <Value>Fényárnyékok távolsága</Value>
+    </Record>
+    <Record>
+      <Key>CrowbarToFlip</Key>
+      <Value>Felfordítás franciakulccsal.</Value>
     </Record>
     <Record>
       <Key>TimerPanel</Key>
-      <Value>Idő</Value>
+      <Value>Időzítő</Value>
     </Record>
   </Interface>
   <Colors>
@@ -9261,5 +9762,7 @@
   </Mineables>
   <ScreenSpaceToolTips/>
   <HelpPage/>
+  <ThingPageOverride/>
+  <HomePageButtonsOverride/>
   <GameTip/>
 </Language>

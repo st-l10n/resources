@@ -153,6 +153,12 @@
       <Value>Установка Вашего Ограничения</Value>
     </Record>
     <Record>
+      <Key>SettingYourLimitDescription</Key>
+      <Value>Теперь нам надо установить ограничение давления на {THING:StructurePressureRegulator}. Сделайте это взаимодействуя с колесиком на {THING:StructurePressureRegulator}. Установите давление на 1950kPa.
+            
+В качестве альтернативы вы можете использовать {THING:ItemLabeller} и установить значение сразу, в {THING:ItemLabeller}. Включите его и подсветите {THING:StructurePressureRegulator}. Найдите метку &quot;установить&quot; наведя именующее устройство на колесико. Нажатие вызовет меню, но вместо переименования устройства будет назначено значение давления для {THING:StructurePressureRegulator}.</Value>
+    </Record>
+    <Record>
       <Key>SettingYourLimitTask1</Key>
       <Value>Установите давление {THING:StructurePressureRegulator} на 1950kPa</Value>
     </Record>

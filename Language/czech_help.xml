@@ -6,6 +6,7 @@
     |                 MASTER PAGES            |
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
+    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
     <StationpediaPage>
       <Key>FabricatorPage</Key>
       <Title>Konstruktéři</Title>
@@ -17,13 +18,6 @@
       <Key>DevicePage</Key>
       <Title>Zařízení</Title>
       <Text>Tohle jsou struktury, obvykle napájené, které mají specializované funkce, včetně logiky, atmosféry a další. Jsou konstruovány stejným způsobem jako ostatní struktury.
-        {LIST_OF_DEVICES}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ImportExportPage</Key>
-      <Title>Import / Export a dopravníky</Title>
-      <Text>Tohle jsou struktury, obvykle napájené, které mají specializované funkce včetně logiky, atmosféry a další. Jsou konstruovány stejným způsobem jako ostatní struktury.
         {LIST_OF_DEVICES}
       </Text>
     </StationpediaPage>
@@ -51,30 +45,6 @@
       <Title>Plyny</Title>
       <Text>Tohle jsou chemické plyny určitých typů.{LIST_OF_GASES}
       
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>OrePage</Key>
-      <Title>Rudy</Title>
-      <Text>Jedná se o položky, které jsou {LINK:MiningPage;vytěžené} a často mohou být {LINK:SmeltingPage;taveny}. Můžete také získat smíšené rudy recyklací položek v {THING:StructureRecycler} a předáním přes {THING:StructureCentrifuge}, která je rozdělí na {LINK:OrePage;rudy} pro {LINK:SmeltingPage;tavení}.
-        Existují některé rudy, které roztají, když jsou vystaveny slunečnímu záření nebo teplu a produkují {LINK:GasPage;plyny}. Například {THING:ItemIce} roztaje na {GAS:Water} a {GAS:Oxygen}. Dávejte pozor, abyste je chránili před teplem nebo slunečním zářením, dokud je opravdu nechcete roztát.
-{LIST_OF_ORES}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>IngotPage</Key>
-      <Title>Ingoty</Title>
-      <Text>Jedná se o položky, které jsou obvykle vyrobeny z {LINK:SmeltingPage;tavení} {LINK:OrePage;rud}.
-
-{LIST_OF_INGOTS}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ToolPage</Key>
-      <Title>Nástroje</Title>
-      <Text>Toto jsou položky, které se vejdou do speciálního slotu a používají se pro {LINK:ConstructionPage;konstrukce} a další úkoly.
-
-{LIST_OF_TOOLS}
       </Text>
     </StationpediaPage>
     <StationpediaPage>

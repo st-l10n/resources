@@ -6,6 +6,7 @@
     |                 MASTER PAGES            |
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
+    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
     <StationpediaPage>
       <Key>FabricatorPage</Key>
       <Title>装配机器</Title>
@@ -44,29 +45,6 @@
       <Key>GasPage</Key>
       <Title>气体</Title>
       <Text>这些是某些化工气体。{LIST_OF_GASES}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>OrePage</Key>
-      <Title>矿石</Title>
-      <Text>这些物品可以被{LINK:MiningPage;开采} 通常也可以被 {LINK:SmeltingPage;熔炼}. 你可以用{THING:StructureRecycler} 回收物品得到矿石混合物 然后通过 {THING:StructureCentrifuge} 分离出 {LINK:OrePage;矿石} 来进行{LINK:SmeltingPage;熔炼}。
-        有些矿石暴露在阳光下或处在一定的热量环境中会融化并产生 {LINK:GasPage;气体}. 比如 {THING:ItemIce} 融化产生 {GAS:Water} 和 {GAS:Oxygen}. 在你真的想让它们融化之前，小心不要让它们被阳光照射或是靠近热源。{LIST_OF_ORES}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>IngotPage</Key>
-      <Title>锭</Title>
-      <Text>这物品通常是通过 {LINK:SmeltingPage;熔炼} {LINK:OrePage;矿石} 得到的.
-
-{LIST_OF_INGOTS}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ToolPage</Key>
-      <Title>工具</Title>
-      <Text>这些物品放在在专门工具槽位中，用于{LINK:ConstructionPage;建造}或是其他任务。
-
-{LIST_OF_TOOLS}
       </Text>
     </StationpediaPage>
     <StationpediaPage>

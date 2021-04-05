@@ -4669,12 +4669,36 @@
       <Value>Набор (Жидкостная труба)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>StructurePipeLiquidCrossJunction</Key>
+      <Value>Жидкостная Труба Перекресток</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>StructurePipeLiquidStraight</Key>
       <Value>Жидкостная труба (прямая)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCorner</Key>
       <Value>Жидкостная труба (Угловая)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeLiquidCrossJunction3</Key>
+      <Value>Жидкостная Труба Перекресток3</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeLiquidCrossJunction4</Key>
+      <Value>Жидкостная Труба Перекресток4</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeLiquidCrossJunction5</Key>
+      <Value>Жидкостная Труба Перекресток5</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeLiquidCrossJunction6</Key>
+      <Value>Жидкостная Труба Перекресток6</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeLiquidTJunction</Key>
+      <Value>Жидкостная Труба Т-образная</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageWindTurbine001</Key>
@@ -5574,12 +5598,12 @@
       <Value>Двери и люки</Value>
     </Record>
     <Record>
-      <Key>ChairTableCategory</Key>
-      <Value>Столы и стулья</Value>
-    </Record>
-    <Record>
       <Key>PersonalSuits</Key>
       <Value>Скафандр</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCategory</Key>
+      <Value>Хранение энергии</Value>
     </Record>
     <Record>
       <Key>CableCategory</Key>
@@ -7793,6 +7817,14 @@
       <Value>Для взаимодействия с этим торговцем вам нужен Склад, питающийся от сети.</Value>
     </Record>
     <Record>
+      <Key>ContactLandingRequestFailSatellite</Key>
+      <Value>Какие-то неполадки с вашей спутниковой антенной. Убедитесь что она подключена к сети и запитана.</Value>
+    </Record>
+    <Record>
+      <Key>ContactLandingRequestFailStorm</Key>
+      <Value>Торговец не может передвигаться в таком шторме.</Value>
+    </Record>
+    <Record>
       <Key>InputTextTradingTitle</Key>
       <Value>Торговый терминал</Value>
     </Record>
@@ -9303,6 +9335,10 @@
     <Record>
       <Key>ControlPrimaryClickDisc</Key>
       <Value>Взаимодействовать</Value>
+    </Record>
+    <Record>
+      <Key>ControlHoldPrimaryClick</Key>
+      <Value>Удерживайте {KEY:PrimaryAction}</Value>
     </Record>
     <Record>
       <Key>ControlHoldPrimaryClickConstructDisc</Key>
@@ -10907,5 +10943,7 @@
   </Mineables>
   <ScreenSpaceToolTips/>
   <HelpPage/>
+  <ThingPageOverride/>
+  <HomePageButtonsOverride/>
   <GameTip/>
 </Language>

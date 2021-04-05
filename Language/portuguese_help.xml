@@ -6,6 +6,7 @@
     |                 MASTER PAGES            |
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
+    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
     <StationpediaPage>
       <Key>FabricatorPage</Key>
       <Title>Fabricadores</Title>
@@ -42,36 +43,6 @@
       
 {HEADER:Lista de Reagentes}
 {LIST_OF_REAGENTS}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>OrePage</Key>
-      <Title>Minérios</Title>
-      <Text>Estes itens são {LINK:MiningPage;minerados} e normalmente são {LINK:SmeltingPage;fundidos}. Podes obter minérios misturados de um {THING:StructureRecycler} e depois transferi-los para uma {THING:StructureCentrifuge} que os irá separar em {LINK:OrePage;minérios} para serem  {LINK:SmeltingPage;fundidos}.
-      
-{HEADER:Derretendo Gelos}
-Estes são minérios que derretem se forem expostos ao sol ou a calor e produzem {LINK:GasPage;gases}. Por exemplo, o {THING:ItemIce} derrete em {GAS:Water} e {GAS:Oxygen}. Tem cautela para os manter longe de fontes de calor ou do sol até que decidas realmente os derreter.
-      
-{HEADER:Lista de Minérios}
-{LIST_OF_ORES}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>IngotPage</Key>
-      <Title>Lingotes</Title>
-      <Text>Estes são itens que são tipicamente criados durante a {LINK:SmeltingPage;fundição} de {LINK:OrePage;minérios}.
-      
-{HEADER:Lista de Lingotes}
-{LIST_OF_INGOTS}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ToolPage</Key>
-      <Title>Ferramentas</Title>
-      <Text>Estes são itens que são colocados num compartimento especializado no cinto de ferramentas e são usados para a {LINK:ConstructionPage;construção} e outras tarefas.
-      
-{HEADER:Lista de Ferramentas}
-{LIST_OF_TOOLS}
       </Text>
     </StationpediaPage>
     <StationpediaPage>

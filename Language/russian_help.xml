@@ -6,6 +6,21 @@
     |                 MASTER PAGES            |
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
+    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
+    <StationpediaPage>
+      <Key>FabricatorPage</Key>
+      <Title>Фабрикаторы</Title>
+      <Text>Эти электрические Конструкции могут быть использованы для Производства предметов необходимых в игре. Обычно им требуются {LINK:IngotPage;Слитки} в качестве {LINK:ReagentPage;Реагентов} для производства.
+        {LIST_OF_FABRICATORS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>DevicePage</Key>
+      <Title>Устройства</Title>
+      <Text>Эти конструкции, обычно энергопотребляющие, имеют специальные функции, такие как Логика, Атмосфера и другие. Они собираются таким же образом как и другие конструкции.
+        {LIST_OF_DEVICES}
+      </Text>
+    </StationpediaPage>
     <StationpediaPage>
       <Key>SmeltingPage</Key>
       <Title>Выплавка</Title>
@@ -39,6 +54,13 @@
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>KitPage</Key>
+      <Title>Наборы</Title>
+      <Text>Это предметы, которые расходуются во время {LINK:ConstructionPage;Строительства} и в других задачах.
+{LIST_OF_KITS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>FoodPage</Key>
       <Title>Еда</Title>
       <Text>Это предметы, необходимые для поддержания сытости.
@@ -50,6 +72,13 @@
       <Title>Экипировка</Title>
       <Text>Это предметы, которые можно носить в слотах экипировки.
 {LIST_OF_CLOTHING}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>AppliancePage</Key>
+      <Title>Бытовая техника</Title>
+      <Text>Это предметы, которые можно разместить на рабочем столе. Сперва вы должны поместить их на стол, затем закрепить при помощи гаечного ключа.
+{LIST_OF_APPLIANCES}
       </Text>
     </StationpediaPage>
     <StationpediaPage>
@@ -92,6 +121,26 @@
       <Key>IceMeltingTemplate</Key>
       <Text>Температура плавления {1}
 Давление плавления {0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPageTemplate</Key>
+      <Text>{LINK:ReagentPage;Реагенты}, часто используются в форме {LINK:IngotPage;слитков}.
+
+
+{LIST}Unit {1}{/LIST}
+
+
+{LIST}{2}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageTemplate</Key>
+      <Text>{LINK:GasPage;Газы}, часто вырабатываются в процессе {LINK:SmeltingPage;плавки}.
+
+
+{LIST}Specific Heat {1}{2}{/LIST}
+
+
+{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageFlamableTemplate</Key>

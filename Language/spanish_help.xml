@@ -6,6 +6,7 @@
     |                 MASTER PAGES            |
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
+    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
     <StationpediaPage>
       <Key>FabricatorPage</Key>
       <Title>Impresora Informatizada</Title>
@@ -18,12 +19,6 @@
       <Title>Dispositivos</Title>
       <Text>Estas son estructuras, típicamente alimentadas, que tienen funciones especializadas incluyendo la lógica, la atmósfera y más. Están construidas de la misma manera que otras estructuras.
         {LIST_OF_DEVICES}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ImportExportPage</Key>
-      <Title>Importación/Exportación y tolva</Title>
-      <Text>Estas son estructuras, típicamente alimentadas, que tienen funciones especializadas incluyendo la lógica, la atmósfera y más. Están construidas de la misma manera que otras estructuras.
-        {LIST_OF_IMPORTEXPORT}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>SmeltingPage</Key>
@@ -41,27 +36,6 @@
       <Key>ReagentPage</Key>
       <Title>Reactivos</Title>
       <Text>Se trata de cantidades químicas de ciertos tipos. {LIST_OF_REAGENTS}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>OrePage</Key>
-      <Title>Minerales</Title>
-      <Text>Estos son artículos que son {LINK:MiningPage;mined} y a menudo pueden ser {LINK:SmeltingPage;smelted}. También puedes obtener mineral mezclado reciclando elementos en la {THING:StructureRecycler} y luego pasándolo a través de la {THING:StructureCentrifuge} que lo romperá en {LINK:OrePage;ore} para {LINK:SmeltingPage;smelting}.
-        Hay algunos minerales que se fundirán cuando se expongan a la luz solar o al calor y producirán {LINK:GasPage;gases}. Por ejemplo, {THING:ItemIce} se funde en {GAS:Water} y {GAS:Oxygen}. Ten cuidado de mantenerlos fuera del calor o la luz del sol hasta que realmente quieras que se derritan.{LIST_OF_ORES}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>IngotPage</Key>
-      <Title>Lingotes</Title>
-      <Text>Estos son artículos que están típicamente hechos de {LINK:SmeltingPage;Smelting} {LINK:OrePage;ores}.
-      
-{LIST_OF_INGOTS}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ToolPage</Key>
-      <Title>Herramientas</Title>
-      <Text>Estos son artículos que pueden caber en una ranura de herramientas especializadas, y se utilizan para {LINK:ConstructionPage;Construction} y otras tareas.
-
-{LIST_OF_TOOLS}
-      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ResourcePage</Key>

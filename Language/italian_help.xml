@@ -6,6 +6,7 @@
     |                 MASTER PAGES            |
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
+    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
     <StationpediaPage>
       <Key>FabricatorPage</Key>
       <Title>Fabbricatori</Title>
@@ -50,33 +51,6 @@
 {HEADER:Lista dei Gas}
 {LIST_OF_GASES}
       </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>OrePage</Key>
-      <Title>Minerali</Title>
-      <Text>Questi sono oggetti che vengono {LINK:MiningPage;minati} e spesso {LINK:SmeltingPage;fusi}. Puoi ottenere anche una miscela di minerali riciclando oggetti con un {THING:StructureRecycler} e poi passandola in una {THING:StructureCentrifuge} che li dividerà in singoli {LINK:OrePage;minerali} per poterli nuovamente {LINK:SmeltingPage;fondere}.
-
-{HEADER:Sciogliere ghiacci}
-Questi sono minerali che possono essere esposti alla luce del sole o al calore e produrranno {LINK:GasPage;gas}. Per esempio il {THING:ItemIce} si scioglie in {GAS:Water} e {GAS:Oxygen}. Fai attenzione a tenerli lontani da calore e luce solare finché non vuoi fonderli. 
-      
-{HEADER:Lista di minerali}
-{LIST_OF_ORES}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>IngotPage</Key>
-      <Title>Lingotti</Title>
-      <Text>Questi sono oggetti che vengono tipicamente creati {LINK:SmeltingPage;fondendo} {LINK:OrePage;minerali}.
-      
-{HEADER:Lista di lingotti}
-{LIST_OF_INGOTS}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ToolPage</Key>
-      <Title>Utensili</Title>
-      <Text>Questi sono oggetti che possono essere inseriti in slot speciali per utensili, e sono utilizzati per la {LINK:ConstructionPage;costruzione} e altre attività. 
-      
-{HEADER:Lista degli utensili}
-{LIST_OF_TOOLS}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ResourcePage</Key>

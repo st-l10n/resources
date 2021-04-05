@@ -84,6 +84,14 @@
       <Value>Разместите консоль в выделенном месте</Value>
     </Record>
     <Record>
+      <Key>4.5PutGasCircuitInConsole</Key>
+      <Value>Добавьте плату параметры атмосферы к незаконченной консоли</Value>
+    </Record>
+    <Record>
+      <Key>4.5Finishconsole</Key>
+      <Value>Завершите консоль листом стекла</Value>
+    </Record>
+    <Record>
       <Key>4.5PutDataDiskInConsole</Key>
       <Value>Вставьте дата-диск в боковой слот консоли</Value>
     </Record>
@@ -96,8 +104,24 @@
       <Value>Чтобы запрограммировать консоль на отображение температуры печи, переключи режим на &apos;Temperature&apos; нажав на настройку, которая в данный момент назначена на &apos;Pressure&apos;.</Value>
     </Record>
     <Record>
+      <Key>4.5ConfigureGasSensorTask</Key>
+      <Value>Установите консоль в режим &apos;Temperature&apos; (Температура)</Value>
+    </Record>
+    <Record>
+      <Key>4,5ConfigureGasSensorTask1</Key>
+      <Value>Выберите печь из списка устройств</Value>
+    </Record>
+    <Record>
+      <Key>4,5ConfigureGasSensorTask2</Key>
+      <Value>Настройте вторую консоль для считывания давления (Pressure)</Value>
+    </Record>
+    <Record>
       <Key>4.5Narration6D</Key>
       <Value>Превосходно. Ты готов переплавлять как ты никогда не переплавлял до этого. Проконсультируйся в Станциопедии чтобы узнать как заправить печь.</Value>
+    </Record>
+    <Record>
+      <Key>4.5HowToMakeBattery</Key>
+      <Value>Изучите страницу строительного набора (батарея) в Stationpedia</Value>
     </Record>
     <Record>
       <Key>4.5Narration7D</Key>
@@ -124,6 +148,14 @@
       <Value>Ресурсы не всегда оказываются в нужном тебе количестве, поэтому тебе нужно разделять их. Льды ломаются легко в твоей мощной хватке.</Value>
     </Record>
     <Record>
+      <Key>OpenOxiteMenu</Key>
+      <Value>Кликните на лёд (Оксит)</Value>
+    </Record>
+    <Record>
+      <Key>4.5SplitStack</Key>
+      <Value>Разделите лед (Оксит) пополам (6)</Value>
+    </Record>
+    <Record>
       <Key>4.5Narration11D</Key>
       <Value>Давай разожжём эту штуку. Это не &apos;лучшая практика&apos; в ODA, но добавление прямо в печь работает как временная мера. Ты должен обрабатывать каждый кусок оксида раздельно, нажимая кнопку &apos;Активировать&apos; несколько раз. Крышка печи откроется когда весь оксид будет обработан.</Value>
     </Record>
@@ -133,9 +165,17 @@
       <!--Change to match tutorial-->
     </Record>
     <Record>
+      <Key>4.5IgnitingTheFurnace</Key>
+      <Value>Обработайте оксит: нажимайте на кнопку &apos;Активировать&apos; до тех пор, пока крышка не откроется</Value>
+    </Record>
+    <Record>
       <Key>4.5AddVolatilestoFurnace</Key>
       <Value>Добавьте 12 летучих газов в печь</Value>
       <!--Change to match tutorial-->
+    </Record>
+    <Record>
+      <Key>4.5IgnitingTheFurnace</Key>
+      <Value>Обработайте оксит: нажимайте на кнопку &apos;Активировать&apos; до тех пор, пока крышка не откроется</Value>
     </Record>
     <Record>
       <Key>4.5Narration12D</Key>
@@ -144,6 +184,14 @@
     <Record>
       <Key>5AddCoppertoFurnace</Key>
       <Value>Добавьте 50 медной руды в печь</Value>
+    </Record>
+    <Record>
+      <Key>4.5OpenFurnaceC</Key>
+      <Value>Потяните рычаг печи как завершится выплавка</Value>
+    </Record>
+    <Record>
+      <Key>4.5SmeltCopper</Key>
+      <Value>Подождите, пока выплавится медный слиток</Value>
     </Record>
     <Record>
       <Key>4.5Narration13D</Key>
@@ -156,6 +204,10 @@
     <Record>
       <Key>4.5OpenFurnace</Key>
       <Value>Выпустите золотой слиток</Value>
+    </Record>
+    <Record>
+      <Key>4.5SmeltGold</Key>
+      <Value>Подождите, пока выплавится золотой слиток</Value>
     </Record>
     <Record>
       <Key>4.5Narration14D</Key>
@@ -172,6 +224,10 @@
     <Record>
       <Key>4.5Narration15D</Key>
       <Value>Так как теперь давление в печи снизилось до безопасного уровня, выключи насос и заправь печь, чтобы снова заставить ее работать. Если тебе нужна дополнительная руда, она находится во втором шкафчике.</Value>
+    </Record>
+    <Record>
+      <Key>4.5VentingTheGases2</Key>
+      <Value>Заставьте печь снова работать.</Value>
     </Record>
     <Record>
       <Key>4.5Narration16D</Key>
@@ -222,8 +278,16 @@
       <Value>Просто на всякий случай, батареи должны быть включены чтобы получать энергию. Переключатель питания находится сбоку батареи.</Value>
     </Record>
     <Record>
+      <Key>4.5TurnBattery</Key>
+      <Value>Включите батарею с помощью переключателя сбоку</Value>
+    </Record>
+    <Record>
       <Key>4.5Narration21D</Key>
       <Value>Почти готово! Включи источник бесперебойного питания (ИБП) батарейной сети чтобы подключить ее к основной энергетической сети. ИБП изолирует батарейную энергосеть и обеспечивает стабильный, постоянный приток энергии в основную сеть.</Value>
+    </Record>
+    <Record>
+      <Key>4.5TurnAPC1</Key>
+      <Value>Включите ИБП батарейной сети</Value>
     </Record>
     <Record>
       <Key>4.5TurnAPC</Key>
@@ -251,6 +315,10 @@
       <Value>Закрой печь с помощью выпускного рычага</Value>
     </Record>
     <Record>
+      <Key>TutoiralSmeltingEndDescription</Key>
+      <Value>Отличная работа, Кадет - вы освоили основы выплавки стали.</Value>
+    </Record>
+    <Record>
       <Key>4.5OpenMiningbelt</Key>
       <Value>Откройте Шахтёрский пояс</Value>
     </Record>
@@ -269,6 +337,10 @@
     <Record>
       <Key>4.5NarrationInsert2D</Key>
       <Value>Теперь включи основную энергосеть, и ... да будет свет</Value>
+    </Record>
+    <Record>
+      <Key>4.5OpenAPCTask</Key>
+      <Value>Откройте ИБП сети основного питания</Value>
     </Record>
   </Interface>
 </Language>

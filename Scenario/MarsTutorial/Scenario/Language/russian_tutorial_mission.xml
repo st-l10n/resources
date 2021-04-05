@@ -15,6 +15,13 @@
       <Key>TutorialTheBeginningTitle</Key>
       <Value>Начало</Value>
     </Record>
+    <Record> Using 
+			
+      <Key>TutorialTheBeginningDescription</Key>
+      <Value>Давайте начнем. Закройте Stationpedia используя {KEY:Help}. Теперь экипируйте скафандр используя {KEY:PrimaryAction} для поднятия предметов. Нажмите {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot} или {KEY:ToolBeltSlot} чтобы переключится через возможные взаимодействия и слоты в любых экипированных в слоты экипировки предметах. Нажмите и держите соответствующие кнопки чтобы обменять содержимое слота с тем что у вас в руках. Вы так же можете зажать {KEY:MouseControl} и перетянуть предметы в соответствующий слот.
+
+Слоты вашего персонажа показаны в левой части экрана. Как пример использование кнопки {KEY:MouseControl} для нажатия на слот {THING:UniformOrangeJumpSuit}. Это откроет меню в соответствии с предметом экипированным в слот, позволяя взаимодействовать с предметом.</Value>
+    </Record>
     <Record>
       <Key>TutorialTheBeginningTask1</Key>
       <Value>Закройте {LINK:Home;Stationpedia}</Value>
@@ -53,6 +60,18 @@
       <Value>Отлично, теперь давайте запустим системы вашего костюма.</Value>
     </Record>
     <Record>
+      <Key>TutorialPowerUpTask1</Key>
+      <Value>Возьмите {THING:ItemBatteryCellNuclear} используя {KEY:PrimaryAction}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialPowerUpTask2</Key>
+      <Value>Откройте ваш {THING:ItemEvaSuit} использую кнопку {KEY:SuitSlot}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialPowerUpTask3</Key>
+      <Value>Вставьте {THING:ItemBatteryCellNuclear} в слот для батареи.</Value>
+    </Record>
+    <Record>
       <Key>TutorialSomethingToFilterTitle</Key>
       <Value>Чего-нибудь отфильтровать</Value>
     </Record>
@@ -61,8 +80,20 @@
       <Value>Скафандр требует {THING:ItemBatteryCellNuclear}, {THING:ItemGasFilterCarbonDioxide} и прочие вещи для обеспечения безопасной и всеохватывающей среды.</Value>
     </Record>
     <Record>
+      <Key>TutorialSomethingToFilterTask1</Key>
+      <Value>Возьмите {THING:ItemGasFilterCarbonDioxide} использую {KEY:PrimaryAction}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSomethingToFilterTask3</Key>
+      <Value>Вставьте {THING:ItemGasFilterCarbonDioxide} в слот для фильтра</Value>
+    </Record>
+    <Record>
       <Key>TutorialGasItUpTitle</Key>
       <Value>Подзаправься</Value>
+    </Record>
+    <Record>
+      <Key>TutorialGasItUpDescription</Key>
+      <Value>Ваш {THING:ItemSpacepack} требует топливо для работы, давайте воспользуемся той канистрой с азотом, что недалеко от вас.</Value>
     </Record>
     <Record>
       <Key>TutorialGasItUpTask</Key>
@@ -73,8 +104,28 @@
       <Value>Ощущается горячо-горячо</Value>
     </Record>
     <Record>
+      <Key>TutorialFeelingHotHotHotDescripton</Key>
+      <Value>В костюме несколько жарковато. Откройте ваш {THING:ItemEvaSuit} используя {KEY:SuitSlot} и опустите температуру до 20 градусов Цельсия. Более низкие температуры могут помочь продлить работу вашего костюма от аккумулятора, что может быть полезно если вы окажетесь в неблагоприятной ситуации. Сделанные вами изменения отобразятся в вашем пользовательском интерфейсе.</Value>
+    </Record>
+    <Record>
       <Key>TutorialFeelingHotHotHotTask1</Key>
       <Value>Снизьте температуру в скафандре.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialLockItDownTitle</Key>
+      <Value>Заблокируйте Его Сейчас</Value>
+    </Record>
+    <Record>
+      <Key>TutorialLockItDownDescripton</Key>
+      <Value>Время выбраться наружу! Не забудьте закрыть ваш шлем - в противном случае возникнут сложности с дыханием. Заблокировав шлем вы можете избежать случайного открытия скафандра и воздействия вредной атмосферы, температурных флуктуаций, так что давайте заблокируем его.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialLockItDownTask1</Key>
+      <Value>Закройте ваш {THING:ItemSpaceHelmet} используя {KEY:Internals}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialLockItDownTask2</Key>
+      <Value>Откройте меню {THING:ItemSpaceHelmet} используя {KEY:HelmetSlot} и выберите кнопку блокировки.</Value>
     </Record>
     <Record>
       <Key>TutorialAnotherDayAnotherDollarDescription</Key>
@@ -85,12 +136,32 @@
       <Value>Возьми {THING:ItemMiningDrill} из твоего {THING:ItemMiningBelt}</Value>
     </Record>
     <Record>
+      <Key>TutorialAnotherDayAnotherDollarTask0</Key>
+      <Value>Попробуйте включить ваш бур используя {KEY:ToggleHandPower}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAnotherDayAnotherDollarTask2</Key>
+      <Value>Добудьте немного {THING:ItemIronOre} из грунта</Value>
+    </Record>
+    <Record>
       <Key>TutorialJetpackTitle</Key>
       <Value>Я Верю Что Могу Летать</Value>
     </Record>
     <Record>
       <Key>TutorialJetpackDescription</Key>
       <Value>О, кто-то забыл лестницу! Лети на балкон используя {KEY:Ascend} для подъёма и {KEY:Descend} для снижения.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialJetpackTask2</Key>
+      <Value>Зайдите в {THING:StructureAirlock}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialJetpackTask4</Key>
+      <Value>Начните цикл шлюзования {THING:StructureAirlock}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialHatHairTask1</Key>
+      <Value>Разблокируйте ваш {THING:ItemSpaceHelmet}</Value>
     </Record>
     <Record>
       <Key>TutorialIsItGettingHotInHereTitle</Key>
@@ -193,6 +264,10 @@
       <Value>Забирись в этот лифт!</Value>
     </Record>
     <Record>
+      <Key>TutorialMovingOnUpTask1</Key>
+      <Value>Зайдите в лифт и поднимитесь на следующий этаж</Value>
+    </Record>
+    <Record>
       <Key>TutorialLetItGrowTitle</Key>
       <Value>Дайте этому Вырасти</Value>
     </Record>
@@ -201,20 +276,60 @@
       <Value>Так Близко</Value>
     </Record>
     <Record>
+      <Key>TutorialSoCloseDescription</Key>
+      <Value>Так близко, но так далеко. Перейдите в следующую комнату.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialSoCloseTask1</Key>
+      <Value>Перейдите в следующую комнату</Value>
+    </Record>
+    <Record>
       <Key>TutorialUnderPressureTitle</Key>
       <Value>Под Давлением</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUnderPressureTask1</Key>
+      <Value>Разместите {THING:StructureActiveVent}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUnderPressureTask2</Key>
+      <Value>Разместите {THING:StructureConsole}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUnderPressureTask3</Key>
+      <Value>Разместите {THING:StructureGasSensor}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialUnderPressureTask4</Key>
+      <Value>Разместите {THING:StructureFlashingLight}</Value>
     </Record>
     <Record>
       <Key>TutorialUnderPressure1Title</Key>
       <Value>Под Давлением</Value>
     </Record>
     <Record>
+      <Key>TutorialUnderPressure1Task1</Key>
+      <Value>Вставьте {THING:CircuitboardAirlockControl}</Value>
+    </Record>
+    <Record>
       <Key>TutorialUnderPressure1Task2</Key>
       <Value>Вставьте {THING:ItemDataDisk}</Value>
     </Record>
     <Record>
+      <Key>TutorialUnderPressure1Task3</Key>
+      <Value>Завершите консоль используя стекло</Value>
+    </Record>
+    <Record>
+      <Key>TutorialHackingTheMainframeTask1</Key>
+      <Value>Назначьте компоненты {THING:StructureAirlock}</Value>
+    </Record>
+    <Record>
       <Key>TutorialBeFreeTitle</Key>
       <Value>Будь Свободен</Value>
+    </Record>
+    <Record>
+      <Key>TutorialBeFreeTask1</Key>
+      <Value>Начните цикл шлюзования {THING:StructureAirlock}</Value>
     </Record>
     <Record>
       <Key>TutorialCompletedDescription</Key>

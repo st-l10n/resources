@@ -6,6 +6,7 @@
     |                 MASTER PAGES            |
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
+    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
     <StationpediaPage>
       <Key>FabricatorPage</Key>
       <Title>Gyártógépek</Title>
@@ -31,80 +32,121 @@
       <Text>{THING:ItemMiningDrill} használatával {LINK:OrePage;érceket} szerezhetsz. A {THING:ItemMiningBelt} viselésénél az {LINK:OrePage;ércek} atomatikusan abba helyeződnek át.</Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>ConstructionPage</Key>
+      <Title>Építkezés</Title>
+      <DisplayFilter>Útmutatók</DisplayFilter>
+      <Text>{HEADER:Első lépések}
+A legtöbb dolog megépítéséhez {LINK:KitPage;készleteket} fogsz használni. {LINK:ToolPage;Eszközök} ls {LINK:ResourcePage;nyersanyagok} használatával tudod befejezni őket. Figyelj arra, hogy hány készletet használsz el, mert néhány dolog megépítéséhez nem csak egyre lesz szükséged. Néhány készlet többféleképpen is elkészíthető, az opciókhoz használd a {COLORRED:Scroll Wheel} gombot.
+
+{HEADER:Építési fázisok}
+Néhány dolog különböző építési fázisokkal rendelkezik. A képernyő megjelenő szöveg segíteni fog, hogy éppen melyik eszköz és melyik nyersanyagot használd. Néha mindkét kezedben kell lennie adott tárgyaknak, hogy a konstrukciót sikeresen végrehajtsd. A használt eszközök közül van, amit be kell kapcsolni, ezt a {KEY:ToggleHandPower} gomb használatával teheted meg.
+
+{HEADER:Tippek}
+Ha közvetlenül ránézel az építés alatt levő tárgyra, a befejezéshez szükséges információk meg fognak jelenni. Ha nem a szükséges {LINK:ToolPage;eszköz} van a kezedben, tanácsot fogsz kapni, milyen eszközzel bonthatod le.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>ReagentPage</Key>
       <Title>Reagensek</Title>
       <Text>Ezek bizonyos típusú kémiai mennyiségek
+      {LIST_OF_REAGENTS}
       
-{HEADER:Reagensek} 
-{LIST_OF_REAGENTS}
       </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPage</Key>
       <Title>Gázok</Title>
-      <Text>Ezek bizonyos típusú kémiai gázok.
-
-{HEADER:Gázok}
-{LIST_OF_GASES}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>OrePage</Key>
-      <Title>Ércek</Title>
-      <Text>Az {LINK:OrePage;ércek} {LINK:MiningPage;bányászhatóak} és sokszor {LINK:SmeltingPage;be lehet olvasztani} őket. A {THING:StructureRecycler} használatával vegyes érceket kaphatsz, amiket csa a {THING:StructureCentrifuge} segítrségével válkaszhatsz szét újra. A kapott {LINK:OrePage;érceket} újra {LINK:SmeltingPage;beolvaszthatod}.
-
-{HEADER: Jegek olvasztása}
-Néhány érc napfény és más hő hatására elolvad ezzel {LINK:GasPage;gázoka képezve}. Például a {THING:ItemIce} elolvadása után {GAS:Water}zé és {GAS:Oxygen}né válik. Tartsd a jegeket távol a hőforrásoktól, ha nem akarod, hogy elolvadjanak!
-
-{HEADER:Ércek listája}
-{LIST_OF_ORES}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>IngotPage</Key>
-      <Title>Öntött fémrudak</Title>
-      <Text>Ezeket általában {LINK:OrePage;ércek} {LINK:SmeltingPage;beolvasztásával} készítheted el.
-
-{HEADER:Öntvények}
-{LIST_OF_INGOTS}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ToolPage</Key>
-      <Title>Eszközök</Title>
-      <Text>Ezek csak speciális eszköz slotban használhatók, {LINK:ConstructionPage;építkezéshez} és más munkákra használhatók.
-
-{HEADER:Eszközök}
-{LIST_OF_TOOLS}</Text>
+      <Text>Ezek bizonyos típusú kémiai gázok.{LIST_OF_GASES}
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ResourcePage</Key>
       <Title>Nyersanyagok</Title>
-      <Text>Ezeket {LINK:ConstructionPage;építkezés} és más munkák közben tudod felhasználni.
-
-{HEADER:Nyersanyagok}
-{LIST_OF_RESOURCES}</Text>
+      <Text>Ezeket {LINK:ConstructionPage;építkezés} és egyéb feladatokhoz tudod felhasználni.
+{LIST_OF_RESOURCES}
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>KitPage</Key>
       <Title>Készletek</Title>
-      <Text>Ezeket {LINK:ConstructionPage;építkezés} és más munkák közben tudod felhasználni.
-
-{HEADER:Készletek listája}
-{LIST_OF_KITS}</Text>
+      <Text>Ezeket {LINK:ConstructionPage;építkezés} és egyéb feladatokhoz tudod használni.
+{LIST_OF_KITS}
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>FoodPage</Key>
       <Title>Élelmiszer</Title>
-      <Text>Ezek használhatók az éhség csillapításához.
-
-{HEADER:Élelmiszerek listája}
-{LIST_OF_FOOD}</Text>
+      <Text>A következők használhatók a tápláltság növeléséhez.
+        {LIST_OF_FOOD}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ClothingPage</Key>
+      <Title>Öltözködés</Title>
+      <Text>Ezek a tárgyak entitások által hordhatók (slotokban).
+{LIST_OF_CLOTHING}
+      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>AppliancePage</Key>
       <Title>Készülékek</Title>
       <Text>Olyan tárgyak, amik pultokra helyezhetőek le. A lehelyezéshez rakd a pultra az eszközt, majd rögzítsd a franciakulccsal.
+{LIST_OF_APPLIANCES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>TravelPage</Key>
+      <Title>Úticél</Title>
+      <DisplayFilter>Útmutatók</DisplayFilter>
+      <Text>Várj! Még ne zárj be! Ezeknek a feltételeknek kell teljesülnie az indításhoz:
 
-{HEADER:Készülékek listája}
-{LIST_OF_APPLIANCES}</Text>
+- Teljesen megépített rakéta: legalább 3 központi modul
+- Teljesen feltankolt {THING:StructureModularRocketFueltank01}
+- Megfelelő üzemanyag-keverési arány - 2:1 arányú {GAS:Volatiles}-{GAS:Oxygen} keverék
+- {THING:StructureLaunchPad} ellátva árammal
+- Minden játékos a(z) {THING:StructureModularRocketCommand01} belsejében ül
+
+Ezek itt a VILÁGUTAZÓ-AZONOSÍTÓK. Használhatod őket bizonyos bolygók közti utazásra, ha együtt használod egy már kész {LINK:RocketShuttlePage;űrhajóval} és {LINK:LogicUnitPage;logikai egységekkel}.
+       
+Csak írd be a hash értékeket a {THING:StructureLaunchPad} Beállítás változójábaegy {THING:ItemLabeller} segítségével. Megjegyzés: Ha a hash értékre kattintasz, akkor bemásolódik a vágólapra.
+      
+Az induláshoz legalább 3 központi modulra lesz szükséged és arra, hogy minden játékos a rakétában üljön.
+
+      {LIST}
+        {WORLD_HASHES}
+      {/LIST}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>RocketShuttleModulesHelpPage</Key>
+      <Title>Űrsikló modulok</Title>
+      <DisplayFilter>Útmutatók</DisplayFilter>
+      <Text>{HEADER:Moduláris rakéta tehermodul}
+
+A {THING:StructureModularRocketCargo01} két láda tárolására képes. Egyszerre több modul is lehet a rakétán. A rakétához összesen hét modul köthető.
+
+{HEADER:Moduláris rakétavezérlő}
+
+A {THING:StructureModularRocketCommand01} a rakéta tetejére helyezendő. Ez a modul kiértékeli az összeszerelt rakétát. Abban az esetben, ha minden feltétel megvan az induláshoz, és minden játékos a rakétában ül, a kilövés az &quot;IGNITION&quot; gomb megnyomásával kezdhető meg.
+
+Ezek az indítás feltételei:
+
+Teli üzemanyagtartály
+Helyes üzemanyag-keverési arány
+Minden játékos becsatolva
+Hálózatba kötött indítási platform
+Teljesen megépített rakéta
+
+A {THING:StructureModularRocketCommand01} konzolja listázza az adott feltételek állapotát. Nem feltétlenül szükséges a kabin levegővel való ellátása, az űrruhád is megteszi.
+
+{HEADER:Moduláris rakéta hajtómű}
+
+A {THING:StructureModularRocketEngine01} (magával együtt) hét modult képes felemelni.
+
+{HEADER:Moduláris rakéta üzemanyagtartály}
+
+A {THING:StructureModularRocketFueltank01} egy 2 az 1-hez {GAS:Volatiles}-{GAS:Oxygen} keveréket követel meg. Ha az adott arányok nem megfelelőek, vagy más gázokat használtál, a {THING:StructureModularRocketCommand01} konzolja &quot;Érvénytelen&quot; hibát fog kidobni.
+
+          </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>RocketShuttlePage</Key>
@@ -112,6 +154,15 @@ Néhány érc napfény és más hő hatására elolvad ezzel {LINK:GasPage;gázo
       <Text>Ezek itt az űrsikló-modulok bolygóközi utakra. {THING:StructureLaunchPad} szükséges.
 {HEADER:Űrsikló-modulok}
 {LIST_OF_ROCKET_SHUTTLE}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>WeatherPage</Key>
+      <Title>Időjárás</Title>
+      <DisplayFilter>Útmutatók</DisplayFilter>
+      <Text>A Naprendszer bolygói nem olyan nyugisak, mint amilyennek tűnhetnek. Bármely, atmoszférával rendelkező bolygón az első hét nap után lecsapnak a természet erői - megkeserítve a stationeerek életét hó- és porviharokkal, valamint egyéb vulkanikus eseményekkel.
+Ezek miatt is ajánlja az FFÜ a frissen bevetett stationeereknek egy légmentes bázis építésének kivitelezését a landolás utáni első hét napban. Bármilyen mozgatható tárgy a viharban való kintfelejtésével - a Marson, Loulanon, Vulcanon vagy Europan - felmerülhet a kockázata annak, hogy azok nagyon, nagyon messze kavarodnak el - beleértve a leszállóegységed.
+Emellett ügyelj arra, hogy a napelemek törékenyek, az üveglap bennük eltörhet, vagy akár el is pusztulhatnak egy erősebb viharban. Viharos időben a tejesítményük is jelentősen lecsökken.
       </Text>
     </StationpediaPage>
     <!--
@@ -129,14 +180,10 @@ Festhető{POS:300}{2}{3}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ThingThermalTemplate</Key>
-      <Text>{HEADER:Termodinamikai korlátok}
-{LIST}Megtörés {POS:300}{0}
-Lobbanáspont{POS:300}{1}
+      <Text>{HEADER:Termikus korlátok}
+{LIST}Töréspont {POS:300}{0}
+Gyulladáspont{POS:300}{1}
 Öngyulladás{POS:300}{2}{3}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ThingSlotHeaderTemplate</Key>
-      <Text>{HEADER:Slotok}{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ThingSlotItemTemplate</Key>
@@ -152,74 +199,50 @@ Lobbanáspont{POS:300}{1}
 Olvadási nyomás {0}</Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>CreatorsHeaderTemplate</Key>
-      <Text>{HEADER:Előállítható ezzel:}{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ConstructedByHeaderTemplate</Key>
-      <Text>{HEADER:Előállítva ezzel:}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>CreatedHeaderTemplate</Key>
-      <Text>{HEADER:Gyárhatja ezt:}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ConstructedHeaderTemplate</Key>
-      <Text>{HEADER:Építeni tudja ezt:}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>LogicTransmitHeaderTemplate</Key>
-      <Text>{HEADER:Kapcsolódik ehhez:}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>TierListHeaderTemplate</Key>
-      <Text/>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>LogicTypeHeaderTemplate</Key>
-      <Text>{HEADER:Logika}{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ModeStringHeaderTemplate</Key>
-      <Text>{HEADER:Üzemmódok}{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>CreatedGasesTemplate</Key>
-      <Text>{HEADER:Gázok}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>CreatedReagentTemplate</Key>
-      <Text>{HEADER:Reagensek}
-{LIST}{0}{/LIST}</Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>ReagentPageTemplate</Key>
       <Text>Egy {LINK:ReagentPage;reagens} leggyakrabban {LINK:IngotPage;öntött rúd} formában használható.
 
-{HEADER:Általános}
+
 {LIST}Mértékegység: {1}{/LIST}
 
-{HEADER:Megtalálható itt:}
+
 {LIST}{2}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageTemplate</Key>
       <Text>A {LINK:GasPage;gázok} gyakran {LINK:SmeltingPage;ércek beolvasztásánál} szabadulnak fel.
 
-{HEADER:Általános}
+
 {LIST}Jellemző hőmérséklet {1}{2}{/LIST}
 
-{HEADER:Megtalálható itt:}
+
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPageFlamableTemplate</Key>
       <Text>Lobbanási határ {0} és egy {1} között</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>NutritionPage</Key>
+      <Title>Éhség + tápláltság</Title>
+      <DisplayFilter>Útmutatók</DisplayFilter>
+      <Text>A stationeerek, mint mindenki, megéhezhetnek. A különböző ételek mind máshogy készülnek. Az éhezés mértéke függ a beállításaidtól és a nehézségtől. Az élelem elfogyasztásásakor annak csak annyi része fog elfogyni, amennyi a tápláltságod 100%-os elréséhez szükséges.
+
+Minden stationeer kap induláskor élelemellátmányt, mint a &lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero}&lt;/color&gt; {THING:ItemCerealBar}, melyet a leszállóegységben talál meg. Ha ezek elfogynak, máshogy kell megoldanod az élelemellátást.
+
+Az alapanyagok nyersen kevésbé táplálnak, mint az elkészített ételek, azaz kevesebb részét töltik vissza a tápláltságnak. Az alapvető élelmiszerek a &lt;color=#0080FFFF&gt;{LINK:OrganicsPage;hidroponikával}&lt;/color&gt; állíthatóak elő. Ezeket {THING:ApplianceReagentProcessor} segítségével dolgozhatod fel, majd a {THING:ApplianceMicrowave} segítségével készítheted el ételnek.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>HydrationPage</Key>
+      <Title>Hidratáld magad</Title>
+      <DisplayFilter>Útmutatók</DisplayFilter>
+      <Text>Egy stationeernek egy szüksége van a folyamatos folyadékbevitelre. A rejtélyes, talán téves &lt;color=#0080FFFF&gt;{LINK:ODA;FFÜ}&lt;/color&gt; egészségügyi és biztonsági előírások meggátolják, hogy lehessen az űrruhában beépített hidratációs rendszer, ehelyett minden kortynál fel kell nyitni a sisakot. Vákuumban ez kifejezetten nem ajánlott!
+
+Milyen gyakorisággal kell folyadékot bevinni? Ezt meghatározza az általad választott nehézségi szint, a bolygód hőmérséklete, és hogy mennyit mozgolódsz.
+
+Ivóvízhez többféleképpen is juthatsz. Mindig találsz legalább egy {THING:ItemWaterBottle}ot a kezdőkészleted részeként, amit landoláskor kapsz. Ezeket a {THING:ItemWaterBottleFiller} segítségével töltöheted meg, ha az folyadékhálózatba van kötve. A hálózatot a {THING:StructureIceCrusher} segítségével töltheted meg, melybe elégséges mennyiségű jeget kell táplálnod.
+
+A szomjúság mértékét a beállításokban átállíthatod az &quot;Éhség/szomjúság mértéke&quot; csúszkával.</Text>
     </StationpediaPage>
   </HelpPage>
 </Language>
