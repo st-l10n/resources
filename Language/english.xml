@@ -5987,31 +5987,78 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
     <RecordThing>
       <Key>ItemKitHeatExchanger</Key>
       <Value>Kit Heat Exchanger</Value>
-      <Description />
+      <Description>This kit creates a {THING:StructureHeatExchangeLiquidtoGas}, {THING:StructureHeatExchangerLiquidtoLiquid} and {THING:StructureHeatExchangerGastoGas}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHeatExchangerLiquidtoLiquid</Key>
-      <Value>Heat Exchanger Liquid And Liquid</Value>
-      <Description />
-    </RecordThing>
+      <Value>Heat Exchanger - Liquid</Value>
+      <Description>The original specs for the N Series Flow-P heat exchanger were rumored to have been scrawled on the back of a burger receipt by a bored &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; designer riding up the Brazilian space elevator, but that hasn't stopped it becoming one of the most widely-copied heat exchanger designs in the Solar System.
+The 'N Flow-P' has four connections, allowing you to pass two liquid networks into the unit, which then works to equalize temperature across the two separate networks.
+As the N Flow-P is a passive system, it equalizes pressure across the entire of each individual network, unless connected to liquid management devices like a {THING:StructureLiquidVolumePump} or a {THING:StructureBackLiquidPressureRegulator}.
+</Description>
+    </RecordThing>r
     <RecordThing>
       <Key>StructureHeatExchangerGastoGas</Key>
-      <Value>Heat Exchanger Gas And Gas</Value>
-      <Description />
+      <Value>Heat Exchanger - Gas</Value>
+      <Description>The original specs for the N Series Flow-P heat exchanger were rumored to have been scrawled on the back of a burger receipt by a bored &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; designer riding up the Brazilian space elevator, but that hasn't stopped it becoming one of the most widely-copied heat exchanger designs in the Solar System.
+The 'N Flow-P' has four connections, allowing you to pass two gas networks into the unit, which then works to equalize temperature across the two separate networks.
+As the N Flow-P is a passive system, it equalizes pressure across the entire of each individual network, unless connected to gas management devices like a {THING:StructureVolumePump} or a {THING:StructureBackPressureRegulator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHeatExchangeLiquidtoGas</Key>
-      <Value>Heat Exchange Liquid And Gas</Value>
-      <Description />
+      <Value>Heat Exchanger - Liquid + Gas</Value>
+      <Description>The original specs for the N Series Flow-P heat exchanger were rumored to have been scrawled on the back of a burger receipt by a bored &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; designer riding up the Brazilian space elevator, but that hasn't stopped it becoming one of the most widely-copied heat exchanger designs in the Solar System.
+The 'N Flow-P' has four connections, allowing you to pass separate liquid and gas networks into the unit, which then works to equalize temperature across the two separate networks.
+As the N Flow-P is a passive system, it equalizes pressure across the entire of each individual network, unless connected to devices like a {THING:StructureVolumePump} or a {THING:StructureBackLiquidPressureRegulator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHeatExchangeLiquidAndGas</Key>
       <Value>Heat Exchange Liquid And Gas</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitHangerDoor</Key>
       <Value>Kit Hanger Door</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>LogicStepSequencer8</Key>
+      <Value>Logic Step Sequencer8</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DeviceStepUnit</Key>
+      <Value>Device Step Unit</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StopWatch</Key>
+      <Value>Stop Watch</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSoundCartridgeBass</Key>
+      <Value>Item Sound Cartridge Bass</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSoundCartridgeDrums</Key>
+      <Value>Item Sound Cartridge Drums</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSoundCartridgeLeads</Key>
+      <Value>Item Sound Cartridge Leads</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSoundCartridgeSynth</Key>
+      <Value>Item Sound Cartridge Synth</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitMusicMachines</Key>
+      <Value>Item Kit Music Machines</Value>
       <Description />
     </RecordThing>
   </Things>
@@ -6681,6 +6728,50 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
     <Record>
       <Key>Previous</Key>
       <Value>Previous</Value>
+    </Record>
+    <Record>
+      <Key>Button7</Key>
+      <Value>Button7</Value>
+    </Record>
+    <Record>
+      <Key>Button8</Key>
+      <Value>Button8</Value>
+    </Record>
+    <Record>
+      <Key>Button9</Key>
+      <Value>Button9</Value>
+    </Record>
+    <Record>
+      <Key>Button10</Key>
+      <Value>Button10</Value>
+    </Record>
+    <Record>
+      <Key>Button11</Key>
+      <Value>Button11</Value>
+    </Record>
+    <Record>
+      <Key>Button12</Key>
+      <Value>Button12</Value>
+    </Record>
+    <Record>
+      <Key>Button13</Key>
+      <Value>Button13</Value>
+    </Record>
+    <Record>
+      <Key>Button14</Key>
+      <Value>Button14</Value>
+    </Record>
+    <Record>
+      <Key>Button15</Key>
+      <Value>Button15</Value>
+    </Record>
+    <Record>
+      <Key>Button16</Key>
+      <Value>Button16</Value>
+    </Record>
+    <Record>
+      <Key>Button17</Key>
+      <Value>Button17</Value>
     </Record>
   </Interactables>
   <Interface>

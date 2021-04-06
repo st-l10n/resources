@@ -10,20 +10,20 @@
 		</Record>
 		<Record>
 			<Key>TutoiralLogicDescription</Key><!--This is the description that appers in the menu-->
-			<Value>Enhance your skills with basic logic systems.</Value>
+			<Value>Enhance your understanding of basic logic systems.</Value>
 		</Record>
 		<Record>
 			<Key>TutoiralLogicSubTitle</Key>
-			<Value>Practical Training: S circuitstage IV</Value>
+			<Value>Practical Training: Stage IV</Value>
 		</Record>
 		<Record>
 			<Key>IntoTutoiralLogicDescription</Key>
-			<Value>Welcome Cadet. Stationeer Command wants to confirm that you understand basic logic circuit design.
-We'll start with controlling lighting.</Value>
+			<Value>Welcome back, Cadet. Stationeer Command wants to be sure that you understand basic logic circuit design.
+Demonstrate your grasp of the fundamentals by designing a lighting control system.</Value>
 		</Record>
 		<Record>
 			<Key>8Narration0D</Key>
-			<Value>Logic systems are based around two values: 0 and 1. These can be used to set states on devices like 'on/off', 'open/close' and 'lock/unlock'. Your first goal is to use a switch to set 'on/off' values on a light.</Value>
+			<Value>Like most logic systems in the galaxy, Stationeers devices use two values: 0 and 1, to set states like 'on/off', 'open/close' and 'lock/unlock'. Today, you will use logic systems to set the 'on/off' value on a light. Start by placing a light switch (lever).</Value>
 		</Record>
 		<Record>
 			<Key>8ConstructLever</Key>
@@ -31,7 +31,7 @@ We'll start with controlling lighting.</Value>
 		</Record>
 		<Record>
 			<Key>8Narration1D</Key>
-			<Value>Most ODA devices have two ports: power and data. Data ports transmit information about a device's current state, using the same network as power. So the next step is to connect your switch to the cable network.</Value>
+			<Value>Most ODA devices have two ports: power and data. Data ports transmit information about a device's current state, using the same network as power. So connect your switch to the cable network.</Value>
 		</Record>
 		<Record>
 			<Key>8ConstructCable</Key>
@@ -43,7 +43,8 @@ We'll start with controlling lighting.</Value>
 		</Record>
 		<Record>
 			<Key>8Narration2D</Key>
-			<Value>Like its name suggests, a logic reader reads logic values from a given device. Place one in the highlighted position to read data from the switch. Note that logic flows in one direction only.</Value>
+			<Value>Like its name suggests, a logic reader reads logic values from devices. To read data from the switch, place a logic reader in the highlighted position.
+Note that logic flows in one direction only.</Value>
 		</Record>
 		<Record>
 			<Key>8ConstructReader</Key>
@@ -51,43 +52,44 @@ We'll start with controlling lighting.</Value>
 		</Record>
 		<Record>
 			<Key>8Narration3D</Key>
-			<Value>A logic writer takes a value from a logic reader, then writes that variable to a given device. It's how you tell things to do stuff.</Value>
+			<Value>A logic writer recieves a value from the logic reader, then writes that value to a given device - a light, in this case. Simple.</Value>
 		</Record>
 		<Record>
 			<Key>8ConstructWriter</Key>
-			<Value>Place logic writer in highlighted position.</Value>
+			<Value>Place logic writer in highlighted position</Value>
 		</Record>
 		<Record>
 			<Key>8Narration4D</Key>
-			<Value>Everything's connected. Now it's time to program your logic devices. Start with the logic reader - and set it to . You'll need a screw driver to adjust it. Set the input to 'Logic switch'. Then set its variable to 'Open'.</Value>
+			<Value>Now it's time to program your logic devices, starting with the logic reader. Use a screwdriver to set the input (IN) to 'Lever'. Then set the variable (VAR) to 'Open', so the reader knows what to look for.</Value>
 		</Record>
 		<Record>
 			<Key>8LogicReaderLogicInput1</Key>
-			<Value>Set logic reader 'device' value to 'logic switch'</Value>
+			<Value>Set logic reader input (IN) to 'Lever'</Value>
 		</Record>
 		<Record>
 			<Key>8LogicReaderLogic1</Key>
-			<Value>Set logic reader variable to 'Open'</Value>
+			<Value>Set logic reader variable (VAR) to 'Open'</Value>
 		</Record>
-		<Record>
+		<Record> 
 			<Key>8Narration5D</Key>
-			<Value>Now program your logic writer. You'll need to set its input to 'Logic reader', so it knows what device to read. Set the output to 'Light' and the variable to 'On', so it knows what it's ... doing.</Value>
+			<Value>Now program your logic writer. First, set its input (IN) to 'Logic reader'. Then set the output (OUT) to 'Wall Light'. 
+Lastly, to turn the light 'on', set the output variable (OUT VAR) to 'On'.</Value>
 		</Record>
 		<Record>
 			<Key>8LogicWritterInput1</Key>
-			<Value>Set logic writer input to 'Logic reader'</Value>
+			<Value>Set logic writer input (IN) to 'Logic reader'</Value>
 		</Record>
 		<Record>
 			<Key>LogicWritterOutput1</Key>
-			<Value>Set logic writer output to 'WallLight'</Value>
+			<Value>Set logic writer output (OUT) to 'Wall Light'</Value>
 		</Record>>
 		<Record>
 			<Key>8LogicWritterLogic1</Key>
-			<Value>Set logic writer variable to 'On'</Value>
+			<Value>Set output variable (OUT VAR) to 'On'</Value>
 		</Record>
 		<Record>
 			<Key>8Narration6D</Key>
-			<Value>Now they're programmed, you can turn on the logic reader and the logic writer.</Value>
+			<Value>Now that the logic reader and the logic writer are programmed, it's safe to turn them on.</Value>
 		</Record>
 		<Record>
 			<Key>8TurnOnReader</Key>
@@ -99,7 +101,7 @@ We'll start with controlling lighting.</Value>
 		</Record>
 		<Record>
 			<Key>8Narration7D</Key>
-			<Value>Excellent - now let's test the circuit. Try turning on the light by flipping the logic switch.</Value>
+			<Value>Excellent - now you're ready to test the logic circuit. Try turning on the light by flipping the lever.</Value>
 		</Record>
 		<Record>
 			<Key>8TurnOnWallLight</Key>
@@ -107,7 +109,7 @@ We'll start with controlling lighting.</Value>
 		</Record>
 		<Record>
 			<Key>8Narration8D</Key>
-			<Value>Well done, Cadet - you've created your first logic circuit. But a single light switch is just the beginning. Now let's look at using a batch writer to control several devices at once. Connect all the lights in the room to the logic network.</Value>
+			<Value>Well done, Cadet - you've created your first logic circuit. Now, let's look at how to control several devices at once. First, connect all of the lights in the room to the logic network.</Value>
 		</Record>
 		<Record>
 			<Key>8ConstructCable2</Key>
@@ -115,7 +117,7 @@ We'll start with controlling lighting.</Value>
 		</Record>
 		<Record>
 			<Key>8Narration9D</Key>
-			<Value>Before you adjust the logic values you've already programmed, make sure to turn your devices off. Only program inactive devices, or things get messy.</Value>
+			<Value>You'll need to adjust the logic devices you've just programmed. Make sure you turn them off first, or things get messy.</Value>
 		</Record>
 		<Record>
 			<Key>8TurnOffWriter</Key>
@@ -127,7 +129,7 @@ We'll start with controlling lighting.</Value>
 		</Record>
 		<Record>
 			<Key>8Narration10D</Key>
-			<Value>As you've turned off the writer, you can now reset the logic switch without turning off your lights.</Value>
+			<Value>Because you've turned off the logic writer, you can reset the logic switch without turning off your lights and throwing yourself into terrifying darkness.</Value>
 		</Record>
 		<Record>
 			<Key>8Closelever</Key>
@@ -147,39 +149,39 @@ We'll start with controlling lighting.</Value>
 		</Record>
 		<Record>
 			<Key>8BatchWriterOutput</Key>
-			<Value>Set batch writer output to 'Wall Light'</Value>
+			<Value>Set batch writer output (OUT TYPE) to 'Wall Light'</Value>
 		</Record>
 		<Record>
 			<Key>8Narration13D</Key>
-			<Value>Now set the batch writer's input to 'logic reader', and the variable it sets as 'On'.</Value>
+			<Value>Now set the batch writer's input (IN) to 'logic reader', and the variable it sets as 'On'.</Value>
 		</Record>
 		<Record>
 			<Key>8BatchWriterInput</Key>
-			<Value>Set batch writer input to 'Logic reader'</Value>
+			<Value>Set batch writer input (IN) to 'Logic reader'</Value>
 		</Record>
 		<Record>
 			<Key>8BatchWriterLogicType</Key>
-			<Value>Set batch writer variable as 'On'. </Value>
+			<Value>Set output variable (OUT VAR) to 'On'. </Value>
 		</Record>
 		<Record>
 			<Key>8Narration14D</Key>
-			<Value>You're ready to turn on the batch writer.</Value>
+			<Value>The batch writer is now programmed. So you're ready to turn it on, and the logic reader.</Value>
 		</Record>
 		<Record>
 			<Key>8TurnOnBatchWriter</Key>
-			<Value>Turn On Batch Writer</Value>
+			<Value>Turn on batch writer</Value>
 		</Record>
 		<Record>
 			<Key>8Narration15D</Key>
-			<Value>Okay, let's test the whole system now - throw the switch and let there be light!</Value>
+			<Value>Okay, let's test the whole system now - throw the lever and let there be light!</Value>
 		</Record>
 		<Record>
 			<Key>8TurnOnWallLight</Key>
-			<Value>Turn on logic switch.</Value>
+			<Value>Turn on the lights</Value>
 		</Record>
 		<Record>
 			<Key>8Narration16D</Key>
-			<Value>Great work, Cadet - you've mastered basic logic. But to transmit your results, you're going to need to get out of this room, and the doors are locked. Let's use logic to fix that. First, turn off the logic units.</Value>
+			<Value>Great work, Cadet - you've mastered basic logic. But to press the important blue button and transmit your results, you need to get out of this room. The doors are locked. Let's use logic to fix that. First, turn off the logic units.</Value>
 		</Record>
 		<Record>
 			<Key>8TurnOffBatchWriter</Key>
@@ -187,23 +189,23 @@ We'll start with controlling lighting.</Value>
 		</Record>
 		<Record>
 			<Key>8Narration17D</Key>
-			<Value>As you've turned off the batch writer, you can turn reset the logic switch without turning off your lights.</Value>
+			<Value>You can now reset the logic switch without turning off your lights.</Value>
 		</Record>
 		<Record>
 			<Key>8Closelever</Key>
-			<Value>Reset logic switch.</Value>
+			<Value>Reset logic switch</Value>
 		</Record>
 		<Record>
 			<Key>8Narration18D</Key>
-			<Value>Program your original logic writer to wrsite to the door's 'open/closed' variable</Value>
+			<Value>Programing the door is simple. It's already connected to the network - so just set the original logic writer to output to 'Glass Door', and write to the door's 'Open' variable.</Value>
 		</Record>
 		<Record>
 			<Key>8BatchWriterOutput2</Key>
-			<Value>Set logic writer output to 'StructureGlassDoor'</Value>
+			<Value>Set logic writer output (OUT) to 'Glass Door'</Value>
 		</Record>
 		<Record>
 			<Key>8BatchWriterLogicType2</Key>
-			<Value>Set logic writer variable to 'Open/Closed'</Value>
+			<Value>Set logic writer variable (OUT VAR) to 'Open'</Value>
 		</Record>
 		<Record>
 			<Key>8Narration19D</Key>
@@ -215,11 +217,11 @@ We'll start with controlling lighting.</Value>
 		</Record>
 		<Record>
 			<Key>8Narration20D</Key>
-			<Value>You now have the knowlage and skillset to create basic logic circuits. Play around with logic circuits to get a better understanding and see what you can create/automate.</Value>
+			<Value>Excellent, Cadet. You now have the knowledge and skills to create basic logic circuits. Take your new wisdom, and experiment with other devices, systems and networks. There's a universe of possiblities out there. Press the important blue button to transmit your results to the ODA.</Value>
 		</Record>
 		<Record>
 			<Key>TutoiralLogicCompleteTutorial</Key>
-			<Value>Well Done on completing the logic tutorial.</Value>
+			<Value>This confirms that the aforementioned Stationeer Cadet has satisfactorily demonstrated adequate skills and knowledge with basic logic systems.</Value>
 		</Record>
 		<Record>
 			<Key></Key>
