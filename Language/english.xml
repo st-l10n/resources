@@ -934,22 +934,32 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>ItemBatteryCell</Key>
       <Value>Battery Cell (Small)</Value>
-      <Description>Harnassing a design pioneered in the early 21st century, the small battery cell is the &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer's}&lt;/color&gt; basic unit of portable electrical power. While it lacks the charge of a {THING:ItemBatteryCellLarge} or {THING:ItemBatteryCellNuclear}, it has the humble advantage of being fabricated from basic resources.</Description>
+      <Description>Harnessing a design pioneered in the early 21st century, the small battery cell is the &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer's}&lt;/color&gt; basic unit of portable electrical power. While it lacks the charge of a {THING:ItemBatteryCellLarge} or {THING:ItemBatteryCellNuclear}, it has the humble advantage of being fabricated from basic resources.
+
+{HEADER:POWER OUTPUT}
+The small cell stores up to 36000 watts of power.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCellLarge</Key>
       <Value>Battery Cell (Large)</Value>
-      <Description>First mass-produced by &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; in 2155 on the basis of a unattributed prototype, this classic silicon anode power cell delivers almost 300k joules of power. The solid-state design also extends its optimum temperature range.</Description>
+      <Description>First mass-produced by &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; in 2155 on the basis of a unattributed prototype, the classic silicon anode solid-state design extends its optimum temperature range.
+
+{HEADER:POWER OUTPUT}
+The large power cell can discharge 288kW of power. 
+</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCellNuclear</Key>
       <Value>Battery Cell (Nuclear)</Value>
-      <Description>Illegal on Earth since the Chengdu Event, Norsec nuclear power cells found a new and drastically less safety-conscious market offworld. Pushing the power-weight balance to its limits, the 'nuke' has a 2.3 megajoule charge, reflecting its reliance on exotic &lt;color=#0080FFFF&gt;{LINK:IngotsPage;superalloys}&lt;/color&gt;.</Description>
+      <Description>Illegal on Earth since the Chengdu Event, Norsec nuclear power cells found a new and drastically less safety-conscious market offworld.
+
+{HEADER:POWER OUTPUT}
+Pushing the power-weight balance to its limits, the 'nuke' has a 2.3 megawatt charge (2304000W), reflecting its reliance on exotic &lt;color=#0080FFFF&gt;{LINK:IngotPage;superalloys}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCharger</Key>
       <Value>Kit (Battery Charger)</Value>
-      <Description>This kit produces a 5-slot {THING:ItemBatteryCharg}.</Description>
+      <Description>This kit produces a 5-slot {THING:ItemBatteryCharger}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBook</Key>
@@ -1755,7 +1765,8 @@ The &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec-designed}&lt;/color&gt; K-cops 10
       <Value>Air Conditioner</Value>
       <Description>Built using the {THING:ItemKitAtmospherics}, the &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin-designed}&lt;/color&gt; air conditioner is used to raise or lower local temperature.
 The unit has three pipe connections: input, output, and waste. Attach an {THING:ItemActiveVent} to the unit's input port, and a passive vent to the output port, so the unit can draw gas through it. Run pipes from the unit's waste port to outside your base, where you can add {THING:StructurePipeRadiator}s to rapidly shed or gain temperature from the network. 
-Note that some &lt;color=#0080FFFF&gt;{LINK:GasPage;gases}&lt;/color&gt; are better coolants than others, but if the coolant pipe has less than 100kPa pressure, it will siphon its output to reach the necessary pressure.</Description>
+Note that some &lt;color=#0080FFFF&gt;{LINK:GasPage;gases}&lt;/color&gt; are better coolants than others, but if the coolant pipe has less than 100kPa pressure, it will siphon its output to reach the necessary pressure.
+For more information on using the air conditioner, consult the {LINK:TemperatureControlPage;temperature control} Guides page.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirlock</Key>
@@ -1785,10 +1796,11 @@ Lastly, an APC charges batteries, which can provide backup power to the sub-netw
     </RecordThing>
     <RecordThing>
       <Key>StructureBattery</Key>
-      <Value>Battery</Value>
+      <Value>Station Battery</Value>
       <Description>Providing large-scale, reliable power storage, the &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; 'Dianzi' station battery is the heart of most &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; bases. 
 There are a variety of cautions to the design of electrical systems using batteries, and every experienced Stationeer has a story to tell, hence the Stationeer adage: 'Dianzi cooks, but it also frys.' 
-Able to store up to 1kWh of power, there are no practical limits to its throughput, hence it is wise to use {THING:ItemCableCoilHeavy}. Seasoned electrical engineers will also laugh in the face of those who fail to separate our their power generation networks using an {THING:StructureAreaPowerControl} and {THING:StructureTransformer}.</Description>
+{HEADER:POWER OUTPUT}
+Able to store up to 3600000W of power, there are no practical limits to its throughput, hence it is wise to use {THING:ItemCableCoilHeavy}. Seasoned electrical engineers will also laugh in the face of those who fail to separate out their power generation networks using an {THING:StructureAreaPowerControl} and {THING:StructureTransformer}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBatteryCharger</Key>
@@ -2294,6 +2306,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <RecordThing>
       <Key>StructureVolumePump</Key>
       <Value>Volume Pump</Value>
+      <Description>The volume pump pumps pumpable gases. It also separates out pipe networks into separate networks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidValve</Key>
@@ -2302,10 +2315,24 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <RecordThing>
       <Key>StructureWallCooler</Key>
       <Value>Wall Cooler</Value>
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; {THING:ItemWallCooler} complements the wall heater, which can only raise the temperature. The wall cooler functions by drawing heat from the surrounding atmosphere and adding that heat into its pipe network.
+In order to run the wall cooler properly, you will need to connect pipes to the wall cooler and fill the connected pipe network with any type of gas. The gas's heat capacity and volume will determine how fast it reacts to temperature changes.
+{HEADER:EFFICIENCY}
+The higher the difference in temperature between the gas stored in the pipes and the room, the less efficient the wall cooler will be. So to keep the wall cooler running at an acceptable efficiency you will need to get rid of the heat that accumulates in the pipes connected to it. A common practice would be to run the pipes to the outside and use radiators on the outside section of the pipes to get rid of the heat.
+The less efficient the wall cooler, the less power it consumes. It will consume 1010W at max efficiency. The wall cooler can be controlled by logic chips to run when the temperature hits a certain degree.
+{HEADER:ERRORS}
+If the wall cooler is flashing an error then it is missing one of the following:
+
+- Pipe connection to the wall cooler.
+- Gas in the connected pipes, or pressure is too low.
+- Atmosphere in the surrounding environment or pressure is too low.
+
+For more information about how to control temperatures, consult the {LINK:TemperatureControlPage;temperature control} Guides page.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallHeater</Key>
       <Value>Wall Heater</Value>
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; wall heater is a simple device that can be installed on a wall or frame and connected to power. When switched on, it will start heating the surrounding environment. It consumes 1010W of power and can be controlled by logic chips to run when the temperature hits a certain level.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallLight</Key>
@@ -4747,8 +4774,11 @@ When landing, the rocket will deploy a lander, and any cargo contained in the {T
     </RecordThing>
     <RecordThing>
       <Key>StructureBatteryLarge</Key>
-      <Value>Battery Large</Value>
-      <Description>Description coming.</Description>
+      <Value>Station Battery (Large)</Value>
+      <Description>Providing even better large-scale, reliable power storage than the {THING;StructureBattery}, the &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; 'Da Dianchi' large station battery is the heart of most &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; bases. 
+There are a variety of cautions to the design of electrical systems using batteries, and every experienced Stationeer has a story to tell, hence the Stationeer adage: 'Dianzi cooks, but it also frys.' 
+{HEADER:POWER OUTPUT}
+Able to store up to 9000001 watts of power, there are no practical limits to its throughput, hence it is wise to use {THING:ItemCableCoilHeavy}. Seasoned electrical engineers will also laugh in the face of those who fail to separate out their power generation networks using an {THING:StructureAreaPowerControl} and {THING:StructureTransformer}. </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitBatteryLarge</Key>

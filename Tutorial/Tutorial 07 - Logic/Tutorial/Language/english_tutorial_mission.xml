@@ -14,16 +14,16 @@
 		</Record>
 		<Record>
 			<Key>TutoiralLogicSubTitle</Key>
-			<Value>Practical Training: Stage IV</Value>
+			<Value>Practical Training: Stage VIII</Value>
 		</Record>
 		<Record>
 			<Key>IntoTutoiralLogicDescription</Key>
-			<Value>Welcome back, Cadet. Stationeer Command wants to be sure that you understand basic logic circuit design.
-Demonstrate your grasp of the fundamentals by designing a lighting control system.</Value>
+			<Value>Welcome back, Cadet. Stationeer Command wants to test your understanding of basic logic circuits.
+Demonstrate your skills by designing a lighting control system.</Value>
 		</Record>
 		<Record>
 			<Key>8Narration0D</Key>
-			<Value>Like most logic systems in the galaxy, Stationeers devices use two values: 0 and 1, to set states like 'on/off', 'open/close' and 'lock/unlock'. Today, you will use logic systems to set the 'on/off' value on a light. Start by placing a light switch (lever).</Value>
+			<Value>Like most logic systems in the galaxy, Stationeers devices use two values: 0 and 1, to set states like 'on/off', 'open/close' and 'lock/unlock'. Today, you will use logic systems to control a lighting system. Start by placing a lever to use as a light switch.</Value>
 		</Record>
 		<Record>
 			<Key>8ConstructLever</Key>
@@ -43,8 +43,8 @@ Demonstrate your grasp of the fundamentals by designing a lighting control syste
 		</Record>
 		<Record>
 			<Key>8Narration2D</Key>
-			<Value>Like its name suggests, a logic reader reads logic values from devices. To read data from the switch, place a logic reader in the highlighted position.
-Note that logic flows in one direction only.</Value>
+			<Value>As its name suggests, a logic reader is how you read logic values FROM devices.
+To read data from the switch, place a logic reader in the highlighted position. Note that logic flows in one direction only.</Value>
 		</Record>
 		<Record>
 			<Key>8ConstructReader</Key>
@@ -52,7 +52,7 @@ Note that logic flows in one direction only.</Value>
 		</Record>
 		<Record>
 			<Key>8Narration3D</Key>
-			<Value>A logic writer recieves a value from the logic reader, then writes that value to a given device - a light, in this case. Simple.</Value>
+			<Value>A logic writer is different. It recieves data from the logic reader, then writes that data TO a given device - a light, in this case.</Value>
 		</Record>
 		<Record>
 			<Key>8ConstructWriter</Key>
@@ -60,7 +60,8 @@ Note that logic flows in one direction only.</Value>
 		</Record>
 		<Record>
 			<Key>8Narration4D</Key>
-			<Value>Now it's time to program your logic devices, starting with the logic reader. Use a screwdriver to set the input (IN) to 'Lever'. Then set the variable (VAR) to 'Open', so the reader knows what to look for.</Value>
+			<Value>Now it's time to program these logic devices. Start with the logic reader.
+Use a screwdriver to set the input (IN) to 'Lever'. Then set the variable (VAR) it will read to 'Open'.</Value>
 		</Record>
 		<Record>
 			<Key>8LogicReaderLogicInput1</Key>
@@ -72,8 +73,9 @@ Note that logic flows in one direction only.</Value>
 		</Record>
 		<Record> 
 			<Key>8Narration5D</Key>
-			<Value>Now program your logic writer. First, set its input (IN) to 'Logic reader'. Then set the output (OUT) to 'Wall Light'. 
-Lastly, to turn the light 'on', set the output variable (OUT VAR) to 'On'.</Value>
+			<Value>Now program the logic writer. 
+Set the writer's input (IN) to 'Logic reader', and its output (OUT) to 'Wall Light'. 
+Lastly, set the output variable (OUT VAR) to 'On', so that it toggles the light's on/off variable.</Value>
 		</Record>
 		<Record>
 			<Key>8LogicWritterInput1</Key>
@@ -89,7 +91,7 @@ Lastly, to turn the light 'on', set the output variable (OUT VAR) to 'On'.</Valu
 		</Record>
 		<Record>
 			<Key>8Narration6D</Key>
-			<Value>Now that the logic reader and the logic writer are programmed, it's safe to turn them on.</Value>
+			<Value>Now the logic reader and the logic writer are programmed, so it's safe to turn them on.</Value>
 		</Record>
 		<Record>
 			<Key>8TurnOnReader</Key>
@@ -109,7 +111,7 @@ Lastly, to turn the light 'on', set the output variable (OUT VAR) to 'On'.</Valu
 		</Record>
 		<Record>
 			<Key>8Narration8D</Key>
-			<Value>Well done, Cadet - you've created your first logic circuit. Now, let's look at how to control several devices at once. First, connect all of the lights in the room to the logic network.</Value>
+			<Value>Well done, Cadet - you've created a basic logic circuit. Now, set up a system to control several lights at once. Start by connecting all of the lights in the room to the logic network.</Value>
 		</Record>
 		<Record>
 			<Key>8ConstructCable2</Key>
@@ -117,7 +119,7 @@ Lastly, to turn the light 'on', set the output variable (OUT VAR) to 'On'.</Valu
 		</Record>
 		<Record>
 			<Key>8Narration9D</Key>
-			<Value>You'll need to adjust the logic devices you've just programmed. Make sure you turn them off first, or things get messy.</Value>
+			<Value>To set up this system, you'll need to adjust the logic devices. Turn them off first, or they get confused.</Value>
 		</Record>
 		<Record>
 			<Key>8TurnOffWriter</Key>
@@ -129,7 +131,7 @@ Lastly, to turn the light 'on', set the output variable (OUT VAR) to 'On'.</Valu
 		</Record>
 		<Record>
 			<Key>8Narration10D</Key>
-			<Value>Because you've turned off the logic writer, you can reset the logic switch without turning off your lights and throwing yourself into terrifying darkness.</Value>
+			<Value>With the logic writer turned off, you can reset the light switch without throwing yourself into terrifying darkness.</Value>
 		</Record>
 		<Record>
 			<Key>8Closelever</Key>
@@ -137,7 +139,7 @@ Lastly, to turn the light 'on', set the output variable (OUT VAR) to 'On'.</Valu
 		</Record>
 		<Record>
 			<Key>8Narration11D</Key>
-			<Value>Batch writers are just like logic writers, except they can writer to multiple devices at once. You'll need to add a batch writer to the network.</Value>
+			<Value>You need to add a batch writer to the network. Batch writers are just like logic writers, except they can write to multiple devices. </Value>
 		</Record>
 		<Record>
 			<Key>8ConstructBatchWriter</Key>
@@ -145,7 +147,7 @@ Lastly, to turn the light 'on', set the output variable (OUT VAR) to 'On'.</Valu
 		</Record>
 		<Record>
 			<Key>8Narration12D</Key>
-			<Value>Search through the batch writer's outputs for 'Wall Light'. This will cause it to write to every wall light on the network</Value>
+			<Value>Search through the batch writer's outputs for 'Wall Light'. This will cause it to write to every wall light on the network.</Value>
 		</Record>
 		<Record>
 			<Key>8BatchWriterOutput</Key>
@@ -153,7 +155,7 @@ Lastly, to turn the light 'on', set the output variable (OUT VAR) to 'On'.</Valu
 		</Record>
 		<Record>
 			<Key>8Narration13D</Key>
-			<Value>Now set the batch writer's input (IN) to 'logic reader', and the variable it sets as 'On'.</Value>
+			<Value>Now set the batch writer's input (IN) to 'logic reader'. Then set the variable it writes to (OUT VAR) on the light as 'On'.</Value>
 		</Record>
 		<Record>
 			<Key>8BatchWriterInput</Key>
@@ -165,7 +167,7 @@ Lastly, to turn the light 'on', set the output variable (OUT VAR) to 'On'.</Valu
 		</Record>
 		<Record>
 			<Key>8Narration14D</Key>
-			<Value>The batch writer is now programmed. So you're ready to turn it on, and the logic reader.</Value>
+			<Value>The batch writer is now programmed. So you're ready to turn it on, as well as the logic reader.</Value>
 		</Record>
 		<Record>
 			<Key>8TurnOnBatchWriter</Key>
@@ -181,7 +183,8 @@ Lastly, to turn the light 'on', set the output variable (OUT VAR) to 'On'.</Valu
 		</Record>
 		<Record>
 			<Key>8Narration16D</Key>
-			<Value>Great work, Cadet - you've mastered basic logic. But to press the important blue button and transmit your results, you need to get out of this room. The doors are locked. Let's use logic to fix that. First, turn off the logic units.</Value>
+			<Value>Great work, Cadet - you've mastered basic logic. But to transmit your results, you need to get out of this room. The doors are locked! Use logic to fix that. 
+First, turn off the logic units.</Value>
 		</Record>
 		<Record>
 			<Key>8TurnOffBatchWriter</Key>
@@ -221,7 +224,7 @@ Lastly, to turn the light 'on', set the output variable (OUT VAR) to 'On'.</Valu
 		</Record>
 		<Record>
 			<Key>TutoiralLogicCompleteTutorial</Key>
-			<Value>This confirms that the aforementioned Stationeer Cadet has satisfactorily demonstrated adequate skills and knowledge with basic logic systems.</Value>
+			<Value>This confirms that the accredited holder of this NFT certificate has demonstrated adequate skills and knowledge of basic logic systems.</Value>
 		</Record>
 		<Record>
 			<Key></Key>
