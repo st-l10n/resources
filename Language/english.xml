@@ -6026,7 +6026,7 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
 The 'N Flow-P' has four connections, allowing you to pass two liquid networks into the unit, which then works to equalize temperature across the two separate networks.
 As the N Flow-P is a passive system, it equalizes pressure across the entire of each individual network, unless connected to liquid management devices like a {THING:StructureLiquidVolumePump} or a {THING:StructureBackLiquidPressureRegulator}.
 </Description>
-    </RecordThing>r
+    </RecordThing>
     <RecordThing>
       <Key>StructureHeatExchangerGastoGas</Key>
       <Value>Heat Exchanger - Gas</Value>
@@ -6044,7 +6044,7 @@ As the N Flow-P is a passive system, it equalizes pressure across the entire of 
     <RecordThing>
       <Key>StructureHeatExchangeLiquidAndGas</Key>
       <Value>Heat Exchange Liquid And Gas</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitHangerDoor</Key>
@@ -6089,6 +6089,26 @@ As the N Flow-P is a passive system, it equalizes pressure across the entire of 
     <RecordThing>
       <Key>ItemKitMusicMachines</Key>
       <Value>Item Kit Music Machines</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInsulatedTankConnector</Key>
+      <Value>Kit Insulated Tank Connector</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedTankConnector</Key>
+      <Value>Insulated Tank Connector</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInsulatedTankConnectorLiquid</Key>
+      <Value>Kit Insulated Tank Connector Liquid</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedTankConnectorLiquid</Key>
+      <Value>Insulated Tank Connector Liquid</Value>
       <Description />
     </RecordThing>
   </Things>
