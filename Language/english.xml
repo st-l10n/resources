@@ -6054,7 +6054,27 @@ As the N Flow-P is a passive system, it equalizes pressure across the entire of 
     <RecordThing>
       <Key>LogicStepSequencer8</Key>
       <Value>Logic Step Sequencer8</Value>
-      <Description />
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; does not approve of soundtracks or other distractions.
+As such, &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; have had to create their own musical accompaniment to the demanding labor of building and maintaining off-world infrastructure.
+Central to this pasttime is the step sequencer, which allows Stationeers to sequence short musical patterns or loops. 
+
+{HEADER:DIY MUSIC}
+
+1: Connect 8 {THING:DeviceStepUnit}s to your step sequencer via the data port on the lefthand side.
+
+2: Assign step units 1 through 8 on the step sequencer using the screwdiver.
+
+3: Select the output speaker (eg {THING:StructureKlaxon}) where the sequencer will play the sounds. This needs to be connected to the logic network on the righthand side of the sequencer.
+
+4: Place a {THING:StopWatch} and use a {THING:StructureLogicReader} and {THING:StructureLogicWriter} to write the time to the time variable on the sequencer.
+
+5: Set the BPM on the sequencer using a {THING:StructureLogicDial} that writes to the BPM variable. A higher bpm will play the sequence faster. 
+
+6: Insert a sound cartidge of your chosing and select which variant of sound you wish to play by pushing the arrow buttons located above and below the sound cartidge slot.
+
+7: Choose the pitch of the sounds to play by setting the dial on each of your 8 step units to the desire note. Trial your sounds by pushing the activate button on the step unit.
+
+8: Finally, activate the sequencer, Stationilla.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DeviceStepUnit</Key>
@@ -6133,6 +6153,11 @@ Water x 2
 
 NOTE: The decay process will take account of gas ratios in mixed atmospheres in calculating the decay modifier.
 </Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureShelfMedium</Key>
+      <Value>Structure Shelf Medium</Value>
+      <Description />
     </RecordThing>
   </Things>
   <Slots>
@@ -6576,35 +6601,35 @@ NOTE: The decay process will take account of gas ratios in mixed atmospheres in 
     </Record>
     <Record>
       <Key>Slot11</Key>
-      <Value>Slot 11</Value>
+      <Value>Slot11</Value>
     </Record>
     <Record>
       <Key>Slot12</Key>
-      <Value>Slot 12</Value>
+      <Value>Slot12</Value>
     </Record>
     <Record>
       <Key>Slot13</Key>
-      <Value>Slot 13</Value>
+      <Value>Slot13</Value>
     </Record>
     <Record>
       <Key>Slot14</Key>
-      <Value>Slot 14</Value>
+      <Value>Slot14</Value>
     </Record>
     <Record>
       <Key>Slot15</Key>
-      <Value>Slot 15</Value>
+      <Value>Slot15</Value>
     </Record>
     <Record>
       <Key>Slot16</Key>
-      <Value>Slot 16</Value>
+      <Value>Slot16</Value>
     </Record>
     <Record>
       <Key>Slot17</Key>
-      <Value>Slot 17</Value>
+      <Value>Slot17</Value>
     </Record>
     <Record>
       <Key>Slot18</Key>
-      <Value>Slot 18</Value>
+      <Value>Slot18</Value>
     </Record>
     <Record>
       <Key>Slot19</Key>
@@ -6620,15 +6645,15 @@ NOTE: The decay process will take account of gas ratios in mixed atmospheres in 
     </Record>
     <Record>
       <Key>Slot22</Key>
-      <Value>Slot 22</Value>
+      <Value>Slot22</Value>
     </Record>
     <Record>
       <Key>Slot23</Key>
-      <Value>Slot 23</Value>
+      <Value>Slot23</Value>
     </Record>
     <Record>
       <Key>Slot24</Key>
-      <Value>Slot 24</Value>
+      <Value>Slot24</Value>
     </Record>
     <Record>
       <Key>Slot25</Key>
@@ -6644,15 +6669,15 @@ NOTE: The decay process will take account of gas ratios in mixed atmospheres in 
     </Record>
     <Record>
       <Key>Slot28</Key>
-      <Value>Slot 28</Value>
+      <Value>Slot28</Value>
     </Record>
     <Record>
       <Key>Slot29</Key>
-      <Value>Slot 29</Value>
+      <Value>Slot29</Value>
     </Record>
     <Record>
       <Key>Slot30</Key>
-      <Value>Slot 30</Value>
+      <Value>Slot30</Value>
     </Record>
     <Record>
       <Key>TiltUpwards</Key>
