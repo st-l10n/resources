@@ -579,15 +579,41 @@ Melt Pressure {0}</Text>
 
     <StationpediaPage>
       <Key>NutritionPage</Key>
-      <Title>Hunger + nutrition</Title>
+      <Title>Hunger, nutrition + decay</Title>
       <DisplayFilter>Guides</DisplayFilter>
-      <Text>Stationeers get hungry eventually, but not all food is created equal. Also, your hunger rate varies depending on settings and difficulty. Eating will only consume that part of an item adequate to restoring your hunger to 100%.
+      <Text>{HEADER:HUNGER}
+
+Stationeers get hungry eventually, but not all food is created equal. Also, your hunger rate varies depending on settings and difficulty. Eating will only consume that part of an item adequate to restoring your hunger to 100%.
 
 Stationeers receive supplies of food such as an &lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero}&lt;/color&gt; {THING:ItemCerealBar} in their lander upon arriving on a new world. When these are exhausted, you must find new sources of sustenance.
 
-Eating raw ingredients will satisfy hunger less than meals, ie will replace a smaller proportion of your hunger. The basic elements of food are created using &lt;color=#0080FFFF&gt;{LINK:OrganicsPage;hydroponics}&lt;/color&gt; systems. These can be processed into recipe ingredients using the {THING:ApplianceReagentProcessor}, then turned into meals using a {THING:ApplianceMicrowave}.
+{HEADER:NUTRITION}
 
-Your hunger rate can be adjusted set in the main settings menu by adjusting the Hunger/Hydration rate slider.
+Eating raw ingredients will satisfy hunger less than meals, ie will replace a smaller proportion of your hunger. The basic elements of food are created using &lt;color=#0080FFFF&gt;{LINK:OrganicPage;hydroponics}&lt;/color&gt; systems. These can be processed into recipe ingredients using the {THING:ApplianceReagentProcessor}, then turned into meals using a {THING:ApplianceMicrowave}.
+
+Your hunger rate can be adjusted set in the main settings menu by adjusting the Hunger/Hydration rate slider in the settings. Note that the hunger slider also governs your thirst.
+
+{HEADER:FOOD DECAY}
+
+Food decays over time into {THING:DecayedFood}, unless refrigerated. While decaye food can be eaten, the &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; does not advise it. The exact speed of decay varies individually by:
+
+- TEMPERATURE - Refrigeration will slow decay, but some foods will be damaged by exposure to extreme cold, as well as extreme heat.
+
+- FOOD TYPE - Each &lt;color=#0080FFFF&gt;{LINK:OrganicPage;food}&lt;/color&gt; type has its own decay properties. {THING:ItemTomatoSoup} lasts a lot longer than a {THING:ItemTomato}, for instance.
+
+- ATMOSPHERE - Different gases can slow and accelerate the decay process.
+The following rates apply across all foods:
+
+Oxygen x 1.3
+Nitrogen x 0.6
+Carbon Dioxide x 0.8
+Volatiles x 1
+Pollutant x 3
+Nitrous Oxide x 1.5
+Water x 2
+
+NOTE: The decay process will take account of respective gas ratios in mixed atmospheres in calculating the decay modifier.
+
 </Text>
     </StationpediaPage>
 
