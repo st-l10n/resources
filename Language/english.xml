@@ -17,7 +17,7 @@
     <RecordReagent>
       <Key>Egg</Key>
       <Value>Egg</Value>
-      <Unit />
+      <Unit></Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Iron</Key>
@@ -231,6 +231,7 @@
     <Record>
       <Key>Volatiles</Key>
       <Value>Volatiles</Value>
+      <Description></Description>
     </Record>
     <Record>
       <Key>Pollutant</Key>
@@ -2603,6 +2604,10 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
     <RecordThing>
       <Key>ItemVolatiles</Key>
       <Value>Ice (Volatiles)</Value>
+      <Description>Volatile ices are a complex organic molecule, displayed for simplicity's sake by the {THING:CartridgeAtmosAnalyser} as H2.
+      
+Volatiles combust in a 2:1 ratio with oxygen, creating carbon dioxide and pollutants. However when catalysed via devices such as the {THING:H2Combustor} in the presence of oxygen, they produce water and heat with a modicum of CO2 and pollutants due to the autoignition of the volatiles in the chamber. Along with oxygen, volatiles gas is also the major component of fuel for such devices as the {THING:ItemWeldingTorch}.
+</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemOxite</Key>
@@ -4339,7 +4344,7 @@ When landing, the rocket will deploy a lander, and any cargo contained in the {T
     <RecordThing>
       <Key>H2Combustor</Key>
       <Value>H2 Combustor</Value>
-      <Description>Adapted slightly from its original &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; design, the H2 Combustor does exactly what its name suggests - it burns a mixture of hydrogen and oxygen to create water. Extremely useful in hot or arid environments, users need to be aware that the combustor outputs considerable waste heat.</Description>
+      <Description>Adapted slightly from its original &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; design, the H2 Combustor does exactly what its name suggests - it burns a mixture of {THING:Volatiles} and {THING:Oxygen) to create water. Extremely useful in hot or arid environments, users need to be aware that the combustor outputs considerable waste heat. The device is also less than perfectly efficient, resulting in the autoignition of volatiles in the chamber, and the production of waste gases which must be dealt with.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeStraight</Key>
@@ -4399,7 +4404,9 @@ When landing, the rocket will deploy a lander, and any cargo contained in the {T
     <RecordThing>
       <Key>StructureModularRocketFueltank01</Key>
       <Value>Modular Rocket Fueltank</Value>
-      <Description>The rocket fueltank requires a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}. If the mixture exceeds these proportions, or you place other &lt;color=#0080FFFF&gt;{LINK:GasPage;gases}&lt;/color&gt; in the tank, the {THING:StructureModularRocketCommand01} console will display an ‘Invalid’ error.</Description>
+      <Description>The rocket fueltank requires a 2:1 mixture of {GAS:Volatiles} and {GAS:Oxygen}. If the mixture exceeds these proportions, or you place other &lt;color=#0080FFFF&gt;{LINK:GasPage;gases}&lt;/color&gt; in the tank, the {THING:StructureModularRocketCommand01} console will display an ‘Invalid’ error.
+      
+      Note that the rocket fueltank can also be used to collect gas mined by the {THING:StructureModularRocketGasMining}, when connected to that unit by a {THING:StructureModularRocketCouplingUp} or {THING:StructureModularRocketCouplingDown}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketCommand01</Key>
@@ -6007,12 +6014,14 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
     <RecordThing>
       <Key>ItemKitModularRocketGasMining</Key>
       <Value>Kit (Automated Rocket Gas Mining Module)</Value>
-      <Description />
+      <Description>This kit creates a {THInG:StructureRocketModuleGasCollector}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketGasMining</Key>
       <Value>Automated Rocket Gas Mining Module</Value>
-      <Description />
+      <Description>In typical &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; fashion, the A.R.M. gas mining module is a rapidly designed addition to a more sophisticated system by a company with very little concern for safety or reliability. 
+      
+      The module will store mined gas in an empty {THING:StructureModularRocketFueltank01}, so long as it is connected by a {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitHeatExchanger</Key>
@@ -6157,6 +6166,16 @@ NOTE: The decay process will take account of gas ratios in mixed atmospheres in 
     <RecordThing>
       <Key>StructureShelfMedium</Key>
       <Value>Structure Shelf Medium</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>PassiveSpeaker</Key>
+      <Value>Passive Speaker</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DeviceLfoVolume</Key>
+      <Value>Device Lfo Volume</Value>
       <Description />
     </RecordThing>
   </Things>
@@ -10890,7 +10909,7 @@ It is an unwavering universal law that anything higher than 11 will be purple. T
       <Key>CommandAddGas</Key>
       <Value>Adds gas's or liquids to a given tank or pipenetwork. : "/addgas [refID] [gasType 1-8] [molecount]"</Value>
     </Record>
-     <Record>
+    <Record>
       <Key>CommandAddGas</Key>
       <Value>Adds gas's or liquids to a given tank or pipenetwork. : "/addgas [refID] [gasType 1-8] [molecount]"</Value>
     </Record>

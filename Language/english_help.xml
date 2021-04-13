@@ -120,6 +120,9 @@ Some structures will have multiple build states that require different combinati
 
 {HEADER:Tooltips}
 If you look directly at a structure that is incomplete you will get information about what you need to do to complete it. If you have a {LINK:ToolPage;tool} in your hand and its not the right {LINK:ToolPage;tool}, a tooltip will appear telling you what you would need to use to deconstruct it.
+
+{HEADER:Pressure}
+When building, it's important to note that pressure is measured as a differential. Most structures have a 200kPa pressure limit: if the difference between inside and outside is greater than that, you've got problems.
       </Text>
     </StationpediaPage>
 
@@ -264,11 +267,11 @@ Automated rocket system is composed of four fundamental modules, plus an engine 
 
 * AUTOMATION MODULE - the {THING:StructureModularRocketAutomation} is the control system, passing data to the various modules.
 
-* MINING MODULE - this performs the mining operation. Currently these are {THING:StructureRocketModuleMiningOre},  {THING:StructureModularRocketIceMining} and {THING:StructureRocketModuleMiningJunk}.
+* MINING MODULE - this performs the mining operation. Currently these are {THING:StructureRocketModuleMiningOre}, {THING:StructureModularRocketIceMining}, {THING:StructureRocketModuleMiningJunk} and {THING:StructureModularRocketGasMining}.
 
 * COUPLER - this connects mining modules to storage modules, by passing material from one to the other. Specifically, the {THING:StructureModularRocketCouplingDown} passes resources to a storage module BENEATH it. The {THING:StructureModularRocketCouplingUp} passes resources to a storage module ABOVE it. The rocket will not collect resources without this element.
 
-* STORAGE MODULE - this module receives resources from a mining module via a coupler and stores them until the rocket returns. This currently only includes {THING:StructureRocketModuleSilo}. Storage modules can be connected to an &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;chute network}&lt;/color&gt;, but are closed by default. Use &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic}&lt;/color&gt; to set it to 'open'.
+* STORAGE MODULE - this module receives resources from a mining module via a coupler and stores them until the rocket returns. This currently includes {THING:StructureRocketModuleSilo} for ores and {THING:StructureModularRocketFueltank01} for gas. Storage modules can be connected to an &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;chute network}&lt;/color&gt;, but are closed by default. Use &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic}&lt;/color&gt; to set it to 'open'.
 
 
 {HEADER:LAUNCH CONDITIONS}
