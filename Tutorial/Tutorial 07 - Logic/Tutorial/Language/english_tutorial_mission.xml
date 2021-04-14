@@ -23,15 +23,15 @@ Demonstrate your skills by designing a lighting control system.</Value>
 		</Record>
 		<Record>
 			<Key>8Narration0D</Key>
-			<Value>Like most logic systems in the galaxy, Stationeers devices use two values: 0 and 1, to set states like 'on/off', 'open/close' and 'lock/unlock'. Today, you will use logic systems to control a lighting system. Start by placing a lever to use as a light switch.</Value>
+			<Value>Like most logic systems in the galaxy, Stationeers devices use two values: 0 and 1, to set states like 'on/off', 'open/close' and 'lock/unlock'. Today, you will use logic systems to control a lighting system. Start by placing a light switch. Use the lever from the Kit (Logic Switch).</Value>
 		</Record>
 		<Record>
 			<Key>8ConstructLever</Key>
-			<Value>Place lever in highlighted position</Value>
+			<Value>Use Kit (Logic Switch) to place a lever in highlighted position </Value>
 		</Record>
 		<Record>
 			<Key>8Narration1D</Key>
-			<Value>Most ODA devices have two ports: power and data. Data ports transmit information about a device's current state, using the same network as power. So connect your switch to the cable network.</Value>
+			<Value>Most ODA devices have two ports: power and data. Data ports transmit information about a device's current state, using the same network as power. So connect your lever to the cable network.</Value>
 		</Record>
 		<Record>
 			<Key>8ConstructCable</Key>
@@ -39,12 +39,12 @@ Demonstrate your skills by designing a lighting control system.</Value>
 		</Record>
 		<Record>
 			<Key>8ConstructCable2</Key>
-			<Value>Connect data port on switch to cable network</Value>
+			<Value>Connect data port on lever to cable network</Value>
 		</Record>
 		<Record>
 			<Key>8Narration2D</Key>
 			<Value>As its name suggests, a logic reader is how you read logic values FROM devices.
-To read data from the switch, place a logic reader in the highlighted position. Note that logic flows in one direction only.</Value>
+To read data from the lever, place a logic reader in the highlighted position. Note that logic flows in one direction only.</Value>
 		</Record>
 		<Record>
 			<Key>8ConstructReader</Key>
@@ -107,7 +107,7 @@ Lastly, set the output variable (OUT VAR) to 'On', so that it toggles the light'
 		</Record>
 		<Record>
 			<Key>8TurnOnWallLight</Key>
-			<Value>Use logic switch to turn on light</Value>
+			<Value>Use lever to turn on light</Value>
 		</Record>
 		<Record>
 			<Key>8Narration8D</Key>
@@ -131,11 +131,11 @@ Lastly, set the output variable (OUT VAR) to 'On', so that it toggles the light'
 		</Record>
 		<Record>
 			<Key>8Narration10D</Key>
-			<Value>With the logic writer turned off, you can reset the light switch without throwing yourself into terrifying darkness.</Value>
+			<Value>With the logic writer turned off, you can reset the lever without throwing yourself into terrifying darkness.</Value>
 		</Record>
 		<Record>
 			<Key>8Closelever</Key>
-			<Value>Reset logic switch.</Value>
+			<Value>Reset logic lever.</Value>
 		</Record>
 		<Record>
 			<Key>8Narration11D</Key>
@@ -192,11 +192,11 @@ First, turn off the logic units.</Value>
 		</Record>
 		<Record>
 			<Key>8Narration17D</Key>
-			<Value>You can now reset the logic switch without turning off your lights.</Value>
+			<Value>You can now reset the logic lever without turning off your lights.</Value>
 		</Record>
 		<Record>
 			<Key>8Closelever</Key>
-			<Value>Reset logic switch</Value>
+			<Value>Reset logic lever</Value>
 		</Record>
 		<Record>
 			<Key>8Narration18D</Key>
@@ -212,11 +212,11 @@ First, turn off the logic units.</Value>
 		</Record>
 		<Record>
 			<Key>8Narration19D</Key>
-			<Value>Now open the door using the logic switch.</Value>
+			<Value>Now open the door using the logic lever.</Value>
 		</Record>
 		<Record>
 			<Key>8OpenDoor</Key>
-			<Value>Use logic switch to open door</Value>
+			<Value>Use logic lever to open door</Value>
 		</Record>
 		<Record>
 			<Key>8Narration20D</Key>

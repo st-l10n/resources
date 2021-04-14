@@ -134,6 +134,35 @@ When building, it's important to note that pressure is measured as a differentia
       </Text>
     </StationpediaPage>
 
+<StationpediaPage>
+      <Key>MusicPage</Key>
+      <Title>Making Music</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text><Description>The &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; does not approve of soundtracks or other distractions.
+As such, &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; have had to create their own musical accompaniment to the demanding labor of building and maintaining off-world infrastructure.
+Central to this pasttime is the step sequencer, which allows Stationeers to sequence short musical patterns or loops. 
+
+{HEADER:DIY MUSIC - GETTING STARTED}
+
+1: Connect 8 {THING:DeviceStepUnit}s to your step sequencer via the data port on the lefthand side.
+
+2: Label each step unit, then assign step units 1 through 8 on the step sequencer using the screwdiver.
+
+3: Select the output speaker (eg {THING:PassiveSpeaker}) where the sequencer will play the sounds. This needs to be connected to the logic network on the righthand side of the sequencer.
+
+4: Place a {THING:StopWatch} and use a {THING:StructureLogicReader} and {THING:StructureLogicWriter} to write the time to the time variable on the sequencer.
+
+5: Set the BPM on the sequencer using a {THING:StructureLogicDial} and a {THING:StructureLogicWriter} to write to the sequencer's BPM variable. A higher bpm will play the sequence faster. 
+
+6: Insert a sound cartridge of your chosing and select which variant of sound you wish to play by pushing the arrow buttons located above and below the sound cartidge slot.
+
+7: Choose the pitch of the sounds to play by setting the dial on each of your 8 step units to the desired note. With drums, each note is a different drum sounds. You can trial your sounds by pushing the activate button on each step unit (with the sequencer inactive).
+
+8: Finally, activate the sequencer, Vibeoneer.</Description> -
+      </Text>
+    </StationpediaPage>
+
+
     <StationpediaPage>
       <Key>TemperatureControlPage</Key>
       <Title>Temperature Control</Title>
@@ -598,24 +627,24 @@ Your hunger rate can be adjusted set in the main settings menu by adjusting the 
 
 {HEADER:FOOD DECAY}
 
-Food decays over time into {THING:DecayedFood}, unless refrigerated. While decaye food can be eaten, the &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; does not advise it. The exact speed of decay varies individually by:
+Food decays over time into {THING:DecayedFood}, unless refrigerated. While decayed food can be eaten, the &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; does not advise it.  The exact speed of decay varies individually by:
 
-- TEMPERATURE - Refrigeration will slow decay, but some foods will be damaged by exposure to extreme cold, as well as extreme heat.
+- TEMPERATURE - Refrigeration will slow decay, but many foods will be damaged by exposure to extreme cold, as well as extreme heat. The current optimum temperature is roughly -130 degrees Celcius (142K).
 
 - FOOD TYPE - Each &lt;color=#0080FFFF&gt;{LINK:OrganicPage;food}&lt;/color&gt; type has its own decay properties. {THING:ItemTomatoSoup} lasts a lot longer than a {THING:ItemTomato}, for instance.
 
-- ATMOSPHERE - Different gases can slow and accelerate the decay process.
-The following rates apply across all foods:
+- ATMOSPHERE - Different gases can slow and accelerate the decay process. The process will take account of respective gas ratios in mixed atmospheres in calculating the decay modifier. The following rates apply across all foods:
 
-Oxygen x 1.3
-Nitrogen x 0.6
-Carbon Dioxide x 0.8
-Volatiles x 1
-Pollutant x 3
-Nitrous Oxide x 1.5
-Water x 2
+> Oxygen x 1.3
+> Nitrogen x 0.6
+> Carbon Dioxide x 0.8
+> Volatiles x 1
+> Pollutant x 3
+> Nitrous Oxide x 1.5
+> Water x 2
+> No atmosphere/Vacuum x 1
 
-NOTE: The decay process will take account of respective gas ratios in mixed atmospheres in calculating the decay modifier.
+NOTE: Note that food decay is currently very slow, to give players time to adjust to the new system and set up their storage appropriately. We will be adding new content in the May update to mitigate and manage more demanding decay rates.
 
 </Text>
     </StationpediaPage>

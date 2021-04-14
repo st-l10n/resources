@@ -2578,6 +2578,7 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
     <RecordThing>
       <Key>ItemAngleGrinder</Key>
       <Value>Angle Grinder</Value>
+      <Description>Angles-be-gone with the trusty angle grinder.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSiliconOre</Key>
@@ -5784,17 +5785,17 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>ItemMKIIScrewdriver</Key>
       <Value>Mk II Screwdriver</Value>
-      <Description />
+      <Description>This standard issue frictional adherence adjustor is a top of the line, bi-rotational model with a columnated uni-grip. It's definintely not just a screwdriver. Use it for construction and deconstruction of certain kits, and setting values on &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic}&lt;/color&gt; units. The MK II is more resistant to temperature and pressure.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIAngleGrinder</Key>
       <Value>Mk II Angle Grinder</Value>
-      <Description />
+      <Description>Angles-be-gone with the trusty angle grinder. The MK II is more resistant to temperature and pressure.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIICrowbar</Key>
       <Value>Mk II Crowbar</Value>
-      <Description />
+      <Description>&lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso's}&lt;/color&gt; entry-level crowbar is useful in a variety of everyday &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; settings, from opening {THING:StructureAreaPowerControl}s and unpowered {THING:StructureAirlock}s, to splatting pan-dimensional headcrabs, should the need arise. The MK II is more resistant to temperature and pressure.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIArcWelder</Key>
@@ -5804,27 +5805,28 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>ItemMKIIDrill</Key>
       <Value>Mk II Drill</Value>
-      <Description />
+       <Description>The &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; Off-whirled Hand Drill has been a companion to &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; for decades. Essential for assembling and deconstructing various items and structures, regardless of gravity, pressure or temperature.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIMiningDrill</Key>
       <Value>Mk II Mining Drill</Value>
-      <Description />
+      <Description>The handheld 'Topo' tri-cone rotary mining drill was made for one thing: quick digging. Modelled on a classic &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; zero-g design, it functions equally well in vacuum and atmosphere, with cemented carbide bits to increase resilience and bearing life, and reduce spalling. As Jenk Murtons once said, 'The Topo don't stopo.' The MK II is more resistant to temperature and pressure.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIWireCutters</Key>
       <Value>Mk II Wire Cutters</Value>
-      <Description />
+      <Description>Wirecutters allow you to deconstruct various &lt;color=#0080FFFF&gt;{LINK:StructurePage;structures}&lt;/color&gt;, as well as cross-lay cables when held in your non-active hand, and defuse explosives as needed. Wirecutters are stored in the {THING:ItemToolBelt}, along with other essential &lt;color=#0080FFFF&gt;{LINK:ToolPage;tools}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIWrench</Key>
       <Value>Mk II Wrench</Value>
-      <Description />
+      <Description>One of humanity's enduring contributions to the cosmos, the wrench represents the essence of our species. A simple, effective and spiritually barren tool, use it to build and deconstruct a variety of &lt;color=#0080FFFF&gt;{LINK:StructurePage;structures}&lt;/color&gt;. The MK II is more resistant to temperature and pressure.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIDuctTape</Key>
       <Value>Mk II Duct Tape</Value>
-      <Description />
+      <Description>In the distant past, one of Earth's great champions taught a generation of 'Fix-It People' that duct tape was the answer to any problem. &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; have demonstrated that this is truth holds strong, so long as the problem is a damaged {THING:ItemEvaSuit}, {THING:ItemJetpackBasic}, {THING:ItemSpaceHelmet}, or even a {THING:StructureSolarPanel}.
+To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON to automatically repair damage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWaterBottleFiller</Key>
@@ -6062,28 +6064,28 @@ As the N Flow-P is a passive system, it equalizes pressure across the entire of 
     </RecordThing>
     <RecordThing>
       <Key>LogicStepSequencer8</Key>
-      <Value>Logic Step Sequencer8</Value>
+      <Value>Logic Step Sequencer</Value>
       <Description>The &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; does not approve of soundtracks or other distractions.
 As such, &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; have had to create their own musical accompaniment to the demanding labor of building and maintaining off-world infrastructure.
 Central to this pasttime is the step sequencer, which allows Stationeers to sequence short musical patterns or loops. 
 
-{HEADER:DIY MUSIC}
+{HEADER:DIY MUSIC - GETTING STARTED}
 
 1: Connect 8 {THING:DeviceStepUnit}s to your step sequencer via the data port on the lefthand side.
 
-2: Assign step units 1 through 8 on the step sequencer using the screwdiver.
+2: Label each step unit, then assign step units 1 through 8 on the step sequencer using the screwdiver.
 
-3: Select the output speaker (eg {THING:StructureKlaxon}) where the sequencer will play the sounds. This needs to be connected to the logic network on the righthand side of the sequencer.
+3: Select the output speaker (eg {THING:PassiveSpeaker}) where the sequencer will play the sounds. This needs to be connected to the logic network on the righthand side of the sequencer.
 
 4: Place a {THING:StopWatch} and use a {THING:StructureLogicReader} and {THING:StructureLogicWriter} to write the time to the time variable on the sequencer.
 
-5: Set the BPM on the sequencer using a {THING:StructureLogicDial} that writes to the BPM variable. A higher bpm will play the sequence faster. 
+5: Set the BPM on the sequencer using a {THING:StructureLogicDial} and a {THING:StructureLogicWriter} to write to the sequencer's BPM variable. A higher bpm will play the sequence faster. 
 
-6: Insert a sound cartidge of your chosing and select which variant of sound you wish to play by pushing the arrow buttons located above and below the sound cartidge slot.
+6: Insert a sound cartridge of your chosing and select which variant of sound you wish to play by pushing the arrow buttons located above and below the sound cartidge slot.
 
-7: Choose the pitch of the sounds to play by setting the dial on each of your 8 step units to the desire note. Trial your sounds by pushing the activate button on the step unit.
+7: Choose the pitch of the sounds to play by setting the dial on each of your 8 step units to the desired note. With drums, each note is a different drum sounds. You can trial your sounds by pushing the activate button on each step unit (with the sequencer inactive).
 
-8: Finally, activate the sequencer, Stationilla.</Description>
+8: Finally, activate the sequencer, Vibeoneer.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DeviceStepUnit</Key>
@@ -6166,7 +6168,7 @@ NOTE: The decay process will take account of gas ratios in mixed atmospheres in 
     <RecordThing>
       <Key>StructureShelfMedium</Key>
       <Value>Structure Shelf Medium</Value>
-      <Description />
+      <Description>A shelf for putting things on, so you can see them.</Description>
     </RecordThing>
     <RecordThing>
       <Key>PassiveSpeaker</Key>
@@ -6177,6 +6179,18 @@ NOTE: The decay process will take account of gas ratios in mixed atmospheres in 
       <Key>DeviceLfoVolume</Key>
       <Value>Device Lfo Volume</Value>
       <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFridgeBig</Key>
+      <Value>Fridge (Large)</Value>
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; Koolaid fridge is a self-cooling storage device with 15 slots that preserves food when powered and turned on. While many users have complained about the placement of the power switch, its efficiency when acitvated is unparallelled.
+      
+      With its own permanent internal atmosphere, the large fridge slows the decay of &lt;color=#0080FFFF&gt;{LINK:OrganicPage;food}&lt;/color&gt; by maintaining an optimal temperature.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFridgeBig</Key>
+      <Value>Kit (Fridge Big)</Value>
+      <Description>This kit creates a {THING:StructureFridgeBig}.</Description>
     </RecordThing>
   </Things>
   <Slots>
@@ -11421,11 +11435,63 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     </Record>
     <Record>
       <Key>CrowbarToFlip</Key>
-      <Value>Flip using crowbar.</Value>
+      <Value>Flip using crowbar</Value>
     </Record>
     <Record>
       <Key>TimerPanel</Key>
       <Value>Timer</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeTime</Key>
+      <Value>Time</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeBpm</Key>
+      <Value>Bpm</Value>
+    </Record>
+    <Record>
+      <Key>Pitch</Key>
+      <Value>Pitch</Value>
+    </Record>
+    <Record>
+      <Key>Volume</Key>
+      <Value>Volume</Value>
+    </Record>
+    <Record>
+      <Key>NoAudioReceiverDevices</Key>
+      <Value>No Audio Receiver Devices</Value>
+    </Record>
+    <Record>
+      <Key>Speed</Key>
+      <Value>Speed</Value>
+    </Record>
+    <Record>
+      <Key>Attack</Key>
+      <Value>Attack</Value>
+    </Record>
+    <Record>
+      <Key>Release</Key>
+      <Value>Release</Value>
+    </Record>
+    <Record>
+      <Key>CurrentInstrument</Key>
+      <Value>Current Instrument</Value>
+    </Record>
+    <Record>
+      <Key>NoSoundCartridge</Key>
+      <Value>No Sound Cartridge</Value>
+    </Record>
+    <Record>
+      <Key>NoNote</Key>
+      <Value>No Note</Value>
+    </Record>
+    <Record>
+      <Key>Intensity</Key>
+      <Value>Intensity</Value>
+    </Record>
+    <Record>
+      <Key>Waveform</Key>
+      <Value>Waveform</Value>
     </Record>
   </Interface>
   <Colors>
