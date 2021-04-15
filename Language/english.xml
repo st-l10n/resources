@@ -17,7 +17,7 @@
     <RecordReagent>
       <Key>Egg</Key>
       <Value>Egg</Value>
-      <Unit></Unit>
+      <Unit />
     </RecordReagent>
     <RecordReagent>
       <Key>Iron</Key>
@@ -231,7 +231,6 @@
     <Record>
       <Key>Volatiles</Key>
       <Value>Volatiles</Value>
-      <Description></Description>
     </Record>
     <Record>
       <Key>Pollutant</Key>
@@ -5805,7 +5804,7 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>ItemMKIIDrill</Key>
       <Value>Mk II Drill</Value>
-       <Description>The &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; Off-whirled Hand Drill has been a companion to &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; for decades. Essential for assembling and deconstructing various items and structures, regardless of gravity, pressure or temperature.</Description>
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; Off-whirled Hand Drill has been a companion to &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; for decades. Essential for assembling and deconstructing various items and structures, regardless of gravity, pressure or temperature.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIMiningDrill</Key>
@@ -6191,6 +6190,11 @@ NOTE: The decay process will take account of gas ratios in mixed atmospheres in 
       <Key>ItemKitFridgeBig</Key>
       <Value>Kit (Fridge Big)</Value>
       <Description>This kit creates a {THING:StructureFridgeBig}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFridgeSmall</Key>
+      <Value>Structure Fridge Small</Value>
+      <Description>Essentially a heavily insulated box that allows users to pipe in any desired atmosphere, the &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; Minibar fridge was a simple solution to the problem of &lt;color=#0080FFFF&gt;{LINK:NutritionPage;food decay}&lt;/color&gt;. It stores a small number of items, at any temperature you can muster.</Description>
     </RecordThing>
   </Things>
   <Slots>
@@ -10930,6 +10934,14 @@ It is an unwavering universal law that anything higher than 11 will be purple. T
     <Record>
       <Key>CommandSetDecay</Key>
       <Value>Sets the global food Decay Multiplier. : "/setdecay 2"</Value>
+    </Record>
+    <Record>
+      <Key>CommandSetContact</Key>
+      <Value>Sets the required signal amount to contact a trader. : "/setcontact 10"</Value>
+    </Record>
+    <Record>
+      <Key>CommandHelp</Key>
+      <Value>Displays the commands list. : "/help"</Value>
     </Record>
     <Record>
       <Key>Agrizero</Key>
