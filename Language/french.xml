@@ -9128,6 +9128,18 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>Efface tous les joueurs déconnectés du serveur:  &quot;/clearall&quot;</Value>
     </Record>
     <Record>
+      <Key>CommandPause</Key>
+      <Value>Met le jeu en pause pour tous les joueurs connectés. : &quot;/pause&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandToggleGod</Key>
+      <Value>Active ou désactive l’invincibilité du joueur, y compris la combinaison. : &quot;/tg&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandToggleInstaGrow</Key>
+      <Value>Active ou désactive la croissance instantanée des plantes sur un serveur ou en jeu. : &quot;/tgrow&quot;</Value>
+    </Record>
+    <Record>
       <Key>CommandStopWeather</Key>
       <Value>Stopper une tempête instantanément. : &quot;/stopweather&quot;</Value>
     </Record>
@@ -9136,8 +9148,32 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>Démarrer une tempête instantanément. : &quot;/startweather&quot;</Value>
     </Record>
     <Record>
+      <Key>CommandToggleNoClip</Key>
+      <Value>Active ou désactive les collisions entre les joueurs. : &quot;/tnc&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandSkipStage</Key>
+      <Value>Ignore l&apos;étape de la mission actuelle. : &quot;/skipstage&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandSetStage</Key>
+      <Value>Définit l&apos;étape actuelle de la mission. : &quot;/setstage&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandShowStage</Key>
+      <Value>Affiche l&apos;étape actuelle de la mission et le nombre d&apos;étapes de la mission. : &quot;/showstage&quot;</Value>
+    </Record>
+    <Record>
       <Key>CommandFillHealth</Key>
       <Value>Soigner un joueur. : &quot;/fillhealth&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandAddGas</Key>
+      <Value>Ajoute du gaz ou des liquides à un réservoir ou un réseau de canalisations donné. : &quot;/addgas [refID] [gasType 1-8] [molecount]&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandAddGas</Key>
+      <Value>Ajoute du gaz ou des liquides à un réservoir ou un réseau de canalisations donné. : &quot;/addgas [refID] [gasType 1-8] [molecount]&quot;</Value>
     </Record>
     <Record>
       <Key>AgrizeroDesc</Key>
