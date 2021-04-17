@@ -7,12 +7,32 @@
       <Value>ADV Логическая Схема - Слежение за Солнцем</Value>
     </Record>
     <Record>
+      <Key>CircuitLogicSolarTrackingDescription</Key>
+      <Value>Автоматизируйте солнечные панели использую логические схемы.</Value>
+    </Record>
+    <Record>
+      <Key>MoveToArea</Key>
+      <Value>Переберитесь в область</Value>
+    </Record>
+    <Record>
+      <Key>MoveToAreaDescription</Key>
+      <Value>Спуститесь на лифте в Главный Узел и следуйте по освещенному коридору к зоне Обучения.</Value>
+    </Record>
+    <Record>
+      <Key>MoveToAreaTask1</Key>
+      <Value>Пройдите цикл шлюзования к зоне Обучения.</Value>
+    </Record>
+    <Record>
       <Key>ConsoleManuallControl1</Key>
       <Value>Закончите сеть установив{THING:StructureCableStraight} в выделенное место.</Value>
     </Record>
     <Record>
       <Key>ConsoleManuallControl2</Key>
       <Value>Установите {THING:StructureConsole} в выделенное место.</Value>
+    </Record>
+    <Record>
+      <Key>ConsoleManualControlSetUpDescription</Key>
+      <Value>Так же как и со шлюзом, вы должны запрограммировать панель управления солнечными панелями используя {THING:CircuitboardSolarControl}.</Value>
     </Record>
     <Record>
       <Key>ConsoleManualControlSetupTask1</Key>
