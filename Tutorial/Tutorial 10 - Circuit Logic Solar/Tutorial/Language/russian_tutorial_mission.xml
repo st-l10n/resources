@@ -95,12 +95,28 @@
       <Value>Модуль Памяти</Value>
     </Record>
     <Record>
+      <Key>SolarMemoryDescription</Key>
+      <Value>Память используется для хранения данных, значения устанавливаются вручную, отверткой. Нам нужно пять модулей памяти чтобы хранить данные необходимые для схемы.</Value>
+    </Record>
+    <Record>
       <Key>PickUpMemory</Key>
       <Value>Возьмите {THING:ItemKitLogicMemory} из находящегося рядом ящика.</Value>
     </Record>
     <Record>
       <Key>StructureLogicMemory</Key>
       <Value>Установите {THING:StructureLogicMemory} в выделенные места.</Value>
+    </Record>
+    <Record>
+      <Key>SetMemory</Key>
+      <Value>Настраиваем Память</Value>
+    </Record>
+    <Record>
+      <Key>SetupHorizontalSensor</Key>
+      <Value>Настраиваем Горизонтальный Сенсор</Value>
+    </Record>
+    <Record>
+      <Key>SetupLogicWritter</Key>
+      <Value>Настраиваем Модуль Логической Записи</Value>
     </Record>
     <Record>
       <Key>SetupLogicWritter1</Key>
@@ -115,8 +131,16 @@
       <Value>Установите {THING:StructureLogicWriter} в выделенное место.</Value>
     </Record>
     <Record>
+      <Key>LogicReadersSetup</Key>
+      <Value>Устанавлтваем Логический Считыватель</Value>
+    </Record>
+    <Record>
       <Key>LogicReader1</Key>
       <Value>Установите {THING:StructureLogicReader} в выделенное место.</Value>
+    </Record>
+    <Record>
+      <Key>VerticalLogicProcessors</Key>
+      <Value>Логические Процессоры.</Value>
     </Record>
     <Record>
       <Key>PlaceLogicMath</Key>
