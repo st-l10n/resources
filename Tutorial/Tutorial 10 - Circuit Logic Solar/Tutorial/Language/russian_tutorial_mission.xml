@@ -77,12 +77,22 @@
       <Value>Установка Сенсоров</Value>
     </Record>
     <Record>
+      <Key>DaylightSensorsDescription</Key>
+      <Value>Автоматическое ориентирование на солнце повышает эффективность солнечных панелей, а так же означает что вам не нужно вручную наводить панели на солнце.
+            
+Первый шаг это установка сенсоров солнечного освещения. Один будет измерять горизонтальный угол солнца, другой будет измерять вертикальный угол. Такой метод обеспечит полное дневное отслеживание на любой планете.</Value>
+    </Record>
+    <Record>
       <Key>PickUpDaylightSensor</Key>
       <Value>Возьмите {THING:ItemKitSensor} из ящика</Value>
     </Record>
     <Record>
       <Key>DaylightSensor1</Key>
       <Value>Установите {THING:StructureDaylightSensor} в выделенное место.</Value>
+    </Record>
+    <Record>
+      <Key>SolarMemory</Key>
+      <Value>Модуль Памяти</Value>
     </Record>
     <Record>
       <Key>PickUpMemory</Key>
