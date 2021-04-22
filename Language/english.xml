@@ -1073,7 +1073,7 @@ If an egg has been fertilized, and is kept between 20C-30C, an {THING:EntityChic
     <RecordThing>
       <Key>ItemEvaSuit</Key>
       <Value>Eva Suit</Value>
-      <Description />
+      <Description>The EVA suit is the basic suit &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; need to survive in the inhospitable environment of space. For more information on EVA suits, consult the &lt;color=#0080FFFF&gt;{LINK:EVAPage;EVA suit}&lt;/color&gt; guide.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemFertilizedEgg</Key>
@@ -1394,7 +1394,7 @@ Careful not to pressurize beyond 100kPA, or it may go 'bang'.</Descrip
     <RecordThing>
       <Key>ItemMiningBelt</Key>
       <Value>Mining Belt</Value>
-      <Description>Originally developed by &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso Espaciais}&lt;/color&gt; for asteroid mining, the &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer's}&lt;/color&gt; toolbelt has room for two &lt;color=#0080FFFF&gt;{LINK:ToolPage;tools}&lt;/color&gt;, seven &lt;color=#0080FFFF&gt;{LINK:OrePage;ore}&lt;/color&gt; stacks and one {THING:ItemDirtCanister}. While wearing the belt, ore is automatically stored there when mined. Volatile and temperature-dependent remain stable in the environmentally controlled unit.</Description>
+      <Description>Originally developed by &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso Espaciais}&lt;/color&gt; for asteroid mining, the &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer's}&lt;/color&gt; toolbelt has room for two &lt;color=#0080FFFF&gt;{LINK:ToolPage;tools}&lt;/color&gt; and eight &lt;color=#0080FFFF&gt;{LINK:OrePage;ore}&lt;/color&gt; stacks. While wearing the belt, ore is automatically stored there when mined. Volatile and temperature-dependent remain stable in the environmentally controlled unit.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningDrill</Key>
@@ -3550,6 +3550,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemHardsuitHelmet</Key>
       <Value>Hardsuit Helmet</Value>
+      <Description>The Hardsuit Helmet is similar to the {THING:ItemSpaceHelmet}, but can withstand higher temperatures and pressures. It's perfect for enduring harsh enviroments like Venus and Vuclan.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWearLamp</Key>
@@ -3753,12 +3754,13 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemHardBackpack</Key>
       <Value>Hardsuit Backpack</Value>
+      <Description>This backpack has more storage slots than {THING:ItemHardJetpack}, but lacks a jetpack. It can be useful when you are working inside and don't need to fly around.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemHardJetpack</Key>
       <Value>Hardsuit Jetpack</Value>
       <Description>The &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; jetpack isn't 'technically' a jetpack at all, it's a gas thruster. It can be powered by any gas, so long as the internal pressure of the &lt;color=#0080FFFF&gt;{LINK:AtmosphericsPage;canister}&lt;/color&gt; is higher than the ambient external pressure. If the external pressure is greater, the spacepack will not function. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.
-The hardsuit jetpack is capable of much higher speeds than the {THING:ItemJetpackBasic} - up to 15m/s. Indispensible for building, mining and general movement, it has fifteen storage slots.
+The hardsuit jetpack is capable of much higher speeds than the {THING:ItemJetpackBasic} - up to 15m/s. Indispensible for building, mining and general movement, it has fourteen storage slots.
 USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move.</Description>
     </RecordThing>
     <RecordThing>
@@ -4572,6 +4574,7 @@ When landing, the rocket will deploy a lander, and any cargo contained in the {T
     <RecordThing>
       <Key>ItemSensorLenses</Key>
       <Value>Sensor Lenses</Value>
+      <Description>These {&lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; glasses might not be the most fashionable thing, but when a {THING:ItemSensorProcessingUnitOreScanner} is inserted, Stationeers can use these handy glasses to x-ray the ground and find ores that are hidden beneath the surface.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBatteryChargerSmall</Key>
@@ -5565,7 +5568,7 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
     <RecordThing>
       <Key>ItemMiningBeltAdvanced</Key>
       <Value>Mining Belt (Advanced)</Value>
-      <Description>A mining belt with 12 slots for ore and three slots for tools.</Description>
+      <Description>The Advanced mining belt is similar to the {THING:ItemMiningBelt}, but has 13 slots instead of the basic 8, to increase the length of your mining trips.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWindTurbine</Key>
