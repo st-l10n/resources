@@ -111,6 +111,15 @@
       <Value>Настраиваем Память</Value>
     </Record>
     <Record>
+      <Key>SetMemoryDescription</Key>
+      <Value>Теперь, когда у вас есть {THING:StructureLogicMemory} и установлена система наблюдения за солнцем, вам нужно установить конкретные значения в {THING:StructureLogicMemory} используя {THING:ItemScrewdriver}. Значения зависят от позиции и ориентации {THING:StructureDaylightSensor} и солнечных панелей.
+Датчики дневного света поддерживают 3 режима: Режим по умолчанию, Горизонтальный и Вертикальный. Каждый режим меняет выводимый угол. В этом случае нам нужно установить сенсор в горизонтальный режим, это режим 1. Чтобы сделать это, установите Модуль Горизонтальной Памяти на значение 1, и логическое записывающее устройство запишет это значение в сенсор. </Value>
+    </Record>
+    <Record>
+      <Key>SetMemory0</Key>
+      <Value>Установите значение Модуля Горизонтальной Памяти на 1</Value>
+    </Record>
+    <Record>
       <Key>SetupHorizontalSensor</Key>
       <Value>Настраиваем Горизонтальный Сенсор</Value>
     </Record>
@@ -121,6 +130,10 @@
     <Record>
       <Key>SetupLogicWritter1</Key>
       <Value>Включите {THING:StructureLogicWriter}.</Value>
+    </Record>
+    <Record>
+      <Key>SetupLogicWritter2</Key>
+      <Value>Установите вход {THING:StructureLogicWriter} на Модуль Горизонтальной Памяти используя {THING:ItemScrewdriver}.</Value>
     </Record>
     <Record>
       <Key>PickUpLogicProcessor</Key>
