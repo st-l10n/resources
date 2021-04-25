@@ -6087,7 +6087,9 @@ Central to this pasttime is the step sequencer, which allows Stationeers to sequ
 
 7: Choose the pitch of the sounds to play by setting the dial on each of your 8 step units to the desired note. With drums, each note is a different drum sounds. You can trial your sounds by pushing the activate button on each step unit (with the sequencer inactive).
 
-8: Finally, activate the sequencer, Vibeoneer.</Description>
+8: Get freaky with the {THING:DeviceLfoVolume}.
+
+9: Finally, activate the sequencer, Vibeoneer.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DeviceStepUnit</Key>
@@ -6179,8 +6181,19 @@ NOTE: The decay process will take account of gas ratios in mixed atmospheres in 
     </RecordThing>
     <RecordThing>
       <Key>DeviceLfoVolume</Key>
-      <Value>Device Lfo Volume</Value>
-      <Description />
+      <Value>Low frequency oscillator</Value>
+      <Description>The low frequency oscillator (or LFO) makes everything sound dark, twisted and crunchy by altering the shape of the waves output by a {THING:LogicStepSequencer8}.
+      
+To set up an LFO:
+
+1. Place the LFO unit
+2. Set the LFO output to a {THING:PassiveSpeaker}
+2. Set a sequencers' output to LFO - so the sequencer's signal runs through the LFO to a speaker.
+3. Place a {THING:StopWatch} or use an existing one, then use a {THING:StructureLogicWriter} to write it to the LFO.
+4. Use another logic writer to write the BPM to the LFO.
+5. You are ready. This is the future. You're in space. Make it sound cool.
+
+For more info, check out the {LINK:MusicPage}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFridgeBig</Key>
@@ -6200,6 +6213,16 @@ Also, don't leave the door open, as it will equalize with the current world temp
       <Key>StructureFridgeSmall</Key>
       <Value>Structure Fridge Small</Value>
       <Description>Essentially a heavily insulated box that allows users to pipe in any desired atmosphere, the &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; Minibar fridge was a simple solution to the problem of &lt;color=#0080FFFF&gt;{LINK:NutritionPage;food decay}&lt;/color&gt;. It stores a small number of items, at any temperature you can muster.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRefrigeratedVendingMachine</Key>
+      <Value>Refrigerated Vending Machine</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitVendingMachineRefrigerated</Key>
+      <Value>Kit (Vending Machine Refrigerated)</Value>
+      <Description />
     </RecordThing>
   </Things>
   <Slots>
@@ -10947,6 +10970,10 @@ It is an unwavering universal law that anything higher than 11 will be purple. T
     <Record>
       <Key>CommandHelp</Key>
       <Value>Displays the commands list. : "/help"</Value>
+    </Record>
+    <Record>
+      <Key>Seedsstring</Key>
+      <Value>Seeds</Value>
     </Record>
     <Record>
       <Key>Agrizero</Key>
