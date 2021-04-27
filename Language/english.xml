@@ -1010,17 +1010,17 @@ Normal coil has a maximum wattage of 5kW. For higher-current applications, use {
     <RecordThing>
       <Key>ItemCopperIngot</Key>
       <Value>Ingot (Copper)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCopperOre</Key>
       <Value>Ore (Copper)</Value>
-      <Description />
+      <Description>Copper is a chemical element with the symbol "Cu". This common and highly conductive material is found on most astronomical bodies and is used in a variety of manufacturing processes including electronic components, alloys, and wires.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCorn</Key>
       <Value>Corn</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCrowbar</Key>
@@ -1169,7 +1169,7 @@ Careful not to pressurize beyond 100kPA, or it may go 'bang'.</Descrip
     <RecordThing>
       <Key>ItemGasFilterVolatiles</Key>
       <Value>Filter (Volatiles)</Value>
-      <Description>Filters are used to capture various gases, which can be disposed of or used elsewhere. &lt;color=#0080FFFF&gt;{LINK:GasPage;Volatiles}&lt;/color&gt; are created by exposing &lt;color=#0080FFFF&gt;{LINK:OrePage;ice (volatiles)}&lt;/color&gt; to heat. The product can then be collected and combined with &lt;color=#0080FFFF&gt;{LINK:GasPage;oxygen}&lt;/color&gt; to create fuel, or used within a {THING:StructureFurnace} to smelt ores and create &lt;color=#0080FFFF&gt;{LINK:AlloyPage;alloys}&lt;/color&gt;.</Description>
+      <Description>Filters are used to capture various gases, which can be disposed of or used elsewhere. &lt;color=#0080FFFF&gt;{LINK:GasPage;Volatiles}&lt;/color&gt; are created by exposing &lt;color=#0080FFFF&gt;{LINK:OrePage;ice (volatiles)}&lt;/color&gt; to heat. The product can then be collected and combined with &lt;color=#0080FFFF&gt;{LINK:GasPage;oxygen}&lt;/color&gt; to create fuel, or used within a {THING:StructureFurnace} to smelt ores and create &lt;color=#0080FFFF&gt;{LINK:IngotPage;alloys}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterWater</Key>
@@ -2521,14 +2521,17 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
     <RecordThing>
       <Key>ItemSilverOre</Key>
       <Value>Ore (Silver)</Value>
+      <Description>Silver is a chemical element with the symbol "Ag". Valued by many &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; for its attractive lustre and sheen, it is also used in a variety of &lt;color=#0080FFFF&gt;{LINK:ElectronicPage;electronics}&lt;/color&gt; components and &lt;color=#0080FFFF&gt;{LINK:IngotPage;alloys}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemNickelOre</Key>
       <Value>Ore (Nickel)</Value>
+      <Description>Nickel is a chemical element with the symbol "Ni" and is a rare metal commonly used as a plating to prevent corrosion. Sought after by many &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt;, Nickel is also commonly used to create several &lt;color=#0080FFFF&gt;{LINK:IngotPage;alloys}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLeadOre</Key>
       <Value>Ore (Lead)</Value>
+      <Description>Lead is a chemical element with the symbol "Pb". It is a desne, heavy metal with a low melting point. Lead is a used to make a variety of things such as &lt;color=#0080FFFF&gt;{LINK:IngotPage;alloys}&lt;/color&gt; like {THING:ItemSolderIngot} and munitions.</Description>
     </RecordThing>
     <RecordThing>
       <Key>WeaponRifleEnergy</Key>
@@ -2582,6 +2585,7 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
     <RecordThing>
       <Key>ItemSiliconOre</Key>
       <Value>Ore (Silicon)</Value>
+      <Description>Silicon is a chemical element with the symbol "Si" and is one of the most useful elements to &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt;. Readily available throughout the universe, silicon is used in a range of &lt;color=#0080FFFF&gt;{LINK:IngotPage;alloys}&lt;/color&gt;, glass, plastics and various electronic components a Stationeer may  need to complete their mission.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSiliconIngot</Key>
@@ -2599,7 +2603,7 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
     <RecordThing>
       <Key>StructureElectronicsPrinter</Key>
       <Value>Electronics Printer</Value>
-      <Description>Upgrade the device using a {THING:ElectronicPrinterMod} for additional recipes and faster processing speeds.</Description>
+      <Description>The Electronic Printer will create any &lt;color=#0080FFFF&gt;{LINK:ElectronicPage;electronic&lt;/color&gt; part you need. From circuit boards and electronic devices to solar panels. The choice is yours. Upgrade the device using a {THING:ElectronicPrinterMod} for additional recipes and faster processing speeds.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemVolatiles</Key>
@@ -2688,7 +2692,7 @@ Volatiles combust in a 2:1 ratio with oxygen, creating carbon dioxide and pollut
     <RecordThing>
       <Key>StructureHydraulicPipeBender</Key>
       <Value>Hydraulic Pipe Bender</Value>
-      <Description>Upgrade the device using a {THING:PipeBenderMod} for additional recipes and faster processing speeds.</Description>
+      <Description>A go-to tool for all your atmospheric and plumbing needs, the &lt;color=#0080FFFF&gt;{LINK:ExMin;Exmin}&lt;/color&gt; Atmoprinter will create everything from pipes, pumps and tanks, to vents and filters, ensuring your survival in any environment. Upgrade the Atmoprinter using a {THING:PipeBenderMod} for additional recipes and faster processing speeds.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitHydraulicPipeBender</Key>
@@ -2717,7 +2721,8 @@ Volatiles combust in a 2:1 ratio with oxygen, creating carbon dioxide and pollut
     <RecordThing>
       <Key>StructureToolManufactory</Key>
       <Value>Tool Manufactory</Value>
-      <Description>Upgrade the device using a {THING:ElectronicPrinterMod} for additional recipes and faster processing speeds.</Description>
+      <Description>No mission can be completed without the proper tools. The &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; ThuulDek manufactory can fabricate almost any tool or hand-held device a &lt;color=#0080FFFF&gt;{LINK:Stationeer;Stationeer}&lt;/color&gt; may need to complete their mission, as well as a variety of delightful paints.
+Upgrade the device using a {THING:ElectronicPrinterMod} for additional recipes and faster processing speeds.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitToolManufactory</Key>
@@ -3413,6 +3418,8 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureSecurityPrinter</Key>
       <Value>Security Printer</Value>
+      <Description>Any &lt;color=#0080FFFF&gt;{LINK:Stationeer;Stationeer}&lt;/color&gt; concerned about security needs the &lt;color=#0080FFFF&gt;{LINK:Harkwell;Harkwell-designed}&lt;/color&gt; Vigilant-E security printer. Use the Vigilant-E to create a {THING:CartridgeAccessController}, in order to restrict access to different parts of your base via keycards like the {THING:AccessCardBlue}. The printer also makes a variety of weapons and ammunitions to defend your base against any hostile, aggressive or just slightly rude entites you encounter as you explore the Solar System.
+</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSecurityPrinter</Key>
@@ -4042,6 +4049,7 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
     <RecordThing>
       <Key>ItemCobaltOre</Key>
       <Value>Ore (Cobalt)</Value>
+      <Description>Cobalt is a chemical element with the symbol "Co" and is typically found in only small deposits. Cobalt is rare but is used create several {THING:ItemHealPill} and several  &lt;color=#0080FFFF&gt;{LINK:IngotPage;alloys}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCobaltIngot</Key>
@@ -5528,7 +5536,7 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
     <RecordThing>
       <Key>ItemCharcoal</Key>
       <Value>Charcoal</Value>
-      <Description>A basic fuel.</Description>
+      <Description>Charcoal is a lightweight, black carbon residue produced by heating {THING:ItemBiomass} in a {THING:StructureArcFurnace}. It contains less energy potential than {THING:ItemCoalOre}, but can be used as a basic fuel source. Charcoal can also be substituted for coal in &lt;color=#0080FFFF&gt;{LINK:IngotPage;alloy}&lt;/color&gt; recipes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanelReinforced</Key>
