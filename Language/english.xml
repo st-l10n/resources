@@ -1010,7 +1010,7 @@ Normal coil has a maximum wattage of 5kW. For higher-current applications, use {
     <RecordThing>
       <Key>ItemCopperIngot</Key>
       <Value>Ingot (Copper)</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemCopperOre</Key>
@@ -1020,7 +1020,7 @@ Normal coil has a maximum wattage of 5kW. For higher-current applications, use {
     <RecordThing>
       <Key>ItemCorn</Key>
       <Value>Corn</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemCrowbar</Key>
@@ -2531,7 +2531,7 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
     <RecordThing>
       <Key>ItemLeadOre</Key>
       <Value>Ore (Lead)</Value>
-      <Description>Lead is a chemical element with the symbol "Pb". It is a desne, heavy metal with a low melting point. Lead is a used to make a variety of things such as &lt;color=#0080FFFF&gt;{LINK:IngotPage;alloys}&lt;/color&gt; like {THING:ItemSolderIngot} and munitions.</Description>
+      <Description>Lead is a chemical element with the symbol "Pb". It is a dense, heavy metal with a low melting point. Lead is a used to make a variety of things such as &lt;color=#0080FFFF&gt;{LINK:IngotPage;alloys}&lt;/color&gt; like {THING:ItemSolderIngot} and munitions.</Description>
     </RecordThing>
     <RecordThing>
       <Key>WeaponRifleEnergy</Key>
@@ -2603,7 +2603,7 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
     <RecordThing>
       <Key>StructureElectronicsPrinter</Key>
       <Value>Electronics Printer</Value>
-      <Description>The Electronic Printer will create any &lt;color=#0080FFFF&gt;{LINK:ElectronicPage;electronic&lt;/color&gt; part you need. From circuit boards and electronic devices to solar panels. The choice is yours. Upgrade the device using a {THING:ElectronicPrinterMod} for additional recipes and faster processing speeds.</Description>
+      <Description>The electronic printer will create any &lt;color=#0080FFFF&gt;{LINK:ElectronicPage;electronic}&lt;/color&gt; part you need. From circuit boards and electronic devices to solar panels. The choice is yours. Upgrade the device using a {THING:ElectronicPrinterMod} for additional recipes and faster processing speeds.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemVolatiles</Key>
@@ -2616,6 +2616,9 @@ Volatiles combust in a 2:1 ratio with oxygen, creating carbon dioxide and pollut
     <RecordThing>
       <Key>ItemOxite</Key>
       <Value>Ice (Oxite)</Value>
+      <Description>Oxite ice is largely composed of frozen oxygen, and found on many planets in the Solar System. Highly valuable and sought after, not all planets a &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; visits will have some. 
+
+Highly sensitive to temperature, oxite will begin to melt as soon as it is mined, unless the temperature is below zero, or it is stored in the {THING:ItemMiningBelt}, {THING:ItemMiningBeltAdvanced} or devices like the {THING:StructureIceCrusher} or {THING:StructureFridgeSmall}. When melting, oxite produces a mixture of oxygen and nitrogen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallIron</Key>
@@ -4049,7 +4052,7 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
     <RecordThing>
       <Key>ItemCobaltOre</Key>
       <Value>Ore (Cobalt)</Value>
-      <Description>Cobalt is a chemical element with the symbol "Co" and is typically found in only small deposits. Cobalt is rare but is used create several {THING:ItemHealPill} and several  &lt;color=#0080FFFF&gt;{LINK:IngotPage;alloys}&lt;/color&gt;.</Description>
+      <Description>Cobalt is a chemical element with the symbol "Co" and is typically found in only small deposits. Cobalt is a rare substance, but used create the {THING:ItemHealPill} and several  &lt;color=#0080FFFF&gt;{LINK:IngotPage;alloys}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCobaltIngot</Key>
@@ -6225,11 +6228,51 @@ Also, don't leave the door open, as it will equalize with the current world temp
     <RecordThing>
       <Key>StructureRefrigeratedVendingMachine</Key>
       <Value>Refrigerated Vending Machine</Value>
-      <Description />
+      <Description>The refrigerated vending maachine is an advanced version of the standard {THING;StructureVendingMachine}, which maintains a constant temperature of -140 degrees C, to prevent food spoilage. It also has an in-built {THING:StructureStacker}, allowing players to set the stack sizes of any items being added to the device. Note that altering stack sizes does not update existing stacks, only those you add subsequently.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitVendingMachineRefrigerated</Key>
       <Value>Kit (Vending Machine Refrigerated)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Potato</Key>
+      <Value>Item Seed Bag Potato</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Corn</Key>
+      <Value>Item Seed Bag Corn</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Wheet</Key>
+      <Value>Seed Bag Wheet</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Tomato</Key>
+      <Value>Item Seed Bag Tomato</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Soybean</Key>
+      <Value>Item Seed Bag Soybean</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Rice</Key>
+      <Value>Item Seed Bag Rice</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Pumpkin</Key>
+      <Value>Item Seed Bag Pumpkin</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Fern</Key>
+      <Value>Item Seed Bag Fern</Value>
       <Description />
     </RecordThing>
   </Things>
