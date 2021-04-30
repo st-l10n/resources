@@ -224,6 +224,42 @@
       <Value>Войдите в Следующее Помещение</Value>
     </Record>
     <Record>
+      <Key>TutorialStopLathenAround1Task1</Key>
+      <Value>Установите {THING:ItemKitAutolathe} в выделенном месте</Value>
+    </Record>
+    <Record>
+      <Key>TutorialStopLathenAround2Description</Key>
+      <Value>Мы наконец-то можем начать строить! Давайте начнем с {THING:ItemKitElectronicsPrinter} используя ресурсы оставленные в шкафчике.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialStopLathenAround2Task0</Key>
+      <Value>Включите ваш {THING:StructureAutolathe}!</Value>
+    </Record>
+    <Record>
+      <Key>TutorialStopLathenAround2Task1</Key>
+      <Value>Соберите ваш {THING:ItemKitAutolathe} используя {THING:ItemWeldingTorch} из вашего {THING:ItemToolBelt} и требуемых материалов.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialStopLathenAround2Task2</Key>
+      <Value>Выберите рецепт {THING:ItemKitElectronicsPrinter} в {THING:StructureAutolathe}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialYouCallThatAPrinterTitle</Key>
+      <Value>Вы называете это Принтером?</Value>
+    </Record>
+    <Record>
+      <Key>TutorialYouCallThatAPrinterDescription</Key>
+      <Value>Отлично! Теперь давайте сделаем {THING:ItemKitElectronicsPrinter}. Поднимите его и перейдите в следующую комнату.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialYouCallThatAPrinterTask1</Key>
+      <Value>Создайте {THING:ItemKitElectronicsPrinter} используя материалы из шкафчика</Value>
+    </Record>
+    <Record>
+      <Key>TutorialYouCallThatAPrinterTask2</Key>
+      <Value>Возьмите {THING:ItemKitElectronicsPrinter}.</Value>
+    </Record>
+    <Record>
       <Key>TutorialStopLathenAround3Description</Key>
       <Value>Продолжим.</Value>
     </Record>
@@ -250,6 +286,10 @@
     <Record>
       <Key>TutorialThisIsAPrinter1Title</Key>
       <Value>Это Принтер</Value>
+    </Record>
+    <Record>
+      <Key>TutorialThisIsAPrinter1Task</Key>
+      <Value>Постройте {THING:ItemKitElectronicsPrinter}</Value>
     </Record>
     <Record>
       <Key>TutorialSeeTheLight1Description</Key>
