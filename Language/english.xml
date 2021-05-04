@@ -855,11 +855,13 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>DynamicGasCanisterWater</Key>
       <Value>Portable Liquid Tank (Water)</Value>
-      <Description>This portable tank stores liquid, and liquid only. You can bolt one to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to {THING:StructurePipeLiquidStraight} to supply liquid to a network. But try to keep pressure under 10 MPa, or you'll end up wet, hurt and sorry, without any of the fun. You can refill a {THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rocket and take it somewhere distant and dry, then feel good about yourself.</Description>
+      <Description>This portable tank stores liquid, and liquid only. You just have to fill it up. To do this, bolt one to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to {THING:StructurePipeLiquidStraight} to supply liquid to a network. 
+Try to keep pressure under 10 MPa, or you'll end up wet, hurt and sorry, without any of the fun.
+You can refill a {THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rocket and take it somewhere distant and dry, then feel good about yourself.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicLiquidCanisterEmpty</Key>
-      <Value>Portable Liquid Tank</Value>
+      <Value>Portable Liquid Tank (Empty)</Value>
       <Description>This portable tank stores liquid, and liquid only. You can bolt one to a {THING:ItemTankConnectorLiquid} using a {THING:ItemWrench}, then connect it to a pipe network to refill it. You can refill a {THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rocket and take it somewhere distant and dry, then feel good about yourself.</Description>
     </RecordThing>
     <RecordThing>
@@ -1143,8 +1145,8 @@ Careful not to pressurize beyond 100kPA, or it may go 'bang'.</Descrip
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidCanisterEmpty</Key>
-      <Value>Liquid Canister</Value>
-      <Description />
+      <Value>Liquid Canister (Empty)</Value>
+      <Description>Holds water, if you have some.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxide</Key>
@@ -4105,10 +4107,16 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
     <RecordThing>
       <Key>StructureTransformerMedium</Key>
       <Value>Transformer (Medium)</Value>
+      <Description>Transformers control the maximum power that will flow down a sub-network of cables, to prevent overloading &lt;color=#0080FFFF&gt;{LINK:ElectronicPage;electrical}&lt;/color&gt; systems. 
+Medium transformers are used in larger setups where more than 5000W is required, with output that can be set to a maximum of 25000W.
+Note that transformers also operate as data isolators, preventing data flowing into any network beyond it.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerMediumReversed</Key>
       <Value>Transformer Reversed (Medium)</Value>
+      <Description>Transformers control the maximum power that will flow down a sub-network of cables, to prevent overloading &lt;color=#0080FFFF&gt;{LINK:ElectronicPage;electrical}&lt;/color&gt; systems. 
+Medium transformers are used in larger setups where more than 5000W is required, with output that can be set to a maximum of 25000W.
+Note that transformers also operate as data isolators, preventing data flowing into any network beyond it.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerMedium(Reversed)</Key>
@@ -5737,7 +5745,7 @@ If the KoolAuger is full, it will not accept any further ice until the gas or li
     <RecordThing>
       <Key>DynamicGasTankAdvancedWater</Key>
       <Value>Portable Liquid Tank Mk II (Water)</Value>
-      <Description />
+      <Description>An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, you are able to store water in this canister without them gaining or losing temperature.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidPipeRadiator</Key>
@@ -5750,10 +5758,10 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
       <Value>Kit (Liquid Radiator)</Value>
       <Description>This kit creates a {THING:StructureLiquidPipeRadiator}.</Description>
     </RecordThing>
-    <RecordThing>
+    <RecordThing>>
       <Key>DynamicMKIILiquidCanisterEmpty</Key>
-      <Value>Portable Liquid Tank Mk II</Value>
-      <Description />
+      <Value>Portable Liquid Tank Mk II (Empty)</Value>
+      <Description>An empty, insulated liquid canister.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicMKIILiquidCanister</Key>
@@ -5763,7 +5771,7 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>DynamicMKIILiquidCanisterWater</Key>
       <Value>Portable Liquid Tank Mk II (Water)</Value>
-      <Description />
+      <Description>An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, for storing liquids without them gaining or losing temperature.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidVolumePump</Key>
