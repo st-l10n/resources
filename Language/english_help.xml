@@ -108,7 +108,42 @@
       <Text>You can mine {LINK:OrePage;ore} using a {THING:ItemMiningDrill}. If you wear a {THING:ItemMiningBelt} the {LINK:OrePage;ore} will automatically be placed within it.
       </Text>
     </StationpediaPage>
-    <StationpediaPage>
+<StationpediaPage>
+      <Key>TradingPage</Key>
+      <Title>Trading</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>Trading is an essential part of a &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; existence, especially on more extreme worlds, where new cadets may be challenged at first to survive without assistance.
+
+{HEADER:Getting started}
+
+To contact a trader you need to establish a communications system. This requires the following:
+
+- A powered {THING:StructureVendingMachine} to store and trade items with.
+- An operational {THING:StructureSatelliteDish} to locate and identify prospective traders.
+- A working {THING:StructureComputer} with a {THING:MotherboardComms} running.
+- A powered {THING:StructureShuttleLandingPad} for the Trader to land on.
+
+When your system is up and running, you will see an empty screen on the computer terminal. Adjust the satellite dish's position until it registers one or more traders. These will appear on screen with a rating from 1-100%. This is your signal strenght. A Trader can only be summoned when signal strength is above 95%. Once a Trader has been contacted, it will subsequently provide a name. Different traders provide different categories of items.
+
+{HEADER:Traders}
+
+Electronics      Tech Tree
+Organics         Organtion
+Basic            Spes'mall
+Hydraulic        HyrdauliKit
+Ore              MineRite
+Microwave        Microwares
+Chemistry        Chem Lab
+Exotics          ExoTech
+Paint            Color Corp
+Tools            Tool Corp
+Security         Hall Corp
+Other            Kolders' Goods
+Gas              Gassy Trade
+Custom           Spes'mall
+      </Text>
+</StationpediaPage>
+<StationpediaPage>
       <Key>ConstructionPage</Key>
       <Title>Construction</Title>
       <DisplayFilter>Guides</DisplayFilter>

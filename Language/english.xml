@@ -1882,31 +1882,31 @@ Like most &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt;-designed s
       <Key>StructureChuteCorner</Key>
       <Value>Chute (Corner)</Value>
       <Description>The aim for any &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
-Chute corners are fundamental components of chute networks, which allow the transport of items between machines with import and export slots, such as the {THING:StructureFurnace} and other automatable structures.</Description>
+Chute corners are fundamental components of chute networks, which allow the transport of items between machines with &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;import/export}&lt;/color&gt; slots, such as the {THING:StructureFurnace} and other automatable structures.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteInlet</Key>
       <Value>Chute Inlet</Value>
       <Description>The aim for any &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
-The chute inlet is an aperture by which items can be introduced to chute networks. Note that its origins in zero-gravity mining means chute inlets are permanently open, rather than interactable, but can be connected to &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic}&lt;/color&gt; systems to monitor throughput.</Description>
+The chute inlet is an aperture by which items can be introduced to &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;import/export}&lt;/color&gt; networks. Note that its origins in zero-gravity mining means chute inlets are permanently open, rather than interactable, but can be connected to &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic}&lt;/color&gt; systems to monitor throughput.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteJunction</Key>
       <Value>Chute (Junction)</Value>
       <Description>The aim for any &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
-Chute junctions are fundamental components of chute networks, allowing merging or splitting of these networks. When combined with a programmed {THING:StructureSorter}, items can be sent down different paths to various machines with import and export slots.</Description>
+Chute junctions are fundamental components of chute networks, allowing merging or splitting of these networks. When combined with a programmed {THING:StructureSorter}, items can be sent down different paths to various machines with &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;import/export}&lt;/color&gt; slots.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteOutlet</Key>
       <Value>Chute Outlet</Value>
       <Description>The aim for any &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
-The chute outlet is an aperture for exiting items from chute networks. Note that the outlet's origins in zero-gravity mining means they are permanently open, rather than interactable, but can be connected to &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic}&lt;/color&gt; systems to monitor throughput.</Description>
+The chute outlet is an aperture for exiting items from &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;import/export}&lt;/color&gt; networks. Note that the outlet's origins in zero-gravity mining means they are permanently open, rather than interactable, but can be connected to &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic}&lt;/color&gt; systems to monitor throughput.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteStraight</Key>
       <Value>Chute (Straight)</Value>
       <Description>The aim for any &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
-Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an import and export slot.</Description>
+Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;import/export}&lt;/color&gt; slot.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeDoor</Key>
@@ -2476,6 +2476,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureChuteWindow</Key>
       <Value>Chute (Window)</Value>
+      <Description>Chute's with windows let you see what's passing through your &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;import/export}&lt;/color&gt; network. But be warned, they are not insulated as other chutes are. Ices will melt.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureArcFurnace</Key>
@@ -3538,6 +3539,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureVendingMachine</Key>
       <Value>Vending Machine</Value>
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo-designed}&lt;/color&gt; 'Slot Mate' vending machine allows storage of almost any item, while also operating as a distribution point for working with {LINK:TradingPage;Traders}.You cannot trade without a vending machine, or its more advanced equivalent, the {THING:StructureRefrigeratedVendingMachine}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitVendingMachine</Key>
@@ -3877,7 +3879,9 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>StructureSatelliteDish</Key>
       <Value>Satellite Dish</Value>
-      <Description>Giant communications array that can be used to communicate with nearby trade vessels. When connected to a {THING:StructureComputer} containing a {THING:MotherboardComms}, a {THING:StructureShuttleLandingPad}, and a {THING:StructureVendingMachine}, this allows Stationeers to trade with suppliers. Adjust its horizontal and vertical attributes either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader.</Description>
+      <Description>This large communications unit can be used to communicate with nearby trade vessels.
+      
+When connected to a {THING:StructureComputer} containing a {THING:MotherboardComms} motherboard, a {THING:StructureShuttleLandingPad}, and a {THING:StructureVendingMachine}, this allows Stationeers to trade with suppliers. Adjust its horizontal and vertical attributes either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSatelliteDish</Key>
@@ -5891,7 +5895,7 @@ To extract resources from the silo module, you must set its state to 'OPEN' usin
     <RecordThing>
       <Key>StructureRocketModuleGasCollector</Key>
       <Value>Automated Rocket Gas Collection Module</Value>
-      <Description>Coming soon</Description>
+      <Description>Collects gas from space by magic.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketModuleEnergyGenerator</Key>
@@ -6236,7 +6240,7 @@ Also, don't leave the door open, as it will equalize with the current world temp
     <RecordThing>
       <Key>StructureRefrigeratedVendingMachine</Key>
       <Value>Refrigerated Vending Machine</Value>
-      <Description>The refrigerated vending maachine is an advanced version of the standard {THING;StructureVendingMachine}, which maintains a constant temperature of -140 degrees C, to prevent food spoilage. It also has an in-built {THING:StructureStacker}, allowing players to set the stack sizes of any items being added to the device. Note that altering stack sizes does not update existing stacks, only those you add subsequently.</Description>
+      <Description>The refrigerated vending machine is an advanced version of the standard {THING;StructureVendingMachine}, which maintains an optimum pressure and constant temperature of -111 degrees C, to prevent food spoilage. It also has an in-built {THING:StructureStacker}, allowing players to set the stack sizes of any items being added to the device. Note that altering stack sizes does not update existing stacks, only those you add subsequently.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitVendingMachineRefrigerated</Key>
