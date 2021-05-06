@@ -5762,7 +5762,7 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
       <Value>Kit (Liquid Radiator)</Value>
       <Description>This kit creates a {THING:StructureLiquidPipeRadiator}.</Description>
     </RecordThing>
-    <RecordThing>>
+    <RecordThing>
       <Key>DynamicMKIILiquidCanisterEmpty</Key>
       <Value>Portable Liquid Tank Mk II (Empty)</Value>
       <Description>An empty, insulated liquid canister.</Description>
@@ -6290,7 +6290,14 @@ Also, don't leave the door open, as it will equalize with the current world temp
     <RecordThing>
       <Key>Fertilizer</Key>
       <Value>Fertilizer</Value>
-      <Description />
+      <Description>Fertilizer alters plant growth processes, and is created by the basic composter and the {THING:StructureAdvancedComposter} using &lt;color=#0080FFFF&gt;{LINK:OrganicsPage;organic}&lt;/color&gt; matter.
+Fertilizer's affects depend on its ingredients:
+
+- &lt;color=#0080FFFF&gt;{LINK:OrganicsPage;food}&lt;/color&gt; increases PLANT YIELD up to two times
+- {THING:DecayedFood} increases plant GROWTH SPEED up to two times
+- Biomass increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for
+
+The effect of these ingredients depends on their respective proportions in the composter when processing is activated. </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAdvancedComposter</Key>
@@ -6305,6 +6312,11 @@ Also, don't leave the door open, as it will equalize with the current world temp
     <RecordThing>
       <Key>ItemKitFridgeSmall</Key>
       <Value>Kit (Fridge Small)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>PortableComposter</Key>
+      <Value>Portable Composter</Value>
       <Description />
     </RecordThing>
   </Things>
