@@ -425,6 +425,14 @@
       <Key>UnLink</Key>
       <Value>取消链接</Value>
     </Record>
+    <Record>
+      <Key>ForceFeed</Key>
+      <Value>强制进食</Value>
+    </Record>
+    <Record>
+      <Key>FlipRover</Key>
+      <Value>翻转</Value>
+    </Record>
   </Actions>
   <Things>
     <RecordThing>
@@ -760,10 +768,6 @@
       <Value>便携储液罐(水)</Value>
     </RecordThing>
     <RecordThing>
-      <Key>DynamicLiquidCanisterEmpty</Key>
-      <Value>便携储液罐(空)</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>DynamicGenerator</Key>
       <Value>便携式发电机</Value>
     </RecordThing>
@@ -970,10 +974,6 @@
     <RecordThing>
       <Key>ItemGasCanisterWater</Key>
       <Value>金属罐(水)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemLiquidCanisterEmpty</Key>
-      <Value>储液瓶</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxide</Key>
@@ -4194,10 +4194,6 @@
     <RecordThing>
       <Key>ItemPipeLiquidRadiator</Key>
       <Value>套件 (液体管道散热器)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>DynamicMKIILiquidCanisterEmpty</Key>
-      <Value>便携式储液罐 Mk II</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicMKIILiquidCanister</Key>
