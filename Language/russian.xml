@@ -9545,12 +9545,28 @@
       <Value>Сохраняет игру и называет ее как указано в параметре после. Использование: &quot;/save имясохранения&quot;</Value>
     </Record>
     <Record>
+      <Key>CommandShutdown</Key>
+      <Value>Выключение игрового сервера и возвращение игрока в лобби, можно добавить таймер и сообщение. Применение: &quot;/shutdown&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandNotice</Key>
+      <Value>Отправить сообщение игрокам на сервере. Применение: &quot;/notice сообщение, которое вы хотите отправить&quot;</Value>
+    </Record>
+    <Record>
       <Key>CommandStatus</Key>
       <Value>Показывает текущий статус сервера и кто в данный момент на сервере: &quot;/status&quot;</Value>
     </Record>
     <Record>
       <Key>CommandBan</Key>
       <Value>Заблокировать игрока по данному SteamID на сервере: &quot;/ban 102039237390&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandUnBan</Key>
+      <Value>Снять бан с заданного Steam ID на сервере: &quot;/unban 102039237390&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandKick</Key>
+      <Value>Исключить игрока с заданным Steam ID с сервера: &quot;/kick 102039237390&quot;</Value>
     </Record>
     <Record>
       <Key>CommandClearAll</Key>
