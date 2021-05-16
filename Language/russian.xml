@@ -9605,12 +9605,36 @@
       <Value>Переключает режим игры между выживанием и творчеством: &quot;/tgm&quot;</Value>
     </Record>
     <Record>
+      <Key>CommandSetTime</Key>
+      <Value>Установить смещение солнца, изменяя время суток: &quot;/settime 0.25&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandToggleInstaGrow</Key>
+      <Value>Включает мгновенный рост растений на сервере или в игре: &quot;/tgrow&quot;</Value>
+    </Record>
+    <Record>
       <Key>CommandStopWeather</Key>
       <Value>Немедленно останавливает шторм. : &quot;/stopweather&quot;</Value>
     </Record>
     <Record>
       <Key>CommandStartWeather</Key>
       <Value>Немедленно начинает новый шторм. : &quot;/startweather&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandToggleNoClip</Key>
+      <Value>Включить столкновения игроков: &quot;/tnc&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandSkipStage</Key>
+      <Value>Пропустить текущий этап миссии: &quot;/skipstage&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandSetStage</Key>
+      <Value>Установить текущий этап миссии: &quot;/setstage&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandShowStage</Key>
+      <Value>Отображает текущий этап миссии и количество этапов в миссии: &quot;/showstage&quot;</Value>
     </Record>
     <Record>
       <Key>CommandFillNeeds</Key>
@@ -9785,6 +9809,10 @@
     <Record>
       <Key>PowerCategoryKey</Key>
       <Value>Электроника</Value>
+    </Record>
+    <Record>
+      <Key>AppliancesCategoryKey</Key>
+      <Value>Устройство:</Value>
     </Record>
     <Record>
       <Key>AtmopshericsCategoryKey</Key>
