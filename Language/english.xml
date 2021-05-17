@@ -2930,7 +2930,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemTomatoSoup</Key>
       <Value>Tomato Soup</Value>
-      <Description>Made using {THING:ItemTomato} and an {THING:ItemEmptyCan} in a {THING:ApplianceMicrowave}.</Description>
+      <Description>Made using {THING:ItemTomato} and an {THING:ItemEmptyCan} in a {THING:Structure}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSoyOil</Key>
@@ -4641,7 +4641,7 @@ When landing, the rocket will deploy a lander, and any cargo contained in the {T
     <RecordThing>
       <Key>StructureSDBSilo</Key>
       <Value>SDB Silo</Value>
-      <Description>The majestic silo holds large quantities of almost anything. While it is doing that, it cannot be deconstructed.</Description>
+      <Description>The majestic silo holds large quantities of almost anything. While it is doing that, it cannot be deconstructed. Note also, that any food you put into a silo is likely to {LINK:DecayPage;decay} extremely rapidly.</Description>
     </RecordThing>
     <RecordThing>
       <Key>KitSDBSilo</Key>
@@ -5524,17 +5524,17 @@ While the wind turbine is optimized to produce power even on low atmosphere worl
     <RecordThing>
       <Key>ItemEmptyCan</Key>
       <Value>Empty Can</Value>
-      <Description>Used for making soups when combined with food in the {THING:ApplianceMicrowave}.</Description>
+      <Description>Used for making soups when combined with food in the {THING:AppliancePackagingMachine}. High in nutrition, canned food does not {LINK:DecayPage;decay}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPumpkinSoup</Key>
       <Value>Pumpkin Soup</Value>
-      <Description>Made using {THING:ItemPumpkin} and an {THING:ItemEmptyCan} in a {THING:ApplianceMicrowave}.</Description>
+      <Description>Made using {THING:ItemPumpkin} and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine}. High in nutrition, canned food does not {LINK:DecayPage;decay}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCornSoup</Key>
       <Value>Corn Soup</Value>
-      <Description>Made using {THING:ItemCorn} and an {THING:ItemEmptyCan} in a {THING:ApplianceMicrowave}.</Description>
+      <Description>Made using {THING:ItemCorn} and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine}. High in nutrition, canned food does not {LINK:DecayPage;decay}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBreadLoaf</Key>
@@ -6176,24 +6176,25 @@ Central to this pasttime is the step sequencer, which allows Stationeers to sequ
     <RecordThing>
       <Key>DecayedFood</Key>
       <Value>Decayed Food</Value>
-      <Description>When your &lt;color=#0080FFFF&gt;{LINK:OrganicsPage;food}&lt;/color&gt; decays, it turns into this. &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; scientists have attempted to determine the exact constituents of this substance, but it remains evasive and mysterious. Suffice to say, eating it is a bad idea. Research has determined, however, that the exact speed of food transmutation varies by:
+      <Description>When your &lt;color=#0080FFFF&gt;{LINK:OrganicPage;food}&lt;/color&gt; decays, it turns into this. &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; scientists have attempted to determine the exact constituents of this substance, but it remains evasive and mysterious. Suffice to say, eating it is a bad idea. Research has determined, however, that The exact speed of decay varies individually by:
 
-- TEMPERATURE - Refrigeration is desirable, but some foods will be damaged by exposure to extreme cold, as well as extreme heat.
+- TEMPERATURE - Refrigeration will slow decay, but many foods will be damaged by exposure to extreme low pressure, as well as extreme heat. The optimum temperature is 0 kelvin (-272 C).
 
 - FOOD TYPE - Each &lt;color=#0080FFFF&gt;{LINK:OrganicPage;food}&lt;/color&gt; type has its own decay properties. {THING:ItemTomatoSoup} lasts a lot longer than a {THING:ItemTomato}, for instance.
 
-- ATMOSPHERE - Different gases can slow and accelerate the decay process.
-The following rates apply across all foods:
+- PRESSURE - Food decays faster when the pressure drops below 1 atmosphere (101kPa). Decay happens exponentially more quickly as the atmosphere approaches a perfect vacuum. There is no effect from higher pressures. 
 
-Oxygen x 1.3
-Nitrogen x 0.6
-Carbon Dioxide x 0.8
-Volatiles x 1
-Pollutant x 3
-Nitrous Oxide x 1.5
-Water x 2
+- ATMOSPHERE - Different gases can slow and accelerate the decay process. The process will take account of respective gas ratios in mixed atmospheres in calculating the decay modifier. The following rates apply across all foods:
 
-NOTE: The decay process will take account of gas ratios in mixed atmospheres in calculating the decay modifier.
+> Oxygen x 1.3
+> Nitrogen x 0.6
+> Carbon Dioxide x 0.8
+> Volatiles x 1
+> Pollutant x 3
+> Nitrous Oxide x 1.5
+> Water x 2
+> Vacuum (see PRESSURE above)
+
 </Description>
     </RecordThing>
     <RecordThing>
@@ -6229,7 +6230,9 @@ For more info, check out the {LINK:MusicPage}.</Description>
       
 With its own permanent internal atmosphere, the Koolaid fridge slows the decay of &lt;color=#0080FFFF&gt;{LINK:OrganicPage;food}&lt;/color&gt; by maintaining an optimal internal temperature. Its power usage varies on the external temperature against which it must balance its internal temperature. As such, it must shed heat to operate, so the Koolaid fridge DOES NOT work in a vacuum.
       
-Also, don't leave the door open, as it will equalize with the current world temperature. And maybe start to beep.</Description>
+Also, don't leave the door open, as it will equalize with the current world temperature. And maybe start to beep.
+
+For more information about food preservation, visit the {LINK:DecayPage;food decay} section of the Stationpedia.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFridgeBig</Key>
@@ -6239,7 +6242,9 @@ Also, don't leave the door open, as it will equalize with the current world temp
     <RecordThing>
       <Key>StructureFridgeSmall</Key>
       <Value>Structure Fridge Small</Value>
-      <Description>Essentially a heavily insulated box that allows users to pipe in any desired atmosphere, the &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; Minibar fridge was a simple solution to the problem of &lt;color=#0080FFFF&gt;{LINK:NutritionPage;food decay}&lt;/color&gt;. It stores a small number of items, at any temperature you can muster.</Description>
+      <Description>Essentially a heavily insulated box that allows users to pipe in any desired atmosphere, the &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; Minibar fridge was a simple solution to the problem of &lt;color=#0080FFFF&gt;{LINK:NutritionPage;food decay}&lt;/color&gt;. It stores a small number of items, at any temperature you can muster.
+      
+      For more information about food preservation, visit the {LINK:DecayPage;food decay} section of the Stationpedia.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRefrigeratedVendingMachine</Key>
@@ -6254,50 +6259,50 @@ Also, don't leave the door open, as it will equalize with the current world temp
     <RecordThing>
       <Key>SeedBag_Potato</Key>
       <Value>Item Seed Bag Potato</Value>
-      <Description />
+      <Description>Grow a {THING:ItemPotato}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Corn</Key>
       <Value>Item Seed Bag Corn</Value>
-      <Description />
+      <Description>Grow a {THING:ItemPotato}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Wheet</Key>
       <Value>Seed Bag Wheat</Value>
-      <Description />
+      <Description>Grow some {THING:ItemWheat}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Tomato</Key>
       <Value>Item Seed Bag Tomato</Value>
-      <Description />
+      <Description>Grow a {THING:ItemTomato}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Soybean</Key>
       <Value>Item Seed Bag Soybean</Value>
-      <Description />
+      <Description>Grow some {THING:ItemSoybean}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Rice</Key>
       <Value>Item Seed Bag Rice</Value>
-      <Description />
+      <Description>Grow some {THING:ItemRice}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Pumpkin</Key>
       <Value>Item Seed Bag Pumpkin</Value>
-      <Description />
+      <Description>Grow a {THING:ItemPumpkin}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Fern</Key>
       <Value>Item Seed Bag Fern</Value>
-      <Description />
+      <Description>Grow a {THING:ItemFern}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>Fertilizer</Key>
       <Value>Fertilizer</Value>
-      <Description>Fertilizer alters plant growth processes, and is created by the basic composter and the {THING:StructureAdvancedComposter} using &lt;color=#0080FFFF&gt;{LINK:OrganicsPage;organic}&lt;/color&gt; matter.
+      <Description>Fertilizer alters plant growth processes, and is created by the basic composter and the {THING:StructureAdvancedComposter} using &lt;color=#0080FFFF&gt;{LINK:OrganicPage;organic}&lt;/color&gt; matter.
 Fertilizer's affects depend on its ingredients:
 
-- &lt;color=#0080FFFF&gt;{LINK:OrganicsPage;food}&lt;/color&gt; increases PLANT YIELD up to two times
+- &lt;color=#0080FFFF&gt;{LINK:OrganicPage;food}&lt;/color&gt; increases PLANT YIELD up to two times
 - {THING:DecayedFood} increases plant GROWTH SPEED up to two times
 - {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for
 
@@ -6306,13 +6311,13 @@ The effect of these ingredients depends on their respective proportions in the c
     <RecordThing>
       <Key>StructureAdvancedComposter</Key>
       <Value>Advanced Composter</Value>
-      <Description>The advanced composter creates {THING:Fertilizer} out of organic matter. It accepts &lt;color=#0080FFFF&gt;{LINK:OrganicsPage;food}&lt;/color&gt;, {THING:DecayedFood} or {THING:ItemBiomass}. It requires water and power to operate, accelerating the natural composting process.
+      <Description>The advanced composter creates {THING:Fertilizer} out of organic matter. It accepts &lt;color=#0080FFFF&gt;{LINK:OrganicPage;food}&lt;/color&gt;, {THING:DecayedFood} or {THING:ItemBiomass}. It requires water and power to operate, accelerating the natural composting process.
 When processing, it releases {THING:Nitrogen} and {THING:Volatiles}, as well a small amount of heat. 
 
 {HEADER:Compost composition}
 Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertilizer's effects on plants will vary depending on the respective proportions of its ingredients.
 
-- &lt;color=#0080FFFF&gt;{LINK:OrganicsPage;food}&lt;/color&gt; increases PLANT YIELD up to two times
+- &lt;color=#0080FFFF&gt;{LINK:OrganicPage;food}&lt;/color&gt; increases PLANT YIELD up to two times
 - {THING:DecayedFood} increases plant GROWTH SPEED up to two times
 - {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for
 </Description>
@@ -6340,20 +6345,21 @@ Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertiliz
     <RecordThing>
       <Key>PortableComposter</Key>
       <Value>Portable Composter</Value>
-      <Description>A simple composting device, the basic composter creates {THING:Fertilizer} out of organic matter. It accepts &lt;color=#0080FFFF&gt;{LINK:OrganicsPage;food}&lt;/color&gt;, {THING:DecayedFood} or {THING:ItemBiomass}. It requires a full {THING:ItemLiquidCanisterEmpty} and a battery to operate, accelerating the natural composting process.
+      <Description>A simple composting device, the basic composter creates {THING:Fertilizer} out of organic matter. It accepts &lt;color=#0080FFFF&gt;{LINK:OrganicPage;food}&lt;/color&gt;, {THING:DecayedFood} or {THING:ItemBiomass}. It requires a full {THING:ItemLiquidCanisterEmpty} and a battery to operate, accelerating the natural composting process.
 When processing, it releases {THING:Nitrogen} and {THING:Volatiles}, as well a small amount of heat.
 
 {HEADER:Compost composition}
 Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertilizer's effects on plants will vary depending on the respective proportions of its ingredients.
 
-- &lt;color=#0080FFFF&gt;{LINK:OrganicsPage;food}&lt;/color&gt; increases PLANT YIELD up to two times
+- &lt;color=#0080FFFF&gt;{LINK:OrganicPage;food}&lt;/color&gt; increases PLANT YIELD up to two times
 - {THING:DecayedFood} increases plant GROWTH SPEED up to two times
 - {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for</Description>
     </RecordThing>
     <RecordThing>
       <Key>AppliancePackagingMachine</Key>
       <Value>Appliance Packaging Machine</Value>
-      <Description />
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; Cannifier requires {THING:ItemEmptyCan} and cooked &lt;color=#0080FFFF&gt;{LINK:OrganicPage;food}&lt;/color&gt; to create {LINK:DecayPage;long-lasting}, easily stored sustenance.
+      </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPlanter</Key>
@@ -6373,12 +6379,12 @@ Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertiliz
     <RecordThing>
       <Key>ItemCannedMushroom</Key>
       <Value>Item Canned Mushroom</Value>
-      <Description />
+      <Description>High in nutrition, canned food does not {LINK:DecayPage;decay}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPowderedeggs</Key>
       <Value>Item Powderedeggs</Value>
-      <Description />
+      <Description>Powdered eggs: the reason you went to space.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPoweredEggs</Key>
@@ -6388,26 +6394,36 @@ Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertiliz
     <RecordThing>
       <Key>ItemFrenchFries</Key>
       <Value>Item French Fries</Value>
-      <Description />
+      <Description>Because space would suck without 'em.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCannedRicePudding</Key>
       <Value>Item Canned Rice Pudding</Value>
-      <Description />
+      <Description>High in nutrition, canned food does not {LINK:DecayPage;decay}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCannedCondensedMilk</Key>
       <Value>Item Canned Condensed Milk</Value>
-      <Description />
+      <Description>High in nutrition, canned food does not {LINK:DecayPage;decay}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCannedEdamame</Key>
       <Value>Item Canned Edamame</Value>
-      <Description />
+      <Description>High in nutrition, canned food does not {LINK:DecayPage;decay}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCannedPowderedEggs</Key>
       <Value>Item Canned Powdered Eggs</Value>
+      <Description>High in nutrition, canned food does not {LINK:DecayPage;decay}</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureAdvancedPackagingMachine</Key>
+      <Value>Advanced Packaging Machine</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitAdvancedPackagingMachine</Key>
+      <Value>Kit (Advanced Packaging Machine)</Value>
       <Description />
     </RecordThing>
   </Things>

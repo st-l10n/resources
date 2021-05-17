@@ -400,7 +400,7 @@ The rocket's mode is set via the device's 'activate' value. The mode determines 
 
  <StationpediaPage>
       <Key>TravelPage</Key>
-      <Title>Destination</Title>
+      <Title>Travelling to Other Planets</Title>
       <DisplayFilter>Guides</DisplayFilter>
       <Text>Wait! Don't close me yet! The following conditions must be met for launch:
 
@@ -648,29 +648,72 @@ Melt Pressure {0}</Text>
 
     <StationpediaPage>
       <Key>NutritionPage</Key>
-      <Title>Hunger, nutrition + decay</Title>
+      <Title>Hunger and nutrition</Title>
       <DisplayFilter>Guides</DisplayFilter>
       <Text>{HEADER:HUNGER}
 
 Stationeers get hungry eventually, but not all food is created equal. Also, your hunger rate varies depending on settings and difficulty. Eating will only consume that part of an item adequate to restoring your hunger to 100%.
 
-Stationeers receive supplies of food such as an &lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero}&lt;/color&gt; {THING:ItemCerealBar} in their lander upon arriving on a new world. When these are exhausted, you must find new sources of sustenance.
+Stationeers receive supplies of food such as &lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero}&lt;/color&gt; {THING:ItemCerealBar} in their lander upon arriving on a new world. When these are exhausted, you must find new sources of sustenance - such as growing your own, from the seeds supplied, or contacting a {LINK:TradingPage;Trader}. 
 
 {HEADER:NUTRITION}
 
-Eating raw ingredients will satisfy hunger less than meals, ie will replace a smaller proportion of your hunger. The basic elements of food are created using &lt;color=#0080FFFF&gt;{LINK:OrganicPage;hydroponics}&lt;/color&gt; systems. These can be processed into recipe ingredients using the {THING:ApplianceReagentProcessor}, then turned into meals using a {THING:ApplianceMicrowave}.
+Eating raw ingredients will satisfy hunger less than meals, ie will replace a smaller proportion of your hunger. The basic elements of food are created using &lt;color=#0080FFFF&gt;{LINK:OrganicPage;hydroponics}&lt;/color&gt; systems. These can be processed into recipe ingredients using the {THING:ApplianceReagentProcessor}, then turned into meals using a {THING:ApplianceMicrowave} or {THING:StructureAutomatedOven}.
 
-Your hunger rate can be adjusted set in the main settings menu by adjusting the Hunger/Hydration rate slider in the settings. Note that the hunger slider also governs your thirst.
+Your hunger rate can be adjusted set in the main settings menu by adjusting the Hunger/Hydration rate slider in the settings. Note that the hunger slider also governs your {THINK:HydrationPage;thirst}.
+</Text>
+    </StationpediaPage>
 
-{HEADER:FOOD DECAY}
+<StationpediaPage>
+      <Key>FarmingPage</Key>
+      <Title>Growing Food</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>To survive on alien worlds, the &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; expects all &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; to set up viable &lt;color=#0080FFFF&gt;{LINK:OrganicPage;hydroponic}&lt;/color&gt; systems, or contact registered local resource {LINK:TradingPage;traders}.
 
-Food decays over time into {THING:DecayedFood}, unless refrigerated. While decayed food can be eaten, the &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; does not advise it.  The exact speed of decay varies individually by:
+{HEADER:SETTING UP}
 
-- TEMPERATURE - Refrigeration will slow decay, but many foods will be damaged by exposure to extreme cold, as well as extreme heat. The current optimum temperature is roughly -130 degrees Celcius (142K).
+When setting up your hydroponic system, you will need &lt;color=#0080FFFF&gt;{LINK:OrganicPage;seeds}&lt;/color&gt;. Alternatively, you can plant the food itself.
+
+Common Stationeer hydroponic equipment includes:
+
+- {THING:DynamicHydroponics}
+- {THING:ItemHydroponicTray}
+- {THING:ItemKitHydroponicStation}
+- {THING:StructureHarvie}
+
+All hydroponics systems require water, sunlight and the correct gas mixture - plants require CO2 and produce oxygen (except for {THING:ItemAlienMushroom}). PLants will not grow in the wrong atmosphere. If plants do not have enough light, you will need to build a {THING:StructureGrowLight}.
+
+Your system will depend on available resources and time, but a well-designed farming system can be almost fully automated given sufficient time and resources.
+
+{HEADER:HARVESTING}
+
+Most plants have several growth stages. The first stages are the plant growing through its lifecycle. During the third phase, seeds may be harvested from the plant. In the fourth phase, the plant will yield fruit. After that, unless cleared, the plant will die.
+
+{HEADER:FERTILIZER}
+
+Fertilizer alters plant growth processes, and is created by the {THING:PortableComposter} and the {THING:StructureAdvancedComposter} using &lt;color=#0080FFFF&gt;{LINK:OrganicPage;organic}&lt;/color&gt; matter.
+
+Fertilizer's affects depend on its ingredients:
+
+- &lt;color=#0080FFFF&gt;{LINK:OrganicPage;Food}&lt;/color&gt; increases PLANT YIELD up to two times
+- {THING:DecayedFood} increases plant GROWTH SPEED up to two times
+- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for
+
+The effect of these ingredients depends on their respective proportions in the composter when processing is activated. Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. When processing, {THING:Nitrogen} and {THING:Volatiles} is released, as well a small amount of heat.
+</Text>
+    </StationpediaPage>
+
+ <StationpediaPage>
+      <Key>DecayPage</Key>
+      <Title>Food Decay</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>Food decays over time into {THING:DecayedFood}, unless refrigerated in a sutable atmosphere. The exact speed of decay varies individually by:
+
+- TEMPERATURE - Refrigeration will slow decay, but many foods will be damaged by exposure to extreme low pressure, as well as extreme heat. The optimum temperature is 0 kelvin (-272 C).
 
 - FOOD TYPE - Each &lt;color=#0080FFFF&gt;{LINK:OrganicPage;food}&lt;/color&gt; type has its own decay properties. {THING:ItemTomatoSoup} lasts a lot longer than a {THING:ItemTomato}, for instance.
 
-- PRESSURE - 
+- PRESSURE - Food decays faster when the pressure drops below 1 atmosphere (101kPa). Decay happens exponentially more quickly as the atmosphere approaches a perfect vacuum. There is no effect from higher pressures. 
 
 - ATMOSPHERE - Different gases can slow and accelerate the decay process. The process will take account of respective gas ratios in mixed atmospheres in calculating the decay modifier. The following rates apply across all foods:
 
@@ -681,16 +724,13 @@ Food decays over time into {THING:DecayedFood}, unless refrigerated. While decay
 > Pollutant x 3
 > Nitrous Oxide x 1.5
 > Water x 2
-> No atmosphere/Vacuum x 1
-
-NOTE: Note that food decay is currently very slow, to give players time to adjust to the new system and set up their storage appropriately. We will be adding new content in the May update to mitigate and manage more demanding decay rates.
-
+> Vacuum - see PRESSURE (above).
 </Text>
     </StationpediaPage>
 
     <StationpediaPage>
       <Key>HydrationPage</Key>
-      <Title>Hydrate yourself</Title>
+      <Title>Thirst + hydration</Title>
       <DisplayFilter>Guides</DisplayFilter>
       <Text>Your average Stationeer needs to drink water regularly. However, arcane and possibly misguided &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; health and safety regulations have long denied Stationeers the right to in-suit hydration mechanisms. Instead, they must take regular drink breaks to open their helmet, and imbibe water. Doing so in an unpressurized environment is unadvised.
 
