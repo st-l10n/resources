@@ -81,29 +81,6 @@
       </Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>TravelPage</Key>
-      <Title>Úticél</Title>
-      <DisplayFilter>Útmutatók</DisplayFilter>
-      <Text>Várj! Még ne zárj be! Ezeknek a feltételeknek kell teljesülnie az indításhoz:
-
-- Teljesen megépített rakéta: legalább 3 központi modul
-- Teljesen feltankolt {THING:StructureModularRocketFueltank01}
-- Megfelelő üzemanyag-keverési arány - 2:1 arányú {GAS:Volatiles}-{GAS:Oxygen} keverék
-- {THING:StructureLaunchPad} ellátva árammal
-- Minden játékos a(z) {THING:StructureModularRocketCommand01} belsejében ül
-
-Ezek itt a VILÁGUTAZÓ-AZONOSÍTÓK. Használhatod őket bizonyos bolygók közti utazásra, ha együtt használod egy már kész {LINK:RocketShuttlePage;űrhajóval} és {LINK:LogicUnitPage;logikai egységekkel}.
-       
-Csak írd be a hash értékeket a {THING:StructureLaunchPad} Beállítás változójábaegy {THING:ItemLabeller} segítségével. Megjegyzés: Ha a hash értékre kattintasz, akkor bemásolódik a vágólapra.
-      
-Az induláshoz legalább 3 központi modulra lesz szükséged és arra, hogy minden játékos a rakétában üljön.
-
-      {LIST}
-        {WORLD_HASHES}
-      {/LIST}
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
       <Key>RocketShuttleModulesHelpPage</Key>
       <Title>Űrsikló modulok</Title>
       <DisplayFilter>Útmutatók</DisplayFilter>
@@ -208,18 +185,6 @@ Olvadási nyomás {0}</Text>
     <StationpediaPage>
       <Key>GasPageFlamableTemplate</Key>
       <Text>Lobbanási határ {0} és egy {1} között</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>HydrationPage</Key>
-      <Title>Hidratáld magad</Title>
-      <DisplayFilter>Útmutatók</DisplayFilter>
-      <Text>Egy stationeernek egy szüksége van a folyamatos folyadékbevitelre. A rejtélyes, talán téves &lt;color=#0080FFFF&gt;{LINK:ODA;FFÜ}&lt;/color&gt; egészségügyi és biztonsági előírások meggátolják, hogy lehessen az űrruhában beépített hidratációs rendszer, ehelyett minden kortynál fel kell nyitni a sisakot. Vákuumban ez kifejezetten nem ajánlott!
-
-Milyen gyakorisággal kell folyadékot bevinni? Ezt meghatározza az általad választott nehézségi szint, a bolygód hőmérséklete, és hogy mennyit mozgolódsz.
-
-Ivóvízhez többféleképpen is juthatsz. Mindig találsz legalább egy {THING:ItemWaterBottle}ot a kezdőkészleted részeként, amit landoláskor kapsz. Ezeket a {THING:ItemWaterBottleFiller} segítségével töltöheted meg, ha az folyadékhálózatba van kötve. A hálózatot a {THING:StructureIceCrusher} segítségével töltheted meg, melybe elégséges mennyiségű jeget kell táplálnod.
-
-A szomjúság mértékét a beállításokban átállíthatod az &quot;Éhség/szomjúság mértéke&quot; csúszkával.</Text>
     </StationpediaPage>
   </HelpPage>
 </Language>
