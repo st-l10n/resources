@@ -2930,7 +2930,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemTomatoSoup</Key>
       <Value>Tomato Soup</Value>
-      <Description>Made using {THING:ItemTomato} and an {THING:ItemEmptyCan} in a {THING:Structure}.</Description>
+      <Description>Made using cooked tomatoes and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSoyOil</Key>
@@ -5524,17 +5524,17 @@ While the wind turbine is optimized to produce power even on low atmosphere worl
     <RecordThing>
       <Key>ItemEmptyCan</Key>
       <Value>Empty Can</Value>
-      <Description>Used for making soups when combined with food in the {THING:AppliancePackagingMachine}. High in nutrition, canned food does not {LINK:DecayPage;decay}.</Description>
+      <Description>Used for making soups when combined with food in the {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Fairly high in nutrition, canned food does not {LINK:DecayPage;decay}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPumpkinSoup</Key>
       <Value>Pumpkin Soup</Value>
-      <Description>Made using {THING:ItemPumpkin} and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine}. High in nutrition, canned food does not {LINK:DecayPage;decay}</Description>
+      <Description>Made using cooked pumpkin and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Fairly high in nutrition, canned food does not {LINK:DecayPage;decay}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCornSoup</Key>
       <Value>Corn Soup</Value>
-      <Description>Made using {THING:ItemCorn} and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine}. High in nutrition, canned food does not {LINK:DecayPage;decay}.</Description>
+      <Description>Made using cooked corn and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Faily high in nutrition, canned food does not {LINK:DecayPage;decay}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBreadLoaf</Key>
@@ -6186,14 +6186,14 @@ Central to this pasttime is the step sequencer, which allows Stationeers to sequ
 
 - ATMOSPHERE - Different gases can slow and accelerate the decay process. The process will take account of respective gas ratios in mixed atmospheres in calculating the decay modifier. The following rates apply across all foods:
 
-> Oxygen x 1.3
-> Nitrogen x 0.6
-> Carbon Dioxide x 0.8
-> Volatiles x 1
-> Pollutant x 3
-> Nitrous Oxide x 1.5
-> Water x 2
-> Vacuum (see PRESSURE above)
+&gt; Oxygen x 1.3
+&gt; Nitrogen x 0.6
+&gt; Carbon Dioxide x 0.8
+&gt; Volatiles x 1
+&gt; Pollutant x 3
+&gt; Nitrous Oxide x 1.5
+&gt; Water x 2
+&gt; Vacuum (see PRESSURE above)
 
 </Description>
     </RecordThing>
@@ -6357,8 +6357,20 @@ Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertiliz
     </RecordThing>
     <RecordThing>
       <Key>AppliancePackagingMachine</Key>
-      <Value>Appliance Packaging Machine</Value>
-      <Description>The &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; Cannifier requires {THING:ItemEmptyCan} and cooked &lt;color=#0080FFFF&gt;{LINK:OrganicPage;food}&lt;/color&gt; to create {LINK:DecayPage;long-lasting}, easily stored sustenance.
+      <Value>Basic Packaging Machine</Value>
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; Cannifier requires {THING:ItemEmptyCan} and cooked &lt;color=#0080FFFF&gt;{LINK:OrganicPage;food}&lt;/color&gt; to create {LINK:DecayPage;long-lasting}, easily stored sustenance. Note that the Cannifier must be bolted to a {THING:StructureBench} for power, and only accepts cooked food and tin cans.
+
+{HEADER:OPERATION}
+
+1. Add the correct ingredients to the device.
+
+2. Close the device using the dropdown handle.
+
+3. Activate the device.
+
+Note: the Cannifier will flash an error on its activation switch if you attempt to activate it before closing it.
+
+
       </Description>
     </RecordThing>
     <RecordThing>
@@ -6378,52 +6390,92 @@ Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertiliz
     </RecordThing>
     <RecordThing>
       <Key>ItemCannedMushroom</Key>
-      <Value>Item Canned Mushroom</Value>
-      <Description>High in nutrition, canned food does not {LINK:DecayPage;decay}</Description>
+      <Value>Canned Mushroom</Value>
+      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using cooked mushrooms and a {THING:ItemEmptyCan}, delicious mushroom soup is fairly high in nutrition, and does not {LINK:DecayPage;decay}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPowderedeggs</Key>
-      <Value>Item Powderedeggs</Value>
+      <Value>Powdered Eggs</Value>
       <Description>Powdered eggs: the reason you went to space.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPoweredEggs</Key>
-      <Value>Item Powered Eggs</Value>
+      <Value>Powered Eggs</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemFrenchFries</Key>
-      <Value>Item French Fries</Value>
+      <Value>French Fries</Value>
       <Description>Because space would suck without 'em.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCannedRicePudding</Key>
-      <Value>Item Canned Rice Pudding</Value>
-      <Description>High in nutrition, canned food does not {LINK:DecayPage;decay}</Description>
+      <Value>Canned Rice Pudding</Value>
+      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using cooked rice and an {THING:ItemEmptyCan}, canned rice pudding is a sweet treat, fairly high in nutrition, and does not {LINK:DecayPage;decay}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCannedCondensedMilk</Key>
-      <Value>Item Canned Condensed Milk</Value>
-      <Description>High in nutrition, canned food does not {LINK:DecayPage;decay}</Description>
+      <Value>Canned Condensed Milk</Value>
+      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using condensed milk (cooked milk) and an {THING:ItemEmptyCan}, canned condensed milk is fairly high in nutrition, and does not {LINK:DecayPage;decay}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCannedEdamame</Key>
-      <Value>Item Canned Edamame</Value>
-      <Description>High in nutrition, canned food does not {LINK:DecayPage;decay}</Description>
+      <Value>Canned Edamame</Value>
+      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using cooked soybeans and an {THING:ItemEmptyCan}, canned edamame beans are fairly high in nutrition, and do not {LINK:DecayPage;decay}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCannedPowderedEggs</Key>
-      <Value>Item Canned Powdered Eggs</Value>
-      <Description>High in nutrition, canned food does not {LINK:DecayPage;decay}</Description>
+      <Value>Canned Powdered Eggs</Value>
+      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using powdered eggs and an {THING:ItemEmptyCan}, canned powdered eggs are an exciting, dynamic food that's fairly high in nutrition, and DOES not {LINK:DecayPage;decay}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAdvancedPackagingMachine</Key>
       <Value>Advanced Packaging Machine</Value>
-      <Description />
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; Advanced Cannifier Multi-Plus Pro is an automateable packaging machine that uses {THING:ItemEmptyCan}s and cooked &lt;color=#0080FFFF&gt;{LINK:OrganicPage;food}&lt;/color&gt; to create canned sustenance that does not decay. Note that the ACMPP only accepts cooked food and tin cans.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAdvancedPackagingMachine</Key>
       <Value>Kit (Advanced Packaging Machine)</Value>
+      <Description>Creates and {THING:StructureAdvancedPackagingMachine.}</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCookedSoybean</Key>
+      <Value>Item Cooked Soybean</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCookedTomato</Key>
+      <Value>Item Cooked Tomato</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCookedCorn</Key>
+      <Value>Item Cooked Corn</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCookedRice</Key>
+      <Value>Item Cooked Rice</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCookedPumpkin</Key>
+      <Value>Item Cooked Pumpkin</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCookedMushroom</Key>
+      <Value>Item Cooked Mushroom</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCookedPowderedEggs</Key>
+      <Value>Item Cooked Powdered Eggs</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCookedCondensedMilk</Key>
+      <Value>Item Cooked Condensed Milk</Value>
       <Description />
     </RecordThing>
   </Things>
