@@ -2930,7 +2930,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemTomatoSoup</Key>
       <Value>Tomato Soup</Value>
-      <Description>Made using cooked tomatoes and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}.</Description>
+      <Description>Made using {THING:ItemCookedTomato}s and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSoyOil</Key>
@@ -5529,12 +5529,12 @@ While the wind turbine is optimized to produce power even on low atmosphere worl
     <RecordThing>
       <Key>ItemPumpkinSoup</Key>
       <Value>Pumpkin Soup</Value>
-      <Description>Made using cooked pumpkin and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Fairly high in nutrition, canned food does not {LINK:DecayPage;decay}</Description>
+      <Description>Made using {THING:ItemCookedPumpkin} and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Fairly high in nutrition, canned food does not {LINK:DecayPage;decay}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCornSoup</Key>
       <Value>Corn Soup</Value>
-      <Description>Made using cooked corn and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Faily high in nutrition, canned food does not {LINK:DecayPage;decay}.</Description>
+      <Description>Made using {THING:ItemCookedCorn} and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Faily high in nutrition, canned food does not {LINK:DecayPage;decay}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBreadLoaf</Key>
@@ -6258,42 +6258,42 @@ For more information about food preservation, visit the {LINK:DecayPage;food dec
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Potato</Key>
-      <Value>Item Seed Bag Potato</Value>
+      <Value>Potato Seeds</Value>
       <Description>Grow a {THING:ItemPotato}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Corn</Key>
-      <Value>Item Seed Bag Corn</Value>
+      <Value>Corn Seeds</Value>
       <Description>Grow a {THING:ItemPotato}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Wheet</Key>
-      <Value>Seed Bag Wheat</Value>
+      <Value>Wheat Seeds</Value>
       <Description>Grow some {THING:ItemWheat}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Tomato</Key>
-      <Value>Item Seed Bag Tomato</Value>
+      <Value>Tomato Seeds</Value>
       <Description>Grow a {THING:ItemTomato}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Soybean</Key>
-      <Value>Item Seed Bag Soybean</Value>
+      <Value>Soybean Seeds</Value>
       <Description>Grow some {THING:ItemSoybean}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Rice</Key>
-      <Value>Item Seed Bag Rice</Value>
+      <Value>Rice Seeds</Value>
       <Description>Grow some {THING:ItemRice}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Pumpkin</Key>
-      <Value>Item Seed Bag Pumpkin</Value>
+      <Value>Pumpkin Seeds</Value>
       <Description>Grow a {THING:ItemPumpkin}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Fern</Key>
-      <Value>Item Seed Bag Fern</Value>
+      <Value>Fern Seeds</Value>
       <Description>Grow a {THING:ItemFern}.</Description>
     </RecordThing>
     <RecordThing>
@@ -6302,7 +6302,7 @@ For more information about food preservation, visit the {LINK:DecayPage;food dec
       <Description>Fertilizer alters plant growth processes, and is created by the basic composter and the {THING:StructureAdvancedComposter} using &lt;color=#0080FFFF&gt;{LINK:OrganicPage;organic}&lt;/color&gt; matter.
 Fertilizer's affects depend on its ingredients:
 
-- &lt;color=#0080FFFF&gt;{LINK:OrganicPage;food}&lt;/color&gt; increases PLANT YIELD up to two times
+- &lt;color=#0080FFFF&gt;{LINK:OrganicPage;Food}&lt;/color&gt; increases PLANT YIELD up to two times
 - {THING:DecayedFood} increases plant GROWTH SPEED up to two times
 - {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for
 
@@ -6312,41 +6312,41 @@ The effect of these ingredients depends on their respective proportions in the c
       <Key>StructureAdvancedComposter</Key>
       <Value>Advanced Composter</Value>
       <Description>The advanced composter creates {THING:Fertilizer} out of organic matter. It accepts &lt;color=#0080FFFF&gt;{LINK:OrganicPage;food}&lt;/color&gt;, {THING:DecayedFood} or {THING:ItemBiomass}. It requires water and power to operate, accelerating the natural composting process.
-When processing, it releases {THING:Nitrogen} and {THING:Volatiles}, as well a small amount of heat. 
+When processing, it releases nitrogen and volatiles, as well a small amount of heat. 
 
 {HEADER:Compost composition}
 Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertilizer's effects on plants will vary depending on the respective proportions of its ingredients.
 
-- &lt;color=#0080FFFF&gt;{LINK:OrganicPage;food}&lt;/color&gt; increases PLANT YIELD up to two times
+- &lt;color=#0080FFFF&gt;{LINK:OrganicPage;Food}&lt;/color&gt; increases PLANT YIELD up to two times
 - {THING:DecayedFood} increases plant GROWTH SPEED up to two times
-- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for
+- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for up to five times
 </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAdvancedComposter</Key>
       <Value>Kit (Advanced Composter)</Value>
-      <Description />
+      <Description>Creates an {THING:StructureAdvancedComposter}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFridgeSmall</Key>
       <Value>Kit (Fridge Small)</Value>
-      <Description />
+      <Description>Creates a {THING:StructureFridgeSmall}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePlanter</Key>
-      <Value>Structure Planter</Value>
-      <Description />
+      <Value>Planter</Value>
+      <Description>A small planter for decorative or hydroponic purposes. Can be connected to water, or watered manually using a {THING:ItemWaterBottle} or {THING:ItemGasCanisterWater}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>KitPlanter</Key>
       <Value>Kit Planter</Value>
-      <Description />
+      <Description>Places a {THING:StructurePlanter}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>PortableComposter</Key>
       <Value>Portable Composter</Value>
       <Description>A simple composting device, the basic composter creates {THING:Fertilizer} out of organic matter. It accepts &lt;color=#0080FFFF&gt;{LINK:OrganicPage;food}&lt;/color&gt;, {THING:DecayedFood} or {THING:ItemBiomass}. It requires a full {THING:ItemLiquidCanisterEmpty} and a battery to operate, accelerating the natural composting process.
-When processing, it releases {THING:Nitrogen} and {THING:Volatiles}, as well a small amount of heat.
+When processing, it releases nitrogen and volatiles, as well a small amount of heat.
 
 {HEADER:Compost composition}
 Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertilizer's effects on plants will vary depending on the respective proportions of its ingredients.
@@ -6391,7 +6391,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     <RecordThing>
       <Key>ItemCannedMushroom</Key>
       <Value>Canned Mushroom</Value>
-      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using cooked mushrooms and a {THING:ItemEmptyCan}, delicious mushroom soup is fairly high in nutrition, and does not {LINK:DecayPage;decay}.</Description>
+      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using {THING:ItemCookedMushroom}  and a {THING:ItemEmptyCan}, delicious mushroom soup is fairly high in nutrition, and does not {LINK:DecayPage;decay}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPowderedeggs</Key>
@@ -6411,22 +6411,22 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     <RecordThing>
       <Key>ItemCannedRicePudding</Key>
       <Value>Canned Rice Pudding</Value>
-      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using cooked rice and an {THING:ItemEmptyCan}, canned rice pudding is a sweet treat, fairly high in nutrition, and does not {LINK:DecayPage;decay}.</Description>
+      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using {THING:ItemCookedRice} and an {THING:ItemEmptyCan}, canned rice pudding is a sweet treat, fairly high in nutrition, and does not {LINK:DecayPage;decay}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCannedCondensedMilk</Key>
       <Value>Canned Condensed Milk</Value>
-      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using condensed milk (cooked milk) and an {THING:ItemEmptyCan}, canned condensed milk is fairly high in nutrition, and does not {LINK:DecayPage;decay}.</Description>
+      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using {THING:ItemCookedCondensedMilk} and an {THING:ItemEmptyCan}, canned condensed milk is fairly high in nutrition, and does not {LINK:DecayPage;decay}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCannedEdamame</Key>
       <Value>Canned Edamame</Value>
-      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using cooked soybeans and an {THING:ItemEmptyCan}, canned edamame beans are fairly high in nutrition, and do not {LINK:DecayPage;decay}.</Description>
+      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using {THING:ItemCookedSoybean} and an {THING:ItemEmptyCan}, canned edamame beans are fairly high in nutrition, and do not {LINK:DecayPage;decay}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCannedPowderedEggs</Key>
       <Value>Canned Powdered Eggs</Value>
-      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using powdered eggs and an {THING:ItemEmptyCan}, canned powdered eggs are an exciting, dynamic food that's fairly high in nutrition, and DOES not {LINK:DecayPage;decay}.</Description>
+      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using {THING:ItemCookedPowderedEggs}  and an {THING:ItemEmptyCan}, canned powdered eggs are an exciting, dynamic food that's fairly high in nutrition, and DOES not {LINK:DecayPage;decay}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAdvancedPackagingMachine</Key>
@@ -6440,43 +6440,43 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     </RecordThing>
     <RecordThing>
       <Key>ItemCookedSoybean</Key>
-      <Value>Item Cooked Soybean</Value>
-      <Description />
+      <Value>Cooked Soybean</Value>
+      <Description>A high-nutrient cooked food, which can be canned.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCookedTomato</Key>
-      <Value>Item Cooked Tomato</Value>
-      <Description />
+      <Value>Cooked Tomato</Value>
+      <Description>A high-nutrient cooked food, which can be canned.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCookedCorn</Key>
-      <Value>Item Cooked Corn</Value>
-      <Description />
+      <Value>Cooked Corn</Value>
+      <Description>A high-nutrient cooked food, which can be canned.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCookedRice</Key>
-      <Value>Item Cooked Rice</Value>
-      <Description />
+      <Value>Cooked Rice</Value>
+      <Description>A high-nutrient cooked food, which can be canned.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCookedPumpkin</Key>
-      <Value>Item Cooked Pumpkin</Value>
-      <Description />
+      <Value>Cooked Pumpkin</Value>
+      <Description>A high-nutrient cooked food, which can be canned.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCookedMushroom</Key>
-      <Value>Item Cooked Mushroom</Value>
-      <Description />
+      <Value>Cooked Mushroom</Value>
+      <Description>A high-nutrient cooked food, which can be canned.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCookedPowderedEggs</Key>
-      <Value>Item Cooked Powdered Eggs</Value>
-      <Description />
+      <Value>Powdered Eggs</Value>
+      <Description>A high-nutrient cooked food, which can be canned.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCookedCondensedMilk</Key>
-      <Value>Item Cooked Condensed Milk</Value>
-      <Description />
+      <Value>Condensed Milk</Value>
+      <Description>A high-nutrient cooked food, which can be canned.</Description>
     </RecordThing>
   </Things>
   <Slots>
@@ -7326,11 +7326,11 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     </Record>
     <Record>
       <Key>Edibles</Key>
-      <Value>Edibles</Value>
+      <Value>Edibles and food</Value>
     </Record>
     <Record>
       <Key>Plants</Key>
-      <Value>Plants</Value>
+      <Value>Plants and Seeds</Value>
     </Record>
     <Record>
       <Key>AirContitioningAtmos</Key>
