@@ -695,9 +695,9 @@ Fertilizer alters plant growth processes, and is created by the {THING:PortableC
 
 Fertilizer's affects depend on its ingredients:
 
-- &lt;color=#0080FFFF&gt;{LINK:OrganicPage;Food}&lt;/color&gt; increases PLANT YIELD up to two times
-- {THING:DecayedFood} increases plant GROWTH SPEED up to two times
-- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for, up to five cycles
+- &lt;color=#0080FFFF&gt;{LINK:OrganicPage;Food}&lt;/color&gt; increases individual PLANT YIELD by up to 3 items
+- {THING:DecayedFood} increases plant GROWTH SPEED up to 3 times
+- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for to a maximum of 5
 
 The effect of these ingredients depends on their respective proportions in the composter when processing is activated. Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. When processing, {THING:Nitrogen} and {THING:Volatiles} is released, as well a small amount of heat.
 </Text>
