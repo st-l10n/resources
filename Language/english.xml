@@ -453,7 +453,7 @@
       <Key>ApplianceMicrowave</Key>
       <Value>Microwave</Value>
       <Description>While countless 'better' ways of cooking &lt;color=#0080FFFF&gt;{LINK:FoodPage;Food}&lt;/color&gt; have been invented in the last few hundred years, few are as durable or easy to fabricate as the OK-Zoomer microwave. Licensed from &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt;, the plans are based on a classic model from the mid-21st century, giving it a charmingly retro feel. But don't worry, it oscillates water molecules more than adequately. 
-      Just bolt it to a {THING:StructureBench} using a {THING:ItemWrench} to power it, follow the recipe, and you're cooking.</Description>
+Just bolt it to a {THING:StructureBench} using a {THING:ItemWrench} to power it, follow the recipe, and you're cooking.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ApplianceReagentProcessor</Key>
@@ -2606,11 +2606,12 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
     <RecordThing>
       <Key>ItemFern</Key>
       <Value>Fern</Value>
-      <Description>There was a time, when Stationeers had to make {THING:ReagentFenoxitone} using the {THING:ApplianceReagentProcessor}. Recent advances in technology allow you to use ferns directly in recipes.</Description>
+      <Description>There was a time, when Stationeers had to make {THING:ReagentFenoxitone} using the {THING:ApplianceReagentProcessor}. Recent advances in technology allow you to use equivalent quantities of fern directly in recipes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCerealBar</Key>
       <Value>Cereal Bar</Value>
+      <Description>Sustains, without decay. If only all our relationships were so well balanced.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureElectronicsPrinter</Key>
@@ -5803,7 +5804,7 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     </RecordThing>
     <RecordThing>
       <Key>StructureBackLiquidPressureRegulator</Key>
-      <Value>Back Liquid Pressure Regulator</Value>
+      <Value>Liquid Back Pressure Regulator</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6254,7 +6255,9 @@ For more information about food preservation, visit the {LINK:DecayPage;food dec
     <RecordThing>
       <Key>StructureRefrigeratedVendingMachine</Key>
       <Value>Refrigerated Vending Machine</Value>
-      <Description>The refrigerated vending machine is an advanced version of the standard {THING;StructureVendingMachine}, which maintains an optimum pressure and constant temperature of -111 degrees C, to prevent food spoilage. It also has an in-built {THING:StructureStacker}, allowing players to set the stack sizes of any items being added to the device. Note that altering stack sizes does not update existing stacks, only those you add subsequently.</Description>
+      <Description>The refrigerated OmniKool vending machine is an advanced version of the standard {THING;StructureVendingMachine}, which maintains an optimum pressure and constant temperature of -130 degrees C, to prevent food spoilage.
+The OmniKool also has an in-built {THING:StructureStacker}, allowing players to set the stack sizes of any items ADDED to the device. The unit's default stack size is 50.
+NOTE: altering stack sizes DOES NOT update existing stacks within the machine, only those subsequently added. </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitVendingMachineRefrigerated</Key>
@@ -6433,7 +6436,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     <RecordThing>
       <Key>ItemCannedPowderedEggs</Key>
       <Value>Canned Powdered Eggs</Value>
-      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using {THING:ItemCookedPowderedEggs}  and an {THING:ItemEmptyCan}, canned powdered eggs are an exciting, dynamic food that's fairly high in nutrition, and DOES not {LINK:DecayPage;decay}.</Description>
+      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using {THING:ItemCookedPowderedEggs}  and an {THING:ItemEmptyCan}, canned powdered eggs are an exciting, dynamic food that's fairly high in nutrition, and does not {LINK:DecayPage;decay}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAdvancedPackagingMachine</Key>
