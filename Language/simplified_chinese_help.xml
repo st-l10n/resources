@@ -83,11 +83,53 @@
       </Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>RocketShuttleModulesHelpPage</Key>
+      <Title>火箭模块</Title>
+      <DisplayFilter>指南</DisplayFilter>
+      <Text>{HEADER:模块化火箭货舱}
+
+{THING:StructureModularRocketCargo01} 有2排10格的格子存储物品. 你可以在你的火箭上安装多个货舱模块. 火箭总共最多支持发射7个模块.
+
+{HEADER:模块化火箭指令舱}
+
+{THING:StructureModularRocketCommand01} 必须放置在火箭的最上面. 它能够显示和评估火箭的飞行准备情况. 当所有条件都满足后, 所有的玩家也都坐上此模块, 此时才可以点击控制台上的‘发射’(Launch)来发射火箭.
+
+发射必须满足以下条件:
+
+燃料满载
+燃料混合比正确
+所有玩家已就坐
+发射台已供电
+火箭建造完整
+
+{THING:StructureModularRocketCommand01} 控制台上能显示这些条件的当前状态. 它也不需要注入空气才能发射 - 你太空服里的空气就够了.
+
+{HEADER:模块化火箭引擎}
+
+{THING:StructureModularRocketEngine01} 最多推动七个模块 (包括自身).
+
+{HEADER:模块化火箭燃料箱}
+
+{THING:StructureModularRocketFueltank01} 中的 {GAS:Volatiles} 和 {GAS:Oxygen} 的燃料混合配比必须为2:1. 如果配置比例超过, 或者你放入的是其他的气体, {THING:StructureModularRocketCommand01} 控制台会显示 ‘Invalid(无效)’ 错误.
+
+          </Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>RocketShuttlePage</Key>
       <Title>火箭</Title>
       <Text>这些是火箭模块，用于在星球之间移动。要建造火箭 {THING:StructureLaunchPad} 是最基本的东西。
 {HEADER:火箭模块列表}
 {LIST_OF_ROCKET_SHUTTLE}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>WeatherPage</Key>
+      <Title>天气</Title>
+      <DisplayFilter>指南</DisplayFilter>
+      <Text>太阳系的行星并不像它们看起来那样平静。在任何有大气层的世界上停留7天后，不可捉摸的自然力量就会开始行动--用暴风雪、沙尘暴和火山事件来打击不小心的驻扎者。
+因此，官方发展援助建议新部署的Stationeers在着陆后7天内建立一个密封的基地。
+任何在风暴中留在外面的动态物体——在火星、楼兰、火神或木卫二上——都有被吹到很远很远的危险，包括你的着陆器。
+同样地，要注意太阳能电池板是脆弱的，它们的玻璃可能会破碎，或者偶尔甚至会被一场足够猛烈的风暴摧毁。在风暴期间，它们的产量也会大幅减少。
       </Text>
     </StationpediaPage>
     <!--
@@ -149,6 +191,37 @@ Paintable {POS:300}{2}{3}{/LIST}</Text>
     <StationpediaPage>
       <Key>GasPageFlamableTemplate</Key>
       <Text>可燃极限 {0} 到 {1}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>EVAPage</Key>
+      <Title>EVA防护服</Title>
+      <DisplayFilter>指南</DisplayFilter>
+      <Text>你的宇航服为你提供了一个可移动的大气层，有可调整的压力和空调（温度）设置，以及一个警告系统，如果宇航服内的大气变得危险，它将提醒你。它的功能与合适的头盔以及合适的气罐和太空服各个插槽中的过滤器结合起来才能正常运作。这些都需要定期更换，也可以使用{THING:StructureSuitStorage}进行充电（或耗尽）。
+
+有几个宇航服，包括{THING:ItemEvaSuit}和更耐压和耐温的{THING:ItemHardSuit}。
+
+你的宇航服的各种读数在屏幕的右下方。按相应的数字键（2）会弹出一个显示其插槽和设置的面板。这些包括。
+
+- 空调开/关（即温度控制开/关）。
+- 过滤器开/关
+- 空气开/关
+- 压力上升/下降（范围为0kPA至202kPa，或0-2个地球大气压）。
+- 温度上升/下降（范围为0℃至60℃）。
+
+套装包含6-8个槽位。
+- 空气罐（x1）--插入一个装有可呼吸混合气体的罐子或智能罐子，例如氧气或氮气/氧气35/65。
+- 废气罐（x1）--收集由过滤器去除的气体
+- 生命支持（x1）--容纳一个电池，为你的空调、灯光等供电。
+- 过滤器（x3）--至少需要一个二氧化碳过滤器（如果是人类的话），取决于你的可呼吸气体组合。请注意，一个{THING:ItemHardSuit}有4个过滤器的插槽。
+- IC - 仅限{THING:ItemHardSuit}。
+
+压力：应该设置为50-100KPa（0.5-1个地球大气压）。游戏中的人类可以容忍高达约250kPa的压力，并且可以生存到约300kPA。
+
+温度：通常设置为18-21°C，游戏中的人类更喜欢10-29°C，可以容忍0-39°C，可以在49°C左右生存。在更高的温度下，你的空调将消耗更多的电池电量来维持内部温度。
+
+过滤器：默认的过滤器是二氧化碳过滤器，它可以捕捉人类呼吸时产生的气体。如果你的呼吸气体中没有使用100%的氧气，请添加额外的过滤器，例如，如果你混合了25%的氧气+75%的氮气，氮气会在你的衣服中长期积累，使你窒息，除非你有一个氮气过滤器。如果你有正确的过滤器和可呼吸气体，但仍然遇到问题，请使用太空头盔上的 &quot;冲洗 &quot;功能。当你的过滤器停止工作时，低/临界氧气警告会响起。
+
+如果损坏，你的太空服可以通过手拿胶带和使用&apos;激活&apos;按钮进行修补。</Text>
     </StationpediaPage>
   </HelpPage>
 </Language>
