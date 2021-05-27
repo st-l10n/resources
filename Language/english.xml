@@ -1104,7 +1104,7 @@ If an egg has been fertilized, and is kept between 20C-30C, an {THING:EntityChic
     <RecordThing>
       <Key>ItemFlour</Key>
       <Value>Flour</Value>
-      <Description />
+      <Description>Pulverized {THING:ItemWheat}, a key ingredient in many foods created by the {THING:ApplianceMicrowave} and the {THING:oven}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterCarbonDioxide</Key>
@@ -1400,7 +1400,7 @@ Careful not to pressurize beyond 100kPA, or it may go 'bang'.</Descrip
     <RecordThing>
       <Key>ItemMilk</Key>
       <Value>Milk</Value>
-      <Description>Full disclosure, it's not actually 'milk', but an &lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero-invented}&lt;/color&gt; synthesis of 5ml {THING:ItemSoyOil} and 5g {THING:ItemFern}, delicately blended in the {THING:ApplianceChemistryStation}. Surprisingly filling, it can be used as an ingredient to cook other &lt;color=#0080FFFF&gt;{LINK:FoodPage;food}&lt;/color&gt; in the {THING:ApplianceMicrowave}. Think, {THING:ItemMuffin}.</Description>
+      <Description>Full disclosure, it's not actually 'milk', but an &lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero-invented}&lt;/color&gt; synthesis of 5ml {THING:ItemSoyOil} and 5g {THING:ItemFern}, delicately blended in the {THING:ApplianceChemistryStation}. Surprisingly filling, it can be used as an ingredient to cook other &lt;color=#0080FFFF&gt;{LINK:FoodPage;food}&lt;/color&gt; in the {THING:ApplianceMicrowave} or {THING:StructureAutomatedOven}. Think, {THING:ItemMuffin}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningBelt</Key>
@@ -1734,7 +1734,7 @@ The &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec-designed}&lt;/color&gt; K-cops 44
       <Key>MotherboardSorter</Key>
       <Value>Sorter</Value>
       <Description>Motherboards are connected to {THING:StructureComputer}s to perform various technical functions.
-The &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec-designed}&lt;/color&gt; K-cops 10-10 sorter motherboard permits &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; to control which items a {THING:StructureSorter} sorter does, and does not, permit to pass.</Description>
+The &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec-designed}&lt;/color&gt; K-cops 10-10 sorter motherboard permits &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; to control which items a {THING:StructureSorter} does, and does not, permit to pass.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MothershipCore</Key>
@@ -1972,8 +1972,7 @@ Compatible motherboards:
 - {THING:MotherboardManufacturing}
 - {THING:MotherboardSorter}
 - {THING:MotherboardComms}
-- {THING:MotherboardProgrammableChip}
--</Description>
+- {THING:MotherboardProgrammableChip}</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsole</Key>
@@ -2137,7 +2136,7 @@ It can be automated using the {THING:StructureHarvie}.</Description>
     <RecordThing>
       <Key>StructureMotionSensor</Key>
       <Value>Motion Sensor</Value>
-      <Description>Originally developed to monitor dance marathons, the motion sensor can also be connect to {&lt;color=#0080FFFF&gt;{LINK:LogicPage;logic}&lt;/color&gt; systems for security purposes, automatic lighting, doors and various other applications.
+      <Description>Originally developed to monitor dance marathons, the motion sensor can also be connect to &lt;color=#0080FFFF&gt;{LINK:LogicPage;logic}&lt;/color&gt; systems for security purposes, automatic lighting, doors and various other applications.
 The sensor activates whenever a player enters the grid it is place on.</Description>
     </RecordThing>
     <RecordThing>
@@ -2924,10 +2923,14 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>DynamicGPR</Key>
       <Value>Ground Penetrating Radar (GPR)</Value>
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; Ground Penetrating Radar (GPR), when used in conjunction with either a {THING:CartridgeOreScanner} or a {THING:CartridgeOreScannerColor} placed in a {THING:ItemTablet}, allows a &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; to maximize mining yields and save time gathering resources to complete their mission by displaying hidden ores in the terrain. 
+
+Insert a cartridge or color scanner into the tablet, then press the activate button on the GPR to scan the surroundings. The data will be displayed on the tablet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeOreScanner</Key>
       <Value>Ore Scanner</Value>
+      <Description>When inserted into a {THING:ItemTablet} and used in conjunction with a {sTHING:DynamicGPR}, the scanner will display minerals hidden underground on the tablet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPotatoBaked</Key>
@@ -3807,6 +3810,14 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>CartridgeOreScannerColor</Key>
       <Value>Ore Scanner (Color)</Value>
+      <Description>When inserted into a {THING:ItemTablet} and used in conjunction with a {THING:DynamicGPR}, the scanner will display minerals hidden underground in different colors on the tablet.
+
+Iron and Nickle = red 
+Ice, Lead, Cobalt = cyan
+Gold and Silver = green
+Coal and Silicon = magenta
+Copper and Oxite = yellow
+Volatiles and Uranium = white</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicWriterSwitch</Key>
@@ -3815,7 +3826,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>MotherboardProgrammableChip</Key>
       <Value>IC Editor</Value>
-      <Description>When placed in a {THING:StructureComputer}, the IC Editor allows players to write and edit IC code, which can then be uploaded to a {THING:ProgrammableChip} if housed in an {THING:StructureCircuitHousing}.</Description>
+      <Description>When placed in a {THING:StructureComputer}, the IC Editor allows players to write and edit IC code, which can then be uploaded to a {THING:MotherboardProgrammableChip} if housed in an {THING:StructureCircuitHousing}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLogicCircuit</Key>
@@ -4603,11 +4614,12 @@ When landing, the rocket will deploy a lander, and any cargo contained in the {T
     <RecordThing>
       <Key>ItemSensorProcessingUnitOreScanner</Key>
       <Value>Sensor Processing Unit (Ore Scanner)</Value>
+      <Description>The Sensor Processing unit can be inserted into {THING:ItemSensorLenses} to reveal underground minerals in a HUD.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSensorLenses</Key>
       <Value>Sensor Lenses</Value>
-      <Description>These {&lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; glasses might not be the most fashionable thing, but when a {THING:ItemSensorProcessingUnitOreScanner} is inserted, Stationeers can use these handy glasses to x-ray the ground and find ores that are hidden beneath the surface.</Description>
+      <Description>These &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; glasses might not be the most fashionable thing, but when a {THING:ItemSensorProcessingUnitOreScanner} is inserted, Stationeers can use these handy glasses to x-ray the ground and find ores that are hidden beneath the surface.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBatteryChargerSmall</Key>
