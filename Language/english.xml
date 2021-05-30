@@ -1104,7 +1104,7 @@ If an egg has been fertilized, and is kept between 20C-30C, an {THING:EntityChic
     <RecordThing>
       <Key>ItemFlour</Key>
       <Value>Flour</Value>
-      <Description>Pulverized {THING:ItemWheat}, a key ingredient in many foods created by the {THING:ApplianceMicrowave} and the {THING:oven}.</Description>
+      <Description>Pulverized {THING:ItemWheat}, a key ingredient in many foods created by the {THING:ApplianceMicrowave} and the {THING:ItemKitAutomatedOven}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterCarbonDioxide</Key>
@@ -1116,20 +1116,20 @@ Careful not to overpressurize when refilling, or it may go 'bang'.</Description>
       <Key>ItemGasCanisterPollutants</Key>
       <Value>Canister (Pollutants)</Value>
       <Description>While this byproduct from smelting - sometimes known simply as 'X' - is a toxin, its specific heat makes it a valuable coolant. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill. 
-Careful not to pressurize beyond 100kPA, or it may go 'bang'.</Description>
+Careful not to pressurize beyond 10MPa, or it may go 'bang'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterEmpty</Key>
       <Value>Canister</Value>
       <Description>The portable canister is the &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer's}&lt;/color&gt; basic unit of &lt;color=#0080FFFF&gt;{LINK:GasPage;gas}&lt;/color&gt; delivery. Rated to a standard pressure of 8000kPa (80 atmospheres), empty gas canisters can be mounted to a 
 {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.
-Careful not to pressurize beyond 100kPA, or it may go 'bang'. Contains 64L of gas.</Description>
+Careful not to pressurize beyond 10MPa, or it may go 'bang'. Contains 64L of gas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterFuel</Key>
       <Value>Canister (Fuel)</Value>
       <Description>The orange portable &lt;color=#0080FFFF&gt;{LINK:GasPage;fuel}&lt;/color&gt; canister supplies a 64L mixture of 66% volatiles/34% oxygen for powering such items as the {THING:ItemWeldingTorch} and the {THING:DynamicGenerator}. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.
-Careful not to pressurize beyond 100kPA, or it may go 'bang'.</Description>
+Careful not to pressurize beyond 10MPa, or it may go 'bang'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterVolatiles</Key>
@@ -1139,13 +1139,13 @@ Careful not to pressurize beyond 100kPA, or it may go 'bang'.</Descrip
       <Key>ItemGasCanisterNitrogen</Key>
       <Value>Canister (Nitrogen)</Value>
       <Description>The green portable &lt;color=#0080FFFF&gt;{LINK:GasPage;nitrogen or nitrous oxide}&lt;/color&gt; canister supplies propellent for the {THING:ItemSpacepack} and the {THING:ItemHardJetpack}. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.
-Careful not to pressurize beyond 100kPA, or it may go 'bang'.</Description>
+Careful not to pressurize beyond 10MPa, or it may go 'bang'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterOxygen</Key>
       <Value>Canister (Oxygen)</Value>
       <Description>The white portable 64L canister is the &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer's}&lt;/color&gt; basic unit of &lt;color=#0080FFFF&gt;{LINK:GasPage;oxygen}&lt;/color&gt; delivery. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.
-Careful not to pressurize beyond 100kPA, or it may go 'bang'.</Description>
+Careful not to pressurize beyond 10MPa, or it may go 'bang'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterWater</Key>
@@ -2930,7 +2930,7 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     <RecordThing>
       <Key>CartridgeOreScanner</Key>
       <Value>Ore Scanner</Value>
-      <Description>When inserted into a {THING:ItemTablet} and used in conjunction with a {sTHING:DynamicGPR}, the scanner will display minerals hidden underground on the tablet.</Description>
+      <Description>When inserted into a {THING:ItemTablet} and used in conjunction with a {THING:DynamicGPR}, the scanner will display minerals hidden underground on the tablet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPotatoBaked</Key>
@@ -3826,7 +3826,7 @@ Volatiles and Uranium = white</Description>
     <RecordThing>
       <Key>MotherboardProgrammableChip</Key>
       <Value>IC Editor</Value>
-      <Description>When placed in a {THING:StructureComputer}, the IC Editor allows players to write and edit IC code, which can then be uploaded to a {THING:MotherboardProgrammableChip} if housed in an {THING:StructureCircuitHousing}.</Description>
+      <Description>When placed in a {THING:StructureComputer}, the IC Editor allows players to write and edit IC code, which can then be uploaded to a {THING:ItemIntegratedCircuit10} if housed in an {THING:StructureCircuitHousing}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLogicCircuit</Key>
