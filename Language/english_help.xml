@@ -127,19 +127,19 @@ When your system is up and running, you will see an empty screen on the computer
 
 {HEADER:Traders}
 
-Electronics      Tech Tree
-Organics         Organtion
-Basic            Spes'mall
-Hydraulic        HyrdauliKit
-Ore              MineRite
+Electronics      TechTree Electronics
+Organics         Organicon
+Basic            Spes'mall Basics
+Hydraulic        HydrauliKit
+Ore              MineRiteOres
 Microwave        Microwares
-Chemistry        Chem Lab
+Chemistry        ChemLab
 Exotics          ExoTech
-Paint            Color Corp
+Paint            Color Corp Paints
 Tools            Tool Corp
-Security         Hall Corp
-Other            Kolders' Goods
-Gas              Gassy Trade
+Security         Hall Corp Security
+Other            Kolders' Assorted Goods
+Gas              GasTrade
 Custom           Spes'mall
       </Text>
 </StationpediaPage>
@@ -532,7 +532,27 @@ Autoignition{POS:300}{2}{3}{/LIST}</Text>
       <Text>Melt Temperature {1}
 Melt Pressure {0}</Text>
     </StationpediaPage>
-    
+
+    <StationpediaPage>
+      <Key>DeviceTemplate</Key>
+      <Text>{0}W</Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>GasCanisterTemplate</Key>
+      <Text>{0}</Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>AtmosphericsTemplate</Key>
+      <Text>{0}</Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>NutritionPageTemplate</Key>
+      <Text>{0}</Text>
+    </StationpediaPage>
+
     <StationpediaPage>
       <Key>CreatorsHeaderTemplate</Key>
       <Text>{LIST}{0}{/LIST}</Text>
