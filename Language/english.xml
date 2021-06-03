@@ -6523,7 +6523,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     <RecordThing>
       <Key>ItemKitInsulatedWaterPipe</Key>
       <Value>Insulated Water Pipe Kit</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedLiquidPipe</Key>
@@ -6658,6 +6658,16 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     <RecordThing>
       <Key>ItemKitLiquidTurboVolumePump</Key>
       <Value>Kit (Liquid Turbo Volume Pump)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemMkIIToolbelt</Key>
+      <Value>Item Mk I I Toolbelt</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemMiningBeltMKII</Key>
+      <Value>Item Mining Belt M K I I</Value>
       <Description />
     </RecordThing>
   </Things>
@@ -8715,8 +8725,8 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
       <Key>NewWorldMoonDesc</Key>
       <Value>
         So you're stuck on the moon, but it's not all bad.Sure, it's cold, harsh and pretty monotonous, but at least the sun's shining. The solar panel is going to be useful, and the power controller... and probably the arc furnace too.
-        There's even a little food and oxygen in the other crates, though it's definitely not going to last forever. Neither's your battery.
-        You better start thinking about how you're going to survive. How hard could it be to rig up an airlock? A generator? Maybe even smelt some ore and build yourself a base?
+                                              There's even a little food and oxygen in the other crates, though it's definitely not going to last forever. Neither's your battery.
+                                              You better start thinking about how you're going to survive. How hard could it be to rig up an airlock? A generator? Maybe even smelt some ore and build yourself a base?
         Looks like you're gonna be here a while.
       </Value>
     </Record>
@@ -8724,8 +8734,8 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
       <Key>NewWorldSpaceDesc</Key>
       <Value>
         This is Stationeers Creative Mode!Spawn in any item, test ideas and build bonkers stuff real fast.
-        &lt;color=red&gt;This mode is experimental.&lt;/color&gt; Think of it as a freeform space party where exciting and unexpected things* can and will happen, compared to the more reliable near-death experience of Survival Mode.
-        Just don't be sad when you blow yourself into tiny, tiny little pieces or get savaged by chickens or slowly explode while drifting alone into the infinite void.
+                                              &lt;color=red&gt;This mode is experimental.&lt;/color&gt; Think of it as a freeform space party where exciting and unexpected things* can and will happen, compared to the more reliable near-death experience of Survival Mode.
+                                              Just don't be sad when you blow yourself into tiny, tiny little pieces or get savaged by chickens or slowly explode while drifting alone into the infinite void.
         *bugs
       </Value>
     </Record>
@@ -9309,18 +9319,18 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
       <Value>
         Whether driven by concerns for clarity, safety or simple aesthetics, &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; have access to a small rainbow of colors for their constructions. These are the color setting for devices, represented as an integer.
 
-        0: Blue
-        1: Grey
-        2: Green
-        3: Orange
-        4: Red
-        5: Yellow
-        6: White
-        7: Black
-        8: Brown
-        9: Khaki
-        10: Pink
-        11: Purple
+0: Blue
+1: Grey
+2: Green
+3: Orange
+4: Red
+5: Yellow
+6: White
+7: Black
+8: Brown
+9: Khaki
+10: Pink
+11: Purple
 
         It is an unwavering universal law that anything higher than 11 will be purple. The &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; is powerless to change this. Similarly, anything lower than 0 will be Blue.
       </Value>
@@ -9731,7 +9741,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     </Record>
     <Record>
       <Key>TraderChemistry</Key>
-      <Value>ChemLab</Value>
+      <Value>Chem Lab</Value>
     </Record>
     <Record>
       <Key>TraderExotics</Key>
@@ -11433,7 +11443,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
       <Key>AgrizeroDesc</Key>
       <Value>
         Agrizero is an agricultural biotech firm focused on researching and deploying offworld farming technology. The company’s aim is to provide a network of self-sustaining, self-contained 'bio-factories' that will ultimately feed a projected 1 million humans in space.
-        Emerging from the late 21st century's environmental disasters, the firm has roots in China's world-saving artificial farming initiatives, and has now spread to facilities in the Asteroid Belt, where the supply of ice asteroids makes vertical farming and controlled-environment agriculture extremely promising.
+Emerging from the late 21st century's environmental disasters, the firm has roots in China's world-saving artificial farming initiatives, and has now spread to facilities in the Asteroid Belt, where the supply of ice asteroids makes vertical farming and controlled-environment agriculture extremely promising.
         While many of their facilities are still under construction, Agrizero is already one of the main suppliers of offworld groups like &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;, &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; and &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; through the ever-expanding Trader Network.
       </Value>
     </Record>
@@ -11445,8 +11455,8 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
       <Key>AsuraDesc</Key>
       <Value>
         Asura Biomedia was founded in the early 22nd century by Mumbai-based trillionaire Ashan Gurwaja. Nominally focused on 'biotechnology', the company has always had an ‘elastic’ notion of exactly what that entailed: everything from pharmaceuticals to pet food.
-        Gurwaja's background in bio-engineering firms put the company in the highest echelon of bio-science industries from the very beginning, and it grew exactly as its founder intended: rapidly and reliably, structured specifically to swallow up any smaller firms in its way.
-        Near mid-century, Asura's ambitions evolved to embrace entire health systems – it is now the largest provider of healthcare on Earth, integrating hospitals and primary care with medical supplies, pharmaceutical production and retail, residential care and funeral services.
+Gurwaja's background in bio-engineering firms put the company in the highest echelon of bio-science industries from the very beginning, and it grew exactly as its founder intended: rapidly and reliably, structured specifically to swallow up any smaller firms in its way.
+Near mid-century, Asura's ambitions evolved to embrace entire health systems – it is now the largest provider of healthcare on Earth, integrating hospitals and primary care with medical supplies, pharmaceutical production and retail, residential care and funeral services.
         By 2150, Asura's business was a simple proposition, as captured in their famous – if not infamous – advertising slogan: 'We're in you'.
       </Value>
     </Record>
@@ -11458,7 +11468,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
       <Key>CHACDesc</Key>
       <Value>
         Founded in 2085 to produce weapons for &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt;'s space forces, the company is known for making highly reliable and affordable weapons for off-world use.
-        Their pragmatic approach is reflected in their focus on designs suitable for 3D printing and mass production, as well as a high reuse of components across models and weapon classes.
+Their pragmatic approach is reflected in their focus on designs suitable for 3D printing and mass production, as well as a high reuse of components across models and weapon classes.
         As a result, although CHAC guns excel in no particular category, and have certainly never been accused of gretness, they suffer no great failings, and perform sufficiently well by most known measures to have earned their designers the informal title of 'armorer to the Solar System'.
       </Value>
     </Record>
@@ -11470,7 +11480,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
       <Key>ExMinDesc</Key>
       <Value>
         In the aftermath of the Sisyphus disaster on Mars in 2079, asteroid shifting was officially banned by the &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;. This sea-change forced the newborn space mining industry to reconsider its strategies, but until the opening of the Manaus Space Elevator, marginal economics meant offworld resource extraction was effectively impossible.
-        Formed in 2095 by a long-standing Swiss-German mining conglomerate and a consortium of other interests, ExMin was more an idea than a commercial reality for several decades. Created with the certainty that a space elevator would eventually arrive, ExMin was one of the first to exploit the access it offered. Subsequently it has become one of the Solar System's most powerful commercial entities.
+Formed in 2095 by a long-standing Swiss-German mining conglomerate and a consortium of other interests, ExMin was more an idea than a commercial reality for several decades. Created with the certainty that a space elevator would eventually arrive, ExMin was one of the first to exploit the access it offered. Subsequently it has become one of the Solar System's most powerful commercial entities.
         With access to space secure, ExMin became a central player in the flow of resources to the Inner System. It has competition, principally from Brazilian mining giant &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt;, but the company has never entirely lost its lead on off-world mining. Synonymous with rare earth metals and pioneering off-world resource extraction, it stands at the forefront of development throughout the Solar System.
       </Value>
     </Record>
@@ -11482,7 +11492,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
       <Key>GeFabrikDesc</Key>
       <Value>
         Officially known as Gewehrfabrik GmbH, GeFabrik is one of the world’s oldest and most highly regarded armament firms, known for producing exceptionally accurate, high-end firearms.
-        In the wake of the European arms manufacturing collapse in the 2030s, a group of unemployed armament staff formed GeFabrik. Dedicated to renewing original design principles, the company is legendary for extensive testing, sometimes lasting as long as 10 years, in order to produce ‘ganz’ weapon formats.
+In the wake of the European arms manufacturing collapse in the 2030s, a group of unemployed armament staff formed GeFabrik. Dedicated to renewing original design principles, the company is legendary for extensive testing, sometimes lasting as long as 10 years, in order to produce ‘ganz’ weapon formats.
         GeFabrik is widely regarded as having single-handedly salvaged Germany's manufacturing reputation, while doing nothing for their sense of humor.
       </Value>
     </Record>
@@ -11505,7 +11515,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
       <Key>NorsecDesc</Key>
       <Value>
         With its roots in early 20th Century defense industry, Norsec (a.k.a. Northern Security Systems) was an early adopter of asteroid mining – one of its tugs being involved in the infamous Sisyphus Hit on the fledgling Martian colony at Sanders.
-        Norsec was officially cleared of any wrong-doing, but when the &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; banned asteroidal relocation, the company shifted its focus to infrastructure and manufacturing.
+Norsec was officially cleared of any wrong-doing, but when the &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; banned asteroidal relocation, the company shifted its focus to infrastructure and manufacturing.
         Norsec’s orbitally-based Space Systems Division is responsible for the design and production of &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;’s core transport systems, while also being rumoured to hold a large interest in &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt;. The company is also noted for its willingness to engage in experimental robotic technology.
       </Value>
     </Record>
@@ -11517,7 +11527,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
       <Key>ODADesc</Key>
       <Value>
         In the aftermath of the Earth Crisis, humanity’s focus on space diminished. Yet many felt that, without ambitions beyond our home planet, our species might falter.
-        Created in 2070CE by a newly revamped United Nations, the Offworld Development Agency was given a very specific goal - to guide and encourage human space exploration at a time the cosmos was fading from the public mind.
+Created in 2070CE by a newly revamped United Nations, the Offworld Development Agency was given a very specific goal - to guide and encourage human space exploration at a time the cosmos was fading from the public mind. 
         It inaugurated the &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; Program in 2095. Understanding that funding would be difficult to come by, the ODA conceived the program as a slow-burn, low-outlay space initiative. While some derided Stationeers as 'cut-price cosmic castaways', the success of the program is testament to the wisdom and pragmatism of ODA's vision.
       </Value>
     </Record>
@@ -11529,8 +11539,8 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
       <Key>RecursoDesc</Key>
       <Value>
         This long-standing Brazilian mining group branched into space in the late 21st century.
-        Focused primarily on bulk minerals and metals, the company is perhaps best understood as an extension of the Brazilian government – very few upper echelon political figures in modern Brazil are not implicated in one arm or another of this industrial behemoth.
-        Enmeshment with South American politics has given the company heavy influence over the Manaus space elevator. This deep state control has led to other groups – the &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; included – to exercise a certain ‘flexibility’ toward Recurso.
+Focused primarily on bulk minerals and metals, the company is perhaps best understood as an extension of the Brazilian government – very few upper echelon political figures in modern Brazil are not implicated in one arm or another of this industrial behemoth.
+Enmeshment with South American politics has given the company heavy influence over the Manaus space elevator. This deep state control has led to other groups – the &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; included – to exercise a certain ‘flexibility’ toward Recurso.
         Accusations of illegal asteroid relocation, safety violations and numerous commercial infringements have barely touched it. Meanwhile, defenders point out that very little has been proven in court, and Recurso is hardly alone – hence the truism: 'In space, we all live in glass houses.'
       </Value>
     </Record>
@@ -11542,7 +11552,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
       <Key>SinotaiDesc</Key>
       <Value>
         The sole 'traditional' state entity to survive offworld politics, Sinotai’s reach and power is second only to the &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; itself. In many ways a relic – a sub-agency of a staggeringly complicated Earth-bound corporate-bureaucracy – its structure has allowed Sinotai to achieve incredible things.
-        Proving its mettle in the early 21st Century by putting the first humans on Mars, establishing the first offworld gigawatt power system, and the first space-borne fuel refinery, few space-going organisations lack some degree of relationship with Sinotai. A common joke has it that it's impossible to do anything in space without them.
+Proving its mettle in the early 21st Century by putting the first humans on Mars, establishing the first offworld gigawatt power system, and the first space-borne fuel refinery, few space-going organisations lack some degree of relationship with Sinotai. A common joke has it that it's impossible to do anything in space without them.
         Regardless of the truth, Sinotai's approach to off-world development has involved a 'soft power' approach, from MOU's with &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; (giving them preferential access to the Manaus space elevator) to murkier alliances of convenience with a range of Trader groups.
       </Value>
     </Record>
@@ -11554,7 +11564,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
       <Key>TKDesc</Key>
       <Value>
         Originally a defense contractor specializing in brute force, high power weaponry, Tanzanian Kinetic Systems executed a large-scale, peace-time pivot to become the African Assembly’s leading designer of high-speed goods conveyors.
-        Now producing a range of chute network designs and components, TK has a strong offworld presence as a result of the Afro-Sino partnerships in the latter 21st Century. Based in the ‘reconned’ Kigamboni district of Dar E Salaam, the Company regularly enters into development partnerships with &lt;color=#0080FFFF&gt;{LINK:CHAC;CHAC}&lt;/color&gt; and, as a result, many of their products show distinct similarities.
+Now producing a range of chute network designs and components, TK has a strong offworld presence as a result of the Afro-Sino partnerships in the latter 21st Century. Based in the ‘reconned’ Kigamboni district of Dar E Salaam, the Company regularly enters into development partnerships with &lt;color=#0080FFFF&gt;{LINK:CHAC;CHAC}&lt;/color&gt; and, as a result, many of their products show distinct similarities.
         After all, what is a gun but a ‘high speed goods conveyor’.
       </Value>
     </Record>
@@ -11566,8 +11576,8 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
       <Key>XigoDesc</Key>
       <Value>
         A 2150CE survey revealed the Xigo 'X' as one of the most recognized symbols in the world. Yet few participants could clearly describe the company's actual scope.
-        Precisely where the company begins and ends has been the subject of endless theories, financial studies and lawsuits – originally a website for price comparisons, the conglomerate expanded to embrace data, then distribution and finally production.
-        It was a seemingly indiscriminate expansion, focused not on one industry, but all of them – taking in so many fields that business analysts have largely rejected the idea of Xigo as a single entity. Rather, it is a conceptual grouping for a branch of human activity. And while such statistics are – by their very nature – difficult to confirm, recent estimates suggest Xigo employs over 1.5% of the entire human race.
+Precisely where the company begins and ends has been the subject of endless theories, financial studies and lawsuits – originally a website for price comparisons, the conglomerate expanded to embrace data, then distribution and finally production.
+It was a seemingly indiscriminate expansion, focused not on one industry, but all of them – taking in so many fields that business analysts have largely rejected the idea of Xigo as a single entity. Rather, it is a conceptual grouping for a branch of human activity. And while such statistics are – by their very nature – difficult to confirm, recent estimates suggest Xigo employs over 1.5% of the entire human race.
         Suffice to say, it produces almost everything.
       </Value>
     </Record>
@@ -11579,10 +11589,10 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
       <Key>StationeersDesc</Key>
       <Value>
         In the early 22nd century, Earth was emerging from a cataclysm. Its resources eroded, our population reduced, rebuilding was the spirit of the era.
-        Initiated by the &lt;color=#0080FFFF&gt;{LINK:ODA;Offworld Development Agency}&lt;/color&gt; (ODA) in 2095CE, the Stationeers Program was dedicated to a single ideal: keeping humanity pointed at the stars.
-        Stationeers are everything: astronauts, engineers and explorers, deployed with limited equipment and tools, trained to do more with less. Turning the environment to their advantage, their job is to provide infrastructure for humans in space, at a fraction of the cost of traditional space programs.
-        Able to build and maintain bases anywhere from the Moon to Mimas and beyond, Stationeers are our vanguard in the cosmos. Schooled in offworld survival, mining and construction techniques, basic metallurgy, electronics, rocketry, hydroponics and more ‘arcane’ sciences, Stationeers do what they must to survive, and thrive.
-        Renowned for having no entry criteria, there is no such thing as a ‘typical’ Stationeer. Psychological profiling suggests successful Cadets show a ‘baseline’ pragmatism and single-mindedness, but some of the most famous Stationeers possess neither of these qualities.
+Initiated by the &lt;color=#0080FFFF&gt;{LINK:ODA;Offworld Development Agency}&lt;/color&gt; (ODA) in 2095CE, the Stationeers Program was dedicated to a single ideal: keeping humanity pointed at the stars.
+Stationeers are everything: astronauts, engineers and explorers, deployed with limited equipment and tools, trained to do more with less. Turning the environment to their advantage, their job is to provide infrastructure for humans in space, at a fraction of the cost of traditional space programs.
+Able to build and maintain bases anywhere from the Moon to Mimas and beyond, Stationeers are our vanguard in the cosmos. Schooled in offworld survival, mining and construction techniques, basic metallurgy, electronics, rocketry, hydroponics and more ‘arcane’ sciences, Stationeers do what they must to survive, and thrive.
+Renowned for having no entry criteria, there is no such thing as a ‘typical’ Stationeer. Psychological profiling suggests successful Cadets show a ‘baseline’ pragmatism and single-mindedness, but some of the most famous Stationeers possess neither of these qualities.
         Recruiting from civil engineering backgrounds, military and aerospace industries, software development, mining groups, as well as scientific fields and even religious orders, the Stationeers Program is – fundamentally – open to all humanity.
       </Value>
     </Record>
@@ -11890,7 +11900,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
       <Key>StationpediaConstructionOptions</Key>
       <Value>
         Construction Options
-      </Value>
+</Value>
     </Record>
     <Record>
       <Key>StationpediaModeHeader</Key>
@@ -11900,13 +11910,13 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
       <Key>StationpediaLogicHeader</Key>
       <Value>
         Logic
-      </Value>
+</Value>
     </Record>
     <Record>
       <Key>StationpediaLogicSlotHeader</Key>
       <Value>
         Logic Slots
-      </Value>
+</Value>
     </Record>
     <Record>
       <Key>StationpediaTutorialListHeader</Key>
