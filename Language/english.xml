@@ -1885,19 +1885,20 @@ Be there, even when you're not.</Description>
       <Key>StructureChuteBin</Key>
       <Value>Chute Bin</Value>
       <Description>The &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer's}&lt;/color&gt; goal is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
-Like most &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt;-designed systems, chute bins are simple and robust, allowing items to be manually passed into chute networks. They can also be programmed with &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic}&lt;/color&gt; to operate automatically, although full automation requires the use items such as a {THING:StructureSDBHopper}.</Description>
+Like most &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt;-designed systems, chute bins are simple and robust powered items, allowing items to be manually passed into chute networks by pulling a lever. They can also be programmed with &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic}&lt;/color&gt; to operate automatically, although full automation requires the use items such as a {THING:StructureSDBHopper}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteCorner</Key>
       <Value>Chute (Corner)</Value>
-      <Description>The aim for any &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+      <Description>Chutes act as pipes for items. Use them to connect various &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;import/export}&lt;/color&gt; equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.
+The aim for any &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
 Chute corners are fundamental components of chute networks, which allow the transport of items between machines with &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;import/export}&lt;/color&gt; slots, such as the {THING:StructureFurnace} and other automatable structures.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteInlet</Key>
       <Value>Chute Inlet</Value>
       <Description>The aim for any &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
-The chute inlet is an aperture by which items can be introduced to &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;import/export}&lt;/color&gt; networks. Note that its origins in zero-gravity mining means chute inlets are permanently open, rather than interactable, but can be connected to &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic}&lt;/color&gt; systems to monitor throughput.</Description>
+The chute inlet is an aperture by which items can be introduced to &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;import/export}&lt;/color&gt; networks. Note that its origins in zero-gravity mining means chute inlets are unpowered and permanently open, rather than interactable, allowing objects to be thrown in. They can be connected to &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic}&lt;/color&gt; systems to monitor throughput.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteJunction</Key>
@@ -1914,7 +1915,8 @@ The chute outlet is an aperture for exiting items from &lt;color=#0080FFFF&gt;{L
     <RecordThing>
       <Key>StructureChuteStraight</Key>
       <Value>Chute (Straight)</Value>
-      <Description>The aim for any &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+      <Description>Chutes act as pipes for items. Use them to connect various &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;import/export}&lt;/color&gt; equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.
+The aim for any &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
 Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;import/export}&lt;/color&gt; slot.</Description>
     </RecordThing>
     <RecordThing>
@@ -2255,14 +2257,19 @@ Pipes spread their contents evenly through the entire network, and can be connec
     <RecordThing>
       <Key>StructureSorter</Key>
       <Value>Sorter</Value>
+      <Description>No amount of automation is complete without some way of moving different items to different parts of a system. The &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; A2B sorter can be programmed via a computer with a {THING:MotherboardSorter} to direct various items into different chute networks. Filtered items are always passed out the righthand side of the sorter, while non filtered items continue straight through.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStacker</Key>
       <Value>Stacker</Value>
+      <Description>A stacker is an important part of any automated chute network. The &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; ProKompile can be set manually or via logic, to make sure items passing through the stacker are maximized for your storage needs.
+The ProKompile can stack a wide variety of things such as &lt;color=#0080FFFF&gt;{LINK:IngotPage;ingots}&lt;/color&gt;, as well as splitting stacks into appropriate sizes as needed.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStackerReverse</Key>
       <Value>Stacker</Value>
+      <Description>A stacker is an important part of any automated chute network. The &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; ProKompile can be set manually or via logic, to make sure items passing through the stacker are maximized for your storage needs. The reversed stacker has power and data on the opposite side.
+The ProKompile can stack a wide variety of things such as &lt;color=#0080FFFF&gt;{LINK:IngotPage;ingots}&lt;/color&gt;, as well as splitting stacks into appropriate sizes as needed.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStairs4x2</Key>
@@ -3552,7 +3559,7 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     <RecordThing>
       <Key>StructureVendingMachine</Key>
       <Value>Vending Machine</Value>
-      <Description>The &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo-designed}&lt;/color&gt; 'Slot Mate' vending machine allows storage of almost any item, while also operating as a distribution point for working with {LINK:TradingPage;Traders}.You cannot trade without a vending machine, or its more advanced equivalent, the {THING:StructureRefrigeratedVendingMachine}.</Description>
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo-designed}&lt;/color&gt; 'Slot Mate' vending machine allows storage of almost any item, while also operating as a distribution point for working with {LINK:TradingPage;Traders}. You cannot trade without a vending machine, or its more advanced equivalent, the {THING:StructureRefrigeratedVendingMachine}. Each vending machine can hold up to 100 stacks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitVendingMachine</Key>
@@ -3577,7 +3584,7 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     <RecordThing>
       <Key>ItemHardsuitHelmet</Key>
       <Value>Hardsuit Helmet</Value>
-      <Description>The Hardsuit Helmet is similar to the {THING:ItemSpaceHelmet}, but can withstand higher temperatures and pressures. It's perfect for enduring harsh enviroments like Venus and Vuclan.</Description>
+      <Description>The Hardsuit Helmet is similar to the {THING:ItemSpaceHelmet}, but can withstand higher temperatures and pressures. It's perfect for enduring harsh enviroments like Venus and Vulcan.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWearLamp</Key>
@@ -3614,6 +3621,10 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     <RecordThing>
       <Key>StructureUnloader</Key>
       <Value>Unloader</Value>
+      <Description> The &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; Re:Gurge is a handy unit for unloading any items inserted into it, and feeding them into a chute network. For instance, if you add a full {THING:ItemMiningBelt}, the Re:Gurge will empty the belt of its contents, insert them to the chute network, then eject the belt itself.
+
+Output = 0 exporting the main item
+Output = 1 exporting items inside and eventually the main item.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ReagentFenoxitone</Key>
@@ -4336,11 +4347,12 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     </RecordThing>
     <RecordThing>
       <Key>StructureAutoMinerSmall</Key>
-      <Value>Auto Miner Small</Value>
+      <Value>Autominer (Small)</Value>
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; autominer is a structure that when built will mine a vertical 2x2 shaft until it hits bedrock. The autominer can be connected to a chute system, and is controllable by a logic network. Note that the autominer outputs mroe ore than a conventional {THING:ItemMiningDrill}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAutoMinerSmall</Key>
-      <Value>Kit Auto Miner Small</Value>
+      <Value>Kit (Autominer Small)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemDirtCannister</Key>
@@ -4659,7 +4671,7 @@ When landing, the rocket will deploy a lander, and any cargo contained in the {T
     <RecordThing>
       <Key>StructureSDBSilo</Key>
       <Value>SDB Silo</Value>
-      <Description>The majestic silo holds large quantities of almost anything. While it is doing that, it cannot be deconstructed. Note also, that any food you put into a silo is likely to {LINK:DecayPage;decay} extremely rapidly.</Description>
+      <Description>The majestic silo holds large quantities of almost anything. While it is doing that, it cannot be deconstructed. Note also, that any food you put into a silo is likely to {LINK:DecayPage;decay} extremely rapidly. The silo can hold up to 600 stacks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>KitSDBSilo</Key>
@@ -5608,7 +5620,7 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
     <RecordThing>
       <Key>ItemAstroloySheets</Key>
       <Value>Item Astroloy Sheets</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningBeltAdvanced</Key>
@@ -6267,7 +6279,7 @@ For more information about food preservation, visit the {LINK:DecayPage;food dec
     <RecordThing>
       <Key>StructureRefrigeratedVendingMachine</Key>
       <Value>Refrigerated Vending Machine</Value>
-      <Description>The refrigerated OmniKool vending machine is an advanced version of the standard {THING;StructureVendingMachine}, which maintains an optimum pressure and constant temperature of -130 degrees C, to prevent food spoilage.
+      <Description>The refrigerated OmniKool vending machine is an advanced version of the standard {THING;StructureVendingMachine}, which maintains an optimum pressure and constant temperature of -130 degrees C, to prevent food spoilage. It can hold up to 100 stacks.
 The OmniKool also has an in-built {THING:StructureStacker}, allowing players to set the stack sizes of any items ADDED to the device. The unit's default stack size is 50.
 NOTE: altering stack sizes DOES NOT update existing stacks within the machine, only those subsequently added. </Description>
     </RecordThing>
@@ -6616,6 +6628,16 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
       <Description />
     </RecordThing>
     <RecordThing>
+      <Key>StructurePipeOneWayValve</Key>
+      <Value>Structure Pipe One Way Valve</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureOneWayValve</Key>
+      <Value>Structure One Way Valve</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
       <Key>StructureWaterPipeHeater</Key>
       <Value>Structure Water Pipe Heater</Value>
       <Description />
@@ -6662,12 +6684,17 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     </RecordThing>
     <RecordThing>
       <Key>ItemMkIIToolbelt</Key>
-      <Value>Item Mk I I Toolbelt</Value>
+      <Value>Item Mk II Toolbelt</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningBeltMKII</Key>
-      <Value>Item Mining Belt M K I I</Value>
+      <Value>Item Mining Belt MK II</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidPipeOneWayValve</Key>
+      <Value>Structure Liquid Pipe One Way Valve</Value>
       <Description />
     </RecordThing>
   </Things>
@@ -11441,10 +11468,9 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     </Record>
     <Record>
       <Key>AgrizeroDesc</Key>
-      <Value>
-        Agrizero is an agricultural biotech firm focused on researching and deploying offworld farming technology. The company’s aim is to provide a network of self-sustaining, self-contained 'bio-factories' that will ultimately feed a projected 1 million humans in space.
+      <Value>Agrizero is an agricultural biotech firm focused on researching and deploying offworld farming technology. The company’s aim is to provide a network of self-sustaining, self-contained 'bio-factories' that will ultimately feed a projected 1 million humans in space.
 Emerging from the late 21st century's environmental disasters, the firm has roots in China's world-saving artificial farming initiatives, and has now spread to facilities in the Asteroid Belt, where the supply of ice asteroids makes vertical farming and controlled-environment agriculture extremely promising.
-        While many of their facilities are still under construction, Agrizero is already one of the main suppliers of offworld groups like &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;, &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; and &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; through the ever-expanding Trader Network.
+While many of their facilities are still under construction, Agrizero is already one of the main suppliers of offworld groups like &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;, &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; and &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; through the ever-expanding Trader Network.
       </Value>
     </Record>
     <Record>
@@ -11453,11 +11479,10 @@ Emerging from the late 21st century's environmental disasters, the firm has root
     </Record>
     <Record>
       <Key>AsuraDesc</Key>
-      <Value>
-        Asura Biomedia was founded in the early 22nd century by Mumbai-based trillionaire Ashan Gurwaja. Nominally focused on 'biotechnology', the company has always had an ‘elastic’ notion of exactly what that entailed: everything from pharmaceuticals to pet food.
+      <Value>Asura Biomedia was founded in the early 22nd century by Mumbai-based trillionaire Ashan Gurwaja. Nominally focused on 'biotechnology', the company has always had an ‘elastic’ notion of exactly what that entailed: everything from pharmaceuticals to pet food.
 Gurwaja's background in bio-engineering firms put the company in the highest echelon of bio-science industries from the very beginning, and it grew exactly as its founder intended: rapidly and reliably, structured specifically to swallow up any smaller firms in its way.
 Near mid-century, Asura's ambitions evolved to embrace entire health systems – it is now the largest provider of healthcare on Earth, integrating hospitals and primary care with medical supplies, pharmaceutical production and retail, residential care and funeral services.
-        By 2150, Asura's business was a simple proposition, as captured in their famous – if not infamous – advertising slogan: 'We're in you'.
+By 2150, Asura's business was a simple proposition, as captured in their famous – if not infamous – advertising slogan: 'We're in you'.
       </Value>
     </Record>
     <Record>
@@ -11466,10 +11491,9 @@ Near mid-century, Asura's ambitions evolved to embrace entire health systems –
     </Record>
     <Record>
       <Key>CHACDesc</Key>
-      <Value>
-        Founded in 2085 to produce weapons for &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt;'s space forces, the company is known for making highly reliable and affordable weapons for off-world use.
+      <Value>Founded in 2085 to produce weapons for &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt;'s space forces, the company is known for making highly reliable and affordable weapons for off-world use.
 Their pragmatic approach is reflected in their focus on designs suitable for 3D printing and mass production, as well as a high reuse of components across models and weapon classes.
-        As a result, although CHAC guns excel in no particular category, and have certainly never been accused of gretness, they suffer no great failings, and perform sufficiently well by most known measures to have earned their designers the informal title of 'armorer to the Solar System'.
+As a result, although CHAC guns excel in no particular category, and have certainly never been accused of gretness, they suffer no great failings, and perform sufficiently well by most known measures to have earned their designers the informal title of 'armorer to the Solar System'.
       </Value>
     </Record>
     <Record>
@@ -11478,10 +11502,9 @@ Their pragmatic approach is reflected in their focus on designs suitable for 3D 
     </Record>
     <Record>
       <Key>ExMinDesc</Key>
-      <Value>
-        In the aftermath of the Sisyphus disaster on Mars in 2079, asteroid shifting was officially banned by the &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;. This sea-change forced the newborn space mining industry to reconsider its strategies, but until the opening of the Manaus Space Elevator, marginal economics meant offworld resource extraction was effectively impossible.
+      <Value>In the aftermath of the Sisyphus disaster on Mars in 2079, asteroid shifting was officially banned by the &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;. This sea-change forced the newborn space mining industry to reconsider its strategies, but until the opening of the Manaus Space Elevator, marginal economics meant offworld resource extraction was effectively impossible.
 Formed in 2095 by a long-standing Swiss-German mining conglomerate and a consortium of other interests, ExMin was more an idea than a commercial reality for several decades. Created with the certainty that a space elevator would eventually arrive, ExMin was one of the first to exploit the access it offered. Subsequently it has become one of the Solar System's most powerful commercial entities.
-        With access to space secure, ExMin became a central player in the flow of resources to the Inner System. It has competition, principally from Brazilian mining giant &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt;, but the company has never entirely lost its lead on off-world mining. Synonymous with rare earth metals and pioneering off-world resource extraction, it stands at the forefront of development throughout the Solar System.
+With access to space secure, ExMin became a central player in the flow of resources to the Inner System. It has competition, principally from Brazilian mining giant &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt;, but the company has never entirely lost its lead on off-world mining. Synonymous with rare earth metals and pioneering off-world resource extraction, it stands at the forefront of development throughout the Solar System.
       </Value>
     </Record>
     <Record>
@@ -11490,10 +11513,9 @@ Formed in 2095 by a long-standing Swiss-German mining conglomerate and a consort
     </Record>
     <Record>
       <Key>GeFabrikDesc</Key>
-      <Value>
-        Officially known as Gewehrfabrik GmbH, GeFabrik is one of the world’s oldest and most highly regarded armament firms, known for producing exceptionally accurate, high-end firearms.
+      <Value>Officially known as Gewehrfabrik GmbH, GeFabrik is one of the world’s oldest and most highly regarded armament firms, known for producing exceptionally accurate, high-end firearms.
 In the wake of the European arms manufacturing collapse in the 2030s, a group of unemployed armament staff formed GeFabrik. Dedicated to renewing original design principles, the company is legendary for extensive testing, sometimes lasting as long as 10 years, in order to produce ‘ganz’ weapon formats.
-        GeFabrik is widely regarded as having single-handedly salvaged Germany's manufacturing reputation, while doing nothing for their sense of humor.
+GeFabrik is widely regarded as having single-handedly salvaged Germany's manufacturing reputation, while doing nothing for their sense of humor.
       </Value>
     </Record>
     <Record>
@@ -11502,9 +11524,8 @@ In the wake of the European arms manufacturing collapse in the 2030s, a group of
     </Record>
     <Record>
       <Key>HiiragiDesc</Key>
-      <Value>
-        Founded by Noboru Hiiragi in the aftermath of the 2110s economic bubble, Hiiragi Communications absorbed several prominent offworld assets, quickly becoming the most widely used trans-Solar System communications network.
-        If you’ve communicated with friends and family offworld recently, it’s been through the Hiiragi network, even if it’s been branded under one of its many child companies. Hiiragi is also the number one seller for PCD’s (Personal Communication Devices) as well as a deep, if difficult to assess investor in terrestrial telecommunication networks.
+      <Value>Founded by Noboru Hiiragi in the aftermath of the 2110s economic bubble, Hiiragi Communications absorbed several prominent offworld assets, quickly becoming the most widely used trans-Solar System communications network.
+If you’ve communicated with friends and family offworld recently, it’s been through the Hiiragi network, even if it’s been branded under one of its many child companies. Hiiragi is also the number one seller for PCD’s (Personal Communication Devices) as well as a deep, if difficult to assess investor in terrestrial telecommunication networks.
       </Value>
     </Record>
     <Record>
@@ -11513,10 +11534,9 @@ In the wake of the European arms manufacturing collapse in the 2030s, a group of
     </Record>
     <Record>
       <Key>NorsecDesc</Key>
-      <Value>
-        With its roots in early 20th Century defense industry, Norsec (a.k.a. Northern Security Systems) was an early adopter of asteroid mining – one of its tugs being involved in the infamous Sisyphus Hit on the fledgling Martian colony at Sanders.
+      <Value>With its roots in early 20th Century defense industry, Norsec (a.k.a. Northern Security Systems) was an early adopter of asteroid mining – one of its tugs being involved in the infamous Sisyphus Hit on the fledgling Martian colony at Sanders.
 Norsec was officially cleared of any wrong-doing, but when the &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; banned asteroidal relocation, the company shifted its focus to infrastructure and manufacturing.
-        Norsec’s orbitally-based Space Systems Division is responsible for the design and production of &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;’s core transport systems, while also being rumoured to hold a large interest in &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt;. The company is also noted for its willingness to engage in experimental robotic technology.
+Norsec’s orbitally-based Space Systems Division is responsible for the design and production of &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;’s core transport systems, while also being rumoured to hold a large interest in &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt;. The company is also noted for its willingness to engage in experimental robotic technology.
       </Value>
     </Record>
     <Record>
@@ -11528,7 +11548,7 @@ Norsec was officially cleared of any wrong-doing, but when the &lt;color=#0080FF
       <Value>
         In the aftermath of the Earth Crisis, humanity’s focus on space diminished. Yet many felt that, without ambitions beyond our home planet, our species might falter.
 Created in 2070CE by a newly revamped United Nations, the Offworld Development Agency was given a very specific goal - to guide and encourage human space exploration at a time the cosmos was fading from the public mind. 
-        It inaugurated the &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; Program in 2095. Understanding that funding would be difficult to come by, the ODA conceived the program as a slow-burn, low-outlay space initiative. While some derided Stationeers as 'cut-price cosmic castaways', the success of the program is testament to the wisdom and pragmatism of ODA's vision.
+It inaugurated the &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; Program in 2095. Understanding that funding would be difficult to come by, the ODA conceived the program as a slow-burn, low-outlay space initiative. While some derided Stationeers as 'cut-price cosmic castaways', the success of the program is testament to the wisdom and pragmatism of ODA's vision.
       </Value>
     </Record>
     <Record>
@@ -11537,11 +11557,10 @@ Created in 2070CE by a newly revamped United Nations, the Offworld Development A
     </Record>
     <Record>
       <Key>RecursoDesc</Key>
-      <Value>
-        This long-standing Brazilian mining group branched into space in the late 21st century.
+      <Value>This long-standing Brazilian mining group branched into space in the late 21st century.
 Focused primarily on bulk minerals and metals, the company is perhaps best understood as an extension of the Brazilian government – very few upper echelon political figures in modern Brazil are not implicated in one arm or another of this industrial behemoth.
 Enmeshment with South American politics has given the company heavy influence over the Manaus space elevator. This deep state control has led to other groups – the &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; included – to exercise a certain ‘flexibility’ toward Recurso.
-        Accusations of illegal asteroid relocation, safety violations and numerous commercial infringements have barely touched it. Meanwhile, defenders point out that very little has been proven in court, and Recurso is hardly alone – hence the truism: 'In space, we all live in glass houses.'
+Accusations of illegal asteroid relocation, safety violations and numerous commercial infringements have barely touched it. Meanwhile, defenders point out that very little has been proven in court, and Recurso is hardly alone – hence the truism: 'In space, we all live in glass houses.'
       </Value>
     </Record>
     <Record>
@@ -11550,10 +11569,9 @@ Enmeshment with South American politics has given the company heavy influence ov
     </Record>
     <Record>
       <Key>SinotaiDesc</Key>
-      <Value>
-        The sole 'traditional' state entity to survive offworld politics, Sinotai’s reach and power is second only to the &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; itself. In many ways a relic – a sub-agency of a staggeringly complicated Earth-bound corporate-bureaucracy – its structure has allowed Sinotai to achieve incredible things.
+      <Value>The sole 'traditional' state entity to survive offworld politics, Sinotai’s reach and power is second only to the &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; itself. In many ways a relic – a sub-agency of a staggeringly complicated Earth-bound corporate-bureaucracy – its structure has allowed Sinotai to achieve incredible things.
 Proving its mettle in the early 21st Century by putting the first humans on Mars, establishing the first offworld gigawatt power system, and the first space-borne fuel refinery, few space-going organisations lack some degree of relationship with Sinotai. A common joke has it that it's impossible to do anything in space without them.
-        Regardless of the truth, Sinotai's approach to off-world development has involved a 'soft power' approach, from MOU's with &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; (giving them preferential access to the Manaus space elevator) to murkier alliances of convenience with a range of Trader groups.
+Regardless of the truth, Sinotai's approach to off-world development has involved a 'soft power' approach, from MOU's with &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; (giving them preferential access to the Manaus space elevator) to murkier alliances of convenience with a range of Trader groups.
       </Value>
     </Record>
     <Record>
@@ -11562,8 +11580,7 @@ Proving its mettle in the early 21st Century by putting the first humans on Mars
     </Record>
     <Record>
       <Key>TKDesc</Key>
-      <Value>
-        Originally a defense contractor specializing in brute force, high power weaponry, Tanzanian Kinetic Systems executed a large-scale, peace-time pivot to become the African Assembly’s leading designer of high-speed goods conveyors.
+      <Value>Originally a defense contractor specializing in brute force, high power weaponry, Tanzanian Kinetic Systems executed a large-scale, peace-time pivot to become the African Assembly’s leading designer of high-speed goods conveyors.
 Now producing a range of chute network designs and components, TK has a strong offworld presence as a result of the Afro-Sino partnerships in the latter 21st Century. Based in the ‘reconned’ Kigamboni district of Dar E Salaam, the Company regularly enters into development partnerships with &lt;color=#0080FFFF&gt;{LINK:CHAC;CHAC}&lt;/color&gt; and, as a result, many of their products show distinct similarities.
         After all, what is a gun but a ‘high speed goods conveyor’.
       </Value>
@@ -11574,8 +11591,7 @@ Now producing a range of chute network designs and components, TK has a strong o
     </Record>
     <Record>
       <Key>XigoDesc</Key>
-      <Value>
-        A 2150CE survey revealed the Xigo 'X' as one of the most recognized symbols in the world. Yet few participants could clearly describe the company's actual scope.
+      <Value>A 2150CE survey revealed the Xigo 'X' as one of the most recognized symbols in the world. Yet few participants could clearly describe the company's actual scope.
 Precisely where the company begins and ends has been the subject of endless theories, financial studies and lawsuits – originally a website for price comparisons, the conglomerate expanded to embrace data, then distribution and finally production.
 It was a seemingly indiscriminate expansion, focused not on one industry, but all of them – taking in so many fields that business analysts have largely rejected the idea of Xigo as a single entity. Rather, it is a conceptual grouping for a branch of human activity. And while such statistics are – by their very nature – difficult to confirm, recent estimates suggest Xigo employs over 1.5% of the entire human race.
         Suffice to say, it produces almost everything.
@@ -11587,13 +11603,12 @@ It was a seemingly indiscriminate expansion, focused not on one industry, but al
     </Record>
     <Record>
       <Key>StationeersDesc</Key>
-      <Value>
-        In the early 22nd century, Earth was emerging from a cataclysm. Its resources eroded, our population reduced, rebuilding was the spirit of the era.
+      <Value>In the early 22nd century, Earth was emerging from a cataclysm. Its resources eroded, our population reduced, rebuilding was the spirit of the era.
 Initiated by the &lt;color=#0080FFFF&gt;{LINK:ODA;Offworld Development Agency}&lt;/color&gt; (ODA) in 2095CE, the Stationeers Program was dedicated to a single ideal: keeping humanity pointed at the stars.
 Stationeers are everything: astronauts, engineers and explorers, deployed with limited equipment and tools, trained to do more with less. Turning the environment to their advantage, their job is to provide infrastructure for humans in space, at a fraction of the cost of traditional space programs.
 Able to build and maintain bases anywhere from the Moon to Mimas and beyond, Stationeers are our vanguard in the cosmos. Schooled in offworld survival, mining and construction techniques, basic metallurgy, electronics, rocketry, hydroponics and more ‘arcane’ sciences, Stationeers do what they must to survive, and thrive.
 Renowned for having no entry criteria, there is no such thing as a ‘typical’ Stationeer. Psychological profiling suggests successful Cadets show a ‘baseline’ pragmatism and single-mindedness, but some of the most famous Stationeers possess neither of these qualities.
-        Recruiting from civil engineering backgrounds, military and aerospace industries, software development, mining groups, as well as scientific fields and even religious orders, the Stationeers Program is – fundamentally – open to all humanity.
+Recruiting from civil engineering backgrounds, military and aerospace industries, software development, mining groups, as well as scientific fields and even religious orders, the Stationeers Program is – fundamentally – open to all humanity.
       </Value>
     </Record>
     <Record>
