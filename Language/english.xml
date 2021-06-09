@@ -1405,7 +1405,7 @@ Careful not to pressurize beyond 10MPa, or it may go 'bang'.</Descript
     <RecordThing>
       <Key>ItemMiningBelt</Key>
       <Value>Mining Belt</Value>
-      <Description>Originally developed by &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso Espaciais}&lt;/color&gt; for asteroid mining, the &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer's}&lt;/color&gt; toolbelt has room for two &lt;color=#0080FFFF&gt;{LINK:ToolPage;tools}&lt;/color&gt; and eight &lt;color=#0080FFFF&gt;{LINK:OrePage;ore}&lt;/color&gt; stacks. While wearing the belt, ore is automatically stored there when mined. Volatile and temperature-dependent remain stable in the environmentally controlled unit.</Description>
+      <Description>Originally developed by &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso Espaciais}&lt;/color&gt; for asteroid mining, the &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer's}&lt;/color&gt; miningbelt has room for two &lt;color=#0080FFFF&gt;{LINK:ToolPage;tools}&lt;/color&gt; and eight &lt;color=#0080FFFF&gt;{LINK:OrePage;ore}&lt;/color&gt; stacks. While wearing the belt, ore is automatically stored there when mined. Volatile and temperature-dependent remain stable in the environmentally controlled unit.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningDrill</Key>
@@ -1720,19 +1720,19 @@ An upgraded version of the classic 'Zairo' model first manufactured by &lt;color
     </RecordThing>
     <RecordThing>
       <Key>MotherboardLogic</Key>
-      <Value>Logic</Value>
+      <Value>Logic Motherboard</Value>
       <Description>Motherboards are connected to {THING:StructureComputer}s to perform various technical functions.
 The &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec-designed}&lt;/color&gt; K-cops logic motherboard allows &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; to set variables and actions on specific &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic}&lt;/color&gt;-controlled items.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardManufacturing</Key>
-      <Value>Manufacturing</Value>
+      <Value>Manufacturing Motherboard</Value>
       <Description>Motherboards are connected to {THING:StructureComputer}s to perform various technical functions.
 The &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec-designed}&lt;/color&gt; K-cops 4474 motherboard is - famously - a solution to the problem of their now-obselete General {THING:StructureFabricator} having a notable lack of buttons.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardSorter</Key>
-      <Value>Sorter</Value>
+      <Value>Sorter Motherboard</Value>
       <Description>Motherboards are connected to {THING:StructureComputer}s to perform various technical functions.
 The &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec-designed}&lt;/color&gt; K-cops 10-10 sorter motherboard permits &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; to control which items a {THING:StructureSorter} does, and does not, permit to pass.</Description>
     </RecordThing>
@@ -3621,7 +3621,7 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     <RecordThing>
       <Key>StructureUnloader</Key>
       <Value>Unloader</Value>
-      <Description> The &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; Re:Gurge is a handy unit for unloading any items inserted into it, and feeding them into a chute network. For instance, if you add a full {THING:ItemMiningBelt}, the Re:Gurge will empty the belt of its contents, insert them to the chute network, then eject the belt itself.
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; Re:Gurge is a handy unit for unloading any items inserted into it, and feeding them into a chute network. For instance, if you add a full {THING:ItemMiningBelt}, the Re:Gurge will empty the belt of its contents, insert them to the chute network, then eject the belt itself.
 
 Output = 0 exporting the main item
 Output = 1 exporting items inside and eventually the main item.</Description>
@@ -3836,7 +3836,7 @@ Volatiles and Uranium = white</Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardProgrammableChip</Key>
-      <Value>IC Editor</Value>
+      <Value>IC Editor Motherboard</Value>
       <Description>When placed in a {THING:StructureComputer}, the IC Editor allows players to write and edit IC code, which can then be uploaded to a {THING:ItemIntegratedCircuit10} if housed in an {THING:StructureCircuitHousing}.</Description>
     </RecordThing>
     <RecordThing>
@@ -3929,7 +3929,7 @@ When connected to a {THING:StructureComputer} containing a {THING:MotherboardCom
     </RecordThing>
     <RecordThing>
       <Key>MotherboardComms</Key>
-      <Value>Communications</Value>
+      <Value>Communications Motherboard</Value>
       <Description>When placed in a {THING:StructureComputer} and connected to a {THING:StructureShuttleLandingPad}, a {THING:StructureSatelliteDish}, and a {THING:StructureVendingMachine} allows Stationeers to trade with suppliers. Adjust the horizontal and vertical attributes of the {THING:StructureSatelliteDish} either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader.</Description>
     </RecordThing>
     <RecordThing>
@@ -11594,7 +11594,7 @@ Now producing a range of chute network designs and components, TK has a strong o
       <Value>A 2150CE survey revealed the Xigo 'X' as one of the most recognized symbols in the world. Yet few participants could clearly describe the company's actual scope.
 Precisely where the company begins and ends has been the subject of endless theories, financial studies and lawsuits – originally a website for price comparisons, the conglomerate expanded to embrace data, then distribution and finally production.
 It was a seemingly indiscriminate expansion, focused not on one industry, but all of them – taking in so many fields that business analysts have largely rejected the idea of Xigo as a single entity. Rather, it is a conceptual grouping for a branch of human activity. And while such statistics are – by their very nature – difficult to confirm, recent estimates suggest Xigo employs over 1.5% of the entire human race.
-        Suffice to say, it produces almost everything.
+Suffice to say, it produces almost everything.
       </Value>
     </Record>
     <Record>
