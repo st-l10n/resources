@@ -453,7 +453,7 @@
       <Key>ApplianceMicrowave</Key>
       <Value>Microwave</Value>
       <Description>While countless 'better' ways of cooking &lt;color=#0080FFFF&gt;{LINK:FoodPage;Food}&lt;/color&gt; have been invented in the last few hundred years, few are as durable or easy to fabricate as the OK-Zoomer microwave. Licensed from &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt;, the plans are based on a classic model from the mid-21st century, giving it a charmingly retro feel. But don't worry, it oscillates water molecules more than adequately. 
-Just bolt it to a {THING:StructureBench} using a {THING:ItemWrench} to power it, follow the recipe, and you're cooking.</Description>
+      Just bolt it to a {THING:StructureBench} using a {THING:ItemWrench} to power it, follow the recipe, and you're cooking.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ApplianceReagentProcessor</Key>
@@ -1104,7 +1104,7 @@ If an egg has been fertilized, and is kept between 20C-30C, an {THING:EntityChic
     <RecordThing>
       <Key>ItemFlour</Key>
       <Value>Flour</Value>
-      <Description>Pulverized {THING:ItemWheat}, a key ingredient in many foods created by the {THING:ApplianceMicrowave} and the {THING:ItemKitAutomatedOven}.</Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterCarbonDioxide</Key>
@@ -1116,20 +1116,20 @@ Careful not to overpressurize when refilling, or it may go 'bang'.</Description>
       <Key>ItemGasCanisterPollutants</Key>
       <Value>Canister (Pollutants)</Value>
       <Description>While this byproduct from smelting - sometimes known simply as 'X' - is a toxin, its specific heat makes it a valuable coolant. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill. 
-Careful not to pressurize beyond 10MPa, or it may go 'bang'.</Description>
+Careful not to pressurize beyond 100kPA, or it may go 'bang'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterEmpty</Key>
       <Value>Canister</Value>
       <Description>The portable canister is the &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer's}&lt;/color&gt; basic unit of &lt;color=#0080FFFF&gt;{LINK:GasPage;gas}&lt;/color&gt; delivery. Rated to a standard pressure of 8000kPa (80 atmospheres), empty gas canisters can be mounted to a 
 {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.
-Careful not to pressurize beyond 10MPa, or it may go 'bang'. Contains 64L of gas.</Description>
+Careful not to pressurize beyond 100kPA, or it may go 'bang'. Contains 64L of gas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterFuel</Key>
       <Value>Canister (Fuel)</Value>
       <Description>The orange portable &lt;color=#0080FFFF&gt;{LINK:GasPage;fuel}&lt;/color&gt; canister supplies a 64L mixture of 66% volatiles/34% oxygen for powering such items as the {THING:ItemWeldingTorch} and the {THING:DynamicGenerator}. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.
-Careful not to pressurize beyond 10MPa, or it may go 'bang'.</Description>
+Careful not to pressurize beyond 100kPA, or it may go 'bang'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterVolatiles</Key>
@@ -1139,13 +1139,13 @@ Careful not to pressurize beyond 10MPa, or it may go 'bang'.</Descript
       <Key>ItemGasCanisterNitrogen</Key>
       <Value>Canister (Nitrogen)</Value>
       <Description>The green portable &lt;color=#0080FFFF&gt;{LINK:GasPage;nitrogen or nitrous oxide}&lt;/color&gt; canister supplies propellent for the {THING:ItemSpacepack} and the {THING:ItemHardJetpack}. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.
-Careful not to pressurize beyond 10MPa, or it may go 'bang'.</Description>
+Careful not to pressurize beyond 100kPA, or it may go 'bang'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterOxygen</Key>
       <Value>Canister (Oxygen)</Value>
       <Description>The white portable 64L canister is the &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer's}&lt;/color&gt; basic unit of &lt;color=#0080FFFF&gt;{LINK:GasPage;oxygen}&lt;/color&gt; delivery. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureGasTankStorage} for refill.
-Careful not to pressurize beyond 10MPa, or it may go 'bang'.</Description>
+Careful not to pressurize beyond 100kPA, or it may go 'bang'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterWater</Key>
@@ -1400,12 +1400,12 @@ Careful not to pressurize beyond 10MPa, or it may go 'bang'.</Descript
     <RecordThing>
       <Key>ItemMilk</Key>
       <Value>Milk</Value>
-      <Description>Full disclosure, it's not actually 'milk', but an &lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero-invented}&lt;/color&gt; synthesis of 5ml {THING:ItemSoyOil} and 5g {THING:ItemFern}, delicately blended in the {THING:ApplianceChemistryStation}. Surprisingly filling, it can be used as an ingredient to cook other &lt;color=#0080FFFF&gt;{LINK:FoodPage;food}&lt;/color&gt; in the {THING:ApplianceMicrowave} or {THING:StructureAutomatedOven}. Think, {THING:ItemMuffin}.</Description>
+      <Description>Full disclosure, it's not actually 'milk', but an &lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero-invented}&lt;/color&gt; synthesis of 5ml {THING:ItemSoyOil} and 5g {THING:ItemFern}, delicately blended in the {THING:ApplianceChemistryStation}. Surprisingly filling, it can be used as an ingredient to cook other &lt;color=#0080FFFF&gt;{LINK:FoodPage;food}&lt;/color&gt; in the {THING:ApplianceMicrowave}. Think, {THING:ItemMuffin}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningBelt</Key>
       <Value>Mining Belt</Value>
-      <Description>Originally developed by &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso Espaciais}&lt;/color&gt; for asteroid mining, the &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer's}&lt;/color&gt; miningbelt has room for two &lt;color=#0080FFFF&gt;{LINK:ToolPage;tools}&lt;/color&gt; and eight &lt;color=#0080FFFF&gt;{LINK:OrePage;ore}&lt;/color&gt; stacks. While wearing the belt, ore is automatically stored there when mined. Volatile and temperature-dependent remain stable in the environmentally controlled unit.</Description>
+      <Description>Originally developed by &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso Espaciais}&lt;/color&gt; for asteroid mining, the &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer's}&lt;/color&gt; toolbelt has room for two &lt;color=#0080FFFF&gt;{LINK:ToolPage;tools}&lt;/color&gt; and eight &lt;color=#0080FFFF&gt;{LINK:OrePage;ore}&lt;/color&gt; stacks. While wearing the belt, ore is automatically stored there when mined. Volatile and temperature-dependent remain stable in the environmentally controlled unit.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningDrill</Key>
@@ -1720,21 +1720,21 @@ An upgraded version of the classic 'Zairo' model first manufactured by &lt;color
     </RecordThing>
     <RecordThing>
       <Key>MotherboardLogic</Key>
-      <Value>Logic Motherboard</Value>
+      <Value>Logic</Value>
       <Description>Motherboards are connected to {THING:StructureComputer}s to perform various technical functions.
 The &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec-designed}&lt;/color&gt; K-cops logic motherboard allows &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; to set variables and actions on specific &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic}&lt;/color&gt;-controlled items.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardManufacturing</Key>
-      <Value>Manufacturing Motherboard</Value>
+      <Value>Manufacturing</Value>
       <Description>Motherboards are connected to {THING:StructureComputer}s to perform various technical functions.
 The &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec-designed}&lt;/color&gt; K-cops 4474 motherboard is - famously - a solution to the problem of their now-obselete General {THING:StructureFabricator} having a notable lack of buttons.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardSorter</Key>
-      <Value>Sorter Motherboard</Value>
+      <Value>Sorter</Value>
       <Description>Motherboards are connected to {THING:StructureComputer}s to perform various technical functions.
-The &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec-designed}&lt;/color&gt; K-cops 10-10 sorter motherboard permits &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; to control which items a {THING:StructureSorter} does, and does not, permit to pass.</Description>
+The &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec-designed}&lt;/color&gt; K-cops 10-10 sorter motherboard permits &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; to control which items a {THING:StructureSorter} sorter does, and does not, permit to pass.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MothershipCore</Key>
@@ -1885,20 +1885,19 @@ Be there, even when you're not.</Description>
       <Key>StructureChuteBin</Key>
       <Value>Chute Bin</Value>
       <Description>The &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer's}&lt;/color&gt; goal is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
-Like most &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt;-designed systems, chute bins are simple and robust powered items, allowing items to be manually passed into chute networks by pulling a lever. They can also be programmed with &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic}&lt;/color&gt; to operate automatically, although full automation requires the use items such as a {THING:StructureSDBHopper}.</Description>
+Like most &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt;-designed systems, chute bins are simple and robust, allowing items to be manually passed into chute networks. They can also be programmed with &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic}&lt;/color&gt; to operate automatically, although full automation requires the use items such as a {THING:StructureSDBHopper}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteCorner</Key>
       <Value>Chute (Corner)</Value>
-      <Description>Chutes act as pipes for items. Use them to connect various &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;import/export}&lt;/color&gt; equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.
-The aim for any &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+      <Description>The aim for any &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
 Chute corners are fundamental components of chute networks, which allow the transport of items between machines with &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;import/export}&lt;/color&gt; slots, such as the {THING:StructureFurnace} and other automatable structures.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteInlet</Key>
       <Value>Chute Inlet</Value>
       <Description>The aim for any &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
-The chute inlet is an aperture by which items can be introduced to &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;import/export}&lt;/color&gt; networks. Note that its origins in zero-gravity mining means chute inlets are unpowered and permanently open, rather than interactable, allowing objects to be thrown in. They can be connected to &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic}&lt;/color&gt; systems to monitor throughput.</Description>
+The chute inlet is an aperture by which items can be introduced to &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;import/export}&lt;/color&gt; networks. Note that its origins in zero-gravity mining means chute inlets are permanently open, rather than interactable, but can be connected to &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logic}&lt;/color&gt; systems to monitor throughput.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteJunction</Key>
@@ -1915,8 +1914,7 @@ The chute outlet is an aperture for exiting items from &lt;color=#0080FFFF&gt;{L
     <RecordThing>
       <Key>StructureChuteStraight</Key>
       <Value>Chute (Straight)</Value>
-      <Description>Chutes act as pipes for items. Use them to connect various &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;import/export}&lt;/color&gt; equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.
-The aim for any &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+      <Description>The aim for any &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
 Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;import/export}&lt;/color&gt; slot.</Description>
     </RecordThing>
     <RecordThing>
@@ -1974,7 +1972,8 @@ Compatible motherboards:
 - {THING:MotherboardManufacturing}
 - {THING:MotherboardSorter}
 - {THING:MotherboardComms}
-- {THING:MotherboardProgrammableChip}</Description>
+- {THING:MotherboardProgrammableChip}
+-</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsole</Key>
@@ -2138,7 +2137,7 @@ It can be automated using the {THING:StructureHarvie}.</Description>
     <RecordThing>
       <Key>StructureMotionSensor</Key>
       <Value>Motion Sensor</Value>
-      <Description>Originally developed to monitor dance marathons, the motion sensor can also be connect to &lt;color=#0080FFFF&gt;{LINK:LogicPage;logic}&lt;/color&gt; systems for security purposes, automatic lighting, doors and various other applications.
+      <Description>Originally developed to monitor dance marathons, the motion sensor can also be connect to {&lt;color=#0080FFFF&gt;{LINK:LogicPage;logic}&lt;/color&gt; systems for security purposes, automatic lighting, doors and various other applications.
 The sensor activates whenever a player enters the grid it is place on.</Description>
     </RecordThing>
     <RecordThing>
@@ -2257,19 +2256,14 @@ Pipes spread their contents evenly through the entire network, and can be connec
     <RecordThing>
       <Key>StructureSorter</Key>
       <Value>Sorter</Value>
-      <Description>No amount of automation is complete without some way of moving different items to different parts of a system. The &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; A2B sorter can be programmed via a computer with a {THING:MotherboardSorter} to direct various items into different chute networks. Filtered items are always passed out the righthand side of the sorter, while non filtered items continue straight through.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStacker</Key>
       <Value>Stacker</Value>
-      <Description>A stacker is an important part of any automated chute network. The &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; ProKompile can be set manually or via logic, to make sure items passing through the stacker are maximized for your storage needs.
-The ProKompile can stack a wide variety of things such as &lt;color=#0080FFFF&gt;{LINK:IngotPage;ingots}&lt;/color&gt;, as well as splitting stacks into appropriate sizes as needed.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStackerReverse</Key>
       <Value>Stacker</Value>
-      <Description>A stacker is an important part of any automated chute network. The &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; ProKompile can be set manually or via logic, to make sure items passing through the stacker are maximized for your storage needs. The reversed stacker has power and data on the opposite side.
-The ProKompile can stack a wide variety of things such as &lt;color=#0080FFFF&gt;{LINK:IngotPage;ingots}&lt;/color&gt;, as well as splitting stacks into appropriate sizes as needed.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStairs4x2</Key>
@@ -2612,12 +2606,11 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
     <RecordThing>
       <Key>ItemFern</Key>
       <Value>Fern</Value>
-      <Description>There was a time, when Stationeers had to make {THING:ReagentFenoxitone} using the {THING:ApplianceReagentProcessor}. Recent advances in technology allow you to use equivalent quantities of fern directly in recipes.</Description>
+      <Description>There was a time, when Stationeers had to make {THING:ReagentFenoxitone} using the {THING:ApplianceReagentProcessor}. Recent advances in technology allow you to use ferns directly in recipes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCerealBar</Key>
       <Value>Cereal Bar</Value>
-      <Description>Sustains, without decay. If only all our relationships were so well balanced.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureElectronicsPrinter</Key>
@@ -2930,14 +2923,10 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>DynamicGPR</Key>
       <Value>Ground Penetrating Radar (GPR)</Value>
-      <Description>The &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; Ground Penetrating Radar (GPR), when used in conjunction with either a {THING:CartridgeOreScanner} or a {THING:CartridgeOreScannerColor} placed in a {THING:ItemTablet}, allows a &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; to maximize mining yields and save time gathering resources to complete their mission by displaying hidden ores in the terrain. 
-
-Insert a cartridge or color scanner into the tablet, then press the activate button on the GPR to scan the surroundings. The data will be displayed on the tablet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeOreScanner</Key>
       <Value>Ore Scanner</Value>
-      <Description>When inserted into a {THING:ItemTablet} and used in conjunction with a {THING:DynamicGPR}, the scanner will display minerals hidden underground on the tablet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPotatoBaked</Key>
@@ -3099,7 +3088,7 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     <RecordThing>
       <Key>StructureOrganicsPrinter</Key>
       <Value>Organics Printer</Value>
-      <Description>Please note, the organics printer has been deprecated - it is now spawnable in Creative mode only.</Description>
+      <Description>Please note, the organics printer has been deprecated - it is now only spawnable in Creative mode.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWindowIron</Key>
@@ -3559,7 +3548,7 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     <RecordThing>
       <Key>StructureVendingMachine</Key>
       <Value>Vending Machine</Value>
-      <Description>The &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo-designed}&lt;/color&gt; 'Slot Mate' vending machine allows storage of almost any item, while also operating as a distribution point for working with {LINK:TradingPage;Traders}. You cannot trade without a vending machine, or its more advanced equivalent, the {THING:StructureRefrigeratedVendingMachine}. Each vending machine can hold up to 100 stacks.</Description>
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo-designed}&lt;/color&gt; 'Slot Mate' vending machine allows storage of almost any item, while also operating as a distribution point for working with {LINK:TradingPage;Traders}.You cannot trade without a vending machine, or its more advanced equivalent, the {THING:StructureRefrigeratedVendingMachine}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitVendingMachine</Key>
@@ -3584,7 +3573,7 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     <RecordThing>
       <Key>ItemHardsuitHelmet</Key>
       <Value>Hardsuit Helmet</Value>
-      <Description>The Hardsuit Helmet is similar to the {THING:ItemSpaceHelmet}, but can withstand higher temperatures and pressures. It's perfect for enduring harsh enviroments like Venus and Vulcan.</Description>
+      <Description>The Hardsuit Helmet is similar to the {THING:ItemSpaceHelmet}, but can withstand higher temperatures and pressures. It's perfect for enduring harsh enviroments like Venus and Vuclan.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWearLamp</Key>
@@ -3621,10 +3610,6 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     <RecordThing>
       <Key>StructureUnloader</Key>
       <Value>Unloader</Value>
-      <Description>The &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; Re:Gurge is a handy unit for unloading any items inserted into it, and feeding them into a chute network. For instance, if you add a full {THING:ItemMiningBelt}, the Re:Gurge will empty the belt of its contents, insert them to the chute network, then eject the belt itself.
-
-Output = 0 exporting the main item
-Output = 1 exporting items inside and eventually the main item.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ReagentFenoxitone</Key>
@@ -3821,14 +3806,6 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>CartridgeOreScannerColor</Key>
       <Value>Ore Scanner (Color)</Value>
-      <Description>When inserted into a {THING:ItemTablet} and used in conjunction with a {THING:DynamicGPR}, the scanner will display minerals hidden underground in different colors on the tablet.
-
-Iron and Nickle = red 
-Ice, Lead, Cobalt = cyan
-Gold and Silver = green
-Coal and Silicon = magenta
-Copper and Oxite = yellow
-Volatiles and Uranium = white</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicWriterSwitch</Key>
@@ -3836,8 +3813,8 @@ Volatiles and Uranium = white</Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardProgrammableChip</Key>
-      <Value>IC Editor Motherboard</Value>
-      <Description>When placed in a {THING:StructureComputer}, the IC Editor allows players to write and edit IC code, which can then be uploaded to a {THING:ItemIntegratedCircuit10} if housed in an {THING:StructureCircuitHousing}.</Description>
+      <Value>IC Editor</Value>
+      <Description>When placed in a {THING:StructureComputer}, the IC Editor allows players to write and edit IC code, which can then be uploaded to a {THING:ProgrammableChip} if housed in an {THING:StructureCircuitHousing}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLogicCircuit</Key>
@@ -3929,7 +3906,7 @@ When connected to a {THING:StructureComputer} containing a {THING:MotherboardCom
     </RecordThing>
     <RecordThing>
       <Key>MotherboardComms</Key>
-      <Value>Communications Motherboard</Value>
+      <Value>Communications</Value>
       <Description>When placed in a {THING:StructureComputer} and connected to a {THING:StructureShuttleLandingPad}, a {THING:StructureSatelliteDish}, and a {THING:StructureVendingMachine} allows Stationeers to trade with suppliers. Adjust the horizontal and vertical attributes of the {THING:StructureSatelliteDish} either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader.</Description>
     </RecordThing>
     <RecordThing>
@@ -4347,12 +4324,11 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     </RecordThing>
     <RecordThing>
       <Key>StructureAutoMinerSmall</Key>
-      <Value>Autominer (Small)</Value>
-      <Description>The &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; autominer is a structure that when built will mine a vertical 2x2 shaft until it hits bedrock. The autominer can be connected to a chute system, and is controllable by a logic network. Note that the autominer outputs mroe ore than a conventional {THING:ItemMiningDrill}.</Description>
+      <Value>Auto Miner Small</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAutoMinerSmall</Key>
-      <Value>Kit (Autominer Small)</Value>
+      <Value>Kit Auto Miner Small</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemDirtCannister</Key>
@@ -4626,12 +4602,11 @@ When landing, the rocket will deploy a lander, and any cargo contained in the {T
     <RecordThing>
       <Key>ItemSensorProcessingUnitOreScanner</Key>
       <Value>Sensor Processing Unit (Ore Scanner)</Value>
-      <Description>The Sensor Processing unit can be inserted into {THING:ItemSensorLenses} to reveal underground minerals in a HUD.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSensorLenses</Key>
       <Value>Sensor Lenses</Value>
-      <Description>These &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; glasses might not be the most fashionable thing, but when a {THING:ItemSensorProcessingUnitOreScanner} is inserted, Stationeers can use these handy glasses to x-ray the ground and find ores that are hidden beneath the surface.</Description>
+      <Description>These {&lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; glasses might not be the most fashionable thing, but when a {THING:ItemSensorProcessingUnitOreScanner} is inserted, Stationeers can use these handy glasses to x-ray the ground and find ores that are hidden beneath the surface.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBatteryChargerSmall</Key>
@@ -4671,7 +4646,7 @@ When landing, the rocket will deploy a lander, and any cargo contained in the {T
     <RecordThing>
       <Key>StructureSDBSilo</Key>
       <Value>SDB Silo</Value>
-      <Description>The majestic silo holds large quantities of almost anything. While it is doing that, it cannot be deconstructed. Note also, that any food you put into a silo is likely to {LINK:DecayPage;decay} extremely rapidly. The silo can hold up to 600 stacks.</Description>
+      <Description>The majestic silo holds large quantities of almost anything. While it is doing that, it cannot be deconstructed. Note also, that any food you put into a silo is likely to {LINK:DecayPage;decay} extremely rapidly.</Description>
     </RecordThing>
     <RecordThing>
       <Key>KitSDBSilo</Key>
@@ -5620,11 +5595,11 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
     <RecordThing>
       <Key>ItemAstroloySheets</Key>
       <Value>Item Astroloy Sheets</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningBeltAdvanced</Key>
-      <Value>Mining Belt (Advanced)</Value>
+      <Value>MiningBelt MK II</Value>
       <Description>The Advanced mining belt is similar to the {THING:ItemMiningBelt}, but has 13 slots instead of the basic 8, to increase the length of your mining trips.</Description>
     </RecordThing>
     <RecordThing>
@@ -5828,7 +5803,7 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     </RecordThing>
     <RecordThing>
       <Key>StructureBackLiquidPressureRegulator</Key>
-      <Value>Liquid Back Pressure Regulator</Value>
+      <Value>Back Liquid Pressure Regulator</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6279,9 +6254,7 @@ For more information about food preservation, visit the {LINK:DecayPage;food dec
     <RecordThing>
       <Key>StructureRefrigeratedVendingMachine</Key>
       <Value>Refrigerated Vending Machine</Value>
-      <Description>The refrigerated OmniKool vending machine is an advanced version of the standard {THING;StructureVendingMachine}, which maintains an optimum pressure and constant temperature of -130 degrees C, to prevent food spoilage. It can hold up to 100 stacks.
-The OmniKool also has an in-built {THING:StructureStacker}, allowing players to set the stack sizes of any items ADDED to the device. The unit's default stack size is 50.
-NOTE: altering stack sizes DOES NOT update existing stacks within the machine, only those subsequently added. </Description>
+      <Description>The refrigerated vending machine is an advanced version of the standard {THING;StructureVendingMachine}, which maintains an optimum pressure and constant temperature of -111 degrees C, to prevent food spoilage. It also has an in-built {THING:StructureStacker}, allowing players to set the stack sizes of any items being added to the device. Note that altering stack sizes does not update existing stacks, only those you add subsequently.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitVendingMachineRefrigerated</Key>
@@ -6296,7 +6269,7 @@ NOTE: altering stack sizes DOES NOT update existing stacks within the machine, o
     <RecordThing>
       <Key>SeedBag_Corn</Key>
       <Value>Corn Seeds</Value>
-      <Description>Grow a {THING:ItemCorn}.</Description>
+      <Description>Grow a {THING:ItemPotato}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Wheet</Key>
@@ -6334,9 +6307,9 @@ NOTE: altering stack sizes DOES NOT update existing stacks within the machine, o
       <Description>Fertilizer alters plant growth processes, and is created by the basic composter and the {THING:StructureAdvancedComposter} using &lt;color=#0080FFFF&gt;{LINK:OrganicPage;organic}&lt;/color&gt; matter.
 Fertilizer's affects depend on its ingredients:
 
-- &lt;color=#0080FFFF&gt;{LINK:OrganicPage;Food}&lt;/color&gt; increases PLANT YIELD up to two times
-- {THING:DecayedFood} increases plant GROWTH SPEED up to two times
-- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for
+- &lt;color=#0080FFFF&gt;{LINK:OrganicPage;Food}&lt;/color&gt; increases individual PLANT YIELD by up to 3 items
+- {THING:DecayedFood} increases plant GROWTH SPEED up to 3 times
+- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for to a maximum of 5
 
 The effect of these ingredients depends on their respective proportions in the composter when processing is activated. </Description>
     </RecordThing>
@@ -6349,9 +6322,9 @@ When processing, it releases nitrogen and volatiles, as well a small amount of h
 {HEADER:Compost composition}
 Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertilizer's effects on plants will vary depending on the respective proportions of its ingredients.
 
-- &lt;color=#0080FFFF&gt;{LINK:OrganicPage;Food}&lt;/color&gt; increases PLANT YIELD up to two times
-- {THING:DecayedFood} increases plant GROWTH SPEED up to two times
-- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for up to five times
+- &lt;color=#0080FFFF&gt;{LINK:OrganicPage;Food}&lt;/color&gt; increases individual PLANT YIELD by up to 3 items
+- {THING:DecayedFood} increases plant GROWTH SPEED up to 3 times
+- {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for to a maximum of 5
 </Description>
     </RecordThing>
     <RecordThing>
@@ -6460,7 +6433,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     <RecordThing>
       <Key>ItemCannedPowderedEggs</Key>
       <Value>Canned Powdered Eggs</Value>
-      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using {THING:ItemCookedPowderedEggs}  and an {THING:ItemEmptyCan}, canned powdered eggs are an exciting, dynamic food that's fairly high in nutrition, and does not {LINK:DecayPage;decay}.</Description>
+      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using {THING:ItemCookedPowderedEggs}  and an {THING:ItemEmptyCan}, canned powdered eggs are an exciting, dynamic food that's fairly high in nutrition, and DOES not {LINK:DecayPage;decay}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAdvancedPackagingMachine</Key>
@@ -6513,176 +6486,6 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
       <Description>A high-nutrient cooked food, which can be canned.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>ItemTropicalPlant</Key>
-      <Value>Tropical Lily</Value>
-      <Description>An anthurium, evolved in the jungles of South America, which will tolerate higher temperatures than most plants.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemPeaceLily</Key>
-      <Value>Peace Lily</Value>
-      <Description>A fetching lily with greater resistance to cold temperatures.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemDecorFern</Key>
-      <Value>Decorative Fern</Value>
-      <Description>One of the universe's many ferns, useful in a range of medicinal and organic recipes.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemFilterFern</Key>
-      <Value>Darga Fern</Value>
-      <Description>A fern adapted by &lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero}&lt;/color&gt;to process a much greater volume of carbon dioxide into oxygen than an average plant.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitInsulatedWaterPipe</Key>
-      <Value>Insulated Water Pipe Kit</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitInsulatedLiquidPipe</Key>
-      <Value>Insulated Liquid Pipe (Kit)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>InsulatedLiquidPipeCorner</Key>
-      <Value>Insulated Liquid Pipe Corner</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>InsulatedLiquidPipeCrossJunction</Key>
-      <Value>Insulated Liquid Pipe Cross Junction</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>InsulatedLiquidPipeCrossJunction3</Key>
-      <Value>Insulated Liquid Pipe Cross Junction3</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>InsulatedLiquidPipeCrossJunction4</Key>
-      <Value>Insulated Liquid Pipe Cross Junction4</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>InsulatedLiquidPipeCrossJunction5</Key>
-      <Value>Insulated Liquid Pipe Cross Junction5</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>InsulatedLiquidPipeCrossJunction6</Key>
-      <Value>Insulated Liquid Pipe Cross Junction6</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>InsulatedLiquidPipeJunction</Key>
-      <Value>Insulated Liquid Pipe Junction</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>InsulatedLiquidPipeStraight</Key>
-      <Value>Insulated Liquid Pipe Straight</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureInsulatedPipeLiquidCorner</Key>
-      <Value>Insulated Liquid Pipe (Corner)</Value>
-      <Description>Liquid piping with very low temperature loss or gain.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureInsulatedPipeLiquidCrossJunction</Key>
-      <Value>Insulated Liquid Pipe (Cross Junction)</Value>
-      <Description>Liquid piping with very low temperature loss or gain.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureInsulatedPipeLiquidCrossJunction4</Key>
-      <Value>Insulated Liquid Pipe (Cross Junction4)</Value>
-      <Description>Liquid piping with very low temperature loss or gain.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructurePipeInsulatedLiquidCrossJunction</Key>
-      <Value>Insulated Liquid Pipe (Cross Junction)</Value>
-      <Description>Liquid piping with very low temperature loss or gain.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureInsulatedPipeLiquidCrossJunction5</Key>
-      <Value>Insulated Liquid Pipe (Cross Junction5)</Value>
-      <Description>Liquid piping with very low temperature loss or gain.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureInsulatedPipeLiquidCrossJunction6</Key>
-      <Value>Insulated Liquid Pipe (Cross Junction6)</Value>
-      <Description>Liquid piping with very low temperature loss or gain.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureInsulatedPipeLiquidStraight</Key>
-      <Value>Insulated Liquid Pipe (Straight)</Value>
-      <Description>Liquid piping with very low temperature loss or gain.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureInsulatedPipeLiquidTJunction</Key>
-      <Value>Insulated Liquid Pipe (T Junction)</Value>
-      <Description>Liquid piping with very low temperature loss or gain.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructurePipeHeater</Key>
-      <Value>Structure Pipe Heater</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>StructurePipeOneWayValve</Key>
-      <Value>Structure Pipe One Way Valve</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureOneWayValve</Key>
-      <Value>Structure One Way Valve</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureWaterPipeHeater</Key>
-      <Value>Structure Water Pipe Heater</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemPipeHeater</Key>
-      <Value>Item Pipe Heater</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWaterPipeHeater</Key>
-      <Value>Item Water Pipe Heater</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemLiquidPipeHeater</Key>
-      <Value>Item Liquid Pipe Heater</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureLiquidPipeHeater</Key>
-      <Value>Structure Liquid Pipe Heater</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureTurboVolumePump</Key>
-      <Value>Turbo Volume Pump</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitTurboVolumePump</Key>
-      <Value>Kit (Turbo Volume Pump)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureLiquidTurboVolumePump</Key>
-      <Value>Liquid Turbo Volume Pump</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitLiquidTurboVolumePump</Key>
-      <Value>Kit (Liquid Turbo Volume Pump)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
       <Key>ItemMkIIToolbelt</Key>
       <Value>Item Mk II Toolbelt</Value>
       <Description />
@@ -6690,11 +6493,6 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     <RecordThing>
       <Key>ItemMiningBeltMKII</Key>
       <Value>Item Mining Belt MK II</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureLiquidPipeOneWayValve</Key>
-      <Value>Structure Liquid Pipe One Way Valve</Value>
       <Description />
     </RecordThing>
   </Things>
@@ -8205,10 +8003,8 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     </Record>
     <Record>
       <Key>TutorialCompleteMessage</Key>
-      <Value>
-        There's still much to learn.
-        So get out there, Stationeer!
-      </Value>
+      <Value>There's still much to learn.
+                                              So get out there, Stationeer!</Value>
     </Record>
     <Record>
       <Key>TutorialBackToMenu</Key>
@@ -8228,10 +8024,8 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     </Record>
     <Record>
       <Key>MulticonstructorItem</Key>
-      <Value>
-        &lt;color=yellow&gt;Constructing option {0} of {1}&lt;/color&gt;
-        Scroll &lt;color=red&gt;Mouse Wheel&lt;/color&gt; for more options.
-      </Value>
+      <Value>&lt;color=yellow&gt;Constructing option {0} of {1}&lt;/color&gt;
+                                              Scroll &lt;color=red&gt;Mouse Wheel&lt;/color&gt; for more options.</Value>
     </Record>
     <Record>
       <Key>UnableToConstruct</Key>
@@ -8495,10 +8289,8 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     </Record>
     <Record>
       <Key>AlertNoResponse</Key>
-      <Value>
-        There is no response from the Game Server.
-        Please try again.
-      </Value>
+      <Value>There is no response from the Game Server.
+                                              Please try again.</Value>
     </Record>
     <Record>
       <Key>AlertKicked</Key>
@@ -8750,21 +8542,17 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     </Record>
     <Record>
       <Key>NewWorldMoonDesc</Key>
-      <Value>
-        So you're stuck on the moon, but it's not all bad.Sure, it's cold, harsh and pretty monotonous, but at least the sun's shining. The solar panel is going to be useful, and the power controller... and probably the arc furnace too.
+      <Value>So you're stuck on the moon, but it's not all bad.Sure, it's cold, harsh and pretty monotonous, but at least the sun's shining. The solar panel is going to be useful, and the power controller... and probably the arc furnace too.
                                               There's even a little food and oxygen in the other crates, though it's definitely not going to last forever. Neither's your battery.
                                               You better start thinking about how you're going to survive. How hard could it be to rig up an airlock? A generator? Maybe even smelt some ore and build yourself a base?
-        Looks like you're gonna be here a while.
-      </Value>
+                                              Looks like you're gonna be here a while.</Value>
     </Record>
     <Record>
       <Key>NewWorldSpaceDesc</Key>
-      <Value>
-        This is Stationeers Creative Mode!Spawn in any item, test ideas and build bonkers stuff real fast.
+      <Value>This is Stationeers Creative Mode!Spawn in any item, test ideas and build bonkers stuff real fast.
                                               &lt;color=red&gt;This mode is experimental.&lt;/color&gt; Think of it as a freeform space party where exciting and unexpected things* can and will happen, compared to the more reliable near-death experience of Survival Mode.
                                               Just don't be sad when you blow yourself into tiny, tiny little pieces or get savaged by chickens or slowly explode while drifting alone into the infinite void.
-        *bugs
-      </Value>
+                                              *bugs</Value>
     </Record>
     <Record>
       <Key>TextboxEnterName</Key>
@@ -8840,10 +8628,8 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     </Record>
     <Record>
       <Key>FurnaceChamberText</Key>
-      <Value>
-        Pressure {0}
-        Temperature {1}
-      </Value>
+      <Value>Pressure {0}
+                                      Temperature {1}</Value>
     </Record>
     <Record>
       <Key>FurnaceSmelting</Key>
@@ -9343,8 +9129,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     </Record>
     <Record>
       <Key>LogicTypeColor</Key>
-      <Value>
-        Whether driven by concerns for clarity, safety or simple aesthetics, &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; have access to a small rainbow of colors for their constructions. These are the color setting for devices, represented as an integer.
+      <Value>Whether driven by concerns for clarity, safety or simple aesthetics, &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; have access to a small rainbow of colors for their constructions. These are the color setting for devices, represented as an integer.  
 
 0: Blue
 1: Grey
@@ -9359,8 +9144,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
 10: Pink
 11: Purple
 
-        It is an unwavering universal law that anything higher than 11 will be purple. The &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; is powerless to change this. Similarly, anything lower than 0 will be Blue.
-      </Value>
+It is an unwavering universal law that anything higher than 11 will be purple. The &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; is powerless to change this. Similarly, anything lower than 0 will be Blue.</Value>
     </Record>
     <Record>
       <Key>LogicTypeElevatorSpeed</Key>
@@ -9744,23 +9528,23 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     </Record>
     <Record>
       <Key>TraderElectronics</Key>
-      <Value>TechTree Electronics</Value>
+      <Value>Tech Tree</Value>
     </Record>
     <Record>
       <Key>TraderOrganics</Key>
-      <Value>Organicon</Value>
+      <Value>Organtion</Value>
     </Record>
     <Record>
       <Key>TraderBasic</Key>
-      <Value>Spes'mall Basics</Value>
+      <Value>Spes'mall</Value>
     </Record>
     <Record>
       <Key>TraderHydraulic</Key>
-      <Value>HydrauliKit</Value>
+      <Value>HyrdauliKit</Value>
     </Record>
     <Record>
       <Key>TraderOre</Key>
-      <Value>MineRiteOres</Value>
+      <Value>MineRite</Value>
     </Record>
     <Record>
       <Key>TraderMicrowave</Key>
@@ -9776,7 +9560,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     </Record>
     <Record>
       <Key>TraderPaint</Key>
-      <Value>Color Corp Paints</Value>
+      <Value>Color Corp</Value>
     </Record>
     <Record>
       <Key>TraderTool</Key>
@@ -9784,15 +9568,15 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     </Record>
     <Record>
       <Key>TraderSecurity</Key>
-      <Value>Hall Corp Security</Value>
+      <Value>Hall Corp</Value>
     </Record>
     <Record>
       <Key>TraderOther</Key>
-      <Value>Kolders' Assorted Goods</Value>
+      <Value>Kolders' Goods</Value>
     </Record>
     <Record>
       <Key>TraderGas</Key>
-      <Value>GasTrade</Value>
+      <Value>Gassy Trade</Value>
     </Record>
     <Record>
       <Key>TraderCustom</Key>
@@ -11470,8 +11254,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
       <Key>AgrizeroDesc</Key>
       <Value>Agrizero is an agricultural biotech firm focused on researching and deploying offworld farming technology. The company’s aim is to provide a network of self-sustaining, self-contained 'bio-factories' that will ultimately feed a projected 1 million humans in space.
 Emerging from the late 21st century's environmental disasters, the firm has roots in China's world-saving artificial farming initiatives, and has now spread to facilities in the Asteroid Belt, where the supply of ice asteroids makes vertical farming and controlled-environment agriculture extremely promising.
-While many of their facilities are still under construction, Agrizero is already one of the main suppliers of offworld groups like &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;, &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; and &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; through the ever-expanding Trader Network.
-      </Value>
+While many of their facilities are still under construction, Agrizero is already one of the main suppliers of offworld groups like &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;, &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; and &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; through the ever-expanding Trader Network.</Value>
     </Record>
     <Record>
       <Key>Asura</Key>
@@ -11482,8 +11265,7 @@ While many of their facilities are still under construction, Agrizero is already
       <Value>Asura Biomedia was founded in the early 22nd century by Mumbai-based trillionaire Ashan Gurwaja. Nominally focused on 'biotechnology', the company has always had an ‘elastic’ notion of exactly what that entailed: everything from pharmaceuticals to pet food.
 Gurwaja's background in bio-engineering firms put the company in the highest echelon of bio-science industries from the very beginning, and it grew exactly as its founder intended: rapidly and reliably, structured specifically to swallow up any smaller firms in its way.
 Near mid-century, Asura's ambitions evolved to embrace entire health systems – it is now the largest provider of healthcare on Earth, integrating hospitals and primary care with medical supplies, pharmaceutical production and retail, residential care and funeral services.
-By 2150, Asura's business was a simple proposition, as captured in their famous – if not infamous – advertising slogan: 'We're in you'.
-      </Value>
+By 2150, Asura's business was a simple proposition, as captured in their famous – if not infamous – advertising slogan: 'We're in you'.</Value>
     </Record>
     <Record>
       <Key>CHAC</Key>
@@ -11493,8 +11275,7 @@ By 2150, Asura's business was a simple proposition, as captured in their famous 
       <Key>CHACDesc</Key>
       <Value>Founded in 2085 to produce weapons for &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt;'s space forces, the company is known for making highly reliable and affordable weapons for off-world use.
 Their pragmatic approach is reflected in their focus on designs suitable for 3D printing and mass production, as well as a high reuse of components across models and weapon classes.
-As a result, although CHAC guns excel in no particular category, and have certainly never been accused of gretness, they suffer no great failings, and perform sufficiently well by most known measures to have earned their designers the informal title of 'armorer to the Solar System'.
-      </Value>
+As a result, although CHAC guns excel in no particular category, and have certainly never been accused of gretness, they suffer no great failings, and perform sufficiently well by most known measures to have earned their designers the informal title of 'armorer to the Solar System'.</Value>
     </Record>
     <Record>
       <Key>ExMin</Key>
@@ -11504,8 +11285,7 @@ As a result, although CHAC guns excel in no particular category, and have certai
       <Key>ExMinDesc</Key>
       <Value>In the aftermath of the Sisyphus disaster on Mars in 2079, asteroid shifting was officially banned by the &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;. This sea-change forced the newborn space mining industry to reconsider its strategies, but until the opening of the Manaus Space Elevator, marginal economics meant offworld resource extraction was effectively impossible.
 Formed in 2095 by a long-standing Swiss-German mining conglomerate and a consortium of other interests, ExMin was more an idea than a commercial reality for several decades. Created with the certainty that a space elevator would eventually arrive, ExMin was one of the first to exploit the access it offered. Subsequently it has become one of the Solar System's most powerful commercial entities.
-With access to space secure, ExMin became a central player in the flow of resources to the Inner System. It has competition, principally from Brazilian mining giant &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt;, but the company has never entirely lost its lead on off-world mining. Synonymous with rare earth metals and pioneering off-world resource extraction, it stands at the forefront of development throughout the Solar System.
-      </Value>
+With access to space secure, ExMin became a central player in the flow of resources to the Inner System. It has competition, principally from Brazilian mining giant &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt;, but the company has never entirely lost its lead on off-world mining. Synonymous with rare earth metals and pioneering off-world resource extraction, it stands at the forefront of development throughout the Solar System.</Value>
     </Record>
     <Record>
       <Key>GeFabrik</Key>
@@ -11515,8 +11295,7 @@ With access to space secure, ExMin became a central player in the flow of resour
       <Key>GeFabrikDesc</Key>
       <Value>Officially known as Gewehrfabrik GmbH, GeFabrik is one of the world’s oldest and most highly regarded armament firms, known for producing exceptionally accurate, high-end firearms.
 In the wake of the European arms manufacturing collapse in the 2030s, a group of unemployed armament staff formed GeFabrik. Dedicated to renewing original design principles, the company is legendary for extensive testing, sometimes lasting as long as 10 years, in order to produce ‘ganz’ weapon formats.
-GeFabrik is widely regarded as having single-handedly salvaged Germany's manufacturing reputation, while doing nothing for their sense of humor.
-      </Value>
+GeFabrik is widely regarded as having single-handedly salvaged Germany's manufacturing reputation, while doing nothing for their sense of humor.</Value>
     </Record>
     <Record>
       <Key>Hiiragi</Key>
@@ -11525,8 +11304,7 @@ GeFabrik is widely regarded as having single-handedly salvaged Germany's manufac
     <Record>
       <Key>HiiragiDesc</Key>
       <Value>Founded by Noboru Hiiragi in the aftermath of the 2110s economic bubble, Hiiragi Communications absorbed several prominent offworld assets, quickly becoming the most widely used trans-Solar System communications network.
-If you’ve communicated with friends and family offworld recently, it’s been through the Hiiragi network, even if it’s been branded under one of its many child companies. Hiiragi is also the number one seller for PCD’s (Personal Communication Devices) as well as a deep, if difficult to assess investor in terrestrial telecommunication networks.
-      </Value>
+If you’ve communicated with friends and family offworld recently, it’s been through the Hiiragi network, even if it’s been branded under one of its many child companies. Hiiragi is also the number one seller for PCD’s (Personal Communication Devices) as well as a deep, if difficult to assess investor in terrestrial telecommunication networks.</Value>
     </Record>
     <Record>
       <Key>Norsec</Key>
@@ -11536,8 +11314,7 @@ If you’ve communicated with friends and family offworld recently, it’s been 
       <Key>NorsecDesc</Key>
       <Value>With its roots in early 20th Century defense industry, Norsec (a.k.a. Northern Security Systems) was an early adopter of asteroid mining – one of its tugs being involved in the infamous Sisyphus Hit on the fledgling Martian colony at Sanders.
 Norsec was officially cleared of any wrong-doing, but when the &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; banned asteroidal relocation, the company shifted its focus to infrastructure and manufacturing.
-Norsec’s orbitally-based Space Systems Division is responsible for the design and production of &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;’s core transport systems, while also being rumoured to hold a large interest in &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt;. The company is also noted for its willingness to engage in experimental robotic technology.
-      </Value>
+Norsec’s orbitally-based Space Systems Division is responsible for the design and production of &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;’s core transport systems, while also being rumoured to hold a large interest in &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt;. The company is also noted for its willingness to engage in experimental robotic technology.</Value>
     </Record>
     <Record>
       <Key>ODA</Key>
@@ -11545,11 +11322,9 @@ Norsec’s orbitally-based Space Systems Division is responsible for the design 
     </Record>
     <Record>
       <Key>ODADesc</Key>
-      <Value>
-        In the aftermath of the Earth Crisis, humanity’s focus on space diminished. Yet many felt that, without ambitions beyond our home planet, our species might falter.
+      <Value>In the aftermath of the Earth Crisis, humanity’s focus on space diminished. Yet many felt that, without ambitions beyond our home planet, our species might falter.
 Created in 2070CE by a newly revamped United Nations, the Offworld Development Agency was given a very specific goal - to guide and encourage human space exploration at a time the cosmos was fading from the public mind. 
-It inaugurated the &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; Program in 2095. Understanding that funding would be difficult to come by, the ODA conceived the program as a slow-burn, low-outlay space initiative. While some derided Stationeers as 'cut-price cosmic castaways', the success of the program is testament to the wisdom and pragmatism of ODA's vision.
-      </Value>
+It inaugurated the &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; Program in 2095. Understanding that funding would be difficult to come by, the ODA conceived the program as a slow-burn, low-outlay space initiative. While some derided Stationeers as 'cut-price cosmic castaways', the success of the program is testament to the wisdom and pragmatism of ODA's vision.</Value>
     </Record>
     <Record>
       <Key>Recurso</Key>
@@ -11560,8 +11335,7 @@ It inaugurated the &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/colo
       <Value>This long-standing Brazilian mining group branched into space in the late 21st century.
 Focused primarily on bulk minerals and metals, the company is perhaps best understood as an extension of the Brazilian government – very few upper echelon political figures in modern Brazil are not implicated in one arm or another of this industrial behemoth.
 Enmeshment with South American politics has given the company heavy influence over the Manaus space elevator. This deep state control has led to other groups – the &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; included – to exercise a certain ‘flexibility’ toward Recurso.
-Accusations of illegal asteroid relocation, safety violations and numerous commercial infringements have barely touched it. Meanwhile, defenders point out that very little has been proven in court, and Recurso is hardly alone – hence the truism: 'In space, we all live in glass houses.'
-      </Value>
+Accusations of illegal asteroid relocation, safety violations and numerous commercial infringements have barely touched it. Meanwhile, defenders point out that very little has been proven in court, and Recurso is hardly alone – hence the truism: 'In space, we all live in glass houses.'</Value>
     </Record>
     <Record>
       <Key>Sinotai</Key>
@@ -11571,8 +11345,7 @@ Accusations of illegal asteroid relocation, safety violations and numerous comme
       <Key>SinotaiDesc</Key>
       <Value>The sole 'traditional' state entity to survive offworld politics, Sinotai’s reach and power is second only to the &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; itself. In many ways a relic – a sub-agency of a staggeringly complicated Earth-bound corporate-bureaucracy – its structure has allowed Sinotai to achieve incredible things.
 Proving its mettle in the early 21st Century by putting the first humans on Mars, establishing the first offworld gigawatt power system, and the first space-borne fuel refinery, few space-going organisations lack some degree of relationship with Sinotai. A common joke has it that it's impossible to do anything in space without them.
-Regardless of the truth, Sinotai's approach to off-world development has involved a 'soft power' approach, from MOU's with &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; (giving them preferential access to the Manaus space elevator) to murkier alliances of convenience with a range of Trader groups.
-      </Value>
+Regardless of the truth, Sinotai's approach to off-world development has involved a 'soft power' approach, from MOU's with &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; (giving them preferential access to the Manaus space elevator) to murkier alliances of convenience with a range of Trader groups.</Value>
     </Record>
     <Record>
       <Key>TK</Key>
@@ -11582,8 +11355,7 @@ Regardless of the truth, Sinotai's approach to off-world development has involve
       <Key>TKDesc</Key>
       <Value>Originally a defense contractor specializing in brute force, high power weaponry, Tanzanian Kinetic Systems executed a large-scale, peace-time pivot to become the African Assembly’s leading designer of high-speed goods conveyors.
 Now producing a range of chute network designs and components, TK has a strong offworld presence as a result of the Afro-Sino partnerships in the latter 21st Century. Based in the ‘reconned’ Kigamboni district of Dar E Salaam, the Company regularly enters into development partnerships with &lt;color=#0080FFFF&gt;{LINK:CHAC;CHAC}&lt;/color&gt; and, as a result, many of their products show distinct similarities.
-        After all, what is a gun but a ‘high speed goods conveyor’.
-      </Value>
+After all, what is a gun but a ‘high speed goods conveyor’.</Value>
     </Record>
     <Record>
       <Key>Xigo</Key>
@@ -11594,8 +11366,7 @@ Now producing a range of chute network designs and components, TK has a strong o
       <Value>A 2150CE survey revealed the Xigo 'X' as one of the most recognized symbols in the world. Yet few participants could clearly describe the company's actual scope.
 Precisely where the company begins and ends has been the subject of endless theories, financial studies and lawsuits – originally a website for price comparisons, the conglomerate expanded to embrace data, then distribution and finally production.
 It was a seemingly indiscriminate expansion, focused not on one industry, but all of them – taking in so many fields that business analysts have largely rejected the idea of Xigo as a single entity. Rather, it is a conceptual grouping for a branch of human activity. And while such statistics are – by their very nature – difficult to confirm, recent estimates suggest Xigo employs over 1.5% of the entire human race.
-Suffice to say, it produces almost everything.
-      </Value>
+Suffice to say, it produces almost everything.</Value>
     </Record>
     <Record>
       <Key>Stationeers</Key>
@@ -11608,8 +11379,7 @@ Initiated by the &lt;color=#0080FFFF&gt;{LINK:ODA;Offworld Development Agency}&l
 Stationeers are everything: astronauts, engineers and explorers, deployed with limited equipment and tools, trained to do more with less. Turning the environment to their advantage, their job is to provide infrastructure for humans in space, at a fraction of the cost of traditional space programs.
 Able to build and maintain bases anywhere from the Moon to Mimas and beyond, Stationeers are our vanguard in the cosmos. Schooled in offworld survival, mining and construction techniques, basic metallurgy, electronics, rocketry, hydroponics and more ‘arcane’ sciences, Stationeers do what they must to survive, and thrive.
 Renowned for having no entry criteria, there is no such thing as a ‘typical’ Stationeer. Psychological profiling suggests successful Cadets show a ‘baseline’ pragmatism and single-mindedness, but some of the most famous Stationeers possess neither of these qualities.
-Recruiting from civil engineering backgrounds, military and aerospace industries, software development, mining groups, as well as scientific fields and even religious orders, the Stationeers Program is – fundamentally – open to all humanity.
-      </Value>
+Recruiting from civil engineering backgrounds, military and aerospace industries, software development, mining groups, as well as scientific fields and even religious orders, the Stationeers Program is – fundamentally – open to all humanity.</Value>
     </Record>
     <Record>
       <Key>ControlMouseControl</Key>
@@ -11913,8 +11683,7 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     </Record>
     <Record>
       <Key>StationpediaConstructionOptions</Key>
-      <Value>
-        Construction Options
+      <Value>Construction Options
 </Value>
     </Record>
     <Record>
@@ -11923,14 +11692,12 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     </Record>
     <Record>
       <Key>StationpediaLogicHeader</Key>
-      <Value>
-        Logic
+      <Value>Logic
 </Value>
     </Record>
     <Record>
       <Key>StationpediaLogicSlotHeader</Key>
-      <Value>
-        Logic Slots
+      <Value>Logic Slots
 </Value>
     </Record>
     <Record>
@@ -12040,50 +11807,6 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     <Record>
       <Key>Waveform</Key>
       <Value>Waveform</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaBasePowerUsage</Key>
-      <Value>Base Power Usage:</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaMaxPressure</Key>
-      <Value>Max Pressure:</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaVolume</Key>
-      <Value>Volume:</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaNutrition</Key>
-      <Value>Nutrition:</Value>
-    </Record>
-    <Record>
-      <Key>MoleOxygenDescription</Key>
-      <Value>I am gas</Value>
-    </Record>
-    <Record>
-      <Key>MoleNitrogenDescription</Key>
-      <Value>I am gas</Value>
-    </Record>
-    <Record>
-      <Key>MoleCarbonDioxideDescription</Key>
-      <Value>I am gas</Value>
-    </Record>
-    <Record>
-      <Key>MoleVolatilesDescription</Key>
-      <Value>I am gas</Value>
-    </Record>
-    <Record>
-      <Key>MolePollutantDescription</Key>
-      <Value>I am gas</Value>
-    </Record>
-    <Record>
-      <Key>MoleWaterDescription</Key>
-      <Value>I am gas</Value>
-    </Record>
-    <Record>
-      <Key>MoleNitrousOxideDescription</Key>
-      <Value>I am gas</Value>
     </Record>
   </Interface>
   <Colors>
