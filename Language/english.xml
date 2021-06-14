@@ -4348,7 +4348,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>StructureAutoMinerSmall</Key>
       <Value>Autominer (Small)</Value>
-      <Description>The &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; autominer is a structure that when built will mine a vertical 2x2 shaft until it hits bedrock. The autominer can be connected to a chute system, and is controllable by a logic network. Note that the autominer outputs mroe ore than a conventional {THING:ItemMiningDrill}.</Description>
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; SquareDig autominer is a structure that when built will mine a vertical 2x2 shaft until it hits bedrock. The autominer can be connected to a chute system, and is controllable by a logic network. Note that the autominer outputs more ore than a conventional {THING:ItemMiningDrill} over the same area.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAutoMinerSmall</Key>
@@ -5620,12 +5620,12 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
     <RecordThing>
       <Key>ItemAstroloySheets</Key>
       <Value>Item Astroloy Sheets</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningBeltAdvanced</Key>
-      <Value>Mining Belt (Advanced)</Value>
-      <Description>The Advanced mining belt is similar to the {THING:ItemMiningBelt}, but has 13 slots instead of the basic 8, to increase the length of your mining trips.</Description>
+      <Value>Mining Belt MK II</Value>
+      <Description>The Mk II mining belt is similar to the {THING:ItemMiningBelt}, but has 13 slots instead of the basic 8, to increase the length of your mining trips. It also has space for two tools.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWindTurbine</Key>
@@ -6624,98 +6624,136 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeHeater</Key>
-      <Value>Structure Pipe Heater</Value>
+      <Value>Pipe Heater (Gas)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeOneWayValve</Key>
-      <Value>Structure Pipe One Way Valve</Value>
-      <Description />
+      <Value>One Way Valve (Gas)</Value>
+      <Description>The one way valve moves gas in one direction only: from input side to output side. It only permits flow if the input pressure is higher than output pressure.
+</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureOneWayValve</Key>
-      <Value>Structure One Way Valve</Value>
-      <Description />
+      <Value>One Way Valve (Gas)</Value>
+      <Description>The one way valve moves gas in one direction only: from input side to output side. It only permits flow if the input pressure is higher than output pressure.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterPipeHeater</Key>
-      <Value>Structure Water Pipe Heater</Value>
-      <Description />
+      <Value>Pipe Heater (Gas)</Value>
+      <Description>Adds 1000 joules of heat per tick to the contents of your pipe network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeHeater</Key>
-      <Value>Item Pipe Heater</Value>
-      <Description />
+      <Value>Pipe Heater (Gas)</Value>
+      <Description>Adds 1000 joules of heat per tick to the contents of your pipe network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterPipeHeater</Key>
-      <Value>Item Water Pipe Heater</Value>
-      <Description />
+      <Value>Pipe Heater (Liquid)</Value>
+      <Description>Adds 1000 joules of heat per tick to the contents of your pipe network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidPipeHeater</Key>
-      <Value>Item Liquid Pipe Heater</Value>
-      <Description />
+      <Value>Pipe Heater (Liquid)</Value>
+      <Description>Adds 1000 joules of heat per tick to the contents of your pipe network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidPipeHeater</Key>
-      <Value>Structure Liquid Pipe Heater</Value>
-      <Description />
+      <Value>Pipe Heater (Liquid)</Value>
+      <Description>Adds 1000 joules of heat per tick to the contents of your pipe network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTurboVolumePump</Key>
-      <Value>Turbo Volume Pump</Value>
-      <Description />
+      <Value>Turbo Volume Pump (Gas)</Value>
+      <Description>Shifts 10 times more gas than a basic {THING:StructureVolumePump}, with a mode that can be set to flow in either direction.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTurboVolumePump</Key>
-      <Value>Kit (Turbo Volume Pump)</Value>
-      <Description />
+      <Value>Kit (Turbo Volume Pump - Gas)</Value>
+      <Description>Creates a {THING:StructureTurboVolumePump}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTurboVolumePump</Key>
-      <Value>Liquid Turbo Volume Pump</Value>
-      <Description />
+      <Value>Turbo Volume Pump (Liquid)</Value>
+      <Description>Shifts 10 times more liquid than a basic {THING:StructureVolumePump}, with a mode that can be set to flow in either direction.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLiquidTurboVolumePump</Key>
-      <Value>Kit (Liquid Turbo Volume Pump)</Value>
-      <Description />
+      <Value>Kit (Turbo Volume Pump - Liquid)</Value>
+      <Description>Creates a {THING:StructureLiquidTurboVolumePump}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMkIIToolbelt</Key>
-      <Value>Item Mk II Toolbelt</Value>
-      <Description />
+      <Value>Item Mk II Tool Belt</Value>
+      <Description>A large, ten-slot tool belt with two extra generic slots for carrying whatever takes your fancy.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningBeltMKII</Key>
       <Value>Item Mining Belt MK II</Value>
-      <Description />
+      <Description>A larger and more capacious mining belt, the Mk II is similar to the {THING:ItemMiningBelt}, but has 13 slots instead of the basic 8, to increase the length of your mining trips. It also has space for two tools. </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidPipeOneWayValve</Key>
-      <Value>Structure Liquid Pipe One Way Valve</Value>
-      <Description />
+      <Value>One Way Valve (Liquid)</Value>
+      <Description>The oneway valve moves liquid in one direction only: from input side to output side. It only permits flow if the input pressure is higher than output pressure..</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWindowShutter</Key>
       <Value>Window Shutter</Value>
-      <Description />
+      <Description>For those special, private moments, a window that can be closed to prying eyes. Requires power, and can be connected to logic systems.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWindowShutter</Key>
       <Value>Kit (Window Shutter)</Value>
-      <Description />
+      <Description>Produces a {THING:StructureWindowShutter}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemExplosiveBasic</Key>
       <Value>Item Explosive Basic</Value>
-      <Description />
+      <Description>A low cost, high yield explosive with a 10 second timer.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningCharge</Key>
-      <Value>Item Mining Charge</Value>
-      <Description />
+      <Value>Mining Charge</Value>
+      <Description>A low cost, high yield explosive with a 10 second timer.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureHorizontalAutoMiner</Key>
+      <Value>Horizontal Auto Miner</Value>
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; Gridlane autominer is a base structure with attached mining vehicle, which will mine a horizontal shaft up to X meters long. When full, the mining vehicle will return to the base to empty itself, before returning to dig. 
+      
+The autominer can be connected to a chute system, and is controllable by a logic network. Note that the autominer outputs more ore than a conventional {THING:ItemMiningDrill} over the same area.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureReinforcedCompositeWindow</Key>
+      <Value>Reinforced Window (Composite)</Value>
+      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureReinforcedCompositeWindowSteel</Key>
+      <Value>Reinforced Window (Composite Steel)</Value>
+      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureReinforcedWallPaddedWindow</Key>
+      <Value>Reinforced Window (Padded)</Value>
+      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureReinforcedWallPaddedWindowThin</Key>
+      <Value>Reinforced Window (Thin)</Value>
+      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemStelliteGlassSheets</Key>
+      <Value>Item Stellite Glass Sheets</Value>
+      <Description>A stronger glass substitute.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitReinforcedWindows</Key>
+      <Value>Reinforced Windows (Kit)</Value>
+      <Description>Creates {THING:StructureReinforcedCompositeWindow} and other variants.</Description>
     </RecordThing>
   </Things>
   <Slots>
@@ -9652,7 +9690,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     </Record>
     <Record>
       <Key>RocketMode</Key>
-      <Value> Depricated</Value>
+      <Value>Deprecated</Value>
     </Record>
     <Record>
       <Key>CollectableGoods</Key>
@@ -9752,7 +9790,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     </Record>
     <Record>
       <Key>ContactLandingRequestFailSatellite</Key>
-      <Value>There is an issue with your Satellite. Check it's connected to the network and powered.</Value>
+      <Value>There is an issue with your satellite. Check it's connected to the network and powered.</Value>
     </Record>
     <Record>
       <Key>ContactLandingRequestFailStorm</Key>
@@ -11355,6 +11393,18 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
       <Value>Swap Hands</Value>
     </Record>
     <Record>
+      <Key>ActivateExplosiveKey</Key>
+      <Value>Activate countdown</Value>
+    </Record>
+    <Record>
+      <Key>ActivateExplosiveTooltipKey1</Key>
+      <Value>Activates a</Value>
+    </Record>
+    <Record>
+      <Key>ActivateExplosiveTooltipKey2</Key>
+      <Value>second timer. Timer cannot be turned off. Caution is advised.</Value>
+    </Record>
+    <Record>
       <Key>CommandSave</Key>
       <Value>Saves the game and names it as a given parameter. usage: "/save nameofsave"</Value>
     </Record>
@@ -12079,31 +12129,50 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     </Record>
     <Record>
       <Key>MoleOxygenDescription</Key>
-      <Value>I am gas</Value>
+      <Value>Oxygen provides energy when released in combustion, and also bonds with hydrogen to create water. It is created by &lt;color=#0080FFFF&gt;{LINK:OrganicPage;plants}&lt;/color&gt;, as well as from processing {THING:ItemOxite}. It is highly flammable at low temperatures and has a specific heat of 21.1 Joule/mol.</Value>
     </Record>
     <Record>
       <Key>MoleNitrogenDescription</Key>
-      <Value>I am gas</Value>
+      <Value>Nitrogen can be mixed with oxygen to stablize its flammability, and is a resource in its own right, useful for creating, a breathable atmosphere (at roughly 3:1 Nitrogen and Oxygen).
+
+Nitrogen specific heat of 20.6 joule/mole.</Value>
     </Record>
     <Record>
       <Key>MoleCarbonDioxideDescription</Key>
-      <Value>I am gas</Value>
+      <Value>You breathe it out, &lt;color=#0080FFFF&gt;{LINK:OrganicPage;plants}&lt;/color&gt; breath it in. They don't grow without it.
+      
+Carbon dioxide has a specific heat of 28.2 Joule/mol, meaning it makes a good coolant for devices like the {Thing:StructureWallCooler}. Water is better, but usually has more important uses.</Value>
     </Record>
     <Record>
       <Key>MoleVolatilesDescription</Key>
-      <Value>I am gas</Value>
+      <Value>Volatiles are a complex organic molecule, which can be used in conjunction with oxygen as a combustible fuel. It is easily refined from {THING:ItemVolatiles}.
+      
+Due to obscure and largely forgotten &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; regulations, volatiles are sometimes labelled 'H2', but although they are similar to hydrogen, they're not 'actually' hydrogen e.g. volatiles will not produce water when combusted, without the right catalyst. Alone, they create pollutants and carbon dioxide when burned in the following ratio:
+      
+2 Volatiles + 1 O2 -> 3X + 6CO2 + heat.
+
+Volatiles have a specific heat of 20.4 Joule/mol.</Value>
     </Record>
     <Record>
       <Key>MolePollutantDescription</Key>
-      <Value>I am gas</Value>
+      <Value>Also known as 'X', pollutants are created when smelting certain metals. A concentration of 0.1 mol or greater will cause your suit to warn about poison in the atmosphere.
+      
+Pollutant has a specific heat of 24.8 Joule/mol, making it an excellent coolant.</Value>
     </Record>
     <Record>
       <Key>MoleWaterDescription</Key>
-      <Value>I am gas</Value>
+      <Value>You can obtain water by smelting or crushing {THING:ItemIce} using a {THING:StructureFurnace} or an {THING:StructureIceCrusher}, or by combusting volatiles and oxygen using the {THING:StructureH2Combustor}.
+      
+Water is used to &lt;color=#0080FFFF&gt;{LINK:OrganicPage;plants}&lt;/color&gt; in order to stay alive, and grow &lt;color=#0080FFFF&gt;{LINK:NutritionPage;drink}&lt;/color&gt;. It is also an exceptional cooolant with a specific heat of 72 Joule/mol.
+
+Note: Water was previously treated as a gas, but a new system for liquids is being developed, including separate pipes, tanks, pumps, etc for liquids. Water is currently the only available liquid, and does not presently change states.
+</Value>
     </Record>
     <Record>
       <Key>MoleNitrousOxideDescription</Key>
-      <Value>I am gas</Value>
+      <Value>Nitrous oxide is an inert gas that will knock players out if inhaled. It makes your {THING:ItemJetpackBasic} go whoosh.
+
+Nitrous oxide has a specific heat of 23 Joule/mol</Value>
     </Record>
   </Interface>
   <Colors>
