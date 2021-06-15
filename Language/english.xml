@@ -6701,7 +6701,9 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     <RecordThing>
       <Key>StructureWindowShutter</Key>
       <Value>Window Shutter</Value>
-      <Description>For those special, private moments, a window that can be closed to prying eyes. Requires power, and can be connected to logic systems.</Description>
+      <Description>For those special, private moments, a window that can be closed to prying eyes. 
+      
+When closed, has the heat transfer characteristics of a basic wall. Requires power, and can be connected to logic systems.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWindowShutter</Key>
@@ -6754,6 +6756,11 @@ The OGRE can be connected to a chute system, and is controllable by a logic netw
       <Key>ItemKitReinforcedWindows</Key>
       <Value>Reinforced Windows (Kit)</Value>
       <Description>Creates {THING:StructureReinforcedCompositeWindow} and other variants.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitHorizontalAutoMiner</Key>
+      <Value>Kit (OGRE)</Value>
+      <Description />
     </RecordThing>
   </Things>
   <Slots>
@@ -12149,7 +12156,7 @@ Carbon dioxide has a specific heat of 28.2 Joule/mol, meaning it makes a good co
       
 Due to obscure and largely forgotten &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; regulations, volatiles are sometimes labelled 'H2' by various items of technology. However, though they are similar to hydrogen, they're not 'actually' hydrogen. Volatiles will not produce water when combusted, without a catalyst (see the {THING:StructureH2Combustor}). Alone, they create pollutants and carbon dioxide when burned in the following ratio:
       
-2 Volatiles + 1 O2 -> 3X + 6CO2 + heat.
+2 Volatiles + 1 O2 -&gt; 3X + 6CO2 + heat.
 
 Volatiles have a specific heat of 20.4 Joule/mol.</Value>
     </Record>
