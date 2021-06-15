@@ -2627,7 +2627,7 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
     <RecordThing>
       <Key>ItemVolatiles</Key>
       <Value>Ice (Volatiles)</Value>
-      <Description>Volatile ices are a complex organic molecule, displayed for simplicity's sake by the {THING:CartridgeAtmosAnalyser} as H2.
+      <Description>An extremely reactive ice with numerous hydrocarbons trapped inside. For simplicity's sake, these are often displayed as H2 by devices like the {THING:CartridgeAtmosAnalyser}.
       
 Volatiles combust in a 2:1 ratio with oxygen, creating carbon dioxide and pollutants. However when catalysed via devices such as the {THING:H2Combustor} in the presence of oxygen, they produce water and heat with a modicum of CO2 and pollutants due to the autoignition of the volatiles in the chamber. Along with oxygen, volatiles gas is also the major component of fuel for such devices as the {THING:ItemWeldingTorch}.
 </Description>
@@ -4402,7 +4402,7 @@ When landing, the rocket will deploy a lander, and any cargo contained in the {T
     <RecordThing>
       <Key>H2Combustor</Key>
       <Value>H2 Combustor</Value>
-      <Description>Adapted slightly from its original &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; design, the H2 Combustor does exactly what its name suggests - it burns a mixture of {THING:Volatiles} and {THING:Oxygen) to create water. Extremely useful in hot or arid environments, users need to be aware that the combustor outputs considerable waste heat. The device is also less than perfectly efficient, resulting in the autoignition of volatiles in the chamber, and the production of waste gases which must be dealt with.</Description>
+      <Description>Adapted slightly from its original &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; design, the H2 Combustor does exactly what its name suggests - it burns a mixture of volatiles and oxygen to create water. Extremely useful in hot or arid environments, users need to be aware that the combustor outputs considerable waste heat. The device is also less than perfectly efficient, resulting in the autoignition of volatiles in the chamber, and the production of waste gases which must be dealt with.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeStraight</Key>
@@ -6720,10 +6720,10 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     </RecordThing>
     <RecordThing>
       <Key>StructureHorizontalAutoMiner</Key>
-      <Value>Horizontal Auto Miner</Value>
-      <Description>The &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; Gridlane autominer is a base structure with attached mining vehicle, which will mine a horizontal shaft up to X meters long. When full, the mining vehicle will return to the base to empty itself, before returning to dig. 
+      <Value>OGRE</Value>
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; OGRE (Orthogonal Ground Rotating Excavator) is a base structure with attached mining vehicle, which will mine a horizontal shaft up to X meters long. When full, the mining vehicle will return to the base to empty itself, before returning to dig. If it encounters empty space, it will also return to base and await instruction. 
       
-The autominer can be connected to a chute system, and is controllable by a logic network. Note that the autominer outputs more ore than a conventional {THING:ItemMiningDrill} over the same area.</Description>
+The OGRE can be connected to a chute system, and is controllable by a logic network. Note that the OGRE outputs more ore than a conventional {THING:ItemMiningDrill} over the same area, due to more efficient processing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedCompositeWindow</Key>
@@ -12145,9 +12145,9 @@ Carbon dioxide has a specific heat of 28.2 Joule/mol, meaning it makes a good co
     </Record>
     <Record>
       <Key>MoleVolatilesDescription</Key>
-      <Value>Volatiles are a complex organic molecule, which can be used in conjunction with oxygen as a combustible fuel. It is easily refined from {THING:ItemVolatiles}.
+      <Value>Volatiles are an extremely reactive, complex organic molecule, which can be used in conjunction with oxygen as a combustible fuel. It is refined from {THING:ItemVolatiles}.
       
-Due to obscure and largely forgotten &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; regulations, volatiles are sometimes labelled 'H2', but although they are similar to hydrogen, they're not 'actually' hydrogen e.g. volatiles will not produce water when combusted, without the right catalyst. Alone, they create pollutants and carbon dioxide when burned in the following ratio:
+Due to obscure and largely forgotten &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; regulations, volatiles are sometimes labelled 'H2' by various items of technology. However, though they are similar to hydrogen, they're not 'actually' hydrogen. Volatiles will not produce water when combusted, without a catalyst (see the {THING:StructureH2Combustor}). Alone, they create pollutants and carbon dioxide when burned in the following ratio:
       
 2 Volatiles + 1 O2 -> 3X + 6CO2 + heat.
 
