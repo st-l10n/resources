@@ -6723,9 +6723,17 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     <RecordThing>
       <Key>StructureHorizontalAutoMiner</Key>
       <Value>OGRE</Value>
-      <Description>The &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; OGRE (Orthogonal Ground Rotating Excavator) is a base structure with attached mining vehicle, which will mine a horizontal shaft up to X meters long. When full, the mining vehicle will return to the base to empty itself, before returning to dig. If it encounters empty space, it will also return to base and await instruction. 
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; OGRE (Orthogonal Ground Rotating Excavator) is a base structure with attached mining vehicle, which will mine a horizontal shaft up to X meters long. When full, the mining vehicle will return to the base to empty itself, before returning to dig. If it encounters empty space, it will also return to base and await instruction. The unit will return if deactivated.
       
-The OGRE can be connected to a chute system, and is controllable by a logic network. Note that the OGRE outputs more ore than a conventional {THING:ItemMiningDrill} over the same area, due to more efficient processing.</Description>
+The OGRE can be connected to a chute system, and is controllable by a logic network. Note that the OGRE outputs more ore than a conventional {THING:ItemMiningDrill} over the same area, due to more efficient processing.
+
+{HEADER:MODES}
+Idle - 0
+Mining - 1
+Returning - 2
+DepostingOre - 3
+Finished - 4
+</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedCompositeWindow</Key>
