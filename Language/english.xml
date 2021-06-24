@@ -2332,8 +2332,9 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <RecordThing>
       <Key>StructureWallCooler</Key>
       <Value>Wall Cooler</Value>
-      <Description>The &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; {THING:ItemWallCooler} complements the wall heater, which can only raise the temperature. The wall cooler functions by drawing heat from the surrounding atmosphere and adding that heat into its pipe network.
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; Freezy Boi wall cooler complements the wall heater, which can only raise the temperature. The wall cooler functions by drawing heat from the surrounding atmosphere and adding that heat into its pipe network.
 In order to run the wall cooler properly, you will need to connect pipes to the wall cooler and fill the connected pipe network with any type of gas. The gas's heat capacity and volume will determine how fast it reacts to temperature changes.
+
 {HEADER:EFFICIENCY}
 The higher the difference in temperature between the gas stored in the pipes and the room, the less efficient the wall cooler will be. So to keep the wall cooler running at an acceptable efficiency you will need to get rid of the heat that accumulates in the pipes connected to it. A common practice would be to run the pipes to the outside and use radiators on the outside section of the pipes to get rid of the heat.
 The less efficient the wall cooler, the less power it consumes. It will consume 1010W at max efficiency. The wall cooler can be controlled by logic chips to run when the temperature hits a certain degree.
@@ -12144,50 +12145,45 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     </Record>
     <Record>
       <Key>MoleOxygenDescription</Key>
-      <Value>Oxygen provides energy when released in combustion, and also bonds with hydrogen to create water. It is created by &lt;color=#0080FFFF&gt;{LINK:OrganicPage;plants}&lt;/color&gt;, as well as from processing {THING:ItemOxite}. It is highly flammable at low temperatures and has a specific heat of 21.1 Joule/mol.</Value>
+      <Value>Oxygen provides energy when released in combustion, and also bonds with hydrogen to create water. It is created by &lt;color=#0080FFFF&gt;{LINK:OrganicPage;plants}&lt;/color&gt;, as well as from processing {THING:ItemOxite}. It is highly flammable at low temperatures.</Value>
     </Record>
     <Record>
       <Key>MoleNitrogenDescription</Key>
-      <Value>Nitrogen can be mixed with oxygen to stablize its flammability, and is a resource in its own right, useful for creating, a breathable atmosphere (at roughly 3:1 Nitrogen and Oxygen).
-
-Nitrogen specific heat of 20.6 joule/mole.</Value>
+      <Value>Nitrogen can be mixed with oxygen to stablize its flammability, and is a resource in its own right, useful for creating, a breathable atmosphere (at roughly 3:1 Nitrogen and Oxygen).</Value>
     </Record>
     <Record>
       <Key>MoleCarbonDioxideDescription</Key>
       <Value>You breathe it out, &lt;color=#0080FFFF&gt;{LINK:OrganicPage;plants}&lt;/color&gt; breath it in. They don't grow without it.
       
-Carbon dioxide has a specific heat of 28.2 Joule/mol, meaning it makes a good coolant for devices like the {Thing:StructureWallCooler}. Water is better, but usually has more important uses.</Value>
+Carbon dioxide has a moderately high specific heat, meaning it makes a good coolant for devices like the Wall Coo
+{THING:StructureWallCooler}. Water is better, but usually has more important uses.</Value>
     </Record>
     <Record>
       <Key>MoleVolatilesDescription</Key>
       <Value>Volatiles are an extremely reactive, complex organic molecule, which can be used in conjunction with oxygen as a combustible fuel. It is refined from {THING:ItemVolatiles}.
       
-Due to obscure and largely forgotten &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; regulations, volatiles are sometimes labelled 'H2' by various items of technology. However, though they are similar to hydrogen, they're not 'actually' hydrogen. Volatiles will not produce water when combusted, without a catalyst (see the {THING:StructureH2Combustor}). Alone, they create pollutants and carbon dioxide when burned in the following ratio:
+Due to obscure and largely forgotten &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; regulations, volatiles are sometimes labelled 'H2' by various items of technology. However, though they are similar to hydrogen, they're not 'actually' hydrogen. Volatiles will not produce water when combusted, without a catalyst (see the {THING:H2Combustor}). Alone, they create pollutants and carbon dioxide when burned in the following ratio:
       
-2 Volatiles + 1 O2 -&gt; 3X + 6CO2 + heat.
-
-Volatiles have a specific heat of 20.4 Joule/mol.</Value>
+2 Volatiles + 1 O2 -&gt; 3X + 6CO2 + heat.</Value>
     </Record>
     <Record>
       <Key>MolePollutantDescription</Key>
       <Value>Also known as 'X', pollutants are created when smelting certain metals. A concentration of 0.1 mol or greater will cause your suit to warn about poison in the atmosphere.
       
-Pollutant has a specific heat of 24.8 Joule/mol, making it an excellent coolant.</Value>
+Pollutant has a high specific heat, making it an excellent coolant.</Value>
     </Record>
     <Record>
       <Key>MoleWaterDescription</Key>
-      <Value>You can obtain water by smelting or crushing {THING:ItemIce} using a {THING:StructureFurnace} or an {THING:StructureIceCrusher}, or by combusting volatiles and oxygen using the {THING:StructureH2Combustor}.
+      <Value>You can obtain water by smelting or crushing {THING:ItemIce} using a {THING:StructureFurnace} or an {THING:StructureIceCrusher}, or by combusting volatiles and oxygen using the {THING:H2Combustor}.
       
-Water is used to &lt;color=#0080FFFF&gt;{LINK:OrganicPage;plants}&lt;/color&gt; in order to stay alive, and grow &lt;color=#0080FFFF&gt;{LINK:NutritionPage;drink}&lt;/color&gt;. It is also an exceptional cooolant with a specific heat of 72 Joule/mol.
+Water is used to &lt;color=#0080FFFF&gt;{LINK:OrganicPage;plants}&lt;/color&gt; in order to stay alive, and grow &lt;color=#0080FFFF&gt;{LINK:NutritionPage;drink}&lt;/color&gt;. It is also an exceptional coolant with a very high specific heat capacity.
 
 Note: Water was previously treated as a gas, but a new system for liquids is being developed, including separate pipes, tanks, pumps, etc for liquids. Water is currently the only available liquid, and does not presently change states.
 </Value>
     </Record>
     <Record>
       <Key>MoleNitrousOxideDescription</Key>
-      <Value>Nitrous oxide is an inert gas that will knock players out if inhaled. It makes your {THING:ItemJetpackBasic} go whoosh.
-
-Nitrous oxide has a specific heat of 23 Joule/mol</Value>
+      <Value>Nitrous oxide is an inert gas that will knock players out if inhaled. It makes your {THING:ItemJetpackBasic} go whoosh.</Value>
     </Record>
   </Interface>
   <Colors>
