@@ -6034,7 +6034,7 @@
     </Record>
     <Record>
       <Key>ConnectionInput2</Key>
-      <Value>Eingangsverbindung</Value>
+      <Value>Eingangsverbindung 2</Value>
     </Record>
     <Record>
       <Key>ConnectionOutput</Key>
@@ -6042,7 +6042,7 @@
     </Record>
     <Record>
       <Key>ConnectionOutput2</Key>
-      <Value>Ausgangsverbindung</Value>
+      <Value>Ausgangsverbindung 2</Value>
     </Record>
     <Record>
       <Key>ConnectionWaste</Key>
@@ -6059,6 +6059,10 @@
     <Record>
       <Key>SettingsChunkRenderDistance</Key>
       <Value>Render-Distanz</Value>
+    </Record>
+    <Record>
+      <Key>ScenarioScoreboardBackToMenu</Key>
+      <Value>Zurück zum Hauptmenü</Value>
     </Record>
     <Record>
       <Key>ScenarioScoreboardReturnToGame</Key>
@@ -6429,6 +6433,14 @@
       <Value>Erzwingt das erneue Senden der Ausgangswerte einer Schreibeinheit</Value>
     </Record>
     <Record>
+      <Key>LogicTypeSignalStrength</Key>
+      <Value>Gibt die Stärke des stärksten Signals zurück, das von diesem Satelliten empfangen wurde</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSignalID</Key>
+      <Value>Gibt die Kontakt-ID des stärksten Signals von diesem Satelliten zurück</Value>
+    </Record>
+    <Record>
       <Key>LogicSlotTypeNone</Key>
       <Value>Keine Beschreibung</Value>
     </Record>
@@ -6525,16 +6537,44 @@
       <Value>Speichert</Value>
     </Record>
     <Record>
+      <Key>SpinnerPannelDone</Key>
+      <Value>Fertig</Value>
+    </Record>
+    <Record>
       <Key>ContactsTrading</Key>
       <Value>Kontakte</Value>
+    </Record>
+    <Record>
+      <Key>TraderGoneMissing</Key>
+      <Value>Es scheint, dass der Kontakt weitergezogen ist.</Value>
     </Record>
     <Record>
       <Key>Trade</Key>
       <Value>Handel</Value>
     </Record>
     <Record>
+      <Key>Locked</Key>
+      <Value>Gesperrt</Value>
+    </Record>
+    <Record>
+      <Key>ContactEventDefault</Key>
+      <Value>Es gab keine Antwort.</Value>
+    </Record>
+    <Record>
+      <Key>ContactTradeRequest</Key>
+      <Value>Ein Händler hat um Erlaubnis zur Landung gebeten.</Value>
+    </Record>
+    <Record>
+      <Key>ContactNoResponse</Key>
+      <Value>Es gab keine Antwort.</Value>
+    </Record>
+    <Record>
       <Key>ContactLandingRequestFailVendingMachine</Key>
       <Value>Du brauchst einen eingeschalten Verkaufsautomat im Netzwerk, um mit dem Händler zu interagieren.</Value>
+    </Record>
+    <Record>
+      <Key>InputTextTradingTitle</Key>
+      <Value>Handelsterminal</Value>
     </Record>
     <Record>
       <Key>ButtonContact</Key>
