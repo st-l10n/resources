@@ -6817,6 +6817,10 @@
       <Value>Du brauchst einen eingeschalten Verkaufsautomat im Netzwerk, um mit dem Händler zu interagieren.</Value>
     </Record>
     <Record>
+      <Key>ContactLandingRequestFailStorm</Key>
+      <Value>Der Händler kann bei diesem Sturm nicht reisen.</Value>
+    </Record>
+    <Record>
       <Key>InputTextTradingTitle</Key>
       <Value>Handelsterminal</Value>
     </Record>
@@ -6983,6 +6987,10 @@
     <Record>
       <Key>AtmosphereScatteringField</Key>
       <Value>Atmosphärische Streuung</Value>
+    </Record>
+    <Record>
+      <Key>MineablesField</Key>
+      <Value>Abbaubares</Value>
     </Record>
     <Record>
       <Key>LevelLevelField</Key>
@@ -7301,6 +7309,10 @@
       <Value>Rauheitsmultiplikator</Value>
     </Record>
     <Record>
+      <Key>ActivateResearch</Key>
+      <Value>Startet den Forschungsprozess.</Value>
+    </Record>
+    <Record>
       <Key>CurrentResearchPodType</Key>
       <Value>Gibt den Hash des Gegenstandes im Slot zurück</Value>
     </Record>
@@ -7357,6 +7369,10 @@
       <Value>Register = 1 wenn a und b 0 sind, sonst 0</Value>
     </Record>
     <Record>
+      <Key>ScriptCommandYield</Key>
+      <Value>Pausiert die Ausführung für 1 Tick</Value>
+    </Record>
+    <Record>
       <Key>ScriptCommandSleep</Key>
       <Value>Unterbricht die Ausführung auf dem IC für x Sekunden</Value>
     </Record>
@@ -7383,6 +7399,10 @@
     <Record>
       <Key>ScriptCommandATan</Key>
       <Value>Gibt einen Winkel zurück, dessen Tangens die angegebene Zahl ist</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandCommand</Key>
+      <Value>Befehl</Value>
     </Record>
     <Record>
       <Key>BluePodType</Key>
@@ -7433,6 +7453,10 @@
       <Value>Werkzeuge</Value>
     </Record>
     <Record>
+      <Key>ResearchOrganics</Key>
+      <Value>Organisches</Value>
+    </Record>
+    <Record>
       <Key>ResearchConstruction</Key>
       <Value>Konstruktion</Value>
     </Record>
@@ -7445,6 +7469,18 @@
       <Value>Fahrzeuge</Value>
     </Record>
     <Record>
+      <Key>ResearchRequirementNotMet</Key>
+      <Value>Du erfüllst nicht die Anforderungen, um diese Forschung freizuschalten.</Value>
+    </Record>
+    <Record>
+      <Key>ResearchUnlockConfirm</Key>
+      <Value>Möchtest du diese Forschung freischalten?</Value>
+    </Record>
+    <Record>
+      <Key>WarningSavePathNotWritable</Key>
+      <Value>Der Speicherpfad ist nicht beschreibbar</Value>
+    </Record>
+    <Record>
       <Key>FramerateLock</Key>
       <Value>FPS beschränken</Value>
     </Record>
@@ -7455,6 +7491,10 @@
     <Record>
       <Key>LaunchRocketAlert</Key>
       <Value>Möchtest du die Rakete starten</Value>
+    </Record>
+    <Record>
+      <Key>StatusWindowVitals</Key>
+      <Value>Vitalfunktionen</Value>
     </Record>
     <Record>
       <Key>StatusWindowTarget</Key>
@@ -7783,6 +7823,10 @@
     <Record>
       <Key>LightString</Key>
       <Value>Licht</Value>
+    </Record>
+    <Record>
+      <Key>FixedWeatherEventMissing</Key>
+      <Value>Kein Wettersystem für diese Welt gefunden. Das Standard-Wettermodell wurde angewendet. Erwarte einige Turbulenzen.</Value>
     </Record>
     <Record>
       <Key>AdvancedTutorialButton</Key>
