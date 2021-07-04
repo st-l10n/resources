@@ -4120,6 +4120,10 @@
       <Value>Verstärktes Solarmodul</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemAstroloySheets</Key>
+      <Value>Astroloyplatten</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureRocketModuleMiningJunk</Key>
     </RecordThing>
   </Things>
@@ -7458,7 +7462,7 @@
     </Record>
     <Record>
       <Key>ControlMouseDragDisc</Key>
-      <Value>Reflektionen</Value>
+      <Value>Auswahl bewegen</Value>
     </Record>
     <Record>
       <Key>ControlSecondaryActionBuildModeDisc</Key>
@@ -7478,11 +7482,15 @@
     </Record>
     <Record>
       <Key>ControlMouseScrollDisc</Key>
-      <Value>Szenario Abgeschlossen</Value>
+      <Value>Gegenstand auswählen</Value>
     </Record>
     <Record>
       <Key>ControlTurnOnDisc</Key>
       <Value>Einschalten</Value>
+    </Record>
+    <Record>
+      <Key>ControlQuickMove</Key>
+      <Value>Mausrad + {KEY:InventorySelect}</Value>
     </Record>
     <Record>
       <Key>WeatherEventsField</Key>
