@@ -7613,6 +7613,26 @@
       <Value>Ernten</Value>
     </Record>
     <Record>
+      <Key>CommandSetHunger</Key>
+      <Value>Setzt die Sättigungsabnahme. : &quot;/hungerrate 0.25&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandPause</Key>
+      <Value>Pausiert das Spiel für alle verbundenen Spieler. : &quot;/pause&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandResume</Key>
+      <Value>Setzt das Spiel für alle verbundenen Spieler fort. : &quot;/resume&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandToggleGod</Key>
+      <Value>Schaltet Unverwundbarkeit für einen Spieler, inklusive des Anzuges um. : &quot;/tg&quot;</Value>
+    </Record>
+    <Record>
+      <Key>CommandToggleInfinitePower</Key>
+      <Value>Schaltet unendlich Energie für einen Spieler oder serverweit um. : &quot;/tgp&quot;</Value>
+    </Record>
+    <Record>
       <Key>CommandToggleGameMode</Key>
       <Value>Wechselt den Spielmodus zwischen Survival und Creative. : &quot;/tgm&quot;</Value>
     </Record>
@@ -7681,6 +7701,10 @@
       <Value>Auto-Drehen</Value>
     </Record>
     <Record>
+      <Key>ControlMouseScroll</Key>
+      <Value>Mausrad</Value>
+    </Record>
+    <Record>
       <Key>ControlMouseScrollDisc</Key>
       <Value>Gegenstand auswählen</Value>
     </Record>
@@ -7722,7 +7746,7 @@
     </Record>
     <Record>
       <Key>LightString</Key>
-      <Value>Helligkeit</Value>
+      <Value>Licht</Value>
     </Record>
     <Record>
       <Key>AdvancedTutorialButton</Key>
