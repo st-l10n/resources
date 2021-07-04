@@ -5309,16 +5309,20 @@
       <Value>&lt;color=red&gt;Bauen unmöglich&lt;/color&gt;.</Value>
     </Record>
     <Record>
+      <Key>PortableConnectionFailure</Key>
+      <Value>Kann {0} nur mit {1} verbinden</Value>
+    </Record>
+    <Record>
       <Key>TooltipRotateLeftRight</Key>
-      <Value>{KEY:RotateLeft} und {KEY:RotateRight} dreht nach Links und Rechts.</Value>
+      <Value>Mit {KEY:RotateLeft} nach links und {KEY:RotateRight} nach Rechts drehen.</Value>
     </Record>
     <Record>
       <Key>TooltipRotateUpDown</Key>
-      <Value>{KEY:RotateUp} und {KEY:RotateDown} dreht nach Oben und Unten.</Value>
+      <Value>Mit {KEY:RotateUp} nach oben und {KEY:RotateDown} nach unten drehen.</Value>
     </Record>
     <Record>
       <Key>TooltipRollLeftRight</Key>
-      <Value>{KEY:RotateRollLeft} und {KEY:RotateRollRight} rollt nach Links und Rechts.</Value>
+      <Value>Mit {KEY:RotateRollLeft} nach links und {KEY:RotateRollRight} nach Rechts rollen.</Value>
     </Record>
     <Record>
       <Key>SettingsExtendedTooltips</Key>
@@ -5334,7 +5338,7 @@
     </Record>
     <Record>
       <Key>TooltipAllowsMounting</Key>
-      <Value>Erlaubt das Platzieren von Wandgebundenen Objekten. Aufwertungen erlauben mehr Patzierungsmöglichkeiten.</Value>
+      <Value>Erlaubt das Platzieren von wandgebundenen Objekten. Aufwertungen erlauben mehr Patzierungsmöglichkeiten.</Value>
     </Record>
     <Record>
       <Key>TooltipPlacementSnapGrid</Key>
