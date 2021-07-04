@@ -5350,15 +5350,31 @@
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFaceMount</Key>
-      <Value>Platzierung ist nur direkt an {THING:StructureFrameIron} und {THING:StructureFrame}-Strukturen erlaubt. Sind diese Aufgewertet, gewähren sie mehr Patzierungsmöglichkeiten.</Value>
+      <Value>Platzierung ist an das Sub-Gitter gebunden.</Value>
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFaceMountMissingFrame</Key>
-      <Value>Platzierung ist nur direkt an {THING:StructureFrameIron} und {THING:StructureFrame}-Strukturen erlaubt. Sind diese Aufgewertet, gewähren sie mehr Patzierungsmöglichkeiten.</Value>
+      <Value>Platzierung ist nur direkt an {THING:StructureFrameIron} und {THING:StructureFrame}-Strukturen erlaubt.</Value>
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFaceMountMissingSupport</Key>
-      <Value>Platzierung ist an das Gitter gebunden.</Value>
+      <Value>Die Platzierung benötigt einen Träger</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceMountBlockedDynamic</Key>
+      <Value>Platzierung durch #VAR1# blockiert</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceMountBlockedFallback</Key>
+      <Value>Platzierung blockiert</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceNotMountableDynamic</Key>
+      <Value>#VAR1# verhindert ein Anbringen</Value>
+    </Record>
+    <Record>
+      <Key>TooltipPlacementSnapFaceNotMountableFallback</Key>
+      <Value>Eine dieser Strukturen erlaubt keine Platzierung</Value>
     </Record>
     <Record>
       <Key>GameMenuClearDisconnectedPlayers</Key>
