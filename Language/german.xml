@@ -7038,47 +7038,63 @@
     </Record>
     <Record>
       <Key>ScriptCommandNor</Key>
-      <Value>Gibt 1 zurück, wenn das Gerät gerade im Leerlauf ist, sonst 0</Value>
+      <Value>Register = 1 wenn a und b 0 sind, sonst 0</Value>
+    </Record>
+    <Record>
+      <Key>ScriptCommandSleep</Key>
+      <Value>Unterbricht die Ausführung auf dem IC für x Sekunden</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSin</Key>
-      <Value>Gibt die gesamten Mol des Gerätes zurück</Value>
+      <Value>Gibt den Sinus des angegebenen Winkels zurück</Value>
     </Record>
     <Record>
       <Key>ScriptCommandCos</Key>
-      <Value>Gibt die gesamten Mol des Gerätes zurück</Value>
+      <Value>Gibt den Kosinus des angegebenen Winkels zurück</Value>
     </Record>
     <Record>
       <Key>ScriptCommandTan</Key>
-      <Value>Gibt die gesamten Mol des Gerätes zurück</Value>
+      <Value>Gibt den Tangens des angegebenen Winkels zurück</Value>
     </Record>
     <Record>
       <Key>ScriptCommandASin</Key>
-      <Value>Gibt das Volumen der Geräteatmosphäre zurück</Value>
+      <Value>Gibt einen Winkel zurück, dessen Sinus die angegebene Zahl ist</Value>
     </Record>
     <Record>
       <Key>ScriptCommandACos</Key>
-      <Value>Gibt die gesamten Mol des Gerätes zurück</Value>
+      <Value>Gibt einen Winkel zurück, dessen Kosinus die angegebene Zahl ist</Value>
     </Record>
     <Record>
       <Key>ScriptCommandATan</Key>
-      <Value>Gibt die Gesundheit der Pflanze im Slot zurück</Value>
+      <Value>Gibt einen Winkel zurück, dessen Tangens die angegebene Zahl ist</Value>
     </Record>
     <Record>
       <Key>BluePodType</Key>
-      <Value>Blau:</Value>
+      <Value>Blau</Value>
+    </Record>
+    <Record>
+      <Key>RedPodType</Key>
+      <Value>Rot</Value>
     </Record>
     <Record>
       <Key>GreenPodType</Key>
-      <Value>Grün:</Value>
+      <Value>Grün</Value>
     </Record>
     <Record>
       <Key>YellowPodType</Key>
-      <Value>Farbstoff (Gelb)</Value>
+      <Value>Gelb</Value>
+    </Record>
+    <Record>
+      <Key>SettingsResearch</Key>
+      <Value>Forschungsbereich Auswahl</Value>
+    </Record>
+    <Record>
+      <Key>DialogConfirmResearchUnlock</Key>
+      <Value>Möchten Sie diese Forschung freischalten?</Value>
     </Record>
     <Record>
       <Key>ResearchRequirementTitle</Key>
-      <Value>Experimente</Value>
+      <Value>Anforderungen</Value>
     </Record>
     <Record>
       <Key>ResearchUnlocksTitle</Key>
