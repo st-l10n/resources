@@ -1392,18 +1392,6 @@
       <Value>Franciakulcs</Value>
     </RecordThing>
     <RecordThing>
-      <Key>MotherboardLogic</Key>
-      <Value>Alaplap (Logika)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>MotherboardManufacturing</Key>
-      <Value>Alaplap (Gyártás)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>MotherboardSorter</Key>
-      <Value>Alaplap (Szortírozás)</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>MothershipCore</Key>
       <Value>Anyahajó mag</Value>
     </RecordThing>
@@ -3308,10 +3296,6 @@
       <Value>Űrgomba</Value>
     </RecordThing>
     <RecordThing>
-      <Key>MotherboardComms</Key>
-      <Value>Alaplap (Kommunikáció)</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>ItemMarineBodyArmor</Key>
       <Value>Tengerészgyalogos páncél</Value>
     </RecordThing>
@@ -3594,10 +3578,6 @@
     <RecordThing>
       <Key>ItemKitAIMeE</Key>
       <Value>Készlet (RoBI)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitAutoMinerSmall</Key>
-      <Value>(Készlet) Automata bányagép</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemDirtCanister</Key>
@@ -4402,10 +4382,6 @@
     <RecordThing>
       <Key>ItemAstroloySheets</Key>
       <Value>Astroloy lemezek</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemMiningBeltAdvanced</Key>
-      <Value>Bányászöv (Fejlett)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWindTurbine</Key>
@@ -5905,11 +5881,6 @@
       <Value>Bevezető teljesítve</Value>
     </Record>
     <Record>
-      <Key>TutorialCompleteMessage</Key>
-      <Value>Még sokat kell tanulnod.
-                                              Szóval indulás, Stationeer!</Value>
-    </Record>
-    <Record>
       <Key>TutorialBackToMenu</Key>
       <Value>Vissza a menübe</Value>
     </Record>
@@ -5925,11 +5896,6 @@
       <Key>MothershipConstruction</Key>
       <Value>NEXTPREVIOUS
 &lt;color=yellow&gt;Építés az anyahajón&lt;/color&gt;.</Value>
-    </Record>
-    <Record>
-      <Key>MulticonstructorItem</Key>
-      <Value>&lt;color=yellow&gt;Építési lehetőség {0}/{1}&lt;/color&gt;
-                                              Válts &lt;color=red&gt;görgővel&lt;/color&gt; az opciók között!</Value>
     </Record>
     <Record>
       <Key>UnableToConstruct</Key>
@@ -6192,11 +6158,6 @@
       <Value>A játékverzió nem egyezik a szerverével.</Value>
     </Record>
     <Record>
-      <Key>AlertNoResponse</Key>
-      <Value>A játékszerver nem válaszol.
-                                              Próbáld újra.</Value>
-    </Record>
-    <Record>
       <Key>AlertKicked</Key>
       <Value>Ki lettél rúgva a szerverről.</Value>
     </Record>
@@ -6439,20 +6400,6 @@
     <Record>
       <Key>NewWorldAreaCustom</Key>
       <Value>Egyéni</Value>
-    </Record>
-    <Record>
-      <Key>NewWorldMoonDesc</Key>
-      <Value>Hát, a Holdon ragadtál, de nincs semmi gáz. Jó, egy kicsit hideg van, a táj durva és monoton, de legalább süt a Nap. A napelemeknek jó hasznát veheted. Meg az áramszabályozóknak... és talán az elektromos kemencéknek is.
-                                              Még egy kis kaja és oxigén is van a többi ládában, bár valószínűleg nem fog örökké kitartani. Az elemeid sem.
-                                              Jobb, ha elkezdesz azon gondolkozni, hogyan élj túl. Milyen nehéz lehet légzsilipet építeni? Egy generátort? Talán még érceket is lehetne olvasztani egy bázis építéséhez?
-                                              Úgy néz ki itt leszel egy darabig.</Value>
-    </Record>
-    <Record>
-      <Key>NewWorldSpaceDesc</Key>
-      <Value>Ez a Statinoneers kreatív módja. Hívj le bármilyen tárgyat, próbáld ki új ötleteidet és építs fel mindenféle őrültséget!
-                                              &lt;color=red&gt;Ez egy kísérleti játékmód.&lt;/color&gt; Gondolj rá úgy, mint egy űrpartira, ahol izgalmas és váratlan dolgok* történnek és történhetnek, szemben a jóval megbízhatóbb túlélő mód halálközeli élményével!
-                                              Csak ne szomorkodj, amikor felrobbantod magad icike picike darabkákra vagy csirkék tépnek szét vagy szétpukkansz a végtelen űrben száguldva egy bádogdobozban.
-*bugok, hibák</Value>
     </Record>
     <Record>
       <Key>TextboxEnterName</Key>
@@ -8211,31 +8158,8 @@
       <Value>gyógyítja a játékost: &quot;/fillhealth&quot;</Value>
     </Record>
     <Record>
-      <Key>GeFabrikDesc</Key>
-      <Value>A GeFabrik eredetileg a német Gewehrfabrik GmbH néven volt ismert, most a világ egyik legrégebb ideje üzemelő és nagyon elismert fegyver- és gépgyára. Rendkívül pontos, csúcskategóriás fegyvereket gyártanak.
-Az európai fegyvergyártás összeomlása után a 2030-as években alapította egy csapat munkanélküli fegyvergyáros. Az megújított, eredeti dizájnelvek alapján dolgoztak, a hosszadalmas teszteléseikről híresültek el, mivel egyes fegyvereket akár egy évtizeden keresztül is ellenőriztek, minden legapróbb részletet javítva, ezzel &quot;ganz&quot; típusokat előállítva.
-Úgy tartják, hogy a GeFabrik volt az, aki megmentette Németország gyártási hírnevét, de ugyanakkor semmit sem tettek a humorérzékükért.</Value>
-    </Record>
-    <Record>
       <Key>ODA</Key>
       <Value>FFÜ</Value>
-    </Record>
-    <Record>
-      <Key>XigoDesc</Key>
-      <Value>Egy i. sz. 2150-es felmérés szerint a Xigo &quot;X&quot;-sze számított az egyik legismertebb szimbólumnak a világon. Ennek ellenére kevés megkérdezett tudta, mivel foglalkozik egyáltalán a vállalat.
-Számos teória, pénzügyi kutatás és per témája is volt, hogy mi a cég célja. Eredetileg egy árösszehasonlító weboldalt üzemeltettek, aztán bővültek adatfeldolgozással, áruk eladásával, illetve majd gyártásával.
-Látszólag válogatás nélküli terjeszkedésről volt szó, mely nem egy, hanem az összes iparágra összpontosított - olyan sok területet felölelve, hogy az üzleti elemzők nagyrészt elutasították a Xigo jelenlétét, mint egyetlen entitás. Inkább úgy tekintettek rá, mint emberi aktivitások egy csoportjára. Bár az ilyen statisztikák - természetükből kifolyólag - nehezen alátámaszthatók, a becslések szerint a Xigo az emberiség majdnem 1,5%-ának biztosít munkahelyet.
-Szóval mit csinálnak? Majdnem mindent.</Value>
-    </Record>
-    <Record>
-      <Key>StationeersDesc</Key>
-      <Value>A 22. század elején kezdett el a Föld népessége kilábalni a válságból. Az erőforrások kifogytak, és a népességszám lecsökkent. A kor meghatározó gondolata az újjáépítés lett.
-A &lt;color=#0080FFFF&gt;{LINK:ODA;Földönkívüli Fejlesztési Ügynökség}&lt;/color&gt; (FFÜ) i. sz. 2095-ben kezdeményezte a Stationeers Programot, melynek egyetlen célja volt: az emberiség eljuttatása a csillagokba.
-A stationeerek mindenre ki lettek képezve: űrhajósok, mérnökök és felfedezők, akiket csekély eszközzel látnak el. Őket arra képezték, hogy kevéssel sokat érjenek el. A környezetet a saját előnyükre formálják, infrastruktúrát építenek ki emberek számára az űrben, a megszokott űrprogramoknál jóval olcsóbban.
-Képesek bázist építeni és karbantartani a Holdtól kezdve a Mimasig, és tovább... a Stationeerek a kozmosz úttörői. Tanultak földöntúli túlélést, bányászatot, elektronikát, építészetet, kohászatot, rakétatechnikát, hidroponikát és más &quot;misztikus&quot; tudományokat, a Stationeerek mindent megtesznek a túléléshez.
-A belépéshez nincs külön kritérium, nem létezik &quot;tipikus&quot; Stationeer. A megatott pszichológia profil szerint egy sikeres jelöltnek rendelkeznie kell &quot;alapvető&quot; pragmatizmussal és céltudatossággal, de a gyakorlatban ez nem feltétlen szükséges, a leghíresebb Stationeerek közül sem ilyenek sokan.
-Leginkább mérnöki, katonai vagy űripari, szoftverfejlesztői vagy bányászati háttérrel rendelkezőket vesznek fel, de akár vallási területről érkezőket is szívesen fogadnak. A Stationeers Program minden egyes ember számára nyitva áll!
-</Value>
     </Record>
     <Record>
       <Key>ControlMouseControlDisc</Key>
@@ -8506,20 +8430,8 @@ Leginkább mérnöki, katonai vagy űripari, szoftverfejlesztői vagy bányásza
       <Value>Megtalálható</Value>
     </Record>
     <Record>
-      <Key>StationpediaConstructionOptions</Key>
-      <Value>Építési lehetőségek</Value>
-    </Record>
-    <Record>
       <Key>StationpediaModeHeader</Key>
       <Value>Mód</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaLogicHeader</Key>
-      <Value>Logika</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaLogicSlotHeader</Key>
-      <Value>Logikai slotok</Value>
     </Record>
     <Record>
       <Key>StationpediaTutorialListHeader</Key>

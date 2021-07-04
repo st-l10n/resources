@@ -1333,18 +1333,6 @@
       <Value>Clé à molette</Value>
     </RecordThing>
     <RecordThing>
-      <Key>MotherboardLogic</Key>
-      <Value>Carte mère (Logique)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>MotherboardManufacturing</Key>
-      <Value>Carte mère (Fabricateur)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>MotherboardSorter</Key>
-      <Value>Carte mère (Trieur)</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>MothershipCore</Key>
       <Value>Noyau de Vaisseau mère</Value>
     </RecordThing>
@@ -3161,10 +3149,6 @@
       <Value>Interrupteur Logique d&apos;écriture</Value>
     </RecordThing>
     <RecordThing>
-      <Key>MotherboardProgrammableChip</Key>
-      <Value>Carte mère (Editeur IC)</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>ItemKitLogicCircuit</Key>
       <Value>Kit (Support IC)</Value>
     </RecordThing>
@@ -3247,10 +3231,6 @@
     <RecordThing>
       <Key>ItemAlienMushroom</Key>
       <Value>Champignon extraterrestre</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>MotherboardComms</Key>
-      <Value>Carte mère (Communications)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemMarineBodyArmor</Key>
@@ -3623,14 +3603,6 @@
     <RecordThing>
       <Key>ItemVoxelTool</Key>
       <Value>Outil Voxel</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureAutoMinerSmall</Key>
-      <Value>Petite station de minage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitAutoMinerSmall</Key>
-      <Value>Kit (Petite station de minage)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemDirtCannister</Key>
@@ -4667,10 +4639,6 @@
     <RecordThing>
       <Key>ItemAstroloySheets</Key>
       <Value>Plaques d&apos;astroloy</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemMiningBeltAdvanced</Key>
-      <Value>Ceinture de mineur MKII</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWindTurbine</Key>
@@ -6314,11 +6282,6 @@
       <Value>Tutoriel terminé</Value>
     </Record>
     <Record>
-      <Key>TutorialCompleteMessage</Key>
-      <Value>Il y a encore beaucoup à apprendre.
-Alors au boulot, Stationeer !</Value>
-    </Record>
-    <Record>
       <Key>TutorialBackToMenu</Key>
       <Value>Retour au menu</Value>
     </Record>
@@ -6333,11 +6296,6 @@ Alors au boulot, Stationeer !</Value>
     <Record>
       <Key>MothershipConstruction</Key>
       <Value>&lt;color=yellow&gt;Construire sur le vaisseau mère.&lt;/color&gt;</Value>
-    </Record>
-    <Record>
-      <Key>MulticonstructorItem</Key>
-      <Value>&lt;color=yellow&gt;Option de construction {0} de {1} &lt;/color&gt;
-Scroll &lt;color=red&gt;Roulette de la souris&lt;/color&gt; pour plus d&apos;options.</Value>
     </Record>
     <Record>
       <Key>UnableToConstruct</Key>
@@ -6600,11 +6558,6 @@ Scroll &lt;color=red&gt;Roulette de la souris&lt;/color&gt; pour plus d&apos;opt
       <Value>Incompatibilité de version du jeu avec le serveur.</Value>
     </Record>
     <Record>
-      <Key>AlertNoResponse</Key>
-      <Value>Le serveur de jeu ne répond pas. 
-Veuillez réessayer.</Value>
-    </Record>
-    <Record>
       <Key>AlertKicked</Key>
       <Value>Vous avez été expulsé du serveur.</Value>
     </Record>
@@ -6833,22 +6786,6 @@ Veuillez réessayer.</Value>
       <Value>Personnalisé</Value>
     </Record>
     <Record>
-      <Key>NewWorldMoonDesc</Key>
-      <Value>Donc, vous êtes coincé sur la lune, mais tout n&apos;est pas mauvais.
-Bien sûr, il fait froid, dur et joli monotone, mais au moins le soleil brille. Le panneau solaire va être utile, ainsi que le contrôleur de puissance ... et probablement aussi le four à arc.
-Il y a même un peu de nourriture et d&apos;oxygène dans les autres caisses, bien que cela ne dure définitivement pas éternellement. Ni est votre batterie.
-Tu ferais mieux de commencer à penser à la façon dont tu vas survivre. Comment pourrait-il être difficile de monter un sas? Un générateur? Peut-être même fondu du minerai et construit-il une base?
-On dirait que tu vas être ici un moment.</Value>
-    </Record>
-    <Record>
-      <Key>NewWorldSpaceDesc</Key>
-      <Value>C&apos;est le mode créatif de Stationeers !
-Fabriquez n&apos;importe quel objet, testez des idées et construisez des trucs dingues très rapidement.
-&lt;color=red&gt;Ce mode est expérimental.&lt;/color&gt; Voyez-le comme une fête spatiale libre où des choses excitantes et inattendues* peuvent et vont se produire, comparé à l&apos;expérience plus fiable de mort imminente du mode Survie.
-Ne soyez pas triste lorsque vous vous faites exploser en tout petits morceaux ou que vous êtes attaqué par des poulets ou que vous explosez lentement en dérivant seul dans le vide infini.
-*bugs</Value>
-    </Record>
-    <Record>
       <Key>TextboxEnterName</Key>
       <Value>Entrer un Nom...</Value>
     </Record>
@@ -6919,11 +6856,6 @@ Ne soyez pas triste lorsque vous vous faites exploser en tout petits morceaux ou
     <Record>
       <Key>FurnaceChamber</Key>
       <Value>Chambre</Value>
-    </Record>
-    <Record>
-      <Key>FurnaceChamberText</Key>
-      <Value>Pression {0} 
-                                      Temperature {1}</Value>
     </Record>
     <Record>
       <Key>FurnaceSmelting</Key>
@@ -7389,25 +7321,6 @@ Soyez très prudent lorsque vous marchez ou sautez, car vous pouvez parcourir un
       <Value>Indique 1 si le périphérique est actuellement inactif, sinon 0</Value>
     </Record>
     <Record>
-      <Key>LogicTypeColor</Key>
-      <Value>Que ce soit par souci de clarté, de sécurité ou de simple esthétique, les &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; ont accès à un petit panel de couleurs pour leurs constructions. Ci-dessous, les paramètres de couleur, représentés par un nombre entier.
-
-0: Bleu
-1: Gris
-2: Vert
-3: Orange
-4: Rouge
-5: Jaune
-6: Blanc
-7: Noir
-8: Marron
-9: Kaki
-10: Rose
-11: Violet
-
-C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera violet. L&apos;&lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; est impuissante à changer cela. De même, tout ce qui est inférieur à 0 sera bleu.</Value>
-    </Record>
-    <Record>
       <Key>LogicTypeElevatorSpeed</Key>
       <Value>Vitesse actuelle de l&apos;ascenseur</Value>
     </Record>
@@ -7674,10 +7587,6 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
     <Record>
       <Key>ContactLandingRequestFailVendingMachine</Key>
       <Value>Vous avez besoin d’un distributeur automatique connecté au réseau pour interagir avec ce marchant.</Value>
-    </Record>
-    <Record>
-      <Key>ContactLandingRequestFailSatellite</Key>
-      <Value>Il y a un problème avec votre satellite. Vérifiez s’il est connecté au réseau et alimenté en énergie.</Value>
     </Record>
     <Record>
       <Key>ContactLandingRequestFailStorm</Key>
@@ -9152,89 +9061,6 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
       <Value>Ajoute du gaz ou des liquides à un réservoir ou un réseau de canalisations donné. : &quot;/addgas [refID] [gasType 1-8] [molecount]&quot;</Value>
     </Record>
     <Record>
-      <Key>AgrizeroDesc</Key>
-      <Value>Agrizero est une entreprise de biotechnologie agricole axée sur la recherche et le déploiement hors-monde de technologies agricoles. L’objectif de l’entreprise est de fournir un réseau de &quot;bio-usines&quot; autonomes et autosuffisantes qui, à terme, alimenteront un million d’êtres humains dans l’espace.
-Émergeant des catastrophes environnementales de la fin du XXIe siècle, l’entreprise prends racine dans les initiatives chinoises d’agriculture artificielle. Elle s’est maintenant étendue aux installations de la ceinture d’astéroïdes, où l’approvisionnement en astéroïdes de glace rend l’agriculture verticale en environnement contrôlée extrêmement prometteuse.
-Alors que beaucoup de leurs installations sont encore en construction, Agrizero est déjà l’un des principaux fournisseurs de groupes hors-monde tels que &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;, &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; et &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; à travers un réseau de commerçants en constante expansion.</Value>
-    </Record>
-    <Record>
-      <Key>AsuraDesc</Key>
-      <Value>Asura Biomedia a été fondée au début du 22e siècle par Ashan Gurwaja, trillionaire de Mumbai. Théoriquement axée sur la «biotechnologie», l’entreprise a toujours eu une notion « élastique » de ce que cela impliquait, depuis les produits pharmaceutiques jusqu’aux aliments pour animaux de compagnie.
-L’expérience de Gurwaja dans les entreprises de bio-ingénierie a placé l’entreprise au plus haut niveau des industries de bio-sciences dès le début, et elle a grandi exactement comme son fondateur l’avait prévu : rapidement et de manière fiable. L&apos;entreprise est structurée spécifiquement pour engloutir toutes les petites entreprises sur son chemin.
-Vers le milieu du siècle, les ambitions d’Asura ont évolué pour englober l’ensemble des systèmes de santé – elle est aujourd’hui le plus grand fournisseur de soins de santé sur Terre, intégrant les hôpitaux et les soins primaires avec les fournitures médicales, la production pharmaceutique et la vente au détail, les soins résidentiels et les services funéraires.
-En 2150, l’entreprise d’Asura était une simple proposition, comme en témoigne leur célèbre slogan publicitaire, si ce n’est tristement célèbre : « Nous sommes en vous ».</Value>
-    </Record>
-    <Record>
-      <Key>CHACDesc</Key>
-      <Value>Fondée en 2085 pour produire des armes pour les forces spatiales de &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt;, la société est connue pour fabriquer des armes hautement fiables et abordables pour une utilisation hors monde.
-Leur approche pragmatique se traduit par l’accent mis sur les conceptions adaptées à l’impression 3D et à la production de masse, ainsi que par une grande réutilisation des composants entre les modèles et les classes d’armes.
-En conséquence, bien que les canons CHAC n&apos;excellent dans aucune catégorie particulière, et n’ont certainement jamais été accusés de grandeurs. Ils ne souffrent pas de manquements importants et ont suffisamment bien passé les tests les plus connues pour que leurs concepteurs aient gagné le titre informel d&apos;armurier du système solaire.</Value>
-    </Record>
-    <Record>
-      <Key>ExMinDesc</Key>
-      <Value>Au lendemain de la catastrophe de Sisyphe sur Mars en 2079, le déplacement d’astéroïdes a été officiellement interdit par l’ &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;. Ce changement a forcé l’industrie minière spatiale naissante à reconsidérer ses stratégies, mais jusqu’à l’ouverture de l’ascenseur spatial de Manaus, l’extraction de ressources hors monde était effectivement impossible du a une économie marginale.
-Formé en 2095 par un ancien conglomérat minier suisse-allemand et un consortium d’autres intérêts, ExMin fut plus une idée qu’une réalité commerciale pendant plusieurs décennies. Créé avec la certitude qu’un ascenseur spatial finirait par être construit, ExMin a été l’un des premiers à exploiter l’accès qu’il offrait. Par la suite, il est devenu l’une des entités commerciales les plus puissantes du Système solaire.
-Avec l’accès à l’espace sécurisé, ExMin est devenu un acteur central dans le flux de ressources vers la Terre. Elle est en concurrence, principalement avec le géant minier brésilien &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt;, mais l’entreprise n’a jamais complètement perdu son avance sur l’exploitation minière hors monde. Synonyme de métaux rares et pionnier de l’extraction de ressources hors-monde, ExMin est à l’avant-garde du développement dans tout le système solaire.</Value>
-    </Record>
-    <Record>
-      <Key>GeFabrikDesc</Key>
-      <Value>Officiellement connue sous le nom de Gewehrfabrik GmbH, GeFabrik est l’une des entreprises d’armement les plus anciennes et les plus réputées au monde. Elle est connue pour produire des armes à feu extrêmement précises et de haute qualité.
-Dans la foulée de l’effondrement de la fabrication d’armes en Europe dans les années 2030, un groupe d&apos;ancien employé de l’armement au chômage a formé GeFabrik. Vouée au renouvellement des principes de conception originaux, l’entreprise est légendaire pour ses essais approfondis, qui durent parfois jusqu’à 10 ans, afin de produire des armes au format « ganz ».
-GeFabrik est largement reconnu comme ayant à lui seul sauvé la réputation de la qualité de fabrication allemande, tout en ne faisant rien pour leur sens de l’humour.</Value>
-    </Record>
-    <Record>
-      <Key>HiiragiDesc</Key>
-      <Value>Fondée par Noboru Hiiragi au lendemain de la bulle économique de 2110, Hiiragi Communications a absorbé plusieurs actifs étrangers de premier plan, devenant rapidement le réseau de communication trans-stellaire le plus utilisé.
-Si vous avez communiqué avec vos amis et votre famille récemment, c’est grâce au réseau Hiiragi, même s’il a été masqué par le nom de l’une de ses nombreuses filiales. Hiiragi est également le numéro un des vendeur de PCD (Personal Communication Devices) ainsi qu&apos;un important investisseur dans les réseaux de télécommunications terrestres.</Value>
-    </Record>
-    <Record>
-      <Key>NorsecDesc</Key>
-      <Value>Avec ses racines dans l’industrie de la défense du début du XXe siècle, Norsec (alias Northern Security Systems) a été un des premiers à se lancer dans l’exploitation minière des astéroïdes. D&apos;ailleurs, l’un de ses remorqueurs fut impliqué dans la célèbre Catastrophe de Sisyphus, un astéroïde délocalisé détruit la colonie martienne naissante de Sanders.
-Norsec a été officiellement disculpé de tout acte répréhensible, mais lorsque l’&lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; interdit la délocalisation astéroïdale, l’entreprise s’est tournée vers l’infrastructure et la fabrication.
-La Division des systèmes spatiaux basés en orbite de Norsec est responsable de la conception et de la production des systèmes de transport d’&lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;, tout en étant également soupçonnée de détenir une grande partie du capital d&apos;&lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt;. L’entreprise est également reconnue pour son engagement dans la technologie robotique expérimentale.</Value>
-    </Record>
-    <Record>
-      <Key>ODADesc</Key>
-      <Value>Au lendemain de la crise terrestre, l’intérêt de l’humanité pour l’espace a diminué. Pourtant, beaucoup ont estimé que, sans ambitions au-delà de notre planète, notre espèce pourrait dépérir.
-Créée en 2070 par une Organisation des Nations Unies nouvellement remaniée, l’Offworld Development Agency a reçu un objectif très spécifique : guider et encourager l’exploration spatiale humaine à un moment où le cosmos s’estompait dans l’esprit du public. 
-L&apos;ODA inaugura le programme &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; en 2095. Sachant qu’il serait difficile d’obtenir du financement, l’ODA  conçu le programme comme une initiative spatiale à progression lente et à faibles coûts. Bien que certains &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; aient été qualifiés de &apos;naufragés cosmiques à bas prix&apos;, le succès du programme témoigne de la sagesse et du pragmatisme de la vision de l’ODA.</Value>
-    </Record>
-    <Record>
-      <Key>RecursoDesc</Key>
-      <Value>Cet ancien groupe minier brésilien s’est ramifié dans l’exploitation spatiale à la fin du XXIe siècle.
-Axée principalement sur les minéraux et les métaux, l’entreprise peut-être vue comme une extension du gouvernement brésilien. Très peu de personnalités politiques de haut niveau du Brésil moderne ne sont pas impliquées d&apos;un manière ou d&apos;une autre avec ce géant industriel.
-L&apos;enchevêtrement avec la politique sud-américaine a donné à la compagnie beaucoup d’influence sur l’ascenseur spatial de Manaus. Ce profond contrôle de l’état brésilien a amené d’autres groupes (y compris l’&lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt;) à exercer une certaine « souplesse » à l’égard de Recurso.
-Des accusations de délocalisation illégale d’astéroïdes, de violations de la sécurité et de nombreuses infractions commerciales l&apos;ont à peine touché. En même temps, les défenseurs de Recurso soulignent que très peu de choses ont été prouvées par un tribunal, et Recurso n’est pas seul accusé. D’où le truisme : &quot;Dans l’espace, nous vivons tous dans des maisons de verre. &quot;</Value>
-    </Record>
-    <Record>
-      <Key>SinotaiDesc</Key>
-      <Value>Seule entité étatique &apos;traditionnelle&apos; capable de survivre à la politique hors monde, l&apos;influence et le pouvoir de Sinotai n’ont d’égal que l’&lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; elle-même. À bien des égards, c&apos;est une relique, un sous-organisme d’une bureaucratie d’entreprise incroyablement compliquée liée à la Terre. Sa structure permis à Sinotai de réaliser des choses incroyables.
-Prouvant sa force au début du 21ème siècle, en envoyant les premiers humains sur Mars, en établissant le premier système de puissance gigawatt hors monde, et la première raffinerie de carburant spatiale. Toutes les organisations spatiales ont d’un certain degré de relation avec Sinotai. Une blague courante dit qu’il est impossible de faire quoi que ce soit dans l’espace sans eux.
-Indépendamment de la vérité, l’approche de Sinotai du développement hors-monde a été une approche &apos;soft power&apos; faites de MOU avec &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; (leur donnant un accès préférentiel à l’ascenseur spatial de Manaus) aux sombres alliances de convenance avec un éventail de groupes de commerçants.</Value>
-    </Record>
-    <Record>
-      <Key>TKDesc</Key>
-      <Value>À l’origine un entrepreneur de la défense spécialisé dans la force brute, l’armement haute puissance, Tanzanian Kinetic Systems a exécuté un changement à grande échelle en temps de paix pour devenir le principal concepteur de l’Assemblée africaine des convoyeurs de marchandises à grande vitesse.
-Aujourd’hui, grâce aux partenariats Afro-Sino du XXIe siècle, TK produit et conçoit des réseaux de gaines de transports. Basée dans le district « reconnecté » de Kigamboni à Dar E Salaam, la Société conclut régulièrement des partenariats de développement avec le &lt;color=#0080FFFF&gt;{LINK:CHAC;CHAC}&lt;/color&gt; et, par conséquent, leurs nombreux produits présentent des similitudes.
-Après tout, qu’est-ce qu’une arme à feu ? Un « convoyeur de marchandises à grande vitesse ».</Value>
-    </Record>
-    <Record>
-      <Key>XigoDesc</Key>
-      <Value>Un sondage de 2150CE a révélé le &apos;X&apos; de Xigo comme l’un des symboles les plus reconnus dans le monde. Pourtant, peu de participants ont pu décrire clairement l&apos;étendue réelle de l’entreprise.
-Précisément là où l’entreprise commence et elle se termine, a fait l’objet de théories, d’études financières et de poursuites sans fin. A l’origine un site Web de comparaison des prix, le conglomérat s’est élargi pour englober les données, puis la distribution et enfin la production.
-Il s’agissait d’une expansion apparemment aveugle, centrée non pas sur une seule industrie, mais sur toutes les industries. Couvrant un si grand nombre de domaines que les analystes commerciaux ont largement rejeté l’idée que Xigo était une entité unique. Il s’agit plutôt d’un regroupement conceptuel pour une branche de l’activité humaine. Et bien que de telles statistiques soient, par leur nature même, difficiles à confirmer, des estimations récentes suggèrent que Xigo emploie plus de 1,5 % de toute la race humaine.
-Autant dire, il produit presque tout.</Value>
-    </Record>
-    <Record>
-      <Key>StationeersDesc</Key>
-      <Value>Au début du 22e siècle, la Terre sortait d’un cataclysme. Ses ressources s’érodaient, notre population diminuait, à l&apos;époque l&apos;esprit était à la reconstruction.
-Initié par l’&lt;color=#0080FFFF&gt;{LINK:ODA;Offworld Development Agency}&lt;/color&gt; (ODA) en 2095CE, le Stationeers Program était dédié à un idéal unique : garder l’humanité la tête vers les étoiles.
-Les stationnaires sont tout : astronautes, ingénieurs et explorateurs. Ils sont déployés avec un équipement et des outils limités, formés pour faire plus avec moins. Leur travail consiste à fournir une infrastructure pour les humains dans l’espace, à une fraction du coût des programmes spatiaux traditionnels.
-Capables de construire et de maintenir des bases n’importe où de la Lune à Mimas et au-delà, les Stationeers sont notre avant-garde dans le cosmos. Formés à la survie hors-monde, aux techniques minières et de construction, à la métallurgie de base, à l’électronique, à la fuséologie, à l’hydroponie et à des sciences plus « arcaniques », les Stationeers font ce qu’ils doivent faire pour survivre et prospérer.
-Réputé pour n’avoir aucun critère d’entrée, il n’existe pas de Stationeer « typique ». Le profilage psychologique suggère que les cadets qui réussissent sont pragmatiques et monomentaux, mais certains des plus célèbres stationnaires n’ont ni l’une ni l’autre de ces qualités.
-Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité, recrute dans les domaines du génie civil, des industries militaires et aérospatiales, du développement de logiciels, des groupes miniers, ainsi que des domaines scientifiques et même des ordres religieux.</Value>
-    </Record>
-    <Record>
       <Key>ControlMouseControlDisc</Key>
       <Value>Activer le contrôle de la souris</Value>
     </Record>
@@ -9493,18 +9319,6 @@ Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité
     <Record>
       <Key>StationpediaFoundIn</Key>
       <Value>Trouvé dans</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaConstructionOptions</Key>
-      <Value>Options de construction</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaLogicHeader</Key>
-      <Value>Logique</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaLogicSlotHeader</Key>
-      <Value>Emplacements logiques</Value>
     </Record>
     <Record>
       <Key>StationpediaTutorialListHeader</Key>

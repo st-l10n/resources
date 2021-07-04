@@ -367,7 +367,11 @@
     </Record>
     <Record>
       <Key>ForceFeed</Key>
-      <Value>Öffnen Erzwingen</Value>
+      <Value>Gewaltsam Öffnen</Value>
+    </Record>
+    <Record>
+      <Key>FlipRover</Key>
+      <Value>Rover Ausrichten</Value>
     </Record>
   </Actions>
   <Things>
@@ -1342,18 +1346,6 @@
     <RecordThing>
       <Key>ItemWrench</Key>
       <Value>Schraubenschlüssel</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>MotherboardLogic</Key>
-      <Value>Hauptplatine (Logik)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>MotherboardManufacturing</Key>
-      <Value>Hauptplatine (Fertiger)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>MotherboardSorter</Key>
-      <Value>Hauptplatine (Sortiereinheit)</Value>
     </RecordThing>
     <RecordThing>
       <Key>MothershipCore</Key>
@@ -3256,10 +3248,6 @@
       <Value>Alienpilz</Value>
     </RecordThing>
     <RecordThing>
-      <Key>MotherboardComms</Key>
-      <Value>Hauptplatine (Kommunikation)</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>ItemMarineBodyArmor</Key>
       <Value>Armeerüstung</Value>
     </RecordThing>
@@ -3486,10 +3474,6 @@
     <RecordThing>
       <Key>ItemVoxelTool</Key>
       <Value>Zeigestock</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitAutoMinerSmall</Key>
-      <Value>Triebwerk (Bausatz - Klein)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemDirtCanister</Key>
@@ -5193,11 +5177,6 @@
       <Value>Tutorial Komplett</Value>
     </Record>
     <Record>
-      <Key>TutorialCompleteMessage</Key>
-      <Value>Es gibt noch viel zu lernen.
-Auf geht es, Stationeer!</Value>
-    </Record>
-    <Record>
       <Key>TutorialBackToMenu</Key>
       <Value>Zurück zum Menü</Value>
     </Record>
@@ -5212,11 +5191,6 @@ Auf geht es, Stationeer!</Value>
     <Record>
       <Key>MothershipConstruction</Key>
       <Value>&lt;color=yellow&gt;Am Mutterschiff zu bauen&lt;/color&gt;.</Value>
-    </Record>
-    <Record>
-      <Key>MulticonstructorItem</Key>
-      <Value>&lt;color=yellow&gt;Bauption {0} von {1}&lt;/color&gt;
-&lt;color=red&gt;Mausrad&lt;/color&gt; drehen für mehr Optionen.</Value>
     </Record>
     <Record>
       <Key>UnableToConstruct</Key>
@@ -5433,11 +5407,6 @@ Auf geht es, Stationeer!</Value>
     <Record>
       <Key>AlertVersionMismatch</Key>
       <Value>Spielversion stimmt nicht mit dem Server überein.</Value>
-    </Record>
-    <Record>
-      <Key>AlertNoResponse</Key>
-      <Value>Der Spielserver antwortet nicht.
-Bitte erneut versuchen.</Value>
     </Record>
     <Record>
       <Key>AlertKicked</Key>
@@ -5674,22 +5643,6 @@ Bitte erneut versuchen.</Value>
     <Record>
       <Key>NewWorldAreaCustom</Key>
       <Value>Angepasst</Value>
-    </Record>
-    <Record>
-      <Key>NewWorldMoonDesc</Key>
-      <Value>Sie stecken also auf dem Mond fest, aber es ist nicht alles schlecht.
-Sicher, es ist kalt, rauh und ziemlich eintönig, aber wenigstens scheint die Sonne. Das Solarpanel wird nützlich sein, und der Stromregler ... und der Lichtbogenofen wahrscheinlich auch.
-Es gibt sogar ein bisschen Essen und Sauerstoff in den anderen Kisten, wobei es definitiv nicht ewig halten wird. Genauso wie ihre Batterie.
-Sie sollten besser darüber nachdenken, wie sie überleben werden. Wie schwer könnte es sein, eine Luftschleuse einzurichten? Ein Generator? Vielleicht sogar etwas Erz schmelzen und sich eine Basis bauen?
-Sieht aus, als wären sie eine Weile hier.</Value>
-    </Record>
-    <Record>
-      <Key>NewWorldSpaceDesc</Key>
-      <Value>Dies ist der Kreativmodus von Stationeers!
-Bringe jeden Gegenstand zum Vorschein, teste Ideen und baue schnell verrücktes Zeug.
-&lt;color=red&gt;Dieser Modus ist experimentell.&lt;/color&gt; Betrachten Sie es als eine freie Weltraumparty, auf der aufregende und unerwartete Dinge* passieren können und werden, verglichen mit der zuverlässigeren Nahtoderfahrung des Überleben-Modus.
-Seien Sie nicht traurig, wenn Sie sich in winzige kleine Stücke blasen, von Hühnern zerfleischt werden oder ganz langsam explodieren, während Sie allein in die unendliche Leere driften.
-*Bugs</Value>
     </Record>
     <Record>
       <Key>TextboxEnterName</Key>
@@ -7118,10 +7071,6 @@ Seien Sie nicht traurig, wenn Sie sich in winzige kleine Stücke blasen, von Hü
     <Record>
       <Key>StationpediaFoundIn</Key>
       <Value>Effekte</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaConstructionOptions</Key>
-      <Value>Konstantan</Value>
     </Record>
     <Record>
       <Key>StationpediaModeHeader</Key>
