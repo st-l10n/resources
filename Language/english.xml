@@ -1250,7 +1250,7 @@ Careful not to pressurize beyond 10MPa, or it may go 'bang'.</Descript
     <RecordThing>
       <Key>ItemIronIngot</Key>
       <Value>Ingot (Iron)</Value>
-      <Description>The most basic unit of construction available to &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt;-kind, iron ingots are created by smelting &lt;color=#0080FFFF&gt;{LINK:OrePage;iron ore}&lt;/color&gt; in the {THING:StructureFurnace} and {THING:StructureArcFurnace}, and used to create a variety of </Description>
+      <Description>The most basic unit of construction available to &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt;-kind, iron ingots are created by smelting &lt;color=#0080FFFF&gt;{LINK:OrePage;iron ore}&lt;/color&gt; in the {THING:StructureFurnace} and {THING:StructureArcFurnace}, and used to create a variety of items.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIronOre</Key>
@@ -1782,7 +1782,7 @@ For more information on using the air conditioner, consult the {LINK:Temperature
     <RecordThing>
       <Key>StructureAirlock</Key>
       <Value>Airlock</Value>
-      <Description>The standard airlock is a powered portal that forms the main component of an airlock chamber. As long as the airlock is not locked, it can be manually opened using a {Thing:ItemCrowbar}.</Description>
+      <Description>The standard airlock is a powered portal that forms the main component of an airlock chamber. As long as the airlock is not locked, it can be manually opened using a crowbar.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAreaPowerControl</Key>
@@ -2037,9 +2037,8 @@ An recurring &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; 
     <RecordThing>
       <Key>StructureDaylightSensor</Key>
       <Value>Daylight Sensor</Value>
-      <Description>Daylight sensors provide data on whether the current region of your base is in sunlight, and report the exact solar angle. Note that the orientation of the sensor alters the reported solar angle, while &lt;color=#0080FFFF&gt;{LINK:LogicPage;Logic}&lt;/color&gt; systems can be used to offset it. 
-While the original Stationeer handbook collapsed under its own weight into an infinitely small point, fragments of its wisdom, collected by diligent curators, including information pertaining to sensors, endure in such repositories as stationeers-wiki.com.</Description>
-    </RecordThing>
+      <Description>Daylight sensors provide data on whether the current region of your base is in sunlight, and report the exact solar angle. Note that the orientation of the sensor alters the reported solar angle, while &lt;color=#0080FFFF&gt;{LINK:LogicPage;Logic}&lt;/color&gt; systems can be used to offset it.</Description>
+      </RecordThing>
     <RecordThing>
       <Key>StructureDigitalValve</Key>
       <Value>Digital Valve</Value>
@@ -2138,8 +2137,8 @@ It can be automated using the {THING:StructureHarvie}.</Description>
     <RecordThing>
       <Key>StructureMotionSensor</Key>
       <Value>Motion Sensor</Value>
-      <Description>Originally developed to monitor dance marathons, the motion sensor can also be connect to &lt;color=#0080FFFF&gt;{LINK:LogicPage;logic}&lt;/color&gt; systems for security purposes, automatic lighting, doors and various other applications.
-The sensor activates whenever a player enters the grid it is place on.</Description>
+      <Description>Originally developed to monitor dance marathons, the motion sensor can also be connected to &lt;color=#0080FFFF&gt;{LINK:LogicPage;logic}&lt;/color&gt; systems for security purposes, automatic lighting, doors and various other applications.
+The sensor activates whenever a player enters the grid it is placed on.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassiveVent</Key>
@@ -6252,7 +6251,7 @@ To set up an LFO:
 4. Use another logic writer to write the BPM to the LFO.
 5. You are ready. This is the future. You're in space. Make it sound cool.
 
-For more info, check out the {LINK:MusicPage}.</Description>
+For more info, check out the &lt;color=#0080FFFF&gt;{LINK:MusicPage;music page}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFridgeBig</Key>
