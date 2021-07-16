@@ -11532,6 +11532,10 @@ Finished - 4
       <Value>Adds gas's or liquids to a given tank or pipenetwork. : "/addgas [refID] [gasType 1-8] [molecount]"</Value>
     </Record>
     <Record>
+      <Key>CommandCount</Key>
+      <Value>Counts all the Things of specified type in the save. : "/count [AllThings / Structures / DynamicThings / AnimatorThings / Pipes / Cables / Atmospheres / CableNetworks]"</Value>
+    </Record>
+    <Record>
       <Key>CommandSetDecay</Key>
       <Value>Sets the global food Decay Multiplier. : "/setdecay 2"</Value>
     </Record>
