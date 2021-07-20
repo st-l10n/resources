@@ -3963,6 +3963,7 @@ When connected to a {THING:StructureComputer} containing a {THING:MotherboardCom
     <RecordThing>
       <Key>ItemMiningDrillHeavy</Key>
       <Value>Mining Drill (Heavy)</Value>
+      <Description>Sometimes mining trips require something a little bigger to bring home the goods. This scaled up version of the &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; 'Topo' design {THING:ItemMiningDrill} can literally move mountains. The heavy mining drill will remove more ground and mine ore more quickly than the standard mining drill. The heavy mining drill is also resilient to temperature and pressure. So no matter what planet or extreme weather conditions may be present, the Recurso heavy mining drill will get the job done.</Description>
     </RecordThing>
     <RecordThing>
       <Key>RoverCargo</Key>
@@ -4606,6 +4607,7 @@ When landing, the rocket will deploy a lander, and any cargo contained in the {T
     <RecordThing>
       <Key>StructurePipeOrgan</Key>
       <Value>Pipe Organ</Value>
+      <Description>The pipe organ can be attached to one end of a {THING:ItemPipeValve}. The length of the pipe after the pipe organ changes the pitch of the note it will play when the valve is opened. Use &lt;color=#0080FFFF&gt;{LINK:LogicPage;Logic}&lt;/color&gt; to open and close the valves to create some custom tunes for your base or an audible warning.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeOrgan</Key>
@@ -6075,13 +6077,13 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
     <RecordThing>
       <Key>ItemKitModularRocketGasMining</Key>
       <Value>Kit (Automated Rocket Gas Mining Module)</Value>
-      <Description>This kit creates a {THInG:StructureRocketModuleGasCollector}.</Description>
+      <Description>This kit creates a {THING:StructureModularRocketGasMining}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureModularRocketGasMining</Key>
       <Value>Automated Rocket Gas Mining Module</Value>
       <Description>In typical &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; fashion, the A.R.M. gas mining module is a rapidly designed addition to a more sophisticated system by a company with very little concern for safety or reliability. 
-      
+    N
       The module will store mined gas in an empty {THING:StructureModularRocketFueltank01}, so long as it is connected by a {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}.</Description>
     </RecordThing>
     <RecordThing>
@@ -6645,18 +6647,18 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeHeater</Key>
-      <Value>Pipe Heater (Gas)</Value>
-      <Description>Adds 1000 joules of heat per tick to the contents of your pipe network.</Description>
+      <Value>Pipe Heater Kit (Gas)</Value>
+      <Description>Creates a {THING:StructurePipeHeater}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterPipeHeater</Key>
-      <Value>Pipe Heater (Liquid)</Value>
-      <Description>Adds 1000 joules of heat per tick to the contents of your pipe network.</Description>
+      <Value>Pipe Heater Kit (Liquid)</Value>
+      <Description>Creates a {THING:StructureLiquidPipeHeater}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidPipeHeater</Key>
-      <Value>Pipe Heater (Liquid)</Value>
-      <Description>Adds 1000 joules of heat per tick to the contents of your pipe network.</Description>
+      <Value>Pipe Heater Kit (Liquid)</Value>
+      <Description>Creates a {THING:StructureLiquidPipeHeater}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidPipeHeater</Key>
