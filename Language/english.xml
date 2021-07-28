@@ -732,17 +732,17 @@ Just bolt it to a {THING:StructureBench} using a {THING:ItemWrench} to power it,
     </RecordThing>
     <RecordThing>
       <Key>CartridgeAtmosAnalyser</Key>
-      <Value>Atmos Analyser</Value>
+      <Value>Atmos Analyzer</Value>
       <Description>The Lorenz atmos analyzer is a multi-functional mass-spectrometer designed by &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; for use with the OreCore {THING:ItemTablet}. It displays the pressure, concentration and molar quantity of &lt;color=#0080FFFF&gt;{LINK:GasPage;Gas}&lt;/color&gt; in rooms, tanks, or pipe networks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeMedicalAnalyser</Key>
-      <Value>Medical Analyser</Value>
+      <Value>Medical Analyzer</Value>
       <Description>When added to the OreCore {THING:ItemTablet}, &lt;color=#0080FFFF&gt;{LINK:Asura;Asura's}&lt;/color&gt;'s ReadyMed medical analyzer reveals the health, or otherwise, of users various organs. Due to a design flaw, older models were notorious for producing quasar-like levels of x-ray radiation. Recent advances in shielding have more than halved the risk to users.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeNetworkAnalyser</Key>
-      <Value>Network Analyser</Value>
+      <Value>Network Analyzer</Value>
       <Description>A minor masterpiece of micro-electronic engineering, the network analyzer displays the current, voltage and wattage of a cable network, as well as any devices connected to it. Based on a widely-copied &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; design, it's used in conjunction with the OreCore {THING:ItemTablet}.</Description>
     </RecordThing>
     <RecordThing>
@@ -1439,7 +1439,7 @@ Careful not to pressurize beyond 10MPa, or it may go 'bang'.</Descript
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeAnalyizer</Key>
-      <Value>Kit (Pipe Analyser)</Value>
+      <Value>Kit (Pipe Analyzer)</Value>
       <Description>This kit creates a {THING:StructurePipeAnalysizer}.</Description>
     </RecordThing>
     <RecordThing>
@@ -2038,7 +2038,8 @@ An recurring &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; 
       <Key>StructureDaylightSensor</Key>
       <Value>Daylight Sensor</Value>
       <Description>Daylight sensors provide data on whether the current region of your base is in sunlight, and report the exact solar angle. Note that the orientation of the sensor alters the reported solar angle, while &lt;color=#0080FFFF&gt;{LINK:LogicPage;Logic}&lt;/color&gt; systems can be used to offset it.</Description>
-      </RecordThing>
+
+    </RecordThing>
     <RecordThing>
       <Key>StructureDigitalValve</Key>
       <Value>Digital Valve</Value>
@@ -2147,7 +2148,7 @@ The sensor activates whenever a player enters the grid it is placed on.</Descrip
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeAnalysizer</Key>
-      <Value>Pipe Analyser</Value>
+      <Value>Pipe Analyzer</Value>
       <Description>Allegedly the outcome of a weekend father-daughter electronics project by an overzealous {&lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; engineer, the pipe analyzer is essentially a more advanced version of the {THING:StructurePipeMeter}.
 Displaying the internal pressure of pipe networks, it  also reads out temperature and gas contents, and can be connected to a {THING:StructureConsole} or {THING:StructureComputer} via a {&lt;color=#0080FFFF&gt;{LINK:LogicPage;logic}&lt;/color&gt; system.</Description>
     </RecordThing>
@@ -4612,6 +4613,7 @@ When landing, the rocket will deploy a lander, and any cargo contained in the {T
     <RecordThing>
       <Key>ItemKitPipeOrgan</Key>
       <Value>Kit (Pipe Organ)</Value>
+      <Description>Creates a {THING:StructurePipeOrgan}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterRocketFuel</Key>
@@ -6082,8 +6084,8 @@ The module must be connected to a {THING:StructureRocketModuleSilo} by a properl
     <RecordThing>
       <Key>StructureModularRocketGasMining</Key>
       <Value>Automated Rocket Gas Mining Module</Value>
-      <Description>In typical &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; fashion, the A.R.M. gas mining module is a rapidly designed addition to a more sophisticated system by a company with very little concern for safety or reliability. 
-    N
+
+      <Description>In typical &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; fashion, the A.R.M. gas mining module is a rapidly designed addition to a more sophisticated system by a company with very little concern for safety or reliability.
       The module will store mined gas in an empty {THING:StructureModularRocketFueltank01}, so long as it is connected by a {THING:StructureModularRocketCouplingDown} or {THING:StructureModularRocketCouplingUp}.</Description>
     </RecordThing>
     <RecordThing>
@@ -6772,6 +6774,11 @@ Finished - 4
       <Value>Kit (OGRE)</Value>
       <Description />
     </RecordThing>
+    <RecordThing>
+      <Key>ItemLaptop</Key>
+      <Value>Item Laptop</Value>
+      <Description />
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -6972,7 +6979,8 @@ Finished - 4
     </Record>
     <Record>
       <Key>ProgrammableChip</Key>
-      <Value>IC Chip</Value>
+
+      <Value>Programmable Chip</Value>
     </Record>
     <Record>
       <Key>CreditCard</Key>
@@ -7483,6 +7491,14 @@ Finished - 4
     <Record>
       <Key>Button17</Key>
       <Value>Button17</Value>
+    </Record>
+    <Record>
+      <Key>ProgrammableChip</Key>
+      <Value>Programmable Chip</Value>
+    </Record>
+    <Record>
+      <Key>Motherboard</Key>
+      <Value>Motherboard</Value>
     </Record>
   </Interactables>
   <Interface>
@@ -10179,7 +10195,8 @@ Finished - 4
     </Record>
     <Record>
       <Key>CartridgeAtmosAnalyserTitle</Key>
-      <Value>ATMOSPHERE ANALYSER</Value>
+
+      <Value>ATMOSPHERE ANALYZER</Value>
     </Record>
     <Record>
       <Key>BigWarning</Key>
@@ -10431,7 +10448,8 @@ Finished - 4
     </Record>
     <Record>
       <Key>NetworkAnalyserTitle</Key>
-      <Value>NETWORK ANALYSER</Value>
+
+      <Value>NETWORK ANALYZER</Value>
     </Record>
     <Record>
       <Key>CartridgeElectronicReaderTitle</Key>
