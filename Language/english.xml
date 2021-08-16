@@ -1727,8 +1727,7 @@ The &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec-designed}&lt;/color&gt; K-cops lo
     <RecordThing>
       <Key>MotherboardManufacturing</Key>
       <Value>Manufacturing Motherboard</Value>
-      <Description>Motherboards are connected to {THING:StructureComputer}s to perform various technical functions.
-The &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec-designed}&lt;/color&gt; K-cops 4474 motherboard is - famously - a solution to the problem of their now-obselete General {THING:StructureFabricator} having a notable lack of buttons.</Description>
+      <Description>Deprecated.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardSorter</Key>
@@ -2744,7 +2743,7 @@ Highly sensitive to temperature, oxite will begin to melt as soon as it is mined
       <Key>StructureToolManufactory</Key>
       <Value>Tool Manufactory</Value>
       <Description>No mission can be completed without the proper tools. The &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; ThuulDek manufactory can fabricate almost any tool or hand-held device a &lt;color=#0080FFFF&gt;{LINK:Stationeer;Stationeer}&lt;/color&gt; may need to complete their mission, as well as a variety of delightful paints.
-Upgrade the device using a {THING:ElectronicPrinterMod} for additional recipes and faster processing speeds.</Description>
+Upgrade the device using a {THING:ToolPrinterMod} for additional recipes and faster processing speeds.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitToolManufactory</Key>
@@ -3980,6 +3979,7 @@ When connected to a {THING:StructureComputer} containing a {THING:MotherboardCom
     <RecordThing>
       <Key>ItemKitRoverFrame</Key>
       <Value>Kit (Rover Frame)</Value>
+      <Description>Not spawnable.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStairs4x2Rails</Key>
@@ -5421,13 +5421,13 @@ A quad-array of hub-mounted electric engines propels the reinforced aluminium fr
     <RecordThing>
       <Key>StructureSpawnPoint</Key>
       <Value>Spawn Point</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>RespawnPoint</Key>
       <Value>Respawn Point</Value>
-      <Description />
-    </RecordThing>
+      <Description>Place a respawn point to set a player entry point to your base when loading in, or returning from the dead.</Description>
+      </RecordThing>
     <RecordThing>
       <Key>RespawnPointWallMounted</Key>
       <Value>Respawn Point (Mounted)</Value>
@@ -5506,7 +5506,7 @@ A quad-array of hub-mounted electric engines propels the reinforced aluminium fr
     <RecordThing>
       <Key>ItemKitRoverMKI</Key>
       <Value>Kit (Rover Mk I)</Value>
-      <Description />
+      <Description>Creates a {THING:Rover_MkI}</Description>
     </RecordThing>
     <RecordThing>
       <Key>Rover_MkI_build_states</Key>
@@ -6795,6 +6795,16 @@ Finished - 4
     <RecordThing>
       <Key>ItemPlantThermogenic_Genepool2</Key>
       <Value>Item Plant Thermogenic_ Genepool2</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitStirlingEngine</Key>
+      <Value>Item Kit Stirling Engine</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureStirlingEngine</Key>
+      <Value>Structure Stirling Engine</Value>
       <Description />
     </RecordThing>
   </Things>
