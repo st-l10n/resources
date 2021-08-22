@@ -5427,7 +5427,7 @@ A quad-array of hub-mounted electric engines propels the reinforced aluminium fr
       <Key>RespawnPoint</Key>
       <Value>Respawn Point</Value>
       <Description>Place a respawn point to set a player entry point to your base when loading in, or returning from the dead.</Description>
-    </RecordThing>
+      </RecordThing>
     <RecordThing>
       <Key>RespawnPointWallMounted</Key>
       <Value>Respawn Point (Mounted)</Value>
@@ -6770,57 +6770,48 @@ Finished - 4
     <RecordThing>
       <Key>ItemKitHorizontalAutoMiner</Key>
       <Value>Kit (OGRE)</Value>
-      <Description />
+      <Description>Creates a {THING:StructureHorizontalAutoMiner}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLaptop</Key>
-      <Value>Item Laptop</Value>
-      <Description />
+      <Value>Laptop</Value>
+      <Description>A portable IC editor, the &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; 'Slaptop' was designed for rugged use and abuse by intrepid &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; across the Solar System. While it will never replace the multifunctionality of the {THING:StructureComputer}, the Slaptop's low weight and portability have earned it a place in many an ODA operative's heart.
+      
+The Slaptop requires a {THING:MotherboardProgrammableChip} for operation.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantEndothermic_Genepool1</Key>
-      <Value>Item Plant Endothermic_ Genepool1</Value>
-      <Description />
+      <Value>Winterspawn (Alpha variant)</Value>
+      <Description>&lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero's}&lt;/color&gt; Winterspawn atmospheric bio-processor is a recent addition to their catalogue of genespliced environmental decorations. Using ambient heat to split &lt;color=#0080FFFF&gt;{LINK:GasPage;water}&lt;/color&gt; into &lt;color=#0080FFFF&gt;{LINK:GasPage;volatiles}&lt;/color&gt; and &lt;color=#0080FFFF&gt;{LINK:GasPage;oxygen}&lt;/color&gt;, the Winterspawn cools its surroundings, when supplied with sufficient &lt;color=#0080FFFF&gt;{LINK:GasPage;nitrogen}&lt;/color&gt;</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantEndothermic_Genepool2</Key>
-      <Value>Item Plant Endothermic_ Genepool2</Value>
-      <Description />
+      <Value>Winterspawn (Beta variant)</Value>
+      <Description>&lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero's}&lt;/color&gt; Winterspawn atmospheric bio-processor is a recent addition to their catalogue of genespliced environmental decorations. Using ambient heat to split &lt;color=#0080FFFF&gt;{LINK:GasPage;water}&lt;/color&gt; into &lt;color=#0080FFFF&gt;{LINK:GasPage;volatiles}&lt;/color&gt; and &lt;color=#0080FFFF&gt;{LINK:GasPage;oxygen}&lt;/color&gt;, the Winterspawn cools its surroundings when supplied with sufficient &lt;color=#0080FFFF&gt;{LINK:GasPage;nitrogen}&lt;/color&gt;. The beta variant operates notably faster than the alpha prototype variant.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantThermogenic_Genepool1</Key>
-      <Value>Item Plant Thermogenic_ Genepool1</Value>
-      <Description />
+      <Value>Hades Flower (Alpha strain)</Value>
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero's}&lt;/color&gt;-created Hades Flower is the result of as dubious experiment to combine the allure of tropical plants with the comfort and homeliness of a heat pump. The plant breathes a 1:3 mix of &lt;color=#0080FFFF&gt;{LINK:GasPage;volatiles}&lt;/color&gt; and &lt;color=#0080FFFF&gt;{LINK:GasPage;oxygen}&lt;/color&gt;, and exhales heated &lt;color=#0080FFFF&gt;{LINK:GasPage;pollutants}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantThermogenic_Genepool2</Key>
-      <Value>Item Plant Thermogenic_ Genepool2</Value>
-      <Description />
+      <Value>Hades Flower (Beta strain)</Value>
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero's}&lt;/color&gt;-created Hades Flower is the result of as dubious experiment to combine the allure of tropical plants with the comfort and homeliness of a heat pump. The plant breathes a 1:3 mix of &lt;color=#0080FFFF&gt;{LINK:GasPage;volatiles}&lt;/color&gt; and &lt;color=#0080FFFF&gt;{LINK:GasPage;oxygen}&lt;/color&gt;, and exhales heated &lt;color=#0080FFFF&gt;{LINK:GasPage;pollutants}&lt;/color&gt;. The beta strain is notably more efficient than the earlier, more experimental alpha variant.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStirlingEngine</Key>
       <Value>Item Kit Stirling Engine</Value>
-      <Description />
+      <Description>Creates a {THING:StructureStirlingEngine}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStirlingEngine</Key>
-      <Value>Structure Stirling Engine</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>StructurePowerTransmitter</Key>
-      <Value>Structure Power Transmitter</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitPowerTransmitter</Key>
-      <Value>Item Kit Power Transmitter</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>StructurePowerTransmitterReceiver</Key>
-      <Value>Structure Power Transmitter Receiver</Value>
-      <Description />
+      <Value>Stirling Engine</Value>
+      <Description>Harnessing an ancient thermal exploit, the &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; 'Libra' Stirling Engine generates power via the expansion and contraction of a working gas to drive pistons operating an electrical generator.
+      
+When high pressure hot gas is supplied into the input pipe, this gas will heat the hot side of the unit, then pass into the output pipe. The cooler side uses the room's ambient atmosphere, which must be kept at a lower temperature and pressure in order to create a differential. Add a working gas by inserting a gas canister. The unit must be deactivated when adding or removing canisters, or the working gas may leak into the surrounding atmosphere.
+ 
+Gases with a low molecular mass make the most efficient working gases. Increasing the moles of working gas can result in a greater potential power output. However, overpressuring the unit may have ... sub-optimal results.</Description>
     </RecordThing>
   </Things>
   <Slots>
