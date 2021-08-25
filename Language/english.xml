@@ -1150,7 +1150,7 @@ Careful not to pressurize beyond 10MPa, or it may go 'bang'.</Descript
     <RecordThing>
       <Key>ItemGasCanisterWater</Key>
       <Value>Liquid Canister (Water)</Value>
-      <Description>The blue portable &lt;color=#0080FFFF&gt;{LINK:GasPage;H20}&lt;/color&gt; canister has a 64L capacity, supplying water to items like the {THING:DynamicHydroponics} unit, or any other connected system. All gas canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicGasCanisterAir} or {THING:StructureLiquidTankStorage} for refill.</Description>
+      <Description>The blue portable &lt;color=#0080FFFF&gt;{LINK:GasPage;H20}&lt;/color&gt; canister has a 64L capacity, supplying water to items like the {THING:DynamicHydroponics} unit, or any other connected system. All liquid canisters are full when fabricated to a pressure of 8000kPa (80 atmospheres), and can be mounted to a {THING:DynamicLiquidCanisterEmpty} or {THING:StructureLiquidTankStorage} for refill.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidCanisterEmpty</Key>
@@ -3073,7 +3073,7 @@ Insert a cartridge or color scanner into the tablet, then press the activate but
     </RecordThing>
     <RecordThing>
       <Key>StructureDockShipSide</Key>
-      <Value>Structure Dock Ship Side</Value>
+      <Value>Dock Ship Side</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureLightLong</Key>
@@ -5421,13 +5421,13 @@ A quad-array of hub-mounted electric engines propels the reinforced aluminium fr
     <RecordThing>
       <Key>StructureSpawnPoint</Key>
       <Value>Spawn Point</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>RespawnPoint</Key>
       <Value>Respawn Point</Value>
       <Description>Place a respawn point to set a player entry point to your base when loading in, or returning from the dead.</Description>
-      </RecordThing>
+    </RecordThing>
     <RecordThing>
       <Key>RespawnPointWallMounted</Key>
       <Value>Respawn Point (Mounted)</Value>
@@ -5763,7 +5763,7 @@ While the wind turbine is optimized to produce power (up to 500W) even on low at
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterBottleFiller</Key>
-      <Value>Structure Water Bottle Filler</Value>
+      <Value>Water Bottle Filler</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6231,7 +6231,7 @@ Central to this pasttime is the step sequencer, which allows Stationeers to sequ
     </RecordThing>
     <RecordThing>
       <Key>StructureShelfMedium</Key>
-      <Value>Structure Shelf Medium</Value>
+      <Value>Shelf Medium</Value>
       <Description>A shelf for putting things on, so you can see them.</Description>
     </RecordThing>
     <RecordThing>
@@ -6273,7 +6273,7 @@ For more information about food preservation, visit the {LINK:DecayPage;food dec
     </RecordThing>
     <RecordThing>
       <Key>StructureFridgeSmall</Key>
-      <Value>Structure Fridge Small</Value>
+      <Value>Fridge Small</Value>
       <Description>Essentially a heavily insulated box that allows users to pipe in any desired atmosphere, the &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; Minibar fridge was a simple solution to the problem of &lt;color=#0080FFFF&gt;{LINK:NutritionPage;food decay}&lt;/color&gt;. It stores a small number of items, at any temperature you can muster.
       
       For more information about food preservation, visit the {LINK:DecayPage;food decay} section of the Stationpedia.</Description>
@@ -6812,6 +6812,43 @@ The Slaptop requires a {THING:MotherboardProgrammableChip} for operation.</Descr
 When high pressure hot gas is supplied into the input pipe, this gas will heat the hot side of the unit, then pass into the output pipe. The cooler side uses the room's ambient atmosphere, which must be kept at a lower temperature and pressure in order to create a differential. Add a working gas by inserting a gas canister. The unit must be deactivated when adding or removing canisters, or the working gas may leak into the surrounding atmosphere.
  
 Gases with a low molecular mass make the most efficient working gases. Increasing the moles of working gas can result in a greater potential power output. However, overpressuring the unit may have ... sub-optimal results.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePowerTransmitter</Key>
+      <Value>Microwave Power Transmitter</Value>
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; Wireless Power Transmitter is an uni-directional, A-to-B, far field microwave electrical transmission system.The rotatable base transmitter delivers a narrow, non-lethal microwave beam to a dedicated base receiver.
+The transmitter must be aligned to the base station in order to transmit any power. The brightness of the transmitter's collimator arc provides an indication of transmission intensity. Note that there is an attrition over longer ranges, so the unit requires more power over greater distances to deliver the same output.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePowerTransmitterReceiver</Key>
+      <Value>Microwave Power Receiver</Value>
+      <Description>The &lt;color=#0080FFFF&gt;{LINK:Norsec;Norsec}&lt;/color&gt; Wireless Power Transmitter is an uni-directional, A-to-B, far field microwave electrical transmission system.The rotatable base transmitter delivers a narrow, non-lethal microwave beam to a dedicated base receiver.
+The transmitter must be aligned to the base station in order to transmit any power. The brightness of the transmitter's collimator arc provides an indication of transmission intensity. Note that there is an attrition over longer ranges, so the unit requires more power over greater distances to deliver the same output.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureOverheadShortCornerLocker</Key>
+      <Value>Overhead Corner Locker</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureOverheadShortLocker</Key>
+      <Value>Overhead Locker</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureShortCornerLocker</Key>
+      <Value>Short Corner Locker</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureShortLocker</Key>
+      <Value>Short Locker</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCornerLocker</Key>
+      <Value>Corner Locker</Value>
+      <Description />
     </RecordThing>
   </Things>
   <Slots>
